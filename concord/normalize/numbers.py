@@ -225,4 +225,11 @@ def precision_interval(
 
 
 def intervals_overlap(a: tuple[float, float], b: tuple[float, float]) -> bool:
-    return a[0] <= b[1] and b[0] <= a[1]
+    """Strict overlap, because a precision interval is half-open.
+
+    8,142 Cr and 8,143 Cr meet at exactly 8,142.5 Cr. Counting that shared
+    endpoint as agreement would mean two consecutive figures written to the
+    same precision could never disagree, which would quietly disable
+    contradiction detection for every rounded integer in the corpus.
+    """
+    return a[0] < b[1] and b[0] < a[1]

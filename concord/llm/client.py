@@ -36,13 +36,37 @@ class LLMClient:
         api_key: str | None = None,
         cache: DiskCache | None = None,
         max_attempts: int = 5,
+        keys: list[str] | None = None,
     ):
         self.model = model or config.LLM_MODEL
-        self.api_key = api_key if api_key is not None else config.LLM_API_KEY
+        if keys is not None:
+            self.keys = list(keys)
+        elif api_key is not None:
+            self.keys = [api_key] if api_key else []
+        else:
+            self.keys = list(config.LLM_API_KEYS)
+        self.cursor = 0
         self.cache = cache or DiskCache()
         self.max_attempts = max_attempts
         self.calls = 0
         self.cache_hits = 0
+        self.rotations = 0
+
+    @property
+    def api_key(self) -> str | None:
+        return self.keys[self.cursor] if self.keys else None
+
+    def _rotate(self) -> bool:
+        """Move to the next key. Returns False once every key has been tried.
+
+        Only useful across keys on separate projects: the free-tier quota is
+        billed per project, so several keys in one project share one bucket.
+        """
+        if len(self.keys) < 2:
+            return False
+        self.cursor = (self.cursor + 1) % len(self.keys)
+        self.rotations += 1
+        return self.rotations % len(self.keys) != 0
 
     def complete(
         self,
@@ -98,7 +122,8 @@ class LLMClient:
         url = f"{config.LLM_ENDPOINT}/{self.model}:generateContent"
         last: Exception | None = None
 
-        for attempt in range(self.max_attempts):
+        attempt = 0
+        while attempt < self.max_attempts:
             try:
                 response = httpx.post(
                     url,
@@ -106,6 +131,10 @@ class LLMClient:
                     headers={"x-goog-api-key": self.api_key},
                     timeout=180.0,
                 )
+                # Trying another key is not a retry: it costs no wait and the
+                # backoff budget should survive for genuine transient failures.
+                if response.status_code == 429 and self._rotate():
+                    continue
                 if response.status_code in RETRY_STATUS:
                     raise Retryable(f"{response.status_code}: {response.text[:200]}")
                 if response.status_code >= 400:
@@ -113,7 +142,8 @@ class LLMClient:
                 return _first_text(response.json())
             except (httpx.TransportError, Retryable) as exc:
                 last = exc
-                if attempt == self.max_attempts - 1:
+                attempt += 1
+                if attempt >= self.max_attempts:
                     break
                 time.sleep(min(2**attempt, 30) + random.random())
 

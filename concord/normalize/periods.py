@@ -32,6 +32,11 @@ AS_OF = re.compile(
 )
 AS_OF_NUMERIC = re.compile(r"\bas\s+(?:at|of|on)\s+(\d{1,2})[/-](\d{1,2})[/-](\d{4})", re.I)
 BARE_DATE = re.compile(rf"\b(?P<month>{MONTH_RE})\.?\s+(?P<day>\d{{1,2}}),?\s+(?P<year>\d{{4}})", re.I)
+DAY_FIRST_DATE = re.compile(
+    rf"\b(?P<day>\d{{1,2}})(?:st|nd|rd|th)?\s+(?:of\s+)?(?P<month>{MONTH_RE})\.?,?\s+(?P<year>\d{{4}})",
+    re.I,
+)
+NUMERIC_DATE = re.compile(r"\b(\d{1,2})[/-](\d{1,2})[/-](\d{4})\b")
 
 FY_SPLIT = re.compile(r"\b(?:FY|F\.Y\.?|fiscal(?:\s+year)?)?\s*(\d{4})\s*[-/]\s*(\d{2,4})\b", re.I)
 FY_SHORT = re.compile(r"\bFY\s*[-']?\s*(\d{2}|\d{4})\b", re.I)
@@ -104,6 +109,38 @@ def infer_fiscal_year_end(text: str) -> int | None:
         month = MONTHS[match.group("month").lower()]
         counts[month] = counts.get(month, 0) + 1
     return max(counts, key=counts.get) if counts else None
+
+
+def parse_date(text: str) -> date | None:
+    """Resolve a written date in any of the orders these documents use.
+
+    Dates are compared as dates and never as strings, so "March 31, 2024" and
+    "31 March 2024" have to reach the same value. Numeric dates are read
+    day-first, matching `parse_as_of`. A string that does not resolve returns
+    None and is then compared as text rather than guessed at.
+    """
+    raw = text or ""
+    for pattern in (BARE_DATE, DAY_FIRST_DATE):
+        match = pattern.search(raw)
+        if match:
+            try:
+                return date(
+                    int(match.group("year")),
+                    MONTHS[match.group("month").lower()],
+                    int(match.group("day")),
+                )
+            except ValueError:
+                return None
+
+    numeric = NUMERIC_DATE.search(raw)
+    if numeric:
+        day, month, year = (int(group) for group in numeric.groups())
+        if month <= 12:
+            try:
+                return date(year, month, day)
+            except ValueError:
+                return None
+    return None
 
 
 def parse_as_of(text: str) -> date | None:

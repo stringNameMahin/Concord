@@ -37,22 +37,41 @@ Return only facts supported by the passage. Returning an empty list is a valid
 answer for a passage that states nothing checkable.\
 """
 
-TEMPLATE = """\
-Context enclosing this passage. Qualifiers taken from here are `inherited`.
-Treat it as background: do not extract facts from it unless the passage repeats
-them.
+HEADER = """\
+Below are {count} independent passages from one document, each with its own
+enclosing context. Work through every passage in order and give each the same
+attention. The last passage matters as much as the first.
 
+For every fact, set `passage_id` to the id of the passage you took it from, and
+copy `quote` from inside that same passage. A quote that does not appear
+verbatim in the passage it claims will be discarded.
+
+Context blocks are background. Qualifiers taken from a context block are
+`inherited`. Do not extract facts from a context block unless its passage
+repeats them.
+"""
+
+PASSAGE = """
+<passage id="{id}">
 <context>
 {context}
 </context>
-
-Passage to extract from. Quotes must come from inside this block.
-
-<passage>
-{passage}
+<text>
+{text}
+</text>
 </passage>
 """
 
 
-def build(context: str, passage: str) -> str:
-    return TEMPLATE.format(context=context or "(none given)", passage=passage)
+def build(passages: list[tuple[int, str, str]]) -> str:
+    """Render one prompt covering several passages.
+
+    Batching is what keeps the request count low enough for a rate-limited key.
+    Each passage keeps its own context block so a fact never inherits a
+    qualifier from a neighbouring passage.
+    """
+    body = "".join(
+        PASSAGE.format(id=pid, context=context or "(none given)", text=text)
+        for pid, context, text in passages
+    )
+    return HEADER.format(count=len(passages)) + body

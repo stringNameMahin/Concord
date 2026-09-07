@@ -24,6 +24,9 @@ class QualifierOut(BaseModel):
 
 
 class FactOut(BaseModel):
+    passage_id: int = Field(
+        description="id of the passage this fact and its quote came from"
+    )
     claim_text: str = Field(description="One self-contained sentence stating the fact")
     subject_surface: str
     subject_key: str | None = Field(

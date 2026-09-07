@@ -76,7 +76,19 @@ class Aligner:
         end = self.index[norm_end - 1] + 1
         return start, end
 
-    def locate(self, quote: str, near: tuple[int, int] | None = None) -> Alignment:
+    def locate(
+        self,
+        quote: str,
+        near: tuple[int, int] | None = None,
+        strict: bool = False,
+    ) -> Alignment:
+        """Find where `quote` really occurs, or report that it does not.
+
+        With `strict`, the search never leaves the window around `near`. That
+        matters when several passages are extracted in one request: a quote
+        attributed to the wrong passage must fail to locate rather than quietly
+        match identical wording elsewhere in the document.
+        """
         quote = quote.strip()
         if not quote:
             return Alignment("unlocated", -1, -1, "", 0.0)
@@ -85,9 +97,10 @@ class Aligner:
         if near:
             lo = max(0, near[0] - WINDOW_MARGIN)
             hi = min(len(self.text), near[1] + WINDOW_MARGIN)
+        global_ok = not (strict and near)
 
         hit = self.text.find(quote, lo, hi)
-        if hit == -1:
+        if hit == -1 and global_ok:
             hit = self.text.find(quote)
         if hit != -1:
             return Alignment("exact", hit, hit + len(quote), quote, 100.0)
@@ -98,7 +111,7 @@ class Aligner:
 
         window = self.norm[n_lo:n_hi]
         found = window.find(needle)
-        if found == -1:
+        if found == -1 and global_ok:
             found = self.norm.find(needle)
             if found != -1:
                 n_lo = 0

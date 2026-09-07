@@ -106,3 +106,63 @@ def test_client_retries_a_transient_error(tmp_path, monkeypatch):
 
     assert c.complete("hello", Answer).verdict == "ok"
     assert attempts["n"] == 3
+
+
+def test_key_pool_rotates_past_an_exhausted_key(tmp_path, monkeypatch):
+    import httpx
+
+    from concord.llm import client as mod
+
+    used = []
+
+    def fake_post(*args, **kwargs):
+        used.append(kwargs["headers"]["x-goog-api-key"])
+        if kwargs["headers"]["x-goog-api-key"] == "dead":
+            return httpx.Response(429, json={"error": {"message": "credits depleted"}})
+        return httpx.Response(
+            200,
+            json={"candidates": [{"content": {"parts": [{"text": '{"verdict":"ok","score":1.0}'}]}}]},
+        )
+
+    monkeypatch.setattr(mod.httpx, "post", fake_post)
+    c = LLMClient(model="m", keys=["dead", "live"], cache=DiskCache(root=tmp_path))
+
+    assert c.complete("hello", Answer).verdict == "ok"
+    assert used == ["dead", "live"]
+    assert c.rotations == 1
+
+
+def test_key_pool_gives_up_when_every_key_is_exhausted(tmp_path, monkeypatch):
+    import httpx
+
+    from concord.llm import client as mod
+
+    calls = {"n": 0}
+
+    def fake_post(*args, **kwargs):
+        calls["n"] += 1
+        return httpx.Response(429, json={"error": {"message": "credits depleted"}})
+
+    monkeypatch.setattr(mod.httpx, "post", fake_post)
+    monkeypatch.setattr(mod.time, "sleep", lambda s: None)
+    c = LLMClient(model="m", keys=["a", "b", "c"], cache=DiskCache(root=tmp_path), max_attempts=2)
+
+    with pytest.raises(LLMError):
+        c.complete("hello", Answer)
+    assert calls["n"] < 20, "rotation must terminate, not loop forever"
+
+
+def test_single_key_does_not_rotate(tmp_path, monkeypatch):
+    import httpx
+
+    from concord.llm import client as mod
+
+    monkeypatch.setattr(
+        mod.httpx, "post", lambda *a, **k: httpx.Response(429, json={"error": {}})
+    )
+    monkeypatch.setattr(mod.time, "sleep", lambda s: None)
+    c = LLMClient(model="m", keys=["only"], cache=DiskCache(root=tmp_path), max_attempts=2)
+
+    with pytest.raises(LLMError):
+        c.complete("hello", Answer)
+    assert c.rotations == 0

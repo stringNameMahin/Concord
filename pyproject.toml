@@ -6,3 +6,6 @@ requires-python = ">=3.12"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+    "slow: exercises the local embedding model; needs the model files present",
+]
