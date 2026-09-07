@@ -1,0 +1,8 @@
+[project]
+name = "concord"
+version = "0.1.0"
+description = "Fact knowledge layer: grounded facts with cross-document reconciliation"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

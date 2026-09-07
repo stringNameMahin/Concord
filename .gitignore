@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.venv/
+data/db/
+data/work/
+docs/
+ideation/
+starter-datasets/
