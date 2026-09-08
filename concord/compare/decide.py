@@ -33,6 +33,27 @@ Precision-interval comparison - values are never compared as points. Each
 figure carries the interval implied by the digits it committed to, and overlap
 decides agreement. That is what lets `8,142 Cr` corroborate `81,415.38 mn`
 without a tolerance constant anyone has to defend.
+
+`DISCRIMINATING` is an allowlist, and it binds in exactly one branch. The
+qualifier bag is an open vocabulary: on the starter corpus the extractor coined
+`service`, `category`, `condition` and `auditor`, none of which any fixed list
+would contain, and every one of them was load-bearing. So:
+
+- values disagree, any stated condition differs -> `reconciled_by_context`.
+  Two facts holding under different stated conditions are not a conflict,
+  whatever the key is called.
+- values disagree, any condition is stated on one side and absent on the other
+  -> `insufficient_context`, naming the key. We cannot know whether a key we
+  do not recognise is the one that would settle the question.
+- values agree, a *recognised* condition differs -> `unrelated`. This is the
+  one place the allowlist binds, because an incidental key differing between
+  two identical figures does not make them separate facts.
+
+So a pair is only ever called `contradicts` when both documents state the same
+conditions and still disagree. Measured on the Delhivery trio, consulting the
+allowlist in the first two branches turned nine of twelve contradictions into
+false positives; every one had its reconciling qualifier sitting in the bag
+under a key the list did not know.
 """
 
 from __future__ import annotations
@@ -40,9 +61,9 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from concord.facts import Fact, Qualifier, comparison_keys_match
+from concord.facts import Fact, Qualifier, comparison_keys_match, key_matches
 from concord.normalize.numbers import intervals_overlap
-from concord.normalize.periods import parse_date, same_interval
+from concord.normalize.periods import bare_date, same_interval
 
 VERDICTS = (
     "corroborates",
@@ -74,14 +95,14 @@ AGREE, DISAGREE, INCOMPARABLE = "agree", "disagree", "incomparable"
 
 
 def is_discriminating(key: str, keys: frozenset[str] = DISCRIMINATING) -> bool:
-    """Match on the key or on any of its parts.
+    """Match on the key or on a run of words inside it.
 
-    `reporting_period` and `geography_region` are the same conditioning
-    dimensions with a longer name, and an open vocabulary will produce both.
+    `reporting_period`, `as_of_date` and `geography_region` are the same
+    conditioning dimensions under longer names, and an open vocabulary
+    produces all three. Matching on word runs rather than single words is what
+    lets `as_of_date` match `as_of` without `date` matching on its own.
     """
-    if key in keys:
-        return True
-    return any(token in keys for token in key.split("_"))
+    return key_matches(key, keys)
 
 
 @dataclass(frozen=True)
@@ -104,6 +125,7 @@ class ContextDiff:
     conflicting: list[str] = field(default_factory=list)
     missing: list[tuple[str, str]] = field(default_factory=list)  # (key, side present)
     agreeing: list[str] = field(default_factory=list)
+    known_conflicting: list[str] = field(default_factory=list)
 
     @property
     def compatible(self) -> bool:
@@ -125,7 +147,7 @@ def compare_qualifier(a: Qualifier, b: Qualifier) -> str:
     if a.period and b.period:
         return AGREE if same_interval(a.period, b.period) else DISAGREE
 
-    left, right = parse_date(a.value), parse_date(b.value)
+    left, right = bare_date(a.value), bare_date(b.value)
     if left and right:
         return AGREE if left == right else DISAGREE
 
@@ -143,10 +165,17 @@ def compare_qualifiers(
         if left.known and right.known:
             if compare_qualifier(left, right) == AGREE:
                 diff.agreeing.append(key)
-            elif is_discriminating(key, discriminating):
+            else:
                 diff.conflicting.append(key)
-        elif is_discriminating(key, discriminating):
+                if is_discriminating(key, discriminating):
+                    diff.known_conflicting.append(key)
+        else:
             diff.missing.append((key, a.fact_id if left.known else b.fact_id))
+
+    # Name a recognised condition first, so a pair differing on both `period`
+    # and some incidental key reports the one a reader will recognise.
+    diff.conflicting.sort(key=lambda key: key not in diff.known_conflicting)
+    diff.missing.sort(key=lambda item: not is_discriminating(item[0], discriminating))
     return diff
 
 
@@ -165,7 +194,7 @@ def compare_values(a: Fact, b: Fact) -> tuple[str, str]:
         if left.unit and right.unit and left.unit != right.unit:
             return (
                 INCOMPARABLE,
-                f"stated in {left.unit} and {right.unit}; no currency conversion is performed",
+                f"stated in {left.unit} and {right.unit}; no unit conversion is performed",
             )
 
         fragment = (
@@ -179,7 +208,7 @@ def compare_values(a: Fact, b: Fact) -> tuple[str, str]:
     if a.value_kind != b.value_kind:
         return INCOMPARABLE, f"a {a.value_kind} value cannot be compared with a {b.value_kind} one"
 
-    left_date, right_date = parse_date(a.value_raw), parse_date(b.value_raw)
+    left_date, right_date = bare_date(a.value_raw), bare_date(b.value_raw)
     if left_date and right_date:
         if left_date == right_date:
             return AGREE, f"both resolve to {left_date.isoformat()}"
@@ -224,16 +253,19 @@ def decide(
         )
 
     if outcome == AGREE:
-        if diff.conflicting:
+        # Agreement is only broken up by a condition we recognise. An
+        # incidental key differing between two identical figures does not make
+        # them separate facts.
+        if diff.known_conflicting:
             return Decision(
                 verdict="unrelated",
                 rule_fired="context_differs_values_agree",
                 explanation=(
                     f"The values agree ({evidence}) but the facts hold under different "
-                    f"conditions: {_name(diff.conflicting)} differ. They describe separate "
+                    f"conditions: {_name(diff.known_conflicting)} differ. They describe separate "
                     "states of affairs rather than confirming one another."
                 ),
-                qualifier_key=diff.conflicting[0],
+                qualifier_key=diff.known_conflicting[0],
             )
 
         note = ""

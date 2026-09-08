@@ -267,3 +267,99 @@ def test_inherited_qualifiers_count_as_stated():
     )
     assert diff.agreeing == ["consolidation"]
     assert diff.missing == []
+
+
+@pytest.mark.parametrize("coined", ["as_of_date", "as_at_date", "reporting_period"])
+def test_the_guard_recognises_keys_the_extractor_coined(coined):
+    """Observed on the real deck: the model wrote `as_of_date`, not `as_of`."""
+    assert is_discriminating(coined)
+
+
+def test_a_qualifier_named_date_alone_is_not_a_condition():
+    assert not is_discriminating("date")
+    assert not is_discriminating("report_date")
+
+
+# --- open-vocabulary conditions, from the starter corpus --------------------
+# Each of these was a false contradiction until the disagreement branch stopped
+# consulting the allowlist. The keys are the ones the extractor actually coined.
+
+@pytest.mark.parametrize(
+    "key,left,right",
+    [
+        ("service", "express parcel delivery services", "supply chain services solutions"),
+        ("category", "Workers", "Employees"),
+        ("auditor", "S.R. Batliboi & Associates LLP", "Deloitte Haskins & Sells LLP"),
+        ("condition", "prior to one year", "after one year but prior to two years"),
+    ],
+)
+def test_a_coined_condition_reconciles_a_disagreement(key, left, right):
+    decision = decide(
+        make_fact(raw="20,498", period="FY 2023-24", **{key: left}),
+        make_fact(raw="77", doc="d2", period="FY 2023-24", **{key: right}),
+    )
+    assert decision.verdict == "reconciled_by_context"
+    assert decision.qualifier_key == key
+
+
+def test_a_recognised_condition_is_named_ahead_of_an_incidental_one():
+    decision = decide(
+        make_fact(raw="8,142 Cr", period="FY 2023-24", source_table="Note 21"),
+        make_fact(raw="7,224 Cr", doc="d2", period="FY 2022-23", source_table="Highlights"),
+    )
+    assert decision.qualifier_key == "period"
+
+
+def test_an_incidental_key_still_cannot_split_two_agreeing_figures():
+    """The allowlist keeps binding here: same value, same fact."""
+    decision = decide(
+        make_fact(raw="8,142 Cr", period="FY 2023-24", source_table="Note 21"),
+        make_fact(raw="81,415.38 mn", doc="d2", period="FY 2023-24", source_table="Highlights"),
+    )
+    assert decision.verdict == "corroborates"
+
+
+def test_facts_with_no_conditions_at_all_still_contradict():
+    """Observed live: two different CINs, neither document qualifying either."""
+    decision = decide(
+        make_fact(raw="L63090DL2011PLC221234", kind="text", predicate="corporate_identity_number"),
+        make_fact(
+            raw="U63090DL2011PLC221234",
+            kind="text",
+            predicate="corporate_identity_number",
+            doc="d2",
+        ),
+    )
+    assert decision.verdict == "contradicts"
+
+
+def test_a_coined_condition_on_one_side_only_forces_abstention():
+    """`service` on one fact and not the other: we cannot tell, so we say so.
+
+    Observed live: seven prospectus pairs counting active customers per service
+    line against a company-wide total were called contradictions.
+    """
+    decision = decide(
+        make_fact(raw="20,498", period="Fiscal 2021", service="express parcel"),
+        make_fact(raw="449", doc="d2", period="Fiscal 2021"),
+    )
+    assert decision.verdict == "insufficient_context"
+    assert decision.rule_fired == "missing_qualifier_guard"
+    assert decision.qualifier_key == "service"
+
+
+def test_a_recognised_missing_key_is_named_before_a_coined_one():
+    decision = decide(
+        make_fact(raw="20,498", period="Fiscal 2021", service="express parcel"),
+        make_fact(raw="449", doc="d2"),
+    )
+    assert decision.qualifier_key == "period"
+
+
+def test_contradiction_now_means_the_same_stated_conditions():
+    """The rule the README states: same conditions, still disagreeing."""
+    decision = decide(
+        make_fact(raw="7,900", period="nine months ended December 31, 2021"),
+        make_fact(raw="23,113", doc="d2", period="nine months ended December 31, 2021"),
+    )
+    assert decision.verdict == "contradicts"

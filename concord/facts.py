@@ -24,7 +24,7 @@ import re
 from dataclasses import dataclass, field
 
 from concord.normalize.numbers import NotANumber, Quantity, parse_quantity
-from concord.normalize.periods import Period, parse_period
+from concord.normalize.periods import Period, bare_date, parse_period
 
 # Qualifier keys whose value is a date interval rather than a string, so they
 # are compared by interval and not by wording. Open like every other key: this
@@ -32,6 +32,23 @@ from concord.normalize.periods import Period, parse_period
 PERIOD_KEYS = ("period", "as_of", "as_at")
 
 _WORD = re.compile(r"[^a-z0-9]+")
+
+
+def key_matches(key: str, known: frozenset[str] | tuple[str, ...]) -> bool:
+    """Does an open-vocabulary key name one of a set of known conditions?
+
+    The extractor coins its own keys, so the same condition arrives as
+    `as_of`, `as_of_date` and `reporting_period` across three documents. A
+    known key matches when its words appear as a run inside the key's words,
+    which recognises those without matching `date` on its own.
+    """
+    tokens = key.split("_")
+    for candidate in known:
+        parts = candidate.split("_")
+        span = len(parts)
+        if any(tokens[i : i + span] == parts for i in range(len(tokens) - span + 1)):
+            return True
+    return False
 
 
 def canonical_predicate(text: str) -> str:
@@ -196,6 +213,24 @@ def _field(item, name: str, default=None):
     return getattr(item, name, default)
 
 
+def _as_interval(value: str, fy_end_month: int | None) -> Period | None:
+    """Resolve a period qualifier to an interval, instants included.
+
+    An `as_of` qualifier names a moment, not a span - "as of March 31, 2024"
+    is a stock quantity's date. Representing it as a zero-length interval lets
+    one comparison rule serve both: two instants are the same condition when
+    they are the same day, exactly as two spans are when their bounds match.
+    """
+    period = parse_period(value, fy_end_month)
+    if period is not None:
+        return period
+
+    moment = bare_date(value)
+    if moment is None:
+        return None
+    return Period(moment, moment, value.strip(), "instant", "stated:date")
+
+
 def build_qualifiers(
     pairs, fy_end_month: int | None = None
 ) -> dict[str, Qualifier]:
@@ -215,8 +250,8 @@ def build_qualifiers(
             continue
 
         period = None
-        if key in PERIOD_KEYS:
-            period = parse_period(str(value), fy_end_month)
+        if key_matches(key, PERIOD_KEYS):
+            period = _as_interval(str(value), fy_end_month)
 
         bag[key] = Qualifier(
             key=key, value=str(value).strip(), provenance=provenance, period=period

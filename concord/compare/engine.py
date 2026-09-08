@@ -51,6 +51,16 @@ class ComparisonRun:
     def by_verdict(self, verdict: str) -> list[Relation]:
         return [relation for relation in self.relations if relation.verdict == verdict]
 
+    def final_verdicts(self) -> Counter:
+        """Verdicts as they stand now, over the relations actually kept.
+
+        `verdicts` records what the deterministic pass decided and does not
+        move afterwards; adjudication changes relations in place, so anything
+        reporting the state of the ledger must count them rather than trust
+        the earlier tally.
+        """
+        return Counter(relation.verdict for relation in self.relations)
+
     def summary(self) -> str:
         counts = ", ".join(f"{name}={count}" for name, count in sorted(self.verdicts.items()))
         return (
@@ -68,6 +78,7 @@ def compare(
     k: int = TOP_K,
     width: float = BUCKET_WIDTH,
     window: int = BUCKET_WINDOW,
+    fresh: frozenset[str] | None = None,
 ) -> ComparisonRun:
     """Judge every candidate pair deterministically.
 
@@ -76,7 +87,9 @@ def compare(
     storing them would bury the interesting rows in noise.
     """
     by_id = {fact.fact_id: fact for fact in facts}
-    candidates, stats = block(facts, encoder=encoder, k=k, width=width, window=window)
+    candidates, stats = block(
+        facts, encoder=encoder, k=k, width=width, window=window, fresh=fresh
+    )
 
     run = ComparisonRun(blocking=stats)
     for (left, right), strategies in candidates.items():

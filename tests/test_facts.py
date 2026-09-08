@@ -113,3 +113,29 @@ def test_evidence_keeps_the_located_text_not_the_models_wording():
 def test_predicate_and_surface_normalisation_are_case_and_punctuation_only():
     assert canonical_predicate("Revenue From Services*") == "revenue_from_services"
     assert normalize_surface("Acme Logistics Limited's") == "acme logistics limited"
+
+
+def test_qualifier_keys_the_extractor_coins_still_match_known_conditions():
+    """The bag is open, so the same condition arrives under several names."""
+    from concord.facts import PERIOD_KEYS, key_matches
+
+    for coined in ("as_of", "as_of_date", "as_at_date", "reporting_period"):
+        assert key_matches(coined, PERIOD_KEYS)
+    for unrelated in ("date", "scale", "membership_number"):
+        assert not key_matches(unrelated, PERIOD_KEYS)
+
+
+def test_a_date_qualifier_under_a_coined_key_is_still_parsed_as_a_period():
+    fact = materialize(
+        extraction(
+            qualifiers=[
+                QualifierOut(
+                    key="as_of_date", value="March 31, 2024", provenance="stated"
+                )
+            ]
+        ),
+        "d2",
+        alignment(),
+        page=1,
+    )
+    assert fact.qualifier("as_of_date").period is not None

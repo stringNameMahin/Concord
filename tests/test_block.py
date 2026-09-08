@@ -201,3 +201,63 @@ def test_local_encoder_runs_without_an_api_key():
 
     similarity = vectors @ vectors.T
     assert similarity[0, 1] > similarity[0, 2]
+
+
+# --- incremental ingest -----------------------------------------------------
+# Phase 7's exit criterion: a fourth document must not re-judge the first three
+# against each other.
+
+def corpus():
+    settled = [make_fact(fact_id=f"f_old{i}", raw=f"{100 + i} Cr", doc="d1") for i in range(6)]
+    arriving = [make_fact(fact_id=f"f_new{i}", raw=f"{100 + i} Cr", doc="d2") for i in range(2)]
+    return settled, arriving
+
+
+def test_an_incremental_pass_only_forms_pairs_touching_the_new_facts():
+    settled, arriving = corpus()
+    fresh = frozenset(f.fact_id for f in arriving)
+
+    candidates, _ = block(settled + arriving, encoder=BagOfWords(), fresh=fresh)
+    assert candidates
+    for a, b in candidates:
+        assert a in fresh or b in fresh
+
+
+def test_the_settled_pairs_are_exactly_what_an_incremental_pass_skips():
+    settled, arriving = corpus()
+    fresh = frozenset(f.fact_id for f in arriving)
+
+    everything, _ = block(settled + arriving, encoder=BagOfWords())
+    incremental, _ = block(settled + arriving, encoder=BagOfWords(), fresh=fresh)
+
+    skipped = set(everything) - set(incremental)
+    assert skipped
+    assert all(a not in fresh and b not in fresh for a, b in skipped)
+    # Nothing involving a new fact is lost by going incremental.
+    assert {p for p in everything if p[0] in fresh or p[1] in fresh} == set(incremental)
+
+
+def test_a_new_fact_can_still_find_an_old_one_semantically():
+    """The old facts stay in the search space; they just stop querying it."""
+    old = make_fact(fact_id="f_old", doc="d1", claim="Revenue from services was 8,142 Cr.")
+    new = make_fact(fact_id="f_new", doc="d2", claim="Revenue from services was 81,415.38 million.")
+    pairs = semantic_pairs([old, new], BagOfWords(), k=1, fresh=frozenset({"f_new"}))
+    assert ids(pairs) == {("f_new", "f_old")}
+
+
+def test_the_reduction_figure_reflects_the_work_actually_faced():
+    settled, arriving = corpus()
+    fresh = frozenset(f.fact_id for f in arriving)
+    _, full = block(settled + arriving, encoder=BagOfWords())
+    _, part = block(settled + arriving, encoder=BagOfWords(), fresh=fresh)
+
+    assert full.theoretical_pairs == 28  # 8 facts
+    assert part.theoretical_pairs == 13  # minus the 15 pairs already settled
+    assert part.n_facts == 8
+
+
+def test_an_incremental_pass_with_no_new_facts_does_nothing():
+    settled, _ = corpus()
+    candidates, stats = block(settled, encoder=BagOfWords(), fresh=frozenset())
+    assert candidates == {}
+    assert stats.theoretical_pairs == 0

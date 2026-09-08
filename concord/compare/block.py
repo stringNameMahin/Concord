@@ -128,16 +128,45 @@ def value_pairs(
     return pairs
 
 
-def semantic_pairs(facts: list[Fact], encoder, k: int = TOP_K) -> set[PairKey]:
-    """Top-k cosine neighbours over claim text, both directions unioned."""
+def only_touching(pairs: set[PairKey], fresh: frozenset[str] | None) -> set[PairKey]:
+    """Drop pairs where neither fact is new.
+
+    Ingesting a fourth document must not re-judge the first three against each
+    other. Those verdicts are already in the ledger and nothing about them has
+    changed, so recomputing them is work whose only possible outcome is the
+    answer already stored.
+    """
+    if fresh is None:
+        return pairs
+    return {(a, b) for a, b in pairs if a in fresh or b in fresh}
+
+
+def semantic_pairs(
+    facts: list[Fact],
+    encoder,
+    k: int = TOP_K,
+    fresh: frozenset[str] | None = None,
+) -> set[PairKey]:
+    """Top-k cosine neighbours over claim text, both directions unioned.
+
+    With `fresh`, neighbours are read only for the new facts' rows. Every fact
+    stays in the search space - a new fact must be able to find an old one -
+    but nothing is asked about which old fact is near which other old fact.
+    """
     from concord.compare.embed import top_k
 
     if len(facts) < 2 or encoder is None:
         return set()
 
     matrix = encoder.encode([fact.embed_text for fact in facts])
+    rows = (
+        list(range(len(facts)))
+        if fresh is None
+        else [i for i, fact in enumerate(facts) if fact.fact_id in fresh]
+    )
+
     pairs: set[PairKey] = set()
-    for row, neighbours in enumerate(top_k(matrix, k)):
+    for row, neighbours in zip(rows, top_k(matrix, k, rows=rows)):
         for column in neighbours:
             pairs.add(pair_key(facts[row], facts[column]))
     return pairs
@@ -149,21 +178,28 @@ def block(
     k: int = TOP_K,
     width: float = BUCKET_WIDTH,
     window: int = BUCKET_WINDOW,
+    fresh: frozenset[str] | None = None,
 ) -> tuple[dict[PairKey, list[str]], BlockingStats]:
     """Run all three strategies and union them, keeping which one fired.
 
     `blocked_by` is stored on the relation so the README can report what each
     strategy actually bought, rather than asserting that all three were needed.
+
+    `fresh` restricts the result to pairs touching those fact ids, which is what
+    makes an incremental ingest incremental. The theoretical count drops to
+    match, so the reduction figure stays honest about the work actually faced.
     """
     by_id = {fact.fact_id: fact for fact in facts}
-    stats = BlockingStats(
-        n_facts=len(facts), theoretical_pairs=len(facts) * (len(facts) - 1) // 2
-    )
+    n = len(facts)
+    stats = BlockingStats(n_facts=n, theoretical_pairs=n * (n - 1) // 2)
+    if fresh is not None:
+        settled = n - len(fresh)
+        stats.theoretical_pairs -= settled * (settled - 1) // 2
 
     produced = {
-        "comparison_key": comparison_key_pairs(facts),
-        "value": value_pairs(facts, width, window),
-        "semantic": semantic_pairs(facts, encoder, k) if encoder is not None else set(),
+        "comparison_key": only_touching(comparison_key_pairs(facts), fresh),
+        "value": only_touching(value_pairs(facts, width, window), fresh),
+        "semantic": semantic_pairs(facts, encoder, k, fresh) if encoder is not None else set(),
     }
 
     candidates: dict[PairKey, list[str]] = defaultdict(list)

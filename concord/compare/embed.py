@@ -28,7 +28,14 @@ def load_model(name: str | None = None):
     if _MODEL is None:
         from sentence_transformers import SentenceTransformer
 
-        _MODEL = SentenceTransformer(name or config.EMBED_MODEL)
+        model = name or config.EMBED_MODEL
+        try:
+            _MODEL = SentenceTransformer(model)
+        except Exception:
+            # Once the weights are on disk the hub is not needed, so a hub
+            # outage must not break the evaluation path. Re-raises if the
+            # model genuinely is not cached, which is a different failure.
+            _MODEL = SentenceTransformer(model, local_files_only=True)
     return _MODEL
 
 
@@ -57,28 +64,39 @@ def unit_rows(matrix: np.ndarray) -> np.ndarray:
     return matrix / np.where(norms == 0.0, 1.0, norms)
 
 
-def top_k(matrix: np.ndarray, k: int, min_similarity: float = 0.0) -> list[list[int]]:
-    """Brute-force cosine neighbours, k per row, self excluded.
+def top_k(
+    matrix: np.ndarray,
+    k: int,
+    min_similarity: float = 0.0,
+    rows: list[int] | range | None = None,
+) -> list[list[int]]:
+    """Brute-force cosine neighbours, k per queried row, self excluded.
 
     At a few thousand facts the full similarity matrix is a few tens of MB and
     the whole search is milliseconds, so there is no vector database here and
     no index to keep in sync with the ledger.
+
+    `rows` restricts which facts are used as queries while leaving every fact in
+    the search space. That is what an incremental ingest needs: a new fact must
+    be able to find an old one, without old facts re-finding each other.
     """
     n = matrix.shape[0]
-    if n < 2 or k < 1:
-        return [[] for _ in range(n)]
+    queries = list(range(n)) if rows is None else list(rows)
+    if n < 2 or k < 1 or not queries:
+        return [[] for _ in queries]
 
-    rows = unit_rows(matrix.astype(np.float32))
-    similarity = rows @ rows.T
-    np.fill_diagonal(similarity, -np.inf)
+    unit = unit_rows(matrix.astype(np.float32))
+    similarity = unit[queries] @ unit.T
+    for position, row in enumerate(queries):
+        similarity[position, row] = -np.inf
 
     width = min(k, n - 1)
     partition = np.argpartition(-similarity, width - 1, axis=1)[:, :width]
 
     neighbours: list[list[int]] = []
-    for row in range(n):
-        candidates = partition[row]
-        scores = similarity[row, candidates]
+    for position in range(len(queries)):
+        candidates = partition[position]
+        scores = similarity[position, candidates]
         order = np.argsort(-scores)
         neighbours.append(
             [int(candidates[i]) for i in order if scores[i] >= min_similarity]
