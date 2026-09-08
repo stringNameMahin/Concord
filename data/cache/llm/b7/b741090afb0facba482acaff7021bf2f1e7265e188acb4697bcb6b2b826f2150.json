@@ -1,0 +1,693 @@
+{
+  "key": "b741090afb0facba482acaff7021bf2f1e7265e188acb4697bcb6b2b826f2150",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"48\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nconsumers in importing countries tend to have greater confidence in the quality of\nthe food products, which can lead to increased demand. Stricter domestic food safety\nstandards can also help local exporters meet the requirements of their trade partners,\nfurther boosting trade opportunities.\n3.19\tThough many NTMs aim primarily to protect public health or the environment,\nthey also adversely impact trade by increasing information, compliance, and procedural\ncosts. This is significant for exporters and importers because accessing and benefiting\nfrom markets increasingly depends on adherence to trade regulations, such as sanitary\n47  United Nations Food and Agriculture Organisation, https://tinyurl.com/3fzythxj.\n48  https://tinyurl.com/44mu2hnj.\n49  UNCTAD document, \u2018non-tariff measures: definitions and basic facts\u2019, https://tinyurl.com/y7hwd55u.\n50  \u0007UNCTAD report, \u2018Trade costs of non-tariff measures now more than double that of tariffs,\u2019 https://tinyurl.\ncom/55tk5fut.\n\n\nEconomic Survey 2024-25\n92\nstandards and product quality requirements. For instance, a regulation that limits\npesticide residues in food products seeks to achieve a significant public health goal of\nprotecting human health and nutrition. However, this regulation imposes additional\ncompliance requirements on firms in exporting countries, and some may find that\nexporting is no longer profitable. Consequently, such regulations can restrict trade,\nleading to lower incomes in exporting countries and higher prices for consumers in\nimporting countries. This issue mainly affects smaller exporters and low-income\ncountries, as they often bear a disproportionate burden from these NTMs.51\n3.20\t NTMs can indirectly affect FDI through their impact on imports. A firm might\ndecide to bypass an NTM by engaging in FDI if the costs associated with this approach\nare lower than the costs of exporting. Additionally, NTMs can encourage inward FDI\nto the country that imposes them, as these measures raise barriers to market access.\nResearch has demonstrated that NTMs have a positive impact on FDI. For example, if\nthe average number of NTMs applied to a product increases from 2.5 to 3.5 NTMs per\nproduct, FDI could increase by 12 per cent. Certain NTMs, such as intellectual property\nrights, local content requirements, and TBT in specific sectors, appear to affect FDI\nsignificantly.52\nTREND IN INDIA\u2019S TRADE PERFORMANCE\n3.21\t India's trade sector has demonstrated remarkable stability and growth, achieving\nmilestones despite global economic headwinds. Following a dip in FY20 amid the global\ndownturn and the pandemic, overall exports rebounded strongly in FY22, reaching\na record high in FY23. This momentum continued into FY24, with overall exports\nsurpassing the previous year\u2019s record, even as imports moderated slightly.\n3.22\t India's total exports (merchandise+services) have shown positive momentum in\nthe first nine months of FY25, reaching USD 602.6 billion, witnessing a YoY growth\nof 6 per cent. This increase demonstrates the resilience of exports, which have been\nbuilding on a steady upward trend in recent years despite global economic challenges.\nTotal imports during April-December 2024 reached USD 682.2 billion, registering a\nYoY growth of 6.9 per cent. This positive import growth indicates a steady demand for\ngoods in the Indian market, supporting domestic consumption and production needs.\nA more significant increase in overall imports compared to exports led to a rise in the\noverall trade deficit from USD 69.7 billion during April-December 2023 to USD 79.5\nbillion in the corresponding period of FY25.\n3.23\t During April-December 2024, non-petroleum exports were  up by 7.1 per cent.\nOver the same period, non-petroleum and non-gems and jewellery exports rose by 9.1\nper cent. Specific sectors like drugs and pharmaceuticals, electronic goods, engineering\n51  UNCTAD document on \u2018Introduction to NTMs\u2019, https://tinyurl.com/mr3a95en.\n52  Ibid note 50.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"49\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nA more significant increase in overall imports compared to exports led to a rise in the\noverall trade deficit from USD 69.7 billion during April-December 2023 to USD 79.5\nbillion in the corresponding period of FY25.\n3.23\t During April-December 2024, non-petroleum exports were  up by 7.1 per cent.\nOver the same period, non-petroleum and non-gems and jewellery exports rose by 9.1\nper cent. Specific sectors like drugs and pharmaceuticals, electronic goods, engineering\n51  UNCTAD document on \u2018Introduction to NTMs\u2019, https://tinyurl.com/mr3a95en.\n52  Ibid note 50.\n\n\nExternal Sector\n93\ngoods, and chemicals saw an increase in exports, growing by 6.4 per cent, 28.6 per\ncent, 9.9 per cent, and 5 per cent, respectively, during April-December 2024 on a YoY\nbasis. Textile exports53 also saw a YoY increase of 7.6 per cent during the same period.\nRising inflationary pressures on cereals, pulses, and edible oils limited the exports of\nagricultural and allied products. Overall, merchandise exports registered a modest\ngrowth of 1.6 per cent (YoY basis) primarily attributed to a decline in the value of\npetroleum product exports due to a fall in international commodity prices.\n3.24\tMerchandise imports grew by 5.2 per cent during April-December 2024. This\nincrease was largely due to a rise in non-oil, non-gold imports, which reached USD\n352.1 billion in the first nine months of FY25 compared to USD 340.5 billion during\nthe same period last year, indicating a rebound in domestic consumption despite the\ninflationary impact. Gold imports increased due to higher international prices, driven\nby frontloading ahead of festival spending and demand for safe-haven assets. Among\nthe major non-oil, non-gold imports, non-ferrous metals, machine tools, machinery,\nelectrical & non-electrical goods, and transport equipment witnessed remarkable\ngrowth in the first nine months of FY25, reflecting growing demand for capital\ngoods. Electronic goods also maintained consistent momentum, signalling a rise in\ndiscretionary consumer spending. Additionally, imports of pulses and cotton rose to\nsupport domestic production and control inflation.\nChart III.5: Trends in merchandise trade\n313\n292\n422\n451\n437\n317\n322\n475\n394\n613\n716\n678\n506\n533\n-161\n-103\n-191\n-265\n-241\n-190\n-211\n-400\n-200\n0\n200\n400\n600\n800\nFY20\nFY21\nFY22\nFY23\nFY24\nApr-Dec 23\nApr-Dec 24\nUSD billion\nMerchandise exports\nMerchandise imports\nMerchandise Trade Deficit\nSource: DGCIS, M/o Commerce & Industry\n3.25\t The faster pace of increase in merchandise imports compared to exports\ncontributed to the widening of the merchandise trade deficit to USD 210.8 billion in\nApril-December 2024, compared to USD 189.7 billion in the same period last year.\n53  \u0007Textile exports include Cotton Yarn/Fabrics/made-ups, Handloom Products, Man-made Yarn/Fabrics/made-\nups, etc., RMG of all Textiles, Jute Mfg. including Floor covering, carpet and Handicrafts, excluding handmade\ncarpet.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"50\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nSource: DGCIS, M/o Commerce & Industry\n3.25\t The faster pace of increase in merchandise imports compared to exports\ncontributed to the widening of the merchandise trade deficit to USD 210.8 billion in\nApril-December 2024, compared to USD 189.7 billion in the same period last year.\n53  \u0007Textile exports include Cotton Yarn/Fabrics/made-ups, Handloom Products, Man-made Yarn/Fabrics/made-\nups, etc., RMG of all Textiles, Jute Mfg. including Floor covering, carpet and Handicrafts, excluding handmade\ncarpet.\n\n\nEconomic Survey 2024-25\n94\nTextile exports\n3.26\t\t India\u2019s textile sector has been a matter of pride and strength to the nation for\ncenturies. From the unique prints and weaves to the rich dyes and handwork, the textile\nsector weaves various aspects of our cultural, social, and historical heritage. India is the\nsixth-largest exporter of textiles and apparel globally. The textile and apparel industry\ncontributes 2.3 per cent of GDP, 13 per cent to industrial production, and 12 per cent to\nexports.54 It is also one of the largest employment generators after agriculture, with over\n45 million people employed directly, including many women and the rural population.55\nAs further evidence of the inclusive nature of this industry, nearly 80 per cent of its\ncapacity is spread across Micro, Small and Medium Enterprises (MSME) clusters in the\ncountry.56\n3.27\t  \tIndia exported textile items worth USD 34 billion in 2023, with apparel\nconstituting 42 per cent of the export basket (USD 14.6 billion), followed by raw\nmaterials/semi-finished materials at 34 per cent (USD 11.7 billion) and finished non-\napparel goods at 30 per cent (USD 7.8 billion).57 Europe and the US consumed nearly\n66 per cent of India\u2019s apparel exports, 58 per cent of finished non-apparel goods and\n12 per cent of raw materials/semi-finished materials. Other prominent destinations\ninclude the UK (8 per cent of apparel exports) and the UAE (7 per cent).\nChart III.6: India's textile exports over the past decade\n15.8\n16.6\n17.2\n17.0\n17.4\n15.7\n16.3\n12.3\n15.3\n16.8\n14.6\n18.3\n15.9\n14.0\n12.4\n13.4\n14.6\n12.5\n11.0\n17.2\n13.7\n12.6\n0\n5\n10\n15\n20\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\nUSD billion\nApparel\nSemi-finished or raw textiles\nFinished textile products\nSource \u2013 Based on analysis at the HS-6 product level, data sourced from ITC Trademap\n3.28\t Generally, the Indian textile export basket is skewed towards cotton and cotton-\nbased products. In 2023, for example, eight out of the top 10 textile exports (by value)\nconsisted of cotton and cotton-based products. For India\u2019s major textile export category,\n54  https://www.ibef.org/industry/textiles.\n55  Ibid note 54.\n56  Invest India report, \u2018Textile & Apparel Industry: The Change Agent of India\u2019, https://tinyurl.com/mtzhfarh.\n57  Analysis based on UN COMTRADE data at the tariff level.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"51\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n3.28\t Generally, the Indian textile export basket is skewed towards cotton and cotton-\nbased products. In 2023, for example, eight out of the top 10 textile exports (by value)\nconsisted of cotton and cotton-based products. For India\u2019s major textile export category,\n54  https://www.ibef.org/industry/textiles.\n55  Ibid note 54.\n56  Invest India report, \u2018Textile & Apparel Industry: The Change Agent of India\u2019, https://tinyurl.com/mtzhfarh.\n57  Analysis based on UN COMTRADE data at the tariff level.\n\n\nExternal Sector\n95\ni.e., apparel, the country enjoyed a market share of 2.8 per cent globally in 2023.\nHowever, this is much lower than that of key players in the industry, such as China\n(30 per cent), Bangladesh (9 per cent), and Vietnam (7 per cent). Further analysis at\nthe HS-6 levels reveals that while India offers stiff competition to other exporters58 for\nnearly USD 3 billion worth of apparel exports, the remaining apparel basket is yet to\nmatch our competitors\u2019 comparative advantage.\n3.29\t\t Textile exports remained resilient throughout the COVID-19 period between\n2020 to 2022, but their performance has been weak over a decadal timeframe. Box\nIII.3 elaborates on potential factors that impede export growth and opportunities that\nmust be tapped for the sector to reach its goal of USD 150 billion in textile exports by\n2030.59\nBox III.3: Time to be deft about our warp and weft!\nCosts that chip away at textile export growth\nIndia\u2019s textile production occurs across multiple independent and clustered Small and\nMedium Enterprises (SMEs) spread across the country. Take cotton production, for example,\nwhich is spread across Gujarat, Madhya Pradesh, and Andhra Pradesh. The fresh produce of\ncotton then travels down to Tamil Nadu, where cotton yarns are produced. The yarns then\ntravel to parts of Maharashtra and Gujarat before being weaved into cotton fabric. A lack of\nlocalisation and the complexity of the value chain, in turn, results in higher costs relative to\nglobal competitors. In contrast, vertically integrated \u2018fibre-to-fashion\u2019 firms in competitor\nnations such as China and Vietnam export low-cost products, maintain consistent quality\nand are nimble enough to adjust to the fast-changing nature of the industry. Simple and\nliberal customs procedures further reduce regulatory costs and lend a competitive edge to\nthe exports of global textile competitors such as China and Vietnam.\nOn the other hand, in India textile exporters are constrained by complex procedures, which,\nfor instance, require exporters to meticulously account for every square centimetre of fabric,\nbuttons and zippers used. Similarly, pre-shipment inspection certificates are required for\ntextile imports, which slows down logistics and raises costs for the textile business.60\n58  \u0007Exports at the HS-6 level enjoy a market share that is within the periphery or higher than the market share of\nChina, Vietnam, Indonesia, and Bangladesh.\n59  PIB press release of Ministry of Textiles dated 18 November 2024, https://tinyurl.com/jhvcuttm\n60  \u0007GTRI report, July 2024, \u2018How complex procedures, import restrictions and domestic interests hinder India\u2019s\ngarment exports\u2019,  https://tinyurl.com/yxjxjzyz.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"52\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\ntextile imports, which slows down logistics and raises costs for the textile business.60\n58  \u0007Exports at the HS-6 level enjoy a market share that is within the periphery or higher than the market share of\nChina, Vietnam, Indonesia, and Bangladesh.\n59  PIB press release of Ministry of Textiles dated 18 November 2024, https://tinyurl.com/jhvcuttm\n60  \u0007GTRI report, July 2024, \u2018How complex procedures, import restrictions and domestic interests hinder India\u2019s\ngarment exports\u2019,  https://tinyurl.com/yxjxjzyz.\n\n\nEconomic Survey 2024-25\n96\nApart from possessing structural attributes (such as vertical integration, liberal labour laws,\netc.) that allow for cost advantages, competitors in the textile market also have the added\nbenefit of FTAs with consumer countries. In effect, Indian apparel exports do not face a\nlevel playing field compared to its competition. For instance, as noted by Mukherjee et al.\n201961, even though India has a significant comparative advantage in exporting silk shawls\nand scarves, the country faces a high tariff rate of 11.3 per cent in the US. In comparison,\ncompetitors like Korea face zero tariffs on their silk scarf exports due to trade agreements\nsuch as the US-Korea FTA.\nIn general, the costs for the textile industry are likely to rise over the coming years. A\nglobal structural shift towards sustainable sourcing would drive this. Often, such a shift\nis necessitated by regulatory changes. The EU, for instance, has as many as 16 pieces of\nlegislation spanning the entire fashion value chain, which came into force between 2021\nand 2024.62 As the EU accounts for nearly 20 per cent of our exports, such a shift poses a\nchallenge for small enterprises who need to shift to environmentally sustainable production\nmethods.\nChanging trends in the global textile industry\nIndia has a great opportunity to align with the evolving global shifts in apparel demand.\nWhile our comparative advantage lies in cotton and cotton-based products, global demand\nhas shifted to products made from man-made fibre (MMF). MMF-based products range\nfrom yoga pants and athleisure wear to technical textiles in aviation, aerospace, and\nautomobiles.\nAs per International Cotton Association, MMF comprised 77 per cent of global fibre\nconsumption in 2024, whereas it was just 22 per cent for cotton.\nBy tapping into the MMF value chain, India will benefit from the steady rise in global MMF\ndemand. India's share of global MMF production is currently 9.2 per cent, and the potential\nto catch up with the production levels of global leaders like Vietnam, China, and Taiwan is high.63\nTo match the quality of our competition and reap value gains from MMF production, our\nMMF sector must move towards vertical integration and significantly invest in research and\ndevelopment and sustainable production techniques.\nFashioning India\u2019s textile exports to a global audience\u2013recent schemes and\nopportunities ahead\nIn recent years, the government has announced many policies in response to the changing\nnature of global demand and high relative costs faced by Indian exporters. A PLI scheme\nhas been put in place for the sector with an outlay of \u20b910,683 crore, which rewards capacity\n61  Ideas for India, \u2018Trade agreements and their impact on India\u2019s apparel exports\u2019, https://tinyurl.com/22exauh4.\n62  McKinsey article, \u2018Reimagining the apparel value chain amid volatility\u2019, https://tinyurl.com/2nhedse4.\n63  As per World Textile Demand Report, 2024; https://tinyurl.com/52m82u5k\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"53\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nIn recent years, the government has announced many policies in response to the changing\nnature of global demand and high relative costs faced by Indian exporters. A PLI scheme\nhas been put in place for the sector with an outlay of \u20b910,683 crore, which rewards capacity\n61  Ideas for India, \u2018Trade agreements and their impact on India\u2019s apparel exports\u2019, https://tinyurl.com/22exauh4.\n62  McKinsey article, \u2018Reimagining the apparel value chain amid volatility\u2019, https://tinyurl.com/2nhedse4.\n63  As per World Textile Demand Report, 2024; https://tinyurl.com/52m82u5k\n\n\nExternal Sector\n97\nChart III.7: World consumption of\nmajor textile fibres\nChart III.8: Cotton\u2019s market share\nin the global market for fibres\n0\n20000\n40000\n60000\n80000\n100000\n120000\n1960\n1964\n1968\n1972\n1976\n1980\n1984\n1988\n1992\n1996\n2000\n2004\n2008\n2012\n2016\n2020\n2024\n'000 Tonnes\nCotton\nMan-Made Fibre\nWool\n68.3 %\n22.3 %\n0\n10\n20\n30\n40\n50\n60\n70\n80\n1960\n1964\n1968\n1972\n1976\n1980\n1984\n1988\n1992\n1996\n2000\n2004\n2008\n2012\n2016\n2020\n2024\nPer cent\nSource: International Cotton Association (ICA)\ncreation through investments in the industry. As MMF products require heavy research and\ndevelopment suited to different use cases, the National Technical Textiles Mission (NTTM)\nhas been approved with an outlay of \u20b91,480 crore. As of 2024, 168 research projects (worth\n\u20b9509 crore) were approved under the NTTM mission.64\nIn response to the need for a vertically integrated textile industry, the government-sanctioned\nPradhan Mantri Mega Integrated Textile Region and Apparel (PM-MITRA) parks across\nseven sites in 2022 to create world-class plug-and-play infrastructure and invite FDI into\nthe textile sector. World-class, standardised infrastructure will also aid textile exporters\nin responding better to changing ESG requirements in the industry. To help with cost\ncompetitiveness, the Government approved the continuation of the Scheme for Rebate of\nState and Central Taxes and Levies (RoSCTL) for export of Apparel/Garments and Made-\nups up to 31 March 2026 in the interim Union Budget FY2565. Further, deep FTAs such\nas the UAE-India CEPA (2022) have helped reduce India\u2019s textile tariffs with a significant\nmarket. India is actively working towards negotiating trade deals with top importers such\nas the EU and the UK.\nIndia\u2019s textile sector has several tailwinds working in its favour. For instance, as per\nMcKinsey\u2019s chief procurement officer survey, the share of procurement officers looking\nto form long-term strategic partnerships (including volume commitments) has more than\ndoubled between 2019 and 2023.66 Further, more than 40 per cent of procurement officers\nsurveyed plan to increase their sourcing from India, Bangladesh, and Vietnam.\n64  PIB press release of Ministry of Textiles dated 12 November 2024, https://tinyurl.com/4kf8sdnz.\n65  PIB press release dated 1 February 2024, https://tinyurl.com/35faj878.\n66  McKinsey article, \u2018Reimagining the apparel value chain amid volatility\u2019, https://tinyurl.com/2nhedse4.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"54\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nto form long-term strategic partnerships (including volume commitments) has more than\ndoubled between 2019 and 2023.66 Further, more than 40 per cent of procurement officers\nsurveyed plan to increase their sourcing from India, Bangladesh, and Vietnam.\n64  PIB press release of Ministry of Textiles dated 12 November 2024, https://tinyurl.com/4kf8sdnz.\n65  PIB press release dated 1 February 2024, https://tinyurl.com/35faj878.\n66  McKinsey article, \u2018Reimagining the apparel value chain amid volatility\u2019, https://tinyurl.com/2nhedse4.\n\n\nEconomic Survey 2024-25\n98\nWhile there are tailwinds which will support the growth of India\u2019s textile exports, these\ncannot be fully exploited without lowering the costs of the textile basket and deepening our\nmarket share in the MMF sector. These objectives would require the industry to step up\nits research efforts and vertically integrate and tailor products to international quality and\nsustainability requirements.\nSimplification, consolidation, and elimination of processes that consume the financial and\nmanagerial bandwidth of our exporters is a low-hanging fruit. Addressing these challenges\ncan significantly reduce costs and ease the burden on exporters, helping them become more\nefficient and competitive.\nDiversification of India\u2019s exports to new markets\n3.30\t As discussed in a Collection of Essays of the Department of Economic Affairs67,\nover time, India has added a large number of new products to its export basket. Between\n1994 and 2022, India has not just carved out new markets but has become the market\nleader in some of the new product categories. For instance, India is a top exporter\nof shipping vessels (with nearly 33 per cent market share). Similarly, it is a leading\nexporter of iron and steel alloys, an unexplored market before 1994.\n3.31\t Between April and November 2024, India's exports saw significant growth and\nexpansion into diverse markets despite high global challenges. The analysis depicts the\nnumber of diverse markets, consisting of absolutely new markets where no exports\nwere observed between April and November 2023, but exports happened in the\ncorresponding period of FY25. It also includes new markets where export share was\n0-0.1 per cent from April to November 2023 and rose to over 0.1 per cent with growth in\nvalue greater than 25 per cent in the corresponding period of FY25. Further, promising\nmarkets, where export share was 0.1-1 per cent in April to November 2023 and rose\nto over 1 per cent with growth in value greater than 25 per cent in April to November\n2024. The size of the dot reflects the value of exports. The analysis has been done based\non the data available for key Principal Commodities (PCs).\n3.32\t These 20 PCs were selected based on two criteria: firstly, the PCs were sorted in\ndescending order of the number of new markets explored, and secondly, the PCs had\nan export value of more than USD 100 million. For instance, Chat III.15 shows that\noptical items had an export value of USD 16.6 million from April to November 2024\nand were exported to 14 new markets (Zimbabwe, Vietnam, Tanzania, Uganda, Tunisia,\nRomania, Qatar, Philippines, Mozambique, Kuwait, South Korea, Iraq, Ghana, Finland).\nSimilarly, the export of cranes, lifts and winches had a value of USD 23.1 million from\nApril to November 2024, which has been exported to 12 new markets (Taiwan, Somalia,\nPortugal, Myanmar, Morocco, Madagascar, Lithuania, Jordan, Honduras, Cameroon,\nArmenia).  Further, office equipment & medical-scientific instruments have an export\nvalue of USD 10.7 million (exported to 12 new markets) and USD 62.7 million (exported\n67  Re-examining Narratives: A Collection of Essays, https://tinyurl.com/4rap2xpx.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"55\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nSimilarly, the export of cranes, lifts and winches had a value of USD 23.1 million from\nApril to November 2024, which has been exported to 12 new markets (Taiwan, Somalia,\nPortugal, Myanmar, Morocco, Madagascar, Lithuania, Jordan, Honduras, Cameroon,\nArmenia).  Further, office equipment & medical-scientific instruments have an export\nvalue of USD 10.7 million (exported to 12 new markets) and USD 62.7 million (exported\n67  Re-examining Narratives: A Collection of Essays, https://tinyurl.com/4rap2xpx.\n\n\nExternal Sector\n99\nto 9 new markets), respectively. Surgicals has also been exported to nine new markets\nwith a total value of USD 5.4 million.\nChart III.9: Number of new markets explored for key PCs\n(April \u2013 November 2024)\nNuclear reactor,\nindl boiler, PRT, 14\nOptical items (incl. lens\netc), 14\nCranes, lifts\nand winches,\n12\noffie equipments, 12\nOther cereals, 10\nProcessed fruits\nand juices, 10\nBicycle and parts, 9\nEssential oils, 9\nFertilisers crude, 9\nHandloom products, 9\nMedical and scientific\ninstruments, 9\nOil meals, 9\nOther jute\nmanufactures, 9\nSurgicals,\n9\nAC, refrigeration\nmachinery, etc, 8\nAluminium, products of\naluminium, 8\nBooks,\npublications\nand printing, 8\nCosmetics\nand toiletries,\n8\nDrugs formulations,\nbiologicals, 8\nElectrodes, 8\n4\n6\n8\n10\n12\n14\n16\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n22\nNumber of Markets Explored in FY25\nSource: DGCIS\n3.33\t\t These trends reflect India's ability to maintain and even strengthen its presence\nin established markets. It also highlights the country\u2019s resilience and adaptability in\nnavigating evolving global landscapes. Simultaneously, the exploration of new markets\nsignifies a proactive approach to expanding its export reach and reducing dependency on\nany single market or region. This diversification strategy mitigates risks associated with\nmarket fluctuations and positions India as a more competitive player in the international\ntrade landscape while contributing to the country's economic development.\nServices trade remained resilient amidst global challenges\n3.34\t\t Services sector exports have demonstrated resilience, while merchandise exports\nhave witnessed moderation in recent months. They grew at 11.6 per cent in the first\nnine months of FY25 amidst unfavourable geopolitical conditions. The rise in services\nexports contributed to an increase in net services receipts from USD 120.1 billion in the\nfirst nine months of FY24 to USD 131.3 billion during the corresponding period of FY25.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"56\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nServices trade remained resilient amidst global challenges\n3.34\t\t Services sector exports have demonstrated resilience, while merchandise exports\nhave witnessed moderation in recent months. They grew at 11.6 per cent in the first\nnine months of FY25 amidst unfavourable geopolitical conditions. The rise in services\nexports contributed to an increase in net services receipts from USD 120.1 billion in the\nfirst nine months of FY24 to USD 131.3 billion during the corresponding period of FY25.\n\n\nEconomic Survey 2024-25\n100\nChart III.10: Rise in net services receipts in the first nine months of FY25\n213\n206\n255\n325\n341\n252\n281\n128\n118\n147\n182\n178\n132\n150\n-\n50\n100\n150\n200\n250\n300\n350\n400\nFY20\nFY21\nFY22\nFY23\nFY24\nApr-Dec 23\nApr-Dec 24\nUSD billion\nServices exports\nServices Imports\nNet services receipt\nSource: RBI\n3.35\t Services exports from India have shown a multi-sectoral presence in global\nexports, with notable contributions across several sectors. India\u2019s share in global\nservices exports has more than doubled, reaching around 4.3 per cent in 2023 from 1.9\nper cent in 2005.68   In \u2018Telecommunications, Computer, & Information Services\u2019, India\ncommands 10.2 per cent of the global exports market (ranking 2nd largest exporter in\nthe world), reflecting its strong position in IT outsourcing, software development, and\ndigital services. The \u2018Other Business Services sector\u2019 also plays a crucial role, with India\nholding 7.2 per cent of the world share (ranking 3rd largest exporter in the world),\ndriven by its expertise in professional and consulting services.69\n3.36\t \u2018Travel\u2019 and \u2018Transport\u2019 services represent areas where India holds a relatively\nsmaller share in global exports, at 2.1 per cent and 2.2 per cent, respectively, likely facing\ncompetition from other worldwide tourism and logistics hubs. There are opportunities\nfor further growth, especially in enhancing international tourism infrastructure and\nglobal transport networks. India\u2019s financial services sector lags behind the global\naverage, highlighting the potential for growth in global banking, insurance, and\ninvestment services. On the other hand, with a global share of 3.4 per cent in 'Personal,\nCultural, & Recreational' services and 3.5 per cent in 'Construction services,' India\nranks 6th and 8th, respectively, demonstrating its competitive edge in cultural exports\nand international infrastructure projects.\n3.37\t India remains a global leader in IT and business services, but there is considerable\nuntapped potential in travel, transport, and financial services. As the country becomes\na hub for Global Capability Centres and continues to innovate, focusing on skill\ndevelopment and strategic policy interventions will be key to sustaining this momentum.\nStrengthening emerging sectors and improving global competitiveness will ensure\n68  UNCTAD Stats, https://tinyurl.com/2s42av87.\n69  Based on UNCTAD-WTO Stats.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"57\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n3.37\t India remains a global leader in IT and business services, but there is considerable\nuntapped potential in travel, transport, and financial services. As the country becomes\na hub for Global Capability Centres and continues to innovate, focusing on skill\ndevelopment and strategic policy interventions will be key to sustaining this momentum.\nStrengthening emerging sectors and improving global competitiveness will ensure\n68  UNCTAD Stats, https://tinyurl.com/2s42av87.\n69  Based on UNCTAD-WTO Stats.\n\n\nExternal Sector\n101\nIndia remains a dominant player in the services sector in the times to come.\nIndia\u2019s e-commerce exports\n3.38\t\t The e-commerce industry in India has experienced swift expansion over the\npast few years, driven by various elements such as the rise of technology-powered\nadvancements like online payments, localised delivery services, data-driven\ninteractions with customers, and digital marketing. According to a report, the global\nB2C e-commerce market is expected to grow from USD 5.7 trillion in 2022 to USD 8.1\ntrillion by 2026 at a CAGR of 9.1 per cent. Correspondingly, India's B2C e-commerce\nmarket was worth USD 83 billion in 2022, and it is anticipated to grow to USD 150\nbillion by 2026, showing a CAGR of 15.9 per cent.70 However, by current market size,\nIndia\u2019s e-commerce market makes up a small fraction, about 1.5 per cent of the global\nmarket, and it is projected to stay around 2 per cent in the coming years. These exports\ngenerated an estimated USD 4 to 5 billion in exports during FY23 and are expected to\nincrease to USD 200 to USD 300 billion by 2030.71 Box III.4 discusses the factors and\npolicies that have played a key role in enhancing India\u2019s e-commerce exports.\nBox III. 4:  Factors driving India\u2019s e-commerce exports\nExpanding data connectivity, increased penetration of smartphones, a rise in availability\nand use of digital wallets and safer online payments, increased customers' income levels\nand growing familiarity with digital shopping platforms have provided an impetus to\nIndia\u2019s e-commerce exports. Customers increasingly prefer customised products from\nskilled artisans, and India can leverage its rich tradition of handcrafted items to meet this\ndemand. Additionally, exporters can increase their profits by reducing costs associated with\nintermediaries like agents and shopkeepers, making e-commerce a lucrative option for\nselling products.72\nGovernment initiatives, such as Make in India and Aatmanirbhar Bharat, have enhanced\nsupport and focus on MSMEs and e-commerce exports, thereby paving the way for more\ndomestic sellers going global. These initiatives have provided a conducive environment for\nbusinesses to thrive and expand their reach. Recognising the relevance of e-commerce exports,\nthe Foreign Trade Policy (FTP) 2023 has laid down provisions for fostering cross-border\ndigital trade and promoting e-commerce and other emerging export channels. These include\nthe Niryat Bandhu scheme73, financial assistance to e-commerce exporters under the Market\nAccess Initiative (MAI) scheme, export and packing credit74, e-commerce exporthubs75,\n70  ASSOCHAM and EY report, \u2018Enabling e-commerce exports from India\u2019, https://tinyurl.com/ye29x47m.\n71  PIB press release of Ministry of Commerce and Industry dated 31 March 2023, https://tinyurl.com/ny9psh8e.\n72  \u0007GTRI report dated March 2023, \u2018Making e-commerce exports a Bigger Success Story than IT: A Blueprint for\nRealising India\u2019s E-Commerce Exports Potential\u2019, https://gtri.co.in/gtriRep8.pdf.\n73  \u0007Handholding and outreach programs, capacity building and skill development building to boost e-commerce\nexports from the country.\n74  \u0007Offering collateral-free, low-interest financing for both pre-and post-shipment stages to improve cash flow and\naid manufacturing costs, https://tinyurl.com/5cfwwxtx.\n75  \u0007Through a Public Private Partnership (PPP) model, it aims to centralise facilities (storage, packaging, labelling,\ncertification, testing etc.) and infrastructure for cross-border e-commerce activities.\n</text>\n</passage>\n\n<passage id=\"58\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n73  \u0007Handholding and outreach programs, capacity building and skill development building to boost e-commerce\nexports from the country.\n74  \u0007Offering collateral-free, low-interest financing for both pre-and post-shipment stages to improve cash flow and\naid manufacturing costs, https://tinyurl.com/5cfwwxtx.\n75  \u0007Through a Public Private Partnership (PPP) model, it aims to centralise facilities (storage, packaging, labelling,\ncertification, testing etc.) and infrastructure for cross-border e-commerce activities.\n\n\nEconomic Survey 2024-25\n102\nDak Niryat Kendra76, and electronic Bank Realisation Certificate (e-BRC).77 Further, the\nGST regime offers the benefit of zero-rated supplies78, and e-commerce exporters are eligible\nfor GST refunds.79\nIn the recent past, various initiatives have been undertaken by state governments in\ncollaboration with e-commerce market players to boost exports. These have included\norganising e-export Haat80 and signing a Memorandum of Understanding (MoU) with leading\ne-commerce players to drive e-commerce exports, etc.81 The Uttar Pradesh government has\nrecently implemented measures to enhance packaging and export capabilities by leveraging\ndesign, technology, and market access. The government is also planning to set up e-commerce\nhubs to facilitate small producers to sell to aggregators.82 The governmen t of Telangana has\nannounced a new MSME policy which, inter-alia, envisages an increase in e-commerce\npenetration in MSMEs by encouraging the participation of sellers on the ONDC portal and\nGeM portal.83\nThe central government\u2019s E-Commerce Export Hub (ECEH) initiative aims to revolutionise\nIndia\u2019s cross-border e-commerce. These hubs connect SMEs, artisans, and One District One\nProduct (ODOP) producers to global markets, boosting logistics efficiency and economic\ninclusion in Tier 2 and Tier 3 cities. On the Government e-Marketplace (GeM), revised\npricing slabs now cap charges at \u20b93 lakh for orders above \u20b910 crore, significantly reducing\ntransaction costs. The Bharat Mart in Dubai provides Indian MSMEs affordable access to\nthe Gulf Cooperation Council, African, and CIS markets, enhancing exports to these regions.84\nThe e-commerce export ecosystem in India presents opportunities for growth alongside a\nfew challenges related to regulatory frameworks and compliance obligations. For example,\nthe roles of sellers and e-commerce platform operators are not yet clearly defined. This\nrequires collaboration between sellers and e-commerce operators at various stages of export\nand payment processes. Presently, exports are facilitated through two primary modes,\ncourier and cargo, with a courier export value limit of USD 12,000 (\u20b910 lakh), which is less\ncompared to other countries.85\n76  \u0007Scheme for promoting e-commerce exports through postal route to work as a hub and spoke model in collaboration\nwith Foreign Post Offices to enhance e-commerce exports through postal route.\n77  \u0007Pilot of enhanced electronic bank realisation certificate (e-BRC) system basis in which the exporters can self-\ncertify their e-BRC.\n78  \u0007As per section 2(47) of the CGST Act, 2017, a supply is said to be exempt, when it attracts nil rate of duty or is\nspecifically exempted by a notification or kept out of the purview of tax (i.e., a non-GST supply).\n79  \u0007This enables the exporter to claim a refund of tax paid on such supplies and a refund of unutilised input tax credit\nunder the Letter of Undertaking.\n80  \u0007Amazon news, \u2018WBICS, Amazon and FICCI join hands to promote e-commerce exports from West Bengal\u2019,\nhttps://tinyurl.com/4jsratx6.\n81  \u0007Amazon news, Amazon signs an MoU with Government of Karnataka to drive e-commerce Exports for lakhs of\nMSMEs in the state\u2019, https://tinyurl.com/5afkc7zs.\n82  \u0007Indian Trade and Logistics news, \u2018Flipkart opens new fulfilment centres in Unnao, Varanasi\u2019, https://tinyurl.\ncom/37zs4h4v.\n83  Draft Export Strategy Framework of Telangana, https://tinyurl.com/ysf69a8z.\n84  https://pib.gov.in/PressReleasePage.aspx?PRID=2079986.\n</text>\n</passage>\n\n<passage id=\"59\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n80  \u0007Amazon news, \u2018WBICS, Amazon and FICCI join hands to promote e-commerce exports from West Bengal\u2019,\nhttps://tinyurl.com/4jsratx6.\n81  \u0007Amazon news, Amazon signs an MoU with Government of Karnataka to drive e-commerce Exports for lakhs of\nMSMEs in the state\u2019, https://tinyurl.com/5afkc7zs.\n82  \u0007Indian Trade and Logistics news, \u2018Flipkart opens new fulfilment centres in Unnao, Varanasi\u2019, https://tinyurl.\ncom/37zs4h4v.\n83  Draft Export Strategy Framework of Telangana, https://tinyurl.com/ysf69a8z.\n84  https://pib.gov.in/PressReleasePage.aspx?PRID=2079986.\n85  \u0007In the case of China, the consignment limit for e-commerce exports is USD 50,000, https://content.dgft.gov.in/\nWebsite/EcommExportHandbokMSME_E.pdf.\n\n\nExternal Sector\n103\nAdditionally, the absence of distinct customs supervision codes for traditional and\ne-commerce exports leads to delays in customs verification, and hinders data collection for\nfurther policy interventions.86\nThe RBI manages the Foreign Exchange Management Act (FEMA) of 1999, which requires\nforeign exchange receipts within nine months of shipment. This timeline supports efficient\ntransactions but may pose challenges for e-commerce operators handling shipments\nsold over 12 to 18 months. It opens the door to exploring more flexible reconciliation\ntimelines. The Export Data Processing and Monitoring System (EDPMS) aids in payment\nreconciliation, with costs ranging from USD 18 to USD 36 (\u20b91,500-\u20b93,000). There is a need\nfor cost optimisation, particularly for small-value shipments. Additionally, reimporting\nof e-commerce refunds/rejects is exempted from duty only when it can be proven that\nthe reimported goods, are the same as those exported, which is a cumbersome process.\nSimplifying these further could improve operational efficiency.87\nIndia's e-commerce exports hold immense potential to grow significantly and become a key\ncontributor to the country\u2019s GDP. Addressing some of the existing challenges can further\nunlock opportunities for the sector to achieve its full potential and strengthen its position\namong leading global e-commerce exporters.\nEASE OF DOING BUSINESS INITIATIVES FOR EXPORTERS\n3.39\t \t An important area of focus is enhancing logistics efficiency to strengthen India\u2019s\nmanufacturing and export capabilities. The development of logistics hubs, investments\nin infrastructure, and policy reforms to improve supply chain efficiency are measures\nin this direction. Such efforts aim to lower costs for Indian businesses, making exports\nmore competitive and enabling quicker, smoother movement of goods domestically\nand internationally. This approach aligns with the government\u2019s commitment to the\nNational Logistics Policy.\n3.40\t\t The paperless e-BRC system has reduced costs for 2.5 million e-BRCs annually\nby over \u20b9125 crore, streamlined processes and helped exporters benefit from schemes\nunder the FTP. It has cut down both administrative and environmental expenses. Small\nexporters, especially in e-commerce, have benefitted from the system\u2019s efficiency in\nhandling high-volume, low-cost transactions, enabling them to claim benefits and\nrefunds more effectively.\n3.41\t \t A new Directorate General of Foreign Trade (DGFT) \u2018Trade Connect e-Platform\u2019\nhas been launched which is a single window initiative enabling exporters to add newer\nmarkets. The e-platform aims to transform the international trade landscape for\nIndian exporters, especially MSMEs. The platform, developed in collaboration with\nkey partners, including the Ministry of MSME, EXIM Bank, Department of Financial\nServices, and the Ministry of External Affairs, is set to address information asymmetry\nby offering exporters comprehensive support and resources. It is a one-stop solution,\n86  Ibid note 70.\n87  Ibid note 70.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"60\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nhas been launched which is a single window initiative enabling exporters to add newer\nmarkets. The e-platform aims to transform the international trade landscape for\nIndian exporters, especially MSMEs. The platform, developed in collaboration with\nkey partners, including the Ministry of MSME, EXIM Bank, Department of Financial\nServices, and the Ministry of External Affairs, is set to address information asymmetry\nby offering exporters comprehensive support and resources. It is a one-stop solution,\n86  Ibid note 70.\n87  Ibid note 70.\n\n\nEconomic Survey 2024-25\n104\nproviding exporters with near real-time access to critical trade-related information while\nseamlessly connecting them to key government entities such as the Indian Missions\nabroad, the DoC, Export Promotion Councils, and other trade experts. Whether a\nseasoned exporter or a new entrant, the platform is designed to assist businesses at\nevery stage of their export journey. This e-platform shall connect more than 6 lakh\nIEC (Importer Exporter Code) holders, over 180 Indian Mission officials, and over 600\nExport Promotion Council Officials, besides the officials from DGFT, DoC, banks, etc.\n3.42\t \t The DGFT Trade Facilitation Mobile App provides all information on FTP\nUpdates, Import/Export Policy, Export/Import Statistics, the status of applications,\nand 24\u00d77 virtual assistance. The department also provides 24\u00d77 auto-generation of\ne-IEC. This enables users to not wait for any approval for an IEC. The IEC details are\nautomatically validated against CBDT, MCA, and PFMS systems.\nBALANCE OF PAYMENTS: RESILIENCE AMID CHALLENGES\n3.43\t Against the backdrop of uncertainties in the external trade and investment\nenvironment, India\u2019s Balance of Payments (BoP) position has remained stable, led by\nresilient services exports, benign crude oil prices, renewed foreign portfolio inflows,\nand a revival in FDI flows. These trends are discussed in this Section.\nCurrent account\n3.44\t India\u2019s current account deficit (CAD) moderated slightly to 1.2 per cent of GDP in Q2\nof FY25 against 1.3 per cent of the GDP recorded in Q2 of FY24. The recent rise in the CAD\ncan be attributed to an increase in the merchandise trade deficit, which rose to USD 75.3\nbillion in Q2 of FY25 from USD 64.5 billion in the corresponding quarter of the previous\nyear. The rising net services receipts and increase in private transfer receipts cushioned\nthe expansion in the merchandise trade deficit. Net service receipts increased to USD 44.5\nbillion in Q2 of FY25 from USD 39.9 billion in the corresponding quarter in FY24.\nChart III. 11: Trend in current account deficit\n3.7\n0.9\n-3.8\n-0.2\n0.5\n-1.2\n-6\n-4\n-2\n0\n2\n4\n6\n-40\n-30\n-20\n-10\n0\n10\n20\n30\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nFY21\nFY22\nFY23\nFY24\nFY25\nCAD as % of GDP\nCAD (USD billion)\nCAD\nCAD as % of GDP (RHS)\nSource: RBI press release on developments in India\u2019s Balance of Payments during the second quarter (July-\nSeptember) of 2024-25\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"61\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nthe expansion in the merchandise trade deficit. Net service receipts increased to USD 44.5\nbillion in Q2 of FY25 from USD 39.9 billion in the corresponding quarter in FY24.\nChart III. 11: Trend in current account deficit\n3.7\n0.9\n-3.8\n-0.2\n0.5\n-1.2\n-6\n-4\n-2\n0\n2\n4\n6\n-40\n-30\n-20\n-10\n0\n10\n20\n30\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nFY21\nFY22\nFY23\nFY24\nFY25\nCAD as % of GDP\nCAD (USD billion)\nCAD\nCAD as % of GDP (RHS)\nSource: RBI press release on developments in India\u2019s Balance of Payments during the second quarter (July-\nSeptember) of 2024-25\n\n\nExternal Sector\n105\nChart III. 12: Current account balance (CAB) as a per cent of GDP\n(India vs select countries)\n-1.2\n-1.3\n-6\n-4\n-2\n0\n2\n4\n6\n8\nUnited States\nBrazil\nAustralia\nUnited Kingdom\nSouth Africa\nIndia\nCanada\nFrance\nIndonesia\nMexico\nArgentina\nItaly\nRussia\nTurkey\nChina\nGermany\nSouth Korea\nJapan\nCAB as per cent of GDP\nQ2 FY24\nQ2 FY25\nSource: CEIC Data\n3.45\t\t India\u2019s CAD has remained relatively contained compared to other G20 economies,\nsuch as Brazil and Australia, which have faced similar external pressures, including\nhigher commodity prices and weaker global demand.\n3.46\t\t Private transfers, mainly driven by remittances by Indians employed overseas,\nformed the bulk of net transfers, growing steadily from USD 28.1 billion in Q2 of FY24\nto USD 31.9 billion in Q2 of FY25. This growth reflects the continued strength of India\u2019s\ndiaspora and robust remittance inflows despite global economic uncertainties.\nCapital and Financial Account\n3.47 \tThe Capital and Financial Account is a vital segment of the BoP, serving as the\nprimary mechanism for financing the CAD and strengthening foreign exchange reserves.\nOver the period from Q1 of FY23 to Q2 of FY25, India has generally recorded surpluses\nin the capital account, largely driven by robust inflows from FDI, FPI, and external\nloans. These inflows have supported the country\u2019s external position and contributed to\nbuilding foreign exchange reserves.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"62\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nCapital and Financial Account\n3.47 \tThe Capital and Financial Account is a vital segment of the BoP, serving as the\nprimary mechanism for financing the CAD and strengthening foreign exchange reserves.\nOver the period from Q1 of FY23 to Q2 of FY25, India has generally recorded surpluses\nin the capital account, largely driven by robust inflows from FDI, FPI, and external\nloans. These inflows have supported the country\u2019s external position and contributed to\nbuilding foreign exchange reserves.\n\n\nEconomic Survey 2024-25\n106\nChart III.13: Quarterly trends in net capital inflows\n1.4\n15.9\n34.1\n12.3\n25.4\n39.6\n22.5\n-1.7\n22.1\n1.5\n28.9\n89.5\n33.8\n12.8 17.3\n25.6\n14.7\n30.5\n-20\n0\n20\n40\n60\n80\n100\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nFY21\nFY22\nFY23\nFY24\nFY25\nUSD billion\nSource: RBI press release on developments in India\u2019s Balance of Payments during the second quarter (July-\nSeptember) of 2024-25\n3.48\t The growth trajectory of capital inflows has shown signs of revival in recent\nquarters. In Q2 of FY25, net capital inflows stood at USD 30.5 billion, a significant\nincrease from the USD 12.8 billion recorded during the same period in the previous\nyear. This rise can be primarily attributed to increased FPI inflows, external commercial\nborrowings, and NRI deposits.\nPerformance of FDI flows\n3.49\t FDI recorded a revival in FY25, with gross FDI inflows88 increasing from USD\n47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of\nFY25, a YoY growth of 17.9 per cent.\nChart III.14: Trends in gross FDI inflows\n74\n82\n85\n71\n71\n47\n56\n18\n27\n29\n29\n44\n30\n40\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\nFY20\nFY21\nFY22\nFY23\nFY24\nApr-Nov 23\nApr-Nov 24\nUSD billion\nGross FDI inflows\nRepatriation/Disinvestment\nSource: RBI\n88  Based on the FDI data released by the RBI.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"63\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n3.49\t FDI recorded a revival in FY25, with gross FDI inflows88 increasing from USD\n47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of\nFY25, a YoY growth of 17.9 per cent.\nChart III.14: Trends in gross FDI inflows\n74\n82\n85\n71\n71\n47\n56\n18\n27\n29\n29\n44\n30\n40\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\nFY20\nFY21\nFY22\nFY23\nFY24\nApr-Nov 23\nApr-Nov 24\nUSD billion\nGross FDI inflows\nRepatriation/Disinvestment\nSource: RBI\n88  Based on the FDI data released by the RBI.\n\n\nExternal Sector\n107\n3.50\t\t Over the long term, FDI inflows into India have surpassed the USD 1 trillion\nmark from April 2000 to September 2024, solidifying the country\u2019s position as a safe\nand significant global investment destination. According to data from the Department\nfor Promotion of Industry and Internal Trade (DPIIT)89, the cumulative FDI inflows,\nwhich include equity inflows, reinvested earnings, and other capital, reached USD\n1,033.4 billion during this period.\n3.51\t\t From a sectoral perspective, the services sector90 remains the largest recipient of\nFDI, accounting for 19.1 per cent of total equity inflows in H1 of FY25. Other significant\nsectors attracting foreign investments include computer software and hardware (14.1\nper cent), trading (9.1 per cent), non-conventional energy (7 per cent), and cement &\ngypsum products (6.1 per cent).91 Despite the short-term volatility in global markets,\ntriggered by factors such as inflationary pressures, rising interest rates in developed\neconomies, and geopolitical tensions, the long-term outlook for FDI in India remains\nfavourable. India\u2019s robust economic fundamentals, ongoing structural reforms, and\ngrowing consumer market position make it a key destination for foreign investments.\nChart III.15: Sectoral trends in FDI (H1 of FY25)-share in total FDI equity inflows\n3.1\n3.2\n3.2\n4.3\n4.4\n6.1\n7.0\n9.1\n14.1\n19.1\n0\n5\n10\n15\n20\n25\nHospital &  diagnostic centers\nAutomobile industry\nConsultancy services\nElectricity energy\nConstruction  (infrastructure)  activities\nCement and gyspum  products\nNon-conventional  energy\nTrading\nComputer software  and hardware\nOther Services\nShare (Per cent)\nSource: DPIIT\n89  DPIIT data on FDI flows, https://tinyurl.com/4hhws2cz.\n90  \u0007The Services sector includes Financial, Banking, Insurance, Non-Financial / Business, Outsourcing, R&D,\nCourier, and Tech. Testing and Analysis, Other.\n91  \u0007Sector-wise data on FDI inflows is released by DPIIT. RBI gives data on repatriation/disinvestment of FDI flows\nfrom India.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "India's total exports (merchandise+services) reached USD 602.6 billion in the first nine months of FY25.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "total_exports",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first nine months of FY25"
+          }
+        ],
+        "quote": "India's total exports (merchandise+services) have shown positive momentum in the first nine months of FY25, reaching USD 602.6 billion",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "602.6",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "India's total exports (merchandise+services) grew by 6 per cent in the first nine months of FY25 compared to the previous year.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "total_exports_yoy_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first nine months of FY25"
+          }
+        ],
+        "quote": "India's total exports (merchandise+services) have shown positive momentum in the first nine months of FY25, reaching USD 602.6 billion, witnessing a YoY growth of 6 per cent.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India's total imports reached USD 682.2 billion during April-December 2024.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "total_imports",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April-December 2024"
+          }
+        ],
+        "quote": "Total imports during April-December 2024 reached USD 682.2 billion",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "682.2",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "India's total imports grew by 6.9 per cent during April-December 2024 compared to the previous year.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "total_imports_yoy_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April-December 2024"
+          }
+        ],
+        "quote": "Total imports during April-December 2024 reached USD 682.2 billion, registering a YoY growth of 6.9 per cent.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.9",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India's overall trade deficit rose from USD 69.7 billion during April-December 2023 to USD 79.5 billion in the corresponding period of FY25.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "overall_trade_deficit",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April-December 2023"
+          }
+        ],
+        "quote": "rise in the overall trade deficit from USD 69.7 billion during April-December 2023 to USD 79.5 billion in the corresponding period of FY25.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "69.7",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "India's overall trade deficit was USD 79.5 billion during the period corresponding to April-December 2024 in FY25.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "overall_trade_deficit",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April-December 2024"
+          }
+        ],
+        "quote": "rise in the overall trade deficit from USD 69.7 billion during April-December 2023 to USD 79.5 billion in the corresponding period of FY25.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "79.5",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "India's merchandise trade deficit was USD 210.8 billion in April-December 2024.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "merchandise_trade_deficit",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April-December 2024"
+          }
+        ],
+        "quote": "widening of the merchandise trade deficit to USD 210.8 billion in April-December 2024",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "210.8",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "India's merchandise trade deficit was USD 189.7 billion in April-December 2023.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "merchandise_trade_deficit",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April-December 2023"
+          }
+        ],
+        "quote": "compared to USD 189.7 billion in the same period last year.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "189.7",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "The textile and apparel industry contributes 2.3 per cent of India's GDP.",
+        "confidence": 1,
+        "passage_id": 50,
+        "predicate": "contribution_to_gdp",
+        "qualifiers": [],
+        "quote": "The textile and apparel industry contributes 2.3 per cent of GDP",
+        "subject_surface": "textile and apparel industry",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The textile and apparel industry contributes 13 per cent to India's industrial production.",
+        "confidence": 1,
+        "passage_id": 50,
+        "predicate": "contribution_to_industrial_production",
+        "qualifiers": [],
+        "quote": "13 per cent to industrial production",
+        "subject_surface": "textile and apparel industry",
+        "value": {
+          "kind": "quantity",
+          "raw": "13",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The textile and apparel industry contributes 12 per cent to India's exports.",
+        "confidence": 1,
+        "passage_id": 50,
+        "predicate": "contribution_to_exports",
+        "qualifiers": [],
+        "quote": "12 per cent to exports.",
+        "subject_surface": "textile and apparel industry",
+        "value": {
+          "kind": "quantity",
+          "raw": "12",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India exported textile items worth USD 34 billion in 2023.",
+        "confidence": 1,
+        "passage_id": 50,
+        "predicate": "textile_exports_value",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2023"
+          }
+        ],
+        "quote": "India exported textile items worth USD 34 billion in 2023",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "34",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "India's global market share in apparel was 2.8 per cent in 2023.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "global_apparel_market_share",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2023"
+          }
+        ],
+        "quote": "the country enjoyed a market share of 2.8 per cent globally in 2023.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Man-made fibre (MMF) comprised 77 per cent of global fibre consumption in 2024.",
+        "confidence": 1,
+        "passage_id": 52,
+        "predicate": "global_fibre_consumption_share",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "MMF comprised 77 per cent of global fibre consumption in 2024",
+        "subject_surface": "Man-made fibre (MMF)",
+        "value": {
+          "kind": "quantity",
+          "raw": "77",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Cotton comprised 22 per cent of global fibre consumption in 2024.",
+        "confidence": 1,
+        "passage_id": 52,
+        "predicate": "global_fibre_consumption_share",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "whereas it was just 22 per cent for cotton.",
+        "subject_surface": "Cotton",
+        "value": {
+          "kind": "quantity",
+          "raw": "22",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India's share of global MMF production is 9.2 per cent.",
+        "confidence": 1,
+        "passage_id": 52,
+        "predicate": "global_mmf_production_share",
+        "qualifiers": [],
+        "quote": "India's share of global MMF production is currently 9.2 per cent",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "9.2",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Services sector exports grew at 11.6 per cent in the first nine months of FY25.",
+        "confidence": 1,
+        "passage_id": 55,
+        "predicate": "exports_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first nine months of FY25"
+          }
+        ],
+        "quote": "They grew at 11.6 per cent in the first nine months of FY25",
+        "subject_surface": "Services sector",
+        "value": {
+          "kind": "quantity",
+          "raw": "11.6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Net services receipts increased to USD 131.3 billion in the first nine months of FY25.",
+        "confidence": 1,
+        "passage_id": 55,
+        "predicate": "net_services_receipts",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first nine months of FY25"
+          }
+        ],
+        "quote": "increase in net services receipts from USD 120.1 billion in the first nine months of FY24 to USD 131.3 billion during the corresponding period of FY25.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "131.3",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "India's share in global services exports reached around 4.3 per cent in 2023.",
+        "confidence": 1,
+        "passage_id": 56,
+        "predicate": "global_services_exports_share",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2023"
+          }
+        ],
+        "quote": "India\u2019s share in global services exports has more than doubled, reaching around 4.3 per cent in 2023",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India's B2C e-commerce market was worth USD 83 billion in 2022.",
+        "confidence": 1,
+        "passage_id": 57,
+        "predicate": "market_size",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2022"
+          }
+        ],
+        "quote": "India's B2C e-commerce market was worth USD 83 billion in 2022",
+        "subject_surface": "India's B2C e-commerce market",
+        "value": {
+          "kind": "quantity",
+          "raw": "83",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "India's current account deficit (CAD) was 1.2 per cent of GDP in Q2 of FY25.",
+        "confidence": 1,
+        "passage_id": 60,
+        "predicate": "current_account_deficit_to_gdp",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q2 of FY25"
+          }
+        ],
+        "quote": "India\u2019s current account deficit (CAD) moderated slightly to 1.2 per cent of GDP in Q2 of FY25",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.2",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Net service receipts increased to USD 44.5 billion in Q2 of FY25.",
+        "confidence": 1,
+        "passage_id": 60,
+        "predicate": "net_services_receipts",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q2 of FY25"
+          }
+        ],
+        "quote": "Net service receipts increased to USD 44.5 billion in Q2 of FY25",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "44.5",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "Gross FDI inflows increased to USD 55.6 billion in the first eight months of FY25.",
+        "confidence": 1,
+        "passage_id": 62,
+        "predicate": "gross_fdi_inflows",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first eight months of FY25"
+          }
+        ],
+        "quote": "gross FDI inflows88 increasing from USD 47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of FY25",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "55.6",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "Gross FDI inflows grew by 17.9 per cent in the first eight months of FY25 compared to the same period in FY24.",
+        "confidence": 1,
+        "passage_id": 62,
+        "predicate": "gross_fdi_inflows_yoy_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first eight months of FY25"
+          }
+        ],
+        "quote": "gross FDI inflows88 increasing from USD 47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of FY25, a YoY growth of 17.9 per cent.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "17.9",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Cumulative FDI inflows into India reached USD 1,033.4 billion from April 2000 to September 2024.",
+        "confidence": 1,
+        "passage_id": 63,
+        "predicate": "cumulative_fdi_inflows",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April 2000 to September 2024"
+          }
+        ],
+        "quote": "the cumulative FDI inflows, which include equity inflows, reinvested earnings, and other capital, reached USD 1,033.4 billion during this period.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,033.4",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      }
+    ]
+  }
+}

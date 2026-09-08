@@ -1,0 +1,697 @@
+{
+  "key": "c60f00f8d301f55594309c1715102e50799e7e96dac621119a564b49a9e335c3",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"0\">\n<context>\n[page header]\nCorporate overview\nStatutory reports\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n</context>\n<text>\nCorporate overview\nIntroduction\n\b\n1\nDelhivery In Numbers\b\n2-3\nOur Sevices\n4-5\nPerformance review\nHighlights\n\b\n6-9\nFinancial Performance \b\n10-11\nLetter to Shareholders\n\b\n12-15\nOperating System for\nCommerce\n\b\n16-35\nPeople Initiatives\n\b\n32-35\nESG Updates  \t \b\n36-39\nLeadership team\nBoard of Directors\t \b\n40\nKey Managerial Personnel\n\b\n41\nStatutory reports\nDirectors' Report\n\b\n42\nManagement Discussion\nand Analysis\n\b\n67\nCorporate Governance Report\t\b\n76\nBusiness Responsibility &\nSustainability Report\n\b\n100\nFinancial statements\nStandalone Financial Statements\t \b 126\nConsolidated Financial Statements\b 206\nOur vision is \u2018Building the Operating System for\nCommerce in India.\u2019\nMillions of business owners in India, small and\nbig, are looking for the right operating system and\ninfrastructure to build their business upon.\nWe believe that this operating system requires\nthree core pillars for progress:\nTechnology that enables scale\nEconomies & efficiency from scale\nTools that help take advantage of scale\nDelhivery has democratised\naccess to high-speed, cost-\nefficient logistics so that\nbusinesses of all sizes,\nshapes, and scales can\ngrow without facing the\nchallenge of managing the\ncomplexities of customer\ndemands and costs.\nOur integrated AI-enabled\nsystems, facility automation,\nworld-class platforms and\ntechnology-driven systems\nenable Indian commerce to\nleapfrog to the next decade.\nIn essence, Delhivery is not\njust a logistics provider; we\nare a partner that drives\nhigh-value growth for\nbusiness outcomes.\nWe are enabling every\nbusiness to thrive and\nsucceed in a demanding\nenvironment.\nWhat\u2019s inside\nFor more details, please visit\nhttps://www.delhivery.com/company/investor-relations\nFrom India,\nFor India.\nB\n1\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n\nDelhivery In Numbers\n>2.8Bn(1)\nExpress parcel shipments\ndelivered since inception\n18,793\n(1)\nPin codes covered\n4,445\n(1)\nLast-mile delivery centres\n753\n(1)\nCount of 46-ft tractors\n98,135\n(1,5)\nWorkforce strength\n>4.8Mn tonnes\n(1,2)\nPart-truckload freight delivered since inception\n18.8Mn Sq ft\n(1)\nLogistics area under\nmanagement\n129\n(1)\nFreight service centers\n111\n(1)\nGateways\n15,065\n(3)\nDaily average fleet size\n>33,200\n(3,4)\nActive customers\n(1) As of March 31, 2024\n(2) Includes Spoton\u2019s tonnage for the full year of FY22\n(3) For the period Q4 FY24\n(4) \u0007Active customers for a period are those customers on whom an invoice was raised atleast\nonce during such period.\n(5) Includes permanent employees, contractual workers and last mile deliver partner agents\n2\n3\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nOur services\n</text>\n</passage>\n\n<passage id=\"1\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\n18.8Mn Sq ft\n</context>\n<text>\n15,065\n(3)\nDaily average fleet size\n>33,200\n(3,4)\nActive customers\n(1) As of March 31, 2024\n(2) Includes Spoton\u2019s tonnage for the full year of FY22\n(3) For the period Q4 FY24\n(4) \u0007Active customers for a period are those customers on whom an invoice was raised atleast\nonce during such period.\n(5) Includes permanent employees, contractual workers and last mile deliver partner agents\n2\n3\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nOur services\nTruckload freight (TL)\nExpress parcel\n\u2022\nE-commerce shipping solutions across\nexpress and surface modes\n\u2022\nConsumer-to-consumer shipping\n\u2022\nShipping small parcel, heavy goods as\nwell as BFSI documentation\n\u2022\nSame-day delivery (SDD)/Next-day\ndelivery (NDD) solutions\n\u2022\nReverse logistics, including QC as a\nvalue-added service\nSupply chain services (SCS)\n\u2022\nIndustry-specific integrated\nwarehousing and transportation:\nAutomotive, Electronics, Fashion,\nChemicals, Industrials, and Food and\nBeverages\n\u2022\nE-commerce and heavy goods\nfulfilment\n\u2022\nDirect-to-consumer (D2C) fulfilment\nsolutions\n\u2022\nContract TL solutions\n\u2022\nSpot freight exchange\n\u2022\nNational, regional and intra-city\nfreight\nSaaS (OS1)\n\u2022\nDispatchOne: Last-mile dispatch\nmanagement software\n\u2022\nTransportOne: Transport management\nsoftware\n\u2022\nLocateOne: Proprietary location\nintelligence software\nPart-truckload (PTL)\n\u2022\nExpress PTL\n\u2022\nFreight on delivery/Freight on pick-\nup payment solutions\n\u2022\nReverse logistics\n\u2022\nAppointment based deliveries\nCross-border services\n\u2022\nInternational express parcel shipping\n(in partnership with FedEx and\nAramex)\n\u2022\nDoor-to-door air and ocean freight\nshipping services\n\u2022\nLess-than-container load (LCL)\n\u2022\nFull Container Load (FCL)\n4\n5\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n\nA year of\n</text>\n</passage>\n\n<passage id=\"2\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n[section]\n18.8Mn Sq ft\n</context>\n<text>\nLocateOne: Proprietary location\nintelligence software\nPart-truckload (PTL)\n\u2022\nExpress PTL\n\u2022\nFreight on delivery/Freight on pick-\nup payment solutions\n\u2022\nReverse logistics\n\u2022\nAppointment based deliveries\nCross-border services\n\u2022\nInternational express parcel shipping\n(in partnership with FedEx and\nAramex)\n\u2022\nDoor-to-door air and ocean freight\nshipping services\n\u2022\nLess-than-container load (LCL)\n\u2022\nFull Container Load (FCL)\n4\n5\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n\nA year of\nimpactful growth\n740Mn\nExpress parcels shipped\n\u20b91,266Mn\nEBITDA\n1,429K tonnes\nPTL freight delivered\n1.6%\nEBITDA margin\n\u20b981,415Mn\nRevenue from services\n\u20b9758Mn\nAdjusted EBITDA\nSignificant developments\nof FY24\nEBITDA profitability\nFY24 was the first year of full-year\nEBITDA profitability. Our steady\ngrowth across service lines, coupled\nwith inherent operating leverage in our\nbusiness, led to a 1.6% EBITDA margin\nin FY24.\nFirst quarterly PAT profitability\nWe delivered our first PAT profitable\nquarter in FY24. Robust revenue growth,\nled by festive seasonal sales in Q3 and\nfirm support from growth in PTL and\nother businesses, led to our first PAT\nprofitability of \u20b9117 million, or 0.5% of\ntotal income quarterly.\nPart-truckload tonnage\nOur part truckload tonnage grew by\n30%, and revenues from part truckload\ngrew by 31% in FY24, the fastest\namong the listed competitors. The\npart truckload business showed\nconsistent sequential growth over the\npast five quarters, driven by higher-\nthan-ever service levels, new business\ndevelopment, and jettisoning of\ncustomers that did not meet the target\nreturn on capital.\nNet working capital days\nWe significantly reduced our net\nworking capital days to 31 days as\nof March 2024 from 38 days a year\nago due to a sharp reduction in our\nreceivable days to 66 as of March 2024\nfrom 77 days a year ago. This reduction\nwas a result of a number of initiatives\ntaken in FY24 such as tighter credit\ncontrols, automating billing processes\nand faster dispute resolution.\nTractor trailers\nThe share of load carried through fuel-\nefficient 46-ft tractor trailers crossed\n70% by the end of FY24.\nPlatform application launch\nDuring the year, we launched two\nmore applications, TransportOne and\nLocateOne, on our SaaS platform, OS1.\nInvestment in Falcon\nWe increased our ownership in Falcon\nAutotech, India\u2019s leading automation\nequipment manufacturer to the\nlogistics industry, to 39%.\nMega Gateway Launch\nWe opened our largest mega-gateway\nin Lonad, near Bhiwandi, one of India\u2019s\nlargest trucking terminals. The terminal\nis built on 1.2mn square feet of land\nand has a built up area of 750K square\nfeet. It has 196 docking stations and\nis designed for over 1,600 vehicles to\ntransit through it daily, which implies\none vehicle every 54 seconds.\n7\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n6\nDelhivery Limited\n\n\nAll-women\u2019s hub\n</text>\n</passage>\n\n<passage id=\"3\">\n<context>\n[page header]\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\nDelhivery Limited\n\n[section]\n\u20b9758Mn > Autotech, India\u2019s leading automation\n</context>\n<text>\nlogistics industry, to 39%.\nMega Gateway Launch\nWe opened our largest mega-gateway\nin Lonad, near Bhiwandi, one of India\u2019s\nlargest trucking terminals. The terminal\nis built on 1.2mn square feet of land\nand has a built up area of 750K square\nfeet. It has 196 docking stations and\nis designed for over 1,600 vehicles to\ntransit through it daily, which implies\none vehicle every 54 seconds.\n7\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n6\nDelhivery Limited\n\n\nAll-women\u2019s hub\nWe transformed one of our vital hubs in Moga, Punjab, into an all-women-run hub.\nThe hub's end-to-end operations, including BOPT operations (battery-operated pallet\ntrucks), inventory management, truck loading/unloading, housekeeping, and security,\norchestrated by an all-women workforce.\nInvesting in\nBrand Awareness\nDelhivery was Principal Sponsor of the Royal Challengers Bengaluru for the\n2024 season of the Indian Premier League. This partnership was used to\namplify the PTL and C2C service lines for awareness.\n9\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n8\nDelhivery Limited\n\n\n* FY22 is on a pro forma basis\n</text>\n</passage>\n\n<passage id=\"4\">\n<context>\n[page header]\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\nDelhivery Limited\n\n[section]\nAll-women\u2019s hub\n</context>\n<text>\nThe hub's end-to-end operations, including BOPT operations (battery-operated pallet\ntrucks), inventory management, truck loading/unloading, housekeeping, and security,\norchestrated by an all-women workforce.\nInvesting in\nBrand Awareness\nDelhivery was Principal Sponsor of the Royal Challengers Bengaluru for the\n2024 season of the Indian Premier League. This partnership was used to\namplify the PTL and C2C service lines for awareness.\n9\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n8\nDelhivery Limited\n\n\n* FY22 is on a pro forma basis\nFinancial\nPerformance\n895\n3.2\n3.7\n1,355\n7,557 4,219\n9,414\nService EBITDA (\u20b9 million)\nand Service EBITDA margin (%)*\nFY20 FY21 FY22 FY23 FY24\n243\n374\n1,579\n1,101\n1,429\nPart-truckload tonnage*\n(thousand tonnes)\nFY20 FY21 FY22 FY23 FY24\nExpress parcel shipment volume\n(million)\n225\n289\n582\n663\n740\nFY20 FY21 FY22 FY23 FY24\n(1,720)\n(6.2)\n(3.9)\n(3.4)\n(6.3)\n1.6\n(1,229) (2,849) (4,516)\n1,266\nEBITDA (\u20b9 million)\nand EBITDA margin (%)*\nFY20 FY21 FY22 FY23 FY24\n(6.9)\n(9.1)\n1.0\n(5.6)\n0.9\n(2,533)\n(2,532)\n715\n(4,039)\n758\nAdjusted EBITDA (\u20b9 million)\nand adjusted EBITDA margin (%)*\nFY20 FY21 FY22 FY23 FY24\nNet working capital days\n73\n47\n37\n38\n31\nFY20 FY21 FY22 FY23 FY24\nContribution of top-five customers\nto the overall business (%)\n41.8\n42.7\n40.5\n39.1\n38.4\nFY20 FY21 FY22 FY23 FY24\nProfit after tax (\u20b9 million) (%)*\n(2,689)\n(2.9)\n(10.8)\n(9.0)\n(4,157) (10,808) (10,078) (2,492)\nFY20 FY21 FY22 FY23 FY24\n(13.4)\n(14.6)\n11.6\n5.8\n10.4\nRevenue from services* (\u20b9 million)\n72,236\nFY23\n70,536\nFY22\n81,415\nFY24\n27,748\nFY20\n36,355\nFY21\n13%\n70%\n70%\n11%\n11%\n8%\n5%\n24%\n59%\n6%\n11%\n16%\n63%\n62%\n19%\n7%\n10%\nExpress parcel\nPTL\nTL\nSCS\nCross-border\n11\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n10\nDelhivery Limited\n\n\nLetter to the Shareholders\n</text>\n</passage>\n\n<passage id=\"5\">\n<context>\n[page header]\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\nDelhivery Limited\n\n[section]\nBrand Awareness\n</context>\n<text>\nFY20 FY21 FY22 FY23 FY24\nProfit after tax (\u20b9 million) (%)*\n(2,689)\n(2.9)\n(10.8)\n(9.0)\n(4,157) (10,808) (10,078) (2,492)\nFY20 FY21 FY22 FY23 FY24\n(13.4)\n(14.6)\n11.6\n5.8\n10.4\nRevenue from services* (\u20b9 million)\n72,236\nFY23\n70,536\nFY22\n81,415\nFY24\n27,748\nFY20\n36,355\nFY21\n13%\n70%\n70%\n11%\n11%\n8%\n5%\n24%\n59%\n6%\n11%\n16%\n63%\n62%\n19%\n7%\n10%\nExpress parcel\nPTL\nTL\nSCS\nCross-border\n11\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n10\nDelhivery Limited\n\n\nLetter to the Shareholders\nOur commitment to\ndriving long-term value\ncreation for stakeholders\nOperating at scale\nDelhivery continues to be India's largest\nintegrated logistics company by revenue\nand reach, with the widest range of\nlogistics offerings for customers.\nWe serve 220+ countries around the\nglobe, reach more than 18,700 out of\nthe 19,300 pin codes in India, operate\nabout 19 million square feet of logistics\ninfrastructure, drive more than 5 lakh\nkilometres every day connecting close\nto 5,000 facilities within our network,\ndeliver more than 2 million parcels and\n4,000 tonnes of freight per day and\nserve more than 33,000 customers. The\nsmooth functioning of this entire set of\ncomplex operations is made possible by\nthe tireless efforts of nearly 1 lakh team\nmembers.\nDespite reaching a vast scale of\noperations in just 12 years, we believe\nthat we are still at a nascent stage in\nthe landscape of the Logistics sector in\nthe country. According to the Ministry of\nCommerce and Industry, Logistics will\nlikely become a ~$531 billion by 2026.\nDelhivery will continue to be not just\none of the largest providers of logistics\nservices but also an enabler of growth\nfor businesses of all stripes and shapes.\nTechnology, data science\nand automation-enablers of\noperating at scale\nOur reliance on technology, data\nscience, and automation has grown\nwith our scale. We collect millions\nof data points related to customers,\nroutes, addresses, and end consumers\ndaily. These data points are processed\nand converted into business intelligence\nwhich is fed into our operations, making\nour operations more precise and time\nand cost efficient. For  example, we\nhave the industry's most unique and\naccurate address recognition system.\nOur tech and data science-enabled\nlast-mile delivery system ensures that\nour riders travel the shortest distance\nand spend the least time delivering  a\nparcel. Additionally, this system reduces\nthe idle time of our riders, allowing them\nmore time for ground deliveries.\nOur facilities have deployed cutting-\nedge parcel sortation systems, which\ncan sort 7 million parcels daily. We are\namong the early adopters of BOPTs\n(battery-operated pallet trucks) to\nmove loads from one place to another\ninside a facility. Taking on from the\nsuccess of the BOPTs, we have started\nexperimenting with autonomous BOPTs,\nwhich are riderless and use computer\nvision and LIDAR for navigation. We\nare exploring robotic arm sorters and\nshuttler sorters to expedite certain\nlegs of our sortation process. This\nequipment facilitates operating our\nmid-mile facilities at a high throughput.\nThe turnaround time of the trucks at\nour facilities is the lowest among our\ncompetitors.\nAdopting technology, data science, and\nautomation will be pivotal in providing\ncost-efficient and reliable logistics\nservices at scale. We are confident that\nour investments in these areas will reap\nincremental benefits in the future.\nScale drives profitability\nLogistics is a scale-sensitive business\nin which disproportionate economic\nvalue is generated at scale for all\nstakeholders. This operating leverage\nhas been consistently displayed by us\nin the past. In FY22, when our express\nparcel volumes more than doubled and\npart truckload tonnage grew by around\n40% on a pro forma basis, our adjusted\nEBITDA swung from negative \u20b92,258\nmillion in FY21 to positive \u20b9715 million\non a pro forma basis. Similarly, our\nPAT profitability in Q3 FY24 was driven\nby the highest-ever express parcel\nshipments delivered in the quarter.\nOperating at scale leads to high\n</text>\n</passage>\n\n<passage id=\"6\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nBrand Awareness > Letter to the Shareholders\n</context>\n<text>\nvalue is generated at scale for all\nstakeholders. This operating leverage\nhas been consistently displayed by us\nin the past. In FY22, when our express\nparcel volumes more than doubled and\npart truckload tonnage grew by around\n40% on a pro forma basis, our adjusted\nEBITDA swung from negative \u20b92,258\nmillion in FY21 to positive \u20b9715 million\non a pro forma basis. Similarly, our\nPAT profitability in Q3 FY24 was driven\nby the highest-ever express parcel\nshipments delivered in the quarter.\nOperating at scale leads to high\nproductivity of key resources resulting\nin better utilisation of fixed assets, thus\nresulting in lower fixed costs per unit of\ngoods transported. We have invested\njudiciously in building the infrastructure\nfor cost-effectively operations at scale.\nMore than 70% of our mid-mile load\nnow moves on fuel-efficient  large form\nfactor 46-ft tractors trailers. There are\n29 automated sort centres that can\nsort more than 7 million parcels per\nday without manual intervention. These\ninvestments yield disproportionate\nreturns for us and our customers as the\nscale of our business grows.\nProfitable logistics is a catalyst\nfor the economy\nLogistics is an essential ingredient to\nthe economy of any country. The large\nscale movement of goods from ports\nto factories to warehouses to shops\nand finally to consumers necessitating\nefficient and affordable\u00a0logistics\nservices for businesses of all\u00a0sizes.\nOur staunch belief is that affordable\nlogistics is essential for the proliferation\nof small and medium businesses.\nEfficiently-operated logistics companies\nhave the potential\u00a0to pass on efficiency\nbenefits to their customers, which act\nas catalysts for their growth.\nDear Shareholders,\nIt gives us immense pleasure to share\nthat Delhivery is now jointly owned\nby more than a lakh esteemed fellow\nshareholders. We thank each one of\nyou for your continuous support in our\njourney over the past 12 years, from\nzero to close to $1 billion in revenues.\nThe unwavering trust placed by all of\nyou in the company fills us with pride\nand determination to take Delhivery\nto greater heights. We are committed\nto delivering superior value to our\nshareholders through  our inherently\nscalable and profitable business model.\nThe vital role of logistics\nin the economy\nEfficiency and affordability\nCritical for businesses of all\nsizes\nEnables movement of goods\nfrom ports to factories to\nwarehouses to shops and\nfinally to consumers\nSupport for SMEs\nAffordable logistics is crucial\nfor the proliferation of small\nand medium businesses\nCatalyst for growth\nEfficient logistics companies\npass on benefits to customers,\nacting as catalysts for their\ngrowth\n12\n13\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nProcessing capacity at Lonad\n\u2022\nOver 32,000 shipments per hour\n\u2022\n17,000 freight units per hour\nWe further invested in upgrading our\ntrucking fleet. With the support of\nour vendor partners, we inducted 191\nadditional 46-ft tractors into our fleet in\nFY24, taking the total count to 753 by\nthe end of the year.\nTractor trailer expansion\n\u2022\nInducted 191 additional 46-ft\ntractors in FY24\n\u2022\nTotal count increased to 753 46-ft\ntractors by end of FY24\nLoad movement\n\u2022\n70% of load moved through 46-ft\ntractors by end of FY24\nWe continued to make environmentally\nand socially conscious changes to\nour operations to make them more\nsustainable. Our efforts, such as\ninducting larger-form-factor fuel-\nefficient trucks, expanding our installed\nsolar power capacity, and deploying\nalternative fuel trucks, have led to a\n~20% reduction in FY24 in our logistics\nintensity measured in gCO2e/tonne-\nkilometre.\nThe number of female workers in our\ncombined on-roll and off-roll workforce\nincreased 60% year-on-year. To\nencourage more women to build careers\nin logistics, we transformed one of our\nvital hubs in Moga, Punjab, into an all-\nwomen-run hub where women carry out\nthe hub's end-to-end operations.\nIncreasing female workforce\n\u2022\nNumber of female workers increased\n</text>\n</passage>\n\n<passage id=\"7\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nBrand Awareness > Letter to the Shareholders > 70% of load moved through 46-ft\n</context>\n<text>\nsolar power capacity, and deploying\nalternative fuel trucks, have led to a\n~20% reduction in FY24 in our logistics\nintensity measured in gCO2e/tonne-\nkilometre.\nThe number of female workers in our\ncombined on-roll and off-roll workforce\nincreased 60% year-on-year. To\nencourage more women to build careers\nin logistics, we transformed one of our\nvital hubs in Moga, Punjab, into an all-\nwomen-run hub where women carry out\nthe hub's end-to-end operations.\nIncreasing female workforce\n\u2022\nNumber of female workers increased\nby 59% year-on-year\nAll-women hub\n\u2022\nTransformed Moga, Punjab hub into\nan all-women-run facility\n\u2022\nWomen carry out the end-to-end\noperations of the hub\nLooking towards the future\nWe believe that the evolving demands\nof Indian consumers can only be met\nby continuously innovating our service\nofferings. As a team, we remain focused\non designing new operational and\ntechnology interventions to deliver\nthe highest speed and reliability at the\nlowest costs to our customers and we\nendeavour to gain market share across\nall our existing lines of business. We will\ncontinue to invest in our key success\ndrivers including team, technology and\nbrand. We will also strive to optimise the\ncapital deployed in our business.\nWe remain grateful to our customers, to\nthe incredibly passionate members of\nour team and their families and  you, our\nvalued shareholders, for the trust you\ncontinue to place in us.\nWarm regards,\nDeepak Kapoor\nChairman and Non-Executive\nIndependent Director\nSahil Barua and Kapil Bharati\nExecutive Directors\nFY24 in a nutshell\nFY24 was our first full year of EBITDA\nprofitability. Our EBITDA improved\nfrom a loss of \u20b94,516 million in FY23\nto a profit of \u20b91,266 million in FY24.\nThis performance resulted from a\ncombination of factors, including\nrapid growth in our PTL business,\nrationalization of customers which do\nnot meet our target return on capital,\nand our laser\u2011sharp focus on our cost\noptimisation. Besides full-year EBITDA\nprofitability, we also delivered our first\nquarter of PAT profitability in Q3 FY24.\nEBITDA turnaround\n\u2022\nPAT profitable in Q3\n\u2022\nAchieved EBITDA profit of \u20b91,266\nmillion in FY24\nGrowth drivers\n\u2022\nRapid growth in the PTL business\n\u2022\nRationalizing of customers which do\nnot meet our target capital\n\u2022\nLaser-sharp focus on cost control\nIn FY24, we shrunk our receivables days\nby 11 days, reducing our net working\ncapital cycle from 38 to 31 days.\nEnforcing tighter credit controls,\nautomating billing processes, and\nexpediting dispute resolution helped us\nconvert revenue into cash faster.\nNet working capital cycle\n\u2022\nReceivable days reduced by 11 days\nin FY24\n\u2022\nNet working capital cycle decreased\nfrom 38 to 31 days\nWe opened our state-of-the-art mega\ngateway in Lonad, Bhiwandi, which\nis now the largest facility within our\nnetwork. The facility\u2019s automation\nsystem at Lonad comprises 1.8\nkilometres of integrated double-\ndeck cross-belt sorters and over five\nkilometres of material conveyance\nsystems. We have equipped it to\nprocessing capacity at Lonad over\n32,000 shipments and 17,000 freight\nunits per hour.\nAutomation system at Lonad\n\u2022\n1.8 kilometres of integrated double-\ndeck cross-belt sorters\n\u2022\nOver 5 kilometres of material\nconveyance systems\n14\n15\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nTools that help take\nadvantage of scale\nPILLAR 2\nPILLAR 1\nPILLAR 3\nTechnology that\nenables scale\nEconomies &\nefficiency from scale\nBuilding an operating\nsystem for commerce\nin India\n17\nAnnual Report 2023-24\n16\nDelhivery Limited\n\n\nDelhivery powers Akshay Patra, the world\u2019s largest NGO-run school\n</text>\n</passage>\n\n<passage id=\"8\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nBrand Awareness > Letter to the Shareholders > 1.8 kilometres of integrated double-\n</context>\n<text>\n1.8 kilometres of integrated double-\ndeck cross-belt sorters\n\u2022\nOver 5 kilometres of material\nconveyance systems\n14\n15\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nTools that help take\nadvantage of scale\nPILLAR 2\nPILLAR 1\nPILLAR 3\nTechnology that\nenables scale\nEconomies &\nefficiency from scale\nBuilding an operating\nsystem for commerce\nin India\n17\nAnnual Report 2023-24\n16\nDelhivery Limited\n\n\nDelhivery powers Akshay Patra, the world\u2019s largest NGO-run school\n</text>\n</passage>\n\n<passage id=\"9\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nBrand Awareness > Letter to the Shareholders > 1.8 kilometres of integrated double-\n</context>\n<text>\ndeck cross-belt sorters\n\u2022\nOver 5 kilometres of material\nconveyance systems\n14\n15\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nTools that help take\nadvantage of scale\nPILLAR 2\nPILLAR 1\nPILLAR 3\nTechnology that\nenables scale\nEconomies &\nefficiency from scale\nBuilding an operating\nsystem for commerce\nin India\n17\nAnnual Report 2023-24\n16\nDelhivery Limited\n\n\nDelhivery powers Akshay Patra, the world\u2019s largest NGO-run school\n</text>\n</passage>\n\n<passage id=\"10\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n[section]\nin India\n</context>\n<text>\nDelhivery powers Akshay Patra, the world\u2019s largest NGO-run school\nfeeding programme with DispatchOne, Delhivery\u2019s flagship last-mile\ndelivery management solution\nDispatch One is part of Delhivery\u2019s OS1 suite of logistics solutions, which enables organisations to consolidate orders,\noptimise delivery routes in one click, provide real-time visibility into driver availability and facilitate both efficient\nassignment of orders and their dispatch. DispatchOne has real-time analytics and is completely configurable to the\ncomplex and diverse needs of different businesses.\n1,200,000\nDaily meals served\n\u20b91,600,000\nAnnual GPS cost savings\nIn numbers\n834\nActive routes\n40\nMapped kitchens\nImpact\nDigitised order completion for tracking\nOverall route reduction rate by 5%\nSaved 1-2 manhours per route for ~100 routes\nFuture forward\nsystems that\nenable commerce\nto leapfrog\nAutonomous Robots\nto Move pallets\nPillar 01\n18\n19\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n\n\"We have been partnering with Delhivery for\nthe past two years, and we couldn't be more\nsatisfied with their services. Despite being\nbased in a tier-III city, Delhivery has consistently\nprovided us with reliable and prompt delivery\ntimes. Their exceptional connectivity and\ncustomer support have significantly contributed\nto our operational efficiency.\u201d\n\"When I started Jhajhi Pickles in Darbhanga,\nit was challenging to come across delivery\nproviders. Delhivery offered us convenient\npickups from Darbhanga. Delhivery has helped\nus grow from sending 500 orders in a month to\nDelhi to now shipping >12,000 orders all over\nIndia. We are happy to continue working with\nDelhivery\"\nOrganic Bazaar\nShekhar\nFounder\nJhajhi Pickles\nKalpana Jha\nFounder\nInnovate for\nthe future\nDelhivery on wings: Operationalising flagship drone technology for remote\naccess across India\nWe are deeply committed to the future of logistics, and as leaders in this space, we continue to research on what that future\nlooks like. Developed by our US-based subsidiary, Delhivery Robotics LLC (formerly Transition Robotics LLC), our unmanned\naerial vehicle (UAV) features a modular design that serves as the foundation for research & development (R&D) of various form\nfactor vehicles. The UAV is undergoing extensive trials, including flight envelope expansivon and accelerated life cycle testing\nof its individual electro-mechanical components. This will ensure reliability and efficiency in diverse operational environments\nacross remote locations.\nInnovate\nfor the future\nUnified Logistics,\nUnparalleled Reach\nDelhivery has built a\nnetwork that serves\nmore than 99.5% of the\nIndian population and\nreaches 220+ countries\nvia its partnership with\nFedEx and Aramex that\nenables logistics for\nbusinesses at a truly\nglobal scale.\nOur unified logistics interface -Delhivery\nOne - streamlines shipping for\nbusinesses by consolidating Delhivery\u2019s\nlogistics and data services into a single,\nintuitive interface.\n*Source: Population to pin code mapping basis census and GeoIQ open source data\nImage for illustrative purposes\n21\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n20\nDelhivery Limited\n\n\nAdvanced bag sortation system\n</text>\n</passage>\n\n<passage id=\"11\">\n<context>\n[page header]\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\nDelhivery Limited\n\n[section]\nin India\n</context>\n<text>\nFedEx and Aramex that\nenables logistics for\nbusinesses at a truly\nglobal scale.\nOur unified logistics interface -Delhivery\nOne - streamlines shipping for\nbusinesses by consolidating Delhivery\u2019s\nlogistics and data services into a single,\nintuitive interface.\n*Source: Population to pin code mapping basis census and GeoIQ open source data\nImage for illustrative purposes\n21\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n20\nDelhivery Limited\n\n\nAdvanced bag sortation system\nSophisticated shipment sortation\nsystem\nEnhancing operational efficiency with\nautonomous battery-operated pallet\ntrucks (ABOPT)\nInnovative palletisation solutions for\nenhanced logistics\nEfficiency drivers that\nenable operational\nexcellence\nAdvanced bag sorting\nNew double-decker bag cross-belt sorter\nat shipments to multiple destinations\nand adapts to operational demands. The\nsortation system ensures high accuracy\nwith real-time sorting and loading to\nsignificantly enhance parcel handling\nand dispatch speed.\nInnovations In shipment sorting\nDelhivery utilises advanced technologies\nlike cross-belt sorters (CBS), carriage\nbelt sorters, and arm sorters to achieve\nefficient and precise B2C sorting.\nLargest 3PL facility\nin Lonad, bringing\neconomies of scale to\nmid-mile processes\nOur state-of-the-art terminal is built\non 1.2mn square feet of land and\nhas a built up area of 750K square\nfeet and is strategically located to\nleverage major transport networks,\nenhancing operational efficiency and\nboosting Delhivery's capacity to serve\ndiverse business needs. Beyond size\nand capacity, the facility at Lonad,\nMaharashtra, is a testament to\nWe have equipped each system with\nbarcode decoders, dynamic weighing,\nand volume measurement systems\ntailored to varying throughput levels and\nsortation needs.\nAutonomous battery-operated pallet\ntrucks (ABOPT)\nWe use these to alleviate workforce\nfatigue. Advanced bots seamlessly\nintegrate with human workers and other\nmaterial-handling equipment (MHE)\nusing sophisticated 3D-LIDAR sensors.\nDelhivery's commitment to sustainability\nand operational excellence.\nIt has a 1.3 MW solar power plant for\nenergy efficiency and prioritises safety\nand environmental responsibility, with\nfire safety measures and a rainwater\nharvesting system.\nHigh-speed,\ncost-efficient:\nBringing\neconomies-of-scale\nto mid-mile logistics\nprocesses to drive\ncost efficiency\nCapacity in numbers\n8,000 tonnes\nof freight daily\n1,600\ndaily vehicle movements\n32,000\nshipments processed per hour\nHighlights\nIndia's first pre\u2011certified platinum IGBC\nlogistics\u00a0park\nIndia's largest single-shed express hub\nPillar 02\n22\n23\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n\nNetwork spread in numbers\n</text>\n</passage>\n\n<passage id=\"12\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n[section]\nin India\n</context>\n<text>\nfire safety measures and a rainwater\nharvesting system.\nHigh-speed,\ncost-efficient:\nBringing\neconomies-of-scale\nto mid-mile logistics\nprocesses to drive\ncost efficiency\nCapacity in numbers\n8,000 tonnes\nof freight daily\n1,600\ndaily vehicle movements\n32,000\nshipments processed per hour\nHighlights\nIndia's first pre\u2011certified platinum IGBC\nlogistics\u00a0park\nIndia's largest single-shed express hub\nPillar 02\n22\n23\nDelhivery Limited\nAnnual Report 2023-24\nCorporate Overview\nStatutory Reports\nFinancial Statements\n\n\nNetwork spread in numbers\n4,445\nlast mile distribution centres\n18,793\npin codes\n700-6,000\naverage shipments daily per centre\nBringing efficiency and\nsustainability to the\ntransportation network\nwith electric and LNG\ntractor-trailers\nMaking the last mile\nmore efficient with\nFLARE, Delhivery's last\nmile route optimisation\nengine\nCommitted to sustainability, Delhivery\nhas introduced electric tractors and\na fleet of 20 LNG-powered trucks,\nreducing shipping costs and carbon\nfootprint, highlighting its dedication\nto innovation and environmental\nresponsibility.\nTractor trailers are the primary vehicles\nfor connecting loads between hubs\nin Delhivery's network, and they are\ncustomised to maximise space\ncompared to conventional containers.\nThis optimisation allows Delhivery to\nefficiently handle lighter B2C shipments\nand denser B2B loads, resulting in a\nmore cost-effective and environmentally\nfriendly transportation system. These\ntrailers are more efficient per cubic foot\nand consume less diesel per cubic foot\nkilometre than rigid trucks.\nDelhivery optimises the final leg of the\njourney, where a package has arrived\nat a local dispatching centre and needs\nto be sorted and hand-delivered to the\ncustomer's doorstep using FLARE,\nDelhivery's last mile route optimisation\nengine. FLARE minimises costs while\nmaximising closures, allowing riders to\noperate in diverse preferred areas and\nprioritising service-level agreements\ndespite load fluctuations and variable\ncapacities. The system brings riders\ntime under the roof by almost 40\nminutes, allowing more time for ground\ndeliveries, thus increasing earnings.\nEnabling high-speed\nand accurate Reverse\npick\u2011up (RVP) from store\nto warehouse using\ncarton integration with\nready-to-ship (RTS) from\na distributed network\nof stores\nDelhivery's PTL services have enabled\nan efficient and accurate supply chain\nfor apparel retail networks in forward\nand reverse logistics.\n\u201cAs a rapidly growing apparel\nretailer, our logistics and supply\nchain efficiency is crucial to\nour success. Partnering with\nDelhivery's PTL services has been\nsignificantly accretive for us.\nThe capability to handle RVP\nmovements as sincerely as\nforward movement is scarce.\nMultiple constraints generally\ncharacterise RVP movements,\nviz. multiple pickups across the\ncountry, fewer boxes per location,\nhigh count of pickup requests\n(PURs) per day, non-standard store\npackaging, and box mixing by the\nshipper (box to CWH mismatch).\nTechnology and superior\nintegration can predominantly\nresolve these challenges, which is\ncore to Delhivery's success. The\nefficiency and reliability of this\nservice have allowed us to improve\nour return to warehouse process,\ncut down losses and make the\ninventory available for dispatch\nquicker. We have complete\nvisibility on the pickup requests,\nknowing when and why shippers\nfailed to ship. This approach has\ngreatly improved our coordination\nefforts with the stores.\nAn apparel retailer with Delhivery as a PTL logistics\npartner speaks\u2026\nMoreover, Delhivery helps us resolve\nissues linked to the misdeclaration\nof weight by the store with the\nhelp of sophisticated weight-\ncapturing equipment that they\nhave invested in, which is precise,\nand information is shared in real\ntime via API integration. Ensuring\nour consignments are weighed\naccurately has allowed us to focus\nmore on our core business activities\nrather than worrying about potential\nlosses/thefts. The efficiency and\nreliability of Delhivery\u2019s fleet, with\nover 11,000 vehicles equipped with\n</text>\n</passage>\n\n<passage id=\"13\">\n<context>\n[page header]\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nDelhivery Limited\nFinancial Statements\n\n[section]\nin India\n</context>\n<text>\nMoreover, Delhivery helps us resolve\nissues linked to the misdeclaration\nof weight by the store with the\nhelp of sophisticated weight-\ncapturing equipment that they\nhave invested in, which is precise,\nand information is shared in real\ntime via API integration. Ensuring\nour consignments are weighed\naccurately has allowed us to focus\nmore on our core business activities\nrather than worrying about potential\nlosses/thefts. The efficiency and\nreliability of Delhivery\u2019s fleet, with\nover 11,000 vehicles equipped with\nGPS tracking, have been impressive.\nWe can monitor our shipments in\nreal time, ensuring they are on the\nright path and schedule. This level\nof transparency and control has\noptimised our logistics management\nand reduced operational\ninefficiencies. Delhivery's PTL\nservices have significantly enhanced\nour logistics operations, from\nexpanding our reach and ensuring\ntimely deliveries to providing robust\nsecurity and real-time tracking. We\nhighly recommend Delhivery to any\nretailer looking to elevate their supply\nchain capabilities.\u201d\n25\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\n24\nDelhivery Limited\nFinancial Statements\n\n\nBuilding trust and\ntransparency with\n30,000 fleet owners\nby tapping into Axle, a\nflexible freight solution,\nto boost efficiency in\nDelhivery\u2019s truckload\nbusiness\nIn numbers\n5-30%\nsavings across lanes and\nvehicles\n5-15%\ncost reduction for\nnon-tractor trailers\n700-6,000\naverage shipments daily\nper centre\n\"We have been partnered with Delhivery for\nfive years, starting with a tonnage of 150\ntonnes and now handling 1,200 tonnes,\nresulting in a 4x revenue growth. Since\nbeginning our association with Delhivery in\n2019 in Chandigarh, we have experienced\ncontinuous growth in load and significant\nadvancements in service, technology, and\ngrievance handling. The new vendor portal\nhas been instrumental in resolving many\ninvoice payment and GST-related issues. As\na business partner, we operate in Mohali and\nChandigarh and look forward to scaling up\nour vehicles to match the increasing load.\"\n\"We have been partnered with\nDelhivery for six years, during which\nour starting tonnage increased\nfrom 200 to 600 tonnes, and our\nrevenue grew 3x. The service level\nat Delhivery has been exceptional,\nwith timely payment credits. Over\nthese years, we expanded from\nfour vehicles to more than ten\noperating in Mangalore and Manipal.\nDelhivery has significantly boosted\nour business and provides excellent\nsupport to vendors. Delhivery stands\nout in terms of service and flexible\npayment terms.\"\nAbhinav Printer\nAnantharam\nNayak\nBP/Trucker/Fleet: BP\nMinhas Packers\nand Movers\nDinesh Sharma\nBP/Trucker/Fleet: BP\nDelhivery is transforming India's logistics landscape by providing fleet partners\nwith a robust platform for load discovery, trip tracking, payment management, and\ninstant support.\nThis platform has significantly improved our sourcing strategy, which is tailored\nfor fleet owners and brokers, reducing costs and ensuring timely fulfilment of\non-demand needs. With over 30,000 fleet partners onboarded across various\nroutes and cities and a diverse range of vehicle types available, Axle has become\ninstrumental in our logistics operations, driving the growth of our entire truckload\nvertical. The savings due to this are crucial in building a progressive logistics\ninfrastructure that supports businesses of all sizes across India.\n27\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n26\nDelhivery Limited\n\n\nReturns for cash-on-delivery orders\n</text>\n</passage>\n\n<passage id=\"14\">\n<context>\n[page header]\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\nDelhivery Limited\n\n[section]\nin India\n</context>\n<text>\non-demand needs. With over 30,000 fleet partners onboarded across various\nroutes and cities and a diverse range of vehicle types available, Axle has become\ninstrumental in our logistics operations, driving the growth of our entire truckload\nvertical. The savings due to this are crucial in building a progressive logistics\ninfrastructure that supports businesses of all sizes across India.\n27\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n26\nDelhivery Limited\n\n\nReturns for cash-on-delivery orders\nsignificantly impact businesses'\nbottom lines, as companies pay twice\nfor logistics services without making\na sale. Delhivery\u2019s RTO predictor uses\nmachine learning to assess the risk\nof return and non-acceptance of\ndelivery that sellers face by mining\nthe data already available from 2.8\nbillion delivered shipments since our\ninception, our nationwide coverage,\nand location intelligence solutions.\nThis cutting-edge technology enables\nus to predict customer behaviour with\nfar higher accuracy. Our clients receive\nvaluable insights on customer intent\non their COD (cash-on-delivery) orders.\nPowered by a sophisticated AI engine,\nthe RTO predictor considers factors\nDelhivery addresses India\u2019s cash economy with\nan AI-enabled return-to-origin (RTO) predictor\nIn numbers\n60%\nshare of COD orders in\ne-commerce\n20%\naverage RTO reduction\n4,800\nbusinesses leveraging\nleveraging the solution\nsuch as unique customer behaviour,\nindustry-level return trends, network\neffects, product categories, and the\nend customer's address and location.\nThe system continually evolves through\nreinforcement learning, adapting to\nchanging customer behaviours and\nbusiness profiles.\nPillar 03\nTools that help\ntake advantage\nof scale\n29\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n28\nDelhivery Limited\n\n\nBhumika Vedic\n</text>\n</passage>\n\n<passage id=\"15\">\n<context>\n[page header]\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\nDelhivery Limited\n\n[section]\nin India\n</context>\n<text>\naverage RTO reduction\n4,800\nbusinesses leveraging\nleveraging the solution\nsuch as unique customer behaviour,\nindustry-level return trends, network\neffects, product categories, and the\nend customer's address and location.\nThe system continually evolves through\nreinforcement learning, adapting to\nchanging customer behaviours and\nbusiness profiles.\nPillar 03\nTools that help\ntake advantage\nof scale\n29\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n28\nDelhivery Limited\n\n\nBhumika Vedic\nRobin Jose\nServices availed:\nExpress parcel\ncross-border\nshipping\nSimplifying shipping for businesses by offering direct access\nto all of Delhivery\u2019s logistics and data services in one interface -\nDelhivery One for businesses of all sizes\n\"Delhivery has fueled our business\ngrowth through its full suite\nof logistics services, including\nexpress parcel, warehousing and\nfreight. Its integrated logistics\nservice has helped us streamline\noperations, reduce processing\ntimes, and improve speed and\nlower cost. We look forward to\ncontinuing to grow with their\nsupport and collaboratively give\nthe end-consumer an excellent\noverall experience.\"\n\"Delhivery's advanced technology\nsolutions have streamlined our\nlogistical processes, resulting\nin several key benefits like\nautomated tracking, OMS and\nintegration capabilities. Overall, the\nconvenience through technology\nplatforms and automation\nprovided by Delhivery has led to\nmore efficient operations, higher\naccuracy, and better scalability,\nsignificantly benefiting the client's\nbusiness.\"\nHopscotch\nRahul Godha\nServices availed:\nExpress parcel\nWarehousing\nFreight\nCultgear\nRajitha\nServices availed:\nExpress parcel\nTruckload\nDelhivery is the only logistics service that offers express parcel, part truckload and cross-border shipping \u2013 on a\nsingle, easy-to-use digital interface with a unified rate card for shipments across weight categories. This distinctive\nidentity gives businesses unified visibility across their suppliers and customers, with part truckload and express parcel\nunified in one platform. Businesses can track their in-transit shipments in real time. They can opt for post-purchase\ncommunication, which sends branded WhatsApp communication, keeping the end consignee updated at every step of\nthe shipment journey.\nB2B shipping from the\nsupplier to warehouse\nReduce RTO using\nautomated WhatsApp\nmessages and our Al\nalgorithms\nShip to 99.5% of India's\npopulation and >220\ncountries\n\"Integration of Delhivery's\nservices has brought notable\nenhancements to our business.\nWe have expanded our reach\nand scale efficiently, tapping\ninto new markets across India.\nTheir technology platforms have\nstreamlined our operations,\noffering real-time tracking and\nanalytics for improved efficiency.\nDelhivery's commitment to\nreliability has boosted our\nservice levels, meeting customer\nexpectations consistently.\"\nBhumika Vedic\nRobin Jose\nServices availed:\nExpress parcel\nCross-border\nshipping\nFetch orders\nautomatically using our\nchannel integration\nStore inventory in our\nwarehouses across India\n31\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n30\nDelhivery Limited\n\n\nPeople Initiatives\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Delhivery Limited has delivered over 2.8 billion express parcel shipments since inception as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "express_parcel_shipments_delivered",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": ">2.8Bn(1)\nExpress parcel shipments\ndelivered since inception",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": ">2.8Bn",
+          "scale": "billion"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited covered 18,793 pin codes as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "pin_codes_covered",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "18,793\n(1)\nPin codes covered",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "18,793"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had 4,445 last-mile delivery centres as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "last_mile_delivery_centres",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "4,445\n(1)\nLast-mile delivery centres",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "4,445"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had 753 46-ft tractors as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "count_of_46_ft_tractors",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "753\n(1)\nCount of 46-ft tractors",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "753"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had a workforce strength of 98,135 as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "workforce_strength",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "98,135\n(1,5)\nWorkforce strength",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "98,135"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited has delivered over 4.8 million tonnes of part-truckload freight since inception as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "part_truckload_freight_delivered",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": ">4.8Mn tonnes\n(1,2)\nPart-truckload freight delivered since inception",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": ">4.8Mn",
+          "scale": "million",
+          "unit": "tonnes"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had 18.8 million square feet of logistics area under management as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "logistics_area_under_management",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "18.8Mn Sq ft\n(1)\nLogistics area under\nmanagement",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "18.8Mn",
+          "scale": "million",
+          "unit": "Sq ft"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had 129 freight service centers as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "freight_service_centers",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "129\n(1)\nFreight service centers",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "129"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had 111 gateways as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "gateways",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "111\n(1)\nGateways",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "111"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had a daily average fleet size of 15,065 for the period Q4 FY24.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "daily_average_fleet_size",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "15,065\n(3)\nDaily average fleet size",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "15,065"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had over 33,200 active customers for the period Q4 FY24.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "active_customers",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": ">33,200\n(3,4)\nActive customers",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": ">33,200"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited shipped 740 million express parcels in FY24.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "express_parcels_shipped",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "FY24"
+          }
+        ],
+        "quote": "740Mn\nExpress parcels shipped",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "740Mn",
+          "scale": "million"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had an EBITDA of \u20b91,266 million in FY24.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b91,266Mn\nEBITDA",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b91,266Mn",
+          "scale": "million",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited delivered 1,429K tonnes of PTL freight in FY24.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "ptl_freight_delivered",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "FY24"
+          }
+        ],
+        "quote": "1,429K tonnes\nPTL freight delivered",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,429K",
+          "scale": "thousand",
+          "unit": "tonnes"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had an EBITDA margin of 1.6% in FY24.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "ebitda_margin",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "FY24"
+          }
+        ],
+        "quote": "1.6%\nEBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.6%"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had revenue from services of \u20b981,415 million in FY24.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "revenue_from_services",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b981,415Mn\nRevenue from services",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b981,415Mn",
+          "scale": "million",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had an adjusted EBITDA of \u20b9758 million in FY24.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "adjusted_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b9758Mn\nAdjusted EBITDA",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b9758Mn",
+          "scale": "million",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited's Lonad mega-gateway terminal is built on 1.2 million square feet of land.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "mega_gateway_land_area",
+        "qualifiers": [
+          {
+            "key": "location",
+            "provenance": "stated",
+            "value": "Lonad, near Bhiwandi"
+          }
+        ],
+        "quote": "The terminal\nis built on 1.2mn square feet of land",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.2mn",
+          "scale": "million",
+          "unit": "square feet"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited's Lonad mega-gateway terminal has a built-up area of 750K square feet.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "mega_gateway_built_up_area",
+        "qualifiers": [
+          {
+            "key": "location",
+            "provenance": "stated",
+            "value": "Lonad, near Bhiwandi"
+          }
+        ],
+        "quote": "and has a built up area of 750K square\nfeet.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "750K",
+          "scale": "thousand",
+          "unit": "square feet"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited's Lonad mega-gateway terminal has 196 docking stations.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "mega_gateway_docking_stations",
+        "qualifiers": [
+          {
+            "key": "location",
+            "provenance": "stated",
+            "value": "Lonad, near Bhiwandi"
+          }
+        ],
+        "quote": "It has 196 docking stations",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "196"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited inducted 191 additional 46-ft tractors into its fleet in FY24.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "additional_46_ft_tractors_inducted",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "we inducted 191\nadditional 46-ft tractors into our fleet in\nFY24",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "191"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had a total count of 753 46-ft tractors by the end of FY24.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "total_46_ft_tractors",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "end of FY24"
+          }
+        ],
+        "quote": "taking the total count to 753 by\nthe end of the year.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "753"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited achieved a ~20% reduction in logistics intensity in FY24.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "logistics_intensity_reduction",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          },
+          {
+            "key": "measurement",
+            "provenance": "stated",
+            "value": "gCO2e/tonne-kilometre"
+          }
+        ],
+        "quote": "have led to a\n~20% reduction in FY24 in our logistics\nintensity measured in gCO2e/tonne-\nkilometre.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "~20%"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited's number of female workers increased by 59% year-on-year.",
+        "confidence": 1,
+        "passage_id": 7,
+        "predicate": "female_workforce_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year-on-year"
+          }
+        ],
+        "quote": "Number of female workers increased\nby 59% year-on-year",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "59%"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited has 4,800 businesses leveraging its RTO predictor solution.",
+        "confidence": 1,
+        "passage_id": 14,
+        "predicate": "businesses_leveraging_rto_predictor",
+        "qualifiers": [],
+        "quote": "4,800\nbusinesses leveraging\nleveraging the solution",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "4,800"
+        }
+      }
+    ]
+  }
+}

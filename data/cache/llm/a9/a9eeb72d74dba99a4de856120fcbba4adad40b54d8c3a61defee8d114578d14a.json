@@ -1,0 +1,354 @@
+{
+  "key": "a9eeb72d74dba99a4de856120fcbba4adad40b54d8c3a61defee8d114578d14a",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"72\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 65\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL > Figure 9. India: Climate Change: Mitigation\n</context>\n<text>\nbasket in representing current spending habits.\n3.\nIMF capacity development activities are ongoing to assist in the national accounts and\nCPI updates. Targeted activities conducted so far assisted MOSPI in training on the use of the\nsupply and use table framework for the compilation of the base year estimates for national\naccounts, development of seasonal adjustment estimates, and dissemination practices, as well as in\nsupport for the IPI update. A series of other training activities is ongoing, with further assistance\nplanned in the national accounts and CPI areas. Going forward, regular benchmark revisions of\nnational account, price, and other key statistics should be conducted according to international best\npractices.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n66\nINTERNATIONAL MONETARY FUND\nAnnex VII. Data Issues\nFigure 1. India: Data Adequacy Assessment for Surveillance\nNational\nAccounts 4/\nPrices\nGovernment\nFinance Statistics\nExternal Sector\nStatistics\nMonetary and\nFinancial\nStatistics\nInter-sectoral\nConsistency\nMedian Rating\nC\nB\nB\nB\nB\nB\nB\nCoverage\nC\nC\nC\nA\nC\nB\nB\nB\nB\nA\nB\nConsistency\nB\nB\nB\nFrequency and Timeliness\nA\nA\nC\nA\nB\nA\nB\nC\nD\nThe data provided to the Fund have some shortcomings that somewhat hamper surveillance.\nThe data provided to the Fund have serious shortcomings that significantly hamper surveillance.\nRationale for staff assessment. National accounts data are available at adequate frequency and timeliness and provide broadly adequate granularity.\nHowever, some methodological weaknesses somewhat hamper surveillance and warrant an overall sectoral rating for the national accounts of C. Main\nmethodological issues are related to coverage, including (i) an outdated base year (2011/12), (ii) use of wholesale price indices as data sources for\ndeflators due to the lack of producer prices indices, and excessive use of single deflation, which may introduce cyclical biases, (iii) at times sizable\ndiscrepancies between production and expenditure approaches, that may indicate the need to enhance the coverage of the expenditure approach data\nand the informal sector, and (iv) lack of seasonally adjusted data and room for improvement of other statistical techniques used in the quarterly national\naccounts compilation. On granularity, further breakdown of Gross Fixed Capital Formation by institutional sector (published with a significant lag) and\nfurther disaggregation of the quarterly production and expenditure approach estimates would allow for a more detailed analysis of economic trends. On\nprice statistics, CPI is available at adequate frequency and timeliness. The rating granted to coverage reflects the outdated CPI base year, items basket,\nand weights (2011/12), implying that the CPI basket likely fails to accurately represent current spending habits.\nOn government finance statistics, the granularity of available data is broadly adequate, while coverage and timeliness can be improved. Consolidated\ncentral and state government fiscal data have not been published since mid-2019 (covering outturns for FY2015-16), and consolidated general\ngovernment data, which would include local government and extrabudgetary funds, are not compiled. However, the RBI publishes a limited set of\nconsolidated fiscal aggregates with a lag of more than one year. Monthly data on fiscal operations for the central government and individual states are\npublished on a timely basis, but consolidated fiscal accounts across all states are available with a long lag.\nOn the external sector statistics, coverage, frequency and timeliness are adequate, while granularity and consistency present room for improvement.\nThe information on international reserves does not include pledged or encumbered assets and foreign exchange swaps, and additional granularity of\ndata on exports and imports of services would be useful for more detailed analysis.\nMonetary and financial sector statistics are broadly adequate for surveillance, with scope for improvement in coverage and timeliness. In particular,\n</text>\n</passage>\n\n<passage id=\"73\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 67\n\n[section]\nSTAFF APPRAISAL > Figure 1. India: Data Adequacy Assessment for Surveillance\n</context>\n<text>\nOn the external sector statistics, coverage, frequency and timeliness are adequate, while granularity and consistency present room for improvement.\nThe information on international reserves does not include pledged or encumbered assets and foreign exchange swaps, and additional granularity of\ndata on exports and imports of services would be useful for more detailed analysis.\nMonetary and financial sector statistics are broadly adequate for surveillance, with scope for improvement in coverage and timeliness. In particular,\nthere are limited data provided on NBFCs, households, and systemwide financial interconnectedness. Data reported to the IMF International Financial\nStatistics (IFS) database lack some granularity in terms of financial instruments and counterparts. Reported Financial Soundness Indicators (FSI) data use\noutdated reporting forms that lack granularity and could be upgraded based on FSI 2019 Guidelines. Banking sector data are available with a lag of\nabout three quarters, which is behind some other emerging and advanced economies.\nNote: When the questionnaire does not include a question on a specific dimension of data quality for a sector, the corresponding cell is blank.\n1/ The overall data adequacy assessment is based on staff's assessment of the adequacy of the country\u2019s data for conducting analysis and formulating policy advice, and takes\ninto consideration country-specific characteristics.\n2/ The overall questionnaire assessment and the assessments for individual sectors reported in the heatmap are based on a standardized questionnaire and scoring system\n(see IMF Review of the Framework for Data Adequacy Assessment for Surveillance , January 2024, Appendix I).\n3/ The top cell for \"Granularity\" of Government Finance Statistics shows staff's assessment of the granularity of the reported government operations data, while the bottom\ncell shows that of public debt statistics. The top cell for \"Granularity\" of Monetary and Financial Statistics shows staff's assessment of the granularity of the reported\nMonetary and Financial Statistics data, while the bottom cell shows that of the Financial Soundness indicators.\n4/ Given the issues related to coverage, a higher weight is applied to coverage relative to granularity and frequency, thus resulting in an overall \u201cC\u201d rating for national\naccounts.\nThe data provided to the Fund are adequate for surveillance.\nThe data provided to the Fund have some shortcomings but are broadly adequate for surveillance.\nData Quality Characteristics\nGranularity 3/\nData Adequacy Assessment Rating 1/\nB\nQuestionnaire Results 2/\nAssessment\nDetailed Questionnaire Results\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 67\nFigure 1. India: Data Adequacy Assessment for Surveillance (concluded)\nFigure 2. India: Data Standards Initiatives\nUse of data and/or estimates in Article IV consultations in lieu of official statistics available to staff. Staff does not use any data and/or estimates\nin the staff report in lieu of official statistics.\nOther data gaps. Priority should be considered for the Population Census, last conducted in 2011.\nChanges since the last Article IV consultation. Data weaknesses have remained broadly unchanged since the last Article IV consultation, though plans\ntoward upgrading real sector statistics are advancing (see below and Annex VI). The sample design of the Periodic Labour Force Survey was revamped\nfrom January 2025, increasing the frequency of key labor market indicators at the country level to monthly estimates and extending quarterly estimates to\nrural areas. With the release of the March 2025 data (in April 2025), the timeliness of the quick estimate of the industrial production index improved from\nsix weeks to 28 days after the reference month. The timeliness of the Balance of Payments data improved from around 90 to 60 days after the reference\nquarter with the release of the April-June 2025/26 data (in September 2025). The Reserve Bank of India has taken incremental steps towards fiscal data\n</text>\n</passage>\n\n<passage id=\"74\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 67\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL > Figure 2. India: Data Standards Initiatives\n</context>\n<text>\nfrom January 2025, increasing the frequency of key labor market indicators at the country level to monthly estimates and extending quarterly estimates to\nrural areas. With the release of the March 2025 data (in April 2025), the timeliness of the quick estimate of the industrial production index improved from\nsix weeks to 28 days after the reference month. The timeliness of the Balance of Payments data improved from around 90 to 60 days after the reference\nquarter with the release of the April-June 2025/26 data (in September 2025). The Reserve Bank of India has taken incremental steps towards fiscal data\ntransparency of the local governments in India through publications of biennial reports, with consolidated fiscal data of the Municipal Corporations (large\nurban local bodies) and Panchayati Raj Institutions (rural local bodies) in India.\nCorrective actions and capacity development priorities. Work to update the national accounts and CPI series is ongoing, with a planned publication\ndate in early 2026. On the national accounts, the rebasing project includes collection of key data sources for the benchmark revision and update of the\nbase year, methodological improvements in the volume estimates (increasing the compilation detail, minimizing the use of single deflation, increasing the\nnumber of activities using volume extrapolation or, where possible, double deflation), regular use of unincorporated businesses data to better capture\ndynamics in the informal sector, and the assessment additional data sources and use of the supply and use framework to reduce discrepancies. The\nupdate of the CPI base year, weights, and item basket is in progress, based on the results of the 2023-24 Household Consumption and Expenditure\nSurvey. Priorities for capacity development include support in the compilation of the updated national accounts, CPI, and industrial and services\nproduction indices series, and for peer-learning in the producer price index compilation.\nIndia subscribes to the Special Data Dissemination Standard (SDDS) since December 1996 and publishes the data on its National Summary Data Page. The latest SDDS\nAnnual Observance Report is available on the Dissemination Standards Bulletin Board (https://dsbb.imf.org/).\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n68\nINTERNATIONAL MONETARY FUND\nTable 1. India: Table of Common Indicators Required for Surveillance\n(As of September 30, 2025)\nData Provision to the Fund\nPublication under the Data Standards Initiatives through the\nNational Summary Data Page\nDate of Latest Date Received\nFrequency of\nObservation\nData6\nFrequency of\nReporting6\nExpected\nFrequency6,7\nIndia\u2078\nExpected\nTimeliness6,7\nIndia\u2078\nExchange Rates\n09/30/25\n09/30/25\nD\nD\nD\nD\nD\nD\nInternational Reserve Assets and Reserve Liabilities\nof the Monetary Authorities1\n09/19/25\n09/26/25\nW\nW\nM\nM\n1W\n1M\nReserve/Base Money\n09/26/25\n09/30/25\nW\nW\nM\nW\n2W\n1W\nBroad Money\n09/05/25\n09/17/25\nF\nF\nM\nF\n1M\n2W\nCentral Bank Balance Sheet\n09/19/25\n09/26/25\nW\nW\nM\nW\n2W\n1W\nConsolidated Balance Sheet of the Banking System\n09/05/25\n09/18/25\nF\nF\nM\nF\n1M\n2W\nInterest Rates2\n09/30/25\n09/30/25\nD\nD\nD\nD\nD\nD\nConsumer Price Index\nAugust 2025\n09/12/25\nM\nM\nM\nM\n1M\n1M\nRevenue, Expenditure, Balance and Composition of\nFinancing3\u2012General Government4\n2022/23\n12/19/24\nA\nA\nA\nA\n2Q\n9M\nRevenue, Expenditure, Balance and Composition of\nFinancing3\u2012Central Government\nAugust 2025\n09/30/25\nM\nM\nM\nM\n1M\n1M\nStocks of Central Government and Central\nGovernment-Guaranteed Debt5\nJan-Mar 2025\n07/17/25\nQ\nQ\nQ\nQ\n1Q\n1Q\nExternal Current Account Balance\nApr-Jun 2025\n09/01/25\nQ\nQ\nQ\nQ\n1Q\n2M\nExports and Imports of Goods and Services\nAugust 2025\n09/15/25\nM\nM\nM\nM\n8W\nNLT 45D\nGDP/GNP\nApr-Jun 2025\n08/29/25\nQ\nQ\nQ\nQ\n1Q\nNLT 2M\nGross External Debt\nApr-Jun 2025\n09/30/25\nQ\nQ\nQ\nQ\n1Q\n3M\nInternational Investment Position\nApr-Jun 2025\n09/30/25\nQ\nQ\nQ\nQ\n1Q\nQ\n1 Includes reserve assets pledged or otherwise encumbered, as well as net derivative positions.\n2 Both market-based and officially determined, including discount rates, money market rates, rates on treasury bills, notes and bonds.\n</text>\n</passage>\n\n<passage id=\"75\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 69\n\n[section]\nSTAFF APPRAISAL > Table 1. India: Table of Common Indicators Required for Surveillance\n</context>\n<text>\n09/01/25\nQ\nQ\nQ\nQ\n1Q\n2M\nExports and Imports of Goods and Services\nAugust 2025\n09/15/25\nM\nM\nM\nM\n8W\nNLT 45D\nGDP/GNP\nApr-Jun 2025\n08/29/25\nQ\nQ\nQ\nQ\n1Q\nNLT 2M\nGross External Debt\nApr-Jun 2025\n09/30/25\nQ\nQ\nQ\nQ\n1Q\n3M\nInternational Investment Position\nApr-Jun 2025\n09/30/25\nQ\nQ\nQ\nQ\n1Q\nQ\n1 Includes reserve assets pledged or otherwise encumbered, as well as net derivative positions.\n2 Both market-based and officially determined, including discount rates, money market rates, rates on treasury bills, notes and bonds.\n3 Foreign, domestic bank, and domestic nonbank financing.\n4 For India, the general government consists of the central government (budgetary funds, extra budgetary funds, and social security funds) and state governments.\n5 Including currency and maturity composition.\n6 Frequency and timeliness: (\u201cD\u201d) daily; (\u201cW\u201d) weekly or with a lag of no more than one week after the reference date; (\u201cM\u201d) monthly or with lag of no more than one month after the reference date; (\u201cQ\u201d)\nquarterly or with lag of no more than one quarter after the reference date; (\u201cA\u201d) annual.; (\"SA\") semiannual; (\"I\") irregular; (\"NA\") not available or not applicable; and (\"NLT\") not later than.\n7 Encouraged frequency of data and timeliness of reporting under the e-GDDS and required frequency of data and timeliness of reporting under the SDDS and SDDS Plus. Any flexibility options or\ntransition plans used under the SDDS or SDDS Plus are not reflected. For those countries that do not participate in the IMF Data Standards Initiatives, the required frequency and timeliness under the\nSDDS are shown for New Zealand, and the encouraged frequency and timeliness under the e-GDDS are shown for Eritrea, Nauru, South Sudan, and Turkmenistan.\n8 Based on the information from the Summary of Observance for SDDS and SDDS Plus participants, and the Summary of Dissemination Practices for e-GDDS participants, available from the IMF\nDissemination Standards Bulletin Board (https://dsbb.imf.org/). For those countries that do not participate in the Data Standards Initiatives, as well as those that do have a National Data Summary Page,\nthe entries are shown as \"...\"\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 69\nAnnex VIII. 2024 FSAP Key Recommendations\nRecommendations\nAgency\nTiming*\nSystemic Risk Monitoring, Analysis, and Coordination, including Climate\n- Ease data sharing and collect more granular data of households, sectoral financial accounts, liquidity\nindicators of NBFC, and exposures to climate change risks.\n- Improve/establish stress test tools for banks and NBFCs and sectoral and systemwide liquidity stress\ntests for banks, NBFCs, and mutual funds.\nRBI, SEBI,\nMoF\nRBI, SEBI\nMT\nST\nFinancial Sector Oversight\nSystem-wide oversight and macroprudential policy\n- Designate financial stability as the primary mandate of the FSDC and/or the FSDC-Subcommittee.\n- Develop a centralized risk dashboard and assess systemwide risks periodically to manage\ninter-sectoral contagion and the uneven impact of climate change through FSDC.\n- Expand the use of borrower-based measures to all lenders and all household loans. Expand the\nexisting DSTI limit for microfinance loans to all loans and refine the calibration in the future.\n- Start building the (positive neutral) CCyBs.\nFSDC\nRBI, SEBI,\nMoF, IRDAI\nRBI\nRBI\nST\nMT\nST\nST\nCommon themes for regulation and supervision\n- Amend legislation to clearly prioritize financial stability and investor protection objectives over\ndevelopmental objectives of the key regulators.\n- Strengthen powers and programs for supervising financial conglomerates and insurance groups.\n- Amend legislation to limit/redesignate the MoF\u2019s power to intervene in regulatory and supervisory\ndecisions of the RBI and IRDAI and to align corporate governance requirements of state-owned banks\nand insurers with those for private ones.\nRBI, IRDAI,\nSEBI, MoF\nMT\nCybersecurity: Further enhance cyber mapping of the cyber and financial systems and undertake\ncross-sectoral and market-wide crisis simulation exercises and stress tests.\n</text>\n</passage>\n\n<passage id=\"76\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 69\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL > Table 1. India: Table of Common Indicators Required for Surveillance\n</context>\n<text>\n- Strengthen powers and programs for supervising financial conglomerates and insurance groups.\n- Amend legislation to limit/redesignate the MoF\u2019s power to intervene in regulatory and supervisory\ndecisions of the RBI and IRDAI and to align corporate governance requirements of state-owned banks\nand insurers with those for private ones.\nRBI, IRDAI,\nSEBI, MoF\nMT\nCybersecurity: Further enhance cyber mapping of the cyber and financial systems and undertake\ncross-sectoral and market-wide crisis simulation exercises and stress tests.\nMoF, RBI,\nSEBI\nST\nBanks\n- Enforce bank-specific Pillar-2 capital add-ons, which are currently set at zero for all banks.\n- Enhance the credit risk management framework by adopting IFRS 9 with prudential backstops.\nRBI\nST\nInsurers: Complete the transition to a risk-based solvency regime and supervisory approach.\nIRDAI\nST\nNon-bank Financial Companies\n- Align the regulations for state-owned and private-sector-owned NBFCs.\n- Enhance liquidity regulations and oversight of liquidity regulations for NBFCs.\nRBI\nST\nMT\nSecurities: Incorporate risks-based analysis of emerging risk and develop an integrated approach to\nmonitoring conduct risks and internal capacity to undertake systemic mutual fund stress tests.\nSEBI\nST\nCrisis Management and Resolution\n- Finalize the FSDR (resolution) bill in line with the Key Attributes and implement it.\n- Reform the resolution framework for insurers to include requirements for (orderly) voluntary exit.\nMoF,\nregulators\nIRDAI\nMT\nST\nSystemic Liquidity and Emergency and Systemic Liquidity Assistance/Support\n- Continue reducing statutory liquidity ratio (SLR).\n- Set ex-ante guidance to broaden policy options to provide systemic liquidity support and ELA in a\ncrisis, including being operationally ready to expand eligible collaterals with adequate risk controls.\nRBI\nMT\nFinancial System Development\n- Continue enhancing the flexibility of priority sector lending (PSL).\n- Improve the distressed credit restructuring framework by enhancing the out-of-court enforcement\nprocess and the Insolvency and Bankruptcy Code.\n- Introduce covered bond law and create securitization platforms with standardized features.\nRBI\nRBI, MoF\nMoF, RBI\nMT\nST\nMT\n* I-Immediate\u201d is within one year; \u201cST-short-term\u201d is 1\u20133 years; \u201cMT-medium-term\u201d is 3\u20135 years.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n70\nINTERNATIONAL MONETARY FUND\nAnnex IX. Boosting Productivity and Innovation in India1\nIndia\u2019s productivity growth has been sizable in recent decades. That said, further increasing\nproductivity growth will be essential to buttress potential economic growth as India strives to become\nan advanced economy. While productivity in services has grown significantly, productivity in\nmanufacturing has stalled, and there remains great scope to reallocate workers away from low-\nproductivity agriculture. In manufacturing, there are too many small and low-productivity firms,\npointing to a need to remove obstacles to firm growth. Subdued business dynamism is also reflected in\nbarriers to entry and exit of firms. More R&D activity, especially among firms, and narrowing the\ndigital divide could boost productivity and innovation. The financial sector could also play a more\nactive role in fostering innovation. Policies should focus on land and agricultural reforms to facilitate\nthe transition from agriculture to manufacturing and services; facilitating the growth of firms,\nincluding through less burdensome labor regulation and simplification of product market regulation;\nincreased integration into the global economy through removal of trade barriers and facilitation of\nFDI; strengthening India\u2019s innovative capacity through more and better R&D spending; and further\nstrengthening access to finance for companies eager to innovate.\nBirds-Eye View: The Case for Higher Productivity Through Sector Reallocation\n1.\nIndia's productivity growth has been considerable in recent years, but it can increase\nfurther. Between 2000 and 2019, India\u2019s total factor productivity (TFP) growth averaged 1.4 percent\n</text>\n</passage>\n\n<passage id=\"77\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 71\n\n[section]\nSTAFF APPRAISAL > Table 1. India: Table of Common Indicators Required for Surveillance\n</context>\n<text>\nincreased integration into the global economy through removal of trade barriers and facilitation of\nFDI; strengthening India\u2019s innovative capacity through more and better R&D spending; and further\nstrengthening access to finance for companies eager to innovate.\nBirds-Eye View: The Case for Higher Productivity Through Sector Reallocation\n1.\nIndia's productivity growth has been considerable in recent years, but it can increase\nfurther. Between 2000 and 2019, India\u2019s total factor productivity (TFP) growth averaged 1.4 percent\n(Figure 1). This growth rate is high compared to emerging markets and advanced economies, partly\nreflecting India\u2019s lower per capita income.2 Still, India needs to accelerate TFP growth further to\nachieve its goal of becoming an advanced economy.\n1 Prepared by Cristian Alonso, Fang Li, Nujin Suphaphiphat, Ni Wang (all APD) and Jinhyuk Yoo (MCM).\n2 Typically, TFP growth decreases as a country develops, with its firms approaching the technological frontier and resource\nmisallocation declining.\nFigure 1. India: Total Factor Productivity Growth in India and Peers\n-8.0\n-6.0\n-4.0\n-2.0\n0.0\n2.0\n4.0\n6.0\nTFP\nLong-term Average\nTFP Growth in India\n(In percent)\nSource: IMF staff estimates based on PWT.\n-1.0\n-0.5\n0.0\n0.5\n1.0\n1.5\n2.0\n2.5\nAdvanced\nEconomies\nG20 EMs\nEmerging Market\nEconomies\nIndia\nLow Income\nDeveloping\nCountries\nInterquartile Range\nAverage\nTFP Growth\n(CAGR, 2000-2019, TFP at Constant Prices)\nSource: IMF staff estimates based on PWT 10.01 (version using China's national accounts).\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 71\n2.\nTFP growth has been robust in services but flat in manufacturing. A decomposition of\nsectoral TFP change into within-industry, reallocation across industries, and a residual interaction\ncomponent shows distinct dynamics for services and manufacturing (Figure 2). Specifically, we\ndefine the TFP of sector \ud835\udc60 as the average of the TFP in log level of each industry \ud835\udc56, weighted by each\nindustry\u2019s share in sectoral value added. The change in sectoral TFP over time is the sum of the\nwithin component, measuring the contribution from changes in industry TFP alone; the across\ncomponent, measuring the contribution of production reallocation and changes in value added\nshares of industries; and a residual interaction term of the changes in both the industry TFP levels\nand the value-added weights.\n\u0394\ud835\udc47FP\ud835\udc60\u0303 = \u2211\ud835\udc49\ud835\udc4e\ud835\udc59\ud835\udc62\ud835\udc52\ud835\udc34\ud835\udc51\ud835\udc51\ud835\udc52\ud835\udc51\ud835\udc56\n\ud835\udc49\ud835\udc4e\ud835\udc59\ud835\udc62\ud835\udc52\ud835\udc34\ud835\udc51\ud835\udc51\ud835\udc52\ud835\udc51\ud835\udc60\n\u0394\ud835\udc59\ud835\udc5c\ud835\udc54(\ud835\udc47\ud835\udc39\ud835\udc43\ud835\udc56)\n\ud835\udc56\n+ \u2211\u0394 \ud835\udc49\ud835\udc4e\ud835\udc59\ud835\udc62\ud835\udc52\ud835\udc34\ud835\udc51\ud835\udc51\ud835\udc52\ud835\udc51\ud835\udc56\n\ud835\udc49\ud835\udc4e\ud835\udc59\ud835\udc62\ud835\udc52\ud835\udc34\ud835\udc51\ud835\udc51\ud835\udc52\ud835\udc51\ud835\udc60\nlog(\ud835\udc47\ud835\udc39\ud835\udc43\ud835\udc56)\n\ud835\udc56\n+ \u2211\u0394 \ud835\udc49\ud835\udc4e\ud835\udc59\ud835\udc62\ud835\udc52\ud835\udc34\ud835\udc51\ud835\udc51\ud835\udc52\ud835\udc51\ud835\udc56\n\ud835\udc49\ud835\udc4e\ud835\udc59\ud835\udc62\ud835\udc52\ud835\udc34\ud835\udc51\ud835\udc51\ud835\udc52\ud835\udc51\ud835\udc60\n\u0394\ud835\udc59\ud835\udc5c\ud835\udc54(\ud835\udc47\ud835\udc39\ud835\udc43\ud835\udc56)\n\ud835\udc56\nDuring 2007-2022, services industries generally experienced strong TFP growth, with moderate\nproduction reallocation towards high-TFP industries. By contrast, manufacturing industries\nexperienced minimal TFP growth and modest reallocation towards more productive industries.\n3.\nThere is potential for large productivity gains from reallocating labor from agriculture\nto manufacturing and services. The marginal product of labor shows a large and widening gap\nbetween agriculture and the rest of the economy.3 As of FY2022/23, the output of an additional\nworker in services was more than four times that of a worker in agriculture, conditional on\ncomparable education levels. With over 40 percent of workers employed in agriculture, output gains\ncan be substantial if allocation of labor is improved through transitioning agricultural jobs towards\nmanufacturing and services. The slow reallocation of labor away from agriculture reflects structural\nconstraints such as weak property rights on agricultural land (Annex X), fragmented and limited\n3 Labor input is adjusted by education, consistent with the India KLEMS methodology.\nFigure 2. India: TFP and Marginal Product of Labor by Sector\nDecomposing the Change in Sector-level TFP\n(In log difference)\nMarginal Product of Labor\n(In 10,000 of 2011-12 INR)\nSources: India KLEMS; and IMF staff calculations.\nNotes: Taking advantage of the underlying constant-return-to-scale Cobb Douglas gross output production function, the marginal product of\n</text>\n</passage>\n\n<passage id=\"78\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 71\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL > Figure 1. India: Total Factor Productivity Growth in India and Peers\n</context>\n<text>\nconstraints such as weak property rights on agricultural land (Annex X), fragmented and limited\n3 Labor input is adjusted by education, consistent with the India KLEMS methodology.\nFigure 2. India: TFP and Marginal Product of Labor by Sector\nDecomposing the Change in Sector-level TFP\n(In log difference)\nMarginal Product of Labor\n(In 10,000 of 2011-12 INR)\nSources: India KLEMS; and IMF staff calculations.\nNotes: Taking advantage of the underlying constant-return-to-scale Cobb Douglas gross output production function, the marginal product of\nlabor is measured by \ud835\udc40\ud835\udc43\ud835\udc3f\ud835\udc56= \ud835\udefc\ud835\udc56\n\ud835\udc42\ud835\udc62\ud835\udc61\ud835\udc5d\ud835\udc62\ud835\udc61\ud835\udc56\n\ud835\udc3f\ud835\udc4e\ud835\udc4f\ud835\udc5c\ud835\udc5f\ud835\udc56, where \ud835\udefc\ud835\udc56 is the labor share in output, output is in real terms, and labor input is the number of\nemployees adjusted by the labor quality index.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n72\nINTERNATIONAL MONETARY FUND\nsocial protection for migrant workers, lack of transport infrastructure, and limited job creation in\nmanufacturing and services as discussed in more detail below.\nFirm Size Distribution: Raising Productivity by Reducing Factor Misallocation Across Firms\nin Manufacturing\n4.\nIndia has numerous small establishments with substantial paid employment but\nrelatively low productivity (Figure 3).4 Nearly three quarters of manufacturing establishments in\nIndia employ fewer than five paid workers, compared to 38 percent of manufacturing\nestablishments in the United States. By contrast, less than 2 percent of India's establishments have\nmore than 100 paid workers, whereas 9 percent of American establishments do. Mirroring\ndifferences in the size of establishments, India also has a much larger share of employment in small\ncompanies than the U.S. Small companies tend to be less productive than large ones, and the\nrelative difference in productivity between large and small firms is much larger in India than in the\nU.S.: the smallest firms in India are less than 20 percent as productive as large companies, while in\nthe U.S., this ratio is about 45 percent. This puts India at a compounded disadvantage by not only\nhaving more small firms employing a larger share of workers, but also by having a much larger\nproductivity drag in these small firms. Small establishments in India do not seem to have a\ndisproportionately young age distribution. This suggests that their size is not due to many new\nestablishments, but rather to challenges in growing and increasing productivity.\nFigure 3. India: Manufacturing Establishments in India and the U.S.\nSources: IMF staff estimates based on ASI 2022/23, ASUSE 2022/23, and U.S. Economic Census 2022.\n4 We examine the size distribution of manufacturing establishments in India by integrating two nationally\nrepresentative surveys (Annual Survey of Industries, ASI, and Annual Survey of Unincorporated Sector Enterprises,\nASUSE). ASI includes establishments registered under the Factories Act, 1948 (generally firms with 10 or more\nworkers), while ASUSE focuses on the unincorporated non-agricultural sector. The combined dataset results in\ncomprehensive coverage of manufacturing establishments in India, regardless of whether they are registered or not,\nformal or informal, and is similar to the approach in Hasan and Jandoc (2012). We only consider establishments with\npaid workers and define workers as paid workers, aligning with the US Economic Census definitions for\ncomparability. This excludes a significant number of establishments in India operated by the owner or their family\nmembers as unpaid workers. We address the existence of multi-plant establishments in the ASI documented by\nAnand, Subramanian, and Thomas (2024) by splitting each establishment with n plants into n establishments with\naverage employment and financial variables.\n0\n10\n20\n30\n40\n50\n60\n70\n80\n<5\n5-9\n10-19\n20-49\n50-99\n100-249\n250-499\n500+\nEmployees per establishment\nShare of Establishments\n(In percent)\nIndia\nUS\n0\n20\n40\n60\n80\n100\n<5\n5-9\n10-19\n20-49\n50-99\n100-249\n250-499\n500+\nEmployees per establishment\nRelative Productivity\n(In percent, 500+=100)\n</text>\n</passage>\n\n<passage id=\"79\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 73\n\n[section]\nSTAFF APPRAISAL > India has numerous small establishments with substantial paid employment but\n</context>\n<text>\nmembers as unpaid workers. We address the existence of multi-plant establishments in the ASI documented by\nAnand, Subramanian, and Thomas (2024) by splitting each establishment with n plants into n establishments with\naverage employment and financial variables.\n0\n10\n20\n30\n40\n50\n60\n70\n80\n<5\n5-9\n10-19\n20-49\n50-99\n100-249\n250-499\n500+\nEmployees per establishment\nShare of Establishments\n(In percent)\nIndia\nUS\n0\n20\n40\n60\n80\n100\n<5\n5-9\n10-19\n20-49\n50-99\n100-249\n250-499\n500+\nEmployees per establishment\nRelative Productivity\n(In percent, 500+=100)\nIndia\nUS\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 73\nBusiness Dynamism: Raising Productivity by Facilitating Entry and Exit of Firms\n5.\nFirm dynamism, a key potential engine for productivity, remains subdued in India. In\nline with other studies (Chatterjee et al, 2025; Sengupta, 2019), staff analysis suggests that firm\ndynamism in India is relatively low. This is shown by low rates of entry and exit, and a high share of\ninactive or inefficient firms. Entry and exit rates\nare estimated at less than 1 percent, far below the\n8\u201313 percent annual rates typically observed in\neconomies like the U.S., European countries,\nRepublic of Korea and Chile.5,6 Among\ncontinuously operating firms, a significant share\n(15 percent) qualifies as zombie firms,7 which do\nnot generate enough earnings to cover their\ninterest expenses but continue to operate, mostly\nwith very low levels of productivity. Such\npersistence of inefficient firms likely reflects\nstructural rigidities in India\u2019s business environment, including weak insolvency resolution and limited\naccess to exit mechanisms.8 Conversely, low entry rates may reflect the high regulatory compliance\nburdens that discourage entry into the formal sector.\n6.\nA decomposition of TFP growth shows limited productivity gains within firms, while\ninactive firms act as a drag on productivity. The decomposition of TFP growth is based on Melitz\nand Polanec,\n\u2206\ud835\udc43\ud835\udc61= \u2206\ud835\udc43\ud835\udc36\ud835\udc61+ \ud835\udee5\ud835\udc50\ud835\udc5c\ud835\udc63\ud835\udc36\ud835\udc61(\ud835\udf03\ud835\udc56\ud835\udc61,\ud835\udc5d\ud835\udc56\ud835\udc61)+ \ud835\udf03\ud835\udc38\ud835\udc61 (\ud835\udc43\ud835\udc38\ud835\udc61\u2212\ud835\udc43\ud835\udc36\ud835\udc61)+ \ud835\udf03\ud835\udc4b\ud835\udc61 (\ud835\udc43\ud835\udc36(\ud835\udc61\u2212\ud835\udf0f) \u2212\ud835\udc43\ud835\udc4b(\ud835\udc61\u2212\ud835\udf0f)),\n5 Based on a dataset of 2,281 Indian firms (Orbis database), excluding finance, insurance, public sector, and micro\nfirms with fewer than nine employees. The exit and entry rates refer to the share of firms exiting and entering during\n2018-22 to total numbers of firms. Adilbish et al, 2025 and Asturais et al, 2021 documented entry and exit rates for\nfirms in other countries.\n6 These findings are based on a sample of registered, medium and large formal firms and may not fully reflect the\ndynamics of India\u2019s vast informal or micro-enterprise sector. Data limitations\u2014such as underreporting of firm\nclosures, survivor bias, and inconsistent panel coverage\u2014mean actual entry and exit rates may be higher than\nrecorded.\n7 Defined as companies older than 10 years that have an interest coverage ratio (ICR) of less than 1 for at least two\nconsecutive years. Compared to non-zombie firms, zombie firms in India tended to have fewer employees, higher\ndebt-to-asset ratios, and lower cash and equity.\n8 The corporate resolution process remains very slow, with resolution times exceeding double the statutory limit of\n330 days (see Box 2). Additionally, a personal insolvency regime has not been made operational, despite the fact that\nmany MSMEs, classified as sole proprietors or sole traders, are subject to personal bankruptcy systems.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The base year for India's CPI is 2011/12.",
+        "confidence": 1.0,
+        "passage_id": 72,
+        "predicate": "base_year",
+        "qualifiers": [],
+        "quote": "outdated CPI base year, items basket, and weights (2011/12)",
+        "subject_key": null,
+        "subject_surface": "India CPI",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "2011/12"
+        }
+      },
+      {
+        "claim_text": "The base year for India's national accounts is 2011/12.",
+        "confidence": 1.0,
+        "passage_id": 72,
+        "predicate": "base_year",
+        "qualifiers": [],
+        "quote": "outdated base year (2011/12)",
+        "subject_key": null,
+        "subject_surface": "India National Accounts",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "2011/12"
+        }
+      },
+      {
+        "claim_text": "The Population Census of India was last conducted in 2011.",
+        "confidence": 1.0,
+        "passage_id": 73,
+        "predicate": "last_conducted",
+        "qualifiers": [],
+        "quote": "Population Census, last conducted in 2011",
+        "subject_key": null,
+        "subject_surface": "India Population Census",
+        "subject_type": null,
+        "value": {
+          "kind": "date",
+          "raw": "2011"
+        }
+      },
+      {
+        "claim_text": "The sample design of the Periodic Labour Force Survey was revamped from January 2025.",
+        "confidence": 1.0,
+        "passage_id": 73,
+        "predicate": "sample_design_revamped_date",
+        "qualifiers": [],
+        "quote": "The sample design of the Periodic Labour Force Survey was revamped from January 2025",
+        "subject_key": null,
+        "subject_surface": "India Periodic Labour Force Survey",
+        "subject_type": null,
+        "value": {
+          "kind": "date",
+          "raw": "January 2025"
+        }
+      },
+      {
+        "claim_text": "India has subscribed to the Special Data Dissemination Standard (SDDS) since December 1996.",
+        "confidence": 1.0,
+        "passage_id": 74,
+        "predicate": "sdds_subscription_date",
+        "qualifiers": [],
+        "quote": "India subscribes to the Special Data Dissemination Standard (SDDS) since December 1996",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "date",
+          "raw": "December 1996"
+        }
+      },
+      {
+        "claim_text": "For India, the general government consists of the central government and state governments.",
+        "confidence": 1.0,
+        "passage_id": 75,
+        "predicate": "composition",
+        "qualifiers": [],
+        "quote": "For India, the general government consists of the central government (budgetary funds, extra budgetary funds, and social security funds) and state governments.",
+        "subject_key": null,
+        "subject_surface": "India general government",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "the central government (budgetary funds, extra budgetary funds, and social security funds) and state governments"
+        }
+      },
+      {
+        "claim_text": "Between 2000 and 2019, India's total factor productivity (TFP) growth averaged 1.4 percent.",
+        "confidence": 1.0,
+        "passage_id": 76,
+        "predicate": "average_growth_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2000-2019"
+          }
+        ],
+        "quote": "Between 2000 and 2019, India\u2019s total factor productivity (TFP) growth averaged 1.4 percent",
+        "subject_key": null,
+        "subject_surface": "India total factor productivity growth",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "1.4 percent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "As of FY2022/23, over 40 percent of workers in India were employed in agriculture.",
+        "confidence": 1.0,
+        "passage_id": 77,
+        "predicate": "agricultural_employment_share",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "FY2022/23"
+          }
+        ],
+        "quote": "With over 40 percent of workers employed in agriculture",
+        "subject_key": null,
+        "subject_surface": "India workforce",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "over 40 percent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Nearly three quarters of manufacturing establishments in India employ fewer than five paid workers.",
+        "confidence": 1.0,
+        "passage_id": 78,
+        "predicate": "share_employing_fewer_than_five_paid_workers",
+        "qualifiers": [],
+        "quote": "Nearly three quarters of manufacturing establishments in India employ fewer than five paid workers",
+        "subject_key": null,
+        "subject_surface": "India manufacturing establishments",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "Nearly three quarters"
+        }
+      }
+    ]
+  }
+}

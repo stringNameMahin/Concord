@@ -1,0 +1,875 @@
+{
+  "key": "75a848b2c66c0c40ad9b0474e58b848e527334bdf6bd041386e0bafcc9856133",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable.",
+        "role": "system"
+      },
+      {
+        "content": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"16\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nI > 3.\u2002Prospects for 2025-26\n</context>\n<text>\n12-month horizon. The benign inflation outlook\nand moderate growth warrant monetary policy to\nbe growth supportive, while remaining watchful\nabout the rapidly evolving global macroeconomic\nconditions. Accordingly, the MPC in its April 2025\nmeeting unanimously voted to reduce the policy\nrepo rate by 25 bps to 6.0 per cent. Moreover,\n13\tWorld Development Indicators, World Bank.\n14\tThe Union Budget 2025-26 announced the fourth CoE for AI in education with an outlay of \u20b9500 crore.\n\n\nASSESSMENT AND PROSPECTS\n13\nthe MPC also decided to change the stance from\nneutral to accommodative. The Reserve Bank\nwill continue to undertake liquidity management\noperations in sync with the monetary policy\nstance to keep system liquidity adequate to meet\nthe productive requirements of the economy. It\nwill deploy an appropriate mix of instruments to\nmodulate frictional as well as durable liquidity,\nensuring orderly movement of money market\ninterest rates.\nI.50\nIn 2025-26, markets will closely track\nthe implications of tariff policies of the US and\nreciprocal measures by others, as an uncertain\npolicy environment may instil volatility in global\nfinancial markets. Following a correction in\nthe second half of 2024, Indian equity markets\nare expected to remain resilient amidst stable\nmacroeconomic conditions and moderation in\nequity market valuations, although geopolitical\nuncertainty poses downside risk. Resource\nmobilisation through primary market is expected\nto regain momentum as secondary market\nsentiments stabilise. In the short-run, however,\nmarkets may experience volatility reflecting\nglobal policy uncertainty. Amidst accentuation\nof\nthe\ntrend\nin\nprotectionism\nworldwide,\nmeasures to promote the use of INR (i.e.,\ninternationalisation of INR) through increased\naccessibility and acceptability thereof for cross-\nborder transactions, and use of local currencies\nfor cross-border transactions with trade-partner\ncountries are expected to continue during the\nyear as reflected in memoranda of understanding\ntowards local currency settlement signed with\nMaldives and Mauritius in November 2024 and\nMarch 2025, respectively.\nI.51\nThe impetus to growth-inducing capital\nspending would be sustained by the central\ngovernment, with effective capital expenditure\nbudgeted to rise to 4.3 per cent of GDP in 2025-26\nfrom 4.0 per cent in 2024-25 (RE). Moreover, to\nencourage capital spending by states, the central\ngovernment\u2019s financial assistance scheme for\nstates\u2019 capital expenditure has been extended to\n2025-26 with an outlay of \u20b91.5 lakh crore. The\ncentral government adhered to its medium-term\nobjective of bringing the GFD below 4.5 per cent\nof GDP by 2025-26 by targeting the GFD at 4.4\nper cent of GDP in 2025-26 (BE), down from 4.7\nper cent in 2024-25 (RE). From 2026-27 onwards,\nthe central government aims to maintain the fiscal\ndeficit on a trajectory that ensures a declining\npublic debt-to-GDP ratio, reaching around 50\nper cent by end-March 2031. The fiscal outlook\nfor states remains positive for 2025-26 with their\nconsolidated GFD budgeted at 3.3 per cent of\nGDP15. The gross transfer to states from the\ncentre during 2025-26 is budgeted to increase\nby 12.5 per cent, driven mainly by tax devolution,\ncentrally sponsored schemes (CSS) and special\nassistance to states for capital expenditure,\nproviding adequate fiscal headroom to pursue\nhigher capital expenditure.\nI.52\nIndia\u2019s merchandise exports are expected\nto be uncertain from a projected slowdown in\nglobal trade due to downside risks emanating\nfrom ongoing geopolitical conflicts, geoeconomic\nfragmentation and policy uncertainty. However,\n15\tData pertain to 28 states and 3 union territories which have presented their budget for 2025-26.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"17\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nI > 3.\u2002Prospects for 2025-26\n</context>\n<text>\ncentrally sponsored schemes (CSS) and special\nassistance to states for capital expenditure,\nproviding adequate fiscal headroom to pursue\nhigher capital expenditure.\nI.52\nIndia\u2019s merchandise exports are expected\nto be uncertain from a projected slowdown in\nglobal trade due to downside risks emanating\nfrom ongoing geopolitical conflicts, geoeconomic\nfragmentation and policy uncertainty. However,\n15\tData pertain to 28 states and 3 union territories which have presented their budget for 2025-26.\n\n\nANNUAL REPORT 2024-25\n14\nthe ongoing trade agreement negotiations\nwith several trade partners may facilitate\nIndia\u2019s greater participation in global trade.\nThe expansion of key export sectors including\nelectronics, pharmaceuticals, engineering goods\nand agriculture, coupled with innovations in\ne-commerce and digital trade, would benefit\nIndia\u2019s export growth16.\nI.53\nRobust outlook for India\u2019s services trade\nbalance and inward remittance receipts is\nexpected to support CAD to remain well within\nthe sustainable limit during 2025-26. Moreover,\nthe inclusion of Indian sovereign bonds in\nglobal bond indices and raising the FDI cap in\ninsurance sector to 100 per cent from 74 per\ncent earlier, as announced in the Union Budget\n2025-26, should continue to bolster foreign\ninvestment flows. Additionally, export friendly\nenvironment and nurturing of India\u2019s comparative\nadvantage, harnessing the potential of regional\ntrade agreements, greater Indian participation in\nglobal value chains (GVCs), diversifying India\u2019s\nmerchandise trade and services baskets to\nnew frontiers and leveraging international trade\nin INR would boost India\u2019s exports and further\nstrengthen the resilience of India\u2019s external\nsector, going forward.\nI.54\nIndian banking sector has been resilient,\nalthough\nheightened\nglobal\nuncertainties\nunderscore the importance of proactive risk\nmanagement. Considering the dynamic nature of\nthe interest rate risk, banks need to address both\ntrading and banking book risks, especially in light\nof moderation in NIM.\nI.55\nDespite some moderation, NBFCs remain\nsignificantly dependent on banks for funding,\nunderscoring the need for greater diversification\nof their funding sources. Scale-based regulatory\nframework is expected to further improve\ngovernance and risk management.\nI.56\nIn order to make the financial system more\nresilient, sound, safe and inclusive, the Reserve\nBank would be undertaking several initiatives in\nareas such as regulation, supervision, FinTech,\npayment systems, customer protection and\nfinancial inclusion. Moreover, the Reserve Bank\nwould leverage on technology towards providing\nsecure, accessible, affordable and an efficient\nfinancial sector.\nI.57\nIn the regulatory space, the Reserve Bank\nwould  consolidate and streamline regulations\nto improve business efficiency and simplify\ncompliance. The PRAVAAH17 portal, which\nwas launched in May 2024, has now been\nmade mandatory w.e.f. May 1, 2025 for REs to\nsubmit their applications to the Reserve Bank.\nIt will continue to improve the efficiency and\neffectiveness of the portal.\nI.58\nThe Reserve Bank would continue with the\nsupervisory initiatives aimed at early identification\nof risks and vulnerabilities, increasing the focus\non root cause of vulnerabilities, and harmonising\nthe supervisory rigour across various segments\nof the financial system. Further, the Reserve\nBank would focus on enhancing cyber resilience\nand capabilities of supervised entities (SEs) by\nimplementing recommendations of the inter-\nregulatory Working Group on uniformity in baseline\ncybersecurity guidelines of financial entities.\n16\tPIB (2025), \u2018India\u2019s Exports Reach Historic Heights\u2019, Ministry of Commerce and Industry, Government of India, February 1.\n17\tPlatform for Regulatory Application, Validation and Authorisation (PRAVAAH), launched on May 28, 2024, is a unified and secure portal\nfor submission of applications for regulatory approvals, authorisations and licenses from the Reserve Bank.\n\n\nASSESSMENT AND PROSPECTS\n</text>\n</passage>\n\n<passage id=\"18\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nI > 3.\u2002Prospects for 2025-26\n</context>\n<text>\nimplementing recommendations of the inter-\nregulatory Working Group on uniformity in baseline\ncybersecurity guidelines of financial entities.\n16\tPIB (2025), \u2018India\u2019s Exports Reach Historic Heights\u2019, Ministry of Commerce and Industry, Government of India, February 1.\n17\tPlatform for Regulatory Application, Validation and Authorisation (PRAVAAH), launched on May 28, 2024, is a unified and secure portal\nfor submission of applications for regulatory approvals, authorisations and licenses from the Reserve Bank.\n\n\nASSESSMENT AND PROSPECTS\n15\nI.59\nThe Reserve Bank would further expand the\nscope and coverage of ongoing pilots in e\u20b9-Retail\nand e\u20b9-Wholesale by introducing new use cases\nand features, besides bringing improvements to\ntechnological aspects of the account aggregator\nframework to enhance transparency, customer\nconvenience and efficiency. Moreover, the\nReserve Bank is exploring commencement of\nCBDC pilots on cross-border payments both on\nbilateral and multilateral basis to overcome key\nchallenges related to turnaround time, efficiency\nand transparency.\nI.60\nAs Payments Vision 2025 culminates in\n2025-26, the Reserve Bank will embark upon\ndrafting a new Payments Vision document, which\nwould aim to build on the growth of payment\nsystems in the last decade and provide further\nimpetus to entities in the payments ecosystem\nto develop and deploy solutions in this space. A\nsurvey on usage of digital payments will\nbe\nconducted\nto\nfacilitate\nevidence-based\ndecision making, which will lay the groundwork\nfor a more inclusive payments ecosystem.\nInternationalisation of domestic payment systems\nwill also remain a key priority and the Reserve\nBank will continue to explore collaboration with\nother countries on bilateral as well as multilateral\nlevel.\nI.61\nAs digital payments continue to rise, the\nReserve Bank\u2019s commitment to enhancing\nsecurity, customer protection and fraud prevention\nwill remain key priorities in 2025-26. The Digital\nPayments Intelligence Platform is being planned,\nwhich will leverage advanced technologies to\ncurb payment related frauds.\nI.62\nThe Reserve Bank would continue to\nfocus on ensuring availability of accessible and\naffordable banking services to all sections of\nsociety and strengthening the credit delivery\nsystem to cater to the needs of productive\nsectors of the economy, particularly agriculture,\nand micro and small enterprises. Towards this\nend, a technology-based initiative in the form\nof Unified Lending Interface (ULI) has been\noperationalised through Reserve Bank Innovation\nHub (RBIH) which is aimed at improving access\nand enhancing efficiency in terms of turnaround\ntime, cost and convenience among the borrowers\nin the agriculture, dairy and MSME segments.\nThe Reserve Bank issued the revised Master\nDirections on PSL, which has come into effect\nfrom April 1, 2025. Moreover, a review of Financial\nInclusion Index (FI-Index) would be undertaken\nin 2025-26.\nI.63\nA review of citizens\u2019 charter would be\nundertaken by the Reserve Bank towards\nfurther improving the timeliness of regulatory\napprovals and citizen centric services. Moreover,\nto enhance quality and speed of grievance\nresolution under the Reserve Bank - Integrated\nOmbudsman Scheme, 2021, the Reserve Bank\nshall be undertaking a review of the Scheme and\nembarking upon technology driven initiatives,\nespecially the upgradation of the complaint\nmanagement system. The Reserve Bank will also\nfocus on strengthening the internal grievance\nredressal processes of the regulated entities for\nenhanced customer satisfaction.\n4. Conclusion\nI.64\nTo sum up, the Indian economy exhibited\nresilience during 2024-25, supported by strong\nmacroeconomic fundamentals and proactive\npolicy measures, amidst protracted geopolitical\ntensions\nand\ngeoeconomic\nfragmentation.\nInflation moderated during the year, moving\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"19\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nI > 3.\u2002Prospects for 2025-26\n</context>\n<text>\nespecially the upgradation of the complaint\nmanagement system. The Reserve Bank will also\nfocus on strengthening the internal grievance\nredressal processes of the regulated entities for\nenhanced customer satisfaction.\n4. Conclusion\nI.64\nTo sum up, the Indian economy exhibited\nresilience during 2024-25, supported by strong\nmacroeconomic fundamentals and proactive\npolicy measures, amidst protracted geopolitical\ntensions\nand\ngeoeconomic\nfragmentation.\nInflation moderated during the year, moving\n\n\nANNUAL REPORT 2024-25\n16\ncloser to the target, largely due to easing input\ncost pressures, proactive supply-side measures\nand the continued impact of past monetary policy\nactions. The strength of the financial sector,\nreflected in improved asset quality and well-\ncapitalised banks, further supported economic\nactivity. Amidst multiple global headwinds, the\nIndian financial markets demonstrated resilience\nand orderly movements. The central government\nsustained\nits\nfiscal\nconsolidation\nefforts,\nsupported by buoyant tax revenues and prudent\nexpenditure management. On the external front,\nmerchandise trade deficit was offset by robust\nservices exports and steady remittance inflows,\nkeeping the CAD at a sustainable level.\nI.65\nGoing\nforward,\nglobal\nfinancial\nmarket volatility, geopolitical tensions, trade\nfragmentation, supply chain disruptions and\nclimate-induced uncertainties pose downside\nrisks to the growth outlook and upside risks to the\ninflation outlook. However, the Indian economy\nis poised to remain the fastest-growing major\neconomy in 2025-26 by leveraging its sound\nmacroeconomic fundamentals, robust financial\nsector and commitment towards sustainable\ngrowth.\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"20\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nI > 4. Conclusion\n</context>\n<text>\nkeeping the CAD at a sustainable level.\nI.65\nGoing\nforward,\nglobal\nfinancial\nmarket volatility, geopolitical tensions, trade\nfragmentation, supply chain disruptions and\nclimate-induced uncertainties pose downside\nrisks to the growth outlook and upside risks to the\ninflation outlook. However, the Indian economy\nis poised to remain the fastest-growing major\neconomy in 2025-26 by leveraging its sound\nmacroeconomic fundamentals, robust financial\nsector and commitment towards sustainable\ngrowth.\n\n\nECONOMIC REVIEW\n17\nECONOMIC REVIEW\nII\nII.1.1\nThe global economic expansion was\nsteady in 2024 albeit uneven, amidst geopolitical\ntensions,\ngeoeconomic\nfragmentation\nand\nheightened trade tensions. Financial conditions\nturned less restrictive as major central banks\nembarked on monetary policy easing. Global\nGDP grew by 3.3 per cent in 2024 (3.5 per cent\na year ago)1. Global inflation eased to 5.7 per\ncent in 2024 from 6.6 per cent a year ago as the\neffect of monetary tightening took hold along with\nthe easing of supply chain pressures; however,\nit was still above the pre-pandemic average,\nwith elevated services inflation persisting in\nsome major advanced economies. Pandemic-\ninduced fiscal policy measures and gradual fiscal\nconsolidation continued to exert upward pressure\non the global public debt-GDP ratio, which is\nexpected to approach 100 per cent by 20302.\nGlobal goods and services trade volume growth\nrecovered to 3.8 per cent in 2024 from 1.0 per\ncent in 20233, supported by strong services trade\ngrowth and normalising of supply chains. Global\nfinancial markets exhibited bouts of volatility\nover inflated valuations, uncertain trajectory of\nmonetary policy, disinflation losing pace, rising\ntrade tensions and geopolitical risks. Sovereign\nbond yields softened in the first half of 2024 to\nrise again during the second half of the year. The\nUS dollar remained firm through the year, putting\ndownward pressure on other advanced economy\n(AE) and emerging market economy (EME)\ncurrencies.\nII.1.2\nAgainst this challenging global economic\nlandscape,\nthe\nIndian\neconomy\nremained\nresilient, supported by robust macroeconomic\nfundamentals and proactive policy measures.\nAlthough real gross domestic product (GDP)\ngrowth moderated to 6.5 per cent4 in 2024-25,\nIndia remained the fastest growing large\neconomy. Economic activity was bolstered by\nan improvement in consumption demand and\nnet exports on the expenditure side and buoyant\nservices sector and recovery in agricultural\nproduction on the supply side.\nThe Indian economy exhibited resilience during 2024-25, supported by robust macroeconomic fundamentals\nand proactive policy measures, amidst persisting geopolitical tensions and geoeconomic fragmentation. Headline\ninflation moderated, although the pace of disinflation was impeded by elevated and volatile food inflation. Deposit\nand credit exhibited double digit growth. Fiscal consolidation continued both at the centre and state level. The\ncontinued strength of the external sector, as reflected in adequate forex reserves and modest current account\ndeficit, supported macroeconomic and financial stability.\n1\t World Economic Outlook (WEO), April 2025, International Monetary Fund (IMF).\n2\t Fiscal Monitor, April 2025, IMF.\n3\t WEO, April 2025, IMF.\n4\t Refer to footnote 3 of Chapter I of this Report.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"21\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII\n</context>\n<text>\ninflation moderated, although the pace of disinflation was impeded by elevated and volatile food inflation. Deposit\nand credit exhibited double digit growth. Fiscal consolidation continued both at the centre and state level. The\ncontinued strength of the external sector, as reflected in adequate forex reserves and modest current account\ndeficit, supported macroeconomic and financial stability.\n1\t World Economic Outlook (WEO), April 2025, International Monetary Fund (IMF).\n2\t Fiscal Monitor, April 2025, IMF.\n3\t WEO, April 2025, IMF.\n4\t Refer to footnote 3 of Chapter I of this Report.\n\n\nANNUAL REPORT 2024-25\n18\nII.1.3\nHeadline inflation moderated further\nduring 2024-25. While food inflation remained\nvolatile\nand\nelevated,\ncore\ndisinflation\nin\nboth goods and services and deflation in fuel\ncontributed to softening of headline inflation,\npaving the way for progressive alignment of\nheadline inflation with the target.\nII.1.4\nBoth central and state governments\npursued fiscal consolidation during 2024-25. The\ntax receipts of both central and state governments\nremained robust. On the capital expenditure\nfront, the central government and states recorded\nmodest growth on a year-on-year basis.\nII.1.5\nDomestic\nfinancial\nmarkets\nbroadly\nevolved in an orderly manner during 2024-25.\nMoney market rates largely remained range-\nbound, and generally aligned with the policy repo\nrate even as system liquidity oscillated between\nsurplus and deficit conditions. Issuances of\ncertificates of deposit (CDs) increased as credit\ngrowth remained robust, although there was\nnarrowing of the gap between credit and deposit\ngrowth. Sovereign bond yields softened steadily\nin H1:2024-25 on fiscal consolidation, inclusion of\nIndian government bonds (IGBs) in major global\nbond indices and decline in crude oil prices.\nHowever, they exhibited two-way movements in\nthe latter half of the year and fell sharply after the\nReserve Bank initiated the policy easing cycle\nin the February policy meeting. Equity market\nregistered strong gains in the first half of the year\nbefore correcting in H2:2024-25. A modest current\naccount deficit and adequate forex reserves\nimparted resilience to the external sector even as\ncapital flows exhibited volatility.\nII.1.6\nAgainst this backdrop, the rest of the\nchapter is structured into six sections. An analysis\nof the real economy is presented in section\n2 followed by that of inflation and its drivers\nin section 3. The developments in monetary\naggregates and financial markets are presented\nin sections 4 and 5, respectively. The evolution\nof government finances (centre and states)\nis discussed in section 6, and external sector\ndynamics are covered in section 7.\nII.2\u2002THE REAL ECONOMY\nII.2.1\nThe Indian economy exhibited resilience\nin 2024-25, supported by robust macroeconomic\nfundamentals and proactive policy measures.\nEconomic activity recovered in H2:2024-25\nfrom the trough in Q2:2024-25, supported by\nbuoyant rural demand, recovery in government\nexpenditure, improved agriculture sector and\nresilient services sector activity. The financial\nsystem remains sound and well-capitalised,\nunderpinned by the healthy balance sheets of\nfinancial institutions and corporates.\nII.2.2\nAn assessment of aggregate demand\nand its major components is etched out in sub-\nsection 2. The developments in aggregate\nsupply conditions in terms of the performance of\nagriculture, industry and services are presented\nin sub-section 3. Employment and labour market\ndynamics are discussed in sub-section 4, with\nconcluding observations in sub-section 5.\n2.\u2002Aggregate Demand\nII.2.3\nAggregate demand \u2013 measured by\nGDP at constant prices \u2013 is estimated to have\ngrown by 6.5 per cent in 2024-25, as compared\nwith 9.2 per cent a year ago (Table II.2.1 and\nAppendix Table 1). While growth in consumption\nexpenditure and export demand accelerated\nduring the year, that in fixed investment recorded\na moderation (Appendix Table 2). In terms of\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"22\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > II.2\u2002THE REAL ECONOMY\n</context>\n<text>\nin sub-section 3. Employment and labour market\ndynamics are discussed in sub-section 4, with\nconcluding observations in sub-section 5.\n2.\u2002Aggregate Demand\nII.2.3\nAggregate demand \u2013 measured by\nGDP at constant prices \u2013 is estimated to have\ngrown by 6.5 per cent in 2024-25, as compared\nwith 9.2 per cent a year ago (Table II.2.1 and\nAppendix Table 1). While growth in consumption\nexpenditure and export demand accelerated\nduring the year, that in fixed investment recorded\na moderation (Appendix Table 2). In terms of\n\n\nECONOMIC REVIEW\n19\nquarterly trajectory, real GDP rose (y-o-y) by 6.5\nper cent in Q1:2024-25; growth softened to 5.6\nper cent in Q2, inter alia, on excess rainfall which\ndampened mining output and electricity demand\nand restrained government expenditure5. The\neconomy, however, picked up momentum in Q3\nto grow by 6.2 per cent (Chart II.2.1).\nConsumption\nII.2.4 \t Growth in private final consumption\nexpenditure (PFCE) \u2013 the main component of\naggregate demand \u2013 improved to 7.6 per cent in\n2024-25, buoyed by rural consumption demand\neven though urban demand exhibited some\nmoderation. The share of PFCE in real GDP\nincreased to 56.7 per cent in 2024-25. Good\nagricultural performance boosted rural demand\nas seen from its proximate indicators, viz., sales\nof two-wheelers, motorcycles and tractors,\nand volume growth of fast-moving consumer\ngoods (FMCG) companies in rural areas. Urban\ndemand, after remaining the driver of post-\npandemic consumption, lost pace as reflected in\nindicators such as consumer non-durables, retail\npassenger vehicle sales and FMCG volumes\nin urban areas. Government final consumption\nexpenditure (GFCE) grew at a modest 3.8 per\ncent in 2024-25, following a robust expansion of\n8.1 per cent during 2023-24. With exports growth\noutpacing that of imports, net exports contributed\npositively to GDP growth (Chart II.2.2).\nInvestment and Saving\nII.2.5 \t The rate of gross domestic investment\nin the Indian economy, measured by the ratio of\ngross capital formation (GCF) to GDP at current\nprices, declined to 31.4 per cent in 2023-24 from\nTable II.2.1: Real GDP Growth\n(Per cent)\nComponent\n2020-21 2021-22 2022-23 2023-24 2024-25\n1\n2\n3\n4\n5\n6\nI. \t Total\nConsumption\nExpenditure\n-4.6\n9.8\n7.0\n5.9\n7.1\nPrivate\n-5.3\n11.7\n7.5\n5.6\n7.6\nGovernment\n-0.8\n0.0\n4.3\n8.1\n3.8\nII. \tGross Capital\nFormation\n-10.6\n25.4\n3.5\n7.3\n5.8\nGross Fixed\nCapital\nFormation\n-7.1\n17.5\n8.4\n8.8\n6.1\nChange in\nStocks\n-76.4\n525.4\n24.3\n53.4\n4.3\nValuables\n29.9\n32.5\n-16.9\n14.4\n1.0\nIII. \tNet Exports\nExports\n-7.0\n29.6\n10.3\n2.2\n7.1\nImports\n-12.6\n22.1\n8.9\n13.8\n-1.1\nIV. \tGDP\n-5.8\n9.7\n7.6\n9.2\n6.5\nSource: NSO.\n5\t In H1:2024-25, the central government\u2019s revenue expenditure grew by 4.2 per cent, with capital expenditure contracting by 15.4 per cent.\nFor state governments (22 states), while revenue expenditure increased by 10.2 per cent, capital expenditure contracted by 6.9 per cent.\nY-o-Y: Year-on-Year.   Q-o-Q: Quarter-on-Quarter.   MA: Moving Average.\nSAAR: Seasonally Adjusted Annualised Rate.\nSource: NSO and RBI staff estimates.\nPer cent\nChart II.2.1: Real GDP Growth - Quarterly\n0\n2\n4\n6\n8\n10\n12\n14\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\n2022-23\n2023-24\n2024-25\nY-o-Y growth\nQ-o-Q SAAR\n3Q MA - SAAR\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"23\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.2.1: Real GDP Growth\n</context>\n<text>\n5\t In H1:2024-25, the central government\u2019s revenue expenditure grew by 4.2 per cent, with capital expenditure contracting by 15.4 per cent.\nFor state governments (22 states), while revenue expenditure increased by 10.2 per cent, capital expenditure contracted by 6.9 per cent.\nY-o-Y: Year-on-Year.   Q-o-Q: Quarter-on-Quarter.   MA: Moving Average.\nSAAR: Seasonally Adjusted Annualised Rate.\nSource: NSO and RBI staff estimates.\nPer cent\nChart II.2.1: Real GDP Growth - Quarterly\n0\n2\n4\n6\n8\n10\n12\n14\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\n2022-23\n2023-24\n2024-25\nY-o-Y growth\nQ-o-Q SAAR\n3Q MA - SAAR\n\n\nANNUAL REPORT 2024-25\n20\n32.6 per cent in the preceding year, wholly due\nto a reduction in net capital inflow from the rest\nof the world (ROW), which fell to 0.7 per cent of\nGDP in 2023-24 from 2.0 per cent in the previous\nyear. Available information for 2024-25 indicates\nan easing in growth of constituents of GCF.\nGrowth in gross fixed capital formation (GFCF)\n\u2013 a primary component of GCF \u2013 moderated to\n6.1 per cent in 2024-25 from 8.8 per cent in the\nprevious year. It may be noted that government\ncapital outlay (Centre and states6 combined)\ndeclined by 2.7 per cent (y-o-y) during 2024-25\n(up to February 2025) as compared with a growth\nof 31.2 per cent in the corresponding period of\n2023-24. The softening in GFCF was mirrored\nin its key coincident indicators, including steel\nconsumption, cement production, and production\nand imports of capital goods (Chart II.2.3).\nSeasonally adjusted capacity utilisation (CU)\nof the manufacturing sector at 75.3 per cent\nin Q3:2024-25 was higher than the preceding\nquarter and its level in the corresponding quarter\na year ago7. As per the results of the Reserve\nBank\u2019s 109th industrial outlook survey (IOS),\nmanufacturing firms reported an improvement in\ndemand conditions in Q4:2024-25.\nII.2.6 \t Gross domestic saving as per cent\nto gross national disposable income (GNDI)\nremained steady at 30.3 per cent in 2023-24\nprimarily due to a decline in general government\u2019s\ndissaving. Further, as against the increase in\nhousehold liabilities to 6.1 per cent of GNDI, the\ngross financial saving of households increased\nto 11.2 per cent of GNDI in 2023-24 from 10.7\nper cent in the previous year. Resultantly,\nhousehold financial saving (net) improved to\n5.1 per cent of GNDI in 2023-24 from 4.9 per\ncent in the previous year (Table II.2.2 and\nAppendix Table 3).\n6\t Data pertain to 20 states.\n7\t Based on order books, inventories and capacity utilisation survey (OBICUS) of the Reserve Bank.\nPercentage points\nChart II.2.2: Weighted Contribution to GDP Growth\nGross Fixed Capital Formation\nNet Exports\nGovernment Final Consumption Expenditure\nPrivate Final Consumption Expenditure\nGDP (Y-o-Y growth, per cent)\nNote: Component-wise contributions do not add up to the growth rate as\nchange in stocks, valuables and statistical discrepancies are not included.\nSource: NSO.\n6.5\n-8\n-4\n0\n4\n8\n12\n16\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nGrowth (per cent, y-o-y)\nChart II.2.3: Indicators of Investment Demand\nSteel Consumption\nIIP Capital Goods\nCement Production\nImports of Capital Goods\nSource: Joint Plant Committee, Office of Economic Adviser, NSO and\nDirectorate General of Commercial Intelligence and Statistics (DGCI&S).\n11.9\n12.3\n6.6\n7.9\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\nQ1:2023-24\nQ2:2023-24\nQ3:2023-24\nQ4:2023-24\nQ1:2024-25\nQ2:2024-25\nQ3:2024-25\nQ4:2024-25\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "extractionout",
+        "schema": {
+          "$defs": {
+            "FactOut": {
+              "properties": {
+                "claim_text": {
+                  "description": "One self-contained sentence stating the fact",
+                  "title": "Claim Text",
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "title": "Confidence",
+                  "type": "number"
+                },
+                "passage_id": {
+                  "description": "id of the passage this fact and its quote came from",
+                  "title": "Passage Id",
+                  "type": "integer"
+                },
+                "predicate": {
+                  "description": "Lower snake_case relation name",
+                  "title": "Predicate",
+                  "type": "string"
+                },
+                "qualifiers": {
+                  "items": {
+                    "$ref": "#/$defs/QualifierOut"
+                  },
+                  "title": "Qualifiers",
+                  "type": "array"
+                },
+                "quote": {
+                  "description": "Verbatim span copied from the document",
+                  "title": "Quote",
+                  "type": "string"
+                },
+                "subject_key": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Hard identifier for the subject if the document gives one",
+                  "title": "Subject Key"
+                },
+                "subject_surface": {
+                  "title": "Subject Surface",
+                  "type": "string"
+                },
+                "subject_type": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "title": "Subject Type"
+                },
+                "value": {
+                  "$ref": "#/$defs/ValueOut"
+                }
+              },
+              "required": [
+                "passage_id",
+                "claim_text",
+                "subject_surface",
+                "predicate",
+                "value",
+                "quote",
+                "confidence"
+              ],
+              "title": "FactOut",
+              "type": "object"
+            },
+            "QualifierOut": {
+              "properties": {
+                "key": {
+                  "description": "Lower snake_case condition name",
+                  "title": "Key",
+                  "type": "string"
+                },
+                "provenance": {
+                  "enum": [
+                    "stated",
+                    "inherited"
+                  ],
+                  "title": "Provenance",
+                  "type": "string"
+                },
+                "value": {
+                  "title": "Value",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "value",
+                "provenance"
+              ],
+              "title": "QualifierOut",
+              "type": "object"
+            },
+            "ValueOut": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "quantity",
+                    "text",
+                    "date",
+                    "boolean"
+                  ],
+                  "title": "Kind",
+                  "type": "string"
+                },
+                "raw": {
+                  "description": "The value exactly as written in the document",
+                  "title": "Raw",
+                  "type": "string"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Magnitude word such as million or crore, if any",
+                  "title": "Scale"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Currency code or unit of measure, as written",
+                  "title": "Unit"
+                }
+              },
+              "required": [
+                "kind",
+                "raw"
+              ],
+              "title": "ValueOut",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "facts": {
+              "items": {
+                "$ref": "#/$defs/FactOut"
+              },
+              "title": "Facts",
+              "type": "array"
+            }
+          },
+          "title": "ExtractionOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The MPC in its April 2025 meeting unanimously voted to reduce the policy repo rate by 25 bps to 6.0 per cent.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "policy_repo_rate",
+        "quote": "The MPC in its April 2025 meeting unanimously voted to reduce the policy repo rate by 25 bps to 6.0 per cent.",
+        "subject_surface": "MPC",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.0 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The MPC also decided to change the stance from neutral to accommodative.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "monetary_policy_stance",
+        "quote": "the MPC also decided to change the stance from neutral to accommodative.",
+        "subject_surface": "MPC",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "accommodative"
+        }
+      },
+      {
+        "claim_text": "Effective capital expenditure budgeted to rise to 4.3 per cent of GDP in 2025-26 from 4.0 per cent in 2024-25 (RE).",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "effective_capital_expenditure_as_percent_of_gdp",
+        "quote": "effective capital expenditure budgeted to rise to 4.3 per cent of GDP in 2025-26 from 4.0 per cent in 2024-25 (RE).",
+        "subject_surface": "central government",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.3 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The central government\u2019s financial assistance scheme for states\u2019 capital expenditure has been extended to 2025-26 with an outlay of \u20b91.5 lakh crore.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "financial_assistance_scheme_outlay",
+        "quote": "the central government\u2019s financial assistance scheme for states\u2019 capital expenditure has been extended to 2025-26 with an outlay of \u20b91.5 lakh crore.",
+        "subject_surface": "central government",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b91.5 lakh crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "The central government aims to maintain the fiscal deficit on a trajectory that ensures a declining public debt-to-GDP ratio, reaching around 50 per cent by end-March 2031.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "public_debt_to_gdp_ratio_target",
+        "quote": "the central government aims to maintain the fiscal deficit on a trajectory that ensures a declining public debt-to-GDP ratio, reaching around 50 per cent by end-March 2031.",
+        "subject_surface": "central government",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "50 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The consolidated GFD budgeted at 3.3 per cent of GDP for 2025-26.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "consolidated_government_fiscal_deficit_as_percent_of_gdp",
+        "quote": "The fiscal outlook for states remains positive for 2025-26 with their consolidated GFD budgeted at 3.3 per cent of GDP15.",
+        "subject_surface": "states",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.3 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The gross transfer to states from the centre during 2025-26 is budgeted to increase by 12.5 per cent.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "gross_transfer_to_states_increase_rate",
+        "quote": "The gross transfer to states from the centre during 2025-26 is budgeted to increase by 12.5 per cent, driven mainly by tax devolution, centrally sponsored schemes (CSS) and special assistance to states for capital expenditure, providing adequate fiscal headroom to pursue higher capital expenditure.",
+        "subject_surface": "central government",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "12.5 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The Union Budget 2025-26 announced the fourth CoE for AI in education with an outlay of \u20b9500 crore.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "cof_ai_education_outlay",
+        "quote": "The Union Budget 2025-26 announced the fourth CoE for AI in education with an outlay of \u20b9500 crore.",
+        "subject_surface": "Union Budget 2025-26",
+        "subject_type": "document",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b9500 crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "India\u2019s merchandise exports are expected to be uncertain from a projected slowdown in global trade due to downside risks emanating from ongoing geopolitical conflicts, geoeconomic fragmentation and policy uncertainty.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "merchandise_exports_outlook",
+        "quote": "India\u2019s merchandise exports are expected to be uncertain from a projected slowdown in global trade due to downside risks emanating from ongoing geopolitical conflicts, geoeconomic fragmentation and policy uncertainty.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "uncertain"
+        }
+      },
+      {
+        "claim_text": "The expansion of key export sectors including electronics, pharmaceuticals, engineering goods and agriculture, coupled with innovations in e-commerce and digital trade, would benefit India\u2019s export growth.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "export_sector_expansion",
+        "quote": "The expansion of key export sectors including electronics, pharmaceuticals, engineering goods and agriculture, coupled with innovations in e-commerce and digital trade, would benefit India\u2019s export growth16.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "would benefit export growth"
+        }
+      },
+      {
+        "claim_text": "Robust outlook for India\u2019s services trade balance and inward remittance receipts is expected to support CAD to remain well within the sustainable limit during 2025-26.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "current_account_deficit_outlook",
+        "quote": "Robust outlook for India\u2019s services trade balance and inward remittance receipts is expected to support CAD to remain well within the sustainable limit during 2025-26.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "well within the sustainable limit"
+        }
+      },
+      {
+        "claim_text": "The inclusion of Indian sovereign bonds in global bond indices and raising the FDI cap in insurance sector to 100 per cent from 74 per cent earlier, as announced in the Union Budget 2025-26, should continue to bolster foreign investment flows.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "fdi_cap_in_insurance_sector",
+        "quote": "the inclusion of Indian sovereign bonds in global bond indices and raising the FDI cap in insurance sector to 100 per cent from 74 per cent earlier, as announced in the Union Budget 2025-26, should continue to bolster foreign investment flows.",
+        "subject_surface": "Union Budget 2025-26",
+        "subject_type": "document",
+        "value": {
+          "kind": "quantity",
+          "raw": "100 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The Reserve Bank would be undertaking several initiatives in areas such as regulation, supervision, FinTech, payment systems, customer protection and financial inclusion.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "reserve_bank_initiatives",
+        "quote": "In order to make the financial system more resilient, sound, safe and inclusive, the Reserve Bank would be undertaking several initiatives in areas such as regulation, supervision, FinTech, payment systems, customer protection and financial inclusion.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "regulation, supervision, FinTech, payment systems, customer protection and financial inclusion"
+        }
+      },
+      {
+        "claim_text": "The PRAVAAH portal, which was launched in May 2024, has now been made mandatory w.e.f. May 1, 2025 for REs to submit their applications to the Reserve Bank.",
+        "confidence": 1,
+        "passage_id": 17,
+        "predicate": "praavah_portal_mandatory_date",
+        "quote": "The PRAVAAH portal, which was launched in May 2024, has now been made mandatory w.e.f. May 1, 2025 for REs to submit their applications to the Reserve Bank.",
+        "subject_surface": "PRAVAAH portal",
+        "subject_type": "system",
+        "value": {
+          "kind": "date",
+          "raw": "May 1, 2025"
+        }
+      },
+      {
+        "claim_text": "The Reserve Bank would continue with the supervisory initiatives aimed at early identification of risks and vulnerabilities, increasing the focus on root cause of vulnerabilities, and harmonising the supervisory rigour across various segments of the financial system.",
+        "confidence": 1,
+        "passage_id": 17,
+        "predicate": "supervisory_initiatives_focus",
+        "quote": "The Reserve Bank would continue with the supervisory initiatives aimed at early identification of risks and vulnerabilities, increasing the focus on root cause of vulnerabilities, and harmonising the supervisory rigour across various segments of the financial system.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "early identification of risks and vulnerabilities, increasing the focus on root cause of vulnerabilities, and harmonising the supervisory rigour across various segments of the financial system"
+        }
+      },
+      {
+        "claim_text": "The Reserve Bank would focus on enhancing cyber resilience and capabilities of supervised entities (SEs) by implementing recommendations of the inter-regulatory Working Group on uniformity in baseline cybersecurity guidelines of financial entities.",
+        "confidence": 1,
+        "passage_id": 17,
+        "predicate": "cyber_resilience_initiative",
+        "quote": "Further, the Reserve Bank would focus on enhancing cyber resilience and capabilities of supervised entities (SEs) by implementing recommendations of the inter-regulatory Working Group on uniformity in baseline cybersecurity guidelines of financial entities.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "enhancing cyber resilience and capabilities of supervised entities (SEs) by implementing recommendations of the inter-regulatory Working Group on uniformity in baseline cybersecurity guidelines of financial entities"
+        }
+      },
+      {
+        "claim_text": "The Reserve Bank would further expand the scope and coverage of ongoing pilots in e\u20b9-Retail and e\u20b9-Wholesale by introducing new use cases and features, besides bringing improvements to technological aspects of the account aggregator framework to enhance transparency, customer convenience and efficiency.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "e_ri_pilot_expansion",
+        "quote": "The Reserve Bank would further expand the scope and coverage of ongoing pilots in e\u20b9-Retail and e\u20b9-Wholesale by introducing new use cases and features, besides bringing improvements to technological aspects of the account aggregator framework to enhance transparency, customer convenience and efficiency.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "expanding scope and coverage of ongoing pilots in e\u20b9-Retail and e\u20b9-Wholesale by introducing new use cases and features, besides bringing improvements to technological aspects of the account aggregator framework to enhance transparency, customer convenience and efficiency"
+        }
+      },
+      {
+        "claim_text": "The Reserve Bank is exploring commencement of CBDC pilots on cross-border payments both on bilateral and multilateral basis to overcome key challenges related to turnaround time, efficiency and transparency.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "cbdc_cross_border_pilot_exploration",
+        "quote": "The Reserve Bank is exploring commencement of CBDC pilots on cross-border payments both on bilateral and multilateral basis to overcome key challenges related to turnaround time, efficiency and transparency.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "exploring commencement of CBDC pilots on cross-border payments both on bilateral and multilateral basis to overcome key challenges related to turnaround time, efficiency and transparency"
+        }
+      },
+      {
+        "claim_text": "As Payments Vision 2025 culminates in 2025-26, the Reserve Bank will embark upon drafting a new Payments Vision document, which would aim to build on the growth of payment systems in the last decade and provide further impetus to entities in the payments ecosystem to develop and deploy solutions in this space.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "payments_vision_document_drafting",
+        "quote": "As Payments Vision 2025 culminates in 2025-26, the Reserve Bank will embark upon drafting a new Payments Vision document, which would aim to build on the growth of payment systems in the last decade and provide further impetus to entities in the payments ecosystem to develop and deploy solutions in this space.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "drafting a new Payments Vision document, which would aim to build on the growth of payment systems in the last decade and provide further impetus to entities in the payments ecosystem to develop and deploy solutions in this space"
+        }
+      },
+      {
+        "claim_text": "A survey on usage of digital payments will be conducted to facilitate evidence-based decision making, which will lay the groundwork for a more inclusive payments ecosystem.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "digital_payments_survey",
+        "quote": "A survey on usage of digital payments will be conducted to facilitate evidence-based decision making, which will lay the groundwork for a more inclusive payments ecosystem.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "conducting a survey on usage of digital payments to facilitate evidence-based decision making, which will lay the groundwork for a more inclusive payments ecosystem"
+        }
+      },
+      {
+        "claim_text": "The Digital Payments Intelligence Platform is being planned, which will leverage advanced technologies to curb payment related frauds.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "digital_payments_intelligence_platform",
+        "quote": "The Digital Payments Intelligence Platform is being planned, which will leverage advanced technologies to curb payment related frauds.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "planning the Digital Payments Intelligence Platform, which will leverage advanced technologies to curb payment related frauds"
+        }
+      },
+      {
+        "claim_text": "A technology-based initiative in the form of Unified Lending Interface (ULI) has been operationalised through Reserve Bank Innovation Hub (RBIH) which is aimed at improving access and enhancing efficiency in terms of turnaround time, cost and convenience among the borrowers in the agriculture, dairy and MSME segments.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "unified_lending_interface_uli",
+        "quote": "A technology-based initiative in the form of Unified Lending Interface (ULI) has been operationalised through Reserve Bank Innovation Hub (RBIH) which is aimed at improving access and enhancing efficiency in terms of turnaround time, cost and convenience among the borrowers in the agriculture, dairy and MSME segments.",
+        "subject_surface": "Unified Lending Interface (ULI)",
+        "subject_type": "system",
+        "value": {
+          "kind": "text",
+          "raw": "operationalised through Reserve Bank Innovation Hub (RBIH) which is aimed at improving access and enhancing efficiency in terms of turnaround time, cost and convenience among the borrowers in the agriculture, dairy and MSME segments"
+        }
+      },
+      {
+        "claim_text": "The Reserve Bank issued the revised Master Directions on PSL, which has come into effect from April 1, 2025.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "master_directions_on_psl_effective_date",
+        "quote": "The Reserve Bank issued the revised Master Directions on PSL, which has come into effect from April 1, 2025.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "date",
+          "raw": "April 1, 2025"
+        }
+      },
+      {
+        "claim_text": "A review of Financial Inclusion Index (FI-Index) would be undertaken in 2025-26.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "financial_inclusion_index_review",
+        "quote": "Moreover, a review of Financial Inclusion Index (FI-Index) would be undertaken in 2025-26.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "undertaking a review of Financial Inclusion Index (FI-Index)"
+        }
+      },
+      {
+        "claim_text": "A review of citizens\u2019 charter would be undertaken by the Reserve Bank towards further improving the timeliness of regulatory approvals and citizen centric services.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "citizens_charter_review",
+        "quote": "A review of citizens\u2019 charter would be undertaken by the Reserve Bank towards further improving the timeliness of regulatory approvals and citizen centric services.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "undertaking a review of citizens\u2019 charter towards further improving the timeliness of regulatory approvals and citizen centric services"
+        }
+      },
+      {
+        "claim_text": "To enhance quality and speed of grievance resolution under the Reserve Bank - Integrated Ombudsman Scheme, 2021, the Reserve Bank shall be undertaking a review of the Scheme and embarking upon technology driven initiatives, especially the upgradation of the complaint management system.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "ombudsman_scheme_review",
+        "quote": "To enhance quality and speed of grievance resolution under the Reserve Bank - Integrated Ombudsman Scheme, 2021, the Reserve Bank shall be undertaking a review of the Scheme and embarking upon technology driven initiatives, especially the upgradation of the complaint management system.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "undertaking a review of the Scheme and embarking upon technology driven initiatives, especially the upgradation of the complaint management system"
+        }
+      },
+      {
+        "claim_text": "The Reserve Bank will also focus on strengthening the internal grievance redressal processes of the regulated entities for enhanced customer satisfaction.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "internal_grievance_redressal_process",
+        "quote": "The Reserve Bank will also focus on strengthening the internal grievance redressal processes of the regulated entities for enhanced customer satisfaction.",
+        "subject_surface": "Reserve Bank",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "strengthening the internal grievance redressal processes of the regulated entities for enhanced customer satisfaction"
+        }
+      },
+      {
+        "claim_text": "Inflation moderated during the year, moving closer to the target, largely due to easing input cost pressures, proactive supply-side measures and the continued impact of past monetary policy actions.",
+        "confidence": 1,
+        "passage_id": 19,
+        "predicate": "inflation_trend",
+        "quote": "Inflation moderated during the year, moving closer to the target, largely due to easing input cost pressures, proactive supply-side measures and the continued impact of past monetary policy actions.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "moderated during the year, moving closer to the target"
+        }
+      },
+      {
+        "claim_text": "The strength of the financial sector, reflected in improved asset quality and well-capitalised banks, further supported economic activity.",
+        "confidence": 1,
+        "passage_id": 19,
+        "predicate": "financial_sector_strength",
+        "quote": "The strength of the financial sector, reflected in improved asset quality and well-capitalised banks, further supported economic activity.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "improved asset quality and well-capitalised banks"
+        }
+      },
+      {
+        "claim_text": "The central government sustained its fiscal consolidation efforts, supported by buoyant tax revenues and prudent expenditure management.",
+        "confidence": 1,
+        "passage_id": 19,
+        "predicate": "fiscal_consolidation_efforts",
+        "quote": "The central government sustained its fiscal consolidation efforts, supported by buoyant tax revenues and prudent expenditure management.",
+        "subject_surface": "central government",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "sustained its fiscal consolidation efforts"
+        }
+      },
+      {
+        "claim_text": "Merchandise trade deficit was offset by robust services exports and steady remittance inflows, keeping the CAD at a sustainable level.",
+        "confidence": 1,
+        "passage_id": 19,
+        "predicate": "current_account_deficit_level",
+        "quote": "merchandise trade deficit was offset by robust services exports and steady remittance inflows, keeping the CAD at a sustainable level.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "at a sustainable level"
+        }
+      },
+      {
+        "claim_text": "Global GDP grew by 3.3 per cent in 2024 (3.5 per cent a year ago).",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "global_gdp_growth",
+        "quote": "Global GDP grew by 3.3 per cent in 2024 (3.5 per cent a year ago)1.",
+        "subject_surface": "global economy",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.3 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global inflation eased to 5.7 per cent in 2024 from 6.6 per cent a year ago as the effect of monetary tightening took hold along with the easing of supply chain pressures.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "global_inflation_rate",
+        "quote": "Global inflation eased to 5.7 per cent in 2024 from 6.6 per cent a year ago as the effect of monetary tightening took hold along with the easing of supply chain pressures; however, it was still above the pre-pandemic average, with elevated services inflation persisting in some major advanced economies.",
+        "subject_surface": "global economy",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global goods and services trade volume growth recovered to 3.8 per cent in 2024 from 1.0 per cent in 2023.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "global_trade_volume_growth",
+        "quote": "Global goods and services trade volume growth recovered to 3.8 per cent in 2024 from 1.0 per cent in 20233, supported by strong services trade growth and normalising of supply chains.",
+        "subject_surface": "global economy",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.8 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The Indian economy remained resilient, supported by robust macroeconomic fundamentals and proactive policy measures.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "india_economic_resilience",
+        "quote": "Against this challenging global economic landscape, the Indian economy remained resilient, supported by robust macroeconomic fundamentals and proactive policy measures.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "remained resilient"
+        }
+      },
+      {
+        "claim_text": "Real gross domestic product (GDP) growth moderated to 6.5 per cent in 2024-25, India remained the fastest growing large economy.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "real_gdp_growth",
+        "quote": "Although real gross domestic product (GDP) growth moderated to 6.5 per cent4 in 2024-25, India remained the fastest growing large economy.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.5 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Headline inflation moderated further during 2024-25.",
+        "confidence": 1,
+        "passage_id": 21,
+        "predicate": "headline_inflation_trend",
+        "quote": "Headline inflation moderated further during 2024-25.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "moderated further"
+        }
+      },
+      {
+        "claim_text": "Deposit and credit exhibited double digit growth.",
+        "confidence": 1,
+        "passage_id": 21,
+        "predicate": "deposit_and_credit_growth",
+        "quote": "Deposit and credit exhibited double digit growth.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "double digit growth"
+        }
+      },
+      {
+        "claim_text": "Fiscal consolidation continued both at the centre and state level.",
+        "confidence": 1,
+        "passage_id": 21,
+        "predicate": "fiscal_consolidation_continuation",
+        "quote": "Fiscal consolidation continued both at the centre and state level.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "continued"
+        }
+      },
+      {
+        "claim_text": "The continued strength of the external sector, as reflected in adequate forex reserves and modest current account deficit, supported macroeconomic and financial stability.",
+        "confidence": 1,
+        "passage_id": 21,
+        "predicate": "external_sector_strength",
+        "quote": "The continued strength of the external sector, as reflected in adequate forex reserves and modest current account deficit, supported macroeconomic and financial stability.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "adequate forex reserves and modest current account deficit"
+        }
+      },
+      {
+        "claim_text": "Aggregate demand \u2013 measured by GDP at constant prices \u2013 is estimated to have grown by 6.5 per cent in 2024-25, as compared with 9.2 per cent a year ago.",
+        "confidence": 1,
+        "passage_id": 22,
+        "predicate": "aggregate_demand_growth",
+        "quote": "Aggregate demand \u2013 measured by GDP at constant prices \u2013 is estimated to have grown by 6.5 per cent in 2024-25, as compared with 9.2 per cent a year ago (Table II.2.1 and Appendix Table 1).",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.5 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Growth in private final consumption expenditure (PFCE) \u2013 the main component of aggregate demand \u2013 improved to 7.6 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 22,
+        "predicate": "private_final_consumption_expenditure_growth",
+        "quote": "Growth in private final consumption expenditure (PFCE) \u2013 the main component of aggregate demand \u2013 improved to 7.6 per cent in 2024-25, buoyed by rural consumption demand even though urban demand exhibited some moderation.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.6 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The share of PFCE in real GDP increased to 56.7 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 22,
+        "predicate": "pfce_share_of_real_gdp",
+        "quote": "The share of PFCE in real GDP increased to 56.7 per cent in 2024-25.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "56.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Government final consumption expenditure (GFCE) grew at a modest 3.8 per cent in 2024-25, following a robust expansion of 8.1 per cent during 2023-24.",
+        "confidence": 1,
+        "passage_id": 22,
+        "predicate": "government_final_consumption_expenditure_growth",
+        "quote": "Government final consumption expenditure (GFCE) grew at a modest 3.8 per cent in 2024-25, following a robust expansion of 8.1 per cent during 2023-24.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.8 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The rate of gross domestic investment in the Indian economy, measured by the ratio of gross capital formation (GCF) to GDP at current prices, declined to 31.4 per cent in 2023-24 from 32.6 per cent in the preceding year.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "gross_domestic_investment_ratio",
+        "quote": "The rate of gross domestic investment in the Indian economy, measured by the ratio of gross capital formation (GCF) to GDP at current prices, declined to 31.4 per cent in 2023-24 from 32.6 per cent in the preceding year.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "31.4 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Growth in gross fixed capital formation (GFCF) \u2013 a primary component of GCF \u2013 moderated to 6.1 per cent in 2024-25 from 8.8 per cent in the previous year.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "gross_fixed_capital_formation_growth",
+        "quote": "Growth in gross fixed capital formation (GFCF) \u2013 a primary component of GCF \u2013 moderated to 6.1 per cent in 2024-25 from 8.8 per cent in the previous year.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.1 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Government capital outlay (Centre and states combined) declined by 2.7 per cent (y-o-y) during 2024-25 (up to February 2025) as compared with a growth of 31.2 per cent in the corresponding period of 2023-24.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "government_capital_outlay_growth",
+        "quote": "Government capital outlay (Centre and states6 combined) declined by 2.7 per cent (y-o-y) during 2024-25 (up to February 2025) as compared with a growth of 31.2 per cent in the corresponding period of 2023-24.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Seasonally adjusted capacity utilisation (CU) of the manufacturing sector at 75.3 per cent in Q3:2024-25 was higher than the preceding quarter and its level in the corresponding quarter a year ago.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "manufacturing_capacity_utilisation",
+        "quote": "Seasonally adjusted capacity utilisation (CU) of the manufacturing sector at 75.3 per cent in Q3:2024-25 was higher than the preceding quarter and its level in the corresponding quarter a year ago7.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "75.3 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Gross domestic saving as per cent to gross national disposable income (GNDI) remained steady at 30.3 per cent in 2023-24 primarily due to a decline in general government\u2019s dissaving.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "gross_domestic_saving_as_percent_of_gndi",
+        "quote": "Gross domestic saving as per cent to gross national disposable income (GNDI) remained steady at 30.3 per cent in 2023-24 primarily due to a decline in general government\u2019s dissaving.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "30.3 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Household financial saving (net) improved to 5.1 per cent of GNDI in 2023-24 from 4.9 per cent in the previous year.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "household_financial_saving_net",
+        "quote": "Resultantly, household financial saving (net) improved to 5.1 per cent of GNDI in 2023-24 from 4.9 per cent in the previous year (Table II.2.2 and Appendix Table 3).",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.1 per cent",
+          "unit": "per cent"
+        }
+      }
+    ]
+  }
+}

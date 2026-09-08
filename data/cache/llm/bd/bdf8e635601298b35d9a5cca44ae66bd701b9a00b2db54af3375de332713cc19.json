@@ -1,0 +1,77 @@
+{
+  "key": "bdf8e635601298b35d9a5cca44ae66bd701b9a00b2db54af3375de332713cc19",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "<fact id=\"A\">\n  <claim>In Q2 FY25, the urban unemployment rate for people aged 15 years and above in India was 6.4 per cent.</claim>\n  <subject>India</subject>\n  <property>urban_unemployment_rate</property>\n  <value>6.4</value>\n  <conditions>\n    age_group: 15 years and above  [stated]\n    time_period: Q2 FY25  [stated]\n  </conditions>\n  <source>document 01-india-economic-survey-2024-25-excerpt, page 33</source>\n</fact>\n\n<fact id=\"B\">\n  <claim>In Q2 FY24, the urban unemployment rate for people aged 15 years and above in India was 6.6 per cent.</claim>\n  <subject>India</subject>\n  <property>urban_unemployment_rate</property>\n  <value>6.6</value>\n  <conditions>\n    age_group: 15 years and above  [stated]\n    time_period: Q2 FY24  [stated]\n  </conditions>\n  <source>document 01-india-economic-survey-2024-25-excerpt, page 33</source>\n</fact>\n\n<deterministic_finding>\nThe values disagree (6.4 spans [6.35, 6.45] and 6.6 spans [6.55, 6.65], which are disjoint), and the facts differ on time_period: 'Q2 FY25' against 'Q2 FY24'. The difference in context accounts for the difference in value.\n</deterministic_finding>\n\nIs there a condition under which both of these could be true?"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "properties": {
+          "confidence": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "type": "number"
+          },
+          "explanation": {
+            "description": "Two sentences at most, addressed to someone who has read neither document",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "qualifier_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "The condition that explains the difference, copied exactly from the keys listed on the two facts. Null only when no listed key explains it.",
+            "title": "Qualifier Key"
+          },
+          "verdict": {
+            "enum": [
+              "reconciled_by_context",
+              "contradicts",
+              "insufficient_context"
+            ],
+            "title": "Verdict",
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "explanation",
+          "confidence"
+        ],
+        "title": "VerdictOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You reconcile pairs of facts drawn from documents. You work on any kind of\ndocument and must not assume a subject area.\n\nEach pair you receive has already been checked by a deterministic system, which\nestablished two things you may take as given: the two facts describe the same\nproperty of the same subject, and their values are incompatible at the\nprecision each was written to. Do not re-examine either finding. Do not\nrecalculate, rescale or convert anything. Arithmetic is not your job here and\nyour answer will be discarded if it rests on any.\n\nYour job is the remaining question: is there a condition under which both facts\ncould be true?\n\nMost pairs like this are not disagreements. They are the same property measured\nover different periods, at different dates, over different scopes, on different\nbases, or for different segments. Look for that condition first and report a\nconflict only when you have looked and found none.\n\nHow to answer.\n\n1. Compare the qualifier lists given for each fact. If one of those keys holds\n   different values on the two sides and that difference would account for the\n   difference in the figures, answer `reconciled_by_context` and set\n   `qualifier_key` to that key, spelled exactly as it appears in the list.\n2. If a key that would settle the question is listed on one fact and missing\n   from the other, you cannot tell. Answer `insufficient_context` and set\n   `qualifier_key` to the key that is missing.\n3. Answer `contradicts` only when the two facts state the same property, under\n   the same stated conditions, and cannot both be true. Set `qualifier_key` to\n   null.\n4. Never invent a qualifier key. You may only name a key that appears in one of\n   the two lists you are given. A verdict naming any other key is rejected.\n5. `explanation` states what you concluded and why, in plain language, without\n   naming this system or its rules. Write it for a reader who has seen neither\n   document."
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 1,
+    "explanation": "The two figures represent the urban unemployment rate for different fiscal years. Therefore, the values are not in conflict as they describe the economic situation in distinct time periods.",
+    "qualifier_key": "time_period",
+    "verdict": "reconciled_by_context"
+  }
+}

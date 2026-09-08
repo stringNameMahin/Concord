@@ -1,0 +1,1202 @@
+{
+  "key": "ae1a528dc79e32ae08bfd485ff5d9c0719ac62d8b749e4bb2d980fd56b0cdd34",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable.",
+        "role": "system"
+      },
+      {
+        "content": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"16\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\n2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric\ntonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher\nthan the average food grain production in the past five years. The estimated increase is\nmainly on account of the rise in rice, maize, coarse grains and oilseeds output. A normal\nsouthwest monsoon in 2024 has improved the water levels in reservoirs, ensuring\nsufficient water for irrigation during the rabi crop production. As of 10 January 2025,\n\n\nState of the Economy\n15\nrabi sowing of wheat and gram was 1.4 per cent and 0.8 per cent higher, respectively,\ncompared to the previous year. Improved agricultural prospects also bode well for\nsoftening of food inflation pressures over the course of the year.\nManufacturing sector growth moderates but shows positive\nexpectations\n1.30\tThe industrial sector grew by 6 per cent in H1 FY25. Q1 saw a strong growth of 8.3\nper cent, but growth moderated in Q2 due to three key factors. First, manufacturing\nexports slowed significantly due to weak demand from destination countries, and\naggressive trade and industrial policies in major trading nations. Second, the above-\naverage monsoon had mixed effects - while it replenished reservoirs and supported\nagriculture, it also disrupted sectors like mining, construction, and, to some extent,\nmanufacturing. Third, the variation in the timing of festivities between September\nand October in the previous and current years led to a modest growth slowdown in\nQ2 FY25.\n1.31\t Disaggregated data reveals that while many manufacturing sub-sectors\nexperienced growth, others faced challenges, likely due to global and seasonal factors.\nOil companies suffered due to inventory losses and lower refining margins, while steel\ncompanies faced price pressures and lower global prices. The cement sector faced\nweak demand in Q2 due to heavy rains and lower selling prices. However, with the\nconclusion of the monsoon season and the expected pick-up in government capital\nexpenditure, sectors such as cement, iron, and steel are expected to see a recovery.\nFurther, mining and electricity are expected to normalise after the monsoon-related\ndisruptions.16\n1.32\tDespite various challenges, India continues to register the fastest growth in\nmanufacturing PMI, which is also reflected in Chart I.7 of the previous section. The\nlatest Manufacturing PMI for December 2024 remained well within the expansionary\nzone. The expansion rate for December 2024 exceeded its long-term average, driven by\nnew business gains, robust demand, and advertising efforts. Meanwhile, international\norders grew to a four-month high midway through the third fiscal quarter, signalling\nrecovering external demand, as reported by companies.\n16\t RBI Governor\u2019s Statement: December 6, 2024 https://tinyurl.com/4j6xwp2r.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"17\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nmanufacturing PMI, which is also reflected in Chart I.7 of the previous section. The\nlatest Manufacturing PMI for December 2024 remained well within the expansionary\nzone. The expansion rate for December 2024 exceeded its long-term average, driven by\nnew business gains, robust demand, and advertising efforts. Meanwhile, international\norders grew to a four-month high midway through the third fiscal quarter, signalling\nrecovering external demand, as reported by companies.\n16\t RBI Governor\u2019s Statement: December 6, 2024 https://tinyurl.com/4j6xwp2r.\n\n\nEconomic Survey 2024-25\n16\nChart I.27: Global slowdown impacted manufacturing in Q2 of FY25\n56.4\n54.7\n48\n50\n52\n54\n56\n58\n60\nApr 23\nMay 23\nJun 23\nJul 23\nAug 23\nSep 23\nOct 23\nNov 23\nDec 23\nJan 24\nFeb 24\nMar 24\nApr 24\nMay 24\nJun 24\nJul 24\nAug 24\nSep 24\nOct 24\nNov 24\nDec 24\nIndex\nPMI manufacturing\nNew Export Orders\nSource: Compiled from various monthly HSBC India Manufacturing PMI reports\n1.33\tAccording to the RBI's Industrial Outlook Survey, manufacturing firms reported\nimproved demand conditions in Q3 FY25 and expect further improvements in Q4 FY25\nand Q1 FY26. The survey also reflected better expectations for production, order books,\nemployment, capacity utilisation, and the overall business environment during Q4\nFY25 and Q1 FY26.\nChart I.28: Improvement in business expectations\n-60\n-30\n0\n30\n60\nOverall\nBusiness\nSituation\nProduction\nOrder\nBooks\nCapacity\nUtilisation\nEmployment\nSelling\nPrices\nCost of\nRaw\nMaterials\nPer cent\nQ2:FY25\nQ3:FY25*\nQ4:FY25*\nQ1:FY26*\nSource: RBI\u2019s Quarterly Industrial Outlook Survey\nNote: * indicates expectations for the upcoming quarter; The survey results are summarised through a measure\ncalled Net Response, constructed as the difference between the proportions of respondents giving \u2018optimistic\u2019\nand \u2018pessimistic\u2019 replies.\nRobust growth in the services sector\n1.34\tThe services sector continues to perform well in FY25. A notable growth in Q1 and\nQ2 resulted in 7.1 per cent growth in H1 FY25. Across sub-categories, all the sub-sectors\nhave performed well. The robust performance of the services sector is also reflected\n\n\nState of the Economy\n</text>\n</passage>\n\n<passage id=\"18\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nNote: * indicates expectations for the upcoming quarter; The survey results are summarised through a measure\ncalled Net Response, constructed as the difference between the proportions of respondents giving \u2018optimistic\u2019\nand \u2018pessimistic\u2019 replies.\nRobust growth in the services sector\n1.34\tThe services sector continues to perform well in FY25. A notable growth in Q1 and\nQ2 resulted in 7.1 per cent growth in H1 FY25. Across sub-categories, all the sub-sectors\nhave performed well. The robust performance of the services sector is also reflected\n\n\nState of the Economy\n17\nin high-frequency indicators (HFIs). PMI services have been in an expansionary zone\nduring H1 FY25, supported by growth in new orders, rise in output, improvement in\nsales and enhanced employment generation. The hospitality sector performed well,\nwith hotel occupancy rates in H1 FY25 similar to the previous year. Average daily\nrates and revenue per room increased due to higher corporate and leisure travel. Air\ncargo activity grew in double digits, while port traffic remained stable. Information\nTechnology (IT) companies also performed better than the previous quarter.17\nAnalysis of GDP by expenditure categories\n1.35\tIndia\u2019s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in\nQ1 and Q2 FY25, respectively. This implied a real GDP growth of 6.0 per cent in the first\nhalf of the current fiscal.\nChart I.29: GDP growth in H1 FY25 at\n6.0 per cent\nChart I.30: Highest share of private\nconsumption in H1 across all years\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nH1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1\nFY20\nFY21\nFY22\nFY23\nFY24FY25\nper cent\n\u20b9 lakh crore\nReal GDP\nReal GDP Growth (RHS)\n61.2\n30\n35\n40\n45\n50\n55\n60\n65\nFY12\nFY13\nFY14\nFY15\nFY16\nFY17\nFY18\nFY19\nFY20\nFY21\nFY22\nFY23\nFY24\nFY25\nPer cent of GDP (current\nprices)\nSource: Calculations based on Statement 13: Annual and Quarterly Estimates of GDP at constant prices and\nStatement 14: Annual and Quarterly Estimates of GDP at current prices, MoSPI\n1.36\tFrom a demand perspective, Private Final Consumption Expenditure (PFCE)\nfirmed up in H1 FY25, growing by 6.7 per cent YoY. While National Accounts data is\nnot disaggregated by geography, indicators such as 2-wheeler and 3-wheeler sales and\ntractor sales signal that rural demand contributed to private consumption growth. This\nis also reflected in the January 2025 round of National Bank for Agriculture and Rural\nDevelopment (NABARD\u2019s) Rural Economic Conditions and Sentiments Survey, where\n78.5 per cent of rural households reported an increase in their consumption expenditure\nduring the last year.18 The impulse from rural demand is expected to continue in the\nsecond half of the fiscal year with the returns from a bumper Kharif crop and higher\nMSPs for a prospectively good Rabi crop.\n17\t Reserve Bank of India. (2024, December 24). RBI Bulletin December 2024. https://tinyurl.com/rur6xe8u.\n18\t NABARD, Rural economic conditions & sentiments survey. (January 2025) https://tinyurl.com/3cu6pfk9.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"19\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\n78.5 per cent of rural households reported an increase in their consumption expenditure\nduring the last year.18 The impulse from rural demand is expected to continue in the\nsecond half of the fiscal year with the returns from a bumper Kharif crop and higher\nMSPs for a prospectively good Rabi crop.\n17\t Reserve Bank of India. (2024, December 24). RBI Bulletin December 2024. https://tinyurl.com/rur6xe8u.\n18\t NABARD, Rural economic conditions & sentiments survey. (January 2025) https://tinyurl.com/3cu6pfk9.\n\n\nEconomic Survey 2024-25\n18\n1.37\tOn the other hand, indicators of urban demand presented mixed trends.\nAccording to data from the Federation of Automobile Dealers Associations\n(FADA)19, the growth of passenger vehicle sales has slowed to 4.2 per YoY cent in\nApril \u2013 November 2024 compared to 9.2 per cent in the corresponding period of\nthe previous year. Fast-moving consumer goods (FMCG) sales in urban areas, as\nper Nielsen IQ, have recorded a moderate growth in H1FY25. However, there is\nsteady growth of 7.7 per cent YoY in air passenger traffic in April \u2013 November 2024.\nThe 7.3 per cent YoY growth indicated by the First Advance Estimates for PFCE at\nconstant prices for FY25 indicates a pick-up in the most recent months.\n1.38\tThe moderation in real GDP growth can be traced to a softening of growth in\nGross Fixed Capital Formation (GFCF) from 10.1 per cent in H1 FY24 to 6.4 per cent\nin H1 FY25. Q1 FY25 witnessed a slowdown in capital expenditure across different\nlevels of government on account of the conduct of the general elections. Private sector\ninvestment growth may have remained subdued thus far in FY25 on account of the\ndomestic political timetable, global uncertainties and overcapacities.\nChart I.31: Steady shares of investment and consumption in GDP\n(at current prices)\n11\n10\n10\n11\n10\n10\n10\n59\n62\n61\n61\n60\n61\n61\n30\n30\n31\n31\n31\n30\n31\n22\n21\n24\n23\n22\n22\n22\n-23\n-25\n-28\n-26\n-25\n-24\n-24\n-40\n-20\n0\n20\n40\n60\n80\n100\n120\n140\nH1\nH2\nH1\nH2\nH1\nH2\nH1\nFY22\nFY23\nFY24\nFY25\nPer cent of GDP\nGFCE\nPFCE\nGFCF\nExports\nImports\nSource: Calculations based on Statement 14: Annual and Quarterly Estimates of GDP at current prices, MoSPI\n1.39\tAn additional reason for the slowdown in capital formation growth in Q2 FY25\nmay have emanated from the moderation in residential investment by households in\nthis quarter, which is on the back of a sharp uptick over the last few quarters. Industry\nreports, however, point out that the correction in demand-supply metrics in this sector\nis indicative of market normalisation after a period of robust performance. An inventory\noverhang of 23 months signals healthy demand momentum in the segment.\n19\t FADA November 2024 Press Release - https://tinyurl.com/2rnwzj2r.\n\n\nState of the Economy\n</text>\n</passage>\n\n<passage id=\"20\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nmay have emanated from the moderation in residential investment by households in\nthis quarter, which is on the back of a sharp uptick over the last few quarters. Industry\nreports, however, point out that the correction in demand-supply metrics in this sector\nis indicative of market normalisation after a period of robust performance. An inventory\noverhang of 23 months signals healthy demand momentum in the segment.\n19\t FADA November 2024 Press Release - https://tinyurl.com/2rnwzj2r.\n\n\nState of the Economy\n19\nChart I.32: Moderating housing sales and launches on the back of a\nhigh base in the top 8 cities20\n0\n20\n40\n60\n80\n100\n120\n140\n160\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nFY23\nFY24\nFY25\nHousing units (in thousands)\nHousing Sales\nNew Supply\nSource: Various Real Insight Residential reports by Proptiger\n1.40\tThe slowdown in investment activity is likely temporary. Green shoots in capital\nformation are visible. Union government capex is up 8.2 per cent in July \u2013 November 2024\nand is expected to pick up further pace. Early results of the RBI\u2019s Order Books, Inventory,\nand Capacity Utilisation Survey (OBICUS) show that the seasonally adjusted capacity\nutilisation (CU) in manufacturing firms was 74.7 per cent in Q2 FY25, above the long-\nterm average of 73.8 per cent.21 A private sector report\u2019s22 analysis of a sample of capital\ngoods companies indicates that the order books of these companies have registered a sharp\nincrease of 23.6 per cent in FY24 as against a compund anual growth rate (CAGR) of 4.5\nper cent in the preceding four years. Moreover, in H1 FY25, there has been a growth of 10.3\nper cent compared to the end of FY24. The RBI\u2019s report on private investments showed\nthat investment intentions increased to \u20b92.45 lakh crore for FY25 as compared to \u20b91.6 lakh\ncrore for FY24. Along with fresh investment, some of the existing intentions would spill\nover and be implemented in FY26.\n1.41\t On the external front, exports of goods and non-factor services at constant prices\nincreased by 5.6 per cent in H1 FY25, while imports increased by 0.7 per cent. In Q2\nFY25, imports of goods and services at constant prices contracted by 2.9 per cent,\nprimarily driven by a decline in commodity prices. As a result, net exports contributed\npositively to real GDP growth in this period.\n1.42\tAs India\u2019s economy continues to expand, the growth process has been ably\nsupported by stability on fronts such as inflation, fiscal health, and balance of payments.\n20 The top 8 cities refer to Ahmedabad, Bangalore, Chennai, Delhi-NCR, Hyderabad, Kolkata, Mumbai, and Pune.\n21 Footnote no. 19, RBI Governor\u2019s Statement: December 6, 2024 https://tinyurl.com/4j6xwp2r.\n22 CARE Ratings. (2024, November). India's capex story gives a mixed picture. https://tinyurl.com/54ed858f.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"21\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\n1.42\tAs India\u2019s economy continues to expand, the growth process has been ably\nsupported by stability on fronts such as inflation, fiscal health, and balance of payments.\n20 The top 8 cities refer to Ahmedabad, Bangalore, Chennai, Delhi-NCR, Hyderabad, Kolkata, Mumbai, and Pune.\n21 Footnote no. 19, RBI Governor\u2019s Statement: December 6, 2024 https://tinyurl.com/4j6xwp2r.\n22 CARE Ratings. (2024, November). India's capex story gives a mixed picture. https://tinyurl.com/54ed858f.\n\n\nEconomic Survey 2024-25\n20\nThe following section presents a closer examination of these stability factors and\nprovides valuable insights into the resilience and sustainability of the Indian economy\nin the face of global and domestic challenges.\nECONOMY CHARACTERISED BY STABILITY AND\nINCLUSIVITY ON MULTIPLE FRONTS\nImproving public finances support macro stability\n1.43\tSince the COVID-19 pandemic, judicious fiscal management has helped to rein\nin general government dis-savings (Chart I.33). This assumes greater significance in\nsustaining the overall savings in the economy. With private corporate savings hovering\naround 14 per cent of GDP, persistent general government dis-savings could have\nimplied a greater reliance on foreign funding. Prudent fiscal management in the last\nfour years kept the overall savings-investment gap from widening and ensured a\ncomfortable financing of the current account deficit, even though the household saving\nrate moderated. (Chart I.34 below).\nChart I.33: Containment of general\ngovernment dis-savings has\ncontributed to macro-stability\nChart I.34: General government\nGFCF growth has outpaced overall\ninvestment growth\n-2.3\n18.4\n30.2\n-0.7\n-10\n0\n10\n20\n30\n40\nFY19\nFY20\nFY21\nFY22\nFY23\nFY24\nper cent of GDP\nGeneral Government Dissavings\nSavings by private corporations\nHousehold sector savings\nSavings\nCAD\n\u0003\n24.6\n7.9\n13.1\n-15\n-5\n5\n15\n25\n35\nFY19\nFY20\nFY21\nFY22\nFY23\nGrowth (per cent)\nY-o-y growth in investment\nY-o-y growth in Gen. Govt. GFCF\nCAGR - investment\nCAGR - Gen. Govt. GFCF\nSource: Statement 1.9, National Accounts Statistics\n2024, MoSPI; Table 131: India's Overall Balance of\nPayments, Handbook of Statistics on Indian Economy,\nRBI.\nSource: Statement 1.11, National Accounts Statistics\n2024, MoSPI.\nFiscal discipline of the union government\n1.44\tThe Union government\u2019s indicators of fiscal discipline have improved progressively.\nQuality of expenditure approximated by capital expenditure as a per cent of total\nexpenditure of the union, has continuously improved since FY21.\n\n\nState of the Economy\n</text>\n</passage>\n\n<passage id=\"22\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nSource: Statement 1.9, National Accounts Statistics\n2024, MoSPI; Table 131: India's Overall Balance of\nPayments, Handbook of Statistics on Indian Economy,\nRBI.\nSource: Statement 1.11, National Accounts Statistics\n2024, MoSPI.\nFiscal discipline of the union government\n1.44\tThe Union government\u2019s indicators of fiscal discipline have improved progressively.\nQuality of expenditure approximated by capital expenditure as a per cent of total\nexpenditure of the union, has continuously improved since FY21.\n\n\nState of the Economy\n21\nChart I.35: Strong focus on fiscal discipline\n21.4\n10\n15\n20\n25\nFY21\nFY22\nFY23\nFY24\nUnion's capital erxpenditure as a\nper cent of total expenditure\nSource: Union Budget documents. Provisional actuals for FY24.\n1.45\t During April - November 2024 (Chart I.36 below), three major facts stand out in\nunion finances. First, following an unprecedented expansion of capital expenditure in the\nlast four years, it remained subdued during Q1 FY25, owing to general elections. However,\nit rebounded after July despite a reduction in non-debt receipts owing to an increase in the\ndevolution of taxes to states. Until November 2024, defence, railways and road transport\naccounted for about 75 per cent of the capital expenditure, whereas significant YoY growth\noccurred in power and food and public distribution. Second, despite the gross tax revenue\n(GTR) increasing by 10.7 per cent YoY during April-November 2024, the tax revenue\nretained by the Union, net of devolution to the states, hardly increased. This was because of\nincreased tax devolution, which helped the states to manage their expenditures smoothly.\nThirdly, as of November, the deficit indicators of the union were comfortably placed, leaving\nample room for developmental and capital expenditure in the rest of the year.\nChart I.36: Sound and sure footing of union finances in FY25\n10.7\n8.7\n0.5\n8.5\n50.2\n35.0\n7.8\n8.3\n-12.3\n3.3\n3.1\n-6.6\n-37.0\n4.4\n-10.8 -7.5\n13.6\n46.0\n8.2\n10.6\n-50\n-40\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nGTR NRR NTC NDR NTR\nTD\nRE\nIP\nCE\nTE\nRD\nFD\nPD\nGTR NTC NDR NTR\nTD\nCE\nTE\nGrowth in April to November FY25 over April to November FY24\nGrowth in July to November FY25 over\nJuly to November FY24\nPer cent\nSource: CGA monthly provisional accounts.\nNote: GTR- Gross Tax Revenue; NRR-Revenue Receipts (net to Centre); NTC-Tax revenue (net to Centre);\nNDR-Non-debt receipts; TD-Tax devolution to States; RE-Revenue Expenditure; IP-Interest Payments; CE-\nCapital Expenditure; TE-Total Expenditure; FD-Fiscal Deficit; RD-Revenue Deficit; PD-Primary Deficit.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"23\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nGrowth in April to November FY25 over April to November FY24\nGrowth in July to November FY25 over\nJuly to November FY24\nPer cent\nSource: CGA monthly provisional accounts.\nNote: GTR- Gross Tax Revenue; NRR-Revenue Receipts (net to Centre); NTC-Tax revenue (net to Centre);\nNDR-Non-debt receipts; TD-Tax devolution to States; RE-Revenue Expenditure; IP-Interest Payments; CE-\nCapital Expenditure; TE-Total Expenditure; FD-Fiscal Deficit; RD-Revenue Deficit; PD-Primary Deficit.\n\n\nEconomic Survey 2024-25\n22\nVarying patterns in state finances\n1.46\t A review of preliminary unaudited estimates of 27 states23 for the period April -\nNovember 202424 corroborates the second point above (Chart I.37). The GTR of the union\nand own tax revenue (OTR) of the states have increased at comparable pace during this\nperiod. However, the overall tax revenue position of the state governments appears better\nas of November, because of increased tax devolution by the union. Among the state-specific\ntaxes, stamps and registration, sales tax, state excise duties, and other taxes and duties\nregistered positive growth, whereas land revenue25 declined, for states as a collective (Chart\nI.38).\nChart I.37: Greater reliance on share\nin central taxes\nChart I.38: Growth exhibited by\nmost of own taxes\n18.4\n10.8\n38.1\n0\n10\n20\n30\n40\nTax Revenue\nOwn Tax\nRevenue\nState\u2019s Share\nof Union\nTaxes\nPer cent\nGrowth in April to November FY25 over\nApril to November FY24 (per cent)\n14.2\n13.1\n-14.9\n4.6\n9.5\n8.9\n-20\n-10\n0\n10\n20\nGST\nStamps and\nRegistration\nLand\nRevenue\nSales Tax\nState Excise\nDuties\nOther Taxes\nand Duties\nPer cent\nGrowth in April to November FY25 over\nApril to November FY24 (per cent)\nSource: CAG monthly provisional accounts26\nSource: CAG monthly provisional accounts27\n1.47\t For 15 states28, OTR accounted for more than half of their total tax receipts (Chart\nI.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana\nat 86 per cent each. Further, states with a higher ratio of own revenue receipts (ORR)\nto total revenue receipts also tended to have relatively lower ratios of revenue deficit to\ntotal revenue receipts (Chart I.40).\n23\tAndhra Pradesh (AP), Arunachal Pradesh (AR), Assam (AS), Bihar (BR), Chhattisgarh (CG), Gujarat (GJ),\nHaryana (HR), Himachal Pradesh (HP), Jharkhand (JH), Karnataka (KA), Kerala (KL), Madhya Pradesh (MP),\nMaharashtra (MH), Manipur (MN), Meghalaya (ML), Mizoram (MZ), Nagaland (NL), Odisha (OD), Punjab (PB),\nRajasthan (RJ), Sikkim (SK), Tamil Nadu (TN), Telangana (TS), Tripura (TR), Uttar Pradesh (UP), Uttarakhand\n(UK) and West Bengal (WB).\n24\tApril to July reference period for Jharkhand; April to September for Arunachal Pradesh and Manipur.\n25\tLand revenue for Himachal Pradesh included in \u2018other taxes and duties\u2019.\n26\tShare of central taxes for Mizoram and Sikkim included in \u2018other taxes and duties\u2019.\n27\tIbid.\n28\tOut of 25 States; Mizoram and Sikkim excluded.\n\n\nState of the Economy\n</text>\n</passage>\n",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "extractionout",
+        "schema": {
+          "$defs": {
+            "FactOut": {
+              "properties": {
+                "claim_text": {
+                  "description": "One self-contained sentence stating the fact",
+                  "title": "Claim Text",
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "title": "Confidence",
+                  "type": "number"
+                },
+                "passage_id": {
+                  "description": "id of the passage this fact and its quote came from",
+                  "title": "Passage Id",
+                  "type": "integer"
+                },
+                "predicate": {
+                  "description": "Lower snake_case relation name",
+                  "title": "Predicate",
+                  "type": "string"
+                },
+                "qualifiers": {
+                  "items": {
+                    "$ref": "#/$defs/QualifierOut"
+                  },
+                  "title": "Qualifiers",
+                  "type": "array"
+                },
+                "quote": {
+                  "description": "Verbatim span copied from the document",
+                  "title": "Quote",
+                  "type": "string"
+                },
+                "subject_key": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Hard identifier for the subject if the document gives one",
+                  "title": "Subject Key"
+                },
+                "subject_surface": {
+                  "title": "Subject Surface",
+                  "type": "string"
+                },
+                "subject_type": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "title": "Subject Type"
+                },
+                "value": {
+                  "$ref": "#/$defs/ValueOut"
+                }
+              },
+              "required": [
+                "passage_id",
+                "claim_text",
+                "subject_surface",
+                "predicate",
+                "value",
+                "quote",
+                "confidence"
+              ],
+              "title": "FactOut",
+              "type": "object"
+            },
+            "QualifierOut": {
+              "properties": {
+                "key": {
+                  "description": "Lower snake_case condition name",
+                  "title": "Key",
+                  "type": "string"
+                },
+                "provenance": {
+                  "enum": [
+                    "stated",
+                    "inherited"
+                  ],
+                  "title": "Provenance",
+                  "type": "string"
+                },
+                "value": {
+                  "title": "Value",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "value",
+                "provenance"
+              ],
+              "title": "QualifierOut",
+              "type": "object"
+            },
+            "ValueOut": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "quantity",
+                    "text",
+                    "date",
+                    "boolean"
+                  ],
+                  "title": "Kind",
+                  "type": "string"
+                },
+                "raw": {
+                  "description": "The value exactly as written in the document",
+                  "title": "Raw",
+                  "type": "string"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Magnitude word such as million or crore, if any",
+                  "title": "Scale"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Currency code or unit of measure, as written",
+                  "title": "Unit"
+                }
+              },
+              "required": [
+                "kind",
+                "raw"
+              ],
+              "title": "ValueOut",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "facts": {
+              "items": {
+                "$ref": "#/$defs/FactOut"
+              },
+              "title": "Facts",
+              "type": "array"
+            }
+          },
+          "title": "ExtractionOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric tonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher than the average food grain production in the past five years.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "kharif_food_grain_production",
+        "quote": "2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric tonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher than the average food grain production in the past five years.",
+        "subject_surface": "Kharif food grain production",
+        "subject_type": "agricultural output",
+        "value": {
+          "kind": "quantity",
+          "raw": "1647.05 lakh metric tonnes (LMT)",
+          "unit": "lakh metric tonnes (LMT)"
+        }
+      },
+      {
+        "claim_text": "The estimated increase is mainly on account of the rise in rice, maize, coarse grains and oilseeds output.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "primary_drivers_of_kharif_food_grain_production_increase",
+        "quote": "The estimated increase is mainly on account of the rise in rice, maize, coarse grains and oilseeds output.",
+        "subject_surface": "Kharif food grain production increase",
+        "subject_type": "agricultural output",
+        "value": {
+          "kind": "text",
+          "raw": "rice, maize, coarse grains and oilseeds output"
+        }
+      },
+      {
+        "claim_text": "A normal southwest monsoon in 2024 has improved the water levels in reservoirs, ensuring sufficient water for irrigation during the rabi crop production.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "impact_of_monsoon_on_irrigation",
+        "quote": "A normal southwest monsoon in 2024 has improved the water levels in reservoirs, ensuring sufficient water for irrigation during the rabi crop production.",
+        "subject_surface": "water levels in reservoirs",
+        "subject_type": "hydrological condition",
+        "value": {
+          "kind": "text",
+          "raw": "improved"
+        }
+      },
+      {
+        "claim_text": "As of 10 January 2025, rabi sowing of wheat and gram was 1.4 per cent and 0.8 per cent higher, respectively, compared to the previous year.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "rabi_sowing_growth",
+        "quote": "As of 10 January 2025, rabi sowing of wheat and gram was 1.4 per cent and 0.8 per cent higher, respectively, compared to the previous year.",
+        "subject_surface": "rabi sowing of wheat",
+        "subject_type": "agricultural activity",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.4 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "As of 10 January 2025, rabi sowing of wheat and gram was 1.4 per cent and 0.8 per cent higher, respectively, compared to the previous year.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "rabi_sowing_growth",
+        "quote": "As of 10 January 2025, rabi sowing of wheat and gram was 1.4 per cent and 0.8 per cent higher, respectively, compared to the previous year.",
+        "subject_surface": "rabi sowing of gram",
+        "subject_type": "agricultural activity",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.8 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The industrial sector grew by 6 per cent in H1 FY25.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "industrial_sector_growth",
+        "quote": "The industrial sector grew by 6 per cent in H1 FY25.",
+        "subject_surface": "industrial sector",
+        "subject_type": "economic sector",
+        "value": {
+          "kind": "quantity",
+          "raw": "6 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Q1 saw a strong growth of 8.3 per cent, but growth moderated in Q2 due to three key factors.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "q1_industrial_growth",
+        "quote": "Q1 saw a strong growth of 8.3 per cent, but growth moderated in Q2 due to three key factors.",
+        "subject_surface": "Q1 industrial growth",
+        "subject_type": "economic performance",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.3 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Manufacturing exports slowed significantly due to weak demand from destination countries, and aggressive trade and industrial policies in major trading nations.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "reason_for_manufacturing_export_slowdown",
+        "quote": "Manufacturing exports slowed significantly due to weak demand from destination countries, and aggressive trade and industrial policies in major trading nations.",
+        "subject_surface": "manufacturing exports",
+        "subject_type": "trade activity",
+        "value": {
+          "kind": "text",
+          "raw": "weak demand from destination countries, and aggressive trade and industrial policies in major trading nations"
+        }
+      },
+      {
+        "claim_text": "The above-average monsoon had mixed effects - while it replenished reservoirs and supported agriculture, it also disrupted sectors like mining, construction, and, to some extent, manufacturing.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "impact_of_monsoon_on_industrial_sectors",
+        "quote": "The above-average monsoon had mixed effects - while it replenished reservoirs and supported agriculture, it also disrupted sectors like mining, construction, and, to some extent, manufacturing.",
+        "subject_surface": "above-average monsoon",
+        "subject_type": "weather event",
+        "value": {
+          "kind": "text",
+          "raw": "disrupted sectors like mining, construction, and, to some extent, manufacturing"
+        }
+      },
+      {
+        "claim_text": "The variation in the timing of festivities between September and October in the previous and current years led to a modest growth slowdown in Q2 FY25.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "reason_for_q2_growth_slowdown",
+        "quote": "The variation in the timing of festivities between September and October in the previous and current years led to a modest growth slowdown in Q2 FY25.",
+        "subject_surface": "Q2 FY25 growth",
+        "subject_type": "economic performance",
+        "value": {
+          "kind": "text",
+          "raw": "modest growth slowdown"
+        }
+      },
+      {
+        "claim_text": "Oil companies suffered due to inventory losses and lower refining margins.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "challenges_faced_by_oil_companies",
+        "quote": "Oil companies suffered due to inventory losses and lower refining margins.",
+        "subject_surface": "oil companies",
+        "subject_type": "industrial sector",
+        "value": {
+          "kind": "text",
+          "raw": "inventory losses and lower refining margins"
+        }
+      },
+      {
+        "claim_text": "Steel companies faced price pressures and lower global prices.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "challenges_faced_by_steel_companies",
+        "quote": "Steel companies faced price pressures and lower global prices.",
+        "subject_surface": "steel companies",
+        "subject_type": "industrial sector",
+        "value": {
+          "kind": "text",
+          "raw": "price pressures and lower global prices"
+        }
+      },
+      {
+        "claim_text": "The cement sector faced weak demand in Q2 due to heavy rains and lower selling prices.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "challenges_faced_by_cement_sector",
+        "quote": "The cement sector faced weak demand in Q2 due to heavy rains and lower selling prices.",
+        "subject_surface": "cement sector",
+        "subject_type": "industrial sector",
+        "value": {
+          "kind": "text",
+          "raw": "heavy rains and lower selling prices"
+        }
+      },
+      {
+        "claim_text": "With the conclusion of the monsoon season and the expected pick-up in government capital expenditure, sectors such as cement, iron, and steel are expected to see a recovery.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "expected_recovery_in_cement_iron_steel_sectors",
+        "quote": "With the conclusion of the monsoon season and the expected pick-up in government capital expenditure, sectors such as cement, iron, and steel are expected to see a recovery.",
+        "subject_surface": "cement, iron, and steel sectors",
+        "subject_type": "industrial sector",
+        "value": {
+          "kind": "text",
+          "raw": "expected recovery"
+        }
+      },
+      {
+        "claim_text": "Mining and electricity are expected to normalise after the monsoon-related disruptions.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "expected_normalisation_in_mining_and_electricity",
+        "quote": "Mining and electricity are expected to normalise after the monsoon-related disruptions.",
+        "subject_surface": "mining and electricity",
+        "subject_type": "industrial sector",
+        "value": {
+          "kind": "text",
+          "raw": "expected normalisation"
+        }
+      },
+      {
+        "claim_text": "India continues to register the fastest growth in manufacturing PMI, which is also reflected in Chart I.7 of the previous section.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "fastest_manufacturing_pmi_growth",
+        "quote": "India continues to register the fastest growth in manufacturing PMI, which is also reflected in Chart I.7 of the previous section.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "fastest growth in manufacturing PMI"
+        }
+      },
+      {
+        "claim_text": "The latest Manufacturing PMI for December 2024 remained well within the expansionary zone.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "manufacturing_pmi_status_december_2024",
+        "quote": "The latest Manufacturing PMI for December 2024 remained well within the expansionary zone.",
+        "subject_surface": "Manufacturing PMI",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "text",
+          "raw": "well within the expansionary zone"
+        }
+      },
+      {
+        "claim_text": "The expansion rate for December 2024 exceeded its long-term average, driven by new business gains, robust demand, and advertising efforts.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "manufacturing_pmi_expansion_rate_december_2024",
+        "quote": "The expansion rate for December 2024 exceeded its long-term average, driven by new business gains, robust demand, and advertising efforts.",
+        "subject_surface": "Manufacturing PMI expansion rate",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "text",
+          "raw": "exceeded its long-term average"
+        }
+      },
+      {
+        "claim_text": "International orders grew to a four-month high midway through the third fiscal quarter, signalling recovering external demand, as reported by companies.",
+        "confidence": 1.0,
+        "passage_id": 16,
+        "predicate": "international_orders_growth",
+        "quote": "International orders grew to a four-month high midway through the third fiscal quarter, signalling recovering external demand, as reported by companies.",
+        "subject_surface": "international orders",
+        "subject_type": "trade activity",
+        "value": {
+          "kind": "text",
+          "raw": "grew to a four-month high"
+        }
+      },
+      {
+        "claim_text": "Manufacturing firms reported improved demand conditions in Q3 FY25 and expect further improvements in Q4 FY25 and Q1 FY26.",
+        "confidence": 1.0,
+        "passage_id": 17,
+        "predicate": "expectations_of_manufacturing_firms",
+        "quote": "Manufacturing firms reported improved demand conditions in Q3 FY25 and expect further improvements in Q4 FY25 and Q1 FY26.",
+        "subject_surface": "manufacturing firms",
+        "subject_type": "industrial sector",
+        "value": {
+          "kind": "text",
+          "raw": "improved demand conditions in Q3 FY25 and expect further improvements in Q4 FY25 and Q1 FY26"
+        }
+      },
+      {
+        "claim_text": "The survey also reflected better expectations for production, order books, employment, capacity utilisation, and the overall business environment during Q4 FY25 and Q1 FY26.",
+        "confidence": 1.0,
+        "passage_id": 17,
+        "predicate": "expectations_for_production_order_books_employment_capacity_utilisation_and_business_environment",
+        "quote": "The survey also reflected better expectations for production, order books, employment, capacity utilisation, and the overall business environment during Q4 FY25 and Q1 FY26.",
+        "subject_surface": "survey",
+        "subject_type": "economic survey",
+        "value": {
+          "kind": "text",
+          "raw": "better expectations for production, order books, employment, capacity utilisation, and the overall business environment during Q4 FY25 and Q1 FY26"
+        }
+      },
+      {
+        "claim_text": "The services sector continues to perform well in FY25. A notable growth in Q1 and Q2 resulted in 7.1 per cent growth in H1 FY25.",
+        "confidence": 1.0,
+        "passage_id": 17,
+        "predicate": "services_sector_growth_h1_fy25",
+        "quote": "The services sector continues to perform well in FY25. A notable growth in Q1 and Q2 resulted in 7.1 per cent growth in H1 FY25.",
+        "subject_surface": "services sector",
+        "subject_type": "economic sector",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.1 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "PMI services have been in an expansionary zone during H1 FY25, supported by growth in new orders, rise in output, improvement in sales and enhanced employment generation.",
+        "confidence": 1.0,
+        "passage_id": 17,
+        "predicate": "pmi_services_status_h1_fy25",
+        "quote": "PMI services have been in an expansionary zone during H1 FY25, supported by growth in new orders, rise in output, improvement in sales and enhanced employment generation.",
+        "subject_surface": "PMI services",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "text",
+          "raw": "in an expansionary zone"
+        }
+      },
+      {
+        "claim_text": "Hotel occupancy rates in H1 FY25 were similar to the previous year.",
+        "confidence": 1.0,
+        "passage_id": 17,
+        "predicate": "hotel_occupancy_rates_h1_fy25",
+        "quote": "Hotel occupancy rates in H1 FY25 were similar to the previous year.",
+        "subject_surface": "hotel occupancy rates",
+        "subject_type": "tourism indicator",
+        "value": {
+          "kind": "text",
+          "raw": "similar to the previous year"
+        }
+      },
+      {
+        "claim_text": "Average daily rates and revenue per room increased due to higher corporate and leisure travel.",
+        "confidence": 1.0,
+        "passage_id": 17,
+        "predicate": "increase_in_average_daily_rates_and_revenue_per_room",
+        "quote": "Average daily rates and revenue per room increased due to higher corporate and leisure travel.",
+        "subject_surface": "average daily rates and revenue per room",
+        "subject_type": "tourism indicator",
+        "value": {
+          "kind": "text",
+          "raw": "increased"
+        }
+      },
+      {
+        "claim_text": "Air cargo activity grew in double digits, while port traffic remained stable.",
+        "confidence": 1.0,
+        "passage_id": 17,
+        "predicate": "air_cargo_activity_growth",
+        "quote": "Air cargo activity grew in double digits, while port traffic remained stable.",
+        "subject_surface": "air cargo activity",
+        "subject_type": "transportation indicator",
+        "value": {
+          "kind": "text",
+          "raw": "grew in double digits"
+        }
+      },
+      {
+        "claim_text": "Information Technology (IT) companies also performed better than the previous quarter.",
+        "confidence": 1.0,
+        "passage_id": 17,
+        "predicate": "it_companies_performance",
+        "quote": "Information Technology (IT) companies also performed better than the previous quarter.",
+        "subject_surface": "Information Technology (IT) companies",
+        "subject_type": "industrial sector",
+        "value": {
+          "kind": "text",
+          "raw": "performed better than the previous quarter"
+        }
+      },
+      {
+        "claim_text": "India\u2019s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in Q1 and Q2 FY25, respectively.",
+        "confidence": 1.0,
+        "passage_id": 18,
+        "predicate": "gdp_growth_q1_fy25",
+        "quote": "India\u2019s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in Q1 and Q2 FY25, respectively.",
+        "subject_surface": "India\u2019s GDP at constant (2011-12) prices",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India\u2019s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in Q1 and Q2 FY25, respectively.",
+        "confidence": 1.0,
+        "passage_id": 18,
+        "predicate": "gdp_growth_q2_fy25",
+        "quote": "India\u2019s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in Q1 and Q2 FY25, respectively.",
+        "subject_surface": "India\u2019s GDP at constant (2011-12) prices",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.4 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "This implied a real GDP growth of 6.0 per cent in the first half of the current fiscal.",
+        "confidence": 1.0,
+        "passage_id": 18,
+        "predicate": "real_gdp_growth_h1_fy25",
+        "quote": "This implied a real GDP growth of 6.0 per cent in the first half of the current fiscal.",
+        "subject_surface": "real GDP",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.0 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Private Final Consumption Expenditure (PFCE) firmed up in H1 FY25, growing by 6.7 per cent YoY.",
+        "confidence": 1.0,
+        "passage_id": 18,
+        "predicate": "pfce_growth_h1_fy25",
+        "quote": "Private Final Consumption Expenditure (PFCE) firmed up in H1 FY25, growing by 6.7 per cent YoY.",
+        "subject_surface": "Private Final Consumption Expenditure (PFCE)",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "78.5 per cent of rural households reported an increase in their consumption expenditure during the last year.",
+        "confidence": 1.0,
+        "passage_id": 18,
+        "predicate": "rural_households_consumption_increase",
+        "quote": "78.5 per cent of rural households reported an increase in their consumption expenditure during the last year.",
+        "subject_surface": "rural households",
+        "subject_type": "demographic group",
+        "value": {
+          "kind": "quantity",
+          "raw": "78.5 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The impulse from rural demand is expected to continue in the second half of the fiscal year with the returns from a bumper Kharif crop and higher MSPs for a prospectively good Rabi crop.",
+        "confidence": 1.0,
+        "passage_id": 18,
+        "predicate": "expected_continuation_of_rural_demand_impulse",
+        "quote": "The impulse from rural demand is expected to continue in the second half of the fiscal year with the returns from a bumper Kharif crop and higher MSPs for a prospectively good Rabi crop.",
+        "subject_surface": "rural demand impulse",
+        "subject_type": "economic trend",
+        "value": {
+          "kind": "text",
+          "raw": "expected to continue in the second half of the fiscal year"
+        }
+      },
+      {
+        "claim_text": "The growth of passenger vehicle sales has slowed to 4.2 per cent YoY in April \u2013 November 2024 compared to 9.2 per cent in the corresponding period of the previous year.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "passenger_vehicle_sales_growth_apr_nov_2024",
+        "quote": "The growth of passenger vehicle sales has slowed to 4.2 per cent YoY in April \u2013 November 2024 compared to 9.2 per cent in the corresponding period of the previous year.",
+        "subject_surface": "passenger vehicle sales",
+        "subject_type": "automotive sector",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.2 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The growth of passenger vehicle sales has slowed to 4.2 per cent YoY in April \u2013 November 2024 compared to 9.2 per cent in the corresponding period of the previous year.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "passenger_vehicle_sales_growth_apr_nov_2023",
+        "quote": "The growth of passenger vehicle sales has slowed to 4.2 per cent YoY in April \u2013 November 2024 compared to 9.2 per cent in the corresponding period of the previous year.",
+        "subject_surface": "passenger vehicle sales",
+        "subject_type": "automotive sector",
+        "value": {
+          "kind": "quantity",
+          "raw": "9.2 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Fast-moving consumer goods (FMCG) sales in urban areas, as per Nielsen IQ, have recorded a moderate growth in H1FY25.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "fmcg_sales_growth_urban_areas_h1_fy25",
+        "quote": "Fast-moving consumer goods (FMCG) sales in urban areas, as per Nielsen IQ, have recorded a moderate growth in H1FY25.",
+        "subject_surface": "FMCG sales in urban areas",
+        "subject_type": "consumer goods sector",
+        "value": {
+          "kind": "text",
+          "raw": "moderate growth"
+        }
+      },
+      {
+        "claim_text": "There is steady growth of 7.7 per cent YoY in air passenger traffic in April \u2013 November 2024.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "air_passenger_traffic_growth_apr_nov_2024",
+        "quote": "There is steady growth of 7.7 per cent YoY in air passenger traffic in April \u2013 November 2024.",
+        "subject_surface": "air passenger traffic",
+        "subject_type": "transportation indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The 7.3 per cent YoY growth indicated by the First Advance Estimates for PFCE at constant prices for FY25 indicates a pick-up in the most recent months.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "pfce_growth_fy25_first_advance_estimates",
+        "quote": "The 7.3 per cent YoY growth indicated by the First Advance Estimates for PFCE at constant prices for FY25 indicates a pick-up in the most recent months.",
+        "subject_surface": "PFCE at constant prices for FY25",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.3 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Gross Fixed Capital Formation (GFCF) growth moderated from 10.1 per cent in H1 FY24 to 6.4 per cent in H1 FY25.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "gfcf_growth_h1_fy24",
+        "quote": "Gross Fixed Capital Formation (GFCF) growth moderated from 10.1 per cent in H1 FY24 to 6.4 per cent in H1 FY25.",
+        "subject_surface": "Gross Fixed Capital Formation (GFCF)",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.1 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Gross Fixed Capital Formation (GFCF) growth moderated from 10.1 per cent in H1 FY24 to 6.4 per cent in H1 FY25.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "gfcf_growth_h1_fy25",
+        "quote": "Gross Fixed Capital Formation (GFCF) growth moderated from 10.1 per cent in H1 FY24 to 6.4 per cent in H1 FY25.",
+        "subject_surface": "Gross Fixed Capital Formation (GFCF)",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.4 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Q1 FY25 witnessed a slowdown in capital expenditure across different levels of government on account of the conduct of the general elections.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "reason_for_capital_expenditure_slowdown_q1_fy25",
+        "quote": "Q1 FY25 witnessed a slowdown in capital expenditure across different levels of government on account of the conduct of the general elections.",
+        "subject_surface": "capital expenditure",
+        "subject_type": "government expenditure",
+        "value": {
+          "kind": "text",
+          "raw": "on account of the conduct of the general elections"
+        }
+      },
+      {
+        "claim_text": "Private sector investment growth may have remained subdued thus far in FY25 on account of the domestic political timetable, global uncertainties and overcapacities.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "reason_for_private_sector_investment_subdued_growth",
+        "quote": "Private sector investment growth may have remained subdued thus far in FY25 on account of the domestic political timetable, global uncertainties and overcapacities.",
+        "subject_surface": "private sector investment growth",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "text",
+          "raw": "on account of the domestic political timetable, global uncertainties and overcapacities"
+        }
+      },
+      {
+        "claim_text": "The moderation in residential investment by households in this quarter is on the back of a sharp uptick over the last few quarters.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "reason_for_residential_investment_moderation",
+        "quote": "The moderation in residential investment by households in this quarter is on the back of a sharp uptick over the last few quarters.",
+        "subject_surface": "residential investment by households",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "text",
+          "raw": "on the back of a sharp uptick over the last few quarters"
+        }
+      },
+      {
+        "claim_text": "An inventory overhang of 23 months signals healthy demand momentum in the segment.",
+        "confidence": 1.0,
+        "passage_id": 19,
+        "predicate": "inventory_overhang_in_residential_sector",
+        "quote": "An inventory overhang of 23 months signals healthy demand momentum in the segment.",
+        "subject_surface": "inventory overhang",
+        "subject_type": "market indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "23 months",
+          "unit": "months"
+        }
+      },
+      {
+        "claim_text": "Union government capex is up 8.2 per cent in July \u2013 November 2024 and is expected to pick up further pace.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "union_government_capex_growth_jul_nov_2024",
+        "quote": "Union government capex is up 8.2 per cent in July \u2013 November 2024 and is expected to pick up further pace.",
+        "subject_surface": "Union government capex",
+        "subject_type": "government expenditure",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.2 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The seasonally adjusted capacity utilisation (CU) in manufacturing firms was 74.7 per cent in Q2 FY25, above the long-term average of 73.8 per cent.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "capacity_utilisation_q2_fy25",
+        "quote": "The seasonally adjusted capacity utilisation (CU) in manufacturing firms was 74.7 per cent in Q2 FY25, above the long-term average of 73.8 per cent.",
+        "subject_surface": "capacity utilisation",
+        "subject_type": "industrial performance",
+        "value": {
+          "kind": "quantity",
+          "raw": "74.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The seasonally adjusted capacity utilisation (CU) in manufacturing firms was 74.7 per cent in Q2 FY25, above the long-term average of 73.8 per cent.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "long_term_average_capacity_utilisation",
+        "quote": "The seasonally adjusted capacity utilisation (CU) in manufacturing firms was 74.7 per cent in Q2 FY25, above the long-term average of 73.8 per cent.",
+        "subject_surface": "long-term average capacity utilisation",
+        "subject_type": "industrial performance",
+        "value": {
+          "kind": "quantity",
+          "raw": "73.8 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The order books of capital goods companies have registered a sharp increase of 23.6 per cent in FY24 as against a compound annual growth rate (CAGR) of 4.5 per cent in the preceding four years.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "capital_goods_order_books_growth_fy24",
+        "quote": "The order books of capital goods companies have registered a sharp increase of 23.6 per cent in FY24 as against a compound annual growth rate (CAGR) of 4.5 per cent in the preceding four years.",
+        "subject_surface": "capital goods order books",
+        "subject_type": "industrial performance",
+        "value": {
+          "kind": "quantity",
+          "raw": "23.6 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The order books of capital goods companies have registered a sharp increase of 23.6 per cent in FY24 as against a compound annual growth rate (CAGR) of 4.5 per cent in the preceding four years.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "capital_goods_order_books_cagr_preceding_four_years",
+        "quote": "The order books of capital goods companies have registered a sharp increase of 23.6 per cent in FY24 as against a compound annual growth rate (CAGR) of 4.5 per cent in the preceding four years.",
+        "subject_surface": "capital goods order books",
+        "subject_type": "industrial performance",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.5 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "In H1 FY25, there has been a growth of 10.3 per cent compared to the end of FY24.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "capital_goods_order_books_growth_h1_fy25",
+        "quote": "In H1 FY25, there has been a growth of 10.3 per cent compared to the end of FY24.",
+        "subject_surface": "capital goods order books",
+        "subject_type": "industrial performance",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.3 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Investment intentions increased to \u20b92.45 lakh crore for FY25 as compared to \u20b91.6 lakh crore for FY24.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "investment_intentions_fy25",
+        "quote": "Investment intentions increased to \u20b92.45 lakh crore for FY25 as compared to \u20b91.6 lakh crore for FY24.",
+        "subject_surface": "investment intentions",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b92.45 lakh crore",
+          "unit": "lakh crore"
+        }
+      },
+      {
+        "claim_text": "Investment intentions increased to \u20b92.45 lakh crore for FY25 as compared to \u20b91.6 lakh crore for FY24.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "investment_intentions_fy24",
+        "quote": "Investment intentions increased to \u20b92.45 lakh crore for FY25 as compared to \u20b91.6 lakh crore for FY24.",
+        "subject_surface": "investment intentions",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b91.6 lakh crore",
+          "unit": "lakh crore"
+        }
+      },
+      {
+        "claim_text": "Exports of goods and non-factor services at constant prices increased by 5.6 per cent in H1 FY25, while imports increased by 0.7 per cent.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "exports_growth_h1_fy25",
+        "quote": "Exports of goods and non-factor services at constant prices increased by 5.6 per cent in H1 FY25, while imports increased by 0.7 per cent.",
+        "subject_surface": "exports of goods and non-factor services",
+        "subject_type": "trade indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.6 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Exports of goods and non-factor services at constant prices increased by 5.6 per cent in H1 FY25, while imports increased by 0.7 per cent.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "imports_growth_h1_fy25",
+        "quote": "Exports of goods and non-factor services at constant prices increased by 5.6 per cent in H1 FY25, while imports increased by 0.7 per cent.",
+        "subject_surface": "imports",
+        "subject_type": "trade indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "In Q2 FY25, imports of goods and services at constant prices contracted by 2.9 per cent, primarily driven by a decline in commodity prices.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "imports_contraction_q2_fy25",
+        "quote": "In Q2 FY25, imports of goods and services at constant prices contracted by 2.9 per cent, primarily driven by a decline in commodity prices.",
+        "subject_surface": "imports of goods and services",
+        "subject_type": "trade indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.9 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "As a result, net exports contributed positively to real GDP growth in this period.",
+        "confidence": 1.0,
+        "passage_id": 20,
+        "predicate": "net_exports_contribution_to_real_gdp_growth",
+        "quote": "As a result, net exports contributed positively to real GDP growth in this period.",
+        "subject_surface": "net exports",
+        "subject_type": "trade indicator",
+        "value": {
+          "kind": "text",
+          "raw": "contributed positively to real GDP growth"
+        }
+      },
+      {
+        "claim_text": "Since the COVID-19 pandemic, judicious fiscal management has helped to rein in general government dis-savings (Chart I.33).",
+        "confidence": 1.0,
+        "passage_id": 21,
+        "predicate": "general_government_dis_savings",
+        "quote": "Since the COVID-19 pandemic, judicious fiscal management has helped to rein in general government dis-savings (Chart I.33).",
+        "subject_surface": "general government dis-savings",
+        "subject_type": "fiscal indicator",
+        "value": {
+          "kind": "text",
+          "raw": "rein in"
+        }
+      },
+      {
+        "claim_text": "Private corporate savings hovered around 14 per cent of GDP.",
+        "confidence": 1.0,
+        "passage_id": 21,
+        "predicate": "private_corporate_savings",
+        "quote": "Private corporate savings hovered around 14 per cent of GDP.",
+        "subject_surface": "private corporate savings",
+        "subject_type": "fiscal indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "14 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The Union government\u2019s indicators of fiscal discipline have improved progressively.",
+        "confidence": 1.0,
+        "passage_id": 21,
+        "predicate": "union_government_fiscal_discipline_improvement",
+        "quote": "The Union government\u2019s indicators of fiscal discipline have improved progressively.",
+        "subject_surface": "Union government",
+        "subject_type": "government entity",
+        "value": {
+          "kind": "text",
+          "raw": "improved progressively"
+        }
+      },
+      {
+        "claim_text": "Quality of expenditure approximated by capital expenditure as a per cent of total expenditure of the union, has continuously improved since FY21.",
+        "confidence": 1.0,
+        "passage_id": 21,
+        "predicate": "capital_expenditure_as_percentage_of_total_expenditure_union",
+        "quote": "Quality of expenditure approximated by capital expenditure as a per cent of total expenditure of the union, has continuously improved since FY21.",
+        "subject_surface": "capital expenditure as a per cent of total expenditure of the union",
+        "subject_type": "fiscal indicator",
+        "value": {
+          "kind": "text",
+          "raw": "continuously improved since FY21"
+        }
+      },
+      {
+        "claim_text": "During April - November 2024, three major facts stand out in union finances.",
+        "confidence": 1.0,
+        "passage_id": 22,
+        "predicate": "union_finances_apr_nov_2024",
+        "quote": "During April - November 2024, three major facts stand out in union finances.",
+        "subject_surface": "union finances",
+        "subject_type": "fiscal indicator",
+        "value": {
+          "kind": "text",
+          "raw": "three major facts stand out"
+        }
+      },
+      {
+        "claim_text": "Following an unprecedented expansion of capital expenditure in the last four years, it remained subdued during Q1 FY25, owing to general elections.",
+        "confidence": 1.0,
+        "passage_id": 22,
+        "predicate": "capital_expenditure_subdued_q1_fy25",
+        "quote": "Following an unprecedented expansion of capital expenditure in the last four years, it remained subdued during Q1 FY25, owing to general elections.",
+        "subject_surface": "capital expenditure",
+        "subject_type": "government expenditure",
+        "value": {
+          "kind": "text",
+          "raw": "remained subdued during Q1 FY25"
+        }
+      },
+      {
+        "claim_text": "It rebounded after July despite a reduction in non-debt receipts owing to an increase in the devolution of taxes to states.",
+        "confidence": 1.0,
+        "passage_id": 22,
+        "predicate": "capital_expenditure_rebound_after_july",
+        "quote": "It rebounded after July despite a reduction in non-debt receipts owing to an increase in the devolution of taxes to states.",
+        "subject_surface": "capital expenditure",
+        "subject_type": "government expenditure",
+        "value": {
+          "kind": "text",
+          "raw": "rebounded after July"
+        }
+      },
+      {
+        "claim_text": "Until November 2024, defence, railways and road transport accounted for about 75 per cent of the capital expenditure, whereas significant YoY growth occurred in power and food and public distribution.",
+        "confidence": 1.0,
+        "passage_id": 22,
+        "predicate": "capital_expenditure_allocation_defence_railways_road_transport",
+        "quote": "Until November 2024, defence, railways and road transport accounted for about 75 per cent of the capital expenditure, whereas significant YoY growth occurred in power and food and public distribution.",
+        "subject_surface": "capital expenditure",
+        "subject_type": "government expenditure",
+        "value": {
+          "kind": "quantity",
+          "raw": "75 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Despite the gross tax revenue (GTR) increasing by 10.7 per cent YoY during April-November 2024, the tax revenue retained by the Union, net of devolution to the states, hardly increased.",
+        "confidence": 1.0,
+        "passage_id": 22,
+        "predicate": "gtr_growth_apr_nov_2024",
+        "quote": "Despite the gross tax revenue (GTR) increasing by 10.7 per cent YoY during April-November 2024, the tax revenue retained by the Union, net of devolution to the states, hardly increased.",
+        "subject_surface": "gross tax revenue (GTR)",
+        "subject_type": "fiscal indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.7 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "As of November, the deficit indicators of the union were comfortably placed, leaving ample room for developmental and capital expenditure in the rest of the year.",
+        "confidence": 1.0,
+        "passage_id": 22,
+        "predicate": "union_deficit_indicators_november",
+        "quote": "As of November, the deficit indicators of the union were comfortably placed, leaving ample room for developmental and capital expenditure in the rest of the year.",
+        "subject_surface": "deficit indicators of the union",
+        "subject_type": "fiscal indicator",
+        "value": {
+          "kind": "text",
+          "raw": "comfortably placed"
+        }
+      },
+      {
+        "claim_text": "A review of preliminary unaudited estimates of 27 states for the period April - November 2024 corroborates the second point above (Chart I.37).",
+        "confidence": 1.0,
+        "passage_id": 23,
+        "predicate": "number_of_states_reviewed",
+        "quote": "A review of preliminary unaudited estimates of 27 states for the period April - November 2024 corroborates the second point above (Chart I.37).",
+        "subject_surface": "number of states",
+        "subject_type": "geographic entity",
+        "value": {
+          "kind": "quantity",
+          "raw": "27",
+          "unit": "states"
+        }
+      },
+      {
+        "claim_text": "The GTR of the union and own tax revenue (OTR) of the states have increased at comparable pace during this period.",
+        "confidence": 1.0,
+        "passage_id": 23,
+        "predicate": "gtr_and_otr_growth_comparable_pace",
+        "quote": "The GTR of the union and own tax revenue (OTR) of the states have increased at comparable pace during this period.",
+        "subject_surface": "GTR of the union and OTR of the states",
+        "subject_type": "fiscal indicator",
+        "value": {
+          "kind": "text",
+          "raw": "increased at comparable pace"
+        }
+      },
+      {
+        "claim_text": "Among the state-specific taxes, stamps and registration, sales tax, state excise duties, and other taxes and duties registered positive growth, whereas land revenue declined, for states as a collective (Chart I.38).",
+        "confidence": 1.0,
+        "passage_id": 23,
+        "predicate": "positive_growth_in_stamps_registration_sales_tax_state_excise_duties_other_taxes",
+        "quote": "Among the state-specific taxes, stamps and registration, sales tax, state excise duties, and other taxes and duties registered positive growth, whereas land revenue declined, for states as a collective (Chart I.38).",
+        "subject_surface": "stamps and registration, sales tax, state excise duties, and other taxes and duties",
+        "subject_type": "tax category",
+        "value": {
+          "kind": "text",
+          "raw": "registered positive growth"
+        }
+      },
+      {
+        "claim_text": "Among the state-specific taxes, stamps and registration, sales tax, state excise duties, and other taxes and duties registered positive growth, whereas land revenue declined, for states as a collective (Chart I.38).",
+        "confidence": 1.0,
+        "passage_id": 23,
+        "predicate": "land_revenue_decline",
+        "quote": "Among the state-specific taxes, stamps and registration, sales tax, state excise duties, and other taxes and duties registered positive growth, whereas land revenue declined, for states as a collective (Chart I.38).",
+        "subject_surface": "land revenue",
+        "subject_type": "tax category",
+        "value": {
+          "kind": "text",
+          "raw": "declined"
+        }
+      },
+      {
+        "claim_text": "For 15 states, OTR accounted for more than half of their total tax receipts (Chart I.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana at 86 per cent each.",
+        "confidence": 1.0,
+        "passage_id": 23,
+        "predicate": "otrs_above_half_total_tax_receipts",
+        "quote": "For 15 states, OTR accounted for more than half of their total tax receipts (Chart I.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana at 86 per cent each.",
+        "subject_surface": "OTR accounted for more than half of total tax receipts",
+        "subject_type": "fiscal indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "15",
+          "unit": "states"
+        }
+      },
+      {
+        "claim_text": "For 15 states, OTR accounted for more than half of their total tax receipts (Chart I.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana at 86 per cent each.",
+        "confidence": 1.0,
+        "passage_id": 23,
+        "predicate": "otrs_percentage_telangana",
+        "quote": "For 15 states, OTR accounted for more than half of their total tax receipts (Chart I.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana at 86 per cent each.",
+        "subject_surface": "Telangana",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "88 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "For 15 states, OTR accounted for more than half of their total tax receipts (Chart I.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana at 86 per cent each.",
+        "confidence": 1.0,
+        "passage_id": 23,
+        "predicate": "otrs_percentage_karnataka",
+        "quote": "For 15 states, OTR accounted for more than half of their total tax receipts (Chart I.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana at 86 per cent each.",
+        "subject_surface": "Karnataka",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "86 per cent",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "For 15 states, OTR accounted for more than half of their total tax receipts (Chart I.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana at 86 per cent each.",
+        "confidence": 1.0,
+        "passage_id": 23,
+        "predicate": "otrs_percentage_haryana",
+        "quote": "For 15 states, OTR accounted for more than half of their total tax receipts (Chart I.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana at 86 per cent each.",
+        "subject_surface": "Haryana",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "86 per cent",
+          "unit": "per cent"
+        }
+      }
+    ]
+  }
+}

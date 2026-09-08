@@ -1,0 +1,619 @@
+{
+  "key": "d4b77c50dda9380b32dd64b29a366d6f131b46a0b45c37e4b0bf1fd023cb4eb8",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"56\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 51\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 53\n\n[section]\nSTAFF APPRAISAL > The predictions can be interpreted by variable contribution and by historical\n</context>\n<text>\nNSA Q-o-Q\n1.1\n1.1\n1.3\nNSA Y-o-Y\n7.7\n7.8\n7.9\nIndia: Growth Forecast\n(In percent)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n52\nINTERNATIONAL MONETARY FUND\nFigure 3. India: Interpretations of the Forecast\nShapley Values for Top Contributors\n(Percentage points; top 10 contributors by absolute value)\nProximity of Forecast to History\n(Three-month moving average)\nSources: CEIC; Haver Analytics; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"57\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 53\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL > Figure 3. India: Interpretations of the Forecast\n</context>\n<text>\nINDIA\nINTERNATIONAL MONETARY FUND 53\nReferences\nChernozhukov, V., Hansen, C., Kallus, N., Spindler, M., & Syrgkanis, V. (2025). Applied causal inference\npowered by ML and AI. arXiv.\nDauphin, J.-F., Dybczak, K., Maneely, M., Taheri Sanjani, M., Suphaphiphat, N., Wang, Y., & Zhang, H.\n(2022). Nowcasting GDP: A scalable approach using DFM, machine learning and novel data,\napplied to European economies (IMF Working Paper No. 2022/052). International Monetary\nFund.\nGoulet Coulombe, P., G\u00f6bel, M., & Klieber, K. (2024). Dual interpretation of machine learning\nforecasts. arXiv.\nRichardson, A., van Florenstein Mulder, T., & Vehbi, T. (2021). Nowcasting GDP using machine-\nlearning algorithms: A real-time assessment. International Journal of Forecasting, 37(2), 941\u2013\n948.\nStock, J. H., & Watson, M. W. (2006). Forecasting with Many Predictors. In G. Elliott, C. W. J. Granger,\n& A. Timmermann (Eds.), Handbook of Economic Forecasting, Volume 1 (pp. 515\u2013554).\nElsevier.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n54\nINTERNATIONAL MONETARY FUND\nAnnex IV. Risk Assessment Matrix1\nSources of Risk\nRisk\nLikelihood\nExpected Impact\nPolicy Response\nDomestic Risks\nFaster Conclusion\nof Trade\nNegotiations.\nMedium\nFaster conclusion of trade\nagreements with key partners to\nlower bilateral trade barriers and\ndeepen economic integration\nwill attenuate trade policy\nuncertainty, boost business and\nemployment opportunities,\nfacilitate efficient factor\nallocation, and strengthen\ntechnology diffusion.\nComplement the trade agreements with horizontal reforms\nto remove red tape, liberalize factor markets, and improve\nbusiness climate. Continue to enhance physical and digital\ninfrastructure to facilitate trade and foreign investment.\nStronger Progress\non Structural\nReforms.\nMedium\nFaster implementation of\nstructural reform domestically\ncould boost employment and\nprivate investment, raising\ngrowth.\nFiscal policy should continue to focus on rebuilding buffers\nand reducing public debt. A faster consolidation and a\ntighter monetary policy could be warranted if the output\ngap is significantly positive with rising inflation.\nMacroprudential policies should be tightened if credit\ngrowth accelerates. Advance social safety net and human\ncapital reforms to ensure inclusive growth.\nAdverse Shock to\nHousehold\nConfidence or\nWealth\nMedium\nA sharp decline in household\nconfidence or net wealth,\npotentially induced by\nheightened uncertainty,\nweakening stock market\nperformance, or tightening of\ncredit standards, could slow\ndown private consumption and\neconomic activity.\nTo encourage stronger private consumption, advance\nstructural reforms to ensure sustainable and job-rich growth.\nShould weaker growth materialize, consider a slower pace of\nfiscal consolidation by letting automatic stabilizers operate,\nand easing monetary policy if headline inflation continues to\nalign with the target.\nMaterialization of\nFiscal Risks.\nMedium\nSharp increase in commodity\nprices and/or the realization of\ncontingent liabilities weakens the\nfiscal position and could lead to\nhigher financing costs, with\nbroader implications for financial\nconditions and the financial\nsystem.\nIn preparation, enhance fiscal policy space through a\ncredible medium-term fiscal consolidation strategy\nanchored on stronger revenue mobilization and increased\nexpenditure efficiency. Reduce the interconnectedness\nbetween the sovereign and banks\u2019 balance sheets.\nStrengthen the financial health of state-owned enterprises.\nShould contingent liabilities materialize, absorb these onto\nthe government budget using long-dated securities to\nsmooth the impact on debt repayments.\nClimate Change\nand Extreme\nWeather Events.\nMedium\nRising temperatures, increased\nrainfall variability, and intensified\nextreme weather events damage\ninfrastructure, increase\ninflationary pressures, cause\nwater and food shortages,\nworsen health outcomes, and\nreduce economic growth.\nInvest in infrastructure that is resilient to and mitigates the\nimpact of climate events; prepare disaster management\n</text>\n</passage>\n\n<passage id=\"58\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 55\n\n[section]\nSTAFF APPRAISAL > Figure 3. India: Interpretations of the Forecast\n</context>\n<text>\nShould contingent liabilities materialize, absorb these onto\nthe government budget using long-dated securities to\nsmooth the impact on debt repayments.\nClimate Change\nand Extreme\nWeather Events.\nMedium\nRising temperatures, increased\nrainfall variability, and intensified\nextreme weather events damage\ninfrastructure, increase\ninflationary pressures, cause\nwater and food shortages,\nworsen health outcomes, and\nreduce economic growth.\nInvest in infrastructure that is resilient to and mitigates the\nimpact of climate events; prepare disaster management\nplans; accelerate the green energy transition; strengthen\nsocial safety net and public health; and promote climate-\nresilient and market-based agriculture. Ensure adequate\nprotection of the vulnerable.\n1 The Risk Assessment Matrix (RAM) shows events that could materially alter the baseline path. The relative likelihood is the staff\u2019s\nsubjective assessment of the risks surrounding the baseline (\u201clow\u201d is meant to indicate a probability below 10 percent, \u201cmedium\u201d a\nprobability between 10 and 30 percent, and \u201chigh\u201d a probability between 30 and 50 percent). The RAM reflects staff views on the\nsource of risks and overall level of concern as of the time of discussions with the authorities. Non-mutually exclusive risks may\ninteract and materialize jointly.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 55\nSources of Risk\nRisk\nLikelihood\nExpected Impact\nPolicy Response\nExternal Risks\nEscalating Trade\nMeasures and\nProlonged\nUncertainty.\nHigh\nRising trade barriers and prolonged\npolicy uncertainty could reduce trade,\ninvestment, and growth.\nExpand trade networks and deepen trade integration\nthrough trade agreements with bilateral and regional\npartners. Reduce trade restrictions to facilitate GVC\nintegration. Provide stable and predictable policy\nframeworks to attract FDI, including through new\nbilateral investment treaties. Allow exchange rate\nflexibility to absorb the shocks. Adjust monetary\npolicy in line with economic developments.\nCommodity Price\nVolatility.\nHigh\nShifts in supply and demand\u2014driven\nby geopolitical tensions and conflicts,\nOPEC+ actions, or the green\ntransition\u2014may fuel commodity price\nswings, intensifying external and fiscal\npressures.\nDiversifying supply chains, accelerating the shift to\nrenewable sources of energy, and better targeting\nsubsidies would help mitigate these risks. Allowing\ngreater exchange rate flexibility would also help\nabsorb such shocks. In an upside scenario, relax\nprice controls and increase excise taxes. In a\ndownside scenario, provide transfers to protect the\nmost vulnerable.\nFinancial\nMarket\nVolatility and\nCorrection.\nHigh\nStretched asset valuations, easy\nfinancial conditions, and subdued\nvolatility in key markets could be\nsignificantly affected by a sudden and\ndisruptive shift in investor sentiment\nor policy stance, triggering market\ncorrections, exchange rate turbulence,\nspikes in sovereign bond yields, and\ncapital flow volatility. Elevated\nleverage among Non-Bank Financial\nIntermediaries further amplifies these\nrisks, as forced deleveraging during\nperiods of stress could exacerbate\nasset price swings and propagate\nshocks. Rapid growth of unregulated\ncrypto markets could add to these\nvulnerabilities by increasing the risk of\nredemption runs and market\ndislocations.\nEnhance the credit risk management framework for\nbanks and liquidity regulations and oversight for\nNBFCs; broaden policy options for providing\nsystemic liquidity support and ELA in a crisis; and\nmaintain exchange rate flexibility to\nabsorb external shocks. In case of a significant\nimpact on India\u2019s economy, use available\nfiscal/monetary policy space to support economic\nactivity and the vulnerable. If the FX market becomes\nshallow, leading to destabilizing premia, FX\ninterventions can be used as a complementary tool.\nGeopolitical\nTensions.\nHigh\nIntensification of conflicts, coupled with\nthe weakening of multilateralism, may\ntrigger commodity price volatility,\n</text>\n</passage>\n\n<passage id=\"59\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 55\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL > Figure 3. India: Interpretations of the Forecast\n</context>\n<text>\nsystemic liquidity support and ELA in a crisis; and\nmaintain exchange rate flexibility to\nabsorb external shocks. In case of a significant\nimpact on India\u2019s economy, use available\nfiscal/monetary policy space to support economic\nactivity and the vulnerable. If the FX market becomes\nshallow, leading to destabilizing premia, FX\ninterventions can be used as a complementary tool.\nGeopolitical\nTensions.\nHigh\nIntensification of conflicts, coupled with\nthe weakening of multilateralism, may\ntrigger commodity price volatility,\nincrease migration pressures, reignite\ninflation, and weigh on growth by\nundermining confidence, investment,\ntourism, trade, and supply chains.\nAccelerate structural reforms; diversify and secure\nsupply of critical commodities; play a stabilizing role\nin the region by promoting mutually beneficial\ncooperation; avoid introducing further trade\nrestrictions. In case of a significant impact on India\u2019s\neconomy, use available fiscal/monetary policy space\nto support economic activity and the vulnerable.\nCyberthreats.\nHigh\nCyberattacks on physical or digital\ninfrastructure, technical failures, or\nmisuse of AI technologies could trigger\nfinancial and economic instability.\nIn preparation, further improve the cybersecurity\ninfrastructure and ensure adequate funding in\ncritical sectors like banking, energy, telecom, and\ntransportation. Conduct regular cyber resilience\nstress tests.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n56\nINTERNATIONAL MONETARY FUND\nAnnex V. Debt Sustainability Assessment\nFigure 1. India: Risk of Sovereign Stress\n\u2026\nModerate\nModerate\nModerate\nFanchart\nModerate\n\u2026\nGFN\nModerate\n\u2026\nStress test\n\u2026\n\u2026\nHigh\nDebt stabilization in the baseline\nMechanical\nsignal\nFinal\nassessment\nHorizon\nComments\nCont. Liabty.\nSustainability\nassessment 2/\nNot required\nfor\nsurveillance\ncountries\nThe overall risk of sovereign stress is moderate. The favorable\ninterest-growth differential and ongoing fiscal consolidation\nsupport a gradual reduction in debt. However debt remains elevated\nat the end of the projection period and risks surrounding the debt\npath are tilted to the downside (i.e. higher levels of debt). Funding\nthe entire climate change investment needs through existing\nfinancing sources could lead to a high risk of sovereign stress in the\nlong term, pointing to a need for additional sources of concessional\nfinancing and greater private sector involvement.\nThis DSA is only a moderate update on the DSA in the 2024 Article IV\nreport published in February 2025, as much of the underlying data is\nreleased annually.\nSizeable investment is needed to meet India's climate change\nmitigation targets and improve resilience to climate change. Funding\nthese investments through the government budget using existing\nsources of financing could lead to a high risk of sovereign stress in\nthe long term. This signals the need for additional concessional\nfinancing, greater private sector investment and carbon pricing or\nequivalent mechanism.\nOverall\nNear term 1/\nMedium term\nLong term\nYes\nMedium-term risks are assessed to be moderate, in line with the\nmechanical signals. Debt is likely to stabillize over the medium term\nbut remain at an elevated level. While debt is expected to decline\nunder the baseline scenario, under shock scenarios potential debt\npaths are skewed towards higher levels of debt. Liquidity risks are\nmoderate; while existing bank claims are substantial, the low level of\nfinancing by non-residents partly mitigates risks.\nDSA Summary Assessment\nCommentary: India is assessed to have a moderate risk of sovereign stress. Debt gradually declines over the medium\nterm, supported by a favorable interest-growth differential and fiscal consolidation. However debt remains elevated over\nthe medium term and the debt servicing burden is high, with interest payments absorbing more than a quarter of\nrevenue. Risks are moderated by India's debt composition, comprising of long dated, fixed rate, local currency\ndenominated debt held by residents. Banks, insurance companies and pension funds continue to have robust demand\n</text>\n</passage>\n\n<passage id=\"60\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 57\n\n[section]\nSTAFF APPRAISAL > Figure 1. India: Risk of Sovereign Stress\n</context>\n<text>\nCommentary: India is assessed to have a moderate risk of sovereign stress. Debt gradually declines over the medium\nterm, supported by a favorable interest-growth differential and fiscal consolidation. However debt remains elevated over\nthe medium term and the debt servicing burden is high, with interest payments absorbing more than a quarter of\nrevenue. Risks are moderated by India's debt composition, comprising of long dated, fixed rate, local currency\ndenominated debt held by residents. Banks, insurance companies and pension funds continue to have robust demand\nfor government securities. While risks of sovereign stress at the general government level are moderate, some states have\nhigh debt levels and require a credible medium-term consolidation plans.\nSource: Fund staff.\nNote: The risk of sovereign stress is a broader concept than debt sustainability. Unsustainable debt can only be resolved\nthrough exceptional measures (such as debt restructuring). In contrast, a sovereign can face stress without its debt\nnecessarily being unsustainable, and there can be various measures\u2014that do not involve a debt restructuring\u2014to remedy\nsuch a situation, such as fiscal adjustment and new financing.\n1/ The near-term assessment is not applicable in cases where there is a disbursing IMF arrangement. In surveillance-only\ncases or in cases with precautionary IMF arrangements, the near-term assessment is performed but not published.\n2/ A debt sustainability assessment is optional for surveillance-only cases and mandatory in cases where there is a Fund\narrangement. The mechanical signal of the debt sustainability assessment is deleted before publication. In surveillance-only\ncases or cases with IMF arrangements with normal access, the qualifier indicating probability of sustainable debt (\"with\nhigh probability\" or \"but not with high probability\") is deleted before publication.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 57\nFigure 2. India: Debt Coverage and Disclosures\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"61\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 57\n\n[section]\nSTAFF APPRAISAL > Figure 1. India: Risk of Sovereign Stress\n</context>\n<text>\narrangement. The mechanical signal of the debt sustainability assessment is deleted before publication. In surveillance-only\ncases or cases with IMF arrangements with normal access, the qualifier indicating probability of sustainable debt (\"with\nhigh probability\" or \"but not with high probability\") is deleted before publication.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 57\nFigure 2. India: Debt Coverage and Disclosures\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"62\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 57\n\n[section]\nSTAFF APPRAISAL > Figure 1. India: Risk of Sovereign Stress\n</context>\n<text>\ncases or cases with IMF arrangements with normal access, the qualifier indicating probability of sustainable debt (\"with\nhigh probability\" or \"but not with high probability\") is deleted before publication.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 57\nFigure 2. India: Debt Coverage and Disclosures\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"63\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 59\n\n[section]\nSTAFF APPRAISAL > Figure 2. India: Debt Coverage and Disclosures\n</context>\n<text>\nINDIA\n58\nINTERNATIONAL MONETARY FUND\nFigure 3. India: Public Debt Structure Indicators\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 59\nFigure 4. India: Baseline Scenario\n(Fiscal Year, percent of GDP unless indicated otherwise)\nActual\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\n2034\nPublic debt\n81.6\n81.1\n80.7\n79.9\n79.0\n78.0\n76.9\n75.4\n73.9\n72.4\n71.0\nChange in public debt\n0.9\n-0.5\n-0.4\n-0.8\n-0.9\n-1.0\n-1.1\n-1.5\n-1.5\n-1.5\n-1.5\nContribution of identified flows\n0.7\n-0.5\n-0.4\n-0.8\n-0.9\n-1.0\n-1.0\n-1.5\n-1.5\n-1.5\n-1.5\nPrimary deficit\n2.9\n1.7\n1.8\n1.7\n1.7\n1.6\n1.6\n1.6\n1.6\n1.6\n1.6\nNoninterest revenues\n20.4\n20.1\n20.1\n20.2\n20.3\n20.4\n20.5\n20.5\n20.5\n20.5\n20.5\nNoninterest expenditures\n23.3\n21.9\n21.9\n22.0\n22.0\n22.1\n22.1\n22.1\n22.1\n22.1\n22.1\nAutomatic debt dynamics\n-2.0\n-2.0\n-2.0\n-2.3\n-2.4\n-2.4\n-2.4\n-2.9\n-2.9\n-2.9\n-2.9\nReal interest rate and relative inflation\n2.9\n3.1\n2.7\n2.6\n2.5\n2.4\n2.4\n1.8\n1.7\n1.6\n1.6\nReal interest rate\n2.8\n3.1\n2.7\n2.5\n2.4\n2.4\n2.3\n1.8\n1.7\n1.6\n1.5\nRelative inflation\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\nReal growth rate\n-4.9\n-5.1\n-4.7\n-4.9\n-4.9\n-4.8\n-4.8a.\n-4.7\n-4.6\n-4.5\n-4.4\nReal exchange rate\n0.0\n\u2026\n\u2026\n\u2026\n\u2026\n\u2026\n\u2026\u2026\n\u2026\n\u2026\n\u2026\n\u2026\nOther identified flows\n-0.1\n-0.2\n-0.2\n-0.2\n-0.2\n-0.2\n-0.2\n-0.2\n-0.2\n-0.2\n-0.2\nContingent liabilities\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n(minus) Interest Revenues\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\nOther transactions\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\n-0.1\nContribution of residual\n0.2\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\n0.0\nGross financing needs\n14.1\n11.9\n15.5\n15.4\n15.2\n14.8\n15.5\n13.1\n12.1\n11.6\n11.4\nof which: debt service\n11.3\n10.3\n13.8\n13.7\n13.6\n13.2\n14.0\n11.6\n10.6\n10.1\n9.9\nLocal currency\n11.0\n10.0\n13.5\n13.5\n13.3\n13.0\n13.8\n11.4\n10.5\n10.0\n9.8\nForeign currency\n0.3\n0.3\n0.3\n0.3\n0.2\n0.2\n0.2\n0.2\n0.1\n0.1\n0.1\nMemo:\nReal GDP growth (percent)\n6.5\n6.6\n6.2\n6.4\n6.5\n6.5\n6.5\n6.5\n6.5\n6.5\n6.5\nInflation (GDP deflator; percent)\n3.1\n1.8\n3.7\n4.0\n4.0\n4.0\n4.0\n4.0\n4.0\n4.0\n4.0\nNominal GDP growth (percent)\n9.8\n8.5\n10.1\n10.7\n10.7\n10.8\n10.8\n10.8\n10.8\n10.8\n10.8\nEffective interest rate (percent)\n7.0\n5.9\n7.4\n7.4\n7.4\n7.3\n7.3\n6.6\n6.5\n6.4\n6.4\nExtended projection\nCommentary: While remaining elevated, public debt will gradually decline over the medium term. The decline reflects continued fiscal\nconsolidation and a favorable interest-growth differential. Debt projections are broadly the same as the 2024 Article IV Consultation.\nGross financing needs are expected to decline but remain high, averaging 13.5 percent of GDP. Notably, estimates of gross financing\nneeds have been revised up compared to the 2024 Article IV consultation, reflecting higher local-currency debt service. Other\ntransactions capture proceeds from asset sales.\nMedium-term projection\nContribution to Change in Public Debt\n(Percent of GDP)\nProjection\n-15\n-10\n-5\n0\n5\n10\n15\n20\n2015\n2017\n2019\n2021\n2023\n2025\n2027\n2029\n2031\n2033\n-52\n0\n18\n-12\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n20\n30\nCumulative in\nthe projection\nperiod\nPrimary deficit\nReal Interest rate\nand relative\ninflation\nReal GDP growth\nOther flows\nResidual\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The likelihood of faster conclusion of trade negotiations risk for India is medium.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Faster Conclusion of Trade Negotiations"
+          }
+        ],
+        "quote": "Faster Conclusion\nof Trade\nNegotiations.\nMedium",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "Medium"
+        }
+      },
+      {
+        "claim_text": "The likelihood of stronger progress on structural reforms risk for India is medium.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Stronger Progress on Structural Reforms"
+          }
+        ],
+        "quote": "Stronger Progress\non Structural\nReforms.\nMedium",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "Medium"
+        }
+      },
+      {
+        "claim_text": "The likelihood of adverse shock to household confidence or wealth risk for India is medium.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Adverse Shock to Household Confidence or Wealth"
+          }
+        ],
+        "quote": "Adverse Shock to\nHousehold\nConfidence or\nWealth\nMedium",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "Medium"
+        }
+      },
+      {
+        "claim_text": "The likelihood of materialization of fiscal risks for India is medium.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Materialization of Fiscal Risks"
+          }
+        ],
+        "quote": "Materialization of\nFiscal Risks.\nMedium",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "Medium"
+        }
+      },
+      {
+        "claim_text": "The likelihood of climate change and extreme weather events risk for India is medium.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Climate Change and Extreme Weather Events"
+          }
+        ],
+        "quote": "Climate Change\nand Extreme\nWeather Events.\nMedium",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "Medium"
+        }
+      },
+      {
+        "claim_text": "The likelihood of escalating trade measures and prolonged uncertainty risk for India is high.",
+        "confidence": 1.0,
+        "passage_id": 58,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Escalating Trade Measures and Prolonged Uncertainty"
+          }
+        ],
+        "quote": "Escalating Trade\nMeasures and\nProlonged\nUncertainty.\nHigh",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "High"
+        }
+      },
+      {
+        "claim_text": "The likelihood of commodity price volatility risk for India is high.",
+        "confidence": 1.0,
+        "passage_id": 58,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Commodity Price Volatility"
+          }
+        ],
+        "quote": "Commodity Price\nVolatility.\nHigh",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "High"
+        }
+      },
+      {
+        "claim_text": "The likelihood of financial market volatility and correction risk for India is high.",
+        "confidence": 1.0,
+        "passage_id": 58,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Financial Market Volatility and Correction"
+          }
+        ],
+        "quote": "Financial\nMarket\nVolatility and\nCorrection.\nHigh",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "High"
+        }
+      },
+      {
+        "claim_text": "The likelihood of geopolitical tensions risk for India is high.",
+        "confidence": 1.0,
+        "passage_id": 58,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Geopolitical Tensions"
+          }
+        ],
+        "quote": "Geopolitical\nTensions.\nHigh",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "High"
+        }
+      },
+      {
+        "claim_text": "The likelihood of cyberthreats risk for India is high.",
+        "confidence": 1.0,
+        "passage_id": 59,
+        "predicate": "risk_likelihood",
+        "qualifiers": [
+          {
+            "key": "risk_source",
+            "provenance": "stated",
+            "value": "Cyberthreats"
+          }
+        ],
+        "quote": "Cyberthreats.\nHigh",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "High"
+        }
+      },
+      {
+        "claim_text": "The overall risk of sovereign stress for India is moderate.",
+        "confidence": 1.0,
+        "passage_id": 59,
+        "predicate": "sovereign_stress_risk",
+        "qualifiers": [
+          {
+            "key": "horizon",
+            "provenance": "stated",
+            "value": "overall"
+          }
+        ],
+        "quote": "The overall risk of sovereign stress is moderate.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "moderate"
+        }
+      },
+      {
+        "claim_text": "The medium-term risk of sovereign stress for India is assessed to be moderate.",
+        "confidence": 1.0,
+        "passage_id": 59,
+        "predicate": "sovereign_stress_risk",
+        "qualifiers": [
+          {
+            "key": "horizon",
+            "provenance": "stated",
+            "value": "medium-term"
+          }
+        ],
+        "quote": "Medium-term risks are assessed to be moderate",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "moderate"
+        }
+      },
+      {
+        "claim_text": "India is assessed to have a moderate risk of sovereign stress.",
+        "confidence": 1.0,
+        "passage_id": 60,
+        "predicate": "sovereign_stress_risk",
+        "qualifiers": [],
+        "quote": "India is assessed to have a moderate risk of sovereign stress.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "moderate"
+        }
+      },
+      {
+        "claim_text": "Interest payments absorb more than a quarter of India's revenue.",
+        "confidence": 1.0,
+        "passage_id": 60,
+        "predicate": "interest_payments_share_of_revenue",
+        "qualifiers": [],
+        "quote": "interest payments absorbing more than a quarter",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "more than a quarter"
+        }
+      },
+      {
+        "claim_text": "India's public debt was 81.6 percent of GDP in 2024.",
+        "confidence": 1.0,
+        "passage_id": 63,
+        "predicate": "public_debt_to_gdp",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Public debt\n81.6",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "81.6",
+          "unit": "percent of GDP"
+        }
+      },
+      {
+        "claim_text": "India's public debt is projected to be 81.1 percent of GDP in 2025.",
+        "confidence": 1.0,
+        "passage_id": 63,
+        "predicate": "public_debt_to_gdp",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2025"
+          }
+        ],
+        "quote": "Public debt\n81.6\n81.1",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "81.1",
+          "unit": "percent of GDP"
+        }
+      },
+      {
+        "claim_text": "India's primary deficit was 2.9 percent of GDP in 2024.",
+        "confidence": 1.0,
+        "passage_id": 63,
+        "predicate": "primary_deficit_to_gdp",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Primary deficit\n2.9",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.9",
+          "unit": "percent of GDP"
+        }
+      },
+      {
+        "claim_text": "India's primary deficit is projected to be 1.7 percent of GDP in 2025.",
+        "confidence": 1.0,
+        "passage_id": 63,
+        "predicate": "primary_deficit_to_gdp",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2025"
+          }
+        ],
+        "quote": "Primary deficit\n2.9\n1.7",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.7",
+          "unit": "percent of GDP"
+        }
+      },
+      {
+        "claim_text": "India's real GDP growth was 6.5 percent in 2024.",
+        "confidence": 1.0,
+        "passage_id": 63,
+        "predicate": "real_gdp_growth",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Real GDP growth (percent)\n6.5",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.5",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India's real GDP growth is projected to be 6.6 percent in 2025.",
+        "confidence": 1.0,
+        "passage_id": 63,
+        "predicate": "real_gdp_growth",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2025"
+          }
+        ],
+        "quote": "Real GDP growth (percent)\n6.5\n6.6",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.6",
+          "unit": "percent"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "key": "dc2cc0ae555e094c65cffb33c2211a90ec490266858438d69974a60ddd2eccd1",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"80\">\n<context>\n[section]\nMajor events and milestones of our Company\n</context>\n<text>\nIncorporation of our Company as a logistics services provider\n2011\nLaunch of Transportation Management System\n2013\nLaunch of Warehouse Management System\n2013\nCommencement of fulfilment business\n2014\nLaunch of Netplan, our network design tool\n2015\nLaunch of Addfix, our address resolution engine\n2015\nLaunch of automated sorters in our network\n2015\nCommencement of self-managed express surface line-haul network\n2016\nCommencement of part truckload services (PTL service offering)\n2016\nLaunch of \u2018Constellation\u2019, partner managed last mile delivery network\n2018\nCommencement of Truckload services (TL service offering)\n2018\nCommencement of cross border service offering\n2018\nPaaS (Platform as a Service) soft launch in Sri Lanka and Bangladesh\n2019\nCommencement of Supply Chain Services\n2019\nAcquisition of Aramex\u2019s India assets\n2019\nEntered into partnership with UPS\n2019\nLaunch of tractor trailers in our network\n2019\nOpened the Delhivery USA office\n2020\nAcquisition of Roadpiper Technologies Private Limited\n2020\nLaunch of 3 mega trucking terminals in Tauru (Haryana), Bhiwandi (Maharashtra) and Bengaluru (Karnataka)\n2021\nAcquisition of the business of Primaseller Inc.\n2021\nEntered into a strategic alliance with FedEx\n2021\nAcquisition of Spoton Logistics Private Limited\n2021\n1 billion express parcel shipments delivered since incorporation\n2021\nAcquisition of Transition Robotics, Inc. by Delhivery Robotics LLC\n2022\nInvestment in Falcon Autotech Private Limited\nOur Holding Company\nAs of the date of this Prospectus, our Company does not have a holding company.\nOur Subsidiaries\nAs of the date of this Prospectus, our Company has eight direct subsidiaries and two indirect subsidiaries. For\ndetails regarding our Subsidiaries, please see \u201c \u2013 Our Subsidiaries\u201d on page 253.\nJoint Ventures\nAs of the date of this Prospectus, our Company does not have any joint venture.\nSignificant financial and strategic partnerships\nExcept for our strategic alliance with FedEx in respect of which our Company has entered into arrangements, our\nCompany does not have any significant financial or strategic partners, as on the date of this Prospectus. For further,\ndetails, see \u201c\u2013 Details regarding material acquisitions or divestments of business/ undertakings, mergers,\n\n\n249\namalgamation, any revaluation of assets, etc. in the last 10 years\u201d and \u201c\u2013 Key terms of other subsisting material\nagreements\u201d on pages 249 and 252, respectively.\nTime/cost overrun\nThere has been no time or cost overrun in respect of our business operations.\nDefaults or rescheduling/ restructuring of borrowings with financial institutions/ banks\nThere has been no instance of rescheduling/ restructuring of borrowings with financial institutions/ banks in\nrespect of our borrowings from lenders.\nFacility creation, location of offices\nFor details regarding facility creation and location of our offices, see \u201cOur Business\u201d on page 212.\nLaunch of key products or services, entry into new geographies or exit from existing markets\nFor details of key products or services launched by our Company, entry into new geographies or exit from existing\nmarkets, see \u201cOur Business\u201d on page 212.\nDetails regarding material acquisitions or divestments of business/undertakings, mergers, amalgamation,\nany revaluation of assets, etc. in the last 10 years\nExcept as disclosed below, our Company has not made any material acquisitions or divestments of\nbusiness/undertakings, mergers, amalgamation, any revaluation of assets, etc. in the last 10 years.\n1.\nAsset purchase agreement dated February 27, 2019 (\u201cAramex Asset Purchase Agreement\u201d) between\nour Company and Aramex India Private Limited (\u201cAramex\u201d)\nAramex was, among other activities, engaged in the business of transportation, warehousing and logistics\nservices in India. Pursuant to the Aramex Asset Purchase Agreement, our Company has acquired the\nfixed assets, equipment, property, contracts (including customer contracts, manpower contracts and\nvendor contracts), licenses and customers of Aramex, along with its employees who were desirous of\n</text>\n</passage>\n\n<passage id=\"81\">\n<context>\n[section]\nany revaluation of assets, etc. in the last 10 years\n</context>\n<text>\nAsset purchase agreement dated February 27, 2019 (\u201cAramex Asset Purchase Agreement\u201d) between\nour Company and Aramex India Private Limited (\u201cAramex\u201d)\nAramex was, among other activities, engaged in the business of transportation, warehousing and logistics\nservices in India. Pursuant to the Aramex Asset Purchase Agreement, our Company has acquired the\nfixed assets, equipment, property, contracts (including customer contracts, manpower contracts and\nvendor contracts), licenses and customers of Aramex, along with its employees who were desirous of\njoining our Company.\n2.\nBusiness transfer agreement dated January 16, 2020 (\u201cRoadpiper Business Transfer Agreement\u201d)\namong our Company, Orion Supply Chain Private Limited (\u201cOSCPL\u201d), Anurag Garg, Puneet Bagla,\nSaurabh and Roadpiper Technologies Private Limited (\u201cRoadpiper\u201d)\nRoadpiper, was, among other activities, engaged in the business of providing technology solutions to the\nlogistics industry, providing proprietary freight and logistics software and end-to-end services to\ntransportation organizations. Anurag Garg, Puneet Bagla and Saurabh were promoters of Roadpiper.\nPursuant to the terms of the Roadpiper Business Transfer Agreement, OSCPL, our Subsidiary, purchased\nthe business of Roadpiper by way of a slump sale on a going concern basis. As part of the slump sale,\namong other things, all fixed assets, movable and/or immovable properties, leasehold rights in\nimmovable properties, licenses, employees, databases relating to customers and clients, content\ngenerated during the operation of business, and all intellectual property rights of Roadpiper were\ntransferred to OSCPL, in accordance with the terms of the Roadpiper Business Transfer Agreement.\n3.\nAsset transfer agreement dated February 20, 2021 (\u201cPrimaseller Asset Purchase Agreement\u201d) among\nour Company, Delhivery USA LLC, Mohammed Ali, Vivek Subramanian and Primaseller Inc.\n(\u201cPrimaseller\u201d)\nPrimaseller was engaged in the business of inventory and order management through web services and\nallied facilities (\u201cWeb Services\u201d). Vivek Subramanian and Mohammed Ali are the founders of\nPrimaseller. Pursuant to the terms of the Primaseller Asset Purchase Agreement, Primaseller agreed to\nsell, transfer, grant, assign and deliver to our Company and to Delhivery USA, all of its rights, titles and\ninterest in intellectual property, books and records used for running its business operations, along with\nany claims, rights of recovery, causes of actions, rights of set-off or of recoupment that are or would be\navailable with respect to the customers of Primaseller, such that the \u2018Web Services\u2019 offered by\nPrimaseller can be integrated into the business of our Company and/or Delhivery USA.\n\n\n250\n4.\nAsset Transfer Agreement dated November 17, 2021 executed among Transition Robotics, Inc.\n(\u201cTRI\u201d), Delhivery Robotics LLC (\u201cDelhivery Robotics\u201d), Pranay Sinha, Jeffrey Gibboney and\nChristopher Forrette (\u201cTRI Asset Transfer Agreement\u201d)\nTRI is engaged in the business of providing hardware and software solutions for unmanned aerial systems\nplatforms (\u201cTRI Service\u201d). Pranay Sinha, Jeffrey Gibboney and Christopher Forrette are the founders of\nTRI. Delhivery Robotics, one of our subsidiaries, is engaged in the business of development of\ntechnology. Pursuant to the terms of the TRI Asset Transfer Agreement, Delhivery Robotics has agreed\nto purchase and receive, and TRI has agreed to sell and transfer, by way of an itemized sale, its intellectual\nproperty along with all the rights, title, interest to claims and causes of action, right of recovery, set-off\nand re-coupment, arisen or that may arise in favour of TRI in relation to such intellectual property, to\nDelhivery Robotics so as to integrate the TRI Service with the business that of Delhivery Robotics and\nto enable Delhivery Robotics and its affiliates to use, develop or exploit the TRI Service so integrated.\n5.\nAsset purchase agreement dated July 15, 2021 executed among our Company, FedEx and TNT India\nPrivate Limited (\u201cTNT\u201d, and such agreement, the \u201cFedEx Asset Purchase Agreement\u201d)\n</text>\n</passage>\n\n<passage id=\"82\">\n<context>\n[section]\nChristopher Forrette (\u201cTRI Asset Transfer Agreement\u201d)\n</context>\n<text>\nproperty along with all the rights, title, interest to claims and causes of action, right of recovery, set-off\nand re-coupment, arisen or that may arise in favour of TRI in relation to such intellectual property, to\nDelhivery Robotics so as to integrate the TRI Service with the business that of Delhivery Robotics and\nto enable Delhivery Robotics and its affiliates to use, develop or exploit the TRI Service so integrated.\n5.\nAsset purchase agreement dated July 15, 2021 executed among our Company, FedEx and TNT India\nPrivate Limited (\u201cTNT\u201d, and such agreement, the \u201cFedEx Asset Purchase Agreement\u201d)\nFedEx is, among other things, engaged in the business of providing warehousing, transportation and\nlogistics services in India. Pursuant to the terms of the FedEx Asset Purchase Agreement, our Company,\nsubject to fulfilment of certain closing conditions, including receipt of the requisite anti-trust approval\nfrom the Competition Commission of India, agreed to acquire from FedEx certain identified assets and\nfacilities and certain customer contracts (subject to obtaining customer consent) to the extent that such\ncontracts relate to the business of providing domestic express services (i.e. domestic express parcel and\nPTL services, but excluding domestic freight transport services provided as part of freight forwarding\nbusiness, warehousing services, or the special services provided by TNT for cold-chain or healthcare\nexpress services in India), within India. Our Company has received the approval of the Competition\nCommission of India for the transaction on November 23, 2021, and the FedEx Asset Purchase\nAgreement became effective on December 5, 2021.\n6.\nShare purchase agreement dated July 29, 2021 executed among our Company, Spoton Logistics\nPrivate Limited (\u201cSpoton\u201d) and Samara Alternative Investment Fund, Samara Capital Partners Fund\nII Limited, Virginia Tech Foundation Inc., Xponentia Opportunities Fund-I, Xponentia Fund\nPartners LLP (collectively the \u201cSellers\u201d), read with amendment agreement dated August 19, 2021\n(\u201cSpoton SPA\u201d)\nSpoton is engaged in the business of providing integrated logistics solutions. Pursuant to the terms of the\nSpoton SPA, the Sellers have sold and transferred in return for cash, and our Company has acquired, free\nand clear of all encumbrances, together with all rights, benefits and entitlements thereto, all shares of\nSpoton held by the Sellers. Subsequent to such acquisition, Spoton has become a wholly-owned\nsubsidiary of our Company.\nShareholders\u2019 agreement\nAmended and Restated Shareholders\u2019 Agreement dated August 9, 2021 executed among our Company, SVF\nDoorbell (Cayman) Ltd, CA Swift Investments, Internet Fund III Pte. Ltd., Nexus Ventures III, Ltd., Nexus\nOpportunity Fund Ltd., Times Internet Limited, Canada Pension Plan Investment Board, FedEx (collectively,\nthe \u201cInvestors\u201d), Sahil Barua, Suraj Saharan and Kapil Bharati (collectively, the \u201cFounders\u201d), Bhavesh\nKishor Manglani, Mohit Tandon, Abhishek Goyal, Ajith Pai Mangalore, Dinesh Advani, Sandeep Kumar\nBarasia, Sushant Kashyap and Vikas Kapoor, as amended by the Amendment Agreement dated October 26,\n2021 executed by such aforementioned parties; and additionally, the Waiver Letter dated October 26, 2021\nexecuted by such aforementioned parties\nThe parties have entered into the SHA to record the terms and conditions agreed to among them in respect of the\nmanagement, governance and control of the affairs of our Company and certain rights and obligations inter se.\nPursuant to the terms of the SHA, read with the Amendment Agreement and the Waiver Letter, till the listing and\ntrading of the Equity Shares of the Company on BSE and NSE or the Long Stop Date (as defined below),\nwhichever is earlier, each of (i) (a) Canada Pension Plan Investment Board, and (b) jointly, Nexus Ventures III,\nLtd. and Nexus Opportunity Fund Ltd., at each of their sole discretion, have the right to appoint one non-executive,\nnon-independent Director on our Board, (ii) SVF Doorbell (Cayman) Ltd has the right to appoint two non-\n</text>\n</passage>\n\n<passage id=\"83\">\n<context>\n[section]\nexecuted by such aforementioned parties\n</context>\n<text>\nPursuant to the terms of the SHA, read with the Amendment Agreement and the Waiver Letter, till the listing and\ntrading of the Equity Shares of the Company on BSE and NSE or the Long Stop Date (as defined below),\nwhichever is earlier, each of (i) (a) Canada Pension Plan Investment Board, and (b) jointly, Nexus Ventures III,\nLtd. and Nexus Opportunity Fund Ltd., at each of their sole discretion, have the right to appoint one non-executive,\nnon-independent Director on our Board, (ii) SVF Doorbell (Cayman) Ltd has the right to appoint two non-\nexecutive, non-independent Directors on our Board, at its sole discretion, however, pursuant to the Waiver Letter\n(effective until the earlier of the the listing and trading of the Equity Shares of the Company on BSE and NSE or\n\n\n251\nthe Long Stop Date), SVF Doorbell (Cayman) Ltd shall exercise its right to appoint only one non-executive, non-\nindependent director, and shall not exercise its right to appoint a second nominee director, and (iii) FedEx Express\nhas the right to appoint a non-executive, non-independent Director on our Board. Further, the SHA provides\ncertain inspection and information rights to the Investors, which shall continue till completion of the Offer, i.e.\ncommencement of listing and trading of the Equity Shares on the Stock Exchanges pursuant to the Offer. The\nparties have also agreed, pursuant to the Waiver Letter, to waive certain inter se rights in relation to certain\nproposed transfers of shareholding, as applicable, of first refusal, tag-along rights on sale to third parties and tag-\nalong rights on sale to competitors, in respect of the Offer.\nPursuant to the terms of the SHA, the investors have the right to require the prior affirmative written consent of\nthe investors holding a majority of the investors\u2019 securities on a fully-diluted basis, in order for our Company to\ntake decisions on certain matters including: (i) the business plan and annual budget of our Company, including\nany deviations thereto, (ii) incurrence of debt during a financial year in excess of \u20b92,000,000,000, (iii) any change\nin the nature of business or diversification of the business, (iv) any acquisition, disposition or dilution of\nsubstantial interest in any other business or any acquisition of securities of or interests in any company,\npartnership, body corporate or sole proprietorship or any joint venture, strategic or financial alliance with any\nthird party for consideration paid or received in cash, (v) any increase or decrease or any other change in the\ncomposition of the Board, including any revision in the salaries/ compensation paid to the directors of our\nCompany, and (vi) transactions other than in the ordinary course of business of our Company, in excess of\n\u20b9100,000,000. Further, the prior affirmative written consent of a \u201csuper majority\u201d of investors, i.e. investors\ncollectively holding at least 67% of the total investor securities on a fully-diluted basis, is required in order for\nour Company to take decisions on certain matters including: (i) any change in the capitalization structure of our\nCompany including due to increase in the number of shares reserved for ESOP schemes or issue of shares in\nconnection with an acquisition, subject to certain exceptions, (ii) redemption or buy-back of any equity securities\nof our Company, including CCPS held by any person, subject to certain exceptions, (iii) amendment of the charter\ndocuments of our Company, other than in connection with certain specified matters, and (iv) matters relating to\nthe incorporation or creation of a subsidiary, investment by our Company in its subsidiaries, and any issues relating\nto sale or divestment or holdings by our Company in any of its subsidiaries. Separately, the prior affirmative\nwritten consent of the Founders (to be exercised collectively by the Founder holding the position of chief executive\nofficer of our Company, on behalf of all Founders and whose decision shall be binding on all the Founders), is\n</text>\n</passage>\n\n<passage id=\"84\">\n<context>\n[section]\nexecuted by such aforementioned parties\n</context>\n<text>\ndocuments of our Company, other than in connection with certain specified matters, and (iv) matters relating to\nthe incorporation or creation of a subsidiary, investment by our Company in its subsidiaries, and any issues relating\nto sale or divestment or holdings by our Company in any of its subsidiaries. Separately, the prior affirmative\nwritten consent of the Founders (to be exercised collectively by the Founder holding the position of chief executive\nofficer of our Company, on behalf of all Founders and whose decision shall be binding on all the Founders), is\nrequired in order to take decisions on certain matters including: (i) the business plan and annual budget of our\nCompany, including any deviations thereto, (ii) any change in the charter documents of our Company which\nadversely affects the Founders and their rights, (iii) commencement of any new line of business, or exit from any\ncurrent line of business, split-up of the existing business or any other change in the business of our Company, (iv)\nany restructuring/merger/acquisition/sale of whole or part of our Company, subject to certain exceptions, (v) any\namendment to, or waiver of, any material operations agreements of our Company. The SHA also provides that\nthe directors nominated by the Investors will not be liable for any default or failure of our Company in complying\nwith applicable laws, and that our Company will indemnify and hold harmless, to the extent permitted by\nApplicable Law, the Investors and directors nominated by the Investors from and against any and all losses which\nthey may directly or indirectly incur as a result of any non-compliance of our Company with applicable laws.\nIn accordance with the terms of the Amendment Agreement, the SHA shall stand automatically terminated\nimmediately prior to the completion of a successful initial public offering of our Company\u2019s share capital on the\nBSE and NSE approved in accordance with the terms of the SHA, except for certain clauses relating to governing\nlaw, dispute resolution and confidentiality that will continue to survive termination. Except for rights to nominate\ndirectors available to certain shareholders, subject to approval of the Shareholders by way of a special resolution\nin a general meeting post listing of the Equity Shares, as included in Part A of our Articles of Association, there\nare no such rights which shall survive post listing of the Equity Shares. The Amendment Agreement and the\nWaiver Letter will stand automatically terminated on the Long Stop date, i.e. the earlier of: (i) November 1, 2022,\nin the event that the Equity Shares are not listed on the BSE and the NSE by such date, and/or (ii) the date on\nwhich the Board, or a committee thereof, decides not to undertake the Offer, and/or (iii) November 30, 2021, in\nthe event that our Company has not filed a draft red herring prospectus in relation to the Offer with SEBI, the BSE\nand the NSE by such date, and the SHA (as existing prior to execution of the Amendment Agreement) shall\nimmediately and automatically stand reinstated, with full and force, as it stood prior to the Amendment\nAgreement.\nIn terms of Part A of our Articles of Association, which will become effective automatically upon the\ncommencement of listing and trading of our Company\u2019s Equity Shares on the Stock Exchanges, subject to\napproval of the Shareholders of our Company by way of a special resolution in the first general meeting convened\nafter the listing of Equity Shares of our Company on the BSE and the NSE pursuant to the Offer (i) the Board\nshall at all times consist of not more than 3 (three) directors from the Management Team (defined below) of our\n\n\n252\nCompany (the \u201cManagement Team Directors\u201d), as nominated by the nomination and remuneration\ncommittee (\u201cNRC\u201d) of the Board, provided that such director shall be a member of the Management Team as of\nthe date of the appointment and shall continue to be a member of the Management Team during the term of their\ndirectorship. \u201cManagement Team\u201d herein means (a) each of the founders of our Company, being Sahil Barua,\n</text>\n</passage>\n\n<passage id=\"85\">\n<context>\n[section]\nexecuted by such aforementioned parties\n</context>\n<text>\nshall at all times consist of not more than 3 (three) directors from the Management Team (defined below) of our\n\n\n252\nCompany (the \u201cManagement Team Directors\u201d), as nominated by the nomination and remuneration\ncommittee (\u201cNRC\u201d) of the Board, provided that such director shall be a member of the Management Team as of\nthe date of the appointment and shall continue to be a member of the Management Team during the term of their\ndirectorship. \u201cManagement Team\u201d herein means (a) each of the founders of our Company, being Sahil Barua,\nSuraj Saharan and Kapil Bharati, severally and not jointly, until such founder is in the employment of our\nCompany and/ or its Subsidiaries in senior executive capacities; and/ or (b) such other \u201ckey managerial personnel\u201d\nof our Company as may be determined by the NRC from time to time and shall include the \u201ckey managerial\npersonnel\u201d of our Company identified in the offer documents, and (ii) SVF Doorbell (Cayman) Ltd shall be\nentitled to nominate one director on the Board, who shall be deemed to be a non-independent director for the\npurposes of our Company\u2019s Board, for as long as SVF Doorbell (Cayman) Ltd and/or its affiliates continue to\nhold at least 10% of our Company\u2019s issued and outstanding paid-up share capital on a fully diluted basis.\nAll special rights available to Shareholders will cease to exist upon listing of the Equity Shares on the Stock\nExchanges pursuant to the Offer (without requiring any further action), except for rights to nominate directors\navailable to certain shareholders, subject to approval of the Shareholders by way of a special resolution in a general\nmeeting post listing of the Equity Shares, as included in Part A of our Articles of Association. For further details,\nsee \u201cMain Provisions of Articles of Association\u201d on page 3\nKey terms of other subsisting material agreements\nExcept as disclosed in \u201c- Shareholders\u2019 agreement\u201d on page 250 and below, our Company has not entered into\nany subsisting material agreements other than in the ordinary course of business of our Company.\n1.\nPick-up, Delivery and Sales Agent Agreement dated July 15, 2021 executed by our Company and FedEx\n(the \u201cPUD Agreement\u201d)\nPursuant to the terms of the PUD Agreement, (a) FedEx has agreed to appoint our Company to sell its international\nservices to various customer segments and provide pick-up and delivery and connected line haul services to FedEx\nwithin India, and (b) our Company has agreed to appoint FedEx, to provide international delivery services outside\nIndia or into the territory of India, each subject to the terms and conditions of the PUD Agreement. The\narrangements under the PUD Agreement, however, will neither be applicable to PUD services offered by FedEx\nin New Delhi, Mumbai and Bengaluru, unless otherwise elected by FedEx in its sole discretion, nor in respect of\nservices being specifically provided by certain other identified international express providers to the Company.\nThe PUD Agreement is valid for a term of five years and may be extended subject to mutual agreement between\nthe parties.\n2.\nDomain Name Assignment Agreement (\u201cDNAA\u201d) dated November 19, 2021 entered into between\nTransition Robotics, Inc.(\u201cAssignor\u201d) and Delhivery Robotics LLC (\u201cAssignee\u201d)\nPursuant to the DNAA, the Assignor has transferred its entire rights, titles and interests in the domain names\nowned by it, namely, \u201ctri.aero\u201d, \u201cquadshot.com\u201d and \u201ctransition-robotics.com\u201d; including all claims for damages\nby reason of past, present and/or future infringement of such domain names along with the right to sue for and\ncollect for the Assignee\u2019s own use and benefit.\n3.\nAssignment of Patent Rights (\u201cPatent Rights Assignment\u201d) dated November 26, 2021 entered into between\nTransition Robotics, Inc. (\u201cAssignor\u201d) and Delhivery Robotics LLC (\u201cAssignee\u201d)\nPursuant to the Patent Rights Assignment, the Assignee has agreed to acquire and the Assignor has agreed to sell,\nassign and transfer its entire rights, title and interest in its inventions, applications, patents, right to file applications\n</text>\n</passage>\n\n<passage id=\"86\">\n<context>\n[section]\nTransition Robotics, Inc.(\u201cAssignor\u201d) and Delhivery Robotics LLC (\u201cAssignee\u201d)\n</context>\n<text>\nby reason of past, present and/or future infringement of such domain names along with the right to sue for and\ncollect for the Assignee\u2019s own use and benefit.\n3.\nAssignment of Patent Rights (\u201cPatent Rights Assignment\u201d) dated November 26, 2021 entered into between\nTransition Robotics, Inc. (\u201cAssignor\u201d) and Delhivery Robotics LLC (\u201cAssignee\u201d)\nPursuant to the Patent Rights Assignment, the Assignee has agreed to acquire and the Assignor has agreed to sell,\nassign and transfer its entire rights, title and interest in its inventions, applications, patents, right to file applications\nfor patents and/or registered design of the United States or other countries, the right to recover any and all, past,\npresent or future damages, including provisional or other royalties for any and all, past, present and future\ninfringements of the said applications, letters patent or patents and/or registered design to be obtained for such\ninventions and applications.\n4.\nAssignment of Trademark Rights (\u201cTrademark Rights Assignment\u201d) dated November 11, 2021 entered\ninto between Transition Robotics, Inc. (\u201cAssignor\u201d) and Delhivery Robotics LLC (\u201cAssignee\u201d)\nPursuant to the Trademark Rights Assignment, the Assignor has irrevocably and unconditionally assigned,\ntransfered and conveyed to the Assignee, all of its rights, title and interest in its trademarks, namely \u201cTRI\u201d,\n\u201cQuadshot\u201d, \u201cTransition Robotics, Inc.\u201d, and \u201cJumpShip\u201d together with the goodwill associated therewith, any\n\n\n253\nand all legal actions and rights and remedies at law or in equity for past infringement, misappropriations or other\nviolations of such trademarks, the right to sue for, collect and retain all damages, profits and proceeds, and all\nother remedies associated therewith, any and all income, royalties and payments accruing on or after November\n11, 2021.\n5.\nBusiness Co-operation Agreement dated December 31, 2021 entered into between our Company and\nFalcon Autotech Private Limited (\u201cFalcon\u201d) (\u201cBCA\u201d)\nFalcon is in the business of providing intralogistics automation solutions, sortation systems, conveyor systems,\ndelivery-warehousing systems, and pick/put to light systems. Pursuant to the BCA, Falcon and our Company have\nagreed to enter into the following arrangements: (i) preferential supply, wherein there shall be preferential supply\nof products and services by Falcon to our Company; (ii) preferential procurement, wherein our Company shall be\nentitled to preferential procurement of products from Falcon; (iii) pilot project participation, wherein our\nCompany shall participate in pilot projects with Falcon for the development of specific products, prototypes, proof\nof concept and other projects based on problem statements, operational and other inputs and infrastructural support\nfor proof of concept of such products/projects, provided by our Company to Falcon, and (iv) joint development\nof new technology, products and services pertaining to among others, automation systems, logistics, and Saas\nplatforms, wherein the parties shall collaborate to jointly develop new products and services and our Company\nshall provide support to Falcon with respect to personnel, infrastructure, research, development and marketing of\nthe products and services, prusant to the terms and conditions of the BCA .\n6.\nShare Purchase Agreement dated December 31, 2021 entered into among our Company, Falcon,\nTuhinanshu, Dheeraj Verma, Manuj Bansal, Surbhi Jain, and Naman Jain (collectively, the \u201cSellers\u201d)\n(\u201cFalcon SPA\u201d) and the Share Subscription Agreement dated December 31, 2021 entered into among the\nafore-mentioned parties (\u201cFalcon SSA\u201d)\nPursuant to the Falcon SPA, our Company purchased, 367,558 shares of Falcon on a fully-diluted basis. Pursuant\nto the Falcon SSA, our Company subscribed to 241,981 shares of Falcon, on a fully-diluted basis. Pursuant to\nclosing of the Falcon SSA and the Falcon SPA, our Company holds a total of 34.55% of the share capital of\nFalcon, on a fully diluted basis. For further details, please also see \u201cObjects of the Offer - Funding inorganic\n</text>\n</passage>\n\n<passage id=\"87\">\n<context>\n[section]\nFalcon Autotech Private Limited (\u201cFalcon\u201d) (\u201cBCA\u201d)\n</context>\n<text>\n(\u201cFalcon SPA\u201d) and the Share Subscription Agreement dated December 31, 2021 entered into among the\nafore-mentioned parties (\u201cFalcon SSA\u201d)\nPursuant to the Falcon SPA, our Company purchased, 367,558 shares of Falcon on a fully-diluted basis. Pursuant\nto the Falcon SSA, our Company subscribed to 241,981 shares of Falcon, on a fully-diluted basis. Pursuant to\nclosing of the Falcon SSA and the Falcon SPA, our Company holds a total of 34.55% of the share capital of\nFalcon, on a fully diluted basis. For further details, please also see \u201cObjects of the Offer - Funding inorganic\ngrowth through acquisitions and other strategic initiatives\u201d on page 166.\n7.\nShareholders\u2019 Agreement dated December 31, 2021 entered into among our Company, Falcon,\nTuhinanshu, Dheeraj Verma, Manuj Bansal, Surbhi Jain and Naman Jain (\u201cFalcon SHA\u201d)\nPursuant to the Falcon SHA, our Company has the right to appoint two non-retiring non-executive directors\n(\u201cDelhivery Nominee Directors\u201d) and one representative as an observer, on the board of directors of Falcon. Our\nCompany also has the right to nominate Delhivery Nominee Directors or other representatives to the committees\nof the board of directors of Falcon. Further, our Company has certain pre-emptive rights under the Falcon SHA,\nas well as an obligation owing to a put option whereby, if for three years from the closing of the Falcon SHA, any\nof Falcon\u2019s shareholders wishes to sell any or all of his/her shares in Falcon, he/she shall have the right to require\nour Company to purchase such shares.\nAgreements with Key Managerial Personnel, Directors or any other employee\nAs on the date of this Prospectus, there are no agreements entered into by our Key Managerial Personnel or\nDirectors or any other employee of our Company, either by themselves or on behalf of any other person, with any\nshareholder or any other third party with regard to compensation or profit sharing in connection with dealings in\nthe securities of our Company.\nOur Subsidiaries\nAs on the date of this Prospectus, our Company has eight direct subsidiaries and two indirect subsidiaries, as set\nforth below:\n\n\n254\nIndian Subsidiaries\n1.\nDelhivery Freight Services Private Limited (\u201cDFSPL\u201d)\nCorporate Information\nDFSPL was incorporated as a private limited company on April 21, 2020 under the Companies Act, 2013 with\nthe RoC. The registered office of DFSPL is at N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate\n6 Cargo Terminal, Indira Gandhi International Airport, New Delhi 110037 Delhi, India. The CIN of DFSPL is\nU63090DL2020PTC363367. The principal business of DFSPL is to, among other initiatives, provide services of\na digital freight exchange that connects shippers with suppliers of freight capacity ensuring transparent and reliable\nonline execution of orders.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of DFSPL is \u20b9100,000 divided into 10,000 equity\nshares of \u20b910 each. The issued, subscribed and paid-up equity share capital of DFSPL is \u20b9100,000 divided into\n10,000 equity shares of \u20b910 each.\nOur Company holds 10,000 equity shares of DFSPL (including 1 equity share held by its nominee shareholder,\nSahil Barua) aggregating to 100% of the total equity holding of DFSPL.\nAmount of accumulated profits or losses\nAs on the date of this Prospectus, there are no accumulated profits or losses of DFSPL that have not been\naccounted for by our Company in the Restated Financial Statements.\n2. Orion Supply Chain Private Limited (\u201cOSCPL\u201d)\nCorporate Information\nOSCPL was incorporated as a private limited company on December 6, 2019 under the Companies Act, 2013\nwith the Deputy Registrar of Companies, Central Registration Centre, Gurugram 122050 Haryana, India. The\nregistered office of OSCPL is at N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo\nTerminal, Indira Gandhi International Airport, New Delhi 110037 Delhi, India. The CIN of OSCPL is\nU63030DL2019PTC358458. The principal business of OSCPL is to, among other initiatives, provide services as\n</text>\n</passage>\n\n<passage id=\"88\">\n<context>\n[section]\n2. Orion Supply Chain Private Limited (\u201cOSCPL\u201d)\n</context>\n<text>\nOSCPL was incorporated as a private limited company on December 6, 2019 under the Companies Act, 2013\nwith the Deputy Registrar of Companies, Central Registration Centre, Gurugram 122050 Haryana, India. The\nregistered office of OSCPL is at N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo\nTerminal, Indira Gandhi International Airport, New Delhi 110037 Delhi, India. The CIN of OSCPL is\nU63030DL2019PTC358458. The principal business of OSCPL is to, among other initiatives, provide services as\na digital freight broker with an aim to engage with fleet owners and bring them into our freight exchange platform.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of OSCPL is \u20b9100,000 divided into 10,000 equity\nshares of \u20b910 each. The issued, subscribed and paid-up equity share capital of OSCPL is \u20b9100,000 divided into\n10,000 equity shares of \u20b910 each.\nOur Company holds 10,000 equity shares of OSCPL (including 1 equity share held by its nominee shareholder,\nSahil Barua) aggregating to 100% of the total equity holding of OSCPL.\nAmount of accumulated profits or losses\nAs on the date of this Prospectus, there are no accumulated profits or losses of OSCPL that have not been\naccounted for by our Company in the Restated Financial Statements.\n3. Delhivery Cross Border Services Private Limited (\u201cDCBSPL\u201d)\nCorporate Information\nDCBSPL was incorporated as \u201cSkynet Logistics Private Limited\u201d, a private limited company on December 12,\n2015 under the Companies Act, 2013 with the Registrar of Companies, Delhi. Pursuant to a fresh certificate of\nincorporation dated October 21, 2021, the name was changed to \u201cDelhivery Cross Border Services Private\nLimited\u201d. The registered office of DCBSPL is at Khasra no 65/23 & 84/3, Gali No 3, Mundka Industrial Area,\nMain Rohtak Road, New Delhi 110041 Delhi, India. The CIN of DCBSPL is U63090DL2015PTC288415. The\n\n\n255\nprincipal business of DCBSPL is, amongst others, to carry on the business of logistics, courier, cargo, warehousing\nand transport.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of DCBSPL is \u20b9100,000,000 divided into 10,000,000\nequity shares of \u20b910 each. The issued, subscribed and paid-up equity share capital of DCBSPL is \u20b955,100,000\ndivided into 5,510,000 equity shares of \u20b910 each.\nOur Company holds 5,510,000 equity shares of DCBSPL (including 1 equity share held by its nominee\nshareholder, Sahil Barua) aggregating to 100% of the total equity holding of DCBSPL.\nAmount of accumulated profits or losses\nAs on the date of this Prospectus, there are no accumulated profits or losses of DCBSPL that have not been\naccounted for by our Company in the Restated Financial Statements.\n4. Spoton Logistics Private Limited (\u201cSpoton\u201d)\nCorporate Information\nSpoton was incorporated as Startrek Logistics Private Limited, a private limited company on November 17, 2011\nwith the Registrar of Companies, Maharashtra at Mumbai. The name of the company was changed to Spoton\nLogistics Private Limited with effect from May 17, 2016, pursuant to a fresh certificate of incorporation issued\nby Registrar of Companies Karnataka at Bangalore on May 17, 2016. The registered office of Spoton is Opposite\nSEZ Naman Ind Estate, ATPO Matoda, Village Matoda, Taluka Sanand, Ahmadabad, Survey No.520/1 & 520/2,\nAhmedabad 382213 Gujarat, India. The CIN of Spoton is U63090GJ2011PTC108834. The principal business of\nSLPL is, among other initiatives, to provide integrated logistics solutions in India, as authorised under its\nconstitutional documents.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of Spoton is \u20b91,880,000,000 divided into\n188,000,000 equity shares of \u20b910 each. The issued, subscribed and paid-up equity share capital of Spoton is\n\u20b9206,410,940 divided into 20,641,094 equity shares of \u20b910 each.\nOur Company holds 20,641,094 equity shares of Spoton (including one equity share held by its nominee\nshareholder, Sahil Barua) aggregating to 100% of the total equity holding of Spoton.\n</text>\n</passage>\n\n<passage id=\"89\">\n<context>\n[section]\n4. Spoton Logistics Private Limited (\u201cSpoton\u201d)\n</context>\n<text>\nconstitutional documents.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of Spoton is \u20b91,880,000,000 divided into\n188,000,000 equity shares of \u20b910 each. The issued, subscribed and paid-up equity share capital of Spoton is\n\u20b9206,410,940 divided into 20,641,094 equity shares of \u20b910 each.\nOur Company holds 20,641,094 equity shares of Spoton (including one equity share held by its nominee\nshareholder, Sahil Barua) aggregating to 100% of the total equity holding of Spoton.\nAmount of accumulated profits or losses\nPost the date of acquisition of Spoton, there are no accumulated profits or losses of Spoton that have not been\naccounted for by our Company in the Restated Financial Statements.\n5. Spoton Supply Chain Solutions Private Limited (\u201cSSCPL\u201d)\nCorporate Information\nSSCPL was incorporated as \u201cRaag Technologies and Services Private Limited\u201d, a private limited company on\nMay 1, 2008, with the Assistant Registrar of Companies, Chennai. Pursuant to a fresh certificate of incorporation\ndated June 9, 2021 issued by the Registrar of Companies, Chennai, the name was changed to \u201cSpoton Supply\nChain Solutions Private Limited\u201d. The CIN of SSCPL is U74200TN2008PTC067564. The registered office of\nSSCPL is located at Old No. 21/IH, Parvathikalakshetra Colony, Kgeyes Eternity, Besant Nagar, Chennai 600090\nTamil Nadu, India. The principal business of SSCPL is, among other initiatives, to provide logistics services, as\nauthorised under its constitutional documents.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of SSCPL is \u20b9500,000 divided into 5,000 equity\nshares of \u20b9100 each. The issued, subscribed and paid-up equity share capital of SSCPL is \u20b9500,000 divided into\n5,000 equity shares of \u20b9100 each.\nOur Subsidiary, Spoton holds 5,000 equity shares of SSCPL (including one equity share held by its nominee\nshareholder, Abhik Mitra) aggregating to 100% of the total equity holding of SSCPL.\n\n\n256\nAmount of accumulated profits or losses\nPost the date of acquisition of Spoton, there are no accumulated profits or losses of SSCPL that have not been\naccounted for by our Company in the Restated Financial Statements.\nForeign Subsidiaries\n6. Delhivery Corp Limited (\u201cDCL\u201d)\nCorporate Information\nDCL was incorporated as a private limited company on March 17, 2016 under the Companies Act, 2006 of UK\nwith the Registrar of Companies for England and Wales. The registered office of DCL is at 27 Old Gloucester\nStreet, London United Kingdom WCIN 3AX. The company number of DCL is 10069774. The principal business\nof DCL is to, among other initiatives, provide logistics consultancy services, as authorised under its constitutional\ndocuments.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of DCL is GBP 2,269,165 divided into 2,269,165\nordinary shares of GBP 1 each. The issued, subscribed and paid-up share capital of DCL is GBP 2,269,165 divided\ninto GBP 2,269,165 ordinary shares of GBP 1 each.\nOur Company holds 2,269,165 ordinary shares of DCL aggregating to 100% of the total holding of DCL.\nAmount of accumulated profits or losses\nAs on the date of this Prospectus, there are no accumulated profits or losses of DCL that have not been accounted\nfor by our Company in the Restated Financial Statements.\n7. Delhivery HK Pte Limited (\u201cDHPL\u201d)\nCorporate Information\nDHPL was incorporated as a private limited company on August 3, 2018 under the Companies Ordinance (Chapter\n622 of the Laws of Hong Kong) with the Registrar of Companies, Hong Kong Special Administrative Region.\nThe registered office of DHPL is at 16/F, Wing on Ctr 111, Connaught Road, Central Hong Kong. The business\nregistration number of DHPL is 2730024. The principal business of DHPL is to, among other initiatives, provide\ninternational logistics solutions, as authorised under its constitutional documents.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of DHPL is 2,209,446 divided into 2,209,446\n</text>\n</passage>\n\n<passage id=\"90\">\n<context>\n[section]\n7. Delhivery HK Pte Limited (\u201cDHPL\u201d)\n</context>\n<text>\n622 of the Laws of Hong Kong) with the Registrar of Companies, Hong Kong Special Administrative Region.\nThe registered office of DHPL is at 16/F, Wing on Ctr 111, Connaught Road, Central Hong Kong. The business\nregistration number of DHPL is 2730024. The principal business of DHPL is to, among other initiatives, provide\ninternational logistics solutions, as authorised under its constitutional documents.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of DHPL is 2,209,446 divided into 2,209,446\nordinary shares of HKD 1 each. The issued, subscribed and paid-up share capital of DHPL is 2,209,446 divided\ninto 2,209,446 ordinary shares of HKD 1 each.\nOur Company holds 2,209,446 ordinary shares of DHPL aggregating to 100% of the total holding of DHPL.\nAmount of accumulated profits or losses\nAs on the date of this Prospectus, there are no accumulated profits or losses of DHPL that have not been accounted\nfor by our Company in the Restated Financial Statements.\n8. Delhivery USA, LLC (\u201cDelhivery USA\u201d)\nCorporate Information\nDelhivery USA was incorporated as a limited liability company on May 23, 2016 under the Florida Limited\nLiability Company Act with the Secretary of State, State of Florida at Tallahassee, U.S.A. The registered office\nof Delhivery USA is at 28901 Trails Edge Boulevard, Suite 205, Bonita Springs, Florida 34134. The document\nnumber of Delhivery USA is L16000103055. The principal business of Delhivery USA is to, among other\ninitiatives, work in logistics and technology development, as authorised under its constitutional documents.\n\n\n257\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of Delhivery USA is USD 6,631,060 divided\ninto 6631,060 equity shares of USD 1 each. The issued, subscribed and paid-up equity share capital of Delhivery\nUSA, LLC is USD 6,631,060 divided into 6,631,060 equity shares of USD 1 each.\nOur Company holds 6,631,060 equity shares of Delhivery USA aggregating to 100% of the total equity holding\nof Delhivery USA.\nAmount of accumulated profits or losses\nAs on the date of this Prospectus, there are no accumulated profits or losses of Delhivery USA that have not been\naccounted for by our Company in the Restated Financial Statements.\n9. Delhivery Robotics LLC (\u201cDelhivery Robotics\u201d)\nCorporate Information\nDelhivery Robotics was incorporated as a limited liability company on August 23, 2021 under the Limited\nLiability Company Act of Delaware with the Secretary of State, Division of Corporation, State of Delaware,\nU.S.A. The registered office of Delhivery Robotics is at 16192 Coastal Highway, Lewes, Delaware 19958, County\nof Sussex. The file number of Delhivery Robotics is 6185023. The principal business of Delhivery Robotics is,\namong other initiatives, development of technology, as authorised under its constitutional documents.\nCapital Structure\nAs on the date of this Prospectus, the authorised share capital of Delhivery Robotics is USD 700,000 divided into\n700,000 equity shares of USD 1 each. The issued, subscribed and paid-up equity share capital of Delhivery\nRobotics is USD 700,000 divided into 700,000 equity shares of USD 1 each.\nOur Subsidiary, Delhivery Singapore Pte. Ltd. holds 700,000 equity shares aggregating to 100% of the total equity\nshareholding of Delhivery Robotics.\nAmount of accumulated profits or losses\nAs on the date of this Prospectus, there are no accumulated profits or losses of Delhivery Robotics that have been\naccounted for by our Company in the Restated Financial Statements.\n10. Delhivery Singapore Pte. Ltd. (\u201cDelhivery Singapore\u201d)\nCorporate Information\nDelhivery Singapore was incorporated as a private company limited by Shares on August 2, 2021 under the\nCompanies Act of Singapore with the Assistant Registrar of Companies & Business Names, Accounting and\nCorporate Regulatory Authority, Singapore. The registered office of Delhivery Singapore Pte. Ltd. is at 8, Cross\nStreet, #24-03/04, Manulife Tower, Singapore 048424. The unique entity number of Delhivery Singapore is\n</text>\n</passage>\n\n<passage id=\"91\">\n<context>\n[section]\n10. Delhivery Singapore Pte. Ltd. (\u201cDelhivery Singapore\u201d)\n</context>\n<text>\n10. Delhivery Singapore Pte. Ltd. (\u201cDelhivery Singapore\u201d)\nCorporate Information\nDelhivery Singapore was incorporated as a private company limited by Shares on August 2, 2021 under the\nCompanies Act of Singapore with the Assistant Registrar of Companies & Business Names, Accounting and\nCorporate Regulatory Authority, Singapore. The registered office of Delhivery Singapore Pte. Ltd. is at 8, Cross\nStreet, #24-03/04, Manulife Tower, Singapore 048424. The unique entity number of Delhivery Singapore is\n202126717W. The principal business of Delhivery Singapore is to, among other initiatives, hold investments, as\nauthorised under its constitutional documents.\nCapital Structure\nAs on the date of this Prospectus, the issued share capital of Delhivery Singapore is 2,000,000 divided into\n2,000,000 ordinary shares of USD 1 each.\nOur Company holds 2,000,000 equity shares aggregating to 100% of the total equity shareholding of Delhivery\nSingapore.\nAmount of accumulated profits or losses\nAs on the date of this Prospectus, there are no accumulated profits or losses of Delhivery Singapore that have not\nbeen accounted for by our Company in the Restated Financial Statements.\n\n\n258\nOUR MANAGEMENT\nUnder our Articles of Association, our Company is authorised to have up to 15 Directors. Effective from the date\nof listing and trading of our Equity Shares pursuant to this Offer, Part B of our Articles of Association shall stand\nautomatically terminated and simultaneously, Part A of our Articles of Association will become automatically\neffective, in accordance with which our Company will be authorised to have up to 15 Directors. As on the date of\nthis Prospectus, we have 11 Directors on our Board, comprising 3 Executive Directors, 3 Non-Executive Nominee\nDirectors and 5 Non-Executive Independent Directors, including one woman Director. The present composition\nof our Board and its committees is in accordance with the corporate governance requirements provided under the\nCompanies Act and the SEBI Listing Regulations.\nOur Board\nThe following table sets forth details regarding our Board as on the date of this Prospectus:\nName, Designation, Address, Occupation, Date of Birth,\nTerm Period of Directorship and DIN\nAge\n(years)\nOther Directorships\nDeepak Kapoor\nDesignation: Chairman and Non-Executive Independent\nDirector\nAddress: K-42, NDSE-2, Andrewsganj S.O., South Delhi, Delhi\n110049, India\nOccupation: Professional\nDate of birth: January 7, 1959\nTerm: Five years with effect from October 1, 2021\nPeriod of Directorship: Since November 22, 2017\nDIN: 00162957\n63\nIndian companies\n1.\nTata Steel Limited\n2.\nHCL Technologies Limited\n3.\nNayara Energy Limited\nForeign companies\n1.\nTata\nSteel\nMinerals\nCanada\nLimited\nSahil Barua\nDesignation: Managing Director and Chief Executive Officer\nAddress: House No. 367/4, B5 Plot No., Villa No. 9, Salvador\nDo Mundo Bardez, North Goa 403101 Goa, India\nOccupation: Business\nDate of birth: December 25, 1984\nTerm: Five years with effect from October 13, 2021\nPeriod of Directorship: Since December 19, 2011\nDIN: 05131571\n37\nIndian companies\nNil\nForeign companies\n1.\nDelhivery HK Pte. Ltd\n2.\nDelhivery USA LLC\nSandeep Kumar Barasia\nDesignation: Executive Director and Chief Business Officer\nAddress: C 77, 3rd Floor, Panchsheel Enclave, Delhi 110017,\nIndia\nOccupation: Business\nDate of birth: September 22, 1972\nTerm: Five years with effect from October 13, 2021\n49\nIndian companies\n1.\nCreative\nHortifarms\nPrivate\nLimited\n2.\nMumtaz Hotels Limited\n3.\nThe Barasia Company Private\nLimited\nForeign companies\n1.\nDelhivery Corp Limited\n\n\n259\n</text>\n</passage>\n\n<passage id=\"92\">\n<context>\n[section]\nOur Board\n</context>\n<text>\nIndian companies\nNil\nForeign companies\n1.\nDelhivery HK Pte. Ltd\n2.\nDelhivery USA LLC\nSandeep Kumar Barasia\nDesignation: Executive Director and Chief Business Officer\nAddress: C 77, 3rd Floor, Panchsheel Enclave, Delhi 110017,\nIndia\nOccupation: Business\nDate of birth: September 22, 1972\nTerm: Five years with effect from October 13, 2021\n49\nIndian companies\n1.\nCreative\nHortifarms\nPrivate\nLimited\n2.\nMumtaz Hotels Limited\n3.\nThe Barasia Company Private\nLimited\nForeign companies\n1.\nDelhivery Corp Limited\n\n\n259\nName, Designation, Address, Occupation, Date of Birth,\nTerm Period of Directorship and DIN\nAge\n(years)\nOther Directorships\nPeriod of Directorship: Since July 1, 2015\nDIN: 01432123\nKapil Bharati\nDesignation: Executive Director and Chief Technology Officer\nAddress: 295 DDA Flats, Gulmohar Enclave, Andrewsganj\nS.O., South Delhi, Delhi 110049, India\nOccupation: Business\nDate of birth: May 11, 1978\nTerm: Five years with effect from October 13, 2021 and liable\nto retire by rotation\nPeriod of Directorship: Since August 19, 2021\nDIN: 02227607\n44\nForeign companies\n1.\nDelhivery Robotics LLC\nDonald Francis Colleran\nDesignation: Non-Executive Nominee Director\nAddress: 1895 Hazelton Dr, Germantown, TN 38138-2658\nUnited States of America\nOccupation: President & CEO, FedEx Express\nDate of birth: January 6, 1956\nTerm: Liable to retire by rotation\nPeriod of Directorship: Since December 24, 2021\nDIN: 09431299\n66\nForeign companies\n1.\nEast Group Properties\n2.\nABM Industries\n3.\nFederal Express Corporation\n4.\nFederal Express International, Inc.\n5.\nFedEx Corporate Services, Inc.\n6.\nFedEx\nCustoms\nBrokerage\nCorporation\nMunish Ravinder Varma\nDesignation: Non-Executive Nominee Director\nAddress: 36, Hamilton Terrace, St. John Wood, London, United\nKingdom\nOccupation: Professional\nDate of birth: September 25, 1971\nTerm: Liable to retire by rotation\nPeriod of Directorship: Since March 7, 2019\nDIN: 02442753\n50\nIndian companies\n1.\nSVF Investment Advisers (India)\nPrivate Limited\nForeign companies\n1.\nOakNorth Holdings Limited\n2.\nSVF India Holdings (UK) Limited\n3.\nSVF Game (Cayman) Limited\n4.\nSVF Investment Corp. 2\nSuvir Suren Sujan\nDesignation: Non-Executive Nominee Director\nAddress: 3/7 Shree Sadan, Carmichael Road, Mumbai 400026,\nMaharashtra, India\nOccupation: Professional\n50\nIndian companies\n1.\nNexus India Capital Advisors\nPrivate Limited\nForeign companies\n1.     Quizizz Inc.\n\n\n260\n</text>\n</passage>\n\n<passage id=\"93\">\n<context>\n[section]\nOur Board\n</context>\n<text>\nPeriod of Directorship: Since March 7, 2019\nDIN: 02442753\n50\nIndian companies\n1.\nSVF Investment Advisers (India)\nPrivate Limited\nForeign companies\n1.\nOakNorth Holdings Limited\n2.\nSVF India Holdings (UK) Limited\n3.\nSVF Game (Cayman) Limited\n4.\nSVF Investment Corp. 2\nSuvir Suren Sujan\nDesignation: Non-Executive Nominee Director\nAddress: 3/7 Shree Sadan, Carmichael Road, Mumbai 400026,\nMaharashtra, India\nOccupation: Professional\n50\nIndian companies\n1.\nNexus India Capital Advisors\nPrivate Limited\nForeign companies\n1.     Quizizz Inc.\n\n\n260\nName, Designation, Address, Occupation, Date of Birth,\nTerm Period of Directorship and DIN\nAge\n(years)\nOther Directorships\nDate of birth: September 20, 1971\nTerm: Liable to retire by rotation\nPeriod of Directorship: Since September 9, 2014\nDIN: 01173669\nKalpana Jaisingh Morparia\nDesignation: Non-Executive Independent Director\nAddress: A52, Ahuja Tower CHS, Rajabhau Desai Marg,\nBehind ICICI Prudential, Prabhadevi, Mumbai 400025\nMaharashtra, India\nOccupation: Professional\nDate of birth: May 30, 1949\nTerm: Five years with effect from October 13, 2021\nPeriod of Directorship: Since October 13, 2021\nDIN: 00046081\n72\nIndian companies\n1.\nDr. Reddy\u2019s Laboratories Limited\n2.\nHindustan Unilever Limited\n3.\nGeneration India Foundation\n4.\nFoundation for Audit Quality\nForeign companies\n1.\nPhilip Morris International Inc.\nRomesh Sobti\nDesignation: Non-Executive Independent Director\nAddress: 10 S/F, Paschim Marg, Vasant Vihar, New Delhi, Delhi\n110057 India\nOccupation: Professional\nDate of birth: March 24, 1950\nTerm: Five years with effect from October 1, 2021\nPeriod of Directorship: Since October 1, 2021\nDIN: 00031034\n72\nIndian companies\n1.\nAditya Birla Capital Limited\n2.\nMaple\nInfra\nInvit\nInvestment\nManager Private Limited\n3.\nOlive Bar & Kitchen Private\nLimited\n4.\nAdani Green Energy Limited\nForeign companies\nNil\nSaugata Gupta\nDesignation: Non-Executive Independent Director\nAddress: B-1002, Rustomjee Oriana, MIG Colony, Gandhi\nNagar, Bandra East, Mumbai 400051 Maharashtra, India\nOccupation: Service\nDate of birth: August 10, 1967\nTerm: Five years with effect from October 1, 2021\nPeriod of Directorship: Since October 1, 2021\nDIN: 05251806\n54\nIndian companies\n1.\nMarico Limited\n2.\nHalite Personal Care India Private\nLimited\n3.\nMarico Innovation Foundation\n4.\nParachute Kalpavriksha Foundation\n5.\nAshok Leyland Limited\n6.\nThe Advertising Standards Council\nof India\nForeign companies\n1.\nMarico Bangladesh Limited\n2.\nMarico\nSouth\nEast\nAsia\nCorporation\n3.\nMarico South Africa Consumer\nCare (Pty) Limited\n4.\nMarico Middle East FZE\nSrivatsan Rajan\n57\nIndian companies\n\n\n261\n</text>\n</passage>\n\n<passage id=\"94\">\n<context>\n[section]\nOur Board\n</context>\n<text>\nTerm: Five years with effect from October 1, 2021\nPeriod of Directorship: Since October 1, 2021\nDIN: 05251806\n54\nIndian companies\n1.\nMarico Limited\n2.\nHalite Personal Care India Private\nLimited\n3.\nMarico Innovation Foundation\n4.\nParachute Kalpavriksha Foundation\n5.\nAshok Leyland Limited\n6.\nThe Advertising Standards Council\nof India\nForeign companies\n1.\nMarico Bangladesh Limited\n2.\nMarico\nSouth\nEast\nAsia\nCorporation\n3.\nMarico South Africa Consumer\nCare (Pty) Limited\n4.\nMarico Middle East FZE\nSrivatsan Rajan\n57\nIndian companies\n\n\n261\nName, Designation, Address, Occupation, Date of Birth,\nTerm Period of Directorship and DIN\nAge\n(years)\nOther Directorships\nDesignation: Non-Executive Independent Director\nAddress: 1432 Great Heron Dr, Santa Rosa, CA 95409-4360\nUnited States of America\nOccupation: Professional\nDate of birth: June 12, 1964\nTerm: Five years with effect from October 1, 2021\nPeriod of Directorship: Since March 1, 2016\nDIN: 00754512\n1.     Spoton Logistics Private Limited\nForeign companies\n1.\nVave Health Inc\n2.\nCapella Space Corp\nArrangement or Understanding with major shareholders, customers, suppliers or others\nApart from (i) Munish Ravinder Varma, nominated to our Board by SVF Doorbell (Cayman) Ltd; (ii) Suvir Suren\nSujan nominated to our Board by jointly Nexus Ventures III Ltd. and Nexus Opportunity Fund Ltd. and (iii)\nDonald Francis Colleran nominated to our Board by FedEx, none of our Directors have been appointed pursuant\nto any arrangement or understanding with our major shareholders, customers, suppliers or others. For further\ndetails, please see \u201cHistory and Certain Corporate Matters \u2013 Shareholders\u2019 agreement\u201d on page 250.\nBrief profiles of our Directors\nDeepak Kapoor is the Chairman and Non-Executive Independent Director of our Company. He holds a\nbachelor\u2019s degree in commerce from the University of Delhi and was conferred a doctorate in philosophy by the\nAmity University, Uttar Pradesh. He is a fellow member of the Institute of Chartered Accountants of India and\nthe Institute of Company Secretaries of India. He has been certified as a Fraud Examiner by the Association of\nCertified Fraud Examiners. He was previously associated with PricewaterhouseCoopers Private Limited as\nChairman and Chief Executive Officer.\nSahil Barua is the Managing Director and Chief Executive Officer of our Company. He holds a bachelor\u2019s degree\nin mechanical engineering from the National Institute of Technology Karnataka, Surathkal and a post-graduate\ndiploma in management from the Indian Institute of Management Bangalore. He has previously been associated\nwith Bain & Company India Private Limited as Consultant.\nSandeep Kumar Barasia is an Executive Director and Chief Business Officer of our Company. He holds a\nbachelor\u2019s degree in commerce from the Bond University and a master\u2019s degree in business administration from\nthe London Business School, University of London. He was previously associated with Bain & Company India\nPrivate Limited as a Vice-President (Partner).\nKapil Bharati is an Executive Director and Chief Technology Officer of our Company. He holds a bachelor\u2019s\ndegree in technology (mechanical engineering) from the Indian Institute of Technology Delhi. He has previously\nserved as Founder and Chief Technology Officer at Athena Information Solutions Private Limited and as Senior\nManager Technology at Sapient and Publicis Sapient.\nDonald Francis Colleran is a Non-Executive Nominee Director of our Company as a nominee of FedEx. He\nholds a Bachelor of Science in Administration degree from the University of New Hampshire. He presently holds\nthe position of President & CEO of FedEx Express and was previously the Executive Vice President, Chief Sales\nOfficer at FedEx Corporation.\nMunish Ravinder Varma is a Non-Executive Nominee Director of our Company as a nominee of SVF Doorbell\n(Cayman) Ltd. He has completed his master\u2019s degree in business administration from the Cornell University. He\ncurrently serves as Managing Partner at SoftBank Investment Advisers. He was previously associated with\n</text>\n</passage>\n\n<passage id=\"95\">\n<context>\n[section]\nBrief profiles of our Directors\n</context>\n<text>\nholds a Bachelor of Science in Administration degree from the University of New Hampshire. He presently holds\nthe position of President & CEO of FedEx Express and was previously the Executive Vice President, Chief Sales\nOfficer at FedEx Corporation.\nMunish Ravinder Varma is a Non-Executive Nominee Director of our Company as a nominee of SVF Doorbell\n(Cayman) Ltd. He has completed his master\u2019s degree in business administration from the Cornell University. He\ncurrently serves as Managing Partner at SoftBank Investment Advisers. He was previously associated with\nDeutsche Bank AG.\n\n\n262\nSuvir Suren Sujan is a Non-Executive Nominee Director of our Company as a nominee of Nexus Ventures III\nLtd. and Nexus Opportunity Fund Ltd. He holds a bachelor\u2019s degree of science in electrical engineering from the\nUniversity of Maryland, U.S.A. and a master\u2019s degree in business administration from the Harvard University,\nU.S.A. He was previously associated with the Boston Consulting Group as Consultant and with Baazee.com India\nPrivate Limited as its Co-CEO and Director.\nKalpana Jaisingh Morparia is a Non-Executive Independent Director of our Company. She holds a bachelor\u2019s\ndegree of science and a bachelor\u2019s degree of law from the University of Bombay. She was previously associated\nwith J.P. Morgan India Private Limited as Managing Director and with ICICI Bank Limited as Joint Managing\nDirector.\nRomesh Sobti is a Non-Executive Independent Director of our Company. He holds a bachelor\u2019s degree in\nelectrical engineering from Jabalpur University and a diploma in corporate laws and secretarial practice from the\nIndian Law Institute. He was previously associated with IndusInd Bank Limited as Managing Director and Chief\nExecutive Officer.\nSaugata Gupta is a Non-Executive Independent Director of our Company. He holds a bachelor\u2019s degree in\ntechnology (honours) in chemical engineering from the Indian Institute of Technology Kharagpur and a post\ngraduate diploma in management from the Indian Institute of Management Bangalore. He is the Managing\nDirector and Chief Executive Officer of Marico Limited.\nSrivatsan Rajan is a Non-Executive Independent Director of our Company. He holds a bachelor\u2019s degree in\nscience from the Osmania University, Hyderabad, a post graduate diploma in management from the Indian\nInstitute of Management Calcutta and a master\u2019s degree in business administration from the Wharton School,\nUniversity of Pennsylvania, U.S.A. He was previously associated with NIIT Limited as a Consultant and with\nDigital Equipment (India) Limited, a subsidiary of Digital Equipment Corporation, USA, as Business\nDevelopment Manager, and as a Senior Partner with Bain & Company, Inc and was last chairman of their India\noperations. He is currently a Partner with Cota Capital Management, LLC, a San Francisco based investment firm\nthat has a portfolio of investments in private and public enterprise technology companies.\nRelationship between Directors and Key Managerial Personnel\nNone of our Directors are related to each other or to our Key Managerial Personnel.\nTerms of Appointment of our Executive Directors\nSahil Barua\nPursuant to a shareholders\u2019 resolution dated October 15, 2021 and employment agreement dated October 13, 2021,\nSahil Barua is entitled to the following remuneration and other employee benefits:\na.\nFixed salary with merit based annual increments as may be approved by our Nomination and\nRemuneration Committee/ Board in the range of \u20b925.00 million per annum to \u20b9100.00 million per annum;\nb. Performance related pay and annual bonus: Performance incentive / annual bonus, based on performance\nparameters as may be decided by our Nomination and Remuneration Committee/ Board; and\nc.\nAdditional benefits: gratuity, medical insurance and other perquisites/ benefits as per our Company\u2019s\npolicy.\nIn Fiscal 2021, he received an aggregate compensation of \u20b930.31 million (including \u20b93.44 million accrued as\nvariable pay for the period between October 1, 2018 and December 31, 2019) from our Company. Further, for the\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Delhivery has delivered 1 billion express parcel shipments since incorporation as of 2021.",
+        "confidence": 1,
+        "passage_id": 80,
+        "predicate": "express_parcel_shipments_delivered",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "2021"
+          }
+        ],
+        "quote": "1 billion express parcel shipments delivered since incorporation\n2021",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "1 billion",
+          "scale": "billion"
+        }
+      },
+      {
+        "claim_text": "The prior affirmative written consent of investors holding a majority of the investors\u2019 securities is required for the incurrence of debt during a financial year in excess of \u20b92,000,000,000.",
+        "confidence": 1,
+        "passage_id": 83,
+        "predicate": "debt_incurrence_threshold_for_investor_consent",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "financial year"
+          }
+        ],
+        "quote": "incurrence of debt during a financial year in excess of \u20b92,000,000,000",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b92,000,000,000",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The prior affirmative written consent of investors holding a majority of the investors\u2019 securities is required for transactions other than in the ordinary course of business in excess of \u20b9100,000,000.",
+        "confidence": 1,
+        "passage_id": 83,
+        "predicate": "non_ordinary_course_transaction_threshold_for_investor_consent",
+        "quote": "transactions other than in the ordinary course of business of our Company, in excess of \u20b9100,000,000",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b9100,000,000",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "Delhivery holds 34.55% of the share capital of Falcon Autotech Private Limited on a fully diluted basis.",
+        "confidence": 1,
+        "passage_id": 87,
+        "predicate": "share_capital_holding",
+        "qualifiers": [
+          {
+            "key": "entity",
+            "provenance": "stated",
+            "value": "Falcon Autotech Private Limited"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "fully diluted"
+          }
+        ],
+        "quote": "our Company holds a total of 34.55% of the share capital of Falcon, on a fully diluted basis.",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "34.55%"
+        }
+      },
+      {
+        "claim_text": "Delhivery Freight Services Private Limited was incorporated on April 21, 2020.",
+        "confidence": 1,
+        "passage_id": 87,
+        "predicate": "incorporation_date",
+        "quote": "DFSPL was incorporated as a private limited company on April 21, 2020",
+        "subject_surface": "Delhivery Freight Services Private Limited",
+        "value": {
+          "kind": "date",
+          "raw": "April 21, 2020"
+        }
+      },
+      {
+        "claim_text": "Orion Supply Chain Private Limited was incorporated on December 6, 2019.",
+        "confidence": 1,
+        "passage_id": 88,
+        "predicate": "incorporation_date",
+        "quote": "OSCPL was incorporated as a private limited company on December 6, 2019",
+        "subject_surface": "Orion Supply Chain Private Limited",
+        "value": {
+          "kind": "date",
+          "raw": "December 6, 2019"
+        }
+      },
+      {
+        "claim_text": "Delhivery Cross Border Services Private Limited was incorporated on December 12, 2015.",
+        "confidence": 1,
+        "passage_id": 88,
+        "predicate": "incorporation_date",
+        "quote": "DCBSPL was incorporated as \u201cSkynet Logistics Private Limited\u201d, a private limited company on December 12, 2015",
+        "subject_surface": "Delhivery Cross Border Services Private Limited",
+        "value": {
+          "kind": "date",
+          "raw": "December 12, 2015"
+        }
+      },
+      {
+        "claim_text": "Spoton Logistics Private Limited was incorporated on November 17, 2011.",
+        "confidence": 1,
+        "passage_id": 88,
+        "predicate": "incorporation_date",
+        "quote": "Spoton was incorporated as Startrek Logistics Private Limited, a private limited company on November 17, 2011",
+        "subject_surface": "Spoton Logistics Private Limited",
+        "value": {
+          "kind": "date",
+          "raw": "November 17, 2011"
+        }
+      },
+      {
+        "claim_text": "Spoton Supply Chain Solutions Private Limited was incorporated on May 1, 2008.",
+        "confidence": 1,
+        "passage_id": 89,
+        "predicate": "incorporation_date",
+        "quote": "SSCPL was incorporated as \u201cRaag Technologies and Services Private Limited\u201d, a private limited company on May 1, 2008",
+        "subject_surface": "Spoton Supply Chain Solutions Private Limited",
+        "value": {
+          "kind": "date",
+          "raw": "May 1, 2008"
+        }
+      },
+      {
+        "claim_text": "Delhivery Corp Limited was incorporated on March 17, 2016.",
+        "confidence": 1,
+        "passage_id": 89,
+        "predicate": "incorporation_date",
+        "quote": "DCL was incorporated as a private limited company on March 17, 2016",
+        "subject_surface": "Delhivery Corp Limited",
+        "value": {
+          "kind": "date",
+          "raw": "March 17, 2016"
+        }
+      },
+      {
+        "claim_text": "Delhivery HK Pte Limited was incorporated on August 3, 2018.",
+        "confidence": 1,
+        "passage_id": 89,
+        "predicate": "incorporation_date",
+        "quote": "DHPL was incorporated as a private limited company on August 3, 2018",
+        "subject_surface": "Delhivery HK Pte Limited",
+        "value": {
+          "kind": "date",
+          "raw": "August 3, 2018"
+        }
+      },
+      {
+        "claim_text": "Delhivery USA, LLC was incorporated on May 23, 2016.",
+        "confidence": 1,
+        "passage_id": 90,
+        "predicate": "incorporation_date",
+        "quote": "Delhivery USA was incorporated as a limited liability company on May 23, 2016",
+        "subject_surface": "Delhivery USA, LLC",
+        "value": {
+          "kind": "date",
+          "raw": "May 23, 2016"
+        }
+      },
+      {
+        "claim_text": "Delhivery Robotics LLC was incorporated on August 23, 2021.",
+        "confidence": 1,
+        "passage_id": 90,
+        "predicate": "incorporation_date",
+        "quote": "Delhivery Robotics was incorporated as a limited liability company on August 23, 2021",
+        "subject_surface": "Delhivery Robotics LLC",
+        "value": {
+          "kind": "date",
+          "raw": "August 23, 2021"
+        }
+      },
+      {
+        "claim_text": "Delhivery Singapore Pte. Ltd. was incorporated on August 2, 2021.",
+        "confidence": 1,
+        "passage_id": 91,
+        "predicate": "incorporation_date",
+        "quote": "Delhivery Singapore was incorporated as a private company limited by Shares on August 2, 2021",
+        "subject_surface": "Delhivery Singapore Pte. Ltd.",
+        "value": {
+          "kind": "date",
+          "raw": "August 2, 2021"
+        }
+      },
+      {
+        "claim_text": "Sahil Barua received an aggregate compensation of \u20b930.31 million from Delhivery in Fiscal 2021.",
+        "confidence": 1,
+        "passage_id": 95,
+        "predicate": "annual_compensation",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "2021"
+          }
+        ],
+        "quote": "In Fiscal 2021, he received an aggregate compensation of \u20b930.31 million",
+        "subject_surface": "Sahil Barua",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b930.31 million",
+          "scale": "million",
+          "unit": "INR"
+        }
+      }
+    ]
+  }
+}

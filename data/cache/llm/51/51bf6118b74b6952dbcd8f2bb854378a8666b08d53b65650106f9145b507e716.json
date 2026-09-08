@@ -1,0 +1,441 @@
+{
+  "key": "51bf6118b74b6952dbcd8f2bb854378a8666b08d53b65650106f9145b507e716",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"32\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 29\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 31\n\n[section]\nSTAFF APPRAISAL\n</context>\n<text>\n65.      Enhancing the quality, availability, and timeliness of macroeconomic and financial\nstatistics would support policy formulation. India\u2019s data are broadly adequate for surveillance,\nwith room for improvement in some areas. Significant efforts underway to improve data quality,\nparticularly in the national accounts, are welcome, as they will enhance data transparency and\nsupport policy making.\n66.      It is recommended that the next Article IV consultation be held on the standard 12-\nmonth cycle.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n30\nINTERNATIONAL MONETARY FUND\nFigure 2. India: Recent Macroeconomic Developments\nIndia remains the fastest-growing major economy.\nDomestic demand and, recently, net exports have been\ngrowth contributors.\nThere has been some mixed performance across\ndifferent high-frequency indicators.\nRural demand growth continues, whereas urban\ndemand has stabilized, except for passenger vehicles.\nInvestment growth has been led by general\ngovernment capital expenditure and housing, whereas\nprivate corporate investment has been less dynamic\u2026\n... including through limited announcements of new\nprivate investment projects.\n-1.0\n0.0\n1.0\n2.0\n3.0\n4.0\n5.0\n6.0\n7.0\n8.0\n2024\n2025\nSources: IMF, World Economic Outlook, Oct 2025; and IMF staff calculations.\nReal GDP Growth\n(In percent, year-on-year)\n-10.0\n-5.0\n0.0\n5.0\n10.0\n15.0\n20.0\nPrivate Consumption\nPublic Consumption\nGross Fixed Capital Formation\nChange in Stocks\nNet Exports\nStatistical Discrepancy\nReal GDP (YoY)\nContribution to Real GDP Growth\n(In percent, year-on-year)\nSources: Haver Analytics; and IMF staff estimates.\nNote: Data is presented in calendar year format (e.g. 2024Q3 = Q2 of FY2024/25).\n0.0\n2.0\n4.0\n6.0\n8.0\n10.0\n12.0\n14.0\nIndustrial Production\nGoods and Services Tax\nGST and Industrial Production\n(Growth in percent, year-on-year)\nSource: Haver Analytics.\n-25.0\n-15.0\n-5.0\n5.0\n15.0\n25.0\nDomestic Passenger Vehicle Sales\nDomestic Two-wheeler Sales\nTractor Sales\nFMCG Volume Growth: Urban\nFMCG Volume Growth: Rural\nSources: CEIC; Nielsen IQ; and IMF staff calculations.\nNote: FMCG = Fast Moving Consumer Goods.\nConsumption\n(Growth in percent, year-on-year)\n-15.0\n-10.0\n-5.0\n0.0\n5.0\n10.0\n15.0\n20.0\n25.0\n30.0\n35.0\n2020/21\n2021/22\n2022/23\n2023/24\nGross Fixed Capital Formation\nPrivate Non-Financial Corporations\nGeneral Government\nHousing\nSources: Haver Analytics; and IMF staff calculations.\nGross Fixed Capital Formation\n(Growth in percent, year-on-year)\n-100.0\n-50.0\n0.0\n50.0\n100.0\n150.0\n200.0\n250.0\n300.0\nNumber of New Projects Announced\nCost of New Projects Announced\nNew Private Sector Projects Announced\n(Growth in percent, year-on-year)\nSources: CMIE Economics Outlook; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"33\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 31\n\n[section]\nSTAFF APPRAISAL > Figure 2. India: Recent Macroeconomic Developments\n</context>\n<text>\nGross Fixed Capital Formation\nPrivate Non-Financial Corporations\nGeneral Government\nHousing\nSources: Haver Analytics; and IMF staff calculations.\nGross Fixed Capital Formation\n(Growth in percent, year-on-year)\n-100.0\n-50.0\n0.0\n50.0\n100.0\n150.0\n200.0\n250.0\n300.0\nNumber of New Projects Announced\nCost of New Projects Announced\nNew Private Sector Projects Announced\n(Growth in percent, year-on-year)\nSources: CMIE Economics Outlook; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 31\nFigure 3. India: Labor Market Developments\nHeadline labor market indicators remained broadly\nstable in 2024\u2026\n\u2026 with some improvements in quality.\nEmployment in agriculture declined in 2024.\nFormal employment continues to expand from a low\nbase.\nReal hourly wages in rural and urban areas are\nincreasing, although that partly reflects declining hours\nworked.\nYouth unemployment remains high for the most\neducated but has declined significantly.\n0\n2\n4\n6\n8\n10\n12\n14\n44\n46\n48\n50\n52\n54\n56\n58\n60\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nLabor Force Participation Rate\nUnemployment Rate (RHS)\nTotal\nRural\nUrban\nHeadline Labor Market Indicators in India\n(Aged 15 and above, in percent)\nSources: PLFS; and IMF staff estimates.\n-4\n-2\n0\n2\n4\n6\n8\n10\n12\n14\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nTotal\nRural\nUrban\nOwn-account Worker & Employer\nUnpaid Family Worker\nRegular Wage Worker\nCasual Worker\nUnemployed\nCumulative Change in LFPR by Employment Status\n(Comparison using 2018 as the base year, percentage points, aged 15 and above)\nSources: PLFS; and IMF staff estimates.\nNote: Breakdown excludes self-employed who did not work during the reference week.\n-4\n-2\n0\n2\n4\n6\n8\n10\n12\n14\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nTotal\nRural\nUrban\nAgriculture\nManufacturing\nConstruction and Others\nServices\nCumulative Change in Employment Rate by Sector\n(Comparison using 2018 as the base year, percentage points, aged 15 and above)\nSources: PLFS; and IMF staff estimates.\n8.5\n9.0\n9.5\n10.0\n10.5\n11.0\n11.5\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nFormal Employment\n(In percent of total employment, primary status, aged 15 and above)\nSources: PLFS; and IMF staff estimates.\nNote: Formal employment defined based on eligibility for social security benefits.\n80\n90\n100\n110\n120\n130\n140\n150\nRural\nUrban\nReal Hourly Wages\n(2017/18 = 100)\nSources: PLFS; and IMF staff estimates.\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\nBelow\nPrimary\nPrimary\nMiddle\nSecondary\nHigher\nSecondary\nGraduate +\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nSources: PLFS; and IMF staff estimates.\nYouth Unemployment\n(Aged 15-29, in percent)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"34\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 31\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 33\n\n[section]\nSTAFF APPRAISAL > Figure 3. India: Labor Market Developments\n</context>\n<text>\nSources: PLFS; and IMF staff estimates.\nNote: Formal employment defined based on eligibility for social security benefits.\n80\n90\n100\n110\n120\n130\n140\n150\nRural\nUrban\nReal Hourly Wages\n(2017/18 = 100)\nSources: PLFS; and IMF staff estimates.\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\nBelow\nPrimary\nPrimary\nMiddle\nSecondary\nHigher\nSecondary\nGraduate +\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nSources: PLFS; and IMF staff estimates.\nYouth Unemployment\n(Aged 15-29, in percent)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n32\nINTERNATIONAL MONETARY FUND\nFigure 4. India: External Sector Developments\nThe current account balance has been contained in\nrecent quarters\u2026\n\u2026 as services exports remained strong and merchandise\nexports picked up.\nThe financial account has been muted in recent\nquarters due to FPI outflows and subdued net FDI, \u2026\n\u2026 while net inward FDI has shown signs of recovery as\ngross inflows picked up and repatriation/disinvestment\nedged down.\nIndia\u2019s external debt is relatively low compared to\npeers.\nFX reserves are deemed adequate to mitigate external\nvulnerabilities.\n-15\n-10\n-5\n0\n5\n10\n2018Q4\n2019Q2\n2019Q4\n2020Q2\n2020Q4\n2021Q2\n2021Q4\n2022Q2\n2022Q4\n2023Q2\n2023Q4\n2024Q2\n2024Q4\n2025Q2\nTrade Balance\nServices Balance\nIncome & Transfers Balance\nCurrent Account Balance\nSources: Haver Analytics; and IMF staff calculations.\n1/ Data is presented in calendar year format, where 2020Q3 = Sep-20.\nCurrent Account Balance 1/\n(In percent of GDP)\n60\n70\n80\n90\n100\n110\n120\n130\nMerchandise Exports\nServices Exports\nMerchandise and Services Exports 1/\n(In USD billion)\nSources: Haver Analytics; and IMF staff calculations.\n1/ Data is presented in calendar year format.\n-40\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\nNet FDI\nNet FPI\nFinancial Derivatives\nOther Investment\nFinancial Account Balance\nSources: Haver Analytics; and IMF staff calculations.\n1/ Analytical Presentation. Data is presented in calendar year format.\nFinancial Account 1/\n-8\n-6\n-4\n-2\n0\n2\n4\n6\n8\n10\nFDI: Gross Inflow\nFDI: Repatriation/Disinvestment (-)\nFDI: Net Inflow\nInward FDI\n(In USD billion)\nSources: Haver Analytics; and IMF staff calculations.\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\nRussia\nChina\nIndia\nMexico\nIndonesia\nBrazil\nThailand\nKorea\nT\u00fcrkiye\nSouth Africa\n2024\n2025\nSource: IMF, World Economic Outlook, October 2025.\nTotal External Debt\n(In percent of GDP)\n0\n50\n100\n150\n200\n250\n300\n350\n400\nTurkey\nSouth Africa\nChina\nIndia\nIndonesia\nBrazil\nMexico\nThailand\nRussia\n2023\n2024\n2025 1/\nEstimated Reserve Adequacy 1/\n(Official reserves as a percent of IMF country-specific metric)\nSources: IMF, International Financial Statistics; World Economic Outlook; and IMF staff\ncalculations.\n1/ Estimates for 2025.\nRecommended adequacy range\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"35\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 33\n\n[section]\nSTAFF APPRAISAL > Figure 4. India: External Sector Developments\n</context>\n<text>\nSource: IMF, World Economic Outlook, October 2025.\nTotal External Debt\n(In percent of GDP)\n0\n50\n100\n150\n200\n250\n300\n350\n400\nTurkey\nSouth Africa\nChina\nIndia\nIndonesia\nBrazil\nMexico\nThailand\nRussia\n2023\n2024\n2025 1/\nEstimated Reserve Adequacy 1/\n(Official reserves as a percent of IMF country-specific metric)\nSources: IMF, International Financial Statistics; World Economic Outlook; and IMF staff\ncalculations.\n1/ Estimates for 2025.\nRecommended adequacy range\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 33\nFigure 5. India: Financial Market Developments\nThe rupee has experienced more variation in 2025.\nThe sovereign spread over U.S. Treasuries has\nfluctuated at a low level amid the broad depreciation of\nthe U.S. dollar.\nGovernment bond yields moved lower, particularly in\nthe front end, following monetary policy easing.\nEquity derivatives trading volume, after years of\nexponential growth, has declined sharply amid SEBI\u2019s\ntighter regulations.\nThe Indian stock market experienced a significant\ncorrection during 2024Q4-2025Q1 before recovering \u2026\n\u2026 and credit spreads have recently declined, though the\nlevels remain elevated.\n0\n2\n4\n6\n8\n10\n12\n14\n16\n70\n72\n74\n76\n78\n80\n82\n84\n86\n88\n90\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25\nJun-25\nSep-25\nINR/USD\nImplied Volatility (1 month, RHS)\nImplied Vol (Avg Since 2020, RHS)\nRupee Exchange Rate and Volatility\nSources: Bloomberg; and IMF staff calculations.\n1.0\n1.5\n2.0\n2.5\n3.0\n3.5\n4.0\n4.5\n5.0\n90\n95\n100\n105\n110\n115\nSpread of Government Bond Yield over US Treasury (RHS)\nDollar Index\n10-year Treasury Yield (RHS)\nExternal Financial Conditions\n(LHS: index, RHS: in percent)\nSource: Bloomberg.\n5.0\n5.5\n6.0\n6.5\n7.0\n7.5\n8.0\nO/N Interbank\n2yr\n5yr\n10yr\nDomestic Yield Curve\n(In percent)\n1/1/2025\n11/3/2025\n1/1/2024\nSource: Bloomberg.\n0\n20\n40\n60\n80\n100\n120\n140\n160\n180\n200\nUS\nIndia\nRoW\nSource: FIA.\nExchange Traded Options Volume\n(Number of contracts, by country)\n60\n80\n100\n120\n140\n160\nJan-23\nFeb-23\nMar-23\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\nApr-25\nMay-25\nJun-25\nJul-25\nAug-25\nSep-25\nIndia (SENSEX)\nChina (MSCI)\nEM (MSCI)\nUnited States (S&P 500)\nEM Asia (MSCI)\nIndia USD (MSCI)\nSources: LSEG Workspace; and IMF staff calculations.\nStock Market Indices\n(Jan 2023=100)\n380\n400\n420\n440\n460\n480\n500\n30\n50\n70\n90\n110\n130\n150\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\nApr-25\nMay-25\nJun-25\nJul-25\nAug-25\nSep-25\nAAA NBFC 5y\nAAA 5y All Corps/Banks/PSUs\nAAA 5y PSU\nBBB 5y Corp (RHS)\nDomestic Credit Spreads\n(Basis Points)\nSources: Bloomberg; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"36\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 33\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 35\n\n[section]\nSTAFF APPRAISAL > Figure 5. India: Financial Market Developments\n</context>\n<text>\nSources: LSEG Workspace; and IMF staff calculations.\nStock Market Indices\n(Jan 2023=100)\n380\n400\n420\n440\n460\n480\n500\n30\n50\n70\n90\n110\n130\n150\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\nApr-25\nMay-25\nJun-25\nJul-25\nAug-25\nSep-25\nAAA NBFC 5y\nAAA 5y All Corps/Banks/PSUs\nAAA 5y PSU\nBBB 5y Corp (RHS)\nDomestic Credit Spreads\n(Basis Points)\nSources: Bloomberg; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n34\nINTERNATIONAL MONETARY FUND\nFigure 6. India: Inflation and Monetary Developments\nInflation has been generally within the target range \u2026\n\u2026with the shares of CPI basket items above the\ntolerance band having declined significantly.\nFood prices have eased significantly, largely reflecting\ndeflation in vegetable prices.\nInflation expectations remain well anchored.\nWith monetary policy easing, the real policy interest\nrate has been declining, notwithstanding declining\ninflation.\nLiquidity has been in surplus since late March 2025.\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nSep-15\nSep-16\nSep-17\nSep-18\nSep-19\nSep-20\nSep-21\nSep-22\nSep-23\nSep-24\nSep-25\nCPI-Headline\nCPI-Core\nSources: Haver Analytics; and IMF staff calculations.\nTarget band\n(formally from Feb. 2015)\nInflation\n(In percent, year-on-year)\n0\n10\n20\n30\n40\n50\n60\nSep-22\nJan-23\nMay-23\nSep-23\nJan-24\nMay-24\nSep-24\nJan-25\nMay-25\nSep-25\nHeadline\nCore\nSources: Haver Analytics; and IMF staff calculations.\nPercent of CPI with Increases Greater than 6 Percent\n-4\n-2\n0\n2\n4\n6\n8\n10\n12\n14\nSep-20\nSep-21\nSep-22\nSep-23\nSep-24\nSep-25\nCereals\nMilk\nVegetables\nPulses\nOthers\nCPI: Food & Beverages\nSources: Haver Analytics; and IMF staff calculations.\nCPI Food Inflation Contributions\n(In percent, year-on-year)\n0\n2\n4\n6\n8\n10\n12\n14\nSep-17\nSep-18\nSep-19\nSep-20\nSep-21\nSep-22\nSep-23\nSep-24\nSep-25\nHousehold Expectations: 1-year Ahead\nConsensus Expectations: 1-year Ahead\nConsensus Expectations: 5-year Ahead\nCPI-Headline\nSources: Haver Analytics; and Consensus Economics.\nTarget band\n(formally from Feb. 2015)\nInflation Expectations\n(In percent)\n-2.0\n0.0\n2.0\n4.0\n6.0\n8.0\n10.0\nSep-22\nNov-22\nJan-23\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\nMay-25\nJul-25\nSep-25\nReal Interest Rate\nPolicy Rate\nInflation: 1-year Ahead\nInterest Rates and Inflation\n(In percent)\nSources: Haver Analytics; and IMF staff calculations.\n-5\n-4\n-3\n-2\n-1\n0\n1\n2\n3\n4\n3\n4\n5\n6\n7\n8\nRBI Net Liquidity Provision (RHS)\nRepo Policy Rate\nWeekly Avg Call Lending Rate\nMarginal Standing Facility\nStanding Deposit Facility\nSources: Bloomberg; and IMF staff calculations.\nRBI Interest Rates and Net Liquidity Provision\n(LHS: in percent, RHS: INR trillions)\nSurplus Liquidity\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"37\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 35\n\n[section]\nSTAFF APPRAISAL > Figure 6. India: Inflation and Monetary Developments\n</context>\n<text>\nInflation: 1-year Ahead\nInterest Rates and Inflation\n(In percent)\nSources: Haver Analytics; and IMF staff calculations.\n-5\n-4\n-3\n-2\n-1\n0\n1\n2\n3\n4\n3\n4\n5\n6\n7\n8\nRBI Net Liquidity Provision (RHS)\nRepo Policy Rate\nWeekly Avg Call Lending Rate\nMarginal Standing Facility\nStanding Deposit Facility\nSources: Bloomberg; and IMF staff calculations.\nRBI Interest Rates and Net Liquidity Provision\n(LHS: in percent, RHS: INR trillions)\nSurplus Liquidity\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 35\nFigure 7. India: Fiscal Sector Developments\nFiscal consolidation continues\u2026\n\u2026supported by a broadly stable revenue ratio\u2026\n\u2026including a rising reliance on direct taxes...\n... and restraint in central government recurrent\nexpenditure.\nModeration of some commodity prices has supported a\nnarrowing of the subsidy bill.\nInterest payments remain elevated at over 5 percent of\nGDP.\n-14\n-12\n-10\n-8\n-6\n-4\n-2\n0\n2017/18\n2018/19\n2019/20\n2020/21\n2021/22\n2022/23\n2023/24\n2024/25\n2025/26*\nCentral Government\nState Governments\n1/ Includes subsidy-related bond issuance.\nSources: Haver Analytics; and IMF staff data.\n*IMF staff estimates.\nGovernment Balance\n(In percent of GDP) 1/\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n2017/18\n2018/19\n2019/20\n2020/21\n2021/22\n2022/23\n2023/24\n2024/25\n2025/26*\nCentral\nState\nSource: IMF staff data.\n*IMF staff estimates.\nGovernment Tax Revenue\n(In percent of GDP)\n3.0\n3.5\n4.0\n4.5\n5.0\n5.5\n6.0\n6.5\n7.0\nDirect\nIndirect\nCentral Government Tax Revenue\n(In percent of GDP)\nSource: IMF staff data.\n*IMF staff estimates.\n0\n5\n10\n15\n20\n25\n30\n35\nCentral Government\nState Government\nSources: Ministry of Finance; and IMF staff calculations.\n*IMF staff estimates.\nGovernment Recurrent Expenditure\n(In percent of GDP)\n0\n1\n1\n2\n2\n3\n3\n2017/18\n2018/19\n2019/20\n2020/21\n2021/22\n2022/23\n2023/24\n2024/25\n2025/26*\nFood\nFertilizer\nPetroleum\nTotal\nSource: IMF staff data.\n*IMF staff estimates.\nCentral Government Subsidies\n(In percent of GDP)\n0\n1\n2\n3\n4\n5\n6\nCentral Interest Payments\nState Interest Payments\nSources: Ministry of Finance; and IMF staff calculations.\n*IMF staff estimates.\nInterest Payments\n(In percent of GDP)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"38\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 35\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 37\n\n[section]\nSTAFF APPRAISAL > Figure 7. India: Fiscal Sector Developments\n</context>\n<text>\nGovernment Recurrent Expenditure\n(In percent of GDP)\n0\n1\n1\n2\n2\n3\n3\n2017/18\n2018/19\n2019/20\n2020/21\n2021/22\n2022/23\n2023/24\n2024/25\n2025/26*\nFood\nFertilizer\nPetroleum\nTotal\nSource: IMF staff data.\n*IMF staff estimates.\nCentral Government Subsidies\n(In percent of GDP)\n0\n1\n2\n3\n4\n5\n6\nCentral Interest Payments\nState Interest Payments\nSources: Ministry of Finance; and IMF staff calculations.\n*IMF staff estimates.\nInterest Payments\n(In percent of GDP)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n36\nINTERNATIONAL MONETARY FUND\nFigure 8. India: Nonfinancial Corporate Sector Developments\nCorporate profitability has improved\u2026\n\u2026 particularly for large and medium-sized enterprises.\nThe share of nonfinancial corporates at risk\u2014those\nwith an ICR (PBITs to interest payments) of less than\none\u2014has remained stable at 8 percent\u2026\n\u2026. and nonfinancial corporates\u2019 ICRs, except micro\nenterprises, have continued to trend higher.\nCorporate leverage has declined, with the debt-to-asset\nratios of three quarters of firms below 0.5,...\n\u2026 and this downward trend applies to firms across the\nsize spectrum, particularly for micro firms.\n-4.0\n-2.0\n0.0\n2.0\n4.0\n6.0\n8.0\n10.0\n12.0\n14.0\n16.0\n2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 2024\nMedian\nP25\nP75\nProfit Before Interest and Taxes (PBIT) to Asset\n(In percent, median, p25, p75)\nSources: CMIE Prowess; and IMF staff calculations.\n-1.0\n0.0\n1.0\n2.0\n3.0\n4.0\n5.0\n6.0\n7.0\n8.0\n9.0\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nMicro\nSmall\nMedium\nLarge\nProfit Before Interest and Taxes (PBIT) to Asset\n(In percent, median, by firm size)\nSources: CMIE Prowess; and IMF staff calculations.\n0.0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1.0\n2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nICR<1\n1<=ICR<=4\nICR>4\nInterest Coverage Ratio\n(Firm distribution)\nSources: CMIE Prowess; and IMF staff calculations.\n0.0\n1.0\n2.0\n3.0\n4.0\n5.0\n6.0\n2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 2024\nMicro\nSmall\nMedium\nLarge\nSources: CMIE Prowess; and IMF staff calculations.\nInterest Coverage Ratio\n(Median, by firm size)\n0.00\n0.10\n0.20\n0.30\n0.40\n0.50\n0.60\n0.70\n0.80\n2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 2024\nMedian\nP25\nP75\nDebt to Asset\n(Median, p25, p75)\nSources: CMIE Prowess; and IMF staff calculations.\n0.10\n0.20\n0.30\n0.40\n0.50\n0.60\n0.70\n2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 2024\nMicro\nSmall\nMedium\nLarge\nDebt to Asset\n(Median, by firm size)\nSources: CMIE Prowess; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"39\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 37\nIndia\n\n[section]\nSTAFF APPRAISAL > Figure 8. India: Nonfinancial Corporate Sector Developments\n</context>\n<text>\n(Median, by firm size)\n0.00\n0.10\n0.20\n0.30\n0.40\n0.50\n0.60\n0.70\n0.80\n2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 2024\nMedian\nP25\nP75\nDebt to Asset\n(Median, p25, p75)\nSources: CMIE Prowess; and IMF staff calculations.\n0.10\n0.20\n0.30\n0.40\n0.50\n0.60\n0.70\n2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 2024\nMicro\nSmall\nMedium\nLarge\nDebt to Asset\n(Median, by firm size)\nSources: CMIE Prowess; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 37\nFigure 9. India: Banking and NBFC Sector Developments\nThe CAR for the banking system has improved, while\nPSB\u2019s CARs have been consistently lower than those of\nother banks \u2026\n\u2026 and the gross non-performing loans ratio has\ncontinued to decline.\nConcentration risks moderated for PSBs to within Basel\nIII large exposure limit (25 percent of CET1) but rose for\nforeign banks.\nConcentration risks are particularly high for state-\nowned IFCs, with state-owned NBFCs being  exempted\nfrom large exposure limits on a case-by-case basis.\nPVBs are the most active in unsecured retails loans and\nhave incurred the highest credit risks from the segment\nrecently.\nNBFC-IFCs increasingly rely on bank borrowings, both\ndomestically and internationally.\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n35%\n40%\n45%\nPSBs\nPrivate Banks\nForeign Banks\nAll SCBs\n2017\n2023\nTop 1: Large Credit Exposure by Type of Banks\n(In percent of Common Equity Tier1)\nSources: Reserve Bank of India; and IMF staff estimates.\n20.8\n7.8\n2.2\n60.1\n25.0\n4.3\n65.0\n26.1\n1.2\n31.0\n1.8\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nALL\nICC\nMFI\nIFC\nIDF\nNOGOVT\nGOVT\nND\nD\nMIDDLE\nUPPER\nSources: RBI returns; and IMF staff calculations.\nNotes: ICC = investment and credit companies; MFI =microfinance institutions; IFC =\ninfrastructure financing companies; IDF = infrastructure debt fund; NOGOVT = private sector\nowned; GOVT = government owned; ND = non deposit taking; D = deposit taking;  MIDDLE =\nmiddle layer (of the tiered supervisory framework); and UPPER = upper layer.\nTop 1: Large Credit Exposure as of June 2024\n(In percent of Tier 1 Capital)\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n35%\n40%\n45%\nHousing Loans\n(incl. priority, in\npercent of total\nloans)\nRetail Loans (excl.\nhousing, in\npercent of total\nloans)\nNew NPA,\nHousing (incl.\npriority, percent of\ntotal new NPA)\nNew NPAs, Retail\n(excl. housing, in\npercent of total\nnew NPA)\nPSBs\nPrivate Banks\nSectoral Credit Risks: Housing Loans and other Retail Loans\n(2022/2023)\nSource: IMF staff estimates.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "India's next Article IV consultation is recommended to be held on the standard 12-month cycle.",
+        "confidence": 1.0,
+        "passage_id": 32,
+        "predicate": "recommended_article_iv_consultation_cycle",
+        "qualifiers": [],
+        "quote": "It is recommended that the next Article IV consultation be held on the standard 12-month cycle.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "standard 12-month cycle"
+        }
+      },
+      {
+        "claim_text": "India remains the fastest-growing major economy.",
+        "confidence": 1.0,
+        "passage_id": 32,
+        "predicate": "economic_growth_status",
+        "qualifiers": [],
+        "quote": "India remains the fastest-growing major economy.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "fastest-growing major economy"
+        }
+      },
+      {
+        "claim_text": "Headline labor market indicators in India remained broadly stable in 2024.",
+        "confidence": 1.0,
+        "passage_id": 33,
+        "predicate": "headline_labor_market_indicators_status",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Headline labor market indicators remained broadly stable in 2024",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "broadly stable"
+        }
+      },
+      {
+        "claim_text": "Employment in agriculture in India declined in 2024.",
+        "confidence": 1.0,
+        "passage_id": 33,
+        "predicate": "agricultural_employment_trend",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Employment in agriculture declined in 2024.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "declined"
+        }
+      },
+      {
+        "claim_text": "India's external debt is relatively low compared to peers.",
+        "confidence": 1.0,
+        "passage_id": 34,
+        "predicate": "external_debt_status",
+        "qualifiers": [],
+        "quote": "India\u2019s external debt is relatively low compared to peers.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "relatively low compared to peers"
+        }
+      },
+      {
+        "claim_text": "The Indian rupee has experienced more variation in 2025.",
+        "confidence": 1.0,
+        "passage_id": 35,
+        "predicate": "exchange_rate_variation_trend",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2025"
+          }
+        ],
+        "quote": "The rupee has experienced more variation in 2025.",
+        "subject_key": null,
+        "subject_surface": "Indian rupee",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "more variation"
+        }
+      },
+      {
+        "claim_text": "The Indian stock market experienced a significant correction during 2024Q4-2025Q1.",
+        "confidence": 1.0,
+        "passage_id": 35,
+        "predicate": "market_correction_period",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024Q4-2025Q1"
+          }
+        ],
+        "quote": "The Indian stock market experienced a significant correction during 2024Q4-2025Q1",
+        "subject_key": null,
+        "subject_surface": "Indian stock market",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "significant correction"
+        }
+      },
+      {
+        "claim_text": "Liquidity in India has been in surplus since late March 2025.",
+        "confidence": 1.0,
+        "passage_id": 36,
+        "predicate": "liquidity_status",
+        "qualifiers": [
+          {
+            "key": "since",
+            "provenance": "stated",
+            "value": "late March 2025"
+          }
+        ],
+        "quote": "Liquidity has been in surplus since late March 2025.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "surplus"
+        }
+      },
+      {
+        "claim_text": "Interest payments in India remain elevated at over 5 percent of GDP.",
+        "confidence": 1.0,
+        "passage_id": 37,
+        "predicate": "interest_payments_to_gdp_ratio",
+        "qualifiers": [],
+        "quote": "Interest payments remain elevated at over 5 percent of GDP.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "over 5 percent",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The share of nonfinancial corporates at risk in India has remained stable at 8 percent.",
+        "confidence": 1.0,
+        "passage_id": 38,
+        "predicate": "share_at_risk",
+        "qualifiers": [
+          {
+            "key": "definition_of_at_risk",
+            "provenance": "stated",
+            "value": "those with an ICR (PBITs to interest payments) of less than one"
+          }
+        ],
+        "quote": "The share of nonfinancial corporates at risk\u2014those with an ICR (PBITs to interest payments) of less than one\u2014has remained stable at 8 percent",
+        "subject_key": null,
+        "subject_surface": "India nonfinancial corporates",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "8 percent",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The debt-to-asset ratios of three quarters of nonfinancial corporate firms in India are below 0.5.",
+        "confidence": 1.0,
+        "passage_id": 38,
+        "predicate": "debt_to_asset_ratio_threshold",
+        "qualifiers": [
+          {
+            "key": "proportion_of_firms",
+            "provenance": "stated",
+            "value": "three quarters"
+          }
+        ],
+        "quote": "debt-to-asset ratios of three quarters of firms below 0.5",
+        "subject_key": null,
+        "subject_surface": "India nonfinancial corporates",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "0.5",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "The Basel III large exposure limit is 25 percent of CET1.",
+        "confidence": 1.0,
+        "passage_id": 39,
+        "predicate": "large_exposure_limit",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "of CET1"
+          }
+        ],
+        "quote": "Basel III large exposure limit (25 percent of CET1)",
+        "subject_key": null,
+        "subject_surface": "Basel III",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "25 percent",
+          "scale": null,
+          "unit": "%"
+        }
+      }
+    ]
+  }
+}

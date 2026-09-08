@@ -1,0 +1,666 @@
+{
+  "key": "51661ecf8192c32b78d3bf7d4124f5f488ad62173ee83c21ff7a67d25a9bf928",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"48\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 45\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 47\n\n[section]\nSTAFF APPRAISAL > Table 7. India: Financial Soundness Indicators, 2020/21\u20132024/25\n</context>\n<text>\nReturn on assets 2/\n1.2\n1.6\n2.4\n3.3\n2.4\n1/ Gross nonperforming assets less provisions.\n2/ Net profit (+)/loss (-) in percent of total assets.\n3/ Reflect calendar year.\n(In percent, unless indicated otherwise)\nSources: RBI; Bankscope; IMF, Financial Soundness Indicators ; and IMF staff estimates.\n4/ As of July 31, 2022, there were 9640 NBFCs, where 49 were deposit taking (NBFCs-D), and 415 systemically non-deposit taking NBFCs (NBFCs-ND-SI).\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n46\nINTERNATIONAL MONETARY FUND\nAnnex I. Uptake of Previous IMF Advice\nPolicies have largely been aligned with staff recommendations, though challenges remain. Fiscal and\nmonetary policies have been broadly consistent with staff advice. Trade and exchange rate policies\nhave been more aligned with Fund advice than in previous years. Challenges remain in some\nstructural reforms.\n1.\nMonetary and financial sector policies have been broadly appropriate. The RBI has\nmaintained its strong commitment to align inflation with the target and effectively manage price\nstability. The communications regarding the monetary policy stance have continued to guide market\nexpectations. There has been some progress on levelling the regulatory playing field between state-\nowned and privately-owned NBFCs. The recent proposals to adopt an Expected Credit Loss\nframework for provisioning and a Basel III standardized approach for credit risk are welcome. Other\npriorities, including passing a bank resolution law, have lagged. There also remains scope to further\nreduce the public sector footprint in the financial sector.\n2.\nFiscal consolidation planned for FY2025/26 is broadly in line with staff advice. The\ngeneral government fiscal deficit declined slightly in FY2024/25, and the pace of fiscal consolidation\nplanned for FY2025/26 is well aligned with last year\u2019s recommendations. The continued focus on\ninfrastructure is welcome, but the PIT reduction will erode the already-low income-tax base in India.\nThe simplification of the GST reform is aligned with our recommendations, but the resulting decline\nin the effective rate can add mild fiscal pressure. The authorities\u2019 aim of reducing central\ngovernment debt as a percentage of GDP is helpful. However, more ambitious medium-term\nconsolidation and additional reforms are needed for a complete medium-term fiscal framework in\nline with staff\u2019s advice.\n3.\nIndia\u2019s external trade and FX policies have been more aligned with staff\u2019s advice than\nin the recent past. The authorities have lowered and simplified a wide range of tariffs and relaxed\nfood-related export restrictions. That said, some measures have been extended or introduced. Active\nnegotiations of bilateral trade agreements are welcome. The rupee\u2019s exchange rate has exhibited\nincreasing two-way movements in recent months. However, significant (though generally declining)\nFXI has continued in periods not marked by destabilizing risk premia, potentially impeding the\nexchange rate\u2019s role as an absorber of external shocks.\n4.\nDespite some progress in structural reform implementation, important reform\ninitiatives continue to face challenges. Recent initiatives to enhance skills and use technology to\nstrengthen learning are aligned with staff advice. Sub-national governments have been provided\nwith financial incentives to update and digitize land registers, which can support well-functioning\nland markets, despite limited progress in broader land reforms. The rollout of the CCTS with\nemission intensity targets for obligated entities is welcome. However, there has been limited\nprogress on agricultural, product, and labor market reforms.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"49\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 47\n\n[section]\nSTAFF APPRAISAL > Despite some progress in structural reform implementation, important reform\n</context>\n<text>\nstrengthen learning are aligned with staff advice. Sub-national governments have been provided\nwith financial incentives to update and digitize land registers, which can support well-functioning\nland markets, despite limited progress in broader land reforms. The rollout of the CCTS with\nemission intensity targets for obligated entities is welcome. However, there has been limited\nprogress on agricultural, product, and labor market reforms.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 47\nAnnex II. External Sector Assessment\nOverall Assessment: The external position in FY2024/25 (ending in March 2025) is assessed to be moderately stronger than\nthe level implied by medium-term fundamentals and desirable policies. External vulnerabilities stem from weakening external\ndemand, geoeconomic fragmentation, and potentially volatile global financial conditions and commodity prices. Reflecting\nbuoyant services exports and declining oil prices, the CA deficit is projected to remain smaller than its estimated norm in\nFY2025/26 but converge close to it over the medium term given India\u2019s development needs. Although recent steps toward\nopening reflect the authorities\u2019 approach to gradual and calibrated liberalization, India\u2019s trade and capital account regimes\nremain relatively restricted, weighing on both exports and imports.\nPotential Policy Responses: In the near term, continued strength in private consumption will contribute to decreasing the\nCA balance. To facilitate external rebalancing, priority should be given to further reducing import restrictions, especially on\nintermediate goods, while continuing to improve the business environment to boost private investment and liberalize the FDI\nregime. These efforts should be complemented by the development of trade infrastructure and expansion of trade networks.\nIndustrial policies should be pursued cautiously, remain narrowly targeted to specific objectives where externalities or market\nfailures prevent effective market solutions, and aim to minimize trade and investment distortions. Exchange rate flexibility\nshould act as the main shock absorber, with intervention limited to periods marked by destabilizing risk premia.\nForeign Asset\nand Liability\nPosition and\nTrajectory\nBackground. India\u2019s NIIP improved to \u22129.6 percent of GDP in 2024, from \u221210.5 percent of GDP in 2023,\nreflecting valuation changes and nominal GDP growth offsetting the impact of the CA deficit. Gross foreign\nassets declined to about 27.9 percent of GDP (from 28.1 percent of GDP in 2023), while gross foreign\nliabilities declined to about 37.5 percent of GDP (from 38.6 percent of GDP in 2023). The bulk of assets\nwere in the form of official reserves and FDI, whereas liabilities included mostly debt and FDI.\nAssessment. With the CA deficit below its norm in FY2024/25 and projected to gradually widen towards it,\nthe NIIP-to-GDP ratio is expected to decline modestly over the medium term, as robust nominal GDP\nexpansion will mitigate the nominal NIIP decline resulting from the projected CA deficits. India\u2019s external\ndebt liabilities are relatively low compared with those of its peers, and short-term rollover risks are limited.\nThe moderate level of foreign liabilities reflects India\u2019s incremental approach to capital account\nliberalization.\n2024 (% GDP)\nNIIP: -9.6\nGross Assets: 27.9\nDebt Assets: 4.4\nGross Liab.: 37.5\nDebt Liab.: 19.2\nCurrent\nAccount\nBackground. The CA deficit declined to 0.6 percent of GDP in FY2024/25, from 0.7 percent of GDP in the\nprevious year, driven by buoyant services exports and inward remittances. Gross domestic investment and\nsavings remained broadly stable at 33.4 and 32.6 percent of GDP, respectively. While declining, trade\nrestrictions are still weighing on both exports and imports. The CA deficit is projected to increase to about\n1.0 percent of GDP in FY2025/26, largely reflecting resilient domestic demand and a slowdown in external\ndemand. Over the medium term, the CA deficit is projected to widen to around its norm of -2 percent of\n</text>\n</passage>\n\n<passage id=\"50\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 47\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL > Despite some progress in structural reform implementation, important reform\n</context>\n<text>\nprevious year, driven by buoyant services exports and inward remittances. Gross domestic investment and\nsavings remained broadly stable at 33.4 and 32.6 percent of GDP, respectively. While declining, trade\nrestrictions are still weighing on both exports and imports. The CA deficit is projected to increase to about\n1.0 percent of GDP in FY2025/26, largely reflecting resilient domestic demand and a slowdown in external\ndemand. Over the medium term, the CA deficit is projected to widen to around its norm of -2 percent of\nGDP.\nAssessment. The EBA cyclically adjusted CA balance is projected at \u22120.4 percent of GDP in FY2024/25. The\nEBA CA model estimates a norm of \u22122.0 percent of GDP, with a standard error of 0.7 percent. IMF staff thus\nassesses the CA gap to be 1.6 percent of GDP, within a range of 0.9 to 2.3 percent of GDP. Positive policy\ncontributions to the CA gap stem mostly from the fiscal balance, while negative contributions come mostly\nfrom domestic private credit.\n2024/25 (% GDP) CA: -0.6\nCycl. Adj. CA: -0.4 EBA Norm: -2.0\nEBA Gap: 1.6\nStaff Adj.: 0.0\nStaff Gap: 1.6\nReal Exchange\nRate\nBackground. In the first half of 2024, the contained CA deficit and portfolio investment inflows in part\ndriven by India\u2019s inclusion in the global bond indices resulted in appreciation pressures on the rupee.\nHowever, these pressures reversed when a strategic shift by international equity investors, reassessment of\nthe U.S. monetary policy outlook, and elevated global uncertainty triggered portfolio investment outflows\nin the second half of 2024. As of March 2025, the REER was about 2.6 percent below its 2024 average.\nAssessment. The IMF staff CA gap implies a REER gap of \u22129 percent (with an estimated semi-elasticity of\n0.18). EBA REER index and level models suggest an overvaluation of 5.4 percent and 4.1 percent,\nrespectively. Consistent with the staff CA gap, however, the IMF staff projects the REER gap to be in the\nrange of \u221212.8 to \u22125 percent, with a midpoint of \u22129 percent, for FY2024/25.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n48\nINTERNATIONAL MONETARY FUND\nCapital and\nFinancial\nAccounts: Flows\nand Policy\nMeasures\nBackground. In FY2024/25, net FDI inflows have decreased to an almost zero balance, as steady gross\ninflows were offset by rising disinvestment and outward FDI. Net portfolio investment inflows and outflows\nwere also almost evenly balanced at 0.1 percent of GDP, reflecting large equity outflows in late 2024,\ndespite significant bond inflows in the wake of India\u2019s inclusion in global bond indices. During the year, the\nIndian authorities widened the scope of government bonds available for foreign investors and relaxed FDI\nrestrictions.\nAssessment. The expected rebound in net FDI inflows is projected to cover more than half of the CA deficit\nover the medium term. Still, the compression of net FDI inflows in FY2024/25 warrants further structural\nreforms and improvement of the investment regime to promote FDI. Volatile portfolio flows are sensitive\nto changes in global financial conditions and country risk premia. The inclusion of India in international\nbond indices has significantly increased foreign participation in India\u2019s bond market (though from a low\nbase) and supported net portfolio inflows that financed the CA deficit.\nFX Intervention\nand Reserves\nLevel\nBackground. Official FX reserves increased overall in FY2024/25. During this time, the Reserve Bank of\nIndia\u2019s FX interventions aimed to smooth market volatility that the authorities considered to be excessive\nand contributed to the rupee\u2019s exchange rate stability. Reserves increased from $646.4 billion at\nend-FY2023/24 to $668.3 billion at end-FY2024/25, reflecting increases through September followed by a\ndecline in the following months on equity outflows.\nAssessment. Official FX reserves are adequate for precautionary purposes. At end-FY2024/25, they\nrepresented about 209 percent of short-term debt (on residual maturity), about 107 percent of the IMF\u2019s\n</text>\n</passage>\n\n<passage id=\"51\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 49\n\n[section]\nSTAFF APPRAISAL > Despite some progress in structural reform implementation, important reform\n</context>\n<text>\nIndia\u2019s FX interventions aimed to smooth market volatility that the authorities considered to be excessive\nand contributed to the rupee\u2019s exchange rate stability. Reserves increased from $646.4 billion at\nend-FY2023/24 to $668.3 billion at end-FY2024/25, reflecting increases through September followed by a\ndecline in the following months on equity outflows.\nAssessment. Official FX reserves are adequate for precautionary purposes. At end-FY2024/25, they\nrepresented about 209 percent of short-term debt (on residual maturity), about 107 percent of the IMF\u2019s\ncomposite metric, and over eight months of import coverage. In view of India\u2019s generally deep and liquid\nFX markets, limited FX mismatches, and well-anchored inflation expectations, FX interventions should be\nlimited to periods marked by destabilizing risk premia.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 49\nAnnex III. Nowcasting with a Machine Learning Approach1\n1.\nA nowcasting tool based on machine learning can make use of the wealth of available\nhigh-frequency indicators. There is a large number of monthly-frequency indicators that gauge\nvarious aspects of India\u2019s diverse economy. These high-frequency indicators can be useful for\nassessing the economy in real time and ahead of official statistics releases. We develop a nowcasting\nprocedure for quarterly GDP growth based on machine learning models trained on selected high-\nfrequency indicators (Table 1). Compared with traditional time-series models, the machine learning\napproach allows us to synthesize a large number of variables that are conceptually very different,\nfrom exports orders to consumer sentiments. Machine learning models also offer the flexibility to\ncapture complex, non-linear relationships and to natively identify relevant variables from a large\nnumber of candidates, without requiring a pre-specified functional form or manual variable\nselection. Our goal is to use these models to provide a monthly forecast of current-quarter GDP\ngrowth, as the official statistics are published 60 days after the end of the quarter.\nTable 1. India: Monthly-frequency Economic Indicators\n2.\nWe employ a suite of different machine-learning models to optimize model\nperformance. The models include Elastic Net (ENet), Kernel Ridge Regression (KRR), Support Vector\nMachine (SVM) Regression, and Random Forest (RF). ENet is a linear model that combines the L1\n(penalty based on the absolute values of the coefficients) and L2 (penalty based on the squared\nlevels of the coefficients) regularizations, which enables both variable selection and shrinkage. KRR\napplies the L2 regularization that penalizes large coefficients on kernel-based nonlinearly-\ntransformed variable space. SVM Regression fits a linear function to a kernel transformed variable\nspace in a tradeoff that balances model sophistication and prediction error. RF aggregates forecast\nfrom decision trees fitted on random samples of the data and random subsets of the dependent\nvariables.\n1 Prepared by Ni Wang (APD), with contributions from Fang Li (APD) and Margarida Martins (STA).\nCategory\nSelected Variables\nPrices\nConsumer Price Index (CPI), CPI Food & Beverages, CPI Core,\nWholesale Price Index (WPI)\nProduction\nIndustrial Production Indexes (IP), Cement Output, Steel Output,\nElectricity Generation, Manufacturing PMI, Services PMI\nExternal\nUS Economic Policy Uncertainty, Merchandise Exports, Merchandise\nImports, Service Exports, Service Imports, Foreign Exchange Reserves,\nREER, Petroleum Imports, Crude Oil Price\nFinance\nConsumer Credit, Corporate Credit, Bank Deposits, SENSEX Index\nSurveys\nConsumer Confidence Index, Manufacturing New Orders (PMI),\nServices New Business (PMI), Economic Policy Uncertainty Index\nEmployment\nUrban Unemployment Rate, Rural Unemployment Rate, MGNREGA\nWork Demand\nFiscal\nGoods and Services Tax (GST), Gross Tax Receipts, Government\nExpenditure\nTransportation\nPassenger Traffic, Cargo Traffic, Railway Traffic\nAgriculture\n</text>\n</passage>\n\n<passage id=\"52\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 49\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 51\n\n[section]\nSTAFF APPRAISAL > We employ a suite of different machine-learning models to optimize model\n</context>\n<text>\nImports, Service Exports, Service Imports, Foreign Exchange Reserves,\nREER, Petroleum Imports, Crude Oil Price\nFinance\nConsumer Credit, Corporate Credit, Bank Deposits, SENSEX Index\nSurveys\nConsumer Confidence Index, Manufacturing New Orders (PMI),\nServices New Business (PMI), Economic Policy Uncertainty Index\nEmployment\nUrban Unemployment Rate, Rural Unemployment Rate, MGNREGA\nWork Demand\nFiscal\nGoods and Services Tax (GST), Gross Tax Receipts, Government\nExpenditure\nTransportation\nPassenger Traffic, Cargo Traffic, Railway Traffic\nAgriculture\nStock of Foodgrains, Rice Stock, Wheat Stock\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n50\nINTERNATIONAL MONETARY FUND\n3.\nThe models are tuned using expanding-window cross-validation, and an ensemble\nforecast is constructed by aggregating individual models\u2019 forecasts. In the expanding-window\ncross-validation, we fit the models using an initial window of observations as the training set and\ncalculate the one-month-ahead prediction error. Then, we expand the window with the next two\nmonths\u2019 data and again calculate the prediction error, repeating until the sample is exhausted. The\nhyperparameters are optimized by minimizing the residual mean squared error (RMSE) across these\ntrainings. Expanding-window cross-validation preserves the temporal order of the data and prevents\nleakages of \u201cfuture\u201d data into the training sets. The final models are fitted using the optimal\nhyperparameters on the full sample. Finally, we create an ensemble forecast by averaging the\nindividual models\u2019 forecast weighed by the inverse of their average RMSEs from the cross-\nvalidation.2\n4.\nBefore obtaining our final forecast, we compare the performance of the machine\nlearning procedure with the commonly used ARIMA model using honest3 out-of-sample\npredictions and show that the machine learning procedure performs better. We train the\nmachine learning models using data until end-2020 and aggregate the model predictions for the\nsubsequent months (test set) into ensemble predictions. Figure 1 shows the in-sample fit and the\nout-of-sample predictions of seasonally adjusted q-o-q GDP growth using the ensemble model, and\ncompares it with the actual outturns up to 2025Q2. The machine learning procedure is able to\npredict the large movements of q-o-q GDP growth in 2021 without a lag, and it has a much smaller\nRMSE over the test set than an optimally fitted ARIMA model.\n2 See Stock and Watson (2006) for a discussion of forecast averaging.\n3 Honest out-of-sample predictions are predictions on data not used in any part of the training.\nFigure 1. India: Honest Out-of-Sample Prediction Performance\nReal GDP Growth: Ensemble Predictions and Actuals\n(In percent, seasonally adjusted qoq)\nSources: CEIC; Haver Analytics; and IMF staff calculations.\nEnsemble\n1.6\nARMA(5,1)\n2.8\nNote: ARMA(5,1) is the optimal model selected by\nthe corrected Akaike Information Criterion.\nOut-of-sample Prediction RMSE\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"53\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 51\n\n[section]\nSTAFF APPRAISAL > Before obtaining our final forecast, we compare the performance of the machine\n</context>\n<text>\n3 Honest out-of-sample predictions are predictions on data not used in any part of the training.\nFigure 1. India: Honest Out-of-Sample Prediction Performance\nReal GDP Growth: Ensemble Predictions and Actuals\n(In percent, seasonally adjusted qoq)\nSources: CEIC; Haver Analytics; and IMF staff calculations.\nEnsemble\n1.6\nARMA(5,1)\n2.8\nNote: ARMA(5,1) is the optimal model selected by\nthe corrected Akaike Information Criterion.\nOut-of-sample Prediction RMSE\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 51\n5.\nThe final models trained on all available data until June 2025 predict robust growth\nfor 2025Q3 (FY26Q2). Figure 2 shows the RMSEs from cross-validation for the four individual\nmodels. For all models, the average RMSEs are lower than 0.7 percentage points, and Random\nForest stands out with the lowest average RMSE.4 The forecasts for 2025Q3, based on data in July,\nAugust, and September, respectively, are\npresented in the text table and Figure 2.\nThe ensemble model predicts continued\ngrowth momentum, with the y-o-y\ngrowth projection at well over 7 percent\nin FY26Q2.\nFigure 2. India: Fit of the Final Models\nReal GDP Growth: Ensemble Predictions and Actuals\n(In percent, seasonally adjusted qoq)\nRMSE from Cross-Validation\n(Percentage points)\nSources: CEIC; Haver Analytics; and IMF staff calculations.\n6.\nThe predictions can be interpreted by variable contribution and by historical\nproximity. The left panel of Figure 3 presents the 10 independent variables with the highest\nabsolute values of Shapley values\u2014a measure of a given variable\u2019s contribution to the forecast\u2014for\nthe September forecast. Apart from the autoregressive terms, production of motor vehicles and\nconsumer durables, sales of passenger vehicles, and manufacturing new orders push up the forecast,\nwhile domestic passenger traffic, production of consumer nondurables and capital goods, and\nAugust\u2019s passenger vehicle sales are linked with downward pressure on growth. The right panel of\nFigure 3 shows the proximity of the forecast to all historical periods (Goulet Coulombe et al. 2024).\nThe ensemble model suggests that the September forecast is highly similar to the previous quarter.\n4 We use the ensemble forecast instead of the forecast of the lowest-RMSE model (in this case, RF), because\nensemble can be more robust to model uncertainty and reduce overfitting. In the honest out-of-sample prediction\nexercise (\u00b64), the ensemble performs better than any individual model.\n2025Q3 (FY26Q2)\nJuly\nAugust\nSeptember\nSA Q-o-Q\n1.4\n1.5\n1.6\nSA Y-o-Y\n7.6\n7.7\n7.9\nNSA Q-o-Q\n1.1\n1.1\n1.3\nNSA Y-o-Y\n7.7\n7.8\n7.9\nIndia: Growth Forecast\n(In percent)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"54\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 51\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 53\n\n[section]\nSTAFF APPRAISAL > The predictions can be interpreted by variable contribution and by historical\n</context>\n<text>\n4 We use the ensemble forecast instead of the forecast of the lowest-RMSE model (in this case, RF), because\nensemble can be more robust to model uncertainty and reduce overfitting. In the honest out-of-sample prediction\nexercise (\u00b64), the ensemble performs better than any individual model.\n2025Q3 (FY26Q2)\nJuly\nAugust\nSeptember\nSA Q-o-Q\n1.4\n1.5\n1.6\nSA Y-o-Y\n7.6\n7.7\n7.9\nNSA Q-o-Q\n1.1\n1.1\n1.3\nNSA Y-o-Y\n7.7\n7.8\n7.9\nIndia: Growth Forecast\n(In percent)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n52\nINTERNATIONAL MONETARY FUND\nFigure 3. India: Interpretations of the Forecast\nShapley Values for Top Contributors\n(Percentage points; top 10 contributors by absolute value)\nProximity of Forecast to History\n(Three-month moving average)\nSources: CEIC; Haver Analytics; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"55\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 51\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 53\n\n[section]\nSTAFF APPRAISAL > The predictions can be interpreted by variable contribution and by historical\n</context>\n<text>\n7.9\nNSA Q-o-Q\n1.1\n1.1\n1.3\nNSA Y-o-Y\n7.7\n7.8\n7.9\nIndia: Growth Forecast\n(In percent)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n52\nINTERNATIONAL MONETARY FUND\nFigure 3. India: Interpretations of the Forecast\nShapley Values for Top Contributors\n(Percentage points; top 10 contributors by absolute value)\nProximity of Forecast to History\n(Three-month moving average)\nSources: CEIC; Haver Analytics; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "As of July 31, 2022, there were 9640 NBFCs in India.",
+        "confidence": 1.0,
+        "passage_id": 48,
+        "predicate": "count",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "July 31, 2022"
+          }
+        ],
+        "quote": "As of July 31, 2022, there were 9640 NBFCs",
+        "subject_key": null,
+        "subject_surface": "NBFCs",
+        "subject_type": "financial_institutions",
+        "value": {
+          "kind": "quantity",
+          "raw": "9640"
+        }
+      },
+      {
+        "claim_text": "As of July 31, 2022, there were 49 deposit taking NBFCs (NBFCs-D) in India.",
+        "confidence": 1.0,
+        "passage_id": 48,
+        "predicate": "count",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "July 31, 2022"
+          }
+        ],
+        "quote": "As of July 31, 2022, there were 9640 NBFCs, where 49 were deposit taking (NBFCs-D)",
+        "subject_key": null,
+        "subject_surface": "NBFCs-D",
+        "subject_type": "financial_institutions",
+        "value": {
+          "kind": "quantity",
+          "raw": "49"
+        }
+      },
+      {
+        "claim_text": "As of July 31, 2022, there were 415 systemically non-deposit taking NBFCs (NBFCs-ND-SI) in India.",
+        "confidence": 1.0,
+        "passage_id": 48,
+        "predicate": "count",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "July 31, 2022"
+          }
+        ],
+        "quote": "415 systemically non-deposit taking NBFCs (NBFCs-ND-SI)",
+        "subject_key": null,
+        "subject_surface": "NBFCs-ND-SI",
+        "subject_type": "financial_institutions",
+        "value": {
+          "kind": "quantity",
+          "raw": "415"
+        }
+      },
+      {
+        "claim_text": "India's NIIP was -9.6 percent of GDP in 2024.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "niip_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "India\u2019s NIIP improved to \u22129.6 percent of GDP in 2024",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u22129.6",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's NIIP was -10.5 percent of GDP in 2023.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "niip_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2023"
+          }
+        ],
+        "quote": "from \u221210.5 percent of GDP in 2023",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u221210.5",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's gross foreign assets were about 27.9 percent of GDP in 2024.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "gross_foreign_assets_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Gross foreign assets declined to about 27.9 percent of GDP",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "about 27.9",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's gross foreign assets were 28.1 percent of GDP in 2023.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "gross_foreign_assets_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2023"
+          }
+        ],
+        "quote": "from 28.1 percent of GDP in 2023",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "28.1",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's gross foreign liabilities were about 37.5 percent of GDP in 2024.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "gross_foreign_liabilities_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "gross foreign liabilities declined to about 37.5 percent of GDP",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "about 37.5",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's gross foreign liabilities were 38.6 percent of GDP in 2023.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "gross_foreign_liabilities_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2023"
+          }
+        ],
+        "quote": "from 38.6 percent of GDP in 2023",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "38.6",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's current account deficit was 0.6 percent of GDP in FY2024/25.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "current_account_deficit_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY2024/25"
+          }
+        ],
+        "quote": "The CA deficit declined to 0.6 percent of GDP in FY2024/25",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.6",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's current account deficit was 0.7 percent of GDP in the previous year.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "current_account_deficit_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "previous year"
+          }
+        ],
+        "quote": "from 0.7 percent of GDP in the previous year",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.7",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The EBA cyclically adjusted CA balance for India is projected at -0.4 percent of GDP in FY2024/25.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "eba_cyclically_adjusted_current_account_balance_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY2024/25"
+          }
+        ],
+        "quote": "The EBA cyclically adjusted CA balance is projected at \u22120.4 percent of GDP in FY2024/25.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u22120.4",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The EBA CA model estimates a norm of -2.0 percent of GDP for India.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "eba_current_account_norm_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "inherited",
+            "value": "FY2024/25"
+          }
+        ],
+        "quote": "The EBA CA model estimates a norm of \u22122.0 percent of GDP",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u22122.0",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "IMF staff assesses India's CA gap to be 1.6 percent of GDP.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "current_account_gap_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "inherited",
+            "value": "FY2024/25"
+          }
+        ],
+        "quote": "IMF staff thus assesses the CA gap to be 1.6 percent of GDP",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.6",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As of March 2025, India's REER was about 2.6 percent below its 2024 average.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "reer_change_vs_2024_average",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 2025"
+          }
+        ],
+        "quote": "As of March 2025, the REER was about 2.6 percent below its 2024 average.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "about 2.6",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's official FX reserves were $646.4 billion at end-FY2023/24.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "official_foreign_exchange_reserves",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "end-FY2023/24"
+          }
+        ],
+        "quote": "Reserves increased from $646.4 billion at end-FY2023/24",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "646.4",
+          "scale": "billion",
+          "unit": "$"
+        }
+      },
+      {
+        "claim_text": "India's official FX reserves were $668.3 billion at end-FY2024/25.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "official_foreign_exchange_reserves",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "end-FY2024/25"
+          }
+        ],
+        "quote": "to $668.3 billion at end-FY2024/25",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "668.3",
+          "scale": "billion",
+          "unit": "$"
+        }
+      },
+      {
+        "claim_text": "At end-FY2024/25, India's official FX reserves represented about 209 percent of short-term debt.",
+        "confidence": 1.0,
+        "passage_id": 51,
+        "predicate": "ratio_to_short_term_debt",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "end-FY2024/25"
+          }
+        ],
+        "quote": "At end-FY2024/25, they represented about 209 percent of short-term debt",
+        "subject_key": null,
+        "subject_surface": "India's official FX reserves",
+        "subject_type": "economic_indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "about 209",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "At end-FY2024/25, India's official FX reserves represented about 107 percent of the IMF's composite metric.",
+        "confidence": 1.0,
+        "passage_id": 51,
+        "predicate": "ratio_to_imf_composite_metric",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "end-FY2024/25"
+          }
+        ],
+        "quote": "about 107 percent of the IMF\u2019s composite metric",
+        "subject_key": null,
+        "subject_surface": "India's official FX reserves",
+        "subject_type": "economic_indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "about 107",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "At end-FY2024/25, India's official FX reserves represented over eight months of import coverage.",
+        "confidence": 1.0,
+        "passage_id": 51,
+        "predicate": "import_coverage",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "end-FY2024/25"
+          }
+        ],
+        "quote": "and over eight months of import coverage",
+        "subject_key": null,
+        "subject_surface": "India's official FX reserves",
+        "subject_type": "economic_indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "over eight",
+          "unit": "months"
+        }
+      },
+      {
+        "claim_text": "The ensemble model predicts India's y-o-y growth projection at well over 7 percent in FY26Q2.",
+        "confidence": 1.0,
+        "passage_id": 53,
+        "predicate": "yoy_growth_projection",
+        "qualifiers": [
+          {
+            "key": "target_period",
+            "provenance": "stated",
+            "value": "FY26Q2"
+          }
+        ],
+        "quote": "the y-o-y growth projection at well over 7 percent in FY26Q2.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "well over 7",
+          "unit": "%"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "key": "46843ac2d9551a33ab18eeeb6f74f0bc0b52ff74d013cf59d0a382ed61a71050",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"8\">\n<context>\n[page header]\nQ4 FY24\n\n[section]\nIndia\u2019s largest integrated logistics platform(1)\n</context>\n<text>\nAs per RedSeer report basis FY21 revenue\n(2)\nGrowth rate of revenue from services (excluding revenue from traded goods)\n6\n384K Tons\nPTL freight tonnage in Q4 FY24\nYoY: 20.8% / QoQ: 8.6%\n\u20b92,076 Cr\nQ4 FY24 revenue from services\nYoY: 11.6% / QoQ: (5.4%) (2)\n176 Mn\nExpress parcel shipments in Q4 FY24\nYoY: (2.2%) / QoQ: (12.8%)\n\u20b946Cr / 2.2%\nEBITDA / EBITDA margin\nQ4 FY23: \u20b913 Cr / 0.7%\nQ3 FY24: \u20b9109 Cr / 5.0%\n\u20b921 Cr / 1.0%\nAdj. EBITDA / Adj. EBITDA margin\nQ4 FY23: \u20b96 Cr / 0.3%\nQ3 FY24: \u20b992 Cr / 4.2%\nQ4 FY24\n\n\nKey operating metrics\nAs of end of / for the period\nQ4 FY22\nQ4 FY23\nQ3 FY24\nQ4 FY24\nPin-code reach(1)\n18,074\n18,540\n18,675\n18,793\nCountries and territories served(2)\n220+\n220+\n220+\n220+\nNo. of Active Customers(3)\n23,613\n27,253\n30,598\n33,278\nInfrastructure (in million sq ft.)\n18.15\n17.99\n19.24\n18.82\nGateways\n123\n94\n110\n111\nAutomated sort centers\n21\n24\n30\n29\nFreight service centers\n267\n141\n131\n129\nExpress delivery centers\n2,961\n2,880\n3,404\n3,506\nPartner centers (constellation/BAs)\n1,224\n1,175\n993\n939\nProcessing centers\n178\n174\n164\n160\nTeam size(4)\n60,373\n57,307\n63,144\n63,713\nPartner agents(5)\n34,360\n34,987\n37,172\n34,422\nFleet size \u2013 daily average\n9,120\n11,105\n13,688\n15,065\n(1)\nOut of 19,300 Pin-codes as per India Post\n(2)\nThrough Delhivery and partner (FedEx and Aramex) networks\n(3)\nActive Customers for a quarter are those customers on whom an invoice was raised at least once during such quarter.\n(4)\nIncludes permanent employees and contractual workers (excluding partner agents, daily wage manpower and security guards) as of the last day of the\nrelevant period\n(5)\nCount of last mile delivery partner agents in the last month of the relevant period\n7\n\n\n59%\n</text>\n</passage>\n\n<passage id=\"9\">\n<context>\n[section]\nKey operating metrics\n</context>\n<text>\n13,688\n15,065\n(1)\nOut of 19,300 Pin-codes as per India Post\n(2)\nThrough Delhivery and partner (FedEx and Aramex) networks\n(3)\nActive Customers for a quarter are those customers on whom an invoice was raised at least once during such quarter.\n(4)\nIncludes permanent employees and contractual workers (excluding partner agents, daily wage manpower and security guards) as of the last day of the\nrelevant period\n(5)\nCount of last mile delivery partner agents in the last month of the relevant period\n7\n\n\n59%\n63%\n62%\n24%\n16%\n19%\n4%\n6%\n7%\n8%\n11%\n10%\n7,054\n7,224\n8,142\nFY22\nFY23\nFY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1,2)\n(\u20b9 Cr)\nFY24 performance\n582\n663\n740\nFY22\nFY23\nFY24\n4,191\n4,552\n5,077\nFY22\nFY23\nFY24\nExpress Parcel revenue\nPTL freight revenue(2)\n1,579\n1,101\n1,429\nFY22\nFY23\nFY24\n1,705\n1,157\n1,517\nFY22\nFY23\nFY24\n(\u20b9 Cr)\n(Mn)\nExpress Parcel shipments\n(\u20b9 Cr)\nPTL freight tonnage(2)\n(\u2018000 Tons)\n8\nYoY: 11%\nYoY: 30%\nYoY: 12%\nYoY: 31%\nYoY: 13%\n(1)\nRevenue from services excludes revenue from traded goods\n(2)\nFY22 numbers are on pro forma basis\nNote: Due to rounding off, totals may not correspond with the sum of the separate figures\n\n\n318\n</text>\n</passage>\n\n<passage id=\"10\">\n<context>\n[page header]\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\nQ4 FY23\nQ3 FY24\nQ4 FY24\n\n[section]\nFY24 performance\n</context>\n<text>\nFY24 performance\n582\n663\n740\nFY22\nFY23\nFY24\n4,191\n4,552\n5,077\nFY22\nFY23\nFY24\nExpress Parcel revenue\nPTL freight revenue(2)\n1,579\n1,101\n1,429\nFY22\nFY23\nFY24\n1,705\n1,157\n1,517\nFY22\nFY23\nFY24\n(\u20b9 Cr)\n(Mn)\nExpress Parcel shipments\n(\u20b9 Cr)\nPTL freight tonnage(2)\n(\u2018000 Tons)\n8\nYoY: 11%\nYoY: 30%\nYoY: 12%\nYoY: 31%\nYoY: 13%\n(1)\nRevenue from services excludes revenue from traded goods\n(2)\nFY22 numbers are on pro forma basis\nNote: Due to rounding off, totals may not correspond with the sum of the separate figures\n\n\n318\n296\n153\nFY22\nFY23\nFY24\nFY24 performance\n551\n782\n776\nFY22\nFY23\nFY24\n287\n436\n609\nFY22\nFY23\nFY24\nTL revenue\nCross Border Services revenue (3)\n(\u20b9 Cr)\n(\u20b9 Cr)\nSupply Chain Services revenue\n(\u20b9 Cr)\n9\nYoY: 40%\nYoY: (1%)\nYoY: (48%)\n(1)\nRevenue from services excludes revenue from traded goods\n(2)\nFY22 numbers are on pro forma basis\n(3)\nRevenue from Cross Border Services in FY22 included freight revenue of Rs 46 Cr from the shipment\nof Covid related traded goods.\nNote: Due to rounding off totals may not correspond with the sum of the separate figures\n59%\n63%\n62%\n24%\n16%\n19%\n4%\n6%\n7%\n8%\n11%\n10%\n7,054\n7,224\n8,142\nFY22\nFY23\nFY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1,2)\n(\u20b9 Cr)\nYoY: 13%\n\n\n63%\n</text>\n</passage>\n\n<passage id=\"11\">\n<context>\n[page header]\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\nQ4 FY23\nQ3 FY24\nQ4 FY24\n\n[section]\nFY24 performance\n</context>\n<text>\nYoY: (1%)\nYoY: (48%)\n(1)\nRevenue from services excludes revenue from traded goods\n(2)\nFY22 numbers are on pro forma basis\n(3)\nRevenue from Cross Border Services in FY22 included freight revenue of Rs 46 Cr from the shipment\nof Covid related traded goods.\nNote: Due to rounding off totals may not correspond with the sum of the separate figures\n59%\n63%\n62%\n24%\n16%\n19%\n4%\n6%\n7%\n8%\n11%\n10%\n7,054\n7,224\n8,142\nFY22\nFY23\nFY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1,2)\n(\u20b9 Cr)\nYoY: 13%\n\n\n63%\n66%\n59%\n18%\n17%\n20%\n6%\n7%\n8%\n10%\n8%\n11%\n1,860\n2,194\n2,076\nQ4 FY23\nQ3 FY24\nQ4 FY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1)\n(\u20b9 Cr)\nYoY: 12%\nQoQ: (5%)\nQ4 FY24 performance\n180\n201\n176\nQ4 FY23\nQ3 FY24\nQ4 FY24\n1,177\n1,448\n1,217\nQ4 FY23\nQ3 FY24\nQ4 FY24\nExpress Parcel revenue\n(\u20b9 Cr)\n(Mn)\nExpress Parcel shipments\nYoY: 3%\nYoY: (2%)\n10\nQoQ: (13%)\nQoQ: (16%)\n(1)\nRevenue from services excludes revenue from traded goods\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\nPTL freight revenue\n318\n354\n384\nQ4 FY23\nQ3 FY24\nQ4 FY24\n328\n379\n417\nQ4 FY23\nQ3 FY24\nQ4 FY24\n(\u20b9 Cr)\nPTL freight tonnage\n(\u2018000 Tons)\nYoY: 27%\nYoY: 21%\nQoQ: 9%\nQoQ: 10%\n\n\nQ4 FY24 performance\n</text>\n</passage>\n\n<passage id=\"12\">\n<context>\n[page header]\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\nQ4 FY23\nQ3 FY24\nQ4 FY24\n\n[section]\nQ4 FY24 performance\n</context>\n<text>\nQ4 FY23\nQ3 FY24\nQ4 FY24\n1,177\n1,448\n1,217\nQ4 FY23\nQ3 FY24\nQ4 FY24\nExpress Parcel revenue\n(\u20b9 Cr)\n(Mn)\nExpress Parcel shipments\nYoY: 3%\nYoY: (2%)\n10\nQoQ: (13%)\nQoQ: (16%)\n(1)\nRevenue from services excludes revenue from traded goods\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\nPTL freight revenue\n318\n354\n384\nQ4 FY23\nQ3 FY24\nQ4 FY24\n328\n379\n417\nQ4 FY23\nQ3 FY24\nQ4 FY24\n(\u20b9 Cr)\nPTL freight tonnage\n(\u2018000 Tons)\nYoY: 27%\nYoY: 21%\nQoQ: 9%\nQoQ: 10%\n\n\nQ4 FY24 performance\n188\n173\n234\nQ4 FY23\nQ3 FY24\nQ4 FY24\n109\n153\n174\nQ4 FY23\nQ3 FY24\nQ4 FY24\nTL Service revenue\nCross Border Services revenue\n(\u20b9 Cr)\n(\u20b9 Cr)\nSupply Chain Services revenue\n(\u20b9 Cr)\nYoY: 59%\nYoY: 25%\nYoY: (46%)\n11\n57\n39\n31\nQ4 FY23\nQ3 FY24\nQ3 FY24\nQoQ: 14%\nQoQ: 36%\nQoQ: (21%)\n(1)\nRevenue from services excludes revenue from traded goods\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n63%\n66%\n59%\n18%\n17%\n20%\n6%\n7%\n8%\n10%\n8%\n11%\n1,860\n2,194\n2,076\nQ4 FY23\nQ3 FY24\nQ4 FY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1)\n(\u20b9 Cr)\nYoY: 12%\nQoQ: (5%)\n\n\n(12.5%)\n</text>\n</passage>\n\n<passage id=\"13\">\n<context>\n[page header]\nQ4 FY23\nQ3 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nQ4 FY24 performance\n</context>\n<text>\nCross Border Services revenue\n(\u20b9 Cr)\n(\u20b9 Cr)\nSupply Chain Services revenue\n(\u20b9 Cr)\nYoY: 59%\nYoY: 25%\nYoY: (46%)\n11\n57\n39\n31\nQ4 FY23\nQ3 FY24\nQ3 FY24\nQoQ: 14%\nQoQ: 36%\nQoQ: (21%)\n(1)\nRevenue from services excludes revenue from traded goods\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n63%\n66%\n59%\n18%\n17%\n20%\n6%\n7%\n8%\n10%\n8%\n11%\n1,860\n2,194\n2,076\nQ4 FY23\nQ3 FY24\nQ4 FY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1)\n(\u20b9 Cr)\nYoY: 12%\nQoQ: (5%)\n\n\n(12.5%)\n(7.0%)\n(3.7%)\n0.3%\n(1.3%)\n(0.6%)\n4.2%\n1.0%\n(5.6%)\n0.9%\nQ1 FY23\nQ2 FY23\nQ3 FY23\nQ4 FY23\nQ1 FY24\nQ2 FY24\nQ3 FY24\nQ4 FY24\nFY23\nFY24\nAdjusted EBITDA\n(125)\n(67)\n(25)\n6\n(\u20b9 Cr)\nQuarterly\n12\n(217)\n(13)\nQuarterly\n92\n21\n(404)\n76\nYearly\n\n\nAdjusted EBITDA\n</text>\n</passage>\n\n<passage id=\"14\">\n<context>\n[page header]\nQ4 FY23\nQ3 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nQ4 FY24 performance\n</context>\n<text>\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n63%\n66%\n59%\n18%\n17%\n20%\n6%\n7%\n8%\n10%\n8%\n11%\n1,860\n2,194\n2,076\nQ4 FY23\nQ3 FY24\nQ4 FY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1)\n(\u20b9 Cr)\nYoY: 12%\nQoQ: (5%)\n\n\n(12.5%)\n(7.0%)\n(3.7%)\n0.3%\n(1.3%)\n(0.6%)\n4.2%\n1.0%\n(5.6%)\n0.9%\nQ1 FY23\nQ2 FY23\nQ3 FY23\nQ4 FY23\nQ1 FY24\nQ2 FY24\nQ3 FY24\nQ4 FY24\nFY23\nFY24\nAdjusted EBITDA\n(125)\n(67)\n(25)\n6\n(\u20b9 Cr)\nQuarterly\n12\n(217)\n(13)\nQuarterly\n92\n21\n(404)\n76\nYearly\n\n\nAdjusted EBITDA\n</text>\n</passage>\n\n<passage id=\"15\">\n<context>\n[page header]\nQ4 FY23\nQ3 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nQ4 FY24 performance\n</context>\n<text>\n63%\n66%\n59%\n18%\n17%\n20%\n6%\n7%\n8%\n10%\n8%\n11%\n1,860\n2,194\n2,076\nQ4 FY23\nQ3 FY24\nQ4 FY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1)\n(\u20b9 Cr)\nYoY: 12%\nQoQ: (5%)\n\n\n(12.5%)\n(7.0%)\n(3.7%)\n0.3%\n(1.3%)\n(0.6%)\n4.2%\n1.0%\n(5.6%)\n0.9%\nQ1 FY23\nQ2 FY23\nQ3 FY23\nQ4 FY23\nQ1 FY24\nQ2 FY24\nQ3 FY24\nQ4 FY24\nFY23\nFY24\nAdjusted EBITDA\n(125)\n(67)\n(25)\n6\n(\u20b9 Cr)\nQuarterly\n12\n(217)\n(13)\nQuarterly\n92\n21\n(404)\n76\nYearly\n\n\nAdjusted EBITDA\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.6-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "In Q4 FY24, Delhivery's revenue from services was \u20b92,076 Cr.",
+        "confidence": 0.95,
+        "passage_id": 8,
+        "predicate": "revenue_from_services",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "\u20b92,076 Cr",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b92,076 Cr",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "In FY24, revenue from services was \u20b98,142 Cr.",
+        "confidence": 0.95,
+        "passage_id": 9,
+        "predicate": "revenue_from_services",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "8,142",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "8,142",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "In FY24, Supply Chain Services revenue was \u20b9609 Cr.",
+        "confidence": 0.95,
+        "passage_id": 10,
+        "predicate": "revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "609",
+        "subject_key": null,
+        "subject_surface": "Supply Chain Services",
+        "subject_type": "segment",
+        "value": {
+          "kind": "quantity",
+          "raw": "609",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "In Q4 FY24, Express Parcel revenue was \u20b91,217 Cr.",
+        "confidence": 0.95,
+        "passage_id": 11,
+        "predicate": "revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "1,217",
+        "subject_key": null,
+        "subject_surface": "Express Parcel",
+        "subject_type": "segment",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,217",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "In Q4 FY24, TL Service revenue was \u20b9234 Cr.",
+        "confidence": 0.95,
+        "passage_id": 12,
+        "predicate": "revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "234",
+        "subject_key": null,
+        "subject_surface": "TL Service",
+        "subject_type": "segment",
+        "value": {
+          "kind": "quantity",
+          "raw": "234",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "In FY24, Adjusted EBITDA was \u20b976 Cr.",
+        "confidence": 0.95,
+        "passage_id": 13,
+        "predicate": "adjusted_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "76",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "76",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "In FY23, Adjusted EBITDA was \u20b9(404) Cr.",
+        "confidence": 0.95,
+        "passage_id": 14,
+        "predicate": "adjusted_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23"
+          }
+        ],
+        "quote": "(404)",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(404)",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "In Q3 FY24, Adjusted EBITDA was \u20b992 Cr.",
+        "confidence": 0.95,
+        "passage_id": 15,
+        "predicate": "adjusted_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q3 FY24"
+          }
+        ],
+        "quote": "92",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "92",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      }
+    ]
+  }
+}

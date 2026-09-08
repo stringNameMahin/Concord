@@ -1,0 +1,576 @@
+{
+  "key": "2d581bc90c433afea0dc644eff87d20273bcfb898142e2384aa518c94e254ada",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"80\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 73\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 75\n\n[section]\nSTAFF APPRAISAL > Business Dynamism: Raising Productivity by Facilitating Entry and Exit of Firms\n</context>\n<text>\nconsecutive years. Compared to non-zombie firms, zombie firms in India tended to have fewer employees, higher\ndebt-to-asset ratios, and lower cash and equity.\n8 The corporate resolution process remains very slow, with resolution times exceeding double the statutory limit of\n330 days (see Box 2). Additionally, a personal insolvency regime has not been made operational, despite the fact that\nmany MSMEs, classified as sole proprietors or sole traders, are subject to personal bankruptcy systems.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n74\nINTERNATIONAL MONETARY FUND\nwhere \ud835\udf03\ud835\udc56\ud835\udc61 is value-added market share and \ud835\udc5d\ud835\udc56\ud835\udc61 denotes firm-level productivity. Analysis of firm-level\nTFP during 2018-22 shows that aggregate productivity growth was driven primarily by resource\nreallocation from less productive firms to more productive ones, while the contribution from\nproductivity improvements within firms was small (Figure 4). Importantly, inactive firms showed\ndeclining productivity, thus subtracting from aggregate TFP growth. Meanwhile, the impact of firm\nentry and exit on productivity was small, reflecting the low rate of business dynamism and\nunderscore the need for reforms that promote easier entry, faster exit, and strengthen insolvency\nand bankruptcy procedures to accelerate the reallocation process.9 Overall, these findings point to\nthe critical importance of fostering a more dynamic business environment\u2014where unproductive\nfirms are allowed to exit, and new and innovative firms can grow and thrive.\nFigure 4. India: Firm Dynamism and TFP Growth\nDuring 2018-2022, TPF growth has been driven largely by a\nshift of resources to more productive firms\u2026\n\u2026while zombie firms reduced aggregate productivity growth.\nSources: Orbis; and IMF staff calculations.\nResearch and Development: Fostering Innovation\n7.\nIndia deploys limited resources into research and development (Figure 5). India\u2019s R&D\nexpenditure represented only 0.6 percent of GDP in 2020, on par with the EM average, but below\nthe G20 emerging market average of 0.9 percent of GDP and the advanced economies average of\n2.2 percent of GDP. As R&D expenditure is generally positively correlated with TFP growth (RBI,\n2025; IMF, 2021), a greater focus on R&D spending is needed to underpin future productivity\ngrowth. Furthermore, India lags in researchers per capita: there are fewer than 300 researchers per\nmillion inhabitants in India, compared to over 1,800 in China, around 1,000 in emerging markets and\nover 5,000 in advanced economies on average. R&D spending in India is generally needed to adapt\nand adopt existing technologies, whereas expanding the technological frontier is relevant for\nselected industries.\n9 The fact that entrants tended to have lower-than-average productivity may reflect start-up periods with limited\nsales.\n-1\n0\n1\n2\n1\nAggregate Productivity Growth\n(TFP change per year, 2018-2022)\nWithin-firm\nproductivity\nReallocation\nExit\nEntrants\n-1\n0\n1\n2\n1\nReallocation\nof non-\nWithin non-\nzombies\nWithin zombies\nReallocation-\nZombies\nChange in TFP for Continuers: The Role of Zombies\n(TFP change per year, 2018-2022)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"81\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 75\n\n[section]\nSTAFF APPRAISAL > Research and Development: Fostering Innovation\n</context>\n<text>\nselected industries.\n9 The fact that entrants tended to have lower-than-average productivity may reflect start-up periods with limited\nsales.\n-1\n0\n1\n2\n1\nAggregate Productivity Growth\n(TFP change per year, 2018-2022)\nWithin-firm\nproductivity\nReallocation\nExit\nEntrants\n-1\n0\n1\n2\n1\nReallocation\nof non-\nWithin non-\nzombies\nWithin zombies\nReallocation-\nZombies\nChange in TFP for Continuers: The Role of Zombies\n(TFP change per year, 2018-2022)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 75\n8.\nMost R&D expenditure is executed by the government, with limited participation from\nhigher education. About 50 percent of research and development spending is executed by the\ngovernment in India, (compared to about 10 percent on average in AEs). Higher education\ninstitutions in India account for only 10 percent of total R&D spending, which is low compared to\npeers (Department of Science & Technology, 2023). In the Global Innovation Index, university-\nindustry collaboration in India received a survey score of 3.54\u2014its lowest since 2013 and below the\nglobal median.10 Universities drive innovation by training professionals, conducting research, and\nenabling real-world applications. Worldwide, many high-tech clusters are found near top universities\n(European Commission, 2023). Fostering more R&D activities by universities could thus have positive\nspillovers, whereas more collaboration between universities and industry could support innovation\nand productivity (Forbes, 2022).\nFigure 5. India: R&D and Researchers in India and in the World\n10 Source: World Intellectual Property Organization; scale from 1=\u201dnot at all\u201d to 7=\u201dto a great extent\u201d; data for 2023.\n0.0\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n3.5\nAdvanced\nEconomies\nG20 EMs\nEmerging\nMarket\nEconomies\nLow Income\nDeveloping\nCountries\nIndia\nInterquartile Range\nAverage\nR&D Expenditure\n(2020, in percent of GDP)\nSources: UNESCO; and IMF staff calculations.\n0\n1000\n2000\n3000\n4000\n5000\n6000\n7000\nAdvanced\nEconomies\nG20EMs\nEmerging\nMarket\nEconomies\nLow Income\nCountries\nIndia\nInterquartile Range\nAverage\nSources: World Bank; UNESCO; and IMF staff calculations.\nResearchers in R&D\n(Per million people)\n0\n10\n20\n30\n40\n50\n60\n70\nGERD by Government\nGERD by Business\nEnterprise\nGERD by Higher\nEducation\nAdvanced Economies 1/\nEmerging Economies 2/\nIndia\nGross Domestic Expenditure on R&D (GERD) Composition\n(In percent of total, 2019-2020)\nSources: Country authorities; OECD; and IMF staff calculations.\n1/ Includes AUS, CAN, DEU, ESP, FRA, GBR, ITA, JPN, KOR, USA.\n2/ Includes MEX, RUS, ZAF.\n0\n0.2\n0.4\n0.6\n0.8\n1\n1.2\n1.4\n1.6\n1.8\n2\nGERD by Government\nGERD by Business\nEnterprise\nGERD by Higher\nEducation\nAdvanced Economies 1/\nEmerging Economies 2/\nIndia\nGross Domestic Expenditure on R&D (GERD) Composition\n(In percent of GDP, 2019-2020)\nSources: Country authorities; OECD; and IMF staff calculations.\n1/ Includes AUS, CAN, DEU, ESP, FRA, GBR, ITA, JPN, KOR, USA.\n2/ Includes MEX, RUS, ZAF.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"82\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 75\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 77\n\n[section]\nSTAFF APPRAISAL > Figure 5. India: R&D and Researchers in India and in the World\n</context>\n<text>\n1/ Includes AUS, CAN, DEU, ESP, FRA, GBR, ITA, JPN, KOR, USA.\n2/ Includes MEX, RUS, ZAF.\n0\n0.2\n0.4\n0.6\n0.8\n1\n1.2\n1.4\n1.6\n1.8\n2\nGERD by Government\nGERD by Business\nEnterprise\nGERD by Higher\nEducation\nAdvanced Economies 1/\nEmerging Economies 2/\nIndia\nGross Domestic Expenditure on R&D (GERD) Composition\n(In percent of GDP, 2019-2020)\nSources: Country authorities; OECD; and IMF staff calculations.\n1/ Includes AUS, CAN, DEU, ESP, FRA, GBR, ITA, JPN, KOR, USA.\n2/ Includes MEX, RUS, ZAF.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n76\nINTERNATIONAL MONETARY FUND\n9.\nIndian firms conduct limited R&D. Only 4.3 percent of Indian firms report having spent\nresources on R&D, significantly below the 17 percent average across EMs and 13 percent average\nacross LICs (World Bank Enterprise Survey, 2022).11 Low private sector R&D spending in India results\nin limited product and process innovation, which\ntend to be positively correlated with TFP growth\nacross countries. Just 5.3 percent of Indian firms\nlaunched a new product and 3.3 percent\nintroduced a new process in the preceding three\nyears, compared to EM averages of 27 percent\nand 16.8 percent. Indian firms also stand out for\ntheir relatively low adoption of foreign\ntechnology: merely 5.4 percent of firms utilize\ntechnology licensed from overseas companies,\nwhich is approximately one-third the average rate\nobserved across EMs. This may be reflective of\nIndia\u2019s limited FDI: India\u2019s stock of inward FDI amounts to 15 percent of GDP, compared to an\naverage of 24.6 percent of GDP across middle income developing economies. Importantly, R&D\nactivity rises significantly with firm size and exporting behavior (Figure 6), indicating the importance\nof reducing barriers to growth and promoting integration into the global economy.\n10.      Larger and more established firms tend to spend more on R&D than other firms. Panel\ndata on Indian corporates confirms that firm size, based on assets or revenues, strongly correlates\nwith R&D spending (Table 1). A concave relationship between age and R&D suggests that older\nfirms are more likely to spend on R&D, but only up to a point. Higher liquidity and interest coverage\nratios are also significant, but only in selected specifications, while, perhaps to some extent\ncounterintuitively, higher profitability has a significant negative correlation with R&D spending in\ntwo of the specifications.\n11.      Patenting has accelerated in India, and administrative reforms are making it easier.\nIndia ranks sixth globally in annual patent applications, and the per capita rate has grown, but\nremains low compared to advanced economies (Figure 7). Therefore, there remains potential for\ncontinued progress toward achieving aspirational targets. The higher share of residents in patent\napplications is an encouraging trend. Increased staffing at India's patent office has boosted\nprocessing capacity, clearing application backlogs. Between 2013/14 and 2023/24, patent\napplications doubled, while patents granted rose from about 4,000 to over 100,000 (Sanyal and\nArora, 2025).\n12.      Several government initiatives aim to boost R&D in India. India has gradually reduced its\nincome tax weighted deduction on R&D expenditure from 200 percent in FY2010/11 to 100 percent\nin FY2021/22, to rationalize the fiscal cost and mitigate concerns over abuse and misreporting\n11 Similarly, only 3 percent of manufacturing establishments spent any resources on R&D according to the ASI 2022/23.\n-1.2\n-1.0\n-0.8\n-0.6\n-0.4\n-0.2\n0.0\n0.2\n0.4\n0\n20\n40\n60\n80\nAverage TFP Growth\nPercent of firms that introduced a process innovation\nIndia: TFP Growth and Firms' Process Innovation\n(Percent)\nSources: IMF staff estimates based on PWT and Enterprise Surveys.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"83\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 77\n\n[section]\nSTAFF APPRAISAL > Figure 5. India: R&D and Researchers in India and in the World\n</context>\n<text>\nin FY2021/22, to rationalize the fiscal cost and mitigate concerns over abuse and misreporting\n11 Similarly, only 3 percent of manufacturing establishments spent any resources on R&D according to the ASI 2022/23.\n-1.2\n-1.0\n-0.8\n-0.6\n-0.4\n-0.2\n0.0\n0.2\n0.4\n0\n20\n40\n60\n80\nAverage TFP Growth\nPercent of firms that introduced a process innovation\nIndia: TFP Growth and Firms' Process Innovation\n(Percent)\nSources: IMF staff estimates based on PWT and Enterprise Surveys.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 77\n(Kaushik, 2022), shifting instead to more targeted policies.12 A Patent Box Regime, whereby a\nconcessional 10 percent tax rate is charged on income earned from patents developed and\nregistered in India, offers incentives for patenting, but may also incentivize profit shifting. Customs\nduties on the import of capital equipment for R&D were reduced in the Union Budget FY2022/23.\nThe government of India has launched the Research, Development and Innovation (RDI) Scheme\nwith an allocation worth 0.3 percent of GDP over 6 years, aiming to spur private-sector investment in\nstrategic and high-growth sectors through long-term, low-cost funding. The Prime Minister\u2019s\nResearch Fellowship Scheme, originally launched in 2018, has so far supported 3,688 scholars (PIB,\n2025). The aim is to reach 10,000 scholarships over the next 5 years. The authorities have also\nlaunched the VAIshwik BHArtiya Vaigyanik (VAIBHAV) Fellowship to foster collaboration between\nscientists of the Indian diaspora and Indian higher educational institutions. Startup India was\nlaunched in 2016 and offers tax exemptions, seed funding, incubation and industry-academia\nopportunities, and technical assistance. The Atal Innovation Mission aims to provide a culture of\ninnovation and entrepreneurship through Atal Tinkering Labs in schools, Atal Incubation Centres for\nstartups, and various\ninnovation challenges. States\nare also providing support to\ninnovation, for instance,\nKerala Startup Mission,\nTelangana\u2019s T-Hub, Startup\nKarnataka, and Tamil Nadu\u2019s\nStartup and Innovation\nMission. Targeted fiscal\nincentives can help boost\ninnovation at the\ntechnological frontier. R&D\ntax incentives tend to work\nbetter for mature firms,\nwhereas grants are generally\nmore suitable for younger\nfirms and for targeting sectors\nwith high social returns (IMF,\n2024). In addition, it is\nimportant to complement\nthose efforts with reforms\nfostering technology\nadoption and diffusion.\n12 The scheme is estimated to cost 0.01 percent of GDP per year (MoF, 2025).\nTable 1. India: Firm-level Drivers of R&D Spending\nSource: IMF staff calculations based on Prowess.\n(1)\n(2)\n(3)\n(4)\nAge\n0.005***\n0.005***\n0.005*\n0.032***\n(0.000)\n(0.001)\n(0.003)\n(0.007)\nAge2\n-0.000***\n-0.000***\n-0.000\n-0.000*\n(0.000)\n(0.000)\n(0.000)\n(0.000)\nLog Revenues (-1)\n0.012***\n0.010***\n0.245***\n0.389***\n(0.001)\n(0.001)\n(0.034)\n(0.031)\nLog Assets (-1)\n0.020***\n0.018***\n0.612***\n0.401***\n(0.001)\n(0.001)\n(0.036)\n(0.037)\nInterest Coverage Ratio (-1)\n-0.000\n-0.000\n0.000***\n0.000\n(0.000)\n(0.000)\n(0.000)\n(0.000)\nLiquidity Ratio (-1)\n0.000***\n0.000**\n-0.000\n-0.003\n(0.000)\n(0.000)\n(0.003)\n(0.002)\nProfitability (-1)\n-0.000***\n0.000\n-0.000**\n-0.000*\n(0.000)\n(0.000)\n(0.000)\n(0.000)\nR-squared\n0.204\n0.107\n0.560\n0.397\nFirm Fixed Effects\nNo\nYes\nNo\nYes\nIndustry Fixed Effects\nYes\nNo\nYes\nNo\nTime Fixed Effects\nYes\nYes\nYes\nYes\nObservations\n335,660\n335,660\n36,127\n36,127\nFirms\n39,417\n39,417\n4,863\n4,863\nStandard errors (clustered by firm) in parentheses\n=\"* p<0.10 ** p<0.05 *** p<0.01\"\nDoes R&D\nLog Amount of R&D\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"84\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 77\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 79\n\n[section]\nSTAFF APPRAISAL > Table 1. India: Firm-level Drivers of R&D Spending\n</context>\n<text>\n(0.000)\n(0.000)\n(0.003)\n(0.002)\nProfitability (-1)\n-0.000***\n0.000\n-0.000**\n-0.000*\n(0.000)\n(0.000)\n(0.000)\n(0.000)\nR-squared\n0.204\n0.107\n0.560\n0.397\nFirm Fixed Effects\nNo\nYes\nNo\nYes\nIndustry Fixed Effects\nYes\nNo\nYes\nNo\nTime Fixed Effects\nYes\nYes\nYes\nYes\nObservations\n335,660\n335,660\n36,127\n36,127\nFirms\n39,417\n39,417\n4,863\n4,863\nStandard errors (clustered by firm) in parentheses\n=\"* p<0.10 ** p<0.05 *** p<0.01\"\nDoes R&D\nLog Amount of R&D\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n78\nINTERNATIONAL MONETARY FUND\nFigure 6. India: Firm-level Innovation\n0\n5\n10\n15\n20\n25\n30\n35\n40\nAdvanced\nEconomies\nG20 EMs\nEmerging\nMarket\nEconomies\nIndia\nLow Income\nDeveloping\nCountries\nInterquartile Range\nAverage\nFirms that Spend on R&D\n(Percent, 2015-2025)\nSource: IMF staff estimates based Enterprise Surveys.\n0\n10\n20\n30\n40\n50\n60\n70\nAdvanced\nEconomies\nG20 EMs\nEmerging\nMarket\nEconomies\nIndia\nLow Income\nDeveloping\nCountries\nInterquartile Range\nAverage\nFirms that Introduced a New Product or Service\n(Percent, 2015-2025)\nSource: IMF staff estimates based Enterprise Surveys.\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\nAdvanced\nEconomies\nG20 EMs\nEmerging\nMarket\nEconomies\nIndia\nLow Income\nDeveloping\nCountries\nInterquartile Range\nAverage\nFirms that Introduced a Process Innovation\n(Percent, 2015-2025)\nSource: IMF staff estimates based Enterprise Surveys.\n0\n5\n10\n15\n20\n25\n30\nAdvanced\nEconomies\nG20 EMs\nEmerging\nMarket\nEconomies\nIndia\nLow Income\nDeveloping\nCountries\nInterquartile Range\nAverage\nFirms Using Technology Licensed from Foreign Companies\n(Percent, 2015-2025)\nSource: IMF staff estimates based Enterprise Surveys.\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n<5\n5-9\n10-19\n20-49\n50-99\n100-249 250-499\n500+\nEmployees per Establishment\nManufacturing Establishments Conducting R&D\n(Percent)\nSources: IMF staff estimates based on ASI 2022/23.\n0\n1\n2\n3\n4\n5\n6\n7\n8\nNon-exporters\nExporters\nManufacturing Establishments Conducting R&D\n(Percent)\nSources: IMF staff estimates based on ASI 2022/23.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"85\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 79\n\n[section]\nSTAFF APPRAISAL > Figure 6. India: Firm-level Innovation\n</context>\n<text>\nFirms Using Technology Licensed from Foreign Companies\n(Percent, 2015-2025)\nSource: IMF staff estimates based Enterprise Surveys.\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n<5\n5-9\n10-19\n20-49\n50-99\n100-249 250-499\n500+\nEmployees per Establishment\nManufacturing Establishments Conducting R&D\n(Percent)\nSources: IMF staff estimates based on ASI 2022/23.\n0\n1\n2\n3\n4\n5\n6\n7\n8\nNon-exporters\nExporters\nManufacturing Establishments Conducting R&D\n(Percent)\nSources: IMF staff estimates based on ASI 2022/23.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 79\nFigure 7. India: Patenting\nExpanding Digital Access to Promote Innovation\n13.      Digital access in India has increased significantly over the past decade, but there is\nscope to do more (Figure 8). Fixed-line broadband internet development has remained relatively\nlimited, as indicated by a small number of subscriptions in relation to the population and low usage\nper subscription. In contrast, mobile-broadband internet traffic per subscription in India is relatively\nhigh compared with other economies and makes up in part for lower fixed-line use, though mobile\nsubscriptions have remained below the EM average. These trends mask locational, gender, and age\ndisparities: rural internet subscriptions are markedly below urban ones, while women and older\ngenerations use the internet disproportionately less. The cost of a fixed-broadband basket in USD is\nlower in India compared with all income groups; however, in terms of income per capita, it is similar\nto the levels of upper middle-income group. Regarding top-level domains as a percentage of the\npopulation, India shows relative underperformance in the Global Innovation Index. These data\nindicate that while digital access in India has grown rapidly, there is potential for further\ndevelopment. In addition, narrowing the digital divide could help raise average productivity and\nfoster innovation.\n0\n200\n400\n600\n800\n1,000\n1,200\n1,400\n1,600\n1,800\n(In thousands, 2023)\nSource: WIPO.\nIndia: Patent Applications for the Top 10 Origins\n0\n10\n20\n30\n40\n50\n60\n70\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\nSources: WIPO Statistics database, May 2025; and IMF staff calculations.\n1/ Includes patent applications by office.\nIndia: Total Patent Applications 1/\n(Per million population)\n0\n50\n100\n150\n200\n250\n300\n350\n400\nEmerging Market\nEconomies\nLow Income\nDeveloping\nCountries\nWorld\nIndia\nNumber of Patents Granted 1/\n(Annual patents granted per million population, 2019-23 average, interquartile\nrange for country groups)\nSources: WIPO Statistics database, May 2025; IMF, World Economic Outlook; and IMF\nstaff calculations.\n1/ Includes patent applications by office.\n0\n10000\n20000\n30000\n40000\n50000\n60000\n70000\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\nResident 2/\nAbroad 3/\nIndia: Patent Composition 1/\nSources: WIPO Statistics database, May 2025; and IMF staff calculations.\n1/ Includes patent applications by origin.\n2/ An application filed with an IP office by an applicant residing in India in which that\noffice has jurisdiction.\n3/An application filed with a patent office of India by an applicant residing in another\ncountry/jurisdiction.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"86\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 79\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 81\n\n[section]\nSTAFF APPRAISAL > Expanding Digital Access to Promote Innovation\n</context>\n<text>\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\nResident 2/\nAbroad 3/\nIndia: Patent Composition 1/\nSources: WIPO Statistics database, May 2025; and IMF staff calculations.\n1/ Includes patent applications by origin.\n2/ An application filed with an IP office by an applicant residing in India in which that\noffice has jurisdiction.\n3/An application filed with a patent office of India by an applicant residing in another\ncountry/jurisdiction.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n80\nINTERNATIONAL MONETARY FUND\nHarnessing Productivity Gains from Artificial Intelligence Responsibly\n14.\nAI adoption and start-up activity in India are expanding rapidly but remain uneven\nacross sectors and firm types (Figure 9). Nearly 60 percent of companies report that they have\nactively deployed AI, well above the global average and EM peers.13 AI adoption in India is largely\nconcentrated in the services sector, including financial services, healthcare, telecom, retail, and\n13 IBM Global AI Adoption Index (2023).\nFigure 8. India: Digital Access\n0\n500\n1000\n1500\n2000\n2500\n3000\n3500\n4000\n4500\n5000\nAdvanced\nEconomies\nEmerging\nMarket\nEconomies\nLow Income\nDeveloping\nCountries\nWorld\nIndia\nMedian\nP25\nP75\nFixed-broadband Internet Traffic\n(GB per subscription, 2021-2023)\nSources: ITU; and IMF staff calculations.\n0\n50\n100\n150\n200\n250\nAdvanced\nEconomies\nEmerging\nMarket\nEconomies\nLow Income\nDeveloping\nCountries\nWorld\nIndia\nMedian\nP25\nP75\nMobile-broadband Internet Traffic\n(GB per subscription, 2021-2023)\nSources: ITU; and IMF staff calculations.\n5.6\n2.8\n0\n5\n10\n15\n20\n25\n30\n35\n40\nUSD\nPercent of Income per Capita\nLow Income Economies\nLower Middle Income Economies\nUpper Middle Income Economies\nHigh Income Economies\nWorld\nIndia\nCost of Fixed-broadband Basket\n(Median, 2024)\nSources: ITU; and IMF staff calculations.\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\nMobile-broadband: India\nMobile-broadband: World\nFixed-broadband: India (RHS)\nFixed-broadband: World (RHS)\nSource: ITU.\nBroadBand Subscriptions\n(Per 100 inhabitants)\n0\n20\n40\n60\n80\n100\n120\nRural\nUrban\nTotal\nInternet Subscriptions\n(Per 100 inhabitants, Oct\u2013Dec 2024)\nSource: Telecom Regulatory Authority of India.\n0\n10\n20\n30\n40\n50\n60\n70\n15-19\n20-24\n25-29\n30-34\n35-39\n40-44\n45-49\nMale\nFemale\nSource: NFHS.\nAdults Who Have Ever Used the Internet\n(In percent, by age group, 2019-2021)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"87\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 81\n\n[section]\nSTAFF APPRAISAL > Figure 8. India: Digital Access\n</context>\n<text>\nMobile-broadband: World\nFixed-broadband: India (RHS)\nFixed-broadband: World (RHS)\nSource: ITU.\nBroadBand Subscriptions\n(Per 100 inhabitants)\n0\n20\n40\n60\n80\n100\n120\nRural\nUrban\nTotal\nInternet Subscriptions\n(Per 100 inhabitants, Oct\u2013Dec 2024)\nSource: Telecom Regulatory Authority of India.\n0\n10\n20\n30\n40\n50\n60\n70\n15-19\n20-24\n25-29\n30-34\n35-39\n40-44\n45-49\nMale\nFemale\nSource: NFHS.\nAdults Who Have Ever Used the Internet\n(In percent, by age group, 2019-2021)\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 81\ntransport and logistics.14 At the same time, the Stanford AI Index (2024) ranks India among the top\nten countries globally in the number of newly funded AI companies, with start-up activity similarly\nconcentrated in a few digitally mature sectors. That said, the adoption of AI has been uneven, with\nfirms reporting as the top three barriers: their limited AI skills, expertise, or knowledge; lack of tools\nand platforms; and integration complexity.\nFigure 9. India: AI Adoption\n15.      While still nascent, AI adoption could enhance productivity growth in India over the\nmedium term. Beyond its implications for labor markets, AI holds the potential to enhance firm-\nlevel efficiency, accelerate R&D diffusion, and improve resource allocation across sectors. IMF staff\nestimates suggest that based on AI preparedness and exposure, AI adoption could raise total factor\nproductivity in emerging markets Asia (including India) by 0.3 to 3 percentage points\u2014depending\non sectors and scenarios over a decade.15 Therefore, it is critical to ensure that AI diffusion is\nsupported by complementary reforms, including investment in digital and physical infrastructure as\nwell as improvements in human capital and innovation.\n16.      Labor market exposure to AI\nunderscores the need to invest in skills\nupgrading while protecting vulnerable\nhouseholds caught in the transition. In India, AI\nexposure is concentrated in services and\nmanufacturing, while agriculture\u2014which remains\na major source of employment\u2014has low\nexposure. Within the workforce, AI exposure with\nhigh complementarity increases sharply with\neducation level, suggesting that individuals with\ntertiary education are more likely to benefit from\nAI-enabled productivity gains.16 The IMF\u2019s AI\n14 Economic Survey (2024/25).\n15 Cerutti et al, 2025.\n16 Pizzinelli et al, 2023.\n0\n10\n20\n30\n40\n50\n60\n70\nIndia\nGlobal\nAverage of Selected EMs\n1/\nAI Adoption\n(The percentage of companies that have actively deployed AI as part of its business\noperations)\nSources: IBM Global AI Adoption Index, 2023; and IMF staff calculations.\n1/ Includes China, United Arab Emirates, and Latin America.\n0\n10\n20\n30\n40\nWe have limited AI skills, expertise or knowledge\nWe have too much data complexity\nWe have ethical concerns\nAI projects are too complex or difficult to integrate and scale\nThe price is too high\nWe have a lack of tools/platforms for developing AI models\nWe do not have a holistic AI strategy in place\nWe do not have the ability to properly govern our AI models\nWe do not have the use cases defined or the end user\u2026\nWe are locked-in to one vendor (AI and Cloud tied to one\u2026\nNothing is technically hindering successful AI adoption for my\u2026\nAverage of Selected EMs 1/\nGlobal\nIndia\nBarriers of AI Adoption\n(In percent)\nSources: IBM Global AI Adoption Index, 2023; and IMF staff calculations.\n1/ Includes China, United Arab Emirates, and Latin America.\n0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\nG20 EMs\nEMs\nIndia\nAIPI\nDigital Infrastructure\nInnovation and Economic Integration\nHuman Capital and Labor Market Policies\nRegulation and Ethics\nIndia: AI Preparedness\nSource: IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "In 2020, India's R&D expenditure represented 0.6 percent of GDP.",
+        "confidence": 1.0,
+        "passage_id": 80,
+        "predicate": "rd_expenditure_pct_gdp",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2020"
+          }
+        ],
+        "quote": "India\u2019s R&D expenditure represented only 0.6 percent of GDP in 2020",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "0.6",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "There are fewer than 300 researchers per million inhabitants in India.",
+        "confidence": 1.0,
+        "passage_id": 80,
+        "predicate": "researchers_per_million_inhabitants",
+        "qualifiers": [],
+        "quote": "there are fewer than 300 researchers per million inhabitants in India",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "fewer than 300",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "There are over 1,800 researchers per million inhabitants in China.",
+        "confidence": 1.0,
+        "passage_id": 80,
+        "predicate": "researchers_per_million_inhabitants",
+        "qualifiers": [],
+        "quote": "over 1,800 in China",
+        "subject_key": null,
+        "subject_surface": "China",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "over 1,800",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "About 50 percent of research and development spending in India is executed by the government.",
+        "confidence": 1.0,
+        "passage_id": 81,
+        "predicate": "rd_spending_by_government_pct",
+        "qualifiers": [],
+        "quote": "About 50 percent of research and development spending is executed by the government in India",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "About 50",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Higher education institutions in India account for 10 percent of total R&D spending.",
+        "confidence": 1.0,
+        "passage_id": 81,
+        "predicate": "rd_spending_by_higher_education_pct",
+        "qualifiers": [],
+        "quote": "Higher education institutions in India account for only 10 percent of total R&D spending",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "10",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "In the Global Innovation Index, university-industry collaboration in India received a survey score of 3.54.",
+        "confidence": 1.0,
+        "passage_id": 81,
+        "predicate": "university_industry_collaboration_score",
+        "qualifiers": [
+          {
+            "key": "index",
+            "provenance": "stated",
+            "value": "Global Innovation Index"
+          }
+        ],
+        "quote": "In the Global Innovation Index, university-industry collaboration in India received a survey score of 3.54",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "3.54",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "Only 4.3 percent of Indian firms report having spent resources on R&D.",
+        "confidence": 1.0,
+        "passage_id": 82,
+        "predicate": "firms_spending_on_rd_pct",
+        "qualifiers": [],
+        "quote": "Only 4.3 percent of Indian firms report having spent resources on R&D",
+        "subject_key": null,
+        "subject_surface": "Indian firms",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "4.3",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Only 5.3 percent of Indian firms launched a new product in the preceding three years.",
+        "confidence": 1.0,
+        "passage_id": 82,
+        "predicate": "firms_launched_new_product_pct",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "preceding three years"
+          }
+        ],
+        "quote": "Just 5.3 percent of Indian firms launched a new product and 3.3 percent introduced a new process in the preceding three years",
+        "subject_key": null,
+        "subject_surface": "Indian firms",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "5.3",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Only 3.3 percent of Indian firms introduced a new process in the preceding three years.",
+        "confidence": 1.0,
+        "passage_id": 82,
+        "predicate": "firms_introduced_new_process_pct",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "preceding three years"
+          }
+        ],
+        "quote": "Just 5.3 percent of Indian firms launched a new product and 3.3 percent introduced a new process in the preceding three years",
+        "subject_key": null,
+        "subject_surface": "Indian firms",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "3.3",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Merely 5.4 percent of Indian firms utilize technology licensed from overseas companies.",
+        "confidence": 1.0,
+        "passage_id": 82,
+        "predicate": "firms_utilizing_foreign_licensed_technology_pct",
+        "qualifiers": [],
+        "quote": "merely 5.4 percent of firms utilize technology licensed from overseas companies",
+        "subject_key": null,
+        "subject_surface": "Indian firms",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "5.4",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's stock of inward FDI amounts to 15 percent of GDP.",
+        "confidence": 1.0,
+        "passage_id": 82,
+        "predicate": "inward_fdi_stock_pct_gdp",
+        "qualifiers": [],
+        "quote": "India\u2019s stock of inward FDI amounts to 15 percent of GDP",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "15",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India ranks sixth globally in annual patent applications.",
+        "confidence": 1.0,
+        "passage_id": 82,
+        "predicate": "global_rank_annual_patent_applications",
+        "qualifiers": [],
+        "quote": "India ranks sixth globally in annual patent applications",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "sixth",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "Between 2013/14 and 2023/24, patent applications in India doubled.",
+        "confidence": 1.0,
+        "passage_id": 82,
+        "predicate": "patent_applications_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Between 2013/14 and 2023/24"
+          }
+        ],
+        "quote": "Between 2013/14 and 2023/24, patent applications doubled",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "doubled",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "Between 2013/14 and 2023/24, patents granted in India rose from about 4,000 to over 100,000.",
+        "confidence": 1.0,
+        "passage_id": 82,
+        "predicate": "patents_granted",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Between 2013/14 and 2023/24"
+          }
+        ],
+        "quote": "Between 2013/14 and 2023/24, patent applications doubled, while patents granted rose from about 4,000 to over 100,000",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "from about 4,000 to over 100,000",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "India reduced its income tax weighted deduction on R&D expenditure to 100 percent in FY2021/22.",
+        "confidence": 1.0,
+        "passage_id": 83,
+        "predicate": "income_tax_weighted_deduction_on_rd_expenditure_pct",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY2021/22"
+          }
+        ],
+        "quote": "reduced its income tax weighted deduction on R&D expenditure from 200 percent in FY2010/11 to 100 percent in FY2021/22",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "100",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's Patent Box Regime charges a concessional 10 percent tax rate on income earned from patents developed and registered in India.",
+        "confidence": 1.0,
+        "passage_id": 83,
+        "predicate": "patent_box_regime_tax_rate_pct",
+        "qualifiers": [],
+        "quote": "Patent Box Regime, whereby a concessional 10 percent tax rate is charged on income earned from patents developed and registered in India",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "10",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The Prime Minister\u2019s Research Fellowship Scheme has supported 3,688 scholars.",
+        "confidence": 1.0,
+        "passage_id": 83,
+        "predicate": "scholars_supported",
+        "qualifiers": [],
+        "quote": "The Prime Minister\u2019s Research Fellowship Scheme, originally launched in 2018, has so far supported 3,688 scholars",
+        "subject_key": null,
+        "subject_surface": "Prime Minister\u2019s Research Fellowship Scheme",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "3,688",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "Nearly 60 percent of companies in India report that they have actively deployed AI.",
+        "confidence": 1.0,
+        "passage_id": 86,
+        "predicate": "companies_actively_deployed_ai_pct",
+        "qualifiers": [],
+        "quote": "Nearly 60 percent of companies report that they have actively deployed AI",
+        "subject_key": null,
+        "subject_surface": "Companies in India",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "Nearly 60",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The Stanford AI Index (2024) ranks India among the top ten countries globally in the number of newly funded AI companies.",
+        "confidence": 1.0,
+        "passage_id": 87,
+        "predicate": "rank_newly_funded_ai_companies",
+        "qualifiers": [
+          {
+            "key": "index",
+            "provenance": "stated",
+            "value": "Stanford AI Index (2024)"
+          }
+        ],
+        "quote": "the Stanford AI Index (2024) ranks India among the top ten countries globally in the number of newly funded AI companies",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "top ten",
+          "scale": null,
+          "unit": null
+        }
+      }
+    ]
+  }
+}

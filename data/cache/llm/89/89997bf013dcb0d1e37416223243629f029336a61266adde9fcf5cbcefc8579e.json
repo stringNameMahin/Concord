@@ -1,0 +1,2068 @@
+{
+  "key": "89997bf013dcb0d1e37416223243629f029336a61266adde9fcf5cbcefc8579e",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable.",
+        "role": "system"
+      },
+      {
+        "content": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"0\">\n<context>\n(none given)\n</context>\n<text>\nDate: May 17, 2024\nBSE Limited\nPhiroze Jeejeebhoy Towers,\nDalal Street,\nMumbai \u2013 400 001 India\nScrip Code: 543529\nNational Stock Exchange of India Limited\nExchange Plaza, C-1, Block G,\nBandra Kurla Complex,\nBandra (E), Mumbai \u2013 400 051 India\nSymbol: DELHIVERY\nSub:  Investor Presentation for the \u2018Earnings Audio / Video (AV) Conference Call\u2019 scheduled to be held on\nMay 17, 2024, by Delhivery Limited (\u2018the Company\u2019).\nDear Sir/ Madam,\nIn furtherance to our earlier communication dated May 11, 2024 w.r.t. Earnings Audio / Video Conference Call and\npursuant to the provisions of Regulation 30 and 33 of the SEBI (Listing Obligations and Disclosure Requirements)\nRegulations, 2015, please find a copy of the Investor Presentation, on Audited Standalone and Consolidated\nFinancial Results of the Company for the quarter and financial year ended March 31, 2024, proposed to be presented\nat the upcoming Earnings Audio / Video (AV) Conference Call scheduled to be held today, i.e., Friday, May 17, 2024,\nat 06:00 P.M. (IST) by the Company.\nThis presentation will also be hosted on the Company\u2019s website at www.delhivery.com\nYou are requested to take the same on your record.\nThank you.\nYours sincerely,\nFor Delhivery Limited\nMadhulika Rawat\nCompany Secretary & Compliance Officer\nMembership No: F8765\nPlace: Goa\nEncl: As above\nMADHULIK\nA VIPIN\nRAWAT\nDigitally signed by\nMADHULIKA VIPIN\nRAWAT\nDate: 2024.05.17\n17:46:01 +05'30'\n\n\nEarnings Presentation\nQ4 & FY24\n\n\nSafe harbour and disclaimer\n</text>\n</passage>\n\n<passage id=\"1\">\n<context>\n(none given)\n</context>\n<text>\nat the upcoming Earnings Audio / Video (AV) Conference Call scheduled to be held today, i.e., Friday, May 17, 2024,\nat 06:00 P.M. (IST) by the Company.\nThis presentation will also be hosted on the Company\u2019s website at www.delhivery.com\nYou are requested to take the same on your record.\nThank you.\nYours sincerely,\nFor Delhivery Limited\nMadhulika Rawat\nCompany Secretary & Compliance Officer\nMembership No: F8765\nPlace: Goa\nEncl: As above\nMADHULIK\nA VIPIN\nRAWAT\nDigitally signed by\nMADHULIKA VIPIN\nRAWAT\nDate: 2024.05.17\n17:46:01 +05'30'\n\n\nEarnings Presentation\nQ4 & FY24\n\n\nSafe harbour and disclaimer\n</text>\n</passage>\n\n<passage id=\"2\">\n<context>\n(none given)\n</context>\n<text>\nat 06:00 P.M. (IST) by the Company.\nThis presentation will also be hosted on the Company\u2019s website at www.delhivery.com\nYou are requested to take the same on your record.\nThank you.\nYours sincerely,\nFor Delhivery Limited\nMadhulika Rawat\nCompany Secretary & Compliance Officer\nMembership No: F8765\nPlace: Goa\nEncl: As above\nMADHULIK\nA VIPIN\nRAWAT\nDigitally signed by\nMADHULIKA VIPIN\nRAWAT\nDate: 2024.05.17\n17:46:01 +05'30'\n\n\nEarnings Presentation\nQ4 & FY24\n\n\nSafe harbour and disclaimer\n</text>\n</passage>\n\n<passage id=\"3\">\n<context>\n[section]\nSafe harbour and disclaimer\n</context>\n<text>\nSafe harbour and disclaimer\nThis Presentation is prepared by Delhivery Limited (\u201cCompany\u201d) and is for information purposes only without regards to specific objectives, financial situations or needs of any particular person and nothing in it shall be\nconstrued as an invitation, offer, solicitation, recommendation or advertisement in respect of the purchase or sale of any securities of the Company or any affiliates in any jurisdiction or as an inducement to enter into\ninvestment activity and no part of it shall form the basis of or be relied upon in connection with any contract or commitment or investment decision whatsoever. This Presentation does not take into account, nor does it\nprovide any tax, legal or investment advice or opinion regarding the specific investment objectives or financial situation of any person. This Presentation and its contents are confidential and proprietary to the Company\nand/or its affiliates and no part of it or its subject matter be used, reproduced, copied, distributed, shared, or disseminated, directly or indirectly, to any other person or published in whole or in part for any purpose, in any\nmanner whatsoever.\nCertain statements in this communication may be \u2018forward looking statements\u2019 within the meaning of applicable laws and regulations. These forward-looking statements involve a number of risks, uncertainties and other\nfactors that could cause actual results to differ materially from those suggested by the forward-looking statements. Important developments that could affect the Company\u2019s operations include changes in the industry\nstructure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc.\nInvestment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited\nalong with the equity investment risk which doesn't guarantee capital protection.\n2\n\n\n3\nFY24: EBITDA\nprofitable\n\n\nFY24 highlights\n</text>\n</passage>\n\n<passage id=\"4\">\n<context>\n[section]\nSafe harbour and disclaimer\n</context>\n<text>\nstructure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc.\nInvestment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited\nalong with the equity investment risk which doesn't guarantee capital protection.\n2\n\n\n3\nFY24: EBITDA\nprofitable\n\n\nFY24 highlights\n</text>\n</passage>\n\n<passage id=\"5\">\n<context>\n[section]\nSafe harbour and disclaimer\n</context>\n<text>\nInvestment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited\nalong with the equity investment risk which doesn't guarantee capital protection.\n2\n\n\n3\nFY24: EBITDA\nprofitable\n\n\nFY24 highlights\n</text>\n</passage>\n\n<passage id=\"6\">\n<context>\n[page header]\nQ4 FY24\n\n[section]\nFY24 highlights\n</context>\n<text>\nFY24 highlights\n4\n3\nPTL: 30%+ YoY growth with significant improvement in profitability and market share\n1\nSignificant improvement in profitability during FY24 - full year EBITDA profitability achieved\n4\nSCS: Doubled service EBITDA profitability over FY23, strong Q4\n5\nTL: 40% YoY revenue growth with service EBITDA profitability improvement\n6\nSharp YoY reduction in NWC days from 38 to 31 days\na\nFY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23\nb\nPAT profitable in Q3 FY24; PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23\n2\nExpress Parcel: 18%+ Service EBITDA profitability; robust growth in key segments\n\n\nss\nIndia\u2019s largest integrated logistics platform(1)\n(1)\nAs per RedSeer report basis FY21 revenue\n(2)\nGrowth rate of revenue from services (excluding revenue from traded goods)\n(3)\nIncludes Spoton\u2019s full year tonnage for FY22\n5\n1.4 Mn Tons\nPTL freight tonnage in FY24\nYoY: 29.8%\n\u20b98,142 Cr\nFY24 revenue from services\nYoY: 12.7%(2)\n740 Mn\nExpress parcel shipments in FY24\nYoY: 11.5%\n\u20b9127Cr / 1.6%\nEBITDA / EBITDA margin\nFY23: \u20b9(452) Cr / (6.3%)\n2.8 Bn+\nExpress parcel shipments since inception\n4.8 Mn+ Tons(3)\nPTL freight tonnage since inception\n\u20b976Cr / 0.9%\nAdj. EBITDA / Adj. EBITDA margin\nFY23: \u20b9(404) Cr / (5.6%)\nFY24\n\n\nss\n</text>\n</passage>\n\n<passage id=\"7\">\n<context>\n[page header]\nQ4 FY24\n\n[section]\nIndia\u2019s largest integrated logistics platform(1)\n</context>\n<text>\nGrowth rate of revenue from services (excluding revenue from traded goods)\n(3)\nIncludes Spoton\u2019s full year tonnage for FY22\n5\n1.4 Mn Tons\nPTL freight tonnage in FY24\nYoY: 29.8%\n\u20b98,142 Cr\nFY24 revenue from services\nYoY: 12.7%(2)\n740 Mn\nExpress parcel shipments in FY24\nYoY: 11.5%\n\u20b9127Cr / 1.6%\nEBITDA / EBITDA margin\nFY23: \u20b9(452) Cr / (6.3%)\n2.8 Bn+\nExpress parcel shipments since inception\n4.8 Mn+ Tons(3)\nPTL freight tonnage since inception\n\u20b976Cr / 0.9%\nAdj. EBITDA / Adj. EBITDA margin\nFY23: \u20b9(404) Cr / (5.6%)\nFY24\n\n\nss\nIndia\u2019s largest integrated logistics platform(1)\n(1)\nAs per RedSeer report basis FY21 revenue\n(2)\nGrowth rate of revenue from services (excluding revenue from traded goods)\n6\n384K Tons\nPTL freight tonnage in Q4 FY24\nYoY: 20.8% / QoQ: 8.6%\n\u20b92,076 Cr\nQ4 FY24 revenue from services\nYoY: 11.6% / QoQ: (5.4%) (2)\n176 Mn\nExpress parcel shipments in Q4 FY24\nYoY: (2.2%) / QoQ: (12.8%)\n\u20b946Cr / 2.2%\nEBITDA / EBITDA margin\nQ4 FY23: \u20b913 Cr / 0.7%\nQ3 FY24: \u20b9109 Cr / 5.0%\n\u20b921 Cr / 1.0%\nAdj. EBITDA / Adj. EBITDA margin\nQ4 FY23: \u20b96 Cr / 0.3%\nQ3 FY24: \u20b992 Cr / 4.2%\nQ4 FY24\n\n\nKey operating metrics\n</text>\n</passage>\n",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "extractionout",
+        "schema": {
+          "$defs": {
+            "FactOut": {
+              "properties": {
+                "claim_text": {
+                  "description": "One self-contained sentence stating the fact",
+                  "title": "Claim Text",
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "title": "Confidence",
+                  "type": "number"
+                },
+                "passage_id": {
+                  "description": "id of the passage this fact and its quote came from",
+                  "title": "Passage Id",
+                  "type": "integer"
+                },
+                "predicate": {
+                  "description": "Lower snake_case relation name",
+                  "title": "Predicate",
+                  "type": "string"
+                },
+                "qualifiers": {
+                  "items": {
+                    "$ref": "#/$defs/QualifierOut"
+                  },
+                  "title": "Qualifiers",
+                  "type": "array"
+                },
+                "quote": {
+                  "description": "Verbatim span copied from the document",
+                  "title": "Quote",
+                  "type": "string"
+                },
+                "subject_key": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Hard identifier for the subject if the document gives one",
+                  "title": "Subject Key"
+                },
+                "subject_surface": {
+                  "title": "Subject Surface",
+                  "type": "string"
+                },
+                "subject_type": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "title": "Subject Type"
+                },
+                "value": {
+                  "$ref": "#/$defs/ValueOut"
+                }
+              },
+              "required": [
+                "passage_id",
+                "claim_text",
+                "subject_surface",
+                "predicate",
+                "value",
+                "quote",
+                "confidence"
+              ],
+              "title": "FactOut",
+              "type": "object"
+            },
+            "QualifierOut": {
+              "properties": {
+                "key": {
+                  "description": "Lower snake_case condition name",
+                  "title": "Key",
+                  "type": "string"
+                },
+                "provenance": {
+                  "enum": [
+                    "stated",
+                    "inherited"
+                  ],
+                  "title": "Provenance",
+                  "type": "string"
+                },
+                "value": {
+                  "title": "Value",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "value",
+                "provenance"
+              ],
+              "title": "QualifierOut",
+              "type": "object"
+            },
+            "ValueOut": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "quantity",
+                    "text",
+                    "date",
+                    "boolean"
+                  ],
+                  "title": "Kind",
+                  "type": "string"
+                },
+                "raw": {
+                  "description": "The value exactly as written in the document",
+                  "title": "Raw",
+                  "type": "string"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Magnitude word such as million or crore, if any",
+                  "title": "Scale"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Currency code or unit of measure, as written",
+                  "title": "Unit"
+                }
+              },
+              "required": [
+                "kind",
+                "raw"
+              ],
+              "title": "ValueOut",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "facts": {
+              "items": {
+                "$ref": "#/$defs/FactOut"
+              },
+              "title": "Facts",
+              "type": "array"
+            }
+          },
+          "title": "ExtractionOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Date: May 17, 2024",
+        "confidence": 1.0,
+        "passage_id": 0,
+        "predicate": "has_date",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "Date: May 17, 2024",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "date",
+          "raw": "May 17, 2024"
+        }
+      },
+      {
+        "claim_text": "BSE Limited Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai \u2013 400 001 India",
+        "confidence": 1.0,
+        "passage_id": 0,
+        "predicate": "has_address",
+        "qualifiers": [
+          {
+            "key": "exchange",
+            "provenance": "stated",
+            "value": "BSE Limited"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai \u2013 400 001 India",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai \u2013 400 001 India"
+        }
+      },
+      {
+        "claim_text": "Scrip Code: 543529",
+        "confidence": 1.0,
+        "passage_id": 0,
+        "predicate": "has_scrip_code",
+        "qualifiers": [
+          {
+            "key": "exchange",
+            "provenance": "stated",
+            "value": "BSE Limited"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "Scrip Code: 543529",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "543529"
+        }
+      },
+      {
+        "claim_text": "National Stock Exchange of India Limited Exchange Plaza, C-1, Block G, Bandra Kurla Complex, Bandra (E), Mumbai \u2013 400 051 India",
+        "confidence": 1.0,
+        "passage_id": 0,
+        "predicate": "has_address",
+        "qualifiers": [
+          {
+            "key": "exchange",
+            "provenance": "stated",
+            "value": "National Stock Exchange of India Limited"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "Exchange Plaza, C-1, Block G, Bandra Kurla Complex, Bandra (E), Mumbai \u2013 400 051 India",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Exchange Plaza, C-1, Block G, Bandra Kurla Complex, Bandra (E), Mumbai \u2013 400 051 India"
+        }
+      },
+      {
+        "claim_text": "Symbol: DELHIVERY",
+        "confidence": 1.0,
+        "passage_id": 0,
+        "predicate": "has_symbol",
+        "qualifiers": [
+          {
+            "key": "exchange",
+            "provenance": "stated",
+            "value": "National Stock Exchange of India Limited"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "Symbol: DELHIVERY",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "DELHIVERY"
+        }
+      },
+      {
+        "claim_text": "Earnings Audio / Video (AV) Conference Call scheduled to be held today, i.e., Friday, May 17, 2024, at 06:00 P.M. (IST) by the Company",
+        "confidence": 1.0,
+        "passage_id": 0,
+        "predicate": "has_event",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "May 17, 2024"
+          },
+          {
+            "key": "time",
+            "provenance": "stated",
+            "value": "06:00 P.M. (IST)"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "Earnings Audio / Video (AV) Conference Call scheduled to be held today, i.e., Friday, May 17, 2024, at 06:00 P.M. (IST) by the Company",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Earnings Audio / Video (AV) Conference Call"
+        }
+      },
+      {
+        "claim_text": "This presentation will also be hosted on the Company\u2019s website at www.delhivery.com",
+        "confidence": 1.0,
+        "passage_id": 0,
+        "predicate": "has_website",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "This presentation will also be hosted on the Company\u2019s website at www.delhivery.com",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "www.delhivery.com"
+        }
+      },
+      {
+        "claim_text": "at the upcoming Earnings Audio / Video (AV) Conference Call scheduled to be held today, i.e., Friday, May 17, 2024, at 06:00 P.M. (IST) by the Company",
+        "confidence": 1.0,
+        "passage_id": 1,
+        "predicate": "has_event",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "May 17, 2024"
+          },
+          {
+            "key": "time",
+            "provenance": "stated",
+            "value": "06:00 P.M. (IST)"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "at the upcoming Earnings Audio / Video (AV) Conference Call scheduled to be held today, i.e., Friday, May 17, 2024, at 06:00 P.M. (IST) by the Company",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Earnings Audio / Video (AV) Conference Call"
+        }
+      },
+      {
+        "claim_text": "This presentation will also be hosted on the Company\u2019s website at www.delhivery.com",
+        "confidence": 1.0,
+        "passage_id": 1,
+        "predicate": "has_website",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "This presentation will also be hosted on the Company\u2019s website at www.delhivery.com",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "www.delhivery.com"
+        }
+      },
+      {
+        "claim_text": "at 06:00 P.M. (IST) by the Company",
+        "confidence": 1.0,
+        "passage_id": 2,
+        "predicate": "has_event_time",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "May 17, 2024"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "at 06:00 P.M. (IST) by the Company",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "06:00 P.M. (IST)"
+        }
+      },
+      {
+        "claim_text": "This presentation will also be hosted on the Company\u2019s website at www.delhivery.com",
+        "confidence": 1.0,
+        "passage_id": 2,
+        "predicate": "has_website",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "May 17, 2024"
+          }
+        ],
+        "quote": "This presentation will also be hosted on the Company\u2019s website at www.delhivery.com",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "www.delhivery.com"
+        }
+      },
+      {
+        "claim_text": "FY24: EBITDA profitable",
+        "confidence": 1.0,
+        "passage_id": 3,
+        "predicate": "has_financial_status",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "FY24: EBITDA profitable",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "EBITDA profitable"
+        }
+      },
+      {
+        "claim_text": "FY24 highlights",
+        "confidence": 1.0,
+        "passage_id": 3,
+        "predicate": "has_section",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "FY24 highlights"
+          }
+        ],
+        "quote": "FY24 highlights",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "FY24 highlights"
+        }
+      },
+      {
+        "claim_text": "This Presentation is prepared by Delhivery Limited (\u201cCompany\u201d) and is for information purposes only without regards to specific objectives, financial situations or needs of any particular person and nothing in it shall be construed as an invitation, offer, solicitation, recommendation or advertisement in respect of the purchase or sale of any securities of the Company or any affiliates in any jurisdiction or as an inducement to enter into investment activity and no part of it shall form the basis of or be relied upon in connection with any contract or commitment or investment decision whatsoever.",
+        "confidence": 1.0,
+        "passage_id": 3,
+        "predicate": "has_disclaimer",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "This Presentation is prepared by Delhivery Limited (\u201cCompany\u201d) and is for information purposes only without regards to specific objectives, financial situations or needs of any particular person and nothing in it shall be construed as an invitation, offer, solicitation, recommendation or advertisement in respect of the purchase or sale of any securities of the Company or any affiliates in any jurisdiction or as an inducement to enter into investment activity and no part of it shall form the basis of or be relied upon in connection with any contract or commitment or investment decision whatsoever.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "This Presentation is prepared by Delhivery Limited (\u201cCompany\u201d) and is for information purposes only without regards to specific objectives, financial situations or needs of any particular person and nothing in it shall be construed as an invitation, offer, solicitation, recommendation or advertisement in respect of the purchase or sale of any securities of the Company or any affiliates in any jurisdiction or as an inducement to enter into investment activity and no part of it shall form the basis of or be relied upon in connection with any contract or commitment or investment decision whatsoever."
+        }
+      },
+      {
+        "claim_text": "This Presentation does not take into account, nor does it provide any tax, legal or investment advice or opinion regarding the specific investment objectives or financial situation of any person.",
+        "confidence": 1.0,
+        "passage_id": 3,
+        "predicate": "has_disclaimer",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "This Presentation does not take into account, nor does it provide any tax, legal or investment advice or opinion regarding the specific investment objectives or financial situation of any person.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "This Presentation does not take into account, nor does it provide any tax, legal or investment advice or opinion regarding the specific investment objectives or financial situation of any person."
+        }
+      },
+      {
+        "claim_text": "This Presentation and its contents are confidential and proprietary to the Company and/or its affiliates and no part of it or its subject matter be used, reproduced, copied, distributed, shared, or disseminated, directly or indirectly, to any other person or published in whole or in part for any purpose, in any manner whatsoever.",
+        "confidence": 1.0,
+        "passage_id": 3,
+        "predicate": "has_disclaimer",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "This Presentation and its contents are confidential and proprietary to the Company and/or its affiliates and no part of it or its subject matter be used, reproduced, copied, distributed, shared, or disseminated, directly or indirectly, to any other person or published in whole or in part for any purpose, in any manner whatsoever.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "This Presentation and its contents are confidential and proprietary to the Company and/or its affiliates and no part of it or its subject matter be used, reproduced, copied, distributed, shared, or disseminated, directly or indirectly, to any other person or published in whole or in part for any purpose, in any manner whatsoever."
+        }
+      },
+      {
+        "claim_text": "Certain statements in this communication may be \u2018forward looking statements\u2019 within the meaning of applicable laws and regulations. These forward-looking statements involve a number of risks, uncertainties and other factors that could cause actual results to differ materially from those suggested by the forward-looking statements.",
+        "confidence": 1.0,
+        "passage_id": 3,
+        "predicate": "has_disclaimer",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "Certain statements in this communication may be \u2018forward looking statements\u2019 within the meaning of applicable laws and regulations. These forward-looking statements involve a number of risks, uncertainties and other factors that could cause actual results to differ materially from those suggested by the forward-looking statements.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Certain statements in this communication may be \u2018forward looking statements\u2019 within the meaning of applicable laws and regulations. These forward-looking statements involve a number of risks, uncertainties and other factors that could cause actual results to differ materially from those suggested by the forward-looking statements."
+        }
+      },
+      {
+        "claim_text": "Important developments that could affect the Company\u2019s operations include changes in the industry structure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc.",
+        "confidence": 1.0,
+        "passage_id": 3,
+        "predicate": "has_risk_factor",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "Important developments that could affect the Company\u2019s operations include changes in the industry structure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "changes in the industry structure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc."
+        }
+      },
+      {
+        "claim_text": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection.",
+        "confidence": 1.0,
+        "passage_id": 3,
+        "predicate": "has_risk_factor",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection."
+        }
+      },
+      {
+        "claim_text": "Important developments that could affect the Company\u2019s operations include changes in the industry structure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc.",
+        "confidence": 1.0,
+        "passage_id": 4,
+        "predicate": "has_risk_factor",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "Important developments that could affect the Company\u2019s operations include changes in the industry structure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "changes in the industry structure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc."
+        }
+      },
+      {
+        "claim_text": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection.",
+        "confidence": 1.0,
+        "passage_id": 4,
+        "predicate": "has_risk_factor",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection."
+        }
+      },
+      {
+        "claim_text": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection.",
+        "confidence": 1.0,
+        "passage_id": 5,
+        "predicate": "has_risk_factor",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "Safe harbour and disclaimer"
+          }
+        ],
+        "quote": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection.",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited along with the equity investment risk which doesn't guarantee capital protection."
+        }
+      },
+      {
+        "claim_text": "FY24 highlights",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_section",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "FY24 highlights"
+          }
+        ],
+        "quote": "FY24 highlights",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "FY24 highlights"
+        }
+      },
+      {
+        "claim_text": "PTL: 30%+ YoY growth with significant improvement in profitability and market share",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_performance_metric",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "PTL"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "PTL: 30%+ YoY growth with significant improvement in profitability and market share",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "30%+ YoY growth"
+        }
+      },
+      {
+        "claim_text": "Significant improvement in profitability during FY24 - full year EBITDA profitability achieved",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_status",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Significant improvement in profitability during FY24 - full year EBITDA profitability achieved",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "full year EBITDA profitability achieved"
+        }
+      },
+      {
+        "claim_text": "SCS: Doubled service EBITDA profitability over FY23, strong Q4",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_performance_metric",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "SCS"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "SCS: Doubled service EBITDA profitability over FY23, strong Q4",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Doubled service EBITDA profitability over FY23"
+        }
+      },
+      {
+        "claim_text": "TL: 40% YoY revenue growth with service EBITDA profitability improvement",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_performance_metric",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "TL"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "TL: 40% YoY revenue growth with service EBITDA profitability improvement",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "40% YoY revenue growth"
+        }
+      },
+      {
+        "claim_text": "Sharp YoY reduction in NWC days from 38 to 31 days",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_performance_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "NWC days"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          },
+          {
+            "key": "baseline",
+            "provenance": "stated",
+            "value": "38 days"
+          }
+        ],
+        "quote": "Sharp YoY reduction in NWC days from 38 to 31 days",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "31 days"
+        }
+      },
+      {
+        "claim_text": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          },
+          {
+            "key": "baseline",
+            "provenance": "stated",
+            "value": "Rs. (452 Cr)"
+          }
+        ],
+        "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Rs. 127 Cr"
+        }
+      },
+      {
+        "claim_text": "PAT profitable in Q3 FY24; PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "PAT loss"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23"
+          }
+        ],
+        "quote": "PAT profitable in Q3 FY24; PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Rs. (1,008 Cr)"
+        }
+      },
+      {
+        "claim_text": "Express Parcel: 18%+ Service EBITDA profitability; robust growth in key segments",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_performance_metric",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Express Parcel"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Express Parcel: 18%+ Service EBITDA profitability; robust growth in key segments",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "18%+ Service EBITDA profitability"
+        }
+      },
+      {
+        "claim_text": "India\u2019s largest integrated logistics platform(1)",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_status",
+        "qualifiers": [
+          {
+            "key": "source",
+            "provenance": "stated",
+            "value": "RedSeer report basis FY21 revenue"
+          }
+        ],
+        "quote": "India\u2019s largest integrated logistics platform(1)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "India\u2019s largest integrated logistics platform"
+        }
+      },
+      {
+        "claim_text": "1.4 Mn Tons PTL freight tonnage in FY24",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_volume",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "PTL"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "1.4 Mn Tons PTL freight tonnage in FY24",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "1.4 Mn Tons"
+        }
+      },
+      {
+        "claim_text": "YoY: 29.8%",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "PTL freight tonnage"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "YoY: 29.8%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "29.8%"
+        }
+      },
+      {
+        "claim_text": "\u20b98,142 Cr FY24 revenue from services",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_revenue",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "revenue from services"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b98,142 Cr FY24 revenue from services",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b98,142 Cr"
+        }
+      },
+      {
+        "claim_text": "YoY: 12.7%(2)",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "revenue from services"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "YoY: 12.7%(2)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "12.7%"
+        }
+      },
+      {
+        "claim_text": "740 Mn Express parcel shipments in FY24",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_volume",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Express parcel"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "740 Mn Express parcel shipments in FY24",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "740 Mn"
+        }
+      },
+      {
+        "claim_text": "YoY: 11.5%",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Express parcel shipments"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "YoY: 11.5%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "11.5%"
+        }
+      },
+      {
+        "claim_text": "\u20b9127Cr / 1.6% EBITDA / EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b9127Cr / 1.6% EBITDA / EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b9127Cr"
+        }
+      },
+      {
+        "claim_text": "\u20b9127Cr / 1.6% EBITDA / EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b9127Cr / 1.6% EBITDA / EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "1.6%"
+        }
+      },
+      {
+        "claim_text": "FY23: \u20b9(452) Cr / (6.3%)",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23"
+          }
+        ],
+        "quote": "FY23: \u20b9(452) Cr / (6.3%)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b9(452) Cr"
+        }
+      },
+      {
+        "claim_text": "FY23: \u20b9(452) Cr / (6.3%)",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23"
+          }
+        ],
+        "quote": "FY23: \u20b9(452) Cr / (6.3%)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "(6.3%)"
+        }
+      },
+      {
+        "claim_text": "\u20b976Cr / 0.9% Adj. EBITDA / Adj. EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b976Cr / 0.9% Adj. EBITDA / Adj. EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b976Cr"
+        }
+      },
+      {
+        "claim_text": "\u20b976Cr / 0.9% Adj. EBITDA / Adj. EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b976Cr / 0.9% Adj. EBITDA / Adj. EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "0.9%"
+        }
+      },
+      {
+        "claim_text": "FY23: \u20b9(404) Cr / (5.6%)",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23"
+          }
+        ],
+        "quote": "FY23: \u20b9(404) Cr / (5.6%)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b9(404) Cr"
+        }
+      },
+      {
+        "claim_text": "FY23: \u20b9(404) Cr / (5.6%)",
+        "confidence": 1.0,
+        "passage_id": 6,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23"
+          }
+        ],
+        "quote": "FY23: \u20b9(404) Cr / (5.6%)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "(5.6%)"
+        }
+      },
+      {
+        "claim_text": "Growth rate of revenue from services (excluding revenue from traded goods)",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_metric",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "India\u2019s largest integrated logistics platform(1)"
+          }
+        ],
+        "quote": "Growth rate of revenue from services (excluding revenue from traded goods)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Growth rate of revenue from services (excluding revenue from traded goods)"
+        }
+      },
+      {
+        "claim_text": "Includes Spoton\u2019s full year tonnage for FY22",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_note",
+        "qualifiers": [
+          {
+            "key": "section",
+            "provenance": "stated",
+            "value": "India\u2019s largest integrated logistics platform(1)"
+          }
+        ],
+        "quote": "Includes Spoton\u2019s full year tonnage for FY22",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "Includes Spoton\u2019s full year tonnage for FY22"
+        }
+      },
+      {
+        "claim_text": "1.4 Mn Tons PTL freight tonnage in FY24",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_volume",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "PTL"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "1.4 Mn Tons PTL freight tonnage in FY24",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "1.4 Mn Tons"
+        }
+      },
+      {
+        "claim_text": "YoY: 29.8%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "PTL freight tonnage"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "YoY: 29.8%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "29.8%"
+        }
+      },
+      {
+        "claim_text": "\u20b98,142 Cr FY24 revenue from services",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_revenue",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "revenue from services"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b98,142 Cr FY24 revenue from services",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b98,142 Cr"
+        }
+      },
+      {
+        "claim_text": "YoY: 12.7%(2)",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "revenue from services"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "YoY: 12.7%(2)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "12.7%"
+        }
+      },
+      {
+        "claim_text": "740 Mn Express parcel shipments in FY24",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_volume",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Express parcel"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "740 Mn Express parcel shipments in FY24",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "740 Mn"
+        }
+      },
+      {
+        "claim_text": "YoY: 11.5%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Express parcel shipments"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "YoY: 11.5%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "11.5%"
+        }
+      },
+      {
+        "claim_text": "\u20b9127Cr / 1.6% EBITDA / EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b9127Cr / 1.6% EBITDA / EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b9127Cr"
+        }
+      },
+      {
+        "claim_text": "\u20b9127Cr / 1.6% EBITDA / EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "\u20b9127Cr / 1.6% EBITDA / EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "1.6%"
+        }
+      },
+      {
+        "claim_text": "Q4 FY24: \u20b946Cr / 2.2% EBITDA / EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "\u20b946Cr / 2.2% EBITDA / EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b946Cr"
+        }
+      },
+      {
+        "claim_text": "Q4 FY24: \u20b946Cr / 2.2% EBITDA / EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "\u20b946Cr / 2.2% EBITDA / EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "2.2%"
+        }
+      },
+      {
+        "claim_text": "Q4 FY23: \u20b913 Cr / 0.7%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY23"
+          }
+        ],
+        "quote": "Q4 FY23: \u20b913 Cr / 0.7%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b913 Cr"
+        }
+      },
+      {
+        "claim_text": "Q4 FY23: \u20b913 Cr / 0.7%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY23"
+          }
+        ],
+        "quote": "Q4 FY23: \u20b913 Cr / 0.7%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "0.7%"
+        }
+      },
+      {
+        "claim_text": "Q3 FY24: \u20b9109 Cr / 5.0%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q3 FY24"
+          }
+        ],
+        "quote": "Q3 FY24: \u20b9109 Cr / 5.0%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b9109 Cr"
+        }
+      },
+      {
+        "claim_text": "Q3 FY24: \u20b9109 Cr / 5.0%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q3 FY24"
+          }
+        ],
+        "quote": "Q3 FY24: \u20b9109 Cr / 5.0%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "5.0%"
+        }
+      },
+      {
+        "claim_text": "Q4 FY24: \u20b921 Cr / 1.0% Adj. EBITDA / Adj. EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "Q4 FY24: \u20b921 Cr / 1.0% Adj. EBITDA / Adj. EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b921 Cr"
+        }
+      },
+      {
+        "claim_text": "Q4 FY24: \u20b921 Cr / 1.0% Adj. EBITDA / Adj. EBITDA margin",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "Q4 FY24: \u20b921 Cr / 1.0% Adj. EBITDA / Adj. EBITDA margin",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "1.0%"
+        }
+      },
+      {
+        "claim_text": "Q4 FY23: \u20b96 Cr / 0.3%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY23"
+          }
+        ],
+        "quote": "Q4 FY23: \u20b96 Cr / 0.3%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b96 Cr"
+        }
+      },
+      {
+        "claim_text": "Q4 FY23: \u20b96 Cr / 0.3%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY23"
+          }
+        ],
+        "quote": "Q4 FY23: \u20b96 Cr / 0.3%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "0.3%"
+        }
+      },
+      {
+        "claim_text": "Q3 FY24: \u20b992 Cr / 4.2%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q3 FY24"
+          }
+        ],
+        "quote": "Q3 FY24: \u20b992 Cr / 4.2%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b992 Cr"
+        }
+      },
+      {
+        "claim_text": "Q3 FY24: \u20b992 Cr / 4.2%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_financial_metric",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Adj. EBITDA margin"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q3 FY24"
+          }
+        ],
+        "quote": "Q3 FY24: \u20b992 Cr / 4.2%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "4.2%"
+        }
+      },
+      {
+        "claim_text": "384K Tons PTL freight tonnage in Q4 FY24",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_volume",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "PTL"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "384K Tons PTL freight tonnage in Q4 FY24",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "384K Tons"
+        }
+      },
+      {
+        "claim_text": "YoY: 20.8% / QoQ: 8.6%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "PTL freight tonnage"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "YoY"
+          }
+        ],
+        "quote": "YoY: 20.8% / QoQ: 8.6%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "20.8%"
+        }
+      },
+      {
+        "claim_text": "YoY: 20.8% / QoQ: 8.6%",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "PTL freight tonnage"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "QoQ"
+          }
+        ],
+        "quote": "YoY: 20.8% / QoQ: 8.6%",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "8.6%"
+        }
+      },
+      {
+        "claim_text": "\u20b92,076 Cr Q4 FY24 revenue from services",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_revenue",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "revenue from services"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "\u20b92,076 Cr Q4 FY24 revenue from services",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b92,076 Cr"
+        }
+      },
+      {
+        "claim_text": "YoY: 11.6% / QoQ: (5.4%) (2)",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "revenue from services"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "YoY"
+          }
+        ],
+        "quote": "YoY: 11.6% / QoQ: (5.4%) (2)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "11.6%"
+        }
+      },
+      {
+        "claim_text": "YoY: 11.6% / QoQ: (5.4%) (2)",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "revenue from services"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "QoQ"
+          }
+        ],
+        "quote": "YoY: 11.6% / QoQ: (5.4%) (2)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "(5.4%)"
+        }
+      },
+      {
+        "claim_text": "176 Mn Express parcel shipments in Q4 FY24",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_volume",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Express parcel"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          }
+        ],
+        "quote": "176 Mn Express parcel shipments in Q4 FY24",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "176 Mn"
+        }
+      },
+      {
+        "claim_text": "YoY: (2.2%) / QoQ: (12.8%)",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Express parcel shipments"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "YoY"
+          }
+        ],
+        "quote": "YoY: (2.2%) / QoQ: (12.8%)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "(2.2%)"
+        }
+      },
+      {
+        "claim_text": "YoY: (2.2%) / QoQ: (12.8%)",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_growth_rate",
+        "qualifiers": [
+          {
+            "key": "metric",
+            "provenance": "stated",
+            "value": "Express parcel shipments"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Q4 FY24"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "QoQ"
+          }
+        ],
+        "quote": "YoY: (2.2%) / QoQ: (12.8%)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "(12.8%)"
+        }
+      },
+      {
+        "claim_text": "2.8 Bn+ Express parcel shipments since inception",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_volume",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Express parcel"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "since inception"
+          }
+        ],
+        "quote": "2.8 Bn+ Express parcel shipments since inception",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "2.8 Bn+"
+        }
+      },
+      {
+        "claim_text": "4.8 Mn+ Tons(3) PTL freight tonnage since inception",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_volume",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "PTL"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "since inception"
+          }
+        ],
+        "quote": "4.8 Mn+ Tons(3) PTL freight tonnage since inception",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "4.8 Mn+ Tons"
+        }
+      },
+      {
+        "claim_text": "India\u2019s largest integrated logistics platform(1)",
+        "confidence": 1.0,
+        "passage_id": 7,
+        "predicate": "has_status",
+        "qualifiers": [
+          {
+            "key": "source",
+            "provenance": "stated",
+            "value": "RedSeer report basis FY21 revenue"
+          }
+        ],
+        "quote": "India\u2019s largest integrated logistics platform(1)",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "text",
+          "raw": "India\u2019s largest integrated logistics platform"
+        }
+      }
+    ]
+  }
+}

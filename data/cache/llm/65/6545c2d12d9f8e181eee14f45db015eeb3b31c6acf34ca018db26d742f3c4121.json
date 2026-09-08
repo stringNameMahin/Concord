@@ -1,0 +1,1102 @@
+{
+  "key": "6545c2d12d9f8e181eee14f45db015eeb3b31c6acf34ca018db26d742f3c4121",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable.",
+        "role": "system"
+      },
+      {
+        "content": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"64\">\n<context>\n[section]\nExternalise our logistics operating system\n</context>\n<text>\ncustom/ purpose-built applications across our various business lines. It has also facilitated machine learning and\nartificial intelligence driven real-time business decision making in our day-to-day operations.\nWe believe that the common standards and guidelines enabled by our OS drive efficiency within the Delhivery\nnetwork and can also reduce high inefficiency costs across traditional siloed supply chain and logistics systems\nglobally. In addition, the ease of use of the underlying logistics OS can be leveraged by new players to create\ncustomized applications and participate in the supply chain markets of the future without having to make\nsignificant technology investments.\nTo this end, we intend to externalize our logistics operating system as a platform and as a SaaS offering by\nenabling other players to build their own web or mobile based applications on top of our logistics operating system.\nSuch players may comprise other logistics service providers, logistics technology companies, enterprises,\ndeveloper partners and our customers, in India and globally. The applications that they develop may serve a variety\nof supply chain use cases. In order to facilitate discovery and monetisation of such applications, we are in the\nprocess of developing an app market place wherein third party developers can list applications, market them and\nset pricing and relevant customers can purchase such applications for deployment in their supply chain. The\napplication market place is currently under development.\nOur ability to collect, structure and analyse transaction data generated in our core logistics can also enable us to\nassess the financial profile of various parties in the supply chain, such as customers, vendors and network partners.\nBy leveraging our data analytics capabilities, we plan to offer financial services such as working capital financing,\ninsurance and personal loans in the future, either on our own or in association with partners.\nCreate new adjacent growth vectors\nWe will continue to develop large, new growth adjacencies that enhance our interlocking flywheel strategy,\nleveraging on our operational scale, rapid growth, large ecosystem of engaged partners, network design,\nsophisticated technology systems and access to vast amounts of data. For example, our ability to collect, structure\nand analyse transaction data derived from our core logistics offerings gives us a unique advantage in terms of\nassessing the financial profile of various parties in the supply chain. By leveraging our data analytics capabilities,\nwe plan to offer financial services such as working capital financing, insurance and personal loans in the future,\neither independently or in association with our partners. Additionally, we plan to offer value added services, such\nas highway assistance and routing and tracking software for fleet owners and suppliers of truckload capacity.\nSimilarly, we have the ability to combine our fulfilment, logistics and payments processing expertise to simplify\ndistribution for our customers in the FMCG and retail verticals.\nExpand into high-growth international markets similar to India\nSeveral emerging markets share operational and structural market challenges that are similar enough to India to\nbenefit from our set of technology and network optimization tools. In Fiscal 2021, we successfully introduced\npart of our fulfilment and transportation technology stack in Bangladesh and Sri Lanka, in collaboration with\nlocal partners. We will continue to expand our presence in other such international markets selectively and\nthrough capital-efficient, partnership-driven models.\nPursue strategic alliances and select acquisition and investment opportunities\nWe will seek strategic alliances with global and domestic leaders in various segments of the logistics industry\nthat bring synergies to our business. We will also continue to look for high-quality acquisition and investment\nopportunities within and outside India that are complementary to our business or that enable us to build new,\n</text>\n</passage>\n\n<passage id=\"65\">\n<context>\n[section]\nExpand into high-growth international markets similar to India\n</context>\n<text>\nlocal partners. We will continue to expand our presence in other such international markets selectively and\nthrough capital-efficient, partnership-driven models.\nPursue strategic alliances and select acquisition and investment opportunities\nWe will seek strategic alliances with global and domestic leaders in various segments of the logistics industry\nthat bring synergies to our business. We will also continue to look for high-quality acquisition and investment\nopportunities within and outside India that are complementary to our business or that enable us to build new,\nvaluable capabilities for our customers, strengthen or establish our presence in our target markets in India and\nglobally, enable us to gain access to software and hardware technology, expand our customer base or gain excess\nto a skilled team.\n\n\n232\nOUR TECHNOLOGY APPLICATIONS\nOperational Applications\nOur key applications are summarized below.\n\u2022\nTransportation Management System (\u201cTMS\u201d)\nTMS orchestrates and tracks shipment and asset movement in real-time across our entire network, including\npartner operations. The TMS order management system identifies relevant order information provided by\nshippers and leverages our proprietary network design and resource allocation tools to identify the optimal\npath for each shipment basis parameters such as size/ weight, mode of transport, speed and custom\nworkflows. It also facilitates easy integration and data exchange with customers and our own ancillary\nsystems for billing and cash management. As of December 31, 2021, the TMS supports over 45 million\nshipment lifecycle events per day and collects over 170 million GPS trace points per day and its distributed\ninfrastructure supports over 350 API endpoints.\n\u2022\nMid-mile System\nThis system orchestrates in-facility activities such as sortation, consolidation, de-consolidation,\nloading/unloading, trans-shipment, line-haul schedule management, tracking and provides detailed\ntraceability of shipments moving through these facilities. In addition, it coordinates real-time capacity\nplanning, activity tracking of in-facility processes and performance monitoring of individual agents. These\nsystems are also integrated with our automated sortation systems, material handling systems and a suite of\nmobile applications that provide detailed instructions to our operations teams for performance of all in-\nfacility activities.\n\u2022\nLast Mile and Dispatch System\nOur last-mile and dispatch systems orchestrate in-facility activities at our own and partner last mile service\ncentres.\nOperators can receive goods, sort them into system determined or manually determined routes, dispatch\nconsignments via our network or third-party agents, track field statuses of dispatched parcels, collect pickup\nand return orders and manage cash through these systems. Field staff (first-party and third-party delivery\nagents) have access to our dispatch application through which they can plan, create and manage their delivery\nroutes, receive guidance to consignee addresses, communicate with consignees while on their delivery route\nand view their performance and earnings. Station managers can also access automated station-level and agent-\nlevel performance scorecards and configurable reports about future loads and capacity requirements for\nforward planning.\n\u2022\nFleet Management System (\u201cFMS\u201d)\nFor the nine months period ended December 31, 2021, our FMS enabled over 435 fleet owners and suppliers\nof fleet capacity, including our self-owned fleet, to register their assets (over 50,000 vehicles) with us, enter\ninto fleet contracts, track their service metrics (quality, usage and earnings) against those contracts and\nmanage claims and disputes.\n\u2022\nWarehouse Management System\n\u201cGodam\u201d, our proprietary WMS, manages order fulfilment operations across multiple online and offline\nchannels and selects and orchestrates transportation services for these orders (truckload, PTL, intra-city\ndistribution, express parcel, heavy goods delivery, etc). Our WMS is integrated with major Indian and\n</text>\n</passage>\n\n<passage id=\"66\">\n<context>\n[section]\nFleet Management System (\u201cFMS\u201d)\n</context>\n<text>\nof fleet capacity, including our self-owned fleet, to register their assets (over 50,000 vehicles) with us, enter\ninto fleet contracts, track their service metrics (quality, usage and earnings) against those contracts and\nmanage claims and disputes.\n\u2022\nWarehouse Management System\n\u201cGodam\u201d, our proprietary WMS, manages order fulfilment operations across multiple online and offline\nchannels and selects and orchestrates transportation services for these orders (truckload, PTL, intra-city\ndistribution, express parcel, heavy goods delivery, etc). Our WMS is integrated with major Indian and\ninternational marketplaces through Primaseller, and with Delhivery transportation services and multiple\nexternal logistics providers, enabling us to provide our customers with the highest quality and lowest cost\nservices at all times. In addition, Godam is designed as a multi-location, multi-tenant 3PL WMS, enabling\nglobal inventory visibility and control and real-time optimization of inventory placement, order allocation\nand order aggregation for our customers.\n\n\n233\n\u2018Godam\u2019 - Order List\n\u2018Godam\u2019 app - Pack and picking\n\n\n234\n</text>\n</passage>\n\n<passage id=\"67\">\n<context>\n[section]\nWarehouse Management System\n</context>\n<text>\ninternational marketplaces through Primaseller, and with Delhivery transportation services and multiple\nexternal logistics providers, enabling us to provide our customers with the highest quality and lowest cost\nservices at all times. In addition, Godam is designed as a multi-location, multi-tenant 3PL WMS, enabling\nglobal inventory visibility and control and real-time optimization of inventory placement, order allocation\nand order aggregation for our customers.\n\n\n233\n\u2018Godam\u2019 - Order List\n\u2018Godam\u2019 app - Pack and picking\n\n\n234\n</text>\n</passage>\n\n<passage id=\"68\">\n<context>\n[section]\nWarehouse Management System\n</context>\n<text>\nexternal logistics providers, enabling us to provide our customers with the highest quality and lowest cost\nservices at all times. In addition, Godam is designed as a multi-location, multi-tenant 3PL WMS, enabling\nglobal inventory visibility and control and real-time optimization of inventory placement, order allocation\nand order aggregation for our customers.\n\n\n233\n\u2018Godam\u2019 - Order List\n\u2018Godam\u2019 app - Pack and picking\n\n\n234\n</text>\n</passage>\n\n<passage id=\"69\">\n<context>\n[section]\nWarehouse Management System\n</context>\n<text>\n234\n\u2022\nOrion: Truckload Freight Brokerage\n\u201cOrion\u201d, our truckload freight brokerage platform, matches demand from shippers with suppliers of\ntruckload capacity in real-time. There are 3 components to the Orion system: (1) the freight matching engine\nthat matches demand and supply based on price and service quality, via a reverse-bidding process through\nour \u201cAxle\u201d application, while also functioning as a financial and operational ledger for our partners; (2)\noperational modules that track execution of contracted truckloads, including matching, real- time tracking,\ndelivery and proof of delivery; and (3) the transaction management system that is deeply integrated with the\noperational modules and manages financial aspects of all transactions.\n\u2018Axle\u2019 - bidding page Orion - tracking of contracted trip\nCustomer and Partner facing Applications\n\u25cf\nPartner Management Toolkit\nThe Partner Management Toolkit enables registration, onboarding and management of third-party agents\nsuch as franchisees, business partners and delivery agents. Partners gain access to our operational and\ncustomer-facing applications through the partner web portal, along with real-time visibility of their service\ncontracts, operational performance and earnings.\nOur \u201cAxle\u201d and \u201cRoadpiper\u201d mobile applications provide real-time order visibility to truckload partners,\nallow them to bid and win contracts and also manage their financial transactions related to the platform.\nThese applications also assist partners to improve their win rates through support features like price guidance\nand advance sharing of truck availability.\n\u2018Axle\u2019 and \u2018Roadpiper\u2019 applications\n\u2022\nCustomer Portals\nWe provide customers with web-based customer portals to register, self-onboard and manage their\nfulfilment and shipping accounts with us. Customers perform all key tasks such as order creation, pickup slot\nbooking, order tracking, escalation management, billing, cash remittance and claims management through\nthese portals.\nThese customer portals are being consolidated into a single Unified Customer Portal (\u201cUCP\u201d) using which\ncustomers will be able to access all of our services and manage their accounts through a single interface.\nUCP will also offer value-added services like online channel integration, data products like returns\nprediction and fraud detection and service products like customized shipping notifications.\n\u2022\nSupply Chain Solutions Products\n\u201cTelescope\u201d, our supply chain visibility product for enterprises, provides a configurable, end-to-end view\nof our customers\u2019 entire supply chain. This is accomplished through integration between customer ERPs and\nour WMS and TMS systems, coupled with our proprietary supply chain analytics engine. This enables\ncustomers to take real-time data-driven decisions regarding inventory placement, order aggregation,\noptimal order to inventory allocation (while meeting constraints of cost and time) and optimal selection of\ntransportation modes and partners. In addition, through Primaseller, we are able to provide multi-channel\nintegrations (online as well as offline), order management and inventory virtualization capabilities that are\nprominently used by D2C and omni-channel retailers.\n\u2018Telescope\u2019 - Order Visibility\n\u2018Telescope\u2019 - Warehouse Performance\n\u2022\nConsumer Applications\nWe launched our Delhivery Direct service in June 2021 to provide door-to-door domestic shipping services\nto individual consumers from the comfort of their homes. Consumers can check shipping rates, book and\n\n\n235\ntrack consignments through the Direct web-portal (https://direct.delhivery.com/). We are in the process of\ndeveloping a mobile application for consumers to register and track all of their current and historic orders\nand customize the delivery process by providing delivery slot preferences, geo-location and address\npreferences and specific delivery instructions.\nDelhivery Direct Application\nDATA APPLICATIONS\n\u25cf\nLocation Intelligence:\nOur location stack is based on our address resolution engine, \u201cAddfix\u201d and geocoding engines. We combine\n</text>\n</passage>\n\n<passage id=\"70\">\n<context>\n[section]\nConsumer Applications\n</context>\n<text>\ntrack consignments through the Direct web-portal (https://direct.delhivery.com/). We are in the process of\ndeveloping a mobile application for consumers to register and track all of their current and historic orders\nand customize the delivery process by providing delivery slot preferences, geo-location and address\npreferences and specific delivery instructions.\nDelhivery Direct Application\nDATA APPLICATIONS\n\u25cf\nLocation Intelligence:\nOur location stack is based on our address resolution engine, \u201cAddfix\u201d and geocoding engines. We combine\nthese with vast amounts of GPS data to tackle problems such as enrichment and classification of addresses,\ninferring travel times and identification of landmarks and locality attributes.\n\u2022\nProduct Intelligence:\nOur deep learning tool, \u201cCatfi8\u201d, classifies unstructured product data into categories with detailed attributes\n- identifying goods as essential, liquid, fragile, air restricted, etc. This tool was particularly critical in\nimmediately identifying and mobilizing essential goods during COVID-19 lockdowns.\n\u2022\nCapacity Planning:\nOur applied machine learning systems predict expected transit and arrival times for shipments within the\nnetwork and adjust these in real-time in response to environmental factors, thereby enabling operators to\nidentify at-risk facilities and plan adequate capacity in advance.\n\u2022\nNetwork Design:\nWe use our \u201cNetplan\u201d product combined with our location stack to rapidly map unstructured addresses to\nappropriate delivery centres, identify optimal facility location and minimize distance travelled by shipments,\nhelping to manage costs in response to changing demand patterns.\n.\nNetplan illustration\n\u2022\nService Recovery:\nNetwork monitoring applications and services provide end-to-end visibility of service performance risks to\nour central Control Tower that can instruct operational teams to intervene timely and maintain service\nquality.\n\u2022\nDynamic Mid-mile Operations:\nWe use optimization algorithms and simulation to dynamically route inter-city consignments based on the\ncurrent state of the network to ensure service precision and vehicle utilization.\n\u2022\nPerformance Management:\nWe use machine learning to analyse operational data and develop customized KPI targets and compensation\nstructures for our teams and partners across our operations.\n\u2022\nParcel Routing:\nBased on shipment parameters, geographical and traffic factors our systems automatically generate optimal\ndispatch sequences that simplify loading and unloading process and improve productivity of our last mile\noperations.\n\n\n236\nParcel routing illustration\n\u2022\nInventory Placement:\nOur technology systems forecast goods demand and drive stocking and replenishment decisions at our\nfulfilment centers, thereby reducing transportation and inventory costs and also reducing overall fulfilment\ntimelines.\n\u2022\nSecurity:\nWe use historical behavior patterns to predict delivery risks such as non-acceptance of packages or potential\nfraud and use machine vision to identify product mismatches at our sortation centers and automate our PoD\nprocesses.\nSECURITY AND SAFETY\nThe safety and security of our employees, customers, partners, facilities, assets and data is of paramount\nimportance. We are a registered corporate full member of the Transported Asset Protection Association (\u201cTAPA\u201d),\nthe industry body for establishing security standards in logistics and supply chain.\nFacilities\nOur facility at Air Cargo Logistics Center, IGI Airport, New Delhi has received an ISO 45000 certification in\nrecognition of its health and safety management systems. Our facilities are equipped with all required safety\nequipment including physical security, security cameras, fire detection alarms and fire extinguishers. As of\nDecember 31, 2021, we have over 39,000 high resolution CCTV cameras installed across our network that are\nmonitored by a central security control room. We also deploy AI-based intrusion detection solutions. All major\ngateways are also equipped with X-ray machines to screen high value parcels and for identifying hazardous goods.\n</text>\n</passage>\n\n<passage id=\"71\">\n<context>\n[section]\nSECURITY AND SAFETY\n</context>\n<text>\nrecognition of its health and safety management systems. Our facilities are equipped with all required safety\nequipment including physical security, security cameras, fire detection alarms and fire extinguishers. As of\nDecember 31, 2021, we have over 39,000 high resolution CCTV cameras installed across our network that are\nmonitored by a central security control room. We also deploy AI-based intrusion detection solutions. All major\ngateways are also equipped with X-ray machines to screen high value parcels and for identifying hazardous goods.\nWe have teams and processes in place to handle materials so identified as per industry best practices and local\nregulations at all points in our network.\nSecurity personnel\nWe employed over 1,607 guards and over 750 security personnel as of December 31, 2021. Selected personnel are\nalso TAPA Facility Security Requirements and Trucking Security Requirements certified.\nRoad safety\nRegular safety training is imparted to our drivers including training for steps to be followed in case of any accidents.\nOur vehicles are also tracked via GPS to detect any anomalies and prevent accidents or theft. We follow a stringent\ntesting process for our drivers for consumption of any prohibited substances and undertake measures such as health\ncheckups to ensure drivers are physically fit. Vehicles used in our network are equipped with safety devices as per\napplicable regulations.\n\n\n237\nHealth and safety\nWe train employees at our facilities regularly on general safety guidelines and safe work procedures and undertake\nregular safety drills. The monthly injury rate in our network stood at 0.20 per thousand employees (on-roll as\nwell as off-roll) as of December 31, 2021. In addition, we conduct regular health camps for our workforce and\nhave ambulances available at our key centers.\nDisaster recovery and business continuity\nWe are committed to maintaining the continuity of our business, including all activities, systems, facilities and\nprocesses which are necessary to provide services to our clients and customers. Accordingly, we have set up a\ndisaster recovery and business continuity plan which sets out the details of the individuals responsible for disaster\nassessment and the procedures to be followed in the event of a disaster. In the event of a disaster that interferes\nwith our ability to conduct our business, the plan will be implemented by the individuals responsible for\ncoordinating the business recovery of their respective areas or departments to minimize the impact on the quality\nof our services. The disaster assessment team is responsible for assessing the extent of the damage and loss,\nidentifying, characterizing and quantifying the damages, defining and prioritizing the actions and resources to\nreduce immediate risks, identifying the priority of actions required and estimating the additional support required\nfor recovery. In addition, we have established various controls and safety devices to minimize the potential\nimpacts of a fire, an electricity or IT outage, disasters related to our data and applications and breakdowns of our\nsorters, and to preserve the health and safety of our workforce, including smoke detection systems, emergency\nevacuation drills with fire brigades in larger facilities, mandatory online trainings on fire and safety on a quarterly\nbasis, regular audits and checks of wiring and connections and database backups, per the established policies.\nOUR TEAM\nAs of December 31, 2021, excluding Spoton, we had 15,392 permanent employees worldwide and engaged\nmanpower agencies to provide us with a temporary workforce, which included 36,956 contracted workers\n(excluding daily wage manpower, security guards and Spoton), as of December 31, 2021. In addition, excluding\nSpoton, we had 33,836 last mile delivery agents in the month of December 2021. Spoton had 1,831 permanent\nemployees and 261 contract workers as of December 31, 2021. Our network partners hire their own employees\naccording to their operational needs. None of our employees are represented by a labour union. We maintain a\n</text>\n</passage>\n",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "extractionout",
+        "schema": {
+          "$defs": {
+            "FactOut": {
+              "properties": {
+                "claim_text": {
+                  "description": "One self-contained sentence stating the fact",
+                  "title": "Claim Text",
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "title": "Confidence",
+                  "type": "number"
+                },
+                "passage_id": {
+                  "description": "id of the passage this fact and its quote came from",
+                  "title": "Passage Id",
+                  "type": "integer"
+                },
+                "predicate": {
+                  "description": "Lower snake_case relation name",
+                  "title": "Predicate",
+                  "type": "string"
+                },
+                "qualifiers": {
+                  "items": {
+                    "$ref": "#/$defs/QualifierOut"
+                  },
+                  "title": "Qualifiers",
+                  "type": "array"
+                },
+                "quote": {
+                  "description": "Verbatim span copied from the document",
+                  "title": "Quote",
+                  "type": "string"
+                },
+                "subject_key": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Hard identifier for the subject if the document gives one",
+                  "title": "Subject Key"
+                },
+                "subject_surface": {
+                  "title": "Subject Surface",
+                  "type": "string"
+                },
+                "subject_type": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "title": "Subject Type"
+                },
+                "value": {
+                  "$ref": "#/$defs/ValueOut"
+                }
+              },
+              "required": [
+                "passage_id",
+                "claim_text",
+                "subject_surface",
+                "predicate",
+                "value",
+                "quote",
+                "confidence"
+              ],
+              "title": "FactOut",
+              "type": "object"
+            },
+            "QualifierOut": {
+              "properties": {
+                "key": {
+                  "description": "Lower snake_case condition name",
+                  "title": "Key",
+                  "type": "string"
+                },
+                "provenance": {
+                  "enum": [
+                    "stated",
+                    "inherited"
+                  ],
+                  "title": "Provenance",
+                  "type": "string"
+                },
+                "value": {
+                  "title": "Value",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "value",
+                "provenance"
+              ],
+              "title": "QualifierOut",
+              "type": "object"
+            },
+            "ValueOut": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "quantity",
+                    "text",
+                    "date",
+                    "boolean"
+                  ],
+                  "title": "Kind",
+                  "type": "string"
+                },
+                "raw": {
+                  "description": "The value exactly as written in the document",
+                  "title": "Raw",
+                  "type": "string"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Magnitude word such as million or crore, if any",
+                  "title": "Scale"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Currency code or unit of measure, as written",
+                  "title": "Unit"
+                }
+              },
+              "required": [
+                "kind",
+                "raw"
+              ],
+              "title": "ValueOut",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "facts": {
+              "items": {
+                "$ref": "#/$defs/FactOut"
+              },
+              "title": "Facts",
+              "type": "array"
+            }
+          },
+          "title": "ExtractionOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "As of December 31, 2021, the TMS supports over 45 million shipment lifecycle events per day and collects over 170 million GPS trace points per day and its distributed infrastructure supports over 350 API endpoints.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "supports_shipment_lifecycle_events_per_day",
+        "quote": "As of December 31, 2021, the TMS supports over 45 million shipment lifecycle events per day and collects over 170 million GPS trace points per day and its distributed infrastructure supports over 350 API endpoints.",
+        "subject_surface": "Transportation Management System",
+        "subject_type": "system",
+        "value": {
+          "kind": "quantity",
+          "raw": "45 million",
+          "unit": "shipment lifecycle events per day"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, the TMS collects over 170 million GPS trace points per day.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "collects_gps_trace_points_per_day",
+        "quote": "As of December 31, 2021, the TMS supports over 45 million shipment lifecycle events per day and collects over 170 million GPS trace points per day and its distributed infrastructure supports over 350 API endpoints.",
+        "subject_surface": "Transportation Management System",
+        "subject_type": "system",
+        "value": {
+          "kind": "quantity",
+          "raw": "170 million",
+          "unit": "GPS trace points per day"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, the TMS distributed infrastructure supports over 350 API endpoints.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "supports_api_endpoints",
+        "quote": "As of December 31, 2021, the TMS supports over 45 million shipment lifecycle events per day and collects over 170 million GPS trace points per day and its distributed infrastructure supports over 350 API endpoints.",
+        "subject_surface": "Transportation Management System",
+        "subject_type": "system",
+        "value": {
+          "kind": "quantity",
+          "raw": "350",
+          "unit": "API endpoints"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, our FMS enabled over 435 fleet owners and suppliers of fleet capacity, including our self-owned fleet, to register their assets (over 50,000 vehicles) with us, enter into fleet contracts, track their service metrics (quality, usage and earnings) against those contracts and manage claims and disputes.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "enabled_fleet_owners_and_suppliers_to_register_assets",
+        "quote": "For the nine months period ended December 31, 2021, our FMS enabled over 435 fleet owners and suppliers of fleet capacity, including our self-owned fleet, to register their assets (over 50,000 vehicles) with us, enter into fleet contracts, track their service metrics (quality, usage and earnings) against those contracts and manage claims and disputes.",
+        "subject_surface": "Fleet Management System",
+        "subject_type": "system",
+        "value": {
+          "kind": "quantity",
+          "raw": "435",
+          "unit": "fleet owners and suppliers of fleet capacity"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, our FMS enabled over 435 fleet owners and suppliers of fleet capacity, including our self-owned fleet, to register their assets (over 50,000 vehicles) with us, enter into fleet contracts, track their service metrics (quality, usage and earnings) against those contracts and manage claims and disputes.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "registered_assets",
+        "quote": "For the nine months period ended December 31, 2021, our FMS enabled over 435 fleet owners and suppliers of fleet capacity, including our self-owned fleet, to register their assets (over 50,000 vehicles) with us, enter into fleet contracts, track their service metrics (quality, usage and earnings) against those contracts and manage claims and disputes.",
+        "subject_surface": "Fleet Management System",
+        "subject_type": "system",
+        "value": {
+          "kind": "quantity",
+          "raw": "50,000",
+          "unit": "vehicles"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we have over 39,000 high resolution CCTV cameras installed across our network that are monitored by a central security control room.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "installed_high_resolution_cctv_cameras",
+        "quote": "As of December 31, 2021, we have over 39,000 high resolution CCTV cameras installed across our network that are monitored by a central security control room.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "39,000",
+          "unit": "high resolution CCTV cameras"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we employed over 1,607 guards and over 750 security personnel.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "employed_security_personnel",
+        "quote": "We employed over 1,607 guards and over 750 security personnel as of December 31, 2021.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,607",
+          "unit": "guards"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we employed over 1,607 guards and over 750 security personnel.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "employed_security_personnel",
+        "quote": "We employed over 1,607 guards and over 750 security personnel as of December 31, 2021.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "750",
+          "unit": "security personnel"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, the monthly injury rate in our network stood at 0.20 per thousand employees (on-roll as well as off-roll).",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "monthly_injury_rate_per_thousand_employees",
+        "quote": "The monthly injury rate in our network stood at 0.20 per thousand employees (on-roll as well as off-roll) as of December 31, 2021.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.20",
+          "unit": "per thousand employees"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, excluding Spoton, we had 15,392 permanent employees worldwide and engaged manpower agencies to provide us with a temporary workforce, which included 36,956 contracted workers (excluding daily wage manpower, security guards and Spoton), as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "had_permanent_employees",
+        "quote": "As of December 31, 2021, excluding Spoton, we had 15,392 permanent employees worldwide and engaged manpower agencies to provide us with a temporary workforce, which included 36,956 contracted workers (excluding daily wage manpower, security guards and Spoton), as of December 31, 2021.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "15,392",
+          "unit": "permanent employees"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, excluding Spoton, we had 15,392 permanent employees worldwide and engaged manpower agencies to provide us with a temporary workforce, which included 36,956 contracted workers (excluding daily wage manpower, security guards and Spoton), as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "had_contracted_workers",
+        "quote": "As of December 31, 2021, excluding Spoton, we had 15,392 permanent employees worldwide and engaged manpower agencies to provide us with a temporary workforce, which included 36,956 contracted workers (excluding daily wage manpower, security guards and Spoton), as of December 31, 2021.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "36,956",
+          "unit": "contracted workers"
+        }
+      },
+      {
+        "claim_text": "As of December 2021, excluding Spoton, we had 33,836 last mile delivery agents.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "had_last_mile_delivery_agents",
+        "quote": "In addition, excluding Spoton, we had 33,836 last mile delivery agents in the month of December 2021.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "33,836",
+          "unit": "last mile delivery agents"
+        }
+      },
+      {
+        "claim_text": "Spoton had 1,831 permanent employees and 261 contract workers as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "had_permanent_employees",
+        "quote": "Spoton had 1,831 permanent employees and 261 contract workers as of December 31, 2021.",
+        "subject_surface": "Spoton",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,831",
+          "unit": "permanent employees"
+        }
+      },
+      {
+        "claim_text": "Spoton had 1,831 permanent employees and 261 contract workers as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "had_contract_workers",
+        "quote": "Spoton had 1,831 permanent employees and 261 contract workers as of December 31, 2021.",
+        "subject_surface": "Spoton",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "261",
+          "unit": "contract workers"
+        }
+      },
+      {
+        "claim_text": "Our facility at Air Cargo Logistics Center, IGI Airport, New Delhi has received an ISO 45000 certification in recognition of its health and safety management systems.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "received_iso_45000_certification",
+        "quote": "Our facility at Air Cargo Logistics Center, IGI Airport, New Delhi has received an ISO 45000 certification in recognition of its health and safety management systems.",
+        "subject_surface": "Air Cargo Logistics Center, IGI Airport, New Delhi",
+        "subject_type": "facility",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We are a registered corporate full member of the Transported Asset Protection Association (\u201cTAPA\u201d), the industry body for establishing security standards in logistics and supply chain.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "is_registered_corporate_full_member_of_tapa",
+        "quote": "We are a registered corporate full member of the Transported Asset Protection Association (\u201cTAPA\u201d), the industry body for establishing security standards in logistics and supply chain.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Our location stack is based on our address resolution engine, \u201cAddfix\u201d and geocoding engines.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "location_stack_based_on_address_resolution_engine",
+        "quote": "Our location stack is based on our address resolution engine, \u201cAddfix\u201d and geocoding engines.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Addfix"
+        }
+      },
+      {
+        "claim_text": "Our location stack is based on our address resolution engine, \u201cAddfix\u201d and geocoding engines.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "location_stack_based_on_geocoding_engines",
+        "quote": "Our location stack is based on our address resolution engine, \u201cAddfix\u201d and geocoding engines.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "geocoding engines"
+        }
+      },
+      {
+        "claim_text": "Our deep learning tool, \u201cCatfi8\u201d, classifies unstructured product data into categories with detailed attributes - identifying goods as essential, liquid, fragile, air restricted, etc.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "deep_learning_tool_classifies_product_data",
+        "quote": "Our deep learning tool, \u201cCatfi8\u201d, classifies unstructured product data into categories with detailed attributes - identifying goods as essential, liquid, fragile, air restricted, etc.",
+        "subject_surface": "Catfi8",
+        "subject_type": "tool",
+        "value": {
+          "kind": "text",
+          "raw": "Catfi8"
+        }
+      },
+      {
+        "claim_text": "Our applied machine learning systems predict expected transit and arrival times for shipments within the network and adjust these in real-time in response to environmental factors, thereby enabling operators to identify at-risk facilities and plan adequate capacity in advance.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "predicts_expected_transit_and_arrival_times",
+        "quote": "Our applied machine learning systems predict expected transit and arrival times for shipments within the network and adjust these in real-time in response to environmental factors, thereby enabling operators to identify at-risk facilities and plan adequate capacity in advance.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We use our \u201cNetplan\u201d product combined with our location stack to rapidly map unstructured addresses to appropriate delivery centres, identify optimal facility location and minimize distance travelled by shipments, helping to manage costs in response to changing demand patterns.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "uses_netplan_product",
+        "quote": "We use our \u201cNetplan\u201d product combined with our location stack to rapidly map unstructured addresses to appropriate delivery centres, identify optimal facility location and minimize distance travelled by shipments, helping to manage costs in response to changing demand patterns.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Netplan"
+        }
+      },
+      {
+        "claim_text": "Network monitoring applications and services provide end-to-end visibility of service performance risks to our central Control Tower that can instruct operational teams to intervene timely and maintain service quality.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "provides_end_to_end_visibility_of_service_performance_risks",
+        "quote": "Network monitoring applications and services provide end-to-end visibility of service performance risks to our central Control Tower that can instruct operational teams to intervene timely and maintain service quality.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We use optimization algorithms and simulation to dynamically route inter-city consignments based on the current state of the network to ensure service precision and vehicle utilization.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "uses_optimization_algorithms_and_simulation",
+        "quote": "We use optimization algorithms and simulation to dynamically route inter-city consignments based on the current state of the network to ensure service precision and vehicle utilization.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We use machine learning to analyse operational data and develop customized KPI targets and compensation structures for our teams and partners across our operations.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "uses_machine_learning_to_analyse_operational_data",
+        "quote": "We use machine learning to analyse operational data and develop customized KPI targets and compensation structures for our teams and partners across our operations.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Based on shipment parameters, geographical and traffic factors our systems automatically generate optimal dispatch sequences that simplify loading and unloading process and improve productivity of our last mile operations.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "generates_optimal_dispatch_sequences",
+        "quote": "Based on shipment parameters, geographical and traffic factors our systems automatically generate optimal dispatch sequences that simplify loading and unloading process and improve productivity of our last mile operations.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Our technology systems forecast goods demand and drive stocking and replenishment decisions at our fulfilment centers, thereby reducing transportation and inventory costs and also reducing overall fulfilment timelines.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "forecasts_goods_demand",
+        "quote": "Our technology systems forecast goods demand and drive stocking and replenishment decisions at our fulfilment centers, thereby reducing transportation and inventory costs and also reducing overall fulfilment timelines.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We use historical behavior patterns to predict delivery risks such as non-acceptance of packages or potential fraud and use machine vision to identify product mismatches at our sortation centers and automate our PoD processes.",
+        "confidence": 1.0,
+        "passage_id": 70,
+        "predicate": "uses_historical_behavior_patterns_to_predict_delivery_risks",
+        "quote": "We use historical behavior patterns to predict delivery risks such as non-acceptance of packages or potential fraud and use machine vision to identify product mismatches at our sortation centers and automate our PoD processes.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We have teams and processes in place to handle materials so identified as per industry best practices and local regulations at all points in our network.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "has_teams_and_processes_to_handle_identified_materials",
+        "quote": "We have teams and processes in place to handle materials so identified as per industry best practices and local regulations at all points in our network.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Regular safety training is imparted to our drivers including training for steps to be followed in case of any accidents.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "imparts_regular_safety_training_to_drivers",
+        "quote": "Regular safety training is imparted to our drivers including training for steps to be followed in case of any accidents.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Our vehicles are also tracked via GPS to detect any anomalies and prevent accidents or theft.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "tracks_vehicles_via_gps",
+        "quote": "Our vehicles are also tracked via GPS to detect any anomalies and prevent accidents or theft.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We follow a stringent testing process for our drivers for consumption of any prohibited substances and undertake measures such as health checkups to ensure drivers are physically fit.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "follows_strict_testing_process_for_drivers",
+        "quote": "We follow a stringent testing process for our drivers for consumption of any prohibited substances and undertake measures such as health checkups to ensure drivers are physically fit.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Vehicles used in our network are equipped with safety devices as per applicable regulations.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "equipped_vehicles_with_safety_devices",
+        "quote": "Vehicles used in our network are equipped with safety devices as per applicable regulations.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We train employees at our facilities regularly on general safety guidelines and safe work procedures and undertake regular safety drills.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "trains_employees_on_general_safety_guidelines",
+        "quote": "We train employees at our facilities regularly on general safety guidelines and safe work procedures and undertake regular safety drills.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We conduct regular health camps for our workforce and have ambulances available at our key centers.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "conducts_regular_health_camps",
+        "quote": "We conduct regular health camps for our workforce and have ambulances available at our key centers.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We are committed to maintaining the continuity of our business, including all activities, systems, facilities and processes which are necessary to provide services to our clients and customers.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "committed_to_maintaining_business_continuity",
+        "quote": "We are committed to maintaining the continuity of our business, including all activities, systems, facilities and processes which are necessary to provide services to our clients and customers.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We have set up a disaster recovery and business continuity plan which sets out the details of the individuals responsible for disaster assessment and the procedures to be followed in the event of a disaster.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "has_disaster_recovery_and_business_continuity_plan",
+        "quote": "We have set up a disaster recovery and business continuity plan which sets out the details of the individuals responsible for disaster assessment and the procedures to be followed in the event of a disaster.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "The disaster assessment team is responsible for assessing the extent of the damage and loss, identifying, characterizing and quantifying the damages, defining and prioritizing the actions and resources to reduce immediate risks, identifying the priority of actions required and estimating the additional support required for recovery.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "disaster_assessment_team_responsible_for_assessing_damage_and_loss",
+        "quote": "The disaster assessment team is responsible for assessing the extent of the damage and loss, identifying, characterizing and quantifying the damages, defining and prioritizing the actions and resources to reduce immediate risks, identifying the priority of actions required and estimating the additional support required for recovery.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We have established various controls and safety devices to minimize the potential impacts of a fire, an electricity or IT outage, disasters related to our data and applications and breakdowns of our sorters, and to preserve the health and safety of our workforce, including smoke detection systems, emergency evacuation drills with fire brigades in larger facilities, mandatory online trainings on fire and safety on a quarterly basis, regular audits and checks of wiring and connections and database backups, per the established policies.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "has_controls_and_safety_devices",
+        "quote": "We have established various controls and safety devices to minimize the potential impacts of a fire, an electricity or IT outage, disasters related to our data and applications and breakdowns of our sorters, and to preserve the health and safety of our workforce, including smoke detection systems, emergency evacuation drills with fire brigades in larger facilities, mandatory online trainings on fire and safety on a quarterly basis, regular audits and checks of wiring and connections and database backups, per the established policies.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We launched our Delhivery Direct service in June 2021 to provide door-to-door domestic shipping services to individual consumers from the comfort of their homes.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "launched_delhivery_direct_service",
+        "quote": "We launched our Delhivery Direct service in June 2021 to provide door-to-door domestic shipping services to individual consumers from the comfort of their homes.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "June 2021"
+        }
+      },
+      {
+        "claim_text": "Consumers can check shipping rates, book and track consignments through the Direct web-portal (https://direct.delhivery.com/).",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "provides_web_portal_for_consignment_tracking",
+        "quote": "Consumers can check shipping rates, book and track consignments through the Direct web-portal (https://direct.delhivery.com/).",
+        "subject_surface": "Delhivery Direct",
+        "subject_type": "service",
+        "value": {
+          "kind": "text",
+          "raw": "https://direct.delhivery.com/"
+        }
+      },
+      {
+        "claim_text": "We are in the process of developing a mobile application for consumers to register and track all of their current and historic orders and customize the delivery process by providing delivery slot preferences, geo-location and address preferences and specific delivery instructions.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "developing_mobile_application_for_consumers",
+        "quote": "We are in the process of developing a mobile application for consumers to register and track all of their current and historic orders and customize the delivery process by providing delivery slot preferences, geo-location and address preferences and specific delivery instructions.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "\u201cOrion\u201d, our truckload freight brokerage platform, matches demand from shippers with suppliers of truckload capacity in real-time.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "orion_matches_demand_with_supply",
+        "quote": "\u201cOrion\u201d, our truckload freight brokerage platform, matches demand from shippers with suppliers of truckload capacity in real-time.",
+        "subject_surface": "Orion",
+        "subject_type": "platform",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "There are 3 components to the Orion system: (1) the freight matching engine that matches demand and supply based on price and service quality, via a reverse-bidding process through our \u201cAxle\u201d application, while also functioning as a financial and operational ledger for our partners; (2) operational modules that track execution of contracted truckloads, including matching, real-time tracking, delivery and proof of delivery; and (3) the transaction management system that is deeply integrated with the operational modules and manages financial aspects of all transactions.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "has_three_components",
+        "quote": "There are 3 components to the Orion system: (1) the freight matching engine that matches demand and supply based on price and service quality, via a reverse-bidding process through our \u201cAxle\u201d application, while also functioning as a financial and operational ledger for our partners; (2) operational modules that track execution of contracted truckloads, including matching, real-time tracking, delivery and proof of delivery; and (3) the transaction management system that is deeply integrated with the operational modules and manages financial aspects of all transactions.",
+        "subject_surface": "Orion",
+        "subject_type": "platform",
+        "value": {
+          "kind": "quantity",
+          "raw": "3",
+          "unit": "components"
+        }
+      },
+      {
+        "claim_text": "Our \u201cAxle\u201d and \u201cRoadpiper\u201d mobile applications provide real-time order visibility to truckload partners, allow them to bid and win contracts and also manage their financial transactions related to the platform.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "provides_real_time_order_visibility",
+        "quote": "Our \u201cAxle\u201d and \u201cRoadpiper\u201d mobile applications provide real-time order visibility to truckload partners, allow them to bid and win contracts and also manage their financial transactions related to the platform.",
+        "subject_surface": "Axle and Roadpiper",
+        "subject_type": "applications",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "These applications also assist partners to improve their win rates through support features like price guidance and advance sharing of truck availability.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "assists_partners_to_improve_win_rates",
+        "quote": "These applications also assist partners to improve their win rates through support features like price guidance and advance sharing of truck availability.",
+        "subject_surface": "Axle and Roadpiper",
+        "subject_type": "applications",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We provide customers with web-based customer portals to register, self-onboard and manage their fulfilment and shipping accounts with us.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "provides_web_based_customer_portals",
+        "quote": "We provide customers with web-based customer portals to register, self-onboard and manage their fulfilment and shipping accounts with us.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Customers perform all key tasks such as order creation, pickup slot booking, order tracking, escalation management, billing, cash remittance and claims management through these portals.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "customers_perform_key_tasks_through_portals",
+        "quote": "Customers perform all key tasks such as order creation, pickup slot booking, order tracking, escalation management, billing, cash remittance and claims management through these portals.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "These customer portals are being consolidated into a single Unified Customer Portal (\u201cUCP\u201d) using which customers will be able to access all of our services and manage their accounts through a single interface.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "consolidating_customer_portals_into_unified_customer_portal",
+        "quote": "These customer portals are being consolidated into a single Unified Customer Portal (\u201cUCP\u201d) using which customers will be able to access all of our services and manage their accounts through a single interface.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "UCP will also offer value-added services like online channel integration, data products like returns prediction and fraud detection and service products like customized shipping notifications.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "offers_value_added_services",
+        "quote": "UCP will also offer value-added services like online channel integration, data products like returns prediction and fraud detection and service products like customized shipping notifications.",
+        "subject_surface": "Unified Customer Portal",
+        "subject_type": "portal",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "\u201cTelescope\u201d, our supply chain visibility product for enterprises, provides a configurable, end-to-end view of our customers\u2019 entire supply chain.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "telescope_provides_end_to_end_view",
+        "quote": "\u201cTelescope\u201d, our supply chain visibility product for enterprises, provides a configurable, end-to-end view of our customers\u2019 entire supply chain.",
+        "subject_surface": "Telescope",
+        "subject_type": "product",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "This is accomplished through integration between customer ERPs and our WMS and TMS systems, coupled with our proprietary supply chain analytics engine.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "accomplished_through_integration",
+        "quote": "This is accomplished through integration between customer ERPs and our WMS and TMS systems, coupled with our proprietary supply chain analytics engine.",
+        "subject_surface": "Telescope",
+        "subject_type": "product",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "This enables customers to take real-time data-driven decisions regarding inventory placement, order aggregation, optimal order to inventory allocation (while meeting constraints of cost and time) and optimal selection of transportation modes and partners.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "enables_real_time_data_driven_decisions",
+        "quote": "This enables customers to take real-time data-driven decisions regarding inventory placement, order aggregation, optimal order to inventory allocation (while meeting constraints of cost and time) and optimal selection of transportation modes and partners.",
+        "subject_surface": "Telescope",
+        "subject_type": "product",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Through Primaseller, we are able to provide multi-channel integrations (online as well as offline), order management and inventory virtualization capabilities that are prominently used by D2C and omni-channel retailers.",
+        "confidence": 1.0,
+        "passage_id": 69,
+        "predicate": "provides_multi_channel_integrations",
+        "quote": "Through Primaseller, we are able to provide multi-channel integrations (online as well as offline), order management and inventory virtualization capabilities that are prominently used by D2C and omni-channel retailers.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "\u201cGodam\u201d, our proprietary WMS, manages order fulfilment operations across multiple online and offline channels and selects and orchestrates transportation services for these orders (truckload, PTL, intra-city distribution, express parcel, heavy goods delivery, etc).",
+        "confidence": 1.0,
+        "passage_id": 66,
+        "predicate": "godam_manages_order_fulfilment_operations",
+        "quote": "\u201cGodam\u201d, our proprietary WMS, manages order fulfilment operations across multiple online and offline channels and selects and orchestrates transportation services for these orders (truckload, PTL, intra-city distribution, express parcel, heavy goods delivery, etc).",
+        "subject_surface": "Godam",
+        "subject_type": "system",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Our WMS is integrated with major Indian and international marketplaces through Primaseller, and with Delhivery transportation services and multiple external logistics providers, enabling us to provide our customers with the highest quality and lowest cost services at all times.",
+        "confidence": 1.0,
+        "passage_id": 66,
+        "predicate": "integrated_with_major_marketplaces",
+        "quote": "Our WMS is integrated with major Indian and international marketplaces through Primaseller, and with Delhivery transportation services and multiple external logistics providers, enabling us to provide our customers with the highest quality and lowest cost services at all times.",
+        "subject_surface": "Godam",
+        "subject_type": "system",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "In addition, Godam is designed as a multi-location, multi-tenant 3PL WMS, enabling global inventory visibility and control and real-time optimization of inventory placement, order allocation and order aggregation for our customers.",
+        "confidence": 1.0,
+        "passage_id": 67,
+        "predicate": "designed_as_multi_location_multi_tenant_3pl_wms",
+        "quote": "In addition, Godam is designed as a multi-location, multi-tenant 3PL WMS, enabling global inventory visibility and control and real-time optimization of inventory placement, order allocation and order aggregation for our customers.",
+        "subject_surface": "Godam",
+        "subject_type": "system",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We believe that the common standards and guidelines enabled by our OS drive efficiency within the Delhivery network and can also reduce high inefficiency costs across traditional siloed supply chain and logistics systems globally.",
+        "confidence": 1.0,
+        "passage_id": 64,
+        "predicate": "believe_common_standards_reduce_inefficiency_costs",
+        "quote": "We believe that the common standards and guidelines enabled by our OS drive efficiency within the Delhivery network and can also reduce high inefficiency costs across traditional siloed supply chain and logistics systems globally.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We intend to externalize our logistics operating system as a platform and as a SaaS offering by enabling other players to build their own web or mobile based applications on top of our logistics operating system.",
+        "confidence": 1.0,
+        "passage_id": 64,
+        "predicate": "intends_to_externalize_logistics_operating_system",
+        "quote": "We intend to externalize our logistics operating system as a platform and as a SaaS offering by enabling other players to build their own web or mobile based applications on top of our logistics operating system.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Such players may comprise other logistics service providers, logistics technology companies, enterprises, developer partners and our customers, in India and globally.",
+        "confidence": 1.0,
+        "passage_id": 64,
+        "predicate": "such_players_comprise",
+        "quote": "Such players may comprise other logistics service providers, logistics technology companies, enterprises, developer partners and our customers, in India and globally.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "other logistics service providers, logistics technology companies, enterprises, developer partners and our customers"
+        }
+      },
+      {
+        "claim_text": "The application market place is currently under development.",
+        "confidence": 1.0,
+        "passage_id": 64,
+        "predicate": "application_marketplace_under_development",
+        "quote": "The application market place is currently under development.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Our ability to collect, structure and analyse transaction data generated in our core logistics can also enable us to assess the financial profile of various parties in the supply chain, such as customers, vendors and network partners.",
+        "confidence": 1.0,
+        "passage_id": 64,
+        "predicate": "ability_to_assess_financial_profile",
+        "quote": "Our ability to collect, structure and analyse transaction data generated in our core logistics can also enable us to assess the financial profile of various parties in the supply chain, such as customers, vendors and network partners.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "By leveraging our data analytics capabilities, we plan to offer financial services such as working capital financing, insurance and personal loans in the future, either on our own or in association with partners.",
+        "confidence": 1.0,
+        "passage_id": 64,
+        "predicate": "plans_to_offer_financial_services",
+        "quote": "By leveraging our data analytics capabilities, we plan to offer financial services such as working capital financing, insurance and personal loans in the future, either on our own or in association with partners.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "working capital financing, insurance and personal loans"
+        }
+      },
+      {
+        "claim_text": "We will continue to develop large, new growth adjacencies that enhance our interlocking flywheel strategy, leveraging on our operational scale, rapid growth, large ecosystem of engaged partners, network design, sophisticated technology systems and access to vast amounts of data.",
+        "confidence": 1.0,
+        "passage_id": 64,
+        "predicate": "continues_to_develop_growth_adjacencies",
+        "quote": "We will continue to develop large, new growth adjacencies that enhance our interlocking flywheel strategy, leveraging on our operational scale, rapid growth, large ecosystem of engaged partners, network design, sophisticated technology systems and access to vast amounts of data.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "Similarly, we have the ability to combine our fulfilment, logistics and payments processing expertise to simplify distribution for our customers in the FMCG and retail verticals.",
+        "confidence": 1.0,
+        "passage_id": 64,
+        "predicate": "ability_to_combine_fulfilment_logistics_and_payments_processing",
+        "quote": "Similarly, we have the ability to combine our fulfilment, logistics and payments processing expertise to simplify distribution for our customers in the FMCG and retail verticals.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "In Fiscal 2021, we successfully introduced part of our fulfilment and transportation technology stack in Bangladesh and Sri Lanka, in collaboration with local partners.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "introduced_technology_stack_in_bangladesh_and_sri_lanka",
+        "quote": "In Fiscal 2021, we successfully introduced part of our fulfilment and transportation technology stack in Bangladesh and Sri Lanka, in collaboration with local partners.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Fiscal 2021"
+        }
+      },
+      {
+        "claim_text": "We will continue to expand our presence in other such international markets selectively and through capital-efficient, partnership-driven models.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "will_continue_to_expand_presence",
+        "quote": "We will continue to expand our presence in other such international markets selectively and through capital-efficient, partnership-driven models.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We will seek strategic alliances with global and domestic leaders in various segments of the logistics industry that bring synergies to our business.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "will_seek_strategic_alliances",
+        "quote": "We will seek strategic alliances with global and domestic leaders in various segments of the logistics industry that bring synergies to our business.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      },
+      {
+        "claim_text": "We will also continue to look for high-quality acquisition and investment opportunities within and outside India that are complementary to our business or that enable us to build new, valuable capabilities for our customers, strengthen or establish our presence in our target markets in India and globally, enable us to gain access to software and hardware technology, expand our customer base or gain excess to a skilled team.",
+        "confidence": 1.0,
+        "passage_id": 65,
+        "predicate": "will_look_for_acquisition_and_investment_opportunities",
+        "quote": "We will also continue to look for high-quality acquisition and investment opportunities within and outside India that are complementary to our business or that enable us to build new, valuable capabilities for our customers, strengthen or establish our presence in our target markets in India and globally, enable us to gain access to software and hardware technology, expand our customer base or gain excess to a skilled team.",
+        "subject_surface": "Delhivery",
+        "subject_type": "organization",
+        "value": {
+          "kind": "boolean",
+          "raw": "true"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "key": "c2ccb743d4280aa6c463ec5f2da520b408e16988636c40f1c823a7aae0b3388d",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"16\">\n<context>\n[page header]\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\nQ1 FY23\nQ2 FY23\nQ3 FY23\nQ4 FY23\nQ1 FY24\nQ2 FY24\nQ3 FY24\nQ4 FY24\n\n[section]\nAdjusted EBITDA\n</context>\n<text>\nAdjusted EBITDA\n\u20b9 Cr\nQ1 FY23\nQ2 FY23\nQ3 FY23\nQ4 FY23\nQ1 FY24\nQ2 FY24\nQ3 FY24\nQ4 FY24\nFY23\nFY24\nRevenue from customers(1)\n1,746\n1,796\n1,824\n1,860\n1,930\n1,942\n2,194\n2,076\n7,225\n8,142\nService EBITDA\n(6)\n86\n139\n205\n196\n201\n306\n238\n422\n941\nService EBITDA margin\n(0.3%)\n4.8%\n7.6%\n11.0%\n10.2%\n10.4%\n14.0%\n11.5%\n5.8%\n11.6%\nLess: Corporate overheads\n211\n210\n206\n200\n221\n214\n214\n217\n826\n866\nCorp. overheads (% of\nrevenue)\n12.1%\n11.7%\n11.3%\n10.7%\n11.4%\n11.0%\n9.7%\n10.5%\n11.4%\n10.6%\nAdjusted EBITDA\n(217)\n(125)\n(67)\n6\n(25)\n(13)\n92\n21\n(404)\n76\nAdjusted EBITDA margin\n(12.5%)\n(7.0%)\n(3.7%)\n0.3%\n(1.3%)\n(0.6%)\n4.2%\n1.0%\n(5.6%)\n0.9%\nService EBITDA refers\nto EBITDA generated\nafter accounting for\ndirect variable and\nfixed costs of\noperations, excluding\ncorporate overheads\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n(1)\nIncludes revenue from services and traded goods\n13\n\n\nService line-wise profitability\n\u20b9 Cr\nQ1 FY23\nQ2 FY23\nQ3 FY23\nQ4 FY23\nQ1 FY24\nQ2 FY24\nQ3 FY24\nQ4 FY24\nFY23\nFY24\nTotal Service EBITDA\n(6)\n86\n139\n205\n196\n201\n306\n238\n422\n941\n% margin\n(0.3%)\n4.8%\n7.6%\n11.0%\n10.2%\n10.4%\n14.0%\n11.5%\n5.8%\n11.6%\nExpress Parcel\n94\n134\n190\n219\n217\n203\n299\n214\n636\n934\n% margin\n8.9%\n11.9%\n15.9%\n18.6%\n18.1%\n16.8%\n20.6%\n17.6%\n14.0%\n18.4%\nPart Truckload\n(111)\n(52)\n(48)\n(26)\n(30)\n(18)\n(7)\n9\n(237)\n(46)\n% margin\n(42.8%)\n(17.9%)\n(17.3%)\n(8.0%)\n(8.5%)\n(4.9%)\n(1.8%)\n2.2%\n(20.5%)\n(3.0%)\nSupply Chain Services\n13\n7\n(5)\n10\n12\n14\n13\n14\n25\n53\n% margin\n5.5%\n3.7%\n(2.8%)\n5.4%\n5.9%\n8.5%\n7.3%\n6.0%\n3.2%\n6.8%\nOthers\n(3)\n(2)\n1\n2\n(4)\n3\n1\n0\n(1)\n1\nCorporate overheads\n211\n210\n206\n200\n221\n214\n214\n217\n826\n866\nWages\n117\n114\n112\n107\n119\n117\n115\n111\n450\n462\nMarketing\n11\n6\n3\n3\n5\n10\n10\n10\n22\n35\nTechnology\n44\n44\n43\n39\n43\n44\n45\n44\n170\n176\nG&A\n40\n46\n48\n50\n53\n43\n43\n52\n185\n192\nAdjusted EBITDA\n(217)\n(125)\n(67)\n6\n(25)\n(13)\n92\n21\n(404)\n76\n% margin\n(12.5%)\n(7.0%)\n(3.7%)\n0.3%\n(1.3%)\n(0.6%)\n4.2%\n1.0%\n(5.6%)\n0.9%\n14\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n\nWorking capital position improving YoY\n</text>\n</passage>\n\n<passage id=\"17\">\n<context>\n[page header]\nQ1 FY23\nQ2 FY23\nQ3 FY23\nQ4 FY23\nQ1 FY24\nQ2 FY24\nQ3 FY24\nQ4 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nService line-wise profitability\n</context>\n<text>\n(4)\n3\n1\n0\n(1)\n1\nCorporate overheads\n211\n210\n206\n200\n221\n214\n214\n217\n826\n866\nWages\n117\n114\n112\n107\n119\n117\n115\n111\n450\n462\nMarketing\n11\n6\n3\n3\n5\n10\n10\n10\n22\n35\nTechnology\n44\n44\n43\n39\n43\n44\n45\n44\n170\n176\nG&A\n40\n46\n48\n50\n53\n43\n43\n52\n185\n192\nAdjusted EBITDA\n(217)\n(125)\n(67)\n6\n(25)\n(13)\n92\n21\n(404)\n76\n% margin\n(12.5%)\n(7.0%)\n(3.7%)\n0.3%\n(1.3%)\n(0.6%)\n4.2%\n1.0%\n(5.6%)\n0.9%\n14\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n\nWorking capital position improving YoY\nNet Working Capital Days (Receivable days \u2013 Payable days)\n73\n47\n37\nNet Working Capital\n(Days)\n106\n87\n74\n77\n66\n33\n40\n37\n39\n35\nMar '20\nMar '21\nMar '22\nMar '23\nMar '24\nReceivable days\nPayable days\nReceivable days = (Trade receivables + Unbilled receivables) * 365 /  Annualized revenue from operations basis the last quarter of the period\nPayable days = Trade payables * 365 /  Annualized revenue from operations basis the last quarter of the period\n15\n38\n31\n\n\nQuarterly and full year financial performance\n</text>\n</passage>\n\n<passage id=\"18\">\n<context>\n[page header]\nQ4 FY23\nQ3 FY24\nQ4 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nWorking capital position improving YoY\n</context>\n<text>\nNet Working Capital Days (Receivable days \u2013 Payable days)\n73\n47\n37\nNet Working Capital\n(Days)\n106\n87\n74\n77\n66\n33\n40\n37\n39\n35\nMar '20\nMar '21\nMar '22\nMar '23\nMar '24\nReceivable days\nPayable days\nReceivable days = (Trade receivables + Unbilled receivables) * 365 /  Annualized revenue from operations basis the last quarter of the period\nPayable days = Trade payables * 365 /  Annualized revenue from operations basis the last quarter of the period\n15\n38\n31\n\n\nQuarterly and full year financial performance\n\u20b9 Cr\nQ4 FY23\nQ3 FY24\nQ4 FY24\nQoQ%\nYoY%\nFY23\nFY24\nYoY%\nIncome\nRevenue for services (A)\n1,860\n2,194\n2,076\n(5.4%)\n11.6%\n7,224\n8,142\n12.7%\nRevenue from traded goods (B)\n0\n-\n-\n-\n-\n2\n-\n-\nRevenue from customers (A+B)\n1,860\n2,194\n2,076\n(5.4%)\n11.6%\n7,225\n8,142\n12.7%\nOther income\n75\n131\n119\n(8.8%)\n60.0%\n305\n453\n48.4%\nTotal income\n1,934\n2,325\n2,195\n(5.6%)\n13.5%\n7,530\n8,594\n14.1%\nExpense\nTotal freight, handling and servicing cost\n1,372\n1,572\n1,519\n(3.4%)\n10.7%\n5,669\n5,971\n5.3%\nEmployee benefit expense\nEmployee benefit expense excl. share based payments\n284\n306\n308\n0.8%\n8.4%\n1,111\n1,211\n9.0%\nEmployee benefit expense: share based payments\n73\n54\n49\n(8.9%)\n(32.8%)\n289\n226\n(21.8%)\nOther operating expense\n117\n154\n154\n0.0%\n31.0%\n606\n607\n0.3%\nFinance costs\n19\n22\n27\n22.3%\n43.4%\n89\n89\n(0.3%)\nDepreciation and amortisation expense\n242\n183\n200\n9.7%\n(17.3%)\n831\n722\n(13.2%)\nTotal expenses\n2,108\n2,290\n2,257\n(1.4%)\n7.1%\n8,597\n8,825\n2.7%\nShare of profit / (loss) of associates (net)\n1\n(4)\n6\n14\n9\n(35.9%)\nProfit / (Loss) before exceptional items and tax\n(173)\n31\n(56)\n(1,053)\n(222)\nExceptional items\n-\n(8)\n(15)\n-\n(22)\nTax expense\n(14)\n12\n(2)\n(45)\n5\nProfit / (Loss) after tax\n(159)\n12\n(69)\n(1,008)\n(249)\nEBITDA\n13\n109\n46\n(58.0%)\n242.5%\n(452)\n127\nEBITDA margin\n0.7%\n5.0%\n2.2%\n(277 Bps)\n149 Bps\n(6.3%)\n1.6%\n781 Bps\n16\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n\nAppendix\n</text>\n</passage>\n\n<passage id=\"19\">\n<context>\n[page header]\nQ4 FY23\nQ3 FY24\nQ4 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nQuarterly and full year financial performance\n</context>\n<text>\n(1.4%)\n7.1%\n8,597\n8,825\n2.7%\nShare of profit / (loss) of associates (net)\n1\n(4)\n6\n14\n9\n(35.9%)\nProfit / (Loss) before exceptional items and tax\n(173)\n31\n(56)\n(1,053)\n(222)\nExceptional items\n-\n(8)\n(15)\n-\n(22)\nTax expense\n(14)\n12\n(2)\n(45)\n5\nProfit / (Loss) after tax\n(159)\n12\n(69)\n(1,008)\n(249)\nEBITDA\n13\n109\n46\n(58.0%)\n242.5%\n(452)\n127\nEBITDA margin\n0.7%\n5.0%\n2.2%\n(277 Bps)\n149 Bps\n(6.3%)\n1.6%\n781 Bps\n16\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n\nAppendix\n17\n\n\nBalance sheet\n</text>\n</passage>\n\n<passage id=\"20\">\n<context>\n[page header]\nQ4 FY23\nQ3 FY24\nQ4 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nQuarterly and full year financial performance\n</context>\n<text>\n8,825\n2.7%\nShare of profit / (loss) of associates (net)\n1\n(4)\n6\n14\n9\n(35.9%)\nProfit / (Loss) before exceptional items and tax\n(173)\n31\n(56)\n(1,053)\n(222)\nExceptional items\n-\n(8)\n(15)\n-\n(22)\nTax expense\n(14)\n12\n(2)\n(45)\n5\nProfit / (Loss) after tax\n(159)\n12\n(69)\n(1,008)\n(249)\nEBITDA\n13\n109\n46\n(58.0%)\n242.5%\n(452)\n127\nEBITDA margin\n0.7%\n5.0%\n2.2%\n(277 Bps)\n149 Bps\n(6.3%)\n1.6%\n781 Bps\n16\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n\nAppendix\n17\n\n\nBalance sheet\n</text>\n</passage>\n\n<passage id=\"21\">\n<context>\n[page header]\nQ4 FY23\nQ3 FY24\nQ4 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nQuarterly and full year financial performance\n</context>\n<text>\n2.7%\nShare of profit / (loss) of associates (net)\n1\n(4)\n6\n14\n9\n(35.9%)\nProfit / (Loss) before exceptional items and tax\n(173)\n31\n(56)\n(1,053)\n(222)\nExceptional items\n-\n(8)\n(15)\n-\n(22)\nTax expense\n(14)\n12\n(2)\n(45)\n5\nProfit / (Loss) after tax\n(159)\n12\n(69)\n(1,008)\n(249)\nEBITDA\n13\n109\n46\n(58.0%)\n242.5%\n(452)\n127\nEBITDA margin\n0.7%\n5.0%\n2.2%\n(277 Bps)\n149 Bps\n(6.3%)\n1.6%\n781 Bps\n16\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n\nAppendix\n17\n\n\nBalance sheet\n</text>\n</passage>\n\n<passage id=\"22\">\n<context>\n[section]\nAppendix > Balance sheet\n</context>\n<text>\nBalance sheet\n(1) Includes non-current investments, non-current margin money deposits, non-current deposits with original maturity of >12 months\n(2) Including intangible assets under development\n(3) Investments in Falcon Autotech, Vinculum and Boxseat Ventures\n(4) Includes security deposits and other non-current assets\n(5) Includes cash and other bank balances, current investments, current margin money deposits and current deposits with original maturity of >12 months; excludes \u20b992 Cr of accrued interest in Mar \u201823 and \u20b9145 Cr of accrued interest In\nMar \u201824 on deposits and investments\n(6) Unbilled receivables amounting to \u20b9581 crores, pertaining to Mar \u201823 reclassified as trade receivables due to a change in accounting\nEquity and Liabilities (\u20b9 Cr)\nMar\u2019 23\nMar \u201924\nTotal equity\n9,177\n9,145\nNon \u2013 current liabilities\nBorrowings\n114\n40\nLease liabilities\n534\n844\nProvisions\n51\n65\nDeferred tax liabilities (net)\n31\n13\nCurrent liabilities\nBorrowings\n84\n85\nLease liabilities\n190\n200\nProvisions\n27\n39\nTrade payables\n787\n797\nOther current liabilities\n216\n225\nTotal liabilities\n2,036\n2,308\nTotal equity and liabilities\n11,213\n11,453\nAssets (\u20b9 Cr)\nMar \u201923\nMar \u201924\nNon \u2013 current assets\nNon \u2013 current cash equivalents(1)\n596\n1,411\nProperty, plant and equipment (Incl CWIP)\n817\n961\nGoodwill and other intangible assets(2)\n1,533\n1,433\nRight of use assets\n667\n988\nInvestments(3)\n282\n351\nNon - current tax assets\n216\n259\nOther assets(4)\n138\n100\nCurrent assets\nCash & cash equivalents(5)\n4,912\n4,033\nTrade receivables\n1,524\n1,430\nUnbilled receivables(6)\n53\n62\nInventories\n19\n16\nOther assets\n455\n409\nTotal assets\n11,213\n11,453\n18\nTotal cash balance: \u20b9 5,444 Cr\n\n\nStrong liquidity position\nDebt to Equity\n\u20b9 Cr\nMar \u201923\nMar \u201924\nTerm loan\n199\n126\nWorking capital loan\n-\n-\nDebt (excludes CCPS) (A)\n199\n126\nCash and cash equivalents(1) (B)\n5,508\n5,444\nNet debt (A-B)\n(5,309)\n(5,318)\nNetworth (C)\n9,177\n9,145\nDebt/Equity (A/C)\n0.02x\n0.01x\n(1)\nIncludes investments, other bank balances, margin money deposits and deposits with original maturity for >12 months; excludes \u20b9145 Cr of accrued interest In Mar \u201824\n19\n\n\nCash flow summary\n</text>\n</passage>\n\n<passage id=\"23\">\n<context>\n[section]\nAppendix > Balance sheet\n</context>\n<text>\n11,453\n18\nTotal cash balance: \u20b9 5,444 Cr\n\n\nStrong liquidity position\nDebt to Equity\n\u20b9 Cr\nMar \u201923\nMar \u201924\nTerm loan\n199\n126\nWorking capital loan\n-\n-\nDebt (excludes CCPS) (A)\n199\n126\nCash and cash equivalents(1) (B)\n5,508\n5,444\nNet debt (A-B)\n(5,309)\n(5,318)\nNetworth (C)\n9,177\n9,145\nDebt/Equity (A/C)\n0.02x\n0.01x\n(1)\nIncludes investments, other bank balances, margin money deposits and deposits with original maturity for >12 months; excludes \u20b9145 Cr of accrued interest In Mar \u201824\n19\n\n\nCash flow summary\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.6-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Revenue from customers in FY24 was \u20b98,142 Cr.",
+        "confidence": 0.95,
+        "passage_id": 16,
+        "predicate": "revenue_from_customers",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Revenue from customers(1)\n1,746\n1,796\n1,824\n1,860\n1,930\n1,942\n2,194\n2,076\n7,225\n8,142",
+        "subject_key": null,
+        "subject_surface": "Revenue from customers",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "8,142",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Corporate overheads wages for FY24 were \u20b9462 Cr.",
+        "confidence": 0.95,
+        "passage_id": 17,
+        "predicate": "corporate_overheads_wages",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Wages\n117\n114\n112\n107\n119\n117\n115\n111\n450\n462",
+        "subject_key": null,
+        "subject_surface": "Wages",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "462",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Total income for FY24 was \u20b98,594 Cr.",
+        "confidence": 0.95,
+        "passage_id": 18,
+        "predicate": "total_income",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Total income\n1,934\n2,325\n2,195\n(5.6%)\n13.5%\n7,530\n8,594",
+        "subject_key": null,
+        "subject_surface": "Total income",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "8,594",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "EBITDA for FY24 was \u20b9127 Cr.",
+        "confidence": 0.95,
+        "passage_id": 19,
+        "predicate": "ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "EBITDA\n13\n109\n46\n(58.0%)\n242.5%\n(452)\n127",
+        "subject_key": null,
+        "subject_surface": "EBITDA",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "127",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Tax expense for FY24 was \u20b95 Cr.",
+        "confidence": 0.95,
+        "passage_id": 20,
+        "predicate": "tax_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Tax expense\n(14)\n12\n(2)\n(45)\n5",
+        "subject_key": null,
+        "subject_surface": "Tax expense",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "5",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Profit or loss after tax for FY24 was \u20b9(249) Cr.",
+        "confidence": 0.95,
+        "passage_id": 21,
+        "predicate": "profit_loss_after_tax",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Profit / (Loss) after tax\n(159)\n12\n(69)\n(1,008)\n(249)",
+        "subject_key": null,
+        "subject_surface": "Profit / (Loss) after tax",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "(249)",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Total equity as of March 2024 was \u20b99,145 Cr.",
+        "confidence": 0.95,
+        "passage_id": 22,
+        "predicate": "total_equity",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "Mar '24"
+          }
+        ],
+        "quote": "Total equity\n9,177\n9,145",
+        "subject_key": null,
+        "subject_surface": "Total equity",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "9,145",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Total cash balance is \u20b9 5,444 Cr.",
+        "confidence": 0.95,
+        "passage_id": 23,
+        "predicate": "total_cash_balance",
+        "qualifiers": [],
+        "quote": "Total cash balance: \u20b9 5,444 Cr",
+        "subject_key": null,
+        "subject_surface": "Total cash balance",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "5,444",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      }
+    ]
+  }
+}

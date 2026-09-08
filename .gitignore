@@ -9,5 +9,9 @@ docs/
 ideation/
 starter-datasets/
 
-data/db/
-data/work/
+# data/ is tracked deliberately: data/cache/ holds the committed LLM responses,
+# and data/db + data/work hold the built ledger and the canonical document text
+# the evidence endpoints re-slice. Together they let a reviewer run the whole
+# thing with no API key. SQLite's sidecar files are transient, though.
+*.sqlite-wal
+*.sqlite-shm

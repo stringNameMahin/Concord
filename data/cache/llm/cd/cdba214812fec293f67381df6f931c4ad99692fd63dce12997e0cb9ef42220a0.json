@@ -1,0 +1,429 @@
+{
+  "key": "cdba214812fec293f67381df6f931c4ad99692fd63dce12997e0cb9ef42220a0",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"0\">\n<context>\n[page header]\nINDIA\n\u00a9International Monetary Fund. Not for Redistribution\n</context>\n<text>\n\u00a9 2025 International Monetary Fund\nIMF Country Report No. 25/314\nINDIA\n2025 ARTICLE IV CONSULTATION\u2014PRESS RELEASE;\nSTAFF REPORT; STAFF STATEMENT; AND STATEMENT\nBY THE EXECUTIVE DIRECTOR FOR INDIA\nUnder Article IV of the IMF\u2019s Articles of Agreement, the IMF holds bilateral discussions\nwith members, usually every year. In the context of the 2025 Article IV consultation with\nIndia, the following documents have been released and are included in this package:\n\u2022\nA Press Release summarizing the views of the Executive Board as expressed during its\nNovember 21, 2025 consideration of the staff report that concluded the Article IV\nconsultation with India.\n\u2022\nThe Staff Report prepared by a staff team of the IMF for the Executive Board\u2019s\nconsideration on November 21, 2025, following discussions that ended on\nSeptember 18, 2025, with the officials of India on economic developments and\npolicies. Based on information available at the time of these discussions, the staff\nreport was completed on November 6, 2025.\n\u2022\nAn Informational Annex prepared by the IMF staff.\n\u2022\nA Staff Statement updating information on recent developments.\n\u2022\nA Statement by the Executive Director for India.\nThe IMF\u2019s transparency policy allows for the deletion of market-sensitive information and\npremature disclosure of the authorities\u2019 policy intentions in published staff reports and\nother documents.\nCopies of this report are available to the public from\nInternational Monetary Fund \u2022 Publication Services\nPO Box 92780 \u2022 Washington, D.C. 20090\nTelephone: (202) 623-7430 \u2022 Fax: (202) 623-7201\nE-mail: publications@imf.org  Web: http://www.imf.org\nInternational Monetary Fund\nWashington, D.C.\nNovember 2025\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nPR 25/292\nIMF Executive Board Concludes 2025 Article IV Consultation\nwith India\nFOR IMMEDIATE RELEASE\nWashington, DC \u2013 November 26, 2025: The Executive Board of the International Monetary\nFund (IMF) completed the Article IV Consultation for India.1 The authorities have consented to\nthe publication of the Staff Report prepared for this consultation.2\nIndia\u2019s economy has continued to perform well. Following economic growth of 6.5 percent in\nFY2024/25, real GDP expanded by 7.8 percent in the first quarter of FY2025/26. Headline\ninflation has declined markedly, driven by subdued food prices. The financial and corporate\nsectors have remained resilient, supported by adequate capital buffers and multi-year low\nnon-performing assets. Fiscal consolidation has advanced, and the current account deficit has\nbeen contained, supported by resilient service exports.\nDespite external headwinds, growth is expected to remain robust, supported by favorable\ndomestic conditions. Under the baseline assumption of prolonged 50 percent U.S. tariffs, real\nGDP is projected to grow at 6.6 percent in FY2025/26 before moderating to 6.2 percent in\nFY2026/27. The reform of the goods and services tax (GST) and the resulting reduction in the\neffective rate are expected to help cushion the adverse impact of tariffs. Headline inflation is\nprojected to remain well contained, reflecting the one-off effect of the GST reform and\ncontinued benign food prices. Looking ahead, India\u2019s ambition to become an advanced\neconomy can be supported by advancing comprehensive structural reforms that enable higher\npotential growth.\nThere are significant near-term risks to the economic outlook. On the upside, the conclusion of\nnew trade agreements and faster implementation of structural reform domestically could boost\nexports, private investment, and employment. On the downside, further deepening of\ngeoeconomic fragmentation could lead to tighter financial conditions, higher input costs, and\nlower trade, FDI, and economic growth. Unpredictable weather shocks could affect crop\nyields, adversely impact rural consumption and reignite inflationary pressures.\n1 Under Article IV of the IMF's Articles of Agreement, the IMF holds bilateral discussions with members,\nusually every year. A staff team visits the country, collects economic and financial information, and\n</text>\n</passage>\n\n<passage id=\"1\">\n<context>\n[page header]\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nBY THE EXECUTIVE DIRECTOR FOR INDIA > FOR IMMEDIATE RELEASE\n</context>\n<text>\nexports, private investment, and employment. On the downside, further deepening of\ngeoeconomic fragmentation could lead to tighter financial conditions, higher input costs, and\nlower trade, FDI, and economic growth. Unpredictable weather shocks could affect crop\nyields, adversely impact rural consumption and reignite inflationary pressures.\n1 Under Article IV of the IMF's Articles of Agreement, the IMF holds bilateral discussions with members,\nusually every year. A staff team visits the country, collects economic and financial information, and\ndiscusses with officials the country's economic developments and policies. On return to headquarters,\nthe staff prepares a report, which forms the basis for discussion by the Executive Board.\n2 Under the IMF's Articles of Agreement, publication of documents that pertain to member countries is\nvoluntary and requires the member consent. The staff report will be shortly published on the\nhttp://www.imf.org/India page.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\n2\nExecutive Board Assessment3\nExecutive Directors commended India\u2019s very strong economic performance and resilience\nwhich has benefited from sound macroeconomic policies and reforms. Amid high uncertainty,\nDirectors called for continued sound policies and noted that accelerated implementation of\nstructural reforms will be critical to maintain stability and support India\u2019s ambition of becoming\nan advanced economy.\nDirectors concurred with the authorities\u2019 plans for continued fiscal consolidation this year,\nwhile noting that achievement of the fiscal deficit target will require strong spending discipline.\nWhile welcoming the recent simplification of the goods and service tax (GST), they called for\ncareful monitoring of the fiscal impact of the reduction in GST and personal income tax rates.\nDirectors also recommended that tariff relief measures should be targeted, transparent, and\ntimebound, and that the pace of fiscal consolidation in FY2026/27 should be conditional on the\nimpact of tariffs on the output gap. For the medium term, Directors stressed that fiscal buffers\nshould be replenished by focusing on domestic revenue mobilization, while also raising\nefficiency of expenditure including through a more targeted social safety net. Directors\ngenerally encouraged the authorities to review their medium term debt target in light of the\nGDP rebasing next year, with a view to making it more ambitious. Enhancing fiscal\nsustainability at the state level as well as carefully monitoring contingent liabilities would also\nbe important.\nDirectors supported the RBI\u2019s data dependent approach to monetary policy. They generally\nfelt that, if tariffs persist at current levels, there would likely be scope for further monetary\neasing amid benign inflation dynamics. Directors broadly recommended continued efforts to\nenhance monetary transmission, as well as greater exchange rate flexibility to help the Indian\neconomy absorb external shocks, with interventions aimed at addressing disorderly market\nconditions consistent with the Integrated Policy Framework.\nDirectors highlighted that India\u2019s financial system has been sound, supported by strong capital\nand liquidity positions. They encouraged the authorities to mitigate vulnerabilities among\nnonbank financial institutions and cautiously monitor risks from concentration and rising\nfinancial sector interconnectedness. Directors also encouraged the authorities to make further\nprogress on financial structural reforms, in line with the 2024 FSAP and FATF\nrecommendations.\nDirectors underscored that comprehensive structural reforms are critical to support India\u2019s\neconomic development. They welcomed the recent labor market reforms and encouraged the\nauthorities to enhance human capital and female labor force participation, continue with the\npublic investment push, and strengthen the business environment. Directors stressed that\ndeepening of trade integration can bolster India\u2019s competitiveness and attract FDI. Investment\n</text>\n</passage>\n\n<passage id=\"2\">\n<context>\n[page header]\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nBY THE EXECUTIVE DIRECTOR FOR INDIA > Executive Board Assessment3\n</context>\n<text>\nprogress on financial structural reforms, in line with the 2024 FSAP and FATF\nrecommendations.\nDirectors underscored that comprehensive structural reforms are critical to support India\u2019s\neconomic development. They welcomed the recent labor market reforms and encouraged the\nauthorities to enhance human capital and female labor force participation, continue with the\npublic investment push, and strengthen the business environment. Directors stressed that\ndeepening of trade integration can bolster India\u2019s competitiveness and attract FDI. Investment\nin R&D and fostering innovation will also help support productivity driven development.\nAdvancing the green transition supported by greater access to concessional financing will also\nbe important for promoting sustainable and resilient growth. Noting important progress\nunderway, Directors indicated the value of further enhancements in data quality.\n3 At the conclusion of the discussion, the Managing Director, as Chair of the Board, summarizes the\nviews of Executive Directors, and this summary is transmitted to the country's authorities. An explanation\nof any qualifiers used in summings up can be found here:\nhttp://www.IMF.org/external/np/sec/misc/qualifiers.htm.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nTable 1. India: Selected Social and Economic Indicators, 2021/22-2026/27 1/\n2021/22\n2022/23\n2023/24\n2024/25\n2025/26\n2026/27\nEst.\nProjections\nGrowth (in percent)\nReal GDP (at market prices)\n9.7\n7.6\n9.2\n6.5\n6.6\n6.2\nPrices (percent change, period average)\nConsumer prices - Combined\n5.5\n6.7\n5.4\n4.6\n2.8\n4.0\nSaving and investment (percent of GDP)\nGross saving 2/\n30.9\n31.6\n32.6\n32.3\n31.5\n30.9\nGross investment 2/\n32.1\n33.6\n33.4\n32.9\n32.5\n32.4\nFiscal position (percent of GDP) 3/\nCentral government overall balance\n-6.7\n-6.6\n-5.5\n-4.9\n-4.5\n-4.5\nGeneral government overall balance\n-9.4\n-9.0\n-8.1\n-7.9\n-7.1\n-7.2\nGeneral government debt 4/\n83.5\n82.2\n80.7\n81.6\n81.1\n80.7\nCyclically adjusted balance (% of potential GDP)\n-7.7\n-8.2\n-8.1\n-7.9\n-7.2\n-7.1\nCyclically adjusted primary balance (% of potential GDP)\n-2.6\n-3.1\n-2.9\n-3.0\n-1.7\n-1.7\nMoney and credit (y/y percent change, end-period)\nBroad money\n8.8\n9.0\n11.6\n9.4\n9.3\n9.6\nDomestic Credit\n8.4\n13.1\n14.9\n11.9\n10.8\n10.0\nFinancial indicators (percent, end-period)\n91-day treasury bill yield (end-period)\n3.8\n6.7\n7.0\n6.5\n\u2026\n\u2026\n10-year government bond yield (end-period)\n6.9\n7.3\n7.1\n6.6\n\u2026\n\u2026\nStock market (y/y percent change, end-period)\n18.3\n0.7\n24.9\n5.1\n\u2026\n\u2026\nExternal trade (on balance of payments basis)\nMerchandise exports (in billions of U.S. dollars)\n429.2\n456.\n1\n441.\n4\n441.\n8\n416.\n3\n409.5\n(Annual percent change)\n44.8\n6.3\n-3.2\n0.1\n-5.8\n-1.6\nMerchandise imports (in billions of U.S. dollars)\n618.6\n721.\n4\n686.\n4\n729.\n0\n746.\n6\n782.6\n(Annual percent change)\n55.3\n16.6\n-4.9\n6.2\n2.4\n4.8\nTerms of trade (G&S, annual percent change)\n-8.7\n-2.7\n3.2\n-1.3\n-0.5\n0.0\nBalance of payments (in billions of U.S. dollars)\nCurrent account balance\n-38.7\n-67.0\n-26.0\n-23.3\n-41.4\n-63.5\n(In percent of GDP)\n-1.2\n-2.0\n-0.7\n-0.6\n-1.0\n-1.4\nForeign direct investment, net (\"-\" signifies inflow)\n-38.6\n-28.0\n-10.2\n-1.0\n-10.1\n-15.5\nPortfolio investment, net (equity and debt, \"-\" = inflow)\n16.8\n5.2\n-44.1\n-3.6\n-14.9\n-21.6\nOverall balance (\"+\" signifies balance of payments surplus)\n47.5\n-9.1\n63.7\n-5.0\n16.0\n23.8\nExternal indicators\nGross reserves (in billions of U.S. dollars, end-period)\n607.3\n578.\n4\n646.\n4\n668.\n3\n709.\n6\n733.4\n(In months of next year's imports (goods and services))\n8.1\n8.0\n8.4\n8.4\n8.4\n8.2\nExternal debt (in billions of U.S. dollars, end-period)\n619.1\n623.\n9\n668.\n8\n736.\n3\n791.\n0\n856.3\nExternal debt (percent of GDP, end-period)\n19.5\n18.6\n18.4\n18.8\n19.2\n19.0\nOf which: Short-term debt\n4.6\n4.4\n4.5\n4.3\n4.4\n4.4\nRatio of gross reserves to short-term debt (end-period)\n4.2\n4.0\n4.0\n3.9\n3.9\n3.7\nReal effective exchange rate (annual avg. percent change)\n0.4\n-0.2\n0.2\n1.2\n\u2026\n\u2026\nMemorandum item (in percent of GDP)\nFiscal balance under authorities' definition\n-6.7\n-6.5\n-5.5\n-4.9\n-4.4\n-4.4\nSources: Data provided by the Indian authorities; Haver Analytics; CEIC Data Company Ltd; Bloomberg L.P.; World Bank, World Development Indicators; and IMF staff\n</text>\n</passage>\n\n<passage id=\"3\">\n<context>\n[page header]\n\u00a9International Monetary Fund. Not for Redistribution\nINDIA\nINTERNATIONAL MONETARY FUND\n\n[section]\nBY THE EXECUTIVE DIRECTOR FOR INDIA > Table 1. India: Selected Social and Economic Indicators, 2021/22-2026/27 1/\n</context>\n<text>\n18.4\n18.8\n19.2\n19.0\nOf which: Short-term debt\n4.6\n4.4\n4.5\n4.3\n4.4\n4.4\nRatio of gross reserves to short-term debt (end-period)\n4.2\n4.0\n4.0\n3.9\n3.9\n3.7\nReal effective exchange rate (annual avg. percent change)\n0.4\n-0.2\n0.2\n1.2\n\u2026\n\u2026\nMemorandum item (in percent of GDP)\nFiscal balance under authorities' definition\n-6.7\n-6.5\n-5.5\n-4.9\n-4.4\n-4.4\nSources: Data provided by the Indian authorities; Haver Analytics; CEIC Data Company Ltd; Bloomberg L.P.; World Bank, World Development Indicators; and IMF staff\nestimates and projections.\n1/ Data are for April\u2013March fiscal years.\n2/ Differs from official data, calculated with gross investment and current account. Gross investment includes errors and omissions.\n3/ Divestment and license auction proceeds treated as below-the-line financing.\n4/ Includes combined domestic liabilities of the center and the states, and external debt at year-end exchange rates.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nSTAFF REPORT FOR THE 2025 ARTICLE IV CONSULTATION\nKEY ISSUES\nContext. India\u2019s strong economic performance has benefitted from sound\nmacroeconomic policies and earlier structural reforms. Despite external headwinds,\ngrowth is expected to remain resilient, with inflation remaining subdued. Amid high\nuncertainty, potential upside risks stem from swift conclusions of trade agreements and\naccelerated implementation of domestic structural reforms, while possible downside\nrisks from deepening geoeconomic fragmentation persist.\nPolicy Recommendations. Reinforcing macroeconomic and financial stability will help\nsupport conditions conducive for sustained growth. Steadfast implementation of\nstructural reforms is essential to raise potential growth.\n\u2022 Fiscal Policy. The planned moderate pace of fiscal consolidation this year is\nappropriate, and fiscal support to mitigate the adverse impacts of tariffs should be\ntargeted, transparent and timebound. Decisive fiscal consolidation is warranted over\nthe medium term to rebuild buffers, with focus on domestic revenue mobilization to\nprovide space for a continued public investment push and other priority spending.\n\u2022 Monetary and Exchange Rate Policy. In the current uncertain environment,\nmonetary policy should remain nimble, with an easing bias. Greater exchange rate\nflexibility would be helpful for absorbing external shocks, with foreign exchange\nintervention limited to addressing destabilizing risk premia.\n\u2022 Financial Sector Policy. Systemic financial risks are broadly contained. Pockets of\nvulnerability resulting from concentration risks and rising interconnectedness should\nbe mitigated. Strengthening borrower-based macroprudential norms and the loss\nabsorption capacity of selected entities, together with enhancements in the crisis\nand credit risk management frameworks, can further strengthen financial stability.\n\u2022 Structural Policies. Sustaining high potential growth and sufficient job creation\nrequires strong structural reforms. Priorities include high and efficient public\ninvestment, labor market flexibility, streamlined regulations, and trade and\ninvestment liberalization to boost competitiveness and attract FDI. Strengthening the\ninsolvency framework and judicial capacity would support firm dynamism and\nproductivity.\nNovember 6, 2025\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"4\">\n<context>\n[page header]\nINDIA\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nKEY ISSUES > Context. India\u2019s strong economic performance has benefitted from sound\n</context>\n<text>\nand credit risk management frameworks, can further strengthen financial stability.\n\u2022 Structural Policies. Sustaining high potential growth and sufficient job creation\nrequires strong structural reforms. Priorities include high and efficient public\ninvestment, labor market flexibility, streamlined regulations, and trade and\ninvestment liberalization to boost competitiveness and attract FDI. Strengthening the\ninsolvency framework and judicial capacity would support firm dynamism and\nproductivity.\nNovember 6, 2025\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n2\nINTERNATIONAL MONETARY FUND\nApproved By\nSanjaya Panth (APD)\nand Anna Ilyina (SPR)\nDiscussions took place in Bangalore, Chennai, Mumbai, and New\nDelhi during September 4\u201318, 2025. The team comprised H. Finger\n(Mission Chief), C. Alonso, R. Green, N. Suphaphiphat, N. Wang (all\nAPD), M. Martins (STA), J. Yoo (MCM), R. Salgado (Senior Resident\nRepresentative), S. Mohapatra, G. Dang, and M. Yadav (all Resident\nRepresentative office). U. Patel (incoming Executive Director), A.\nSingh, and P. Kumar (both OED) attended selected mission\nmeetings. The mission met with Economic Affairs Secretary A.\nThakur, Chief Economic Advisor A. Nageswaran, Reserve Bank of\nIndia (RBI) Governor S. Malhotra, RBI Deputy Governor P. Gupta,\nother senior government and RBI officials, along with\nrepresentatives from the private sector and other organizations. J.\nFlinner, F. Li, and A. Sinjar (all APD) assisted in the preparation of this\nreport.\nCONTENTS\nCONTEXT __________________________________________________________________________________________ 4\nRECENT DEVELOPMENTS ________________________________________________________________________ 5\nOUTLOOK AND RISKS ____________________________________________________________________________ 8\nPOLICY DISCUSSIONS ____________________________________________________________________________ 9\nA. Fiscal Policy _____________________________________________________________________________________ 10\nB. Monetary and Exchange Rate Policy __________________________________________________________ 15\nC. Financial Sector Policy __________________________________________________________________________ 17\nD. Structural Reforms: Activating All Growth Engines ____________________________________________ 21\nSTAFF APPRAISAL ________________________________________________________________________________ 27\nFIGURES\n1. State-level Fiscal Dynamics ____________________________________________________________________ 14\n2. Recent Macroeconomic Developments _______________________________________________________ 30\n3. Labor Market Developments ___________________________________________________________________ 31\n4. External Sector Developments_________________________________________________________________ 32\n5. Financial Market Developments ________________________________________________________________ 33\n6. Inflation and Monetary Developments ________________________________________________________ 34\n7. Fiscal Sector Developments ____________________________________________________________________ 35\n8. Nonfinancial Corporate Sector Developments ________________________________________________ 36\n9. Banking and NBFC Sectors Developments ____________________________________________________ 37\n10.\nClimate Developments ______________________________________________________________________ 38\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"5\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nKEY ISSUES > CONTENTS > FIGURES\n</context>\n<text>\n6. Inflation and Monetary Developments ________________________________________________________ 34\n7. Fiscal Sector Developments ____________________________________________________________________ 35\n8. Nonfinancial Corporate Sector Developments ________________________________________________ 36\n9. Banking and NBFC Sectors Developments ____________________________________________________ 37\n10.\nClimate Developments ______________________________________________________________________ 38\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND\n3\nTABLES\n1. Selected Social and Economic Indicators, 2021/22\u20132026/27 __________________________________ 39\n2. Balance of Payments, 2021/22\u20132026/27 ______________________________________________________ 40\n3. Reserve Money and Monetary Survey, 2021/22\u20132024/25 _____________________________________ 41\n4. Central Government Operations, 2021/22\u20132026/27 __________________________________________ 42\n5. General Government Operations, 2021/22\u20132026/27 __________________________________________ 43\n6. Macroeconomic Framework, 2021/22\u20132030/31 _______________________________________________ 44\n7. Financial Soundness Indicators, 2020/21\u20132024/25 _____________________________________________ 45\nANNEXES\nI.\nUptake of Previous IMF Advice _______________________________________________________________ 46\nII.\nExternal Sector Assessment _________________________________________________________________ 47\nIII.\nNowcasting with a Machine Learning Approach ____________________________________________ 49\nIV\nRisk Assessment Matrix_______________________________________________________________________ 54\nV.\nDebt Sustainability Assessment _____________________________________________________________ 56\nVI.\nOngoing Work to Improve Real Sector Statistics ___________________________________________ 64\nVII. Data Issues  ___________________________________________________________________________________ 66\nVIII. 2024 FSAP Key Recommendations __________________________________________________________ 69\nIX.\nBoosting Productivity and Innovation in India _______________________________________________ 70\nX.\nSupporting Growth Through Easier Access to Land for Manufacturing _____________________ 91\nXI.\nIndia\u2019s Insolvency Framework \u2013 Performance Challenges and Need for Reform ___________ 97\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"6\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nKEY ISSUES > CONTENTS > ANNEXES\n</context>\n<text>\nVII. Data Issues  ___________________________________________________________________________________ 66\nVIII. 2024 FSAP Key Recommendations __________________________________________________________ 69\nIX.\nBoosting Productivity and Innovation in India _______________________________________________ 70\nX.\nSupporting Growth Through Easier Access to Land for Manufacturing _____________________ 91\nXI.\nIndia\u2019s Insolvency Framework \u2013 Performance Challenges and Need for Reform ___________ 97\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n4\nINTERNATIONAL MONETARY FUND\nCONTEXT\n1.\nIndia\u2019s strong economic performance has been supported by sound macroeconomic\npolicies and a legacy of structural reforms (Annex I). Real GDP growth has remained robust\nfollowing a strong post-pandemic recovery. Generally prudent fiscal, monetary, and financial sector\npolicies, coupled with instrumental structural reforms\u2014such as the goods and services tax (GST), a\nflexible inflation targeting framework, and the rapid expansion of digital public infrastructure\u2014have\nlaid a strong foundation for sustained growth.\nThese achievements have contributed to rising\nliving standards and a significant reduction in\npoverty, with the share of the population in\nextreme poverty having fallen markedly to\n5.3 percent (FY2022/23). That said, significant\nchallenges remain: India\u2019s income per capita\nremains relatively low, the handover from public\nto private investment as a growth engine\nremains to be achieved, public debt is still\nelevated, and high-quality employment benefits\nonly a small group of India\u2019s growing labor\nforce.\n2.\nWhile India\u2019s export sector is affected by the rise in U.S. tariffs, the overall\nmacroeconomic impact is expected to be manageable. Since August 27, 2025, India has been\nsubject to 50 percent tariffs on merchandise exports to the U.S., raising the effective tariff rate to\n37.8 percent.1 If maintained for a prolonged period, the tariffs would markedly reduce India\u2019s\nexports to the U.S. for the affected sectors, especially textiles, jewelry, and shrimp. Heightened\nuncertainty over bilateral trade policy with the U.S. will likely also dampen domestic investment and\nFDI into India. That said, India is less exposed to global trade than many other Asian Emerging\nMarkets, and its large and growing domestic market holds potential for economic resilience against\nexternal shocks.\n3.\nIndia\u2019s goal of becoming an advanced economy will require sustained high rates of\neconomic growth over coming decades. To lay the foundations, India needs to continue with\nprudent macroeconomic policies to safeguard economic stability and activate all engines of\ngrowth\u2014labor, capital, and productivity\u2014through accelerated structural reforms, while ensuring\n1 The U.S. imposed on India a 25 percent tariff, layered with another 25 percent tariff as penalty for importing Russian\noil, along with the Section 232 tariffs on steel, aluminum, automobiles and parts, copper, selected furniture, and\nmedium/heavy-duty vehicles and parts (ranging from 10 to 100 percent). Around 30 percent of U.S. merchandise\nimports from India are currently exempted, based on pre-tariff trade flows. Merchandise exports to the U.S.\naccounted for 2.2 percent of GDP in FY2024/25.\n27.1\n57.7\n5.3\n23.9\n0\n10\n20\n30\n40\n50\n60\n70\nExtreme poverty ($3/day)\nPoverty (LMIC line: $4.2/day)\n2011/12\n2022/23\nIndia: Monetary Poverty Headcount\n(Percent, poverty lines based on 2021 PPP prices)\nSource: World Bank.\nNote: LMIC = Lower-Middle Income Countries.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"7\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nCONTEXT > India\u2019s strong economic performance has been supported by sound macroeconomic\n</context>\n<text>\nmedium/heavy-duty vehicles and parts (ranging from 10 to 100 percent). Around 30 percent of U.S. merchandise\nimports from India are currently exempted, based on pre-tariff trade flows. Merchandise exports to the U.S.\naccounted for 2.2 percent of GDP in FY2024/25.\n27.1\n57.7\n5.3\n23.9\n0\n10\n20\n30\n40\n50\n60\n70\nExtreme poverty ($3/day)\nPoverty (LMIC line: $4.2/day)\n2011/12\n2022/23\nIndia: Monetary Poverty Headcount\n(Percent, poverty lines based on 2021 PPP prices)\nSource: World Bank.\nNote: LMIC = Lower-Middle Income Countries.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND\n5\nthat growth is inclusive. The success of these reforms requires active participation across both public\nand private sectors, and strong coordination among Centre, states, and local governments.\nRECENT DEVELOPMENTS\n4.\nGrowth has been robust (Figure 2). India\u2019s real GDP grew by 6.5 percent in FY2024/25.\nPrivate consumption growth was buoyant at 7.2 percent on increasing rural demand and stable\nurban demand. Investment growth moderated to 7.1 percent, supported by public investment,\nwhereas private investment appeared to be less dynamic. Strong private consumption has continued\nthis fiscal year, underpinning real GDP growth of 7.8 percent in 2025Q2. Nominal GDP growth\nmoderated to 8.8 percent in 2025Q2, down from 9.8 percent in FY2024/25, reflecting a low deflator\nmainly driven by declining food prices. The output gap was broadly closed as of FY2024/25.\n5.\nInflation dynamics are benign. Headline inflation has declined to 1.5 percent in September\n2025, down from 4.6 percent (FY2024/25 average), reflecting lower domestic food prices from good\nharvests. Core inflation increased to 4.6 percent (from 3.5 percent FY2024/25 average), in part due to\nrising gold and silver prices.\n6.\nLabor market indicators remained broadly stable in 2024, with a mild improvement in\njob quality, though challenges remain. Amid an unchanged labor force participation rate of 56.2\npercent, regular and formal employment expanded. The employment rate of regular wage earners\ngrew from 12.3 percent in 2023 to 12.7 percent in 2024, while formal employment (defined by social\nsecurity coverage) increased from 11 percent to 11.2 percent. Real hourly wages have grown by 16\nand 26 percent since 2018 in rural and urban areas, respectively, in part reflecting fewer hours\nworked. Unemployment has remained low at 5.2 percent in September. Despite recent\nimprovements, challenges persist, with high informality and underemployment, and declining but\nstill high youth unemployment for the most educated (Figure 3).\n7.\nThe fiscal policy stance was broadly neutral in FY2024/25, as state-level expansion\npartly offset central government consolidation. The general government deficit is estimated to\nhave fallen to 7.9 percent of GDP, from 8.1 percent in FY2023/24.\n\u2022\nBuilding on the central government\u2019s recent track record in meeting fiscal targets, its deficit\ndeclined further to 4.9 percent of GDP (4.8 percent of GDP per the authorities\u2019 definition).\n-2\n0\n2\n4\n6\n8\n10\n12\nJan-23\nFeb-23\nMar-23\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\nApr-25\nMay-25\nJun-25\nJul-25\nAug-25\nSep-25\nHeadline\nCore\nCore excl. Gold and Silver\nFood\nIndia: CPI Inflation\n(In percent, Year-on-Year)\nSources: Haver Analytics; and IMF staff calculations.\nTarget band\n-10\n0\n10\n20\n30\n40\n50\nJan-23\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\nMay-25\nJul-25\nSep-25\nGold\nSilver\nIndia: CPI Inflation - Gold and Silver Prices\n(In percent, Year-on-Year)\nSources: Haver Analytics; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"8\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nRECENT DEVELOPMENTS\n</context>\n<text>\nSep-25\nHeadline\nCore\nCore excl. Gold and Silver\nFood\nIndia: CPI Inflation\n(In percent, Year-on-Year)\nSources: Haver Analytics; and IMF staff calculations.\nTarget band\n-10\n0\n10\n20\n30\n40\n50\nJan-23\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\nMay-25\nJul-25\nSep-25\nGold\nSilver\nIndia: CPI Inflation - Gold and Silver Prices\n(In percent, Year-on-Year)\nSources: Haver Analytics; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n6\nINTERNATIONAL MONETARY FUND\nConsolidation was driven by steady post-pandemic restraint in recurrent spending, including\nlower fertilizer and fuel subsidies enabled by declining commodity prices. Capital expenditure\nregistered at 3.2 percent of GDP again in FY2024/25. Revenue as a share of GDP declined\nslightly, with a larger dividend payment by the RBI and gains in personal income tax (PIT)\nhelping to offset small declines in GST, excise and customs revenue.\n\u2022\nThe combined state government deficit is estimated to have risen to 3.3 percent of GDP, from\n2.9 percent of GDP in FY2023/24. Pressure on the deficit was primarily due to revenue\nconstraints and higher social cash transfers amid sustained capital expenditure.\n8.\nThe authorities have implemented a welcome reform of the Goods and Service Tax\n(GST). Effective September 22, 2025, a\nsignificantly simplified rate structure applies,\nwith two main slabs (5 and 18 percent) in\naddition to a new 40 percent slab for selected\nluxury and sin goods. The reform also includes\nadministrative measures that will reduce the\ncompliance burden and should help broaden\nthe tax net. While lowering the effective GST\nrate is expected to support consumption, higher\nbuoyancy should result in only a minor drag on\ntax revenue.\n9.\nFinancial conditions have eased, helped by supportive Reserve Bank of India (RBI)\npolicies. Despite high global uncertainty, equity prices have recovered. Government bond yields,\nparticularly at the front end, have eased as the RBI has lowered its policy rate since February 2025.\nS&P has upgraded India\u2019s credit rating to BBB. Credit spreads have recently declined, though their\nlevels remain elevated. Interbank liquidity conditions have improved following injection of durable\nliquidity by the RBI. In late February, the RBI reversed the higher risk weights on microfinance loans\nfor consumption purposes and bank credit to non-bank financial corporations (NBFCs) back to\nNovember 2023 norms, expecting to improve credit conditions. Still, bank credit growth moderated\nto 10.4 percent y/y in September, from 13 percent in September 2024, likely reflecting the lagged\neffect of earlier macroprudential tightening amid high global uncertainty. However, NBFC credit\ngrowth increased from 16 percent y/y in September 2024 to 20.7 percent in March 2025, partly due\nto the reclassification of a housing finance company to an NBFC. Overall, credit growth has been in\nline with nominal GDP growth, and the credit gap is estimated to be broadly closed or slightly\nnegative. Housing prices continued to grow modestly in 2025H1. The trading volume of equity\nderivatives, which had grown exponentially in recent years, has declined significantly amid tighter\nregulatory measures in the derivatives market.\nIndia: Number of Items in Each GST Rate Slab\nRate\n(percent)\nPre-reform\nPost-reform\nTypes of Goods\nPost-reform\n0.25\n4\n3\nRough precious and semi-precious stones\n1.5\n0\n2\nDiamonds and related items\n3\n14\n15\nLargely precious metals\n5\n216\n516\nEssential food products, healthcare items,\nrenewable energy devices, fertilizers and eco-\nfriendly products\n12\n274\n0\nEliminated\n18\n650\n640\nThe broad standard rate, applicable to\nprocessed goods, lifestyle items, industrial\ninputs, and household products\n28\n47\n0\nEliminated\n40\n0\n13\nTobacco, sweetened caffeinated or carbonated\ndrinks, hybrid cars and large motorcycles\nSource: Ministry of Finance and staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"9\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nRECENT DEVELOPMENTS > (GST). Effective September 22, 2025, a\n</context>\n<text>\nLargely precious metals\n5\n216\n516\nEssential food products, healthcare items,\nrenewable energy devices, fertilizers and eco-\nfriendly products\n12\n274\n0\nEliminated\n18\n650\n640\nThe broad standard rate, applicable to\nprocessed goods, lifestyle items, industrial\ninputs, and household products\n28\n47\n0\nEliminated\n40\n0\n13\nTobacco, sweetened caffeinated or carbonated\ndrinks, hybrid cars and large motorcycles\nSource: Ministry of Finance and staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND\n7\n10.      The external position in FY2024/25 was moderately stronger than that implied by\nmedium-term fundamentals and desirable policies (Annex II). The current account deficit (CAD)\ndeclined to 0.6 percent of GDP, from 0.7 percent of GDP in FY2023/24, as robust import demand\nwas offset by strong service exports amid an overall broadly stable real effective exchange rate.\nAlthough gross inward FDI rose, net FDI dropped to about zero in FY2024/25 amid elevated\ndisinvestment and repatriation, partly due to high equity valuations, and growing outward FDI.\nDespite India\u2019s inclusion into major global bond indices, net foreign portfolio investment (FPI)\ninflows decreased to 0.1 percent of GDP in FY2024/25 from 1.2 percent of GDP in FY2023/24, driven\nby reassessment of the U.S. monetary policy outlook and heightened global trade policy uncertainty.\nIn 2024Q4 and 2025Q1, the Indian rupee experienced depreciation pressure, and foreign exchange\n(FX) reserves declined to $668 billion in March 2025, from $706 billion in September 2024 on\nsignificant currency intervention. In 2025Q2, robust services exports and remittances contained the\nCAD at 0.2 percent of GDP. Since July, the rupee has depreciated on U.S. tariff hikes and equity\noutflows. Buoyed by valuation gains, FX reserves stood at $695 billion as of October, covering over\neight months of prospective imports and 109 percent of the IMF reserve adequacy metric.\nIndia: Net Foreign Portfolio Flows and Exchange Rate 1/\n(LHS: in USD Billions, four-week moving average; RHS: INR/USD)\n11.      India has relaxed some trade restrictions and advanced its bilateral trade negotiations,\nwhile some trade measures have been introduced or extended.\n\u2022\nIndia further relaxed or removed export restrictions on agricultural products, including onions,\nbroken rice, and sugar, as domestic prices moderated. In addition, India has streamlined its tariff\nstructure and reduced the tariffs on a range of products, reducing the simple average industrial\ntariff to 10.7 percent, from 13.5 percent in 2023. The import duty on cotton has been suspended\n-5%\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n35%\n40%\nJan-22\nMar-22\nMay-22\nJul-22\nSep-22\nNov-22\nJan-23\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\nMay-25\nJul-25\nIndia: Bank Credit Growth\nGross Credit\nPersonal\nIndustry\nServices\nNBFCs\nSources: Haver Analytics; and IMF staff calculations.\n92.0\n94.0\n96.0\n98.0\n100.0\n102.0\n104.0\n106.0\n108.0\n110.0\n112.0\nSep-15\nMar-16\nSep-16\nMar-17\nSep-17\nMar-18\nSep-18\nMar-19\nSep-19\nMar-20\nSep-20\nMar-21\nSep-21\nMar-22\nSep-22\nMar-23\nSep-23\nMar-24\nSep-24\nMar-25\nSep-25\nIndia: Real Effective Exchange Rate\nSource: IMF, Information Notice System.\n79.0\n80.0\n81.0\n82.0\n83.0\n84.0\n85.0\n86.0\n87.0\n88.0\n89.0\n90.0\n-3.0\n-2.0\n-1.0\n0.0\n1.0\n2.0\n1/1/24\n2/5/24\n3/11/24\n4/15/24\n5/20/24\n6/24/24\n7/29/24\n9/2/24\n10/7/24\n11/11/24\n12/16/24\n1/20/25\n2/24/25\n3/31/25\n5/5/25\n6/9/25\n7/14/25\n8/18/25\n9/22/25\n10/27/25\nEquity\nDebt\nINR/USD\nSources: Haver Analytics; and IMF staff calculations.\n1/ Includes registered foreign portfolio investors and foreign institutional investors.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"10\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nRECENT DEVELOPMENTS > (GST). Effective September 22, 2025, a\n</context>\n<text>\nSource: IMF, Information Notice System.\n79.0\n80.0\n81.0\n82.0\n83.0\n84.0\n85.0\n86.0\n87.0\n88.0\n89.0\n90.0\n-3.0\n-2.0\n-1.0\n0.0\n1.0\n2.0\n1/1/24\n2/5/24\n3/11/24\n4/15/24\n5/20/24\n6/24/24\n7/29/24\n9/2/24\n10/7/24\n11/11/24\n12/16/24\n1/20/25\n2/24/25\n3/31/25\n5/5/25\n6/9/25\n7/14/25\n8/18/25\n9/22/25\n10/27/25\nEquity\nDebt\nINR/USD\nSources: Haver Analytics; and IMF staff calculations.\n1/ Includes registered foreign portfolio investors and foreign institutional investors.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n8\nINTERNATIONAL MONETARY FUND\nuntil end-2025 to support the textile industry faced with high U.S. tariffs. The Equalization Levy\non online advertisement services supplied by nonresidents has been repealed. In July, India and\nthe UK signed a free trade agreement, which will eliminate most bilateral tariff lines over ten\nyears and promote cross-border mobility of professionals. India is also actively engaged in trade\nnegotiations with several other partners, including Australia, the EU, New Zealand, and the U.S.\nSome tax measures classified as exchange restrictions have also been relaxed and eliminated.2\n\u2022\nConcurrently, India has also extended and introduced some trade measures. The import\nmanagement system for IT hardware has been extended to end-2025. An import ban and port\nrestrictions on selected neighboring countries have been implemented. India has introduced or\nextended a safeguard duty on steel and around 30 anti-dumping duties and countervailing\nduties in 2025, following investigations.\nOUTLOOK AND RISKS\n12.      Growth is expected to remain robust, accompanied by benign inflation dynamics.\nUnder staff\u2019s baseline scenario, real GDP growth is projected at 6.6 percent in FY2025/26, helped by\nthe strong 2025Q2 growth outturn, the GST reform, and a 2025Q3 nowcast pointing to continued\nmomentum (Annex III), offsetting the adverse impact of U.S. tariffs (text table). Growth is expected to\ndecline to 6.2 percent in FY2026/27, as high U.S. tariffs (assumed to persist under the baseline) dent\nexternal demand and investment. Growth below potential would open a small output gap next year,\nbefore returning to its potential rate of 6.5 percent over the medium term. Growth outcomes could\nbe more favorable if tariffs are resolved in the near term, with growth broadly in line with its\npotential from FY2026/27 onward (text chart). Headline inflation is expected to remain benign and\naverage 2.8 percent in FY2025/26, below the 4-percent target but within the RBI\u2019s tolerance band,\nreflecting subdued food price dynamics and the GST reform. Core inflation is projected to average\n3.5 percent this FY. In FY2026/27, headline inflation is expected to converge to 4 percent, mainly\ndriven by a projected rebound in domestic food prices.\n2 The threshold for applicability of Tax Collected at Source (TCS) on remittances under the Liberalised Remittance\nScheme (LRS) of the RBI has been raised from INR 0.7 million to INR 1 million, and the TCS under the LRS on loan-\nfinanced remittances for educational purposes has been removed.\n2025/26\n2026/27\nJuly WEO\n6.4\n6.4\nQ1 Growth Surprise (incl. carryover)\n0.5\n0.0\nTariffs\n-0.4\n-0.3\nGST Reform\n0.1\n0.1\nCurrent\n6.6\n6.2\nRevision\n0.2\n-0.2\nIndia: Real GDP Growth Revision (from July WEO)\n0.00\n0.10\n0.20\n0.30\n2025/26\n2026/27\n2027/28\nIndia: Impact of Lower US Tariffs on Real GDP Growth\n(Percentage points, relative to baseline)\nSources: IMF staff calculations.\nNote: This scenario assumes that US tariffs on India are reduced from 50 percent for\nnon-exempted goods to 19 percent after December 2025, in line with the tariff rates\nnegotiated by other countries in the region. The Section 232 tariffs are assumed to\nbe unchanged.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"11\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\n\n[section]\nOUTLOOK AND RISKS\n</context>\n<text>\nIndia: Real GDP Growth Revision (from July WEO)\n0.00\n0.10\n0.20\n0.30\n2025/26\n2026/27\n2027/28\nIndia: Impact of Lower US Tariffs on Real GDP Growth\n(Percentage points, relative to baseline)\nSources: IMF staff calculations.\nNote: This scenario assumes that US tariffs on India are reduced from 50 percent for\nnon-exempted goods to 19 percent after December 2025, in line with the tariff rates\nnegotiated by other countries in the region. The Section 232 tariffs are assumed to\nbe unchanged.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND\n9\n13.      The CAD is expected to widen and converge close to its norm of 2 percent of GDP over\nthe medium term. In FY2025/26, the CAD is projected at 1.0 percent of GDP, as merchandise\nexports weaken and REER declines on elevated U.S. tariffs. FDI and FPI balances are expected to\nremain muted due to trade tensions. Over the medium term, sustained growth in private demand\ndriven by India\u2019s development needs, growth prospects, and growing young population can support\ndemand for imports and the rebalancing of the external position. The recent removal of key\nregulatory caps on foreign portfolio investment in corporate debt and the relaxation of FDI limits for\nadditional sectors3\u2014together with increasing international investor participation and favorable\ngrowth prospects\u2014are expected to attract growing foreign investment to finance the CAD.\n14.      There are significant near-term risks to the economic outlook (Annex IV). On the upside,\nthe conclusion of new trade agreements and faster implementation of structural reform domestically\ncould boost exports, private investment, and employment. On the downside, further escalation of\ntrade tensions and deepening of geoeconomic fragmentation could lead to tighter financial\nconditions, higher input costs, and lower trade, FDI, and economic growth. A sharp decline in\nhousehold confidence, potentially induced by heightened uncertainty, weakening stock market\nperformance, or tightening of bank lending standards, could weigh on private consumption.\nUnpredictable weather patterns could bring risks on both sides, affecting crops, rural consumption,\nand food prices.\nAuthorities\u2019 Views\n15.      The authorities generally concurred with staff's assessment of the outlook and risks,\nthough they did not agree with staff\u2019s tariff assumption. They highlighted robust domestic\ndemand as a main driver of growth and expected meaningful positive effects of the GST reform on\nprivate consumption and the ease of doing business. They agreed that the overall economic impact\nof the tariff shock should be manageable in the near term, although a few industries would be\nheavily affected. That said, the authorities disagreed with staff\u2019s baseline assumption that the 50-\npercent U.S. tariffs would remain in place indefinitely and considered staff\u2019s estimated growth\nimpact to be on the high side given frontloading and the potential for developing other export\nmarkets. Like staff, the authorities expected benign inflation dynamics to persist. While recognizing\nelevated global uncertainty and potential further external shocks, they emphasized upside potential\nfrom newly concluded and forthcoming FTAs. The authorities also felt that staff\u2019s potential growth\nestimate was on the conservative side.\nPOLICY DISCUSSIONS\nMaintaining prudent macroeconomic policies is critical to create enabling conditions for sustained\ngrowth. That said, high uncertainty regarding the external environment, including the evolution of\n3 In May 2025, the RBI removed the short-term investment cap and the issuer concentration limits on foreign\nportfolio investors in the corporate bond market. In addition, the FDI limits under the Automatic Route have been\nraised for defense (up to 74 percent), telecom, and insurance (both up to 100 percent). These measures constitute\nloosening of capital flow management measures.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"12\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 11\n\n[section]\nPOLICY DISCUSSIONS\n</context>\n<text>\ngrowth. That said, high uncertainty regarding the external environment, including the evolution of\n3 In May 2025, the RBI removed the short-term investment cap and the issuer concentration limits on foreign\nportfolio investors in the corporate bond market. In addition, the FDI limits under the Automatic Route have been\nraised for defense (up to 74 percent), telecom, and insurance (both up to 100 percent). These measures constitute\nloosening of capital flow management measures.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n10\nINTERNATIONAL MONETARY FUND\ntariffs, warrants nimble policy responses. Fiscal support to mitigate the adverse impact of tariffs should\nbe targeted, transparent, and time-bound, while the pace of fiscal consolidation should depend on the\nimpact of the tariffs on the output gap. Medium-term fiscal consolidation is needed to rebuild buffers,\nwith rising domestic revenue mobilization providing space for a continued public investment push and\nother priority spending. Following significant easing earlier in the year, monetary policy should be\ndata-driven, with room for further easing especially if current tariffs remain in place for a prolonged\nperiod. The exchange rate should be allowed to act as a shock absorber. Financial policy should aim at\naddressing pockets of vulnerability and continuing to safeguard financial stability. Deep and\ncomprehensive structural reforms will be key to buttress the economy\u2019s growth potential.\nA.   Fiscal Policy\n16.      Despite some pressures, this year\u2019s planned moderate fiscal consolidation remains\nachievable with strong spending discipline.\n\u2022\nDownwardly revised nominal GDP (reflecting a low deflator) together with the PIT and GST\nreductions, may test this year\u2019s tax revenue intake, but the central government\u2019s deficit target of\n4.4 percent of GDP (4.5 percent of GDP, IMF definition) remains within reach. While the PIT\nreduction could help support private consumption, it will further narrow the already-limited tax\nbase, particularly given the high effective tax-free threshold relative to peer countries. The GST\nreform is welcome, as it constitutes a major step in reducing the complexity of the tax structure,\nsimplifying its administration and likely reducing disputes and encouraging compliance. That\nsaid, the resulting reduction in the effective rate adds to near-term fiscal pressures and may\ncomplicate any future efforts to raise the effective GST rate.4 By contrast, public enterprises will\nlikely yield further divestment proceeds, which count towards the authorities\u2019 definition of the\nfiscal balance.\n\u2022\nOn the spending side, consolidation should be driven by recurrent expenditure rationalization,\nwith capital spending expected to be maintained, though declining slightly as a share of GDP.\nLimited support to tariff-affected industries and workers\u2014targeted, transparent and time-\nbound\u2014will be appropriate while tariffs remain high. Support should focus on affected workers\nand households and preventing widespread bankruptcies.\n\u2022\nState-level fiscal deficits are expected to return to about 3 percent of GDP on aggregate in\nFY2025/26. The GST rate cut, which also applies to the state GST, will add to state-level fiscal\npressures. A focus on capital expenditure execution\u2014while keeping recurrent expenditure in line\nwith revenues\u2014would help improve the composition of expenditure.\n4 The 2025/26 budget substantially raised the personal income tax-free threshold, leading to 0.3 percent of GDP in\nforegone revenue. The GST rate cut, netting revenue and expenditure impacts, is expected to reduce Centre and state\nFY2025/26 revenue each by less than 0.1 percent of GDP.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"13\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 11\n\n[section]\nPOLICY DISCUSSIONS\n</context>\n<text>\npressures. A focus on capital expenditure execution\u2014while keeping recurrent expenditure in line\nwith revenues\u2014would help improve the composition of expenditure.\n4 The 2025/26 budget substantially raised the personal income tax-free threshold, leading to 0.3 percent of GDP in\nforegone revenue. The GST rate cut, netting revenue and expenditure impacts, is expected to reduce Centre and state\nFY2025/26 revenue each by less than 0.1 percent of GDP.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 11\n17.      Fiscal plans for FY2026/27 should adapt to emerging challenges. With an output gap\nexpected to open next FY under the baseline (assuming that the 50 percent tariffs remain in place)\nand high external uncertainty, a neutral fiscal stance rather than consolidation would be warranted.\nThat said, if a tariff reduction avoids an output gap, fiscal consolidation should continue next year.\n18.      Tax administration measures underway are expected to reduce the tax compliance\nburden and aid buoyancy. The recent notification of the Income Tax Act, 2025, the GST reform,\nrationalization of the customs tariff structure (\u00b611), and capital gains tax reform aim inter alia at\nsimplifying the tax system and its administration. Data analytics have allowed new PIT interventions\nand nudges aimed at improving compliance and broadening the tax net. The GST reform included\nsimplified registration and audit processes, while customs processing will be expedited by\ndigitalization and new time-bound rules. Together, these measures should contribute to tax\nbuoyancy and ease of doing business.\n19.      Heightened global uncertainty and contingent liabilities add to fiscal risks. Commodity\nprice risks and the need to support the vulnerable in the face of growth shocks could require higher\nsubsidy spending. Better-targeted subsidies and replacing them with cash transfers, where possible,\ncould mitigate both risks. Contingent liabilities arise from government guarantees (5.6 percent of\nGDP for the general government), loans to loss-making state-owned enterprises (SOEs)\u2014particularly\nin the power sector (2.3 percent of GDP, see \u00b634) (Annex V)\u2014and unfunded civil service pensions\nliabilities. Central government incentives to reduce states\u2019 contingent liabilities in the power sector\nhave shown progress.\nIndia: Summary Central Government Fiscal Developments\n(In percent of GDP)\nFY 2023/24\nActual\nBudget\nRE\nEst.\nBudget\nProj.\nTotal Revenues\n9.3\n9.6\n9.6\n9.2\n9.7\n9.0\nNet tax revenues\n7.8\n7.9\n7.8\n7.4\n7.9\n7.2\nPIT\n3.5\n3.6\n3.8\n3.6\n4.0\n3.4\nGST\n3.2\n3.2\n3.2\n3.1\n3.3\n2.9\nNon-tax revenues\n1.5\n1.8\n1.8\n1.8\n1.8\n1.8\nTotal Expenditure\n14.8\n14.6\n14.3\n14.1\n14.1\n13.4\nRecurrent expenditure\n11.6\n11.2\n11.2\n10.9\n11.0\n10.4\nFood Subsidy\n0.7\n0.6\n0.6\n0.6\n0.6\n0.6\nFertilizer Subsidy\n0.6\n0.5\n0.5\n0.5\n0.5\n0.5\nCapital expenditure\n3.2\n3.4\n3.1\n3.2\n3.1\n3.0\nCentral Government (CG) Fiscal Deficit\n5.5\n5.0\n4.7\n4.9\n4.4\n4.5\nMemo Items\nCG Fiscal Deficit (authorities' definition) 1/\n5.5\n4.9\n4.7\n4.9\n4.4\n4.4\nCG Primary Deficit\n2.0\n1.4\n1.3\n1.5\n0.9\n0.9\nState Government Fiscal Deficit 2/\n2.9\n2.5\n3.0\n3.3\n3.1\n3.1\nNominal GDP (Rs billions) 3/\n301,230\nFY2024/25\nFY2025/26\n1/ Authorities' definition includes asset sales in receipts, and excludes certain non-tax revenue items, hence the difference with staff's\ndefinition.\n2/ The authorities treat states' divestment proceeds, including land sales, above-the-line as miscellaneous capital receipts. IMF staff\ndefinition treats divestment receipts as a below-the-line financing item.\n3/ Nominal GDP reflects the outturn or the most recent staff projection.\n330,682\n358,841\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"14\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 11\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nPOLICY DISCUSSIONS\n</context>\n<text>\n1/ Authorities' definition includes asset sales in receipts, and excludes certain non-tax revenue items, hence the difference with staff's\ndefinition.\n2/ The authorities treat states' divestment proceeds, including land sales, above-the-line as miscellaneous capital receipts. IMF staff\ndefinition treats divestment receipts as a below-the-line financing item.\n3/ Nominal GDP reflects the outturn or the most recent staff projection.\n330,682\n358,841\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n12\nINTERNATIONAL MONETARY FUND\n20.      Over the medium term, the fiscal deficit and the public debt ratio are projected to\ngradually decline, with risks of sovereign stress remaining moderate (Annex V). The general\ngovernment deficit is expected to narrow further under current policies, supporting a gradual\nreduction in debt to 77 percent of GDP in FY2030/31. Under shock scenarios, reflecting conditions\nsuch as lower growth or slower fiscal adjustment, debt paths are skewed towards elevated debt\nlevels, highlighting the importance of swiftly rebuilding buffers. That said, India has some fiscal\nspace to support domestic demand and shelter vulnerable households in case of adverse shocks.\nFunding climate-change-related investment entirely through the government budget could lead to\nhigh long-term risk of sovereign stress, pointing to the need for additional concessional financing\nand greater private sector participation. Demand from financial institutions for government\nsecurities remains robust. Banks hold a relatively\nhigh\u2014though declining\u2014share of government\nsecurities and are sufficiently healthy and liquid\nto act as a residual financier for the government.\nNonetheless, such concentration could amplify\nmacro-financial shocks under severe adverse\nscenarios, placing a premium on continued\ndiversification of domestic financing sources.\nRisks from elevated debt are mitigated as debt\nis largely domestic with a long duration, and the\ninterest-growth differential is expected to\nremain favorable.\n21.       The authorities\u2019 medium-\nterm debt target is achievable and\ncould be more ambitious. Under\nstaff\u2019s baseline assumptions, the\ncentral government\u2019s targeted debt\nratio of 50\u00b11 percent of GDP by\nFY2030/31 is achievable without\nfurther fiscal measures. Faster\nconsolidation would ease the high\ndebt service burden sooner and help\nto rebuild fiscal buffers for future\nshocks. India\u2019s revenue as a share of GDP is not high compared to other non-fuel-exporting\nemerging markets. A proposed consolidation plan centered on revenue-based measures could\nachieve the warranted consolidation while creating additional space for high-quality investments\nand other priority spending.5 Measures could include further GST reform, reversal of earlier excise\ntax reductions, and expansion of the income tax base. Together with better targeting of subsidies\nand rationalizing legacy expenditure schemes, this can create space for growth-enhancing\nexpenditure on infrastructure and health. Under the baseline assuming prolonged 50 percent U.S.\n5 For details, see India: 2024 Article IV Consultation, Annex X.\n2025/26\n2026/27\n2027/28\n2028/29\n2029/30\n2030/31\n2031/32\nOverall Balance, Baseline (percent of GDP)\nCentre\n-4.5\n-4.5\n-4.4\n-4.2\n-4.0\n-3.8\n-3.8\nState\n-3.1\n-3.0\n-3.0\n-3.0\n-3.0\n-3.0\n-2.9\nGeneral\n-7.1\n-7.2\n-7.1\n-6.9\n-6.8\n-6.6\n-6.5\nOverall Balance, Reform Scenario (percent of GDP)\nCentre\n-4.5\n-4.5\n-4.2\n-3.8\n-3.5\n-3.3\n-3.3\nState\n-3.1\n-3.0\n-2.8\n-2.7\n-2.6\n-2.6\n-2.5\nGeneral\n-7.1\n-7.2\n-6.7\n-6.2\n-5.8\n-5.7\n-5.6\nDebt, Baseline (percent of GDP)\nCentre\n56.2\n55.4\n54.3\n53.0\n51.7\n50.3\n48.8\nState\n28.3\n28.3\n28.3\n28.3\n28.4\n28.4\n28.4\nGeneral\n81.1\n80.7\n79.9\n79.0\n78.0\n76.9\n76.0\nDebt, Reform Scenario (percent of GDP)\nCentre\n56.2\n55.4\n54.0\n52.4\n50.7\n48.9\n47.0\nState\n28.3\n28.3\n28.1\n27.8\n27.4\n27.1\n26.8\nGeneral\n81.1\n80.7\n79.5\n77.9\n76.0\n74.2\n72.6\nSource: IMF staff calculations based on the reform scenario with a 13-basis point risk premium\ndecline in India: 2024 Article IV Consultation, Annex X.\n</text>\n</passage>\n\n<passage id=\"15\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 13\n\n[section]\nPOLICY DISCUSSIONS > could be more ambitious. Under\n</context>\n<text>\n-7.2\n-6.7\n-6.2\n-5.8\n-5.7\n-5.6\nDebt, Baseline (percent of GDP)\nCentre\n56.2\n55.4\n54.3\n53.0\n51.7\n50.3\n48.8\nState\n28.3\n28.3\n28.3\n28.3\n28.4\n28.4\n28.4\nGeneral\n81.1\n80.7\n79.9\n79.0\n78.0\n76.9\n76.0\nDebt, Reform Scenario (percent of GDP)\nCentre\n56.2\n55.4\n54.0\n52.4\n50.7\n48.9\n47.0\nState\n28.3\n28.3\n28.1\n27.8\n27.4\n27.1\n26.8\nGeneral\n81.1\n80.7\n79.5\n77.9\n76.0\n74.2\n72.6\nSource: IMF staff calculations based on the reform scenario with a 13-basis point risk premium\ndecline in India: 2024 Article IV Consultation, Annex X.\nIndia:  Fiscal Consolidation by Level of Government\n0\n5\n10\n15\n20\n25\n30\nCroatia\nSerbia\nHungary\nTunisia\nBrazil\nGeorgia\nChile\nArmenia\nPoland\nMongolia\nBotswana\nEl Salvador\nBulgaria\nColombia\nUruguay\nBolivia\nJordan\nIndia\nPeru\nThailand\nPhilippines\nMexico\nCosta Rica\nVietnam\nChina\nEgypt\nMalaysia\nGuatemala\nPakistan\nIndonesia\nParaguay\nSri Lanka\nIndia: Tax Revenue as a Share of GDP\n(2022)\nSource: IMF World Revenue Longitudinal Database (WoRLD).\nNote: General government tax revenue of selected non-fuel exporting emerging markets.\nAverage = 18.1\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 13\ntariffs, the consolidation plan would start in FY2027/28 to allow for a neutral fiscal stance next year.\nIf the tariff shock is resolved this fiscal year, the reform measures would start in FY2026/27. At the\nCentre, the reform path achieves a debt-to-GDP ratio close to the \u2018high degree of consolidation\u2019\nscenario presented in the budget, which reaches 48.5 percent of GDP  in FY2030/31. The\nconsolidation scenario also targets declining state-level deficits. Greater state-level fiscal discipline\nand stronger public financial management would be required to sustain fiscal deficits below the limit\nof 3 percent of gross state domestic product (GSDP).\n22.      The medium-term fiscal target should be reviewed and broadened. Following the\nrebasing of GDP in February 2026 (Annex VI), it would be appropriate to revisit the debt target, with\na view to making it more ambitious. In addition, expanding the scope, transparency and\naccountability of the target would further support credibility and improve multiyear planning. First,\nthe debt anchor should be broadened to include state government debt. State fiscal sustainability is\na critical component of macroeconomic stability, but compliance with fiscal frameworks is weak.\nTailored fiscal adjustment paths for states could be considered, depending on their current fiscal\npositions and debt vulnerabilities (see \u00b623). Second, operationalizing the medium-term target with\nwell-defined annual fiscal adjustment paths would clarify the government\u2019s intentions and guide\nfinancial markets. Third, strengthening the institutional architecture of public finances with an\nindependent fiscal body providing advice and oversight should be considered. This body could\nimprove transparency and accountability mechanisms by publishing independent assessments of\nfiscal plans and performance, regular debt sustainability analyses, and contingent liability\ndisclosures, as well as by conducting stress tests and scenario analysis, both at the Center and state\nlevels. Fourth, fiscal statistics at the state level should improve, including more timely data reporting,\ncomprehensive disclosures such as contingent liabilities and plans to transition to accrual\naccounting (Annex VII). Progress is visible in states\u2019 reporting of off-budget borrowing.\n23.      States require further fiscal reforms to bring debt to sustainable levels while\nmaintaining critical spending on infrastructure and social spending. Debt owed by some states\nhas increased substantially over the past ten years, including due to assumption of state-owned\npower distribution company debt, pandemic-related spending, farm loan waivers and, more\nrecently, cash transfer schemes. Consolidated debt stood at 28.2 percent of GSDP in FY2022/23 (up\nfrom 22.2 percent in FY2012/13). The growing interest payment burden adds to the already-high\nshare of non-discretionary expenditure, including salaries and pensions, together explaining high-\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "India's real GDP grew by 6.5 percent in FY2024/25.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "real_gdp_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY2024/25"
+          }
+        ],
+        "quote": "Following economic growth of 6.5 percent in FY2024/25",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.5",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India's real GDP expanded by 7.8 percent in the first quarter of FY2025/26.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "real_gdp_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first quarter of FY2025/26"
+          }
+        ],
+        "quote": "real GDP expanded by 7.8 percent in the first quarter of FY2025/26.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.8",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India's real GDP is projected to grow at 6.6 percent in FY2025/26.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "projected_real_gdp_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY2025/26"
+          },
+          {
+            "key": "assumption",
+            "provenance": "stated",
+            "value": "prolonged 50 percent U.S. tariffs"
+          }
+        ],
+        "quote": "Under the baseline assumption of prolonged 50 percent U.S. tariffs, real GDP is projected to grow at 6.6 percent in FY2025/26",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.6",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India's real GDP is projected to grow at 6.2 percent in FY2026/27.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "projected_real_gdp_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY2026/27"
+          },
+          {
+            "key": "assumption",
+            "provenance": "stated",
+            "value": "prolonged 50 percent U.S. tariffs"
+          }
+        ],
+        "quote": "before moderating to 6.2 percent in FY2026/27.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.2",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The share of India's population in extreme poverty was 5.3 percent in FY2022/23.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "extreme_poverty_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY2022/23"
+          }
+        ],
+        "quote": "the share of the population in extreme poverty having fallen markedly to 5.3 percent (FY2022/23).",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.3",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India has been subject to 50 percent tariffs on merchandise exports to the U.S. since August 27, 2025.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "us_merchandise_export_tariff_rate",
+        "qualifiers": [
+          {
+            "key": "start_date",
+            "provenance": "stated",
+            "value": "August 27, 2025"
+          }
+        ],
+        "quote": "Since August 27, 2025, India has been subject to 50 percent tariffs on merchandise exports to the U.S.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "50",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The effective tariff rate on India's merchandise exports to the U.S. is 37.8 percent.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "effective_us_merchandise_export_tariff_rate",
+        "qualifiers": [],
+        "quote": "raising the effective tariff rate to 37.8 percent.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "37.8",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India's headline inflation declined to 1.5 percent in September 2025.",
+        "confidence": 1,
+        "passage_id": 7,
+        "predicate": "headline_inflation_rate",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "September 2025"
+          }
+        ],
+        "quote": "Headline inflation has declined to 1.5 percent in September 2025",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.5",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India's unemployment rate was 5.2 percent in September 2025.",
+        "confidence": 1,
+        "passage_id": 7,
+        "predicate": "unemployment_rate",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "September 2025"
+          }
+        ],
+        "quote": "Unemployment has remained low at 5.2 percent in September.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.2",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India's simple average industrial tariff was 10.7 percent in 2025.",
+        "confidence": 1,
+        "passage_id": 8,
+        "predicate": "simple_average_industrial_tariff_rate",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "2025"
+          }
+        ],
+        "quote": "reducing the simple average industrial tariff to 10.7 percent",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.7",
+          "unit": "percent"
+        }
+      }
+    ]
+  }
+}

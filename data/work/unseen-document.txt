@@ -1,0 +1,1615 @@
+Date: May 17, 2024
+BSE Limited
+Phiroze Jeejeebhoy Towers,
+Dalal Street,
+Mumbai – 400 001 India
+Scrip Code: 543529
+National Stock Exchange of India Limited
+Exchange Plaza, C-1, Block G,
+Bandra Kurla Complex,
+Bandra (E), Mumbai – 400 051 India
+Symbol: DELHIVERY
+Sub:  Investor Presentation for the ‘Earnings Audio / Video (AV) Conference Call’ scheduled to be held on
+May 17, 2024, by Delhivery Limited (‘the Company’).
+Dear Sir/ Madam,
+In furtherance to our earlier communication dated May 11, 2024 w.r.t. Earnings Audio / Video Conference Call and
+pursuant to the provisions of Regulation 30 and 33 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, please find a copy of the Investor Presentation, on Audited Standalone and Consolidated
+Financial Results of the Company for the quarter and financial year ended March 31, 2024, proposed to be presented
+at the upcoming Earnings Audio / Video (AV) Conference Call scheduled to be held today, i.e., Friday, May 17, 2024,
+at 06:00 P.M. (IST) by the Company.
+This presentation will also be hosted on the Company’s website at www.delhivery.com
+You are requested to take the same on your record.
+Thank you.
+Yours sincerely,
+For Delhivery Limited
+Madhulika Rawat
+Company Secretary & Compliance Officer
+Membership No: F8765
+Place: Goa
+Encl: As above
+MADHULIK
+A VIPIN
+RAWAT
+Digitally signed by
+MADHULIKA VIPIN
+RAWAT
+Date: 2024.05.17
+17:46:01 +05'30'
+
+
+Earnings Presentation
+Q4 & FY24
+
+
+Safe harbour and disclaimer
+This Presentation is prepared by Delhivery Limited (“Company”) and is for information purposes only without regards to specific objectives, financial situations or needs of any particular person and nothing in it shall be
+construed as an invitation, offer, solicitation, recommendation or advertisement in respect of the purchase or sale of any securities of the Company or any affiliates in any jurisdiction or as an inducement to enter into
+investment activity and no part of it shall form the basis of or be relied upon in connection with any contract or commitment or investment decision whatsoever. This Presentation does not take into account, nor does it
+provide any tax, legal or investment advice or opinion regarding the specific investment objectives or financial situation of any person. This Presentation and its contents are confidential and proprietary to the Company
+and/or its affiliates and no part of it or its subject matter be used, reproduced, copied, distributed, shared, or disseminated, directly or indirectly, to any other person or published in whole or in part for any purpose, in any
+manner whatsoever.
+Certain statements in this communication may be ‘forward looking statements’ within the meaning of applicable laws and regulations. These forward-looking statements involve a number of risks, uncertainties and other
+factors that could cause actual results to differ materially from those suggested by the forward-looking statements. Important developments that could affect the Company’s operations include changes in the industry
+structure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc.
+Investment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited
+along with the equity investment risk which doesn't guarantee capital protection.
+2
+
+
+3
+FY24: EBITDA
+profitable
+
+
+FY24 highlights
+4
+3
+PTL: 30%+ YoY growth with significant improvement in profitability and market share
+1
+Significant improvement in profitability during FY24 - full year EBITDA profitability achieved
+4
+SCS: Doubled service EBITDA profitability over FY23, strong Q4
+5
+TL: 40% YoY revenue growth with service EBITDA profitability improvement
+6
+Sharp YoY reduction in NWC days from 38 to 31 days
+a
+FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23
+b
+PAT profitable in Q3 FY24; PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23
+2
+Express Parcel: 18%+ Service EBITDA profitability; robust growth in key segments
+
+
+ss
+India’s largest integrated logistics platform(1)
+(1)
+As per RedSeer report basis FY21 revenue
+(2)
+Growth rate of revenue from services (excluding revenue from traded goods)
+(3)
+Includes Spoton’s full year tonnage for FY22
+5
+1.4 Mn Tons
+PTL freight tonnage in FY24
+YoY: 29.8%
+₹8,142 Cr
+FY24 revenue from services
+YoY: 12.7%(2)
+740 Mn
+Express parcel shipments in FY24
+YoY: 11.5%
+₹127Cr / 1.6%
+EBITDA / EBITDA margin
+FY23: ₹(452) Cr / (6.3%)
+2.8 Bn+
+Express parcel shipments since inception
+4.8 Mn+ Tons(3)
+PTL freight tonnage since inception
+₹76Cr / 0.9%
+Adj. EBITDA / Adj. EBITDA margin
+FY23: ₹(404) Cr / (5.6%)
+FY24
+
+
+ss
+India’s largest integrated logistics platform(1)
+(1)
+As per RedSeer report basis FY21 revenue
+(2)
+Growth rate of revenue from services (excluding revenue from traded goods)
+6
+384K Tons
+PTL freight tonnage in Q4 FY24
+YoY: 20.8% / QoQ: 8.6%
+₹2,076 Cr
+Q4 FY24 revenue from services
+YoY: 11.6% / QoQ: (5.4%) (2)
+176 Mn
+Express parcel shipments in Q4 FY24
+YoY: (2.2%) / QoQ: (12.8%)
+₹46Cr / 2.2%
+EBITDA / EBITDA margin
+Q4 FY23: ₹13 Cr / 0.7%
+Q3 FY24: ₹109 Cr / 5.0%
+₹21 Cr / 1.0%
+Adj. EBITDA / Adj. EBITDA margin
+Q4 FY23: ₹6 Cr / 0.3%
+Q3 FY24: ₹92 Cr / 4.2%
+Q4 FY24
+
+
+Key operating metrics
+As of end of / for the period
+Q4 FY22
+Q4 FY23
+Q3 FY24
+Q4 FY24
+Pin-code reach(1)
+18,074
+18,540
+18,675
+18,793
+Countries and territories served(2)
+220+
+220+
+220+
+220+
+No. of Active Customers(3)
+23,613
+27,253
+30,598
+33,278
+Infrastructure (in million sq ft.)
+18.15
+17.99
+19.24
+18.82
+Gateways
+123
+94
+110
+111
+Automated sort centers
+21
+24
+30
+29
+Freight service centers
+267
+141
+131
+129
+Express delivery centers
+2,961
+2,880
+3,404
+3,506
+Partner centers (constellation/BAs)
+1,224
+1,175
+993
+939
+Processing centers
+178
+174
+164
+160
+Team size(4)
+60,373
+57,307
+63,144
+63,713
+Partner agents(5)
+34,360
+34,987
+37,172
+34,422
+Fleet size – daily average
+9,120
+11,105
+13,688
+15,065
+(1)
+Out of 19,300 Pin-codes as per India Post
+(2)
+Through Delhivery and partner (FedEx and Aramex) networks
+(3)
+Active Customers for a quarter are those customers on whom an invoice was raised at least once during such quarter.
+(4)
+Includes permanent employees and contractual workers (excluding partner agents, daily wage manpower and security guards) as of the last day of the
+relevant period
+(5)
+Count of last mile delivery partner agents in the last month of the relevant period
+7
+
+
+59%
+63%
+62%
+24%
+16%
+19%
+4%
+6%
+7%
+8%
+11%
+10%
+7,054
+7,224
+8,142
+FY22
+FY23
+FY24
+Express Parcel
+PTL
+TL
+SCS
+Cross Border
+Revenue from services(1,2)
+(₹ Cr)
+FY24 performance
+582
+663
+740
+FY22
+FY23
+FY24
+4,191
+4,552
+5,077
+FY22
+FY23
+FY24
+Express Parcel revenue
+PTL freight revenue(2)
+1,579
+1,101
+1,429
+FY22
+FY23
+FY24
+1,705
+1,157
+1,517
+FY22
+FY23
+FY24
+(₹ Cr)
+(Mn)
+Express Parcel shipments
+(₹ Cr)
+PTL freight tonnage(2)
+(‘000 Tons)
+8
+YoY: 11%
+YoY: 30%
+YoY: 12%
+YoY: 31%
+YoY: 13%
+(1)
+Revenue from services excludes revenue from traded goods
+(2)
+FY22 numbers are on pro forma basis
+Note: Due to rounding off, totals may not correspond with the sum of the separate figures
+
+
+318
+296
+153
+FY22
+FY23
+FY24
+FY24 performance
+551
+782
+776
+FY22
+FY23
+FY24
+287
+436
+609
+FY22
+FY23
+FY24
+TL revenue
+Cross Border Services revenue (3)
+(₹ Cr)
+(₹ Cr)
+Supply Chain Services revenue
+(₹ Cr)
+9
+YoY: 40%
+YoY: (1%)
+YoY: (48%)
+(1)
+Revenue from services excludes revenue from traded goods
+(2)
+FY22 numbers are on pro forma basis
+(3)
+Revenue from Cross Border Services in FY22 included freight revenue of Rs 46 Cr from the shipment
+of Covid related traded goods.
+Note: Due to rounding off totals may not correspond with the sum of the separate figures
+59%
+63%
+62%
+24%
+16%
+19%
+4%
+6%
+7%
+8%
+11%
+10%
+7,054
+7,224
+8,142
+FY22
+FY23
+FY24
+Express Parcel
+PTL
+TL
+SCS
+Cross Border
+Revenue from services(1,2)
+(₹ Cr)
+YoY: 13%
+
+
+63%
+66%
+59%
+18%
+17%
+20%
+6%
+7%
+8%
+10%
+8%
+11%
+1,860
+2,194
+2,076
+Q4 FY23
+Q3 FY24
+Q4 FY24
+Express Parcel
+PTL
+TL
+SCS
+Cross Border
+Revenue from services(1)
+(₹ Cr)
+YoY: 12%
+QoQ: (5%)
+Q4 FY24 performance
+180
+201
+176
+Q4 FY23
+Q3 FY24
+Q4 FY24
+1,177
+1,448
+1,217
+Q4 FY23
+Q3 FY24
+Q4 FY24
+Express Parcel revenue
+(₹ Cr)
+(Mn)
+Express Parcel shipments
+YoY: 3%
+YoY: (2%)
+10
+QoQ: (13%)
+QoQ: (16%)
+(1)
+Revenue from services excludes revenue from traded goods
+Note: Due to rounding off, totals may not correspond with the sum of individual figures
+PTL freight revenue
+318
+354
+384
+Q4 FY23
+Q3 FY24
+Q4 FY24
+328
+379
+417
+Q4 FY23
+Q3 FY24
+Q4 FY24
+(₹ Cr)
+PTL freight tonnage
+(‘000 Tons)
+YoY: 27%
+YoY: 21%
+QoQ: 9%
+QoQ: 10%
+
+
+Q4 FY24 performance
+188
+173
+234
+Q4 FY23
+Q3 FY24
+Q4 FY24
+109
+153
+174
+Q4 FY23
+Q3 FY24
+Q4 FY24
+TL Service revenue
+Cross Border Services revenue
+(₹ Cr)
+(₹ Cr)
+Supply Chain Services revenue
+(₹ Cr)
+YoY: 59%
+YoY: 25%
+YoY: (46%)
+11
+57
+39
+31
+Q4 FY23
+Q3 FY24
+Q3 FY24
+QoQ: 14%
+QoQ: 36%
+QoQ: (21%)
+(1)
+Revenue from services excludes revenue from traded goods
+Note: Due to rounding off, totals may not correspond with the sum of individual figures
+63%
+66%
+59%
+18%
+17%
+20%
+6%
+7%
+8%
+10%
+8%
+11%
+1,860
+2,194
+2,076
+Q4 FY23
+Q3 FY24
+Q4 FY24
+Express Parcel
+PTL
+TL
+SCS
+Cross Border
+Revenue from services(1)
+(₹ Cr)
+YoY: 12%
+QoQ: (5%)
+
+
+(12.5%)
+(7.0%)
+(3.7%)
+0.3%
+(1.3%)
+(0.6%)
+4.2%
+1.0%
+(5.6%)
+0.9%
+Q1 FY23
+Q2 FY23
+Q3 FY23
+Q4 FY23
+Q1 FY24
+Q2 FY24
+Q3 FY24
+Q4 FY24
+FY23
+FY24
+Adjusted EBITDA
+(125)
+(67)
+(25)
+6
+(₹ Cr)
+Quarterly
+12
+(217)
+(13)
+Quarterly
+92
+21
+(404)
+76
+Yearly
+
+
+Adjusted EBITDA
+₹ Cr
+Q1 FY23
+Q2 FY23
+Q3 FY23
+Q4 FY23
+Q1 FY24
+Q2 FY24
+Q3 FY24
+Q4 FY24
+FY23
+FY24
+Revenue from customers(1)
+1,746
+1,796
+1,824
+1,860
+1,930
+1,942
+2,194
+2,076
+7,225
+8,142
+Service EBITDA
+(6)
+86
+139
+205
+196
+201
+306
+238
+422
+941
+Service EBITDA margin
+(0.3%)
+4.8%
+7.6%
+11.0%
+10.2%
+10.4%
+14.0%
+11.5%
+5.8%
+11.6%
+Less: Corporate overheads
+211
+210
+206
+200
+221
+214
+214
+217
+826
+866
+Corp. overheads (% of
+revenue)
+12.1%
+11.7%
+11.3%
+10.7%
+11.4%
+11.0%
+9.7%
+10.5%
+11.4%
+10.6%
+Adjusted EBITDA
+(217)
+(125)
+(67)
+6
+(25)
+(13)
+92
+21
+(404)
+76
+Adjusted EBITDA margin
+(12.5%)
+(7.0%)
+(3.7%)
+0.3%
+(1.3%)
+(0.6%)
+4.2%
+1.0%
+(5.6%)
+0.9%
+Service EBITDA refers
+to EBITDA generated
+after accounting for
+direct variable and
+fixed costs of
+operations, excluding
+corporate overheads
+Note: Due to rounding off, totals may not correspond with the sum of individual figures
+(1)
+Includes revenue from services and traded goods
+13
+
+
+Service line-wise profitability
+₹ Cr
+Q1 FY23
+Q2 FY23
+Q3 FY23
+Q4 FY23
+Q1 FY24
+Q2 FY24
+Q3 FY24
+Q4 FY24
+FY23
+FY24
+Total Service EBITDA
+(6)
+86
+139
+205
+196
+201
+306
+238
+422
+941
+% margin
+(0.3%)
+4.8%
+7.6%
+11.0%
+10.2%
+10.4%
+14.0%
+11.5%
+5.8%
+11.6%
+Express Parcel
+94
+134
+190
+219
+217
+203
+299
+214
+636
+934
+% margin
+8.9%
+11.9%
+15.9%
+18.6%
+18.1%
+16.8%
+20.6%
+17.6%
+14.0%
+18.4%
+Part Truckload
+(111)
+(52)
+(48)
+(26)
+(30)
+(18)
+(7)
+9
+(237)
+(46)
+% margin
+(42.8%)
+(17.9%)
+(17.3%)
+(8.0%)
+(8.5%)
+(4.9%)
+(1.8%)
+2.2%
+(20.5%)
+(3.0%)
+Supply Chain Services
+13
+7
+(5)
+10
+12
+14
+13
+14
+25
+53
+% margin
+5.5%
+3.7%
+(2.8%)
+5.4%
+5.9%
+8.5%
+7.3%
+6.0%
+3.2%
+6.8%
+Others
+(3)
+(2)
+1
+2
+(4)
+3
+1
+0
+(1)
+1
+Corporate overheads
+211
+210
+206
+200
+221
+214
+214
+217
+826
+866
+Wages
+117
+114
+112
+107
+119
+117
+115
+111
+450
+462
+Marketing
+11
+6
+3
+3
+5
+10
+10
+10
+22
+35
+Technology
+44
+44
+43
+39
+43
+44
+45
+44
+170
+176
+G&A
+40
+46
+48
+50
+53
+43
+43
+52
+185
+192
+Adjusted EBITDA
+(217)
+(125)
+(67)
+6
+(25)
+(13)
+92
+21
+(404)
+76
+% margin
+(12.5%)
+(7.0%)
+(3.7%)
+0.3%
+(1.3%)
+(0.6%)
+4.2%
+1.0%
+(5.6%)
+0.9%
+14
+Note: Due to rounding off, totals may not correspond with the sum of individual figures
+
+
+Working capital position improving YoY
+Net Working Capital Days (Receivable days – Payable days)
+73
+47
+37
+Net Working Capital
+(Days)
+106
+87
+74
+77
+66
+33
+40
+37
+39
+35
+Mar '20
+Mar '21
+Mar '22
+Mar '23
+Mar '24
+Receivable days
+Payable days
+Receivable days = (Trade receivables + Unbilled receivables) * 365 /  Annualized revenue from operations basis the last quarter of the period
+Payable days = Trade payables * 365 /  Annualized revenue from operations basis the last quarter of the period
+15
+38
+31
+
+
+Quarterly and full year financial performance
+₹ Cr
+Q4 FY23
+Q3 FY24
+Q4 FY24
+QoQ%
+YoY%
+FY23
+FY24
+YoY%
+Income
+Revenue for services (A)
+1,860
+2,194
+2,076
+(5.4%)
+11.6%
+7,224
+8,142
+12.7%
+Revenue from traded goods (B)
+0
+-
+-
+-
+-
+2
+-
+-
+Revenue from customers (A+B)
+1,860
+2,194
+2,076
+(5.4%)
+11.6%
+7,225
+8,142
+12.7%
+Other income
+75
+131
+119
+(8.8%)
+60.0%
+305
+453
+48.4%
+Total income
+1,934
+2,325
+2,195
+(5.6%)
+13.5%
+7,530
+8,594
+14.1%
+Expense
+Total freight, handling and servicing cost
+1,372
+1,572
+1,519
+(3.4%)
+10.7%
+5,669
+5,971
+5.3%
+Employee benefit expense
+Employee benefit expense excl. share based payments
+284
+306
+308
+0.8%
+8.4%
+1,111
+1,211
+9.0%
+Employee benefit expense: share based payments
+73
+54
+49
+(8.9%)
+(32.8%)
+289
+226
+(21.8%)
+Other operating expense
+117
+154
+154
+0.0%
+31.0%
+606
+607
+0.3%
+Finance costs
+19
+22
+27
+22.3%
+43.4%
+89
+89
+(0.3%)
+Depreciation and amortisation expense
+242
+183
+200
+9.7%
+(17.3%)
+831
+722
+(13.2%)
+Total expenses
+2,108
+2,290
+2,257
+(1.4%)
+7.1%
+8,597
+8,825
+2.7%
+Share of profit / (loss) of associates (net)
+1
+(4)
+6
+14
+9
+(35.9%)
+Profit / (Loss) before exceptional items and tax
+(173)
+31
+(56)
+(1,053)
+(222)
+Exceptional items
+-
+(8)
+(15)
+-
+(22)
+Tax expense
+(14)
+12
+(2)
+(45)
+5
+Profit / (Loss) after tax
+(159)
+12
+(69)
+(1,008)
+(249)
+EBITDA
+13
+109
+46
+(58.0%)
+242.5%
+(452)
+127
+EBITDA margin
+0.7%
+5.0%
+2.2%
+(277 Bps)
+149 Bps
+(6.3%)
+1.6%
+781 Bps
+16
+Note: Due to rounding off, totals may not correspond with the sum of individual figures
+
+
+Appendix
+17
+
+
+Balance sheet
+(1) Includes non-current investments, non-current margin money deposits, non-current deposits with original maturity of >12 months
+(2) Including intangible assets under development
+(3) Investments in Falcon Autotech, Vinculum and Boxseat Ventures
+(4) Includes security deposits and other non-current assets
+(5) Includes cash and other bank balances, current investments, current margin money deposits and current deposits with original maturity of >12 months; excludes ₹92 Cr of accrued interest in Mar ‘23 and ₹145 Cr of accrued interest In
+Mar ‘24 on deposits and investments
+(6) Unbilled receivables amounting to ₹581 crores, pertaining to Mar ‘23 reclassified as trade receivables due to a change in accounting
+Equity and Liabilities (₹ Cr)
+Mar’ 23
+Mar ’24
+Total equity
+9,177
+9,145
+Non – current liabilities
+Borrowings
+114
+40
+Lease liabilities
+534
+844
+Provisions
+51
+65
+Deferred tax liabilities (net)
+31
+13
+Current liabilities
+Borrowings
+84
+85
+Lease liabilities
+190
+200
+Provisions
+27
+39
+Trade payables
+787
+797
+Other current liabilities
+216
+225
+Total liabilities
+2,036
+2,308
+Total equity and liabilities
+11,213
+11,453
+Assets (₹ Cr)
+Mar ’23
+Mar ’24
+Non – current assets
+Non – current cash equivalents(1)
+596
+1,411
+Property, plant and equipment (Incl CWIP)
+817
+961
+Goodwill and other intangible assets(2)
+1,533
+1,433
+Right of use assets
+667
+988
+Investments(3)
+282
+351
+Non - current tax assets
+216
+259
+Other assets(4)
+138
+100
+Current assets
+Cash & cash equivalents(5)
+4,912
+4,033
+Trade receivables
+1,524
+1,430
+Unbilled receivables(6)
+53
+62
+Inventories
+19
+16
+Other assets
+455
+409
+Total assets
+11,213
+11,453
+18
+Total cash balance: ₹ 5,444 Cr
+
+
+Strong liquidity position
+Debt to Equity
+₹ Cr
+Mar ’23
+Mar ’24
+Term loan
+199
+126
+Working capital loan
+-
+-
+Debt (excludes CCPS) (A)
+199
+126
+Cash and cash equivalents(1) (B)
+5,508
+5,444
+Net debt (A-B)
+(5,309)
+(5,318)
+Networth (C)
+9,177
+9,145
+Debt/Equity (A/C)
+0.02x
+0.01x
+(1)
+Includes investments, other bank balances, margin money deposits and deposits with original maturity for >12 months; excludes ₹145 Cr of accrued interest In Mar ‘24
+19
+
+
+Cash flow summary
+(1)
+FY23 includes the impact of certain reclassifications
+(2)
+Change in inventory, receivables, other financial assets, loans, other assets, payables, other liabilities
+(3)
+Includes investments, margin money deposits and deposits with original maturity for >12 months; doesn’t include accrued interests on deposits and investments
+₹ Cr
+FY23
+FY24
+Net cash from / (used in) operating activities
+(30)
+472
+Cash generated from / (used in) operations
+42
+510
+Cash operating profit/ (loss) before working capital changes(1)
+(22)
+495
+Changes in net assets(1,2)
+64
+15
+Direct taxes paid (net of refund)
+(72)
+(37)
+Net cash from / (used in) investing activities
+(3,411)
+(99)
+Net cash from / (used in) investing into treasury instruments
+(2,782)
+444
+Net cash from / (used in) capex and M&A
+(629)
+(543)
+Net cash from / (used in) financing activities
+3,538
+(366)
+Net cash from / (used in) interest and principal portion of lease liabilities
+(258)
+(277)
+Net cash from / (used in) other financing activities
+3,796
+(89)
+Net change in cash
+98
+7
+Net foreign exchange difference
+2
+0
+Opening cash balance at the being of the year
+195
+295
+Closing cash balance at the end of the year (A)
+295
+303
+Cash equivalents at the end of the year(3) (B)
+5,213
+5,141
+Cash & cash equivalents at the end of the year (A+B)
+5,508
+5,444
+20
+
+
+Investing in capacity and capability building
+21
+1.2%
+0.2%
+1.4%
+1.8%
+2.1%
+1.2%
+1.2%
+2.3%
+1.0%
+1.7%
+1.7%
+2.7%
+1.3%
+2.1%
+1.2%
+2.0%
+1.7%
+3.5%
+2.8%
+1.9%
+2.0%
+1.7%
+1.6%
+1.6%
+1.1%
+0.6%
+1.1%
+0.5%
+0.4%
+FY19
+FY20
+FY21
+FY22
+FY23
+FY24
+Vehicles
+Automation
+Plant, Machinery & Leasehold improvements
+Furnitures, Fixtures & Office Equipments
+IT
+Acquired Assets
+9.0%
+Capital Expenditure as % of Revenue from Services
+7.5%
+7.2%
+6.8%
+7.8%
+7.4%
+(1,2)
+(1)
+(3)
+Note: The Capex does not include CWIP. The CWIP at the end of FY24 is ₹29 Cr
+(1)
+~Rs 100 Cr of Capex, which happened in FY22, was planned for FY21; hence that amount has been included in FY21
+(2)
+As % of reported revenues for FY22
+(3)
+Assets acquired through Spoton acquisition
+
+
+Adjusted EBITDA bridge
+₹ Cr
+Q4 FY23
+Q3 FY24
+Q4 FY24
+FY23
+FY24
+Remarks
+Total revenue from customers
+1,860
+2,194
+2,076
+7,225
+8,142
+Less: Freight handling and servicing cost
+1,372
+1,572
+1,519
+5,669
+5,971
+Less: Purchase & change in inventory of
+traded goods
+-
+-
+-
+2
+-
+Less: Employee benefit expense
+357
+360
+357
+1,400
+1,437
+Less: Other expenses
+117
+154
+154
+605
+607
+Add: Fair value loss on investments at fair
+value through profit or loss
+(17)
+-
+-
+(2)
+-
+Non-cash expense/(gain) due to mark to market of
+short-term financial investments included in other
+expenses
+Reported EBITDA
+13
+109
+46
+(452)
+127
+Add: Share based payment expenses
+73
+54
+49
+289
+226
+Accounting expenses towards ESOPs already
+granted
+Add: IPO expense
+-
+-
+-
+16
+-
+IPO related non-operating expenses
+Less: Actual lease rent paid
+64
+71
+75
+258
+277
+Actual cash rent paid on leased properties
+recognized under Ind AS 116
+Adjusted EBITDA
+6
+92
+21
+(404)
+76
+Note: Due to rounding off, totals may not correspond with the sum of individual figures
+22
+
+
+Cost drivers – Q4 FY24 vs Q3 FY24
+(1)
+On reported basis
+(2)
+Breakup as per notes to accounts
+₹ Cr
+Q4 FY22
+Q4 FY23
+Q3 FY24
+Q4 FY24
+FY23
+FY24
+Freight, Handling and Servicing Cost(1,2)
+1,502
+1,372
+1,572
+1,519
+5,669
+5,971
+% of Revenue from services(2)
+72.5%
+73.8%
+71.6%
+73.2%
+78.5%
+73.3%
+Line haul expenses
+724
+616
+696
+708
+2,517
+2,684
+% of revenue
+34.5%
+33.1%
+31.7%
+34.1%
+34.8%
+33.0%
+Vehicle rental expenses
+419
+384
+434
+391
+1,523
+1,603
+% of revenue
+20.2%
+20.6%
+19.8%
+18.8%
+21.1%
+19.7%
+Contractual manpower expenses
+222
+206
+268
+254
+893
+995
+% of revenue
+10.7%
+11.1%
+12.2%
+12.2%
+12.4%
+12.2%
+Rent
+47
+65
+66
+76
+269
+282
+% of revenue
+2.3%
+3.5%
+3.0%
+3.6%
+3.7%
+3.5%
+Security expenses
+22
+21
+21
+21
+91
+85
+% of revenue
+1.0%
+1.2%
+1.0%
+1.0%
+1.3%
+1.0%
+Power, fuel & water charges
+39
+37
+52
+47
+168
+186
+% of revenue
+1.9%
+2.0%
+2.4%
+2.3%
+2.3%
+2.3%
+Packing material
+10
+6
+4
+3
+25
+19
+% of revenue
+0.5%
+0.3%
+0.2%
+0.2%
+0.3%
+0.2%
+Stores and spares
+8
+4
+3
+2
+19
+17
+% of revenue
+0.4%
+0.2%
+0.1%
+0.1%
+0.3%
+0.2%
+Lost shipment expense (net)
+10
+32
+27
+18
+163
+101
+% of revenue
+0.5%
+1.7%
+1.2%
+0.9%
+2.3%
+1.2%
+23
+Note: Due to rounding off, totals may not correspond with the sum of individual figures
+
+
+ESOPs ungranted
+Total
+% of shares outstanding on a
+fully diluted basis
+ESOPs ungranted, of which
+40,424,975
+5.03%
+Time-based ESOPs(4)
+25,364,975
+3.16%
+Performance-based ESOPs(5)
+15,060,000
+1.87%
+Note: Any new ESOP grants made in the future will be duly notified to the stock exchanges
+(1)
+As of March 31, 2024
+(2)
+Related to costs attributable to time-based ESOPs already granted; in event of forfeiture of ESOPs upon resignation/ termination of
+employee prior to completion of vesting, costs will be reversed
+(3)
+Related to costs attributable to performance-based ESOPs already granted. The cost is calculated using Monte Carlo simulation.
+(4)
+Vesting period ranges from 3 to 4 years
+(5)
+To be unlocked in three equal tranches upon achieving share prices of ₹800, ₹1,000 and ₹1,200; and vest equally over 2 years
+thereafter
+Employee Stock Options(1)
+24
+Estimated P&L charge (non-cash) for ESOPs already granted
+₹ Cr
+Cost of time-based options(2)
+Cost of performance-based
+options(3)
+FY24
+132
+94
+FY25
+90
+40
+FY26
+38
+12
+FY27
+6
+2
+FY28
+0
+-
+Total
+266
+147
+Number of employees holding ESOPs (vested + unvested) : 1,432
+
+
+Definitions and abbreviations
+Cross Border
+Cross border ocean & air freight and express parcel services by the Company
+Pro forma financials
+The pro forma consolidated P&L and adjusted EBITDA compiled by our Company to illustrate the impact of the acquisition of SpotOn Logistics Private Limited on our consolidated financial
+statements for the year ended March 31, 2022 as if the acquisition occurred on 1st April 2021. These have not been reviewed / audited by auditors
+PTL freight
+Part truck load freight service by the Company
+RedSeer report
+Report titled “Logistics Market in India” dated April 21, 2022 prepared by RedSeer in connection with the public offer by the Company
+SCS
+Supply chain services by the Company through which the Company provides integrated supply chain solutions (warehousing & transportation)
+TL
+Truck load freight service by the Company which connects shippers with fleet-owners and suppliers of truckload capacity across the country via a centralized bidding and matching engine
+25
+
+
+For any queries, please write to us at ir@delhivery.com
+26
+
+

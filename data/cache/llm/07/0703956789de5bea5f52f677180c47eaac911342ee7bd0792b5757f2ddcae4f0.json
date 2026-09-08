@@ -1,0 +1,349 @@
+{
+  "key": "0703956789de5bea5f52f677180c47eaac911342ee7bd0792b5757f2ddcae4f0",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"80\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 4. Invisibles\n</context>\n<text>\nElectrodes\nConsumer Electronics\nComputer Hardware, Peripherals\nAccumulators and Batteries\nChart II.7.15: Electronic Goods Imports\n25.1\n34.4\n36.8\n0\n20\n40\n60\n80\n100\n120\n2022-23\n2023-24\n2024-25\nChart II.7.16: Electronics Trade Balance\nUS$ billion\nSource: DGCI&S.\nTelecom Instruments\nElectronics Instruments\nElectronics Components\nElectrodes\nConsumer Electronics\nComputer Hardware, Peripherals\nAccumulators and Batteries\n2022-23\n2023-24\n2024-25\n-21.0\n-29.0\n-31.9\n-70\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n\n\nECONOMIC REVIEW\n77\nservices exports at US$ 135.5 billion grew at\na robust pace of 12.9 per cent (y-o-y) during\nApril-December 2024, aided by 14.5 per cent\nexpansion in software and business services\nexports (accounting for around 74 per cent of\nIndia\u2019s services exports) [Chart II.7.19]. Amongst\nother services, transportation receipts increased\nby 19.5 per cent (y-o-y), largely driven by an\nincrease in global freight rates due to disruptions\nin key trade routes \u2013 the average Baltic Dry\nIndex43 rose by 12.0 per cent during April-\nDecember 2024 over the corresponding period\nof the previous year. Exports of travel services\nrose by 5.5 per cent (y-o-y), reflecting increased\nspending by tourists. Private transfer receipts,\nmainly representing remittances by Indians\n43\t A shipping and trade index, created by the Baltic Exchange (London), which measures the cost of transporting dry bulk raw materials such\nas coal, iron and steel.\nChart II.7.17: Coal Imports and Price\na. Coal Imports\nb. International Coal Price\nSource: World Bank and DGCI&S.\nUS$/metric tonne\nUS$ billion\nMillion tonne\nIndonesia\nAustralia\nSouth Africa\nRussia\nOthers\nTotal Value (RHS)\n49.7\n38.9\n31.1\n0\n50\n100\n150\n200\n250\n300\n0\n10\n20\n30\n40\n50\n60\n2022-23\n2023-24\n2024-25\n104.0\n0\n50\n100\n150\n200\n250\n300\n350\n400\n450\n500\nApr-22\nSep-22\nFeb-23\nJul-23\nDec-23\nMay-24\nOct-24\nMar-25\nTB: Trade Balance.\nNote: A positive \u2206 export/\u2206 import implies higher exports/imports and vice versa.\nSource: DGCI&S and RBI staff estimates.\nChart II.7.18: India\u2019s Merchandise Trade Deficit\na. Total TB and Oil TB\nb. Sources of Change in India's TB\n(2024-25 over 2023-24)\nUS$ billion\nTrade Balance\nOil Trade Balance\n\u2206  Export\n\u2206 Import\n\u2206 TB\nUS$ billion\nImprovement in TB:\nHigher exports/lower imports\n-300\n-250\n-200\n-150\n-100\n-50\n0\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n-20\n-10\n0\n10\n20\nUS\nNetherlands\nBangladesh\nNepal\nUK\nSwitzerland\nIraq\nUAE\nRussia\nChina\nTrade Surplus\nTrade Deficit\nDeterioration in TB:\nLower exports/higher imports\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"81\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 4. Invisibles\n</context>\n<text>\nChart II.7.18: India\u2019s Merchandise Trade Deficit\na. Total TB and Oil TB\nb. Sources of Change in India's TB\n(2024-25 over 2023-24)\nUS$ billion\nTrade Balance\nOil Trade Balance\n\u2206  Export\n\u2206 Import\n\u2206 TB\nUS$ billion\nImprovement in TB:\nHigher exports/lower imports\n-300\n-250\n-200\n-150\n-100\n-50\n0\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n-20\n-10\n0\n10\n20\nUS\nNetherlands\nBangladesh\nNepal\nUK\nSwitzerland\nIraq\nUAE\nRussia\nChina\nTrade Surplus\nTrade Deficit\nDeterioration in TB:\nLower exports/higher imports\n\n\nANNUAL REPORT 2024-25\n78\nworking overseas, posted a y-o-y growth of 16.2\nper cent during April-December 2024.\nII.7.19\t In global commercial services trade,\nIndia retained its position among the major\nfive exporting countries in terms of services\nexport growth during 2024-25 (up to February\n2025) [Chart II.7.20]. According to Gartner44,\nglobal IT spending is expected to rise to US$\n5.4 trillion in 2025 from US$ 5.1 trillion in 2024\nwhich augurs well for India\u2019s software services\nexports.\nII.7.20\t India\nremained\nthe\ntop\nremittance\nrecipient in 2024 (Chart II.7.21a). India\u2019s total\n44\t Gartner Inc. is an American technological research and consulting firm, known for its research and reports on the IT industry and forecasts\non worldwide IT spending.\nChart II.7.19: Composition of India's Services Exports\n*: Includes insurance services, communication services and government not\nincluded elsewhere, among others.\nSource: RBI.\nUS$ billion\nTravel\nTransportation\nSoftware Services\nBusiness Services\nFinancial Services\nOthers*\nTotal Services\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n110\nQ1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nChart II.7.20: Services Exports Growth in Major\nServices Exporting Economies\n*: Data for India pertain to April-March.\n**: Data for EU and UK pertain to April-January.\nSource: WTO and RBI.\nPer cent\n2023-24 (April-February)\n2024-25 (April-February)\n-5.9\n4.8\n21.2\n-0.7\n14.8\n5.9\n7.3\n20.1\n13.6\n10.2\n10.0\n9.7\n9.1\n8.0\n-15\n0\n15\n30\nChina\nIndia*\nJapan\nSouth Korea\nUK**\nEU**\nUSA\nChart II.7.21: Inward Remittances\na. Inward Remittances Across Major Recipient Countries\nb. Cost of Receiving Remittances (US$ 200)\n*: Based on India\u2019s BoP statistics.\nSource: RBI and World Bank.\n0\n20\n40\n60\n80\n100\n120\n140\nEgypt\nNigeria\nGuatemala\nGermany\nBangladesh\nPakistan\nFrance\nPhilippines\nChina\nMexico\nIndia*\nUS$ billion\n2022\n2023\n2024\nWorld\nIndia\nMexico\nChina\nPhilippines\nBangladesh\nGuatemala\nNigeria\n3.5\n4.0\n4.5\n5.0\n5.5\n6.0\n6.5\n7.0\n7.5\n2023\nQ3:2024\nPer cent\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"82\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 4. Invisibles\n</context>\n<text>\nSouth Korea\nUK**\nEU**\nUSA\nChart II.7.21: Inward Remittances\na. Inward Remittances Across Major Recipient Countries\nb. Cost of Receiving Remittances (US$ 200)\n*: Based on India\u2019s BoP statistics.\nSource: RBI and World Bank.\n0\n20\n40\n60\n80\n100\n120\n140\nEgypt\nNigeria\nGuatemala\nGermany\nBangladesh\nPakistan\nFrance\nPhilippines\nChina\nMexico\nIndia*\nUS$ billion\n2022\n2023\n2024\nWorld\nIndia\nMexico\nChina\nPhilippines\nBangladesh\nGuatemala\nNigeria\n3.5\n4.0\n4.5\n5.0\n5.5\n6.0\n6.5\n7.0\n7.5\n2023\nQ3:2024\nPer cent\n\n\nECONOMIC REVIEW\n79\nremittance receipts stood at US$ 137.7 billion\nduring 2024 (on a calendar year basis). The\naverage cost of sending remittances of US$ 200\nto India is estimated at 5.3 per cent in Q3:2024,\nbelow the global average of 6.6 per cent (Chart\nII.7.21b).\nII.7.21\t Net outgo in the primary income account\nowing\nto\ndividend\nand\ninterest\nincomes/\npayments45 stood at US$ 37.3 billion during\nApril-December 2024, higher than US$ 34.9\nbillion during April-December 2023. This reflects\nthe rise in interest outgoes on liabilities such\nas external commercial borrowings (ECBs),\nexternal assistance and short-term credit, and\npayment of dividends and profits to non-resident\nshareholders during the same period.\nII.7.22\t The buoyancy in net services receipts and\nworkers\u2019 remittances largely offset the expansion\nin merchandise trade deficit; accordingly, India\u2019s\nCAD was contained at US$ 37.1 billion (1.3\nper cent of GDP) in April-December 2024 as\ncompared with US$ 30.7 billion (1.1 per cent of\nGDP) a year ago (Chart II.7.22).\n5. External Financing\nII.7.23\t The global environment for international\ninvestment continued to be challenging amidst\nvolatile external financial conditions, heightened\nglobal economic uncertainty and prolonged\ngeopolitical tensions. In this backdrop, net\ncapital inflows during April-December 2024\nmoderated from a year ago and fell short of\nthe CAD, thus leading to a depletion in foreign\nexchange reserves of US$ 13.8 billion on a BoP\nbasis (excluding valuation effects) during April-\nDecember 2024 (Chart II.7.23 and Appendix\nTable 8).\nII.7.24\t Among various capital flows, gross\nforeign direct investment (FDI) inflows remained\nresilient, rising by 13.7 per cent y-o-y to US$\n81.0 billion during 2024-25. Globally, India\nwas placed fourth in terms of greenfield FDI\n45\t Income on cross-border investments and compensation of employees that domestic resident entities earn from/pay to the rest of the world.\nChart II.7.22: Composition of India's Current Account Balance (CAB)\na. Amount\nb. Ratio\nSource: RBI.\nCAB\nIncome\nTransfers\nTrade Deficit\nServices\nCAB\nIncome\nTransfers\nTrade Deficit\nServices\nPer cent of GDP\n-30.7\n-37.1\n-450\n-300\n-150\n0\n150\n300\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2023-24\n(Apr-Dec)\n2024-25\n(Apr-Dec)\nUS$ billion\n-1.1\n-1.3\n-12\n-8\n-4\n0\n4\n8\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2023-24\n(Apr-Dec)\n2024-25\n(Apr-Dec)\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"83\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 5. External Financing\n</context>\n<text>\n45\t Income on cross-border investments and compensation of employees that domestic resident entities earn from/pay to the rest of the world.\nChart II.7.22: Composition of India's Current Account Balance (CAB)\na. Amount\nb. Ratio\nSource: RBI.\nCAB\nIncome\nTransfers\nTrade Deficit\nServices\nCAB\nIncome\nTransfers\nTrade Deficit\nServices\nPer cent of GDP\n-30.7\n-37.1\n-450\n-300\n-150\n0\n150\n300\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2023-24\n(Apr-Dec)\n2024-25\n(Apr-Dec)\nUS$ billion\n-1.1\n-1.3\n-12\n-8\n-4\n0\n4\n8\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2023-24\n(Apr-Dec)\n2024-25\n(Apr-Dec)\n\n\nANNUAL REPORT 2024-25\n80\ncapital investments announced during 2024-25\nafter the US, France and the UK, according to\nfDi Markets46. Net FDI flows at US$ 0.4 billion\nduring 2024-25 were, however, below US$ 10.1\nbillion a year ago, dragged down by higher\nrepatriation/disinvestment and net outward FDI\n(Table II.7.2).\nII.7.25\t Services sector47 accounted for a major\nshare of FDI equity flows into India during 2024-\n25, followed by manufacturing, electricity and\nother energy, retail and wholesale trade, and\ntransport (Appendix Table 9). Major source\ncountries, viz., Singapore, Mauritius, the US,\nthe Netherlands, and the UAE contributed three-\nfourth of the FDI flows (Chart II.7.24).\n46\t fDi Markets is the leading online database tracking greenfield FDI in real-time across all markets and sectors globally since 2003.\n47\t Services sector includes computer services, communication services, financial services and business services.\nTable II.7.2: Foreign Direct Investment Flows\n(US$ billion)\nItem\n2021-22\n2022-23\n2023-24\n2024-25\n1\n2\n3\n4\n6\n1. \tNet FDI (1.1 - 1.2)\n38.6\n28.0\n10.1\n0.4\n1.1 \t Net Inward FDI (1.1.1 - 1.1.2)\n56.2\n42.0\n26.8\n29.6\n1.1.1 \tGross Inflows\n84.8\n71.4\n71.3\n81.0\n1.1.2 \tRepatriation/Disinvestment\n28.6\n29.3\n44.5\n51.5\n1.2 \t Net Outward FDI\n17.6\n14.0\n16.7\n29.2\nSource: RBI.\nChart II.7.23: Financing of Current Account Deficit\nSource: RBI.\nFPI\nFDI\nECBs\nBanking Capital\nTrade Credit\nOthers\nIncrease (-)/Decrease (+) in Reserves\nCAB\nPer cent of GDP\n-6\n-4\n-2\n0\n2\n4\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2023-24\n(Apr-Dec)\n2024-25\n(Apr-Dec)\nChart II.7.24: Source Country-wise Inflow of FDI (Equity)\nSource: RBI.\nUS$ billion\n2023-24\n2024-25\n0\n3\n6\n9\n12\n15\nSingapore\nMauritius\nUS\nNetherlands\nUAE\nJapan\nCyprus\nBelgium\nSwitzerland\nSouth Korea\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"84\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.7.2: Foreign Direct Investment Flows\n</context>\n<text>\n16.7\n29.2\nSource: RBI.\nChart II.7.23: Financing of Current Account Deficit\nSource: RBI.\nFPI\nFDI\nECBs\nBanking Capital\nTrade Credit\nOthers\nIncrease (-)/Decrease (+) in Reserves\nCAB\nPer cent of GDP\n-6\n-4\n-2\n0\n2\n4\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2023-24\n(Apr-Dec)\n2024-25\n(Apr-Dec)\nChart II.7.24: Source Country-wise Inflow of FDI (Equity)\nSource: RBI.\nUS$ billion\n2023-24\n2024-25\n0\n3\n6\n9\n12\n15\nSingapore\nMauritius\nUS\nNetherlands\nUAE\nJapan\nCyprus\nBelgium\nSwitzerland\nSouth Korea\n\n\nECONOMIC REVIEW\n81\nII.7.26\t According\nto\nthe\nUnited\nNations\nConference\non\nTrade\nand\nDevelopment\n(UNCTAD), India is emerging as a major source\nof global FDI, ranking among the top 20 source\ncountries in 2023. Major destinations for India\u2019s\noutward FDI were Singapore, the US, the UAE,\nMauritius, and the Netherlands. Financial,\ninsurance and business services, manufacturing,\nand wholesale, retail trade, restaurants and\nhotels were main sectors for India\u2019s overseas\ndirect investment during 2024-25. The economic\nsize of the recipient country along with India\u2019s\nbilateral merchandise exports shape India\u2019s FDI\noutflows (Box II.7.1).\nThe global FDI landscape is experiencing a structural\ntransformation on the back of geopolitical alignments and\na rising share of services in global FDI (Casella et al.,\n2024). EMEs are emerging as a major source of foreign\ninvestment, with the share of G20-Emerging Market (G20-\nEM) countries in global FDI outflows increasing from 9.7\nper cent in 2009 to 16.5 per cent in 2023. In tandem with\nthese trends, India\u2019s outward investment has significantly\nincreased, particularly during the post-pandemic period\n(Chart 1a). Also, India\u2019s outward investment has witnessed\na shift towards developed economies, with the average\nshare rising to 51.1 per cent during 2019-2024 (Chart 1b).\nMacroeconomic factors such as physical distance, tax\nregimes, and availability of natural and strategic resources\nBox II.7.1\nIndia\u2019s Outward FDI Trends: Insights from the Gravity Model\nare amongst the key determinants of outward FDI flows\n(Cie\u015blik et al., 2019; Kaushal, 2022). Economies also\ntransition from being net FDI recipients to net outward\ninvestors, gaining benefits from economies of scale,\nenhanced competitiveness, and productivity spillovers to\ndomestic enterprises (Herzer, 2010).\nTo explore the determinants of outward FDI flows from\nIndia, quarterly data are used from Q1:2010 to Q1:2024\n(57 quarters) for India\u2019s bilateral outward FDI flows to 14\ncountries, which constitutes around 80 per cent of India\u2019s\ntotal outward FDI. An extended gravity model is estimated\nby applying the Poisson Pseudo-Maximum Likelihood\n(PPML) estimator, given its ability to handle zero-valued\nobservations and heteroskedasticity in the data. Following\n(Contd.)\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\n0\n4\n8\n12\n16\n20\n2010-11\n2011-12\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\nPer cent\nUS$ billion\nNet Outward FDI\nNet Outward FDI to GDP Ratio (RHS)\n0\n5\n10\n15\n20\n25\n0\n20\n40\n60\n80\n100\n2010-11\n2012-13\n2014-15\n2016-17\n2018-19\n2020-21\n2022-23\nUS$ billion\nPer cent\nShare of Developing Economies\nShare of Developed Economies\nGross Outward FDI (RHS)\nChart 1: India\u2019s Outward FDI Trend\na. Trend in India's Outward FDI\nb. India's Gross Outward FDI\nSource: UNCTAD, RBI and RBI staff estimates.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"85\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > India\u2019s Outward FDI Trends: Insights from the Gravity Model\n</context>\n<text>\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\nPer cent\nUS$ billion\nNet Outward FDI\nNet Outward FDI to GDP Ratio (RHS)\n0\n5\n10\n15\n20\n25\n0\n20\n40\n60\n80\n100\n2010-11\n2012-13\n2014-15\n2016-17\n2018-19\n2020-21\n2022-23\nUS$ billion\nPer cent\nShare of Developing Economies\nShare of Developed Economies\nGross Outward FDI (RHS)\nChart 1: India\u2019s Outward FDI Trend\na. Trend in India's Outward FDI\nb. India's Gross Outward FDI\nSource: UNCTAD, RBI and RBI staff estimates.\n\n\nANNUAL REPORT 2024-25\n82\nTable 1: Estimated Gravity Model Using PPML Estimator\nDependent Variable: Log (Outward FDI)\nExplanatory Variable^\nCoefficients\nModel 1\nModel 2\n1\n2\n3\nLog (Export)\n0.45***\n(0.04)\n-\nLog (Nominal GDP)\n-\n0.54***\n(0.05)\nCorporate Tax (in per cent)\n-\n-0.06***\n(0.007)\nNatural Endowments (in per cent)\n0.20***\n(0.05)\n-\nLog (Distance)\n-0.39***\n(0.09)\n-0.39***\n(0.11)\nNumber of Observations\n798\n798\nR-squared\n0.50\n0.53\n^: Physical distance is measured as geographical distance (in\nkilometres) between the capital cities, while natural endowments\nare captured by percentage share of raw material export in total\nexport of the host country.\n-: Not Applicable.\n*** represents significance level at 1 per cent.\nNote: Figures in parentheses indicate robust standard errors.\nSource: RBI staff estimates.\nCie\u015blik et al. (2019) and Kaushal (2022), PPML regression\nis estimated as per the following generalised form:\nlog (Outward FDIit) = \u03b1 + \u03b21*log(Exportit) + \u03b22*log(Nominal\nGDPit) + \u03b23*log(Physical Distancei) + \u03b24*Corporate Taxit +\n\u03b25*Natural Endowmentsit + \u03b26*i.country + \u03b27*i.time\nwhere, \u2018i\u2019 represents the host country and \u2018t\u2019 denotes the\ntime period.\nThe regression results indicate that India\u2019s outward FDI\nis positively impacted by the host country\u2019s nominal GDP,\nemphasising the significance of market size (Table 1).\nExports to the host country show a strong positive impact on\noutward FDI, indicating that robust bilateral trade relations\nstrengthen economic linkages and foster investment.\nThe negative association with distance highlights the\nimportance of geographic and economic proximity in\noutbound investments. The availability of natural resources\nin host country boosts outward FDI bolstered by secured\nessential resources and stable supply chains. Further,\nhigher corporate tax rates in host economies act as a\ndeterrent for outward FDI. These findings emphasise the\ninterplay of economic, geographic and institutional factors\nin shaping India\u2019s outward FDI flows.\nReferences:\n1.\t Casella, B., Bolwijn, R., and Casalena, F. (2024), \u2018Global Economic Fracturing and Shifting Investment Patterns: A\nDiagnostic of Ten FDI Trends and Their Development Implications\u2019. Vox EU, Centre for Economic Policy Research.\n2.\t Cie\u015blik, A., and Tran, G. H. (2019), \u2018Determinants of Outward FDI from Emerging Economies\u2019, Quarterly Journal of\nEconomics and Economic Policy, 14(2), 209-231.\n3.\t Herzer, D. (2010), 'Outward FDI and Economic Growth', Journal of Economic Studies, 37(5).\n4.\t Kaushal, L. A. (2022), \u2018Institutional and Economic Determinants of Indian OFDI\u2019, Cogent Economics & Finance, 10(1),\n2147648.\nII.7.27\t During\n2024-25,\nforeign\nportfolio\ninvestment (FPI) registered a net inflow amounting\nto US$ 1.7 billion as compared to net inflows\nof US$ 41.6 billion during the previous year\n(Chart II.7.25). The debt segment witnessed\nsteady FPI inflows amounting to US$ 17.4 billion\non the back of inclusion of Indian sovereign bonds\nin global bond indices. Equity FPI flows, however,\nrecorded net outflows of US$ 15.7 billion during\nthe same period as against net inflows of US$\n25.3 billion in 2023-24, mirroring trends in other\nEMEs with rising risk-off sentiments leading to\nselloffs in the equity segment during April-May\n2024, October-November 2024 and January-\nFebruary 2025. FPI equity outflows were largely\ncontributed by oil, gas and consumable fuels, fast\nmoving consumer goods, automobile, and power\nsectors, while inflows were primarily recorded\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"86\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > India\u2019s Outward FDI Trends: Insights from the Gravity Model\n</context>\n<text>\nin global bond indices. Equity FPI flows, however,\nrecorded net outflows of US$ 15.7 billion during\nthe same period as against net inflows of US$\n25.3 billion in 2023-24, mirroring trends in other\nEMEs with rising risk-off sentiments leading to\nselloffs in the equity segment during April-May\n2024, October-November 2024 and January-\nFebruary 2025. FPI equity outflows were largely\ncontributed by oil, gas and consumable fuels, fast\nmoving consumer goods, automobile, and power\nsectors, while inflows were primarily recorded\n\n\nECONOMIC REVIEW\n83\nin the financial services, telecommunication,\nhealthcare, and consumer services sectors.\nEven as investment by FPIs in the debt market\nincreased, the utilisation remains below the\navailable investment limits. As at end-March\n2025, 15.7 per cent of the limits in central\ngovernment securities (G-secs) were utilised\n(18.5 per cent as at end-March 2024). Of the\ntotal value of specified central G-secs opened for\nnon-resident investors under the fully accessible\nroute (FAR), 7.1 per cent were held by FPIs as\nat end-March 2025, up from 4.5 per cent as at\nend-March 2024.\nII.7.28\t During 2024-25, net ECB inflows to India\nrose significantly to US$ 18.7 billion from US$\n3.6 billion in 2023-24 (Chart II.7.26). Besides on-\nlending/sub-lending, disbursements were used\nfor refinancing of earlier ECBs, new projects and\nworking capital requirements (Chart II.7.27). The\nshare of rupee denominated loans and bonds in\nthe total agreement amount stood at 5.0 per cent\nduring 2024-25 as compared with 5.3 per cent a\nyear ago. Of the total ECB agreement amount\nduring 2024-25, 67.6 per cent was explicitly\nhedged, 5.2 per cent was from FDI parent\ncompanies (excluding INR loans) and 5.0 per\ncent was denominated in the INR. The remaining\n22.3 per cent comprised other ECBs, including\nChart II.7.25: Net Foreign Portfolio Flows to India\nSource: NSDL.\nDebt\nEquity\nTotal\nUS$ billion\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\nQ1:2018-19\nQ2:2018-19\nQ3:2018-19\nQ4:2018-19\nQ1:2019-20\nQ2:2019-20\nQ3:2019-20\nQ4:2019-20\nQ1:2020-21\nQ2:2020-21\nQ3:2020-21\nQ4:2020-21\nQ1:2021-22\nQ2:2021-22\nQ3:2021-22\nQ4:2021-22\nQ1:2022-23\nQ2:2022-23\nQ3:2022-23\nQ4:2022-23\nQ1:2023-24\nQ2:2023-24\nQ3:2023-24\nQ4:2023-24\nQ1:2024-25\nQ2:2024-25\nQ3:2024-25\nQ4:2024-25\nChart II.7.26: External Commercial Borrowings\nto India (Net)\nSource: RBI.\nUS$ billion\n0.2\n7.4\n-4.1\n3.6\n18.7\n-5\n0\n5\n10\n15\n20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nChart II.7.27: End Use of ECBs during 2024-25\n(Share in Total Inflows)\nLoc. CG: Local Capital Goods.\nSource: RBI.\nPer cent\nOn-lending/Sub-lending\nRupee Expenditure\nLoc.CG\nModernisation\nRefinancing of Earlier\nECB\nNew Projects\nImport of Capital Goods\nWorking Capital\nOthers\nRefinancing of Rupee\nLoans\nInfrastructure\nDevelopment\n45.3\n16.3\n9.9\n6.1\n3.5\n3.5\n3.3\n2.7\n1.9\n6.3\n0\n10\n20\n30\n40\n50\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"87\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > India\u2019s Outward FDI Trends: Insights from the Gravity Model\n</context>\n<text>\nSource: RBI.\nUS$ billion\n0.2\n7.4\n-4.1\n3.6\n18.7\n-5\n0\n5\n10\n15\n20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nChart II.7.27: End Use of ECBs during 2024-25\n(Share in Total Inflows)\nLoc. CG: Local Capital Goods.\nSource: RBI.\nPer cent\nOn-lending/Sub-lending\nRupee Expenditure\nLoc.CG\nModernisation\nRefinancing of Earlier\nECB\nNew Projects\nImport of Capital Goods\nWorking Capital\nOthers\nRefinancing of Rupee\nLoans\nInfrastructure\nDevelopment\n45.3\n16.3\n9.9\n6.1\n3.5\n3.5\n3.3\n2.7\n1.9\n6.3\n0\n10\n20\n30\n40\n50\n\n\nANNUAL REPORT 2024-25\n84\nnaturally hedged loans (i.e., borrowers\u2019 business\nearnings in foreign currency).\nII.7.29\t Short-term trade credit increased during\nApril-December 2024 in line with the rise in\nmerchandise imports, with a net inflow of US$\n11.1 billion as compared with a net outflow of\nUS$ 1.0 billion during the corresponding period\na year ago. Around 32 per cent of the trade credit\nwas raised for imports of crude oil, gold, coal and\ncopper. Net inflows under non-resident deposits\nTable II.7.3: Flows under Non-Resident Deposit Accounts\n(US$ billion)\nItem\n2021-22\n2022-23\n2023-24\n2024-25\n1\n2\n3\n4\n6\n1. Non-Resident External (Rupee) Account\n3.3\n2.5\n4.2\n4.7\n2. Non-Resident Ordinary Account\n3.5\n4.0\n4.2\n4.4\n3. Foreign Currency Non-Resident (B) Account\n-3.6\n2.4\n6.4\n7.1\nNon-Resident Deposits (1+2+3)\n3.2\n9.0\n14.7\n16.2\nSource: RBI.\nTable II.7.4: External Vulnerability Indicators (End-March)\n(Per cent, unless indicated otherwise)\nIndicator\n2013\n2022\n2023\n2024\nEnd-December\n2024\n1\n2\n3\n4\n5\n6\n1.\nExternal Debt to GDP Ratio\n22.4\n19.9\n19.1\n18.5\n19.1\n2.\nRatio of Short-term Debt (Original Maturity) to Total Debt\n23.6\n19.7\n20.6\n19.1\n19.4\n3.\nRatio of Short-term Debt (Residual Maturity) to Total Debt\n42.1\n43.2\n44.0\n43.4\n42.4\n4.\nRatio of Concessional Debt to Total Debt\n11.1\n8.3\n8.2\n7.4\n6.8\n5.\nRatio of Reserves to Total Debt\n71.3\n98.1\n92.7\n96.7\n88.6\n6.\nRatio of Short-term Debt (Original Maturity) to Reserves\n33.1\n20.0\n22.2\n19.7\n22.0\n7.\nRatio of Short-term Debt (Residual Maturity) to Reserves\n59.0\n44.0\n47.4\n44.9\n47.8\n8.\nReserve Cover of Imports (in Months)*\n7.0\n11.8\n9.6\n11.3\n10.5\n9.\nDebt Service Ratio (Debt Service to Current Receipts)\n5.9\n5.2\n5.3\n6.7\n6.6\n10. \tExternal Debt (US$ billion)\n409.4\n618.8\n623.9\n668.8\n717.9\n11. \tNet International Investment Position (NIIP) [US$ billion]\n-326.7\n-358.1\n-367.1\n-361.2\n-364.5\n12. \tNIIP/GDP Ratio\n-17.8\n-11.6\n-11.3\n-10.1\n-9.8\n13. \tCAB/GDP Ratio\n-4.8\n-1.2\n-2.0\n-0.7\n-1.3\n*: Based on merchandise imports of latest four quarters, published in BoP statistics.\nSource: RBI and Government of India.\nincreased to US$ 16.2 billion during 2024-25\nfrom US$ 14.7 billion a year ago (Table II.7.3).\n6. Vulnerability Indicators\nII.7.30\t India\u2019s external debt to GDP ratio\nremained modest at 19.1 per cent as at end-\nDecember 2024 (18.5 per cent as at end-March\n2024), the lowest among emerging market peers\n(Table II.7.4). The share of short-term debt\n(residual maturity) in total external debt declined\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"88\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.7.4: External Vulnerability Indicators (End-March)\n</context>\n<text>\n*: Based on merchandise imports of latest four quarters, published in BoP statistics.\nSource: RBI and Government of India.\nincreased to US$ 16.2 billion during 2024-25\nfrom US$ 14.7 billion a year ago (Table II.7.3).\n6. Vulnerability Indicators\nII.7.30\t India\u2019s external debt to GDP ratio\nremained modest at 19.1 per cent as at end-\nDecember 2024 (18.5 per cent as at end-March\n2024), the lowest among emerging market peers\n(Table II.7.4). The share of short-term debt\n(residual maturity) in total external debt declined\n\n\nECONOMIC REVIEW\n85\nto 42.4 per cent as at end-December 2024.\nForeign exchange reserves continue to provide\na strong buffer for mitigating external risks and\nspillovers. As at end-December 2024, foreign\nexchange reserves were more than two times\nof short-term external debt (residual maturity).\nMoreover, foreign exchange reserves as at end-\nMarch 2025 provided a cover of 11 months of\nmerchandise imports (on BoP basis) for 2024-\n25. Net international investment position (IIP) to\nGDP ratio also recorded an improvement as at\nend-December 2024.\n7. Conclusion\nII.7.31\t India\u2019s external sector displayed resilience\nin the face of global challenges. Supported by\nsustained robust growth in services exports\nand private transfer receipts, current account\ndeficit remained manageable despite a widening\nmerchandise trade deficit. Even as portfolio\ncapital flows exhibited volatility, strong buffers in\nthe form of ample foreign exchange reserves and\nmodest external debt liabilities impart strength\nto the external sector, contributing to overall\nmacroeconomic and financial stability.\n\n\nAPPENDIX TABLES\n</text>\n</passage>\n\n<passage id=\"89\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 7. Conclusion\n</context>\n<text>\nII.7.31\t India\u2019s external sector displayed resilience\nin the face of global challenges. Supported by\nsustained robust growth in services exports\nand private transfer receipts, current account\ndeficit remained manageable despite a widening\nmerchandise trade deficit. Even as portfolio\ncapital flows exhibited volatility, strong buffers in\nthe form of ample foreign exchange reserves and\nmodest external debt liabilities impart strength\nto the external sector, contributing to overall\nmacroeconomic and financial stability.\n\n\nAPPENDIX TABLES\n281\nAPPENDIX TABLE 1: MACROECONOMIC AND FINANCIAL INDICATORS\nItem\nAverage\n2003-04\nto\n2007-08\n(5 years)\nAverage\n2009-10\nto\n2013-14\n(5 years)\nAverage\n2014-15\nto\n2018-19\n(5 years)\n2022-23\n2023-24\n2024-25\n1\n2\n3\n4\n5\n6\n7\nI.\t Real Economy\nI.1\nReal GDP at Market Prices (% change)*\n7.9\n6.7\n7.4\n7.6\n9.2\n6.5\nI.2\nReal GVA at Basic Prices (% change)*\n7.7\n6.3\n7.0\n7.2\n8.6\n6.4\nI.3\nFoodgrains Production (Million Tonnes)**\n213.6\n248.8\n269.8\n329.7\n332.3\n330.9\nI.4\na)\t Food Stocks (Million Tonnes)***\n18.6\n50.1\n44.6\n51.7\n60.7\n74.9\nb)\t Procurement (Million Tonnes)\n39.3\n61.3\n66.5\n73.1\n78.7\n77.9\nc)\t Off-take (Million Tonnes)\n41.5\n57.0\n61.5\n93.1\n67.7\n64.9\nI.5\nIndex of Industrial Production (% change)\n11.2\n4.6\n4.0\n5.2\n5.9\n4.0\nI.6\nIndex of Eight Core Industries (% change)\n5.9\n4.9\n4.3\n7.8\n7.6\n4.5\nI.7\nGross Domestic Saving Rate (% of GNDI at Current Prices)*\n33.6\n33.9\n31.2\n30.2\n30.3\n-\nI.8\nGross Domestic Investment Rate (% of GDP at Current Prices)*\n35.2\n38.0\n33.1\n32.6\n31.4\n-\nII.\t Prices\nII.1\t Consumer Price Index (CPI) Combined (average % change)\n-\n-\n4.5\n6.7\n5.4\n4.6\nII.2\t CPI-Industrial Workers (IW) [average % change]\n5.0\n10.3\n4.9\n6.1\n5.2\n3.4\nII.3\t Wholesale Price Index (WPI) [average % change]#\n5.5\n7.1\n1.3\n9.4\n-0.7\n2.3\nIII.\t Money and Credit##\nIII.1\t Reserve Money (% change)\n20.4\n12.1\n10.7\n7.8\n5.6\n3.3\nIII.2\t Broad Money (M3) [% change]\n18.6\n14.7\n9.5\n9.0\n11.1\n9.6\nIII.3\t a)\t Aggregate Deposits of Scheduled Commercial Banks\n(% change)\n20.2\n15.0\n9.5\n9.6\n12.9\n10.6\nb)\t Bank Credit of Scheduled Commercial Banks (% change)\n26.7\n16.7\n9.6\n15.0\n16.3\n12.1\nIV.\t Financial Markets\nIV.1\t Interest rates (%)\na)\t Call/Notice Money rate\n5.6\n7.2\n6.7\n5.4\n6.6\n6.5\nb)\t 10-year G-sec yield\n7.0\n8.0\n7.6\n7.3\n7.2\n6.9\nc)\t 91-Days T-bill yield\n5.8\n7.1\n7.0\n5.6\n6.8\n6.6\nd)\t Weighted Average cost of Central Government Borrowings\n7.2\n8.1\n7.7\n7.3\n7.2\n7.0\ne)\t Commercial Paper\n7.7\n8.4\n7.8\n6.3\n7.4\n7.4\nf) Certificates of Deposit\n8.9\u2020\n8.2\n7.5\n6.4\n7.2\n7.2\nIV.2 Liquidity (\u20b9 lakh crore)\na)\t LAF Outstanding~\n-\n-\n-\n1.3\n0.6\n1.3\nb)\t MSS Outstanding~~\n-\n-\n-\n-\n-\n-\nc)\t Average Daily Call Money Market Turnover\n0.2\n0.3\n0.3\n0.2\n0.2\n0.2\nd)\t Average Daily G-sec Market Turnover\n0.1\n0.4\n0.8\n0.7\n0.9\n1.1\ne)\t Variable Rate Repo~\n-\n-\n-\n0.0\n1.0\n2.7\nf)\t Variable Rate Reverse Repo~\n-\n-\n-\n0.0\n0.0\n0.0\ng)\t MSF~\n-\n-\n-\n0.3\n0.9\n0.1\nh)\t SDF~\n-\n-\n-\n2.3\n2.5\n4.1\nV.\t Government Finances\nV.1\t Central Government Finances (% of GDP)$\na)\t Revenue Receipts\n10.0\n9.2\n8.6\n8.9\n9.1\n9.3\nb)\t Capital Outlay\n1.6\n1.6\n1.5\n2.3\n2.6\n2.6\nc)\t Total Expenditure\n14.9\n15.0\n12.8\n15.6\n14.8\n14.2\nd) Gross Fiscal Deficit\n3.7\n5.4\n3.7\n6.5\n5.5\n4.7\nV.2\t State Government Finances$$\na) Revenue Deficit (% of GDP)\n0.3\n-0.1\n0.1\n0.2\n0.3\n0.6\nb) Gross Fiscal Deficit (% of GDP)\n2.7\n2.3\n2.8\n2.7\n3.0\n3.6\nc) Primary Deficit (% of GDP)\n0.3\n0.6\n1.2\n1.0\n1.3\n1.8\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"90\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > APPENDIX TABLE 1: MACROECONOMIC AND FINANCIAL INDICATORS\n</context>\n<text>\n-\n-\n-\n2.3\n2.5\n4.1\nV.\t Government Finances\nV.1\t Central Government Finances (% of GDP)$\na)\t Revenue Receipts\n10.0\n9.2\n8.6\n8.9\n9.1\n9.3\nb)\t Capital Outlay\n1.6\n1.6\n1.5\n2.3\n2.6\n2.6\nc)\t Total Expenditure\n14.9\n15.0\n12.8\n15.6\n14.8\n14.2\nd) Gross Fiscal Deficit\n3.7\n5.4\n3.7\n6.5\n5.5\n4.7\nV.2\t State Government Finances$$\na) Revenue Deficit (% of GDP)\n0.3\n-0.1\n0.1\n0.2\n0.3\n0.6\nb) Gross Fiscal Deficit (% of GDP)\n2.7\n2.3\n2.8\n2.7\n3.0\n3.6\nc) Primary Deficit (% of GDP)\n0.3\n0.6\n1.2\n1.0\n1.3\n1.8\n\n\nANNUAL REPORT 2024-25\n282\nAPPENDIX TABLE 1: MACROECONOMIC AND FINANCIAL INDICATORS (Concld.)\nItem\nAverage\n2003-04\nto\n2007-08\n(5 years)\nAverage\n2009-10\nto\n2013-14\n(5 years)\nAverage\n2014-15\nto\n2018-19\n(5 years)\n2022-23\n2023-24\n2024-25\n1\n2\n3\n4\n5\n6\n7\nVI.\t External Sector\nVI.1\t Balance of Payments@\na) \tMerchandise Exports (% change)\n25.3\n12.2\n1.6\n6.3\n-3.2\n1.8\nb) \tMerchandise Imports (% change)\n32.3\n9.7\n2.7\n16.6\n-4.9\n7.8\nc) \tTrade Balance/GDP (%)\n-5.5\n-9.1\n-6.2\n-7.9\n-6.7\n-7.9\nd) \tInvisible Balance/GDP (%)\n5.2\n5.8\n4.8\n5.9\n6.0\n6.6\ne) \tCurrent Account Balance/GDP (%)\n-0.3\n-3.3\n-1.4\n-2.0\n-0.7\n-1.3\nf) \t Net Capital Flows/GDP (%)\n4.7\n3.8\n2.7\n1.8\n2.5\n0.8\ng) \tReserve Changes (BoP basis) [US $ billion]\n[Increase (-)/Decrease (+)]\n-40.3\n-6.6\n-28.2\n9.1\n-63.7\n13.8\nVI.2\t External Debt Indicators@@\na) \tExternal Debt Stock (US$ billion)\n156.5\n359.0\n500.6\n623.9\n668.8\n717.9\nb) \tDebt-GDP Ratio (%)\n17.8\n20.9\n21.4\n19.1\n18.5\n19.1\nc) \tImport Cover of Reserves (in Months)\n14.0\n8.5\n10.3\n9.6\n11.3\n10.5\nd) \tShort-term Debt to Total Debt (%)\n13.6\n21.3\n18.6\n20.6\n19.1\n19.4\ne) \tDebt Service Ratio (%)\n8.3\n5.6\n7.7\n5.3\n6.7\n6.6\nf) \t Reserves to Debt (%)\n113.7\n84.8\n76.2\n92.7\n96.7\n88.6\nVI.3\t Openness Indicators (%)@\na) \tExport plus Imports of Goods/GDP\n30.7\n41.0\n32.0\n35.2\n31.0\n30.4\nb) \tExport plus Imports of Goods & Services/GDP\n41.3\n53.2\n43.7\n50.4\n45.3\n45.5\nc) \tCurrent Receipts plus Current Payments/GDP\n47.1\n59.4\n49.4\n57.1\n52.5\n53.5\nd)  Gross Capital Inflows plus Outflows/GDP\n37.3\n50.4\n45.2\n38.4\n44.4\n58.9\ne) \tCurrent Receipts & Payments plus Capital Receipts &\nPayments/GDP\n84.4\n109.8\n94.6\n95.5\n96.9\n112.3\nVI.4\t Exchange Rate Indicators\na) \tExchange Rate (Rupee/US Dollar)\nEnd of Period\n43.1\n51.1\n65.6\n82.2\n83.4\n85.6\nAverage\n44.1\n51.2\n65.6\n80.4\n82.8\n84.6\nb) \t40-Currency REER (% change)\n3.1^\n0.8\n1.8\n-1.8\n0.9\n1.5\nc) \t40-Currency NEER (% change)\n1.7^\n-4.9\n0.2\n-2.1\n-0.5\n0.3\nd) \t6-Currency REER (% change)\n5.7^\n2.3\n2.0\n-0.4\n-0.1\n1.1\ne) \t6-Currency NEER (% change)\n2.6^\n-5.1\n-1.1\n-1.3\n-2.7\n-1.5\n-\n: \t Not Available/Not Applicable.\n*\n: \t Data are at 2011-12 base year series.\n**\n: \t Data for 2024-25 are for kharif and rabi crops only (excluding summer crops) as per second advance estimates for agriculture production.\n***\n: \t Data pertain to stocks of rice and wheat as on March 31 for all years.\n#\n: \t Data for 2024-25 are provisional.\n##\n: \t Data for 2024-25 for Reserve Money pertain to March 28, 2025, while that of Money Supply relate to March 21, 2025.\n\u2020\n: \t Data in column 2 pertains to April 13, 2007 to March 28, 2008.\n~\n: \t Outstanding as on March 31.\n~~\n:  Outstanding as on last Friday of the financial year.\n$\n: \t Data for 2024-25 are revised estimates. Ratios may vary from those published in the Union Budget due to revision in GDP numbers.\n$$\n: \t Data pertains to 28 states and 3 union territories (UTs). Data for 2023-24 and 2024-25 are accounts data and revised estimates, respectively.\n@\n: \t Data for 2024-25 are provisional and pertain to April-December 2024.\n@@\t: \t Data for 2024-25 are provisional and pertain to end-December 2024.\n^\n: \t Data in column 2 is average of period 2005-06 to 2007-08.\nNote\t: \t 1. \t For Index of Industrial Production and Index of Eight Core Industries, data in columns 2, 3 and 4 are at 2011-12 base year.\n2.  Base year for CPI (All India) is 2012=100; base year for WPI is 2011-12=100 for annual data and 2004-05=100 for average of 5 years inflation; base for\nCPI-IW is 2001=100 till August 2020 and 2016=100 from September 2020 onwards.\n3. \t For Average Daily G-sec Market Turnover, outright trading turnover is in central government dated securities (based on trading days).\n</text>\n</passage>\n\n<passage id=\"91\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > APPENDIX TABLE 1: MACROECONOMIC AND FINANCIAL INDICATORS (Concld.)\n</context>\n<text>\nNote\t: \t 1. \t For Index of Industrial Production and Index of Eight Core Industries, data in columns 2, 3 and 4 are at 2011-12 base year.\n2.  Base year for CPI (All India) is 2012=100; base year for WPI is 2011-12=100 for annual data and 2004-05=100 for average of 5 years inflation; base for\nCPI-IW is 2001=100 till August 2020 and 2016=100 from September 2020 onwards.\n3. \t For Average Daily G-sec Market Turnover, outright trading turnover is in central government dated securities (based on trading days).\n4. \t LAF positive value means absorption.\n5.  Base year for 6- and 40-currency NEER/REER indices is 2015-16=100. REER figures are based on CPI.\nSource :\nRBI, National Statistical Office (NSO), Ministry of Agriculture & Farmers Welfare, Ministry of Commerce and Industry, Food Corporation of India\n(FCI), Labour Bureau and Budget documents of the central and state governments.\n\n\nAPPENDIX TABLES\n283\nAPPENDIX TABLE 2: GROWTH RATES AND COMPOSITION OF\nREAL GROSS DOMESTIC PRODUCT\n(At 2011-12 Prices)\n(Per cent)\nSector\nGrowth Rate\nShare\nAverage\n2017-18 to\n2024-25\n2022-23\n2023-24 2024-25*\n2022-23\n2023-24 2024-25*\n1\n2\n3\n4\n5\n6\n7\n8\nGDP at Market Prices (Expenditure Side)\n1. \tPrivate Final Consumption Expenditure\n5.7\n7.5\n5.6\n7.6\n58.1\n56.1\n56.7\n2. \tGovernment Final Consumption Expenditure\n4.8\n4.3\n8.1\n3.8\n9.6\n9.5\n9.2\n3. \tGross Fixed Capital Formation\n6.7\n8.4\n8.8\n6.1\n33.6\n33.5\n33.4\n4. \tChange in Stocks\n71.0\n24.3\n53.4\n4.3\n1.2\n1.7\n1.7\n5. \tValuables\n9.6\n-16.9\n14.4\n1.0\n1.5\n1.5\n1.4\n6. \tNet Exports\n-60.0\n22.6\n-384.8\n56.9\n-0.7\n-3.2\n-1.3\na) \t Exports\n6.9\n10.3\n2.2\n7.1\n23.2\n21.7\n21.8\nb) \t Less Imports\n7.1\n8.9\n13.8\n-1.1\n23.9\n24.9\n23.1\n7. \tDiscrepancies\n13.5\n-4.3\n128.7\n250.5\n-3.2\n0.8\n-1.2\n8. \tGDP\n5.5\n7.6\n9.2\n6.5\n100.0\n100.0\n100.0\nGVA at Basic Prices (Supply Side)\n1. \tAgriculture, Forestry and Fishing\n4.6\n6.3\n2.7\n4.6\n15.5\n14.7\n14.4\n2. \tIndustry\n4.3\n0.0\n11.0\n4.3\n21.4\n21.9\n21.5\nof which:\na) \t Mining and Quarrying\n-0.3\n3.4\n3.2\n2.8\n2.1\n2.0\n2.0\nb) \t Manufacturing\n4.7\n-1.7\n12.3\n4.3\n16.9\n17.5\n17.2\nc) \t Electricity, Gas, Water Supply and Other Utility\nServices\n6.5\n10.8\n8.6\n6.0\n2.4\n2.4\n2.4\n3. \tServices\n6.1\n10.2\n9.2\n7.5\n63.1\n63.4\n64.1\nof which:\na) \t Construction\n7.1\n9.1\n10.4\n8.6\n8.8\n8.9\n9.1\nb) \t Trade, Hotels, Transport, Communication and\nServices Related to Broadcasting\n5.6\n12.3\n7.5\n6.4\n18.7\n18.5\n18.5\nc) \t Financial, Real Estate and Professional Services\n6.4\n10.8\n10.3\n7.2\n23.3\n23.6\n23.8\nd) \t Public Administration, Defence and Other Services\n5.8\n6.7\n8.8\n8.8\n12.3\n12.4\n12.7\n4. GVA at Basic Prices\n5.4\n7.2\n8.6\n6.4\n100.0\n100.0\n100.0\n*: Second advance estimates of national income for 2024-25.\nSource: NSO and RBI staff estimates.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"92\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > REAL GROSS DOMESTIC PRODUCT\n</context>\n<text>\na) \t Construction\n7.1\n9.1\n10.4\n8.6\n8.8\n8.9\n9.1\nb) \t Trade, Hotels, Transport, Communication and\nServices Related to Broadcasting\n5.6\n12.3\n7.5\n6.4\n18.7\n18.5\n18.5\nc) \t Financial, Real Estate and Professional Services\n6.4\n10.8\n10.3\n7.2\n23.3\n23.6\n23.8\nd) \t Public Administration, Defence and Other Services\n5.8\n6.7\n8.8\n8.8\n12.3\n12.4\n12.7\n4. GVA at Basic Prices\n5.4\n7.2\n8.6\n6.4\n100.0\n100.0\n100.0\n*: Second advance estimates of national income for 2024-25.\nSource: NSO and RBI staff estimates.\n\n\nANNUAL REPORT 2024-25\n284\nAPPENDIX TABLE 3: GROSS SAVINGS\n(Per cent of GNDI)\nItem\n2020-21\n2021-22\n2022-23\n2023-24\n1\n2\n3\n4\n5\nI.\t Gross Savings\n28.7\n30.8\n30.2\n30.3\nI.1  Non-financial Corporations\n10.4\n11.4\n10.9\n10.9\nI.1.1 Public Non-financial Corporations\n1.2\n1.3\n1.2\n1.5\nI.1.2  Private Non-financial Corporations\n9.2\n10.1\n9.7\n9.4\nI.2 \t Financial Corporations\n2.6\n2.5\n2.8\n2.5\nI.2.1 \t Public Financial Corporations\n1.4\n1.5\n1.7\n1.4\nI.2.2 \t Private Financial Corporations\n1.2\n1.0\n1.1\n1.1\nI.3 \t General Government\n-6.6\n-2.9\n-1.9\n-0.9\nI.4 \t Household Sector\n22.4\n19.8\n18.3\n17.9\nI.4.1 \t Net Financial Saving\n11.6\n7.2\n4.9\n5.1\nMemo: Gross Financial Saving\n15.2\n10.9\n10.7\n11.2\nI.4.2 \t Saving in Physical Assets\n10.6\n12.4\n13.2\n12.6\nI.4.3 \t Saving in the Form of Valuables\n0.2\n0.3\n0.2\n0.2\nGNDI: Gross national disposable income.\nNote: Net financial saving of the household sector is obtained as the difference between gross financial savings and financial liabilities\nduring the year.\nSource: NSO.\n\n\nAPPENDIX TABLES\n</text>\n</passage>\n\n<passage id=\"93\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > APPENDIX TABLE 3: GROSS SAVINGS\n</context>\n<text>\nI.3 \t General Government\n-6.6\n-2.9\n-1.9\n-0.9\nI.4 \t Household Sector\n22.4\n19.8\n18.3\n17.9\nI.4.1 \t Net Financial Saving\n11.6\n7.2\n4.9\n5.1\nMemo: Gross Financial Saving\n15.2\n10.9\n10.7\n11.2\nI.4.2 \t Saving in Physical Assets\n10.6\n12.4\n13.2\n12.6\nI.4.3 \t Saving in the Form of Valuables\n0.2\n0.3\n0.2\n0.2\nGNDI: Gross national disposable income.\nNote: Net financial saving of the household sector is obtained as the difference between gross financial savings and financial liabilities\nduring the year.\nSource: NSO.\n\n\nAPPENDIX TABLES\n285\nAPPENDIX TABLE 4: INFLATION, MONEY AND CREDIT\n(Per cent)\nInflation\nConsumer Price Index (CPI) [All India]\nRural\nUrban\nCombined\n2022-23\n2023-24\n2024-25\n2022-23\n2023-24\n2024-25\n2022-23\n2023-24\n2024-25\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nGeneral Index (All Groups)\n6.8\n5.6\n5.0\n6.4\n5.1\n4.1\n6.7\n5.4\n4.6\nFood and Beverages\n6.8\n6.9\n6.9\n6.5\n7.3\n6.5\n6.7\n7.0\n6.7\nHousing\n\u2026\n\u2026\n\u2026\n4.3\n3.9\n2.8\n4.3\n3.9\n2.8\nFuel and Light\n9.6\n1.8\n-0.9\n11.6\n0.3\n-5.1\n10.3\n1.2\n-2.5\nMiscellaneous\n5.9\n4.6\n4.2\n6.6\n4.4\n4.0\n6.3\n4.5\n4.1\nExcluding Food and Fuel\n6.3\n4.5\n3.7\n5.9\n4.2\n3.4\n6.1\n4.3\n3.5\nOther Price Indices\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n1. \tWholesale Price Index (2011-12=100)#\nAll Commodities\n1.7\n2.9\n4.3\n1.7\n1.3\n13.0\n9.4\n-0.7\n2.3\nPrimary Articles\n3.4\n1.4\n2.7\n6.8\n1.7\n10.2\n10.0\n3.5\n5.1\nof which : Food Articles\n4.0\n2.1\n0.3\n8.4\n3.2\n4.1\n7.3\n6.6\n7.3\nFuel and Power\n-0.3\n8.2\n11.5\n-1.8\n-8.0\n32.5\n28.1\n-4.7\n-1.3\nManufactured Products\n1.3\n2.7\n3.7\n0.3\n2.8\n11.1\n5.6\n-1.7\n1.7\nNon-food Manufactured Products\n-0.1\n3.0\n4.2\n-0.4\n2.2\n11.0\n5.8\n-1.4\n0.7\n2. \tCPI- Industrial Workers (IW) [2001=100]\n4.1\n3.1\n5.4\n7.5\n5.0\n5.1\n6.1\n5.2\n3.4\nof which : CPI- IW Food\n4.4\n1.5\n0.6\n7.4\n5.8\n4.7\n6.1\n7.3\n6.0\n3. \tCPI- Agricultural Labourers\n(1986-87=100)\n4.2\n2.2\n2.1\n8.0\n5.5\n4.0\n6.8\n7.1\n5.7\n4. \tCPI- Rural Labourers (1986-87=100)\n4.2\n2.3\n2.2\n7.7\n5.5\n4.2\n7.0\n6.9\n5.7\nMoney and Credit\n2016-17^ 2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25^^\nReserve Money (RM)\n-12.9\n27.3\n14.5\n9.4\n18.8\n13.0\n7.8\n5.6\n3.3\nCurrency in Circulation\n-19.7\n37.0\n16.8\n14.5\n16.6\n9.8\n7.8\n3.9\n5.8\nBankers\u2019 Deposits with RBI\n8.4\n3.9\n6.4\n-9.6\n28.5\n25.4\n6.1\n10.2\n-6.5\nCurrency-GDP Ratio$\n8.7\n10.7\n11.3\n12.2\n14.4\n13.3\n12.6\n11.7\n11.2\nNarrow Money (M1)\n-3.9\n21.8\n13.6\n11.2\n16.2\n10.7\n6.9\n7.3\n7.9\nBroad Money (M3)\n6.9\n9.2\n10.5\n8.9\n12.2\n8.8\n9.0\n11.1\n9.6\nCurrency-Deposit Ratio\n11.0\n14.4\n15.4\n16.3\n17.2\n17.4\n17.3\n16.0\n15.4\nMoney Multiplier*\n6.7\n5.8\n5.6\n5.5\n5.2\n5.0\n5.1\n5.4\n5.7\nGDP-M3 Ratio$*\n1.2\n1.2\n1.2\n1.2\n1.1\n1.2\n1.2\n1.2\n1.2\nScheduled Commercial Banks\nAggregate Deposits\n11.3\n6.2\n10.0\n7.9\n11.4\n8.9\n9.6\n12.9\n10.6\nBank Credit\n4.5\n10.0\n13.3\n6.1\n5.6\n9.6\n15.0\n16.3\n12.1\nNon-food Credit\n5.2\n10.2\n13.4\n6.1\n5.5\n9.7\n15.4\n16.3\n12.0\nCredit-Deposit Ratio\n72.9\n75.5\n77.7\n76.4\n72.4\n72.2\n75.8\n78.1\n79.1\nCredit-GDP Ratio$\n50.9\n50.5\n51.7\n51.6\n55.1\n50.4\n50.9\n52.8\n53.8\n#\n: Data for 2024-25 are provisional.\n\u2026\t : CPI Rural for Housing is not compiled.\n^\n: March 31, 2017, over April 1, 2016, barring RM and its components.\n^^\t : Data for Reserve Money pertain to March 28, 2025, while that of Money Supply relate to March 21, 2025.\n$\n: GDP data from 2011-12 onwards are based on new series i.e., base: 2011-12. GDP refers to GDP at Current Market Prices.\n*\n: Not expressed in per cent.\nNote:  1.  Data refers to y-o-y change in per cent unless specified otherwise.\n2. \tBase for CPI (All India) is 2012=100 whereas base for CPI-IW is 2001=100 till August 2020 and 2016=100 from September\n2020 onwards.\nSource: RBI, NSO, Labour Bureau and Ministry of Commerce and Industry.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"94\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > APPENDIX TABLE 4: INFLATION, MONEY AND CREDIT\n</context>\n<text>\n^^\t : Data for Reserve Money pertain to March 28, 2025, while that of Money Supply relate to March 21, 2025.\n$\n: GDP data from 2011-12 onwards are based on new series i.e., base: 2011-12. GDP refers to GDP at Current Market Prices.\n*\n: Not expressed in per cent.\nNote:  1.  Data refers to y-o-y change in per cent unless specified otherwise.\n2. \tBase for CPI (All India) is 2012=100 whereas base for CPI-IW is 2001=100 till August 2020 and 2016=100 from September\n2020 onwards.\nSource: RBI, NSO, Labour Bureau and Ministry of Commerce and Industry.\n\n\nANNUAL REPORT 2024-25\n286\nAPPENDIX TABLE 5: CAPITAL MARKET - PRIMARY AND SECONDARY\n(Amount in \u20b9 crore)\nItem\n2023-24\n2024-25 (P)\nNumber\nAmount\nNumber\nAmount\n1\n2\n3\n4\n5\nI. PRIMARY MARKET\nA. Public and Rights Issues\n1.\nPrivate Sector (a+b)\n383\n97,284.2\n505\n218,120.1\na)\t Financial\n61\n29,133.1\n81\n27,351.3\nb)\t Non-financial\n322\n68,151.1\n424\n190,768.8\n2.\nPublic Sector (a+b)\n2\n4,974.7\n\u2026\n\u2026\na)\t Financial\n2\n4,974.7\n\u2026\n\u2026\nb)\t Non-financial\n\u2026\n\u2026\n\u2026\n\u2026\n3.\nTotal (1+2, i+ii)\n385\n102,258.8\n505\n218,120.1\nInstrument Type\n(i)\t Equity\n340\n83,092.5\n464\n210,189.8\nof which:\na)\t Initial Public Offers\n272\n67,955.3\n320\n172,328.1\nb)\t Follow-on Public Offers\n1\n27.0\n2\n18,150.0\nc)\t Rights\n67\n15,110.2\n142\n19,711.7\n(ii)\t Debt\n45\n19,166.3\n41\n7,930.3\nB. Euro Issues (ADRs and GDRs)\n\u2026\n\u2026\n\u2026\n\u2026\nC. Private Placement\n1.\nPrivate Sector (a+b)\n7,300\n771,393.0\n7,865\n936,710.6\na)\t Financial\n3,952\n367,052.9\n3,547\n348,354.1\nb) Non-financial\n3,348\n404,340.0\n4,318\n588,356.5\n2.\nPublic Sector (a+b)\n500\n393,035.6\n573\n529,155.7\na)\t Financial\n131\n237,997.9\n149\n303,326.0\nb) Non-financial\n369\n155,037.7\n424\n225,829.7\n3.\nTotal (1+2, i+ii)\n7,800\n1,164,428.6\n8,438\n1,465,866.3\n(i)\t Equity\n750\n114,126.6\n1079\n219,681.1\nof which:\na) Qualified Institutional Placement\n61\n68,971.5\n91\n135,597.2\nb)\t Preferential Allotment\n689\n45,155.2\n988\n84,083.9\n(ii)\t Debt\n7,050\n1,050,301.9\n7,359\n1,246,185.2\nD. Mutual Funds Mobilisation (Net)#\n1.\t Private Sector\n308,898.0\n719,126.8\n2.\t Public Sector\n45,803.3\n95,988.6\nII\nSECONDARY MARKET\nBSE\nSensex: End-Period\n73,651.4\n77,414.9\nPeriod Average\n66,822.7\n78,211.9\nPrice Earnings Ratio@\n25.2\n21.6\nMarket Capitalisation to GDP ratio (%)$\n128.5\n124.7\nTurnover Cash Segment\n1,629,038.4\n1,933,907.4\nTurnover Equity Derivatives Segment\n802,835,384.3\n2,755,653,330.0\nNSE\nNifty 50: End-Period\n22,326.9\n23,519.4\nPeriod Average\n19,978.3\n23,776.7\nPrice Earnings Ratio@\n22.9\n21.4\nMarket Capitalisation to GDP ratio (%)$\n127.5\n124.1\nTurnover Cash Segment\n20,103,439.4\n28,127,848.2\nTurnover Equity Derivatives Segment\n7,992,767,152.4\n7,835,961,740.0\n\u2026 : Nil.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003P: Provisional.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003#: Net of redemptions.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003@: As at the end of the period.\n$ \t : GDP for 2024-25 is as per second advance estimates.\nNote: Figures in the columns might not add up to the total due to rounding off of numbers.\nSource: SEBI, NSE, BSE, NSDL,CDSL and RBI staff estimates.\n\n\nAPPENDIX TABLES\n</text>\n</passage>\n\n<passage id=\"95\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > APPENDIX TABLE 5: CAPITAL MARKET - PRIMARY AND SECONDARY\n</context>\n<text>\n22.9\n21.4\nMarket Capitalisation to GDP ratio (%)$\n127.5\n124.1\nTurnover Cash Segment\n20,103,439.4\n28,127,848.2\nTurnover Equity Derivatives Segment\n7,992,767,152.4\n7,835,961,740.0\n\u2026 : Nil.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003P: Provisional.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003#: Net of redemptions.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003@: As at the end of the period.\n$ \t : GDP for 2024-25 is as per second advance estimates.\nNote: Figures in the columns might not add up to the total due to rounding off of numbers.\nSource: SEBI, NSE, BSE, NSDL,CDSL and RBI staff estimates.\n\n\nAPPENDIX TABLES\n287\nAPPENDIX TABLE 6: KEY FISCAL INDICATORS\n(As per cent of GDP)\nYear\nPrimary\nDeficit\nRevenue\nDeficit\nPrimary Revenue\nDeficit\nGross Fiscal\nDeficit\nOutstanding\nLiabilities@\nOutstanding\nLiabilities$\n1\n2\n3\n4\n5\n6\n7\nCentre\n1990-91\n4.0\n3.2\n-0.5\n7.6\n54.6\n60.6\n1995-96\n0.8\n2.4\n-1.7\n4.9\n50.3\n58.3\n2000-01\n0.9\n3.9\n-0.7\n5.5\n54.6\n60.4\n2009-10\n3.2\n5.2\n1.9\n6.5\n55.4\n57.3\n2010-11\n1.8\n3.2\n0.2\n4.8\n51.6\n53.2\n2011-12\n2.8\n4.5\n1.4\n5.9\n51.7\n53.5\n2012-13\n1.8\n3.7\n0.5\n4.9\n51.0\n52.5\n2013-14\n1.1\n3.2\n-0.2\n4.5\n50.5\n52.2\n2014-15\n0.9\n2.9\n-0.3\n4.1\n50.1\n51.4\n2015-16\n0.7\n2.5\n-0.7\n3.9\n50.1\n51.5\n2016-17\n0.4\n2.1\n-1.1\n3.5\n48.4\n49.5\n2017-18\n0.4\n2.6\n-0.5\n3.5\n48.3\n49.5\n2018-19\n0.4\n2.4\n-0.7\n3.4\n48.5\n49.6\n2019-20\n1.6\n3.3\n0.3\n4.6\n51.3\n52.5\n2020-21\n5.7\n7.3\n3.9\n9.2\n61.4\n62.6\n2021-22\n3.3\n4.4\n1.0\n6.7\n58.0\n58.9\n2022-23\n3.0\n4.0\n0.5\n6.5\n57.1\n58.1\n2023-24\n2.0\n2.5\n-1.0\n5.5\n56.8\n57.6\n2024-25 (RE)#\n1.3\n1.8\n-1.6\n4.7\n55.3\n56.0\n2025-26 (BE)\n0.8\n1.5\n-2.1\n4.4\n55.5\n56.0\nStates*\n1990-91\n1.8\n0.9\n-0.6\n3.3\n22.2\n22.2\n1995-96\n0.8\n0.7\n-1.1\n2.6\n20.8\n20.8\n2000-01\n1.8\n2.5\n0.1\n4.2\n28.1\n28.1\n2009-10\n1.2\n0.4\n-1.4\n3.0\n26.4\n26.4\n2010-11\n0.4\n-0.2\n-1.8\n2.1\n24.4\n24.4\n2011-12\n0.4\n-0.3\n-1.9\n2.0\n23.2\n23.2\n2012-13\n0.4\n-0.3\n-1.8\n2.0\n22.6\n22.6\n2013-14\n0.7\n0.0\n-1.5\n2.2\n22.3\n22.3\n2014-15\n1.1\n0.3\n-1.2\n2.6\n22.0\n22.0\n2015-16\n1.5\n0.0\n-1.6\n3.0\n23.7\n23.7\n2016-17\n1.8\n0.2\n-1.4\n3.5\n25.1\n25.1\n2017-18\n0.7\n0.1\n-1.6\n2.4\n25.1\n25.1\n2018-19\n0.8\n0.1\n-1.6\n2.4\n25.3\n25.3\n2019-20\n0.9\n0.6\n-1.1\n2.6\n26.6\n26.6\n2020-21\n2.1\n1.9\n-0.1\n4.1\n31.0\n31.0\n2021-22\n1.0\n0.4\n-1.4\n2.8\n29.1\n29.1\n2022-23\n1.0\n0.2\n-1.5\n2.7\n28.2\n28.2\n2023-24\n1.3\n0.3\n-1.4\n3.0\n\u2026\n\u2026\n2024-25 (RE)\n1.8\n0.6\n-1.2\n3.6\n\u2026\n\u2026\n2025-26 (BE)\n1.5\n0.2\n-1.5\n3.3\n... :  Not Available.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003RE: Revised Estimates.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003BE: Budget Estimates.\n@\t : \t Includes external liabilities of the centre calculated at historical exchange rates.\n$\n: \t Includes external liabilities of the centre calculated at current exchange rates.\n#\n: \t Going by the principle of using latest GDP data for any year, GDP used for 2024-25 (RE) is the latest available which is the second\nadvance estimates. In view of this, the fiscal indicators as per cent of GDP given in this table may at times marginally vary from\nthose reported in the Union Budget documents.\n*\n: \t Data for 2023-24, 2024-25 and 2025-26 are accounts, revised estimates and budget estimates, respectively for 28 states and 3\nUTs which have presented their budgets.\nNote: 1.  Negative sign (-) indicates surplus in deficit indicators.\n2.  GDP figures used in this table are on 2011-12 base, which are the latest available estimates.\n3.  Columns 6 and 7 are outstanding figures as at end-March of respective years.\nSource:\t Budget documents of central and state governments, Status paper on government debt and Quarterly report on public debt\nmanagement.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "India's services exports during April-December 2024 were US$ 135.5 billion.",
+        "confidence": 1,
+        "passage_id": 80,
+        "predicate": "services_exports",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April-December 2024"
+          }
+        ],
+        "quote": "services exports at US$ 135.5 billion grew at\na robust pace of 12.9 per cent (y-o-y) during\nApril-December 2024",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "135.5",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "India's total remittance receipts during 2024 were US$ 137.7 billion.",
+        "confidence": 1,
+        "passage_id": 81,
+        "predicate": "remittance_receipts",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "India\u2019s total\nremittance receipts stood at US$ 137.7 billion\nduring 2024",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "137.7",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "India's current account deficit in April-December 2024 was US$ 37.1 billion.",
+        "confidence": 1,
+        "passage_id": 82,
+        "predicate": "current_account_deficit",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April-December 2024"
+          }
+        ],
+        "quote": "India\u2019s CAD was contained at US$ 37.1 billion (1.3\nper cent of GDP) in April-December 2024",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "37.1",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "Gross foreign direct investment inflows into India during 2024-25 were US$ 81.0 billion.",
+        "confidence": 1,
+        "passage_id": 83,
+        "predicate": "gross_foreign_direct_investment_inflows",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "gross foreign direct investment (FDI) inflows remained\nresilient, rising by 13.7 per cent y-o-y to US$\n81.0 billion during 2024-25.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "81.0",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "Net ECB inflows to India during 2024-25 were US$ 18.7 billion.",
+        "confidence": 1,
+        "passage_id": 86,
+        "predicate": "net_external_commercial_borrowing_inflows",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "During 2024-25, net ECB inflows to India\nrose significantly to US$ 18.7 billion",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "18.7",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "India's external debt to GDP ratio as at end-December 2024 was 19.1 per cent.",
+        "confidence": 1,
+        "passage_id": 87,
+        "predicate": "external_debt_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "end-December 2024"
+          }
+        ],
+        "quote": "India\u2019s external debt to GDP ratio\nremained modest at 19.1 per cent as at end-\nDecember 2024",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "19.1",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The exchange rate of the Rupee per US Dollar at the end of 2024-25 was 85.6.",
+        "confidence": 1,
+        "passage_id": 90,
+        "predicate": "exchange_rate_rupee_per_us_dollar",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          },
+          {
+            "key": "timing",
+            "provenance": "stated",
+            "value": "End of Period"
+          }
+        ],
+        "quote": "Exchange Rate (Rupee/US Dollar)\nEnd of Period\n85.6",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "85.6"
+        }
+      }
+    ]
+  }
+}

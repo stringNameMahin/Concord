@@ -1,0 +1,679 @@
+{
+  "key": "708da87632b5f2af30e97790ce3b0f2544bef0d3e7ef81d0e1b9c4f9648be182",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable.",
+        "role": "system"
+      },
+      {
+        "content": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"24\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nMaharashtra (MH), Manipur (MN), Meghalaya (ML), Mizoram (MZ), Nagaland (NL), Odisha (OD), Punjab (PB),\nRajasthan (RJ), Sikkim (SK), Tamil Nadu (TN), Telangana (TS), Tripura (TR), Uttar Pradesh (UP), Uttarakhand\n(UK) and West Bengal (WB).\n24\tApril to July reference period for Jharkhand; April to September for Arunachal Pradesh and Manipur.\n25\tLand revenue for Himachal Pradesh included in \u2018other taxes and duties\u2019.\n26\tShare of central taxes for Mizoram and Sikkim included in \u2018other taxes and duties\u2019.\n27\tIbid.\n28\tOut of 25 States; Mizoram and Sikkim excluded.\n\n\nState of the Economy\n23\nChart I.39: Distribution of reliance on\nOTR \u2013 a diverse scenario across states\nChart I.40: Correlation between\nown revenue collection & revenue\naccount health\n-0.8\n-0.6\n-0.4\n-0.2\n0.0\n0.2\n0.4\n0.6\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\nRatio of RD to TRR\n(April to November FY25)\nRatio of ORR to TRR\n(April to November FY25)\nSource: CAG monthly provisional accounts\nSource:\nCAG\nmonthly\nprovisional\naccounts\nRD- revenue deficit, ORR-own revenue receipts,\nTRR-total revenue receipts.\n1.48\tFor 23 States29, GST was the main source of revenue amongst ORR with the greatest\nreliance thereon by Manipur and Nagaland at 78 per cent and 72 per cent, respectively\n(Chart I.41). States garnering the highest shares in respective ORRs w.r.t. stamps &\nregistration, sales tax and state excise duties were Maharashtra, Tamil Nadu and West\nBengal, respectively. Odisha exhibited the highest share of non-tax revenue in ORR at\n49 per cent.\nChart I.41: States' own revenue receipts through an assorted lens\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nMN\nNL\nBR\nUP\nAR\nAP\nML\nMH\nWB\nKA\nTR\nAS\nHR\nGJ\nKL\nPB\nTS\nTN\nUK\nHP\nRJ\nJH\nMP\nCG\nOD\nPer cent share in ORR\n(April to November FY25)\nGST\nLand Revenue\nNon \u2013Tax Revenue\nOther Taxes and Duties\nSales Tax\nStamps and Registration\nState Excise Duties\nSource: CAG monthly provisional accounts\n29\tIbid.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"25\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nBengal, respectively. Odisha exhibited the highest share of non-tax revenue in ORR at\n49 per cent.\nChart I.41: States' own revenue receipts through an assorted lens\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nMN\nNL\nBR\nUP\nAR\nAP\nML\nMH\nWB\nKA\nTR\nAS\nHR\nGJ\nKL\nPB\nTS\nTN\nUK\nHP\nRJ\nJH\nMP\nCG\nOD\nPer cent share in ORR\n(April to November FY25)\nGST\nLand Revenue\nNon \u2013Tax Revenue\nOther Taxes and Duties\nSales Tax\nStamps and Registration\nState Excise Duties\nSource: CAG monthly provisional accounts\n29\tIbid.\n\n\nEconomic Survey 2024-25\n24\n1.49\tThe revenue expenditure of the states grew at 12 per cent (YoY) during April to\nNovember 2024 (Chart I.42), with subsidies and committed liabilities30 registering a\ngrowth of 25.7 per cent and 10.4 per cent, respectively (Chart I.43). With expenditure\non capital account for states declining by 5.6 per cent, total expenditure grew by 9.5 per\ncent. However, 11 states witnessed an increase in capex.\n1.50\tIn the quality of expenditure, measured by capital outlay as a per cent of revenue\nexpenditure over the five years ending FY24, states31 exhibited considerable variation\n(Chart I.44).\nChart I.42: Pick-up in states\u2019 capex\nexpected in H2FY25\nChart I.43: Allocative efficiency\nconsiderations need attention\n12.0\n-5.6\n9.5\n-8\n-4\n0\n4\n8\n12\n16\nRE\nCE\nTE\nPer cent\nGrowth in April to November FY25 over April to\nNovember FY24 (per cent)\n10.4\n25.7\n11.7\n0\n10\n20\n30\nCommitted\nexpenditure\nExpenditure on\nSubsidy\nOther\nexpenditure on\nRevenue\nAccount\nPer cent\nGrowth in April to November FY25 over April to\nNovember FY24 (per cent)\nSource: CAG monthly provisional accounts.\nRE-revenue expenditure; CE-expenditure on capital account; TE-total expenditure.\nChart I.44: Varying degree of capital outlay as a per cent of revenue expenditure\n16.5\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\nAR\nSK\nMN\nUP\nOD\nKA\nMP\nAS\nGJ\nML\nGA\nJH\nUK\nTS\nNL\nAll States\nHP\nBR\nCG\nMZ\nMH\nTN\nHR\nTR\nRJ\nWB\nKL\nAP\nPB\nCapital Outlay as a per cent of  revenue\nexpenditure (FY20 to FY24)\nSource: RBI e-STATES database. Revised estimates for FY24.\n30\tInterest payments, salary and pension. For Mizoram and Sikkim, expenditure on pension and subsidy; for\nKarnataka and Tamil Nadu, expenditure on salaries & wages and subsidies; and for Arunachal Pradesh,\nexpenditure on subsidies included in \u2018other expenditure on revenue account\u2019.\n31\t 28 states.\n\n\nState of the Economy\n</text>\n</passage>\n\n<passage id=\"26\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nNL\nAll States\nHP\nBR\nCG\nMZ\nMH\nTN\nHR\nTR\nRJ\nWB\nKL\nAP\nPB\nCapital Outlay as a per cent of  revenue\nexpenditure (FY20 to FY24)\nSource: RBI e-STATES database. Revised estimates for FY24.\n30\tInterest payments, salary and pension. For Mizoram and Sikkim, expenditure on pension and subsidy; for\nKarnataka and Tamil Nadu, expenditure on salaries & wages and subsidies; and for Arunachal Pradesh,\nexpenditure on subsidies included in \u2018other expenditure on revenue account\u2019.\n31\t 28 states.\n\n\nState of the Economy\n25\n1.51\t In April-November 2024, 11 States maintained revenue surplus (Chart I.45).The\nchart shows that revenue surplus (or lower revenue deficit) is corrleated with higher\ncapital expenditure.\nChart I.45: Strong correlation between capex and fiscal space\nAP\nAS\nBR\nCG\nGJ\nHP\nHR\nJH\nKL\nKA\nML\nMH\nMN\nMP\nMZ\nOD\nPB\nRJ\nSK\nTS\nTN\nTR\nUK\nUP\nWB\n-40\n-20\n0\n20\n40\n-60\n-40\n-20\n0\n20\n40\n60\nRevenue balance as a per cent of TE\n(April to November FY25)\nFiscal balance as a per cent of TE\n(April to November FY25)\nRevenue\nsurplus &\nfiscal deficit\nRevenue\nsurplus &\nfiscal surplus\nRevenue\ndeficit &\nfiscal deficit\nRevenue\ndeficit &\nfiscal surplus\nSource: CAG monthly provisional accounts. Excludes Arunachal Pradesh and Nagaland.\nNote: The size and colour of the bubble represents capital expenditure as a per cent of total expenditure (TE) -\nred for less than 7 per cent, yellow for 7 to 14 per cent and green for 14 to 21 per cent.\nInflation \u2013 a combination of low and stable core inflation with volatile\nfood prices\n1.52\tRetail headline inflation, as measured by the change in the Consumer Price Index\n(CPI), has softened from 5.4 per cent in FY24 to 4.9 per cent in April \u2013 December 2024.\nThe decline is attributed to a 0.9 percentage point reduction in core (non-food, non-\nfuel) inflation between FY24 and April \u2013 December 2024. While the average inflation\nin FY25 has trended downward, monthly volatility in food prices and a select few\ncommodities have been responsible for CPI inflation printing towards the upper side of\nthe tolerance band of 4 (+/-) 2 per cent.\n1.53\tPressures in food prices have been driven by factors such as supply chain disruptions\nand vagaries in weather conditions. Food inflation, measured by the Consumer Food\nPrice Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25\n(April-December), primarily driven by a few food items such as vegetables and pulses.\nChart I.47 plots headline retail inflation excluding the following commodities \u2013 tomato,\nonion and potato, (TOP). These commodities together constitute 2.2 per cent of the CPI\nbasket.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"27\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\n1.53\tPressures in food prices have been driven by factors such as supply chain disruptions\nand vagaries in weather conditions. Food inflation, measured by the Consumer Food\nPrice Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25\n(April-December), primarily driven by a few food items such as vegetables and pulses.\nChart I.47 plots headline retail inflation excluding the following commodities \u2013 tomato,\nonion and potato, (TOP). These commodities together constitute 2.2 per cent of the CPI\nbasket.\n\n\nEconomic Survey 2024-25\n26\nChart I.46: Food price pressures\ndriving retail inflation\nChart I.47: CPI inflation excluding\nTOP commodities significantly\nlower32\n0\n2\n4\n6\n8\n10\n12\n14\nFeb-23\nApr-23\nJun-23\nAug-23\nOct-23\nDec-23\nFeb-24\nApr-24\nJun-24\nAug-24\nOct-24\nDec-24\nPer cent\nCPI inflation\nCFPI inflation\nCore inflation\n4.5\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\nJun-22\nSep-22\nDec-22\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nPer cent\nSource: Consumer Price Indices released by Central Statistical Office (CSO), MoSPI\nExternal sector stability safeguarded by services trade and record\nremittances\n1.54\tIndia\u2019s external sector displayed mixed trends, primarily due to volatile global\nconditions. A decline in commodity prices affected India\u2019s merchandise exports\nthrough the petroleum goods channel. Data on merchandise trade shows that India\u2019s\nmerchandise exports grew by 1.6 per cent YoY in April \u2013 December 2024.33 However,\nnon-petroleum exports (on the same comparison basis) were up by 7.1 per cent. Non-\npetroleum and non-gems and jewellery exports rose by 9.1 per cent. Merchandise\nimports rose by 5.2 per cent. This growth was primarily driven by an increase in non-\noil, non-gold imports. Gold imports also grew, influenced by higher global prices, early\npurchases ahead of festive spending, and demand for safe-haven assets.\n1.55\t While the outpacing of merchandise imports over merchandise exports widened\nIndia\u2019s merchandise trade deficit, India\u2019s services trade surplus has lent balance to the\noverall trade deficit. India's robust services exports have propelled the country to secure\nthe seventh-largest share in global services exports, underscoring its competitiveness\n32\tFurther, if gold and silver are also excluded, CPI inflation excluding these five commodities (which constitute 3.4\nper cent of the CPI basket) is even lower.\n33\thttps://www.commerce.gov.in/wp-content/uploads/2025/01/PIB-Release_15012025-final.pdf.\n\n\nState of the Economy\n</text>\n</passage>\n\n<passage id=\"28\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nIndia\u2019s merchandise trade deficit, India\u2019s services trade surplus has lent balance to the\noverall trade deficit. India's robust services exports have propelled the country to secure\nthe seventh-largest share in global services exports, underscoring its competitiveness\n32\tFurther, if gold and silver are also excluded, CPI inflation excluding these five commodities (which constitute 3.4\nper cent of the CPI basket) is even lower.\n33\thttps://www.commerce.gov.in/wp-content/uploads/2025/01/PIB-Release_15012025-final.pdf.\n\n\nState of the Economy\n27\nin this critical sector. In addition to the services trade surplus, remittances from abroad\nled to a healthy net inflow of private transfers. As per the World Bank, India was the\ntop recipient of remittances in the world, driven by an uptick in job creation in OECD\neconomies.34 These two factors combined to ensure that India\u2019s current account deficit\n(CAD) remains relatively contained at 1.2 per cent of GDP in Q2 FY25.\nChart I.48: Services trade surplus and private transfers lending balance to\nthe external sector\n-4\n-3\n-2\n-1\n0\n1\n2\n3\n4\n-100\n-80\n-60\n-40\n-20\n0\n20\n40\n60\n80\n100\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nFY22\nFY23\nFY24\nFY25\nUSD Billion\nMerchandise trade balance\nServices trade balance\nNet private transfers\nCAB as per cent of GDP (RHS)\nSource: Tables 196 and 197, RBI Handbook of Statistics on the Indian Economy\nNote: CAB \u2013 Current Account Balance\n1.56\tComfortable financing of the CAD by the capital account has ensured external\nsector stability. Within capital flows, gross foreign direct investment (FDI) inflows\nincreased 17.9 per cent YoY in April \u2013 November 2024. Gross FDI inflows during April\n\u2013 November in FY25 are higher than the levels witnessed in the corresponding period\nof any previous years except FY21. Net FDI inflow declined over this period, primarily\non account of the uptick in repatriation, which is higher by 33.2 per cent YoY after\na growth of 51.5 per cent in FY24. The rise in repatriation through the channels of\nsecondary sales and Initial Public Offerings (IPOs) by multinational companies amid\nstrong stock market performance points to investor confidence in profitable exits for\ndirect investors.35\n34\tWorld Bank. (2024, June 26). In 2024, remittance flows to low- and middle-income countries are expected to\nreach $685 billion, larger than FDI and ODA combined. https://tinyurl.com/38esxhzr.\n35\t\u201cBehind India\u2019s growth over last 10 yrs\u2014increase in repatriations, steady FDI inflows\u201d. https://tinyurl.\ncom/2tt3pxsf.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"29\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nsecondary sales and Initial Public Offerings (IPOs) by multinational companies amid\nstrong stock market performance points to investor confidence in profitable exits for\ndirect investors.35\n34\tWorld Bank. (2024, June 26). In 2024, remittance flows to low- and middle-income countries are expected to\nreach $685 billion, larger than FDI and ODA combined. https://tinyurl.com/38esxhzr.\n35\t\u201cBehind India\u2019s growth over last 10 yrs\u2014increase in repatriations, steady FDI inflows\u201d. https://tinyurl.\ncom/2tt3pxsf.\n\n\nEconomic Survey 2024-25\n28\nChart I.49: Rise in repatriation even as gross FDI inflows remain robust\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n-60\n-40\n-20\n0\n20\n40\n60\n80\nFY18\nFY19\nFY20\nFY21\nFY22\nFY23\nFY24\nFY25\nUSD Billion\nUSD Billion\nGross FDI Inflows\nRepatriation\nNet FDI Inflows (RHS)\nSource: Calculations based on FDI figures from RBI Bulletin Table no. 34\n1.57\t On the other hand, foreign portfolio investment (FPI) flows have been volatile\nin the second half of 2024, primarily on account of global geopolitical and monetary\npolicy developments. Net FPI inflows slowed to USD 10.6 billion in April \u2013 December\n2024 from USD 31.7 billion during the same period the previous year. The inclusion of\nIndia\u2019s sovereign government securities (G-secs) of certain tenors in the JP Morgan EM\nBond Index induced heightened activity within the debt segment of the FPIs. Further\nelucidation of the impact of the inclusion of Indian G-secs in global bond indices can be\nseen in Chapter 3.\n1.58\tAs a result of stable capital flows, India\u2019s foreign exchange reserves increased from\nUSD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024\nbefore moderating to USD 634.6 billion as on 3 January 2025. India\u2019s forex reserves\nare sufficient to cover 90 per cent of external debt and provide an import cover of more\nthan ten months, thereby safeguarding against external vulnerabilities.\n1.59\tLooking ahead, global policy changes could influence India\u2019s external trade. The\nevolving trade stance of a few major economies could affect key Indian export sectors\nsuch as chemicals, machinery, textiles, and electronics. In the short term, diversifying\nexport markets is essential, while medium-term efforts should focus on increasing\nmarket share. Over the long term, India must position itself as a strategic partner\nin high-value sectors like biotechnology and semiconductors. Strategic technology\npartnerships provide opportunities for enhanced cooperation in key areas like space,\nsemiconductors, quantum technologies and advanced telecommunications.\n\n\nState of the Economy\n</text>\n</passage>\n\n<passage id=\"30\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nsuch as chemicals, machinery, textiles, and electronics. In the short term, diversifying\nexport markets is essential, while medium-term efforts should focus on increasing\nmarket share. Over the long term, India must position itself as a strategic partner\nin high-value sectors like biotechnology and semiconductors. Strategic technology\npartnerships provide opportunities for enhanced cooperation in key areas like space,\nsemiconductors, quantum technologies and advanced telecommunications.\n\n\nState of the Economy\n29\nFinancial sector prospects amid a moderation of growth in credit\ndisbursal\n1.60\tThe banking and financial sector remains stable and well-capitalised, and is catering\nto the financing needs of the economy. While credit disbursal by scheduled commercial\nbanks (SCBs) is growing in double-digits, there has been a moderation in the growth in\nrecent months. This is on the back of a high base and also due to regulatory tightening in\nsectors where high growth was observed. In view of high growth in certain components\nof consumer credit, the RBI had, on 16th November 202336, raised the risk weights on\nunsecured retail loans by 25 basis points. However, expansion in the segment continues to\nbe broad-based, with housing loans as the major contributor. Apart from personal loans,\ncredit to the services sector is the other major driver of expansion in gross bank credit.\nIndustrial credit growth is picking up but remains below growth rates in other major sectors.\nChart I.50: Moderation in growth of bank credit to different sectors\n0\n5\n10\n15\n20\n25\n30\n35\nFeb-22\nMay-22\nAug-22\nNov-22\nFeb-23\nMay-23\nAug-23\nNov-23\nFeb-24\nMay-24\nAug-24\nNov-24\nPer cent\nNon-food credit\nPersonal loans\nCredit to MSME\nCredit to Industry\nCredit to Services\nSource: Calculations based on credit figures in Table no. 170 - Deployment of Gross Bank Credit by Major\nSectors, Handbook of Statistics on the Indian Economy.\n1.61\t Stability in the banking sector is underscored by declining asset impairments,\nrobust capital buffers, and strong operational performance. As per the RBI\u2019s Financial\nStability Report (FSR), December 202437, the gross non-performing assets (NPAs)\nin the banking system have declined to a 12-year low of 2.6 per cent of gross loans\nand advances. The capital-to-risk-weighted assets ratio (CRAR) for SCBs stands at\n16.7 per cent as of September 2024, well above the norm. The profitability of SCBs\nimproved during H1 FY25, with profit after tax (PAT) surging by 22.2 per cent YoY,\nwhile the Return on Equity (RoE) and Return on Assets (RoA) have improved on a YoY\nbasis. Macro stress tests suggest that banks' overall capital levels would stay above the\nregulatory minimum even in adverse scenarios.\n36\thttps://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12567&Mode=0.\n37\tReserve Bank of India. (2024, December). Financial Stability Report.\nhttps://tinyurl.com/zv662e5d.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"31\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nimproved during H1 FY25, with profit after tax (PAT) surging by 22.2 per cent YoY,\nwhile the Return on Equity (RoE) and Return on Assets (RoA) have improved on a YoY\nbasis. Macro stress tests suggest that banks' overall capital levels would stay above the\nregulatory minimum even in adverse scenarios.\n36\thttps://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12567&Mode=0.\n37\tReserve Bank of India. (2024, December). Financial Stability Report.\nhttps://tinyurl.com/zv662e5d.\n\n\nEconomic Survey 2024-25\n30\nChart I.51: Stable banking system indicators\n5\n11.2\n1\n16\n3.2\n12.9\n1.2\n16.8\n2.6\n14.1\n1.4\n16.7\nGNPA\nROE\nROA\nCRAR\nPer cent\nSep-22\nSep-23\nSep-24\nSource: Various editions of RBI Financial Stability Report\n1.62\tWhile the long-term stability of the banking system is safeguarded, there was\nscrutiny over the short-term dynamics emerging from the mismatch of credit and\ndeposit growth rates. The RBI FSR\u2019s (June 2024)38 analysis of previous episodes where\ncredit growth outpaced deposit growth shows that the average duration of such cycles\nwhere credit growth exceeds deposit growth is 41 months. The merger of a bank with\na non-bank has elongated the cycle in this episode. The analysis reveals that credit\ngrowth precedes deposit growth and that convergence is usually achieved through a fall\nin credit growth.\n1.63\tAnother area of concern within the banking system is the stress on unsecured\ncredit, i.e., personal loans and credit cards. As of September 2024, 51.9 per cent of\nthe fresh addition to the stock of NPAs in the retail loan portfolio emanated from the\nslippages in the unsecured loan book.39 The RBI FSR (December 2024) notes that nearly\nhalf of borrowers with credit card and personal loans also have another active retail\nloan, often substantial, such as a housing or vehicle loan. When a borrower defaults\non any loan category, financial institutions classify all loans of that borrower as non-\nperforming. Hence, their larger, secured loans face delinquency risks due to defaults in\nsmaller personal loans.\n1.64\tApart from active monitoring of the banking system, there is a need to be cautious\nregarding developments in the Indian and global stock markets. While the Indian\nfinancial sector shows resilience, international market conditions may have some\ninfluence on India. Any correction in the US stock market could have implications\nfor global markets (See Box II.2 of the Survey for an analysis pertaining to the Indian\nmarket).\n38\tReserve Bank of India. (2024, June). Financial Stability Report. https://tinyurl.com/3ba9x6vr.\n39 Reserve Bank of India. (2024, December). Financial Stability Report. https://tinyurl.com/4wtz3c6u.\n\n\nState of the Economy\n</text>\n</passage>\n",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "extractionout",
+        "schema": {
+          "$defs": {
+            "FactOut": {
+              "properties": {
+                "claim_text": {
+                  "description": "One self-contained sentence stating the fact",
+                  "title": "Claim Text",
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "title": "Confidence",
+                  "type": "number"
+                },
+                "passage_id": {
+                  "description": "id of the passage this fact and its quote came from",
+                  "title": "Passage Id",
+                  "type": "integer"
+                },
+                "predicate": {
+                  "description": "Lower snake_case relation name",
+                  "title": "Predicate",
+                  "type": "string"
+                },
+                "qualifiers": {
+                  "items": {
+                    "$ref": "#/$defs/QualifierOut"
+                  },
+                  "title": "Qualifiers",
+                  "type": "array"
+                },
+                "quote": {
+                  "description": "Verbatim span copied from the document",
+                  "title": "Quote",
+                  "type": "string"
+                },
+                "subject_key": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Hard identifier for the subject if the document gives one",
+                  "title": "Subject Key"
+                },
+                "subject_surface": {
+                  "title": "Subject Surface",
+                  "type": "string"
+                },
+                "subject_type": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "title": "Subject Type"
+                },
+                "value": {
+                  "$ref": "#/$defs/ValueOut"
+                }
+              },
+              "required": [
+                "passage_id",
+                "claim_text",
+                "subject_surface",
+                "predicate",
+                "value",
+                "quote",
+                "confidence"
+              ],
+              "title": "FactOut",
+              "type": "object"
+            },
+            "QualifierOut": {
+              "properties": {
+                "key": {
+                  "description": "Lower snake_case condition name",
+                  "title": "Key",
+                  "type": "string"
+                },
+                "provenance": {
+                  "enum": [
+                    "stated",
+                    "inherited"
+                  ],
+                  "title": "Provenance",
+                  "type": "string"
+                },
+                "value": {
+                  "title": "Value",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "value",
+                "provenance"
+              ],
+              "title": "QualifierOut",
+              "type": "object"
+            },
+            "ValueOut": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "quantity",
+                    "text",
+                    "date",
+                    "boolean"
+                  ],
+                  "title": "Kind",
+                  "type": "string"
+                },
+                "raw": {
+                  "description": "The value exactly as written in the document",
+                  "title": "Raw",
+                  "type": "string"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Magnitude word such as million or crore, if any",
+                  "title": "Scale"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Currency code or unit of measure, as written",
+                  "title": "Unit"
+                }
+              },
+              "required": [
+                "kind",
+                "raw"
+              ],
+              "title": "ValueOut",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "facts": {
+              "items": {
+                "$ref": "#/$defs/FactOut"
+              },
+              "title": "Facts",
+              "type": "array"
+            }
+          },
+          "title": "ExtractionOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "For 23 States, GST was the main source of revenue amongst ORR with the greatest reliance thereon by Manipur and Nagaland at 78 per cent and 72 per cent, respectively (Chart I.41).",
+        "confidence": 1.0,
+        "passage_id": 24,
+        "predicate": "reliance_on_gst",
+        "quote": "For 23 States, GST was the main source of revenue amongst ORR with the greatest reliance thereon by Manipur and Nagaland at 78 per cent and 72 per cent, respectively (Chart I.41).",
+        "subject_surface": "Manipur",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "78 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "For 23 States, GST was the main source of revenue amongst ORR with the greatest reliance thereon by Manipur and Nagaland at 78 per cent and 72 per cent, respectively (Chart I.41).",
+        "confidence": 1.0,
+        "passage_id": 24,
+        "predicate": "reliance_on_gst",
+        "quote": "For 23 States, GST was the main source of revenue amongst ORR with the greatest reliance thereon by Manipur and Nagaland at 78 per cent and 72 per cent, respectively (Chart I.41).",
+        "subject_surface": "Nagaland",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "72 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "States garnering the highest shares in respective ORRs w.r.t. stamps & registration, sales tax and state excise duties were Maharashtra, Tamil Nadu and West Bengal, respectively.",
+        "confidence": 1.0,
+        "passage_id": 24,
+        "predicate": "highest_share_in_orr",
+        "quote": "States garnering the highest shares in respective ORRs w.r.t. stamps & registration, sales tax and state excise duties were Maharashtra, Tamil Nadu and West Bengal, respectively.",
+        "subject_surface": "Maharashtra",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "highest shares",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "States garnering the highest shares in respective ORRs w.r.t. stamps & registration, sales tax and state excise duties were Maharashtra, Tamil Nadu and West Bengal, respectively.",
+        "confidence": 1.0,
+        "passage_id": 24,
+        "predicate": "highest_share_in_orr",
+        "quote": "States garnering the highest shares in respective ORRs w.r.t. stamps & registration, sales tax and state excise duties were Maharashtra, Tamil Nadu and West Bengal, respectively.",
+        "subject_surface": "Tamil Nadu",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "highest shares",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "States garnering the highest shares in respective ORRs w.r.t. stamps & registration, sales tax and state excise duties were Maharashtra, Tamil Nadu and West Bengal, respectively.",
+        "confidence": 1.0,
+        "passage_id": 24,
+        "predicate": "highest_share_in_orr",
+        "quote": "States garnering the highest shares in respective ORRs w.r.t. stamps & registration, sales tax and state excise duties were Maharashtra, Tamil Nadu and West Bengal, respectively.",
+        "subject_surface": "West Bengal",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "highest shares",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Odisha exhibited the highest share of non-tax revenue in ORR at 49 per cent.",
+        "confidence": 1.0,
+        "passage_id": 24,
+        "predicate": "highest_share_of_non_tax_revenue_in_orr",
+        "quote": "Odisha exhibited the highest share of non-tax revenue in ORR at 49 per cent.",
+        "subject_surface": "Odisha",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "49 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The revenue expenditure of the states grew at 12 per cent (YoY) during April to November 2024 (Chart I.42), with subsidies and committed liabilities registering a growth of 25.7 per cent and 10.4 per cent, respectively (Chart I.43).",
+        "confidence": 1.0,
+        "passage_id": 25,
+        "predicate": "revenue_expenditure_growth",
+        "quote": "The revenue expenditure of the states grew at 12 per cent (YoY) during April to November 2024 (Chart I.42), with subsidies and committed liabilities registering a growth of 25.7 per cent and 10.4 per cent, respectively (Chart I.43).",
+        "subject_surface": "states",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "12 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The revenue expenditure of the states grew at 12 per cent (YoY) during April to November 2024 (Chart I.42), with subsidies and committed liabilities registering a growth of 25.7 per cent and 10.4 per cent, respectively (Chart I.43).",
+        "confidence": 1.0,
+        "passage_id": 25,
+        "predicate": "subsidy_growth",
+        "quote": "The revenue expenditure of the states grew at 12 per cent (YoY) during April to November 2024 (Chart I.42), with subsidies and committed liabilities registering a growth of 25.7 per cent and 10.4 per cent, respectively (Chart I.43).",
+        "subject_surface": "states",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "25.7 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The revenue expenditure of the states grew at 12 per cent (YoY) during April to November 2024 (Chart I.42), with subsidies and committed liabilities registering a growth of 25.7 per cent and 10.4 per cent, respectively (Chart I.43).",
+        "confidence": 1.0,
+        "passage_id": 25,
+        "predicate": "committed_liabilities_growth",
+        "quote": "The revenue expenditure of the states grew at 12 per cent (YoY) during April to November 2024 (Chart I.42), with subsidies and committed liabilities registering a growth of 25.7 per cent and 10.4 per cent, respectively (Chart I.43).",
+        "subject_surface": "states",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.4 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "With expenditure on capital account for states declining by 5.6 per cent, total expenditure grew by 9.5 per cent.",
+        "confidence": 1.0,
+        "passage_id": 25,
+        "predicate": "capital_account_expenditure_growth",
+        "quote": "With expenditure on capital account for states declining by 5.6 per cent, total expenditure grew by 9.5 per cent.",
+        "subject_surface": "states",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.6 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "With expenditure on capital account for states declining by 5.6 per cent, total expenditure grew by 9.5 per cent.",
+        "confidence": 1.0,
+        "passage_id": 25,
+        "predicate": "total_expenditure_growth",
+        "quote": "With expenditure on capital account for states declining by 5.6 per cent, total expenditure grew by 9.5 per cent.",
+        "subject_surface": "states",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "9.5 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "In the quality of expenditure, measured by capital outlay as a per cent of revenue expenditure over the five years ending FY24, states exhibited considerable variation (Chart I.44).",
+        "confidence": 1.0,
+        "passage_id": 25,
+        "predicate": "capital_outlay_as_percent_of_revenue_expenditure",
+        "quote": "In the quality of expenditure, measured by capital outlay as a per cent of revenue expenditure over the five years ending FY24, states exhibited considerable variation (Chart I.44).",
+        "subject_surface": "states",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "considerable variation",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "In April-November 2024, 11 States maintained revenue surplus (Chart I.45).",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "revenue_surplus_states_count",
+        "quote": "In April-November 2024, 11 States maintained revenue surplus (Chart I.45).",
+        "subject_surface": "states",
+        "subject_type": "state",
+        "value": {
+          "kind": "quantity",
+          "raw": "11",
+          "unit": "count"
+        }
+      },
+      {
+        "claim_text": "Retail headline inflation, as measured by the change in the Consumer Price Index (CPI), has softened from 5.4 per cent in FY24 to 4.9 per cent in April \u2013 December 2024.",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "headline_inflation_cpi",
+        "quote": "Retail headline inflation, as measured by the change in the Consumer Price Index (CPI), has softened from 5.4 per cent in FY24 to 4.9 per cent in April \u2013 December 2024.",
+        "subject_surface": "CPI",
+        "subject_type": "index",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.9 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The decline is attributed to a 0.9 percentage point reduction in core (non-food, non-fuel) inflation between FY24 and April \u2013 December 2024.",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "core_inflation_reduction",
+        "quote": "The decline is attributed to a 0.9 percentage point reduction in core (non-food, non-fuel) inflation between FY24 and April \u2013 December 2024.",
+        "subject_surface": "core inflation",
+        "subject_type": "index",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.9 percentage point",
+          "unit": "percentage point"
+        }
+      },
+      {
+        "claim_text": "Food inflation, measured by the Consumer Food Price Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25 (April-December), primarily driven by a few food items such as vegetables and pulses.",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "food_inflation_cfpi",
+        "quote": "Food inflation, measured by the Consumer Food Price Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25 (April-December), primarily driven by a few food items such as vegetables and pulses.",
+        "subject_surface": "CFPI",
+        "subject_type": "index",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.4 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India\u2019s merchandise exports grew by 1.6 per cent YoY in April \u2013 December 2024.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "merchandise_exports_growth",
+        "quote": "India\u2019s merchandise exports grew by 1.6 per cent YoY in April \u2013 December 2024.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.6 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Non-petroleum exports (on the same comparison basis) were up by 7.1 per cent.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "non_petroleum_exports_growth",
+        "quote": "Non-petroleum exports (on the same comparison basis) were up by 7.1 per cent.",
+        "subject_surface": "non-petroleum exports",
+        "subject_type": "export category",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.1 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Non-petroleum and non-gems and jewellery exports rose by 9.1 per cent.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "non_petroleum_non_gems_jewellery_exports_growth",
+        "quote": "Non-petroleum and non-gems and jewellery exports rose by 9.1 per cent.",
+        "subject_surface": "non-petroleum and non-gems and jewellery exports",
+        "subject_type": "export category",
+        "value": {
+          "kind": "quantity",
+          "raw": "9.1 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Merchandise imports rose by 5.2 per cent.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "merchandise_imports_growth",
+        "quote": "Merchandise imports rose by 5.2 per cent.",
+        "subject_surface": "merchandise imports",
+        "subject_type": "import category",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.2 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India\u2019s services trade surplus has lent balance to the overall trade deficit.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "services_trade_surplus",
+        "quote": "India\u2019s services trade surplus has lent balance to the overall trade deficit.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "surplus",
+          "unit": "balance"
+        }
+      },
+      {
+        "claim_text": "India's robust services exports have propelled the country to secure the seventh-largest share in global services exports, underscoring its competitiveness in this critical sector.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "global_services_exports_share",
+        "quote": "India's robust services exports have propelled the country to secure the seventh-largest share in global services exports, underscoring its competitiveness in this critical sector.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "seventh-largest share",
+          "unit": "rank"
+        }
+      },
+      {
+        "claim_text": "As per the World Bank, India was the top recipient of remittances in the world, driven by an uptick in job creation in OECD economies.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "top_remittance_recipient",
+        "quote": "As per the World Bank, India was the top recipient of remittances in the world, driven by an uptick in job creation in OECD economies.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "top recipient",
+          "unit": "rank"
+        }
+      },
+      {
+        "claim_text": "India\u2019s current account deficit (CAD) remains relatively contained at 1.2 per cent of GDP in Q2 FY25.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "current_account_deficit",
+        "quote": "India\u2019s current account deficit (CAD) remains relatively contained at 1.2 per cent of GDP in Q2 FY25.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.2 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Gross foreign direct investment (FDI) inflows increased 17.9 per cent YoY in April \u2013 November 2024.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "gross_fdi_inflows_growth",
+        "quote": "Gross foreign direct investment (FDI) inflows increased 17.9 per cent YoY in April \u2013 November 2024.",
+        "subject_surface": "FDI",
+        "subject_type": "investment",
+        "value": {
+          "kind": "quantity",
+          "raw": "17.9 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Net FPI inflows slowed to USD 10.6 billion in April \u2013 December 2024 from USD 31.7 billion during the same period the previous year.",
+        "confidence": 1.0,
+        "passage_id": 29,
+        "predicate": "net_fpi_inflows",
+        "quote": "Net FPI inflows slowed to USD 10.6 billion in April \u2013 December 2024 from USD 31.7 billion during the same period the previous year.",
+        "subject_surface": "FPI",
+        "subject_type": "investment",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.6 billion USD",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "India\u2019s foreign exchange reserves increased from USD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024 before moderating to USD 634.6 billion as on 3 January 2025.",
+        "confidence": 1.0,
+        "passage_id": 29,
+        "predicate": "foreign_exchange_reserves",
+        "quote": "India\u2019s foreign exchange reserves increased from USD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024 before moderating to USD 634.6 billion as on 3 January 2025.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "634.6 billion USD",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "India\u2019s forex reserves are sufficient to cover 90 per cent of external debt and provide an import cover of more than ten months, thereby safeguarding against external vulnerabilities.",
+        "confidence": 1.0,
+        "passage_id": 29,
+        "predicate": "external_debt_coverage",
+        "quote": "India\u2019s forex reserves are sufficient to cover 90 per cent of external debt and provide an import cover of more than ten months, thereby safeguarding against external vulnerabilities.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "90 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "India\u2019s forex reserves are sufficient to cover 90 per cent of external debt and provide an import cover of more than ten months, thereby safeguarding against external vulnerabilities.",
+        "confidence": 1.0,
+        "passage_id": 29,
+        "predicate": "import_cover_months",
+        "quote": "India\u2019s forex reserves are sufficient to cover 90 per cent of external debt and provide an import cover of more than ten months, thereby safeguarding against external vulnerabilities.",
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "more than ten months",
+          "unit": "months"
+        }
+      },
+      {
+        "claim_text": "Credit disbursal by scheduled commercial banks (SCBs) is growing in double-digits, but there has been a moderation in the growth in recent months.",
+        "confidence": 1.0,
+        "passage_id": 30,
+        "predicate": "credit_disbursal_growth",
+        "quote": "Credit disbursal by scheduled commercial banks (SCBs) is growing in double-digits, but there has been a moderation in the growth in recent months.",
+        "subject_surface": "scheduled commercial banks",
+        "subject_type": "financial institution",
+        "value": {
+          "kind": "quantity",
+          "raw": "double-digits",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The gross non-performing assets (NPAs) in the banking system have declined to a 12-year low of 2.6 per cent of gross loans and advances.",
+        "confidence": 1.0,
+        "passage_id": 30,
+        "predicate": "gross_npa",
+        "quote": "The gross non-performing assets (NPAs) in the banking system have declined to a 12-year low of 2.6 per cent of gross loans and advances.",
+        "subject_surface": "banking system",
+        "subject_type": "financial system",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.6 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The capital-to-risk-weighted assets ratio (CRAR) for SCBs stands at 16.7 per cent as of September 2024, well above the norm.",
+        "confidence": 1.0,
+        "passage_id": 30,
+        "predicate": "crar",
+        "quote": "The capital-to-risk-weighted assets ratio (CRAR) for SCBs stands at 16.7 per cent as of September 2024, well above the norm.",
+        "subject_surface": "scheduled commercial banks",
+        "subject_type": "financial institution",
+        "value": {
+          "kind": "quantity",
+          "raw": "16.7 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Profit after tax (PAT) surged by 22.2 per cent YoY, while the Return on Equity (RoE) and Return on Assets (RoA) have improved on a YoY basis.",
+        "confidence": 1.0,
+        "passage_id": 30,
+        "predicate": "pat_growth",
+        "quote": "Profit after tax (PAT) surged by 22.2 per cent YoY, while the Return on Equity (RoE) and Return on Assets (RoA) have improved on a YoY basis.",
+        "subject_surface": "scheduled commercial banks",
+        "subject_type": "financial institution",
+        "value": {
+          "kind": "quantity",
+          "raw": "22.2 per cent",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "As of September 2024, 51.9 per cent of the fresh addition to the stock of NPAs in the retail loan portfolio emanated from the slippages in the unsecured loan book.",
+        "confidence": 1.0,
+        "passage_id": 31,
+        "predicate": "unsecured_loan_npa_contribution",
+        "quote": "As of September 2024, 51.9 per cent of the fresh addition to the stock of NPAs in the retail loan portfolio emanated from the slippages in the unsecured loan book.",
+        "subject_surface": "unsecured loan book",
+        "subject_type": "loan category",
+        "value": {
+          "kind": "quantity",
+          "raw": "51.9 per cent",
+          "unit": "percent"
+        }
+      }
+    ]
+  }
+}

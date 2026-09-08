@@ -1,0 +1,289 @@
+{
+  "key": "3311d99448cf20f34c4d498a4088c45ec9bb42d4cc40cd94e485ba2930e30157",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 3 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"96\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > APPENDIX TABLE 6: KEY FISCAL INDICATORS\n</context>\n<text>\n: \t Data for 2023-24, 2024-25 and 2025-26 are accounts, revised estimates and budget estimates, respectively for 28 states and 3\nUTs which have presented their budgets.\nNote: 1.  Negative sign (-) indicates surplus in deficit indicators.\n2.  GDP figures used in this table are on 2011-12 base, which are the latest available estimates.\n3.  Columns 6 and 7 are outstanding figures as at end-March of respective years.\nSource:\t Budget documents of central and state governments, Status paper on government debt and Quarterly report on public debt\nmanagement.\n\n\nANNUAL REPORT 2024-25\n288\nAPPENDIX TABLE 7: COMBINED RECEIPTS AND DISBURSEMENTS OF\nTHE CENTRAL AND STATE GOVERNMENTS\n(Amount in \u20b9 thousand crore)\nItem\n2019-20\n2020-21\n2021-22 2022-23 2023-24\nRE\n2024-25\nBE\n1\n2\n3\n4\n5\n6\n7\n1\nTotal Disbursements\n5,411\n6,353\n7,098\n7,881\n9,111\n9,801\n1.1 Developmental\n3,074\n3,823\n4,189\n4,702\n5,515\n5,863\n1.1.1 Revenue\n2,447\n3,150\n3,255\n3,575\n3,965\n4,195\n1.1.2 Capital\n588\n550\n862\n1,042\n1,454\n1,527\n1.1.3 Loans\n40\n123\n72\n85\n95\n141\n1.2 Non-Developmental\n2,253\n2,443\n2,810\n3,070\n3,467\n3,800\n1.2.1 Revenue\n2,110\n2,272\n2,603\n2,896\n3,267\n3,537\n1.2.1.1 Interest Payments\n956\n1,061\n1,227\n1,378\n1,563\n1,712\n1.2.2 Capital\n141\n169\n176\n171\n196\n259\n1.2.3 Loans\n2\n2\n32\n3\n5\n4\n1.3 Others\n83\n87\n99\n109\n129\n137\n2\nTotal Receipts\n5,734\n6,397\n7,156\n7,855\n9,055\n9,650\n2.1 Revenue Receipts\n3,852\n3,688\n4,824\n5,448\n6,379\n7,210\n2.1.1 Tax Receipts\n3,232\n3,193\n4,160\n4,809\n5,457\n6,142\n2.1.1.1 Taxes on Commodities and Services\n2,013\n2,076\n2,627\n2,866\n3,248\n3,632\n2.1.1.2 Taxes on Income and Property\n1,216\n1,115\n1,531\n1,940\n2,204\n2,506\n2.1.1.3 Taxes of Union Territories (Without Legislature)\n3\n3\n3\n4\n4\n5\n2.1.2 Non-tax Receipts\n620\n495\n663\n639\n922\n1,067\n2.1.2.1 Interest Receipts\n31\n33\n35\n43\n50\n57\n2.2 Non-debt Capital Receipts\n110\n65\n44\n63\n87\n118\n2.2.1 Recovery of Loans & Advances\n60\n17\n28\n16\n56\n45\n2.2.2 Disinvestment Proceeds\n51\n48\n16\n47\n31\n73\n3\nGross Fiscal Deficit [1 - (2.1 + 2.2)]\n1,449\n2,600\n2,231\n2,370\n2,645\n2,473\n3A Sources of Financing: Institution-wise\n3A.1\nDomestic Financing\n1,441\n2,530\n2,194\n2,333\n2,620\n2,457\n3A.1.1 Net Bank Credit to Government\n572\n890\n627\n688\n346\n\u2026\n3A.1.1.1 Net RBI Credit to Government\n190\n107\n351\n1\n-258\n\u2026\n3A.1.2 Non-Bank Credit to Government\n869\n1,640\n1,567\n1,645\n2,273\n\u2026\n3A.2\nExternal Financing\n9\n70\n36\n37\n25\n16\n3B Sources of Financing: Instrument-wise\n3B.1\nDomestic Financing\n1,441\n2,530\n2,194\n2,333\n2,620\n2,457\n3B.1.1 Market Borrowings (net)\n971\n1,696\n1,213\n1,651\n1,963\n1,984\n3B.1.2 Small Savings (net)\n209\n459\n527\n359\n434\n448\n3B.1.3 State Provident Funds (net)\n38\n41\n28\n14\n21\n20\n3B.1.4 Reserve Funds\n10\n5\n42\n69\n52\n-34\n3B.1.5 Deposits and Advances\n-14\n26\n42\n52\n36\n-10\n3B.1.6 Cash Balances\n-323\n-44\n-58\n25\n56\n150\n3B.1.7 Others\n549\n348\n400\n163\n57\n-101\n3B.2\nExternal Financing\n9\n70\n36\n37\n25\n16\n4\nTotal Disbursements as per cent of GDP\n26.9\n32.0\n30.1\n29.3\n30.2\n30.0\n5\nTotal Receipts as per cent of GDP\n28.5\n32.2\n30.3\n29.2\n30.1\n29.6\n6\nRevenue Receipts as per cent of GDP\n19.2\n18.6\n20.4\n20.3\n21.2\n22.1\n7\nTax Receipts as per cent of GDP\n16.1\n16.1\n17.6\n17.9\n18.1\n18.8\n8\nGross Fiscal Deficit as per cent of GDP\n7.2\n13.1\n9.5\n8.8\n8.8\n7.6\n\u2026: Not Available.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003RE: Revised Estimates.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003BE: Budget Estimates.\nNote:\t 1.\t GDP data are as per 2011-12 base. GDP for 2024-25 (BE) is from Union Budget 2024-25.\n2.  The revision of general government fiscal data will be undertaken after all states present their final budget and they are tabulated,\nconsolidated and disseminated by the Reserve Bank through its annual publication - \u2018State Finances: A Study of Budgets\u2019.\n3. \tFigures in the columns might not add up to the total due to rounding of numbers.\nSource: Budget Documents of the central and state governments.\n\n\nAPPENDIX TABLES\n</text>\n</passage>\n\n<passage id=\"97\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > THE CENTRAL AND STATE GOVERNMENTS\n</context>\n<text>\nNote:\t 1.\t GDP data are as per 2011-12 base. GDP for 2024-25 (BE) is from Union Budget 2024-25.\n2.  The revision of general government fiscal data will be undertaken after all states present their final budget and they are tabulated,\nconsolidated and disseminated by the Reserve Bank through its annual publication - \u2018State Finances: A Study of Budgets\u2019.\n3. \tFigures in the columns might not add up to the total due to rounding of numbers.\nSource: Budget Documents of the central and state governments.\n\n\nAPPENDIX TABLES\n289\nAPPENDIX TABLE 8: INDIA\u2019S OVERALL BALANCE OF PAYMENTS\n(US$ million)\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25 (P)\n1\n2\n3\n4\n5\n6\nA.\nCURRENT ACCOUNT\n1 Exports, f.o.b.\n296,300\n429,164\n456,073\n4,41,443\n3,25,540\n2 Imports, c.i.f.\n398,452\n618,623\n721,364\n6,86,338\n5,52,767\n3 Trade Balance\n-102,152\n-189,459\n-265,291\n-2,44,896\n-2,27,227\n4 Invisibles, Net\n126,065\n150,694\n198,236\n2,18,780\n1,90,127\na) \t \u2018Non-factor\u2019 Services of which :\n88,565\n107,516\n143,283\n1,62,752\n1,35,518\nSoftware Services\n89,741\n109,540\n131,284\n1,42,074\n1,18,129\nb) \t Income\n-35,960\n-37,269\n-45,923\n-49,757\n-37,278\nc) \t Private Transfers\n74,439\n81,230\n101,776\n1,06,631\n92,708\n5 Current Account Balance\n23,912\n-38,766\n-67,055\n-26,116\n-37,100\nB.\nCAPITAL ACCOUNT\n1 Foreign Investment, Net (a+b)\n80,092\n21,809\n22,834\n54,210\n10,980\na) \t Direct Investment\n43,955\n38,587\n27,986\n10,129\n1,557\nb) \t Portfolio Investment\n36,137\n-16,777\n-5,152\n44,081\n9,423\n2 External Assistance, Net\n11,167\n5,366\n5,521\n7,460\n4,187\n3 Commercial Borrowings, Net\n-134\n8,135\n-3,790\n-12\n7,922\n4 Short Term Credit, Net\n-4,130\n20,105\n6,539\n-833\n11,086\n5 Banking Capital of which :\n-21,067\n6,669\n20,980\n40,543\n-817\nNRI Deposits, Net\n7,364\n3,234\n8,989\n14,702\n13,333\n6 Rupee Debt Service\n-64\n-71\n-68\n-72\n-63\n7 Other Capital, Net&\n-2,143\n23,794\n6,928\n-11,786\n-10,595\n8 Total Capital Account\n63,721\n85,807\n58,943\n89,509\n22,701\nC.\nErrors & Omissions\n-347\n459\n-1,024\n308\n578\nD.\nOverall Balance [A(5)+B(8)+C]\n87,286\n47,501\n-9,135\n63,702\n-13,821\nE.\nMonetary Movements (F+G)\n-87,286\n-47,501\n9,135\n-63,702\n13,821\nF.\nIMF, Net\n0\n0\n0\n0\n0\nG.\nReserves and Monetary Gold (Increase -, Decrease +)\n-87,286\n-47,501\n9,135\n-63,702\n13,821\nof which : SDR Allocation\n0\n-17,862\n0\n0\n0\nMemo: As a ratio to GDP\n1 Trade Balance\n-3.8\n-6.0\n-7.9\n-6.7\n-7.9\n2 Net Services\n3.3\n3.4\n4.3\n4.5\n4.7\n3 Net Income\n-1.3\n-1.2\n-1.4\n-1.4\n-1.3\n4 Current Account Balance\n0.9\n-1.2\n-2.0\n-0.7\n-1.3\n5 Capital Account, Net\n2.4\n2.7\n1.8\n2.5\n0.8\n6 Foreign Investment, Net\n3.0\n0.7\n0.7\n1.5\n0.4\nP\t : \t Data are provisional and pertain to April-December 2024.\n&\t : \t Includes delayed export receipts, advance payments against imports, net funds held abroad, and advances received pending issue\nof shares under  FDI.\nNote: \t1. \tGold and silver brought by returning Indians have been included under imports, with a contra entry in private transfer receipts.\n2. \tData on exports and imports differ from those given by DGCI&S on account of differences in coverage, valuation, and timing.\nSource: RBI.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"98\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > APPENDIX TABLE 8: INDIA\u2019S OVERALL BALANCE OF PAYMENTS\n</context>\n<text>\nP\t : \t Data are provisional and pertain to April-December 2024.\n&\t : \t Includes delayed export receipts, advance payments against imports, net funds held abroad, and advances received pending issue\nof shares under  FDI.\nNote: \t1. \tGold and silver brought by returning Indians have been included under imports, with a contra entry in private transfer receipts.\n2. \tData on exports and imports differ from those given by DGCI&S on account of differences in coverage, valuation, and timing.\nSource: RBI.\n\n\nANNUAL REPORT 2024-25\n290\nAPPENDIX TABLE 9: FOREIGN DIRECT INVESTMENT FLOWS TO INDIA:\nCOUNTRY-WISE AND INDUSTRY-WISE\n(US$ billion)\nSource/Industry\n2020-21\n2021-22\n2022-23\n2023-24 2024-25 (P)\n1\n2\n3\n4\n5\n6\nTotal FDI\n59.6\n58.8\n46.0\n44.4\n50.0\nCountry-wise Inflows\nSingapore\n17.4\n15.9\n17.2\n11.8\n15.0\nMauritius\n5.6\n9.4\n6.1\n8.0\n8.3\nUS\n13.8\n10.5\n6.0\n5.0\n5.5\nNetherlands\n2.8\n4.6\n2.5\n4.9\n4.6\nUAE\n4.2\n1.0\n3.4\n2.9\n4.4\nJapan\n1.9\n1.5\n1.8\n3.2\n2.5\nCyprus\n0.4\n0.2\n1.3\n0.8\n1.2\nBelgium\n0.4\n0.2\n0.2\n0.1\n1.1\nSwitzerland\n0.2\n4.3\n0.4\n0.2\n0.9\nSouth Korea\n0.4\n0.3\n0.3\n0.4\n0.8\nFrance\n1.3\n0.3\n0.4\n0.4\n0.8\nUK\n2.0\n1.6\n1.7\n1.2\n0.8\nGermany\n0.7\n0.7\n0.5\n0.5\n0.5\nCayman Islands\n2.8\n3.8\n0.8\n0.3\n0.4\nLuxembourg\n0.3\n0.5\n0.5\n0.4\n0.4\nOthers\n5.4\n3.7\n2.9\n4.3\n3.0\nSector-wise Inflows\nManufacturing\n9.3\n16.3\n11.3\n9.3\n12.1\nFinancial Services\n3.5\n4.7\n6.8\n4.4\n7.8\nElectricity and Other Energy Generation, Distribution & Transmission\n1.3\n2.2\n3.3\n5.5\n5.5\nCommunication Services\n2.9\n6.4\n4.5\n3.7\n5.0\nRetail & Wholesale Trade\n3.9\n5.1\n5.3\n4.1\n4.4\nComputer Services\n23.8\n9.0\n5.6\n4.9\n4.0\nBusiness Services\n1.8\n2.5\n2.0\n2.6\n2.5\nTransport\n7.9\n3.3\n1.7\n3.8\n2.2\nConstruction\n1.8\n3.2\n1.4\n2.2\n2.2\nMiscellaneous Services\n0.9\n1.0\n1.2\n1.9\n1.8\nRestaurants and Hotels\n0.3\n0.7\n0.2\n0.4\n1.3\nEducation, Research & Development\n1.3\n3.6\n1.9\n0.6\n0.7\nReal Estate Activities\n0.4\n0.1\n0.1\n0.3\n0.5\nMining\n0.2\n0.4\n0.2\n0.1\n0.0\nTrading\n0.0\n0.0\n0.0\n0.0\n0.0\nOthers\n0.2\n0.4\n0.5\n0.7\n0.1\nP: Data are provisional.\nNote: Includes FDI through approval, automatic and acquisition of existing shares routes.\nSource: RBI.\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The total disbursements of the central and state governments in 2024-25 (BE) was 9,801 thousand crore rupees.",
+        "confidence": 1,
+        "passage_id": 96,
+        "predicate": "total_disbursements",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25 (BE)"
+          }
+        ],
+        "quote": "Total Disbursements 5,411 6,353 7,098 7,881 9,111 9,801",
+        "subject_surface": "Central and state governments",
+        "value": {
+          "kind": "quantity",
+          "raw": "9,801",
+          "scale": "thousand crore",
+          "unit": "thousand crore"
+        }
+      },
+      {
+        "claim_text": "The total receipts of the central and state governments in 2024-25 (BE) was 9,650 thousand crore rupees.",
+        "confidence": 1,
+        "passage_id": 96,
+        "predicate": "total_receipts",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25 (BE)"
+          }
+        ],
+        "quote": "Total Receipts 5,734 6,397 7,156 7,855 9,055 9,650",
+        "subject_surface": "Central and state governments",
+        "value": {
+          "kind": "quantity",
+          "raw": "9,650",
+          "scale": "thousand crore",
+          "unit": "thousand crore"
+        }
+      },
+      {
+        "claim_text": "India's current account balance in 2024-25 (P) was -37,100 million US dollars.",
+        "confidence": 1,
+        "passage_id": 97,
+        "predicate": "current_account_balance",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25 (P)"
+          }
+        ],
+        "quote": "Current Account Balance 23,912 -38,766 -67,055 -26,116 -37,100",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "-37,100",
+          "scale": "million",
+          "unit": "US$ million"
+        }
+      },
+      {
+        "claim_text": "Total foreign direct investment flows to India in 2024-25 (P) was 50.0 billion US dollars.",
+        "confidence": 1,
+        "passage_id": 98,
+        "predicate": "total_fdi_inflows",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25 (P)"
+          }
+        ],
+        "quote": "Total FDI 59.6 58.8 46.0 44.4 50.0",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "50.0",
+          "scale": "billion",
+          "unit": "US$ billion"
+        }
+      }
+    ]
+  }
+}

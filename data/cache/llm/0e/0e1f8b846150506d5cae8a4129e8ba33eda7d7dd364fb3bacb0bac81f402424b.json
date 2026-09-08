@@ -1,0 +1,681 @@
+{
+  "key": "0e1f8b846150506d5cae8a4129e8ba33eda7d7dd364fb3bacb0bac81f402424b",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"24\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 21\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nPOLICY DISCUSSIONS > Authorities\u2019 Views\n</context>\n<text>\nmarket opportunities, and facilitate the flow of\ngoods, services, and technology. As India\npursues trade integration with key bilateral\npartners, India should also consider joining trade\nblocs such as the Comprehensive and\nProgressive Agreement for Trans-Pacific\nPartnership. India should continue to play an\nactive role in strengthening the WTO rules and\n0\n5\n10\n15\n20\n25\n30\n35\nExports\nOutward FDI Stock\nSouth Asia 1/\nASEAN\nIndia: Intra-Regional Trade and FDI\n(In percent of regional totals, 2017-2021 averages)\nSources: CDIS; DoT; and IMF staff calculations.\n1/ Includes Bangladesh, Bhutan, India, Maldives, Nepal, and Sri Lanka.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n22\nINTERNATIONAL MONETARY FUND\nthe multilateral trading system. Together with the gradual relaxation of capital inflow management,\nIndia should also continue to provide stable and predictable policy frameworks to attract FDI, which\nbrings technology diffusion and improve factor allocation. The revamp of the model bilateral\ninvestment treaty announced in the FY2025/26 Union Budget offers an opportunity to rebalance\ninvestor protection and regulation and accelerate the renegotiations with partners.\n42.       India can strengthen regional economic resilience through further economic\nintegration between the countries in South Asia. South Asia is much less integrated in terms of\ntrade flows and FDI than other regions, such as ASEAN, reflecting high trade barriers and\ngeopolitical tensions. India can take the lead on lowering trade barriers and strengthening regional\npartnerships. On the energy front, India should continue to promote investment in regional energy\nhubs, facilitate third-country power transmission, and advance cross-border grid connection.\n43.      Continuing the public investment push with emphasis on quality projects remains\ncritical to meeting India\u2019s development needs. Enhancing physical public infrastructure, in\nconjunction with India's world-class digital public infrastructure, could boost the productivity of the\nprivate sector, facilitating greater job creation. An ambitious investment plan should be\naccompanied by strengthened public investment management to ensure quality and efficiency of\ninvestment. Staff analysis suggests India could narrow half of its infrastructure efficiency gap from\nimproved public investment management.12\n44.      Removing red tape and fostering stability for firms and households can accelerate\nIndia\u2019s economic transformation and reduce factor misallocation. Firms report longer customs\ndelays in India compared to peers and their senior management spending more time on regulatory\ncompliance). Efforts to reduce bureaucratic inefficiencies, create a stable policy framework, and\nenhance the business environment will be important to encourage investment, productivity, and job\ncreation, also facilitating external rebalancing.\nIndia: Efficiency Frontier\nSource: IMF Tool for Investment and Efficiency (2021).\n45.      More flexibility in labor markets would help Indian firms grow and become more\nproductive. Indian firms are relatively small, partly due to rigid labor regulations and safety-related\ncompliance thresholds that discourage formalization and expansion. The labor codes passed in 2019\n12 IMF. 2024. India Staff Report: Annex IX.\nIndia\n0\n20\n40\n60\n80\n100\n120\n140\n0\n10,000\n20,000\n30,000\n40,000\nInfrastructure index - Hybrid indicator (Output)\nPublic Capital Stock per Capita (Input),2017 PPP$-adjusted per capita\nEmerging Market Economies\nAll Other Countries\nFrontier\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\nDays to clear imports\nfrom customs*\nDays to clear direct\nexports through\ncustoms*\nPercent of firms using\nmaterial inputs\nand/or supplies of\nforeign origin\nProportion of total\ninputs that are of\nforeign origin (%)\nIndia\nG20\nEmerging Market Economies\nIndia: Customs Efficiency and Input Sourcing\n(Average)\nSources: World Bank Enterprise Survey, based on the latest data available ranging\nfrom 2019 to 2024; and IMF staff calculations.\n</text>\n</passage>\n\n<passage id=\"25\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 23\n\n[section]\nPOLICY DISCUSSIONS > Authorities\u2019 Views\n</context>\n<text>\nEmerging Market Economies\nAll Other Countries\nFrontier\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\nDays to clear imports\nfrom customs*\nDays to clear direct\nexports through\ncustoms*\nPercent of firms using\nmaterial inputs\nand/or supplies of\nforeign origin\nProportion of total\ninputs that are of\nforeign origin (%)\nIndia\nG20\nEmerging Market Economies\nIndia: Customs Efficiency and Input Sourcing\n(Average)\nSources: World Bank Enterprise Survey, based on the latest data available ranging\nfrom 2019 to 2024; and IMF staff calculations.\n* Computed using data from manufacturing firms only.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 23\nand 2020, aiming to increase labor market flexibility and simplify regulations while maintaining\nadequate workers\u2019 protection are awaiting notification by state and Union governments. Multiple\nstates have already enacted some important provisions of the codes, including raising the\nthresholds for retrenchment without government approval, applicability of the Factories Act, and\napplicability of the Contract Labour Act, as well as allowing women to work night shifts.\nNevertheless, it remains important for the codes to be fully enacted to streamline the legal\nframework and standardize working conditions. In addition, removing obstacles to female labor\nforce participation is essential (Annex XI, 2023 Article IV Consultation).\n46.       A more targeted and resilient safety net can better support social mobility and labor\nreallocation in India. India's current safety net\nprovides modest benefits to a broad population.\nMore substantial benefits aimed at a smaller,\ntargeted group could deliver more significant\nassistance to those most vulnerable. India\u2019s digital\npublic infrastructure can support targeting,\nalthough any changes should be accompanied by\nadequate redressing mechanisms. The increasing\nuse of the \"One Nation, One Ration Card\"\nprogram highlights the need for a flexible safety\nnet that includes inter-state portability to support\nmigrant workers.\n47.      Building human capital is crucial for India to harness its demographic dividend.\nEnhancing education and skills development is essential for equipping individuals with the\ncompetencies required for productive employment. Health outcomes have generally improved over\nrecent decades, but the incidence of wasting and stunting remains elevated. Targeted interventions\ncan help further improve nutritional outcomes for children and mitigate maternal and child\nmortality.\n0\n10\n20\n30\n40\n50\n60\n70\n1989\n1991\n1993\n1995\n1997\n1999\n2001\n2003\n2005\n2007\n2009\n2011\n2013\n2015\n2017\n2019\nPrevalence of Wasting: Weight for Height: % of Children Under 5\nPrevalence of Stunting: Height for Age: % of Children Under 5\nPrevalence of Overweight: % of Adults\nIndia: Prevalence of Nutritional Disorders\n(Percent)\nSource: World Bank.\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n0\n100\n200\n300\n400\n500\n600\n700\n2000\n2002\n2004\n2006\n2008\n2010\n2012\n2014\n2016\n2018\n2020\n2022\nMaternal Mortality Ratio: National Estimate: per 100,000 Live Births\nMortality Rate: Under-5: per 1000 Live Births (RHS)\nIndia: Child and Maternal Mortality Rates\n(Count)\nSource: World Bank.\n0\n100\n200\n300\n400\n500\n600\n700\n2022\n2023\n2024\nIndia: Average Monthly Use of \"One Nation, One Ration\nCard\" Program\n(In thousands)\nSources: Country authorities; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"26\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 23\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nPOLICY DISCUSSIONS > reallocation in India. India's current safety net\n</context>\n<text>\n700\n2000\n2002\n2004\n2006\n2008\n2010\n2012\n2014\n2016\n2018\n2020\n2022\nMaternal Mortality Ratio: National Estimate: per 100,000 Live Births\nMortality Rate: Under-5: per 1000 Live Births (RHS)\nIndia: Child and Maternal Mortality Rates\n(Count)\nSource: World Bank.\n0\n100\n200\n300\n400\n500\n600\n700\n2022\n2023\n2024\nIndia: Average Monthly Use of \"One Nation, One Ration\nCard\" Program\n(In thousands)\nSources: Country authorities; and IMF staff calculations.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n24\nINTERNATIONAL MONETARY FUND\n48.      Easing bottlenecks to accessing land for economic activity would improve the use of\nthis scarce resource (Annex X). Widespread fragmentation of agricultural land leads to farms that\nare too small to operate efficiently, restricting farmers' ability to expand or to deploy their resources\nto other businesses, explaining in part the divergence between marginal product of labor in\nagriculture and the rest of the economy (Annex IX). Complex regulations at the Union and state\nlevels and outdated land registries prevent market mechanisms from optimally allocating scarce\nland to its most productive uses. While significant progress has been made in digitizing land records\nin recent years, the lack of conclusive titling constrains their effectiveness. Reforms are needed to\nbetter allocate land for productive uses in manufacturing, supporting the economic transformation\nand creation of quality jobs. Reforms could include updating outdated laws, implementing\nconclusive titling, and expanding land banks with market-based allocation mechanisms.\n49.      Improving the efficiency of the insolvency resolution process is critical to create a\nmore dynamic business environment. Staff analysis suggests that India\u2019s firm entry and exit rates\nare relatively low, with a large share of nonproductive firms (Annex IX). A well-functioning insolvency\nframework facilitates the timely exit of unviable firms, freeing up resources for more productive uses\nand allowing new and more efficient firms to enter and expand. In India, the recovery process\nremains lengthy and inefficient, with only 33 percent of the original loan amount recovered on\naverage (Annex XI). In this regard, we welcome the recently proposed amendments to the\nInsolvency and Bankruptcy Code (IBC), which include provisions for enterprise group insolvency,\ncross-border insolvency, and an out-of-court, creditor-initiated insolvency mechanism, among other\ntechnical changes. These legislative reforms should be complemented by efforts to strengthen\njudicial capacity through dedicated tribunal benches and adequate funding, along with\noperationalizing the personal insolvency regime.\n50.      India\u2019s R&D spending should be accelerated to spur innovation and productivity\n(Annex IX). India spends significantly less on R&D as a share of its GDP than the G20 EM average,\nparticularly by universities and private companies. More R&D spending and focus on university-\nindustry linkages are needed to support innovation and productivity. Fiscal incentives for private\nR&D, such as grants and tax incentives, should be carefully designed and coordinated.\n51.      Industrial policies are no substitute for horizontal structural reforms. The March 2025\nElectronics Component Manufacturing Scheme\n(229 bn rupees or 0.1 percent of GDP over 6\nyears) provides subsidies if participating firms\nmeet quantitative targets on turnover and\ninvestment. The new scheme has a cost per direct\nworker that is broadly similar to that of the large-\nscale electronics PLI, but almost twice as high as\nthe average PLI. Overall, PLI execution across\nschemes has been limited, with an aggregate\nexecution rate of 18 percent, including the\n0\n5\n10\n15\n20\n25\n30\n0\n1\n2\n3\n4\n5\n6\nMedical Devices\nLarge Scale Electronics\nIT Hardware\nFood Processing\nAuto\nTextiles\nSpecialty Steel\nPLIs\nElectronics Component\nManufacturing Scheme\nIndia: Planned Cost per Direct Worker\n(LHS: in INR million; RHS: as ratio of GDP per capita)\nSources: Country authorities; and IMF staff estimates.\n</text>\n</passage>\n\n<passage id=\"27\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 25\n\n[section]\nPOLICY DISCUSSIONS > reallocation in India. India's current safety net\n</context>\n<text>\nscale electronics PLI, but almost twice as high as\nthe average PLI. Overall, PLI execution across\nschemes has been limited, with an aggregate\nexecution rate of 18 percent, including the\n0\n5\n10\n15\n20\n25\n30\n0\n1\n2\n3\n4\n5\n6\nMedical Devices\nLarge Scale Electronics\nIT Hardware\nFood Processing\nAuto\nTextiles\nSpecialty Steel\nPLIs\nElectronics Component\nManufacturing Scheme\nIndia: Planned Cost per Direct Worker\n(LHS: in INR million; RHS: as ratio of GDP per capita)\nSources: Country authorities; and IMF staff estimates.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 25\nbudget estimate for FY2025/26.13 The PLIs for large-scale electronics, pharmaceuticals, and drones\nhave experienced above-average execution. While some targeted, time-bound, cost-effective, and\ntransparent industrial policy measures may address market failures, they are no substitute for\nhorizontal reforms discussed above. Industrial policy should remain confined to correcting market\nfailures, while minimizing potential costs to public finance and resource allocation.14\n52.      India is highly vulnerable to climate change and frequently experiences extreme heat\nand precipitation-related natural disasters (Figure 10). Its agricultural sector employs 42.4 percent\nof workers,15 and half of the cultivated areas are rain-fed.  Adaptation policies should continue to\nfocus on measures to strengthen macroeconomic resilience, such as disaster preparedness,\ninfrastructure resilience, effective water resource management, and support for climate-resilient\nagricultural practices. Addressing these challenges involves substantial costs\u2014according to the\nauthorities\u2019 estimate in 2023, cumulative adaptation costs through 2030 amount to 18 percent of\n2024/25 GDP.16 External financial support, technological transfer, and capacity development remain\nimportant for India to meet the investment needs of climate adaptation.\n53.      To strengthen energy security and achieve the net-zero 2070 target, India needs to\ncontinue scaling up its renewable energy capacity. While 74 percent of electricity generation is\nfrom coal as of 2023,17 government programs promoting adoption, transmission, and storage of\nrenewable energy\u2014along with a steep drop in costs for solar energy globally\u2014have encouraged a\nfast increase in renewable capacity. Still, given the bottlenecks related to grid-scale integration and\nstorage, public support is needed to accelerate the energy transition. Policy instruments such as\nrevenue-generating emission trading schemes can mobilize resources to alleviate the fiscal burden\nwhile inducing emission abatement. Carefully designed derisking mechanisms such as public-private\nrisk-sharing could encourage private investment in green energy while containing fiscal risks.\n54.      India is expected to meet its 2030 NDC goals under current policies, while additional\npolicies are needed to achieve net zero emissions by 2070.18 India is the third largest GHG\nemitter globally, while its per capita emissions remain low compared with the world average. Policies\npromoting energy efficiency and renewable energy have made meaningful impacts on the reduction\nof emission intensity, while total emissions will continue to rise due to strong economic growth as\nIndia meets its development needs. The release of emission intensity target rules for the Carbon\n13 As of March 2025, the authorities report that 215 billion rupees (0.07 percent of GDP) have been disbursed as\nincentives, and 1.2 million direct and indirect jobs have been created.\n14 See Chapter 3 of IMF World Economic Outlook (October 2025).\n15 Based on 2024 Current Weekly Status data from the Periodic Labour Force Survey.\n16 India\u2019s Initial Adaptation Communication to UNFCCC.\n17 IEA country profile.\n18 India\u2019s targets for 2030 NDCs, updated in 2022, include reducing emissions intensity by 45 percent by 2030\ncompared with 2005, increasing the share of installed electricity capacity from non-fossil-fuel sources to 50 percent\n</text>\n</passage>\n\n<passage id=\"28\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 25\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nPOLICY DISCUSSIONS > reallocation in India. India's current safety net\n</context>\n<text>\nincentives, and 1.2 million direct and indirect jobs have been created.\n14 See Chapter 3 of IMF World Economic Outlook (October 2025).\n15 Based on 2024 Current Weekly Status data from the Periodic Labour Force Survey.\n16 India\u2019s Initial Adaptation Communication to UNFCCC.\n17 IEA country profile.\n18 India\u2019s targets for 2030 NDCs, updated in 2022, include reducing emissions intensity by 45 percent by 2030\ncompared with 2005, increasing the share of installed electricity capacity from non-fossil-fuel sources to 50 percent\nby 2030, and creating additional carbon sink of 2.5-3 billion tCO2e. In July 2025, India reached the NDC target for\ninstalled non-fossil-fuel capacity.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n26\nINTERNATIONAL MONETARY FUND\nCredit Trading Scheme, a non-revenue-generating rate-based scheme, for obligated entities in eight\nsectors are welcome. Over time, the targets should be tightened and the sectors expanded to\nprovide incentives for sufficient abatement to steer towards the net-zero target. Achieving the long-\nterm decline of emissions would require measures to induce broad-based emission abatement and\na strong price signal to direct private investment to renewables. Policy choices can alleviate the\neconomic costs incurred,19 together with targeted social safety nets to support vulnerable\nhouseholds (\u00b646).\n55.      Enhanced quality, availability, and timeliness of macroeconomic and financial statistics\nwould support policy formulation. Official statistics in India are broadly adequate for surveillance,\nthough presenting some shortcomings (Annex VII). Significant efforts are in progress for the update\nof GDP and CPI series (Annex VI). The ongoing work for the national accounts benchmark revision\nhas the objective of implementing methodological upgrades in the GDP compilation, including the\nupdate of the base year, improvement of volume estimates, incorporation of key additional data\nsources, and improving the statistical techniques used in the quarterly GDP compilation. These\nmethodological improvements are expected to contribute to increasing the accuracy of the\nmeasurement of GDP by mitigating over- or underestimating economic activity due to, for example,\nthe use of an outdated structure of relative prices. The use of double deflation techniques relying on\nproducer price indices would contribute to further improving the available volume estimates. Work\nto update the CPI weights and items basket is also ongoing, to better reflect current consumption\npatterns. Going forward, regular benchmark revisions of national accounts, prices, and other key\nstatistics should be conducted according to international best practices. Priority should be given to\nconducting the population census, last completed in 2011/12, given its importance in ensuring that\nsurveys remain representative. Other opportunities for improvement of the statistical base include\nthe timely provision of consolidated general government fiscal accounts, expanding the available\ndata on NBFCs, and increasing timeliness and granularity of data on systemic linkages across\nfinancial institutions.\nAuthorities\u2019 Views\n56.      The authorities emphasized ongoing structural reforms to foster inclusive growth.\nThey noted the implementation of the employment-linked incentive scheme \u2013 Pradhan Mantri Viksit\nBharat Rozgar Yojana \u2013 that facilitates matching between workers and firms, from August 2025. They\nemphasized the importance of deregulation to improve the business climate and pointed to\ndigitalization and Union-level incentives for states to advance structural reforms, including in land\naccess. They considered the Production Linked Incentive Schemes as a key driver of India\u2019s industrial\ngrowth that have also been supportive of balanced regional development. The authorities\nhighlighted India's ongoing efforts toward regional economic integration and building economic\nresilience, as evidenced by India\u2019s existing trade agreements and progress in multiple ongoing FTA\n</text>\n</passage>\n\n<passage id=\"29\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 27\n\n[section]\nPOLICY DISCUSSIONS > Authorities\u2019 Views\n</context>\n<text>\nemphasized the importance of deregulation to improve the business climate and pointed to\ndigitalization and Union-level incentives for states to advance structural reforms, including in land\naccess. They considered the Production Linked Incentive Schemes as a key driver of India\u2019s industrial\ngrowth that have also been supportive of balanced regional development. The authorities\nhighlighted India's ongoing efforts toward regional economic integration and building economic\nresilience, as evidenced by India\u2019s existing trade agreements and progress in multiple ongoing FTA\n19 See Box 4 of India: 2022 Article IV Consultation-Staff Report. A combination of policy instruments\u2014including\nsubsidies for renewables, a higher coal tax, and a carbon tax\u2014is less distortionary than tax-financed renewable\nsubsidies alone.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 27\nnegotiations. The authorities pointed to India\u2019s large climate finance needs and felt that multilateral\nfunding would fall short of the needs for climate adaptation and energy transition, as some global\ninstitutions retreat from climate finance. The authorities also expressed concern over the\ncommitment of advanced economies to fulfilling the climate finance pledge of COP29 and called for\nreforms to the global financial architecture to mobilize climate finance for developing economies.\nFinally, they anticipated that the recent IBC amendments bill would significantly expedite the\nbankruptcy resolution process.\n57.      The authorities stressed the ongoing improvements in real sector statistics along with\nissues in the data adequacy assessment of current series. They highlighted that the coverage in\nthe current series is updated on the basis of actual data through private corporate and government\naccounts data in the compilation of National Accounts Statistics. They also informed about\nsignificant progress on the work to update the national accounts and CPI methodologies, with\nrebased series expected to be launched in February 2026. Given these developments, the authorities\nconsidered that more favorable ratings would be warranted in the staff\u2019s Data Adequacy Assessment\nfor Surveillance, especially for the national accounts, including coverage and granularity. Further\nengagement with IMF capacity development is planned in the context of the national accounts and\nproduction indices projects (Annexes VI and VII).\nSTAFF APPRAISAL\n58.      Despite external headwinds and elevated uncertainty, India\u2019s economy remains\nresilient, supported by favorable domestic conditions. Building on strong momentum in the\nJune quarter, growth is expected to remain firm this year, supported in part by the GST reduction.\nThe imposition of the 50 percent U.S. tariffs in August will weigh on the outlook, but the magnitude\nis expected to remain manageable as India has relatively limited exposure to merchandise exports.\nHeadline inflation has significantly declined, primarily on lower food prices, and is expected to\nremain subdued in the period ahead. India\u2019s external position is moderately stronger than that\nimplied by medium-term fundamentals and desirable policies. The economic outlook is subject to\nhigh uncertainty, with upside risks stemming from a potential reversal of the 50-percent tariffs.\n59.      The envisaged near-term fiscal consolidation remains appropriate, though a\nprolonged tariff shock would justify a pause next year. The simplification of the GST is welcome,\nas it constitutes a major step in reducing the complexity of the tax structure, though the rate\nreduction may make it harder to raise rates again in the future if needed for revenue-based fiscal\nconsolidation over the medium term. The fiscal consolidation and sustained level of capital\nexpenditure planned in the FY2025/26 Budget remain appropriate but may require strong recurrent\nspending discipline given the effective PIT and GST rate cuts. Targeted, transparent, and time-bound\nsupport to industries heavily affected by tariffs is warranted to mitigate the distributional impact of\n</text>\n</passage>\n\n<passage id=\"30\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 27\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL\n</context>\n<text>\nas it constitutes a major step in reducing the complexity of the tax structure, though the rate\nreduction may make it harder to raise rates again in the future if needed for revenue-based fiscal\nconsolidation over the medium term. The fiscal consolidation and sustained level of capital\nexpenditure planned in the FY2025/26 Budget remain appropriate but may require strong recurrent\nspending discipline given the effective PIT and GST rate cuts. Targeted, transparent, and time-bound\nsupport to industries heavily affected by tariffs is warranted to mitigate the distributional impact of\nthe tariffs. Pausing fiscal consolidation in FY2026/27\u2014implying a neutral fiscal stance\u2014would be\nappropriate if the tariffs persist.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n28\nINTERNATIONAL MONETARY FUND\n60.      A more ambitious medium-term fiscal consolidation, at both the Union and state\nlevels, is warranted to rebuild buffers and create additional space for growth-enhancing\nexpenditure. Given India\u2019s developmental needs, further revenue-enhancing measures and\nstreamlining of current spending are appropriate. Following the GDP rebasing in early 2026, the\nmedium-term debt-to-GDP target should be reviewed with a view to making it broader and more\nambitious. Including state government debt in the target would bring important borrowing entities\ninto the adjustment framework, while specifying a medium-term fiscal deficit path would help clarify\nthe government\u2019s debt reduction intentions over time. Building on India\u2019s significantly strengthened\nfiscal credibility in recent years, the fiscal framework can be further improved by establishing an\nindependent fiscal body and strengthening fiscal statistics, particularly at the state level. Fiscal\nsustainability at the state level can be enhanced by strengthening incentives through a\nperformance-based devolution formula, enhancing state-level revenue mobilization and spending\ndiscipline, and promoting greater differentiation in state development loan spreads.\n61.      Exceptionally high uncertainty calls for agile monetary policy with an easing bias,\nwhile exchange rate flexibility can help absorb shocks. A negative output gap in FY2026/27,\npotentially emerging from the impact of prolonged tariffs, would provide room for further monetary\npolicy easing amid a benign inflation outlook. That said, the need for policy easing would be\nconsiderably reduced if the tariffs were to be resolved swiftly. The current flexible inflation targeting\nframework, including the 4-percent target with \u00b12 percent band on headline inflation (rather than\ncore inflation) has served India well. While the exchange rate has exhibited increasing two-way\nmovement this year, there remains room for additional exchange rate flexibility, with interventions\nlimited to periods of destabilizing risk premia, considering India\u2019s relatively low FX mismatch, well-\nanchored inflation expectations, and generally deep FX market.\n62.      Financial sector stability risks appear to remain well contained, providing a favorable\nbackdrop for financial sector reforms to address remaining vulnerabilities. Rising financial\ninterconnectedness warrants enhancing the toolkit for analyzing systemic risks. Efforts to address\npotential vulnerabilities in NBFCs arising from concentration risks are welcome. In line with the 2024\nFSAP recommendations, financial stability can be strengthened further by expanding borrower-\nbased macroprudential norms, improving the loss absorption capacity of selected entities, and\nenhancing the crisis and credit risk management frameworks.\n63.      India\u2019s ambition of becoming an advanced economy requires holistic structural\nreforms. India needs to boost all growth engines to become a more open, dynamic, and innovative\neconomy with better factor allocation across sectors and firms. Wide-ranging structural reforms\nhave the potential to raise India\u2019s productivity, reinvigorate private investment, and help create\nsufficient high-quality jobs for the growing population. Deepening trade integration can bolster\n</text>\n</passage>\n\n<passage id=\"31\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 29\n\n[section]\nSTAFF APPRAISAL\n</context>\n<text>\nenhancing the crisis and credit risk management frameworks.\n63.      India\u2019s ambition of becoming an advanced economy requires holistic structural\nreforms. India needs to boost all growth engines to become a more open, dynamic, and innovative\neconomy with better factor allocation across sectors and firms. Wide-ranging structural reforms\nhave the potential to raise India\u2019s productivity, reinvigorate private investment, and help create\nsufficient high-quality jobs for the growing population. Deepening trade integration can bolster\ncompetitiveness, attract FDI, and boost productivity. Sustaining public investment efforts and\nstrengthening the business environment are essential to improving resource allocation. Stepping up\ninvestment in R&D and fostering innovation will be important to support productivity-driven\ndevelopment.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 29\n64.      Advancing climate policies is critical to supporting sustainable and resilient growth.\nWell-designed adaptation and mitigation policies, combined with greater access to external\nconcessional financing and technological transfer, are vital for India to address climate vulnerabilities\nand achieve the net zero emissions target by 2070. Adaptation policies should continue to focus on\nmeasures to strengthen macroeconomic resilience, such as disaster preparedness, infrastructure\nresilience, effective water resource management, and support for climate-resilient agricultural\npractices. The release of emission intensity target rules of the Carbon Credit Trading Scheme is\nwelcome, and the targets should be tightened over time to provide sufficient incentives for\nabatement.\n65.      Enhancing the quality, availability, and timeliness of macroeconomic and financial\nstatistics would support policy formulation. India\u2019s data are broadly adequate for surveillance,\nwith room for improvement in some areas. Significant efforts underway to improve data quality,\nparticularly in the national accounts, are welcome, as they will enhance data transparency and\nsupport policy making.\n66.      It is recommended that the next Article IV consultation be held on the standard 12-\nmonth cycle.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The revamp of India's model bilateral investment treaty was announced in the FY2025/26 Union Budget.",
+        "confidence": 1.0,
+        "passage_id": 24,
+        "predicate": "model_bilateral_investment_treaty_revamp_announcement_budget",
+        "qualifiers": [],
+        "quote": "The revamp of the model bilateral investment treaty announced in the FY2025/26 Union Budget",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "FY2025/26"
+        }
+      },
+      {
+        "claim_text": "India's labor codes aiming to increase labor market flexibility were passed in 2019.",
+        "confidence": 1.0,
+        "passage_id": 25,
+        "predicate": "labor_codes_passage_year_1",
+        "qualifiers": [],
+        "quote": "The labor codes passed in 2019",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "date",
+          "raw": "2019"
+        }
+      },
+      {
+        "claim_text": "India's labor codes aiming to increase labor market flexibility were passed in 2020.",
+        "confidence": 1.0,
+        "passage_id": 25,
+        "predicate": "labor_codes_passage_year_2",
+        "qualifiers": [],
+        "quote": "and 2020",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "date",
+          "raw": "2020"
+        }
+      },
+      {
+        "claim_text": "In India, the average recovery rate of the original loan amount in the insolvency resolution process is 33 percent.",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "insolvency_recovery_rate",
+        "qualifiers": [],
+        "quote": "In India, the recovery process remains lengthy and inefficient, with only 33 percent of the original loan amount recovered on average",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "33 percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The Electronics Component Manufacturing Scheme has a planned cost of 229 billion rupees.",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "budget",
+        "qualifiers": [],
+        "quote": "The March 2025 Electronics Component Manufacturing Scheme (229 bn rupees",
+        "subject_key": null,
+        "subject_surface": "Electronics Component Manufacturing Scheme",
+        "subject_type": "scheme",
+        "value": {
+          "kind": "quantity",
+          "raw": "229 bn",
+          "unit": "rupees"
+        }
+      },
+      {
+        "claim_text": "The Electronics Component Manufacturing Scheme has a planned cost of 0.1 percent of GDP.",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "budget_gdp_share",
+        "qualifiers": [],
+        "quote": "or 0.1 percent of GDP",
+        "subject_key": null,
+        "subject_surface": "Electronics Component Manufacturing Scheme",
+        "subject_type": "scheme",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.1 percent",
+          "unit": "% of GDP"
+        }
+      },
+      {
+        "claim_text": "The Electronics Component Manufacturing Scheme is planned over a duration of 6 years.",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "duration",
+        "qualifiers": [],
+        "quote": "over 6 years",
+        "subject_key": null,
+        "subject_surface": "Electronics Component Manufacturing Scheme",
+        "subject_type": "scheme",
+        "value": {
+          "kind": "quantity",
+          "raw": "6",
+          "unit": "years"
+        }
+      },
+      {
+        "claim_text": "The aggregate execution rate of India's Production Linked Incentive (PLI) schemes is 18 percent.",
+        "confidence": 1.0,
+        "passage_id": 26,
+        "predicate": "pli_aggregate_execution_rate",
+        "qualifiers": [],
+        "quote": "Overall, PLI execution across schemes has been limited, with an aggregate execution rate of 18 percent",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "18 percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As of March 2025, India has disbursed 215 billion rupees as incentives under PLI schemes.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "pli_disbursed_incentives",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 2025"
+          }
+        ],
+        "quote": "As of March 2025, the authorities report that 215 billion rupees (0.07 percent of GDP) have been disbursed as incentives",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "215 billion",
+          "unit": "rupees"
+        }
+      },
+      {
+        "claim_text": "As of March 2025, India's disbursed PLI incentives represent 0.07 percent of GDP.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "pli_disbursed_incentives_gdp_share",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 2025"
+          }
+        ],
+        "quote": "215 billion rupees (0.07 percent of GDP) have been disbursed as incentives",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.07 percent",
+          "unit": "% of GDP"
+        }
+      },
+      {
+        "claim_text": "As of March 2025, 1.2 million direct and indirect jobs have been created under India's PLI schemes.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "pli_jobs_created",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "March 2025"
+          }
+        ],
+        "quote": "and 1.2 million direct and indirect jobs have been created.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.2 million",
+          "unit": "jobs"
+        }
+      },
+      {
+        "claim_text": "India's agricultural sector employs 42.4 percent of workers.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "agricultural_employment_share",
+        "qualifiers": [],
+        "quote": "Its agricultural sector employs 42.4 percent of workers",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "42.4 percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "According to 2023 estimates, India's cumulative climate adaptation costs through 2030 amount to 18 percent of 2024/25 GDP.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "cumulative_adaptation_costs_gdp_share",
+        "qualifiers": [
+          {
+            "key": "estimate_year",
+            "provenance": "stated",
+            "value": "2023"
+          },
+          {
+            "key": "target_year",
+            "provenance": "stated",
+            "value": "2030"
+          },
+          {
+            "key": "base_gdp_year",
+            "provenance": "stated",
+            "value": "2024/25"
+          }
+        ],
+        "quote": "cumulative adaptation costs through 2030 amount to 18 percent of 2024/25 GDP.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "18 percent",
+          "unit": "% of GDP"
+        }
+      },
+      {
+        "claim_text": "As of 2023, 74 percent of India's electricity generation is from coal.",
+        "confidence": 1.0,
+        "passage_id": 27,
+        "predicate": "coal_electricity_generation_share",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "2023"
+          }
+        ],
+        "quote": "While 74 percent of electricity generation is from coal as of 2023",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "74 percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's 2030 NDC target includes reducing emissions intensity by 45 percent compared with 2005.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "ndc_emissions_intensity_reduction_target",
+        "qualifiers": [
+          {
+            "key": "target_year",
+            "provenance": "stated",
+            "value": "2030"
+          },
+          {
+            "key": "base_year",
+            "provenance": "stated",
+            "value": "2005"
+          }
+        ],
+        "quote": "reducing emissions intensity by 45 percent by 2030 compared with 2005",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "45 percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's 2030 NDC target includes increasing the share of installed electricity capacity from non-fossil-fuel sources to 50 percent.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "ndc_non_fossil_electricity_capacity_target",
+        "qualifiers": [
+          {
+            "key": "target_year",
+            "provenance": "stated",
+            "value": "2030"
+          }
+        ],
+        "quote": "increasing the share of installed electricity capacity from non-fossil-fuel sources to 50 percent by 2030",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "50 percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's 2030 NDC target includes creating an additional carbon sink of 2.5-3 billion tCO2e.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "ndc_carbon_sink_target",
+        "qualifiers": [
+          {
+            "key": "target_year",
+            "provenance": "stated",
+            "value": "2030"
+          }
+        ],
+        "quote": "creating additional carbon sink of 2.5-3 billion tCO2e",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.5-3 billion",
+          "unit": "tCO2e"
+        }
+      },
+      {
+        "claim_text": "India reached its NDC target for installed non-fossil-fuel capacity in July 2025.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "reached_ndc_non_fossil_capacity_target_date",
+        "qualifiers": [],
+        "quote": "In July 2025, India reached the NDC target for installed non-fossil-fuel capacity.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "date",
+          "raw": "July 2025"
+        }
+      },
+      {
+        "claim_text": "India's last population census was completed in 2011/12.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "last_population_census_year",
+        "qualifiers": [],
+        "quote": "conducting the population census, last completed in 2011/12",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "date",
+          "raw": "2011/12"
+        }
+      },
+      {
+        "claim_text": "The implementation of India's Pradhan Mantri Viksit Bharat Rozgar Yojana is scheduled from August 2025.",
+        "confidence": 1.0,
+        "passage_id": 28,
+        "predicate": "implementation_start_date",
+        "qualifiers": [],
+        "quote": "implementation of the employment-linked incentive scheme \u2013 Pradhan Mantri Viksit Bharat Rozgar Yojana \u2013 that facilitates matching between workers and firms, from August 2025.",
+        "subject_key": null,
+        "subject_surface": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+        "subject_type": "scheme",
+        "value": {
+          "kind": "date",
+          "raw": "August 2025"
+        }
+      },
+      {
+        "claim_text": "India's rebased national accounts and CPI series are expected to be launched in February 2026.",
+        "confidence": 1.0,
+        "passage_id": 29,
+        "predicate": "rebased_series_expected_launch_date",
+        "qualifiers": [],
+        "quote": "with rebased series expected to be launched in February 2026.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "date",
+          "raw": "February 2026"
+        }
+      },
+      {
+        "claim_text": "The United States imposed 50 percent tariffs in August.",
+        "confidence": 1.0,
+        "passage_id": 29,
+        "predicate": "tariff_rate",
+        "qualifiers": [
+          {
+            "key": "effective_date",
+            "provenance": "stated",
+            "value": "August"
+          }
+        ],
+        "quote": "The imposition of the 50 percent U.S. tariffs in August",
+        "subject_key": null,
+        "subject_surface": "United States",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "50 percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's GDP rebasing is expected in early 2026.",
+        "confidence": 1.0,
+        "passage_id": 30,
+        "predicate": "gdp_rebasing_expected_date",
+        "qualifiers": [],
+        "quote": "Following the GDP rebasing in early 2026",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "date",
+          "raw": "early 2026"
+        }
+      },
+      {
+        "claim_text": "India's flexible inflation targeting framework includes a 4-percent target on headline inflation.",
+        "confidence": 1.0,
+        "passage_id": 30,
+        "predicate": "inflation_target",
+        "qualifiers": [],
+        "quote": "including the 4-percent target",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "4-percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India's flexible inflation targeting framework includes a \u00b12 percent band on headline inflation.",
+        "confidence": 1.0,
+        "passage_id": 30,
+        "predicate": "inflation_target_band",
+        "qualifiers": [],
+        "quote": "with \u00b12 percent band on headline inflation",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u00b12 percent",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "India aims to achieve its net zero emissions target by 2070.",
+        "confidence": 1.0,
+        "passage_id": 31,
+        "predicate": "net_zero_emissions_target_year",
+        "qualifiers": [],
+        "quote": "achieve the net zero emissions target by 2070.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "date",
+          "raw": "2070"
+        }
+      }
+    ]
+  }
+}

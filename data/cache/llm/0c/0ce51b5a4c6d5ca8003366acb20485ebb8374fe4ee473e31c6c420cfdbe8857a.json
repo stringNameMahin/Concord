@@ -1,0 +1,766 @@
+{
+  "key": "0ce51b5a4c6d5ca8003366acb20485ebb8374fe4ee473e31c6c420cfdbe8857a",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"64\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nCement and gyspum  products\nNon-conventional  energy\nTrading\nComputer software  and hardware\nOther Services\nShare (Per cent)\nSource: DPIIT\n89  DPIIT data on FDI flows, https://tinyurl.com/4hhws2cz.\n90  \u0007The Services sector includes Financial, Banking, Insurance, Non-Financial / Business, Outsourcing, R&D,\nCourier, and Tech. Testing and Analysis, Other.\n91  \u0007Sector-wise data on FDI inflows is released by DPIIT. RBI gives data on repatriation/disinvestment of FDI flows\nfrom India.\n\n\nEconomic Survey 2024-25\n108\n3.52\t  FDI into India has recently been scrutinised due to concerns about declining\ninflows. However, a broader analysis92 reveals that FDI flows globally have been\nhampered by economic uncertainty, geopolitical tensions, and rising borrowing costs.\nEven though gross FDI inflows to India have increased in the first eight months of FY25,\nit has been accompanied by a rise in repatriations as international companies realised\nreturns from investments. Many multinational companies have capitalised on India's\nstrong stock market through secondary sales and Initial Public Offerings, indicating\ninvestor confidence. In 2024, private equity-backed exits increased, supported by\nIndia\u2019s stable macroeconomic environment and investor-friendly policies. As per\nAvendus Spark analysis based on DPIIT data, Private Equity and Venture Capital\nexit from Indian stock markets stood at USD 19.5 billion from January to September\n2024, higher than USD 18.3 billion in the corresponding period of the previous year.93\nThe depth and resilience of the Indian capital market offer profitable exits for direct\ninvestors, boosting future investments.94\n3.53\t India remains a strong destination for FDI, ranking high in greenfield project\nannouncements and international project finance deals. However, the country has to\npay heed to numbers. As per the data published by RBI, net FDI to India during the\nfirst eight months of FY25 stood at USD 0.48 billion compared to USD 8.5 billion in\nthe corresponding period of FY24.95 Similarly, for FY23, the figure stood at USD 19.8\nbillion. For FY24 as a whole, the net FDI was USD 10.1 billion. The last two financial\nyears have indeed seen much larger repatriation from India. The amounts were USD\n29.3 billion and USD 44.5 billion, respectively, in FY23 and FY24. In the current year,\nup to November, the repatriation amount is USD 39.6 billion. At this rate, the full-year\nfigure might exceed last year\u2019s figure.\n3.54\t To a large extent, this is a success story as foreigners take profits. Second, much\nof it was sold to portfolio investors. In other words, the large portfolio inflows in FY24\nwere the other side of the coin of large repatriation. At a gross level, FY23 and FY24\nhave seen a decline in gross FDI, including earnings retained in India. This has broken\nthe steadily rising trend seen since FY14. The period between FY13 and FY22 witnessed\n92 \u0007 \u0007\u201cBehind India\u2019s growth over last 10 yrs\u2014increase in repatriations, steady FDI inflows\u201d. https://tinyurl.com/2tt3pxsf.\n93  \u0007Avendus Spark Strategy-Macro Alert-Net FDI inflows fall to a record low in H1 of FY25, https://www.avendus.\ncom/india/reports.\n94  https://www.ft.com/content/0575e216-8dae-4df6-bf50-312f78468e99.\n95  \u0007Net FDI is calculated as follows: -\n(1)\nFDI by foreigners: Foreign direct investment inflows+retained earnings-repatriation\n(2)\t FDI by Indians: Indian investment overseas +retained earnings-repatriation\n(3)\t The net FDI figure: (1)-(2)\n(4)\t Then, there are Portfolio Investment flows: -\n(5)\t \u0007Foreign Portfolio Investors\u2019 net flows \u2013 Indians\u2019 Portfolio Investment (Indians\u2019 portfolio investment\noverseas is small)\n(6)\t Total Investment flows: (1)-(2) +(3)\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"65\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n94  https://www.ft.com/content/0575e216-8dae-4df6-bf50-312f78468e99.\n95  \u0007Net FDI is calculated as follows: -\n(1)\nFDI by foreigners: Foreign direct investment inflows+retained earnings-repatriation\n(2)\t FDI by Indians: Indian investment overseas +retained earnings-repatriation\n(3)\t The net FDI figure: (1)-(2)\n(4)\t Then, there are Portfolio Investment flows: -\n(5)\t \u0007Foreign Portfolio Investors\u2019 net flows \u2013 Indians\u2019 Portfolio Investment (Indians\u2019 portfolio investment\noverseas is small)\n(6)\t Total Investment flows: (1)-(2) +(3)\n\n\nExternal Sector\n109\nultra-low interest rates and quantitative easing policies in the developed world. The\ncost of funds was much lower. Interest rates in developed countries rose sharply in\n2022 and 2023. The Federal Funds Rate topped 5 per cent. Other Asian countries such\nas Thailand, Malaysia and Indonesia also witnessed declines in inward FDI in 2023,\naccording to UNCTAD.\n3.55\t However, India runs a CAD, and its investment needs are much larger considering\nthe size of its economy. Supplementing domestic savings with reasonably large foreign\nsavings expands the scope for capital formation. If, for various reasons, capital flows\nare going to be problematic, it raises questions as to the level of sustainable CAD for\nIndia. It may not be 2.5 per cent to 3 per cent as before, but it is much lower. It used to\nbe said that a country can run as large a CAD as the Rest of the World (RoW) is willing\nto finance. If the RoW is unwilling or unable to do so for various reasons, then the size\nof the CAD will have to be lower. Developed countries, too, are wooing investments, and\nIndia is not competing with other emerging economies alone. So, India has two options.\n3.56\t One, we must pull out all the stops wooing FDI and making itself more attractive\nfor foreign investors. India has been doing so. For example, most sectors in the\ncountry are open for foreign investors under the automatic route. The large amount\nof repatriations, as witnessed in the data, also suggests that it is easy to transfer the\nreturns on investment made in India. However, there is room to improve tax certainty\nand tax stability in matters such as APA (Advance Pricing Agreement). India has\nsimplified many of its laws, rules and regulations over the years leading to a regime\nshift in terms of the ease of doing business compared to yester years. At the same time,\nall statutory and regulatory authorities must bear in mind that international investors\nbenchmark countries cross-sectionally and not longitudinally. That will determine the\nsuccess of the government\u2019s goal to make global companies produce in India for the\nworld, making India a part of the global supply chain.\n3.57\t \t The second option is to make the available and existing investments deliver\nmore. In other words, if the investment rate cannot be increased because of capital\nconstraints, then investment efficiency has to go up. That is where deregulation and \u2018Ease\nof Doing Business\u2019 come into play. That is why the main theme of this Survey is about\nderegulation. Therein lies the clue to improving India\u2019s investment efficiency. Most\nof the chapters peer into regulations and recommend deregulation. The deregulation\ntheme is explored in greater detail in Chapter 5.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"66\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nmore. In other words, if the investment rate cannot be increased because of capital\nconstraints, then investment efficiency has to go up. That is where deregulation and \u2018Ease\nof Doing Business\u2019 come into play. That is why the main theme of this Survey is about\nderegulation. Therein lies the clue to improving India\u2019s investment efficiency. Most\nof the chapters peer into regulations and recommend deregulation. The deregulation\ntheme is explored in greater detail in Chapter 5.\n\n\nEconomic Survey 2024-25\n110\nPerformance of Portfolio flows\n3.58\t FPIs became net buyers in the Indian equity market starting in June 2024 after\nbeing sellers in the first two months of FY25. This trend continued until September\n2024, showcasing a clear preference for Indian equities as FPIs injected substantial\ncapital into the market over those months. However, this trend reversed in October\nand the first half of November 2024, resulting in a net outflow of USD 11.5 billion\nand 2.5 billion, respectively. Factors such as concerns about slowing earnings growth,\nhigh valuations, rising geopolitical tensions, and recent developments in China96 led\nFPIs to withdraw significant funds from Indian equities. However, during the latter\nhalf of November 2024, FPIs became more optimistic about the Indian stock market,\nreversing the significant selling seen in October and early November 2024. This\npositive trend in FPI inflows continued in December 2024, with net inflows amounting\nto USD 3.1 billion in December 2024. Factors such as India\u2019s strong macroeconomic\nfundamentals, favourable business environment and robust economic growth have\nencouraged investors to reverse the outflow trend. On a cumulative basis, the net FPI\ninflows97 into India slowed to USD 10.6 billion from April to December 2024 from USD\n31.7 billion during the same period the previous year. The volatility in portfolio flows\nunderscores the susceptibility of equity and bond markets to global developments.\nHowever, the sound economic and corporate fundamentals in India underpin the long-\nterm attractiveness of the Indian equity market for foreign investors.\nChart III.16:  Trends in foreign portfolio investment flows\n1.7\n5.9 6.8 5.8\n2.2\n-1.7 -2.1\n2.9\n10.1\n-0.8\n3.8\n6.3\n-1.9 -1.5\n5.0 5.8\n3.0\n11.2\n-11.5\n-2.5\n3.1\n-15\n-10\n-5\n0\n5\n10\n15\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nUSD billion\nSource: NSDL\n96  \u0007These include the stimulus measures announced by the Chinese Government and the cheap valuation of Chinese\nstocks.\n97  Net FPI inflows is the sum of equity and debt inflows.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"67\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nChart III.16:  Trends in foreign portfolio investment flows\n1.7\n5.9 6.8 5.8\n2.2\n-1.7 -2.1\n2.9\n10.1\n-0.8\n3.8\n6.3\n-1.9 -1.5\n5.0 5.8\n3.0\n11.2\n-11.5\n-2.5\n3.1\n-15\n-10\n-5\n0\n5\n10\n15\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nUSD billion\nSource: NSDL\n96  \u0007These include the stimulus measures announced by the Chinese Government and the cheap valuation of Chinese\nstocks.\n97  Net FPI inflows is the sum of equity and debt inflows.\n\n\nExternal Sector\n111\n3.59\t The inclusion of Indian Government Bonds (IGB) in some global bond indices\nthis year has significantly supported debt inflows. Since the announcement of inclusion\nin JP Morgan index in October 2023, there has been heightened activity in the FPI debt\nsegment with cumulative flows of \u20b9 1.1 lakh crore from October 2023 to June 2024.\nPost effective date of inclusion, FPIs invested \u20b9 62,431 crore in the debt segment from\nJuly to November 2024. Assets under custody, which reflects the total market value of\nthe holdings, shows that FPI\u2019s cumulative investment in Fully Accessible Route (FAR)\nsecurities crossed the USD 20 billion mark within nine months of the announcement\nof their inclusion in the JP Morgan EM Bond Index. In FY25, as of 15 December 2024,\ninclusion already resulted in a net inflow of more than USD 3 billion in Indian FAR\nbonds, with assets under custody of India FAR bonds standing at USD 28 billion as of\n15 December 2024.98\n3.60\t Since the investor sentiment/perception of the trajectory of Fed rates and the\ninterest rate differentials are the key drivers of FPI flows in India, it will be interesting\nto analyse the trends in FPI debt flows and the yield differential between India and the\nUS. Chart III.17 compares the FPI debt flows and the yield gap between India and US10\nyear yields, which shows that a widening yield differential in India's favour leads to\nhigher inflows (November 2023 to March 2024) and vice-versa. India\u2019s strong growth\nfundamentals and range-bound inflation also made it a preferred choice amongst\nforeign investors despite the narrowing yield differentials seen from May to July 2024.\nChart III.17: Net flows by FPIs into debt segment\n3.7\n3.4 3.3 3.2 3.0\n2.8\n2.5\n2.8\n3.2 3.1\n2.9 2.9\n2.6 2.6 2.7 2.7\n3.0 3.1\n2.7\n2.5\n0\n1\n2\n3\n4\n-10,000\n-5,000\n0\n5,000\n10,000\n15,000\n20,000\n25,000\n30,000\n35,000\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nPer cent\n\u20b9 crore\nNet FPI inflows\nIndia-US yield gap (RHS)\nPost Inclusion\nPost Announcement\nSource: SEBI\n98  Based on the inputs received from the Securities and Exchange Board of India (SEBI).\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"68\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n3.4 3.3 3.2 3.0\n2.8\n2.5\n2.8\n3.2 3.1\n2.9 2.9\n2.6 2.6 2.7 2.7\n3.0 3.1\n2.7\n2.5\n0\n1\n2\n3\n4\n-10,000\n-5,000\n0\n5,000\n10,000\n15,000\n20,000\n25,000\n30,000\n35,000\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nPer cent\n\u20b9 crore\nNet FPI inflows\nIndia-US yield gap (RHS)\nPost Inclusion\nPost Announcement\nSource: SEBI\n98  Based on the inputs received from the Securities and Exchange Board of India (SEBI).\n\n\nEconomic Survey 2024-25\n112\nChart III.18: Trends in average monthly yield of 10Y G-sec\n7.00\n6.84\n6.7\n6.8\n6.9\n7\n7.1\n7.2\n7.3\n7.4\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nPer cent\nSource: SEBI\n3.61\t  The increase in demand for India\u2019s G-Secs is also set to have a positive externality\nin terms of lowering the borrowing costs for the government as the yields soften due\nto heightened demand and limited supply dynamics. The preliminary impact of this\nis already visible in the Indian 10Y G-Sec yields. The inclusion of Indian bonds in\nglobal indices signals a growing appetite amongst foreign investors to include Indian\ngovernment securities in their investment portfolios, trust in India\u2019s growth prospects,\nand financial stability in the Indian markets.\nOthers\n3.62\t NRI deposits, external commercial borrowings (ECBs), and short-term trade credit\nhave contributed additional buffers to India\u2019s capital account, though each component\nexhibits varying degrees of stability. ECBs have shown an upward trajectory in recent\nmonths, with net inflows rising to USD 9.2 billion from April to October 2025, up from\nUSD 2.8 billion in the corresponding period of the previous year, reflecting a greater\nappetite for borrowing from foreign sources. Similarly, Non-Resident Indian (NRI)\ndeposits have also surged significantly, with net inflows increasing to USD 10.2 billion\nduring H1 of FY25, compared to USD 5.4 billion in the same period of the previous year.\nThis growth can be attributed to continued strong remittance inflows and a favourable\nexchange rate environment, which incentivised NRIs to park their savings in India.\nForeign Exchange Reserves\n3.63\t India's foreign exchange reserves comprise foreign currency assets (FCA), gold,\nspecial drawing rights (SDRs) and reserve tranche position (RTP) in the IMF. After\nsurpassing the USD 700 billion benchmark, India\u2019s foreign exchange reserves moderated\nto USD 640.3 billion as of the end of December 2024. The reserves are sufficient to\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"69\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nThis growth can be attributed to continued strong remittance inflows and a favourable\nexchange rate environment, which incentivised NRIs to park their savings in India.\nForeign Exchange Reserves\n3.63\t India's foreign exchange reserves comprise foreign currency assets (FCA), gold,\nspecial drawing rights (SDRs) and reserve tranche position (RTP) in the IMF. After\nsurpassing the USD 700 billion benchmark, India\u2019s foreign exchange reserves moderated\nto USD 640.3 billion as of the end of December 2024. The reserves are sufficient to\n\n\nExternal Sector\n113\ncover approximately 90 per cent of India\u2019s external debt of USD 711.8 billion as of\nSeptember 2024, reflecting a strong buffer against external vulnerabilities. As of 2024,\nIndia has secured its place among the world's largest foreign exchange reserve-holding\ncountries, ranking 4th globally, following China, Japan, and Switzerland. Supported by\nnet positive capital inflows, India\u2019s forex reserves witnessed a notable increase of USD\n27.1 billion in 2024. FCA constituted the bulk of this increase, strengthening India\u2019s\noverall reserve position.\n3.64\t The import cover, a crucial indicator of external sector stability, stood at 10.9\nmonths as of December 2024. This increase enhances India\u2019s ability to weather external\nshocks, with reserve adequacy significantly surpassing the IMF's recommended three-\nmonth import cover for emerging economies.99 The BoP surplus of USD 63.7 billion in\nFY24, supplemented by a modest valuation gain of USD 4.3 billion, was the key driver\nof this improvement. In H1 of FY25, forex reserves rose by USD 59.4 billion, driven by\na BoP surplus of USD 23.9 billion and a valuation gain of USD 35.5 billion.\nChart III.19: Movements in foreign exchange reserves\n0\n100\n200\n300\n400\n500\n600\n700\n800\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nUSD billion\nFCA\nGold\nRTP\nSDR\nTotal\nSource: RBI\n3.65\t A global rise in uncertainty has led to fluctuations in the composition of\nforeignexchange reserves. CY24 saw gold bullion holdings nearing their highest level\nsince World War II, which was largely driven by an accumulation of gold by emerging\nmarket central banks.100 As per the IMF, steady changes are underway in the global\nreserve system, including a gradual movement away from dollar dominance and a\nrising role of non-traditional currencies.101\n99  IMF survey: Assessing the need for Foreign Currency Reserves, https://tinyurl.com/3knsb5se.\n100  IMF, Dollar Dominance in the International Reserve System: An Update 2024, https://tinyurl.com/26dn5sxr.\n101  Ibid note 100.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"70\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nsince World War II, which was largely driven by an accumulation of gold by emerging\nmarket central banks.100 As per the IMF, steady changes are underway in the global\nreserve system, including a gradual movement away from dollar dominance and a\nrising role of non-traditional currencies.101\n99  IMF survey: Assessing the need for Foreign Currency Reserves, https://tinyurl.com/3knsb5se.\n100  IMF, Dollar Dominance in the International Reserve System: An Update 2024, https://tinyurl.com/26dn5sxr.\n101  Ibid note 100.\n\n\nEconomic Survey 2024-25\n114\nExchange Rate\n3.66\t The value of the Indian Rupee (INR) is market-determined, with no target or\nspecific level or band. Various domestic and global factors influence the exchange rate\nof the INR, such as the movement of the Dollar Index, trends in capital flows, level of\ninterest rates, movement in crude prices, current account deficit, etc. In the first nine\nmonths of FY25 (up to 6 January 2025), the INR depreciated a modest 2.9 per cent,\nperforming better than currencies such as the Canadian Dollar, South Korean Won\nand the Brazilian Real, which depreciated by 5.4 per cent, 8.2 per cent and 17.4 per\ncent, respectively, during the same period. One of the primary factors behind the rupee\ndepreciation during 2024 has been the broad-based strengthening of the USD amidst\ngeopolitical tensions in the Middle East and uncertainty surrounding the US election.\nChart III.20: Changes in the bilateral exchange rates of the major countries\nagainst USD from April to December 2024\n-17.4\n-8.2\n-5.4\n-2.9\n-20%\n-15%\n-10%\n-5%\n0%\n5%\n10%\nMexico\nBrazil\nSouth Korea\nCanada\nJapan\nNorway\nIndia\nChina\nU.K. pound(1)\nSouth Africa\nEuro Area(1)\nAustralia(1)\nPer cent\nSource: IMF\nNote: The euro (\u20ac) is the official currency of 20 out of 27 EU member countries constituting the Eurozone,\nofficially called the euro area.\nTo determine currency appreciation or depreciation, the representative exchange rates of major countries are\nexpressed in currency units per U.S. dollar. Exceptions, marked with (1), are presented as U.S. dollars per\ncurrency unit.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"71\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nSouth Korea\nCanada\nJapan\nNorway\nIndia\nChina\nU.K. pound(1)\nSouth Africa\nEuro Area(1)\nAustralia(1)\nPer cent\nSource: IMF\nNote: The euro (\u20ac) is the official currency of 20 out of 27 EU member countries constituting the Eurozone,\nofficially called the euro area.\nTo determine currency appreciation or depreciation, the representative exchange rates of major countries are\nexpressed in currency units per U.S. dollar. Exceptions, marked with (1), are presented as U.S. dollars per\ncurrency unit.\n\n\nExternal Sector\n115\nChart III.21: Trend in REER and NEER\n\u0003\n87\n92\n97\n102\n107\n112\nApr-22\nJun-22\nAug-22\nOct-22\nDec-22\nFeb-23\nApr-23\nJun-23\nAug-23\nOct-23\nDec-23\nFeb-24\nApr-24\nJun-24\nAug-24\nOct-24\nDec-24\n40-Currency Basket (Base\n2015-16=100)\nTrade-Weighted NEER\nTrade-Weighted REER\nSource: RBI\n3.67\t After adopting the floating exchange rate regime, Effective exchange rates have\nbecome a prominent measure of external competitiveness of an economy\u2019s tradable\nsector relative to the foreign tradable sector. The Nominal Effective Exchange Rate\n(NEER) for the INR remained stable in the 90-92 range from April to November\n2024, indicating relative stability in the currency amidst external uncertainties. The\nReal Effective Exchange Rate (REER), which reflects the real purchasing power of\nthe currency, steadily appreciated from 103.2 in April 2024 to 107.2 in December\n2024.\nExternal debt position\n3.68\t India\u2019s external debt has remained stable over the past few years. A stable external\ndebt position has helped maintain external sector stability, significantly when the rest\nof the world is affected by geopolitical headwinds. The external debt to GDP ratio rose\nslightly from 18.8 per cent of the GDP at the end of June 2024 to 19.4 per cent at the end\nof September 2024. The share of short-term debt (with original maturity of up to one\nyear) in total external debt decreased to 18.8 per cent at the end of September 2024 from\n19.4 per cent at the end of June 2024. Similarly, its ratio to foreign exchange reserves\ndecreased to 18.9 per cent at the end of September 2024 from 20.3 per cent at the end\nof June 2024. Across currencies, the external debt remained primarily denominated in\nthe US Dollar (53.4 per cent), followed by the INR (31.2 per cent), SDR (5 per cent), and\nthe Euro (3 per cent).\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"72\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nof September 2024. The share of short-term debt (with original maturity of up to one\nyear) in total external debt decreased to 18.8 per cent at the end of September 2024 from\n19.4 per cent at the end of June 2024. Similarly, its ratio to foreign exchange reserves\ndecreased to 18.9 per cent at the end of September 2024 from 20.3 per cent at the end\nof June 2024. Across currencies, the external debt remained primarily denominated in\nthe US Dollar (53.4 per cent), followed by the INR (31.2 per cent), SDR (5 per cent), and\nthe Euro (3 per cent).\n\n\nEconomic Survey 2024-25\n116\nChart III.22: India\u2019s stable external debt position\n0\n200\n400\n600\n800\n0\n30\n60\n90\n120\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024 PR\nJun 24 PR\nSep 24 P\nUSD billion\nPer cent\nExternal Debt (RHS)\nED to GDP\nFER to TD\nSTED to TED\nSource: DEA press release: India's External Debt Report for Quarter ending September 2024\nNote: PR - Partially Revised, P-Provisional; ED \u2013 External Debt, FER-Foreign Exchange Reserves, TED \u2013 Total\nExternal Debt, STED \u2013 Short Term External Debt\nOUTLOOK\n3.69\t India\u2019s external sector has performed well amidst unfavourable geopolitical\nconditions. On the current account front, though merchandise exports have displayed\nmoderate growth owing to a slowdown in external demand, merchandise imports\nhave shown remarkable growth supported by strong domestic demand. Increased net\nservices receipts and growing remittances have cushioned the rise in the merchandise\ntrade deficit. On the capital front, the economy has been witnessing net positive capital\ninflows. Gross FDI inflows have shown a higher growth in the first eight months of\nFY25 compared to the corresponding period of the previous year. However, a surge in\nrepatriation has reined in the expansion in net FDI. FPI inflows have shown volatility\nin the first nine months of FY25, showing mixed trends.\n3.70\t Global trade dynamics have changed significantly in recent years, shifting from\nglobalisation to rising trade protectionism, accompanied by increased uncertainty. This\ncalls for a new strategic trade roadmap for India. To remain competitive and enhance\nits participation in global supply chains, India must continue reducing trade costs and\nimproving facilitation to boost export competitiveness. Much remains to be done to\nenhance trade competitiveness. The good news is that doing so is entirely in our hands.\nOn its part, the industry must continue to invest in quality.\n3.71\t The state produces governance, and the private sector produces goods and services.\nIf both these actors focus on quality and efficiency, then despite the trade tensions and\nprotectionism that are likely to come in the way of expanding global trade, India can\nincrease its share in overseas markets and generate resources to sustain a higher level\nof capital formation. Then, it will be possible for us not just to dream of but actually\nrealise higher economic growth rates on a sustained basis.\n******\n\n\n04\n</text>\n</passage>\n\n<passage id=\"73\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n3.71\t The state produces governance, and the private sector produces goods and services.\nIf both these actors focus on quality and efficiency, then despite the trade tensions and\nprotectionism that are likely to come in the way of expanding global trade, India can\nincrease its share in overseas markets and generate resources to sustain a higher level\nof capital formation. Then, it will be possible for us not just to dream of but actually\nrealise higher economic growth rates on a sustained basis.\n******\n\n\n04\nCHAPTER\n117\nPRICES AND INFLATION:\nUNDERSTANDING THE\nDYNAMICS\nIn gauging the health of the global economy, understanding the trends in\ninflation is essential. While global inflation peaked in 2022 due to supply chain\ndisruptions and geopolitical tensions, it has declined since then, aided by policy\nmeasures. In India, retail inflation eased in FY25 due to timely interventions by\nthe government and the Reserve Bank of India. Core inflation reached its lowest\npoint in a decade, while food inflation was affected by supply chain disruptions\nand adverse weather conditions.\nOnion and tomato prices are affected by the decline in production, partly due\nto extreme weather conditions and monsoon-induced supply chain disruptions.\nOn pulses, despite being a major producer, India faces a gap in demand and\nsupply. The government has undertaken several measures to rein in the prices\nof vegetables like onion and tomato which included procurement and buffer\nstocking of onion under price stabilisation fund and subsidised sale of onion and\ntomato. Also, many administrative measures have been taken-up to address the\nprice pressures in pulses such as subsidised retail sale, stock limits and easing\nimports.\nEstimates suggest that India's retail price inflation will align progressively with\nthe target. Global commodity prices are expected to decline, potentially easing\ncore and food inflation. Long-term price stability could be achieved by robust\ndata systems for monitoring prices, developing climate-resilient crops, reducing\ncrop damage and post-harvest losses.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"74\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\ntomato. Also, many administrative measures have been taken-up to address the\nprice pressures in pulses such as subsidised retail sale, stock limits and easing\nimports.\nEstimates suggest that India's retail price inflation will align progressively with\nthe target. Global commodity prices are expected to decline, potentially easing\ncore and food inflation. Long-term price stability could be achieved by robust\ndata systems for monitoring prices, developing climate-resilient crops, reducing\ncrop damage and post-harvest losses.\n\n\nEconomic Survey 2024-25\n118\nINTRODUCTION\n4.1.\t In the ever-evolving landscape of global economics, understanding the dynamics\nof inflation is crucial. The persistent inflationary pressures pose several challenges for\npolicymakers and the general public. On the global front, central banks are cautiously\nunwinding their restrictive policies to balance inflation control with economic recovery.\nIn India, the various government initiatives and monetary policy reviews are helping to\nkeep inflationary pressure at check.\n4.2.\t Global inflation peaked at 8.7 per cent in 2022, driven by supply chain disruptions\nand geopolitical tensions, to 5.7 per cent in 20241. In India, retail inflation moderated\nfrom 5.4 per cent in FY24 to 4.9 per cent in FY25 (April-December) despite challenging\nfood price dynamics. Food items constitute about two-fifths of the consumer price index\nin India. Hence, the Consumer Food Price Index (CFPI) is a significant determinant of\nretail inflation. In recent years, food inflation has been a major contributor to headline\ninflation. However, an increase in prices is not widespread across all food categories. It\nis primarily driven by a few items.\n4.3.\t Given this context, the chapter is organised into four sections. Section 2 analyse the\nglobal inflation, while Section 3 examines the domestic inflation trends and discusses\nthe proximate factors affecting inflation dynamics. The chapter concludes with a set\nof recommendations in Section 4. The idea behind this presentation plan is to give\nan overview about inflation dynamics to policymakers and stakeholders to help them\nnavigate the complexities of managing inflation.\nGLOBAL INFLATION\nGlobal resilience amid synchronised monetary policy tightening\n4.4.\t Despite the sharp and synchronised tightening of monetary policy across countries,\nthe global economy has demonstrated an unusual level of resilience in output growth\nthroughout the disinflationary process. This resilience is reflected in the steady decline\nof the headline inflation rate in most countries during FY24 and the current year. The\nconcerted efforts by central banks to curb inflation through increased interest rates\nand other policy measures have yielded positive outcomes, resulting in a significant\nreduction in inflationary pressures.\n1  International Monetary Fund (2025, January) World Economic Outlook Update-Global growth: Divergent and\nUncertain. Washington, DC. (https://tinyurl.com/29ussy2x)\n\n\nPrices and Inflation\n</text>\n</passage>\n\n<passage id=\"75\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nthroughout the disinflationary process. This resilience is reflected in the steady decline\nof the headline inflation rate in most countries during FY24 and the current year. The\nconcerted efforts by central banks to curb inflation through increased interest rates\nand other policy measures have yielded positive outcomes, resulting in a significant\nreduction in inflationary pressures.\n1  International Monetary Fund (2025, January) World Economic Outlook Update-Global growth: Divergent and\nUncertain. Washington, DC. (https://tinyurl.com/29ussy2x)\n\n\nPrices and Inflation\n119\nChart IV.1a: Headline inflation\neases across countries\nChart IV.1b: Monetary targeting\nlowered inflation and stabilised\noutput globally\n6.3\n3.9\n2.9\n0\n2\n4\n6\n8\n0\n2\n4\n6\n8\n10\n12\nFY23\nFY24\nFY25*\nUK\nBrazil\nMexico\nGermany\nUS\nSA\nPhilippines\nIndia\nFrance\nIndonesia\nMalaysia\nJapan\nChina\nAverage**\nPer cent\n4.1\n5.9\n4.0\n3.1\n4.5\n5.9\n2.9\n2.9\n5.8\nAv. GDP Growth\nAv. Inflation Rate\nAv. Policy Rate\nPer cent\n2022\n2023\n2024\nSource: Bloomberg and Consumer Price Indices released by CSO, MoSPI, IMF WEO Database Oct 2024 and Jan\n2025  update, Central bank policy rates, BIS\nNote: *Inflation rate for FY25 is for April to December 2024, except for Japan, Malaysia and South Africa is\nuntil November 2024. ** Simple average of countries presented in chart IV.1a.\nDecline in core inflation\n4.5.\t In alignment with the downward trend in headline inflation, core inflation, which\nexcludes volatile food and energy prices has also decreased in most countries. The\ndecline can be predominantly attributed to a moderation in international commodity\nprices. This trend highlights the effectiveness of policy interventions in stabilising\nprices across various sectors.\nChart IV.2: Core inflation also moderates\n4.8\n4.0\n2.8\n0\n2\n4\n6\n0\n2\n4\n6\n8\n10\nFY23\nFY24\nFY25*\nBrazil\nMexico\nUK\nIndia\nUS\nPhilippines\nSA\nGermany\nFrance\nMalaysia\nIndonesia\nJapan\nChina\nAverage**\nPer cent\n-4\n-2\n0\nIndonesia\nChina\nSouth Africa\nJapan\nMalaysia\nUS\nIndia\nFrance\nGermany\nMexico\nBrazil\nUK\nPhilippines\nchange in inflation rate  (in percentage\npoints) (FY25 over FY24, Apr-Dec)\nSource: Bloomberg and Consumer Price Indices released by CSO, MoSPI\nNote: *Inflation rate for FY25 is for April to December 2024, except for Japan, Malaysia and South Africa is\nuntil November 2024. ** Simple average of countries presented in chart IV.2.\nPer cent\nPer cent\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"76\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nChina\nAverage**\nPer cent\n-4\n-2\n0\nIndonesia\nChina\nSouth Africa\nJapan\nMalaysia\nUS\nIndia\nFrance\nGermany\nMexico\nBrazil\nUK\nPhilippines\nchange in inflation rate  (in percentage\npoints) (FY25 over FY24, Apr-Dec)\nSource: Bloomberg and Consumer Price Indices released by CSO, MoSPI\nNote: *Inflation rate for FY25 is for April to December 2024, except for Japan, Malaysia and South Africa is\nuntil November 2024. ** Simple average of countries presented in chart IV.2.\nPer cent\nPer cent\n\n\nEconomic Survey 2024-25\n120\nGlobal food inflation eases with divergence in a few EMEs\n4.6.\t Global food inflation is on a downward trend, aligning with the patterns observed\nin both headline and core inflation. Improving global supply conditions due to solid\nharvests and favourable growing conditions contributed to the softening of food\nprices2. However, some emerging economies, such as Brazil, India, and China have a\ncontrasting pattern.\nChart IV.3a: Global food inflation\ndeclines\nChart IV.3b: Diverging trend\nin a few EMEs\n9.4\n6.0\n3.2\n0\n2\n4\n6\n8\n10\n0\n4\n8\n12\n16\n20\nFY23\nFY24\nFY25*\nGermany\nUK\nMexico\nBrazil\nSA\nFrance\nUS\nPhilippines\nIndia\nMalaysia\nJapan\nChina\nIndonesia\nAverage**\nPer cent\nSource: Bloomberg and Consumer Price Indices released by CSO, MoSPI\nNote: *Inflation rate for FY25 is for April to December 2024, except for Japan, Malaysia and South Africa is\nuntil November 2024. ** Simple average of countries presented in chart IV.3a.\nEMEs stands for emerging economies\nDOMESTIC INFLATION\nSoftening core inflation cools headline inflation\n4.7.\t India's headline inflation, measured by the Consumer Price Index (CPI), has\nmoderated in FY25 (April-December) compared to FY24. This decline is primarily\ndue to a significant decrease in core inflation, which dropped by 0.9 percentage points\nbetween FY24 and FY25 (April-December). The sharp decline in core inflation was\nlargely driven by core services inflation, which was lower than core goods inflation.\nA decrease in fuel price inflation has also contributed to the moderation in headline\ninflation, alleviating pressure on household budgets. In general, the decline in retail\ninflation can be attributed to a reduction in input prices, as reflected in wholesale price\ninflation, which was in the deflationary zone (-0.7 per cent) in FY24 and remained low\nin FY25 (April-December).\n2  Commodity Markets Outlook, World Bank (2024, October) (https://tinyurl.com/dyduh9tu).\nPer cent\n\n\nPrices and Inflation\n</text>\n</passage>\n\n<passage id=\"77\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nlargely driven by core services inflation, which was lower than core goods inflation.\nA decrease in fuel price inflation has also contributed to the moderation in headline\ninflation, alleviating pressure on household budgets. In general, the decline in retail\ninflation can be attributed to a reduction in input prices, as reflected in wholesale price\ninflation, which was in the deflationary zone (-0.7 per cent) in FY24 and remained low\nin FY25 (April-December).\n2  Commodity Markets Outlook, World Bank (2024, October) (https://tinyurl.com/dyduh9tu).\nPer cent\n\n\nPrices and Inflation\n121\nChart IV.4: Headline and core inflation under control\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n-10\n-6\n-2\n2\n6\n10\nApr-22\nJun-22\nAug-22\nOct-22\nDec-22\nFeb-23\nApr-23\nJun-23\nAug-23\nOct-23\nDec-23\nFeb-24\nApr-24\nJun-24\nAug-24\nOct-24\nDec-24\nPer cent\nPer cent\nCPI Inflation\nCore Inflation\nWPI Inflation (RHS)\nSource: Consumer Price Indices released by CSO, MoSPI\nFood Inflation is majorly driven by very few food items\n4.8.\t Over the past two years, India's food inflation rate has remained firm, diverging\nfrom global trends of stable or declining food inflation. This can be attributed to factors\nsuch as supply chain disruptions exacerbated by extreme weather events and reduced\nharvest of some food items.\n4.9.\t Food inflation, measured by the CFPI, faced pressures in FY25 (April-December),\nprimarily driven by a few food items such as vegetables and pulses. Vegetables and pulses\ntogether holds a total weightage of 8.42 per cent in CPI basket. However, their contribution\nto the overall inflation stood at 32.3 per cent in FY25 (April to December). When these\nitems are excluded, the average food inflation rate for FY25 (April-December) was 4.3\nper cent, which is 4.1 per cent lower than the overall food inflation. Similarly, the average\nheadline inflation would be 3.2 per cent when the vegetables and pulses inflation rate\nwere excluded, 1.7 per cent lower than the actual headline inflation.\nChart IV.5: Food inflation driven by vegetables and pulses\n0\n2\n4\n6\n8\n10\n12\n14\nApr-23\nJun-23\nAug-23\nOct-23\nDec-23\nFeb-24\nApr-24\nJun-24\nAug-24\nOct-24\nDec-24\nPer cent\nMonthly Inflation Rate (%)\nFY24\nFY25 (April-Dec)\n-15\n-5\n5\n15\n25\nSpices\nOils & fats\nMilk items\nSugar\nMeat & fish\nEgg\nFruits\nCereals\nPulses\nVegetables\nPer cent\nInflation rate(%) in food items\nFY24\nFY25 (April-Dec)\nSource: Consumer Price Indices released by CSO, MoSPI\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"78\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nwere excluded, 1.7 per cent lower than the actual headline inflation.\nChart IV.5: Food inflation driven by vegetables and pulses\n0\n2\n4\n6\n8\n10\n12\n14\nApr-23\nJun-23\nAug-23\nOct-23\nDec-23\nFeb-24\nApr-24\nJun-24\nAug-24\nOct-24\nDec-24\nPer cent\nMonthly Inflation Rate (%)\nFY24\nFY25 (April-Dec)\n-15\n-5\n5\n15\n25\nSpices\nOils & fats\nMilk items\nSugar\nMeat & fish\nEgg\nFruits\nCereals\nPulses\nVegetables\nPer cent\nInflation rate(%) in food items\nFY24\nFY25 (April-Dec)\nSource: Consumer Price Indices released by CSO, MoSPI\n\n\nEconomic Survey 2024-25\n122\nChart IV.6a: Increased peaks in\nretail prices of tomato signaling high\nvolatility in 2024\nChart IV.6b: Retail prices of onion\nremain elevated in 2024\n0\n20\n40\n60\n80\n100\n120\n140\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\n\u20b9/Kg\n2022\n2023\n2024\n0\n10\n20\n30\n40\n50\n60\n70\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\n\u20b9/Kg\n2022\n2023\n2024\nSource: Price Monitoring Division, D/o Consumer Affairs\n4.10. Uneven monsoon-induced supply disruptions in certain regions caused price\npressures, mainly in tomatoes and onions, contributing to higher inflation rates in\nvegetables and overall food inflation. When we exclude the three most price-sensitive\nvegetables (tomato, onion and potato (TOP)) from the CPI basket, the average food\ninflation rate in FY25 (April-December) was 6.5 per cent, which is 1.9 per cent lower\nthan the current food inflation. Similarly, average headline inflation is 4.2 per cent when\nexcluding TOP, which is 0.7 per cent lower than the current headline inflation. Given\nthat tomato and onion prices have been drivers of food inflation, and consequently\nheadline inflation in recent months, the next section will explore the causes  of price\npressure in these vegetables.\nChart IV.7: Headline and food inflation driven by few food items\n0\n2\n4\n6\n8\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nPer cent\nHeadline Inflation\nHeadline excluding TOP\nHeadline excluding Vegetable & Pulses\n0\n2\n4\n6\n8\n10\n12\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nPer cent\nCFPI\nCFPI excluding TOP\nCFPI excluding Vegetables &Pulses\nSource: Consumer Price Indices released by CSO, MoSPI\n\n\nPrices and Inflation\n</text>\n</passage>\n\n<passage id=\"79\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nheadline inflation in recent months, the next section will explore the causes  of price\npressure in these vegetables.\nChart IV.7: Headline and food inflation driven by few food items\n0\n2\n4\n6\n8\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nPer cent\nHeadline Inflation\nHeadline excluding TOP\nHeadline excluding Vegetable & Pulses\n0\n2\n4\n6\n8\n10\n12\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nPer cent\nCFPI\nCFPI excluding TOP\nCFPI excluding Vegetables &Pulses\nSource: Consumer Price Indices released by CSO, MoSPI\n\n\nPrices and Inflation\n123\nExtreme weather conditions impact vegetable production and prices\n4.11 Vegetables are more susceptible to uneven weather compared to food grains, as\nhighlighted by various studies. Extreme weather events such as cyclones, heavy rains,\nfloods, thunderstorms, hailstorms, and droughts impact vegetable prices. Further,\nevidence indicates that inflationary pressure in horticultural commodities in 2023-\n24 was driven by unseasonal rainfall during the pre-monsoon season, which damaged\ncrops in major horticulture-producing states3. The coexistence of good areas sown\ncoupled with greater price volatility suggests that extreme weather events significantly\nimpact production and supply chains, thereby affecting retail prices.\n4.12. The data accessed from the India Meteorological Department (IMD), Ministry\nof Earth Sciences indicates a notable increase in the frequency of extreme weather\nconditions, particularly heatwaves. On an average, during 2022-2024, India experienced\nheatwaves on 18 per cent of days compared to 5 per cent of days in 2020 and 2021.\nChart IV.8: Heatwaves increased\nin last three years\nChart IV.9: Rise in crop area damaged\ndue to weather conditions\n12\n23\n75\n42\n76\n2020\n2021\n2022\n2023\n2024\nNo. of Days\nHeatwaves\n0\n0.5\n1\n1.5\n2\n2.5\n3\n3.5\n2022\n2023\n2024\nMillion Hectare\nSource: IMD, Ministry of Earth Sciences\nSource:\nIndia\u2019s\ndatabase\nof\nweather\ndisasters\ndashboard by CSE DTE Data4.\n4.13.\t Data published by the Centre for Science and Environment (CSE) and Down to\nEarth (DTE)5,6  finds that the total crop area damaged in 2024 was higher compared to\nthe last two years due to extreme weather events.\n3 \tRaya, D,. & Roy, R. (2023). Unseasonal Rainfall and Price Rise in Horticulture Crops.  Climate-roofing\nAgriculture. Agri-Food Trends and Analytics Bulletin Vol 3. Issue-1. (https://tinyurl.com/yyr8fzek)\n4 \tData sourced from the Disaster Management Division Union Ministry of Home Affairs, India Meteorological\nDepartment and media reports\n5 \tCentre for Science and Environment and Down to Earth. (2024). Climate India 2024: An assessment of extreme\nweather events. November. https://tinyurl.com/2r5r85dw.\n6 \tCSE/DTE tracks each day\u2019s report from the IMD website and maps out the events by state and Union Territory\n(UT) and event type.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Private Equity and Venture Capital exit from Indian stock markets stood at USD 19.5 billion from January to September 2024.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "January to September 2024"
+          }
+        ],
+        "quote": "Private Equity and Venture Capital exit from Indian stock markets stood at USD 19.5 billion from January to September 2024",
+        "subject_surface": "Private Equity and Venture Capital exit from Indian stock markets",
+        "value": {
+          "kind": "quantity",
+          "raw": "19.5",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Private Equity and Venture Capital exit from Indian stock markets stood at USD 18.3 billion in the corresponding period of the previous year.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "corresponding period of the previous year"
+          }
+        ],
+        "quote": "higher than USD 18.3 billion in the corresponding period of the previous year.",
+        "subject_surface": "Private Equity and Venture Capital exit from Indian stock markets",
+        "value": {
+          "kind": "quantity",
+          "raw": "18.3",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net FDI to India during the first eight months of FY25 stood at USD 0.48 billion.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first eight months of FY25"
+          }
+        ],
+        "quote": "net FDI to India during the first eight months of FY25 stood at USD 0.48 billion",
+        "subject_surface": "net FDI to India",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.48",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net FDI to India during the first eight months of FY24 stood at USD 8.5 billion.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first eight months of FY24"
+          }
+        ],
+        "quote": "compared to USD 8.5 billion in the corresponding period of FY24.",
+        "subject_surface": "net FDI to India",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.5",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net FDI to India for FY23 stood at USD 19.8 billion.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23"
+          }
+        ],
+        "quote": "Similarly, for FY23, the figure stood at USD 19.8 billion.",
+        "subject_surface": "net FDI to India",
+        "value": {
+          "kind": "quantity",
+          "raw": "19.8",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net FDI to India for FY24 was USD 10.1 billion.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "For FY24 as a whole, the net FDI was USD 10.1 billion.",
+        "subject_surface": "net FDI to India",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.1",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Repatriation from India was USD 29.3 billion in FY23.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23"
+          }
+        ],
+        "quote": "The amounts were USD 29.3 billion and USD 44.5 billion, respectively, in FY23 and FY24.",
+        "subject_surface": "repatriation from India",
+        "value": {
+          "kind": "quantity",
+          "raw": "29.3",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Repatriation from India was USD 44.5 billion in FY24.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "The amounts were USD 29.3 billion and USD 44.5 billion, respectively, in FY23 and FY24.",
+        "subject_surface": "repatriation from India",
+        "value": {
+          "kind": "quantity",
+          "raw": "44.5",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Repatriation amount from India up to November in the current year is USD 39.6 billion.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "current year, up to November"
+          }
+        ],
+        "quote": "In the current year, up to November, the repatriation amount is USD 39.6 billion.",
+        "subject_surface": "repatriation from India",
+        "value": {
+          "kind": "quantity",
+          "raw": "39.6",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net FPI inflows into India slowed to USD 10.6 billion from April to December 2024.",
+        "confidence": 1,
+        "passage_id": 66,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April to December 2024"
+          }
+        ],
+        "quote": "On a cumulative basis, the net FPI inflows97 into India slowed to USD 10.6 billion from April to December 2024",
+        "subject_surface": "net FPI inflows",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.6",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net FPI inflows into India were USD 31.7 billion during the same period the previous year.",
+        "confidence": 1,
+        "passage_id": 66,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "April to December 2023"
+          }
+        ],
+        "quote": "from USD 31.7 billion during the same period the previous year.",
+        "subject_surface": "net FPI inflows",
+        "value": {
+          "kind": "quantity",
+          "raw": "31.7",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Cumulative FPI debt flows were \u20b9 1.1 lakh crore from October 2023 to June 2024.",
+        "confidence": 1,
+        "passage_id": 67,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "October 2023 to June 2024"
+          }
+        ],
+        "quote": "cumulative flows of \u20b9 1.1 lakh crore from October 2023 to June 2024.",
+        "subject_surface": "FPI debt flows",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.1",
+          "scale": "lakh",
+          "unit": "lakh crore"
+        }
+      },
+      {
+        "claim_text": "FPIs invested \u20b9 62,431 crore in the debt segment from July to November 2024.",
+        "confidence": 1,
+        "passage_id": 67,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "July to November 2024"
+          }
+        ],
+        "quote": "FPIs invested \u20b9 62,431 crore in the debt segment from July to November 2024.",
+        "subject_surface": "FPI investment in debt segment",
+        "value": {
+          "kind": "quantity",
+          "raw": "62,431",
+          "unit": "crore"
+        }
+      },
+      {
+        "claim_text": "Net inflows of ECBs rose to USD 9.2 billion from April to October 2025.",
+        "confidence": 1,
+        "passage_id": 68,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "April to October 2025"
+          }
+        ],
+        "quote": "net inflows rising to USD 9.2 billion from April to October 2025",
+        "subject_surface": "net inflows of ECBs",
+        "value": {
+          "kind": "quantity",
+          "raw": "9.2",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net inflows of ECBs were USD 2.8 billion in the corresponding period of the previous year.",
+        "confidence": 1,
+        "passage_id": 68,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "April to October 2024"
+          }
+        ],
+        "quote": "up from USD 2.8 billion in the corresponding period of the previous year",
+        "subject_surface": "net inflows of ECBs",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.8",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net inflows of NRI deposits increased to USD 10.2 billion during H1 of FY25.",
+        "confidence": 1,
+        "passage_id": 68,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "H1 of FY25"
+          }
+        ],
+        "quote": "net inflows increasing to USD 10.2 billion during H1 of FY25",
+        "subject_surface": "net inflows of NRI deposits",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.2",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Net inflows of NRI deposits were USD 5.4 billion in the same period of the previous year.",
+        "confidence": 1,
+        "passage_id": 68,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "H1 of FY24"
+          }
+        ],
+        "quote": "compared to USD 5.4 billion in the same period of the previous year.",
+        "subject_surface": "net inflows of NRI deposits",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.4",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "India\u2019s foreign exchange reserves moderated to USD 640.3 billion as of the end of December 2024.",
+        "confidence": 1,
+        "passage_id": 68,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end of December 2024"
+          }
+        ],
+        "quote": "India\u2019s foreign exchange reserves moderated to USD 640.3 billion as of the end of December 2024.",
+        "subject_surface": "India\u2019s foreign exchange reserves",
+        "value": {
+          "kind": "quantity",
+          "raw": "640.3",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "India\u2019s external debt was USD 711.8 billion as of September 2024.",
+        "confidence": 1,
+        "passage_id": 69,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "September 2024"
+          }
+        ],
+        "quote": "India\u2019s external debt of USD 711.8 billion as of September 2024",
+        "subject_surface": "India\u2019s external debt",
+        "value": {
+          "kind": "quantity",
+          "raw": "711.8",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "India\u2019s forex reserves witnessed an increase of USD 27.1 billion in 2024.",
+        "confidence": 1,
+        "passage_id": 69,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "India\u2019s forex reserves witnessed a notable increase of USD 27.1 billion in 2024.",
+        "subject_surface": "India\u2019s forex reserves",
+        "value": {
+          "kind": "quantity",
+          "raw": "27.1",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "The import cover stood at 10.9 months as of December 2024.",
+        "confidence": 1,
+        "passage_id": 69,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "December 2024"
+          }
+        ],
+        "quote": "The import cover, a crucial indicator of external sector stability, stood at 10.9 months as of December 2024.",
+        "subject_surface": "import cover",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.9",
+          "unit": "months"
+        }
+      },
+      {
+        "claim_text": "In the first nine months of FY25, the INR depreciated 2.9 per cent.",
+        "confidence": 1,
+        "passage_id": 70,
+        "predicate": "depreciation",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "first nine months of FY25"
+          }
+        ],
+        "quote": "In the first nine months of FY25 (up to 6 January 2025), the INR depreciated a modest 2.9 per cent",
+        "subject_surface": "INR",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.9",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The external debt to GDP ratio rose to 19.4 per cent at the end of September 2024.",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end of September 2024"
+          }
+        ],
+        "quote": "The external debt to GDP ratio rose slightly from 18.8 per cent of the GDP at the end of June 2024 to 19.4 per cent at the end of September 2024.",
+        "subject_surface": "external debt to GDP ratio",
+        "value": {
+          "kind": "quantity",
+          "raw": "19.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The share of short-term debt in total external debt decreased to 18.8 per cent at the end of September 2024.",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end of September 2024"
+          }
+        ],
+        "quote": "The share of short-term debt (with original maturity of up to one year) in total external debt decreased to 18.8 per cent at the end of September 2024",
+        "subject_surface": "share of short-term debt",
+        "value": {
+          "kind": "quantity",
+          "raw": "18.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global inflation peaked at 8.7 per cent in 2022.",
+        "confidence": 1,
+        "passage_id": 74,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2022"
+          }
+        ],
+        "quote": "Global inflation peaked at 8.7 per cent in 2022",
+        "subject_surface": "Global inflation",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.7",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global inflation was 5.7 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 74,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "to 5.7 per cent in 2024",
+        "subject_surface": "Global inflation",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.7",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Retail inflation in India moderated from 5.4 per cent in FY24 to 4.9 per cent in FY25 (April-December).",
+        "confidence": 1,
+        "passage_id": 74,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Retail inflation moderated from 5.4 per cent in FY24 to 4.9 per cent in FY25 (April-December)",
+        "subject_surface": "Retail inflation in India",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Retail inflation in India was 4.9 per cent in FY25 (April-December).",
+        "confidence": 1,
+        "passage_id": 74,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY25 (April-December)"
+          }
+        ],
+        "quote": "to 4.9 per cent in FY25 (April-December)",
+        "subject_surface": "Retail inflation in India",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.9",
+          "unit": "per cent"
+        }
+      }
+    ]
+  }
+}

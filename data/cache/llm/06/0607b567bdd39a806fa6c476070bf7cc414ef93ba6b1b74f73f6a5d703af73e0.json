@@ -1,0 +1,1113 @@
+{
+  "key": "0607b567bdd39a806fa6c476070bf7cc414ef93ba6b1b74f73f6a5d703af73e0",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable.",
+        "role": "system"
+      },
+      {
+        "content": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"40\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Corp. Off:\u0007\n</context>\n<text>\napplicable as there was no reportable event during\nthe financial year under review; and\n(i)\n\u0007The Securities and Exchange Board of India\n(Listing Obligations and Disclosure Requirements)\nRegulations, 2015.\n(vi)\t \u0007The other laws, as informed and certified by the\nmanagement of the Company and based on the\nCompliance Report of various Laws submitted by\nDepartment Heads of the Company, which are specifically\napplicable to the Company based on their sector/\nindustry are:\n(a)\t \u0007Customs Act, 1962 (with regard to Container Freight\nStation);\n(b)\t \u0007Handling of Cargo in Customs Areas\nRegulations, 2009;\n(c)\nMultimodal Transportation of Goods Act, 1993;\n(d)\t \u0007Warehousing (Development and Regulation)\nRules, 2010\n(e)\t Carriage of Goods by Road Act, 2007\n(f)\nCarriage of Goods by Air Act, 1972\n(g)\t Carriage of Goods by Sea Act, 1925\n(h)\t Motor Transport Workers Act, 1961\n(i)\nMotor Vehicles Act, 1988\n(j)\nFatal Accidents Act, 1855\n(k)\t The Factories Act, 1948\n(l)\nRailway Act, 1989\n(m)\t \u0007The Air (Prevention and Control of Pollution)\nAct, 1981\n(n)\t \u0007The Water (Prevention and Control of Pollution)\nAct, 1974\n(o)\t \u0007Control of National Highways (Land and Traffic)\nAct, 2002\n\u0007We have also examined compliance with the applicable\nclauses of the following:\n(i)\n\u0007Secretarial Standards with respect to Meetings of\nBoard of Directors (SS-1) and General Meetings (SS-\n2) issued by The Institute of Company Secretaries\nof India \u2013The Company has generally complied with\nSecretarial Standards with respect to Meetings\nof the Board of Directors (SS-1) and General\nMeetings (SS-2) issued by the Institute of Company\nSecretaries of India.\n(ii)\t \u0007Listing Agreements entered into by the Company\nwith BSE Limited and National Stock Exchange of\nIndia Limited.\n\u0007During the period under review, the Company has complied\nwith the provisions of the Act, Rules, Regulations,\nGuidelines, Standards etc. mentioned above except\nthe following:\n\u0007The Company has allotted equity shares after expiry of\n60 days from the date of receipt of the consideration/\nremittance upon exercise of ESOPs and violated\nthe provisions of Foreign Exchange Management\nAct, 1999 (\u201cFEMA\u201d) read with Foreign Exchange\nManagement (Mode of Payment and Reporting of Non-\nDebt Instruments) Regulations, 2019, furthermore, the\nCompany has filed compounding application for above\nsaid contravention with FED, CO Cell, Foreign Exchange\nDepartment Reserve Bank, New Delhi and same is\npending before the compounding authority.\nWe further report that:\n(i)\n\u0007The Board of Directors of the Company is duly\nconstituted with proper balance of Executive\nDirectors, Non-Executive Directors, Independent\nDirectors including Woman Independent Director(s).\nChanges in the composition of Board of Directors\nthat took place during the year under review, were\ncarried out in compliance with the provisions of\nthe Act;\n(ii)\t \u0007Adequate notice is given to all Directors to schedule\nBoard Meetings; Agenda and detailed notes on\nAgenda were sent at least seven days in advance\nexcept where consent of directors was received\nfor circulation of the notice, Agenda and notes on\nAgenda at a shorter notice and a system exists\nfor seeking and obtaining further information and\nclarifications on Agenda items before the meeting\nand for meaningful participation at the meeting;\n(iii)\t \u0007All the decisions of the Board and Committees\nthereof were carried through with requisite majority.\nWe further report that:\n(i)\n\u0007Based on review of compliance mechanism\nestablished by the Company, we are of the opinion\nthere are adequate systems and processes in\nplace in the Company, which is commensurate\nwith its size and operations, to monitor and\nensure compliance with applicable Laws, Rules,\nRegulations and Guidelines;\n(ii)\t \u0007The compliance by the Company with applicable\nfinance laws like Direct and Indirect tax laws has not\nbeen reviewed in this audit since the same has been\nsubject to review by Statutory Financial Auditor and\nother designated professionals.\n\u0007We further report that during the financial year under\n</text>\n</passage>\n\n<passage id=\"41\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Corp. Off:\u0007\n</context>\n<text>\nthere are adequate systems and processes in\nplace in the Company, which is commensurate\nwith its size and operations, to monitor and\nensure compliance with applicable Laws, Rules,\nRegulations and Guidelines;\n(ii)\t \u0007The compliance by the Company with applicable\nfinance laws like Direct and Indirect tax laws has not\nbeen reviewed in this audit since the same has been\nsubject to review by Statutory Financial Auditor and\nother designated professionals.\n\u0007We further report that during the financial year under\nreview, events have occurred which have a major\nbearing on the Company\u2019s affairs in pursuance of the\nabove referred Laws, Rules, Regulations, Guidelines and\nStandards were:\nAnnual Report 2023-24\n59\n58\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\n(i)\n\u0007The capital structure of the Company was change on various intervals due to allotment of equity shares pursuant to\nfollowing events:\nSl.\nNo.\nDate of passing resolution\nNo. of Equity\nShares allotted\nType of allotment/Nature of allotment\n1.\nApril 06, 2023\n158,855\nEmployee Stock Options Purchases\n2.\nMay 06, 2023\n385,739\nEmployee Stock Options Purchases\n3.\nJune 08, 2023\n1,941,454\nEmployee Stock Options Purchases\n4.\nJuly 10, 2023\n1,728,427\nEmployee Stock Options Purchases\n5.\nAugust 08, 2023\n197,846\nEmployee Stock Options Purchases\n6.\nSeptember 11, 2023\n709,556\nEmployee Stock Options Purchases\n7.\nOctober 09, 2023\n599,172\nEmployee Stock Options Purchases\n8.\nNovember 07, 2023\n113,136\nEmployee Stock Options Purchases\n9.\nDecember 07, 2023\n493,231\nEmployee Stock Options Purchases\n10.\nJanuary 08, 2024\n1,344,686\nEmployee Stock Options Purchases\n11.\nFebruary 08, 2024\n184,502\nEmployee Stock Options Purchases\n12.\nMarch 08, 2024\n213,502\nEmployee Stock Options Purchases\n(ii)\t \u0007The Company has acquired direct/indirect stake in\nfollowing Companies at various intervals:\n(a)\n\u0007Delhivery Limited has invested \u20b9250 million\nin the share capital of Vinculum Solution\nPrivate Limited.\n(b)\t \u0007Delhivery Limited has increased its stake to\n39.34% into Falcon Autotech Private Limited,\nAssociate Company, by the way of making an\nadditional investment for \u20b9500.40 million.\n(iii)\t \u0007The Board of Directors the Company in their meeting\nheld on February 02, 2024, approved the Scheme\nof Arrangement for amalgamation of Spoton\nLogistics Private Limited (\u201cTransferor Company-1\u201d)\nand Spoton Supply Chain Solutions Private Limited\n(\u201cTransferor Company-2\u201d) into and with Delhivery\nLimited (\u201cTransferee Company\u201d) and their\nrespective shareholders, with an appointed date of\nApril 01, 2024, subject to the requisite approval of\nthe National Company Law Tribunal (\u2018NCLT\u2019).\n\u0007In relation to the aforesaid specific events/actions, the\nCompany has, to the best of our knowledge and belief\nand based on the records, information, explanations,\nand representations furnished to us, complied with the\napplicable laws, rules, regulations, circulars, notification\nmade thereunder.\nFor VAPN & Associates\nPracticing Company Secretaries\nICSI Unique Code: P2015DE045500\nPeer Review Certificate No.975/2020\nPrabhakar Kumar\nPartner\nDate: May 17, 2024\nFCS No: 5781 |COP No: 10630\nPlace: New Delhi\nICSI UDIN: F005781F000410570\nThis Report is to be read with our letter of even date which\nis annexed as Annexure A and forms an integral part of\nthis report.\nAnnexure-A\nTo,\nThe Members\nDelhivery Limited\nCIN: L63090DL2011PLC221234\nRegistered Office:\n\u0007N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, IGI Airport, New\nDelhi 110037\nCorporate Office:\nPlot No. 5, Sector-44, Gurugram, Haryana 122002\nOur Secretarial Audit Report (Form MR-3) of even date for the period from April 01, 2023 to March 31, 2024,\nis to be read along with this letter.\n1.\n\u0007The Company's management is responsible for the maintenance of secretarial records and compliance with the relevant\nprovisions of corporate and other applicable laws, rules, regulations, guidelines, and standards. Our responsibility is to\nexpress an opinion on the secretarial records produced for our audit.\n</text>\n</passage>\n\n<passage id=\"42\">\n<context>\n[page header]\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Prabhakar Kumar\n</context>\n<text>\nPlot No. 5, Sector-44, Gurugram, Haryana 122002\nOur Secretarial Audit Report (Form MR-3) of even date for the period from April 01, 2023 to March 31, 2024,\nis to be read along with this letter.\n1.\n\u0007The Company's management is responsible for the maintenance of secretarial records and compliance with the relevant\nprovisions of corporate and other applicable laws, rules, regulations, guidelines, and standards. Our responsibility is to\nexpress an opinion on the secretarial records produced for our audit.\n2.\n\u0007We have followed such audit practices and processes as we considered appropriate to obtain reasonable assurance about\nthe correctness of the contents of the secretarial records.\n3.\n\u0007We have verified the secretarial records furnished to us on a test basis to see whether the correct facts are reflected therein.\nWe also examined the compliance procedures followed by the Company on a test basis. We believe that the processes\nand practices we followed provide a reasonable basis for our opinion.\n4.\n\u0007While forming an opinion on compliance and issuing this report:\n(a)\t \u0007We have considered compliance-related action taken by the Company for the period from April 01, 2023 to\nMarch 31, 2024.\n(b)\t \u0007We have considered compliance-related actions taken by the Company based on independent legal/professional\nopinion/certification obtained as complying with the law.\n(c)\nWe have taken an overall view, based on the compliance procedures and practices followed by the Company.\n5.\n\u0007We have not verified the correctness and appropriateness of the financial statements (including attachments and\nannexures thereto), financial records, and books of accounts of the Company, as they are subject to audit by the Auditors\nof the Company, appointed under Section 139 of the Act.\n6.\n\u0007We have obtained and relied on the Management's representation about the compliance of laws, rules, and regulations\nand happening of events, wherever required.\n7.\n\u0007Our Secretarial Audit report is neither an assurance as to the future viability of the Company nor of the efficacy or\neffectiveness with which the management has conducted the affairs of the Company.\nFor VAPN & Associates\nPracticing Company Secretaries\nICSI Unique Code: P2015DE045500\nPeer Review Certificate No.975/2020\nPrabhakar Kumar\nPartner\nDate: May 17, 2024\nFCS No: 5781 |COP No: 10630\nPlace: New Delhi\nICSI UDIN: F005781F000410570\nDirectors\u2019 Report (Contd.)\nAnnual Report 2023-24\n61\n60\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nAnnexure-4\nAnnual Report on Corporate Social Responsibility Activities to be included in the Board\u2019s Report\nfor the Financial Year ending on March 31, 2024\nIntroduction\nCSR is not charity or mere donations but a process by which an organisation evolves its relationships with stakeholders\nto demonstrate its commitment towards social good and adopt appropriate business processes and strategies. Socially\nresponsible companies do not limit themselves to using resources to engage in activities that increase only their profits but\nuse CSR to integrate economic, environmental and social objectives with the company's operations and growth.\nIn light of the above guiding principle, the Company undertook the CSR activities on a voluntarily basis as part of its CSR\nactivities during FY24, though the Company was not mandatorily required to spend any amount on CSR activities during FY24\nin view of absence of profits during three immediately preceding financial years.\n1.\nBrief outline on CSR Policy of the Company.\n\u0007We believe in contributing to a sustainable community development and facilitating our efforts towards creating shared\nvalue. Our CSR Policy during the year under review had focused on promoting sports/training thereof and contributing\ntowards relief, rehabilitation & health and education.\n\u0007We look forward to undertaking additional CSR activities for providing support towards natural disasters, promotion of\neducation and any other CSR activities as may be considered appropriate from time to time.\n</text>\n</passage>\n\n<passage id=\"43\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Prabhakar Kumar\n</context>\n<text>\n\u0007We believe in contributing to a sustainable community development and facilitating our efforts towards creating shared\nvalue. Our CSR Policy during the year under review had focused on promoting sports/training thereof and contributing\ntowards relief, rehabilitation & health and education.\n\u0007We look forward to undertaking additional CSR activities for providing support towards natural disasters, promotion of\neducation and any other CSR activities as may be considered appropriate from time to time.\n2.\nComposition of CSR & Sustainability Committee:\nSl.\nNo.\nName of Director\nDesignation/Nature of Directorship\nNumber of meetings of CSR\n& Sustainability Committee\nheld during the year\nNumber of meetings of CSR\n& Sustainability Committee\nattended during the year\n1.\nMs. Aruna Sundararajan\nNon-Executive Independent Director\n(Chairperson of the CSR & Sustainability\nCommittee)\n1\n1\n2.\nMr. Sahil Barua\nManaging Director & Chief Executive Officer\n1\n1\n3.\nMr. Sandeep Kumar Barasia\nExecutive Director & Chief Business Officer\n1\n1\n3.\n\u0007The web-link where Composition of CSR & Sustainability Committee, CSR Policy and CSR Projects\napproved by the Board are disclosed on the website of the Company are provided below:\nThe composition of the CSR Committee: https://www.delhivery.com/company/governance\nCSR Policy:\nhttps://www.delhivery.com/wp-content/uploads/2022/05/Corporate-Social-Responsibility-Policy_final.pdf\nCSR Projects as approved by the Board:\nhttps://www.delhivery.com/wp-content/uploads/2024/07/CSR%20Plan%20FY23-24.pdf\n4.\n\u0007Details of impact assessment of CSR projects carried out in pursuance of sub-rule (3) of rule 8 of the\nCompanies (Corporate Social responsibility Policy) Rules, 2014, if applicable (attach the report):\nNot applicable\n5.\n\u0007Details of the amount available for set off in pursuance of sub-rule (3) of rule 7 of the Companies (Corporate\nSocial responsibility Policy) Rules, 2014 and amount required for set off for the financial year, if any \u2013\nNot Applicable\n6.\nAverage net profit of the Company as per section 135(5):\nThe Company did not have net profits during the three immediately preceding financial years.\n7.\n(a)\t Two percent of average net profit of the Company as per section 135(5): Not Applicable\n(b)\t \u0007Surplus arising out of the CSR projects or programmes or activities of the previous financial years.: Not Applicable\n(c)\t Amount required to be set off for the financial year, if any: Not Applicable\n(d)\t Total CSR obligation for the financial year (7a+7b-7c): Not Applicable\nThe Company has voluntarily decided to incur expenditure on CSR projects.\n8.\n(a)\t CSR amount spent or unspent for the financial year:\nTotal Amount Spent for the\nFinancial Year. (in K)\nAmount Unspent (in K)\nTotal Amount transferred to Unspent\nCSR Account as per section 135(6).\nAmount transferred to any fund specified under Schedule VII\nas per second proviso to section 135(5).\nAmount.\nDate of transfer.\nName of the Fund\nAmount.\nDate of transfer.\n12,842,738/-\nNil\nN.A.\nN.A.\nNil\nN.A.\n(b)\t Details of CSR amount spent against ongoing projects for the financial year:\nNot applicable\n(c)\t Details of CSR amount spent against other than ongoing projects for the financial year:\nSl.\nNo.\nName of the Project\nItem from\nthe list of\nactivities\nin\nschedule\nVII to the\nAct.\nLocal\narea\n(Yes/\nNo).\nLocation of the\nproject.\nAmount\nspent for the\nproject\n(in K).\nMode of\nimplementation\n- Direct\n(Yes/No).\nMode of implementation - Through\nimplementing agency.\nState.\nDistrict.\nName.\nCSR\nregistration\nnumber.\n1.\nTraining to promote\nrural sports, nationally\nrecognised sports,\nparalympic sports and\nolympic sports\nYes\nYes\nIndian\nGovernment\nand various\nSports\nFederations\n10,000,000\nNo\nFoundation\nfor Promotion\nof Sports\nand Games,\na company\nincorporated\nunder Section 25\nof the Companies\nAct, 1956, known\nas Olympic Gold\nQuest (OGQ)\nCSR00001100\n2\nProviding accessible\nhealthcare services\nfor specific\nhealth needs and\nreduce burden of\noccupational diseases\namong driver\nworkforce and allied\nhuman resources\nYes\n</text>\n</passage>\n\n<passage id=\"44\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (d)\t Total CSR obligation for the financial year (7a+7b-7c): Not Applicable\n</context>\n<text>\n1.\nTraining to promote\nrural sports, nationally\nrecognised sports,\nparalympic sports and\nolympic sports\nYes\nYes\nIndian\nGovernment\nand various\nSports\nFederations\n10,000,000\nNo\nFoundation\nfor Promotion\nof Sports\nand Games,\na company\nincorporated\nunder Section 25\nof the Companies\nAct, 1956, known\nas Olympic Gold\nQuest (OGQ)\nCSR00001100\n2\nProviding accessible\nhealthcare services\nfor specific\nhealth needs and\nreduce burden of\noccupational diseases\namong driver\nworkforce and allied\nhuman resources\nYes\nYes\nHaryana\n429,838\nNo\nSambhav\nFoundation\nCSR00000475\n3\nEngineering & medical\ntest preparation for\ngovernment school\nstudents from low\nincome background\nYes\nYes\nChandigarh,\nMadhya\nPradesh\n1,562,500\nNo\nAvanti Fellows\nCSR00000837\n4\nProviding primary and\npreventive healthcare\nto the urban poor\nYes\nYes\nMumbai\n(Maharashtra)\n500,000\nNo\nSwasth\nFoundation\nCSR00007444\n5\nFacilitating training\nand participation in\nnationally recognised\nsports\nYes\nYes\nDelhi\n350,400\nNo\nIndian Institute\nof Technology\nDelhi\nCSR00017313\nTotal\n12,842,738/-\nDirectors\u2019 Report (Contd.)\nAnnual Report 2023-24\n63\n62\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\n(d)\t Amount spent in Administrative Overheads: Not Applicable\n(e)\t Amount spent on Impact Assessment, if applicable: Not applicable\n(f)\nTotal amount spent for the Financial Year (8b+8c+8d+8e): \u20b912,842,738/-*\n(g)\t Excess amount for set off, if any\nSl.\nNo.\nParticular\nAmount (in K)\n(i)\nTwo percent of average net profit of the company as per section 135(5)\nNil\n(ii)\nTotal amount spent for the Financial Year\n12,842,738*\n(iii)\nExcess amount spent for the financial year [(ii)-(i)]\n12,842,738*\n(iv)\nSurplus arising out of the CSR projects or programmes or activities of the previous financial years, if any\nNil\n(v)\nAmount available for set off in succeeding financial years [(iii)-(iv)]\n12,842,738*\n* on voluntarily basis\n9.\n(a)\t Details of Unspent CSR amount for the preceding three financial years: Not Applicable.\n(b)\t \u0007Details of CSR amount spent in the financial year for ongoing projects of the preceding financial year(s):\nNot Applicable\n10.\t \u0007In case of creation or acquisition of capital asset, furnish the details relating to the asset so created or acquired through\nCSR spent in the financial year: Not Applicable\n11.\t \u0007Specify the reason(s), if the Company has failed to spend two per cent of the average net profit as per section 135(5):\nNot applicable\nFor Delhivery Limited\nAruna Sundararajan\nSahil Barua\nChairperson \u2013 CSR & Sustainability Committee\nMember \u2013 CSR & Sustainability Committee\nNon \u2013 Executive Independent Director\nManaging Director and Chief Executive Officer\nDIN: 03523267\nDIN: 05131571\nPlace: Goa\nDate: May 17, 2024\nDirectors\u2019 Report (Contd.)\nAnnexure-5\nParticulars of Remuneration\nInformation pursuant to Section 197(12) of the Companies Act, 2013\n[Read with Rule 5(1) of the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014]\n1.\t \u0007Ratio of Remuneration of each Director to the median remuneration of all the employees of the Company\nand details of percentage increase/(decrease) in the remuneration of Managing Director and Chief\nExecutive Officer, each Director, Chief Financial Officer and Company Secretary for the FY24:\nSl.\nNo.\nName of Director & Designation\nRatio of remuneration to the Median\nRemuneration of Employees\n% increase/(decrease) in\nremuneration in the FY24\n(as compared to FY23)\n1.\nMr. Deepak Kapoor\nChairperson and Non-Executive Independent Director\n28.47\nNil\n2.\nMr. Romesh Sobti\nNon-Executive Independent Director\n24.67\nNil\n3.\nMr. Saugata Gupta1\nNon-Executive Independent Director\n26.57\n7.7\n4.\nMr. Srivatsan Rajan\nNon-Executive Independent Director\n24.67\nNil\n5.\nMs. Aruna Sundararajan2\nNon-Executive Independent Director\n24.67\nNA\n6.\nMr. Anindya Ghose3\nNon-Executive Independent Director\n15.18\nNA\n7.\nMr. Sahil Barua4\nManaging Director and Chief Executive Officer\n658.18\n336.80\n8.\nMr. Sandeep Kumar Barasia5\nExecutive Director and Chief Business Officer\n1,181.81\n193.63\n</text>\n</passage>\n\n<passage id=\"45\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Sahil Barua\n</context>\n<text>\nMr. Romesh Sobti\nNon-Executive Independent Director\n24.67\nNil\n3.\nMr. Saugata Gupta1\nNon-Executive Independent Director\n26.57\n7.7\n4.\nMr. Srivatsan Rajan\nNon-Executive Independent Director\n24.67\nNil\n5.\nMs. Aruna Sundararajan2\nNon-Executive Independent Director\n24.67\nNA\n6.\nMr. Anindya Ghose3\nNon-Executive Independent Director\n15.18\nNA\n7.\nMr. Sahil Barua4\nManaging Director and Chief Executive Officer\n658.18\n336.80\n8.\nMr. Sandeep Kumar Barasia5\nExecutive Director and Chief Business Officer\n1,181.81\n193.63\n9.\nMr. Kapil Bharati6\nExecutive Director and Chief Technology Officer\n943.29\n(48.12)\n10.\nMr. Suvir Suren Sujan7\nNon-Executive Director\nNil\nNA\n11.\nMr. Donald Francis Colleran8\nNon-Executive Director\nNil\nNA\n12\nMr. Amit Agarwal9\nChief Financial Officer\nNA\n978.56\n13.\nMr. Vivek Kumar10\nCompany Secretary and Compliance Officer\nNA\nNA\n14.\nMr. Sunil Kumar Bansal11\nCompany Secretary and Compliance Officer\nNA\nNA\nThe remuneration of all Non-Executive Directors excludes sitting fees paid during the financial year.\nNotes:\n1 \u0007The remuneration of Mr. Saugata Gupta was revised with effect from April 01, 2023, pursuant to the approval of shareholders in the\n12th Annual General Meeting held on September 27, 2023.\n2 \u0007Ms. Aruna Sundararajan was appointed as Non-Executive Independent Director with effect from July 08, 2022. Accordingly, the percentage\nchange in remuneration is not comparable with the previous financial year.\n3 \u0007Mr. Anindya Ghose was appointed as Non-Executive Independent Director with effect from August 04, 2023. Accordingly, the percentage\nchange in remuneration is not applicable.\n4 \u0007The remuneration of Mr. Sahil Barua includes the perquisite value of stock options exercised during the respective financial years\n(FY24: \u20b9139.07 million ; FY23: Nil).\n5 \u0007The remuneration of Mr. Sandeep Kumar Barasia includes the perquisite value of stock options exercised during the respective financial years\n(FY24: \u20b9262.44 million ; FY23: \u20b955.06 million).\n6 \u0007The remuneration of Mr. Kapil Bharati includes the perquisite value of stock options exercised during the respective financial years\n(FY24: \u20b9215.60 million; FY23: \u20b9444.98 million).\n7 \u0007Mr. Suvir Suren Sujan, Non-Executive Director, resigned from the Board with effect from August 24, 2023.\n8 \u0007Mr. Donald Francis Colleran, Non-Executive Director, ceased to be a Director with effect from the conclusion of the 12th Annual General Meeting held\non September 27, 2023.\n9 \u0007The remuneration of Mr. Amit Agarwal for the FY24 includes the perquisite value of stock options exercised during that financial year. There\nwere no such perquisites towards exercise of stock options during the FY23.\n10 \u0007Mr. Vivek Kumar, who was already associated with the Company as Deputy Company Secretary, was appointed as the Company Secretary\nand Compliance Officer with effect from June 01, 2023 and ceased to be associated with the Company with effect from March 27, 2024.\nAccordingly, the percentage change in remuneration is not applicable.\n11 \u0007Mr. Sunil Kumar Bansal, Company Secretary and Compliance Officer, ceased to be associated with the Company with effect from May 31, 2023.\nAccordingly, the percentage change in remuneration is not applicable.\nAnnual Report 2023-24\n65\n64\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nMacroeconomic outlook\nGlobal economy\nFY24 witnessed a resilient global economy despite the uneven\ngrowth. The year was marked by a considerable surge in\ninflation, followed by a globally synchronised monetary\npolicy tightening, continued supply chain disruptions in the\naftermath of the pandemic, the Russia-Ukraine war impacting\nglobal energy and food trade, geopolitical tensions between\nIsrael and Palestine and increased anti-globalisation\nrhetoric. Despite the gloomy predictions, the world avoided\na recession, the banking system proved largely resilient, and\nmajor emerging market economies did not suffer significant\nchallenges. As per the IMF\u2019s World Economic Outlook update,\nJuly 2024, the global economic growth for 2025 will likely\n</text>\n</passage>\n\n<passage id=\"46\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Sahil Barua\n</context>\n<text>\npolicy tightening, continued supply chain disruptions in the\naftermath of the pandemic, the Russia-Ukraine war impacting\nglobal energy and food trade, geopolitical tensions between\nIsrael and Palestine and increased anti-globalisation\nrhetoric. Despite the gloomy predictions, the world avoided\na recession, the banking system proved largely resilient, and\nmajor emerging market economies did not suffer significant\nchallenges. As per the IMF\u2019s World Economic Outlook update,\nJuly 2024, the global economic growth for 2025 will likely\nhold steady at 3.3% and inemerging markets and developing\neconomies, growth will likely be stable at 4.3%.\nIndian economy\nCurrently the fifth-largest economy in the world, India is one\nof the fastest-growing economies. It is likely to be among the\ntop three economic powers in the world by 2035, supported\nby its demographics and strong fundamentals. The Reserve\nBank of India has projected India\u2019s GDP to grow at 7.2%1 in\nFY25. During FY24, India demonstrated remarkable resilience\nin navigating global headwinds and registered a Growth rate\nof 8.2%, which was the highest among the major economies.\nHowever, private final consumption remained low during FY24.\nAccording to the Reserve Bank of India, private consumption\nexpenditure growth fell from 6.8% in FY23 to 4.0% in FY24.\nAccording to the IMF, India\u2019s GDP was US$3.9 trillion in 2024\nand will likely surpass US$5 trillion by 20272. The logistics and\ntransportation sector will be one of the frontline sectors that\nwill benefit from the surge in the GDP.\nGlobal logistics industry overview\nThe global logistics market accounted for US$7.98 trillion\nin 2022 and will likely grow to US$18.23 trillion by 2030 at a\nCAGR of 10.7% from 2023 to 2030. The growth in the global\nlogistics market will be primarily driven by the growth in online\nretail. Asia-Pacific is the leading regional market worldwide.\nThe advancements in technology, such as automated\nmaterial handling equipment, GPS and biometrics are helping\norganisations and businesses work efficiently, thereby\nstimulating the growth of the logistics market in the region.\nIndia logistics industry overview\nIn India, the logistics sector is a significant contributor to the overall\ngrowth of the economy. More than 22 million people rely on it for\ntheir livelihood. The sector is projected to add 10 million jobs by\n20273. As a key enabler of trade and commerce, the logistics sector\nunderpins economic development, enabling nations like India to\nharness their full potential and achieve sustainable progress. The\nrevenue from logistics sector in India was US$382 billion in 2021,\nand the market is predicted to increase to US$531 billion by 2026,\nat a healthy 6-7% year-on-year growth rate. India jumped six places\nover last year to 38 out of 139 countries in the 7th edition of the\nLogistics Performance Index (LPI 2023) released by the World\nBank. Transportation is the largest segment of the logistics sector\nin India. Currently, the road transportation sector has the largest\nshare in terms of tonnage, around 66%, of total cargo movement,\nfollowed by railways4.\nManagement Discussion and Analysis\nIndustry structure and growth drivers\nNote: Market structure excludes Freight-Transport through ships, inland water transport (IWT) and pipelines\nIndian logistics\nmarket\nExpress PTL\nPart Truckload\nDomestic\nAir Express\nTransportation\nRail\nTransportation\nRoad\nTransportation\nCross Border\nTransportation\nWarehousing\nand Supply Chain\nServices\nTruckload\nExpress Parcel\nDelivery\nEconomy PTL\n1 https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/1STATEOFTHEECONOMY84C19817677747DE81811D8FDBB0A796.PDF, June 22, 2024\n2 https://www.imf.org/external/datamapper/NGDPD@WEO/OEMDC/ADVEC/WEOWORLD, accessed on June 22, 2024\n3 IBEF: Transforming India's Logistics Sector: Challenges and Opportunities\n4 IBEF: Transforming India's Logistics Sector: Challenges and Opportunities\n2.\t The percentage increase in the Median Remuneration of Employees in the FY24:\nFY24\nFY23\nIncrease (%)\n</text>\n</passage>\n\n<passage id=\"47\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Sahil Barua\n</context>\n<text>\nExpress Parcel\nDelivery\nEconomy PTL\n1 https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/1STATEOFTHEECONOMY84C19817677747DE81811D8FDBB0A796.PDF, June 22, 2024\n2 https://www.imf.org/external/datamapper/NGDPD@WEO/OEMDC/ADVEC/WEOWORLD, accessed on June 22, 2024\n3 IBEF: Transforming India's Logistics Sector: Challenges and Opportunities\n4 IBEF: Transforming India's Logistics Sector: Challenges and Opportunities\n2.\t The percentage increase in the Median Remuneration of Employees in the FY24:\nFY24\nFY23\nIncrease (%)\nMedian remuneration of all employees per annum\n263,459\n262,900\n0.21\n\u0007The median remuneration has been calculated as Median remuneration of full time employees who were active for the\nfull financial year.\n3.\nThe Number of permanent employees on the rolls of the Company.\nPermanent employees on the rolls of the Company were 23,381 as on March 31, 2024.\n4.\n\u0007Average percentage increase/(decrease) already made in the salaries of employees other than the managerial\npersonnel in the last financial year and its comparison with the percentage increase in the managerial\nremuneration and justification thereof and point out if there are any exceptional circumstances for increase in\nthe managerial remuneration:\nIncrease/(Decrease) in the average salaries of employees other than managerial personnel in the FY24 was 14%.\n\u0007Increase/(Decrease) in the average salaries of managerial personnel in FY24 was (6.97)%.\nThe above increase/(decrease) in average salaries excludes perquisite value on exercise of stock options.\n5.\n\u0007Your Directors affirm, to the best of their knowledge and belief, that the remuneration is as per the remuneration policy of\nyour Company.\nOn behalf of the Board of Directors\nFor Delhivery Limited\nSahil Barua\nDeepak Kapoor\nManaging Director & Chief Executive Officer\nChairperson & Non-Executive Independent Director\nDIN: 05131571\nDIN: 00162957\nPlace: Goa\nPlace: New Delhi\nDate: July 05, 2024\nDate: July 05, 2024\nDirectors\u2019 Report (Contd.)\nAnnual Report 2023-24\n67\n66\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nDomestic road transportation: Domestic road transportation\nrepresents freight movement through the national and state\nhighway road network and in-city delivery within India. Improving\nreliability and reducing turnaround times due to improvements in\nroad infrastructure, relatively low cost of operation, and increased\nload-carrying capacity of trucks have led to road transportation\nhaving a higher share of freight traffic than other modes. Domestic\nroad transportation market consists of three segments:\ny Express parcel: Mainly composed of e-commerce\nshipments, speed post and document courier with\nindividual parcels weighing less than 40 kg and turnaround\ntime of typically less than three days.\ny Part truckload (PTL): Domestic road transportation\nservice with a total shipment weight of 40-1,000 kg which\nis insufficient to fill a full truck. Therefore, the volume of\nmultiple shippers is clubbed together at consolidation\ncentres into full truckloads before movement. PTL\nservices can be further segmented into express PTL, with\nturnaround time similar to express parcel and economy\nPTL, with slower turnaround time.\ny Truckload (TL): Domestic road transportation service\nwhere the shipper requires a dedicated truck or trailer,\ntypically moving directly from the point of departure/origin\nto the point of destination.\nDomestic rail transportation: Domestic Rail Transportation\nincludes movement of shipments over public and private rail\nnetworks. India has the world\u2019s fourth-largest rail network\nafter the US, China, and Russia. Railways after roadways\naccount for the second-highest percentage of goods moved\nin terms of volume. It is one of the most cost-effective modes\nof bulk freight transportation for shipments like commodities\n(e.g. coal, iron ore and cement), agri products (e.g. fertilisers,\nfood grains and mineral oils) and raw materials.\nDomestic air express transportation: Domestic air express\ntransportation includes movement of shipments using\n</text>\n</passage>\n",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "extractionout",
+        "schema": {
+          "$defs": {
+            "FactOut": {
+              "properties": {
+                "claim_text": {
+                  "description": "One self-contained sentence stating the fact",
+                  "title": "Claim Text",
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "title": "Confidence",
+                  "type": "number"
+                },
+                "passage_id": {
+                  "description": "id of the passage this fact and its quote came from",
+                  "title": "Passage Id",
+                  "type": "integer"
+                },
+                "predicate": {
+                  "description": "Lower snake_case relation name",
+                  "title": "Predicate",
+                  "type": "string"
+                },
+                "qualifiers": {
+                  "items": {
+                    "$ref": "#/$defs/QualifierOut"
+                  },
+                  "title": "Qualifiers",
+                  "type": "array"
+                },
+                "quote": {
+                  "description": "Verbatim span copied from the document",
+                  "title": "Quote",
+                  "type": "string"
+                },
+                "subject_key": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Hard identifier for the subject if the document gives one",
+                  "title": "Subject Key"
+                },
+                "subject_surface": {
+                  "title": "Subject Surface",
+                  "type": "string"
+                },
+                "subject_type": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "title": "Subject Type"
+                },
+                "value": {
+                  "$ref": "#/$defs/ValueOut"
+                }
+              },
+              "required": [
+                "passage_id",
+                "claim_text",
+                "subject_surface",
+                "predicate",
+                "value",
+                "quote",
+                "confidence"
+              ],
+              "title": "FactOut",
+              "type": "object"
+            },
+            "QualifierOut": {
+              "properties": {
+                "key": {
+                  "description": "Lower snake_case condition name",
+                  "title": "Key",
+                  "type": "string"
+                },
+                "provenance": {
+                  "enum": [
+                    "stated",
+                    "inherited"
+                  ],
+                  "title": "Provenance",
+                  "type": "string"
+                },
+                "value": {
+                  "title": "Value",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "value",
+                "provenance"
+              ],
+              "title": "QualifierOut",
+              "type": "object"
+            },
+            "ValueOut": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "quantity",
+                    "text",
+                    "date",
+                    "boolean"
+                  ],
+                  "title": "Kind",
+                  "type": "string"
+                },
+                "raw": {
+                  "description": "The value exactly as written in the document",
+                  "title": "Raw",
+                  "type": "string"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Magnitude word such as million or crore, if any",
+                  "title": "Scale"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Currency code or unit of measure, as written",
+                  "title": "Unit"
+                }
+              },
+              "required": [
+                "kind",
+                "raw"
+              ],
+              "title": "ValueOut",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "facts": {
+              "items": {
+                "$ref": "#/$defs/FactOut"
+              },
+              "title": "Facts",
+              "type": "array"
+            }
+          },
+          "title": "ExtractionOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The Company has allotted equity shares after expiry of 60 days from the date of receipt of the consideration/remittance upon exercise of ESOPs and violated the provisions of Foreign Exchange Management Act, 1999 (\u201cFEMA\u201d) read with Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) Regulations, 2019",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "violated",
+        "quote": "The Company has allotted equity shares after expiry of 60 days from the date of receipt of the consideration/remittance upon exercise of ESOPs and violated the provisions of Foreign Exchange Management Act, 1999 (\u201cFEMA\u201d) read with Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) Regulations, 2019",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The Company has allotted equity shares after expiry of 60 days from the date of receipt of the consideration/remittance upon exercise of ESOPs and violated the provisions of Foreign Exchange Management Act, 1999 (\u201cFEMA\u201d) read with Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) Regulations, 2019"
+        }
+      },
+      {
+        "claim_text": "The Company has filed compounding application for above said contravention with FED, CO Cell, Foreign Exchange Department Reserve Bank, New Delhi and same is pending before the compounding authority",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "filed",
+        "quote": "The Company has filed compounding application for above said contravention with FED, CO Cell, Foreign Exchange Department Reserve Bank, New Delhi and same is pending before the compounding authority",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The Company has filed compounding application for above said contravention with FED, CO Cell, Foreign Exchange Department Reserve Bank, New Delhi and same is pending before the compounding authority"
+        }
+      },
+      {
+        "claim_text": "The Board of Directors of the Company is duly constituted with proper balance of Executive Directors, Non-Executive Directors, Independent Directors including Woman Independent Director(s)",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "constituted",
+        "quote": "The Board of Directors of the Company is duly constituted with proper balance of Executive Directors, Non-Executive Directors, Independent Directors including Woman Independent Director(s)",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The Board of Directors of the Company is duly constituted with proper balance of Executive Directors, Non-Executive Directors, Independent Directors including Woman Independent Director(s)"
+        }
+      },
+      {
+        "claim_text": "Adequate notice is given to all Directors to schedule Board Meetings; Agenda and detailed notes on Agenda were sent at least seven days in advance except where consent of directors was received for circulation of the notice, Agenda and notes on Agenda at a shorter notice and a system exists for seeking and obtaining further information and clarifications on Agenda items before the meeting and for meaningful participation at the meeting",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "provided",
+        "quote": "Adequate notice is given to all Directors to schedule Board Meetings; Agenda and detailed notes on Agenda were sent at least seven days in advance except where consent of directors was received for circulation of the notice, Agenda and notes on Agenda at a shorter notice and a system exists for seeking and obtaining further information and clarifications on Agenda items before the meeting and for meaningful participation at the meeting",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Adequate notice is given to all Directors to schedule Board Meetings; Agenda and detailed notes on Agenda were sent at least seven days in advance except where consent of directors was received for circulation of the notice, Agenda and notes on Agenda at a shorter notice and a system exists for seeking and obtaining further information and clarifications on Agenda items before the meeting and for meaningful participation at the meeting"
+        }
+      },
+      {
+        "claim_text": "All the decisions of the Board and Committees thereof were carried through with requisite majority",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "carried",
+        "quote": "All the decisions of the Board and Committees thereof were carried through with requisite majority",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "All the decisions of the Board and Committees thereof were carried through with requisite majority"
+        }
+      },
+      {
+        "claim_text": "Based on review of compliance mechanism established by the Company, we are of the opinion there are adequate systems and processes in place in the Company, which is commensurate with its size and operations, to monitor and ensure compliance with applicable Laws, Rules, Regulations and Guidelines",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "has",
+        "quote": "Based on review of compliance mechanism established by the Company, we are of the opinion there are adequate systems and processes in place in the Company, which is commensurate with its size and operations, to monitor and ensure compliance with applicable Laws, Rules, Regulations and Guidelines",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Based on review of compliance mechanism established by the Company, we are of the opinion there are adequate systems and processes in place in the Company, which is commensurate with its size and operations, to monitor and ensure compliance with applicable Laws, Rules, Regulations and Guidelines"
+        }
+      },
+      {
+        "claim_text": "The compliance by the Company with applicable finance laws like Direct and Indirect tax laws has not been reviewed in this audit since the same has been subject to review by Statutory Financial Auditor and other designated professionals",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "not reviewed",
+        "quote": "The compliance by the Company with applicable finance laws like Direct and Indirect tax laws has not been reviewed in this audit since the same has been subject to review by Statutory Financial Auditor and other designated professionals",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The compliance by the Company with applicable finance laws like Direct and Indirect tax laws has not been reviewed in this audit since the same has been subject to review by Statutory Financial Auditor and other designated professionals"
+        }
+      },
+      {
+        "claim_text": "The capital structure of the Company was changed on various intervals due to allotment of equity shares pursuant to the following events",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "changed",
+        "quote": "The capital structure of the Company was change on various intervals due to allotment of equity shares pursuant to following events:",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The capital structure of the Company was change on various intervals due to allotment of equity shares pursuant to following events:"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited has invested \u20b9250 million in the share capital of Vinculum Solution Private Limited",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "invested",
+        "quote": "Delhivery Limited has invested \u20b9250 million in the share capital of Vinculum Solution Private Limited.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Delhivery Limited has invested \u20b9250 million in the share capital of Vinculum Solution Private Limited."
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited has increased its stake to 39.34% into Falcon Autotech Private Limited, Associate Company, by the way of making an additional investment for \u20b9500.40 million",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "increased",
+        "quote": "Delhivery Limited has increased its stake to 39.34% into Falcon Autotech Private Limited, Associate Company, by the way of making an additional investment for \u20b9500.40 million.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Delhivery Limited has increased its stake to 39.34% into Falcon Autotech Private Limited, Associate Company, by the way of making an additional investment for \u20b9500.40 million."
+        }
+      },
+      {
+        "claim_text": "The Board of Directors of the Company in their meeting held on February 02, 2024, approved the Scheme of Arrangement for amalgamation of Spoton Logistics Private Limited (\u201cTransferor Company-1\u201d) and Spoton Supply Chain Solutions Private Limited (\u201cTransferor Company-2\u201d) into and with Delhivery Limited (\u201cTransferee Company\u201d) and their respective shareholders, with an appointed date of April 01, 2024, subject to the requisite approval of the National Company Law Tribunal (\u2018NCLT\u2019)",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "approved",
+        "quote": "The Board of Directors the Company in their meeting held on February 02, 2024, approved the Scheme of Arrangement for amalgamation of Spoton Logistics Private Limited (\u201cTransferor Company-1\u201d) and Spoton Supply Chain Solutions Private Limited (\u201cTransferor Company-2\u201d) into and with Delhivery Limited (\u201cTransferee Company\u201d) and their respective shareholders, with an appointed date of April 01, 2024, subject to the requisite approval of the National Company Law Tribunal (\u2018NCLT\u2019).",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The Board of Directors the Company in their meeting held on February 02, 2024, approved the Scheme of Arrangement for amalgamation of Spoton Logistics Private Limited (\u201cTransferor Company-1\u201d) and Spoton Supply Chain Solutions Private Limited (\u201cTransferor Company-2\u201d) into and with Delhivery Limited (\u201cTransferee Company\u201d) and their respective shareholders, with an appointed date of April 01, 2024, subject to the requisite approval of the National Company Law Tribunal (\u2018NCLT\u2019)."
+        }
+      },
+      {
+        "claim_text": "The Company's management is responsible for the maintenance of secretarial records and compliance with the relevant provisions of corporate and other applicable laws, rules, regulations, guidelines, and standards",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "responsible",
+        "quote": "The Company's management is responsible for the maintenance of secretarial records and compliance with the relevant provisions of corporate and other applicable laws, rules, regulations, guidelines, and standards.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The Company's management is responsible for the maintenance of secretarial records and compliance with the relevant provisions of corporate and other applicable laws, rules, regulations, guidelines, and standards."
+        }
+      },
+      {
+        "claim_text": "We have followed such audit practices and processes as we considered appropriate to obtain reasonable assurance about the correctness of the contents of the secretarial records",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "followed",
+        "quote": "We have followed such audit practices and processes as we considered appropriate to obtain reasonable assurance about the correctness of the contents of the secretarial records.",
+        "subject_surface": "VAPN & Associates",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "We have followed such audit practices and processes as we considered appropriate to obtain reasonable assurance about the correctness of the contents of the secretarial records."
+        }
+      },
+      {
+        "claim_text": "We have verified the secretarial records furnished to us on a test basis to see whether the correct facts are reflected therein",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "verified",
+        "quote": "We have verified the secretarial records furnished to us on a test basis to see whether the correct facts are reflected therein.",
+        "subject_surface": "VAPN & Associates",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "We have verified the secretarial records furnished to us on a test basis to see whether the correct facts are reflected therein."
+        }
+      },
+      {
+        "claim_text": "We have examined the compliance procedures followed by the Company on a test basis",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "examined",
+        "quote": "We also examined the compliance procedures followed by the Company on a test basis.",
+        "subject_surface": "VAPN & Associates",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "We also examined the compliance procedures followed by the Company on a test basis."
+        }
+      },
+      {
+        "claim_text": "We have not verified the correctness and appropriateness of the financial statements (including attachments and annexures thereto), financial records, and books of accounts of the Company, as they are subject to audit by the Auditors of the Company, appointed under Section 139 of the Act",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "not verified",
+        "quote": "We have not verified the correctness and appropriateness of the financial statements (including attachments and annexures thereto), financial records, and books of accounts of the Company, as they are subject to audit by the Auditors of the Company, appointed under Section 139 of the Act.",
+        "subject_surface": "VAPN & Associates",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "We have not verified the correctness and appropriateness of the financial statements (including attachments and annexures thereto), financial records, and books of accounts of the Company, as they are subject to audit by the Auditors of the Company, appointed under Section 139 of the Act."
+        }
+      },
+      {
+        "claim_text": "We have obtained and relied on the Management's representation about the compliance of laws, rules, and regulations and happening of events, wherever required",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "relied",
+        "quote": "We have obtained and relied on the Management's representation about the compliance of laws, rules, and regulations and happening of events, wherever required.",
+        "subject_surface": "VAPN & Associates",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "We have obtained and relied on the Management's representation about the compliance of laws, rules, and regulations and happening of events, wherever required."
+        }
+      },
+      {
+        "claim_text": "Our Secretarial Audit report is neither an assurance as to the future viability of the Company nor of the efficacy or effectiveness with which the management has conducted the affairs of the Company",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "is not",
+        "quote": "Our Secretarial Audit report is neither an assurance as to the future viability of the Company nor of the efficacy or effectiveness with which the management has conducted the affairs of the Company.",
+        "subject_surface": "VAPN & Associates",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Our Secretarial Audit report is neither an assurance as to the future viability of the Company nor of the efficacy or effectiveness with which the management has conducted the affairs of the Company."
+        }
+      },
+      {
+        "claim_text": "The Company undertook the CSR activities on a voluntarily basis as part of its CSR activities during FY24, though the Company was not mandatorily required to spend any amount on CSR activities during FY24 in view of absence of profits during three immediately preceding financial years",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "undertook",
+        "quote": "The Company undertook the CSR activities on a voluntarily basis as part of its CSR activities during FY24, though the Company was not mandatorily required to spend any amount on CSR activities during FY24 in view of absence of profits during three immediately preceding financial years.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The Company undertook the CSR activities on a voluntarily basis as part of its CSR activities during FY24, though the Company was not mandatorily required to spend any amount on CSR activities during FY24 in view of absence of profits during three immediately preceding financial years."
+        }
+      },
+      {
+        "claim_text": "Our CSR Policy during the year under review had focused on promoting sports/training thereof and contributing towards relief, rehabilitation & health and education",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "focused",
+        "quote": "Our CSR Policy during the year under review had focused on promoting sports/training thereof and contributing towards relief, rehabilitation & health and education.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Our CSR Policy during the year under review had focused on promoting sports/training thereof and contributing towards relief, rehabilitation & health and education."
+        }
+      },
+      {
+        "claim_text": "The web-link where Composition of CSR & Sustainability Committee, CSR Policy and CSR Projects approved by the Board are disclosed on the website of the Company are provided below",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "disclosed",
+        "quote": "The web-link where Composition of CSR & Sustainability Committee, CSR Policy and CSR Projects approved by the Board are disclosed on the website of the Company are provided below:",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The web-link where Composition of CSR & Sustainability Committee, CSR Policy and CSR Projects approved by the Board are disclosed on the website of the Company are provided below:"
+        }
+      },
+      {
+        "claim_text": "The composition of the CSR Committee: https://www.delhivery.com/company/governance",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "disclosed",
+        "quote": "The composition of the CSR Committee: https://www.delhivery.com/company/governance",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The composition of the CSR Committee: https://www.delhivery.com/company/governance"
+        }
+      },
+      {
+        "claim_text": "CSR Policy: https://www.delhivery.com/wp-content/uploads/2022/05/Corporate-Social-Responsibility-Policy_final.pdf",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "disclosed",
+        "quote": "CSR Policy: https://www.delhivery.com/wp-content/uploads/2022/05/Corporate-Social-Responsibility-Policy_final.pdf",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "CSR Policy: https://www.delhivery.com/wp-content/uploads/2022/05/Corporate-Social-Responsibility-Policy_final.pdf"
+        }
+      },
+      {
+        "claim_text": "CSR Projects as approved by the Board: https://www.delhivery.com/wp-content/uploads/2024/07/CSR%20Plan%20FY23-24.pdf",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "disclosed",
+        "quote": "CSR Projects as approved by the Board: https://www.delhivery.com/wp-content/uploads/2024/07/CSR%20Plan%20FY23-24.pdf",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "CSR Projects as approved by the Board: https://www.delhivery.com/wp-content/uploads/2024/07/CSR%20Plan%20FY23-24.pdf"
+        }
+      },
+      {
+        "claim_text": "The Company did not have net profits during the three immediately preceding financial years",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "did not have",
+        "quote": "The Company did not have net profits during the three immediately preceding financial years.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The Company did not have net profits during the three immediately preceding financial years."
+        }
+      },
+      {
+        "claim_text": "Total Amount Spent for the Financial Year. (in K): 12,842,738/-",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "spent",
+        "quote": "Total Amount Spent for the Financial Year. (in K) 12,842,738/-",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "12,842,738/-"
+        }
+      },
+      {
+        "claim_text": "Amount spent for the project (in K): 10,000,000",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "spent",
+        "quote": "Amount spent for the project (in K). 10,000,000",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "10,000,000"
+        }
+      },
+      {
+        "claim_text": "Amount spent for the project (in K): 429,838",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "spent",
+        "quote": "Amount spent for the project (in K). 429,838",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "429,838"
+        }
+      },
+      {
+        "claim_text": "Amount spent for the project (in K): 1,562,500",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "spent",
+        "quote": "Amount spent for the project (in K). 1,562,500",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "1,562,500"
+        }
+      },
+      {
+        "claim_text": "Amount spent for the project (in K): 500,000",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "spent",
+        "quote": "Amount spent for the project (in K). 500,000",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "500,000"
+        }
+      },
+      {
+        "claim_text": "Amount spent for the project (in K): 350,400",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "spent",
+        "quote": "Amount spent for the project (in K). 350,400",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "350,400"
+        }
+      },
+      {
+        "claim_text": "Total Amount Spent for the Financial Year. (in K): 12,842,738/-",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "spent",
+        "quote": "Total Amount Spent for the Financial Year. (in K). 12,842,738/-",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "12,842,738/-"
+        }
+      },
+      {
+        "claim_text": "Amount spent in Administrative Overheads: Not Applicable",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "spent",
+        "quote": "Amount spent in Administrative Overheads: Not Applicable",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Not Applicable"
+        }
+      },
+      {
+        "claim_text": "Amount spent on Impact Assessment, if applicable: Not applicable",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "spent",
+        "quote": "Amount spent on Impact Assessment, if applicable: Not applicable",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Not applicable"
+        }
+      },
+      {
+        "claim_text": "Total amount spent for the Financial Year (8b+8c+8d+8e): \u20b912,842,738/-*",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "spent",
+        "quote": "Total amount spent for the Financial Year (8b+8c+8d+8e): \u20b912,842,738/-*",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b912,842,738/-*"
+        }
+      },
+      {
+        "claim_text": "Excess amount spent for the financial year [(ii)-(i)]: 12,842,738*",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "spent",
+        "quote": "Excess amount spent for the financial year [(ii)-(i)] 12,842,738*",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "12,842,738*"
+        }
+      },
+      {
+        "claim_text": "Surplus arising out of the CSR projects or programmes or activities of the previous financial years, if any: Nil",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "arising",
+        "quote": "Surplus arising out of the CSR projects or programmes or activities of the previous financial years, if any: Nil",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Nil"
+        }
+      },
+      {
+        "claim_text": "Amount available for set off in succeeding financial years [(iii)-(iv)]: 12,842,738*",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "available",
+        "quote": "Amount available for set off in succeeding financial years [(iii)-(iv)] 12,842,738*",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "12,842,738*"
+        }
+      },
+      {
+        "claim_text": "The remuneration of all Non-Executive Directors excludes sitting fees paid during the financial year",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "excludes",
+        "quote": "The remuneration of all Non-Executive Directors excludes sitting fees paid during the financial year.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "sitting fees paid during the financial year"
+        }
+      },
+      {
+        "claim_text": "The remuneration of Mr. Saugata Gupta was revised with effect from April 01, 2023, pursuant to the approval of shareholders in the 12th Annual General Meeting held on September 27, 2023",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "revised",
+        "quote": "The remuneration of Mr. Saugata Gupta was revised with effect from April 01, 2023, pursuant to the approval of shareholders in the 12th Annual General Meeting held on September 27, 2023.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The remuneration of Mr. Saugata Gupta was revised with effect from April 01, 2023, pursuant to the approval of shareholders in the 12th Annual General Meeting held on September 27, 2023."
+        }
+      },
+      {
+        "claim_text": "Ms. Aruna Sundararajan was appointed as Non-Executive Independent Director with effect from July 08, 2022. Accordingly, the percentage change in remuneration is not comparable with the previous financial year",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "appointed",
+        "quote": "Ms. Aruna Sundararajan was appointed as Non-Executive Independent Director with effect from July 08, 2022. Accordingly, the percentage change in remuneration is not comparable with the previous financial year.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Ms. Aruna Sundararajan was appointed as Non-Executive Independent Director with effect from July 08, 2022. Accordingly, the percentage change in remuneration is not comparable with the previous financial year."
+        }
+      },
+      {
+        "claim_text": "Mr. Anindya Ghose was appointed as Non-Executive Independent Director with effect from August 04, 2023. Accordingly, the percentage change in remuneration is not applicable",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "appointed",
+        "quote": "Mr. Anindya Ghose was appointed as Non-Executive Independent Director with effect from August 04, 2023. Accordingly, the percentage change in remuneration is not applicable.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Mr. Anindya Ghose was appointed as Non-Executive Independent Director with effect from August 04, 2023. Accordingly, the percentage change in remuneration is not applicable."
+        }
+      },
+      {
+        "claim_text": "The remuneration of Mr. Sahil Barua includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9139.07 million ; FY23: Nil)",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "includes",
+        "quote": "The remuneration of Mr. Sahil Barua includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9139.07 million ; FY23: Nil).",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The remuneration of Mr. Sahil Barua includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9139.07 million ; FY23: Nil)."
+        }
+      },
+      {
+        "claim_text": "The remuneration of Mr. Sandeep Kumar Barasia includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9262.44 million ; FY23: \u20b955.06 million)",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "includes",
+        "quote": "The remuneration of Mr. Sandeep Kumar Barasia includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9262.44 million ; FY23: \u20b955.06 million).",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The remuneration of Mr. Sandeep Kumar Barasia includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9262.44 million ; FY23: \u20b955.06 million)."
+        }
+      },
+      {
+        "claim_text": "The remuneration of Mr. Kapil Bharati includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9215.60 million; FY23: \u20b9444.98 million)",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "includes",
+        "quote": "The remuneration of Mr. Kapil Bharati includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9215.60 million; FY23: \u20b9444.98 million).",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "The remuneration of Mr. Kapil Bharati includes the perquisite value of stock options exercised during the respective financial years (FY24: \u20b9215.60 million; FY23: \u20b9444.98 million)."
+        }
+      },
+      {
+        "claim_text": "Mr. Suvir Suren Sujan, Non-Executive Director, resigned from the Board with effect from August 24, 2023",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "resigned",
+        "quote": "Mr. Suvir Suren Sujan, Non-Executive Director, resigned from the Board with effect from August 24, 2023.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Mr. Suvir Suren Sujan, Non-Executive Director, resigned from the Board with effect from August 24, 2023."
+        }
+      },
+      {
+        "claim_text": "Mr. Donald Francis Colleran, Non-Executive Director, ceased to be a Director with effect from the conclusion of the 12th Annual General Meeting held on September 27, 2023",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "ceased",
+        "quote": "Mr. Donald Francis Colleran, Non-Executive Director, ceased to be a Director with effect from the conclusion of the 12th Annual General Meeting held on September 27, 2023.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Mr. Donald Francis Colleran, Non-Executive Director, ceased to be a Director with effect from the conclusion of the 12th Annual General Meeting held on September 27, 2023."
+        }
+      },
+      {
+        "claim_text": "Mr. Vivek Kumar, who was already associated with the Company as Deputy Company Secretary, was appointed as the Company Secretary and Compliance Officer with effect from June 01, 2023 and ceased to be associated with the Company with effect from March 27, 2024. Accordingly, the percentage change in remuneration is not applicable",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "appointed",
+        "quote": "Mr. Vivek Kumar, who was already associated with the Company as Deputy Company Secretary, was appointed as the Company Secretary and Compliance Officer with effect from June 01, 2023 and ceased to be associated with the Company with effect from March 27, 2024. Accordingly, the percentage change in remuneration is not applicable.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Mr. Vivek Kumar, who was already associated with the Company as Deputy Company Secretary, was appointed as the Company Secretary and Compliance Officer with effect from June 01, 2023 and ceased to be associated with the Company with effect from March 27, 2024. Accordingly, the percentage change in remuneration is not applicable."
+        }
+      },
+      {
+        "claim_text": "Mr. Sunil Kumar Bansal, Company Secretary and Compliance Officer, ceased to be associated with the Company with effect from May 31, 2023. Accordingly, the percentage change in remuneration is not applicable",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "ceased",
+        "quote": "Mr. Sunil Kumar Bansal, Company Secretary and Compliance Officer, ceased to be associated with the Company with effect from May 31, 2023. Accordingly, the percentage change in remuneration is not applicable.",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Mr. Sunil Kumar Bansal, Company Secretary and Compliance Officer, ceased to be associated with the Company with effect from May 31, 2023. Accordingly, the percentage change in remuneration is not applicable."
+        }
+      },
+      {
+        "claim_text": "The global economic growth for 2025 will likely hold steady at 3.3%",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "will likely hold",
+        "quote": "the global economic growth for 2025 will likely hold steady at 3.3%",
+        "subject_surface": "global economy",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "3.3%"
+        }
+      },
+      {
+        "claim_text": "In emerging markets and developing economies, growth will likely be stable at 4.3%",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "will likely be",
+        "quote": "in emerging markets and developing economies, growth will likely be stable at 4.3%",
+        "subject_surface": "emerging markets and developing economies",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "4.3%"
+        }
+      },
+      {
+        "claim_text": "India\u2019s GDP to grow at 7.2%1 in FY25",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "to grow",
+        "quote": "India\u2019s GDP to grow at 7.2%1 in FY25",
+        "subject_surface": "India",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "7.2%1"
+        }
+      },
+      {
+        "claim_text": "India demonstrated remarkable resilience in navigating global headwinds and registered a Growth rate of 8.2%, which was the highest among the major economies",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "registered",
+        "quote": "India demonstrated remarkable resilience in navigating global headwinds and registered a Growth rate of 8.2%, which was the highest among the major economies",
+        "subject_surface": "India",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "8.2%"
+        }
+      },
+      {
+        "claim_text": "Private consumption expenditure growth fell from 6.8% in FY23 to 4.0% in FY24",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "fell",
+        "quote": "private consumption expenditure growth fell from 6.8% in FY23 to 4.0% in FY24",
+        "subject_surface": "India",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "4.0%"
+        }
+      },
+      {
+        "claim_text": "India\u2019s GDP was US$3.9 trillion in 2024 and will likely surpass US$5 trillion by 20272",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "will likely surpass",
+        "quote": "India\u2019s GDP was US$3.9 trillion in 2024 and will likely surpass US$5 trillion by 20272",
+        "subject_surface": "India",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "US$5 trillion"
+        }
+      },
+      {
+        "claim_text": "The global logistics market accounted for US$7.98 trillion in 2022 and will likely grow to US$18.23 trillion by 2030 at a CAGR of 10.7% from 2023 to 2030",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "accounted",
+        "quote": "The global logistics market accounted for US$7.98 trillion in 2022 and will likely grow to US$18.23 trillion by 2030 at a CAGR of 10.7% from 2023 to 2030",
+        "subject_surface": "global logistics market",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "US$7.98 trillion"
+        }
+      },
+      {
+        "claim_text": "The global logistics market will likely grow to US$18.23 trillion by 2030 at a CAGR of 10.7% from 2023 to 2030",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "will likely grow",
+        "quote": "will likely grow to US$18.23 trillion by 2030 at a CAGR of 10.7% from 2023 to 2030",
+        "subject_surface": "global logistics market",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "US$18.23 trillion"
+        }
+      },
+      {
+        "claim_text": "The global logistics market will likely grow to US$18.23 trillion by 2030 at a CAGR of 10.7% from 2023 to 2030",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "will likely grow",
+        "quote": "will likely grow to US$18.23 trillion by 2030 at a CAGR of 10.7% from 2023 to 2030",
+        "subject_surface": "global logistics market",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "10.7%"
+        }
+      },
+      {
+        "claim_text": "The revenue from logistics sector in India was US$382 billion in 2021, and the market is predicted to increase to US$531 billion by 2026, at a healthy 6-7% year-on-year growth rate",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "was",
+        "quote": "The revenue from logistics sector in India was US$382 billion in 2021, and the market is predicted to increase to US$531 billion by 2026, at a healthy 6-7% year-on-year growth rate",
+        "subject_surface": "India logistics sector",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "US$382 billion"
+        }
+      },
+      {
+        "claim_text": "The revenue from logistics sector in India was US$382 billion in 2021, and the market is predicted to increase to US$531 billion by 2026, at a healthy 6-7% year-on-year growth rate",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "predicted",
+        "quote": "The revenue from logistics sector in India was US$382 billion in 2021, and the market is predicted to increase to US$531 billion by 2026, at a healthy 6-7% year-on-year growth rate",
+        "subject_surface": "India logistics sector",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "US$531 billion"
+        }
+      },
+      {
+        "claim_text": "The revenue from logistics sector in India was US$382 billion in 2021, and the market is predicted to increase to US$531 billion by 2026, at a healthy 6-7% year-on-year growth rate",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "predicted",
+        "quote": "The revenue from logistics sector in India was US$382 billion in 2021, and the market is predicted to increase to US$531 billion by 2026, at a healthy 6-7% year-on-year growth rate",
+        "subject_surface": "India logistics sector",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "6-7%"
+        }
+      },
+      {
+        "claim_text": "India jumped six places over last year to 38 out of 139 countries in the 7th edition of the Logistics Performance Index (LPI 2023) released by the World Bank",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "jumped",
+        "quote": "India jumped six places over last year to 38 out of 139 countries in the 7th edition of the Logistics Performance Index (LPI 2023) released by the World Bank",
+        "subject_surface": "India",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "38"
+        }
+      },
+      {
+        "claim_text": "Transportation is the largest segment of the logistics sector in India",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "is",
+        "quote": "Transportation is the largest segment of the logistics sector in India",
+        "subject_surface": "India logistics sector",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "Transportation"
+        }
+      },
+      {
+        "claim_text": "Currently, the road transportation sector has the largest share in terms of tonnage, around 66%, of total cargo movement, followed by railways",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has",
+        "quote": "Currently, the road transportation sector has the largest share in terms of tonnage, around 66%, of total cargo movement, followed by railways",
+        "subject_surface": "India logistics sector",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "66%"
+        }
+      },
+      {
+        "claim_text": "The median remuneration of all employees per annum was 263,459",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "was",
+        "quote": "Median remuneration of all employees per annum 263,459",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "263,459"
+        }
+      },
+      {
+        "claim_text": "The median remuneration of all employees per annum was 262,900",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "was",
+        "quote": "262,900",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "262,900"
+        }
+      },
+      {
+        "claim_text": "The percentage increase in the Median Remuneration of Employees in the FY24 was 0.21",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "was",
+        "quote": "Increase (%) 0.21",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "0.21"
+        }
+      },
+      {
+        "claim_text": "Permanent employees on the rolls of the Company were 23,381 as on March 31, 2024",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "were",
+        "quote": "Permanent employees on the rolls of the Company were 23,381 as on March 31, 2024",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "23,381"
+        }
+      },
+      {
+        "claim_text": "Increase/(Decrease) in the average salaries of employees other than managerial personnel in the FY24 was 14%",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "was",
+        "quote": "Increase/(Decrease) in the average salaries of employees other than managerial personnel in the FY24 was 14%",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "14%"
+        }
+      },
+      {
+        "claim_text": "Increase/(Decrease) in the average salaries of managerial personnel in FY24 was (6.97)%",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "was",
+        "quote": "Increase/(Decrease) in the average salaries of managerial personnel in FY24 was (6.97)%",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "(6.97)%"
+        }
+      }
+    ]
+  }
+}

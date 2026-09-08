@@ -1,0 +1,348 @@
+{
+  "key": "5f4ffeaab1121d51deed6f6518a916cb801e1de9de10c22862c7a77ecb35e43b",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 7 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"24\">\n<context>\n[section]\nAppendix > Balance sheet\n</context>\n<text>\n18\nTotal cash balance: \u20b9 5,444 Cr\n\n\nStrong liquidity position\nDebt to Equity\n\u20b9 Cr\nMar \u201923\nMar \u201924\nTerm loan\n199\n126\nWorking capital loan\n-\n-\nDebt (excludes CCPS) (A)\n199\n126\nCash and cash equivalents(1) (B)\n5,508\n5,444\nNet debt (A-B)\n(5,309)\n(5,318)\nNetworth (C)\n9,177\n9,145\nDebt/Equity (A/C)\n0.02x\n0.01x\n(1)\nIncludes investments, other bank balances, margin money deposits and deposits with original maturity for >12 months; excludes \u20b9145 Cr of accrued interest In Mar \u201824\n19\n\n\nCash flow summary\n</text>\n</passage>\n\n<passage id=\"25\">\n<context>\n[page header]\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nAppendix > Cash flow summary\n</context>\n<text>\nCash flow summary\n(1)\nFY23 includes the impact of certain reclassifications\n(2)\nChange in inventory, receivables, other financial assets, loans, other assets, payables, other liabilities\n(3)\nIncludes investments, margin money deposits and deposits with original maturity for >12 months; doesn\u2019t include accrued interests on deposits and investments\n\u20b9 Cr\nFY23\nFY24\nNet cash from / (used in) operating activities\n(30)\n472\nCash generated from / (used in) operations\n42\n510\nCash operating profit/ (loss) before working capital changes(1)\n(22)\n495\nChanges in net assets(1,2)\n64\n15\nDirect taxes paid (net of refund)\n(72)\n(37)\nNet cash from / (used in) investing activities\n(3,411)\n(99)\nNet cash from / (used in) investing into treasury instruments\n(2,782)\n444\nNet cash from / (used in) capex and M&A\n(629)\n(543)\nNet cash from / (used in) financing activities\n3,538\n(366)\nNet cash from / (used in) interest and principal portion of lease liabilities\n(258)\n(277)\nNet cash from / (used in) other financing activities\n3,796\n(89)\nNet change in cash\n98\n7\nNet foreign exchange difference\n2\n0\nOpening cash balance at the being of the year\n195\n295\nClosing cash balance at the end of the year (A)\n295\n303\nCash equivalents at the end of the year(3) (B)\n5,213\n5,141\nCash & cash equivalents at the end of the year (A+B)\n5,508\n5,444\n20\n\n\nInvesting in capacity and capability building\n21\n1.2%\n0.2%\n1.4%\n1.8%\n2.1%\n1.2%\n1.2%\n2.3%\n1.0%\n1.7%\n1.7%\n2.7%\n1.3%\n2.1%\n1.2%\n2.0%\n1.7%\n3.5%\n2.8%\n1.9%\n2.0%\n1.7%\n1.6%\n1.6%\n1.1%\n0.6%\n1.1%\n0.5%\n0.4%\nFY19\nFY20\nFY21\nFY22\nFY23\nFY24\nVehicles\nAutomation\nPlant, Machinery & Leasehold improvements\nFurnitures, Fixtures & Office Equipments\nIT\nAcquired Assets\n9.0%\nCapital Expenditure as % of Revenue from Services\n7.5%\n7.2%\n6.8%\n7.8%\n7.4%\n(1,2)\n(1)\n(3)\nNote: The Capex does not include CWIP. The CWIP at the end of FY24 is \u20b929 Cr\n(1)\n~Rs 100 Cr of Capex, which happened in FY22, was planned for FY21; hence that amount has been included in FY21\n(2)\nAs % of reported revenues for FY22\n(3)\nAssets acquired through Spoton acquisition\n\n\nAdjusted EBITDA bridge\n</text>\n</passage>\n\n<passage id=\"26\">\n<context>\n[page header]\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\nQ4 FY22\nQ4 FY23\nQ3 FY24\nQ4 FY24\n\n[section]\nAppendix > Investing in capacity and capability building\n</context>\n<text>\nAutomation\nPlant, Machinery & Leasehold improvements\nFurnitures, Fixtures & Office Equipments\nIT\nAcquired Assets\n9.0%\nCapital Expenditure as % of Revenue from Services\n7.5%\n7.2%\n6.8%\n7.8%\n7.4%\n(1,2)\n(1)\n(3)\nNote: The Capex does not include CWIP. The CWIP at the end of FY24 is \u20b929 Cr\n(1)\n~Rs 100 Cr of Capex, which happened in FY22, was planned for FY21; hence that amount has been included in FY21\n(2)\nAs % of reported revenues for FY22\n(3)\nAssets acquired through Spoton acquisition\n\n\nAdjusted EBITDA bridge\n\u20b9 Cr\nQ4 FY23\nQ3 FY24\nQ4 FY24\nFY23\nFY24\nRemarks\nTotal revenue from customers\n1,860\n2,194\n2,076\n7,225\n8,142\nLess: Freight handling and servicing cost\n1,372\n1,572\n1,519\n5,669\n5,971\nLess: Purchase & change in inventory of\ntraded goods\n-\n-\n-\n2\n-\nLess: Employee benefit expense\n357\n360\n357\n1,400\n1,437\nLess: Other expenses\n117\n154\n154\n605\n607\nAdd: Fair value loss on investments at fair\nvalue through profit or loss\n(17)\n-\n-\n(2)\n-\nNon-cash expense/(gain) due to mark to market of\nshort-term financial investments included in other\nexpenses\nReported EBITDA\n13\n109\n46\n(452)\n127\nAdd: Share based payment expenses\n73\n54\n49\n289\n226\nAccounting expenses towards ESOPs already\ngranted\nAdd: IPO expense\n-\n-\n-\n16\n-\nIPO related non-operating expenses\nLess: Actual lease rent paid\n64\n71\n75\n258\n277\nActual cash rent paid on leased properties\nrecognized under Ind AS 116\nAdjusted EBITDA\n6\n92\n21\n(404)\n76\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n22\n\n\nCost drivers \u2013 Q4 FY24 vs Q3 FY24\n</text>\n</passage>\n\n<passage id=\"27\">\n<context>\n[page header]\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\nQ4 FY22\nQ4 FY23\nQ3 FY24\nQ4 FY24\n\n[section]\nAppendix > Adjusted EBITDA bridge\n</context>\n<text>\nshort-term financial investments included in other\nexpenses\nReported EBITDA\n13\n109\n46\n(452)\n127\nAdd: Share based payment expenses\n73\n54\n49\n289\n226\nAccounting expenses towards ESOPs already\ngranted\nAdd: IPO expense\n-\n-\n-\n16\n-\nIPO related non-operating expenses\nLess: Actual lease rent paid\n64\n71\n75\n258\n277\nActual cash rent paid on leased properties\nrecognized under Ind AS 116\nAdjusted EBITDA\n6\n92\n21\n(404)\n76\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n22\n\n\nCost drivers \u2013 Q4 FY24 vs Q3 FY24\n(1)\nOn reported basis\n(2)\nBreakup as per notes to accounts\n\u20b9 Cr\nQ4 FY22\nQ4 FY23\nQ3 FY24\nQ4 FY24\nFY23\nFY24\nFreight, Handling and Servicing Cost(1,2)\n1,502\n1,372\n1,572\n1,519\n5,669\n5,971\n% of Revenue from services(2)\n72.5%\n73.8%\n71.6%\n73.2%\n78.5%\n73.3%\nLine haul expenses\n724\n616\n696\n708\n2,517\n2,684\n% of revenue\n34.5%\n33.1%\n31.7%\n34.1%\n34.8%\n33.0%\nVehicle rental expenses\n419\n384\n434\n391\n1,523\n1,603\n% of revenue\n20.2%\n20.6%\n19.8%\n18.8%\n21.1%\n19.7%\nContractual manpower expenses\n222\n206\n268\n254\n893\n995\n% of revenue\n10.7%\n11.1%\n12.2%\n12.2%\n12.4%\n12.2%\nRent\n47\n65\n66\n76\n269\n282\n% of revenue\n2.3%\n3.5%\n3.0%\n3.6%\n3.7%\n3.5%\nSecurity expenses\n22\n21\n21\n21\n91\n85\n% of revenue\n1.0%\n1.2%\n1.0%\n1.0%\n1.3%\n1.0%\nPower, fuel & water charges\n39\n37\n52\n47\n168\n186\n% of revenue\n1.9%\n2.0%\n2.4%\n2.3%\n2.3%\n2.3%\nPacking material\n10\n6\n4\n3\n25\n19\n% of revenue\n0.5%\n0.3%\n0.2%\n0.2%\n0.3%\n0.2%\nStores and spares\n8\n4\n3\n2\n19\n17\n% of revenue\n0.4%\n0.2%\n0.1%\n0.1%\n0.3%\n0.2%\nLost shipment expense (net)\n10\n32\n27\n18\n163\n101\n% of revenue\n0.5%\n1.7%\n1.2%\n0.9%\n2.3%\n1.2%\n23\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n\nESOPs ungranted\n</text>\n</passage>\n\n<passage id=\"28\">\n<context>\n[page header]\nQ4 FY22\nQ4 FY23\nQ3 FY24\nQ4 FY24\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n[section]\nAppendix > Cost drivers \u2013 Q4 FY24 vs Q3 FY24\n</context>\n<text>\n22\n21\n21\n21\n91\n85\n% of revenue\n1.0%\n1.2%\n1.0%\n1.0%\n1.3%\n1.0%\nPower, fuel & water charges\n39\n37\n52\n47\n168\n186\n% of revenue\n1.9%\n2.0%\n2.4%\n2.3%\n2.3%\n2.3%\nPacking material\n10\n6\n4\n3\n25\n19\n% of revenue\n0.5%\n0.3%\n0.2%\n0.2%\n0.3%\n0.2%\nStores and spares\n8\n4\n3\n2\n19\n17\n% of revenue\n0.4%\n0.2%\n0.1%\n0.1%\n0.3%\n0.2%\nLost shipment expense (net)\n10\n32\n27\n18\n163\n101\n% of revenue\n0.5%\n1.7%\n1.2%\n0.9%\n2.3%\n1.2%\n23\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n\n\nESOPs ungranted\nTotal\n% of shares outstanding on a\nfully diluted basis\nESOPs ungranted, of which\n40,424,975\n5.03%\nTime-based ESOPs(4)\n25,364,975\n3.16%\nPerformance-based ESOPs(5)\n15,060,000\n1.87%\nNote: Any new ESOP grants made in the future will be duly notified to the stock exchanges\n(1)\nAs of March 31, 2024\n(2)\nRelated to costs attributable to time-based ESOPs already granted; in event of forfeiture of ESOPs upon resignation/ termination of\nemployee prior to completion of vesting, costs will be reversed\n(3)\nRelated to costs attributable to performance-based ESOPs already granted. The cost is calculated using Monte Carlo simulation.\n(4)\nVesting period ranges from 3 to 4 years\n(5)\nTo be unlocked in three equal tranches upon achieving share prices of \u20b9800, \u20b91,000 and \u20b91,200; and vest equally over 2 years\nthereafter\nEmployee Stock Options(1)\n24\nEstimated P&L charge (non-cash) for ESOPs already granted\n\u20b9 Cr\nCost of time-based options(2)\nCost of performance-based\noptions(3)\nFY24\n132\n94\nFY25\n90\n40\nFY26\n38\n12\nFY27\n6\n2\nFY28\n0\n-\nTotal\n266\n147\nNumber of employees holding ESOPs (vested + unvested) : 1,432\n\n\nDefinitions and abbreviations\n</text>\n</passage>\n\n<passage id=\"29\">\n<context>\n[section]\nAppendix > Cost drivers \u2013 Q4 FY24 vs Q3 FY24\n</context>\n<text>\n(4)\nVesting period ranges from 3 to 4 years\n(5)\nTo be unlocked in three equal tranches upon achieving share prices of \u20b9800, \u20b91,000 and \u20b91,200; and vest equally over 2 years\nthereafter\nEmployee Stock Options(1)\n24\nEstimated P&L charge (non-cash) for ESOPs already granted\n\u20b9 Cr\nCost of time-based options(2)\nCost of performance-based\noptions(3)\nFY24\n132\n94\nFY25\n90\n40\nFY26\n38\n12\nFY27\n6\n2\nFY28\n0\n-\nTotal\n266\n147\nNumber of employees holding ESOPs (vested + unvested) : 1,432\n\n\nDefinitions and abbreviations\nCross Border\nCross border ocean & air freight and express parcel services by the Company\nPro forma financials\nThe pro forma consolidated P&L and adjusted EBITDA compiled by our Company to illustrate the impact of the acquisition of SpotOn Logistics Private Limited on our consolidated financial\nstatements for the year ended March 31, 2022 as if the acquisition occurred on 1st April 2021. These have not been reviewed / audited by auditors\nPTL freight\nPart truck load freight service by the Company\nRedSeer report\nReport titled \u201cLogistics Market in India\u201d dated April 21, 2022 prepared by RedSeer in connection with the public offer by the Company\nSCS\nSupply chain services by the Company through which the Company provides integrated supply chain solutions (warehousing & transportation)\nTL\nTruck load freight service by the Company which connects shippers with fleet-owners and suppliers of truckload capacity across the country via a centralized bidding and matching engine\n25\n\n\nFor any queries, please write to us at ir@delhivery.com\n</text>\n</passage>\n\n<passage id=\"30\">\n<context>\n[section]\nAppendix > Definitions and abbreviations\n</context>\n<text>\nReport titled \u201cLogistics Market in India\u201d dated April 21, 2022 prepared by RedSeer in connection with the public offer by the Company\nSCS\nSupply chain services by the Company through which the Company provides integrated supply chain solutions (warehousing & transportation)\nTL\nTruck load freight service by the Company which connects shippers with fleet-owners and suppliers of truckload capacity across the country via a centralized bidding and matching engine\n25\n\n\nFor any queries, please write to us at ir@delhivery.com\n26\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The total cash balance as of March 2024 is \u20b9 5,444 Cr.",
+        "confidence": 1,
+        "passage_id": 24,
+        "predicate": "total_cash_balance",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "Mar \u201924"
+          }
+        ],
+        "quote": "Total cash balance: \u20b9 5,444 Cr",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "5,444",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "The debt to equity ratio as of March 2024 is 0.01x.",
+        "confidence": 1,
+        "passage_id": 24,
+        "predicate": "debt_to_equity_ratio",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "Mar \u201924"
+          }
+        ],
+        "quote": "Debt/Equity (A/C)\n0.02x\n0.01x",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.01x"
+        }
+      },
+      {
+        "claim_text": "The net cash from operating activities for FY24 is \u20b9 472 Cr.",
+        "confidence": 1,
+        "passage_id": 25,
+        "predicate": "net_cash_from_operating_activities",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Net cash from / (used in) operating activities\n(30)\n472",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "472",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "The capital work in progress (CWIP) at the end of FY24 is \u20b9 29 Cr.",
+        "confidence": 1,
+        "passage_id": 25,
+        "predicate": "capital_work_in_progress",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end of FY24"
+          }
+        ],
+        "quote": "The CWIP at the end of FY24 is \u20b929 Cr",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "29",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "The reported EBITDA for FY24 is \u20b9 127 Cr.",
+        "confidence": 1,
+        "passage_id": 26,
+        "predicate": "reported_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Reported EBITDA\n13\n109\n46\n(452)\n127",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "127",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "The adjusted EBITDA for FY24 is \u20b9 76 Cr.",
+        "confidence": 1,
+        "passage_id": 26,
+        "predicate": "adjusted_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Adjusted EBITDA\n6\n92\n21\n(404)\n76",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "76",
+          "scale": "Cr",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "The number of employees holding ESOPs as of March 31, 2024 is 1,432.",
+        "confidence": 1,
+        "passage_id": 28,
+        "predicate": "number_of_employees_holding_esops",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "Number of employees holding ESOPs (vested + unvested) : 1,432",
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,432"
+        }
+      }
+    ]
+  }
+}

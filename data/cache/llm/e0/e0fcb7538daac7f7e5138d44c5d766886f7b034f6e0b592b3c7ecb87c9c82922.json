@@ -1,0 +1,621 @@
+{
+  "key": "e0fcb7538daac7f7e5138d44c5d766886f7b034f6e0b592b3c7ecb87c9c82922",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"32\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nregarding developments in the Indian and global stock markets. While the Indian\nfinancial sector shows resilience, international market conditions may have some\ninfluence on India. Any correction in the US stock market could have implications\nfor global markets (See Box II.2 of the Survey for an analysis pertaining to the Indian\nmarket).\n38\tReserve Bank of India. (2024, June). Financial Stability Report. https://tinyurl.com/3ba9x6vr.\n39 Reserve Bank of India. (2024, December). Financial Stability Report. https://tinyurl.com/4wtz3c6u.\n\n\nState of the Economy\n31\nEmployment trends\n1.65\tIndia's labour market growth in recent years has been supported by post-pandemic\nrecovery and increased formalisation. As per the 2023-24 annual Periodic Labour Force\nSurvey (PLFS) report, the unemployment rate for individuals aged 15 years and above\nhas steadily declined from 6 per cent in 2017-18 to 3.2 per cent in 2023-24. The labour\nforce participation rate (LFPR) and the worker-to-population ratio (WPR) have also\nincreased (Chart I.52). In Q2 FY25, the urban unemployment rate for people aged 15\nyears and above improved slightly to 6.4 per cent compared to 6.6 per cent in Q2 FY24.\nBoth LFPR and WPR also increased during this period.\nChart I.52: Improvement in employment indicators\n49.8\n50.2\n53.5\n54.9\n55.2\n57.9\n60.1\n46.8\n47.3\n50.9\n52.6\n52.9\n56.0\n58.2\n3.2\n0\n1\n2\n3\n4\n5\n6\n7\n0\n10\n20\n30\n40\n50\n60\n70\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\nPer cent\nPer cent\nLFPR\nWPR\nUR (RHS)\nSource: Annual PLFS report 2023-24, MoSPI\nNote: i) LFPR - labour force participation rate, WPR - worker-to-population ratio, UR- unemployment rate\nii)Statistics presented are by Usual status for persons aged 15 years and above\n1.66\tThe formal sector in India has seen significant growth, with net Employees\u2019\nProvident Fund Organisation (EPFO) subscriptions more than doubling from 61 lakh\nin FY19 to 131 lakh in FY24. In April  -November 2024, net additions reached 95.6 lakh,\ndriven largely by youth. Workers aged 18-25 years contributed to 47 per cent of the net\npayroll additions. This indicates a growing trend towards formal employment, which\nenhances workers' access to social security and stability. Government initiatives are\nplaying a key role in enhancing the formalisation of the job market.\n1.67\t Technological developments over recent years have generated much discussion\non the impact of Artificial Intelligence (AI) on India\u2019s labour market. The integration\nof AI into India's labour market presents an opportunity to enhance productivity,\nelevate workforce quality and create employment, provided, systemic challenges are\neffectively addressed through robust institutional frameworks. For India, a services-\ndriven economy with a youthful and adaptable workforce, the adoption of AI offers\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"33\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\n1.67\t Technological developments over recent years have generated much discussion\non the impact of Artificial Intelligence (AI) on India\u2019s labour market. The integration\nof AI into India's labour market presents an opportunity to enhance productivity,\nelevate workforce quality and create employment, provided, systemic challenges are\neffectively addressed through robust institutional frameworks. For India, a services-\ndriven economy with a youthful and adaptable workforce, the adoption of AI offers\n\n\nEconomic Survey 2024-25\n32\nthe potential to support economic growth and improve labour market outcomes.\nPrioritising education and skill development will be crucial to equipping workers with\nthe competencies needed to thrive in an AI-augmented landscape. By capitalising on\nthe global infancy of AI, India has the opportunity to prepare its labour force for a future\ndefined by collaboration between human and machine intelligence. An elucidation of\nthese dynamics can be found in Chapter 13.\nOUTLOOK AND WAY FORWARD\n1.68\tA steady growth trajectory shapes the global economic outlook for 2024, though\nregional patterns vary. The near-term global growth is expected to be a shade lower\nthan the trend level. The services sector continues to drive global expansion, with\nnotable resilience in India. Meanwhile, manufacturing is struggling in Europe, where\nstructural weaknesses persist. Trade outlook also remains clouded in the next year.\n1.69\tInflationary pressures have been easing globally, though risks of synchronised\nprice pressures linger due to potential geopolitical disruptions, such as tensions in the\nMiddle East and the ongoing Russia-Ukraine conflict. Central banks have adopted more\naccommodative monetary policies. However, the pace of rate cuts varies across regions\ndepending on the growth imperatives and the pace of disinflation, creating potential\ndivergences in economic recovery.\n1.70\tOn the domestic front, rebounding rural demand augurs well for consumption.\nInvestment activity is expected to pick up, supported by higher public capex and\nimproving business expectations. Capacity utilisation in manufacturing remains above\nthe long-term average, and private sector order books have shown steady growth,\nalongside a rise in investment intentions. However, these gains could be tempered by\nthe global excess capacities in sectors such as steel, leading to aggressive trade policies\nin search of demand.\n1.71\t Going forward, food inflation is likely to soften in Q4 FY25 with the seasonal easing\nof vegetable prices and Kharif harvest arrivals. Good Rabi production is likely to contain\nfood prices in the first half of FY26. Adverse weather events and rise in international\nagricultural commodity prices, however, pose risks to food inflation. Global energy and\ncommodity prices have softened in the recent past, making the core inflation outlook\nbenign. However, risks remain on account of significant global political and economic\nuncertainties.\n1.72\t In brief, there are many upsides to domestic investment, output growth and\ndisinflation in FY26. There are equally strong, prominently extraneous, downsides too.\n\n\nState of the Economy\n</text>\n</passage>\n\n<passage id=\"34\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nfood prices in the first half of FY26. Adverse weather events and rise in international\nagricultural commodity prices, however, pose risks to food inflation. Global energy and\ncommodity prices have softened in the recent past, making the core inflation outlook\nbenign. However, risks remain on account of significant global political and economic\nuncertainties.\n1.72\t In brief, there are many upsides to domestic investment, output growth and\ndisinflation in FY26. There are equally strong, prominently extraneous, downsides too.\n\n\nState of the Economy\n33\nNonetheless, the fundamentals of the domestic economy remain robust, with a strong\nexternal account, calibrated fiscal consolidation and stable private consumption. On\nbalance of these considerations, we expect that the growth in FY26 would be between\n6.3 and 6.8 per cent.\n1.73\t Navigating global headwinds will require strategic and prudent policy management\nand reinforcing the domestic fundamentals. The Budget 2024-25 laid out a multi-\nsectoral policy agenda for sustained growth push. In this context, Chapter 5 elaborates\non the need for deregulation and reforms at the grassroots level to improve the overall\ncompetitiveness of the economy and to lift trend growth rates, supporting higher levels\nof economic activity.\n\n\n03\n</text>\n</passage>\n\n<passage id=\"35\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nFAST LANE\n</context>\n<text>\nbalance of these considerations, we expect that the growth in FY26 would be between\n6.3 and 6.8 per cent.\n1.73\t Navigating global headwinds will require strategic and prudent policy management\nand reinforcing the domestic fundamentals. The Budget 2024-25 laid out a multi-\nsectoral policy agenda for sustained growth push. In this context, Chapter 5 elaborates\non the need for deregulation and reforms at the grassroots level to improve the overall\ncompetitiveness of the economy and to lift trend growth rates, supporting higher levels\nof economic activity.\n\n\n03\nCHAPTER\n79\nEXTERNAL SECTOR:\nGETTING FDI RIGHT\nIndia\u2019s external sector continued to display resilience amidst global headwinds\nof economic and trade policy uncertainties. Total exports (merchandise and\nservices) have registered a steady growth in the first nine months of FY25,\nreaching USD 602.6 billion (6 per cent). Growth in services and goods exports,\nexcluding petroleum and gems and jewellery, was 10.4 per cent. Total imports\nduring the same period reached USD 682.2 billion, registering a growth of 6.9\nper cent on the back of steady domestic demand.\nThe evolving global trade dynamics, marked by gradual shifts towards greater\nprotectionism, require assessing the situation and developing a forward-\nlooking strategic trade roadmap. By adapting to these trends and leveraging\nits strengths, India can accelerate its growth and enhance its presence in global\ntrade. To strengthen its competitiveness and further integrate into global supply\nchains, the country can focus on reducing trade-related costs and enhancing\nexport facilitation to create a more vibrant export sector. This proactive\napproach will help India continue to thrive in an ever-changing global market.\nOn the capital front, foreign portfolio investments (FPIs) have shown a\nmixed trend in FY25 so far. Uncertainty in the global markets and profit-\ntaking by foreign portfolio investors led to capital outflows. However, strong\nmacroeconomic fundamentals, a favourable business environment, and high\neconomic growth have kept FPI flows positive overall. Gross foreign direct\ninvestment (FDI) inflows have shown signs of revival in the first eight months of\nFY25, though net FDI inflows declined relative to April-November 2023 due to a\nrise in repatriation/disinvestment.\nIndia\u2019s foreign exchange reserves stood at USD 640.3 billion as of the end of\nDecember 2024, sufficient to cover approximately 90 per cent of the country\u2019s\nexternal debt of USD 711.8 billion as of September 2024, reflecting a strong\nbuffer against external vulnerabilities.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"36\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\neconomic growth have kept FPI flows positive overall. Gross foreign direct\ninvestment (FDI) inflows have shown signs of revival in the first eight months of\nFY25, though net FDI inflows declined relative to April-November 2023 due to a\nrise in repatriation/disinvestment.\nIndia\u2019s foreign exchange reserves stood at USD 640.3 billion as of the end of\nDecember 2024, sufficient to cover approximately 90 per cent of the country\u2019s\nexternal debt of USD 711.8 billion as of September 2024, reflecting a strong\nbuffer against external vulnerabilities.\n\n\nEconomic Survey 2024-25\n80\nINTRODUCTION\n3.1\t The world is experiencing increasing political and economic uncertainty in the\nwake of geopolitical conflicts, increasing trends of geoeconomic fragmentation, and\nrecurrent climate events. The Great Election year of 2024, during which more than half\nof the world's population was exercising their franchise to elect their new governments,\nmeant further declining policy predictability. Such political and economic uncertainty\ncan be detrimental to growth. The International Monetary Fund (IMF) estimates that\na one standard deviation increase in uncertainty correlates with a 0.4 to 1.3 percentage\npoint decrease in output growth.1 Economists like Keynes and Tobin have pointed\nout that higher uncertainty requires investors to seek more significant compensation\nfor risks, thereby raising risk premia and the overall cost of finance. Additionally,\nuncertainty increases the likelihood of borrower defaults, leading to higher capital\ncosts. Moreover, uncertainty shocks in advanced economies like the US have often led\nto lower output and reduced prices.2\n3.2\t Various indicators are used to monitor global risks and uncertainties and measure\npolicy-related uncertainty's impact on global economic activity. These include the\nGeopolitical Risk (GPR) index3, which tracks adverse geopolitical events through\nnewspaper articles; the Trade Policy Uncertainty (TPU) index4, which covers the\nfrequency of articles mentioning trade policy uncertainty and heightened trade tensions,\nand the Global Economic Policy Uncertainty (GEPU) index5, which is a GDP-weighted\naverage of national Economic Policy Uncertainty (EPU) indices for 21 countries. These\nindices capture changes occurring in economies constituting about 71 per cent of global\noutput.6\n3.3\t These indices provide valuable insights into how uncertainty from trade issues,\ngeopolitical events, and economic policy measures can impact global economic\nconditions. As of November 2024, the GEPU index remains high, reflecting ongoing\nglobal economic policy concerns. Similarly, the TPU index has risen since December\n2023, primarily driven by trade tensions and policy changes among major economies.\n1 \t D\u00f6ttling, R., Malaika, M., & Terrones, M. (2013). Held Back by Uncertainty: Recoveries are slowed when\nbusinesses and consumers are unsure of the future. Finance & Development, 0050(001), A012. https://tinyurl.\ncom/324z5ux4.\n2 \tLeduc, S., and Liu, Z. (2016). Uncertainty Shocks are Aggregate Demand Shocks. Journal of Monetary Economics,\n82, 20-35; Kumar, A., Mallick, S., and Sinha, A. (2021). Is Uncertainty the Same Everywhere? Advanced versus\nEmerging Economies. Economic Modelling, 101, 105524, https://tinyurl.com/6n74paw2.\n3 \tGeopolitical Risk Index, https://www.policyuncertainty.com/gpr.html.\n4 \tTrade Policy Uncertainty Index, https://www.matteoiacoviello.com/tpu.htm.\n5 \tGlobal Economic Policy Uncertainty Index, https://www.policyuncertainty.com/.\n6 \tGlobal output is calculated on the basis of purchasing power parity. If the economies are accounted at market\nexchange rates the economies constitute roughly 80 per cent of the global economy.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"37\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nEmerging Economies. Economic Modelling, 101, 105524, https://tinyurl.com/6n74paw2.\n3 \tGeopolitical Risk Index, https://www.policyuncertainty.com/gpr.html.\n4 \tTrade Policy Uncertainty Index, https://www.matteoiacoviello.com/tpu.htm.\n5 \tGlobal Economic Policy Uncertainty Index, https://www.policyuncertainty.com/.\n6 \tGlobal output is calculated on the basis of purchasing power parity. If the economies are accounted at market\nexchange rates the economies constitute roughly 80 per cent of the global economy.\n\n\nExternal Sector\n81\nChart III.1: Rise in global uncertainty\n0\n100\n200\n300\n400\n500\nMay-11\nNov-11\nMay-12\nNov-12\nMay-13\nNov-13\nMay-14\nNov-14\nMay-15\nNov-15\nMay-16\nNov-16\nMay-17\nNov-17\nMay-18\nNov-18\nMay-19\nNov-19\nMay-20\nNov-20\nMay-21\nNov-21\nMay-22\nNov-22\nMay-23\nNov-23\nMay-24\nNov-24\nPolicy Uncertainty Index\nGlobal Economic Policy Uncertainty Index\nTrade Policy Uncertainty Index\nSource: GEPU Index and TPU Index website\n3.4\t The Reserve Bank of India (RBI) has developed a policy uncertainty index\nspecifically for India, utilising various global indices. This index leverages internet\nsearch data from Google Trends to assess policy uncertainty from domestic and\ninternational events. Furthermore, the index is updated in real-time.7,8\n3.5\t With this backdrop, the chapter presents the performance of India\u2019s external\nsector amidst the prevailing global environment. Section I provides an overview of\nthe global trade dynamics, emphasising tariffs and non-tariff measures (NTMs) and\nthe performance of the global external sector amidst challenges. Section II delves into\nIndia\u2019s trade performance, highlighting the trends across both the merchandise and\nservices sectors. It examines the performance of India\u2019s textile exports and the factors\nrestricting its global expansion. Further, a detailed analysis of India\u2019s diversification in\nexports to new markets has been presented. The key drivers and challenges affecting\nIndia\u2019s e-commerce export growth are also discussed in depth. Section III discusses the\nfactors restricting export growth and outlines the government initiatives to simplify\nexport procedures to enhance trade performance. Section IV presents India\u2019s Balance\nof Payments (BoP) situation, highlighting current and capital account trends, foreign\nexchange reserves, exchange rate movements, and India\u2019s external debt position. The\nlast section concludes the chapter with an outlook for India\u2019s external sector, considering\nthe evolving global and domestic economic landscape.\n7 \tWhen faced with heightened uncertainty, it is typical of economic agents to 'search' for more information. The\nGoogle Trends-based uncertainty index (India-GUI) leverages this behaviour to measure overall uncertainty by\nusing internet search volumes for a list of keywords about fiscal, monetary and trade policy in India. The policy-\nrelated keywords are curated, based on mentions in central bank policy statements as well as coverage in the\nfinancial press.\nPratap, B., and Priyaranjan, N. (2023). Macroeconomic Effects of Uncertainty: a Google trends-based Analysis for\nIndia. Empirical Economics, 65(4), 1599-1625, https://tinyurl.com/5fb373we.\n8 \tRecalibrating from Divergence to Convergence: The Indian Experience - Inaugural Address delivered by Michael\nDebabrata Patra, Deputy Governor, RBI - October 21, 2024 - at the New York Fed Central Banking Seminar\norganised by the Federal Reserve Bank, New York, USA, https://tinyurl.com/mvajhcj7.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"38\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nPratap, B., and Priyaranjan, N. (2023). Macroeconomic Effects of Uncertainty: a Google trends-based Analysis for\nIndia. Empirical Economics, 65(4), 1599-1625, https://tinyurl.com/5fb373we.\n8 \tRecalibrating from Divergence to Convergence: The Indian Experience - Inaugural Address delivered by Michael\nDebabrata Patra, Deputy Governor, RBI - October 21, 2024 - at the New York Fed Central Banking Seminar\norganised by the Federal Reserve Bank, New York, USA, https://tinyurl.com/mvajhcj7.\n\n\nEconomic Survey 2024-25\n82\nGLOBAL TRADE DYNAMICS\n3.6\t Disruptions in the Red Sea that began in November 2023 have forced changes in\ntrade routes, causing higher shipping costs and longer delivery times.9  This is particularly\ntrue for trade between Asia and Europe, as 40 per cent of this trade passes through the\nRed Sea region.10 Similar conflicts in the Hormuz Strait, which channels 21 per cent of\nglobal petroleum liquid consumption, have disrupted energy trade and increased prices.\nAdditionally, climate change is enhancing the uncertainties.11 For instance, the recent\ndrought in the Panama Canal jeopardised international trade, affecting approximately\n5 per cent of global maritime trade volumes that transit through it. These conditions\nare creating uncertainty, leading to a slowdown in international trade,12 reshaping the\ncontours of trade in terms of a rise in protectionist trade policies and shifting global\nsupply chains.\n3.7\t As evident from Chart III.2, there has been a noticeable rise in the political proximity\nof trade since late 2022. This indicates a preference for bilateral trade between countries\nwith similar geopolitical stances, i.e., friend-shoring13 and nearshoring.14 Concurrently,\nthere has been an increasing concentration of global trade15 to favour significant trade\nrelationships. For instance, Russia and China\u2019s trade dependence on the EU and the\nUS\u2019s dependence on China has declined in recent years. In contrast, the dependence of\nRussia and Vietnam on China has increased.16,17\n3.8\t Government interventions, including NTMs, reinforce the change in bilateral trade\npatterns due to geopolitical considerations. The rise in NTMs, which began after the\nCOVID-19 pandemic, was further fuelled by the conflict between Russia and Ukraine.\nA report by the United Nations Conference on Trade and Development (UNCTAD)18\nindicates that technical NTMs impact over 30 per cent of products and nearly 70 per\ncent of global trade. This is discussed further in paras 3.15 to 3.20 of this chapter.\n9 \tUNCTAD rapid assessment, \u2018Impact to Global Trade of disruption of shipping routes in the Red Sea, Black Sea\nand Panama Canal\u2019, https://unctad.org/system/files/official-document/osginf2024d2_en.pdf.\n10 Bonnell and McHugh, 2024, https://tinyurl.com/5n7wy8xj.\n11  U.S. Energy Information Administration, https://www.eia.gov/.\n12  \u0007IMF Working Paper dated 9 July 2024, \u2018The Heterogenous Effects of Uncertainty on Trade\u2019, https://tinyurl.\ncom/2xywd48v.\n13  \u0007Friend shoring is calculated as trade-weighted political proximity as measured by the United Nations voting patterns.\n14  Nearshoring is calculated as the reverse of the trade-weighted average distance in km.\n15  Trade concentration is calculated based on the Herfindahl concentration index.\n16  UNCTAD estimates based on national statistics (https://unctad.org/statistics)\n\u0007The dependence of an economy on another is calculated as the ratio of their bilateral trade over the total trade of the\ndependent economy. Annual change is calculated using a trade-weighted moving average over the past four quarters.\n17  UNCTAD Global trade update, July 2024, https://tinyurl.com/uwputbfs.\n18  \u0007UNCTAD report, \u2018Tariff trends mostly downward, but non-tariff measures increasingly used\u2019, https://sdgpulse.\nunctad.org/trade-barriers/.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"39\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n16  UNCTAD estimates based on national statistics (https://unctad.org/statistics)\n\u0007The dependence of an economy on another is calculated as the ratio of their bilateral trade over the total trade of the\ndependent economy. Annual change is calculated using a trade-weighted moving average over the past four quarters.\n17  UNCTAD Global trade update, July 2024, https://tinyurl.com/uwputbfs.\n18  \u0007UNCTAD report, \u2018Tariff trends mostly downward, but non-tariff measures increasingly used\u2019, https://sdgpulse.\nunctad.org/trade-barriers/.\n\n\nExternal Sector\n83\nChart III.2: Friend shoring and trade concentration trends\ncontinue to shape global trade\n-0.4%\n-0.2%\n1.5%\n3.2%\n-1.2%\n-4.2%\n5.1%\n3.5%\n-6%\n-4%\n-2%\n0%\n2%\n4%\n6%\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\n2022\n2023\n2024\nAnnual change in index relative\nto 2021 (per cent)\nNearshoring index\nFriendshoring index\nTrade concentration index\nSource: UNCTAD estimates based on national statistics\nGlobal trade performance in 2024\n3.9\t According to the latest trade update by UNCTAD19, the gradual increase in global\ntrade that began in H2 of 2023 has persisted into 2024. The World Trade Organisation\n(WTO) database shows a year-on-year (YoY) growth of 3.5 per cent and 3 per cent,\nrespectively, in global merchandise export and import indices in Q3 of 2024 (seasonally\nadjusted, 2005 Q1=100). Further, the global services exports and imports grew by 7.9\nper cent and 6.7 per cent (YoY) during the same period.\n3.10\tOver the last four quarters, trade growth in developing countries generally exceeded\nthat of developed nations. However, this trend reversed in Q3 of 2024, with positive\ndevelopments in developed economies driving trade growth. In contrast, trade growth\nin East Asia stalled, and several major Asian developing economies experienced negative\ngrowth.\n3.11\t According to the UNCTAD nowcast20, the positive momentum in global trade\nwitnessed in the first three quarters of 2024 is expected to continue into Q4. As a result,\nglobal trade is set to exceed its 2022 record, reaching nearly USD 33 trillion in 2024.\nThis record high is likely to be driven by a 7 per cent increase in services trade (YoY),\nwhile goods trade is projected to grow by about 2 per cent in 2024 but remain below its\n2022 peak. Overall, global trade is expected to expand by about USD 1 trillion (or 3.3\nper cent) in 2024, with goods and services contributing approximately USD 500 billion\neach.\n19 \u0007 \u0007UNCTAD Global Trade Update December 2024, https://tinyurl.com/5n8fr7a3\n20  Ibid note 19.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"40\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nglobal trade is set to exceed its 2022 record, reaching nearly USD 33 trillion in 2024.\nThis record high is likely to be driven by a 7 per cent increase in services trade (YoY),\nwhile goods trade is projected to grow by about 2 per cent in 2024 but remain below its\n2022 peak. Overall, global trade is expected to expand by about USD 1 trillion (or 3.3\nper cent) in 2024, with goods and services contributing approximately USD 500 billion\neach.\n19 \u0007 \u0007UNCTAD Global Trade Update December 2024, https://tinyurl.com/5n8fr7a3\n20  Ibid note 19.\n\n\nEconomic Survey 2024-25\n84\nChart III.3: Rebound in global trade in 2024\n3.1\n4.4\n-1.4\n1.1\n2.9\n2.8\n3.5\n5.3\n6.1\n-3.4\n-1.2\n0.7\n1.3\n3.0\n-4\n-2\n0\n2\n4\n6\n8\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\n2022\n2023\n2024\nGrowth in merchandise export\nand import volume indices,\nseasonally adjusted (2005\nQ1=100) (Per cent)\nMerchandise export volume growth\nMerchandise import volume growth\nSource: WTO Stats\nTariff policies\n3.12\tTo promote free trade, encourage investment, and lower trading costs, countries\nworldwide have established various trade agreements. The number of regional trade\nagreements (RTAs) in effect has grown substantially, increasing from 22 in 1990 to 369\nas of August 2024.21 Increased emphasis on free trade and enhanced collaboration in\ninternational trade policies under the WTO has reduced border tariffs among nations.\nFor instance, between 2000 and 2024, the average tariff rates on dutiable items in\nIndia decreased from 48.9 per cent to 17.3 per cent, while in China, they fell from\n16.4 per cent to 8.3 per cent.22 Commodity-wise, between 2012 and 2022, the Most\nFavoured Nation (MFN) and preferential tariffs declined in agriculture, manufacturing,\nand natural resources. Globally, the simple average MFN and preferential tariffs for\nagriculture dropped by approximately 3 per cent and 1.4 per cent, respectively, between\n2012 and 2022. The simple average preferential tariffs decreased by about 1 per cent in\nthe manufacturing sector.\n3.13\tAt a broader level, India's import tariff policy has evolved over time, balancing\ndomestic policy goals with the need to integrate into the global economy. Tariffs vary by\nsector, with considerations like protecting sensitive sectors from foreign competition\nand permitting access to important raw materials and intermediate goods. India has\nensured that tariff policies comply with WTO rules and regulations. Over time, several\nefforts have been made to rationalise tariffs further and address the inverted duty structures.\n3.14\tTariffs are often perceived to have an impact on competitiveness. However, if\nused in a calibrated way, tariffs can aid the goals of industrial policy and help in the\ndevelopment of desirable sectors in the economy (Box III.1).\n21  WTO data on regional Trade Agreements, https://tinyurl.com/59e3yw6b.\n22  Based on the data available on the WTO Integrated Database, https://tao.wto.org/.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"41\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nefforts have been made to rationalise tariffs further and address the inverted duty structures.\n3.14\tTariffs are often perceived to have an impact on competitiveness. However, if\nused in a calibrated way, tariffs can aid the goals of industrial policy and help in the\ndevelopment of desirable sectors in the economy (Box III.1).\n21  WTO data on regional Trade Agreements, https://tinyurl.com/59e3yw6b.\n22  Based on the data available on the WTO Integrated Database, https://tao.wto.org/.\n\n\nExternal Sector\n85\nBox III.1: Tariffs and successful industrial policy design\nIndustrial policy refers to measures that target the transformation of an industry in pursuit\nof a public goal. Tariffs are a standard tool of industrial policy and are often seen as a way\nto support fledgling industries before they gain traction. However, using tariffs requires a\ncalibrated approach which balances the sector's needs with the costs imposed on the rest of\nthe economy. Tariffs can also be viewed as a lever within a system of tools that can further\nthe goals of industrialisation.\nThe use of tariffs in industrial policy can be traced back to the Industrial Revolution. Tariffs\nwere commonly used in Western Europe and North America to catch up with the British\nindustrial revolution. As Matthew C. Klein and Michael Pettis note in their book \u2018Trade wars\nare class wars\u2019,\n\u201cFreidrich List, who moved from Germany to America in 1825, wrote that a country such\nas Germany, which was less developed but \u201cpossesses the mental and material means\u201d\nto become wealthy, should instead avoid free trade and \u201cstrengthen her own individual\npowers.\u201d \u2026 The United States levied tariffs on manufactured goods of about 45 per cent\nfrom 1870 through 1913\u2026American manufacturers were protected from foreigners but\ncompeted within the large\u2014and expanding\u2014domestic market.\u201d\nThis accords with the observations made by Professor Robert C. Allen on the development\nhistory of Europe and North America23. According to him, North America and Western\nContinental Europe caught up with the British industrial revolution by adopting the\nfollowing:\n\u2022 \t \u0007Internal free market (elimination of internal tariffs)\u2014national single market\n\u2022 \t Stable domestic banking system\n\u2022 \t High external tariff\n\u2022 \t Universal Education\n\u2022 \t Infrastructure.\nThey did not catch up with Britain practising free trade and open capital markets.\nGlobally, modern-day industrial policies use a mix of policies, including tariff-based\nprotection and other levers such as credit grants and export-related subsidies.24 Illustrative\nof this fact, tariffs accounted for just 1.3 per cent of all industrial policy interventions between\n2010 and 2022.25\nLessons in successful industrial policy design can be gleaned from the support the Korean\ngovernment extended to its heavy chemicals industry in the Seventies. Korean industrial\npolicy in the heavy chemicals sector led to significant gains in output, labour productivity\nand long-term comparative advantage of the industry\u2019s exports. Tools such as tariff-based\nprotection and quantitative restrictions were used for a limited period, after which protection\n23  2013 Gideon Rosenbluth Memorial Lecture delivered by Dr Robert Allen, Canadian Centre for Policy Alternatives,\nhttps://tinyurl.com/7cv2hzu6.\n24  \u0007Juh\u00e1sz, R., Lane, N., & Rodrik, D. (2023). The new economics of industrial policy. Annual Review of Economics,\n16, (https://tinyurl.com/3m5f2t2u).\n25\t  Ibid note 24.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"42\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nand long-term comparative advantage of the industry\u2019s exports. Tools such as tariff-based\nprotection and quantitative restrictions were used for a limited period, after which protection\n23  2013 Gideon Rosenbluth Memorial Lecture delivered by Dr Robert Allen, Canadian Centre for Policy Alternatives,\nhttps://tinyurl.com/7cv2hzu6.\n24  \u0007Juh\u00e1sz, R., Lane, N., & Rodrik, D. (2023). The new economics of industrial policy. Annual Review of Economics,\n16, (https://tinyurl.com/3m5f2t2u).\n25\t  Ibid note 24.\n\n\nEconomic Survey 2024-25\n86\ntapered in the 1980s.26 Importantly, in Korea, tariffs were only one element of a composite\nindustrial policy which sought to protect domestic industry and, at the same time, demanded\na reciprocal performance obligation on the part of the industry receiving protection.\nThe recipe for a successful industrial policy lies in the simultaneous use of carrots and\nsticks, with the sticks often being longer than the carrots. Taking a comprehensive look at\nthe industrial policies of Northeast Asia, Joe Studwell wrote in \u2018How Asia Works\u2019 that the\nregion succeeded with its industrial policy because it punished non-performers more than\nit rewarded performers. As Studwell notes, the emphasis on infant industry protection in\nNortheast Asian economies went hand in hand with external benchmarking through export\nperformance. There were special privileges for local businesses, but there was accountability\nfor export performance. That is how scale, productivity, efficiency and rapid economic\ngrowth were achieved. Studwell repeatedly notes that Korean industrial policy punished its\nnon-performers more than helped performers.\nTo summarise, the growth experiences of the industrialised West and the miracle growth\neconomies of the East suggest that tariffs were indeed a prominent tool used to further\nindustrialisation. However, tariffs were used in a calibrated way, and a whole-of-government\napproach was adopted in crafting tariff policies. Finally, industrial policy goals were\nachieved not by protection alone but by policies which ensured that the protected industries\nperformed in response to the protection afforded.\nNon-tariff measures\n3.15\t The decline in tariffs globally, as discussed above, has been accompanied by an\nincrease in the implementation of NTMs27 across countries. The Global Trade Alert\ndatabase28 shows that between 2020 and 2024, over 26,000 new restrictions related\nto trade and investments have been globally imposed. This is further elucidated in\nChapter 5. The Technical Barriers to Trade (TBT) affect 31.6 per cent of the product\nlines, covering 67.1 per cent of the global trade (as of December 2024). This is followed\nby export-related measures, affecting 19.3 per cent of the product lines and covering\n31.2 per cent of the global trade. Sectors most affected by NTMs include agriculture,\nmanufacturing, and natural resources.29\n26  \u0007Lane, N (2022). \u201cManufacturing revolutions: industrial policy and industrialization in South Korea\u201d, CSAE\nWorking Paper Series, (https://tinyurl.com/ye2ahh7k).\n27  \u0007UNCTAD defines NTMs as policy measures that are not ordinary customs tariffs but can still significantly\nimpact international trade in goods. These measures can affect either the quantities traded, prices, or both\n(Classification of NTMs | UNCTAD). NTMs are classified into import-related and export-related categories\nbased on the above classification. Import-related NTMs are further classified as \u201ctechnical\u201d or \u201cnon-technical.\u201d\nTechnical measures comprise sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), and\npre-shipment inspections. Non-technical measures encompass traditional trade policies like quotas, subsidies,\nand trade remedies, including those addressing unfair trade practices.\n\u0007In 2006, the UNCTAD established the Group of Eminent Persons on Non-tariff Barriers (NTBs) and the Multi-\nAgency Support Team (MAST) comprising eight international organisations such as the IMF, OECD, UNIDO),\nUNCTAD, the World Bank and WTO etc. Over the years, MAST has created a coding system as a foundation\n</text>\n</passage>\n\n<passage id=\"43\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nTechnical measures comprise sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), and\npre-shipment inspections. Non-technical measures encompass traditional trade policies like quotas, subsidies,\nand trade remedies, including those addressing unfair trade practices.\n\u0007In 2006, the UNCTAD established the Group of Eminent Persons on Non-tariff Barriers (NTBs) and the Multi-\nAgency Support Team (MAST) comprising eight international organisations such as the IMF, OECD, UNIDO),\nUNCTAD, the World Bank and WTO etc. Over the years, MAST has created a coding system as a foundation\nfor collecting and tallying NTMs. The objective of the International Classification of NTMs (refer: UNCTAD\nreport on International Classification of Non-Tariff Measures, https://tinyurl.com/mr3mp5uk) was to provide\ninformation and clarification on new and existing measures and to improve their comparability across countries.\n28  Global Trade Alert database, https://www.globaltradealert.org/global_dynamics.\n29  \u0007Based on UNCTAD Trade Analysis and Information System (TRAINS) Database, https://trainsonline.unctad.org.\n\n\nExternal Sector\n87\nChart III.4: Classification of NTMs based on coverage and frequency\n1.0\n4.5\n9.8\n16.1\n11.1\n19.3\n31.6\n3.5\n6.1\n13.1\n15.7\n16.9\n31.2\n67.1\n0\n20\n40\n60\n80\nFinance measures\nQuantity control measures\nOther\nSanitary and Phytosanitary measures\nPrice control measures\nExport related measures\nTechnical barriers to trade\nPer cent\nCoverage ratio\nFrequency index\nSource: UNCTAD TRAINS Database\nNote: Other includes \u2018Pre-shipment inspection and other formalities, contingent trade protective measures,\nnon-automatic import licensing, quotas, prohibitions, quantity-control measures and other restrictions not\nincluding sanitary and phytosanitary measures or measures relating to technical barriers to trade, measures\naffecting competition, trade-related investment measures, distribution restrictions, restrictions on post-sales\nservices, subsidies and other forms of supports, government procurement restrictions, intellectual property and\nrules of origin. The frequency index is defined as the percentage of HS 6-digit lines covered. The coverage ratio\nis defined as the percentage of trade that is subject to NTMs\n3.16\t Globally, NTMs, such as subsidies and export-related measures, have risen in\naid of nations\u2019 industrial policy goals.30 Unlike broad-based tariffs, NTMs tend to be\ngranular in their approach.31 They are often less visible, making them harder to assess.32\n3.17\t A report by UNCTAD and the UNESCAP33 shows evidence of increased use of\nNTMs by countries to adapt and mitigate climate change. According to the report,\nalthough climate change-related NTMs account for only 2.6 per cent of total measures,\nthey are concentrated in some of the largest and most CO2-intensive trade sectors,\nsuch as the automotive industry, electricity and heat generation, transformation, and\nstorage. As a result, 26.4 per cent of global trade, valued at USD 6.5 trillion, is covered\nby climate-change-related NTMs. TBT comprise over 61 per cent of all identified climate\nchange-related NTMs, followed by export-related and price-control measures (as of\nDecember 2024). In the future, the imposition of climate-change-related NTMs by the\nEU in the form of the Carbon Border Adjustment Mechanism (CBAM)34 and European\n30 \u0007 \u0007Juh\u00e1sz R, Lane N, Oehlsen E, P\u00e9rez VC. 2023. The who, what, when, and how of industrial policy: a text-based\napproach, https://tinyurl.com/ytj2rcwp.\n31  Ibid note 30.\n32  \u0007Kinzius, L., Sandkamp, A., & Yalcin, E. (2019). Trade protection and the role of non-tariff barriers. Review of\nWorld Economics, 155(4), 603-643, https://tinyurl.com/dw5pf4w6.\n33  \u0007UNCTAD and UN ESCAP report, Trade regulations for climate action: new insights from the global non-tariff\nmeasures database\u2019, https://tinyurl.com/52sfzu93.\n34  \u0007CBAM is the EU's tool to put a fair price on the carbon emitted during the production of carbon-intensive goods\nthat are entering the EU and to encourage cleaner industrial production in non-EU countries.\n</text>\n</passage>\n\n<passage id=\"44\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\n32  \u0007Kinzius, L., Sandkamp, A., & Yalcin, E. (2019). Trade protection and the role of non-tariff barriers. Review of\nWorld Economics, 155(4), 603-643, https://tinyurl.com/dw5pf4w6.\n33  \u0007UNCTAD and UN ESCAP report, Trade regulations for climate action: new insights from the global non-tariff\nmeasures database\u2019, https://tinyurl.com/52sfzu93.\n34  \u0007CBAM is the EU's tool to put a fair price on the carbon emitted during the production of carbon-intensive goods\nthat are entering the EU and to encourage cleaner industrial production in non-EU countries.\n\n\nEconomic Survey 2024-25\n88\nUnion Deforestation Regulation (EUDR)35 is anticipated to have broad implications\nfor exporters in emerging economies such as China, India, and Turkey. 36 Box III.2\ndiscusses CBAM and EUDR and their possible impact on India\u2019s exports in detail.\nBox III.2: CBAM and EUDR and their likely impact on India's exports\nCarbon Border Adjustment Mechanism\nImplemented by the EU and under consideration by the UK, CBAM aims to align the cost\nof carbon emissions for imported goods with that of domestically produced products. As\ncountries/groups like the EU phase out the free allowances they offer their industries\nunder the Emissions Trading System (ETS), they are ushering in CBAM to prevent their\nconsumption from shifting to countries with relatively softer environmental regulations.\nUnder the mechanism, importers will buy carbon certificates corresponding to the carbon\nprice paid by the domestic producers/manufacturers under the EU's carbon pricing rules.\nThus, CBAM is effectively a carbon price equalisation measure.\nThe key sectors covered under the EU CBAM include iron and steel, aluminium, cement,\nand fertilisers. Reporting requirements for the EU CBAM began on 1 January 2024, with\nquarterly submissions for the previous quarter. The levy, however, is expected to take effect\nfrom 1 January 2026. The UK has also proposed its own CBAM, scheduled to come into force\non 1 January 2027, reflecting a broader global shift towards carbon pricing mechanisms.\nThe key sectors covered under the UK CBAM include cement, fertilisers, glass, ceramics,\niron and steel, aluminium, and hydrogen. Currently, the EU CBAM addresses only direct\nemissions from production processes, whereas the proposed UK CBAM intends to cover\nboth direct and indirect emissions. CBAM aims to equalise carbon prices across geographies,\nthereby negating the comparative advantage of developing members like India and the least\ndeveloped countries.\nThe justification offered for the introduction of CBAM is that it prevents carbon leakage.37\nSome jurisdictions believe that the aggregate impact of the countries\u2019 nationally determined\ncontributions, if fully implemented, would not put the world on a pathway to achieving the\nParis Agreement goal. Therefore, the logic behind CBAM is that as long as they did not have\nthe same level of ambition, CBAM was necessary to protect the integrity of climate mitigation\nefforts in Europe and ensure they were not undermined by carbon leakage. Moreover, the\n35  \u0007The EUDR requires operators and traders to ensure that the products placed in the EU market are (i) deforestation-\nfree (i.e., must not be derived from a land which is deforested after December 31 2020); (ii) should be produced\nfollowing the relevant legislation of the country where the product is produced; and (iii) covers the submission\nof a due diligence statement before placing the products in the EU.\n36  \u0007UNCTAD Global trade Update December 2023, \u2018Global trade expected to shrink by nearly 5 per cent in 2023\namid geopolitical strains and shifting trade patterns', https://tinyurl.com/5n8ueccb.\n37  European Commission Taxation and Customs Union website, https://tinyurl.com/ysbxy866.\n\n\nExternal Sector\n</text>\n</passage>\n\n<passage id=\"45\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nfree (i.e., must not be derived from a land which is deforested after December 31 2020); (ii) should be produced\nfollowing the relevant legislation of the country where the product is produced; and (iii) covers the submission\nof a due diligence statement before placing the products in the EU.\n36  \u0007UNCTAD Global trade Update December 2023, \u2018Global trade expected to shrink by nearly 5 per cent in 2023\namid geopolitical strains and shifting trade patterns', https://tinyurl.com/5n8ueccb.\n37  European Commission Taxation and Customs Union website, https://tinyurl.com/ysbxy866.\n\n\nExternal Sector\n89\nproposed ban on steel scrap exports from the EU, a key input for steel production, will\nsignificantly hinder developing countries' capacity to produce more carbon-efficient steel.\nThis measure can be perceived as the EU attempting to enjoy the benefits of both sides while\nalso imposing trade restrictions.\nLikely impact on India\nThe share of CBAM exports in total Indian exports to the EU has increased substantially\nfrom 6.3 per cent in 2014 to 10.5 per cent in 2023.38 Table III.1 presents the commodity-wise\nexposure of India\u2019s exports to the EU, which are likely to be impacted by CBAM.\nTable III.1: India\u2019s exposure to CBAM Value of exports (USD million)\n2014\n2023\nIron and steel\n2962.6\n5557.1\nAluminium\n151.4\n1801\nCement\n4.2\n8.3\nFertilisers\n0.7\n2\nSource: UNCOMTRADE database (2024)\nAccording to the World Bank\u2019s Relative CBAM Exposure Index39, India has a score of\n0.03, reflecting a high exposure to CBAM.40 Countries like India face the twin challenge\nof achieving higher levels of economic development and dealing with climate change\nmitigation and adaptation. Therefore, the international community must find a balance\nthat supports both environmental sustainability and the economic development needs of\ndeveloping economies and LDCs, ensuring that multilateralism remains the cornerstone\nof global trade relations.41\nEuropean Union Deforestation Regulation\nThe EUDR (whose implementation will start at the end of 2025 and in 2026 for smaller\nbusinesses) seeks to regulate the consumption of products derived from deforested land.\nThe EUDR places several compliances on the operators and traders of the relevant products\n38  \u0007\u2018Intermingling of Trade and Environment Policy: Implications of EU-CBAM on India and LDCs\u2019, EPW, 16\nNovember 2024 https://tinyurl.com/yb32jhdp.\n39  \u0007CBAM exposure index is measured as the mathematical product of two main elements-the share of a country\u2019s\nexports of the CBAM-related product that goes to the EU and the embodied carbon payment per dollar of export\nto the EU, determined by the carbon emissions intensity of production and the assumed cost of the CBAM\ncertificates.CBAM exposure index is measured by multiplying the export share by the embodied carbon payment\nper dollar of export to the EU (the exporter\u2019s emission intensity times $100 per ton carbon price).\n40  World Banka data on Relative CBAM Exposure Index, https://tinyurl.com/4hbp64z8.\n41  Based on the inputs received from the Ministry of Commerce and Industry.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"46\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nexports of the CBAM-related product that goes to the EU and the embodied carbon payment per dollar of export\nto the EU, determined by the carbon emissions intensity of production and the assumed cost of the CBAM\ncertificates.CBAM exposure index is measured by multiplying the export share by the embodied carbon payment\nper dollar of export to the EU (the exporter\u2019s emission intensity times $100 per ton carbon price).\n40  World Banka data on Relative CBAM Exposure Index, https://tinyurl.com/4hbp64z8.\n41  Based on the inputs received from the Ministry of Commerce and Industry.\n\n\nEconomic Survey 2024-25\n90\ncovered under the regulation.42 It requires the operators and traders to ensure that the\nproducts placed in the EU market are (i) deforestation-free (i.e., must not be derived from\na land which is deforested after December 31 2020); (ii) should be produced by the relevant\nlegislation of the country where the product is produced; and (iii) covers the submission of\na due diligence statement, including supply chain integrity through an elaborate trace and\ntrack system before placing the products in the EU.\nThe regulation also entails devising a country-level benchmarking system indicating the\nforest degradation and deforestation risk by the EU. The benchmarking system would be\nbased on a three-tier system for classifying countries as low, standard, or high risk, which\nwould be determined based on internationally recognised information and data on whether\na country is active in reducing deforestation. High-risk countries would be required to\nexercise higher due diligence for the relevant products compared to low or standard-risk\ncountries.  This categorisation of countries would be used to identify the checks to be carried\nout by the EU authorities. High-risk countries would be subject to more rigorous checks\nthan countries categorised as having low-risk.43\nThe regulation covers products such as soy, beef, palm oil, wood, cocoa, coffee, rubber, and\ntheir derived products, such as leather, chocolate, tyres, or furniture.44 It puts the onus of\nproving compliance on the operator or trader who wishes to sell these products in the EU\nmarkets.45  The costs of complying with the regulation include information requirements, risk\nassessment, risk mitigation and reporting obligations. These costs are not border measures\nbut affect the competitiveness of a country\u2019s exports vis-\u00e0-vis other countries\u2019 compliance\ncosts. Therefore, the Regulation would change the trade costs (increase) for the EU\u2019s trading\npartners in specific commodities.\nAs per a GTRI study46, as far as India\u2019s exports are concerned, coffee, leather hide and skin\npreparations, oil cake, paper, paperboard, and wood furniture could be highly impacted\nby the Regulation. It also compares the tariff lines covered under the Regulation vis-\u00e0-vis\n42  \u0007The Regulation defines an \u201coperator\u201d as natural or legal person who, in the course of a commercial activity,\nplaces relevant products on the market or exports them and a \u201ctrader\u201d as any person in the supply chain other\nthan the operator who, in the course of a commercial activity, makes relevant products available on the market.\n43  \u0007As per the Regulation dated 31 May 2023, \u201cIn respect of relevant products from countries or parts thereof\nclassified as high risk, the respective operators and traders and the volumes of their share of relevant\ncommodities and relevant products, a twofold approach that provides comprehensive coverage should apply.\nCompetent authorities should thus be required to check on a certain percentage of operators and traders, whilst\nalso covering a specific percentage of relevant products. In respect of relevant products from countries or parts\nthereof classified as low or standard risk, competent authorities should be required to check at least a certain\npercentage of operators and traders. The level of checks should be higher for relevant products from high-risk\ncountries or parts thereof whereas it could be lower for standard or low-risk countries or parts thereof.\u201d\n</text>\n</passage>\n\n<passage id=\"47\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT\n</context>\n<text>\nCompetent authorities should thus be required to check on a certain percentage of operators and traders, whilst\nalso covering a specific percentage of relevant products. In respect of relevant products from countries or parts\nthereof classified as low or standard risk, competent authorities should be required to check at least a certain\npercentage of operators and traders. The level of checks should be higher for relevant products from high-risk\ncountries or parts thereof whereas it could be lower for standard or low-risk countries or parts thereof.\u201d\n44  \u0007The list of products covered under the Regulation is available at Annex I of the Regulation dated 31 May 2023,\navailable at https://tinyurl.com/bddmuysp.\n45  \u0007Article 2 (15) of the Regulation states, \u201cAn operator is a natural or legal person who places relevant products on\nthe Union market or exports them from the Union market in the course of commercial activity.\u201d\n46  \u0007GTRI brief dated 1 August 2023, \u2018Deforestation and Compliance Challenges: A Blow to India's Agri Exports as\nEU's Deforestation Regulation (EUDR) Deadline Looms\u2019, https://gtri.co.in/gtriFlagshipRep12.pdf.\n\n\nExternal Sector\n91\nCBAM, out of which the latter is wider in its coverage. The CBAM and EUDR are expected\nto affect USD 9.5 billion of India\u2019s exports to the EU, which amounts to 9 per cent of India\u2019s\nexports to the world or 12.9 per cent of India\u2019s exports to the EU. The study informs that\nthe regulation effectively encourages local production and export of selected agricultural\ncommodities by erecting more barriers against imports in the name of climate.\nAccording to the United Nations Food and Agriculture Organisation, around 420 million\nhectares of forest were lost globally due to deforestation between 1990 and 2020, an area\nthe size of the EU.47 In Europe, conversion to cropland accounted for about 15 per cent\nof deforestation during the same time period.48 European agriculture could not have come\nup without deforestation, and the imposition of EUDR reeks of double standards. Thus,\nthat a region that has resorted to significant deforestation to expand crop production is\nimplementing the EUDR to regulate the consumption of products sourced from deforested\nland, appears quite contradictory, even as it is unsurprising.\nIn short, it is hard to shake off the conclusion that both CBAM and EUDR are trade protection\nmeasures garbed in the language of climate and environment. The game and the end goals\nare the same, but the tactics keep changing. Labour standards, gender, democracy, emissions\nand deforestation, the innovative list will keep evolving with time. Institutions and practices\nevolve with development. Today\u2019s developed countries do not conform to the standards\nthat they expect from developing countries at a similar stage of development. But then,\nintellectual consistency is not really the goal here.\n3.18\t NTMs are playing an increasing role in international trade due to a decline in\nthe usage of tariffs worldwide via successive agreements under the General Agreement\non Tariffs and Trade/WTO and due to growing consumer concerns about food safety,\nquality, and environmental protection.49 A UNCTAD report50 notes that NTMs can serve\nas legitimate policy instruments, fulfilling important roles such as protecting human\nhealth and the environment. In some cases, they may even enhance trade. For instance,\nwhen an exporting country implements high sanitary and phytosanitary standards,\nconsumers in importing countries tend to have greater confidence in the quality of\nthe food products, which can lead to increased demand. Stricter domestic food safety\nstandards can also help local exporters meet the requirements of their trade partners,\nfurther boosting trade opportunities.\n3.19\tThough many NTMs aim primarily to protect public health or the environment,\nthey also adversely impact trade by increasing information, compliance, and procedural\ncosts. This is significant for exporters and importers because accessing and benefiting\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The unemployment rate for individuals aged 15 years and above in India declined from 6 per cent in 2017-18 to 3.2 per cent in 2023-24.",
+        "confidence": 1,
+        "passage_id": 32,
+        "predicate": "unemployment_rate",
+        "qualifiers": [
+          {
+            "key": "age_group",
+            "provenance": "stated",
+            "value": "15 years and above"
+          },
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "2017-18"
+          }
+        ],
+        "quote": "unemployment rate for individuals aged 15 years and above has steadily declined from 6 per cent in 2017-18",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The unemployment rate for individuals aged 15 years and above in India was 3.2 per cent in 2023-24.",
+        "confidence": 1,
+        "passage_id": 32,
+        "predicate": "unemployment_rate",
+        "qualifiers": [
+          {
+            "key": "age_group",
+            "provenance": "stated",
+            "value": "15 years and above"
+          },
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "2023-24"
+          }
+        ],
+        "quote": "to 3.2 per cent in 2023-24",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.2",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "In Q2 FY25, the urban unemployment rate for people aged 15 years and above in India was 6.4 per cent.",
+        "confidence": 1,
+        "passage_id": 32,
+        "predicate": "urban_unemployment_rate",
+        "qualifiers": [
+          {
+            "key": "age_group",
+            "provenance": "stated",
+            "value": "15 years and above"
+          },
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "Q2 FY25"
+          }
+        ],
+        "quote": "In Q2 FY25, the urban unemployment rate for people aged 15 years and above improved slightly to 6.4 per cent",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "In Q2 FY24, the urban unemployment rate for people aged 15 years and above in India was 6.6 per cent.",
+        "confidence": 1,
+        "passage_id": 32,
+        "predicate": "urban_unemployment_rate",
+        "qualifiers": [
+          {
+            "key": "age_group",
+            "provenance": "stated",
+            "value": "15 years and above"
+          },
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "Q2 FY24"
+          }
+        ],
+        "quote": "compared to 6.6 per cent in Q2 FY24",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Net Employees\u2019 Provident Fund Organisation (EPFO) subscriptions in India were 61 lakh in FY19.",
+        "confidence": 1,
+        "passage_id": 32,
+        "predicate": "net_subscriptions",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "FY19"
+          }
+        ],
+        "quote": "net Employees\u2019 Provident Fund Organisation (EPFO) subscriptions more than doubling from 61 lakh in FY19",
+        "subject_key": null,
+        "subject_surface": "Employees\u2019 Provident Fund Organisation",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "61",
+          "unit": "lakh"
+        }
+      },
+      {
+        "claim_text": "Net Employees\u2019 Provident Fund Organisation (EPFO) subscriptions in India were 131 lakh in FY24.",
+        "confidence": 1,
+        "passage_id": 32,
+        "predicate": "net_subscriptions",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "to 131 lakh in FY24",
+        "subject_key": null,
+        "subject_surface": "Employees\u2019 Provident Fund Organisation",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "131",
+          "unit": "lakh"
+        }
+      },
+      {
+        "claim_text": "Net additions to Employees\u2019 Provident Fund Organisation (EPFO) subscriptions reached 95.6 lakh in April-November 2024.",
+        "confidence": 1,
+        "passage_id": 32,
+        "predicate": "net_additions",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "April-November 2024"
+          }
+        ],
+        "quote": "In April -November 2024, net additions reached 95.6 lakh",
+        "subject_key": null,
+        "subject_surface": "Employees\u2019 Provident Fund Organisation",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "95.6",
+          "unit": "lakh"
+        }
+      },
+      {
+        "claim_text": "The expected growth in India for FY26 is between 6.3 and 6.8 per cent.",
+        "confidence": 1,
+        "passage_id": 34,
+        "predicate": "expected_growth_rate",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "we expect that the growth in FY26 would be between 6.3 and 6.8 per cent.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.3 and 6.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Total exports (merchandise and services) of India reached USD 602.6 billion in the first nine months of FY25.",
+        "confidence": 1,
+        "passage_id": 35,
+        "predicate": "total_exports",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "first nine months of FY25"
+          }
+        ],
+        "quote": "Total exports (merchandise and services) have registered a steady growth in the first nine months of FY25, reaching USD 602.6 billion",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "602.6",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "Total imports of India reached USD 682.2 billion in the first nine months of FY25.",
+        "confidence": 1,
+        "passage_id": 35,
+        "predicate": "total_imports",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "first nine months of FY25"
+          }
+        ],
+        "quote": "Total imports during the same period reached USD 682.2 billion",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "682.2",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "India\u2019s foreign exchange reserves stood at USD 640.3 billion as of the end of December 2024.",
+        "confidence": 1,
+        "passage_id": 35,
+        "predicate": "foreign_exchange_reserves",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "end of December 2024"
+          }
+        ],
+        "quote": "India\u2019s foreign exchange reserves stood at USD 640.3 billion as of the end of December 2024",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "640.3",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "India\u2019s external debt was USD 711.8 billion as of September 2024.",
+        "confidence": 1,
+        "passage_id": 35,
+        "predicate": "external_debt",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "September 2024"
+          }
+        ],
+        "quote": "external debt of USD 711.8 billion as of September 2024",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "711.8",
+          "unit": "USD billion"
+        }
+      },
+      {
+        "claim_text": "The number of regional trade agreements (RTAs) in effect globally increased from 22 in 1990 to 369 as of August 2024.",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "count",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "1990"
+          }
+        ],
+        "quote": "increasing from 22 in 1990 to 369 as of August 2024.",
+        "subject_key": null,
+        "subject_surface": "regional trade agreements",
+        "subject_type": "policy",
+        "value": {
+          "kind": "quantity",
+          "raw": "22",
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "The number of regional trade agreements (RTAs) in effect globally was 369 as of August 2024.",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "count",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "August 2024"
+          }
+        ],
+        "quote": "to 369 as of August 2024.",
+        "subject_key": null,
+        "subject_surface": "regional trade agreements",
+        "subject_type": "policy",
+        "value": {
+          "kind": "quantity",
+          "raw": "369",
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "The average tariff rates on dutiable items in India decreased from 48.9 per cent in 2000 to 17.3 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "average_tariff_rate",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "2000"
+          }
+        ],
+        "quote": "between 2000 and 2024, the average tariff rates on dutiable items in India decreased from 48.9 per cent to 17.3 per cent",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "48.9",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The average tariff rates on dutiable items in India was 17.3 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "average_tariff_rate",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "to 17.3 per cent",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "17.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The average tariff rates on dutiable items in China decreased from 16.4 per cent in 2000 to 8.3 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "average_tariff_rate",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "2000"
+          }
+        ],
+        "quote": "while in China, they fell from 16.4 per cent to 8.3 per cent.",
+        "subject_key": null,
+        "subject_surface": "China",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "16.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The average tariff rates on dutiable items in China was 8.3 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "average_tariff_rate",
+        "qualifiers": [
+          {
+            "key": "time_period",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "to 8.3 per cent.",
+        "subject_key": null,
+        "subject_surface": "China",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.3",
+          "unit": "per cent"
+        }
+      }
+    ]
+  }
+}

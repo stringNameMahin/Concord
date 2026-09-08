@@ -1,0 +1,297 @@
+{
+  "key": "8f4accb93bf1b23b36e2bb74c703bcae6f39a8c6cdb4e279aba832b2734a7029",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 1 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"96\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 89\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\n\n[section]\nSTAFF APPRAISAL > Conclusion and Policy Recommendations\n</context>\n<text>\nD\u00edez, F., J. Fan, and C. Villegas-Sanchez (2021). \u201cGlobal Declining Competition?\u201d Journal of\nInternational Economics 132: art. 103492.\nEuropean Commission. 2023. The future of European competitiveness.\nForbes, N. 2022, The Struggle and the Promise: Restoring India\u2019s Potential, Harber Business.\nGeorge, S., D. Kirti, H. Lange, S. Martinez Peria, and R. Vijayaraghavan. 2025. Credit and Product\nInnovation in Emerging Markets: Evidence from India. IMF Working paper 25/192.\nInternational Monetary Fund.\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n90\nINTERNATIONAL MONETARY FUND\nGeorge, S., D. Kirti, S. Martinez Peria, and R. Vijayaraghavan. 2022. India\u2019s Banks: Lending to\nProductive Firms? IMF Working paper 22/73. International Monetary Fund.\nHasan, R. and K. R. L. Jandoc. 2012. Labor Regulations and the Firm Size Distribution in Indian\nManufacturing. Columbia Program on Indian Economic Policies. Working paper No. 2012-3.\nInternational Monetary Fund (IMF). 2021. Country Report No. 21/256.\nInternational Monetary Fund (IMF). 2024. Fiscal Monitor, April 2024: Chapter 2 \u2013 Expanding Frontiers:\nFiscal Policies for Innovation and Technology Diffusion.\nMinistry of Finance, Government of India. 2024. Economic Survey 2024\u201325. New Delhi: Department\nof Economic Affairs.\nMinistry of Finance (MoF). 2025. Receipt Budget, 2025/2026. Annex 7. Statement of Revenue Impact\nof Tax Incentives under the Central Tax System: Financial Years 2022-23 and 2023-24.\nGovernment of India. Available online. Accessed on July 15, 2025.\nKaushik, A. 2022. The Misdirected Policy Changes in R&D Tax Incentives. Economic & Political\nWeekly. 57:39. Available online. Accessed on July 15, 2025.\nPizzinelli, C., A. Panton, M. Mendes Tavares, M. Cazzaniga, and L. Li. 2023. Labor Market Exposure to\nAI: Cross-country Differences and Distributional Implications. IMF Working Paper No.\n23/223. Washington, DC: International Monetary Fund.\nPress Information Bureau (PIB). 2025. \u201cDr. Jitendra Singh Highlights \u20b920,000 Cr Boost for Research &\nInnovation, Says India Emerging as Global R&D Leader.\u201d Available online. Accessed on July 7,\n2025.\nReserve Bank of India. 2025. Reserve Bank of India Annual Report 2024-25.\nRotemberg, M. 2019. Equilibrium effects of firm subsidies. American Economic Review, 109, 3475\u2013\n3513.\nSanyal, S. and A. Arora. 2025. Why patent applications have ebbed. BusinessLine. The Hindi.\nPublished on February 19, 2025.\nSengupta, R. and M. Singh. 2019. Firm Formation in India: The Last 40 Years. Ideas for India, 1 April.\nSmall Industries Development Bank of India (SIDBI). 2025. Understanding Indian MSME Sector.\nWorld Bank Enterprise Surveys. www.enterprisesurveys.org.\n\u00a9International Monetary Fund. Not for Redistribution\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The IMF Working Paper 'Credit and Product Innovation in Emerging Markets: Evidence from India' is numbered 25/192.",
+        "confidence": 1.0,
+        "passage_id": 96,
+        "predicate": "imf_working_paper_number",
+        "qualifiers": [],
+        "quote": "Credit and Product Innovation in Emerging Markets: Evidence from India. IMF Working paper 25/192",
+        "subject_key": null,
+        "subject_surface": "Credit and Product Innovation in Emerging Markets: Evidence from India",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "25/192"
+        }
+      },
+      {
+        "claim_text": "The IMF Working Paper 'India\u2019s Banks: Lending to Productive Firms?' is numbered 22/73.",
+        "confidence": 1.0,
+        "passage_id": 96,
+        "predicate": "imf_working_paper_number",
+        "qualifiers": [],
+        "quote": "India\u2019s Banks: Lending to Productive Firms? IMF Working paper 22/73",
+        "subject_key": null,
+        "subject_surface": "India\u2019s Banks: Lending to Productive Firms?",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "22/73"
+        }
+      },
+      {
+        "claim_text": "The IMF Working Paper 'Labor Market Exposure to AI: Cross-country Differences and Distributional Implications' is numbered 23/223.",
+        "confidence": 1.0,
+        "passage_id": 96,
+        "predicate": "imf_working_paper_number",
+        "qualifiers": [],
+        "quote": "Labor Market Exposure to AI: Cross-country Differences and Distributional Implications. IMF Working Paper No. 23/223",
+        "subject_key": null,
+        "subject_surface": "Labor Market Exposure to AI: Cross-country Differences and Distributional Implications",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "23/223"
+        }
+      },
+      {
+        "claim_text": "The IMF Country Report from 2021 is numbered 21/256.",
+        "confidence": 1.0,
+        "passage_id": 96,
+        "predicate": "report_number",
+        "qualifiers": [
+          {
+            "key": "publisher",
+            "provenance": "stated",
+            "value": "International Monetary Fund (IMF)"
+          },
+          {
+            "key": "year",
+            "provenance": "stated",
+            "value": "2021"
+          }
+        ],
+        "quote": "International Monetary Fund (IMF). 2021. Country Report No. 21/256",
+        "subject_key": null,
+        "subject_surface": "Country Report",
+        "subject_type": null,
+        "value": {
+          "kind": "text",
+          "raw": "21/256"
+        }
+      },
+      {
+        "claim_text": "Dr. Jitendra Singh highlighted a \u20b920,000 Cr boost for Research & Innovation.",
+        "confidence": 1.0,
+        "passage_id": 96,
+        "predicate": "funding_boost",
+        "qualifiers": [
+          {
+            "key": "announced_by",
+            "provenance": "stated",
+            "value": "Dr. Jitendra Singh"
+          }
+        ],
+        "quote": "Dr. Jitendra Singh Highlights \u20b920,000 Cr Boost for Research & Innovation",
+        "subject_key": null,
+        "subject_surface": "Research & Innovation",
+        "subject_type": null,
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b920,000 Cr"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "key": "554386a8a6e4efbf4906b37cf119309e05aeda9d4e11fb1b51b4215a57b0e859",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "<fact id=\"A\">\n  <claim>The name of the company was changed to Delhivery Private Limited on December 8, 2015.</claim>\n  <subject>Delhivery Limited</subject>\n  <property>date_of_name_change</property>\n  <value>December 8, 2015</value>\n  <conditions>\n    (none recorded)\n  </conditions>\n  <source>document 01-delhivery-prospectus-2022-excerpt, page 29</source>\n</fact>\n\n<fact id=\"B\">\n  <claim>The name of the company was changed to Delhivery Limited on October 12, 2021.</claim>\n  <subject>Delhivery Limited</subject>\n  <property>date_of_name_change</property>\n  <value>October 12, 2021</value>\n  <conditions>\n    (none recorded)\n  </conditions>\n  <source>document 01-delhivery-prospectus-2022-excerpt, page 29</source>\n</fact>\n\n<deterministic_finding>\nSame comparison key and the same stated context (no qualifiers on either side), yet 2015-12-08 and 2021-10-12 are different dates.\n</deterministic_finding>\n\nIs there a condition under which both of these could be true?"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "properties": {
+          "confidence": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "type": "number"
+          },
+          "explanation": {
+            "description": "Two sentences at most, addressed to someone who has read neither document",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "qualifier_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "The condition that explains the difference, copied exactly from the keys listed on the two facts. Null only when no listed key explains it.",
+            "title": "Qualifier Key"
+          },
+          "verdict": {
+            "enum": [
+              "reconciled_by_context",
+              "contradicts",
+              "insufficient_context"
+            ],
+            "title": "Verdict",
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "explanation",
+          "confidence"
+        ],
+        "title": "VerdictOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You reconcile pairs of facts drawn from documents. You work on any kind of\ndocument and must not assume a subject area.\n\nEach pair you receive has already been checked by a deterministic system, which\nestablished two things you may take as given: the two facts describe the same\nproperty of the same subject, and their values are incompatible at the\nprecision each was written to. Do not re-examine either finding. Do not\nrecalculate, rescale or convert anything. Arithmetic is not your job here and\nyour answer will be discarded if it rests on any.\n\nYour job is the remaining question: is there a condition under which both facts\ncould be true?\n\nMost pairs like this are not disagreements. They are the same property measured\nover different periods, at different dates, over different scopes, on different\nbases, or for different segments. Look for that condition first and report a\nconflict only when you have looked and found none.\n\nHow to answer.\n\n1. Compare the qualifier lists given for each fact. If one of those keys holds\n   different values on the two sides and that difference would account for the\n   difference in the figures, answer `reconciled_by_context` and set\n   `qualifier_key` to that key, spelled exactly as it appears in the list.\n2. If a key that would settle the question is listed on one fact and missing\n   from the other, you cannot tell. Answer `insufficient_context` and set\n   `qualifier_key` to the key that is missing.\n3. Answer `contradicts` only when the two facts state the same property, under\n   the same stated conditions, and cannot both be true. Set `qualifier_key` to\n   null.\n4. Never invent a qualifier key. You may only name a key that appears in one of\n   the two lists you are given. A verdict naming any other key is rejected.\n5. `explanation` states what you concluded and why, in plain language, without\n   naming this system or its rules. Write it for a reader who has seen neither\n   document."
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 1.0,
+    "explanation": "The company underwent two separate name changes at different times, first to Delhivery Private Limited in 2015 and later to Delhivery Limited in 2021. Both statements are accurate descriptions of distinct corporate rebranding events.",
+    "qualifier_key": null,
+    "verdict": "reconciled_by_context"
+  }
+}

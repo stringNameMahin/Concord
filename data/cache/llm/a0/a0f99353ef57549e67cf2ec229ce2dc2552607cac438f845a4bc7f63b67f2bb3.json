@@ -1,0 +1,621 @@
+{
+  "key": "a0f99353ef57549e67cf2ec229ce2dc2552607cac438f845a4bc7f63b67f2bb3",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"48\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > 2. Reserve Money16\n</context>\n<text>\nfund, asset development fund, currency and gold revaluation account,\ninvestment revaluation account and foreign exchange forward contracts\nvaluation account), RBI employee provident fund account and IMF quota\nsubscriptions and other payments minus other assets.\nSource: RBI.\nPer cent of GDP\nPer cent of balance sheet size\nOthers\nReverse Repos/SDF\nBalance Sheet as per cent of GDP (RHS)\nNet Non-monetary Liabilities (NNML)\nReserve Money\n22.8\n10\n15\n20\n25\n30\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n61.4\n62.6\n69.1\n66.2\n64.1\n\n\nECONOMIC REVIEW\n45\na year ago, reflecting the impact of withdrawal of\n\u20b92000 banknotes, as noted earlier19 (Charts II.4.3a\nand II.4.3c). Growth in bankers\u2019 deposits with the\nReserve Bank (20.8 per cent share in RM), i.e.,\nbalances maintained by banks to meet their CRR\nrequirements, declined by 6.5 per cent during the\nyear, reflecting the reduction in CRR by 50 bps\nand moderation in bank deposits (Chart II.4.3a).\nAdjusted for the first-round impact of the CRR\nreduction, bankers\u2019 deposits rose by 4.4 per cent.\nII.4.7 \t The\ncurrency-GDP\nratio\nmoderated\nfurther with the increasing usage of digital\npayments,\nincluding\ncentral\nbank\ndigital\ncurrency (CBDC)20. Retail digital payments\n19\t See Chapter VIII for details.\n20\t Details on various modes of digital payments (including CBDC) are covered in Chapters VI, VIII and IX of this Report.\nChart II.4.3: Reserve Money - Components (Liabilities)\nSource: RBI.\na. RM - Components (Growth)\nReserve Money Adjusted for CRR\nReserve Money\nBankers' Deposits with the RBI (RHS)\nCurrency in Circulation (RHS)\nPer cent\nPer cent\nb. CRR-adjusted RM Y-o-Y Growth: Weekly Trend\n2023-24\n2024-25\nPer cent (y-o-y)\n4\n5\n6\n7\n8\n9\n10\nApr-05\nApr-26\nMay-17\nJun-07\nJun-28\nJul-19\nAug-09\nAug-30\nSep-20\nOct-11\nNov-01\nNov-22\nDec-13\nJan-03\nJan-24\nFeb-14\nMar-07\nMar-28\nc. CiC Growth: Financial Year Variation\n2024-25\n2023-24\nPer cent\n-4\n-2\n0\n2\n4\n6\nApr-05\nApr-26\nMay-17\nJun-07\nJun-28\nJul-19\nAug-09\nAug-30\nSep-20\nOct-11\nNov-01\nNov-22\nDec-13\nJan-03\nJan-24\nFeb-14\nMar-07\nMar-28\n-8\n-2\n4\n10\n16\n22\n28\n-4\n0\n4\n8\n12\n16\n20\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nSource: RBI, FRED (St. Louis Fed), BoE, IMF, CEIC, GoI and RBI staff\nestimates.\nPer cent of GDP\nUS\nUK\nEuro Area\nIndia\nChart II.4.2: Central Bank Balance Sheet Size\n(end-December)\n10\n20\n30\n40\n50\n60\n70\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"49\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > 2. Reserve Money16\n</context>\n<text>\n0\n2\n4\n6\nApr-05\nApr-26\nMay-17\nJun-07\nJun-28\nJul-19\nAug-09\nAug-30\nSep-20\nOct-11\nNov-01\nNov-22\nDec-13\nJan-03\nJan-24\nFeb-14\nMar-07\nMar-28\n-8\n-2\n4\n10\n16\n22\n28\n-4\n0\n4\n8\n12\n16\n20\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nSource: RBI, FRED (St. Louis Fed), BoE, IMF, CEIC, GoI and RBI staff\nestimates.\nPer cent of GDP\nUS\nUK\nEuro Area\nIndia\nChart II.4.2: Central Bank Balance Sheet Size\n(end-December)\n10\n20\n30\n40\n50\n60\n70\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n\n\nANNUAL REPORT 2024-25\n46\nincreased by 17.9 per cent in value terms and 35\nper cent in volume terms during 2024-25\n(Chart II.4.4).\nII.4.8 \t On the sources side (assets), RM\ncomprises net domestic assets (NDA)21 and net\nforeign assets (NFA)22 of the Reserve Bank.\nDuring 2024-25, NFA expanded by \u20b92.8 lakh\ncrore, although growth in FCA decelerated with\nnet sales to authorised dealers at \u20b92.9 lakh crore\nas against net purchases of \u20b93.4 lakh crore\nduring the previous year. The share of gold in\nNFA increased to 12.0 per cent as at end-March\n2025 from 8.3 per cent as at end-March 2024,\nmainly due to revaluation gains from gold prices.\nThe Reserve Bank\u2019s net credit to the government\nexpanded during the year owing to the liquidity\ninjection through purchase of G-secs via open\nmarket operations (OMOs) during January-\nMarch 2025 (Chart II.4.5).\n3.\u2002Money Supply23\nII.4.9 \t Money supply \u2013 in terms of broad money\n(M3) \u2013 mainly consists of currency with the public\n(CwP) and aggregate deposits (AD) of banks on\n21\t Comprises net Reserve Bank credit to banks, government and commercial sector (mainly primary dealers).\n22\t Consists of gold and foreign currency assets (FCA). FCA includes special drawing rights (SDRs) transferred from the\nGovernment of India (GoI). The remaining SDR holdings with the GoI and reserve tranche position (RTP) in the IMF, which\nrepresents India\u2019s quota contribution to the IMF in foreign currency, are not a part of the Reserve Bank\u2019s balance sheet.\n23\t In sub-sections 3 and 4, growth and other ratios pertain to the last reporting Friday of the respective financial year/quarter/month. Data\nexclude the impact of merger of a non-bank with a bank.\nChart II.4.4: Currency in Circulation and Digital Payments\n$: Introduced on December 1, 2022.\nSource: RBI, GoI, CEIC, Statista, IMF and RBI staff estimates.\nIndex (2017 = 100)\nb. Retail Digital Transactions (end-December)\na. Currency to GDP Ratio (end-December)\nPer cent\nUK\nIndia\nUS\nEuro Area\nSweden\nc. Retail Digital Payments - India\nPer cent\nVolume\n(thousand crore)\nRetail Digital Payments\nCiC/GDP Ratio (RHS)\nd. CBDC (Retail)$ - India\nAmount outstanding\n(\u20b9 crore)\n0\n5\n10\n15\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n10\n11\n12\n13\n14\n15\n0\n5\n10\n15\n20\n25\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n103\n234\n399\n738\n911\n1,016\n0\n200\n400\n600\n800\n1000\n1200\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25\n0\n50\n100\n150\n200\n250\n300\nIndia\nUS\nUK\nEU\nSweden\n2019\n2020\n2021\n2022\n2023\n2024\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"50\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > 3.\u2002Money Supply23\n</context>\n<text>\nc. Retail Digital Payments - India\nPer cent\nVolume\n(thousand crore)\nRetail Digital Payments\nCiC/GDP Ratio (RHS)\nd. CBDC (Retail)$ - India\nAmount outstanding\n(\u20b9 crore)\n0\n5\n10\n15\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n10\n11\n12\n13\n14\n15\n0\n5\n10\n15\n20\n25\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n103\n234\n399\n738\n911\n1,016\n0\n200\n400\n600\n800\n1000\n1200\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25\n0\n50\n100\n150\n200\n250\n300\nIndia\nUS\nUK\nEU\nSweden\n2019\n2020\n2021\n2022\n2023\n2024\n\n\nECONOMIC REVIEW\n47\nthe components side (liabilities). M3 recorded a\ngrowth of 9.6 per cent as on March 21, 2025 as\ncompared with 11.2 per cent a year ago, driven\nby bank deposits (Chart II.4.6). The expansion\nin bank deposits24 outpaced that in CwP for the\nthird consecutive year. The ratio of M3 to GDP\n24\t Demand deposits remained volatile, largely mirroring the variation in currency with the public.\nNote: Time deposit interest rate refers to weighted average domestic term deposit rates for fresh rupee term deposits of SCBs.\nSource: RBI.\nChart II.4.6: Money Supply and SCBs\u2019 Time Deposits\na. Money Supply (M3) Components (Liabilities) - Growth\nb. Time Deposits and Interest Rate\nPer cent\nCurrency with the Public\nAggregate Deposits\nMoney Supply\nNominal GDP\nPer cent\nPer cent (y-o-y)\nTime Deposit Growth\nTime Deposit Interest Rate (RHS)\n-4\n0\n4\n8\n12\n16\n20\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n3.0\n3.5\n4.0\n4.5\n5.0\n5.5\n6.0\n6.5\n7.0\n7\n8\n9\n10\n11\n12\n13\n14\nJan-22\nMar-22\nMay-22\nJul-22\nSep-22\nNov-22\nJan-23\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\nChart II.4.5: Reserve Money - Sources (Assets)\nSource: RBI.\nb. NDA and NFA: Variation\na. NDA and NFA\nc. NDA Components: Variation\nd. NFA Components: Variation\n-40\n-20\n0\n20\n40\n60\n80\n100\n120\n140\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nNFA\nNDA\n-6\n-4\n-2\n0\n2\n4\n6\n8\n10\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nNDA\nNFA\nNFA Adjusted for Valuation\n-5\n-4\n-3\n-2\n-1\n0\n1\n2\n3\n4\n5\nRBI's Net Credit to\nGovernment\nRBI's Net Credit to\nBanks and\nCommercial Sector\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n0\n1\n2\n3\n4\n5\n6\n7\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nFCA\nGold\nPer cent of RM\n\u20b9 lakh crore\n\u20b9 lakh crore\n\u20b9 lakh crore\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"51\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > 3.\u2002Money Supply23\n</context>\n<text>\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nNFA\nNDA\n-6\n-4\n-2\n0\n2\n4\n6\n8\n10\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nNDA\nNFA\nNFA Adjusted for Valuation\n-5\n-4\n-3\n-2\n-1\n0\n1\n2\n3\n4\n5\nRBI's Net Credit to\nGovernment\nRBI's Net Credit to\nBanks and\nCommercial Sector\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n0\n1\n2\n3\n4\n5\n6\n7\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nFCA\nGold\nPer cent of RM\n\u20b9 lakh crore\n\u20b9 lakh crore\n\u20b9 lakh crore\n\n\nANNUAL REPORT 2024-25\n48\nremained broadly at the level of the previous\nyear (Chart II.4.7).\nII.4.10 \tOn the sources side (assets), the\nexpansion in M3 was mainly driven by bank credit\nto the commercial sector, which grew by 11.8 per\ncent in 2024-25 (15.6 per cent a year ago). Net\nbank credit to government\u00a0increased by 11.2 per\ncent in 2024-25 (5.7 per cent a year ago). The\nexcess holdings of statutory liquidity ratio (SLR)\nsecurities25 of SCBs were 10.3 per cent of NDTL\nas on March 21, 2025. The net foreign assets\nof the banking sector increased, mirroring the\nexpansion in NFA of the Reserve Bank\u2019s balance\nsheet during the year (Charts II.4.5 and II.4.8;\nTable II.4.1).\nKey Monetary Ratios\nII.4.11 \tThe transaction velocity of money, i.e.,\nnominal GDP as a proportion of M3, remained\nstable during 2024-25. The currency-deposit ratio\nat 15.4 per cent as on March 21, 2025 moderated\nfurther from 15.9 per cent as on March 22, 2024,\nreflecting, inter alia, an increasing shift in public\npreference towards digital modes of payments.\nThe reserve-deposit ratio softened during the\nyear due to reduction in CRR (Chart II.4.9a).\nThe cumulative impact of moderation in both\ncurrency-deposit ratio and reserve-deposit ratio\nreflected on the money multiplier (MM), which\nincreased to 5.7 as on March 21, 2025 from 5.4\nas on March 22, 2024 (Chart II.4.9b).\n25\t Excess holdings of SLR securities provide collateral buffers to banks for availing funds under the liquidity adjustment facility (LAF) and are\nalso a component of the liquidity coverage ratio (LCR). The Reserve Bank increased the limit for holding securities under the held to maturity\n(HTM) category from 22 per cent to 23 per cent of NDTL, effective April 8, 2022. The HTM limits have been restored to 19.5 per cent in a\nphased manner as on March 31, 2025.\nSource: RBI.\nChart II.4.8: Money Supply Sources (Assets) - Growth\nPer cent\nBank Credit to Commercial Sector\nNet Bank Credit to Government\nNet Foreign Assets of the Banking Sector\n-4\n0\n4\n8\n12\n16\n20\n24\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nSource: RBI, GoI, IMF, CEIC and RBI staff estimates.\nChart II.4.7: M3 to GDP Ratio (end-December)\nPer cent\nUS\nUK\nEuro Area\nIndia\n82.4\n40\n60\n80\n100\n120\n140\n160\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"52\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > 3.\u2002Money Supply23\n</context>\n<text>\nphased manner as on March 31, 2025.\nSource: RBI.\nChart II.4.8: Money Supply Sources (Assets) - Growth\nPer cent\nBank Credit to Commercial Sector\nNet Bank Credit to Government\nNet Foreign Assets of the Banking Sector\n-4\n0\n4\n8\n12\n16\n20\n24\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nSource: RBI, GoI, IMF, CEIC and RBI staff estimates.\nChart II.4.7: M3 to GDP Ratio (end-December)\nPer cent\nUS\nUK\nEuro Area\nIndia\n82.4\n40\n60\n80\n100\n120\n140\n160\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n\n\nECONOMIC REVIEW\n49\n4.\u2002Credit\nII.4.12 \tDouble digit growth in bank credit\nwas sustained during 2024-25, led by retail\nand\nservices\nsectors\n(Box\nII.4.1).\nBank\ngroup-wise,\npublic\nsector\nbanks\n(PSBs)\nregistered higher credit growth than that of\nprivate sector banks (PVBs), with the former\nmaintaining the largest share in total credit\n(Chart II.4.10).\nTable II.4.1: Monetary Aggregates\nItem\nOutstanding as on\nMarch 21, 2025\n(\u20b9 lakh crore)\nGrowth Rate^ (per cent, y-o-y)\n2022-23\n2023-24\n2024-25\n1\n2\n3\n4\n5\nI.\nReserve Money (RM)\n48.4*\n9.7\n(7.4)\n6.7\n(6.7)\n3.3\n(5.8)\nII.\t Money Supply (M3)\n272.1\n9.0\n11.2\n9.6\nIII. \tMajor Components of M3\nIII.1. \t Currency with the Public\n36.2\n7.9\n4.3\n5.9\nIII.2. \t Aggregate Deposits\n234.8\n9.1\n12.3\n10.1\nIV. \tMajor Sources of M3\nIV.1. \t Net Bank Credit to Government\n81.4\n11.5\n5.7\n11.2\nIV.2. \t Bank Credit to Commercial Sector\n186.4\n14.4\n15.6\n11.8\nIV.3. \t Net Foreign Assets of the Banking Sector\n59.8\n-0.6\n12.2\n8.0\nV. \t Money Multiplier (Ratio)\n5.7\n*: Data for RM pertain to March 28, 2025.\n^: Data for RM and M3 relate to last Friday and last reporting Friday of the financial year, respectively.\nNote: \t1. \tFigures in parentheses indicate growth in RM adjusted for the first-round impact of CRR changes.\n2. \tData are provisional.\nSource: RBI.\nChart II.4.9: Monetary Ratios\nSource: RBI staff estimates.\na. Behavioural Ratios Underlying Money Multiplier\n2.5\n3.0\n3.5\n4.0\n4.5\n5.0\n10\n12\n14\n16\n18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nPer cent\nPer cent\nCurrency-Deposit Ratio\nReserve-Deposit Ratio (RHS)\nCRR (RHS)\nb. Money Velocity and Money Multiplier\n5.7\n1.0\n1.1\n1.2\n1.3\n4.0\n4.5\n5.0\n5.5\n6.0\nQ4:2019-20\nQ1:2020-21\nQ2:2020-21\nQ3:2020-21\nQ4:2020-21\nQ1:2021-22\nQ2:2021-22\nQ3:2021-22\nQ4:2021-22\nQ1:2022-23\nQ2:2022-23\nQ3:2022-23\nQ4:2022-23\nQ1:2023-24\nQ2:2023-24\nQ3:2023-24\nQ4:2023-24\nQ1:2024-25\nQ2:2024-25\nQ3:2024-25\nQ4:2024-25\nRatio\nRatio\nMoney Velocity (RHS)\nMoney Multiplier\nMoney Multiplier Adjusted for Reverse Repo\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"53\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.1: Monetary Aggregates\n</context>\n<text>\nPer cent\nPer cent\nCurrency-Deposit Ratio\nReserve-Deposit Ratio (RHS)\nCRR (RHS)\nb. Money Velocity and Money Multiplier\n5.7\n1.0\n1.1\n1.2\n1.3\n4.0\n4.5\n5.0\n5.5\n6.0\nQ4:2019-20\nQ1:2020-21\nQ2:2020-21\nQ3:2020-21\nQ4:2020-21\nQ1:2021-22\nQ2:2021-22\nQ3:2021-22\nQ4:2021-22\nQ1:2022-23\nQ2:2022-23\nQ3:2022-23\nQ4:2022-23\nQ1:2023-24\nQ2:2023-24\nQ3:2023-24\nQ4:2023-24\nQ1:2024-25\nQ2:2024-25\nQ3:2024-25\nQ4:2024-25\nRatio\nRatio\nMoney Velocity (RHS)\nMoney Multiplier\nMoney Multiplier Adjusted for Reverse Repo\n\n\nANNUAL REPORT 2024-25\n50\nBank credit growth remains in double digits, albeit with\nsome moderation. To explore the role of firm characteristics\nand macroeconomic conditions in determining firm-level\nborrowing (from banks as well as total borrowings), the\nfollowing regression equation adapted from Ottonello and\nWinberry (2020) is estimated for Indian non-financial firms\nfor the period 2013-14 to 2023-24:\n\u0394 log(Debti,t) = \u03b1i + \u03b1s + \u03b3 Spreads,t + \u03b21 (Leveragei,t\u20131* Spreads,t)\n+ \u03b22 (NonBank * Spreads,t) + \u03931\u2019 Xi,t\u20131 + \u03932\u2019 At\u20131 + \u03f5i,t\nwhere \u2018i\u2019, \u2018s\u2019 and \u2018t\u2019 denote firm, sector and time, respectively;\n\u03b1i and \u03b1s refer to firm and sector fixed effects, respectively;\n\u2018X\u2019 denotes firm-specific controls [viz., leverage, size, age,\nliquidity, growth in sales and investment, and interest\ncoverage ratio (ICR)]; and \u2018A\u2019 denotes aggregate control\n(viz., non-agricultural real GVA growth). Spread, a proxy for\nthe relative cost of funds, captures the difference between\nsector specific weighted average lending rates (WALR)\nand market-based funds [external commercial borrowing\n(ECB)] rate. The interaction terms with spread allow the\nimpact of spread on debt growth to vary depending on\nthe firm\u2019s existing leverage and access to alternative\nfunding.\nBox II.4.1\nDrivers of Firm Demand for Credit\nRegression results indicate that larger firms are less\nlikely to borrow, which could be due to better availability\nof internal resources (Table 1). Older firms, while using\nless bank credit, have higher total debt, likely using non-\nbank funding for expansion or refinancing. Sales growth,\npre-COVID, positively correlates with bank borrowing for\nexpansion, though this relationship weakened post-COVID.\nFirms with better liquidity and ICR borrow more, reflecting\nstronger financials, while highly leveraged firms borrow\nless on aggregate, potentially deleveraging or facing\nfunding constraints. Higher domestic growth increases\noverall funding demand for business activity.\nHigher relative bank loan costs drive firms, especially in\nservices, towards cheaper market-based funding. Firms\nwith non-bank funding access are more sensitive to these\ncost differences, increasing total borrowing when bank\nloans become expensive.\nOverall, firm-specific factors, macroeconomic conditions,\nand relative funding costs are key borrowing determinants,\nvarying across sectors and time. Given strong bank balance\nsheets, a revival in private investment can potentially drive\nincreased demand for bank credit.\n(Contd.)\nChart II.4.10: Bank Group-wise Credit\na. SCBs' Credit Growth\nb. Share in Total SCBs' Credit\nPer cent\nPer cent\nSource: RBI.\nPublic Sector Banks\nPrivate Sector Banks\nScheduled Commercial Banks\nForeign Banks\n-10\n-5\n0\n5\n10\n15\n20\n25\n30\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nForeign Banks\nPublic Sector Banks\nPrivate Sector Banks\n39.2\n57.3\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"54\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Drivers of Firm Demand for Credit\n</context>\n<text>\nChart II.4.10: Bank Group-wise Credit\na. SCBs' Credit Growth\nb. Share in Total SCBs' Credit\nPer cent\nPer cent\nSource: RBI.\nPublic Sector Banks\nPrivate Sector Banks\nScheduled Commercial Banks\nForeign Banks\n-10\n-5\n0\n5\n10\n15\n20\n25\n30\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nForeign Banks\nPublic Sector Banks\nPrivate Sector Banks\n39.2\n57.3\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n\n\nECONOMIC REVIEW\n51\nReference:\nOttonello, P. and Winberry, T. (2020), \u2018Financial Heterogeneity and the Investment Channel of Monetary Policy\u2019, Econometrica,\n88: 2473-2502.\nTable 1: Estimated Firm-Level Borrowing\nDependent Variable: \u0394 log(Debti,t)\nExplanatory Variable\nCoefficients\nAll Sectors\nServices Sector\nBorrowings\nfrom Banks\nTotal\nBorrowings\nBorrowings\nfrom Banks\nTotal\nBorrowings\n1\n2\n3\n4\n5\nSpreads,t * NonBank\n0.005\n(0.011)\n0.014*\n(0.008)\n0.010\n(0.025)\n0.013\n(0.015)\nLeveragei,t\u20131* Spreads,t\n0.014**\n(0.006)\n0.007*\n(0.004)\n0.026**\n(0.011)\n0.005\n(0.008)\nSpreads,t\n-0.060**\n(0.028)\n0.088***\n(0.020)\n-0.126**\n(0.051)\n0.164***\n(0.038)\nFirm Controls\nSizei,t\u20131\n-0.277***\n(0.081)\n-0.363***\n(0.058)\n-0.452***\n(0.145)\n-0.585***\n(0.102)\nAgei,t\u20131\n-0.052***\n(0.017)\n0.048***\n(0.013)\n-0.082***\n(0.029)\n0.095***\n(0.023)\nSales Growthi,t\u20131\n0.010\n(0.014)\n-0.011\n(0.008)\n0.002\n(0.023)\n-0.007\n(0.015)\nInvestment Growthi,t\u20131\n0.007\n(0.012)\n-0.006\n(0.008)\n0.005\n(0.017)\n0.006\n(0.014)\nLiquidityi,t\u20131\n0.266***\n(0.079)\n0.202***\n(0.041)\n0.273***\n(0.100)\n0.200***\n(0.051)\nLeveragei,t\u20131\n-0.227**\n(0.044)\n-0.197***\n(0.030)\n-0.314***\n(0.086)\n-0.218***\n(0.059)\nICRi,t\u20131\n0.035\n(0.028)\n0.070***\n(0.022)\n0.025\n(0.027)\n0.059**\n(0.025)\nAggregate Control\nNon-agri Growtht\u20131\n-1.151***\n(0.428)\n1.386***\n(0.297)\n-2.161**\n(0.835)\n2.412***\n(0.599)\nR-squared\n0.156\n0.219\n0.188\n0.246\nNumber of Observations\n13,260\n15,362\n4,243\n5,456\n***, ** and * represent significance levels at 1 per cent, 5 per cent and 10 per cent, respectively.\nNote:\t 1.\t Figures in parentheses indicate robust standard errors.\n2.\t Unit-level data, accessed from CMIE Prowess, include those firms which have at least three years of data on outstanding debt; and\nalso, do not belong to finance, insurance, real estate, utilities and public administration. All other data are sourced from DBIE, RBI.\n3.\t Services sector includes wholesale and retail trade, transport, information and communication technology, professional and other\nservices.\n4.\t Firm and sector fixed effects have been included.\n5.\t Dependent variable captures change in log of real debt outstanding as a total or from banks. Firm-specific controls include lagged\nvalues of size (log of real total assets), age in years since incorporation, growth in real sales, growth in real investment, leverage\n(ratio of total debt to total assets) and liquidity (quick ratio). Investment denotes changes to real total capital and includes both fixed\nand intangible assets. ICR denotes ratio of earnings to interest expense. Real variables are obtained using non-agricultural GDP\ndeflator. Non-agricultural real GVA growth is in y-o-y growth terms.\n6.\t Leverage has been demeaned for the firm, and all firm-specific variables have been standardised across the sample, enabling\nbetter comparison across firms and sectors over time.\n7.\t Non-bank dummy takes value 1 if a firm has accessed credit from a non-bank source (viz., domestic financial market and ECBs)\nduring the sample period. Dummies are also included for asset quality review (2015-16), COVID-19 (2020-21) and merger of a\nnon-bank with a bank (2023-24).\nSource: RBI staff estimates.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"55\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Dependent Variable: \u0394 log(Debti,t)\n</context>\n<text>\n6.\t Leverage has been demeaned for the firm, and all firm-specific variables have been standardised across the sample, enabling\nbetter comparison across firms and sectors over time.\n7.\t Non-bank dummy takes value 1 if a firm has accessed credit from a non-bank source (viz., domestic financial market and ECBs)\nduring the sample period. Dummies are also included for asset quality review (2015-16), COVID-19 (2020-21) and merger of a\nnon-bank with a bank (2023-24).\nSource: RBI staff estimates.\n\n\nANNUAL REPORT 2024-25\n52\n26\t Non-food credit data are based on fortnightly Section 42 return and covers all SCBs. Sectoral non-food credit data are based on sector-\nwise and industry-wise bank credit (SIBC) return, which covers select banks accounting for about 95 per cent of total non-food credit extended\nby all SCBs. Data pertain to the last reporting Friday of the month.\nTable II.4.2: Sectoral Credit Growth - SCBs\n(Per cent, y-o-y)\nSector\n2023-24#\n2024-25\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\nNon-food Credit\n16.3\n15.3\n16.2\n13.9\n15.1\n15.0\n14.4\n12.8\n11.8\n12.4\n12.5\n12.0\n12.0\nI. \t Agriculture & Allied Activities\n20.0\n19.8\n21.6\n17.4\n18.1\n17.7\n16.4\n15.5\n15.3\n12.5\n12.2\n11.4\n10.4\nII. \tIndustry\n(Micro & Small, Medium and Large)\n8.0\n6.9\n8.9\n7.7\n10.2\n9.8\n9.1\n8.0\n8.1\n7.4\n8.2\n7.3\n8.0\nII.1.\t Micro & Small\n14.4\n15.2\n15.3\n10.7\n13.3\n13.6\n13.5\n10.1\n10.2\n9.9\n9.6\n9.8\n9.1\nII.2. \t Medium\n13.2\n13.1\n15.3\n12.5\n17.0\n19.3\n20.5\n19.7\n20.1\n20.0\n18.5\n18.1\n18.6\nII.3. \t Large\n5.8\n4.1\n6.5\n6.3\n8.7\n7.8\n6.6\n6.1\n6.3\n5.3\n6.7\n5.4\n6.4\nMajor Sub-sectors of Industry\nII.a.\t Infrastructure\n5.6\n3.9\n6.3\n4.6\n4.0\n3.8\n2.2\n1.8\n1.7\n1.2\n1.8\n1.1\n1.7\nII.b.\t Basic Metals & Metal Products\n11.7\n11.4\n13.4\n11.3\n13.4\n16.1\n15.5\n15.5\n16.0\n13.4\n14.4\n13.3\n13.0\nII.c.\t Chemicals & Chemical Products\n11.2\n13.3\n13.6\n11.7\n16.7\n15.9\n14.9\n12.8\n11.5\n7.1\n9.6\n6.8\n7.4\nII.d.\t Textiles\n11.1\n8.1\n9.3\n6.1\n8.6\n6.4\n5.4\n5.6\n5.5\n5.6\n5.8\n7.1\n8.3\nII.e.\t All Engineering\n10.5\n9.4\n10.5\n8.7\n10.8\n16.6\n15.7\n14.5\n18.3\n19.5\n18.1\n19.0\n22.1\nII.f.\nFood Processing\n14.9\n17.9\n14.5\n10.8\n17.1\n14.4\n11.6\n9.9\n12.1\n10.7\n11.0\n9.3\n5.1\nIII. \tServices\n20.8\n19.5\n20.7\n15.1\n15.9\n15.6\n15.2\n14.1\n14.4\n13.0\n13.8\n13.0\n13.4\nIII.1.\t Trade\n17.2\n14.4\n17.3\n14.4\n15.6\n15.7\n14.5\n12.6\n14.7\n14.2\n14.6\n14.8\n15.8\nIII.2.\t NBFCs\n15.0\n15.1\n15.8\n8.2\n13.0\n12.2\n9.7\n6.6\n8.0\n6.9\n7.9\n6.6\n5.9\nIV. Personal Loans\n17.6\n17.0\n19.3\n16.6\n17.3\n17.4\n16.4\n15.8\n16.3\n14.9\n14.2\n14.0\n14.0\nIV.1.\t Consumer Durables\n13.0\n11.0\n15.0\n7.6\n11.3\n10.1\n8.6\n6.6\n4.8\n-1.1\n-2.6\n2.2\n-1.3\nIV.2. \tHousing\n17.1\n17.6\n19.9\n18.2\n19.1\n19.7\n18.3\n17.8\n18.0\n16.7\n15.5\n15.6\n15.3\nIV.3. \tCredit Cards Outstanding\n25.6\n23.0\n26.2\n23.3\n22.0\n19.9\n18.0\n16.9\n18.1\n15.6\n13.0\n11.2\n10.6\nIV.4. \tVehicle Loans\n17.6\n17.2\n18.4\n15.5\n14.6\n14.5\n13.9\n12.0\n10.3\n8.8\n9.7\n9.6\n8.6\nIV.5. \tOther Personal Loans\n18.6\n15.8\n17.1\n13.1\n13.5\n13.0\n11.8\n11.2\n12.2\n9.7\n9.2\n8.4\n8.4\n#: March 2024 over March 2023.\nNote: Data are provisional and exclude the impact of merger of a non-bank with a bank.\nSource: RBI.\nII.4.13 \tSector-wise26, credit to agriculture and\nallied activities continued to exhibit double digit\nexpansion in 2024-25. Industrial credit remained\nrobust, driven by a pick-up in credit to medium\nand large industry. Credit to micro and small\nindustries continued albeit with some moderation\nin the recent period. Similarly, credit to services\nsector grew but at a decelerated pace. Credit to\nservices sector moderated from elevated levels,\nfollowing the increase in risk weights on SCBs\u2019\ncredit to NBFCs by 25 percentage points in\nNovember 2023. Personal loans grew by 14.0\nper cent as at end-March 2025 as compared with\n17.6 per cent during the previous year, supported\nby housing loans which account for nearly half\nof the segment. Other segments within personal\nloans such as vehicle loans and other personal\nloans grew by 8.6 and 8.4 per cent, respectively,\nat end-March 2025 (Chart II.4.11 and Table\nII.4.2).\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"56\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs\n</context>\n<text>\nservices sector moderated from elevated levels,\nfollowing the increase in risk weights on SCBs\u2019\ncredit to NBFCs by 25 percentage points in\nNovember 2023. Personal loans grew by 14.0\nper cent as at end-March 2025 as compared with\n17.6 per cent during the previous year, supported\nby housing loans which account for nearly half\nof the segment. Other segments within personal\nloans such as vehicle loans and other personal\nloans grew by 8.6 and 8.4 per cent, respectively,\nat end-March 2025 (Chart II.4.11 and Table\nII.4.2).\n\n\nECONOMIC REVIEW\n53\nII.4.14 \tSCBs\u2019 deposit growth remained below\nthat of bank credit during 2024-25; however,\nthe\nwedge\nbetween\ndeposit\nand\ncredit\ngrowth narrowed which led to a decline in the\n27\t See Section 5 of Chapter II for details.\nincremental credit-deposit ratio (Chart II.4.12).\nTo bridge the funding gap, banks took recourse\nto large issuances of certificates of deposit\n(CDs)27.\nChart II.4.11: Sector-wise SCBs\u2019 Non-food Credit\na. Non-food Credit Growth\nb. Share of Major Sectors in SCBs' Incremental Non-food Credit\nPer cent (y-o-y)\nPer cent\nSource: RBI.\nAgriculture & Allied Activities\nIndustry (Micro & Small, Medium and Large)\nServices\nPersonal Loans\nNon-food Credit\nPersonal Loans\nServices\nIndustry (Micro & Small, Medium and Large)\nAgriculture & Allied Activities\n0\n20\n40\n60\n80\n100\nMar-22\nJun-22\nSep-22\nDec-22\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25\n0\n5\n10\n15\n20\n25\n30\nMar-22\nMay-22\nJul-22\nSep-22\nNov-22\nJan-23\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\n10.4\n8.0\n13.4\n14.0\n12.0\nChart II.4.12: SCBs\u2019 Deposits and Credit\na. Aggregate Deposits and Credit Growth - Wedge\nb. Credit Growth (Y-o-Y)\nc. SCBs' Incremental Credit-Deposit Ratio\nPer cent\n\u20b9 lakh crore\nRatio\nPer cent\nPercentage points\nPercentage points\nSource: RBI.\nWedge (RHS)\nAggregate Deposits\nCredit\n-10\n-5\n0\n5\n10\n0\n5\n10\n15\n20\nMar-21\nJun-21\nSep-21\nNov-21\nFeb-22\nApr-22\nJul-22\nOct-22\nDec-22\nMar-23\nJun-23\nAug-23\nNov-23\nJan-24\nApr-24\nJul-24\nSep-24\nDec-24\nMar-25\nMomentum Effect\nBase Effect\nCredit Growth (RHS)\n0\n4\n8\n12\n16\n20\n-6\n-4\n-2\n0\n2\n4\nApr-21\nJun-21\nSep-21\nDec-21\nFeb-22\nMay-22\nAug-22\nOct-22\nJan-23\nMar-23\nJun-23\nSep-23\nNov-23\nFeb-24\nMay-24\nJul-24\nOct-24\nDec-24\nMar-25\nIncremental Credit-Deposit Ratio (RHS)\nIncremental Deposit\nIncremental Credit\n0.5\n0.7\n0.9\n1.1\n1.3\n1.5\n10\n15\n20\n25\nApr-22\nJun-22\nSep-22\nDec-22\nMar-23\nMay-23\nAug-23\nNov-23\nJan-24\nApr-24\nJul-24\nSep-24\nDec-24\nMar-25\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"57\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs\n</context>\n<text>\nAug-23\nNov-23\nJan-24\nApr-24\nJul-24\nSep-24\nDec-24\nMar-25\nMomentum Effect\nBase Effect\nCredit Growth (RHS)\n0\n4\n8\n12\n16\n20\n-6\n-4\n-2\n0\n2\n4\nApr-21\nJun-21\nSep-21\nDec-21\nFeb-22\nMay-22\nAug-22\nOct-22\nJan-23\nMar-23\nJun-23\nSep-23\nNov-23\nFeb-24\nMay-24\nJul-24\nOct-24\nDec-24\nMar-25\nIncremental Credit-Deposit Ratio (RHS)\nIncremental Deposit\nIncremental Credit\n0.5\n0.7\n0.9\n1.1\n1.3\n1.5\n10\n15\n20\n25\nApr-22\nJun-22\nSep-22\nDec-22\nMar-23\nMay-23\nAug-23\nNov-23\nJan-24\nApr-24\nJul-24\nSep-24\nDec-24\nMar-25\n\n\nANNUAL REPORT 2024-25\n54\nII.5\u2002FINANCIAL MARKETS\nII.5.1\nGlobal financial markets remained volatile\nduring 2024-25, driven by the uncertain trajectory\nof monetary policy normalisation amidst sticky\nservices inflation, persisting geopolitical tensions,\nand geoeconomic fragmentation. With inflation\ngradually moving towards its target from multi-\ndecadal highs, several central banks embarked\non policy pivots during the year. A few central\nbanks continued with monetary tightening on the\nback of elevated inflation while others maintained\na pause.\nII.5.2\nDomestic financial markets exhibited\nresilience\nnotwithstanding\nglobal\nheadwinds\nand occasional volatility spikes in some market\nsegments\nduring\n2024-25.\nMoney\nmarket\nrates remained relatively stable and evolved\nin sync with liquidity conditions. Issuances of\ncertificates of deposit (CDs) increased as banks\nsupplemented their deposit resources. Sovereign\nbond yields softened on the back of inclusion\nof Indian sovereign bonds in major global bond\nindices, ongoing fiscal consolidation, decline in\ncrude oil prices, and beginning of the monetary\neasing cycle. Corporate bond yields also softened\ntracking government security (G-sec) yields along\nwith a widening of spreads amidst moderation in\ncorporate earnings and growth trajectory. Equity\nmarkets registered fresh highs in the first half of\nthe year whereas the second half witnessed a\ncorrection due to domestic and global factors.\nDuring 2024-25, the Indian Rupee (INR) exhibited\norderly movements with a depreciation bias\namid resurgence in the US dollar index (DXY),\nheightened global uncertainties and portfolio\ninvestment outflows.\nII.5.3\nAgainst this backdrop, money market\ndevelopments are detailed in sub-section 2.\nMarket developments in government securities\n(G-secs) and corporate bonds are discussed in\nsub-sections 3 and 4, respectively. Equity and\nforeign exchange market developments are\ncovered in sub-sections 5 and 6, respectively, with\nconcluding observations in sub-section 7.\n2. Money Market\nII.5.4\nDuring 2024-25, money market rates\noscillated largely within the policy corridor in tune\nwith the evolving liquidity conditions. Liquidity\nconditions moved from deficit during Q1:2024-\n25 to surplus in Q2 and in major part of Q3 (till\nfirst half of December 2024) but transited to\ndeficit in Q4 (see Chapter III). The weighted\naverage call rate (WACR) \u2013 the operating target\nof monetary policy \u2013 remained within the policy\ncorridor notwithstanding intermittent breaches. It\ntraded above the policy repo rate in Q1; generally\nhovered around the policy repo rate in Q2; firmed\nup towards the end of Q3; and remained above\nthe policy repo rate in Q4 (Chart II.5.1). The\naverage spread of the WACR over the policy repo\nrate moderated to 6 basis points (bps) in 2024-25\nfrom 13 bps in 2023-24.\nII.5.5\nVolatility in the WACR, measured by the\ncoefficient of variation28, moderated to 2.2 per\ncent in 2024-25 from 2.5 per cent in 2023-24.\n28\t Coefficient of variation is the ratio of standard deviation to mean.\n5. Conclusion\nII.4.15\t Double digit growth in bank deposits and\ncredit was sustained during 2024-25. Although\ndeposit growth trailed credit growth, the gap\nnarrowed during the year. Bank credit expansion\nwas largely broad-based, led by retail, services\nand agriculture sectors. Currency demand\ngrowth remained moderate with increasing public\npreference for digital modes of payments.\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"58\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 2. Money Market\n</context>\n<text>\ncent in 2024-25 from 2.5 per cent in 2023-24.\n28\t Coefficient of variation is the ratio of standard deviation to mean.\n5. Conclusion\nII.4.15\t Double digit growth in bank deposits and\ncredit was sustained during 2024-25. Although\ndeposit growth trailed credit growth, the gap\nnarrowed during the year. Bank credit expansion\nwas largely broad-based, led by retail, services\nand agriculture sectors. Currency demand\ngrowth remained moderate with increasing public\npreference for digital modes of payments.\n\n\nECONOMIC REVIEW\n55\nThe average daily volume in the money market\nincreased by 10 per cent to \u20b95.5 lakh crore\nduring 2024-25 from the previous year. The\nmoney market continued to be dominated by the\ncollateralised segment, with the share of call/\nnotice money being mostly stable at 2 per cent.\nWithin the collateralised segment, the share of\ntriparty repo rose from 66 per cent in Q1:2024-25\nto 72 per cent in Q3:2024-25, before declining to\n68 per cent in Q4 with concomitant change in the\nshare of market repo (Chart II.5.2).\nII.5.6\nIn other segments of the money market,\nthe average daily spread of CD and commercial\npaper (CP) rates over treasury bill (T-bill) rates of\ncorresponding maturity increased during 2024-25\non the back of higher issuances of CDs and CPs\nand regulatory measures on consumer credit and\nbank credit to non-banking financial companies\n(NBFCs) announced by the Reserve Bank on\nNovember 16, 2023 (Chart II.5.3).\nII.5.7\nIn the primary market, fresh issuance of\nCDs increased to \u20b92.8 lakh crore in Q2:2024-25\nfrom \u20b92.5 lakh crore in Q1 and further to \u20b92.9 lakh\ncrore in Q3 amidst credit growth remaining higher\nthan deposit growth and stood at \u20b93.7 lakh crore\nin Q4. Total CD issuances amounted to \u20b911.9 lakh\ncrore during 2024-25 as compared to \u20b98.7 lakh\ncrore during the previous year. Banks used CDs\nto bridge the credit-deposit gap in 2024-25, with\nliquidity conditions influencing CD rate spreads\nover WACR (Box II.5.1).\nChart II.5.1: Money Market Rates and Policy Corridor\nSource: RBI, FBIL, CCIL-Ftrac and RBI staff estimates.\nPer cent\n3-month CD Rate\nWACR\n91-day T-Bill Rate\n3-month CP Rate\nSDF Rate\nTriparty Repo Rate\nRepo Rate\nMarket Repo Rate\nMSF Rate\n5.5\n6.0\n6.5\n7.0\n7.5\n8.0\n8.5\n28-Mar-25\n17-Apr-24\n02-May-24\n17-May-24\n01-Jun-24\n16-Jun-24\n01-Jul-24\n16-Jul-24\n31-Jul-24\n15-Aug-24\n30-Aug-24\n14-Sep-24\n29-Sep-24\n14-Oct-24\n29-Oct-24\n13-Nov-24\n28-Nov-24\n13-Dec-24\n28-Dec-24\n12-Jan-25\n27-Jan-25\n11-Feb-25\n26-Feb-25\n13-Mar-25\n02-Apr-24\nChart II.5.2: Share of Major Segments in\nMoney Market Volume\nSource: CCIL and RBI staff estimates.\nPer cent\nMarket Repo\nCall/Notice\nTriparty Repo\n25\n29\n33\n38\n38\n35\n34\n30\n29\n28\n30\n28\n28\n32\n33\n32\n33\n30\n29\n29\n29\n28\n25\n26\n29\n29\n30\n72\n68\n65\n60\n60\n63\n64\n68\n69\n70\n68\n69\n69\n66\n65\n65\n65\n68\n69\n69\n69\n71\n73\n72\n69\n69\n67\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nJan-23\nFeb-23\nMar-23\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\nSource: FBIL, Cogencis and RBI staff estimates.\nChart II.5.3: Spread of 3-month CP and CD Rate over\n91-day T-bill Rate\nSpread of CD Rate Over 91-day T-Bill Rate\nSpread of 3M CP (NBFC) Rate Over 91-day T-Bill Rate\nSpread of 3M CP (Non-NBFC) Rate Over 91-day T-Bill Rate\nBasis points\n141\n121\n0\n20\n40\n60\n80\n100\n120\n140\n160\n180\n02-Apr-24\n22-Apr-24\n12-May-24\n01-Jun-24\n21-Jun-24\n11-Jul-24\n31-Jul-24\n20-Aug-24\n09-Sep-24\n29-Sep-24\n19-Oct-24\n08-Nov-24\n28-Nov-24\n18-Dec-24\n07-Jan-25\n27-Jan-25\n16-Feb-25\n08-Mar-25\n28-Mar-25\n97\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"59\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 5. Conclusion\n</context>\n<text>\nSource: FBIL, Cogencis and RBI staff estimates.\nChart II.5.3: Spread of 3-month CP and CD Rate over\n91-day T-bill Rate\nSpread of CD Rate Over 91-day T-Bill Rate\nSpread of 3M CP (NBFC) Rate Over 91-day T-Bill Rate\nSpread of 3M CP (Non-NBFC) Rate Over 91-day T-Bill Rate\nBasis points\n141\n121\n0\n20\n40\n60\n80\n100\n120\n140\n160\n180\n02-Apr-24\n22-Apr-24\n12-May-24\n01-Jun-24\n21-Jun-24\n11-Jul-24\n31-Jul-24\n20-Aug-24\n09-Sep-24\n29-Sep-24\n19-Oct-24\n08-Nov-24\n28-Nov-24\n18-Dec-24\n07-Jan-25\n27-Jan-25\n16-Feb-25\n08-Mar-25\n28-Mar-25\n97\n\n\nANNUAL REPORT 2024-25\n56\n29\t Non-bank participants such as mutual funds actively participate in the CD market as buyers.\n30\t Priyadarshini et al., (2024) investigate the risk premia - spread of 3-month CP rate over the 91-day T-bills - and find that system liquidity\nis a key factor. Moreover, credit growth is found to be a key determinant of CD rate (FBIL, 2020).\nCredit growth has outpaced deposit growth since February\n2022 with bank credit registering double digit growth since\nApril 2022. This, inter alia, has resulted in banks taking\nincreasing recourse to issuances of CDs to meet the\nfunding gap (Chart 1). CD issuances are often costlier\nrelative to deposits and more sensitive to demand-supply\ndynamics based on the evolving liquidity and financial\nconditions (Chart 2).\nAs suggested by the liquidity preference theory of the term\nstructure, investors prefer short tenor instruments that are\nmore liquid vis-\u00e0-vis longer tenor. Risk averse investors\nwould, therefore, demand sufficient liquidity premium to\nhold longer tenor instruments. The spread of CD rates\nover WACR, therefore, constitute such a premium.29 The\nWACR \u2013 being the operating target of monetary policy \u2013\nis broadly reflective of liquidity conditions in the overnight\nmoney market. Given its information content and its role\nas a signaling mechanism, movements in WACR gets\ntransmitted to the outer segment of the money market\nincluding CDs. The transmission of signals from WACR to\nCDs could be more than proportionate in certain periods of\nliquidity stress or if funding gaps are persistent because of\nan increasing wedge between credit and deposit growth.\nBox II.5.1\nWhat Drives the Money Market Term Spread?\nThe concentration of money market activity in the overnight\nsegment along with the relative illiquidity between 3-days\nand three months maturity may also impact the spread\nbetween WACR and CD rates.\nDrawing from the literature on the term premium (Patra et\nal., 2020), the spread of CD rate over WACR is examined.\nIn this regard, modelling the spread of CD rate over\nWACR could be useful in comprehending how liquidity and\ncredit market conditions affect the CD market, given the\nincreasing issuance of CDs.\nThe potential determinants of the spread of CD rate over\nWACR30 are explored using generalised autoregressive\nconditional heteroscedasticity (GARCH) approach. Based\non the money market dynamics, the selected explanatory\nvariables include daily net LAF outstanding (NLAF), VIX\nindex, and a dummy variable (DUM-CDGap). The NLAF\nand VIX capture the liquidity conditions and uncertainty\nin financial markets, respectively, while DUM-CDGap\nrepresents the evolving demand-supply pressures in\nthe credit market which, in turn, gets reflected in the CD\nmarket. The GARCH model is employed to analyse the\nspread based on daily data spanning January 1, 2020 -\nSeptember 30, 2024. Thus, the sample covers both easing\n(Contd.)\nChart 1: CD Issuances (Fortnightly)\nNote: The shaded area represents episodes of credit growing faster than\ndeposit growth.\nSource: RBI.\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\n1.4\nMar-08\nMar-09\nMar-10\nMar-11\nMar-12\nMar-13\nMar-14\nMar-15\nMar-16\nMar-17\nMar-18\nMar-19\nMar-20\nMar-21\nMar-22\nMar-23\nMar-24\nMar-25\n\u20b9 lakh crore\nChart 2: CD Rates - Primary and Secondary Market\n\u20b9 thousand crore\nPer cent\nSource: RBI and RBI staff estimates.\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n-400\n-200\n0\n200\n400\n600\n800\n1,000\nJan-21\nApr-21\nJul-21\nOct-21\nJan-22\nJun-22\nSep-22\nDec-22\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\n</text>\n</passage>\n\n<passage id=\"60\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > What Drives the Money Market Term Spread?\n</context>\n<text>\nNote: The shaded area represents episodes of credit growing faster than\ndeposit growth.\nSource: RBI.\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\n1.4\nMar-08\nMar-09\nMar-10\nMar-11\nMar-12\nMar-13\nMar-14\nMar-15\nMar-16\nMar-17\nMar-18\nMar-19\nMar-20\nMar-21\nMar-22\nMar-23\nMar-24\nMar-25\n\u20b9 lakh crore\nChart 2: CD Rates - Primary and Secondary Market\n\u20b9 thousand crore\nPer cent\nSource: RBI and RBI staff estimates.\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n-400\n-200\n0\n200\n400\n600\n800\n1,000\nJan-21\nApr-21\nJul-21\nOct-21\nJan-22\nJun-22\nSep-22\nDec-22\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25\nNet LAF\nCD Rate - Secondary Market (RHS)\nCD Rate - Primary Market (RHS)\n\n\nECONOMIC REVIEW\n57\nand tightening phases of monetary policy as well as periods\nwhen credit growth lagged deposit growth and vice versa.\nUnder the GARCH (1,1)-X framework, the mean equation\nis modelled as follows:\nSpreadt = \u03b20 + \u03b21 Spreadt\u20131 + \u03b22 Xt + \u0190t\n\u2026. (1)\nThe spread of CD rate is influenced by past values, with\nXt as a vector of explanatory variables and an error term\nreflecting shocks that impact the CD rates. The error\nterm is a function of lagged information matrix \u2126-1 and is\nassumed to be normally distributed with zero mean. The\nvariance ht is defined as:\nht = \u03b10 + \u03b11\u01902\nt-1 + \u03b12ht-1 + \u03b13 VIXt\n\u2026. (2)\nwhere \u03b11, \u03b12 and \u03b13 are coefficients of ARCH, GARCH\neffects and volatility in financial markets.\nThe regression results indicate that an improvement in\nsystem liquidity has a moderating (statistically significant)\nimpact on the spread of CDs, while increasing wedge\nbetween credit and deposit growth elongates the spread.\nThe interactive term of NLAF and DUM-CDGap31 suggest\nthat although the sobering impact of system liquidity\nremains statistically significant, the effect wanes when\ncredit growth is faster than that of deposits. Moreover,\nthe estimates of conditional volatility reveal that volatility\nof the spread was generally low, barring a few episodes\nincluding COVID-19 (Table 1 and Chart 3). The residual\ndiagnostics show no ARCH effects and no autocorrelation in\nresiduals.\nReferences:\n1.\t FBIL (2020), \u2018Indian CD Market: 2013-2019\u2019, FBIL\nThematic Study, July.\n2.\t Patra, M. Behera, H. and John, J. (2020), \u2018Revisiting\nthe Determinants of the Term Premium in India\u2019, RBI\nBulletin, November.\n3.\t Priyadarshini, P., Anshul, Sardar, S., Chaudhari, D.R.,\nand Das, S. (2024), \u2018Drivers of Commercial Paper Rate\nSpread - An Empirical Assessment\u2019, RBI Working Paper\nSeries, March.\n31\t DUM-CDGAP dummy variable takes value 0 for the period when deposit grew faster than credit and 1 otherwise.\nTable 1: GARCH (1,1) Estimation Results\nModel 1\nModel 2\nModel 3\nMean equation:\nSpreadt = \u03b20 + \u03b21 Spreadt-1 + \u03b22 Xt + \u0190t\nConstant\n5.133***\n(0.659)\n2.743***\n(1.043)\n5.902***\n(0.655)\nSpreadt-1\n0.922***\n(0.009)\n0.906***\n(0.010)\n0.910***\n(0.009)\nDUM-CDGapt\n3.617**\n(1.069)\nNLAFt\n-0.467***\n(0.114)\n-0.116\n(0.164)\n-0.653***\n(0.120)\nNLAFt\nX\nDUM -CDGapt\n0.612***\n(0.209)\nVariance equation:\nht = \u03b10 + \u03b11\u01902\nt-1 + \u03b12ht-1 + \u03b13 VIXt\nARCH (1)\n0.380***\n(0.042)\n0.390***\n(0.044)\n0.384***\n(0.043)\nGARCH (1)\n0.294***\n(0.052)\n0.292***\n(0.053)\n0.300***\n(0.054)\nVIXt\n5.344***\n(0.499)\n5.169***\n(0.486)\n5.185***\n(0.506)\nDiagnostics:\nLog likelihood:\n-3453.49\n-3449.29\n-3450.20\nTotal Observations:\n907\n907\n907\nARCH (LM) Prob. (F):\n0.920\n0.875\n0.893\nAkaike Info Criterion:\n7.768\n7.760\n7.762\n***, **, and * indicate significance levels at 1 per cent, 5 per cent\nand 10 per cent, respectively.\nNote: Figures in parentheses are standard errors.\nSource: RBI staff estimates.\nChart 3: Time Varying Volatility of CD Rate Spread\nConditional standard deviation (bps)\n0\n20\n40\n60\n80\n100\n120\n140\n160\n01-Jan-20\n27-Feb-20\n24-Apr-20\n20-Jun-20\n16-Aug-20\n12-Oct-20\n08-Dec-20\n03-Feb-21\n01-Apr-21\n28-May-21\n24-Jul-21\n19-Sep-21\n15-Nov-21\n11-Jan-22\n09-Mar-22\n05-May-22\n01-Jul-22\n27-Aug-22\n23-Oct-22\n19-Dec-22\n14-Feb-23\n12-Apr-23\n08-Jun-23\n04-Aug-23\n30-Sep-23\n26-Nov-23\n22-Jan-24\n19-Mar-24\n15-May-24\n11-Jul-24\n06-Sep-24\nSource: RBI staff estimates.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"61\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table 1: GARCH (1,1) Estimation Results\n</context>\n<text>\nSource: RBI staff estimates.\nChart 3: Time Varying Volatility of CD Rate Spread\nConditional standard deviation (bps)\n0\n20\n40\n60\n80\n100\n120\n140\n160\n01-Jan-20\n27-Feb-20\n24-Apr-20\n20-Jun-20\n16-Aug-20\n12-Oct-20\n08-Dec-20\n03-Feb-21\n01-Apr-21\n28-May-21\n24-Jul-21\n19-Sep-21\n15-Nov-21\n11-Jan-22\n09-Mar-22\n05-May-22\n01-Jul-22\n27-Aug-22\n23-Oct-22\n19-Dec-22\n14-Feb-23\n12-Apr-23\n08-Jun-23\n04-Aug-23\n30-Sep-23\n26-Nov-23\n22-Jan-24\n19-Mar-24\n15-May-24\n11-Jul-24\n06-Sep-24\nSource: RBI staff estimates.\n\n\nANNUAL REPORT 2024-25\n58\nII.5.8\nNew issuances of CPs in the primary\nmarket, which moderated to \u20b93.7 lakh crore in\nQ2:2024-25 from \u20b93.8 lakh crore in Q1, rebounded\nto \u20b93.8 lakh crore in Q3 and stood at \u20b94.4 lakh\ncrore in Q4. During 2024-25, fresh issuances\nof CPs increased to \u20b915.7 lakh crore due to\nsustained demand and the regulatory measures\non NBFCs mentioned earlier, as compared to\n\u20b913.8 lakh crore during the previous year.\n3. Government Securities Market\nII.5.9\nDuring Q1:2024-25, G-sec yields exhibited\ntwo-way movements. Yields initially rose at the\nbeginning of the quarter amid foreign portfolio\ninvestment (FPI) outflows and higher crude oil\nprices but softened thereafter in the wake of\nrecord surplus transfer by the Reserve Bank to\nthe central government, FPI buying ahead of\nbond index inclusion32 and decline in crude oil\nprices. The 10-year generic G-sec yield closed\nthe quarter at 7.01 per cent, a decline of 5 bps\nfrom its level as at end-March 2024 (Chart II.5.4).\nII.5.10\t During Q2:2024-25, G-sec yields for\nthe shorter tenor declined more than the longer\ntenor amidst steepening of yield curves globally,\nfall in crude oil prices, continued FPI inflows and\nbeginning of rate easing cycle by major central\nbanks, including a 50-bps rate cut by the US Fed.\nThe government\u2019s commitment towards fiscal\nprudence as reflected in the Union Budget 2024-\n25 along with lower CPI inflation prints for July\nand August \u2013 below 4.0 per cent for the first time\nsince September 2019 \u2013 also led to softening\nof G-sec yields during the quarter. The 10-year\ngeneric G-sec yield closed the quarter at 6.75\nper cent, a decline of 26 bps from its level at end-\nJune 2024 \u2013 the biggest quarterly decline since\nthe quarter ended March 2020.\nII.5.11\t During Q3:2024-25, G-sec yields were\nrange-bound with upward pressures from higher\nUS treasury yields and domestic CPI inflation\nbeing somewhat ameliorated by the monetary\npolicy committee\u2019s (MPC\u2019s) decision to change\nthe monetary policy stance to neutral and the\nannouncement of the Indian government bonds\u2019\ninclusion in FTSE Russell index33. The 10-year\ngeneric G-sec yield closed at 6.76 per cent at\nend-December 2024, almost unchanged from its\nlevel at end-September 2024.\nII.5.12\t During Q4:2024-25, G-sec yields largely\ntrended downwards amid several liquidity infusion\nmeasures and commencement of monetary policy\neasing cycle by the Reserve Bank. The yields\nrose in the first fortnight of Q4 to touch a high\n32\t Eligible Indian Government Bonds (IGBs) were included in J.P. Morgan Government Bond Index - Emerging Market (GBI-EM) starting\nJune 28, 2024.\n33\t On October 8, 2024, FTSE Russell announced that India will be added to FTSE Emerging Markets Government Bond Index (EMGBI)\nstarting in September 2025.\nChart II.5.4: 10-year Generic G-sec Yield\nSource: Bloomberg.\nPer cent\n6.58\n6.5\n6.6\n6.7\n6.8\n6.9\n7.0\n7.1\n7.2\n7.3\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"62\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 3. Government Securities Market\n</context>\n<text>\n32\t Eligible Indian Government Bonds (IGBs) were included in J.P. Morgan Government Bond Index - Emerging Market (GBI-EM) starting\nJune 28, 2024.\n33\t On October 8, 2024, FTSE Russell announced that India will be added to FTSE Emerging Markets Government Bond Index (EMGBI)\nstarting in September 2025.\nChart II.5.4: 10-year Generic G-sec Yield\nSource: Bloomberg.\nPer cent\n6.58\n6.5\n6.6\n6.7\n6.8\n6.9\n7.0\n7.1\n7.2\n7.3\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\n\n\nECONOMIC REVIEW\n59\nof 6.87 per cent amid rise in US treasury yields.\nThereafter, yields broadly trended downward\non account of liquidity management measures,\nviz., daily variable rate repo (VRR) auctions on\nall working days, OMO purchases of government\nsecurities, longer tenor VRR auctions and USD/\nINR buy-sell swap auctions. OMO purchases\naggregating \u20b92.83 lakh crore and USD/INR buy-\nsell swaps amounting to \u20b92.18 lakh crore were\nconducted during the quarter34. In the February\nbi-monthly meeting, the MPC unanimously\ndecided to cut the policy repo rate by 25 bps. The\n10-year generic G-sec yield closed at 6.58 per\ncent as at end-March 2025, 18 bps lower than its\nlevel as at end-December 2024. During 2024-25,\nthe domestic yield curve bull steepened as the\n10-year generic G-sec yield softened by 48 bps\nwhile the 5-year generic G-sec yield softened by\n61 bps.\nII.5.13\t With the introduction of the fully accessible\nroute (FAR)35 effective April 1, 2020, FPIs have\nthree channels of investment \u2013 the general\nroute36; the voluntary retention route (VRR); and\nFAR (Table II.5.1). In aggregate, FPIs invested\n\u20b91.5 lakh crore in debt instruments in 2024-25.\n4. Corporate Bond Market\nII.5.14\t Corporate bond yields softened during\n2024-25, mirroring G-sec yields. The monthly\naverage yield on AAA-rated 3-year bonds of\npublic sector undertakings (PSUs), financial\ninstitutions (FIs) and banks; non-banking financial\ncompanies (NBFCs); and corporates fell by 15\nbps, 28 bps and 33 bps, respectively, in March\n2025 vis-\u00e0-vis March 2024 (Table II.5.2).\nII.5.15\t The spread on AAA-rated 3-year bond\nyields over G-sec yields of corresponding\nmaturity, however, increased during 2024-\n25, as the pace of softening in corporate bond\nyields trailed that in G-sec yields. The increase\nin spreads was evident across tenors and the\nrating spectrum. Average daily turnover37 in the\n34\t See Monetary Policy Report, April 2025 for details.\n35\t Under FAR, certain categories of central government securities are open fully for non-resident investors without any restrictions, apart\nfrom being available to domestic investors as well.\n36\t Erstwhile medium-term framework (MTF).\n37\t Daily average turnover is calculated as total trades settled during the year divided by the number of trading days.\nTable II.5.1: FPI Investment in Debt Instruments (End-March)\n(Amount in \u20b9 lakh crore)\nRoute/\nChannel of\nInvestment\n2023\n2024\n2025\nLimit  Outstanding\nUtilisation\n(per cent\nof limit)\nLimit  Outstanding\nUtilisation\n(per cent\nof limit)\nLimit  Outstanding\nUtilisation\n(per cent of\nlimit)\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nGeneral Route^\n11.7\n1.8\n15.4\n11.7\n1.9\n16.0\n13.0\n1.9\n14.5\nVRR^\n2.5\n2.1\n82.0\n2.5\n1.8\n70.1\n2.5\n2.1\n82.1\nFAR#\n28.0\n0.8\n2.8\n39\n1.7\n4.5\n43.4\n3.1\n7.1\n^: Includes central government securities (G-secs), state government securities (SGSs) and corporate bonds.\n#: Available only for the specified securities included under the route.\nSource: CCIL and NSDL.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"63\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.5.1: FPI Investment in Debt Instruments (End-March)\n</context>\n<text>\nof limit)\nLimit  Outstanding\nUtilisation\n(per cent\nof limit)\nLimit  Outstanding\nUtilisation\n(per cent of\nlimit)\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nGeneral Route^\n11.7\n1.8\n15.4\n11.7\n1.9\n16.0\n13.0\n1.9\n14.5\nVRR^\n2.5\n2.1\n82.0\n2.5\n1.8\n70.1\n2.5\n2.1\n82.1\nFAR#\n28.0\n0.8\n2.8\n39\n1.7\n4.5\n43.4\n3.1\n7.1\n^: Includes central government securities (G-secs), state government securities (SGSs) and corporate bonds.\n#: Available only for the specified securities included under the route.\nSource: CCIL and NSDL.\n\n\nANNUAL REPORT 2024-25\n60\nsecondary market on corporate bonds increased\nto \u20b97,645 crore during 2024-25 from \u20b95,722 crore\nduring the previous year (Chart II.5.5).\nII.5.16\t Primary issuances of listed corporate\nbonds on domestic stock exchanges rose during\n2024-25 along with an increase in mobilisation\nthrough overseas issuances (Table II.5.3).\nPrivate placements remained the preferred\nchannel, accounting for 99.2 per cent of total\nresources mobilised through the domestic bond\nmarket. Investments by FPIs in corporate bonds\nincreased during the year. The utilisation of\nthe approved limits, however, declined to 15.8\nper cent as at end-March 2025 from 16.2 per\ncent as at end-March 2024, as the absolute\nlimits for FPI investments in corporate bonds\nincreased.\n5. Equity Market\nII.5.17\t In 2024-25, the Indian equity market\nwitnessed fresh highs in the first half whereas the\nsecond half exhibited sharp correction on account\nof a set of factors, viz., shifting expectations on\nglobal monetary policy trajectory, tariff policies\nin the US and lingering geopolitical tensions in\nthe Middle East and Europe. Overall, the BSE\nSensex gained 5.1 per cent to close at 77,415\nTable II.5.2: Corporate Bonds* - Yields and Spread\nEntity\nYields\n(per cent)\nSpread (bps)\n[over corresponding risk-free rate]\nMarch 2024\nMarch 2025\nChange (bps)\nMarch 2024\nMarch 2025\nChange (bps)\n1\n2\n3\n4 (=3-2)\n5\n6\n7 (=6-5)\n(i) \t PSUs, FIs and Banks\n7.63\n7.48\n-15\n44\n83\n39\n(ii) \tNBFCs\n7.98\n7.70\n-28\n80\n106\n26\n(iii) \tCorporates\n7.95\n7.62\n-33\n77\n98\n21\n*: AAA-rated 3-year bonds.\nNote: Yields and spreads are computed as monthly averages.\nSource: FIMMDA.\nTable II.5.3: Corporate Bond Market\nItem\nAmount\n(\u20b9 lakh crore)\nVariation\n(Col. 3 over\nCol. 2) [per\ncent]\n2023-24\n2024-25\n1\n2\n3\n4\n(i) \t Primary Corporate\nBond Issuances\n8.6\n9.9\n16.1\n(ii) \tOutstanding Corporate\nBonds (end-December)\n45.5\n51.6\n13.3\n(iii) \tInvestments by FPIs in\nCorporate Bonds\n(end-March)\n1.08\n1.21\n11.4\nSource: SEBI and NSDL.\nSource: SEBI and FIMMDA.\nChart II.5.5: Turnover and AAA-rated 3-Year Yield\nSpread in Corporate Bond Market\n\u20b9 crore\nBasis points\nDaily Turnover in Corporate Bonds\nSpread of PSUs, FIs and Banks (RHS)\nSpread of NBFCs (RHS)\nSpread of Corporates (RHS)\n20\n40\n60\n80\n100\n120\n140\n160\n0\n5,000\n10,000\n15,000\n20,000\n25,000\n30,000\n35,000\n40,000\n45,000\n50,000\n11-Apr-24\n24-Apr-24\n07-May-24\n20-May-24\n02-Jun-24\n15-Jun-24\n28-Jun-24\n11-Jul-24\n24-Jul-24\n06-Aug-24\n19-Aug-24\n01-Sep-24\n14-Sep-24\n27-Sep-24\n10-Oct-24\n23-Oct-24\n05-Nov-24\n18-Nov-24\n01-Dec-24\n14-Dec-24\n27-Dec-24\n09-Jan-25\n22-Jan-25\n04-Feb-25\n17-Feb-25\n02-Mar-25\n15-Mar-25\n29-Mar-24\n28-Mar-25\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The share of bankers' deposits with the Reserve Bank in Reserve Money is 20.8 per cent.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "share_of_reserve_money",
+        "quote": "Growth in bankers\u2019 deposits with the Reserve Bank (20.8 per cent share in RM)",
+        "subject_surface": "bankers' deposits with the Reserve Bank",
+        "value": {
+          "kind": "quantity",
+          "raw": "20.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Retail digital payments increased by 17.9 per cent in value terms during 2024-25.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "growth_value_terms",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Retail digital payments increased by 17.9 per cent in value terms during 2024-25",
+        "subject_surface": "Retail digital payments",
+        "value": {
+          "kind": "quantity",
+          "raw": "17.9",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Retail digital payments increased by 35 per cent in volume terms during 2024-25.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "growth_volume_terms",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "35 per cent in volume terms during 2024-25",
+        "subject_surface": "Retail digital payments",
+        "value": {
+          "kind": "quantity",
+          "raw": "35",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "During 2024-25, NFA expanded by \u20b92.8 lakh crore.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "expansion",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "During 2024-25, NFA expanded by \u20b92.8 lakh crore",
+        "subject_surface": "NFA",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.8",
+          "scale": "\u20b9",
+          "unit": "lakh crore"
+        }
+      },
+      {
+        "claim_text": "The share of gold in NFA was 12.0 per cent as at end-March 2025.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "share",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end-March 2025"
+          }
+        ],
+        "quote": "The share of gold in NFA increased to 12.0 per cent as at end-March 2025",
+        "subject_surface": "gold in NFA",
+        "value": {
+          "kind": "quantity",
+          "raw": "12.0",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The share of gold in NFA was 8.3 per cent as at end-March 2024.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "share",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end-March 2024"
+          }
+        ],
+        "quote": "from 8.3 per cent as at end-March 2024",
+        "subject_surface": "gold in NFA",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "M3 recorded a growth of 9.6 per cent as on March 21, 2025.",
+        "confidence": 1,
+        "passage_id": 50,
+        "predicate": "growth_rate",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 21, 2025"
+          }
+        ],
+        "quote": "M3 recorded a growth of 9.6 per cent as on March 21, 2025",
+        "subject_surface": "M3",
+        "value": {
+          "kind": "quantity",
+          "raw": "9.6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Bank credit to the commercial sector grew by 11.8 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "growth_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "bank credit to the commercial sector, which grew by 11.8 per cent in 2024-25",
+        "subject_surface": "bank credit to the commercial sector",
+        "value": {
+          "kind": "quantity",
+          "raw": "11.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Net bank credit to government increased by 11.2 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "growth_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Net bank credit to government increased by 11.2 per cent in 2024-25",
+        "subject_surface": "Net bank credit to government",
+        "value": {
+          "kind": "quantity",
+          "raw": "11.2",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The currency-deposit ratio was 15.4 per cent as on March 21, 2025.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 21, 2025"
+          }
+        ],
+        "quote": "The currency-deposit ratio at 15.4 per cent as on March 21, 2025",
+        "subject_surface": "currency-deposit ratio",
+        "value": {
+          "kind": "quantity",
+          "raw": "15.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The money multiplier increased to 5.7 as on March 21, 2025.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 21, 2025"
+          }
+        ],
+        "quote": "money multiplier (MM), which increased to 5.7 as on March 21, 2025",
+        "subject_surface": "money multiplier",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.7"
+        }
+      },
+      {
+        "claim_text": "The money multiplier was 5.7 as on March 21, 2025.",
+        "confidence": 1,
+        "passage_id": 52,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 21, 2025"
+          }
+        ],
+        "quote": "Money Multiplier (Ratio) 5.7",
+        "subject_surface": "money multiplier",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.7"
+        }
+      },
+      {
+        "claim_text": "Personal loans grew by 14.0 per cent as at end-March 2025.",
+        "confidence": 1,
+        "passage_id": 55,
+        "predicate": "growth_rate",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end-March 2025"
+          }
+        ],
+        "quote": "Personal loans grew by 14.0 per cent as at end-March 2025",
+        "subject_surface": "Personal loans",
+        "value": {
+          "kind": "quantity",
+          "raw": "14.0",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The average spread of the WACR over the policy repo rate moderated to 6 basis points in 2024-25.",
+        "confidence": 1,
+        "passage_id": 57,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "The average spread of the WACR over the policy repo rate moderated to 6 basis points (bps) in 2024-25",
+        "subject_surface": "average spread of the WACR over the policy repo rate",
+        "value": {
+          "kind": "quantity",
+          "raw": "6",
+          "unit": "basis points"
+        }
+      },
+      {
+        "claim_text": "Volatility in the WACR moderated to 2.2 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 57,
+        "predicate": "volatility",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Volatility in the WACR, measured by the coefficient of variation28, moderated to 2.2 per cent in 2024-25",
+        "subject_surface": "WACR",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.2",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The average daily volume in the money market increased by 10 per cent to \u20b95.5 lakh crore during 2024-25.",
+        "confidence": 1,
+        "passage_id": 58,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "The average daily volume in the money market increased by 10 per cent to \u20b95.5 lakh crore during 2024-25",
+        "subject_surface": "average daily volume in the money market",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.5",
+          "scale": "\u20b9",
+          "unit": "lakh crore"
+        }
+      },
+      {
+        "claim_text": "Total CD issuances amounted to \u20b911.9 lakh crore during 2024-25.",
+        "confidence": 1,
+        "passage_id": 58,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Total CD issuances amounted to \u20b911.9 lakh crore during 2024-25",
+        "subject_surface": "Total CD issuances",
+        "value": {
+          "kind": "quantity",
+          "raw": "11.9",
+          "scale": "\u20b9",
+          "unit": "lakh crore"
+        }
+      },
+      {
+        "claim_text": "Fresh issuances of CPs increased to \u20b915.7 lakh crore during 2024-25.",
+        "confidence": 1,
+        "passage_id": 61,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "During 2024-25, fresh issuances of CPs increased to \u20b915.7 lakh crore",
+        "subject_surface": "Fresh issuances of CPs",
+        "value": {
+          "kind": "quantity",
+          "raw": "15.7",
+          "scale": "\u20b9",
+          "unit": "lakh crore"
+        }
+      },
+      {
+        "claim_text": "The 10-year generic G-sec yield closed at 6.58 per cent as at end-March 2025.",
+        "confidence": 1,
+        "passage_id": 62,
+        "predicate": "value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end-March 2025"
+          }
+        ],
+        "quote": "The 10-year generic G-sec yield closed at 6.58 per cent as at end-March 2025",
+        "subject_surface": "10-year generic G-sec yield",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.58",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "FPIs invested \u20b91.5 lakh crore in debt instruments in 2024-25.",
+        "confidence": 1,
+        "passage_id": 62,
+        "predicate": "investment_in_debt_instruments",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "In aggregate, FPIs invested \u20b91.5 lakh crore in debt instruments in 2024-25.",
+        "subject_surface": "FPIs",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.5",
+          "scale": "\u20b9",
+          "unit": "lakh crore"
+        }
+      },
+      {
+        "claim_text": "The utilisation of the approved limits for FPI investments in corporate bonds was 15.8 per cent as at end-March 2025.",
+        "confidence": 1,
+        "passage_id": 63,
+        "predicate": "utilisation_of_approved_limits",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end-March 2025"
+          }
+        ],
+        "quote": "The utilisation of the approved limits, however, declined to 15.8 per cent as at end-March 2025",
+        "subject_surface": "FPI investments in corporate bonds",
+        "value": {
+          "kind": "quantity",
+          "raw": "15.8",
+          "unit": "per cent"
+        }
+      }
+    ]
+  }
+}

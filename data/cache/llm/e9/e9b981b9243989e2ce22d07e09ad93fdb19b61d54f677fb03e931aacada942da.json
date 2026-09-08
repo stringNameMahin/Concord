@@ -1,0 +1,691 @@
+{
+  "key": "e9b981b9243989e2ce22d07e09ad93fdb19b61d54f677fb03e931aacada942da",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"64\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.5.3: Corporate Bond Market\n</context>\n<text>\nDaily Turnover in Corporate Bonds\nSpread of PSUs, FIs and Banks (RHS)\nSpread of NBFCs (RHS)\nSpread of Corporates (RHS)\n20\n40\n60\n80\n100\n120\n140\n160\n0\n5,000\n10,000\n15,000\n20,000\n25,000\n30,000\n35,000\n40,000\n45,000\n50,000\n11-Apr-24\n24-Apr-24\n07-May-24\n20-May-24\n02-Jun-24\n15-Jun-24\n28-Jun-24\n11-Jul-24\n24-Jul-24\n06-Aug-24\n19-Aug-24\n01-Sep-24\n14-Sep-24\n27-Sep-24\n10-Oct-24\n23-Oct-24\n05-Nov-24\n18-Nov-24\n01-Dec-24\n14-Dec-24\n27-Dec-24\n09-Jan-25\n22-Jan-25\n04-Feb-25\n17-Feb-25\n02-Mar-25\n15-Mar-25\n29-Mar-24\n28-Mar-25\n\n\nECONOMIC REVIEW\n61\nat end-March 2025 (Chart II.5.6). Resource\nmobilisation in the primary markets through\npublic and rights issues, preferential allotments\nand qualified institutional placements (QIPs)\nmaintained robust growth, particularly in H1:\n2024-25.\nII.5.18\t Equity markets started on a positive note\nin Q1:2024-25 amidst encouraging domestic\nand global macroeconomic data releases,\ninterspersed by brief correction due to flaring\nup of geopolitical tensions in the Middle East.\nDuring Q2, the market continued the upward\ntrajectory with the BSE Sensex crossing the\n80,000 mark in July with headwinds in early\nAugust following the release of weaker economic\ndata from the US and large-scale unwinding of\nthe Yen carry trade post-rate hike by the Bank\nof Japan. After remaining range bound in the\nfirst half of September, the BSE Sensex rallied\nsharply to breach the 85,000 mark - touching\na new high of 85,836 on September 26, 2024,\nsupported by expectations of an imminent US\nFed policy pivot.\nII.5.19\t In Q3, Indian equity markets exhibited\na declining trend on FPI selling amidst\ngeopolitical tensions, concerns over domestic\nequity valuations and weaker-than-expected\ncorporate earnings results and domestic GDP\nprint in Q2:2024-25. Some of the declines were\nreversed in late November and early December\non favourable global cues. Benchmark indices\ndeclined further in Q4 amidst sustained FPI\nselling on tariff announcements by the US\nagainst major economies, weak domestic growth\noutlook based on the GDP estimates for 2024-\n25, and mixed corporate earnings in Q3:2024-25.\nMarkets, however, pared some of the losses in\nthe second half of March amidst FPI buying and\nexpectations of further monetary policy easing.\nII.5.20\t The broader market indices, viz., the BSE\nMidCap and BSE SmallCap, increased by 5.6 per\ncent and 8 per cent, respectively, while sectoral\nindices exhibited a mixed trend in 2024-25 (Chart\nII.5.7a). FPIs made net sales of \u20b91.4 lakh crore\nin the domestic equity market during 2024-25 as\nagainst net purchases of \u20b92.1 lakh crore in the\nChart II.5.6: Equity Market\na. Movement in BSE Sensex and Nifty 50\nb. Return on Global Equity Indices during 2024-25\nIndex\nIndex\nSource: BSE, NSE and Bloomberg.\nBSE Sensex\nNifty 50 (RHS)\n77,415\n23,519\n21,000\n22,000\n23,000\n24,000\n25,000\n26,000\n27,000\n71,000\n74,000\n77,000\n80,000\n83,000\n86,000\n89,000\nApr-2024\nMay-2024\nJun-2024\nJul-2024\nAug-2024\nSep-2024\nOct-2024\nNov-2024\nDec-2024\nJan-2025\nFeb-2025\nMar-2025\n-16.0\n-11.8\n-10.7\n-8.5\n-5.1\n-1.5\n1.7\n5.1\n6.8\n7.9\n9.7\n19.1\n19.9\n39.8\n-20\n-10\n0\n10\n20\n30\n40\n50\nThailand\nJapan\nIndonesia\nMexico\nFrance\nMalaysia\nBrazil\nIndia\nUS\nUK\nChina\nSouth Africa\nGermany\nHong Kong\nPer cent\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"65\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.5.3: Corporate Bond Market\n</context>\n<text>\nSource: BSE, NSE and Bloomberg.\nBSE Sensex\nNifty 50 (RHS)\n77,415\n23,519\n21,000\n22,000\n23,000\n24,000\n25,000\n26,000\n27,000\n71,000\n74,000\n77,000\n80,000\n83,000\n86,000\n89,000\nApr-2024\nMay-2024\nJun-2024\nJul-2024\nAug-2024\nSep-2024\nOct-2024\nNov-2024\nDec-2024\nJan-2025\nFeb-2025\nMar-2025\n-16.0\n-11.8\n-10.7\n-8.5\n-5.1\n-1.5\n1.7\n5.1\n6.8\n7.9\n9.7\n19.1\n19.9\n39.8\n-20\n-10\n0\n10\n20\n30\n40\n50\nThailand\nJapan\nIndonesia\nMexico\nFrance\nMalaysia\nBrazil\nIndia\nUS\nUK\nChina\nSouth Africa\nGermany\nHong Kong\nPer cent\n\n\nANNUAL REPORT 2024-25\n62\nprevious year (Chart II.5.7b). Mutual funds made\nnet purchases of \u20b94.7 lakh crore in 2024-25 as\nagainst \u20b92.0 lakh crore in the previous year.\nPrimary Market Resource Mobilisation\nII.5.21\t In the primary segment of the equity\nmarket,\nresource\nmobilisation\nthrough\npreferential allotments and qualified institutional\nplacements (QIPs) rose to \u20b92.2 lakh crore during\n2024-25 from \u20b91.1 lakh crore during the previous\nyear. Resource mobilisation through initial public\nofferings (IPOs), follow-on public offers (FPOs)\nand rights issues also increased to \u20b92.1 lakh\ncrore from \u20b90.8 lakh crore during the previous\nyear (Chart II.5.8a and Appendix Table 5).\nIssuances by small and medium enterprises\n(SMEs) remained robust, raising \u20b99,961 crore\nduring 2024-25 as compared to mobilisation of\n\u20b96,122 crore in the previous year.\nII.5.22\t Net resources mobilised by mutual funds\nincreased to \u20b98.2 lakh crore during 2024-25\nfrom \u20b93.6 lakh crore during the previous year.\nNet mobilisation by equity-oriented mutual\nfund schemes rose to \u20b94.2 lakh crore from\n\u20b91.8 lakh crore during the previous year. Debt-\noriented schemes witnessed net inflows of \u20b91.4\nlakh crore during 2024-25 as compared with net\noutflows of \u20b90.3 lakh crore during the previous\nyear. Average monthly contribution to mutual\nfunds through the systematic investment plan\n(SIP) route increased to \u20b924,113 crore in 2024-\n25 from \u20b916,602 crore during the previous year\n(Chart II.5.8b).\n6.\u2002Foreign Exchange Market\nII.5.23\t The INR, after remaining steady during\nH1:2024-25, came under pressure in the\nsecond half amid adverse external shocks and\nspillovers and closed the year lower - depreciating\nby 2.4 per cent. During Q1, the INR traded in\na range bound manner, supported by a fall in\ncrude oil prices and net FPI inflows, amid\nrise in the DXY and hardening US treasury\nyields. Overall, the INR closed almost flat\nat \u20b983.38 per US dollar by end-June 2024\n(Chart II.5.9).\nChart II.5.7: Broader Markets and Institutional Flows\na. Return on BSE Sectoral Indices\nb. Net Investment in Equity by Institutional Investors\nSource: SEBI, NSDL and Bloomberg.\n\u20b9 crore\nForeign Portfolio Investors\nMutual Funds\n-1,00,000\n-80,000\n-60,000\n-40,000\n-20,000\n0\n20,000\n40,000\n60,000\n80,000\n1,00,000\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\n-9.7\n-9.1\n-7.1\n-3.4\n-2.9\n-1.7\n-0.7\n-0.3\n-0.3\n0.7\n1.3\n2.9\n3.3\n4.0\n5.8\n9.3\n9.7\n11.3\n12.2\n18.2\n-20\n0\n20\nEnergy\nOil and Gas\nRealty\nUtilities\nAuto\nPower\nPSU\nServices\nConsumer Discretionary\nFMCG\nInformation Technology\nCapital Goods\nIndustrials\nConsumer Durables\nTelecom\nMetal\nCommunication\nBankex\nFinancial Services\nHealthcare\nPer cent\n-10\n10\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"66\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 6.\u2002Foreign Exchange Market\n</context>\n<text>\n-60,000\n-40,000\n-20,000\n0\n20,000\n40,000\n60,000\n80,000\n1,00,000\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\n-9.7\n-9.1\n-7.1\n-3.4\n-2.9\n-1.7\n-0.7\n-0.3\n-0.3\n0.7\n1.3\n2.9\n3.3\n4.0\n5.8\n9.3\n9.7\n11.3\n12.2\n18.2\n-20\n0\n20\nEnergy\nOil and Gas\nRealty\nUtilities\nAuto\nPower\nPSU\nServices\nConsumer Discretionary\nFMCG\nInformation Technology\nCapital Goods\nIndustrials\nConsumer Durables\nTelecom\nMetal\nCommunication\nBankex\nFinancial Services\nHealthcare\nPer cent\n-10\n10\n\n\nECONOMIC REVIEW\n63\nII.5.24\t The INR traded under depreciation\npressure for most of Q2:2024-25 on reported\nunwinding of carry trades and recessionary\nfears in the US leading to safe haven demand.\nHowever, the fall in crude oil prices and continuing\nFPI inflows post inclusion of Indian sovereign\nbonds in J.P. Morgan bond indices kept the INR\nsupported. Overall, the INR closed the Q2 at\n\u20b983.79 per US dollar, lower by 0.5 per cent from\nits level at end-June 2024.\nII.5.25\t The depreciation bias continued during\nQ3:2024-25 amid the surge of the DXY, which\nrose by 7.7 per cent during the quarter \u2013 the\nhighest quarterly rise since Q4:2014-15. Most of\nthe Asian currencies traded under pressure with\nMSCI Emerging Market Currency Index declining\nby 3.6 per cent during the quarter \u2013 the largest\nquarterly fall since Q2:2022-23. Equity segment\nwitnessed net FPI outflow of more than US$ 11\nbillion during October 2024. Overall, the INR\nclosed the quarter at \u20b985.62 per US dollar, lower\nby 2.1 per cent from its level at end-September\n2024.\nII.5.26\t The INR continued to trade under\npressure during most of Q4:2024-25 amid global\nuncertainties, tariff related announcements and\nFPI related outflows. During this period, outflows\nfrom the equity segment exceeded US$ 13\nbillion. However, INR appreciated in March amid\nsoftening in the DXY and debt related inflows.\nOverall, the INR closed at \u20b985.46 per US dollar\non March 28, 2025, 0.2 per cent higher from its\nlevel at end-December 2024.\nChart II.5.8: Resource Mobilisation\na. Resource Mobilisation in Equity Markets\nb. Average Monthly SIP Contribution in Mutual Funds\nSource: SEBI and AMFI.\n\u20b9 crore\n\u20b9 crore\nIPOs, FPOs and Rights\nQIPs and Preferential Allotments\n24,113\n0\n5,000\n10,000\n15,000\n20,000\n25,000\n30,000\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n2,10,190\n2,19,681\n0\n50,000\n1,00,000\n1,50,000\n2,00,000\n2,50,000\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nChart II.5.9: Movement in Rupee, US Dollar,\nCrude Oil Price and EM Currency Index\nSource: Bloomberg.\nIndex\nIndex (End-March 2024 = 100)\nUSD/INR\nUS Dollar Index\nBrent Crude Oil Price\nMSCI EM Currency Index (RHS)\n1660\n1680\n1700\n1720\n1740\n1760\n1780\n1800\n75\n80\n85\n90\n95\n100\n105\n110\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"67\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 6.\u2002Foreign Exchange Market\n</context>\n<text>\n2024-25\n2,10,190\n2,19,681\n0\n50,000\n1,00,000\n1,50,000\n2,00,000\n2,50,000\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nChart II.5.9: Movement in Rupee, US Dollar,\nCrude Oil Price and EM Currency Index\nSource: Bloomberg.\nIndex\nIndex (End-March 2024 = 100)\nUSD/INR\nUS Dollar Index\nBrent Crude Oil Price\nMSCI EM Currency Index (RHS)\n1660\n1680\n1700\n1720\n1740\n1760\n1780\n1800\n75\n80\n85\n90\n95\n100\n105\n110\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nMar-25\n\n\nANNUAL REPORT 2024-25\n64\nII.6\u2002GOVERNMENT FINANCES\nII.6.1\t During 2024-25, the central and state\ngovernments\npursued\nfiscal\nconsolidation\nsupported by robust tax collections. For 2025-\n26, both the Centre and states have placed\ngreater thrust on capital expenditure. Against this\nbackdrop, sub-sections 2 and 3 elaborate on the\nfiscal position of the Union government in 2024-\n25 and 2025-26, respectively. Sub-sections 4\nand 5 focus on state government finances during\n2024-25 and 2025-26, respectively, followed by\nthe finances of the general government for 2024-\n25 (BE) in sub-section 6. The final sub-section\nsets out the concluding remarks.\n2. Central Government Finances in 2024-25\nII.6.2\t During\n2024-25\n(RE),\nthe\nUnion\ngovernment contained the gross fiscal deficit\n(GFD) to 4.7 per cent of GDP \u2013 0.2 per cent\nbelow budget estimates (BE) \u2013 primarily through\ncontainment of revenue and capital expenditure\n(Table II.6.1 and Chart II.6.1)38.\nII.6.3\t Revenue expenditure rose by 5.8 per cent\nin 2024-25 (RE), broadly in line with BE. In 2024-\n25 (RE), interest payments and outgo on major\nsubsidies as per cent of GDP declined by 0.1 per\ncent and 0.2 per cent, respectively, as compared\nto 2023-24. Food subsidy was also below its BE\nby \u20b97,830 crore, partly due to cost savings on\naccount of off-loading of wheat and rice in the\nopen market. The expenditure on pensions and\nretirement benefits increased to 0.83 per cent\nof GDP in 2024-25 (RE) from 0.79 per cent in\n38\t The GDP data used for central government finances for 2024-25 (RE) pertain to the Second Advance Estimates for 2024-25 released by\nNational Statistical Office on February 28, 2025.\nII.5.27\t During 2024-25, the forward premia\ntrended largely flat during the first half of the year.\nIt rose subsequently, led by shorter tenors, amid\nglobal policy uncertainty and widening interest\nrate differential before paring some of those\nmovements in Q4.\nII.5.28\t The\n40-currency\nnominal\neffective\nexchange rate (NEER) and real effective\nexchange rate (REER) appreciated (y-o-y) by 0.3\nper cent and 1.5 per cent, respectively, during\n2024-25.\n7. Conclusion\nII.5.29\t During\n2024-25,\nglobal\nfinancial\nmarkets remained volatile over protracted\ngeopolitical tensions and persisting uncertainty\nover the quantum and pace of monetary\npolicy normalisation by the US Fed and other\nmajor systemic central banks. Amidst the\nglobal headwinds, Indian financial markets\ndemonstrated resilience and orderly movements.\nMoney market rates generally remained aligned\nwith the policy repo rate. G-sec yields softened\nduring the year and exhibited lower volatility\nthan global and emerging market peers. The INR\nwitnessed depreciating bias in the latter half of\nthe year amidst stronger US dollar and portfolio\nequity outflows. The Indian equity market scaled\nfresh highs in the first half although it witnessed\nsignificant correction in the second half of 2024-\n25 due to domestic and global factors. Despite\nmoderation in Q4, resource mobilisation in the\nprimary market remained robust in 2024-25.\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"68\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 7. Conclusion\n</context>\n<text>\nwith the policy repo rate. G-sec yields softened\nduring the year and exhibited lower volatility\nthan global and emerging market peers. The INR\nwitnessed depreciating bias in the latter half of\nthe year amidst stronger US dollar and portfolio\nequity outflows. The Indian equity market scaled\nfresh highs in the first half although it witnessed\nsignificant correction in the second half of 2024-\n25 due to domestic and global factors. Despite\nmoderation in Q4, resource mobilisation in the\nprimary market remained robust in 2024-25.\n\n\nECONOMIC REVIEW\n65\nthe previous year, while grants-in-aid to states\ndeclined to 1.6 per cent of GDP from 1.8 per cent\nduring the same period.\nII.6.4\t Capital expenditure undershot the BE by\n\u20b992,682 crore and was placed at 3.1 per cent\nof GDP in 2024-25 (RE) as against 3.2 per cent\nof GDP in 2023-24 (Table II.6.1). The growth in\nboth capital outlay39 and loans and advances\nexperienced\nmoderation.\nEffective\ncapital\nexpenditure grew by 5.2 per cent and stood at\n4.0 per cent of GDP.\nII.6.5\t In 2024-25 (RE), the gross tax revenue\nexceeded its BE by \u20b913,285 crore, rising to 11.6\nper cent of GDP from 11.5 per cent in 2023-\n24. Strong performance of income tax and\ngoods and services tax (GST) bolstered tax\nreceipts. While growth in custom duty slowed\ndown, that of Union excise duty recovered\n(Chart II.6.2).\n39\t Capital expenditure less loans and advances.\nTable II.6.1: Central Government\u2019s Fiscal Performance\n(Per cent of GDP)\nItem\nAverage of\n2015-16 to\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n(RE)\n2025-26\n(BE)\n1\n2\n3\n4\n5\n6\n7\n8\n9\nI.\nNon-debt\u00a0Receipts\n9.1\n8.7\n8.5\n9.4\n9.1\n9.3\n9.5\n9.8\nII. \t Gross Tax Revenue (a+b)\n11.0\n10.0\n10.2\n11.5\n11.4\n11.5\n11.6\n12.0\na) \tDirect Tax\n5.7\n5.2\n4.8\n6.0\n6.2\n6.5\n6.8\n7.1\nb) \tIndirect Tax\n5.3\n4.8\n5.5\n5.5\n5.2\n5.0\n4.9\n4.9\nIII. \t Net Tax Revenue\n7.1\n6.7\n7.2\n7.6\n7.8\n7.7\n7.7\n7.9\nIV. \t Non-tax Revenue\n1.5\n1.6\n1.0\n1.5\n1.1\n1.3\n1.6\n1.6\nV. \t Non-debt Capital Receipts\n0.5\n0.3\n0.3\n0.2\n0.3\n0.2\n0.2\n0.2\nVI. \t Total Expenditure\n12.6\n13.4\n17.7\n16.1\n15.6\n14.8\n14.2\n14.2\nVII.\t Revenue Expenditure\n10.9\n11.7\n15.5\n13.6\n12.8\n11.6\n11.2\n11.0\nVIII.\tCapital Expenditure\n1.7\n1.7\n2.1\n2.5\n2.8\n3.2\n3.1\n3.1\nIX. \t Revenue Deficit\n2.4\n3.3\n7.3\n4.4\n4.0\n2.5\n1.8\n1.5\nX. \t Gross Fiscal Deficit\n3.5\n4.6\n9.2\n6.7\n6.5\n5.5\n4.7\n4.4\nBE: Budget Estimates.\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003RE: Revised Estimates.\nSource: Union Budget documents.\nChart II.6.1: Contribution to Fiscal Consolidation in\n2024-25 RE vis-\u00e0-vis BE\nPer cent of GDP\nBE: Budget Estimates.        RE: Revised Estimates.\nNote: Negative contribution denotes decline in receipts or increase in\nexpenditure or a downward revision in GDP from BE to RE as these\ncontribute to slippage from the budgeted fiscal deficit target. Conversely,\npositive contribution denotes higher receipts or lower expenditure from BE\nto RE, as these contribute to attainment of budgeted fiscal deficit target.\nSource: Union Budget documents and RBI staff estimates.\nNet Tax\nRevenue\nNon-tax\nRevenue\nNon-debt\nCapital\nReceipts\nRevenue\nExpenditure\nCapital\nExpenditure\nDue to\nRevision\nin GDP\n-0.08\n-0.04\n-0.06\n0.03\n0.28\n0.07\n-0.15\n-0.10\n-0.05\n0.00\n0.05\n0.10\n0.15\n0.20\n0.25\n0.30\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"69\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.6.1: Central Government\u2019s Fiscal Performance\n</context>\n<text>\ncontribute to slippage from the budgeted fiscal deficit target. Conversely,\npositive contribution denotes higher receipts or lower expenditure from BE\nto RE, as these contribute to attainment of budgeted fiscal deficit target.\nSource: Union Budget documents and RBI staff estimates.\nNet Tax\nRevenue\nNon-tax\nRevenue\nNon-debt\nCapital\nReceipts\nRevenue\nExpenditure\nCapital\nExpenditure\nDue to\nRevision\nin GDP\n-0.08\n-0.04\n-0.06\n0.03\n0.28\n0.07\n-0.15\n-0.10\n-0.05\n0.00\n0.05\n0.10\n0.15\n0.20\n0.25\n0.30\n\n\nANNUAL REPORT 2024-25\n66\nII.6.6\t Net tax revenue to the Centre grew by\n9.9 per cent, lower than the growth of gross tax\nrevenue owing to higher growth in devolution\nof taxes to the states. Driven by the surplus\ntransfer from the Reserve Bank, the non-tax\nrevenue grew by 32.2 per cent in 2024-25 (RE)\nover 2023-24. Miscellaneous non-debt  capital\nreceipts (including disinvestment receipts) were,\nhowever, below their BE by \u20b917,000 crore. Total\nnon-debt receipts of the Centre recorded a\nhealthy growth of 12.8 per cent, on top of 13.6\nper cent growth attained in 2023-24.\n3. Central Government Finances in 2025-26\nII.6.7\t The Union Budget 2025-26 continued\nwith the government\u2019s commitment towards\nfiscal consolidation by targeting a GFD of 4.4 per\ncent of GDP (Table II.6.1 and Appendix Table 6).\nFiscal consolidation is expected to be driven by\nmoderation in the revenue expenditure to 11.0\nper cent of GDP in 2025-26 (BE) from 11.2 per\ncent in the previous year. Enhanced tax and non-\ntax receipts are also expected to support this\nconsolidation. On the expenditure side, interest\npayments are expected to rise by 12.2 per cent.\nWhile the subsidy outgo for fertiliser and petroleum\nhas been budgeted to decline by \u20b93,411 crore\nand \u20b92,600 crore, respectively, food subsidy is\nexpected to increase by \u20b96,000 crore in 2025-26\n(BE). Revenue expenditure on pension and other\nretirement benefits is budgeted to fall by 0.06 per\ncent of GDP in 2025-26 (BE) as compared to that\nin 2024-25 (RE). Moreover, grants-in-aid to the\nstates \u2013 driven by a substantial growth of 23.5\nper cent \u2013 is expected to increase to 1.8 per cent\nof GDP.\nII.6.8\t Capital expenditure is budgeted to grow\nby 10.1 per cent and is estimated at 3.1 per cent\nof GDP in 2025-26 (BE). The capital support to\nthe states through the 50-year interest-free loan\nhas been enhanced to \u20b91.5 lakh crore in 2025-26\n(BE) from \u20b91.3 lakh crore in 2024-25 (RE). With\nthe grants-in-aid for creation of capital assets\nrising to 1.2 per cent of GDP in 2025-26 (BE),\nthe effective capital expenditure would be 4.3 per\nChart II.6.2: Performance of Major Taxes\nSource: Union Budget documents.\nPer cent\nPer cent\na. Growth\nb. Per cent of GDP\nCorporation Tax\nCustoms Duty\nIncome Tax\nUnion Excise Duty\nGoods and Services Tax\n-20\n-10\n0\n10\n20\n30\n2022-23\n2023-24\n2024-25\n(RE)\n2025-26\n(BE)\n3.0\n3.8\n0.7\n0.9\n3.3\n0\n1\n2\n3\n4\nCorporation\nTax\nIncome\nTax\nCustoms\nDuty\nUnion\nExcise\nDuty\nGoods and\nServices Tax\n2022-23\n2023-24\n2024-25 (RE)\n2025-26 (BE)\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"70\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 3. Central Government Finances in 2025-26\n</context>\n<text>\nrising to 1.2 per cent of GDP in 2025-26 (BE),\nthe effective capital expenditure would be 4.3 per\nChart II.6.2: Performance of Major Taxes\nSource: Union Budget documents.\nPer cent\nPer cent\na. Growth\nb. Per cent of GDP\nCorporation Tax\nCustoms Duty\nIncome Tax\nUnion Excise Duty\nGoods and Services Tax\n-20\n-10\n0\n10\n20\n30\n2022-23\n2023-24\n2024-25\n(RE)\n2025-26\n(BE)\n3.0\n3.8\n0.7\n0.9\n3.3\n0\n1\n2\n3\n4\nCorporation\nTax\nIncome\nTax\nCustoms\nDuty\nUnion\nExcise\nDuty\nGoods and\nServices Tax\n2022-23\n2023-24\n2024-25 (RE)\n2025-26 (BE)\n\n\nECONOMIC REVIEW\n67\ncent of GDP as compared with 4.0 per cent in the\nprevious year. The ratio of revenue expenditure\nto capital outlay (RECO) continues to remain low\nat 4.4, reflective of the thrust on the quality of\ngovernment expenditure (Chart II.6.3).\nII.6.9\t The buoyancy of gross tax revenue is\nbudgeted at 1.1 in 2025-26 (BE), with direct taxes\nat 1.2 [1.5 in 2024-25 (RE)] and indirect taxes at\n0.8 [0.7 in 2024-25 (RE)]. The gross tax revenue\nis budgeted to reach its peak of 12.0 per cent\nof GDP in 2025-26 (BE), highest post 2007-08\n(Chart II.6.4).\nII.6.10\tGross market borrowings, as per cent of\nGDP, are expected to slightly decline in 2025-26\n(BE) [Chart II.6.5a]. Market borrowings, followed\nby small savings, remain the main sources of\nfinancing the GFD (Chart II.6.5b).\nChart II.6.4: Trends in Tax Revenues of Centre\nPer cent of GDP\nSource: Union Budget documents.\nGross Tax Revenue\nDirect Tax\nIndirect Tax\nNet Tax Revenue\n12.0\n7.1\n4.9\n7.9\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25 (RE)\n2025-26 (BE)\nChart II.6.3: Trends in Capital Outlay and RECO\nPer cent of GDP\nRatio\nSource: Union Budget documents.\n2.5\n4.4\n3\n4\n5\n6\n7\n8\n9\n10\n1.0\n1.5\n2.0\n2.5\n3.0\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25 (RE)\nCapital Outlay\n2025-26 (BE)\nRECO (RHS)\nChart II.6.5: Market Borrowings and GFD Financing\nNote: 1. Net market borrowing for 2024-25(RE) includes buy back of securities.\n2. From 2023-24 onwards, market borrowings have been adjusted for switching of securities.\nSource: Union Budget documents.\nPer cent of GDP\nPer cent\na. Market Borrowings and GFD\nb. Sources of GFD Financing\nGross Market Borrowings\nNet Market Borrowings\nGross Fiscal Deficit\n3.2\n4.2\n4.4\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25 (RE)\n2025-26 (BE)\n71.3\n68.5\n73.5\n27.3\n26.2\n21.9\n-20\n0\n20\n40\n60\n80\n100\n120\n2023-24\n2024-25 (RE)\n2025-26 (BE)\nExternal Assistance\nDeposits and Advances\nNet Market Borrowings\nDrawdown of Cash Balances\nSecurities Against Small Savings\nNet Treasury Bills\nOthers\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"71\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 3. Central Government Finances in 2025-26\n</context>\n<text>\nPer cent\na. Market Borrowings and GFD\nb. Sources of GFD Financing\nGross Market Borrowings\nNet Market Borrowings\nGross Fiscal Deficit\n3.2\n4.2\n4.4\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25 (RE)\n2025-26 (BE)\n71.3\n68.5\n73.5\n27.3\n26.2\n21.9\n-20\n0\n20\n40\n60\n80\n100\n120\n2023-24\n2024-25 (RE)\n2025-26 (BE)\nExternal Assistance\nDeposits and Advances\nNet Market Borrowings\nDrawdown of Cash Balances\nSecurities Against Small Savings\nNet Treasury Bills\nOthers\n\n\nANNUAL REPORT 2024-25\n68\nTable II.6.2: Fiscal Position of States/UTs\n(Amount in \u20b9 lakh crore)\n2020-21\n2021-22\n2022-23\n2023-24 (RE)\n2024-25 (BE)\n1\n2\n3\n4\n5\n6\nI. \t Revenue Receipts\n25.9\n32.3\n36.5\n42.1\n46.7\n(13.0)\n(13.7)\n(13.6)\n(14.3)\n(14.3)\nII. \t Non-debt Capital Receipts\n0.2\n0.2\n0.1\n0.4\n0.4\n(0.1)\n(0.1)\n(0.04)\n(0.1)\n(0.1)\nIII. \tRevenue Expenditure\n29.6\n33.3\n37.2\n43.5\n47.5\n(14.9)\n(14.1)\n(13.8)\n(14.7)\n(14.6)\nIV. \tCapital Expenditure\n4.6\n5.7\n6.7\n9.3\n10.0\n(2.3)\n(2.4)\n(2.5)\n(3.2)\n(3.1)\na. \t Capital Outlay\n4.1\n5.3\n6.0\n8.7\n9.2\n(2.1)\n(2.3)\n(2.2)\n(2.9)\n(2.8)\nb. \t Loans and Advances by States\n0.4\n0.4\n0.7\n0.7\n0.9\n(0.2)\n(0.2)\n(0.3)\n(0.2)\n(0.3)\nV. \t Fiscal Deficit\n8.0\n6.5\n7.2\n10.4\n10.4\n(4.1)\n(2.8)\n(2.7)\n(3.5)\n(3.2)\nVI. \tRevenue Deficit\n3.7\n1.0\n0.6\n1.4\n0.8\n(1.9)\n(0.4)\n(0.2)\n(0.5)\n(0.2)\nVII.\tPrimary Deficit\n4.2\n2.3\n2.6\n5.2\n4.8\n(2.1)\n(1.0)\n(1.0)\n(1.8)\n(1.5)\nNote: Figures in parentheses are per cent of GDP.\nSource: Budget documents of state governments.\n4. State Finances in 2024-25\nII.6.11\t States had budgeted a GFD of 3.2\nper cent of GDP in 2024-25 (Table II.6.2). As\nper provisional accounts data of 20 states\navailable from the Comptroller and Auditor\nGeneral (CAG) of India for April 2024-February\n2025, states\u2019 GFD stood at 64.2 per cent of their\nbudget estimates, higher than the level recorded\na year ago (58 per cent). Revenue receipt growth\nmoderated on account of deceleration in tax\nrevenue growth and decline in grants from the\ncentre. Within states\u2019 own tax revenues, states\u2019\nGST (SGST) growth slowed down while sales\ntax/value-added tax (VAT) collections recovered\nfrom a contraction during the same period in the\nprevious year.\nII.6.12\tOn\nthe\nexpenditure\nfront,\nrevenue\nexpenditure growth picked up during April\n2024-February 2025, while capital expenditure\nduring the same period remained lower than its\nlevel a year ago.\n5. State Finances in 2025-26\nII.6.13\tBased\non\ninformation\navailable\nfor\nall states/UTs, their consolidated GFD-GDP\nratio for 2025-26 is budgeted at 3.3 per cent\n(Table II.6.3). The gross transfers to states have\nbeen budgeted to increase by 12.5 per cent in\n2025-26 from 2024-25 (RE), largely on account of\ntransfers under centrally sponsored schemes\nand special assistance to states for capital\nexpenditure. The scheme of 50-year interest free\nloans for capital expenditure to states would be\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"72\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 5. State Finances in 2025-26\n</context>\n<text>\n5. State Finances in 2025-26\nII.6.13\tBased\non\ninformation\navailable\nfor\nall states/UTs, their consolidated GFD-GDP\nratio for 2025-26 is budgeted at 3.3 per cent\n(Table II.6.3). The gross transfers to states have\nbeen budgeted to increase by 12.5 per cent in\n2025-26 from 2024-25 (RE), largely on account of\ntransfers under centrally sponsored schemes\nand special assistance to states for capital\nexpenditure. The scheme of 50-year interest free\nloans for capital expenditure to states would be\n\n\nECONOMIC REVIEW\n69\ncontinued in 2025-26, with total outlay of \u20b91.5\nlakh crore \u2013 an increase of 20 per cent over\n2024-25 (RE) levels.\n6. General Government Finances\nII.6.14\tIn 2024-25 (BE), the GFD of the general\ngovernment moderated to 7.6 per cent of GDP40\nfrom 8.8 per cent in 2023-24 (RE). General\ngovernment debt stood at 81.9 per cent of GDP\nin 2024-25 (BE) as compared to 81.8 per cent\nin 2023-24 (RE). External liabilities of the Centre\nTable II.6.3: State Government Finances\n2025-26*: Key Deficit Indicators\n(Per cent of GDP)\nItem\n2023-24\n2024-25 (RE)\n2025-26 (BE)\n1\n2\n3\n4\nRevenue Deficit\n0.3\n0.6\n0.2\nGross Fiscal Deficit\n3.0\n3.6\n3.3\nPrimary Deficit\n1.3\n1.8\n1.5\n*: Data pertain to all states/UTs that have presented their final\nbudgets for 2025-26.\nSource: Budget documents of state governments.\nremained low at 2.5 per cent of GDP (Chart\nII.6.6a and Appendix Table 7).\nII.6.15\tFiscal\nconsolidation\nof\nthe\ngeneral\ngovernment was supported by rise in tax\nrevenues to 18.8 per cent of GDP in 2024-25\n(BE) from 18.1 per cent in the previous year and\nmoderation in total expenditure to 30.0 per cent\nof GDP from 30.2 per cent in the previous year.\nEven with containment of total expenditure, the\ncapital expenditure to GDP ratio stood at 5.9 per\ncent in 2024-25 (BE), as compared to 5.8 per\ncent in the previous year (Chart II.6.6b).\nII.6.16\tAs per the International Monetary Fund\n(IMF) projections for the period 2025 to 2030,\nIndia\u2019s general government debt will be on a\ndeclining trend in contrast to its peers and the\naverage position of emerging market and middle-\nincome economies and advanced economies\n(Chart II.6.7a). The overall balance of the\ngeneral government is also projected to improve\nsignificantly (Chart II.6.7b).\n40\t The GDP data used for general government finances for 2024-25 (BE) has been taken from the Union Budget documents for 2024-25.\nChart II.6.6: Key Fiscal Indicators of General Government\nSource: RBI and Union Budget documents.\nPer cent of GDP\nPer cent of GDP\nPer cent of GDP\na. Debt and Deficit Indicators\nb. Trends in Tax Revenue and Expenditure\nExternal Debt\nInternal Debt\nGross Fiscal Deficit (RHS)\n79.4\n7.6\n4\n6\n8\n10\n12\n14\n50\n55\n60\n65\n70\n75\n80\n85\n90\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24 (RE)\n2024-25 (BE)\n18.8\n5.9\n30.0\n0\n5\n10\n15\n20\n25\n30\n35\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24 (RE)\n2024-25 (BE)\nCapital Expenditure\nTax Revenue\nTotal Expenditure\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"73\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 2025-26*: Key Deficit Indicators\n</context>\n<text>\na. Debt and Deficit Indicators\nb. Trends in Tax Revenue and Expenditure\nExternal Debt\nInternal Debt\nGross Fiscal Deficit (RHS)\n79.4\n7.6\n4\n6\n8\n10\n12\n14\n50\n55\n60\n65\n70\n75\n80\n85\n90\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24 (RE)\n2024-25 (BE)\n18.8\n5.9\n30.0\n0\n5\n10\n15\n20\n25\n30\n35\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24 (RE)\n2024-25 (BE)\nCapital Expenditure\nTax Revenue\nTotal Expenditure\n\n\nANNUAL REPORT 2024-25\n70\n7. Conclusion\nII.6.17\tFiscal\nconsolidation,\nthrough\nrationalisation of revenue expenditure and\nenhanced revenue generation, remained a\nkey focus of the Union Budget 2025-26. While\nfocusing on rebuilding its fiscal buffers, the Union\ngovernment has also maintained its expenditure\nquality by budgeting a robust growth in its capital\nexpenditure in 2025-26.\nII.7\u2002EXTERNAL SECTOR\nII.7.1\t India\u2019s external sector exhibited resilience\nduring 2024-25 amidst a challenging global\nlandscape marked by prolonged geopolitical\ntensions, rising geoeconomic fragmentations\nand heightened uncertainty related to global\ntrade. India\u2019s merchandise exports recovered;\nwith merchandise imports outpacing exports,\nmerchandise trade deficit widened. Nonetheless,\nIndia\u2019s buoyant services exports and strong\nprivate transfer receipts contained the current\naccount deficit (CAD) well within sustainable\nlevels. However, with net capital inflows falling\nshort of CAD, there was a decline in foreign\nexchange reserves on a balance of payments\n(BoP) basis during April-December 2024.\nII.7.2\t Against this backdrop, sub-section 2\npresents a brief overview of global economic and\nfinancial conditions, followed by an analysis of\nIndia\u2019s merchandise exports and imports in sub-\nsection 3. The behaviour of invisibles is presented\nin sub-section 4. Details on net capital flows are\nset out in sub-section 5 while external vulnerability\nindicators are analysed in sub-section 6 followed\nby the concluding observations.\n2. Global Economic Conditions\nII.7.3\nGlobal economic growth moderated to\n3.3 per cent in 2024 (3.5 per cent in 2023) and is\nexpected to be even lower in 2025 (2.8 per cent)41\n[Chart II.7.1a]. Downside risks cloud the growth\noutlook owing to heightened trade tensions and\nelevated\npolicy-induced\nuncertainty.\nOutput\ngrowth in advanced economies (AEs) increased\nmarginally to 1.8 per cent in 2024 as compared\n41\t World Economic Outlook, April 2025, International Monetary Fund (IMF).\nChart II.6.7: Cross-country Fiscal Performance\nPer cent of GDP\nPer cent of GDP\na. Debt\nb. Overall Balance\nNote: The data for India have been sourced from Fiscal Monitor Report, IMF, April 2025 to ensure comparability with rest of the countries. However, this data\nmay be at variance with data reported in the Union Budget or the Reserve Bank publications due to differential treatment of certain items such as receipts from\nasset sale, non-tax revenue items and others by the Union government and the IMF.\nSource: Fiscal Monitor Report, IMF. April 2025.\nIndia\nChina\nBrazil\nAdvanced Economies\nEmerging Market and Middle-income Economies\nSouth Africa\nIndia\nChina\nBrazil\nAdvanced Economies\nEmerging Market and Middle-income Economies\nSouth Africa\n60\n70\n80\n90\n100\n110\n120\n130\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n-14\n-12\n-10\n-8\n-6\n-4\n-2\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"74\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 2. Global Economic Conditions\n</context>\n<text>\nmay be at variance with data reported in the Union Budget or the Reserve Bank publications due to differential treatment of certain items such as receipts from\nasset sale, non-tax revenue items and others by the Union government and the IMF.\nSource: Fiscal Monitor Report, IMF. April 2025.\nIndia\nChina\nBrazil\nAdvanced Economies\nEmerging Market and Middle-income Economies\nSouth Africa\nIndia\nChina\nBrazil\nAdvanced Economies\nEmerging Market and Middle-income Economies\nSouth Africa\n60\n70\n80\n90\n100\n110\n120\n130\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n-14\n-12\n-10\n-8\n-6\n-4\n-2\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n\n\nECONOMIC REVIEW\n71\nwith 1.7 per cent in 2023, while that in emerging\nmarket and developing economies (EMDEs)\nmoderated to 4.3 per cent from 4.7 per cent. The\ngradual easing of global inflationary pressures\nprompted major central banks to cut their policy\nrates, although monetary policy stances still\nremain in restrictive territory in several jurisdictions.\nWith easing inflationary pressures and stable\nglobal demand, world trade volume (goods and\nservices) growth recovered from 1.0 per cent in\n2023 to 3.8 per cent in 2024 (Chart II.7.1b).\nII.7.4\t Emerging market economies (EMEs)\nrecorded net portfolio inflows of US$ 255.7\nbillion during 2024-25 as compared with US$\n220.1 billion during 2023-24 (Chart II.7.2).\nGlobal foreign exchange reserves increased\nduring 2024, reflecting valuation gains on\naccount of a rise in gold prices (Chart II.7.3).\n*: Goods and services.\nSource: IMF.\na. Global GDP Growth Forecasts (IMF) [Successive Revisions]\nb. Global Trade Growth Forecasts (IMF) [Successive Revisions]\nPer cent\nPer cent\nChart II.7.1: Real GDP and World Trade* Volume Growth\n-2.7\n3.3\n3.2\n3.2\n3.2\n3.3\n3.2\n3.3\n2.8\n-4\n-2\n0\n2\n4\n6\n8\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nJan-23\nApr-23\nJul-23\nOct-23\nJan-24\nApr-24\nJul-24\nOct-24\nJan-25\nJan-24\nApr-24\nJul-24\nOct-24\nJan-25\nApr-25\nActuals/Estimates\nForecasts for\n2024\nForecasts for\n2025\nAverage Growth (2000-2019)\nAverage Growth (2000-2019)\n-8.4\n3.8\n3.4\n3.6\n3.3\n3.4\n3.4\n3.2\n1.7\n-10\n-8\n-6\n-4\n-2\n0\n2\n4\n6\n8\n10\n12\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nJan-23\nApr-23\nJul-23\nOct-23\nJan-24\nApr-24\nJul-24\nOct-24\nJan-25\nJan-24\nApr-24\nJul-24\nOct-24\nJan-25\nApr-25\nActuals/Estimates\nForecasts for\n2024\nForecasts for\n2025\nChart II.7.2: Portfolio Investment Flows to EMEs\nUS$ billion\nSource: Institute of International Finance.\nDebt\nEquity\nTotal\n-40\n-20\n0\n20\n40\n60\nMar-22\nJun-22\nSep-22\nDec-22\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25\nChart II.7.3: Change in Global Foreign Exchange Reserves*\n*: Quarter-on-quarter change in official reserve assets.\nSource: IMF.\nUS$ billion\n-800\n-600\n-400\n-200\n0\n200\n400\n600\n800\nQ2:2016\nQ4:2016\nQ2:2017\nQ4:2017\nQ2:2018\nQ4:2018\nQ2:2019\nQ4:2019\nQ2:2020\nQ4:2020\nQ2:2021\nQ4:2021\nQ2:2022\nQ4:2022\nQ2:2023\nQ4:2023\nQ2:2024\nQ4:2024\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"75\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > 2. Global Economic Conditions\n</context>\n<text>\nSource: Institute of International Finance.\nDebt\nEquity\nTotal\n-40\n-20\n0\n20\n40\n60\nMar-22\nJun-22\nSep-22\nDec-22\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25\nChart II.7.3: Change in Global Foreign Exchange Reserves*\n*: Quarter-on-quarter change in official reserve assets.\nSource: IMF.\nUS$ billion\n-800\n-600\n-400\n-200\n0\n200\n400\n600\n800\nQ2:2016\nQ4:2016\nQ2:2017\nQ4:2017\nQ2:2018\nQ4:2018\nQ2:2019\nQ4:2019\nQ2:2020\nQ4:2020\nQ2:2021\nQ4:2021\nQ2:2022\nQ4:2022\nQ2:2023\nQ4:2023\nQ2:2024\nQ4:2024\n\n\nANNUAL REPORT 2024-25\n72\n3. Merchandise Trade\nII.7.5\t India\u2019s merchandise exports increased\nmarginally by 0.1 per cent year-on-year (y-o-y)\nto US$ 437.4 billion in 2024-25, recovering from\na contraction of 3.1 per cent witnessed in 2023-\n24. Merchandise imports expanded by 6.2 per\ncent (y-o-y) to US$ 720.2 billion during 2024-25\nvis-\u00e0-vis a contraction of 5.3 per cent during the\nprevious year (Table II.7.1).\nII.7.6\t The expansion in merchandise exports in\n2024-25 was led by growth in electronic goods;\nengineering goods; drugs and pharmaceuticals;\nrice; and readymade garments (RMG) of all\ntextiles; while petroleum products; and gems and\njewellery witnessed a contraction (Charts II.7.4\nand II.7.5).\nII.7.7\t Exports of engineering goods (accounting\nfor 26.7 per cent of the total merchandise exports)\nTable II.7.1: India\u2019s Merchandise Trade\nValue in US$ billion\nGrowth Rate\n(y-o-y, per cent)\n2021-\n22\n2022-\n23\n2023-\n24\n2024-\n25\n2021-\n22\n2022-\n23\n2023-\n24\n2024-\n25\n1\n2\n3\n4\n5\n6\n7\n8\n9\nExports\nQ1\n95.5\n121.0\n103.9\n110.1\n85.7\n26.6 -14.1\n5.9\nQ2\n102.7\n110.7\n107.2\n103.5\n38.5\n7.8\n-3.2\n-3.4\nQ3\n106.8\n104.6\n105.6\n108.7\n41.0\n-2.1\n1.0\n3.0\nQ4\n117.0\n114.8\n120.4\n115.1\n29.3\n-1.9\n4.9\n-4.4\nAnnual\n422.0\n451.1\n437.1\n437.4\n44.6\n6.9\n-3.1\n0.1\nImports\nQ1\n127.0\n183.5\n160.0\n172.2\n107.2\n44.5 -12.8\n7.6\nQ2\n147.5\n189.0\n170.3\n186.7\n62.7\n28.1\n-9.9\n9.7\nQ3\n167.0\n176.1\n176.1\n187.5\n50.7\n5.4\n0.0\n6.5\nQ4\n171.6\n167.3\n171.8\n173.9\n30.3\n-2.5\n2.7\n1.2\nAnnual\n613.1\n716.0\n678.2\n720.2\n55.4\n16.8\n-5.3\n6.2\nTrade Balance\nQ1\n-31.4\n-62.6\n-56.2\n-62.1\nQ2\n-44.8\n-78.3\n-63.1\n-83.2\nQ3\n-60.2\n-71.5\n-70.5\n-78.7\nQ4\n-54.6\n-52.6\n-51.4\n-58.8\nAnnual -191.0 -264.9 -241.1 -282.8\nNote: Quarterly figures may not add up to annual figures.\nSource: DGCI&S.\nPOL: Petroleum, oil and lubricants.\nSource: DGCI&S.\nGrowth (per cent)\nUS$ billion\nChart II.7.4: India\u2019s Merchandise Exports\nPOL\nGems and Jewellery\nNon-oil Non-gems and Jewellery\nTotal (RHS)\n-10\n0\n10\n20\n30\n40\n50\n0\n50\n100\n150\n200\n250\n300\n350\n400\n450\n500\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nPercentage points\nChart II.7.5: Relative Contribution of Major Sectors to\nExport Growth (2024-25 over 2023-24)\nNote: Figures in parentheses are y-o-y per cent change.\nSource: DGCI&S and RBI staff estimates.\n2.2\n1.7\n0.6\n0.5\n0.3\n-0.1\n-0.2\n-0.4\n-0.7\n-4.8\nElectronic Goods (32.5)\nEngineering Goods (6.7)\nDrugs and Pharmaceuticals (9.4)\nRice (19.7)\nRMG of All Textiles (10.0)\nOil Meals (-21.6)\nOrganic and Inorganic Chemicals (-2.3)\nIron Ore (-46.8)\nGems and Jewellery (-8.8)\nPetroleum Products (-24.7)\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"76\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.7.1: India\u2019s Merchandise Trade\n</context>\n<text>\nPercentage points\nChart II.7.5: Relative Contribution of Major Sectors to\nExport Growth (2024-25 over 2023-24)\nNote: Figures in parentheses are y-o-y per cent change.\nSource: DGCI&S and RBI staff estimates.\n2.2\n1.7\n0.6\n0.5\n0.3\n-0.1\n-0.2\n-0.4\n-0.7\n-4.8\nElectronic Goods (32.5)\nEngineering Goods (6.7)\nDrugs and Pharmaceuticals (9.4)\nRice (19.7)\nRMG of All Textiles (10.0)\nOil Meals (-21.6)\nOrganic and Inorganic Chemicals (-2.3)\nIron Ore (-46.8)\nGems and Jewellery (-8.8)\nPetroleum Products (-24.7)\n\n\nECONOMIC REVIEW\n73\nincreased by 6.7 per cent in 2024-25. The growth\nin exports of engineering goods in 2024-25\nwas driven by aircraft, spacecraft and parts;\nelectric\nmachinery\nand\nequipment;\nmotor\nvehicles/cars; other miscellaneous engineering\nitems; and auto components/parts. On the other\nhand, export growth was dragged down by iron\nand steel; aluminium and its products; copper\nand its products; office equipment; and mica and\nits products (Chart II.7.6).\nII.7.8\t Agricultural exports rose by 6.4 per cent\n(y-o-y) in 2024-25 (up to February 2025). Rice\nexports remained robust after the phasing out\nof restrictions on rice exports in September and\nOctober 2024 (Chart II.7.7). On a cumulative\nbasis, rice exports rose by 19.7 per cent (y-o-y)\nin 2024-25.\nII.7.9\t Exports of electronic goods expanded by\n32.5 per cent (y-o-y) in 2024-25. Mobile phones,\ncontributing 61.7 per cent of electronic goods\nexports during 2024-25 (up to February 2025),\nrose by 54.3 per cent (y-o-y) to US$ 21.0 billion\n(Chart II.7.8).\nII.7.10\t Exports of drugs and pharmaceuticals,\naccounting for 7.0 per cent of India\u2019s merchandise\nexports, expanded by 9.4 per cent (y-o-y) in\n2024-25. The growth in exports of drugs and\nChart II.7.6: India's Engineering Goods Exports -\nRelative Contribution (2024-25 over 2023-24)\nNote: Figures in parentheses are y-o-y per cent change.\nSource: DGCI&S and RBI staff estimates.\nPercentage points\n-2.4\n-0.7\n-0.2\n0.02\n0.005\n0.4\n0.5\n0.7\n1.8\n3.4\nIron and Steel (-22.0)\nAluminium and Aluminium Products (-10.3)\nCopper and Copper Products (-8.1)\nOffice Equipment (-8.0)\nMica and Mica Products (-14.5)\nAuto Components/Parts (6.3)\nOther Miscellaneous Engineering Items (11.2)\nMotor Vehicle/Cars (9.1)\nElectric Machinery and Equipment (16.3)\nAircraft, Spacecraft and Parts (114.7)\nChart II.7.7: India\u2019s Rice Exports\nMEP: Minimum Export Price.\nNote: Data on agricultural exports at a disaggregated level are available up\nto February 2025.\nSource: DGCI&S.\nVolume (thousand tonne)\nValue (US$ million)\nBasmati Rice\nRice (RHS)\nNon-Basmati White Rice\nParboiled Rice\nFloor price on basmati rice\nremoved in September 2024.\nMEP on non-basmati white rice\nand tariff on brown, parboiled\nand paddy rice removed in\nOctober 2024 that was imposed\nin September 2024.\nOthers\nBroken Rice\n0\n200\n400\n600\n800\n1,000\n1,200\n1,400\n1,600\n0\n500\n1,000\n1,500\n2,000\n2,500\n3,000\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nChart II.7.8: Electronic Goods Exports\nNote: Data on mobile phone exports are available up to February 2025.\nSource: DGCI&S.\nMobile Phones\nRest of Electronic Goods\nUS$ billion\n0\n5\n10\n15\n20\n25\n30\n35\n40\n2020-21\n2021-22\n2022-23\n2023-24\n2023-24\n(Apr-Feb)\n2024-25\n(Apr-Feb)\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"77\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.7.1: India\u2019s Merchandise Trade\n</context>\n<text>\n1,400\n1,600\n0\n500\n1,000\n1,500\n2,000\n2,500\n3,000\nApr-23\nMay-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\nMar-24\nApr-24\nMay-24\nJun-24\nJul-24\nAug-24\nSep-24\nOct-24\nNov-24\nDec-24\nJan-25\nFeb-25\nChart II.7.8: Electronic Goods Exports\nNote: Data on mobile phone exports are available up to February 2025.\nSource: DGCI&S.\nMobile Phones\nRest of Electronic Goods\nUS$ billion\n0\n5\n10\n15\n20\n25\n30\n35\n40\n2020-21\n2021-22\n2022-23\n2023-24\n2023-24\n(Apr-Feb)\n2024-25\n(Apr-Feb)\n\n\nANNUAL REPORT 2024-25\n74\npharmaceuticals in 2024-25 was buoyed by\nrobust growth in exports of drug formulations and\nbiologicals (Chart II.7.9).\nII.7.11\t Exports of petroleum products contracted\nby 24.7 per cent (y-o-y) in 2024-25 on account\nof easing oil prices and fall in volume (Chart\nII.7.10a). Among the top ten destinations for\npetroleum product exports, seven witnessed a\nfall during 2024-25 (Chart II.7.10b).\nII.7.12\t The expansion in merchandise imports\nin 2024-25 was led by gold; electronic goods;\nand petroleum, crude oil and products. Coal,\ncoke and briquettes; pearls, precious and semi-\nprecious stones; and iron and steel contributed\nnegatively to import growth (Charts II.7.11 and\nII.7.12).\nII.7.13\t POL imports (25.8 per cent of total\nmerchandise imports) grew by 3.9 per cent (y-o-y)\nto US$ 185.8 billion in 2024-25, underpinned by\nSource: DGCI&S and RBI staff estimates.\na. Exports\nb. Trade Balance\nUS$ billion\nChart II.7.9: Drugs and Pharmaceuticals\nSurgicals\nDrug Formulations, Biologicals\nBulk Drugs, Drug Intermediates\nAyush and Herbal Products\nSurgicals\nDrug Formulations, Biologicals\nBulk Drugs, Drug Intermediates\nAyush and Herbal Products\n19.0\n19.0\n19.5\n21.7\n24.1\n0\n5\n10\n15\n20\n25\n30\n35\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n16.6\n15.7\n16.9\n19.2\n21.3\n-5\n0\n5\n10\n15\n20\n25\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nUS$ billion\nSource: DGCI&S and RBI staff estimates.\na. Trend\nb. Major Destination Countries\nMillion tonne\nUS$ billion\nChart II.7.10: India\u2019s Exports of Petroleum Products\nVolume, 2023-24\nVolume, 2024-25\nValue, 2023-24 (RHS)\nValue, 2024-25 (RHS)\n2023-24\n2024-25\n0\n2\n4\n6\n8\n10\n12\n0\n2\n4\n6\n8\n10\n12\n14\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\n0\n2\n4\n6\n8\n10\n12\n14\n16\nNetherlands\nUAE\nSingapore\nAustralia\nUS\nTanzania\nSouth Africa\nMalaysia\nNepal\nTogo\nUS$ billion\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"78\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.7.1: India\u2019s Merchandise Trade\n</context>\n<text>\n2022-23\n2023-24\n2024-25\nUS$ billion\nSource: DGCI&S and RBI staff estimates.\na. Trend\nb. Major Destination Countries\nMillion tonne\nUS$ billion\nChart II.7.10: India\u2019s Exports of Petroleum Products\nVolume, 2023-24\nVolume, 2024-25\nValue, 2023-24 (RHS)\nValue, 2024-25 (RHS)\n2023-24\n2024-25\n0\n2\n4\n6\n8\n10\n12\n0\n2\n4\n6\n8\n10\n12\n14\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\n0\n2\n4\n6\n8\n10\n12\n14\n16\nNetherlands\nUAE\nSingapore\nAustralia\nUS\nTanzania\nSouth Africa\nMalaysia\nNepal\nTogo\nUS$ billion\n\n\nECONOMIC REVIEW\n75\nvolume growth of 6.8 per cent (Chart II.7.13a).\nWhile Russia was the top source, UAE\u2019s share\nin India\u2019s crude oil imports increased during the\nyear, and that of Iraq and Saudi Arabia moderated\n(Chart II.7.13b).\nII.7.14\t Value of gold imports rose by 27.4 per\ncent (y-o-y) in 2024-25 to US$ 58.0 billion,\ndriven by higher international prices (30.0\nper cent) even as total volume contracted\n(Chart II.7.14).\nII.7.15\t Imports of electronic goods expanded\nby 12.4 per cent (y-o-y) to US$ 98.7 billion in\n2024-25 (Chart II.7.15). Even as exports of\nelectronic goods were buoyant as noted earlier,\ntrade balance for electronic goods widened\nmarginally to US$ 60.1 billion in 2024-25. The\nChart II.7.11: India\u2019s Merchandise Imports\nSource: DGCI&S.\nUS$ billion\nGrowth (per cent)\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\n0\n100\n200\n300\n400\n500\n600\n700\n800\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nPOL\nGold\nNon-POL and Non-gold\nImport Growth (RHS)\nPercentage points\nChart II.7.12: Relative Contribution of Major Sectors to\nImport Growth (2024-25 over 2023-24)\nNote: Figures in parentheses are y-o-y per cent change.\nSource: DGCI&S and RBI staff estimates.\n1.8\n1.6\n1.0\n0.7\n0.5\n-0.09\n-0.10\n-0.2\n-0.9\n-1.1\nGold (27.4)\nElectronic Goods (12.4)\nPetroleum, Crude and Products (3.9)\nMachinery, Electrical and\nNon-electrical (9.6)\nNon-ferrous Metals (15.0)\nSilver (-11.2)\nDyeing/Tanning/Colouring\nMaterials (-13.4)\nIron and Steel (-4.6)\nPearls, Precious and Semi-precious\nStones (-24.4)\nCoal, Coke and Briquettes, etc. (-20.0)\nSource: DGCI&S.\na. POL Imports\nb. Major Sources of Crude Oil Imports\nUS$ billion\nMillion tonne\nShare in volume (per cent)\nChart II.7.13: POL\nVolume (RHS)\nValue\n2023-24\n2024-25\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\nRussia\nIraq\nSaudi\nArabia\nUAE\nUS\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n5\n10\n15\n20\n25\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"79\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.4.2: Sectoral Credit Growth - SCBs > Table II.7.1: India\u2019s Merchandise Trade\n</context>\n<text>\nIron and Steel (-4.6)\nPearls, Precious and Semi-precious\nStones (-24.4)\nCoal, Coke and Briquettes, etc. (-20.0)\nSource: DGCI&S.\na. POL Imports\nb. Major Sources of Crude Oil Imports\nUS$ billion\nMillion tonne\nShare in volume (per cent)\nChart II.7.13: POL\nVolume (RHS)\nValue\n2023-24\n2024-25\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\nRussia\nIraq\nSaudi\nArabia\nUAE\nUS\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n5\n10\n15\n20\n25\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\n\n\nANNUAL REPORT 2024-25\n76\ndeficit in electronic goods was driven by deficits in\nelectronics components; and computer hardware\nand peripherals; while telecom instruments\nrecorded a trade surplus of US$ 3.7 billion\n(Chart II.7.16).\nII.7.16\t Coal imports fell by 20.0 per cent (y-o-y)\nin 2024-25, reflecting a decline in volume as well\nas lower import prices (Chart II.7.17). Higher\ndomestic coal production and lower imports for\nblending purposes by thermal power plants42 led\nto a decline in coal imports.\nII.7.17\t Merchandise trade deficit widened to\nUS$ 282.8 billion in 2024-25 from US$ 241.1\nbillion a year ago. Oil deficit accounted for\n43.3 per cent of the total trade deficit (Chart\nII.7.18a). Among the major trading partners,\ntrade deficit with China, Russia and the UAE\nwidened in 2024-25 while surpluses improved in\nrespect of the US, the Netherlands, and the UK\n(Chart II.7.18b).\n4. Invisibles\nII.7.18\t Receipts\npertaining\nto\nIndia\u2019s\ninvisibles\n\u2013\nconsisting\nof\ncross-border\ntransactions in services, income, and transfers\n\u2013 remained buoyant during 2024-25. Net\n42\t 'Coal Imports During April 2024 to February 2025 Drops by 9.2% Compared to Same Period of FY 2023-24', May 13, 2025, PIB.\nChart II.7.14: Gold Imports\nSource: DGCI&S.\nUS$ billion\nTonne\nValue\nVolume (RHS)\n0\n20\n40\n60\n80\n100\n120\n140\n160\n180\n200\n0\n2\n4\n6\n8\n10\n12\n14\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\nUS$ billion\nSource: DGCI&S.\nTelecom Instruments\nElectronics Instruments\nElectronics Components\nElectrodes\nConsumer Electronics\nComputer Hardware, Peripherals\nAccumulators and Batteries\nChart II.7.15: Electronic Goods Imports\n25.1\n34.4\n36.8\n0\n20\n40\n60\n80\n100\n120\n2022-23\n2023-24\n2024-25\nChart II.7.16: Electronics Trade Balance\nUS$ billion\nSource: DGCI&S.\nTelecom Instruments\nElectronics Instruments\nElectronics Components\nElectrodes\nConsumer Electronics\nComputer Hardware, Peripherals\nAccumulators and Batteries\n2022-23\n2023-24\n2024-25\n-21.0\n-29.0\n-31.9\n-70\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The BSE Sensex touched a new high of 85,836 on September 26, 2024.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "reached_high_value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "September 26, 2024"
+          }
+        ],
+        "quote": "touching a new high of 85,836 on September 26, 2024",
+        "subject_surface": "BSE Sensex",
+        "value": {
+          "kind": "quantity",
+          "raw": "85,836"
+        }
+      },
+      {
+        "claim_text": "The BSE MidCap index increased by 5.6 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "increased_by",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "the BSE MidCap and BSE SmallCap, increased by 5.6 per cent and 8 per cent, respectively",
+        "subject_surface": "BSE MidCap",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The BSE SmallCap index increased by 8 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "increased_by",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "the BSE MidCap and BSE SmallCap, increased by 5.6 per cent and 8 per cent, respectively",
+        "subject_surface": "BSE SmallCap",
+        "value": {
+          "kind": "quantity",
+          "raw": "8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "FPIs made net sales of \u20b91.4 lakh crore in the domestic equity market during 2024-25.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "net_sales",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "FPIs made net sales of \u20b91.4 lakh crore in the domestic equity market during 2024-25",
+        "subject_surface": "Foreign Portfolio Investors",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b91.4 lakh crore",
+          "scale": "lakh crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Mutual funds made net purchases of \u20b94.7 lakh crore in 2024-25.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "net_purchases",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Mutual funds made net purchases of \u20b94.7 lakh crore in 2024-25",
+        "subject_surface": "Mutual funds",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b94.7 lakh crore",
+          "scale": "lakh crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Resource mobilisation through preferential allotments and qualified institutional placements (QIPs) rose to \u20b92.2 lakh crore during 2024-25.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "resource_mobilisation",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "resource mobilisation through preferential allotments and qualified institutional placements (QIPs) rose to \u20b92.2 lakh crore during 2024-25",
+        "subject_surface": "preferential allotments and qualified institutional placements",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b92.2 lakh crore",
+          "scale": "lakh crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Resource mobilisation through initial public offerings (IPOs), follow-on public offers (FPOs) and rights issues increased to \u20b92.1 lakh crore during 2024-25.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "resource_mobilisation",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Resource mobilisation through initial public offerings (IPOs), follow-on public offers (FPOs) and rights issues also increased to \u20b92.1 lakh crore",
+        "subject_surface": "initial public offerings (IPOs), follow-on public offers (FPOs) and rights issues",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b92.1 lakh crore",
+          "scale": "lakh crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Issuances by small and medium enterprises (SMEs) raised \u20b99,961 crore during 2024-25.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "resource_mobilisation",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Issuances by small and medium enterprises (SMEs) remained robust, raising \u20b99,961 crore during 2024-25",
+        "subject_surface": "small and medium enterprises",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b99,961 crore",
+          "scale": "crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Net resources mobilised by mutual funds increased to \u20b98.2 lakh crore during 2024-25.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "net_resources_mobilised",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Net resources mobilised by mutual funds increased to \u20b98.2 lakh crore during 2024-25",
+        "subject_surface": "mutual funds",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b98.2 lakh crore",
+          "scale": "lakh crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "Average monthly contribution to mutual funds through the systematic investment plan (SIP) route increased to \u20b924,113 crore in 2024-25.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "average_monthly_contribution",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Average monthly contribution to mutual funds through the systematic investment plan (SIP) route increased to \u20b924,113 crore in 2024-25",
+        "subject_surface": "systematic investment plan",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b924,113 crore",
+          "scale": "crore",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "The Union government contained the gross fiscal deficit (GFD) to 4.7 per cent of GDP in 2024-25 (RE).",
+        "confidence": 1,
+        "passage_id": 67,
+        "predicate": "gross_fiscal_deficit",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25 (RE)"
+          }
+        ],
+        "quote": "During 2024-25 (RE), the Union government contained the gross fiscal deficit (GFD) to 4.7 per cent of GDP",
+        "subject_surface": "Union government",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.7",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Capital expenditure was placed at 3.1 per cent of GDP in 2024-25 (RE).",
+        "confidence": 1,
+        "passage_id": 68,
+        "predicate": "capital_expenditure",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25 (RE)"
+          }
+        ],
+        "quote": "Capital expenditure undershot the BE by \u20b992,682 crore and was placed at 3.1 per cent of GDP in 2024-25 (RE)",
+        "subject_surface": "Union government",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.1",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Gross tax revenue rose to 11.6 per cent of GDP in 2024-25 (RE).",
+        "confidence": 1,
+        "passage_id": 68,
+        "predicate": "gross_tax_revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25 (RE)"
+          }
+        ],
+        "quote": "In 2024-25 (RE), the gross tax revenue exceeded its BE by \u20b913,285 crore, rising to 11.6 per cent of GDP",
+        "subject_surface": "Union government",
+        "value": {
+          "kind": "quantity",
+          "raw": "11.6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The Union Budget 2025-26 targeted a GFD of 4.4 per cent of GDP.",
+        "confidence": 1,
+        "passage_id": 69,
+        "predicate": "gross_fiscal_deficit_target",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2025-26"
+          }
+        ],
+        "quote": "The Union Budget 2025-26 continued with the government\u2019s commitment towards fiscal consolidation by targeting a GFD of 4.4 per cent of GDP",
+        "subject_surface": "Union government",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The consolidated GFD-GDP ratio for states/UTs for 2025-26 is budgeted at 3.3 per cent.",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "gross_fiscal_deficit_budgeted",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2025-26"
+          }
+        ],
+        "quote": "their consolidated GFD-GDP ratio for 2025-26 is budgeted at 3.3 per cent",
+        "subject_surface": "states/UTs",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "General government debt stood at 81.9 per cent of GDP in 2024-25 (BE).",
+        "confidence": 1,
+        "passage_id": 72,
+        "predicate": "debt",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25 (BE)"
+          }
+        ],
+        "quote": "General government debt stood at 81.9 per cent of GDP in 2024-25 (BE)",
+        "subject_surface": "general government",
+        "value": {
+          "kind": "quantity",
+          "raw": "81.9",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global economic growth moderated to 3.3 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 73,
+        "predicate": "economic_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Global economic growth moderated to 3.3 per cent in 2024",
+        "subject_surface": "Global economy",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global economic growth is expected to be 2.8 per cent in 2025.",
+        "confidence": 1,
+        "passage_id": 73,
+        "predicate": "economic_growth_forecast",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2025"
+          }
+        ],
+        "quote": "is expected to be even lower in 2025 (2.8 per cent)",
+        "subject_surface": "Global economy",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India\u2019s merchandise exports increased to US$ 437.4 billion in 2024-25.",
+        "confidence": 1,
+        "passage_id": 75,
+        "predicate": "merchandise_exports",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "India\u2019s merchandise exports increased marginally by 0.1 per cent year-on-year (y-o-y) to US$ 437.4 billion in 2024-25",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "437.4",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "Merchandise imports expanded to US$ 720.2 billion during 2024-25.",
+        "confidence": 1,
+        "passage_id": 75,
+        "predicate": "merchandise_imports",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Merchandise imports expanded by 6.2 per cent (y-o-y) to US$ 720.2 billion during 2024-25",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "720.2",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "Exports of electronic goods expanded by 32.5 per cent (y-o-y) in 2024-25.",
+        "confidence": 1,
+        "passage_id": 76,
+        "predicate": "export_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Exports of electronic goods expanded by 32.5 per cent (y-o-y) in 2024-25.",
+        "subject_surface": "electronic goods",
+        "value": {
+          "kind": "quantity",
+          "raw": "32.5",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Value of gold imports rose to US$ 58.0 billion in 2024-25.",
+        "confidence": 1,
+        "passage_id": 77,
+        "predicate": "import_value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Value of gold imports rose by 27.4 per cent (y-o-y) in 2024-25 to US$ 58.0 billion",
+        "subject_surface": "gold",
+        "value": {
+          "kind": "quantity",
+          "raw": "58.0",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "Imports of electronic goods expanded to US$ 98.7 billion in 2024-25.",
+        "confidence": 1,
+        "passage_id": 77,
+        "predicate": "import_value",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Imports of electronic goods expanded by 12.4 per cent (y-o-y) to US$ 98.7 billion in 2024-25",
+        "subject_surface": "electronic goods",
+        "value": {
+          "kind": "quantity",
+          "raw": "98.7",
+          "unit": "US$ billion"
+        }
+      },
+      {
+        "claim_text": "Merchandise trade deficit widened to US$ 282.8 billion in 2024-25.",
+        "confidence": 1,
+        "passage_id": 79,
+        "predicate": "merchandise_trade_deficit",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Merchandise trade deficit widened to US$ 282.8 billion in 2024-25",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "282.8",
+          "unit": "US$ billion"
+        }
+      }
+    ]
+  }
+}

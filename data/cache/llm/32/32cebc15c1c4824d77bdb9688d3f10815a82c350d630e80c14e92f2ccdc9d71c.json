@@ -1,0 +1,597 @@
+{
+  "key": "32cebc15c1c4824d77bdb9688d3f10815a82c350d630e80c14e92f2ccdc9d71c",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"64\">\n<context>\n[section]\nExternalise our logistics operating system\n</context>\n<text>\ncustom/ purpose-built applications across our various business lines. It has also facilitated machine learning and\nartificial intelligence driven real-time business decision making in our day-to-day operations.\nWe believe that the common standards and guidelines enabled by our OS drive efficiency within the Delhivery\nnetwork and can also reduce high inefficiency costs across traditional siloed supply chain and logistics systems\nglobally. In addition, the ease of use of the underlying logistics OS can be leveraged by new players to create\ncustomized applications and participate in the supply chain markets of the future without having to make\nsignificant technology investments.\nTo this end, we intend to externalize our logistics operating system as a platform and as a SaaS offering by\nenabling other players to build their own web or mobile based applications on top of our logistics operating system.\nSuch players may comprise other logistics service providers, logistics technology companies, enterprises,\ndeveloper partners and our customers, in India and globally. The applications that they develop may serve a variety\nof supply chain use cases. In order to facilitate discovery and monetisation of such applications, we are in the\nprocess of developing an app market place wherein third party developers can list applications, market them and\nset pricing and relevant customers can purchase such applications for deployment in their supply chain. The\napplication market place is currently under development.\nOur ability to collect, structure and analyse transaction data generated in our core logistics can also enable us to\nassess the financial profile of various parties in the supply chain, such as customers, vendors and network partners.\nBy leveraging our data analytics capabilities, we plan to offer financial services such as working capital financing,\ninsurance and personal loans in the future, either on our own or in association with partners.\nCreate new adjacent growth vectors\nWe will continue to develop large, new growth adjacencies that enhance our interlocking flywheel strategy,\nleveraging on our operational scale, rapid growth, large ecosystem of engaged partners, network design,\nsophisticated technology systems and access to vast amounts of data. For example, our ability to collect, structure\nand analyse transaction data derived from our core logistics offerings gives us a unique advantage in terms of\nassessing the financial profile of various parties in the supply chain. By leveraging our data analytics capabilities,\nwe plan to offer financial services such as working capital financing, insurance and personal loans in the future,\neither independently or in association with our partners. Additionally, we plan to offer value added services, such\nas highway assistance and routing and tracking software for fleet owners and suppliers of truckload capacity.\nSimilarly, we have the ability to combine our fulfilment, logistics and payments processing expertise to simplify\ndistribution for our customers in the FMCG and retail verticals.\nExpand into high-growth international markets similar to India\nSeveral emerging markets share operational and structural market challenges that are similar enough to India to\nbenefit from our set of technology and network optimization tools. In Fiscal 2021, we successfully introduced\npart of our fulfilment and transportation technology stack in Bangladesh and Sri Lanka, in collaboration with\nlocal partners. We will continue to expand our presence in other such international markets selectively and\nthrough capital-efficient, partnership-driven models.\nPursue strategic alliances and select acquisition and investment opportunities\nWe will seek strategic alliances with global and domestic leaders in various segments of the logistics industry\nthat bring synergies to our business. We will also continue to look for high-quality acquisition and investment\nopportunities within and outside India that are complementary to our business or that enable us to build new,\n</text>\n</passage>\n\n<passage id=\"65\">\n<context>\n[section]\nExpand into high-growth international markets similar to India\n</context>\n<text>\nlocal partners. We will continue to expand our presence in other such international markets selectively and\nthrough capital-efficient, partnership-driven models.\nPursue strategic alliances and select acquisition and investment opportunities\nWe will seek strategic alliances with global and domestic leaders in various segments of the logistics industry\nthat bring synergies to our business. We will also continue to look for high-quality acquisition and investment\nopportunities within and outside India that are complementary to our business or that enable us to build new,\nvaluable capabilities for our customers, strengthen or establish our presence in our target markets in India and\nglobally, enable us to gain access to software and hardware technology, expand our customer base or gain excess\nto a skilled team.\n\n\n232\nOUR TECHNOLOGY APPLICATIONS\nOperational Applications\nOur key applications are summarized below.\n\u2022\nTransportation Management System (\u201cTMS\u201d)\nTMS orchestrates and tracks shipment and asset movement in real-time across our entire network, including\npartner operations. The TMS order management system identifies relevant order information provided by\nshippers and leverages our proprietary network design and resource allocation tools to identify the optimal\npath for each shipment basis parameters such as size/ weight, mode of transport, speed and custom\nworkflows. It also facilitates easy integration and data exchange with customers and our own ancillary\nsystems for billing and cash management. As of December 31, 2021, the TMS supports over 45 million\nshipment lifecycle events per day and collects over 170 million GPS trace points per day and its distributed\ninfrastructure supports over 350 API endpoints.\n\u2022\nMid-mile System\nThis system orchestrates in-facility activities such as sortation, consolidation, de-consolidation,\nloading/unloading, trans-shipment, line-haul schedule management, tracking and provides detailed\ntraceability of shipments moving through these facilities. In addition, it coordinates real-time capacity\nplanning, activity tracking of in-facility processes and performance monitoring of individual agents. These\nsystems are also integrated with our automated sortation systems, material handling systems and a suite of\nmobile applications that provide detailed instructions to our operations teams for performance of all in-\nfacility activities.\n\u2022\nLast Mile and Dispatch System\nOur last-mile and dispatch systems orchestrate in-facility activities at our own and partner last mile service\ncentres.\nOperators can receive goods, sort them into system determined or manually determined routes, dispatch\nconsignments via our network or third-party agents, track field statuses of dispatched parcels, collect pickup\nand return orders and manage cash through these systems. Field staff (first-party and third-party delivery\nagents) have access to our dispatch application through which they can plan, create and manage their delivery\nroutes, receive guidance to consignee addresses, communicate with consignees while on their delivery route\nand view their performance and earnings. Station managers can also access automated station-level and agent-\nlevel performance scorecards and configurable reports about future loads and capacity requirements for\nforward planning.\n\u2022\nFleet Management System (\u201cFMS\u201d)\nFor the nine months period ended December 31, 2021, our FMS enabled over 435 fleet owners and suppliers\nof fleet capacity, including our self-owned fleet, to register their assets (over 50,000 vehicles) with us, enter\ninto fleet contracts, track their service metrics (quality, usage and earnings) against those contracts and\nmanage claims and disputes.\n\u2022\nWarehouse Management System\n\u201cGodam\u201d, our proprietary WMS, manages order fulfilment operations across multiple online and offline\nchannels and selects and orchestrates transportation services for these orders (truckload, PTL, intra-city\ndistribution, express parcel, heavy goods delivery, etc). Our WMS is integrated with major Indian and\n</text>\n</passage>\n\n<passage id=\"66\">\n<context>\n[section]\nFleet Management System (\u201cFMS\u201d)\n</context>\n<text>\nof fleet capacity, including our self-owned fleet, to register their assets (over 50,000 vehicles) with us, enter\ninto fleet contracts, track their service metrics (quality, usage and earnings) against those contracts and\nmanage claims and disputes.\n\u2022\nWarehouse Management System\n\u201cGodam\u201d, our proprietary WMS, manages order fulfilment operations across multiple online and offline\nchannels and selects and orchestrates transportation services for these orders (truckload, PTL, intra-city\ndistribution, express parcel, heavy goods delivery, etc). Our WMS is integrated with major Indian and\ninternational marketplaces through Primaseller, and with Delhivery transportation services and multiple\nexternal logistics providers, enabling us to provide our customers with the highest quality and lowest cost\nservices at all times. In addition, Godam is designed as a multi-location, multi-tenant 3PL WMS, enabling\nglobal inventory visibility and control and real-time optimization of inventory placement, order allocation\nand order aggregation for our customers.\n\n\n233\n\u2018Godam\u2019 - Order List\n\u2018Godam\u2019 app - Pack and picking\n\n\n234\n</text>\n</passage>\n\n<passage id=\"67\">\n<context>\n[section]\nWarehouse Management System\n</context>\n<text>\ninternational marketplaces through Primaseller, and with Delhivery transportation services and multiple\nexternal logistics providers, enabling us to provide our customers with the highest quality and lowest cost\nservices at all times. In addition, Godam is designed as a multi-location, multi-tenant 3PL WMS, enabling\nglobal inventory visibility and control and real-time optimization of inventory placement, order allocation\nand order aggregation for our customers.\n\n\n233\n\u2018Godam\u2019 - Order List\n\u2018Godam\u2019 app - Pack and picking\n\n\n234\n</text>\n</passage>\n\n<passage id=\"68\">\n<context>\n[section]\nWarehouse Management System\n</context>\n<text>\nexternal logistics providers, enabling us to provide our customers with the highest quality and lowest cost\nservices at all times. In addition, Godam is designed as a multi-location, multi-tenant 3PL WMS, enabling\nglobal inventory visibility and control and real-time optimization of inventory placement, order allocation\nand order aggregation for our customers.\n\n\n233\n\u2018Godam\u2019 - Order List\n\u2018Godam\u2019 app - Pack and picking\n\n\n234\n</text>\n</passage>\n\n<passage id=\"69\">\n<context>\n[section]\nWarehouse Management System\n</context>\n<text>\n234\n\u2022\nOrion: Truckload Freight Brokerage\n\u201cOrion\u201d, our truckload freight brokerage platform, matches demand from shippers with suppliers of\ntruckload capacity in real-time. There are 3 components to the Orion system: (1) the freight matching engine\nthat matches demand and supply based on price and service quality, via a reverse-bidding process through\nour \u201cAxle\u201d application, while also functioning as a financial and operational ledger for our partners; (2)\noperational modules that track execution of contracted truckloads, including matching, real- time tracking,\ndelivery and proof of delivery; and (3) the transaction management system that is deeply integrated with the\noperational modules and manages financial aspects of all transactions.\n\u2018Axle\u2019 - bidding page Orion - tracking of contracted trip\nCustomer and Partner facing Applications\n\u25cf\nPartner Management Toolkit\nThe Partner Management Toolkit enables registration, onboarding and management of third-party agents\nsuch as franchisees, business partners and delivery agents. Partners gain access to our operational and\ncustomer-facing applications through the partner web portal, along with real-time visibility of their service\ncontracts, operational performance and earnings.\nOur \u201cAxle\u201d and \u201cRoadpiper\u201d mobile applications provide real-time order visibility to truckload partners,\nallow them to bid and win contracts and also manage their financial transactions related to the platform.\nThese applications also assist partners to improve their win rates through support features like price guidance\nand advance sharing of truck availability.\n\u2018Axle\u2019 and \u2018Roadpiper\u2019 applications\n\u2022\nCustomer Portals\nWe provide customers with web-based customer portals to register, self-onboard and manage their\nfulfilment and shipping accounts with us. Customers perform all key tasks such as order creation, pickup slot\nbooking, order tracking, escalation management, billing, cash remittance and claims management through\nthese portals.\nThese customer portals are being consolidated into a single Unified Customer Portal (\u201cUCP\u201d) using which\ncustomers will be able to access all of our services and manage their accounts through a single interface.\nUCP will also offer value-added services like online channel integration, data products like returns\nprediction and fraud detection and service products like customized shipping notifications.\n\u2022\nSupply Chain Solutions Products\n\u201cTelescope\u201d, our supply chain visibility product for enterprises, provides a configurable, end-to-end view\nof our customers\u2019 entire supply chain. This is accomplished through integration between customer ERPs and\nour WMS and TMS systems, coupled with our proprietary supply chain analytics engine. This enables\ncustomers to take real-time data-driven decisions regarding inventory placement, order aggregation,\noptimal order to inventory allocation (while meeting constraints of cost and time) and optimal selection of\ntransportation modes and partners. In addition, through Primaseller, we are able to provide multi-channel\nintegrations (online as well as offline), order management and inventory virtualization capabilities that are\nprominently used by D2C and omni-channel retailers.\n\u2018Telescope\u2019 - Order Visibility\n\u2018Telescope\u2019 - Warehouse Performance\n\u2022\nConsumer Applications\nWe launched our Delhivery Direct service in June 2021 to provide door-to-door domestic shipping services\nto individual consumers from the comfort of their homes. Consumers can check shipping rates, book and\n\n\n235\ntrack consignments through the Direct web-portal (https://direct.delhivery.com/). We are in the process of\ndeveloping a mobile application for consumers to register and track all of their current and historic orders\nand customize the delivery process by providing delivery slot preferences, geo-location and address\npreferences and specific delivery instructions.\nDelhivery Direct Application\nDATA APPLICATIONS\n\u25cf\nLocation Intelligence:\nOur location stack is based on our address resolution engine, \u201cAddfix\u201d and geocoding engines. We combine\n</text>\n</passage>\n\n<passage id=\"70\">\n<context>\n[section]\nConsumer Applications\n</context>\n<text>\ntrack consignments through the Direct web-portal (https://direct.delhivery.com/). We are in the process of\ndeveloping a mobile application for consumers to register and track all of their current and historic orders\nand customize the delivery process by providing delivery slot preferences, geo-location and address\npreferences and specific delivery instructions.\nDelhivery Direct Application\nDATA APPLICATIONS\n\u25cf\nLocation Intelligence:\nOur location stack is based on our address resolution engine, \u201cAddfix\u201d and geocoding engines. We combine\nthese with vast amounts of GPS data to tackle problems such as enrichment and classification of addresses,\ninferring travel times and identification of landmarks and locality attributes.\n\u2022\nProduct Intelligence:\nOur deep learning tool, \u201cCatfi8\u201d, classifies unstructured product data into categories with detailed attributes\n- identifying goods as essential, liquid, fragile, air restricted, etc. This tool was particularly critical in\nimmediately identifying and mobilizing essential goods during COVID-19 lockdowns.\n\u2022\nCapacity Planning:\nOur applied machine learning systems predict expected transit and arrival times for shipments within the\nnetwork and adjust these in real-time in response to environmental factors, thereby enabling operators to\nidentify at-risk facilities and plan adequate capacity in advance.\n\u2022\nNetwork Design:\nWe use our \u201cNetplan\u201d product combined with our location stack to rapidly map unstructured addresses to\nappropriate delivery centres, identify optimal facility location and minimize distance travelled by shipments,\nhelping to manage costs in response to changing demand patterns.\n.\nNetplan illustration\n\u2022\nService Recovery:\nNetwork monitoring applications and services provide end-to-end visibility of service performance risks to\nour central Control Tower that can instruct operational teams to intervene timely and maintain service\nquality.\n\u2022\nDynamic Mid-mile Operations:\nWe use optimization algorithms and simulation to dynamically route inter-city consignments based on the\ncurrent state of the network to ensure service precision and vehicle utilization.\n\u2022\nPerformance Management:\nWe use machine learning to analyse operational data and develop customized KPI targets and compensation\nstructures for our teams and partners across our operations.\n\u2022\nParcel Routing:\nBased on shipment parameters, geographical and traffic factors our systems automatically generate optimal\ndispatch sequences that simplify loading and unloading process and improve productivity of our last mile\noperations.\n\n\n236\nParcel routing illustration\n\u2022\nInventory Placement:\nOur technology systems forecast goods demand and drive stocking and replenishment decisions at our\nfulfilment centers, thereby reducing transportation and inventory costs and also reducing overall fulfilment\ntimelines.\n\u2022\nSecurity:\nWe use historical behavior patterns to predict delivery risks such as non-acceptance of packages or potential\nfraud and use machine vision to identify product mismatches at our sortation centers and automate our PoD\nprocesses.\nSECURITY AND SAFETY\nThe safety and security of our employees, customers, partners, facilities, assets and data is of paramount\nimportance. We are a registered corporate full member of the Transported Asset Protection Association (\u201cTAPA\u201d),\nthe industry body for establishing security standards in logistics and supply chain.\nFacilities\nOur facility at Air Cargo Logistics Center, IGI Airport, New Delhi has received an ISO 45000 certification in\nrecognition of its health and safety management systems. Our facilities are equipped with all required safety\nequipment including physical security, security cameras, fire detection alarms and fire extinguishers. As of\nDecember 31, 2021, we have over 39,000 high resolution CCTV cameras installed across our network that are\nmonitored by a central security control room. We also deploy AI-based intrusion detection solutions. All major\ngateways are also equipped with X-ray machines to screen high value parcels and for identifying hazardous goods.\n</text>\n</passage>\n\n<passage id=\"71\">\n<context>\n[section]\nSECURITY AND SAFETY\n</context>\n<text>\nrecognition of its health and safety management systems. Our facilities are equipped with all required safety\nequipment including physical security, security cameras, fire detection alarms and fire extinguishers. As of\nDecember 31, 2021, we have over 39,000 high resolution CCTV cameras installed across our network that are\nmonitored by a central security control room. We also deploy AI-based intrusion detection solutions. All major\ngateways are also equipped with X-ray machines to screen high value parcels and for identifying hazardous goods.\nWe have teams and processes in place to handle materials so identified as per industry best practices and local\nregulations at all points in our network.\nSecurity personnel\nWe employed over 1,607 guards and over 750 security personnel as of December 31, 2021. Selected personnel are\nalso TAPA Facility Security Requirements and Trucking Security Requirements certified.\nRoad safety\nRegular safety training is imparted to our drivers including training for steps to be followed in case of any accidents.\nOur vehicles are also tracked via GPS to detect any anomalies and prevent accidents or theft. We follow a stringent\ntesting process for our drivers for consumption of any prohibited substances and undertake measures such as health\ncheckups to ensure drivers are physically fit. Vehicles used in our network are equipped with safety devices as per\napplicable regulations.\n\n\n237\nHealth and safety\nWe train employees at our facilities regularly on general safety guidelines and safe work procedures and undertake\nregular safety drills. The monthly injury rate in our network stood at 0.20 per thousand employees (on-roll as\nwell as off-roll) as of December 31, 2021. In addition, we conduct regular health camps for our workforce and\nhave ambulances available at our key centers.\nDisaster recovery and business continuity\nWe are committed to maintaining the continuity of our business, including all activities, systems, facilities and\nprocesses which are necessary to provide services to our clients and customers. Accordingly, we have set up a\ndisaster recovery and business continuity plan which sets out the details of the individuals responsible for disaster\nassessment and the procedures to be followed in the event of a disaster. In the event of a disaster that interferes\nwith our ability to conduct our business, the plan will be implemented by the individuals responsible for\ncoordinating the business recovery of their respective areas or departments to minimize the impact on the quality\nof our services. The disaster assessment team is responsible for assessing the extent of the damage and loss,\nidentifying, characterizing and quantifying the damages, defining and prioritizing the actions and resources to\nreduce immediate risks, identifying the priority of actions required and estimating the additional support required\nfor recovery. In addition, we have established various controls and safety devices to minimize the potential\nimpacts of a fire, an electricity or IT outage, disasters related to our data and applications and breakdowns of our\nsorters, and to preserve the health and safety of our workforce, including smoke detection systems, emergency\nevacuation drills with fire brigades in larger facilities, mandatory online trainings on fire and safety on a quarterly\nbasis, regular audits and checks of wiring and connections and database backups, per the established policies.\nOUR TEAM\nAs of December 31, 2021, excluding Spoton, we had 15,392 permanent employees worldwide and engaged\nmanpower agencies to provide us with a temporary workforce, which included 36,956 contracted workers\n(excluding daily wage manpower, security guards and Spoton), as of December 31, 2021. In addition, excluding\nSpoton, we had 33,836 last mile delivery agents in the month of December 2021. Spoton had 1,831 permanent\nemployees and 261 contract workers as of December 31, 2021. Our network partners hire their own employees\naccording to their operational needs. None of our employees are represented by a labour union. We maintain a\n</text>\n</passage>\n\n<passage id=\"72\">\n<context>\n[section]\nOUR TEAM\n</context>\n<text>\nmanpower agencies to provide us with a temporary workforce, which included 36,956 contracted workers\n(excluding daily wage manpower, security guards and Spoton), as of December 31, 2021. In addition, excluding\nSpoton, we had 33,836 last mile delivery agents in the month of December 2021. Spoton had 1,831 permanent\nemployees and 261 contract workers as of December 31, 2021. Our network partners hire their own employees\naccording to their operational needs. None of our employees are represented by a labour union. We maintain a\ngood working relationship with our employees, and we have not experienced any work stoppages since our\nincorporation.\nThe following table provides a breakdown of our employees (excluding those employed by Spoton) by function\nas of December 31, 2021.\nFunction\nNo. of employees\nOperations and Network Design\n13,355\nSales & Business Development\n598\nEngineering, Data Sciences and Product\n505\nCustomer Service\n432\nOther Corporate Functions\n502\nTotal\n15,392\nINTELLECTUAL PROPERTY\nWe rely on a combination of trademarks, copyrights and patents in India and other jurisdictions in which we\noperate, as well as confidentiality procedures and contractual provisions to protect our intellectual property.\nWe have filed the following patents in India and/or the U.S., which are currently pending:\n\u2022\nSystem and Method for Selecting a Distribution Centre for Delivery of Goods to a Destination Address\n\n\n238\n(India/US)\n\u2022\nSystem and Method for Assigning a Unique Identification to an Address and Optimizing the Same\n(India/US)\n\u2022\nSystem and Method for Validating Accuracy of Geographic Location for an Address (India/US)\n\u2022\nSystem and Method for Assigning a Unique Identification to an Address (India/US)\n\u2022\nSystem and Method for Generating and Optimizing Dynamic Dispatch Plans (India)\nIn addition, we have filed for two patents in India with respect to (i) tamper free packaging box with perforations\nand interlocking flaps; and (ii) tuck lock packaging box with perforations and interlocking flaps. Further, we have\nregistered the design for a \u2018multi format bag\u2019 in India.\nAs on the date of this Prospectus, we have a number of trademark registrations in India, including but not limited\nto, \u201cDelhivery\u201d, \u201cDelhivery ENABLING ECOMMERCE\u201d, \u201cDelhivery Small World\u201d and, certain overseas\nTrademark registrations specifically in the UK and Singapore. Certain trademark applications are pending before\nthe relevant intellectual property authorities in China and the U.S. While we have numerous trademark\nregistrations in India under classes 35, 39 and 42 our core services lie in class 39. Further, we have copyright\nregistrations duly registered with the Registrar of Copyrights in accordance with the Copyright Act 1957.\nPROPERTY\nOur registered office is situated on leased premises at N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite\nGate 6 Cargo Terminal, IGI Airport, New Delhi \u2013 110037, India. The lease is valid until May 31, 2022 with an\noption to renew the lease. Our corporate office (also our headquarters) is situated on leased premises at Plot 5,\nSector 44, Gurugram- 122002, Haryana, India. The lease is valid until May 31, 2024 with an option to renew the\nlease.\nAs of December 31, 2021, excluding Spoton, we leased 2,835 properties with 14.61 million square ft. of space\nacross our fulfilment centres, warehouses, sort centers, gateways, service centres, distribution centres, return\ncentres, intermediate processing centres and offices in India. In addition, Spoton had leased 169 properties with\n2.88 million sq. ft. of space across warehouses, gateways and service centers in India as of December 31, 2021.\nPursuant to the FedEx Asset Purchase Agreement which came into effect on December 5, 2021, ownership of\nnine facilities aggregating 12,671 sq. ft. is in the process of being transferred from to us from FedEx.\nTypically, we enter into short term and medium-term lease arrangements for our various properties and are subject\nto lock-in for a certain duration over the respective term of such lease. We are required to pay a security deposit,\n</text>\n</passage>\n\n<passage id=\"73\">\n<context>\n[section]\nPROPERTY\n</context>\n<text>\n2.88 million sq. ft. of space across warehouses, gateways and service centers in India as of December 31, 2021.\nPursuant to the FedEx Asset Purchase Agreement which came into effect on December 5, 2021, ownership of\nnine facilities aggregating 12,671 sq. ft. is in the process of being transferred from to us from FedEx.\nTypically, we enter into short term and medium-term lease arrangements for our various properties and are subject\nto lock-in for a certain duration over the respective term of such lease. We are required to pay a security deposit,\nspecified monthly rentals and common area maintenance charges for the duration of the relevant agreement,\nsubject to periodic escalations at agreed rates with an option to renew the lease upon lease expiry.\nINSURANCE\nWe maintain various insurance policies to safeguard against risks and unexpected events. We maintain insurance\ncoverage under various insurance policies for, among other things, standard fire and special perils policy, burglary\ninsurance policies, fire floater policies, marine cargo insurance policies, package insurance policies including for\ncarriers legal liability insurance policy, group mediclaim policy, group personal accident insurance policies,\nmachinery insurance policy, directors\u2019 and officers\u2019 liability policy, special contingency insurance policy for\ndishonesty and fidelity for employees (covering any loss of money or other property sustained due to any\nfraudulent or dishonest acts of employees). Further, we also maintain insurance policies for terrorism and cyber\nsecurity. We have purchased compulsory motor vehicle liability insurance and commercial insurance such as\nautomobile third-party liability insurance, vehicle loss insurance and driver/passenger liability insurance.\nWe purchase inland insurance to protect goods and assets against unforeseen events. Our end customers may pay\nextra fees to purchase our priority handling services for valuable items and we will compensate those customers\nbased on the value declared in the case of item loss or damage attributable to us. We do not maintain business\ninterruption insurance nor do we maintain product liability insurance, however we do maintain a carriers legal\nliability insurance with extended coverage over land/rail and including air cargo, ocean cargo and couriers for\nsafeguard against liability arising due to hired vehicles, riots, strikes and malicious damages at warehouse or at\ntrans-shipment yards/shortage due to theft or pilferage of cargo while in custody of carriers, flood or water damage\nor damage by any other cargo and breakage, leakage and damage due to improper handling. Our management\nevaluates the adequacy of our insurance coverage from time to time and purchases additional insurance policies\nas needed.\n\n\n239\nDATA PROTECTION AND PRIVACY\nWe collect vast amounts of operational data to help us automate and optimize critical business decisions. In order\nto create a secure, accessible and efficient framework for managing big data, our Enterprise Data Architecture\nleverages decentralised data mesh architecture and data governance to provide fine-grained access management\nacross our data assets, along with decentralised ownership, monitoring and risk auditing.\nWe subject our technology stack to numerous organizational and technical measures to identify, protect, detect,\nrespond and recover from cyber security attacks and data breaches. Our web and mobile applications and servers\nundergo thorough regular manual & automated security assessment to identify vulnerabilities to be remediated.\nWe are compliant with ISO 27001 requirements and Information Technology General Control testing. We ensure\nstrict access control to applications, servers, databases and data warehouses considering least privilege principle.\nWe ensure security of data at rest and in-transit through various means including pseudonymisation,\nmasking and encryption. We scrutinize our existing controls through various internal and external audits to\n</text>\n</passage>\n\n<passage id=\"74\">\n<context>\n[section]\nDATA PROTECTION AND PRIVACY\n</context>\n<text>\nundergo thorough regular manual & automated security assessment to identify vulnerabilities to be remediated.\nWe are compliant with ISO 27001 requirements and Information Technology General Control testing. We ensure\nstrict access control to applications, servers, databases and data warehouses considering least privilege principle.\nWe ensure security of data at rest and in-transit through various means including pseudonymisation,\nmasking and encryption. We scrutinize our existing controls through various internal and external audits to\nidentify and remediate technical process inefficiencies.\nRespect for data privacy is core to Delhivery. We are implementing controls across the organization that comply\nwith applicable regulatory and contractual data protection requirements, in line with expected Indian privacy law\nand European GDPR guidelines.\nWe have access to a large amount of confidential information in our day-to-day operations. Each waybill may\ncontain the names, addresses, phone numbers and other contact information of the sender and recipient of a\nshipment. The content of the shipment may also constitute or reveal confidential information. Thus, the proper\nuse and protection of confidential information is essential to maintaining customer trust in us and our services.\nAs our business depends on our customers\u2019 trust in us and our platform, we are committed to protecting our\ncustomers\u2019 personal data. Our data protection and privacy policies are aimed at ensuring that (i) our collection and\nstorage of personal data is conducted in accordance with applicable laws and regulations, (ii) the personal data\nwe collect are reasonable for the purposes for which they are collected and (iii) our customers and business partner\nare informed of the purposes for which their personal data are collected and used.\nWe use various encryption technologies at software and hardware levels to protect the transmission and storage\nof personal data. We also use anti-malware, end-point protection, network protection, security monitoring and\napplication and platform security tools to protect data privacy. To minimize the risk of data loss or leakage, we\nmaintain contingency, redundancy and conduct regular data backup and data recovery tests.\nOUR SOCIAL RESPONSIBILITY\nWe have formulated a Corporate Social Responsibility (\u201cCSR\u201d) policy in accordance with the requirements of the\nCompanies Act, 2013 and the rules thereunder. Our Board of Directors has also constituted a CSR Committee,\nwhich recommends the amount of expenditure to be incurred on CSR activities and monitors our CSR policy from\ntime to time. For further details on the composition of the CSR Committee, see \u201cOur Management \u2013 Board\nCommittees \u2013 Corporate Social Responsibility Committee\u201d on page 270.\nOur COVID-19 Response\nThe COVID-19 pandemic has disrupted the way we lead our lives. We have modified our business practices to\nminimize the risk of COVID-19 to our employees, our customers and the communities in which we participate.\nOur first response to the pandemic was to put in place WHO safety guidelines regarding sanitization and social\ndistancing. We shut down our physical offices in the first week of March 2020 in anticipation of nationwide\nlockdowns and began preparations to maintain operational continuity. Due to nationwide lockdowns announced\nin March 2020, our parcel volumes declined to zero for a period of one week. However, we were able to retool\nour network to deliver essential goods as per government directives across over 8,300 PIN codes by the first week\nof April. Our network remained operational and we continued to provide uninterrupted logistics support\nthereafter, including through the second wave of COVID-19 during the first half of 2021.\nPost the second wave, we have undertaken free vaccination drives for employees of our Company. In addition,\nwe have taken measures to support our teams by reimbursing medical expenses, providing statutory or sustenance\npay irrespective of volumes and operating free quarantine centers and healthcare services for anybody\n</text>\n</passage>\n\n<passage id=\"75\">\n<context>\n[section]\nOur COVID-19 Response\n</context>\n<text>\nof April. Our network remained operational and we continued to provide uninterrupted logistics support\nthereafter, including through the second wave of COVID-19 during the first half of 2021.\nPost the second wave, we have undertaken free vaccination drives for employees of our Company. In addition,\nwe have taken measures to support our teams by reimbursing medical expenses, providing statutory or sustenance\npay irrespective of volumes and operating free quarantine centers and healthcare services for anybody\nrecommended by our employees and our network partners. Apart from this, we continue to permit corporate staff\n\n\n240\nto work remotely, have suspended all non-essential business travel and continue to hold meetings and events\nvirtually.\nDuring the period of April to June 2021, we partnered with Hunger Heroes to import 8,419 oxygen concentrators.\nWe partnered with \u201cACT grants\u201d and others to import 35,875 oxygen concentrators, oxygen plants, oxygen\ncylinders, equipment required to set up new oxygen plants and various medical supplies from around the world\nand distributed them across India.\nOther CSR Initiatives\nContributing to the well-being and development of the communities we operate in is an important pillar of our\nCSR initiatives. In addition, our vast network and logistics capabilities are designed to be resilient in even extreme\noperating conditions. Another area of focus for our CSR activities, therefore, is to effectively deliver relief services\nduring natural calamities, in partnership with local and state authorities.We have in the past undertaken relief work\nin regions hit by cyclones and floods by delivering food and essential supplies to such areas. Our Board, pursuant\nto its resolution dated October 22, 2021, approved an annual contribution of \u20b910.00 million for the next two and\nhalf years, towards the Olympic Gold Quest, a program oriented towards assisting athletes for the Olympics. Since\nMay 2021, we have also been associated as the logistic partner of Goonj, a non-governmental organization that\nundertakes disaster relief, humanitarian aid and community development in India.\nCertain Financial Data\nWe incurred restated losses for the year/period of \u20b917,833.04 million, \u20b92,689.26 million, \u20b94,157.43 million,\n\u20b92,974.92 million and \u20b98,911.39 million in Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine month periods\nended December 31, 2020 and December 31, 2021, respectively. The restated losses included a fair value loss on\nfinancial liabilities at fair value through profit or loss of \u20b914,806.64 million, nil, \u20b991.95 million, nil and \u20b92,997.39\nmillion in Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine month periods ended December 31, 2020 and\nDecember 31, 2021, respectively. The fair value loss in Fiscal 2019 relates to an increase in the fair market value\nof our buyback obligations for certain CCCPS as per the terms of these CCCPS, in accordance with Ind AS 109\naccounting standards. The terms of these CCCPS were modified in Fiscal 2019, following which the buyback\nobligations were no longer applicable, resulting in no fair value losses in Fiscal 2020. The non-cash fair value loss\nin Fiscal 2021 and the nine months period ended December 31, 2021 was due to an increase in fair market value\nof Series G CCCPS as per the terms of these CCCPS in accordance with Ind AS 109 accounting standards. These\nobligations did not affect our cash flow in any period. All CCCPS have been converted to Equity Shares prior to\nthe filing of the Red Herring Prospectus with the RoC. Accordingly, we do not expect any impact on fair value\ngoing forward.\nWe also had unbilled receivables of \u20b91,414.26 million, \u20b92,748.43 million, \u20b93,668.22 million and \u20b96,797.75\nmillion as of Fiscal 2019, Fiscal 2020, Fiscal 2021 and December 31, 2021, respectively. Unbilled receivables\nconsist of contract assets, that primarily relate to the Company\u2019s rights to consideration for work completed but\nnot billed at the reporting date. The contract assets are transferred to the receivables when the rights become\n</text>\n</passage>\n\n<passage id=\"76\">\n<context>\n[section]\nCertain Financial Data\n</context>\n<text>\nthe filing of the Red Herring Prospectus with the RoC. Accordingly, we do not expect any impact on fair value\ngoing forward.\nWe also had unbilled receivables of \u20b91,414.26 million, \u20b92,748.43 million, \u20b93,668.22 million and \u20b96,797.75\nmillion as of Fiscal 2019, Fiscal 2020, Fiscal 2021 and December 31, 2021, respectively. Unbilled receivables\nconsist of contract assets, that primarily relate to the Company\u2019s rights to consideration for work completed but\nnot billed at the reporting date. The contract assets are transferred to the receivables when the rights become\nunconditional. Primarily, unbilled receivables pertain to revenue for last month of the reporting period in which\nservices were provided. In adddition, we had other receivables of \u20b951.86 million, \u20b967.12 million, \u20b954.44 million\nand \u20b953.74 million as of Fiscal 2019, Fiscal 2020, Fiscal 2021 and December 31, 2021, respectively.\nFiscal\n2019\nFiscal\n2020\nFiscal 2021\nNine\nmonths\nperiod\nended\nDecember\n31,\n2020\nNine\nmonths\nperiod\nended\nDecember\n31,\n2021\n(\u20b9 in million)\nOpening balance:\n988.93\n1,414.26\n2,748.43\n2,748.43\n3,668.22\nAdd:\ncontract\nasset\ncreated\nduring\nthe\nperiod/year\n1,414.26\n2,748.43\n3,668.22\n3,995.34\n6,797.75\nLess:\nContact\nasset\nbilled\nduring\nthe\nperiod/year\n(988.93)\n(1,414.26)\n(2,748.43)\n(2,748.43)\n(3,668.22)\n1,414.26\n2,748.43\n3,668.22\n3,995.34\n6,797.75\n\u201cCredit impairment of trade receivables\u201d pertains to allowance for doubtful debts or write-off of bad debts which\nthe Company recognises as per the accounting policy of \u2018Impairment of financial assets\u2019. Please refer to\n\n\n241\n\u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations\u201d on page 520 for\nfurther details.\nFor Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months period ended December 31, 2020 and 2021, the\nCompany had an allowance for doubtful debts of \u20b9275.40  million, \u20b9447.91 million, \u20b9894.78 million, \u20b9762.82\nmillion  and \u20b9892.47 million, respectively, and bad debts written-off of \u20b936.10 million, \u20b911.06 million, \u20b94.45\nmillion, \u20b94.44 million and \u20b91.51 million, respectively. In addition, in Fiscal 2021 the Company had recorded cost\ntowards exceptional items - allowance for doubtful debts of \u20b9413.30 million on account of anticipated non-\nrecoverability of receivables, primarily due to restrictions imposed on certain of our customers from operating\ntheir business in India. Since this issue had not occurred earlier, the management of the Company has considered\nit to be outside of the ordinary course of business and accordingly disclosed it as \u201cExceptional Items\u201d in the\nRestated Financial Statements.\n\n\n246\n</text>\n</passage>\n\n<passage id=\"77\">\n<context>\n[section]\n(\u20b9 in million)\n</context>\n<text>\nmillion, \u20b94.44 million and \u20b91.51 million, respectively. In addition, in Fiscal 2021 the Company had recorded cost\ntowards exceptional items - allowance for doubtful debts of \u20b9413.30 million on account of anticipated non-\nrecoverability of receivables, primarily due to restrictions imposed on certain of our customers from operating\ntheir business in India. Since this issue had not occurred earlier, the management of the Company has considered\nit to be outside of the ordinary course of business and accordingly disclosed it as \u201cExceptional Items\u201d in the\nRestated Financial Statements.\n\n\n246\nHISTORY AND CERTAIN CORPORATE MATTERS\nBrief history of our Company\nOur Company was incorporated as \u201cSSN Logistics Private Limited\u201d, a private limited company under the\nCompanies Act, 1956, pursuant to a certificate of incorporation issued by the RoC on June 22, 2011. Subsequently,\nthe name of our Company was changed to \u201cDelhivery Private Limited\u201d, pursuant to a fresh certificate of\nincorporation issued by the RoC on December 8, 2015. On the conversion of our Company to a public limited\ncompany, pursuant to a resolution passed by our Shareholders on September 29, 2021 our name was changed to\n\u201cDelhivery Limited\u201d and a fresh certificate of incorporation was issued by the RoC on October 12, 2021.\nChanges in the Registered Office\nExcept as disclosed below, there has been no change in the registered office of our Company since the date of\nincorporation.\nDate of change\nDetails of change in the registered office\nReasons for change\nAugust 1, 2011\nRegistered office moved from B-32, Swasthya Vihar,\nDelhi 110092 to F 7, Bandu Vihar Apartments, Plot No.\n11, Sector 10, Dwarka, New Delhi 110075 Delhi, India\nAdministrative convenience\nDecember 16, 2014\nRegistered office moved from F 7, Bandu Vihar\nApartments, Plot No. 11, Sector 10, Dwarka, New Delhi\n110075 to B-244, Okhla Industrial Estate, Phase I, New\nDelhi 110020 Delhi, India\nAdministrative convenience\nAugust 30, 2017\nRegistered office moved from B-244, Okhla Industrial\nEstate, Phase I, New Delhi 110020 to A-29 (Back part),\nMohan Co-operative Industrial Estate, New Delhi 110044\nDelhi, India\nAdministrative convenience\nJune 25, 2020\nRegistered office moved from A-29 (Back part), Mohan\nCo-operative Industrial Estate, New Delhi 110044 to N24-\nN34, S24-S34, Air Cargo Logistics Centre-II, Opposite\nGate 6 Cargo Terminal, Indira Gandhi International\nAirport, New Delhi 110037 Delhi, India\nAdministrative convenience\nMain objects of our Company\nThe main objects clause as contained in the Memorandum of Association enable our Company to undertake its\nexisting activities. The main objects contained in our Memorandum of Association are as follows:\n1.\nTo provide logistics and delivery solutions to consumers and a wide range of businesses, to provide\nlogistics means, option and facilities to all kinds of business houses, corporates on contract or otherwise.\n2.\nTo provide web hosting, internet content development, web interface, web sites design, domain name\nservices, and website maintenance services to other businesses.\nAmendments to the Memorandum of Association\nSet out below are the amendments to our Memorandum of Association in the last 10 years:\nDate of Shareholder\u2019s\nresolution/ Effective date\nParticulars\nNovember 7, 2011\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b9100,000 divided into 10,000 equity shares of \u20b910 each to \u20b96,000,000 divided\ninto 600,000 equity shares of \u20b910 each.\nJanuary 30, 2012\nClause III (C) of the Memorandum of Association was amended to reflect the change in the\n\u2018other objects\u2019 of the Company.\nMarch 26, 2012\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b96,000,000 to \u20b99,000,000 divided into 600,000 equity shares of \u20b910 each and\n300,000 preference shares of \u20b910 each.\nJuly 19, 2013\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\n</text>\n</passage>\n\n<passage id=\"78\">\n<context>\n[section]\nAmendments to the Memorandum of Association\n</context>\n<text>\ninto 600,000 equity shares of \u20b910 each.\nJanuary 30, 2012\nClause III (C) of the Memorandum of Association was amended to reflect the change in the\n\u2018other objects\u2019 of the Company.\nMarch 26, 2012\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b96,000,000 to \u20b99,000,000 divided into 600,000 equity shares of \u20b910 each and\n300,000 preference shares of \u20b910 each.\nJuly 19, 2013\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b99,000,000 divided into 600,000 equity shares of \u20b910 each and 300,000\npreference shares of \u20b910 each to \u20b954,000,000 divided into 600,000 equity shares of \u20b910 each,\n3,00,000 preference shares of \u20b910 each and 450,000 preference shares of \u20b9100 each.\n\n\n247\nDate of Shareholder\u2019s\nresolution/ Effective date\nParticulars\nJune 28, 2014\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b954,000,000 divided into 600,000 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each and 450,000 preference shares of \u20b9100 each to \u20b958,500,000\ndivided into 600,000 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each, 450,000\npreference shares of \u20b9100 each and 45,000 preference shares of \u20b9100 each.\nJuly 24, 2014\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b958,500,000 divided into 600,000 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each, 450,000 preference shares of \u20b9100 each and 45,000 preference\nshares of \u20b9100 each to \u20b9134,500,000 divided into 1,200,000 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each, 450,000 preference shares of \u20b9100 each and 745,000 preference\nshares of \u20b9100 each.\nMarch 27, 2015\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b9134,500,000 divided into 1,200,000 equity shares of \u20b910 each, 3,00,000\npreference shares of \u20b910 each, and 450,000 preference shares of \u20b9100 each and 745,000\npreference shares of \u20b9100 each. to \u20b9174,500,000 divided into 1,200,000 equity shares of \u20b910\neach and 3,00,000 preference shares of \u20b910 each, and 1,595,000 preference shares of \u20b9100 each\nNovember 24, 2015\nClause I of the Memorandum of Association was amended to reflect the change in name from\n\u2018SSN Logistics Private Limited\u2019 to \u2018Delhivery Private Limited\u2019\nSeptember 14, 2016\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b9174,500,000 divided into 1,200,000 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each, and 1,595,000 preference shares of \u20b9100 each to \u20b9204,500,000\ndivided into 1,200,000 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n1,895,000 preference shares of \u20b9100 each\nMarch 2, 2017\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b9204,500,000 divided into 1,200,000 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each and 1,895,000 preference shares of \u20b9100 each to \u20b9288,533,700\ndivided into 1,200,000 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n2,735,337 preference shares of \u20b9100 each\nJune 19, 2017\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b9288,533,700 divided into 1,200,000 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each and 2,735,337 preference shares of \u20b9100 each to \u20b9290,135,980\ndivided into 1,360,228 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n2,735,337 preference shares of \u20b9100 each\nNovember 6, 2018\nClause V of the Memorandum of Association was amended to reflect the increase in authorized\nshare capital from \u20b9290,135,980 divided into 1,360,228 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each and 2,735,337 preference shares of \u20b9100 each to \u20b9440,135,980\ndivided into 1,360,228 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n</text>\n</passage>\n\n<passage id=\"79\">\n<context>\n[section]\nAmendments to the Memorandum of Association\n</context>\n<text>\ndivided into 1,360,228 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n2,735,337 preference shares of \u20b9100 each\nNovember 6, 2018\nClause V of the Memorandum of Association was amended to reflect the increase in authorized\nshare capital from \u20b9290,135,980 divided into 1,360,228 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each and 2,735,337 preference shares of \u20b9100 each to \u20b9440,135,980\ndivided into 1,360,228 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n4,235,337 preference shares of \u20b9100 each\nMarch 11, 2020\nClause V of the Memorandum of Association was amended to reflect the increase in authorized\nshare capital from \u20b9440,135,980 divided into 1,360,228 equity shares of \u20b910 each, 3,00,000\npreference shares of \u20b910 each and 4,235,337 preference shares of \u20b9100 each to \u20b9446,535,980\ndivided into 2,000,228 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n4,235,337 preference shares of \u20b9100 each\nFebruary 1, 2021\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b9446,535,980 divided into 2,000,228 equity shares of \u20b910 each, 300,000\npreference shares of \u20b9100 each and 4,235,337 preference shares of \u20b9100 each to \u20b9456,035,980\ndivided into 2,200,228 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n4,310,337 preference shares of \u20b9100 each\nAugust 5, 2021\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b9456,035,980 divided into 2,200,228 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each and 4,310,337 preference shares of \u20b9100 each to \u20b9492,535,980\ndivided into 2,350,228 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n4,660,337 preference shares of \u20b9100 each\nSeptember 27, 2021\nClause V of the Memorandum of Association was amended to reflect the increase in authorised\nshare capital from \u20b9492,535,980 divided into 2,350,228 equity shares of \u20b910 each, 300,000\npreference shares of \u20b910 each and 4,660,337 preference shares of \u20b9100 each to \u20b91,192,535,980\ndivided into 72,350,228 equity shares of \u20b910 each, 300,000 preference shares of \u20b910 each and\n4,660,337 preference shares of \u20b9100 each\nSeptember 29, 2021\nClause V of the Memorandum of Association was amended to reflect the sub-division in\nauthorized share capital from \u20b91,192,535,980 divided into 72,350,228 equity shares of \u20b910\neach, 300,000 preference shares of \u20b910 each and 4,660,337 preference shares of \u20b9100 each to\n\u20b91,192,535,980 divided into 723,502,280 equity shares of \u20b91 each, 300,000 preference shares\nof \u20b910 each and 4,660,337 preference shares of \u20b9100 each\n\n\n248\nDate of Shareholder\u2019s\nresolution/ Effective date\nParticulars\nSeptember 29, 2021\nClause I of the Memorandum of Association was amended to reflect the change in name from\n\u2018Delhivery Private Limited\u2019 to \u2018Delhivery Limited\u2019\nOctober 15, 2021\nClause V of the Memorandum of Association was amended to reflect the increase in authorized\nshare capital from \u20b91,192,535,980 divided into 723,502,280 Equity Shares of \u20b91 each, 300,000\nPreference Shares of \u20b910 each and 4,660,337 Preference Shares of \u20b9100 each to \u20b91,342,535,980\ndivided into 873,502,280 Equity Shares of \u20b91 each, 300,000 Preference Shares of \u20b910 each and\n4,660,337 of \u20b9100 each\nMajor events and milestones of our Company\nThe table below sets forth some of the key events in our history:\nCalendar\nYear\nMilestone\n2011\nIncorporation of our Company as a logistics services provider\n2011\nLaunch of Transportation Management System\n2013\nLaunch of Warehouse Management System\n2013\nCommencement of fulfilment business\n2014\nLaunch of Netplan, our network design tool\n2015\nLaunch of Addfix, our address resolution engine\n2015\nLaunch of automated sorters in our network\n2015\nCommencement of self-managed express surface line-haul network\n2016\nCommencement of part truckload services (PTL service offering)\n2016\nLaunch of \u2018Constellation\u2019, partner managed last mile delivery network\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "As of December 31, 2021, the TMS supports over 45 million shipment lifecycle events per day.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "supports_shipment_lifecycle_events_per_day",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "As of December 31, 2021, the TMS supports over 45 million shipment lifecycle events per day",
+        "subject_key": null,
+        "subject_surface": "Transportation Management System",
+        "value": {
+          "kind": "quantity",
+          "raw": "45 million",
+          "scale": "million"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, the TMS collects over 170 million GPS trace points per day.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "collects_gps_trace_points_per_day",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "collects over 170 million GPS trace points per day",
+        "subject_key": null,
+        "subject_surface": "Transportation Management System",
+        "value": {
+          "kind": "quantity",
+          "raw": "170 million",
+          "scale": "million"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, the TMS distributed infrastructure supports over 350 API endpoints.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "supports_api_endpoints",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "its distributed infrastructure supports over 350 API endpoints.",
+        "subject_key": null,
+        "subject_surface": "Transportation Management System",
+        "value": {
+          "kind": "quantity",
+          "raw": "350"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the FMS enabled over 435 fleet owners and suppliers of fleet capacity to register their assets.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "enabled_fleet_owners_and_suppliers_to_register_assets",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "For the nine months period ended December 31, 2021, our FMS enabled over 435 fleet owners and suppliers of fleet capacity",
+        "subject_key": null,
+        "subject_surface": "Fleet Management System",
+        "value": {
+          "kind": "quantity",
+          "raw": "435"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the FMS enabled the registration of over 50,000 vehicles.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "enabled_registration_of_vehicles",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "to register their assets (over 50,000 vehicles) with us",
+        "subject_key": null,
+        "subject_surface": "Fleet Management System",
+        "value": {
+          "kind": "quantity",
+          "raw": "50,000"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Delhivery has over 39,000 high resolution CCTV cameras installed across its network.",
+        "confidence": 1,
+        "passage_id": 70,
+        "predicate": "cctv_cameras_installed",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "As of December 31, 2021, we have over 39,000 high resolution CCTV cameras installed across our network",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "39,000"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Delhivery employed over 1,607 guards.",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "guards_employed",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "We employed over 1,607 guards and over 750 security personnel as of December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,607"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Delhivery employed over 750 security personnel.",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "security_personnel_employed",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "We employed over 1,607 guards and over 750 security personnel as of December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "750"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, the monthly injury rate in the Delhivery network stood at 0.20 per thousand employees.",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "monthly_injury_rate",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "The monthly injury rate in our network stood at 0.20 per thousand employees (on-roll as well as off-roll) as of December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.20",
+          "unit": "per thousand employees"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Delhivery had 15,392 permanent employees worldwide (excluding Spoton).",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "permanent_employees",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "excluding Spoton"
+          }
+        ],
+        "quote": "As of December 31, 2021, excluding Spoton, we had 15,392 permanent employees worldwide",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "15,392"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Delhivery had 36,956 contracted workers (excluding daily wage manpower, security guards and Spoton).",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "contracted_workers",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "excluding daily wage manpower, security guards and Spoton"
+          }
+        ],
+        "quote": "which included 36,956 contracted workers (excluding daily wage manpower, security guards and Spoton), as of December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "36,956"
+        }
+      },
+      {
+        "claim_text": "In December 2021, Delhivery had 33,836 last mile delivery agents (excluding Spoton).",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "last_mile_delivery_agents",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "month of December 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "excluding Spoton"
+          }
+        ],
+        "quote": "excluding Spoton, we had 33,836 last mile delivery agents in the month of December 2021.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "33,836"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton had 1,831 permanent employees.",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "permanent_employees",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "Spoton had 1,831 permanent employees and 261 contract workers as of December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Spoton",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,831"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton had 261 contract workers.",
+        "confidence": 1,
+        "passage_id": 71,
+        "predicate": "contract_workers",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "Spoton had 1,831 permanent employees and 261 contract workers as of December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Spoton",
+        "value": {
+          "kind": "quantity",
+          "raw": "261"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Delhivery (excluding Spoton) leased 2,835 properties.",
+        "confidence": 1,
+        "passage_id": 72,
+        "predicate": "properties_leased",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "excluding Spoton"
+          }
+        ],
+        "quote": "As of December 31, 2021, excluding Spoton, we leased 2,835 properties",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,835"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Delhivery (excluding Spoton) leased 14.61 million square ft. of space.",
+        "confidence": 1,
+        "passage_id": 72,
+        "predicate": "leased_space",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "excluding Spoton"
+          }
+        ],
+        "quote": "with 14.61 million square ft. of space",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "14.61",
+          "scale": "million",
+          "unit": "million square ft."
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton leased 169 properties.",
+        "confidence": 1,
+        "passage_id": 72,
+        "predicate": "properties_leased",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "Spoton had leased 169 properties",
+        "subject_key": null,
+        "subject_surface": "Spoton",
+        "value": {
+          "kind": "quantity",
+          "raw": "169"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton leased 2.88 million sq. ft. of space.",
+        "confidence": 1,
+        "passage_id": 72,
+        "predicate": "leased_space",
+        "qualifiers": [
+          {
+            "key": "as_of",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "with 2.88 million sq. ft. of space",
+        "subject_key": null,
+        "subject_surface": "Spoton",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.88",
+          "scale": "million",
+          "unit": "million sq. ft."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "key": "6549fbb110c7afd565e01de073259a57b1a4d9664483fa49c9d018fb2efd098b",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"32\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Report as Annexure-1. Further, contribution of subsidiaries\n</context>\n<text>\nCommittee for their review and discussion.\nAuditors & Auditors Report:\nStatutory Auditors\nThe members at its 12th AGM held on September 27, 2023,\napproved the appointment of M/s. Deloitte Haskins & Sells\nLLP (Firm Registration No.117366W/W-100018), Chartered\nAccountants, as the statutory auditors for the term of five (5)\nconsecutive years, i.e. from the conclusion of the 12th AGM till\nthe conclusion of 17th AGM of the Company to be held in the\ncalendar year 2028 in place of M/s. S. R. Batliboi & Associates\nLLP (Firm Registration No. 101049W/E300004), Chartered\nAccountants, whose tenure expired at the conclusion of\n12th AGM.\nThe report of the Statutory Auditors forms part of the Annual\nReport for FY24. The said report does not contain any\nqualification, reservation, adverse remark or disclaimer.\nSecretarial Auditors\nThe Board appointed M/s. VAPN & Associates, (Registration\nNo. P2015DE045500) Practicing Company Secretaries, as\nthe Secretarial Auditors to conduct Secretarial Audit of your\nCompany for FY24 as per the provisions of Section 204 of the\nAct. The Secretarial Audit Report for the FY24 is annexed to\nthis Report as Annexure-3.\nThe Secretarial Auditors have given remarks in its report\nstating that the Company has allotted equity shares after\nexpiry of 60 days from the date of receipt of the consideration/\nremittance upon exercise of ESOPs and violated the provisions\nof Foreign Exchange Management Act, 1999 (\u201cFEMA\u201d) read\nwith Foreign Exchange Management (Mode of Payment\nand Reporting of Non-Debt Instruments) Regulations, 2019,\nfurthermore, the Company has filed compounding application\nfor above said contravention with FED, CO Cell, Foreign\nExchange Department Reserve Bank, New Delhi and same is\npending before the compounding authority.\nThe Board at its meeting held on May 17, 2024, noted the said\nremarks and stated that the delay in the allotment of shares\nwas on account of non-receipt of FIRC and KYC from AD Bank\nwithin the stipulated time frame, despite multiple follow-ups.\nThe Company has filed a Compounding application with RBI\nin this regard in the month of February 2024 and is awaiting\nfor RBI\u2019s order on it.\nFurther, the Board has appointed M/s. VAPN & Associates as\nthe Secretarial Auditors of the Company for FY25.\nInternal Auditor\nPursuant to the provisions of Section 138 of the Act and\nthe Companies (Accounts) Rules, 2014, Mr. Jitendra Khatri,\nChartered Accountant, who holds the designation of Senior\nVice President-Internal Audit in the Company was appointed\nas Internal Auditor by the Board to conduct internal audit of\nyour Company for FY24. Mr. Jitendra Khatri reports to the\nChairperson of the Audit Committee. The findings of the\nInternal Audit report are submitted to the Audit Committee\non a periodic basis and corrective actions are taken by the\nrespective functional teams as per suggestions of the Internal\nAuditor and Audit Committee.\nFurther, the Board has re-appointed Mr. Jitendra Khatri as the\nInternal Auditor of your Company for FY25.\nDisclosure regarding frauds\nDuring the year, there were no frauds reported by the\nAuditors to the Audit Committee, the Board or to the Central\nGovernment under Section 143(12) of the Act.\nCost Records and Audit\nMaintenance of cost records as specified by Central\nGovernment under Section 148(1) of the Act is not applicable\nto your Company.\nAnnual Return\nThe Annual Return in Form MGT - 7 for the FY24 pursuant to\nSection 92(3) read with Section 134(3)(a) of the Act and Rules\nmade thereunder, is available on the website of your Company\nat https://www.delhivery.com/company/investor-relations.\nDisclosure as per the Sexual Harassment of\nWomen at Workplace (Prevention, Prohibition\nand Redressal) Act, 2013\nYour Company has zero tolerance towards sexual harassment\nat the workplace. Your Company has adopted a policy on\nprevention, prohibition and redressal of sexual harassment\nat workplace in line with the provisions of the Sexual\nHarassment of Women at Workplace (Prevention, Prohibition\nand Redressal) Act, 2013 and the Rules made thereunder.\n</text>\n</passage>\n\n<passage id=\"33\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Report as Annexure-1. Further, contribution of subsidiaries\n</context>\n<text>\nat https://www.delhivery.com/company/investor-relations.\nDisclosure as per the Sexual Harassment of\nWomen at Workplace (Prevention, Prohibition\nand Redressal) Act, 2013\nYour Company has zero tolerance towards sexual harassment\nat the workplace. Your Company has adopted a policy on\nprevention, prohibition and redressal of sexual harassment\nat workplace in line with the provisions of the Sexual\nHarassment of Women at Workplace (Prevention, Prohibition\nand Redressal) Act, 2013 and the Rules made thereunder.\nYour Company has complied with the provisions relating to\nthe constitution of the Internal Committee as per the Sexual\nHarassment of Women at Workplace (Prevention, Prohibition\nand Redressal) Act, 2013.\nThe details of sexual harassment complaints that were filed,\ndisposed of and pending during the financial year are provided\nin the Business Responsibility and Sustainability Report of\nthis Annual Report.\nDownstream Investment\nYour Company is in compliance with applicable laws\nregarding downstream investment as per Foreign Exchange\nManagement (Non-debt Instruments) Rules, 2019, issued\nby Reserve Bank of India (\u201cRBI\u201d) and has obtained requisite\ncertificate from the statutory auditors in this regard.\nCorporate Social Responsibility (\u201dCSR\u201d) Policy\nYour Company has adopted a CSR Policy and has undertaken\nCSR activities on a voluntary basis towards a sustainable\ncommunity development and CSR activities are aligned to\nthe requirements of Section 135 of the Act. The CSR policy\nis available on the website of your Company at https://www.\ndelhivery.com/company/investor-relations. The Annual\nReport on CSR activities, in terms of Section 135 of the Act\nand the Rules framed thereunder, is annexed to this Report\nas Annexure-4. More details are mentioned in the Corporate\nGovernance Report forming part of this Report.\nRisk Management\nRisk Management is an integral part of the strategy and\nplanning process of your Company. The Board has formed a\nRisk Management Committee to frame, implement and monitor\nthe Risk Management policy/framework of your Company. The\nCommittee is responsible for monitoring and reviewing the risk\nmanagement framework and ensuring its effectiveness. Your\nCompany has a risk management policy and framework in place\nto identify, assess and mitigate risks appropriately. The Policy\nis available on the website of your Company at https://www.\ndelhivery.com/company/investor-relations. The approach to\nrisk management is designed to provide reasonable assurance\nthat the assets are safeguarded, the risks facing the business\nare being assessed and mitigated and all information that may\nbe required to be disclosed is reported to Senior Management,\nthe Audit Committee, the Risk Management Committee and\nthe Board.\nThe Audit Committee has additional oversight in the areas\nof financial risks and controls and the major risks identified\nby the business and functions are systematically addressed\non a continuous basis. The details of the Risk Management\nCommittee and its functions are furnished in the Corporate\nGovernance Report forming of this Report. More details on\nrisk management are furnished in the MD&A report forming\npart of this Report. There are no risks which, in the opinion of\nthe Board, threaten the existence of your Company.\nParticulars of Employees\nDisclosures pertaining to remuneration and other details\nas required under Section 197(12) of the Act, read with Rule\n5(1) of the Companies (Appointment and Remuneration\nof Managerial Personnel) Rules, 2014, are attached as\nAnnexure-5 forming part of this Report.\nIn terms of Section 197(12) of the Act, read with Rule 5(2) and\n5(3) of the Companies (Appointment and Remuneration of\nManagerial Personnel) Rules, 2014, a statement showing\nthe names and other particulars of the employees drawing\nremuneration in excess of limits set out in said rules\nforms part of this Report. Considering the provisions of\nSection 136 of the Act, the Annual Report, excluding the\naforesaid information, is being sent to the Members of the\n</text>\n</passage>\n\n<passage id=\"34\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > as Annexure-4. More details are mentioned in the Corporate\n</context>\n<text>\nof Managerial Personnel) Rules, 2014, are attached as\nAnnexure-5 forming part of this Report.\nIn terms of Section 197(12) of the Act, read with Rule 5(2) and\n5(3) of the Companies (Appointment and Remuneration of\nManagerial Personnel) Rules, 2014, a statement showing\nthe names and other particulars of the employees drawing\nremuneration in excess of limits set out in said rules\nforms part of this Report. Considering the provisions of\nSection 136 of the Act, the Annual Report, excluding the\naforesaid information, is being sent to the Members of the\nCompany and others entitled thereto. The said information is\navailable for inspection by members at the registered office\nof the Company or through electronic mode during business\nhours on working days up to the date of the forthcoming AGM.\nAny Member interested in obtaining a copy thereof may send\nan email to corporateaffairs@delhivery.com.\nHuman Resources and Employee Relations/\nDevelopment\nThrough the course of FY24, your Company undertook a host\nof people-related initiatives to ensure an environment that\nemphasises inclusivity, respect, empathy as well as employee\nwellbeing. Your Company strives to build a culture where\nemployees are encouraged to deliver their best, showcase\nintegrity, teamwork, client-centricity and grow along side\nthe organisation.\nYour Company ramped up the headcount of female employees\nby 59% in FY24, compared to an overall headcount increase\nof 11%. Company\u2019s first all-women operated Hub was\ninaugurated in Moga (Punjab) in March 2024.\nThe development of internal talent was prioritised\nthrough training, job rotations, internal job postings and\nDirectors\u2019 Report (Contd.)\nAnnual Report 2023-24\n51\n50\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\ncross-functional projects. 1,509 employees internally\nmoved into new roles and 423 employees were promoted\nthrough the year. Internal leaders were appointed in multiple\nsenior-level positions such as Chief People Officer and\nSVP-Business Development.\nDepending on operational needs, individual requirements\nand business goals, Delhivery Academy conducted different\ntypes of sessions which included induction trainings, refresher\ntrainings, upskilling trainings, metrics awareness trainings,\nfacility performance Trainings and Compliance Trainings. In\nFY24, your company trained 12,104 employees in Operations,\nCustomer Service & Business Development.\nWith a keen focus on the physical and mental wellbeing of\nemployees, instructor-led physical wellness sessions were\nstarted at offices and large operational facilities. 1,880\nemployees at corporate offices and over 10,000 employees\nat operations facilities participated in these sessions.\nAdditionally, sensitization sessions were conducted to help\nemployees combat mental health issues. The Employee\nAssistance Programme continued to provide employees\naccess to professional counsellors for personal and work\nrelated issues.\nThe reach and frequency of the Delhivery Skills Development\nProgramme expanded in FY24, from a single-location\nquarterly cadence to a concurrent multi-city programme\nrun every month. SDP batches were held across 8 cities in\nthe country and 588 employees were eventually hired after\ncompleting a 3-week training curriculum and multiple rounds\nof assessments.\nIn Q3FY24, your Company organised a series of Pan-India\nOperations Roadshows, attended by over 29,000 employees\nspread across 19 cities, where they interacted with the\nleadership teams in-person and were encouraged to put in\ntheir best efforts to ensure a successful festive peak season.\nFurther details about these initiatives are present in the People\nInitiatives section of the Annual Report.\nManagement Discussion and Analysis Report\n(\u201cMD&A Report\u201d)\nThe MD&A Report for FY24, as stipulated under Regulation 34\nof the SEBI Listing Regulations, is annexed separately forming\npart of this Report.\nBusiness Responsibility and Sustainability Report\n(\u201cBRSR\u201d)\nThe BRSR for FY24, as stipulated under Regulation 34(2)(f) of\n</text>\n</passage>\n\n<passage id=\"35\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > as Annexure-4. More details are mentioned in the Corporate\n</context>\n<text>\nleadership teams in-person and were encouraged to put in\ntheir best efforts to ensure a successful festive peak season.\nFurther details about these initiatives are present in the People\nInitiatives section of the Annual Report.\nManagement Discussion and Analysis Report\n(\u201cMD&A Report\u201d)\nThe MD&A Report for FY24, as stipulated under Regulation 34\nof the SEBI Listing Regulations, is annexed separately forming\npart of this Report.\nBusiness Responsibility and Sustainability Report\n(\u201cBRSR\u201d)\nThe BRSR for FY24, as stipulated under Regulation 34(2)(f) of\nthe SEBI Listing Regulations, is annexed separately forming\npart of this Report.\nCorporate Governance\nYour Company has complied with the applicable corporate\ngovernance requirements under the Act and SEBI Listing\nRegulations. A separate section on corporate governance,\nalong with a certificate from the practicing company secretary\nconfirming Corporate Governance compliances is annexed\nforming part of this Report.\nPrevention of Insider Trading\nYour Company has adopted a Code of Conduct for Prevention\nof Insider Trading, in accordance with the requirements of\nSecurities and Exchange Board of India (Prohibition of Insider\nTrading) Regulations, 2015, as amended from time to time.\nThe said Code is available on the website of your Company\nat https://www.delhivery.com/company/investor-relations.\nFurther, the violations against the Code are reported to the\nAudit Committee from time to time and details of the same\nare placed before the Audit Committee on a periodic basis for\ntheir perusal and necessary action.\nOther Disclosures\nIn terms of the applicable provisions of the Act and the\nSEBI Listing Regulations, your Company provides following\nadditional disclosures as on March 31, 2024:\ny No equity shares with differential rights as to dividend,\nvoting or otherwise have been issued.\ny No sweat equity shares have been issued.\ny No buyback of shares has been undertaken.\ny None of your Directors have received any remuneration or\ncommission from any subsidiary of the Company.\ny Requirement of one time settlement with Banks or Financial\nInstitutions was not applicable.\ny No amount or Shares were required to be transferred to the\nInvestor Education and Protection Fund.\ny Your Company has complied with the provisions of the\napplicable secretarial standards issued by the Institute of\nCompany Secretaries of India.\ny 99.99% share capital of your Company has\nbeen dematerialised.\ny No application was required to be made by or against\nyour Company and no proceeding is pending under the\nInsolvency and Bankruptcy Code, 2016.\ny No significant and material order was passed by the\nregulators or courts or tribunals impacting the going\nconcern status and your Company\u2019s future operations.\nCautionary Statement\nStatements in this Report and the Management Discussion\n& Analysis Report describing the Company\u2019s objectives,\nexpectations or forecasts may be forward-looking within the\nmeaning of applicable laws and regulations. Actual results\nmay differ from those expressed in the statements.\nAcknowledgement\nThe success of your Company is directly linked to hard work\nand commitment of the employees who worked round the\nclock to ensure the business continuity and exceptional\nservice quality offerings for the customers.\nThe Board wishes to place on record its sincere appreciation to\nall employees for their hard work, dedication, commitment and\nefforts put in by them for achieving encouraging results under\ndifficult conditions during this year. The Board also wishes to\nexpress its sincere appreciation and gratitude to all customers,\nsuppliers, banks, financial institutions, solicitors, advisors,\nGovernment of India, concerned State Governments and other\nregulatory & statutory authorities for their consistent support\nand cooperation extended to your Company during the year.\nThe Board is deeply grateful to the Members of the Company\nfor continuing to entrust their confidence and faith in\nthe Company.\nOn behalf of the Board of Directors\n</text>\n</passage>\n\n<passage id=\"36\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > as Annexure-4. More details are mentioned in the Corporate\n</context>\n<text>\ndifficult conditions during this year. The Board also wishes to\nexpress its sincere appreciation and gratitude to all customers,\nsuppliers, banks, financial institutions, solicitors, advisors,\nGovernment of India, concerned State Governments and other\nregulatory & statutory authorities for their consistent support\nand cooperation extended to your Company during the year.\nThe Board is deeply grateful to the Members of the Company\nfor continuing to entrust their confidence and faith in\nthe Company.\nOn behalf of the Board of Directors\nFor Delhivery Limited\nSahil Barua\nDeepak Kapoor\nManaging Director &\nChairperson & Non-Executive\nChief Executive Officer\nIndependent Director\nDIN: 05131571\nDIN: 00162957\nPlace: Goa\nPlace: New Delhi\nDate: July 05, 2024\nDirectors\u2019 Report (Contd.)\nAnnual Report 2023-24\n53\n52\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nDirectors\u2019 Report (Contd.)\nAnnexure-1\nFORM AOC-1\n(Pursuant to first proviso to sub-section (3) of section 129 read with rule 5 of Companies (Accounts) Rules, 2014)\nStatement containing salient features of the financial statement of subsidiaries/associate companies/joint ventures as on March 31, 2024\nPART A: SUBSIDIARIES\nAmount in Million\nSI.\nNo. Particulars\n1.\nName of the Subsidiary\nDelhivery USA\nLLC\nDelhivery\nCorp Limited,\nUnited\nKingdom\nDelhivery HK\nPte Ltd., Hong\nKong\nDelhivery\nCross Border\nServices\nPrivate\nLimited\nOrion Supply\nChain Private\nLimited\nDelhivery\nFreight\nServices\nPrivate\nLimited\nSpoton\nLogistics\nPrivate\nLimited\nSpoton\nSupply Chain\nSolutions\nPrivate\nLimited\nDelhivery\nSingapore Pte\nLtd.\nDelhivery\nRobotics LLC\nDelhivery\nBangladesh\nLogistics\nPrivate Ltd.\nAlgorhythm\nTech Private\nLimited\n2.\nThe date since when subsidiary was\nacquired (dd/mm/yyyy)\n23-05-2016\n16-03-2016\n03-08-2018\n12-12-2015\n06-12-2019\n21-04-2020\n24-08-2021\n24-08-2021\n02-08-2021\n23-08 2021\n23-01-2023\n13-01-2023\n3.\nReporting period for the subsidiary\nconcerned, if different from the holding\ncompany\u2019s reporting period\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\n4.\nReporting currency\nUSD\nGBP\nHKD\nINR\nINR\nINR\nINR\nINR\nUSD\nUSD\nBDT\nINR\n5.\nExchange rate as on the last date of the\nrelevant Financial year in the case of\nforeign subsidiaries\n83.37\n104.12\n10.65\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\nNot\napplicable\n83.37\n83.37\n0.76\nNot\napplicable\n6.\nShare Capital\n894.09\n233.61\n20.81\n55.10\n0.10\n2.03\n206.41\n0.50\n355.67\n297.89\n23.09\n3.26\n7.\nReserves & Surplus\n(1,058.93)\n(223.42)\n34.82\n(154.33)\n(370.94)\n402.93\n(120.39)\n29.94\n193.75\n(258.65)\n(17.18)\n(76.72)\n8.\nTotal assets\n65.98\n10.56\n83.44\n77.66\n81.98\n1,491.09\n1,356.94\n264.88\n551.05\n140.43\n9.53\n16.22\n9.\nTotal liabilities\n230.82\n0.37\n27.81\n176.89\n452.82\n1,086.13\n1,270.92\n234.44\n1.63\n101.19\n3.62\n89.68\n10. Investments\n-\n-\n-\n-\n-\n-\n425.30\n-\n320.98\n-\n-\n-\n11. Total Turnover\n-\n-\n66.11\n-\n337.98\n6,760.07\n2,531.39\n650.83\n-\n28.03\n-\n34.32\n12. Profit/(loss) before tax\n(315.03)\n(0.34)\n0.61\n(9.68)\n(60.14)\n(240.92)\n(29.80)\n(15.47)\n(1.26)\n(183.45)\n(15.93)\n(42.81)\n13. Tax Expense\n-\n-\n-\n-\n-\n-\n219.76\n6.51\n-\n-\n-\n-\n14. Profit/(loss) after tax\n(315.03)\n(0.34)\n0.61\n(9.68)\n(60.14)\n(240.92)\n(249.56)\n(21.98)\n(1.26)\n(183.45)\n(15.93)\n(42.81)\n15. Proposed Dividend\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n16. Extent of shareholding (in percentage)\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\nNotes:\n1.\n\u0007Names of subsidiaries which are yet to commence operations: Delhivery Logistics (Shenzhen) Company Limited was statutorily incorporated during the FY23, but no fund infusion has been done yet\nand the company is non-operative as on date.\n2.\nNames of subsidiaries which have been liquidated or sold during the year: Not Applicable.\n3.\nReporting period for all the subsidiaries is April 01, 2023 to March 31, 2024.\nPART B: ASSOCIATES\nStatement pursuant to Section 129(3) of the Companies Act, 2013 related to Associate Companies and Joint\nVentures*:\n</text>\n</passage>\n\n<passage id=\"37\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Deepak Kapoor\n</context>\n<text>\n\u0007Names of subsidiaries which are yet to commence operations: Delhivery Logistics (Shenzhen) Company Limited was statutorily incorporated during the FY23, but no fund infusion has been done yet\nand the company is non-operative as on date.\n2.\nNames of subsidiaries which have been liquidated or sold during the year: Not Applicable.\n3.\nReporting period for all the subsidiaries is April 01, 2023 to March 31, 2024.\nPART B: ASSOCIATES\nStatement pursuant to Section 129(3) of the Companies Act, 2013 related to Associate Companies and Joint\nVentures*:\nSI.\nNo.\nParticulars\n1.\nName of associates\nFalcon Autotech  Private Limited\n2.\nLatest audited Balance Sheet Date\nMarch 31, 2024\n3.\nDate on which the Associate was associated or acquired\nJanuary 04, 2022\n4.\nShares of Associate held by the Company at the end of the year\ni.\nNumber of shares (Equity & Preference)\n694,067 Equity shares\nii.\nAmount of Investment in Associates\n3,019.35 million\niii.\nExtent of Holding\n40.98% (Non-Diluted basis) and 39.34% (Fully Diluted basis)\n5.\nDescription of how there is significant influence\nBy way of shareholding\n6.\nReason why the associate is not consolidated\nThe share of profit & loss of the associate has been consolidated in the\nprofit & loss account of the Company\n7.\nNet worth attributable to shareholding as per latest audited\nBalance Sheet\n\u20b9924.69 million\n8.\nProfit/(Loss) for the year\n\u20b9229.42 million\n9.\ni.\nConsidered in Consolidation\n\u20b986.95 million\nii.\nNot Considered in Consolidation\n\u20b9142.47 million\n* As on March 31, 2024, there is no Joint Venture pursuant to section 129(3) of Companies Act, 2013.\n1.\nNames of associates which are yet to commence operations: Not Applicable\n2.\nNames of associates which have been liquidated or sold during the year: Not Applicable\nOn behalf of the Board of Directors\nFor Delhivery Limited\nSahil Barua\nKapil Bharati\nManaging Director and Chief Executive Officer\nExecutive Director and Chief Technology Officer\nDIN: 05131571\nDIN: 02227607\nPlace: Goa\nPlace: New Delhi\nAmit Agarwal\nMadhulika Rawat\nChief Financial Officer\nCompany Secretary\nPlace: London\nPlace: Mumbai\nDate: July 05, 2024\nAnnual Report 2023-24\n55\n54\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nAnnexure-2\nParticulars of Energy Conservation, Technology Absorption and Foreign Exchange Earnings and Outgo\n[Pursuant to Companies (Accounts) Rules, 2014]\n(A)\nConservation of Energy\n(i)\nThe steps taken or impact on conservation of energy \u2013\nYour Company is committed to utilise renewable electricity in its offices, facilities & other premises and uses energy efficient devices\nand has a total installed capacity of 4.6 MW solar power plant at various facilities.\n(ii)\nThe steps taken by your Company for utilising alternate sources of energy \u2013\ny\nInstalled capacity of 4.6 MW Solar Power Plant as on March 31, 2024.\ny\nReducing carbon footprint through tech technology solutions for better routing in the middle mile and last mile, higher truck/bike\nutilisation; use of fuel efficient, Volvo tractor trailers etc.\nOur efforts have thus translated into ~20% reduction in the overall logistics intensity in FY24 when compared with FY23\ny\nDown from 229.1 gCO2e/tonne-km in FY23 which is a 19.61% reduction.\n(iii)\nThe capital investment on energy conservation equipments \u2013 Nil\n(B)\nTechnology absorption\n(i)\nThe efforts made towards technology\nabsorption\nBusiness Growth:\ny\nLaunched PTL on flagship customer portal - Delhivery One and to improve experience\nof existing PTL customers and cross-sell PTL to existing Express customers.\ny\nLaunched heavy goods shipping for end consumers via Delhivery app and Direct\nweb portal.\ny\nLaunched new VAS - RTO predictor (on Delhivery One and OS1) to help companies\nreduce RTO rates, Geocoding APIs (on OS1).\nService Improvement :\ny\nImproved mapper to reduce misroutes in the Company\u2019s network by ~15%.\ny\nExpanded PTL Last Mile VAS to Retail customers to improve PTL yield for the segment.\ny\nLaunched in-house AI-powered ticketing system to improve customer service.\n</text>\n</passage>\n\n<passage id=\"38\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Madhulika Rawat\n</context>\n<text>\nof existing PTL customers and cross-sell PTL to existing Express customers.\ny\nLaunched heavy goods shipping for end consumers via Delhivery app and Direct\nweb portal.\ny\nLaunched new VAS - RTO predictor (on Delhivery One and OS1) to help companies\nreduce RTO rates, Geocoding APIs (on OS1).\nService Improvement :\ny\nImproved mapper to reduce misroutes in the Company\u2019s network by ~15%.\ny\nExpanded PTL Last Mile VAS to Retail customers to improve PTL yield for the segment.\ny\nLaunched in-house AI-powered ticketing system to improve customer service.\ny\nMajor rehaul of WMS and integrations with transportation to improve inbound as well\nas outbound operations in FCs.\nClients/Consignees/Partners experience:\ny\nImproved tracking experience by providing more accurate delivery date, and more\nself-help options on tracking page.\ny\nUse historical data to generate an automated product catalog with weights and\ndimensions to bill B2C clients accurately.\nFinancial Systems and Controls:\ny\nImproved controls in prepaid B2C offering to accurately identify where to charge on\nvolumetric basis, reducing revenue leakage significantly.\ny\nImproved PTL billing systems to bring down time to bill, and reduce DSO.\nPlatform:\ny\nLaunched second product on Platform (OS1) - TransportOne.\ny\nHardware Automation:\nDelhivery\u2019s focus on hardware automation has continued through FY24 as the Company\ninvested more in sortation, weighing/dimensioning equipment and new technologies:\na.\n\u0007Shipment and box sortation \u2013 added new capacity and introduced new\nenhancements to improve shipment handling\nb.\n\u0007Weighing and dimensioning - added more static and dynamic profilers. Introduced\nnew machines which use camera/image based dimensioning technology\nc.\n\u0007Autonomous mobile robots and shuttle based sorting: Initiated pilots for new\ntechnologies which can help increase efficiency of operations\ny\nCompleted in-house designing of new drone. Manufacturing of the prototype completed\nwith partners and testing conducted by the US based team to further refine the design.\n(ii)\nThe benefits derived like product\nimprovement, cost reduction, product\ndevelopment or import substitution \u2013\n(iii)\nIn case of imported technology (imported\nduring last three years reckoned from the\nbeginning of the financial year):\na)\nthe details of technology imported\nNA\nb)\nthe year of import\nNA\nc)\n\u0007whether the technology been fully\nabsorbed\nNA\nd) if not fully absorbed, areas where\nabsorption has not taken place, and the\nreasons thereof\nNA\n(iv)\nThe expenditure incurred on Research and\nDevelopment\nNA\n(C)\nForeign exchange earnings and Outgo\nThe Foreign Exchange earned in terms of actual inflows during FY24 has been \u20b9193.13 million (FY23: \u20b9357.45 million) and the Foreign\nExchange outgo during FY24 in terms of actual outflows has been \u20b91,339.5 million (FY23: \u20b92,184.20 million).\nOn behalf of the Board of Directors\nFor Delhivery Limited\nSahil Barua\nDeepak Kapoor\nManaging Director & Chief Executive Officer\nChairperson & Non-Executive Independent Director\nDIN: 05131571\nDIN: 00162957\nPlace: Goa\nPlace: New Delhi\nDate: July 05, 2024\nDirectors\u2019 Report (Contd.)\nAnnual Report 2023-24\n57\n56\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nDirectors\u2019 Report (Contd.)\nAnnexure-3\nForm No. MR-3\nSecretarial Audit Report\nFor the Financial Year ended March 31, 2024\n[Pursuant to Section 204(1) of the Companies Act, 2013 and Rule No. 9 of the Companies\n(Appointment and Remuneration of Managerial Personnel) Rules, 2014]\nTo,\nThe Members,\nDelhivery Limited\nCIN: L63090DL2011PLC221234\nReg. Off:\t\u0007\n\u0007N24-N34, S24-S34, Air Cargo Logistics Centre-\nII, Opposite Gate 6 Cargo Terminal, IGI Airport,\nNew Delhi 110037\nCorp. Off:\u0007\nPlot No. 5, Sector-44, Gurugram, Haryana 122002\nWe have conducted Secretarial Audit of compliance with\nthe applicable statutory provisions and adherence to good\ncorporate practices by Delhivery Limited (hereinafter called\nthe \u201cCompany\u201d) for the Financial Year ended March 31, 2024\n(\u2018the year\u2019/\u2018audit period\u2019/\u2018year under review\u2019). Secretarial Audit\n</text>\n</passage>\n\n<passage id=\"39\">\n<context>\n[page header]\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Deepak Kapoor\n</context>\n<text>\nCIN: L63090DL2011PLC221234\nReg. Off:\t\u0007\n\u0007N24-N34, S24-S34, Air Cargo Logistics Centre-\nII, Opposite Gate 6 Cargo Terminal, IGI Airport,\nNew Delhi 110037\nCorp. Off:\u0007\nPlot No. 5, Sector-44, Gurugram, Haryana 122002\nWe have conducted Secretarial Audit of compliance with\nthe applicable statutory provisions and adherence to good\ncorporate practices by Delhivery Limited (hereinafter called\nthe \u201cCompany\u201d) for the Financial Year ended March 31, 2024\n(\u2018the year\u2019/\u2018audit period\u2019/\u2018year under review\u2019). Secretarial Audit\nwas conducted in a manner that provided us a reasonable\nbasis for evaluating the corporate conducts/statutory\ncompliances and expressing our opinion thereon.\nBased on our verification of the Company\u2019s books and\npapers, minute books, forms and returns filed and other\nrecords maintained by the Company and also the information\nprovided by the Company, its officers, agents and authorised\nrepresentatives during the conduct of Secretarial Audit, we\nhereby report that in our opinion, the Company has, during\nthe audit period covering the Financial Year ended March 31,\n2024 complied with statutory provisions listed hereunder\nand also that the Company has proper Board-processes and\ncompliance-mechanism in place to the extent, in the manner\nand subject to the reporting made hereinafter.\nWe have examined the books and papers, minute books,\nforms and returns filed, and other records maintained by\nthe Company for the Financial Year ended March 31, 2024\naccording to the provisions of:\n(i)\n\u0007The Companies Act, 2013 (the Act) and the rules\nmade thereunder;\n(ii)\t \u0007The Securities Contracts (Regulation) Act, 1956 (SCRA)\nand the rules made thereunder;\n(iii)\t \u0007The Depositories Act, 1996 and the Regulations and\nBye-laws framed thereunder;\n(iv)\t \u0007Foreign Exchange Management Act, 1999 and rules and\nregulations made thereunder to the extent of Foreign\nDirect Investment, Overseas Direct Investment and\nExternal Commercial Borrowings \u2013 Not applicable\nfor External Commercial Borrowings as there was no\nreportable event during the financial year under review;\n(v)\n\u0007The following Regulations and Guidelines prescribed\nunder the Securities and Exchange Board of India Act,\n1992 (SEBI Act):\n(a)\t \u0007The Securities and Exchange Board of India\n(Substantial Acquisition of Shares and Takeovers)\nRegulations, 2011;\n(b)\t \u0007The Securities and Exchange Board of India\n(Prohibition of Insider Trading) Regulations, 2015;\n(c)\n\u0007The Securities and Exchange Board of India (Issue of\nCapital and Disclosure Requirements) Regulations,\n2018 \u2013 Not applicable as there was no reportable\nevent during the financial year under review;\n(d)\t \u0007The Securities and Exchange Board of India\n(Share Based Employee Benefits & Sweat Equity)\nRegulations, 2021;\n(e)\t \u0007The Securities and Exchange Board of India\n(Issue and Listing of Non-Convertible Securities)\nRegulations, 2021 \u2013 Not applicable as there was\nno reportable event during the financial year\nunder review;\n(f)\n\u0007The Securities and Exchange Board of India\n(Registrars to an Issue and Share Transfer Agents)\nRegulations, 1993 regarding the Companies Act\nand dealing with client \u2013 Not applicable as the\nCompany is not registered as Registrar to an Issue\nand Share Transfer Agent during the financial year\nunder review;\n(g)\t \u0007The Securities and Exchange Board of India\n(Delisting of Equity Shares) Regulations, 2021 \u2013Not\napplicable as there was no reportable event during\nthe financial year under review;\n(h)\t \u0007The Securities and Exchange Board of India\n(Buyback of Securities) Regulations, 2018 \u2013 Not\napplicable as there was no reportable event during\nthe financial year under review; and\n(i)\n\u0007The Securities and Exchange Board of India\n(Listing Obligations and Disclosure Requirements)\nRegulations, 2015.\n(vi)\t \u0007The other laws, as informed and certified by the\nmanagement of the Company and based on the\nCompliance Report of various Laws submitted by\nDepartment Heads of the Company, which are specifically\napplicable to the Company based on their sector/\nindustry are:\n(a)\t \u0007Customs Act, 1962 (with regard to Container Freight\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.6-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Delhivery Limited appointed M/s. Deloitte Haskins & Sells LLP as its statutory auditor for a term of five consecutive years at its 12th AGM held on September 27, 2023.",
+        "confidence": 0.95,
+        "passage_id": 32,
+        "predicate": "statutory_auditor",
+        "qualifiers": [
+          {
+            "key": "appointment_date",
+            "provenance": "stated",
+            "value": "September 27, 2023"
+          },
+          {
+            "key": "term",
+            "provenance": "stated",
+            "value": "five consecutive years"
+          }
+        ],
+        "quote": "The members at its 12th AGM held on September 27, 2023, approved the appointment of M/s. Deloitte Haskins & Sells LLP (Firm Registration No.117366W/W-100018), Chartered Accountants, as the statutory auditors for the term of five (5) consecutive years",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "text",
+          "raw": "M/s. Deloitte Haskins & Sells LLP",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "Mr. Jitendra Khatri was appointed as Internal Auditor of Delhivery Limited for FY24.",
+        "confidence": 0.95,
+        "passage_id": 32,
+        "predicate": "internal_auditor",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Mr. Jitendra Khatri, Chartered Accountant, who holds the designation of Senior Vice President-Internal Audit in the Company was appointed as Internal Auditor by the Board to conduct internal audit of your Company for FY24.",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "text",
+          "raw": "Mr. Jitendra Khatri",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited increased the headcount of female employees by 59% in FY24.",
+        "confidence": 0.95,
+        "passage_id": 34,
+        "predicate": "female_headcount_growth_rate",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "Your Company ramped up the headcount of female employees by 59% in FY24, compared to an overall headcount increase of 11%.",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "59%",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited trained 12,104 employees in Operations, Customer Service & Business Development in FY24.",
+        "confidence": 0.95,
+        "passage_id": 34,
+        "predicate": "employees_trained_count",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY24"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "Operations, Customer Service & Business Development"
+          }
+        ],
+        "quote": "In FY24, your company trained 12,104 employees in Operations, Customer Service & Business Development.",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "12,104",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "99.99% of the share capital of Delhivery Limited has been dematerialised as of March 31, 2024.",
+        "confidence": 0.95,
+        "passage_id": 35,
+        "predicate": "dematerialised_share_capital_percentage",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "99.99% share capital of your Company has been dematerialised.",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "99.99%",
+          "scale": null,
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited held 694,067 Equity shares of Falcon Autotech Private Limited as of March 31, 2024.",
+        "confidence": 0.95,
+        "passage_id": 37,
+        "predicate": "shares_held",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          },
+          {
+            "key": "holder",
+            "provenance": "inherited",
+            "value": "Delhivery Limited"
+          }
+        ],
+        "quote": "694,067 Equity shares",
+        "subject_key": null,
+        "subject_surface": "Falcon Autotech Private Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "694,067",
+          "scale": null,
+          "unit": "Equity shares"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited had an installed solar power plant capacity of 4.6 MW as of March 31, 2024.",
+        "confidence": 0.95,
+        "passage_id": 37,
+        "predicate": "solar_power_capacity",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "Installed capacity of 4.6 MW Solar Power Plant as on March 31, 2024.",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.6",
+          "scale": null,
+          "unit": "MW"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited earned \u20b9193.13 million in actual foreign exchange inflows during FY24.",
+        "confidence": 0.95,
+        "passage_id": 38,
+        "predicate": "foreign_exchange_inflows",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "The Foreign Exchange earned in terms of actual inflows during FY24 has been \u20b9193.13 million",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "193.13",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "The Corporate Identification Number (CIN) of Delhivery Limited is L63090DL2011PLC221234.",
+        "confidence": 0.95,
+        "passage_id": 38,
+        "predicate": "cin",
+        "qualifiers": [],
+        "quote": "CIN: L63090DL2011PLC221234",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "text",
+          "raw": "L63090DL2011PLC221234",
+          "scale": null,
+          "unit": null
+        }
+      }
+    ]
+  }
+}

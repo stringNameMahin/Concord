@@ -1,0 +1,416 @@
+{
+  "key": "5ef1d67151d23d103d954e4a0cbd372bbe8487dcfb9c26ceca1f26fecbde15dc",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"80\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nAgriculture. Agri-Food Trends and Analytics Bulletin Vol 3. Issue-1. (https://tinyurl.com/yyr8fzek)\n4 \tData sourced from the Disaster Management Division Union Ministry of Home Affairs, India Meteorological\nDepartment and media reports\n5 \tCentre for Science and Environment and Down to Earth. (2024). Climate India 2024: An assessment of extreme\nweather events. November. https://tinyurl.com/2r5r85dw.\n6 \tCSE/DTE tracks each day\u2019s report from the IMD website and maps out the events by state and Union Territory\n(UT) and event type.\n\n\nEconomic Survey 2024-25\n124\n4.14. The increasing frequency of extreme weather events\u2014specifically uneven and\nunseasonal rainfall and heat waves -  impacts vegetable production, thereby increasing\nprices. These adverse weather conditions also present significant challenges to storage\nand transportation, resulting in temporary disruptions to the supply chain and causing\nan increase in vegetable prices. This phenomenon is also corroborated by a positive\ncorrelation between the frequency of extreme weather events occurring within a given\nmonth and the vegetable inflation rates observed in the subsequent months, with\nnotable effects evident for up to three months following such events.\nChart IV.10: Higher frequency of extreme weather events driving\ninflation in subsequent months during April 2020-Dec 2024\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\n0\n20\n40\n60\nVeg Inflation (%), in time (t) month\nNo of days with extreme weather Event\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\n0\n20\n40\n60\nVeg Inflation (%), in time (t+1) month\nNo of days with extreme weather Event\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\n0\n20\n40\n60\nVeg Inflation (%), in time (t+2) month\nNo of days with extreme weather Event\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\n0\n20\n40\n60\nVeg Inflation (%), in time (t+3) month\nNo of days with extreme weather Event\nSource: Ministry of Earth Sciences and Consumer Price Indices released by CSO, MoSPI\nNote: No. of days with extreme weather events (horizontal axis in chart IV.17) = No. of days with heavy rainfall\n+no. of days with heatwaves\n4.15.\t Furthermore, the fall in onion and tomato production in the last two years can\nbe partially explained by higher extreme weather events in major producing states\ncompared to other regions.\n\n\nPrices and Inflation\n</text>\n</passage>\n\n<passage id=\"81\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nVeg Inflation (%), in time (t+3) month\nNo of days with extreme weather Event\nSource: Ministry of Earth Sciences and Consumer Price Indices released by CSO, MoSPI\nNote: No. of days with extreme weather events (horizontal axis in chart IV.17) = No. of days with heavy rainfall\n+no. of days with heatwaves\n4.15.\t Furthermore, the fall in onion and tomato production in the last two years can\nbe partially explained by higher extreme weather events in major producing states\ncompared to other regions.\n\n\nPrices and Inflation\n125\nChart IV.11: Major tomato and onion producing states experienced\nmore heatwaves in 2024\nNumber of days with heatwaves in 2020\nNumber of days with heatwaves in 2024\nT & O\nT & O\nT & O\nO\nO\nT & O\nT\nT & O\nT & O\nT & O\nO\nO\nT & O\nT\nSource: IMD, Ministry of Earth Sciences\nNote:   (i) T denotes the major tomato-producing state, and O denotes the major onion-producing state\n(ii) To arrive at state-wise heatwaves data, the relevant subdivisions for each state were added.\nTrends in onion and tomato production and prices\n4.16.\t The inflationary pressures in onion remained firm in FY24 and the current year,\ndespite prompt measures by the government to contain prices due to constrained\nsupply resulting from reduced production. Onions are grown in both the Kharif\nand Rabi seasons, with around 70 per cent of production occurring during the Rabi\nseason7. Fresh onions generally last about 2-3 months when stored in a cool, dry, and\nwell-ventilated place, with their shelf life further extendable under a dehumidified\nenvironment. Thus, onions produced in one year - specifically Rabi onions harvested\nfrom March onwards are typically available for consumption in the following year,\ninfluencing inflation dynamics in that year.The lower production in 2022-23 and\n2023-24 has consequently led to inflationary pressures in onions for FY24 and FY25\n(April-December)(Chart IV.6b).\n7  \tMinistry of Consumer Affairs, Food & Public Distribution (2024, July 5). Kharif sowing area for onion set\nto be 27% higher than last year; 30% sowing completed in Karnataka [PIB Release]. (https://pib.gov.in/\nPressReleseDetailm.aspx?PRID=2031043&reg=3&lang=1)\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"82\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nfrom March onwards are typically available for consumption in the following year,\ninfluencing inflation dynamics in that year.The lower production in 2022-23 and\n2023-24 has consequently led to inflationary pressures in onions for FY24 and FY25\n(April-December)(Chart IV.6b).\n7  \tMinistry of Consumer Affairs, Food & Public Distribution (2024, July 5). Kharif sowing area for onion set\nto be 27% higher than last year; 30% sowing completed in Karnataka [PIB Release]. (https://pib.gov.in/\nPressReleseDetailm.aspx?PRID=2031043&reg=3&lang=1)\n\n\nEconomic Survey 2024-25\n126\nChart IV.12: Trends in onion production across regions\nSource: Horticulture Statistics Unit, Economics, Statistics & Evaluation Division, M/o A&FW\n4.17.\t The price pressures in tomatoes remained intermittently high since FY23 due to\nconstrained supply (Chart IV.6a). This occurred despite earnest efforts by the government\nto improve supply conditions in deficient regions by procuring from producing regions.\nThe inflation dynamics of tomatoes are influenced by multiple factors. Unlike onions,\ntomatoes have short crop cycles and are highly perishable, creating challenges in storage\nand transportation and leading to supply shortages and price spikes. Fresh tomatoes have\na shelf life of only about 1-2 weeks when stored properly. Tomato production is mainly\nconcentrated in states such as Madhya Pradesh, Andhra Pradesh, Karnataka, Gujarat and\nOdisha. This regional concentration makes the supply chain vulnerable to disruptions in\nany of these areas. Similar to onions, a major portion of tomato production - more than\n65 per cent8  - occurs in the Rabi season.\nChart IV.13: Trends in tomato production across regions\nSource: Horticulture Statistics Unit, Economics, Statistics & Evaluation Division, M/o A&FW\n8 \tRoy, R., et al. (2024). Vegetables Inflation in India: A Study of Tomato, Onion and Potato (TOP). Department\nof Economic and Policy Research, RBI Working Paper Series No. 08. (https://www.rbi.org.in/Scripts/\nPublicationsView.aspx?id=22723)\n\n\nPrices and Inflation\n</text>\n</passage>\n\n<passage id=\"83\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nany of these areas. Similar to onions, a major portion of tomato production - more than\n65 per cent8  - occurs in the Rabi season.\nChart IV.13: Trends in tomato production across regions\nSource: Horticulture Statistics Unit, Economics, Statistics & Evaluation Division, M/o A&FW\n8 \tRoy, R., et al. (2024). Vegetables Inflation in India: A Study of Tomato, Onion and Potato (TOP). Department\nof Economic and Policy Research, RBI Working Paper Series No. 08. (https://www.rbi.org.in/Scripts/\nPublicationsView.aspx?id=22723)\n\n\nPrices and Inflation\n127\nConsumption and seasonality in production of onion and tomato\n4.18.  Analysis of production and consumption trends over the past three years shows\nthat domestic household consumption is lower than production for both tomatoes and\nonions. Horticultural Statistics at Glance 20219, indicates that approximately 15 per\ncent of production is used for bulk consumption in hotels, marriages etc. Even while\ntreating this as a net additionality to household consumption, the production is still\nhigher. Therefore, it turns out that price pressures are not fundamentally due to a\nshortfall in production but to post-harvest losses, seasonal production, and regional\ndispersion in production. Also, onion exports averaged more than 6 per cent of domestic\nproduction during FY20 to FY24.\nChart IV.14: Household consumption is lower than the production\nOnion\nTomato\n0\n50\n100\n150\n200\n250\n300\n350\n2021-22\n2022-23\n2023-24\nLakh MT\nProduction\nHousehold Consumption\n0\n50\n100\n150\n200\n250\n2021-22\n2022-23\n2023-24\nLakh MT\nProduction\nHousehold Consumption\nSource: Horticulture Statistics Unit, Economics, Statistics & Evaluation Division, M/o A&FW, HCS, 2022-23,\nMoSPI, Population Projections for India and States 2011 \u2013 2036, Ministry of Health & Family Welfare\nNote: Annual Household Consumption is calculated from the Report of HCS, 2022-23 of MoSPI\n4.19.  For instance, tomato prices typically rise from July to September, the lean\nproduction season coinciding with the monsoon, adding to challenges related to\ndistribution and increased transit losses. Onion prices tend to increase from October\nto December, representing a lean season for onion production. India's status as the\nmajor producer and consumer of onion and tomato significantly limits the potential to\nimport during times of seasonal supply and demand imbalances. Given that India and\nChina contribute about half of the total production of onion10, the import options for\nIndia during periods of demand-supply imbalances are quite limited. The next eight\nmajor producing countries only contribute around 18 per cent of the production. Also,\nthe highly perishable nature of tomatoes restricts import options from neighbouring\ncountries, which are not significant producers of tomatoes. Consequently, India faces\nchallenges in importing these essential commodities.\n9  \u0007Horticultural Statistics at Glance, 2021, Horticulture Statistics Division Department of Agriculture & Farmers\nWelfare, Ministry of Agriculture & Farmers Welfare\n10  Food and Agricuture Organisation of United Nations. (2023). FAOSTAT statistical database. Rome:FAO.\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"84\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS\n</context>\n<text>\nthe highly perishable nature of tomatoes restricts import options from neighbouring\ncountries, which are not significant producers of tomatoes. Consequently, India faces\nchallenges in importing these essential commodities.\n9  \u0007Horticultural Statistics at Glance, 2021, Horticulture Statistics Division Department of Agriculture & Farmers\nWelfare, Ministry of Agriculture & Farmers Welfare\n10  Food and Agricuture Organisation of United Nations. (2023). FAOSTAT statistical database. Rome:FAO.\n\n\nEconomic Survey 2024-25\n128\nTable IV.1: Onion and tomato crop calendar\nVegetable\nShare in\nProduction\nSeason\nTransplanting\nHarvesting\nPeriod\nOnion\n30%\nKharif\nJul-Aug\nOct-Dec\nLate Kharif Oct-Nov\nJan-Mar\n70%\nRabi\nDec-Jan\nEnd of Mar to May\nTomato\n33%\nKharif\nMay-Jul\nJul- Sept\n67%\nRabi\nOct-Nov, Jan-Feb Dec-Jun\nSource: PIB releases, Ministry of Consumer Affairs, Food & Public Distribution11\nTrends in production and inflation rate of tur\n4.20.  In addition to tomato and onion, tur dal also contibuted to food inflation in India.\nThe deficient production of tur in 2022-23 and 2023-24 has indeed led to high price\npressures in tur dal during FY24 and FY25 (April-December), despite various measures\nby the government to shore up the supply in consuming regions. Production declined\nby 13.6 per cent in 2022-23 and 10.8 per cent in 2023-24 compared to the last 5-year\naverage, affecting the supply. Over the past decade, there has been a strong negative\ncorrelation (-0.8) between the annual inflation rate and the 1-year lagged production,\nindicating that lower production in one year typically results in higher inflation in the\nfollowing year. As a major Kharif pulse, tur is harvested from November to January,\nwith its price impact mainly observed in the subsequent financial year.\nChart IV.15: Trends in tur production and inflation\n0\n1\n2\n3\n4\n5\n6\n-40\n-20\n0\n20\n40\n60\n2015-16\n2016-17 2017-18 2018-19 2019-20 2020-21 2021-22 2022-23 2023-24 2024-25\n1 year lagged production & area\nInflation Rate (%)\nInflation rate in Tur (%)\n1 year lagged production (million tonne) (RHS)\n1 year lagged area (million ha) (RHS)\nSource: Ministry of Agriculture and Farmers Welfare, Consumer Price Indices released by CSO, MoSPI\n11  https://pib.gov.in/PressReleasePage.aspx?PRID=2074016.\nhttps://pib.gov.in/PressReleseDetailm.aspx?PRID=2031043&reg=3&lang=1\n\n\nPrices and Inflation\n</text>\n</passage>\n\n<passage id=\"85\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS > Oct-Nov, Jan-Feb Dec-Jun\n</context>\n<text>\n20\n40\n60\n2015-16\n2016-17 2017-18 2018-19 2019-20 2020-21 2021-22 2022-23 2023-24 2024-25\n1 year lagged production & area\nInflation Rate (%)\nInflation rate in Tur (%)\n1 year lagged production (million tonne) (RHS)\n1 year lagged area (million ha) (RHS)\nSource: Ministry of Agriculture and Farmers Welfare, Consumer Price Indices released by CSO, MoSPI\n11  https://pib.gov.in/PressReleasePage.aspx?PRID=2074016.\nhttps://pib.gov.in/PressReleseDetailm.aspx?PRID=2031043&reg=3&lang=1\n\n\nPrices and Inflation\n129\n4.21.   \tDespite these challenges, the government is actively working to ensure an\nadequate supply of tur dal to consumers. To ensure that the produced quantity reaches\nthe market and to prevent stockpiling, the government is taking proactive measures\nby periodically imposing stock limits for tur, and active monitoring through the stock\ndisclosure portal. Further, to meet the demand for tur, the country imported 7.7 lakh\ntonnes of tur in FY24, mainly from Mozambique, Tanzania, Malawi, and Myanmar.\nBox IV.1: Administrative measures to control food inflation\nFood items\nMeasures undertaken\nCereals\n\u2022 \t Stock limits on wheat from 24 June 2024 to 31 March 2025.\n\u2022\t Open Market Sale Scheme: Offloaded wheat and rice from the central pool\n\u2022\t Sale of wheat flour and rice under Bharat brand\nPulses\n\u2022  \t\u0007Sale of  chana dal, moong dal and masur dal under Bharat brand\n\u2022\t Stock limits on tur and desi chana from 21 June 2024 to 30 September\n2024\n\u2022\t Allowed duty-free import of desi chana, tur, urad and masur until 31\nMarch 2025.\n\u2022\t Allowed duty free import of yellow peas until 20 February 2025.\nVegetables\n\u2022 \u0007 Buffer Stock of Onion: A total of 4.7 lakh MT of rabi onion has been\nprocured under Price Stabilisation Fund.\n\u2022\t 20 per cent export duty on onion since 13 September 2024.\n\u2022\t Subsidised sale of onion at 35 per kg from September -December 2024.\n\u2022\t Subsidised sale of Tomato at 65 per kg in October 2024\nSource: Various PIB releases\nOUTLOOK AND WAY FORWARD\n4.22.\t The RBI and the IMF have projected that India's consumer price inflation will\nprogressively align towards the inflation target in FY26. In the December 2024 RBI\u2019s\nMonetary Policy Committee report revised its inflation projection from 4.5 per cent to\n4.8 per cent in FY25. Assuming a normal monsoon and no further external or policy\nshocks, the RBI expects headline inflation to be 4.2 per cent in FY26. IMF has projected\nan inflation rate of 4.4 per cent in FY25 and 4.1 per cent in FY26 for India.\n4.23.  As per World Bank\u2019s Commodity Markets Outlook12, October 2024, commodity\nprices are expected to decrease by 5.1 per cent in 2025 and 1.7 per cent in 2026. The\nprojected declines are led by oil prices but tempered by price increases for natural gas\nand a stable outlook for metals and agricultural raw materials. Among precious metals,\ngold prices are expected to decrease while silver prices are expected to increase. Prices\nfor metals and minerals are expected to decline, primarily due to a decrease in iron ore\n12  Commodity Markets Outlook, World Bank, October 2024, (https://tinyurl.com/dyduh9tu)\n\n\nEconomic Survey 2024-25\n</text>\n</passage>\n\n<passage id=\"86\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS > Oct-Nov, Jan-Feb Dec-Jun\n</context>\n<text>\nprices are expected to decrease by 5.1 per cent in 2025 and 1.7 per cent in 2026. The\nprojected declines are led by oil prices but tempered by price increases for natural gas\nand a stable outlook for metals and agricultural raw materials. Among precious metals,\ngold prices are expected to decrease while silver prices are expected to increase. Prices\nfor metals and minerals are expected to decline, primarily due to a decrease in iron ore\n12  Commodity Markets Outlook, World Bank, October 2024, (https://tinyurl.com/dyduh9tu)\n\n\nEconomic Survey 2024-25\n130\nand zinc prices. In general, the downward trend movement in the prices of commodities\nimported by India is a positive for the domestic inflation outlook.\nChart IV.16: Commodity prices to soften in the next two years\n-8\n-6\n-4\n-2\n0\n2\nOverall\nIndex\nEnergy\nFood\nFertilisers\nMetals &\nMinerals\nPrecious\nMetals\nIndex\nCommodity price index\n(in nominal US$, 2010=100)\n2025 (F)\n2026 (F)\n-15\n-10\n-5\n0\n5\n10\nCrude oil, Brent ($/bbl)\nPalm oil ($/mt)\nSoybean oil ($/mt)\nIron ore ($/dmt)\nCopper ($/mt)\nZinc ($/mt)\nGold ($/toz)\nSilver ($/toz)\nChanges in prices over previous\nyear (in nominal US$)\n2026 (F)\n2025 (F)\nSource: World Bank Commodity Market Outlook, October 2024\n4.24.\t  A normal southwest monsoon in 2024 has improved the water levels in\nreservoirs, ensuring sufficient water for irrigation during the rabi crop production. As\nper the first advanced estimates of agricultural production for 2024-25, Kharif food\ngrain production is expected to increase by 5.7 per cent. The production of rice and tur,\nthe most important Kharif food grains, is expected to increase by 5.9 per cent and 2.5 per\ncent, respectively, as compared to 2023-24. This could lead to softening of food inflation\npressures over the course of the year. However, rising international vegetable oil prices\nmay pose an upside risk to food inflation. The government has focused on controlling\nfood inflation through various supply side measures, which include strengthening the\nbuffer stock of essential food items and periodic open market releases, subsidised retail\nsale of essential food items in specified outlets, easing imports of the essential food\nitems through rationalisation of duties, prevention of hoarding through imposition/\nrevision and monitoring of stock limits. The budget 2024-25 has envisaged measures like\nlarge-scale clusters for vegetable production, promotion of farmer-prodcuer\norganisations, cooperatives and start-ups for vegetable supply chains and measures for\nachieving self-sufficiecny in pulses and oilseeds.\n4.25.  The following options may be worth considering from the perspective of ensuring\nlong-term price stability.\n\u00be\nIndia faces a persistent deficit in the production of pulses and oilseeds, along with\nfrequent fluctuations in tomato and onion production, leading to price pressures. To\naddress this, focused research is needed to develop climate-resilient crop varieties,\nenhancing yield and reducing crop damage. Efforts to expand the area under pulses\nin rice-fallow regions are likely to help.\n\n\nPrices and Inflation\n</text>\n</passage>\n\n<passage id=\"87\">\n<context>\n[page header]\nEconomic Survey 2024-25\n\n[section]\nGETTING FDI RIGHT > DYNAMICS > Oct-Nov, Jan-Feb Dec-Jun\n</context>\n<text>\n4.25.  The following options may be worth considering from the perspective of ensuring\nlong-term price stability.\n\u00be\nIndia faces a persistent deficit in the production of pulses and oilseeds, along with\nfrequent fluctuations in tomato and onion production, leading to price pressures. To\naddress this, focused research is needed to develop climate-resilient crop varieties,\nenhancing yield and reducing crop damage. Efforts to expand the area under pulses\nin rice-fallow regions are likely to help.\n\n\nPrices and Inflation\n131\n\u00be\nPromoting extension activities is crucial. Farmers should receive training on best\npractices, the use of high-yield and disease-resistant seed varieties, and targeted\ninterventions to improve agricultural practices in the major growing regions for\npulses, tomatoes, and onions.\n\u00be\nImplementing robust data collection and analysis systems to monitor prices, stocks,\nand storage and processing facilities is essential in various tiers of government. This\ndata should be used to identify areas for improvement and make informed policy\ndecisions. High-frequency price monitoring data for essential food items collected\nby various agencies within the country may be linked to quantify and monitor price\nbuild-up at each stage from the farm gate to the final consumer.\n******\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Onions are grown in both the Kharif and Rabi seasons, with around 70 per cent of production occurring during the Rabi season.",
+        "confidence": 1,
+        "passage_id": 81,
+        "predicate": "production_share_rabi_season",
+        "quote": "Onions are grown in both the Kharif and Rabi seasons, with around 70 per cent of production occurring during the Rabi season",
+        "subject_surface": "Onions",
+        "value": {
+          "kind": "quantity",
+          "raw": "70",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "More than 65 per cent of tomato production occurs in the Rabi season.",
+        "confidence": 1,
+        "passage_id": 82,
+        "predicate": "production_share_rabi_season",
+        "quote": "a major portion of tomato production - more than 65 per cent8  - occurs in the Rabi season.",
+        "subject_surface": "tomatoes",
+        "value": {
+          "kind": "quantity",
+          "raw": "65",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Onion exports averaged more than 6 per cent of domestic production during FY20 to FY24.",
+        "confidence": 1,
+        "passage_id": 83,
+        "predicate": "average_export_share_of_domestic_production",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY20 to FY24"
+          }
+        ],
+        "quote": "onion exports averaged more than 6 per cent of domestic production during FY20 to FY24.",
+        "subject_surface": "onion",
+        "value": {
+          "kind": "quantity",
+          "raw": "6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Tur production declined by 13.6 per cent in 2022-23 compared to the last 5-year average.",
+        "confidence": 1,
+        "passage_id": 84,
+        "predicate": "production_decline",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2022-23"
+          },
+          {
+            "key": "comparison_basis",
+            "provenance": "stated",
+            "value": "last 5-year average"
+          }
+        ],
+        "quote": "Production declined by 13.6 per cent in 2022-23 and 10.8 per cent in 2023-24 compared to the last 5-year average",
+        "subject_surface": "tur",
+        "value": {
+          "kind": "quantity",
+          "raw": "13.6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Tur production declined by 10.8 per cent in 2023-24 compared to the last 5-year average.",
+        "confidence": 1,
+        "passage_id": 84,
+        "predicate": "production_decline",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2023-24"
+          },
+          {
+            "key": "comparison_basis",
+            "provenance": "stated",
+            "value": "last 5-year average"
+          }
+        ],
+        "quote": "Production declined by 13.6 per cent in 2022-23 and 10.8 per cent in 2023-24 compared to the last 5-year average",
+        "subject_surface": "tur",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India imported 7.7 lakh tonnes of tur in FY24.",
+        "confidence": 1,
+        "passage_id": 85,
+        "predicate": "tur_imports",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY24"
+          }
+        ],
+        "quote": "the country imported 7.7 lakh tonnes of tur in FY24",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.7",
+          "unit": "lakh tonnes"
+        }
+      },
+      {
+        "claim_text": "The RBI expects headline inflation to be 4.2 per cent in FY26.",
+        "confidence": 1,
+        "passage_id": 85,
+        "predicate": "projected_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "source",
+            "provenance": "stated",
+            "value": "RBI"
+          }
+        ],
+        "quote": "the RBI expects headline inflation to be 4.2 per cent in FY26.",
+        "subject_surface": "headline inflation",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.2",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The IMF has projected an inflation rate of 4.4 per cent in FY25 for India.",
+        "confidence": 1,
+        "passage_id": 85,
+        "predicate": "projected_inflation_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY25"
+          },
+          {
+            "key": "source",
+            "provenance": "stated",
+            "value": "IMF"
+          }
+        ],
+        "quote": "IMF has projected an inflation rate of 4.4 per cent in FY25 and 4.1 per cent in FY26 for India.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The IMF has projected an inflation rate of 4.1 per cent in FY26 for India.",
+        "confidence": 1,
+        "passage_id": 85,
+        "predicate": "projected_inflation_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "source",
+            "provenance": "stated",
+            "value": "IMF"
+          }
+        ],
+        "quote": "IMF has projected an inflation rate of 4.4 per cent in FY25 and 4.1 per cent in FY26 for India.",
+        "subject_surface": "India",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.1",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Kharif food grain production is expected to increase by 5.7 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 86,
+        "predicate": "expected_increase",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Kharif food grain production is expected to increase by 5.7 per cent.",
+        "subject_surface": "Kharif food grain production",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.7",
+          "unit": "per cent"
+        }
+      }
+    ]
+  }
+}

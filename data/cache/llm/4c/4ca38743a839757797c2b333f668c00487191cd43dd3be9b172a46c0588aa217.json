@@ -1,0 +1,1074 @@
+{
+  "key": "4ca38743a839757797c2b333f668c00487191cd43dd3be9b172a46c0588aa217",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable.",
+        "role": "system"
+      },
+      {
+        "content": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"40\">\n<context>\n[section]\nExpert\n</context>\n<text>\nspecial tax benefits with respect to our Company and its shareholders included in this Prospectus, and such consent\nhas not been withdrawn as on the date of this Prospectus. However, the term \u201cexpert\u201d shall not be construed to\nmean an \u201cexpert\u201d as defined under the U.S. Securities Act.\nB S R & Associates LLP, Chartered Accountants, has provided a written consent dated May 14, 2022 to include\ntheir name in this Prospectus, as required under Section 26(1) of the Companies Act as \u201cexpert\u201d, as defined under\nsection 2(38), in respect of their audit report dated October 31, 2021 for the financial year ended March 31, 2021\nin relation to the Special Purpose Consolidated Financial Statements of Spoton, included in this Prospectus, and\nsuch consent has not been withdrawn as of the date of this Prospectus. However, the term \u201cexpert\u201d shall not be\nconstrued to mean an \u201cexpert\u201d as defined under the U.S. Securities Act.\n\n\n114\nB.B. & Associates, Chartered Accountants, has provided a written consent dated April 30, 2022 to include their\nname in this Prospectus, as required under Section 26(1) of the Companies Act as \u201cexpert\u201d, as defined under\nSection 2(38) and, in respect of their statement of special tax benefits dated January 20, 2022 with respect to the\nMaterial Subsidiary, Spoton Logistics Private Limited and its shareholders, included in this Prospectus, and such\nconsent has not been withdrawn as of the date of this Prospectus.\nAppraising Entity\nNone of the objects for which the Net Proceeds will be utilised have been appraised by any bank/ financial\ninstitution.\nCredit Rating\nAs the Offer is of Equity Shares, credit rating is not required.\nDebenture Trustees\nAs the Offer is of Equity Shares, the appointment of debenture trustees is not required.\nGreen Shoe Option\nNo green shoe option is contemplated under the Offer.\nBook Building Process\nBook building, in the context of the Offer, refers to the process of collection of Bids from Bidder on the basis of\nthe Red Herring Prospectus, the Bid cum Application Forms and the Revision Forms within the Price Band which\nwas decided by our Company and the Selling Shareholders, in consultation with the BRLMs and minimum Bid\nlot which was decided by our Company, in consultation with the BRLMs and were advertised in all editions of\nFinancial Express (a widely circulated English national daily newspaper), all editions of Jansatta (a widely\ncirculated Hindi national daily newspaper, Hindi also being the regional language of New Delhi, where our\nRegistered Office is located), at least two Working Days prior to the Bid/Offer Opening Date and were made\navailable to the Stock Exchanges for the purposes of uploading on their respective website. The Offer Price was\ndetermined by our Company, in consultation with the BRLMs after the Bid/Offer Closing Date.\nAll Investors (other than Anchor Investors) were mandatorily required to participate in this Offer only\nthrough the ASBA process. Anchor Investors were not permitted to participate in the Offer through the\nASBA process.\nIn terms of the SEBI ICDR Regulations, QIBs and Non-Institutional Investors were not permitted to\nwithdraw their Bid(s) or lower the size of their Bid(s) (in terms of quantity of Equity Shares or the Bid\nAmount) at any stage. Retail Individual Bidders and Eligible Employees Bidding in the Employee\nReservation Portion could revise their Bid(s) during the Bid/Offer Period and withdraw their Bid(s) until\nBid/Offer Closing Date. Anchor Investors were not allowed to revise and withdraw their Bids after the\nAnchor Investor Bid/ Offer Period. Except Allocation to Retail Individual Bidders, Non-Institutional\nInvestors and the Anchor Investors, Allocation in the Offer was made on a proportionate basis. For further\ndetails on method and process of Bidding, see \u201cOffer Procedure\u201d and \u201cOffer Structure\u201d on page 592 and 588\nrespectively.\nThe Book Building Process is subject to change. Bidders are advised to make their own judgment about an\ninvestment through this process prior to submitting a Bid.\n</text>\n</passage>\n\n<passage id=\"41\">\n<context>\n[section]\nBook Building Process\n</context>\n<text>\nBid/Offer Closing Date. Anchor Investors were not allowed to revise and withdraw their Bids after the\nAnchor Investor Bid/ Offer Period. Except Allocation to Retail Individual Bidders, Non-Institutional\nInvestors and the Anchor Investors, Allocation in the Offer was made on a proportionate basis. For further\ndetails on method and process of Bidding, see \u201cOffer Procedure\u201d and \u201cOffer Structure\u201d on page 592 and 588\nrespectively.\nThe Book Building Process is subject to change. Bidders are advised to make their own judgment about an\ninvestment through this process prior to submitting a Bid.\nInvestors should note the Offer is also subject to obtaining final listing and trading approvals of the Stock\nExchanges, which our Company shall apply for after Allotment within six Working Days of the Bid/Offer Closing\nDate or such other time period as prescribed under applicable law.\nFor an illustration of the Book Building Process, price discovery process and allocation, see \u201cOffer Procedure\u201d\non page 592.\nUnderwriting Agreement\n\n\n115\nOur Company and the Selling Shareholders have entered into an Underwriting Agreement with the Underwriters\nfor the Equity Shares proposed to be offered through the Offer. The extent of underwriting obligations and the\nBids to be underwritten by each BRLM shall be as per the Underwriting Agreement. Pursuant to the terms of the\nUnderwriting Agreement, the obligations of the Underwriters are several and are subject to certain conditions to\nclosing, as specified therein.\nThe Underwriting Agreement is dated May 14, 2022. The Underwriters have indicated their intention to\nunderwrite the following number of Equity Shares:\nName, address, telephone number and e-mail\naddress of the Underwriters\nIndicative number of\nEquity Shares to be\nUnderwritten**\nAmount underwritten\n(\u20b9 in million)\nKotak Mahindra Capital Company Limited\nAddress: 1st Floor, 27 BKC, Plot No. C \u2013 27,\n\u2018G\u2019 Block, Bandra Kurla Complex, Bandra (East),\nMumbai 400051, Maharashtra, India\nTel: +91 22 4336 0000\nEmail: delhivery.ipo@kotak.com\n6,800,887\n3,309.33\nMorgan Stanley India Company Private Limited\nAddress: 18th Floor, Tower 2, One World Centre,\nPlot 841, Jupiter Textile Mill Compound,\nSenapati Bapat Marg, Lower Parel,\nMumbai 400013, Maharashtra, India\nTel: +91 22 6118 1000\nEmail: delhivery_ipo@morganstanley.com\n6,800,987\n3,309.38\nBofA Securities India Limited\nAddress: Ground Floor, \u201cA\u201d Wing, One BKC,\n\u201cG\u201d Block Bandra Kurla Complex, Bandra (East),\nMumbai 400051, Maharashtra, India\nTel: +91 22 6632 8000\nEmail: dg.delhivery_ipo@bofa.com\n6,800,986\n3,309.37\nCitigroup Global Markets India Private Limited\nAddress: 1202, 12th Floor, First International\nFinancial Centre, G-Block, C54 & 55,\nBandra Kurla Complex, Bandra (East),\nMumbai 400098 Maharashtra, India\nTel: +91 22 6175 9999\nEmail: delhivery.ipo@citi.com\n6,800,986\n3,309.37\nKotak Securities Limited\nAddress:\n4th Floor, 12BKC, G Block\nBandra Kurla Complex\nBandra (East), Mumbai 400 051\nTel: +91 22 6218 5470\nEmail: umesh.gupta@kotak.com\n100\n0.05\nTotal\n27,203,946\n13,237.50\n** The indicative number of Equity Shares to be underwritten is calculated excluding the QIB Portion of 80,313,142 Equity\nShares.\nThe abovementioned amounts are provided for indicative purposes only and would be finalised after actual\nallocation and subject to the provisions of Regulation 40(2) of the SEBI ICDR Regulations.\nIn the opinion of our Board (based on representations made to our Company by the Underwriters), the resources\nof the Underwriters are sufficient to enable them to discharge their respective underwriting obligations in full.\n\n\n116\n</text>\n</passage>\n\n<passage id=\"42\">\n<context>\n[section]\nTotal\n</context>\n<text>\n** The indicative number of Equity Shares to be underwritten is calculated excluding the QIB Portion of 80,313,142 Equity\nShares.\nThe abovementioned amounts are provided for indicative purposes only and would be finalised after actual\nallocation and subject to the provisions of Regulation 40(2) of the SEBI ICDR Regulations.\nIn the opinion of our Board (based on representations made to our Company by the Underwriters), the resources\nof the Underwriters are sufficient to enable them to discharge their respective underwriting obligations in full.\n\n\n116\nThe Underwriters are registered with the SEBI under Section 12(1) of the SEBI Act or registered as brokers with\nthe Stock Exchange(s). Our Board, at its meeting held on May 14, 2022, has approved the execution of the\nUnderwriting Agreement by our Company.\nAllocation amongst the Underwriters may not necessarily be in proportion to their underwriting commitments set\nforth in the table above. Notwithstanding the above table, the Underwriters shall be severally responsible for\nensuring payment with respect to Equity Shares allocated to Investors procured by them in accordance with the\nUnderwriting Agreement. The extent of underwriting obligations and the Bids to be underwritten in the Offer\nshall be as per the Underwriting Agreement.\n\n\n212\n</text>\n</passage>\n\n<passage id=\"43\">\n<context>\n[section]\nTotal\n</context>\n<text>\nUnderwriting Agreement by our Company.\nAllocation amongst the Underwriters may not necessarily be in proportion to their underwriting commitments set\nforth in the table above. Notwithstanding the above table, the Underwriters shall be severally responsible for\nensuring payment with respect to Equity Shares allocated to Investors procured by them in accordance with the\nUnderwriting Agreement. The extent of underwriting obligations and the Bids to be underwritten in the Offer\nshall be as per the Underwriting Agreement.\n\n\n212\nOUR BUSINESS\nUnless otherwise indicated, industry and market data used in this section has been derived from the RedSeer\nReport, which has been commissioned and paid by us in connection with the Offering. Unless otherwise indicated,\nall financial, operational, industry and other related information derived from the RedSeer Report and included\nherein with respect to any particular year, refers to such information for the relevant year. The RedSeer Report\nis available at the following web-link: https://www.delhivery.com/investor-relations/material-contracts/.\nOVERVIEW\nWe aim to build the operating system for commerce. Our business is guided by three operating principles:\nPeople-centricity: Our infrastructure, network and technology enable us to solve supply-chain problems that\naffect millions of people every day.\nGrowth through partnership: We believe that systemic change requires cooperation and collaboration. Our\ninfrastructure and technology capabilities are designed to be accessible to our partners in India and around the\nworld.\nEfficiency, always: Saving money for our customers allows them to do more with what they have. We strive\nrelentlessly for efficiency and for new ways to reduce costs throughout the supply chain.\nAccording to the RedSeer Report, which has been exclusively commissioned and paid for by us in connection\nwith the Offer, we were the largest and fastest growing fully-integrated logistics services player in India by\nrevenue as of Fiscal 2021. We have achieved significant scale and growth, as demonstrated by the below metrics.\nNotes: All figures exclude Spoton, unless otherwise specified.\n1.\nFor Fiscal 2021.\n2.\nFor the period from Fiscal 2019 to Fiscal 2021.\n3.\nAs of December 31, 2021.\n4.\nSince inception.\n5.\nMarket share of the overall e-commerce volume (including captive players) in the third quarter of Fiscal 2022, as per the RedSeer\nReport, which has been exclusively commissioned and paid for by us in connection with the Offer.\n6.\nFor Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months ended December 31, 2021, excluding internal demand for line haul\ntrucks deployed within our network for purposes of our service offerings.\n7.\nFor Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months ended December 31, 2021\n8.\nIncludes permanent employees and contractual manpower (excluding daily wage manpower and security guards and Spoton) as of\nDecember 31, 2021, and last mile delivery agents in the month of December 2021.\nOur mission is to enable customers to operate flexible, reliable and resilient supply chains at the lowest costs.\nWe provided supply chain solutions to a diverse base of 23,113 Active Customers (excluding those serviced by\nSpoton) such as e-commerce marketplaces, direct-to-consumer e-tailers and enterprises and SMEs across several\nverticals such as FMCG, consumer durables, consumer electronics, lifestyle, retail, automotive and manufacturing,\n\n\n213\n</text>\n</passage>\n\n<passage id=\"44\">\n<context>\n[section]\nOVERVIEW\n</context>\n<text>\nDecember 31, 2021, and last mile delivery agents in the month of December 2021.\nOur mission is to enable customers to operate flexible, reliable and resilient supply chains at the lowest costs.\nWe provided supply chain solutions to a diverse base of 23,113 Active Customers (excluding those serviced by\nSpoton) such as e-commerce marketplaces, direct-to-consumer e-tailers and enterprises and SMEs across several\nverticals such as FMCG, consumer durables, consumer electronics, lifestyle, retail, automotive and manufacturing,\n\n\n213\nfor the nine months period ended December 31, 2021.\nThis is achieved through high-quality logistics infrastructure and network engineering, a vast network of domestic\nand global partners and significant investments in automation, all of which are orchestrated by our self-developed\nlogistics operating system that is guided in real-time by deep sources of proprietary network and environmental\ndata. Together, these create intersecting flywheels that drive network synergies within and across our services\nand enhance our value proposition to customers.\nThe key differentiators of our business are:\n\u25cf\nIntegrated solutions: We provide a full range of logistics services, including express parcel delivery,\nheavy goods delivery, PTL freight, TL freight, warehousing, supply chain solutions, cross-border\nexpress and freight services and supply chain software, along with value added services such as e-\ncommerce return services, payment collection and processing, installation and assembly services and\nfraud detection.\n\u25cf\nProprietary logistics operating system: Our in-house logistics technology stack is built to meet the\ndynamic needs of modern supply chains. We have over 80 applications through which we provide\nvarious services, orchestrated by our platform to govern transaction flows from end to end. Our platform\nis designed as a set of foundational layers, libraries and APIs that form the building blocks for logistics\napplications and provides a configurable framework and tools to enable both internal and external\ndevelopers to build custom applications. In Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months\nperiod ended December 31, 2020 and December 31, 2021, our investments in technology, comprising\ninvestments in our team and other infrastructure relating to data intelligence, our proprietary logistics\noperating system, cyber security, hardware, software and cloud infrastructure, amongst others, amounted\nto \u20b9943.61 million, \u20b91,377.34 million, \u20b91,701.66 million, \u20b91.288.17 million and \u20b92,418.03 million,\nrespectively.\n\u25cf\nData Intelligence: We collect, structure, store and process vast amounts of transaction and\nenvironmental data to guide real-time operational decision making. Since our inception, we have\ncollected participant, product, location and network data for over 1 billion orders along with over 30\nbillion shipment lifecycle events points. We have used machine learning extensively to build various\ncapabilities, including intelligent geo-location, network design, route optimisation, load aggregation,\nETA prediction, product identification and fraud detection, which enable us to execute operations in an\nefficient and precise manner.\nAutomation: We operated 21 fully and semi-automated sortation centres and 82 gateways across India\n(excluding Spoton) as of December 31, 2021. We had a Rated Automated Sort Capacity of 3.70 million\nshipments per day as of December 31, 2021. We have automated material handling systems at our\ngateways in Tauru (Haryana), Bhiwandi (Maharashtra) and Bengaluru (Karnataka). This automation,\ncombined with system-directed floor operations, path expectation algorithms and machine-vision guided\ntruck loading systems, together enable our facility staff to be more productive and reduce errors in their\n\n\n214\n</text>\n</passage>\n\n<passage id=\"45\">\n<context>\n[section]\nOVERVIEW\n</context>\n<text>\n(excluding Spoton) as of December 31, 2021. We had a Rated Automated Sort Capacity of 3.70 million\nshipments per day as of December 31, 2021. We have automated material handling systems at our\ngateways in Tauru (Haryana), Bhiwandi (Maharashtra) and Bengaluru (Karnataka). This automation,\ncombined with system-directed floor operations, path expectation algorithms and machine-vision guided\ntruck loading systems, together enable our facility staff to be more productive and reduce errors in their\n\n\n214\noperations. In Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31,\n2020 and December 31, 2021, our investments in automation infrastructure, such as sorters and other\nequipment, amounted to \u20b9192.91 million, \u20b9376.24 million, \u20b9178.96 million, \u20b9148.62 million and\n\u20b91,289.79 million, respectively.\n\u25cf\nUnified Infrastructure and Network: We operate a pan-India network and provide our services in\n17,488 postal index number (\u201cPIN\u201d) codes, as of December 31, 2021. Our logistics platform, data\nintelligence and automation enable our network to be seamlessly interoperable and allow us to share\ninfrastructure and operational capacity across business lines and set new service standards, such as\nproviding e-commerce-like turnaround times to traditional part-truckload shippers on several lanes.\n\u25cf\nAsset-light operations: We follow an asset-light model. As of December 31, 2021, all of our logistics\nfacilities were leased from third parties. Pursuant to the FedEx Asset Purchase Agreement which came\ninto effect on December 5, 2021, ownership of nine facilities aggregating 12,671 sq. ft. is in the process\nof being transferred from FedEx to us. Our approach is to invest in critical service elements and IP-\nsensitive areas of the network, while delivering services through a large number of network partners.\nNetwork partners with warehousing, freight (truckload or air) or first/last-mile capacity can sign up and\nfind customers via our partner applications. Our systems function as managed marketplaces that match\npartner capacity with Delhivery internal and third-party client demand based on partners\u2019 service quality\nratings and pricing. This approach has enabled us to quickly expand to geographically dispersed\nlocations, optimize loads, improve our cost structure and maintain flexibility in handling seasonal\nvariations and changes in client requirements while incurring minimal fixed costs and capital\nexpenditures.\n\u25cf\nEntrepreneurial team: Our experienced team has driven service excellence and industry-first\ninnovations that have enabled us to gain market leadership in a short span of time. Our team comes from\ndiverse backgrounds in engineering, technology, operations, R&D and design from across industries\nsuch as technology, e-commerce, manufacturing, telecommunications, management consulting,\nfinancial services and the armed forces, among others.\nKEY FINANCIAL AND OPERATIONAL PERFORMANCE INDICATORS\nThe following table provides a snapshot of our key financial performance indicators (including Spoton financials\nwhich were consolidated with effect from August 24, 2021) and operational performance indicators (excluding\nSpoton) as of and for the dates indicated.\nAs of the end of and for Fiscal Year Ended March 31,\nAs of and for the\nnine months\nended\n2019\n2020\n2021\nDecember 31,\n2021\nPIN code reach\n13,485\n15,875\n16,677\n17,488\nInfrastructure (in million\nsquare feet)\n5.96\n9.85\n12.23\n14.27\nNo. of gateways\n73\n83\n88\n82\nRated Automated Sort\nCapacity (in million\nparcels/day)\n1.58\n2.26\n2.62\n3.70\nNumber of delivery points\n2,258\n2,973\n3,382\n3,836\nTeam size(1)\n28,830\n40,416\n53,086\n86,184\nNo. of Active Customers\n4,867\n7,957\n16,741\n23,113\nRevenue from contracts\nwith customers (in \u20b9\nmillion)(2)\n16,538.97\n27,805.75\n36,465.27\n48,105.30\nRestated loss for the\nperiod/ year (in \u20b9\nmillion)(2)\n(17,833.04)\n(2,689.26)\n(4,157.43)\n(8,911.39)\nEBITDA\n(1,370.71)\n(1,720.47)\n(1,003.79)\n(2,317.92)\nAdjusted EBITDA (in \u20b9\nmillion)(2)(3)\n(1,876.44)\n(2,531.93)\n(2,532.83)\n</text>\n</passage>\n\n<passage id=\"46\">\n<context>\n[section]\nKEY FINANCIAL AND OPERATIONAL PERFORMANCE INDICATORS\n</context>\n<text>\nCapacity (in million\nparcels/day)\n1.58\n2.26\n2.62\n3.70\nNumber of delivery points\n2,258\n2,973\n3,382\n3,836\nTeam size(1)\n28,830\n40,416\n53,086\n86,184\nNo. of Active Customers\n4,867\n7,957\n16,741\n23,113\nRevenue from contracts\nwith customers (in \u20b9\nmillion)(2)\n16,538.97\n27,805.75\n36,465.27\n48,105.30\nRestated loss for the\nperiod/ year (in \u20b9\nmillion)(2)\n(17,833.04)\n(2,689.26)\n(4,157.43)\n(8,911.39)\nEBITDA\n(1,370.71)\n(1,720.47)\n(1,003.79)\n(2,317.92)\nAdjusted EBITDA (in \u20b9\nmillion)(2)(3)\n(1,876.44)\n(2,531.93)\n(2,532.83)\n(348.01)\n(1)  Includes permanent employees and contractual workers (excluding daily wage manpower and security guards and Spoton) as of the\nlast day of the period, as well as last mile delivery agents in the last month of the period.\n(2)\nSpoton financials were consolidated with effect from August 24, 2021.\n\n\n215\n(3)\nShare based payment expenses pertaining to ESOPs are excluded from Adjusted EBITDA calculations.\nWe acquired Spoton, an express PTL freight service provider in India, in August 2021. The following table\nprovides a snapshot of Spoton\u2019s key operational performance indicators as of and for the dates indicated.\nAs of the end\nof and for\nFiscal\nAs of and for the nine\nmonths ended\n2021\nDecember 31, 2021\nPIN code reach\n12,764\n13,087\nInfrastructure (in million square feet)\n2.62\n2.85\nNo. of gateways\n38\n40\nNumber of service centres, including partner operated locations\n320\n343\nTeam size(1)\n1,991\n2,092\nNo. of Active Customers\n5,234\n5,541\n(1)   Includes permanent employees and contractual workers (excluding daily wage manpower and security guards) as of the last day of\nthe period.\nThe following table provides our revenue by service for Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine\nmonth periods ended December 31, 2020 and 2021:\nFiscal 2019\nFiscal 2020\nFiscal 2021\nNine months period\nended December 31,\n2020\nNine months period\nended December 31,\n2021(1)\n(\u20b9 in\nmillion)\n% of\nrevenue\nfrom\ncontracts\nwith\ncustomers\n(\u20b9 in\nmillion)\n% of\nrevenue\nfrom\ncontracts\nwith\ncustomers\n(\u20b9 in\nmillion)\n% of\nrevenue\nfrom\ncontracts\nwith\ncustomers\n(\u20b9 in\nmillion)\n% of\nrevenue\nfrom\ncontracts\nwith\ncustomers\n(\u20b9 in\nmillion)\n% of\nrevenue\nfrom\ncontracts\nwith\ncustomers\nIncome\nRevenue from\nServices\n16,538.97\n100.00%\n27,748.25\n99.79%\n36,354.38\n99.70%\n26,350.52\n99.67%\n46,230.56\n96.10%\nRevenue from\nExpress Parcel\nServices\n13,730.73\n83.02%\n19,288.56\n69.37%\n25,505.15\n69.94%\n18,830.38\n71.22%\n29,587.59\n61.51%\nRevenue from\nPart Truck\nLoad Services\n1,402.21\n8.48%\n2,306.50\n8.30%\n3,841.61\n10.53%\n2,770.08\n10.48%\n8,639.64\n17.96%\nRevenue from\nTruck Load\nServices\n\u2e3b\n\u2e3b\n3,659.33\n13.16%\n2,141.29\n5.87%\n1,327.44\n5.02%\n1,853.34\n3.85%\nRevenue from\nSupply Chain\nServices\n1,320.09\n7.98%\n2,149.22\n7.73%\n3,900.58\n10.70%\n2,702.04\n10.22%\n3,505.92\n7.29%\nRevenue from\nCross-Border\nServices\n85.94\n0.52%\n344.30\n1.24%\n963.63\n2.64%\n719.57\n2.72%\n2,637.85\n5.48%\nOthers\n0.34\n0.00%\n2.12\n0.01%\n1.01\n0.00%\n6.22\n0.01%\nRevenue from\nSale of Traded\nGoods\n\u2e3b\n\u2e3b\n57.50\n0.21%\n110.89\n0.30%\n88.14\n0.33%\n1,874.74\n3.90%\nRevenue from\ncontracts with\ncustomers\n16,538.97\n100.00%\n27,805.75\n100.00%\n36,465.27\n100.00%\n26,438.66\n100.00%\n48,105.30\n100.00%\n(1)\nFinancial results for the nine months period ended December 31, 2021 include results of Spoton from the date of acquisition of\nSpoton (i.e. August 24, 2021).\nThe table below provides the number of shipments by service for the fiscal and period presented:\nFiscal 2019\nFiscal 2020\nFiscal 2021\nNine\nmonths\nperiod\nended\nDecember\n31, 2020\nNine\nmonths\nperiod\nended\nDecember 31,\n2021\nExpress parcel\nmillion\n148.49\n224.55\n289.20\n207.27\n406.51\n\n\n216\n</text>\n</passage>\n\n<passage id=\"47\">\n<context>\n[section]\nKEY FINANCIAL AND OPERATIONAL PERFORMANCE INDICATORS\n</context>\n<text>\n100.00%\n36,465.27\n100.00%\n26,438.66\n100.00%\n48,105.30\n100.00%\n(1)\nFinancial results for the nine months period ended December 31, 2021 include results of Spoton from the date of acquisition of\nSpoton (i.e. August 24, 2021).\nThe table below provides the number of shipments by service for the fiscal and period presented:\nFiscal 2019\nFiscal 2020\nFiscal 2021\nNine\nmonths\nperiod\nended\nDecember\n31, 2020\nNine\nmonths\nperiod\nended\nDecember 31,\n2021\nExpress parcel\nmillion\n148.49\n224.55\n289.20\n207.27\n406.51\n\n\n216\nFiscal 2019\nFiscal 2020\nFiscal 2021\nNine\nmonths\nperiod\nended\nDecember\n31, 2020\nNine\nmonths\nperiod\nended\nDecember 31,\n2021\nPart\nTruck\nLoad\ntonnes\n121,626\n243,400\n373,854\n235,585\n438,795\nIn addition, Spoton, which we acquired in August 2021 had PTL volume of 758,730 tonnes, 508,026 tonnes and\n683,999 tonnes for Fiscal 2021 and the nine months period ended December 31, 2020 and the nine months period\nended December 31, 2021, respectively.\nOUR MARKET OPPORTUNITY\nAs per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the\nOffer, the Indian logistics market presents a large addressable opportunity, with direct spends on logistics of\napproximately US$216 billion in Fiscal 2020 and is expected to grow to approximately US$365 billion by Fiscal\n2026 at a CAGR of 9%. This growth will be driven by strong underlying economic growth, a favourable regulatory\nenvironment, growth of domestic manufacturing, rapid growth of the digital economy and improvements in\nIndia\u2019s transportation infrastructure.\nIndia also witnesses high indirect logistics spends, estimated at US$174 billion in Fiscal 2020 and expected to\nmarginally decline to US$166 billion by Fiscal 2026, as per the RedSeer Report, which has been exclusively\ncommissioned and paid for by us in connection with the Offer. These indirect spends are primarily incurred due\nto inefficiencies such as slow turnaround, high inventory carrying costs and losses due to damages and pilferage.\nThese inefficiencies have arisen due to legacy reasons such as complex tax structures, poor transportation\ninfrastructures and prolonged under-investment in technology, engineering and data capabilities, automation,\nskilled labour and talent. As a result, the industry has remained fragmented and unorganized, with organized\nplayers in the road transportation, warehousing and supply chain services segments having a market share of\napproximately 3.5% in Fiscal 2020 and approximately 5.5% in Fiscal 2021, as per the RedSeer Report, which has\nbeen exclusively commissioned and paid for by us in connection with the Offer.\nWith changes in customer requirements, changes in demand patterns in traditional commerce and the emergence\nof the internet economy, the demand for flexible and scalable logistics services has become increasingly important.\nAs a result, the share of organized players in the road transportation, warehousing and supply chain services\nsegments is expected to reach 12.5-15.0% by Fiscal 2026, implying a CAGR of approximately 35% between\nFiscal 2020 and Fiscal 2026, as per the RedSeer Report, which has been exclusively commissioned and paid for\nby us in connection with the Offer. This growth is expected to be driven by the organized players\u2019 ability to offer\nintegrated services, network and scale-driven efficiencies and larger investments in technology and engineering.\nThe segments underlying our largest lines of business, namely express parcel delivery, express PTL and\nwarehousing and supply chain services, are expected to grow faster than the logistics industry and to witness\nconsolidation among organized players. As per the RedSeer Report, which has been exclusively commissioned\nand paid for by us in connection with the Offer, the express parcel delivery segment, which is mostly catered to\nby organized players, is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by\nFiscal 2026. Organized players are expected to benefit from the continued growth of e-commerce and the\n</text>\n</passage>\n",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "extractionout",
+        "schema": {
+          "$defs": {
+            "FactOut": {
+              "properties": {
+                "claim_text": {
+                  "description": "One self-contained sentence stating the fact",
+                  "title": "Claim Text",
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "title": "Confidence",
+                  "type": "number"
+                },
+                "passage_id": {
+                  "description": "id of the passage this fact and its quote came from",
+                  "title": "Passage Id",
+                  "type": "integer"
+                },
+                "predicate": {
+                  "description": "Lower snake_case relation name",
+                  "title": "Predicate",
+                  "type": "string"
+                },
+                "qualifiers": {
+                  "items": {
+                    "$ref": "#/$defs/QualifierOut"
+                  },
+                  "title": "Qualifiers",
+                  "type": "array"
+                },
+                "quote": {
+                  "description": "Verbatim span copied from the document",
+                  "title": "Quote",
+                  "type": "string"
+                },
+                "subject_key": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Hard identifier for the subject if the document gives one",
+                  "title": "Subject Key"
+                },
+                "subject_surface": {
+                  "title": "Subject Surface",
+                  "type": "string"
+                },
+                "subject_type": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "title": "Subject Type"
+                },
+                "value": {
+                  "$ref": "#/$defs/ValueOut"
+                }
+              },
+              "required": [
+                "passage_id",
+                "claim_text",
+                "subject_surface",
+                "predicate",
+                "value",
+                "quote",
+                "confidence"
+              ],
+              "title": "FactOut",
+              "type": "object"
+            },
+            "QualifierOut": {
+              "properties": {
+                "key": {
+                  "description": "Lower snake_case condition name",
+                  "title": "Key",
+                  "type": "string"
+                },
+                "provenance": {
+                  "enum": [
+                    "stated",
+                    "inherited"
+                  ],
+                  "title": "Provenance",
+                  "type": "string"
+                },
+                "value": {
+                  "title": "Value",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "value",
+                "provenance"
+              ],
+              "title": "QualifierOut",
+              "type": "object"
+            },
+            "ValueOut": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "quantity",
+                    "text",
+                    "date",
+                    "boolean"
+                  ],
+                  "title": "Kind",
+                  "type": "string"
+                },
+                "raw": {
+                  "description": "The value exactly as written in the document",
+                  "title": "Raw",
+                  "type": "string"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Magnitude word such as million or crore, if any",
+                  "title": "Scale"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Currency code or unit of measure, as written",
+                  "title": "Unit"
+                }
+              },
+              "required": [
+                "kind",
+                "raw"
+              ],
+              "title": "ValueOut",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "facts": {
+              "items": {
+                "$ref": "#/$defs/FactOut"
+              },
+              "title": "Facts",
+              "type": "array"
+            }
+          },
+          "title": "ExtractionOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "B S R & Associates LLP, Chartered Accountants, has provided a written consent dated May 14, 2022 to include their name in this Prospectus, as required under Section 26(1) of the Companies Act as \u201cexpert\u201d, as defined under section 2(38), in respect of their audit report dated October 31, 2021 for the financial year ended March 31, 2021 in relation to the Special Purpose Consolidated Financial Statements of Spoton, included in this Prospectus, and such consent has not been withdrawn as of the date of this Prospectus.",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "provided_written_consent",
+        "quote": "B S R & Associates LLP, Chartered Accountants, has provided a written consent dated May 14, 2022 to include their name in this Prospectus, as required under Section 26(1) of the Companies Act as \u201cexpert\u201d, as defined under section 2(38), in respect of their audit report dated October 31, 2021 for the financial year ended March 31, 2021 in relation to the Special Purpose Consolidated Financial Statements of Spoton, included in this Prospectus, and such consent has not been withdrawn as of the date of this Prospectus.",
+        "subject_surface": "B S R & Associates LLP, Chartered Accountants",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "B S R & Associates LLP, Chartered Accountants, has provided a written consent dated May 14, 2022 to include their name in this Prospectus, as required under Section 26(1) of the Companies Act as \u201cexpert\u201d, as defined under section 2(38), in respect of their audit report dated October 31, 2021 for the financial year ended March 31, 2021 in relation to the Special Purpose Consolidated Financial Statements of Spoton, included in this Prospectus, and such consent has not been withdrawn as of the date of this Prospectus."
+        }
+      },
+      {
+        "claim_text": "B.B. & Associates, Chartered Accountants, has provided a written consent dated April 30, 2022 to include their name in this Prospectus, as required under Section 26(1) of the Companies Act as \u201cexpert\u201d, as defined under Section 2(38) and, in respect of their statement of special tax benefits dated January 20, 2022 with respect to the Material Subsidiary, Spoton Logistics Private Limited and its shareholders, included in this Prospectus, and such consent has not been withdrawn as of the date of this Prospectus.",
+        "confidence": 1,
+        "passage_id": 40,
+        "predicate": "provided_written_consent",
+        "quote": "B.B. & Associates, Chartered Accountants, has provided a written consent dated April 30, 2022 to include their name in this Prospectus, as required under Section 26(1) of the Companies Act as \u201cexpert\u201d, as defined under Section 2(38) and, in respect of their statement of special tax benefits dated January 20, 2022 with respect to the Material Subsidiary, Spoton Logistics Private Limited and its shareholders, included in this Prospectus, and such consent has not been withdrawn as of the date of this Prospectus.",
+        "subject_surface": "B.B. & Associates, Chartered Accountants",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "B.B. & Associates, Chartered Accountants, has provided a written consent dated April 30, 2022 to include their name in this Prospectus, as required under Section 26(1) of the Companies Act as \u201cexpert\u201d, as defined under Section 2(38) and, in respect of their statement of special tax benefits dated January 20, 2022 with respect to the Material Subsidiary, Spoton Logistics Private Limited and its shareholders, included in this Prospectus, and such consent has not been withdrawn as of the date of this Prospectus."
+        }
+      },
+      {
+        "claim_text": "The Underwriting Agreement is dated May 14, 2022.",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "has_date",
+        "quote": "The Underwriting Agreement is dated May 14, 2022.",
+        "subject_surface": "The Underwriting Agreement",
+        "subject_type": "document",
+        "value": {
+          "kind": "text",
+          "raw": "May 14, 2022"
+        }
+      },
+      {
+        "claim_text": "Kotak Mahindra Capital Company Limited has indicated their intention to underwrite 6,800,887 Equity Shares.",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "indicated_intention_to_underwrite",
+        "quote": "Kotak Mahindra Capital Company Limited has indicated their intention to underwrite the following number of Equity Shares:",
+        "subject_surface": "Kotak Mahindra Capital Company Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "6,800,887"
+        }
+      },
+      {
+        "claim_text": "Morgan Stanley India Company Private Limited has indicated their intention to underwrite 6,800,987 Equity Shares.",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "indicated_intention_to_underwrite",
+        "quote": "Morgan Stanley India Company Private Limited has indicated their intention to underwrite the following number of Equity Shares:",
+        "subject_surface": "Morgan Stanley India Company Private Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "6,800,987"
+        }
+      },
+      {
+        "claim_text": "BofA Securities India Limited has indicated their intention to underwrite 6,800,986 Equity Shares.",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "indicated_intention_to_underwrite",
+        "quote": "BofA Securities India Limited has indicated their intention to underwrite the following number of Equity Shares:",
+        "subject_surface": "BofA Securities India Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "6,800,986"
+        }
+      },
+      {
+        "claim_text": "Citigroup Global Markets India Private Limited has indicated their intention to underwrite 6,800,986 Equity Shares.",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "indicated_intention_to_underwrite",
+        "quote": "Citigroup Global Markets India Private Limited has indicated their intention to underwrite the following number of Equity Shares:",
+        "subject_surface": "Citigroup Global Markets India Private Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "6,800,986"
+        }
+      },
+      {
+        "claim_text": "Kotak Securities Limited has indicated their intention to underwrite 100 Equity Shares.",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "indicated_intention_to_underwrite",
+        "quote": "Kotak Securities Limited has indicated their intention to underwrite the following number of Equity Shares:",
+        "subject_surface": "Kotak Securities Limited",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "100"
+        }
+      },
+      {
+        "claim_text": "The total indicative number of Equity Shares to be underwritten is 27,203,946.",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "has_total_indicative_number",
+        "quote": "Total 27,203,946",
+        "subject_surface": "The total indicative number of Equity Shares to be underwritten",
+        "subject_type": "quantity",
+        "value": {
+          "kind": "text",
+          "raw": "27,203,946"
+        }
+      },
+      {
+        "claim_text": "The total amount underwritten is \u20b913,237.50 million.",
+        "confidence": 1,
+        "passage_id": 41,
+        "predicate": "has_total_amount_underwritten",
+        "quote": "Total 13,237.50",
+        "subject_surface": "The total amount underwritten",
+        "subject_type": "quantity",
+        "value": {
+          "kind": "text",
+          "raw": "13,237.50"
+        }
+      },
+      {
+        "claim_text": "The indicative number of Equity Shares to be underwritten is calculated excluding the QIB Portion of 80,313,142 Equity Shares.",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "has_excluded_qib_portion",
+        "quote": "** The indicative number of Equity Shares to be underwritten is calculated excluding the QIB Portion of 80,313,142 Equity Shares.",
+        "subject_surface": "The indicative number of Equity Shares to be underwritten",
+        "subject_type": "quantity",
+        "value": {
+          "kind": "text",
+          "raw": "80,313,142"
+        }
+      },
+      {
+        "claim_text": "The Underwriters are registered with the SEBI under Section 12(1) of the SEBI Act or registered as brokers with the Stock Exchange(s).",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "is_registered",
+        "quote": "The Underwriters are registered with the SEBI under Section 12(1) of the SEBI Act or registered as brokers with the Stock Exchange(s).",
+        "subject_surface": "The Underwriters",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "registered with the SEBI under Section 12(1) of the SEBI Act or registered as brokers with the Stock Exchange(s)"
+        }
+      },
+      {
+        "claim_text": "Our Board, at its meeting held on May 14, 2022, has approved the execution of the Underwriting Agreement by our Company.",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "approved_execution",
+        "quote": "Our Board, at its meeting held on May 14, 2022, has approved the execution of the Underwriting Agreement by our Company.",
+        "subject_surface": "Our Board",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "approved the execution of the Underwriting Agreement by our Company"
+        }
+      },
+      {
+        "claim_text": "Allocation amongst the Underwriters may not necessarily be in proportion to their underwriting commitments set forth in the table above.",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "allocation_not_necessarily_proportional",
+        "quote": "Allocation amongst the Underwriters may not necessarily be in proportion to their underwriting commitments set forth in the table above.",
+        "subject_surface": "Allocation amongst the Underwriters",
+        "subject_type": "process",
+        "value": {
+          "kind": "text",
+          "raw": "may not necessarily be in proportion to their underwriting commitments set forth in the table above"
+        }
+      },
+      {
+        "claim_text": "The Underwriters shall be severally responsible for ensuring payment with respect to Equity Shares allocated to Investors procured by them in accordance with the Underwriting Agreement.",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "is_responsible_for_payment",
+        "quote": "Notwithstanding the above table, the Underwriters shall be severally responsible for ensuring payment with respect to Equity Shares allocated to Investors procured by them in accordance with the Underwriting Agreement.",
+        "subject_surface": "The Underwriters",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "severally responsible for ensuring payment with respect to Equity Shares allocated to Investors procured by them in accordance with the Underwriting Agreement"
+        }
+      },
+      {
+        "claim_text": "The extent of underwriting obligations and the Bids to be underwritten in the Offer shall be as per the Underwriting Agreement.",
+        "confidence": 1,
+        "passage_id": 42,
+        "predicate": "determined_by",
+        "quote": "The extent of underwriting obligations and the Bids to be underwritten in the Offer shall be as per the Underwriting Agreement.",
+        "subject_surface": "The extent of underwriting obligations and the Bids to be underwritten in the Offer",
+        "subject_type": "process",
+        "value": {
+          "kind": "text",
+          "raw": "the Underwriting Agreement"
+        }
+      },
+      {
+        "claim_text": "We were the largest and fastest growing fully-integrated logistics services player in India by revenue as of Fiscal 2021.",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "is_largest_fastest_growing",
+        "quote": "According to the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, we were the largest and fastest growing fully-integrated logistics services player in India by revenue as of Fiscal 2021.",
+        "subject_surface": "We",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "the largest and fastest growing fully-integrated logistics services player in India by revenue as of Fiscal 2021"
+        }
+      },
+      {
+        "claim_text": "We provided supply chain solutions to a diverse base of 23,113 Active Customers (excluding those serviced by Spoton).",
+        "confidence": 1,
+        "passage_id": 43,
+        "predicate": "has_active_customers",
+        "quote": "We provided supply chain solutions to a diverse base of 23,113 Active Customers (excluding those serviced by Spoton) such as e-commerce marketplaces, direct-to-consumer e-tailers and enterprises and SMEs across several verticals such as FMCG, consumer durables, consumer electronics, lifestyle, retail, automotive and manufacturing,",
+        "subject_surface": "We",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "23,113"
+        }
+      },
+      {
+        "claim_text": "In Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and December 31, 2021, our investments in technology amounted to \u20b9943.61 million, \u20b91,377.34 million, \u20b91,701.66 million, \u20b91.288.17 million and \u20b92,418.03 million, respectively.",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "has_investment_in_technology",
+        "quote": "In Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and December 31, 2021, our investments in technology, comprising investments in our team and other infrastructure relating to data intelligence, our proprietary logistics operating system, cyber security, hardware, software and cloud infrastructure, amongst others, amounted to \u20b9943.61 million, \u20b91,377.34 million, \u20b91,701.66 million, \u20b91.288.17 million and \u20b92,418.03 million, respectively.",
+        "subject_surface": "our investments in technology",
+        "subject_type": "investment",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b9943.61 million, \u20b91,377.34 million, \u20b91,701.66 million, \u20b91.288.17 million and \u20b92,418.03 million"
+        }
+      },
+      {
+        "claim_text": "In Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and December 31, 2021, our investments in automation infrastructure amounted to \u20b9192.91 million, \u20b9376.24 million, \u20b9178.96 million, \u20b9148.62 million and \u20b91,289.79 million, respectively.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_investment_in_automation_infrastructure",
+        "quote": "In Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and December 31, 2021, our investments in automation infrastructure, such as sorters and other equipment, amounted to \u20b9192.91 million, \u20b9376.24 million, \u20b9178.96 million, \u20b9148.62 million and \u20b91,289.79 million, respectively.",
+        "subject_surface": "our investments in automation infrastructure",
+        "subject_type": "investment",
+        "value": {
+          "kind": "text",
+          "raw": "\u20b9192.91 million, \u20b9376.24 million, \u20b9178.96 million, \u20b9148.62 million and \u20b91,289.79 million"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we operated 21 fully and semi-automated sortation centres and 82 gateways across India (excluding Spoton).",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "operates_sortation_centres",
+        "quote": "We operated 21 fully and semi-automated sortation centres and 82 gateways across India (excluding Spoton) as of December 31, 2021.",
+        "subject_surface": "We",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "21 fully and semi-automated sortation centres and 82 gateways across India (excluding Spoton)"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we had a Rated Automated Sort Capacity of 3.70 million shipments per day.",
+        "confidence": 1,
+        "passage_id": 44,
+        "predicate": "has_rated_automated_sort_capacity",
+        "quote": "We had a Rated Automated Sort Capacity of 3.70 million shipments per day as of December 31, 2021.",
+        "subject_surface": "We",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "3.70 million shipments per day"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, our PIN code reach was 17,488.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_pin_code_reach",
+        "quote": "Our logistics platform, data intelligence and automation enable our network to be seamlessly interoperable and allow us to share infrastructure and operational capacity across business lines and set new service standards, such as providing e-commerce-like turnaround times to traditional part-truckload shippers on several lanes. \u25cf Unified Infrastructure and Network: We operate a pan-India network and provide our services in 17,488 postal index number (\u201cPIN\u201d) codes, as of December 31, 2021.",
+        "subject_surface": "Our PIN code reach",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "17,488"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, our infrastructure was 14.27 million square feet.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_infrastructure",
+        "quote": "Infrastructure (in million square feet) 5.96 9.85 12.23 14.27",
+        "subject_surface": "Our infrastructure",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "14.27"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we had 82 gateways.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_number_of_gateways",
+        "quote": "No. of gateways 73 83 88 82",
+        "subject_surface": "We",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "82"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, our Rated Automated Sort Capacity was 3.70 million parcels per day.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_rated_automated_sort_capacity",
+        "quote": "Rated Automated Sort Capacity (in million parcels/day) 1.58 2.26 2.62 3.70",
+        "subject_surface": "Our Rated Automated Sort Capacity",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "3.70"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we had 3,836 delivery points.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_number_of_delivery_points",
+        "quote": "Number of delivery points 2,258 2,973 3,382 3,836",
+        "subject_surface": "We",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "3,836"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, our team size was 86,184.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_team_size",
+        "quote": "Team size(1) 28,830 40,416 53,086 86,184",
+        "subject_surface": "Our team size",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "86,184"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we had 23,113 Active Customers.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_active_customers",
+        "quote": "No. of Active Customers 4,867 7,957 16,741 23,113",
+        "subject_surface": "We",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "23,113"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our revenue from contracts with customers was \u20b948,105.30 million.",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_revenue_from_contracts_with_customers",
+        "quote": "Revenue from contracts with customers (in \u20b9 million)(2) 16,538.97 27,805.75 36,465.27 48,105.30",
+        "subject_surface": "Our revenue from contracts with customers",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "48,105.30"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our restated loss for the period was (\u20b98,911.39 million).",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_restated_loss",
+        "quote": "Restated loss for the period/ year (in \u20b9 million)(2) (17,833.04) (2,689.26) (4,157.43) (8,911.39)",
+        "subject_surface": "Our restated loss for the period",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "(8,911.39)"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our EBITDA was (\u20b92,317.92 million).",
+        "confidence": 1,
+        "passage_id": 45,
+        "predicate": "has_ebitda",
+        "quote": "EBITDA (1,370.71) (1,720.47) (1,003.79) (2,317.92)",
+        "subject_surface": "Our EBITDA",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "(2,317.92)"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our Adjusted EBITDA was (\u20b9348.01 million).",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_adjusted_ebitda",
+        "quote": "Adjusted EBITDA (in \u20b9 million)(2)(3) (1,876.44) (2,531.93) (2,532.83) (348.01)",
+        "subject_surface": "Our Adjusted EBITDA",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "(348.01)"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton\u2019s PIN code reach was 13,087.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_pin_code_reach",
+        "quote": "PIN code reach 12,764 13,087",
+        "subject_surface": "Spoton\u2019s PIN code reach",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "13,087"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton\u2019s infrastructure was 2.85 million square feet.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_infrastructure",
+        "quote": "Infrastructure (in million square feet) 2.62 2.85",
+        "subject_surface": "Spoton\u2019s infrastructure",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "2.85"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton had 40 gateways.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_number_of_gateways",
+        "quote": "No. of gateways 38 40",
+        "subject_surface": "Spoton",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "40"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton had 2,092 team members.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_team_size",
+        "quote": "Team size(1) 1,991 2,092",
+        "subject_surface": "Spoton",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "2,092"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, Spoton had 5,541 Active Customers.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_active_customers",
+        "quote": "No. of Active Customers 5,234 5,541",
+        "subject_surface": "Spoton",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "5,541"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2021, our revenue from Express Parcel Services was \u20b925,505.15 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_express_parcel_services",
+        "quote": "Revenue from Express Parcel Services 13,730.73 83.02% 19,288.56 69.37% 25,505.15 69.94% 18,830.38 71.22% 29,587.59 61.51%",
+        "subject_surface": "Our revenue from Express Parcel Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "25,505.15"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2021, our revenue from Part Truck Load Services was \u20b93,841.61 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_part_truck_load_services",
+        "quote": "Revenue from Part Truck Load Services 1,402.21 8.48% 2,306.50 8.30% 3,841.61 10.53% 2,770.08 10.48% 8,639.64 17.96%",
+        "subject_surface": "Our revenue from Part Truck Load Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "3,841.61"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2021, our revenue from Truck Load Services was \u20b92,141.29 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_truck_load_services",
+        "quote": "Revenue from Truck Load Services \u2e3b \u2e3b 3,659.33 13.16% 2,141.29 5.87% 1,327.44 5.02% 1,853.34 3.85%",
+        "subject_surface": "Our revenue from Truck Load Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "2,141.29"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2021, our revenue from Supply Chain Services was \u20b93,900.58 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_supply_chain_services",
+        "quote": "Revenue from Supply Chain Services 1,320.09 7.98% 2,149.22 7.73% 3,900.58 10.70% 2,702.04 10.22% 3,505.92 7.29%",
+        "subject_surface": "Our revenue from Supply Chain Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "3,900.58"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2021, our revenue from Cross-Border Services was \u20b9963.63 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_cross_border_services",
+        "quote": "Revenue from Cross-Border Services 85.94 0.52% 344.30 1.24% 963.63 2.64% 719.57 2.72% 2,637.85 5.48%",
+        "subject_surface": "Our revenue from Cross-Border Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "963.63"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our revenue from Express Parcel Services was \u20b929,587.59 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_express_parcel_services",
+        "quote": "Revenue from Express Parcel Services 13,730.73 83.02% 19,288.56 69.37% 25,505.15 69.94% 18,830.38 71.22% 29,587.59 61.51%",
+        "subject_surface": "Our revenue from Express Parcel Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "29,587.59"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our revenue from Part Truck Load Services was \u20b98,639.64 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_part_truck_load_services",
+        "quote": "Revenue from Part Truck Load Services 1,402.21 8.48% 2,306.50 8.30% 3,841.61 10.53% 2,770.08 10.48% 8,639.64 17.96%",
+        "subject_surface": "Our revenue from Part Truck Load Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "8,639.64"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our revenue from Truck Load Services was \u20b91,853.34 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_truck_load_services",
+        "quote": "Revenue from Truck Load Services \u2e3b \u2e3b 3,659.33 13.16% 2,141.29 5.87% 1,327.44 5.02% 1,853.34 3.85%",
+        "subject_surface": "Our revenue from Truck Load Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "1,853.34"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our revenue from Supply Chain Services was \u20b93,505.92 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_supply_chain_services",
+        "quote": "Revenue from Supply Chain Services 1,320.09 7.98% 2,149.22 7.73% 3,900.58 10.70% 2,702.04 10.22% 3,505.92 7.29%",
+        "subject_surface": "Our revenue from Supply Chain Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "3,505.92"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our revenue from Cross-Border Services was \u20b92,637.85 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_cross_border_services",
+        "quote": "Revenue from Cross-Border Services 85.94 0.52% 344.30 1.24% 963.63 2.64% 719.57 2.72% 2,637.85 5.48%",
+        "subject_surface": "Our revenue from Cross-Border Services",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "2,637.85"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our revenue from Sale of Traded Goods was \u20b91,874.74 million.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "has_revenue_from_sale_of_traded_goods",
+        "quote": "Revenue from Sale of Traded Goods \u2e3b \u2e3b 57.50 0.21% 110.89 0.30% 88.14 0.33% 1,874.74 3.90%",
+        "subject_surface": "Our revenue from Sale of Traded Goods",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "1,874.74"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2021, our number of shipments in Express Parcel was 289.20 million.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_number_of_shipments_express_parcel",
+        "quote": "Express parcel million 148.49 224.55 289.20 207.27 406.51",
+        "subject_surface": "Our number of shipments in Express Parcel",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "289.20"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our number of shipments in Express Parcel was 406.51 million.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_number_of_shipments_express_parcel",
+        "quote": "Express parcel million 148.49 224.55 289.20 207.27 406.51",
+        "subject_surface": "Our number of shipments in Express Parcel",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "406.51"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2021, our number of shipments in Part Truck Load was 373,854 tonnes.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_number_of_shipments_part_truck_load",
+        "quote": "Part Truck Load tonnes 121,626 243,400 373,854 235,585 438,795",
+        "subject_surface": "Our number of shipments in Part Truck Load",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "373,854"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, our number of shipments in Part Truck Load was 438,795 tonnes.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_number_of_shipments_part_truck_load",
+        "quote": "Part Truck Load tonnes 121,626 243,400 373,854 235,585 438,795",
+        "subject_surface": "Our number of shipments in Part Truck Load",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "438,795"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2021, Spoton\u2019s PTL volume was 758,730 tonnes.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_ptl_volume",
+        "quote": "In addition, Spoton, which we acquired in August 2021 had PTL volume of 758,730 tonnes, 508,026 tonnes and 683,999 tonnes for Fiscal 2021 and the nine months period ended December 31, 2020 and the nine months period ended December 31, 2021, respectively.",
+        "subject_surface": "Spoton\u2019s PTL volume",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "758,730"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2020, Spoton\u2019s PTL volume was 508,026 tonnes.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_ptl_volume",
+        "quote": "In addition, Spoton, which we acquired in August 2021 had PTL volume of 758,730 tonnes, 508,026 tonnes and 683,999 tonnes for Fiscal 2021 and the nine months period ended December 31, 2020 and the nine months period ended December 31, 2021, respectively.",
+        "subject_surface": "Spoton\u2019s PTL volume",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "508,026"
+        }
+      },
+      {
+        "claim_text": "For the nine months ended December 31, 2021, Spoton\u2019s PTL volume was 683,999 tonnes.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_ptl_volume",
+        "quote": "In addition, Spoton, which we acquired in August 2021 had PTL volume of 758,730 tonnes, 508,026 tonnes and 683,999 tonnes for Fiscal 2021 and the nine months period ended December 31, 2020 and the nine months period ended December 31, 2021, respectively.",
+        "subject_surface": "Spoton\u2019s PTL volume",
+        "subject_type": "metric",
+        "value": {
+          "kind": "text",
+          "raw": "683,999"
+        }
+      },
+      {
+        "claim_text": "The Indian logistics market had direct spends on logistics of approximately US$216 billion in Fiscal 2020.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_direct_spends_on_logistics",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the Indian logistics market presents a large addressable opportunity, with direct spends on logistics of approximately US$216 billion in Fiscal 2020 and is expected to grow to approximately US$365 billion by Fiscal 2026 at a CAGR of 9%.",
+        "subject_surface": "The Indian logistics market",
+        "subject_type": "market",
+        "value": {
+          "kind": "text",
+          "raw": "US$216 billion"
+        }
+      },
+      {
+        "claim_text": "The Indian logistics market is expected to grow to approximately US$365 billion by Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_expected_growth",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the Indian logistics market presents a large addressable opportunity, with direct spends on logistics of approximately US$216 billion in Fiscal 2020 and is expected to grow to approximately US$365 billion by Fiscal 2026 at a CAGR of 9%.",
+        "subject_surface": "The Indian logistics market",
+        "subject_type": "market",
+        "value": {
+          "kind": "text",
+          "raw": "US$365 billion"
+        }
+      },
+      {
+        "claim_text": "The Indian logistics market is expected to grow at a CAGR of 9% from Fiscal 2020 to Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_cagr_growth",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the Indian logistics market presents a large addressable opportunity, with direct spends on logistics of approximately US$216 billion in Fiscal 2020 and is expected to grow to approximately US$365 billion by Fiscal 2026 at a CAGR of 9%.",
+        "subject_surface": "The Indian logistics market",
+        "subject_type": "market",
+        "value": {
+          "kind": "text",
+          "raw": "9%"
+        }
+      },
+      {
+        "claim_text": "The Indian logistics market had indirect spends of approximately US$174 billion in Fiscal 2020.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_indirect_spends",
+        "quote": "India also witnesses high indirect logistics spends, estimated at US$174 billion in Fiscal 2020 and expected to marginally decline to US$166 billion by Fiscal 2026, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.",
+        "subject_surface": "The Indian logistics market",
+        "subject_type": "market",
+        "value": {
+          "kind": "text",
+          "raw": "US$174 billion"
+        }
+      },
+      {
+        "claim_text": "The Indian logistics market is expected to have indirect spends of approximately US$166 billion by Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_expected_indirect_spends",
+        "quote": "India also witnesses high indirect logistics spends, estimated at US$174 billion in Fiscal 2020 and expected to marginally decline to US$166 billion by Fiscal 2026, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.",
+        "subject_surface": "The Indian logistics market",
+        "subject_type": "market",
+        "value": {
+          "kind": "text",
+          "raw": "US$166 billion"
+        }
+      },
+      {
+        "claim_text": "Organized players in the road transportation, warehousing and supply chain services segments had a market share of approximately 3.5% in Fiscal 2020.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_market_share",
+        "quote": "These inefficiencies have arisen due to legacy reasons such as complex tax structures, poor transportation infrastructures and prolonged under-investment in technology, engineering and data capabilities, automation, skilled labour and talent. As a result, the industry has remained fragmented and unorganized, with organized players in the road transportation, warehousing and supply chain services segments having a market share of approximately 3.5% in Fiscal 2020 and approximately 5.5% in Fiscal 2021, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.",
+        "subject_surface": "Organized players in the road transportation, warehousing and supply chain services segments",
+        "subject_type": "market_segment",
+        "value": {
+          "kind": "text",
+          "raw": "3.5%"
+        }
+      },
+      {
+        "claim_text": "Organized players in the road transportation, warehousing and supply chain services segments had a market share of approximately 5.5% in Fiscal 2021.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_market_share",
+        "quote": "These inefficiencies have arisen due to legacy reasons such as complex tax structures, poor transportation infrastructures and prolonged under-investment in technology, engineering and data capabilities, automation, skilled labour and talent. As a result, the industry has remained fragmented and unorganized, with organized players in the road transportation, warehousing and supply chain services segments having a market share of approximately 3.5% in Fiscal 2020 and approximately 5.5% in Fiscal 2021, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.",
+        "subject_surface": "Organized players in the road transportation, warehousing and supply chain services segments",
+        "subject_type": "market_segment",
+        "value": {
+          "kind": "text",
+          "raw": "5.5%"
+        }
+      },
+      {
+        "claim_text": "The share of organized players in the road transportation, warehousing and supply chain services segments is expected to reach 12.5-15.0% by Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_expected_market_share",
+        "quote": "With changes in customer requirements, changes in demand patterns in traditional commerce and the emergence of the internet economy, the demand for flexible and scalable logistics services has become increasingly important. As a result, the share of organized players in the road transportation, warehousing and supply chain services segments is expected to reach 12.5-15.0% by Fiscal 2026, implying a CAGR of approximately 35% between Fiscal 2020 and Fiscal 2026, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.",
+        "subject_surface": "The share of organized players in the road transportation, warehousing and supply chain services segments",
+        "subject_type": "market_segment",
+        "value": {
+          "kind": "text",
+          "raw": "12.5-15.0%"
+        }
+      },
+      {
+        "claim_text": "The share of organized players in the road transportation, warehousing and supply chain services segments is expected to grow at a CAGR of approximately 35% between Fiscal 2020 and Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_expected_cagr_growth",
+        "quote": "With changes in customer requirements, changes in demand patterns in traditional commerce and the emergence of the internet economy, the demand for flexible and scalable logistics services has become increasingly important. As a result, the share of organized players in the road transportation, warehousing and supply chain services segments is expected to reach 12.5-15.0% by Fiscal 2026, implying a CAGR of approximately 35% between Fiscal 2020 and Fiscal 2026, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.",
+        "subject_surface": "The share of organized players in the road transportation, warehousing and supply chain services segments",
+        "subject_type": "market_segment",
+        "value": {
+          "kind": "text",
+          "raw": "35%"
+        }
+      },
+      {
+        "claim_text": "The express parcel delivery segment is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_expected_growth",
+        "quote": "The segments underlying our largest lines of business, namely express parcel delivery, express PTL and warehousing and supply chain services, are expected to grow faster than the logistics industry and to witness consolidation among organized players. As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the express parcel delivery segment, which is mostly catered to by organized players, is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by Fiscal 2026.",
+        "subject_surface": "The express parcel delivery segment",
+        "subject_type": "market_segment",
+        "value": {
+          "kind": "text",
+          "raw": "28-31%"
+        }
+      },
+      {
+        "claim_text": "The express parcel delivery segment is expected to grow to US$10-12 billion by Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "has_expected_value",
+        "quote": "The segments underlying our largest lines of business, namely express parcel delivery, express PTL and warehousing and supply chain services, are expected to grow faster than the logistics industry and to witness consolidation among organized players. As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the express parcel delivery segment, which is mostly catered to by organized players, is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by Fiscal 2026.",
+        "subject_surface": "The express parcel delivery segment",
+        "subject_type": "market_segment",
+        "value": {
+          "kind": "text",
+          "raw": "US$10-12 billion"
+        }
+      }
+    ]
+  }
+}

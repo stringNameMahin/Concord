@@ -1,0 +1,301 @@
+{
+  "key": "b936feac2cb22ee3844fcc02a3ee2da0230648b13c4f99689a345a7bc1731f7b",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"64\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 59\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 61\n\n[section]\nSTAFF APPRAISAL > Figure 4. India: Baseline Scenario\n</context>\n<text>\nneeds have been revised up compared to the 2024 Article IV consultation, reflecting higher local-currency debt service. Other\ntransactions capture proceeds from asset sales.\nMedium-term projection\nContribution to Change in Public Debt\n(Percent of GDP)\nProjection\n-15\n-10\n-5\n0\n5\n10\n15\n20\n2015\n2017\n2019\n2021\n2023\n2025\n2027\n2029\n2031\n2033\n-52\n0\n18\n-12\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n20\n30\nCumulative in\nthe projection\nperiod\nPrimary deficit\nReal Interest rate\nand relative\ninflation\nReal GDP growth\nOther flows\nResidual\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n60\nINTERNATIONAL MONETARY FUND\nFigure 5. India: Medium-Term Risk Assessment\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"65\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 59\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 61\n\n[section]\nSTAFF APPRAISAL > Figure 4. India: Baseline Scenario\n</context>\n<text>\nContribution to Change in Public Debt\n(Percent of GDP)\nProjection\n-15\n-10\n-5\n0\n5\n10\n15\n20\n2015\n2017\n2019\n2021\n2023\n2025\n2027\n2029\n2031\n2033\n-52\n0\n18\n-12\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n20\n30\nCumulative in\nthe projection\nperiod\nPrimary deficit\nReal Interest rate\nand relative\ninflation\nReal GDP growth\nOther flows\nResidual\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n60\nINTERNATIONAL MONETARY FUND\nFigure 5. India: Medium-Term Risk Assessment\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"66\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 59\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 61\n\n[section]\nSTAFF APPRAISAL > Figure 4. India: Baseline Scenario\n</context>\n<text>\n(Percent of GDP)\nProjection\n-15\n-10\n-5\n0\n5\n10\n15\n20\n2015\n2017\n2019\n2021\n2023\n2025\n2027\n2029\n2031\n2033\n-52\n0\n18\n-12\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n20\n30\nCumulative in\nthe projection\nperiod\nPrimary deficit\nReal Interest rate\nand relative\ninflation\nReal GDP growth\nOther flows\nResidual\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n60\nINTERNATIONAL MONETARY FUND\nFigure 5. India: Medium-Term Risk Assessment\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"67\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND 61\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND\nINTERNATIONAL MONETARY FUND 63\n\n[section]\nSTAFF APPRAISAL > Figure 5. India: Medium-Term Risk Assessment\n</context>\n<text>\nINDIA\nINTERNATIONAL MONETARY FUND 61\nFigure 6. India: Realism of Baseline Assumptions\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n62\nINTERNATIONAL MONETARY FUND\nFigure 7. India: Triggered Modules\nPensions\nHealth\nProjection\nVariable\nRisk Indication\nGFN-to-GDP ratio\nMedium-term extrapolation\nAmortization-to-GDP ratio\nAmortization\nGFN-to-GDP ratio\nAmortization-to-GDP ratio\nAmortization\nGFN-to-GDP ratio\nHistorical average assumptions\nAmortization-to-GDP ratio\nAmortization\nOverall Risk Indication\nVariable\n2030\n2034 to 2038 average\nCustom Scenario\nReal GDP growth\n6.5%\n6.5%\n6.5%\nPrimary Balance-to-GDP ratio\n-1.6%\n-1.6%\n-1.6%\nReal depreciation\n-3.3%\n-1.9%\n-1.9%\nInflation (GDP deflator)\n4.0%\n4.0%\n4.0%\nGFN-to-GDP Ratio\nTotal Public Debt-to-GDP Ratio\nMedium-term extrapolation with debt stabilizing\nprimary balance\nIndia: Long-Term Risk Assessment: Large Amortization Incl. Custom Scenario\nCommentary: Gross financing needs have fallen from their pandemic-related peak. This trend is expected to continue\nover the medium and long term as the deficit narrows. Similarly, fiscal consolidation and a favorable-interest growth\ndifferential will gradually reduce debt. Notably, the deficit is expected to fall below the debt stabilising level in this fiscal\nyear, FY2025/26.\nLarge amortizations\nClimate change: Adaptation\nNatural Resources\nClimate change: Mitigation\n0.0\n5.0\n10.0\n15.0\n20.0\n2017\n2020\n2023\n2026\n2029\n2032\n2035\n2038\n2041\n2044\n2047\n2050\n2053\nLong run projection\nProjection\nBaseline with t+5\nBaseline with t+5 and DSPB\nHistorical 10-year average\n0\n20\n40\n60\n80\n100\n2017\n2020\n2023\n2026\n2029\n2032\n2035\n2038\n2041\n2044\n2047\n2050\n2053\nLong run projection\nProjection\nBaseline with t+5\nBaseline with t+5 and DSPB\nHistorical 10-year average\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"68\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 63\n\n[section]\nSTAFF APPRAISAL > Figure 7. India: Triggered Modules\n</context>\n<text>\nClimate change: Adaptation\nNatural Resources\nClimate change: Mitigation\n0.0\n5.0\n10.0\n15.0\n20.0\n2017\n2020\n2023\n2026\n2029\n2032\n2035\n2038\n2041\n2044\n2047\n2050\n2053\nLong run projection\nProjection\nBaseline with t+5\nBaseline with t+5 and DSPB\nHistorical 10-year average\n0\n20\n40\n60\n80\n100\n2017\n2020\n2023\n2026\n2029\n2032\n2035\n2038\n2041\n2044\n2047\n2050\n2053\nLong run projection\nProjection\nBaseline with t+5\nBaseline with t+5 and DSPB\nHistorical 10-year average\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 63\nFigure 8. India: Climate Change: Adaptation\nFigure 9. India: Climate Change: Mitigation\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"69\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 63\n\n[section]\nSTAFF APPRAISAL > Figure 7. India: Triggered Modules\n</context>\n<text>\nProjection\nBaseline with t+5\nBaseline with t+5 and DSPB\nHistorical 10-year average\n0\n20\n40\n60\n80\n100\n2017\n2020\n2023\n2026\n2029\n2032\n2035\n2038\n2041\n2044\n2047\n2050\n2053\nLong run projection\nProjection\nBaseline with t+5\nBaseline with t+5 and DSPB\nHistorical 10-year average\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 63\nFigure 8. India: Climate Change: Adaptation\nFigure 9. India: Climate Change: Mitigation\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"70\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 63\n\n[section]\nSTAFF APPRAISAL > Figure 7. India: Triggered Modules\n</context>\n<text>\nBaseline with t+5\nBaseline with t+5 and DSPB\nHistorical 10-year average\n0\n20\n40\n60\n80\n100\n2017\n2020\n2023\n2026\n2029\n2032\n2035\n2038\n2041\n2044\n2047\n2050\n2053\nLong run projection\nProjection\nBaseline with t+5\nBaseline with t+5 and DSPB\nHistorical 10-year average\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 63\nFigure 8. India: Climate Change: Adaptation\nFigure 9. India: Climate Change: Mitigation\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\n</text>\n</passage>\n\n<passage id=\"71\">\n<context>\n[page header]\nINDIA\nINTERNATIONAL MONETARY FUND\n\u00a9International Monetary Fund. Not for Redistribution\nINTERNATIONAL MONETARY FUND 65\n\n[section]\nSTAFF APPRAISAL > Figure 9. India: Climate Change: Mitigation\n</context>\n<text>\nINDIA\n64\nINTERNATIONAL MONETARY FUND\nAnnex VI. Ongoing Work to Improve Real Sector Statistics1\nIndia is updating its national accounts and CPI compilation. This work is expected to address existing\nmethodological shortcomings and improve the accuracy of economic data for monitoring and policy\ndesign. The planned publication date for the updated series is February 2026.\n1.\nSeveral methodological improvements are expected to be implemented in the context\nof updated national accounts series. These are expected to address key current shortcomings\n(Annex VII). Planned improvements include:\n\u2022\nUpdate of the base year from 2011/12 to 2022/23.\n\u2022\nUse of updated data sources to better capture the structural changes in the economy, including\nthe updated household consumption and expenditure survey (HCES), annual survey of\nunincorporated sector enterprises (ASUSE), periodic labor force survey, annual survey of\nindustries, all-India debt and investment survey, and updated rates and ratios from other\nstudies, while the use of additional administrative data sources is being explored (goods and\nservices tax data, public finance management system data, e-Vahan portal data, and petroleum\nsector data).\n\u2022\nImprove the volume estimates, through compilation at a more detailed level and expansion of\nthe use of volume extrapolation or, where feasible, double deflation techniques, to minimize the\nuse of single deflation. In addition, data for the planned producer price index should be\nconsidered for use in national accounts where suitable.\n\u2022\nAssessment of the use of the supply and use tables as compilation framework at the annual\nfrequency, as well as further alignment of the compilation techniques used in the quarterly\nnational accounts compilation with international recommendations, including the development\nof seasonally adjusted estimates and analysis of benchmarking techniques. Additional efforts to\nimprove quarterly GDP estimates include the industrial production index (IPI) update, with\nupdated weights and base year aligned with the national accounts, and consideration of an\nupdate of the services production index.\n\u2022\nUpdating the base year and implementing the outlined methodological improvements aims to\nensure that methods and weights used to measure volume GDP better reflect current conditions\n(for example, production technology and user preferences) and contribute to a more accurate\nmeasurement of GDP by avoiding over- or underestimating economic activity due to, for\nexample, the use of an outdated structure of relative prices.\n2.\nProgress is also underway in the update of the CPI series. The CPI base year is being\nupdated to 2024, with weights based on the 2023-24 HCES. Methodological improvements\n1 Prepared by Margarida Martins (STA).\n\u00a9International Monetary Fund. Not for Redistribution\n\n\nINDIA\nINTERNATIONAL MONETARY FUND 65\nexpected to be implemented include enhanced sample size (market and outlets coverage), data\ncollection using computer assisted personal interviews and cloud-based compilation software, index\ncompilation using better technology platforms, further improvement in compilation methodology\n(imputed housing rents, quality adjustment, and free food items), exploring the use of additional\ndata sources (data from e-commerce platforms, airfare online platforms, and administrative sources),\nand implementation of the latest international classification (COICOP 2018). Updating the current,\noutdated base year, items basket, and weights (2011/12) aims to improve the accuracy of the CPI\nbasket in representing current spending habits.\n3.\nIMF capacity development activities are ongoing to assist in the national accounts and\nCPI updates. Targeted activities conducted so far assisted MOSPI in training on the use of the\nsupply and use table framework for the compilation of the base year estimates for national\naccounts, development of seasonal adjustment estimates, and dissemination practices, as well as in\nsupport for the IPI update. A series of other training activities is ongoing, with further assistance\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "In India, the deficit is expected to fall below the debt stabilizing level in fiscal year FY2025/26.",
+        "confidence": 1.0,
+        "passage_id": 67,
+        "predicate": "deficit_expected_to_fall_below_debt_stabilizing_level_fiscal_year",
+        "qualifiers": [],
+        "quote": "the deficit is expected to fall below the debt stabilising level in this fiscal year, FY2025/26.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "text",
+          "raw": "FY2025/26"
+        }
+      },
+      {
+        "claim_text": "The planned publication date for India's updated national accounts and CPI series is February 2026.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "planned_publication_date_for_updated_series",
+        "qualifiers": [],
+        "quote": "The planned publication date for the updated series is February 2026.",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "date",
+          "raw": "February 2026"
+        }
+      },
+      {
+        "claim_text": "India is updating its national accounts base year to 2022/23.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "updated_base_year",
+        "qualifiers": [
+          {
+            "key": "previous_base_year",
+            "provenance": "stated",
+            "value": "2011/12"
+          }
+        ],
+        "quote": "Update of the base year from 2011/12 to 2022/23.",
+        "subject_key": null,
+        "subject_surface": "India's national accounts",
+        "subject_type": "economic_statistics",
+        "value": {
+          "kind": "text",
+          "raw": "2022/23"
+        }
+      },
+      {
+        "claim_text": "India's CPI base year is being updated to 2024.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "updated_base_year",
+        "qualifiers": [],
+        "quote": "The CPI base year is being updated to 2024",
+        "subject_key": null,
+        "subject_surface": "India's CPI",
+        "subject_type": "economic_statistics",
+        "value": {
+          "kind": "text",
+          "raw": "2024"
+        }
+      },
+      {
+        "claim_text": "India's updated CPI weights are based on the 2023-24 HCES.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "updated_weights_basis",
+        "qualifiers": [],
+        "quote": "weights based on the 2023-24 HCES",
+        "subject_key": null,
+        "subject_surface": "India's CPI",
+        "subject_type": "economic_statistics",
+        "value": {
+          "kind": "text",
+          "raw": "2023-24 HCES"
+        }
+      },
+      {
+        "claim_text": "India's current CPI base year is 2011/12.",
+        "confidence": 1.0,
+        "passage_id": 71,
+        "predicate": "current_base_year",
+        "qualifiers": [],
+        "quote": "current, outdated base year, items basket, and weights (2011/12)",
+        "subject_key": null,
+        "subject_surface": "India's CPI",
+        "subject_type": "economic_statistics",
+        "value": {
+          "kind": "text",
+          "raw": "2011/12"
+        }
+      }
+    ]
+  }
+}

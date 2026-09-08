@@ -1,0 +1,798 @@
+{
+  "key": "6dc5f8428613936e276b8ec99c6c61b33f21baa35ee91a9c0b59f3dcaa2d1896",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable.",
+        "role": "system"
+      },
+      {
+        "content": "Below are 8 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"48\">\n<context>\n[section]\nOUR MARKET OPPORTUNITY\n</context>\n<text>\nwarehousing and supply chain services, are expected to grow faster than the logistics industry and to witness\nconsolidation among organized players. As per the RedSeer Report, which has been exclusively commissioned\nand paid for by us in connection with the Offer, the express parcel delivery segment, which is mostly catered to\nby organized players, is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by\nFiscal 2026. Organized players are expected to benefit from the continued growth of e-commerce and the\nemergence of new business models such as D2C, social commerce and eB2B, which rely heavily on 3PL express\ndelivery. As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection\nwith the Offer, the express PTL segment is expected to grow from approximately US$3.3 billion in Fiscal 2021\nto approximately US$9 billion in Fiscal 2026 at a CAGR of 21% and to witness a significant increase in the share\nof organized players from approximately 40% to approximately 70% during the same period. As per the RedSeer\nReport, which has been exclusively commissioned and paid for by us in connection with the Offer, the\nwarehousing and supply chain services segment is expected to grow from approximately US$65.0 billion in Fiscal\n2021 to approximately US$109.0 billion in Fiscal 2026 at a CAGR of 9% from Fiscal 2020 to Fiscal 2026 and\nwitness consolidation of share by organized players from US$1.6 billion in Fiscal 2020 to US$13 \u2013 15 billion in\nFiscal 2026, at a CAGR of 42 \u2013 45% for the same period. Among our other business verticals, the TL market is\nexpected to grow by 7% between Fiscal 2020 and Fiscal 2026 from US$109.0 billion to US$163.0 billion, with\nthe market share of organized players to increase from approximately 1% in Fiscal 2020 to more than 3% in Fiscal\n2026, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with\nthe Offer. Similarly, the cross-border air transportation market is expected to grow from approximately US$5.4\n\n\n217\nbillion in Fiscal 2020 to US$8.2 billion in Fiscal 2026, as per the RedSeer Report, which has been exclusively\ncommissioned and paid for by us in connection with the Offer.\nWe believe that the combination of our integrated solutions, proprietary logistics operating system, data\nintelligence capabilities, automation, asset light operations and entrepreneurial team positions us well to address\nthis large market opportunity.\nOUR SERVICES\nThe integration of our technology platform with our physical network and its operations enables us to provide\ncomprehensive supply chain solutions to a wide range of customers. The following schematic depicts our overall\nservice map:\n\u2022\nExpress Parcel\nAs per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with\nthe Offer, we were the largest and fastest growing 3PL express parcel (and heavy parcel) delivery player in\nIndia by volume and revenue as of Fiscal 2021 and the nine months period ended December 31, 2021, with\na market share of approximately 24% to 25% of the overall e-commerce parcel volumes (including captive\nplayers) in India for the three months period ended December 31, 2021. We have delivered more than 1.2\nbillion shipments since incorporation. Our shipment volume grew from 148.49 million orders in Fiscal 2019\nto 289.20 million orders in Fiscal 2021 on an annual basis, representing a CAGR of 40%. For the nine months\nperiod ended December 31, 2021, we delivered 406.51 million shipments. Our customers include e-\ncommerce marketplaces, vertical e-commerce retailers, D2C brands, omni-channel retailers, SMEs, banks\nand financial institutions. For the nine months period ended December 31, 2021, 20,498 Active Customers\nused our express parcel delivery services.\nWe have increased the capacity of our network as we have scaled our business. Our network is designed to\nensure performance under large volume fluctuations that are a routine occurrence in the e- commerce market\n</text>\n</passage>\n\n<passage id=\"49\">\n<context>\n[section]\nExpress Parcel\n</context>\n<text>\nperiod ended December 31, 2021, we delivered 406.51 million shipments. Our customers include e-\ncommerce marketplaces, vertical e-commerce retailers, D2C brands, omni-channel retailers, SMEs, banks\nand financial institutions. For the nine months period ended December 31, 2021, 20,498 Active Customers\nused our express parcel delivery services.\nWe have increased the capacity of our network as we have scaled our business. Our network is designed to\nensure performance under large volume fluctuations that are a routine occurrence in the e- commerce market\nand during month-end periods in the freight market. This is reflected in our peak daily parcel pick-up volume\nthat has increased from approximately 0.80 million parcels during Fiscal 2019 to 3.29 million parcels for the\nnine months period ended December 31, 2021.\nOur express parcel delivery network, which serviced 17,488 PIN codes for the nine months period ended\nDecember 31, 2021, covering 90.61% of the 19,300 PIN codes in India as of December 31, 2021 (per India\nPost), is capable of handling consignments of up to 10 kilograms with same-day and next-day capabilities\nand 48-96 hour deliveries for long-distance orders. We also provide value-added services such as reverse\nlogistics for returns with quality inspection and product replacement services. We also provide person-\nspecific deliveries involving delivery to a specified person after validating the person\u2019s identity; address-\nspecific deliveries involving delivery to an address specified by the shipper (and not the recipient) and time-\n\n\n218\nspecific delivery involving delivery within a time slot provided by the recipient. In addition, we offer cash\non delivery and other modes of payment on delivery.\nWe launched our heavy goods service in 2016, comprising the warehousing and delivery of heavy goods,\nsuch as large electronic goods, or white goods, furniture and sports equipment. As per the RedSeer Report,\nwhich has been exclusively commissioned and paid for by us in connection with the Offer, large appliances,\nwhite goods and furniture are among the emerging and fastest growing categories in e-commerce. This\nservice leverages our existing warehousing capabilities, the reach of our express parcel network and the\ncapacity to handle large goods of our PTL freight service. As a result, we operate the largest network for\nheavy parcel (large appliances or white goods, appliances, home and furniture and sports equipment) delivery\nin India, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in\nconnection with the Offer. Our shipment volume has grown by more than six times from 0.85 million\nshipments in Fiscal 2019 to 5.26 million shipments in Fiscal 2021 on an annual basis. In May 2021, we also\nlaunched installation and assembly services for consumer durables and furniture. For the nine months period\nended December 31, 2021, 264 e-commerce, enterprise and D2C Active Customers used our heavy goods\nservices.\nWe have also launched Delhivery Direct, our C2C shipping service in June 2021, which enables individual\nconsumers to ship parcels from their homes.\n\u2022\nPTL Freight\nWe launched PTL freight services focused on the B2B express segment in 2016 after achieving significant\nscale in our express parcel network and establishing a full-fledged surface line-haul network to service its\nvolume. In Fiscal 2021, we delivered 373,854 tonnes of freight, growing at a CAGR of 75% between Fiscal\n2019 and Fiscal 2021.\nWe acquired Spoton in August 2021 to further scale our PTL freight services business. Spoton delivered\n758,730 tonnes and 683,999 tonnes of freight in Fiscal 2021 and the nine months period ended December\n31, 2021, respectively, and had a network presence across 13,087 PIN codes with 2.85 million sq. ft. of\ninfrastructure as of December 31, 2021. As per the RedSeer Report, which has been exclusively\ncommissioned and paid for by us in connection with the Offer, following our acquisition of Spoton, we\nbecame the third largest PTL freight player in India in terms of revenue as of Fiscal 2021, with a market\n</text>\n</passage>\n\n<passage id=\"50\">\n<context>\n[section]\nPTL Freight\n</context>\n<text>\n758,730 tonnes and 683,999 tonnes of freight in Fiscal 2021 and the nine months period ended December\n31, 2021, respectively, and had a network presence across 13,087 PIN codes with 2.85 million sq. ft. of\ninfrastructure as of December 31, 2021. As per the RedSeer Report, which has been exclusively\ncommissioned and paid for by us in connection with the Offer, following our acquisition of Spoton, we\nbecame the third largest PTL freight player in India in terms of revenue as of Fiscal 2021, with a market\nshare of approximately 8.3% of the organized PTL market in India. Our Company also operated the fastest\ngrowing PTL freight service amongst the top 10 PTL service providers in India as of Fiscal 2021, as per the\nRedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.\nIn keeping with our strategy of unifying our infrastructure and network, our PTL service is designed around\nshared linehaul operations with the express parcel business. This has enabled us to build larger, automated\ngateways, operate larger trucks, including tractor-trailers and enhanced capacity utilization in our mid-mile\noperations. Our shared network allows us to offer e-commerce equivalent turnaround times and direct reach\nacross our entire network to PTL freight customers.\nWe provide a full suite of freight services including door-to-door and hub-to-hub delivery, time-definite and\nappointment-based delivery and value-added services such as contactless delivery, electronic proof-of-\ndelivery, transportation of oversize cargo (up to 1 tonne/shipment), reverse pick-ups, invoice value\ncollection and freight collection through cash and digital payment methods.\nTogether with Spoton, we had over 7,900 Active Customers for the nine months period ended December\n31, 2021 across industries such as consumer durables, auto, lifestyle, fashion, e-commerce, FMCG and\nretail.\n\u2022\nTL Freight\nOur truckload freight brokerage platform, \u201cOrion\u201d, connects shippers with fleet-owners and suppliers of\ntruckload capacity across the country via a centralized bidding and matching engine.\nThe Orion platform allows shippers and our teams to post their spot and long-term truckload freight\nrequirements. Registered agents and fleet owners can then bid for these jobs via our in-house application,\n\u201cAxle\u201d. Subsequently, loads are matched to capacity based on price and service quality. All operational and\n\n\n219\nfinancial processes including job creation, bidding, matching, real-time tracking, document management\nand financial transactions are managed in real-time on the Orion platform.\nIn January 2020, we acquired Roadpiper Technologies Private Limited, a digital freight broker with fleet\nowner, load-matching and pricing applications. This has strengthened our capability to engage with\nsuppliers of truckload capacity.\nThe Orion platform was first built based on experience with a large amount of internal truckload demand\ngenerated by our operations, with more than 9,000 trips on average per month for the period from October\n2017 to March 2018. This enabled us to ascertain the platform capabilities and establish a consistent base\nload.\nThe Orion platform was opened to external transacting customers in Fiscal 2019. As of Fiscal 2021, we had\n449 Active Customers and over 1,850 transportation partners. Since the inception of the platform, more than\n75,000 trucks have been registered on the Orion platform and have completed more than 160,000 third-\nparty truck placements, as of December 31, 2021.\n\u2022\nSupply Chain Services\nWe provide integrated supply chain solutions to e-commerce and corporate customers. Our supply chain\nsolutions combine the strength of our warehousing and transportation operations, infrastructure, network\nand technology with deep data-science and business intelligence capabilities. This enables us to provide\ncomprehensive and integrated multi-channel order fulfilment solutions that improve the reliability, speed and\ncost-efficiency of our customers\u2019 supply chains. Our solutions are designed to be modular and configurable\n</text>\n</passage>\n\n<passage id=\"51\">\n<context>\n[section]\nSupply Chain Services\n</context>\n<text>\nWe provide integrated supply chain solutions to e-commerce and corporate customers. Our supply chain\nsolutions combine the strength of our warehousing and transportation operations, infrastructure, network\nand technology with deep data-science and business intelligence capabilities. This enables us to provide\ncomprehensive and integrated multi-channel order fulfilment solutions that improve the reliability, speed and\ncost-efficiency of our customers\u2019 supply chains. Our solutions are designed to be modular and configurable\nwith the flexibility to choose multiple fulfilment and transportation models and partners.\nOur warehousing solutions comprise warehouse management, in-warehouse processing and order fulfilment\nservices that enable customers to optimize inventory management and delivery timelines. Our E2E solutions\nuse system-directed operations to help optimize inventory management, transportation selection, delivery\ntimelines and overall costs. This is driven by our self-developed WMS system \u201cGodam\u201d, which supports\nmulti-tenant, multi-channel operations. We also provide integrated transportation services as part of overall\norder fulfilment, including PTL, TL, cross-border freight, intra-city distribution and express parcel delivery\nservices.\nWe acquired Primaseller Inc. in February 2021 to enable D2C e-commerce brands and omnichannel retailers\nto integrate their online and offline channels with our logistics network. This allows us to provide a reliable\norder-to-delivery promise to end consumers.\nAs of December 31, 2021, we operated over 6.08 million square ft. of warehousing infrastructure across 81\nwarehouses, compared to 0.59 million square ft. across 15 warehouses in 2016. For the nine months period\nended December 31, 2021, 77 Active Customers used our supply chain services solutions.\n\u2022\nCross-Border Services\nWe began providing door-to-door and port-to-port express parcel services to and from India in 2018 to meet\nthe rising demand for cross-border e-commerce and expanded this offering to include cross-border air-cargo\nservices in late 2019.\nOur cross-border operations are powered by our global shipping service, \u201cStarfleet\u201d, where we follow a\n\u201cstring of pearls\u201d strategy, integrating global networks and airlines on the same platform, providing a\nsingle-window visibility into express and freight global shipping to shippers. \u201cStarfleet\u201d also provides\ninternational air cargo services through a mix of charter and block space agreements through partnerships\nwith major airlines on certain trade corridors of India, such as the US, Europe and China.\nWe have established a reciprocal alliance with Aramex and FedEx, both of whom are global express leaders,\nfor customs clearance, pickup and delivery services. We entered into an alliance with Aramex in March\n2019, expanding our coverage in Middle East and North Africa, and providing reciprocal access to Aramex\ncustomers to our India network. In July 2021, we executed an agreement to facilitate a strategic alliance\nwith FedEx, targeted principally at expanding our coverage in the North American, European, Australian\nand Asian markets. This agreement became effective on December 5, 2021. Further, our domestic partners,\n\n\n220\nSpiceJet Limited (SpiceJet) and Interglobe Aviation Ltd. (Indigo), enable charter and block space cargo and\ncargo clearance.\nOur cross-border service is accessible to all of our existing customers and also via our retail sales network\nof over 397 retail points as of December 31, 2021. In Fiscal 2021, we had 407 Active Customers availing\nour cross-border shipping services, transacting over 2,050 tonnes of air freight.\nSale of goods\nA small portion of our total revenue from contracts with customers is from sale of traded goods. Our revenue\nfrom sale of traded goods was nil, \u20b957.50 million, \u20b9110.89 million, \u20b988.14 million and \u20b91,874.74 million for\nFiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and the nine\nmonths period ended December 31, 2021 respectively, constituting nil, 0.21%, 0.30%, 0.33% and 3.90% of our\n</text>\n</passage>\n\n<passage id=\"52\">\n<context>\n[section]\nCross-Border Services\n</context>\n<text>\nour cross-border shipping services, transacting over 2,050 tonnes of air freight.\nSale of goods\nA small portion of our total revenue from contracts with customers is from sale of traded goods. Our revenue\nfrom sale of traded goods was nil, \u20b957.50 million, \u20b9110.89 million, \u20b988.14 million and \u20b91,874.74 million for\nFiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and the nine\nmonths period ended December 31, 2021 respectively, constituting nil, 0.21%, 0.30%, 0.33% and 3.90% of our\ntotal revenue from contracts with customers, respectively, for the same period. This revenue increased\nsignificantly for the nine months period ended December 31, 2021. Such revenue from sale of traded goods has\nhistorically corresponded primarily to revenue from distribution of certain FMCG products for a customer, a\nbusiness activity which has currently been discontinued. In addition, during the nine months period ended\nDecember 31, 2021, we also had a one-off increase in revenue pertaining to import of medical equipment into\nIndia during the COVID-19 pandemic on the basis of back-to-back arrangements with certain customers.\nNETWORK, INFRASTRUCTURE AND AUTOMATION\nWe have built a nation-wide network with presence in every state, servicing 17,488 PIN codes during the nine\nmonths period ended December 31, 2021, or 90.61% of the 19,300 PIN codes in India as of December 31, 2021\n(per India Post). Our network infrastructure includes 122 gateways, 21 automated sort centres, 93 fulfilment\ncentres, 35 collection points, 31 returns processing centres, 244 service centres, 132 intermediate processing\ncentres and 2,521 direct delivery centres as of December 31, 2021, including Spoton\u2019s 40 gateways and 138\nservice centres. Our self-delivery network is augmented by 1,209 partner locations that expand our reach, provide\ncritical flexible capacity and redundancy and Spoton\u2019s service centres are augmented by 205 additional locations\noperated by business associates.\n\u2022\nGateway and Automated sort centre facilities:\nGateways, which are large logistics facilities that form the core of our network, perform pickup, sortation,\nconsolidation and deconsolidation, dispatch and customs clearance operations. Gateways can\nsimultaneously handle all product categories - express parcel, cross-border express and freight, heavy goods\nand PTL freight.\nAll our gateways are connected to each other in a dynamic mesh network via line-haul transportation, unlike\ntraditional hub-and-spoke models. They also connect directly to intermediate processing centres, service\ncentres or delivery centres in real-time, guided by our network algorithms, based on volume and service time\nconsiderations. While this design for speed increases our sortation complexity relative to traditional logistics\nmodels, our large investments in automated shipment sorting, system-directed operations and routing\nalgorithms along with our large base volume, enable us to achieve the speed objective while ensuring cost-\n\n\n221\nefficiency, reliability and operational quality.\nAs of December 31, 2021, 21 of our gateways were equipped with 25 automated parcel sorters having a\nRated Automated Sort Capacity of 3.70 million shipments per day. Four of our largest gateways had\nautomated material handling systems to increase operational throughput and improve quality of handling.\nThese automated material handling systems provide throughput ranging from 3,000 to 32,000 shipments\nper hour. For Fiscal 2019, Fiscal 2020 and Fiscal 2021 and for the nine months ended December 31, 2021,\nthe estimated utilisation of sortation capacity in our network infrastructure was 20.35%, 31.46%, 30.57%\nand 38.55% respectively. Depending on the distribution profile of shipment volumes, the utilisation of\nsortation capacity varies considerably in a day and during the year and also varies considerably between\ndifferent locations where sortation capacity has been installed.\nOn December 31, 2021, we acquired 34.55% of the share capital (on a fully-diluted basis) of Falcon, a\n</text>\n</passage>\n\n<passage id=\"53\">\n<context>\n[section]\nNETWORK, INFRASTRUCTURE AND AUTOMATION\n</context>\n<text>\nper hour. For Fiscal 2019, Fiscal 2020 and Fiscal 2021 and for the nine months ended December 31, 2021,\nthe estimated utilisation of sortation capacity in our network infrastructure was 20.35%, 31.46%, 30.57%\nand 38.55% respectively. Depending on the distribution profile of shipment volumes, the utilisation of\nsortation capacity varies considerably in a day and during the year and also varies considerably between\ndifferent locations where sortation capacity has been installed.\nOn December 31, 2021, we acquired 34.55% of the share capital (on a fully-diluted basis) of Falcon, a\nlogistics automation solution provider, pursuant to a share subscription agreement and a share purchase\nagreement, and also entered into a business co-operation agreement with Falcon.\nAerial View of the Tauru Gateway (Haryana)\nFeeder lines between trucks and sorter\nMulti-level sorter\nShipment Chutes\n\u2022\nFulfilment centres (\u201cFC\u201d):\nAs of December 31, 2021, we operated 93 fulfilment centres with an aggregate floor area of 6.25 million\nsquare feet, including 12 fulfilment centres of Spoton with an aggregate floor area of 0.17 million square\nfeet. Our fulfilment centres are capable of multi-client, multi-channel operations, and of servicing B2C and\nB2B inventory management and order fulfilment requirements. Our fulfilment centres are located in\nstrategic supply and consumption clusters to enable customers to place inventory closer to their end\nconsumers and reduce overall order fulfilment timelines. Several FCs are also co-located and operationally\nintegrated with our gateways, further enhancing delivery speed and reducing overall fulfilment costs.\nBhorakalan FC (Haryana)\n\n\n222\nLuhari FC (Haryana)\n\u2022\nIntermediate processing centres:\nWe operated 132 intermediate processing centers, as of December 31, 2021, to receive consolidated loads\nfrom gateways for a set of delivery centers mapped to them. These facilities increase our ability to use larger\nline-haul vehicles, reduce sortation complexity and act as load-stabilizers in our network by performing\nsimpler sortation operations for delivery centres and distributing these loads multiple times a day.\n\u2022\nService centres and delivery centres:\nService centres and delivery centres perform last-mile delivery of consignments and pickup operations from\ntheir catchment areas. Parcels weighing less than 10kg are picked up and delivered by delivery centres while\nPTL loads and heavier parcels are picked up and delivered through our service centres.\nAs of December 31, 2021, we operated 3,730 delivery centres and 244 service centres, including 138 service\ncentres belonging to Spoton. Spoton\u2019s service centres are augmented by 205 additional locations operated\nby business associates. 2,521 of our delivery centres are self-operated while 1,209 are operated by partners\nthrough our \u201cConstellation\u201d program. In addition, direct delivery centres are further augmented by a\nnetwork of 4,565 partner stores who provide us with flexible delivery capacity in their catchment areas.\n\u2022\nReturns processing centres:\nWe operate 31 dedicated facilities to process e-commerce sale returns to customer warehouses as of\nDecember 31, 2021. These centres are either co-located with Gateway facilities or are stand-alone facilities\nin locations with a high density of e-commerce sellers and warehouses.\n\u2022\nFleet:\nA majority of our line-haul and intra-city distribution requirements are met through partner fleet owners and\nsuppliers of truckload capacity via our middle-mile systems and Orion platform. We also operate an owned\nfleet of heavy trucks and tractor-trailers which are employed in our linehaul network. We have designed and\nintroduced customized trailer containers for use in our line-haul. These assets enable us to drive up\nefficiency by increasing the utilisation of the tractors and their crew and also reduce storage space in\ngateways by utilising the trailers for storage. This fleet enables us to introduce new capabilities such as\ntrailer management, establish real-time benchmarks for truck utilisation and costs across seasons and\n</text>\n</passage>\n\n<passage id=\"54\">\n<context>\n[section]\nNETWORK, INFRASTRUCTURE AND AUTOMATION\n</context>\n<text>\nfleet of heavy trucks and tractor-trailers which are employed in our linehaul network. We have designed and\nintroduced customized trailer containers for use in our line-haul. These assets enable us to drive up\nefficiency by increasing the utilisation of the tractors and their crew and also reduce storage space in\ngateways by utilising the trailers for storage. This fleet enables us to introduce new capabilities such as\ntrailer management, establish real-time benchmarks for truck utilisation and costs across seasons and\ngeographies, and set standards for on-time performance. During the nine months period ended December\n31, 2021, 99.52% of our trucks and other transportation vehicles were leased from third-party fleet partners.\nOur Fleet\nThe following table from the RedSeer Report, which has been exclusively commissioned and paid for by us in\nconnection with the Offer, provides a comparison of our business model as compared to those of traditional 3PL\nplayers in India.\nTraditional 3PL\nDelhivery\nTypical Network Design\nHub-spoke\nMesh network\nTypical Nature of Asset Holdings\nAsset-light; mainly partner operated\nassets\nAsset-light; leased infrastructure and\nfleet, selective ownership of strategic\ntechnology assets\nAutomation\nLow automation; mainly manual\noperations\nHigh degree of automation with full\ncontrol over the value chain\nNote(s): (1) Asset light is defined as a business model with low ownership of physical assets (2) Degree of automation is defined as the intensity\nof reduction in manual processes using technology to perform iterative tasks.\nSource(s): RedSeer Research, RedSeer Analysis\nAccording to the RedSeer Report, which has been exclusively commissioned and paid for by us in connection\nwith the Offer, Mesh Network and Hub-Spoke model refer to two different types of logistics network topologies.\nMesh Network consists of higher proportion of point-to-point connections with dynamic shipment routes\ndetermined typically based on an automated algorithm. On the other hand, Hub-Spoke Model consists of a mother\nnode which is centrally connected to multiple other nodes. This results in fixed shipment paths and relatively\n\n\n223\nlower flexibility compared to a Mesh network. As a result, Mesh network enables faster turnaround time, higher\nroute flexibility and better reliability vs the Hub-Spoke topology. However, it has higher operational complexity\nrequiring sophisticated technology to operate the network.\nOUR TECHNOLOGY CAPABILITIES\nOur logistics operating system is at the heart of our integrated solutions. The integration of our physical operations\nand infrastructure with our technology systems enables us to develop customized solutions and respond quickly\nto our customers\u2019 evolving business needs.\nIntegration of logistics operating system with infrastructure and applications\nWe use over 80 applications which are self-developed and enhanced with data intelligence, to provide various\nservices. These applications and services assist, guide and direct our customers, operations teams, partners and\nnetwork assets. They aid in demand forecasting, network design, tracking and real-time optimization and decision\nsupport.\nWe had an engineering, data sciences and product team of 505 professionals (excluding Spoton) as of December\n31, 2021. We believe that our logistics operating system led by an experienced team are key advantages that\ndifferentiate us from other, traditional logistics companies.\nOur Technology Architecture\nOur technology platform has a layered system architecture comprising the core operating system (\u201cCoreOS\u201d), a\nconfiguration layer and an application layer. We have made significant investments in developing tools and API\nend-points, not only for our operators but also for our customers and partners, allowing development of bespoke\napplications with complete control. In addition, our distributed architecture enables us to scale rapidly and\nprovides flexibility with multiple teams working independently on various services for faster deployment. A\n</text>\n</passage>\n\n<passage id=\"55\">\n<context>\n[section]\nOur Technology Architecture\n</context>\n<text>\nOur technology platform has a layered system architecture comprising the core operating system (\u201cCoreOS\u201d), a\nconfiguration layer and an application layer. We have made significant investments in developing tools and API\nend-points, not only for our operators but also for our customers and partners, allowing development of bespoke\napplications with complete control. In addition, our distributed architecture enables us to scale rapidly and\nprovides flexibility with multiple teams working independently on various services for faster deployment. A\nschematic of our architecture is depicted below:\n\n\n224\nOur technology architecture\nCoreOS: CoreOS provides reusable, business-agnostic tools and services that define standards and data\ngovernance frameworks for logistics. This layer provides foundational and security components and standardizes\nthe exchange of data between services. It is designed with a data first architecture and jurisdiction, enabling user-\nlevel restrictions on data access, coupled with requisite security and infrastructure controls which ensure data privacy\nand security.\nConfiguration layer: This consists of dynamic frameworks that enable rules, policies and structures based on\nbusiness specific, geography specific and customer specific requirements. It facilitates creation and configuration\nof custom rules and operational workflows that enable interoperability of the same underlying network assets and\ninfrastructure across a variety of supply chain use cases.\nApplication layer: This layer consists of purpose-built business applications and services developed by our in-\nhouse product, technology and data teams as well as third party developer partners. These applications and\nservices are, in turn, bundled into solutions serving a variety of supply chain use cases.\nWe have over 80 applications through which we provide various services, which connect all of our operators,\ninfrastructure, partners and network assets, orchestrated through our logistics platform. The end-points that\nconnect all of these ecosystem participants include web and mobile applications for our operators, customer ERP\nsystems and a variety of connected assets such as mobile devices, vehicles, cameras, sortation systems and\nmaterial handling equipment.\nFor details of our operational and customer facing applications, see \u201c\u2e3bOur Technology Applications\u201d on page\n232.\nData Intelligence\nThe vast amount of transaction data that we collect, enrich, process and analyze is one of our key differentiators.\nTransaction data is collected via handheld devices in facilities, field mobile devices, IoT devices on vehicles,\nautomated systems like sorters, X-ray machines and material handling equipment, CCTV cameras and web\napplications. This data is enriched with other environmental data such as traffic and weather information,\ncontextualized with historical trends and fed into proprietary algorithms that use machine learning and big data\nanalytics to derive insights that help us automate and optimize critical business decisions in real-time. Our machine\nlearning models continuously learn from on ground actions by ingesting live data from our operations and\nupgrading their predictions and recommendations.\n\n\n225\n</text>\n</passage>\n",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "extractionout",
+        "schema": {
+          "$defs": {
+            "FactOut": {
+              "properties": {
+                "claim_text": {
+                  "description": "One self-contained sentence stating the fact",
+                  "title": "Claim Text",
+                  "type": "string"
+                },
+                "confidence": {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "title": "Confidence",
+                  "type": "number"
+                },
+                "passage_id": {
+                  "description": "id of the passage this fact and its quote came from",
+                  "title": "Passage Id",
+                  "type": "integer"
+                },
+                "predicate": {
+                  "description": "Lower snake_case relation name",
+                  "title": "Predicate",
+                  "type": "string"
+                },
+                "qualifiers": {
+                  "items": {
+                    "$ref": "#/$defs/QualifierOut"
+                  },
+                  "title": "Qualifiers",
+                  "type": "array"
+                },
+                "quote": {
+                  "description": "Verbatim span copied from the document",
+                  "title": "Quote",
+                  "type": "string"
+                },
+                "subject_key": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Hard identifier for the subject if the document gives one",
+                  "title": "Subject Key"
+                },
+                "subject_surface": {
+                  "title": "Subject Surface",
+                  "type": "string"
+                },
+                "subject_type": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "title": "Subject Type"
+                },
+                "value": {
+                  "$ref": "#/$defs/ValueOut"
+                }
+              },
+              "required": [
+                "passage_id",
+                "claim_text",
+                "subject_surface",
+                "predicate",
+                "value",
+                "quote",
+                "confidence"
+              ],
+              "title": "FactOut",
+              "type": "object"
+            },
+            "QualifierOut": {
+              "properties": {
+                "key": {
+                  "description": "Lower snake_case condition name",
+                  "title": "Key",
+                  "type": "string"
+                },
+                "provenance": {
+                  "enum": [
+                    "stated",
+                    "inherited"
+                  ],
+                  "title": "Provenance",
+                  "type": "string"
+                },
+                "value": {
+                  "title": "Value",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "value",
+                "provenance"
+              ],
+              "title": "QualifierOut",
+              "type": "object"
+            },
+            "ValueOut": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "quantity",
+                    "text",
+                    "date",
+                    "boolean"
+                  ],
+                  "title": "Kind",
+                  "type": "string"
+                },
+                "raw": {
+                  "description": "The value exactly as written in the document",
+                  "title": "Raw",
+                  "type": "string"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Magnitude word such as million or crore, if any",
+                  "title": "Scale"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Currency code or unit of measure, as written",
+                  "title": "Unit"
+                }
+              },
+              "required": [
+                "kind",
+                "raw"
+              ],
+              "title": "ValueOut",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "facts": {
+              "items": {
+                "$ref": "#/$defs/FactOut"
+              },
+              "title": "Facts",
+              "type": "array"
+            }
+          },
+          "title": "ExtractionOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the express parcel delivery segment, which is mostly catered to by organized players, is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "expected_cagr",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the express parcel delivery segment, which is mostly catered to by organized players, is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by Fiscal 2026.",
+        "subject_surface": "express parcel delivery segment",
+        "subject_type": "segment",
+        "value": {
+          "kind": "quantity",
+          "raw": "28-31%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the express PTL segment is expected to grow from approximately US$3.3 billion in Fiscal 2021 to approximately US$9 billion in Fiscal 2026 at a CAGR of 21% and to witness a significant increase in the share of organized players from approximately 40% to approximately 70% during the same period.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "expected_cagr",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the express PTL segment is expected to grow from approximately US$3.3 billion in Fiscal 2021 to approximately US$9 billion in Fiscal 2026 at a CAGR of 21% and to witness a significant increase in the share of organized players from approximately 40% to approximately 70% during the same period.",
+        "subject_surface": "express PTL segment",
+        "subject_type": "segment",
+        "value": {
+          "kind": "quantity",
+          "raw": "21%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the warehousing and supply chain services segment is expected to grow from approximately US$65.0 billion in Fiscal 2021 to approximately US$109.0 billion in Fiscal 2026 at a CAGR of 9% from Fiscal 2020 to Fiscal 2026 and witness consolidation of share by organized players from US$1.6 billion in Fiscal 2020 to US$13 \u2013 15 billion in Fiscal 2026, at a CAGR of 42 \u2013 45% for the same period.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "expected_cagr",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the warehousing and supply chain services segment is expected to grow from approximately US$65.0 billion in Fiscal 2021 to approximately US$109.0 billion in Fiscal 2026 at a CAGR of 9% from Fiscal 2020 to Fiscal 2026 and witness consolidation of share by organized players from US$1.6 billion in Fiscal 2020 to US$13 \u2013 15 billion in Fiscal 2026, at a CAGR of 42 \u2013 45% for the same period.",
+        "subject_surface": "warehousing and supply chain services segment",
+        "subject_type": "segment",
+        "value": {
+          "kind": "quantity",
+          "raw": "9%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the TL market is expected to grow by 7% between Fiscal 2020 and Fiscal 2026 from US$109.0 billion to US$163.0 billion, with the market share of organized players to increase from approximately 1% in Fiscal 2020 to more than 3% in Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "expected_cagr",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the TL market is expected to grow by 7% between Fiscal 2020 and Fiscal 2026 from US$109.0 billion to US$163.0 billion, with the market share of organized players to increase from approximately 1% in Fiscal 2020 to more than 3% in Fiscal 2026.",
+        "subject_surface": "TL market",
+        "subject_type": "market",
+        "value": {
+          "kind": "quantity",
+          "raw": "7%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the cross-border air transportation market is expected to grow from approximately US$5.4 billion in Fiscal 2020 to US$8.2 billion in Fiscal 2026.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "expected_cagr",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the cross-border air transportation market is expected to grow from approximately US$5.4 billion in Fiscal 2020 to US$8.2 billion in Fiscal 2026.",
+        "subject_surface": "cross-border air transportation market",
+        "subject_type": "market",
+        "value": {
+          "kind": "quantity",
+          "raw": "US$8.2 billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, we were the largest and fastest growing 3PL express parcel (and heavy parcel) delivery player in India by volume and revenue as of Fiscal 2021 and the nine months period ended December 31, 2021, with a market share of approximately 24% to 25% of the overall e-commerce parcel volumes (including captive players) in India for the three months period ended December 31, 2021.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "market_share",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, we were the largest and fastest growing 3PL express parcel (and heavy parcel) delivery player in India by volume and revenue as of Fiscal 2021 and the nine months period ended December 31, 2021, with a market share of approximately 24% to 25% of the overall e-commerce parcel volumes (including captive players) in India for the three months period ended December 31, 2021.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "24% to 25%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Our shipment volume grew from 148.49 million orders in Fiscal 2019 to 289.20 million orders in Fiscal 2021 on an annual basis, representing a CAGR of 40%.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "expected_cagr",
+        "quote": "Our shipment volume grew from 148.49 million orders in Fiscal 2019 to 289.20 million orders in Fiscal 2021 on an annual basis, representing a CAGR of 40%.",
+        "subject_surface": "our shipment volume",
+        "subject_type": "metric",
+        "value": {
+          "kind": "quantity",
+          "raw": "40%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, we delivered 406.51 million shipments.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "shipment_volume",
+        "quote": "For the nine months period ended December 31, 2021, we delivered 406.51 million shipments.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "406.51 million",
+          "unit": "shipments"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, 20,498 Active Customers used our express parcel delivery services.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "active_customers",
+        "quote": "For the nine months period ended December 31, 2021, 20,498 Active Customers used our express parcel delivery services.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "20,498",
+          "unit": "customers"
+        }
+      },
+      {
+        "claim_text": "Our peak daily parcel pick-up volume has increased from approximately 0.80 million parcels during Fiscal 2019 to 3.29 million parcels for the nine months period ended December 31, 2021.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "peak_daily_pickup_volume",
+        "quote": "Our peak daily parcel pick-up volume has increased from approximately 0.80 million parcels during Fiscal 2019 to 3.29 million parcels for the nine months period ended December 31, 2021.",
+        "subject_surface": "our peak daily parcel pick-up volume",
+        "subject_type": "metric",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.29 million",
+          "unit": "parcels"
+        }
+      },
+      {
+        "claim_text": "Our express parcel delivery network, which serviced 17,488 PIN codes for the nine months period ended December 31, 2021, covering 90.61% of the 19,300 PIN codes in India as of December 31, 2021 (per India Post), is capable of handling consignments of up to 10 kilograms with same-day and next-day capabilities and 48-96 hour deliveries for long-distance orders.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "pin_code_coverage",
+        "quote": "Our express parcel delivery network, which serviced 17,488 PIN codes for the nine months period ended December 31, 2021, covering 90.61% of the 19,300 PIN codes in India as of December 31, 2021 (per India Post), is capable of handling consignments of up to 10 kilograms with same-day and next-day capabilities and 48-96 hour deliveries for long-distance orders.",
+        "subject_surface": "our express parcel delivery network",
+        "subject_type": "network",
+        "value": {
+          "kind": "quantity",
+          "raw": "90.61%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, large appliances, white goods and furniture are among the emerging and fastest growing categories in e-commerce.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "emerging_fastest_growing_categories",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, large appliances, white goods and furniture are among the emerging and fastest growing categories in e-commerce.",
+        "subject_surface": "large appliances, white goods and furniture",
+        "subject_type": "product_category",
+        "value": {
+          "kind": "text",
+          "raw": "emerging and fastest growing categories in e-commerce"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, we operate the largest network for heavy parcel (large appliances or white goods, appliances, home and furniture and sports equipment) delivery in India.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "largest_network",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, we operate the largest network for heavy parcel (large appliances or white goods, appliances, home and furniture and sports equipment) delivery in India.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "largest network for heavy parcel delivery in India"
+        }
+      },
+      {
+        "claim_text": "Our shipment volume has grown by more than six times from 0.85 million shipments in Fiscal 2019 to 5.26 million shipments in Fiscal 2021 on an annual basis.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "shipment_volume_growth",
+        "quote": "Our shipment volume has grown by more than six times from 0.85 million shipments in Fiscal 2019 to 5.26 million shipments in Fiscal 2021 on an annual basis.",
+        "subject_surface": "our shipment volume",
+        "subject_type": "metric",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.26 million",
+          "unit": "shipments"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, 264 e-commerce, enterprise and D2C Active Customers used our heavy goods services.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "active_customers",
+        "quote": "For the nine months period ended December 31, 2021, 264 e-commerce, enterprise and D2C Active Customers used our heavy goods services.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "264",
+          "unit": "customers"
+        }
+      },
+      {
+        "claim_text": "In Fiscal 2021, we delivered 373,854 tonnes of freight, growing at a CAGR of 75% between Fiscal 2019 and Fiscal 2021.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "expected_cagr",
+        "quote": "In Fiscal 2021, we delivered 373,854 tonnes of freight, growing at a CAGR of 75% between Fiscal 2019 and Fiscal 2021.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "75%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Spoton delivered 758,730 tonnes and 683,999 tonnes of freight in Fiscal 2021 and the nine months period ended December 31, 2021, respectively.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "freight_volume",
+        "quote": "Spoton delivered 758,730 tonnes and 683,999 tonnes of freight in Fiscal 2021 and the nine months period ended December 31, 2021, respectively.",
+        "subject_surface": "Spoton",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "758,730 tonnes",
+          "unit": "tonnes"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, following our acquisition of Spoton, we became the third largest PTL freight player in India in terms of revenue as of Fiscal 2021, with a market share of approximately 8.3% of the organized PTL market in India.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "market_share",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, following our acquisition of Spoton, we became the third largest PTL freight player in India in terms of revenue as of Fiscal 2021, with a market share of approximately 8.3% of the organized PTL market in India.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.3%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "Our Company also operated the fastest growing PTL freight service amongst the top 10 PTL service providers in India as of Fiscal 2021, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "fastest_growing_service",
+        "quote": "Our Company also operated the fastest growing PTL freight service amongst the top 10 PTL service providers in India as of Fiscal 2021, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.",
+        "subject_surface": "our Company",
+        "subject_type": "organization",
+        "value": {
+          "kind": "text",
+          "raw": "fastest growing PTL freight service amongst the top 10 PTL service providers in India"
+        }
+      },
+      {
+        "claim_text": "Together with Spoton, we had over 7,900 Active Customers for the nine months period ended December 31, 2021 across industries such as consumer durables, auto, lifestyle, fashion, e-commerce, FMCG and retail.",
+        "confidence": 1,
+        "passage_id": 49,
+        "predicate": "active_customers",
+        "quote": "Together with Spoton, we had over 7,900 Active Customers for the nine months period ended December 31, 2021 across industries such as consumer durables, auto, lifestyle, fashion, e-commerce, FMCG and retail.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "over 7,900",
+          "unit": "customers"
+        }
+      },
+      {
+        "claim_text": "As of Fiscal 2021, we had 449 Active Customers and over 1,850 transportation partners.",
+        "confidence": 1,
+        "passage_id": 50,
+        "predicate": "active_customers",
+        "quote": "As of Fiscal 2021, we had 449 Active Customers and over 1,850 transportation partners.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "449",
+          "unit": "customers"
+        }
+      },
+      {
+        "claim_text": "Since the inception of the platform, more than 75,000 trucks have been registered on the Orion platform and have completed more than 160,000 third-party truck placements, as of December 31, 2021.",
+        "confidence": 1,
+        "passage_id": 50,
+        "predicate": "truck_placements",
+        "quote": "Since the inception of the platform, more than 75,000 trucks have been registered on the Orion platform and have completed more than 160,000 third-party truck placements, as of December 31, 2021.",
+        "subject_surface": "the Orion platform",
+        "subject_type": "platform",
+        "value": {
+          "kind": "quantity",
+          "raw": "more than 160,000",
+          "unit": "placements"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we operated over 6.08 million square ft. of warehousing infrastructure across 81 warehouses, compared to 0.59 million square ft. across 15 warehouses in 2016.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "warehousing_infrastructure",
+        "quote": "As of December 31, 2021, we operated over 6.08 million square ft. of warehousing infrastructure across 81 warehouses, compared to 0.59 million square ft. across 15 warehouses in 2016.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.08 million square ft.",
+          "unit": "square ft."
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, 77 Active Customers used our supply chain services solutions.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "active_customers",
+        "quote": "For the nine months period ended December 31, 2021, 77 Active Customers used our supply chain services solutions.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "77",
+          "unit": "customers"
+        }
+      },
+      {
+        "claim_text": "In Fiscal 2021, we had 407 Active Customers availing our cross-border shipping services, transacting over 2,050 tonnes of air freight.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "active_customers",
+        "quote": "In Fiscal 2021, we had 407 Active Customers availing our cross-border shipping services, transacting over 2,050 tonnes of air freight.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "407",
+          "unit": "customers"
+        }
+      },
+      {
+        "claim_text": "Our revenue from sale of traded goods was nil, \u20b957.50 million, \u20b9110.89 million, \u20b988.14 million and \u20b91,874.74 million for Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and the nine months period ended December 31, 2021 respectively, constituting nil, 0.21%, 0.30%, 0.33% and 3.90% of our total revenue from contracts with customers, respectively, for the same period.",
+        "confidence": 1,
+        "passage_id": 51,
+        "predicate": "revenue_from_traded_goods",
+        "quote": "Our revenue from sale of traded goods was nil, \u20b957.50 million, \u20b9110.89 million, \u20b988.14 million and \u20b91,874.74 million for Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and the nine months period ended December 31, 2021 respectively, constituting nil, 0.21%, 0.30%, 0.33% and 3.90% of our total revenue from contracts with customers, respectively, for the same period.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b91,874.74 million",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "We have built a nation-wide network with presence in every state, servicing 17,488 PIN codes during the nine months period ended December 31, 2021, or 90.61% of the 19,300 PIN codes in India as of December 31, 2021 (per India Post).",
+        "confidence": 1,
+        "passage_id": 52,
+        "predicate": "pin_code_coverage",
+        "quote": "We have built a nation-wide network with presence in every state, servicing 17,488 PIN codes during the nine months period ended December 31, 2021, or 90.61% of the 19,300 PIN codes in India as of December 31, 2021 (per India Post).",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "90.61%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, 21 of our gateways were equipped with 25 automated parcel sorters having a Rated Automated Sort Capacity of 3.70 million shipments per day.",
+        "confidence": 1,
+        "passage_id": 52,
+        "predicate": "rated_automated_sort_capacity",
+        "quote": "As of December 31, 2021, 21 of our gateways were equipped with 25 automated parcel sorters having a Rated Automated Sort Capacity of 3.70 million shipments per day.",
+        "subject_surface": "21 of our gateways",
+        "subject_type": "infrastructure",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.70 million shipments per day",
+          "unit": "shipments per day"
+        }
+      },
+      {
+        "claim_text": "For Fiscal 2019, Fiscal 2020 and Fiscal 2021 and for the nine months ended December 31, 2021, the estimated utilisation of sortation capacity in our network infrastructure was 20.35%, 31.46%, 30.57% and 38.55% respectively.",
+        "confidence": 1,
+        "passage_id": 52,
+        "predicate": "sortation_capacity_utilisation",
+        "quote": "For Fiscal 2019, Fiscal 2020 and Fiscal 2021 and for the nine months ended December 31, 2021, the estimated utilisation of sortation capacity in our network infrastructure was 20.35%, 31.46%, 30.57% and 38.55% respectively.",
+        "subject_surface": "our network infrastructure",
+        "subject_type": "infrastructure",
+        "value": {
+          "kind": "quantity",
+          "raw": "38.55%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "On December 31, 2021, we acquired 34.55% of the share capital (on a fully-diluted basis) of Falcon, a logistics automation solution provider, pursuant to a share subscription agreement and a share purchase agreement, and also entered into a business co-operation agreement with Falcon.",
+        "confidence": 1,
+        "passage_id": 52,
+        "predicate": "acquired_shareholding",
+        "quote": "On December 31, 2021, we acquired 34.55% of the share capital (on a fully-diluted basis) of Falcon, a logistics automation solution provider, pursuant to a share subscription agreement and a share purchase agreement, and also entered into a business co-operation agreement with Falcon.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "34.55%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we operated 93 fulfilment centres with an aggregate floor area of 6.25 million square feet, including 12 fulfilment centres of Spoton with an aggregate floor area of 0.17 million square feet.",
+        "confidence": 1,
+        "passage_id": 53,
+        "predicate": "fulfilment_centres_floor_area",
+        "quote": "As of December 31, 2021, we operated 93 fulfilment centres with an aggregate floor area of 6.25 million square feet, including 12 fulfilment centres of Spoton with an aggregate floor area of 0.17 million square feet.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.25 million square feet",
+          "unit": "square feet"
+        }
+      },
+      {
+        "claim_text": "We operated 132 intermediate processing centers, as of December 31, 2021, to receive consolidated loads from gateways for a set of delivery centers mapped to them.",
+        "confidence": 1,
+        "passage_id": 53,
+        "predicate": "intermediate_processing_centers",
+        "quote": "We operated 132 intermediate processing centers, as of December 31, 2021, to receive consolidated loads from gateways for a set of delivery centers mapped to them.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "132",
+          "unit": "centers"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, we operated 3,730 delivery centres and 244 service centres, including 138 service centres belonging to Spoton.",
+        "confidence": 1,
+        "passage_id": 53,
+        "predicate": "delivery_centres",
+        "quote": "As of December 31, 2021, we operated 3,730 delivery centres and 244 service centres, including 138 service centres belonging to Spoton.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "3,730",
+          "unit": "centres"
+        }
+      },
+      {
+        "claim_text": "2,521 of our delivery centres are self-operated while 1,209 are operated by partners through our \u201cConstellation\u201d program.",
+        "confidence": 1,
+        "passage_id": 53,
+        "predicate": "self_operated_delivery_centres",
+        "quote": "2,521 of our delivery centres are self-operated while 1,209 are operated by partners through our \u201cConstellation\u201d program.",
+        "subject_surface": "our delivery centres",
+        "subject_type": "infrastructure",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,521",
+          "unit": "centres"
+        }
+      },
+      {
+        "claim_text": "In addition, direct delivery centres are further augmented by a network of 4,565 partner stores who provide us with flexible delivery capacity in their catchment areas.",
+        "confidence": 1,
+        "passage_id": 53,
+        "predicate": "partner_stores",
+        "quote": "In addition, direct delivery centres are further augmented by a network of 4,565 partner stores who provide us with flexible delivery capacity in their catchment areas.",
+        "subject_surface": "direct delivery centres",
+        "subject_type": "infrastructure",
+        "value": {
+          "kind": "quantity",
+          "raw": "4,565",
+          "unit": "stores"
+        }
+      },
+      {
+        "claim_text": "We operate 31 dedicated facilities to process e-commerce sale returns to customer warehouses as of December 31, 2021.",
+        "confidence": 1,
+        "passage_id": 53,
+        "predicate": "returns_processing_centres",
+        "quote": "We operate 31 dedicated facilities to process e-commerce sale returns to customer warehouses as of December 31, 2021.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "31",
+          "unit": "facilities"
+        }
+      },
+      {
+        "claim_text": "During the nine months period ended December 31, 2021, 99.52% of our trucks and other transportation vehicles were leased from third-party fleet partners.",
+        "confidence": 1,
+        "passage_id": 53,
+        "predicate": "leased_vehicles_percentage",
+        "quote": "During the nine months period ended December 31, 2021, 99.52% of our trucks and other transportation vehicles were leased from third-party fleet partners.",
+        "subject_surface": "our trucks and other transportation vehicles",
+        "subject_type": "infrastructure",
+        "value": {
+          "kind": "quantity",
+          "raw": "99.52%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "According to the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, Mesh Network and Hub-Spoke model refer to two different types of logistics network topologies.",
+        "confidence": 1,
+        "passage_id": 54,
+        "predicate": "network_topology_definition",
+        "quote": "According to the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, Mesh Network and Hub-Spoke model refer to two different types of logistics network topologies.",
+        "subject_surface": "Mesh Network and Hub-Spoke model",
+        "subject_type": "network_topology",
+        "value": {
+          "kind": "text",
+          "raw": "two different types of logistics network topologies"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, Mesh Network consists of higher proportion of point-to-point connections with dynamic shipment routes determined typically based on an automated algorithm.",
+        "confidence": 1,
+        "passage_id": 54,
+        "predicate": "mesh_network_characteristics",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, Mesh Network consists of higher proportion of point-to-point connections with dynamic shipment routes determined typically based on an automated algorithm.",
+        "subject_surface": "Mesh Network",
+        "subject_type": "network_topology",
+        "value": {
+          "kind": "text",
+          "raw": "higher proportion of point-to-point connections with dynamic shipment routes determined typically based on an automated algorithm"
+        }
+      },
+      {
+        "claim_text": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, Hub-Spoke Model consists of a mother node which is centrally connected to multiple other nodes.",
+        "confidence": 1,
+        "passage_id": 54,
+        "predicate": "hub_spoke_model_characteristics",
+        "quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, Hub-Spoke Model consists of a mother node which is centrally connected to multiple other nodes.",
+        "subject_surface": "Hub-Spoke Model",
+        "subject_type": "network_topology",
+        "value": {
+          "kind": "text",
+          "raw": "a mother node which is centrally connected to multiple other nodes"
+        }
+      },
+      {
+        "claim_text": "We had an engineering, data sciences and product team of 505 professionals (excluding Spoton) as of December 31, 2021.",
+        "confidence": 1,
+        "passage_id": 54,
+        "predicate": "team_size",
+        "quote": "We had an engineering, data sciences and product team of 505 professionals (excluding Spoton) as of December 31, 2021.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "505",
+          "unit": "professionals"
+        }
+      },
+      {
+        "claim_text": "We have over 80 applications through which we provide various services, which connect all of our operators, infrastructure, partners and network assets, orchestrated through our logistics platform.",
+        "confidence": 1,
+        "passage_id": 55,
+        "predicate": "number_of_applications",
+        "quote": "We have over 80 applications through which we provide various services, which connect all of our operators, infrastructure, partners and network assets, orchestrated through our logistics platform.",
+        "subject_surface": "we",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "over 80",
+          "unit": "applications"
+        }
+      },
+      {
+        "claim_text": "Transaction data is collected via handheld devices in facilities, field mobile devices, IoT devices on vehicles, automated systems like sorters, X-ray machines and material handling equipment, CCTV cameras and web applications.",
+        "confidence": 1,
+        "passage_id": 55,
+        "predicate": "data_collection_sources",
+        "quote": "Transaction data is collected via handheld devices in facilities, field mobile devices, IoT devices on vehicles, automated systems like sorters, X-ray machines and material handling equipment, CCTV cameras and web applications.",
+        "subject_surface": "transaction data",
+        "subject_type": "data",
+        "value": {
+          "kind": "text",
+          "raw": "handheld devices in facilities, field mobile devices, IoT devices on vehicles, automated systems like sorters, X-ray machines and material handling equipment, CCTV cameras and web applications"
+        }
+      }
+    ]
+  }
+}

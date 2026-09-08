@@ -1,0 +1,628 @@
+{
+  "key": "9691d8b85168cb0b5291df2812f41f058af5d19ed26bb90fafbeec0658887994",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"16\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nI > 3.\u2002Prospects for 2025-26\n</context>\n<text>\n12-month horizon. The benign inflation outlook\nand moderate growth warrant monetary policy to\nbe growth supportive, while remaining watchful\nabout the rapidly evolving global macroeconomic\nconditions. Accordingly, the MPC in its April 2025\nmeeting unanimously voted to reduce the policy\nrepo rate by 25 bps to 6.0 per cent. Moreover,\n13\tWorld Development Indicators, World Bank.\n14\tThe Union Budget 2025-26 announced the fourth CoE for AI in education with an outlay of \u20b9500 crore.\n\n\nASSESSMENT AND PROSPECTS\n13\nthe MPC also decided to change the stance from\nneutral to accommodative. The Reserve Bank\nwill continue to undertake liquidity management\noperations in sync with the monetary policy\nstance to keep system liquidity adequate to meet\nthe productive requirements of the economy. It\nwill deploy an appropriate mix of instruments to\nmodulate frictional as well as durable liquidity,\nensuring orderly movement of money market\ninterest rates.\nI.50\nIn 2025-26, markets will closely track\nthe implications of tariff policies of the US and\nreciprocal measures by others, as an uncertain\npolicy environment may instil volatility in global\nfinancial markets. Following a correction in\nthe second half of 2024, Indian equity markets\nare expected to remain resilient amidst stable\nmacroeconomic conditions and moderation in\nequity market valuations, although geopolitical\nuncertainty poses downside risk. Resource\nmobilisation through primary market is expected\nto regain momentum as secondary market\nsentiments stabilise. In the short-run, however,\nmarkets may experience volatility reflecting\nglobal policy uncertainty. Amidst accentuation\nof\nthe\ntrend\nin\nprotectionism\nworldwide,\nmeasures to promote the use of INR (i.e.,\ninternationalisation of INR) through increased\naccessibility and acceptability thereof for cross-\nborder transactions, and use of local currencies\nfor cross-border transactions with trade-partner\ncountries are expected to continue during the\nyear as reflected in memoranda of understanding\ntowards local currency settlement signed with\nMaldives and Mauritius in November 2024 and\nMarch 2025, respectively.\nI.51\nThe impetus to growth-inducing capital\nspending would be sustained by the central\ngovernment, with effective capital expenditure\nbudgeted to rise to 4.3 per cent of GDP in 2025-26\nfrom 4.0 per cent in 2024-25 (RE). Moreover, to\nencourage capital spending by states, the central\ngovernment\u2019s financial assistance scheme for\nstates\u2019 capital expenditure has been extended to\n2025-26 with an outlay of \u20b91.5 lakh crore. The\ncentral government adhered to its medium-term\nobjective of bringing the GFD below 4.5 per cent\nof GDP by 2025-26 by targeting the GFD at 4.4\nper cent of GDP in 2025-26 (BE), down from 4.7\nper cent in 2024-25 (RE). From 2026-27 onwards,\nthe central government aims to maintain the fiscal\ndeficit on a trajectory that ensures a declining\npublic debt-to-GDP ratio, reaching around 50\nper cent by end-March 2031. The fiscal outlook\nfor states remains positive for 2025-26 with their\nconsolidated GFD budgeted at 3.3 per cent of\nGDP15. The gross transfer to states from the\ncentre during 2025-26 is budgeted to increase\nby 12.5 per cent, driven mainly by tax devolution,\ncentrally sponsored schemes (CSS) and special\nassistance to states for capital expenditure,\nproviding adequate fiscal headroom to pursue\nhigher capital expenditure.\nI.52\nIndia\u2019s merchandise exports are expected\nto be uncertain from a projected slowdown in\nglobal trade due to downside risks emanating\nfrom ongoing geopolitical conflicts, geoeconomic\nfragmentation and policy uncertainty. However,\n15\tData pertain to 28 states and 3 union territories which have presented their budget for 2025-26.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"17\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nI > 3.\u2002Prospects for 2025-26\n</context>\n<text>\ncentrally sponsored schemes (CSS) and special\nassistance to states for capital expenditure,\nproviding adequate fiscal headroom to pursue\nhigher capital expenditure.\nI.52\nIndia\u2019s merchandise exports are expected\nto be uncertain from a projected slowdown in\nglobal trade due to downside risks emanating\nfrom ongoing geopolitical conflicts, geoeconomic\nfragmentation and policy uncertainty. However,\n15\tData pertain to 28 states and 3 union territories which have presented their budget for 2025-26.\n\n\nANNUAL REPORT 2024-25\n14\nthe ongoing trade agreement negotiations\nwith several trade partners may facilitate\nIndia\u2019s greater participation in global trade.\nThe expansion of key export sectors including\nelectronics, pharmaceuticals, engineering goods\nand agriculture, coupled with innovations in\ne-commerce and digital trade, would benefit\nIndia\u2019s export growth16.\nI.53\nRobust outlook for India\u2019s services trade\nbalance and inward remittance receipts is\nexpected to support CAD to remain well within\nthe sustainable limit during 2025-26. Moreover,\nthe inclusion of Indian sovereign bonds in\nglobal bond indices and raising the FDI cap in\ninsurance sector to 100 per cent from 74 per\ncent earlier, as announced in the Union Budget\n2025-26, should continue to bolster foreign\ninvestment flows. Additionally, export friendly\nenvironment and nurturing of India\u2019s comparative\nadvantage, harnessing the potential of regional\ntrade agreements, greater Indian participation in\nglobal value chains (GVCs), diversifying India\u2019s\nmerchandise trade and services baskets to\nnew frontiers and leveraging international trade\nin INR would boost India\u2019s exports and further\nstrengthen the resilience of India\u2019s external\nsector, going forward.\nI.54\nIndian banking sector has been resilient,\nalthough\nheightened\nglobal\nuncertainties\nunderscore the importance of proactive risk\nmanagement. Considering the dynamic nature of\nthe interest rate risk, banks need to address both\ntrading and banking book risks, especially in light\nof moderation in NIM.\nI.55\nDespite some moderation, NBFCs remain\nsignificantly dependent on banks for funding,\nunderscoring the need for greater diversification\nof their funding sources. Scale-based regulatory\nframework is expected to further improve\ngovernance and risk management.\nI.56\nIn order to make the financial system more\nresilient, sound, safe and inclusive, the Reserve\nBank would be undertaking several initiatives in\nareas such as regulation, supervision, FinTech,\npayment systems, customer protection and\nfinancial inclusion. Moreover, the Reserve Bank\nwould leverage on technology towards providing\nsecure, accessible, affordable and an efficient\nfinancial sector.\nI.57\nIn the regulatory space, the Reserve Bank\nwould  consolidate and streamline regulations\nto improve business efficiency and simplify\ncompliance. The PRAVAAH17 portal, which\nwas launched in May 2024, has now been\nmade mandatory w.e.f. May 1, 2025 for REs to\nsubmit their applications to the Reserve Bank.\nIt will continue to improve the efficiency and\neffectiveness of the portal.\nI.58\nThe Reserve Bank would continue with the\nsupervisory initiatives aimed at early identification\nof risks and vulnerabilities, increasing the focus\non root cause of vulnerabilities, and harmonising\nthe supervisory rigour across various segments\nof the financial system. Further, the Reserve\nBank would focus on enhancing cyber resilience\nand capabilities of supervised entities (SEs) by\nimplementing recommendations of the inter-\nregulatory Working Group on uniformity in baseline\ncybersecurity guidelines of financial entities.\n16\tPIB (2025), \u2018India\u2019s Exports Reach Historic Heights\u2019, Ministry of Commerce and Industry, Government of India, February 1.\n17\tPlatform for Regulatory Application, Validation and Authorisation (PRAVAAH), launched on May 28, 2024, is a unified and secure portal\nfor submission of applications for regulatory approvals, authorisations and licenses from the Reserve Bank.\n\n\nASSESSMENT AND PROSPECTS\n</text>\n</passage>\n\n<passage id=\"18\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\n\n[section]\nI > 3.\u2002Prospects for 2025-26\n</context>\n<text>\nimplementing recommendations of the inter-\nregulatory Working Group on uniformity in baseline\ncybersecurity guidelines of financial entities.\n16\tPIB (2025), \u2018India\u2019s Exports Reach Historic Heights\u2019, Ministry of Commerce and Industry, Government of India, February 1.\n17\tPlatform for Regulatory Application, Validation and Authorisation (PRAVAAH), launched on May 28, 2024, is a unified and secure portal\nfor submission of applications for regulatory approvals, authorisations and licenses from the Reserve Bank.\n\n\nASSESSMENT AND PROSPECTS\n15\nI.59\nThe Reserve Bank would further expand the\nscope and coverage of ongoing pilots in e\u20b9-Retail\nand e\u20b9-Wholesale by introducing new use cases\nand features, besides bringing improvements to\ntechnological aspects of the account aggregator\nframework to enhance transparency, customer\nconvenience and efficiency. Moreover, the\nReserve Bank is exploring commencement of\nCBDC pilots on cross-border payments both on\nbilateral and multilateral basis to overcome key\nchallenges related to turnaround time, efficiency\nand transparency.\nI.60\nAs Payments Vision 2025 culminates in\n2025-26, the Reserve Bank will embark upon\ndrafting a new Payments Vision document, which\nwould aim to build on the growth of payment\nsystems in the last decade and provide further\nimpetus to entities in the payments ecosystem\nto develop and deploy solutions in this space. A\nsurvey on usage of digital payments will\nbe\nconducted\nto\nfacilitate\nevidence-based\ndecision making, which will lay the groundwork\nfor a more inclusive payments ecosystem.\nInternationalisation of domestic payment systems\nwill also remain a key priority and the Reserve\nBank will continue to explore collaboration with\nother countries on bilateral as well as multilateral\nlevel.\nI.61\nAs digital payments continue to rise, the\nReserve Bank\u2019s commitment to enhancing\nsecurity, customer protection and fraud prevention\nwill remain key priorities in 2025-26. The Digital\nPayments Intelligence Platform is being planned,\nwhich will leverage advanced technologies to\ncurb payment related frauds.\nI.62\nThe Reserve Bank would continue to\nfocus on ensuring availability of accessible and\naffordable banking services to all sections of\nsociety and strengthening the credit delivery\nsystem to cater to the needs of productive\nsectors of the economy, particularly agriculture,\nand micro and small enterprises. Towards this\nend, a technology-based initiative in the form\nof Unified Lending Interface (ULI) has been\noperationalised through Reserve Bank Innovation\nHub (RBIH) which is aimed at improving access\nand enhancing efficiency in terms of turnaround\ntime, cost and convenience among the borrowers\nin the agriculture, dairy and MSME segments.\nThe Reserve Bank issued the revised Master\nDirections on PSL, which has come into effect\nfrom April 1, 2025. Moreover, a review of Financial\nInclusion Index (FI-Index) would be undertaken\nin 2025-26.\nI.63\nA review of citizens\u2019 charter would be\nundertaken by the Reserve Bank towards\nfurther improving the timeliness of regulatory\napprovals and citizen centric services. Moreover,\nto enhance quality and speed of grievance\nresolution under the Reserve Bank - Integrated\nOmbudsman Scheme, 2021, the Reserve Bank\nshall be undertaking a review of the Scheme and\nembarking upon technology driven initiatives,\nespecially the upgradation of the complaint\nmanagement system. The Reserve Bank will also\nfocus on strengthening the internal grievance\nredressal processes of the regulated entities for\nenhanced customer satisfaction.\n4. Conclusion\nI.64\nTo sum up, the Indian economy exhibited\nresilience during 2024-25, supported by strong\nmacroeconomic fundamentals and proactive\npolicy measures, amidst protracted geopolitical\ntensions\nand\ngeoeconomic\nfragmentation.\nInflation moderated during the year, moving\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"19\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nI > 3.\u2002Prospects for 2025-26\n</context>\n<text>\nespecially the upgradation of the complaint\nmanagement system. The Reserve Bank will also\nfocus on strengthening the internal grievance\nredressal processes of the regulated entities for\nenhanced customer satisfaction.\n4. Conclusion\nI.64\nTo sum up, the Indian economy exhibited\nresilience during 2024-25, supported by strong\nmacroeconomic fundamentals and proactive\npolicy measures, amidst protracted geopolitical\ntensions\nand\ngeoeconomic\nfragmentation.\nInflation moderated during the year, moving\n\n\nANNUAL REPORT 2024-25\n16\ncloser to the target, largely due to easing input\ncost pressures, proactive supply-side measures\nand the continued impact of past monetary policy\nactions. The strength of the financial sector,\nreflected in improved asset quality and well-\ncapitalised banks, further supported economic\nactivity. Amidst multiple global headwinds, the\nIndian financial markets demonstrated resilience\nand orderly movements. The central government\nsustained\nits\nfiscal\nconsolidation\nefforts,\nsupported by buoyant tax revenues and prudent\nexpenditure management. On the external front,\nmerchandise trade deficit was offset by robust\nservices exports and steady remittance inflows,\nkeeping the CAD at a sustainable level.\nI.65\nGoing\nforward,\nglobal\nfinancial\nmarket volatility, geopolitical tensions, trade\nfragmentation, supply chain disruptions and\nclimate-induced uncertainties pose downside\nrisks to the growth outlook and upside risks to the\ninflation outlook. However, the Indian economy\nis poised to remain the fastest-growing major\neconomy in 2025-26 by leveraging its sound\nmacroeconomic fundamentals, robust financial\nsector and commitment towards sustainable\ngrowth.\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"20\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nI > 4. Conclusion\n</context>\n<text>\nkeeping the CAD at a sustainable level.\nI.65\nGoing\nforward,\nglobal\nfinancial\nmarket volatility, geopolitical tensions, trade\nfragmentation, supply chain disruptions and\nclimate-induced uncertainties pose downside\nrisks to the growth outlook and upside risks to the\ninflation outlook. However, the Indian economy\nis poised to remain the fastest-growing major\neconomy in 2025-26 by leveraging its sound\nmacroeconomic fundamentals, robust financial\nsector and commitment towards sustainable\ngrowth.\n\n\nECONOMIC REVIEW\n17\nECONOMIC REVIEW\nII\nII.1.1\nThe global economic expansion was\nsteady in 2024 albeit uneven, amidst geopolitical\ntensions,\ngeoeconomic\nfragmentation\nand\nheightened trade tensions. Financial conditions\nturned less restrictive as major central banks\nembarked on monetary policy easing. Global\nGDP grew by 3.3 per cent in 2024 (3.5 per cent\na year ago)1. Global inflation eased to 5.7 per\ncent in 2024 from 6.6 per cent a year ago as the\neffect of monetary tightening took hold along with\nthe easing of supply chain pressures; however,\nit was still above the pre-pandemic average,\nwith elevated services inflation persisting in\nsome major advanced economies. Pandemic-\ninduced fiscal policy measures and gradual fiscal\nconsolidation continued to exert upward pressure\non the global public debt-GDP ratio, which is\nexpected to approach 100 per cent by 20302.\nGlobal goods and services trade volume growth\nrecovered to 3.8 per cent in 2024 from 1.0 per\ncent in 20233, supported by strong services trade\ngrowth and normalising of supply chains. Global\nfinancial markets exhibited bouts of volatility\nover inflated valuations, uncertain trajectory of\nmonetary policy, disinflation losing pace, rising\ntrade tensions and geopolitical risks. Sovereign\nbond yields softened in the first half of 2024 to\nrise again during the second half of the year. The\nUS dollar remained firm through the year, putting\ndownward pressure on other advanced economy\n(AE) and emerging market economy (EME)\ncurrencies.\nII.1.2\nAgainst this challenging global economic\nlandscape,\nthe\nIndian\neconomy\nremained\nresilient, supported by robust macroeconomic\nfundamentals and proactive policy measures.\nAlthough real gross domestic product (GDP)\ngrowth moderated to 6.5 per cent4 in 2024-25,\nIndia remained the fastest growing large\neconomy. Economic activity was bolstered by\nan improvement in consumption demand and\nnet exports on the expenditure side and buoyant\nservices sector and recovery in agricultural\nproduction on the supply side.\nThe Indian economy exhibited resilience during 2024-25, supported by robust macroeconomic fundamentals\nand proactive policy measures, amidst persisting geopolitical tensions and geoeconomic fragmentation. Headline\ninflation moderated, although the pace of disinflation was impeded by elevated and volatile food inflation. Deposit\nand credit exhibited double digit growth. Fiscal consolidation continued both at the centre and state level. The\ncontinued strength of the external sector, as reflected in adequate forex reserves and modest current account\ndeficit, supported macroeconomic and financial stability.\n1\t World Economic Outlook (WEO), April 2025, International Monetary Fund (IMF).\n2\t Fiscal Monitor, April 2025, IMF.\n3\t WEO, April 2025, IMF.\n4\t Refer to footnote 3 of Chapter I of this Report.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"21\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII\n</context>\n<text>\ninflation moderated, although the pace of disinflation was impeded by elevated and volatile food inflation. Deposit\nand credit exhibited double digit growth. Fiscal consolidation continued both at the centre and state level. The\ncontinued strength of the external sector, as reflected in adequate forex reserves and modest current account\ndeficit, supported macroeconomic and financial stability.\n1\t World Economic Outlook (WEO), April 2025, International Monetary Fund (IMF).\n2\t Fiscal Monitor, April 2025, IMF.\n3\t WEO, April 2025, IMF.\n4\t Refer to footnote 3 of Chapter I of this Report.\n\n\nANNUAL REPORT 2024-25\n18\nII.1.3\nHeadline inflation moderated further\nduring 2024-25. While food inflation remained\nvolatile\nand\nelevated,\ncore\ndisinflation\nin\nboth goods and services and deflation in fuel\ncontributed to softening of headline inflation,\npaving the way for progressive alignment of\nheadline inflation with the target.\nII.1.4\nBoth central and state governments\npursued fiscal consolidation during 2024-25. The\ntax receipts of both central and state governments\nremained robust. On the capital expenditure\nfront, the central government and states recorded\nmodest growth on a year-on-year basis.\nII.1.5\nDomestic\nfinancial\nmarkets\nbroadly\nevolved in an orderly manner during 2024-25.\nMoney market rates largely remained range-\nbound, and generally aligned with the policy repo\nrate even as system liquidity oscillated between\nsurplus and deficit conditions. Issuances of\ncertificates of deposit (CDs) increased as credit\ngrowth remained robust, although there was\nnarrowing of the gap between credit and deposit\ngrowth. Sovereign bond yields softened steadily\nin H1:2024-25 on fiscal consolidation, inclusion of\nIndian government bonds (IGBs) in major global\nbond indices and decline in crude oil prices.\nHowever, they exhibited two-way movements in\nthe latter half of the year and fell sharply after the\nReserve Bank initiated the policy easing cycle\nin the February policy meeting. Equity market\nregistered strong gains in the first half of the year\nbefore correcting in H2:2024-25. A modest current\naccount deficit and adequate forex reserves\nimparted resilience to the external sector even as\ncapital flows exhibited volatility.\nII.1.6\nAgainst this backdrop, the rest of the\nchapter is structured into six sections. An analysis\nof the real economy is presented in section\n2 followed by that of inflation and its drivers\nin section 3. The developments in monetary\naggregates and financial markets are presented\nin sections 4 and 5, respectively. The evolution\nof government finances (centre and states)\nis discussed in section 6, and external sector\ndynamics are covered in section 7.\nII.2\u2002THE REAL ECONOMY\nII.2.1\nThe Indian economy exhibited resilience\nin 2024-25, supported by robust macroeconomic\nfundamentals and proactive policy measures.\nEconomic activity recovered in H2:2024-25\nfrom the trough in Q2:2024-25, supported by\nbuoyant rural demand, recovery in government\nexpenditure, improved agriculture sector and\nresilient services sector activity. The financial\nsystem remains sound and well-capitalised,\nunderpinned by the healthy balance sheets of\nfinancial institutions and corporates.\nII.2.2\nAn assessment of aggregate demand\nand its major components is etched out in sub-\nsection 2. The developments in aggregate\nsupply conditions in terms of the performance of\nagriculture, industry and services are presented\nin sub-section 3. Employment and labour market\ndynamics are discussed in sub-section 4, with\nconcluding observations in sub-section 5.\n2.\u2002Aggregate Demand\nII.2.3\nAggregate demand \u2013 measured by\nGDP at constant prices \u2013 is estimated to have\ngrown by 6.5 per cent in 2024-25, as compared\nwith 9.2 per cent a year ago (Table II.2.1 and\nAppendix Table 1). While growth in consumption\nexpenditure and export demand accelerated\nduring the year, that in fixed investment recorded\na moderation (Appendix Table 2). In terms of\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"22\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > II.2\u2002THE REAL ECONOMY\n</context>\n<text>\nin sub-section 3. Employment and labour market\ndynamics are discussed in sub-section 4, with\nconcluding observations in sub-section 5.\n2.\u2002Aggregate Demand\nII.2.3\nAggregate demand \u2013 measured by\nGDP at constant prices \u2013 is estimated to have\ngrown by 6.5 per cent in 2024-25, as compared\nwith 9.2 per cent a year ago (Table II.2.1 and\nAppendix Table 1). While growth in consumption\nexpenditure and export demand accelerated\nduring the year, that in fixed investment recorded\na moderation (Appendix Table 2). In terms of\n\n\nECONOMIC REVIEW\n19\nquarterly trajectory, real GDP rose (y-o-y) by 6.5\nper cent in Q1:2024-25; growth softened to 5.6\nper cent in Q2, inter alia, on excess rainfall which\ndampened mining output and electricity demand\nand restrained government expenditure5. The\neconomy, however, picked up momentum in Q3\nto grow by 6.2 per cent (Chart II.2.1).\nConsumption\nII.2.4 \t Growth in private final consumption\nexpenditure (PFCE) \u2013 the main component of\naggregate demand \u2013 improved to 7.6 per cent in\n2024-25, buoyed by rural consumption demand\neven though urban demand exhibited some\nmoderation. The share of PFCE in real GDP\nincreased to 56.7 per cent in 2024-25. Good\nagricultural performance boosted rural demand\nas seen from its proximate indicators, viz., sales\nof two-wheelers, motorcycles and tractors,\nand volume growth of fast-moving consumer\ngoods (FMCG) companies in rural areas. Urban\ndemand, after remaining the driver of post-\npandemic consumption, lost pace as reflected in\nindicators such as consumer non-durables, retail\npassenger vehicle sales and FMCG volumes\nin urban areas. Government final consumption\nexpenditure (GFCE) grew at a modest 3.8 per\ncent in 2024-25, following a robust expansion of\n8.1 per cent during 2023-24. With exports growth\noutpacing that of imports, net exports contributed\npositively to GDP growth (Chart II.2.2).\nInvestment and Saving\nII.2.5 \t The rate of gross domestic investment\nin the Indian economy, measured by the ratio of\ngross capital formation (GCF) to GDP at current\nprices, declined to 31.4 per cent in 2023-24 from\nTable II.2.1: Real GDP Growth\n(Per cent)\nComponent\n2020-21 2021-22 2022-23 2023-24 2024-25\n1\n2\n3\n4\n5\n6\nI. \t Total\nConsumption\nExpenditure\n-4.6\n9.8\n7.0\n5.9\n7.1\nPrivate\n-5.3\n11.7\n7.5\n5.6\n7.6\nGovernment\n-0.8\n0.0\n4.3\n8.1\n3.8\nII. \tGross Capital\nFormation\n-10.6\n25.4\n3.5\n7.3\n5.8\nGross Fixed\nCapital\nFormation\n-7.1\n17.5\n8.4\n8.8\n6.1\nChange in\nStocks\n-76.4\n525.4\n24.3\n53.4\n4.3\nValuables\n29.9\n32.5\n-16.9\n14.4\n1.0\nIII. \tNet Exports\nExports\n-7.0\n29.6\n10.3\n2.2\n7.1\nImports\n-12.6\n22.1\n8.9\n13.8\n-1.1\nIV. \tGDP\n-5.8\n9.7\n7.6\n9.2\n6.5\nSource: NSO.\n5\t In H1:2024-25, the central government\u2019s revenue expenditure grew by 4.2 per cent, with capital expenditure contracting by 15.4 per cent.\nFor state governments (22 states), while revenue expenditure increased by 10.2 per cent, capital expenditure contracted by 6.9 per cent.\nY-o-Y: Year-on-Year.   Q-o-Q: Quarter-on-Quarter.   MA: Moving Average.\nSAAR: Seasonally Adjusted Annualised Rate.\nSource: NSO and RBI staff estimates.\nPer cent\nChart II.2.1: Real GDP Growth - Quarterly\n0\n2\n4\n6\n8\n10\n12\n14\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\n2022-23\n2023-24\n2024-25\nY-o-Y growth\nQ-o-Q SAAR\n3Q MA - SAAR\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"23\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.2.1: Real GDP Growth\n</context>\n<text>\n5\t In H1:2024-25, the central government\u2019s revenue expenditure grew by 4.2 per cent, with capital expenditure contracting by 15.4 per cent.\nFor state governments (22 states), while revenue expenditure increased by 10.2 per cent, capital expenditure contracted by 6.9 per cent.\nY-o-Y: Year-on-Year.   Q-o-Q: Quarter-on-Quarter.   MA: Moving Average.\nSAAR: Seasonally Adjusted Annualised Rate.\nSource: NSO and RBI staff estimates.\nPer cent\nChart II.2.1: Real GDP Growth - Quarterly\n0\n2\n4\n6\n8\n10\n12\n14\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\n2022-23\n2023-24\n2024-25\nY-o-Y growth\nQ-o-Q SAAR\n3Q MA - SAAR\n\n\nANNUAL REPORT 2024-25\n20\n32.6 per cent in the preceding year, wholly due\nto a reduction in net capital inflow from the rest\nof the world (ROW), which fell to 0.7 per cent of\nGDP in 2023-24 from 2.0 per cent in the previous\nyear. Available information for 2024-25 indicates\nan easing in growth of constituents of GCF.\nGrowth in gross fixed capital formation (GFCF)\n\u2013 a primary component of GCF \u2013 moderated to\n6.1 per cent in 2024-25 from 8.8 per cent in the\nprevious year. It may be noted that government\ncapital outlay (Centre and states6 combined)\ndeclined by 2.7 per cent (y-o-y) during 2024-25\n(up to February 2025) as compared with a growth\nof 31.2 per cent in the corresponding period of\n2023-24. The softening in GFCF was mirrored\nin its key coincident indicators, including steel\nconsumption, cement production, and production\nand imports of capital goods (Chart II.2.3).\nSeasonally adjusted capacity utilisation (CU)\nof the manufacturing sector at 75.3 per cent\nin Q3:2024-25 was higher than the preceding\nquarter and its level in the corresponding quarter\na year ago7. As per the results of the Reserve\nBank\u2019s 109th industrial outlook survey (IOS),\nmanufacturing firms reported an improvement in\ndemand conditions in Q4:2024-25.\nII.2.6 \t Gross domestic saving as per cent\nto gross national disposable income (GNDI)\nremained steady at 30.3 per cent in 2023-24\nprimarily due to a decline in general government\u2019s\ndissaving. Further, as against the increase in\nhousehold liabilities to 6.1 per cent of GNDI, the\ngross financial saving of households increased\nto 11.2 per cent of GNDI in 2023-24 from 10.7\nper cent in the previous year. Resultantly,\nhousehold financial saving (net) improved to\n5.1 per cent of GNDI in 2023-24 from 4.9 per\ncent in the previous year (Table II.2.2 and\nAppendix Table 3).\n6\t Data pertain to 20 states.\n7\t Based on order books, inventories and capacity utilisation survey (OBICUS) of the Reserve Bank.\nPercentage points\nChart II.2.2: Weighted Contribution to GDP Growth\nGross Fixed Capital Formation\nNet Exports\nGovernment Final Consumption Expenditure\nPrivate Final Consumption Expenditure\nGDP (Y-o-Y growth, per cent)\nNote: Component-wise contributions do not add up to the growth rate as\nchange in stocks, valuables and statistical discrepancies are not included.\nSource: NSO.\n6.5\n-8\n-4\n0\n4\n8\n12\n16\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nGrowth (per cent, y-o-y)\nChart II.2.3: Indicators of Investment Demand\nSteel Consumption\nIIP Capital Goods\nCement Production\nImports of Capital Goods\nSource: Joint Plant Committee, Office of Economic Adviser, NSO and\nDirectorate General of Commercial Intelligence and Statistics (DGCI&S).\n11.9\n12.3\n6.6\n7.9\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\nQ1:2023-24\nQ2:2023-24\nQ3:2023-24\nQ4:2023-24\nQ1:2024-25\nQ2:2024-25\nQ3:2024-25\nQ4:2024-25\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"24\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.2.1: Real GDP Growth\n</context>\n<text>\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\nGrowth (per cent, y-o-y)\nChart II.2.3: Indicators of Investment Demand\nSteel Consumption\nIIP Capital Goods\nCement Production\nImports of Capital Goods\nSource: Joint Plant Committee, Office of Economic Adviser, NSO and\nDirectorate General of Commercial Intelligence and Statistics (DGCI&S).\n11.9\n12.3\n6.6\n7.9\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\nQ1:2023-24\nQ2:2023-24\nQ3:2023-24\nQ4:2023-24\nQ1:2024-25\nQ2:2024-25\nQ3:2024-25\nQ4:2024-25\n\n\nECONOMIC REVIEW\n21\nII.2.7 \t The saving-investment gap narrowed\nduring 2023-24, reflecting a reduced drawdown\nby the general government, weaker investment\ndemand from households and non-financial\ncorporations, and moderation in savings by\nfinancial corporations (Chart II.2.4).\n3.\u2002Aggregate Supply\nII.2.8 \t Aggregate supply \u2013 measured by real\ngross value added (GVA) at basic prices \u2013\nexpanded by 6.4 per cent in 2024-25 as compared\nwith 8.6 per cent a year ago. While industrial\nactivity slowed partly due to an unfavourable\nbase and services sector growth moderated, an\nimprovement in agriculture helped sustain the\nmomentum (Table II.2.3 and Chart II.2.5).\nAgriculture and Allied Activities\nII.2.9 \t Agriculture and allied sectors recovered\nduring 2024-25, supported by an above normal\nsouth-west monsoon (SWM). The overall SWM\nrainfall in 2024 (June-September) was 108 per\ncent8 of the long-period average (LPA) at the\nall-India level as against a deficit of six per cent\nin 2023 (Chart II.2.6a). Its onset over Kerala on\nMay 30 was ahead of the usual date of June 1,\nand it progressed well to cover the entire country\n8\t As per the India Meteorological Department (IMD), normal rainfall range is 96-104 per cent of LPA.\nTable II.2.2: Financial Saving of Household Sector\n(Per cent of GNDI)\nItem\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nA. \t Gross Financial Saving\n9.9\n10.7\n10.4\n11.9\n11.8\n11.4\n15.2\n10.9\n10.7\n11.2\nof which:\n1. \t Currency\n1.0\n1.4\n-2.1\n2.8\n1.4\n1.4\n1.9\n1.1\n0.9\n0.4\n2. \t Deposits\n4.8\n4.6\n6.3\n3.0\n4.2\n4.3\n6.2\n3.5\n4.1\n4.5\n3. \t Shares and Debentures\n0.2\n0.2\n1.1\n1.0\n0.9\n0.5\n0.5\n0.9\n0.8\n0.9\n4. \t Claims on Government\n0.0\n0.5\n0.7\n0.9\n1.1\n1.3\n1.3\n1.1\n0.8\n1.1\n5. \t Insurance Funds\n2.4\n1.9\n2.3\n2.0\n2.0\n1.7\n2.8\n2.0\n2.0\n1.9\n6. \t Provident and Pension Funds\n1.5\n2.1\n2.1\n2.1\n2.1\n2.2\n2.5\n2.3\n2.3\n2.4\nB. \t Financial Liabilities\n3.0\n2.7\n3.0\n4.3\n4.0\n3.8\n3.7\n3.8\n5.8\n6.1\nC. \t Net Financial Saving (A-B)\n6.9\n7.9\n7.3\n7.5\n7.8\n7.6\n11.6\n7.2\n4.9\n5.1\nGNDI: Gross National Disposable Income.\nNote: Figures may not add up to total due to rounding off of numbers.\nSource: NSO and RBI staff estimates.\nChart II.2.4: Sectoral Resource Gap\nNPISH: Non-profit Institutions Serving Households.\nSource: NSO and RBI staff estimates.\nPer cent of GDP\nPer cent of GDP\nPublic Financial Corporations\nPrivate Financial Corporations\nGeneral Government\nPublic Non-financial Corporations\nPrivate Non-financial Corporations\nHouseholds including NPISH\nOverall Resource Gap (RHS)\n-6\n-4\n-2\n0\n2\n4\n6\n-15\n-10\n-5\n0\n5\n10\n15\n2011-12\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"25\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.2.2: Financial Saving of Household Sector\n</context>\n<text>\nChart II.2.4: Sectoral Resource Gap\nNPISH: Non-profit Institutions Serving Households.\nSource: NSO and RBI staff estimates.\nPer cent of GDP\nPer cent of GDP\nPublic Financial Corporations\nPrivate Financial Corporations\nGeneral Government\nPublic Non-financial Corporations\nPrivate Non-financial Corporations\nHouseholds including NPISH\nOverall Resource Gap (RHS)\n-6\n-4\n-2\n0\n2\n4\n6\n-15\n-10\n-5\n0\n5\n10\n15\n2011-12\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n\n\nANNUAL REPORT 2024-25\n22\non July 2, six days ahead of the normal date.\nThe SWM rainfall over the monsoon core zone,\nwhich consists of most of the rainfed agriculture\nregions in the country, stood at 122 per cent\nof LPA.\nII.2.10 \t Above-normal SWM helped replenish\nreservoir levels to 88 per cent of the capacity by\nthe end of the SWM season from a five-year low\nof 20 per cent in June 2024 (Chart II.2.6b).\nII.2.11 \t Satisfactory progress of SWM and\ncomfortable reservoir levels aided the expansion\nof the area under foodgrains and oilseeds\n(kharif and rabi) by 2.7 per cent during the year.\nAccordingly, the second advance estimates\n(SAE) of agricultural crops placed foodgrains\nproduction during 2024-25 (kharif and rabi)\nat 3,309.2 lakh tonne, 4.8 per cent higher\nthan the final estimates of 2023-24 (Table\nII.2.4). The year was marked with the record\nproduction of rice, wheat, maize, groundnut\nand soybean. According to the first advance\nestimates (FAE), the output of horticultural crops\nduring 2024-25 was placed at 3,620.9 lakh tonne,\n2.1 per cent higher than the final estimates (FE)\nof 2023-24, driven by higher production of onion\nand potato.\nII.2.12 \t The government announced an increase\nin minimum support prices (MSP) for major\nTable II.2.3: Real GVA Growth\n(Per cent)\nSector\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n1\n2\n3\n4\n5\n6\nI. \t Agriculture, Forestry and Fishing\n4.0\n4.6\n6.3\n2.7\n4.6\nII. \t Industry\n1.1\n9.6\n0.0\n11.0\n4.3\nII.1 \t Mining and Quarrying\n-8.2\n6.3\n3.4\n3.2\n2.8\nII.2 \t Manufacturing\n3.1\n10.0\n-1.7\n12.3\n4.3\nII.3 \t Electricity, Gas, Water Supply and Other Utility Services\n-4.2\n10.3\n10.8\n8.6\n6.0\nIII. \tServices\n-7.9\n10.6\n10.2\n9.2\n7.5\nIII.1 \tConstruction\n-4.6\n19.9\n9.1\n10.4\n8.6\nIII.2 \tTrade, Hotels, Transport, Communication and Services Related\nto Broadcasting\n-19.9\n15.2\n12.3\n7.5\n6.4\nIII.3 \tFinancial, Real Estate and Professional Services\n1.9\n5.7\n10.8\n10.3\n7.2\nIII.4 \tPublic Administration, Defence and Other Services\n-7.6\n7.5\n6.7\n8.8\n8.8\nIV. \tGVA at Basic Prices\n-4.1\n9.4\n7.2\n8.6\n6.4\nSource: NSO and RBI staff estimates.\nChart II.2.5: Real GVA Growth - Quarterly\nSAAR - Seasonally Adjusted Annualised Rate. MA: Moving Average.\nSource: NSO and RBI staff estimates.\nPer cent\nY-o-Y growth\n3Q MA - SAAR\nQ-o-Q SAAR\n0\n2\n4\n6\n8\n10\n12\n14\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\n2022-23\n2023-24\n2024-25\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"26\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.2.3: Real GVA Growth\n</context>\n<text>\nIII.3 \tFinancial, Real Estate and Professional Services\n1.9\n5.7\n10.8\n10.3\n7.2\nIII.4 \tPublic Administration, Defence and Other Services\n-7.6\n7.5\n6.7\n8.8\n8.8\nIV. \tGVA at Basic Prices\n-4.1\n9.4\n7.2\n8.6\n6.4\nSource: NSO and RBI staff estimates.\nChart II.2.5: Real GVA Growth - Quarterly\nSAAR - Seasonally Adjusted Annualised Rate. MA: Moving Average.\nSource: NSO and RBI staff estimates.\nPer cent\nY-o-Y growth\n3Q MA - SAAR\nQ-o-Q SAAR\n0\n2\n4\n6\n8\n10\n12\n14\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\n2022-23\n2023-24\n2024-25\n\n\nECONOMIC REVIEW\n23\nkharif and rabi crops for 2024-25 in a range of\n1.4 to 12.7 per cent, ensuring a return of at least\n50 per cent over the cost of production9. Wheat\nand paddy MSPs provide 105 per cent and 50\nper cent returns over the cost of production,\nrespectively. The Union Budget 2025-26 has\nfocused on areas such as enhancing productivity\nand sustainability in agriculture and improving\nagricultural infrastructure.\nII.2.13 \t The overall public stock of foodgrains\nheld by the Food Corporation of India (FCI) stood\nat 749 lakh tonne (as at end-March 2025), with\n9\t Actual paid out cost plus imputed value of family labour (A2+FL).\nTable II.2.4: Agricultural Crop Production 2024-25*\n(Lakh tonne)\nCrop\n2023-24\nFinal Estimates\n(FE)\n2024-25\nSecond Advance Estimates\n(SAE)\n2024-25 (SAE) Variation over\n2023-24 Final Estimates\n(per cent)\n1\n2\n3\n4\n1. \t Foodgrains\n3,157.7\n3,309.2\n4.8\nRice\n1,278.6\n1,364.4\n6.7\nWheat\n1,132.9\n1,154.3\n1.9\nNutri/Coarse Cereals\n524.5\n560.3\n6.8\nPulses\n221.7\n230.2\n3.8\nTur\n34.2\n35.1\n2.8\nGram\n110.4\n115.4\n4.5\nUrad\n20.9\n18.0\n-14.0\nMoong\n12.6\n16.1\n28.0\n2. \t Oilseeds\n384.4\n416.7\n8.4\n3. \t Cotton#\n325.2\n294.3\n-9.5\n4. \t Jute and Mesta##\n96.9\n86.2\n-11.0\n5. \t Sugarcane\n4,531.6\n4,350.8\n-4.0\n*: Kharif and Rabi crops (excluding summer crops).\u2003\u2003\u2003#: Lakh bales of 170 kg each. \u2003\u2003\u2003##: Lakh bales of 180 kg each.\nSource: Ministry of Agriculture and Farmers Welfare, GoI.\nChart II.2.6: Rainfall and Reservoir Levels\nSource: India Meteorological Department (IMD) and Central Water Commission (CWC), GoI.\nDeparture from LPA\n(per cent)\n2023\n2024\nPer cent of full reservoir level\na. South-West Monsoon (Spatial)\nb. Reservoir Level\n-18\n1\n0\n-8\n-6\n-14\n7\n19\n14\n8\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\nEast and\nNorth\nEast\nIndia\nNorth\nWest\nIndia\nCentral\nIndia\nSouth\nPeninsula\nAll India\n10-year Average\nWeekly Status\n37\n42\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n1-Jun-23\n6-Jul-23\n10-Aug-23\n14-Sep-23\n19-Oct-23\n23-Nov-23\n28-Dec-23\n1-Feb-24\n7-Mar-24\n11-Apr-24\n16-May-24\n20-Jun-24\n25-Jul-24\n29-Aug-24\n3-Oct-24\n7-Nov-24\n12-Dec-24\n16-Jan-25\n20-Feb-25\n27-Mar-25\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"27\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.2.4: Agricultural Crop Production 2024-25*\n</context>\n<text>\nPer cent of full reservoir level\na. South-West Monsoon (Spatial)\nb. Reservoir Level\n-18\n1\n0\n-8\n-6\n-14\n7\n19\n14\n8\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\nEast and\nNorth\nEast\nIndia\nNorth\nWest\nIndia\nCentral\nIndia\nSouth\nPeninsula\nAll India\n10-year Average\nWeekly Status\n37\n42\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n1-Jun-23\n6-Jul-23\n10-Aug-23\n14-Sep-23\n19-Oct-23\n23-Nov-23\n28-Dec-23\n1-Feb-24\n7-Mar-24\n11-Apr-24\n16-May-24\n20-Jun-24\n25-Jul-24\n29-Aug-24\n3-Oct-24\n7-Nov-24\n12-Dec-24\n16-Jan-25\n20-Feb-25\n27-Mar-25\n\n\nANNUAL REPORT 2024-25\n24\nrice stock of 631 lakh tonne (4.6 times the buffer\nrequirement) and wheat stock at 118 lakh tonne\n(1.6 times the buffer requirement) [Chart II.2.7].\nThe government relaxed the export restrictions\non rice on improved supply conditions while it\nundertook offloading of wheat under open market\nsales scheme (OMSS) to moderate wheat prices\nfor consumers.\nIndustrial Sector\nII.2.14 \t Industrial sector GVA growth eased to\n4.3 per cent in 2024-25 from 11.0 per cent in\nthe preceding year (Table II.2.3). Manufacturing\nsector, which accounts for 80 per cent of the\nindustrial sector also moderated to 4.3 per cent\nin 2024-25 over a high base of 12.3 per cent in\n2023-24. This was mirrored in a slowdown of\nprofitability in the corporate manufacturing sector\n(Chart II.2.8).\nII.2.15 \t Industrial output, as measured by the\nindex of industrial production (IIP), moderated\nduring 2024-25 (Chart II.2.9a). Within the\nmanufacturing sector, 17 of 23 industry groups\nrecorded expansion (y-o-y). As per the use-\nbased classification, all categories of industries\nexcept consumer non-durables recorded growth\n(Chart II.2.9b).\nII.2.16 \t The production linked incentive (PLI)\nscheme is helping to steer growth across\nseveral\nkey\nmanufacturing\nindustries\nand\nplacing the country as a part of the global value\nchain through production and exports. By end-\nChart II.2.7: Monthly Position of Stock, Offtake and Buffer Norm\nSource: Food Corporation of India, Ministry of Consumer Affairs, Food and Public Distribution, GoI.\nLakh tonne\nLakh tonne\nLakh tonne\nLakh tonne\na. Rice\nb. Wheat\nStock\nOMSS Offtake (RHS)\nBuffer Norm\n0\n2\n4\n6\n8\n10\n12\n14\n0\n100\n200\n300\n400\n500\n600\n700\nMay-21\nJul-21\nSep-21\nNov-21\nJan-22\nMar-22\nMay-22\nJul-22\nSep-22\nNov-22\nJan-23\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\n0\n5\n10\n15\n20\n25\n0\n100\n200\n300\n400\n500\n600\nMay-21\nJul-21\nSep-21\nNov-21\nJan-22\nMar-22\nMay-22\nJul-22\nSep-22\nNov-22\nJan-23\nMar-23\nMay-23\nJul-23\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\nStock\nOMSS Offtake (RHS)\nBuffer Norm\nGrowth (per cent, y-o-y)\nGrowth (per cent, y-o-y)\nChart II.2.8: Organised Manufacturing Firms\nNote: Total sample size is 1,758.\nSource: CMIE Industry Outlook.\nInterest Expenses (RHS)\nSalaries and Wages (RHS)\nInput Costs (RHS)\nNet Profit\nNet Sales\n4.5\n-1.2\n2.3\n1.2\n7.9\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\n70\n80\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"28\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.2.4: Agricultural Crop Production 2024-25*\n</context>\n<text>\nSep-23\nNov-23\nJan-24\nMar-24\nMay-24\nJul-24\nSep-24\nNov-24\nJan-25\nMar-25\nStock\nOMSS Offtake (RHS)\nBuffer Norm\nGrowth (per cent, y-o-y)\nGrowth (per cent, y-o-y)\nChart II.2.8: Organised Manufacturing Firms\nNote: Total sample size is 1,758.\nSource: CMIE Industry Outlook.\nInterest Expenses (RHS)\nSalaries and Wages (RHS)\nInput Costs (RHS)\nNet Profit\nNet Sales\n4.5\n-1.2\n2.3\n1.2\n7.9\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\n70\n80\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\n\n\nECONOMIC REVIEW\n25\nNovember 2024, actual investments of around\n\u20b91.61 lakh crore have been realised, resulting in\nproduction and sales of around \u20b914 lakh crore,\nover 11.5 lakh jobs (direct and indirect) and more\nthan \u20b95.3 lakh crore of exports in key sectors\nsuch as electronics, pharmaceuticals, and food\nprocessing10. The government has launched the\nsecond edition of the PLI scheme for specialty\nsteel in January 202511.\nII.2.17 \t Renewable\nenergy\n(including\nlarge\nhydro), which accounts for around 20.0 per cent\nof the total power generation, recorded a healthy\ngrowth of 12.2 per cent (y-o-y) during 2024-25 as\ncompared to a contraction of 1.6 per cent in the\nprevious year (Chart II.2.10). As at end-March\n2025, India\u2019s renewable energy capacity stood at\n220.1 gigawatts (GW) [46.3 per cent of the total\ninstalled capacity].\nServices Sector\nII.2.18 \t Growth in the services sector softened\nin H1:2024-25 due to a broad-based moderation\nacross its constituents. Proximate indicators of\nthe services sector, such as GST E-way bills,\n10\t \u2018PLI scheme incentivises domestic manufacturing, increases production, creates new jobs and boosts exports\u2019, Press Information Bureau\n(PIB), March 22, 2025.\n11\t \u2018PLI Scheme 1.1 Launched by Union Steel and Heavy Industries Minister\u2019, PIB, January 6, 2025.\nChart II.2.9: Index of Industrial Production\nSource: MoSPI, GoI.\nMining\nManufacturing\nElectricity\nIIP\nPer cent (y-o-y)\nCapital Goods\nPrimary Goods\nInfrastructure/Construction Goods\nIntermediate Goods\nConsumer Durables\nConsumer Non-durables\nPer cent (y-o-y)\na. Sectoral Growth\nb. Use-Based Classification - Growth\n3.9\n0\n5\n10\n15\n20\n25\n30\nH1\nH2\nH1\nH2\nH1\nH2\nH1\nH2\n2021-22\n2022-23\n2023-24\n2024-25\n-5\n0\n5\n10\n15\n20\n3.9\n5.5 6.6\n7.9\n-1.6\n4.1\n2021-22\n2022-23\n2023-24\n2024-25\nPower generation (in thousand GWh)\nChart II.2.10: Renewable Power Generation\nGWh: Gigawatt hour.\nSource: Central Electricity Authority.\nPer cent\nRenewable Power Generation\nRenewable Share in Total Power Generation (RHS)\n0\n5\n10\n15\n20\n25\n20\n30\n35\n0\n20\n40\n60\n80\n100\n120\n140\nMar-16\nSep-16\nMar-17\nSep-17\nMar-18\nSep-18\nMar-19\nSep-19\nMar-20\nSep-20\nMar-21\nSep-21\nMar-22\nSep-22\nMar-23\nSep-23\nMar-24\nSep-24\nMar-25\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"29\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.2.4: Agricultural Crop Production 2024-25*\n</context>\n<text>\n-5\n0\n5\n10\n15\n20\n3.9\n5.5 6.6\n7.9\n-1.6\n4.1\n2021-22\n2022-23\n2023-24\n2024-25\nPower generation (in thousand GWh)\nChart II.2.10: Renewable Power Generation\nGWh: Gigawatt hour.\nSource: Central Electricity Authority.\nPer cent\nRenewable Power Generation\nRenewable Share in Total Power Generation (RHS)\n0\n5\n10\n15\n20\n25\n20\n30\n35\n0\n20\n40\n60\n80\n100\n120\n140\nMar-16\nSep-16\nMar-17\nSep-17\nMar-18\nSep-18\nMar-19\nSep-19\nMar-20\nSep-20\nMar-21\nSep-21\nMar-22\nSep-22\nMar-23\nSep-23\nMar-24\nSep-24\nMar-25\n\n\nANNUAL REPORT 2024-25\n26\ncommercial vehicle sales, aviation cargo and\npassenger traffic have remained firm in H2\n(Table II.2.5).\nII.2.19 \t India\u2019s construction sector exhibited a\nmixed picture as steel consumption slowed while\ncement production recovered during H2. Housing\nTable II.2.5: High Frequency Indicators - Growth Rate\n(Per cent, y-o-y)\n2023-24\n2024-25\nIndicators\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\n1\n2\n3\n4\n5\n6\n7\n8\n9\nIndustry\nIndex of Industrial Production\n4.8\n7.8\n6.1\n5.1\n5.5\n2.7\n4.4\n3.6\nEight Core Industries\n6.0\n10.5\n8.4\n5.8\n6.3\n2.4\n5.4\n4.4\nElectricity Demand (Energy Met)\n0.7\n11.7\n25.4\n7.9\n11.6\n1.1\n6.4\n-27.5\nProduction of Passenger Vehicles\n6.7\n7.3\n5.0\n9.4\n6.2\n-0.5\n7.4\n6.4\nProduction of Two Wheelers\n1.3\n-1.5\n19.0\n26.4\n19.6\n12.5\n8.4\n5.8\nProduction of Three Wheelers\n24.3\n19.8\n14.0\n9.0\n9.2\n6.3\n9.4\n9.5\nUrban Demand\nDomestic Air Passenger Traffic\n19.1\n23.0\n9.1\n5.2\n5.6\n7.2\n11.4\n12.0\nPassenger Vehicle Sales\n9.6\n5.8\n8.6\n10.8\n3.5\n-1.3\n5.1\n3.6\nAgriculture / Rural Demand\nDomestic Sales of Tractors\n-1.9\n-5.8\n-4.9\n-22.9\n0.5\n0.7\n13.5\n23.4\nTwo-Wheeler Sales\n11.2\n-1.6\n22.6\n24.9\n20.4\n12.6\n3.0\n1.4\nThree-Wheeler Sales\n89.6\n62.6\n36.0\n7.8\n13.7\n6.7\n0.2\n8.0\nMGNREGA: Work Demand (Persons)\n-0.9\n14.7\n-0.2\n-8.9\n-14.1\n-18.0\n0.5\n5.4\nTransport\nCommercial Vehicle Sales\n-3.5\n6.8\n3.7\n-3.6\n3.5\n-10.9\n1.3\n1.6\nVahan Total Registration\n6.0\n13.8\n10.7\n11.0\n10.1\n3.0\n11.7\n0.5\nTwo-Wheeler Retail Sales\n3.2\n12.2\n10.8\n11.4\n12.7\n4.7\n12.4\n-1.3\nThree-Wheeler Retail Sales\n76.3\n68.0\n40.2\n26.8\n11.4\n4.9\n4.0\n-0.3\nPassenger Vehicles Retail Sales\n5.0\n12.5\n9.0\n8.9\n3.6\n-5.1\n5.9\n4.5\nTractor Retail Sales\n19.2\n9.4\n-5.9\n9.2\n-12.4\n-5.1\n20.1\n-4.5\nCommercial Vehicle Retail Sales\n7.0\n6.7\n6.4\n1.6\n1.0\n-3.8\n-1.4\n0.8\nToll Collection - Volume\n15.3\n13.3\n12.8\n10.9\n5.6\n7.6\n9.8\n15.1\nToll Collection - Value\n22.4\n20.5\n19.0\n17.3\n9.5\n10.3\n12.7\n17.2\nPetrol Consumption\n6.8\n5.7\n4.7\n8.4\n7.1\n7.3\n9.7\n5.8\nATF Consumption\n13.4\n13.1\n11.0\n10.0\n11.4\n9.4\n8.8\n6.5\nDiesel Consumption\n8.0\n4.3\n1.0\n4.1\n1.6\n0.1\n4.8\n1.2\nInternational Air Passenger Traffic\n35.0\n21.6\n18.5\n17.0\n15.9\n10.3\n10.0\n8.6\nDomestic Air Cargo\n-4.7\n-1.0\n8.5\n10.0\n7.1\n7.6\n4.6\n3.1\nInternational Air Cargo\n0.1\n3.7\n10.7\n25.0\n18.4\n21.9\n15.0\n1.3\nFreight Traffic: Freight Originating#\n1.1\n4.8\n6.4\n8.4\n5.0\n-0.4\n1.4\n-\nPort Cargo\n1.9\n2.9\n10.2\n3.6\n3.9\n6.1\n-1.7\n8.3\nDomestic Trade\nGST E-Way Bill\n15.8\n15.0\n17.1\n16.3\n16.0\n16.8\n16.9\n19.4\nGST E-Way Bill Intra-State\n19.3\n18.4\n22.1\n18.2\n17.5\n17.0\n13.8\n19.5\nGST E-Way Bill Inter-State\n10.0\n9.3\n8.6\n13.1\n13.2\n16.5\n23.0\n19.1\nGST Revenue\n11.6\n10.6\n12.9\n11.5\n10.1\n8.9\n8.3\n10.4\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n\n<passage id=\"30\">\n<context>\n[page header]\nANNUAL REPORT 2024-25\nECONOMIC REVIEW\n\n[section]\nII > Table II.2.5: High Frequency Indicators - Growth Rate\n</context>\n<text>\n8.6\nDomestic Air Cargo\n-4.7\n-1.0\n8.5\n10.0\n7.1\n7.6\n4.6\n3.1\nInternational Air Cargo\n0.1\n3.7\n10.7\n25.0\n18.4\n21.9\n15.0\n1.3\nFreight Traffic: Freight Originating#\n1.1\n4.8\n6.4\n8.4\n5.0\n-0.4\n1.4\n-\nPort Cargo\n1.9\n2.9\n10.2\n3.6\n3.9\n6.1\n-1.7\n8.3\nDomestic Trade\nGST E-Way Bill\n15.8\n15.0\n17.1\n16.3\n16.0\n16.8\n16.9\n19.4\nGST E-Way Bill Intra-State\n19.3\n18.4\n22.1\n18.2\n17.5\n17.0\n13.8\n19.5\nGST E-Way Bill Inter-State\n10.0\n9.3\n8.6\n13.1\n13.2\n16.5\n23.0\n19.1\nGST Revenue\n11.6\n10.6\n12.9\n11.5\n10.1\n8.9\n8.3\n10.4\n\n\nECONOMIC REVIEW\n27\nsales, after registering an uptick in 2023-24,\nslowed in 2024-25 with growth turning negative\nin the last three quarters. Launches continued\nto decline for the sixth quarter on a y-o-y basis\n(Chart II.2.11).\nII.2.20 \t The services sector composite index\n(SSCI)12, which monitors activity in construction,\ntrade, transport, and financial services, and\nserves as a coincident indicator of GVA\ngrowth in the services sector [excluding public\nTable II.2.5: High Frequency Indicators - Growth Rate (Concld.)\n(Per cent, y-o-y)\n12\t SSCI is constructed by extracting and combining high-frequency data from key indicators across three major sub-sectors of the services\nsector, viz., construction; trade, hotels, transport, communication and services related to broadcasting; and financial, real estate and\nprofessional services. These indicators are combined using a dynamic factor model to generate the final index.\n2023-24\n2024-25\nIndicators\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\n1\n2\n3\n4\n5\n6\n7\n8\n9\nExternal Trade\nMerchandise Exports\n-14.1\n-3.2\n1.0\n4.9\n5.9\n-3.4\n3.0\n-4.4\nMerchandise Imports\n-12.8\n-9.9\n0.0\n2.7\n7.6\n9.7\n6.5\n1.2\nServices Exports\n5.9\n4.2\n5.2\n4.1\n9.8\n12.2\n17.9\n-25.7\nServices Imports\n0.9\n-4.7\n-4.3\n-0.2\n7.2\n12.7\n22.2\n-33.1\nImport of Capital Goods\n9.2\n9.6\n5.6\n8.9\n10.0\n11.7\n6.0\n7.9\nConstruction\nSteel Consumption\n12.1\n17.7\n14.7\n10.6\n15.0\n12.0\n7.8\n11.9\nCement Production\n12.7\n10.3\n5.0\n7.5\n0.5\n3.2\n8.7\n12.4\nTourism and Hospitality\nHotel Occupancy Rate\n-2.6\n-2.1\n0.2\n2.4\n-2.4\n2.1\n1.8\n1.2\nForeign Tourist Arrivals*\n36.2\n21.3\n17.2\n8.1\n2.4\n-1.7\n-3.0\n-4.5\nPMI\nManufacturing PMI\n57.9\n57.9\n55.5\n57.5\n58.2\n57.4\n56.8\n57.4\nManufacturing Future Outlook\n63.0\n65.1\n63.5\n65.4\n65.2\n62.6\n63.4\n64.8\nServices PMI\n60.6\n61.1\n58.7\n61.2\n60.5\n59.6\n58.7\n58.0\nServices Future Outlook\n60.2\n63.5\n62.9\n62.3\n63.2\n62.2\n63.8\n62.2\nComposite PMI\n60.9\n61.3\n58.1\n61.2\n61.0\n59.9\n59.0\n58.7\nComposite Future Outlook\n61.0\n64.0\n62.5\n63.2\n63.8\n62.3\n63.6\n63.1\nContraction\nExpansion\n*: Data for Q4:2024-25 are up to February 2025.\nATF: Aviation Turbine Fuel.\nPMI: Purchasing Managers\u2019 Index.\n#: Data for Q3:2024-25 pertain to October-November.\n-: Not available.\nNote: All PMI values are reported in index form (>50: Expansion; <50: Contraction; and =50: No change).\nSource: Society of Indian Automobile Manufacturers (SIAM); Federation of Automobile Dealers Associations (FADA); Ministry of\nStatistics and Program Implementation (MoSPI), GoI; Office of Economic Adviser, GoI; S&P Global; Ministry of Petroleum and\nNatural Gas, GoI; Tractor and Mechanisation Association; Vahan Registration Portal; Airports Authority of India; Ministry of Railways,\nGoI; Indian Ports Association; Goods and Services Tax Network (GSTN); Joint Plant Committee; HVS Anarock; Ministry of Tourism,\nGoI; Ministry of Commerce and Industry, GoI; Ministry of Rural Development, GoI; and RBI.\n\n\nANNUAL REPORT 2024-25\n</text>\n</passage>\n\n<passage id=\"31\">\n<context>\n[page header]\nECONOMIC REVIEW\nANNUAL REPORT 2024-25\n\n[section]\nII > Table II.2.5: High Frequency Indicators - Growth Rate (Concld.)\n</context>\n<text>\nSource: Society of Indian Automobile Manufacturers (SIAM); Federation of Automobile Dealers Associations (FADA); Ministry of\nStatistics and Program Implementation (MoSPI), GoI; Office of Economic Adviser, GoI; S&P Global; Ministry of Petroleum and\nNatural Gas, GoI; Tractor and Mechanisation Association; Vahan Registration Portal; Airports Authority of India; Ministry of Railways,\nGoI; Indian Ports Association; Goods and Services Tax Network (GSTN); Joint Plant Committee; HVS Anarock; Ministry of Tourism,\nGoI; Ministry of Commerce and Industry, GoI; Ministry of Rural Development, GoI; and RBI.\n\n\nANNUAL REPORT 2024-25\n28\nadministration, defence, and other services\n(PADO)],\nrebounded\nin\nQ3:2024-25\nafter\nobserving a sequential decline in the previous two\nquarters. The recovery in Q3 was on account of a\nturnaround in trade and construction sector\nindicators. SSCI remained robust in Q4:2024-25\n(Chart II.2.12).\n4.\u2002Employment\nII.2.21 \t According to the latest periodic labour\nforce survey (PLFS) report, the labour force\nparticipation rate (LFPR) and worker population\nratio (WPR) increased during 2023-24 (July-\nJune), marking their highest levels since its\ninception. The unemployment rate (UR) remained\nunchanged in 2023-24 from the previous year\n(Chart II.2.13a). The overall LFPR increased in\nboth rural and urban areas in 2023-24, driven\nby a rise in the female LFPR (Chart II.2.13b).\nSimilar patterns were witnessed in the case of\nWPR. The unemployment rate declined in urban\nregions, while it increased marginally in rural\nregions. The proportion of self-employed in the\nworkforce has been increasing consistently since\n2018-19 while the share of casual labourers is on\nthe decline. The share of regular wage/salaried\nemployees improved to 21.7 per cent in 2023-24\nfrom 20.9 per cent in 2022-23, although it was\nlower than 23.8 per cent recorded in 2018-19\n(Chart II.2.13c).\nII.2.22 \t As per the quarterly PLFS covering\nurban areas, the LFPR and the worker\npopulation ratio for persons aged 15 years and\nabove remained steady during Q3:2024-25,\nwith\nunemployment\nrate\nhovering\nat\nthe\nlowest of the series (Chart II.2.14). The\nemployment in the organised sector, as measured\nby payroll data, also remained robust in 2024-\n25 (Chart II.2.15). The average net subscribers\nadded to employees\u2019 provident fund organisation\n(EPFO) per month stood at 10.8 lakh during\n2024-25, reflecting continued strength in formal\nsector employment opportunities.\nResidential units (thousands)\nChart II.2.11: Residential Housing Sector\nSource: PropTiger.\nPer cent (y-o-y)\n-40\n-20\n0\n20\n40\n60\n80\n100\n120\n140\n160\n-100\n0\n100\n200\n300\n400\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\n2022-23\n2023-24\n2024-25\nSales\nLaunches\nSales Growth (RHS)\nLaunches Growth (RHS)\nChart II.2.12: Growth in Services Sector\n(Excluding PADO) and SSCI\n*: SSCI for March 2025 quarter is based on partial data available.\nSource: NSO and RBI staff estimates.\nPer cent (y-o-y)\nSSCI\nGVA Growth in Services Excluding PADO\nSSCI (RHS)\n-30\n-25\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\n30\nJun-18\nSep-18\nDec-18\nMar-19\nJun-19\nSep-19\nDec-19\nMar-20\nJun-20\nSep-20\nDec-20\nMar-21\nJun-21\nSep-21\nDec-21\nMar-22\nJun-22\nSep-22\nDec-22\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25*\n-10\n-8\n-6\n-4\n-2\n0\n2\n4\n6\n8\n10\n0.71\n\n\nECONOMIC REVIEW\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The MPC voted to reduce the policy repo rate by 25 bps to 6.0 per cent in its April 2025 meeting.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "reduce_policy_repo_rate",
+        "qualifiers": [
+          {
+            "key": "meeting_date",
+            "provenance": "stated",
+            "value": "April 2025"
+          },
+          {
+            "key": "reduction_amount",
+            "provenance": "stated",
+            "value": "25 bps"
+          }
+        ],
+        "quote": "the MPC in its April 2025 meeting unanimously voted to reduce the policy repo rate by 25 bps to 6.0 per cent.",
+        "subject_key": null,
+        "subject_surface": "MPC",
+        "subject_type": "committee",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.0",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The Union Budget 2025-26 announced an outlay of \u20b9500 crore for the fourth CoE for AI in education.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "announced_outlay",
+        "qualifiers": [
+          {
+            "key": "purpose",
+            "provenance": "stated",
+            "value": "fourth CoE for AI in education"
+          }
+        ],
+        "quote": "The Union Budget 2025-26 announced the fourth CoE for AI in education with an outlay of \u20b9500 crore.",
+        "subject_key": null,
+        "subject_surface": "Union Budget 2025-26",
+        "subject_type": "government budget",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b9500",
+          "unit": "crore"
+        }
+      },
+      {
+        "claim_text": "The central government's effective capital expenditure is budgeted to rise to 4.3 per cent of GDP in 2025-26.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "budgeted_effective_capital_expenditure_to_gdp",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2025-26"
+          }
+        ],
+        "quote": "effective capital expenditure budgeted to rise to 4.3 per cent of GDP in 2025-26",
+        "subject_key": null,
+        "subject_surface": "central government",
+        "subject_type": "government",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The central government's financial assistance scheme for states' capital expenditure has been extended to 2025-26 with an outlay of \u20b91.5 lakh crore.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "financial_assistance_scheme_outlay",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2025-26"
+          }
+        ],
+        "quote": "the central government\u2019s financial assistance scheme for states\u2019 capital expenditure has been extended to 2025-26 with an outlay of \u20b91.5 lakh crore.",
+        "subject_key": null,
+        "subject_surface": "central government",
+        "subject_type": "government",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b91.5 lakh",
+          "unit": "crore"
+        }
+      },
+      {
+        "claim_text": "The central government targeted the GFD at 4.4 per cent of GDP in 2025-26 (BE).",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "targeted_gfd_to_gdp",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2025-26 (BE)"
+          }
+        ],
+        "quote": "targeting the GFD at 4.4 per cent of GDP in 2025-26 (BE)",
+        "subject_key": null,
+        "subject_surface": "central government",
+        "subject_type": "government",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The central government aims to reach a public debt-to-GDP ratio of around 50 per cent by end-March 2031.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "aims_public_debt_to_gdp_ratio",
+        "qualifiers": [
+          {
+            "key": "target_date",
+            "provenance": "stated",
+            "value": "end-March 2031"
+          }
+        ],
+        "quote": "reaching around 50 per cent by end-March 2031.",
+        "subject_key": null,
+        "subject_surface": "central government",
+        "subject_type": "government",
+        "value": {
+          "kind": "quantity",
+          "raw": "50",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The consolidated GFD of states is budgeted at 3.3 per cent of GDP for 2025-26.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "budgeted_consolidated_gfd_to_gdp",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2025-26"
+          }
+        ],
+        "quote": "their consolidated GFD budgeted at 3.3 per cent of GDP",
+        "subject_key": null,
+        "subject_surface": "states",
+        "subject_type": "government",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The FDI cap in the insurance sector was raised to 100 per cent from 74 per cent.",
+        "confidence": 1,
+        "passage_id": 17,
+        "predicate": "fdi_cap",
+        "qualifiers": [
+          {
+            "key": "previous_value",
+            "provenance": "stated",
+            "value": "74 per cent"
+          }
+        ],
+        "quote": "raising the FDI cap in insurance sector to 100 per cent from 74 per cent earlier",
+        "subject_key": null,
+        "subject_surface": "insurance sector",
+        "subject_type": "industry",
+        "value": {
+          "kind": "quantity",
+          "raw": "100",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global GDP grew by 3.3 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "gdp_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Global GDP grew by 3.3 per cent in 2024",
+        "subject_key": null,
+        "subject_surface": "Global",
+        "subject_type": "economy",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.3",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global inflation eased to 5.7 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "inflation_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Global inflation eased to 5.7 per cent in 2024",
+        "subject_key": null,
+        "subject_surface": "Global",
+        "subject_type": "economy",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.7",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Global goods and services trade volume growth was 3.8 per cent in 2024.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "goods_and_services_trade_volume_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024"
+          }
+        ],
+        "quote": "Global goods and services trade volume growth recovered to 3.8 per cent in 2024",
+        "subject_key": null,
+        "subject_surface": "Global",
+        "subject_type": "economy",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India's real GDP growth moderated to 6.5 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "real_gdp_growth",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "real gross domestic product (GDP) growth moderated to 6.5 per cent4 in 2024-25",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.5",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Private final consumption expenditure (PFCE) grew by 7.6 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 22,
+        "predicate": "growth_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Growth in private final consumption expenditure (PFCE) \u2013 the main component of aggregate demand \u2013 improved to 7.6 per cent in 2024-25",
+        "subject_key": null,
+        "subject_surface": "Private final consumption expenditure",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.6",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The share of PFCE in real GDP was 56.7 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 22,
+        "predicate": "share_of_real_gdp",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "The share of PFCE in real GDP increased to 56.7 per cent in 2024-25.",
+        "subject_key": null,
+        "subject_surface": "Private final consumption expenditure",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "56.7",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Government final consumption expenditure (GFCE) grew by 3.8 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 22,
+        "predicate": "growth_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Government final consumption expenditure (GFCE) grew at a modest 3.8 per cent in 2024-25",
+        "subject_key": null,
+        "subject_surface": "Government final consumption expenditure",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.8",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "The rate of gross domestic investment in the Indian economy declined to 31.4 per cent in 2023-24.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "gross_domestic_investment_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2023-24"
+          }
+        ],
+        "quote": "The rate of gross domestic investment in the Indian economy, measured by the ratio of gross capital formation (GCF) to GDP at current prices, declined to 31.4 per cent in 2023-24",
+        "subject_key": null,
+        "subject_surface": "Indian economy",
+        "subject_type": "economy",
+        "value": {
+          "kind": "quantity",
+          "raw": "31.4",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "Growth in gross fixed capital formation (GFCF) moderated to 6.1 per cent in 2024-25.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "growth_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "Growth in gross fixed capital formation (GFCF) \u2013 a primary component of GCF \u2013 moderated to 6.1 per cent in 2024-25",
+        "subject_key": null,
+        "subject_surface": "gross fixed capital formation",
+        "subject_type": "economic indicator",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.1",
+          "unit": "per cent"
+        }
+      },
+      {
+        "claim_text": "India's renewable energy capacity stood at 220.1 gigawatts (GW) as at end-March 2025.",
+        "confidence": 1,
+        "passage_id": 25,
+        "predicate": "renewable_energy_capacity",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "end-March 2025"
+          }
+        ],
+        "quote": "As at end-March 2025, India\u2019s renewable energy capacity stood at 220.1 gigawatts (GW)",
+        "subject_key": null,
+        "subject_surface": "India",
+        "subject_type": "country",
+        "value": {
+          "kind": "quantity",
+          "raw": "220.1",
+          "unit": "gigawatts"
+        }
+      },
+      {
+        "claim_text": "The average net subscribers added to employees\u2019 provident fund organisation (EPFO) per month stood at 10.8 lakh during 2024-25.",
+        "confidence": 1,
+        "passage_id": 31,
+        "predicate": "average_net_subscribers_added_per_month",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "2024-25"
+          }
+        ],
+        "quote": "The average net subscribers added to employees\u2019 provident fund organisation (EPFO) per month stood at 10.8 lakh during 2024-25",
+        "subject_key": null,
+        "subject_surface": "employees\u2019 provident fund organisation",
+        "subject_type": "organization",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.8",
+          "unit": "lakh"
+        }
+      }
+    ]
+  }
+}

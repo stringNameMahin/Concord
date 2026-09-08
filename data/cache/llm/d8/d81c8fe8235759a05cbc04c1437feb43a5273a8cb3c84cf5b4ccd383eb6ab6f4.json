@@ -1,0 +1,572 @@
+{
+  "key": "d81c8fe8235759a05cbc04c1437feb43a5273a8cb3c84cf5b4ccd383eb6ab6f4",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"160\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (h)\t Leases\n</context>\n<text>\n\u0007The following tables summarise the components of net benefit expense recognised in the consolidated statement of\nprofit and loss and amounts recognised in the consolidated statement of assets and liabilities for the Gratuity:-\nBenefit liability\nMarch 31, 2024\nMarch 31, 2023\nOpening defined benefit obligation\n544.73\n402.60\nPast service cost\n25.69\n59.17\nAcquisition through business combination\n-\n1.54\nInterest cost\n38.07\n30.28\nCurrent service cost\n162.53\n125.03\nBenefits paid\n(85.16)\n(93.04)\nActuarial (gain)/ loss on obligation\n(40.15)\n19.15\nClosing defined benefit obligation\n645.71\n544.73\nExpense recognised in the Consolidated Statement of Profit and Loss\nGratuity cost for the year\nMarch 31, 2024\nMarch 31, 2023\nCurrent service cost\n162.53\n125.03\nPast service cost\n25.69\n59.17\nInterest cost\n38.07\n30.28\nNet gratuity cost\n226.29\n214.48\nRemeasurement gains/(losses) in other comprehensive income\nMarch 31, 2024\nMarch 31, 2023\nActuarial gain/(loss) due to demographic assumption changes in DBO\n(0.90)\n(0.36)\nActuarial changes arising from changes in financial assumptions\n(9.60)\n(1.10)\nExperience adjustments\n50.65\n(17.69)\nAmount recognised in OCI during the year\n40.15\n(19.15)\nAnnual Report 2023-24\n257\n256\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nActuarial assumptions\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nDiscount rate\n7.25%\n7.08% to 7.52%\nSalary Growth Rate\n7.00%\n7.00%\nMortality\nIALM(2012-14)\nultimate\nIALM(2012-14)\nultimate\nAttrition rate\nUpto 30 years\n15.00%\n15.00%\nBetween 31 and 44 years\n7.00%\n7.00%\nAbove 44 years\n2.00%\n2.00%\nNormal retirement age\n60 years\n60 years\n\u0007Discount rate: The discount rate is based on the prevailing market yields of Indian government securities as at the balance\nsheet date for the estimated term of the obligations.\n\u0007Salary escalation rate: The estimates of future salary increases considered taking into account the inflation, seniority,\npromotion and other relevant factors.\nAttrition rate: The estimate of future employee turnover.\n\u0007A quantitative sensitivity analysis for significant assumption as at March 31, 2024 and March 31, 2023 is as shown below:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nSensitivity level\nDiscount rate increase by 0.5%\nDiscount rate decrease by 0.5%\nImpact on defined benefit obligation\n(35.65)\n(28.62)\n39.31\n31.56\nSensitivity level\nFuture salary increase by 0.5%\nFuture salary decrease by 0.5%\nImpact on defined benefit obligation\n35.72\n28.98\n(33.20)\n(26.88)\n\u0007The sensitivity analyses above have been determined based on a method that extrapolates the impact on defined benefit\nobligation as a result of reasonable changes in key assumptions occurring at the end of the reporting year.\n\u0007The sensitivity analyses are based on a change in a significant assumption, keeping all other assumptions constant.\nThe sensitivity analyses may not be representative of an actual change in the defined benefit obligation as it is unlikely\nthat changes in assumptions would occur in isolation from one another.\n\u0007The weighted average duration of the defined benefit plan obligation at the end of the reporting period is 11.56 years\n(March 31, 2023: 11.48 years).\nThe following payments are expected contributions to the defined benefit plan in future years:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nWithin the next 12 months (next annual reporting period)\n39.79\n37.05\nBetween 2 and 5 years\n92.72\n78.88\nMore than 5 years\n844.38\n637.57\nTotal expected payments\n976.89\n753.50\n(b)\t Defined Contribution Plan\n\u0007The Group makes contributions, determined as a specified percentage of employee salaries in respect of qualifying\nemployees towards Provident Fund and state plans such as Employees\u2019 State Insurance (ESI), which is a defined\n</text>\n</passage>\n\n<passage id=\"161\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (h)\t Leases\n</context>\n<text>\nThe following payments are expected contributions to the defined benefit plan in future years:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nWithin the next 12 months (next annual reporting period)\n39.79\n37.05\nBetween 2 and 5 years\n92.72\n78.88\nMore than 5 years\n844.38\n637.57\nTotal expected payments\n976.89\n753.50\n(b)\t Defined Contribution Plan\n\u0007The Group makes contributions, determined as a specified percentage of employee salaries in respect of qualifying\nemployees towards Provident Fund and state plans such as Employees\u2019 State Insurance (ESI), which is a defined\ncontribution plan. The Group has no obligations other than to make the specified contributions. The Group\u2019s\ncontribution is recognised as an expense in the Statement of Profit and Loss during the period in which the employee\nrenders the related services.\n\u0007During the year, the Group has recognised the following amounts in the Statement of Profit and Loss, which are\nincluded in contribution to provident and other funds:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nContribution to employee state insurance\n79.65\n64.77\nContribution towards to provident fund and other funds\n589.67\n521.04\nTotal contribution\n669.32\n585.81\n(c)\t Compensated absence\n\u0007The amount of the provision of I\u00a0268.41 million (March 31, 2023: I\u00a0233.29 million).\n\u0007A quantitative sensitivity analysis for significant assumption as at March 31, 2024 and March 31, 2023 is as\nshown below:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nSensitivity level\nDiscount rate increase by 0.5%\nDiscount rate decrease by 0.5%\nImpact on compensated absence\n(12.54)\n(10.76)\n13.83\n11.80\nSensitivity level\nFuture salary increase by 0.5%\nFuture salary decrease by 0.5%\nImpact on compensated absence\n13.79\n11.77\n(12.62)\n(10.81)\n34. \tLeases\nSet out below are the carrying amounts of right-of-use assets recognised and the movements during the year:\nParticulars\nAmount\nAs at April 01, 2022\n6,940.54\nAcquisition of subsidiary\n2.76\nAdditions\n2,810.54\nDeletions\n(888.26)\nDepreciation expense (refer note 27)\n(2,198.13)\nAs at March 31, 2023\n6,667.45\nAs at April 01, 2023\n6,667.45\nAdditions\n5,897.30\nDeletions\n(352.56)\nDepreciation expense (refer note 27)\n(2,330.41)\nAs at March 31, 2024\n9,881.78\nSet out below are the carrying amounts of lease liabilities and the movements during the year:\nParticulars\nAmount\nAs at April 01, 2022\n7,483.80\nAcquisition of subsidiary\n2.64\nAdditions\n2,765.25\nAccretion of interest (refer note 28)\n673.37\nPayments\n(2,578.76)\nDeletion\n(1,100.61)\nAs at March 31, 2023\n7,245.69\nAs at April 01, 2023\n7,245.69\nAdditions\n5,654.89\nAccretion of interest (refer note 28)\n745.67\nPayments\n(2,768.93)\nDeletion\n(439.90)\nAs at March 31, 2024\n10,437.42\nAnnual Report 2023-24\n259\n258\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nCurrent\n2,001.02\n1,902.69\nNon-current\n8,436.40\n5,343.00\nThe following are the amounts recognised in Consolidated Statement of Profit or Loss:\nParticulars\nFor the year ended\nMarch 31, 2024\nFor the year ended\nMarch 31, 2023\nDepreciation expense of right-of-use assets (refer note 27)\n2,330.41\n2,198.13\nInterest expense on lease liabilities (refer note 28)\n745.67\n673.37\nExpense relating to short-term leases (refer note 23)\n2,816.88\n2,688.49\nGain on modification / termination of lease contracts (refer note 22.2)\n(88.26)\n(212.28)\nTotal amount recognised in Consolidated Statement of Profit or Loss\n5,804.70\n5,347.71\nThe Group has several lease contracts that include extension and termination options. These options are negotiated by\nmanagement to provide flexibility in managing the leased-asset portfolio and align with the Group\u2019s business needs.\n</text>\n</passage>\n\n<passage id=\"162\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (c)\t Compensated absence\n</context>\n<text>\nInterest expense on lease liabilities (refer note 28)\n745.67\n673.37\nExpense relating to short-term leases (refer note 23)\n2,816.88\n2,688.49\nGain on modification / termination of lease contracts (refer note 22.2)\n(88.26)\n(212.28)\nTotal amount recognised in Consolidated Statement of Profit or Loss\n5,804.70\n5,347.71\nThe Group has several lease contracts that include extension and termination options. These options are negotiated by\nmanagement to provide flexibility in managing the leased-asset portfolio and align with the Group\u2019s business needs.\nManagement exercises significant judgement in determining whether these extension and termination options are reasonably\ncertain to be exercised and has assessed that the Group is reasonably certain to exercise the extension options, while not\nexercising the termination option. Accordingly, there are no undiscounted potential future rental payments relating to periods\nfollowing the exercise date of extension and termination options that are not included in the lease term.\nThe Group does not face a significant liquidity risk with regard to its lease liabilities as the current assets are sufficient to\nmeet the obligations related to lease liabilities as and when they fall due.\nThe effective interest rate for lease liabilities based on the duration of leases is:\n0 - 36 months - 8.75% p.a. (March 31, 2023: 7.85% p.a.)\n37 - 72 months - 9.50% p.a. (March 31, 2023:8.15% p.a.)\n73 months & Above - 10.25% p.a. (March 31, 2023:8.75% p.a.)\nRental expense recorded for short-term leases was I 2,816.88 million in the year ended March 31, 2024 (March 31, 2023:\nI\u00a02,688.49 million).\nThe aggregate depreciation on ROU assets has been included under depreciation and amortisation expense in the Consolidated\nStatement of Profit and Loss.\nThe table below provides details regarding the contractual maturities of lease liabilities on an undiscounted basis:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nLess than one year\n2,872.51\n2,427.96\nOne to four years\n6,350.57\n4,641.65\nMore than four years\n4,597.00\n1,718.51\nClosing balance\n13,820.08\n8,788.13\n35.\tRelated party transactions\nNames of related parties and related party relationship:\nRelated parties under Ind AS 24:\nAssociate\nFALCON AUTOTECH Private Limited\nKey Management Personnel\n(\"KMP')\nMr. Sahil Barua\nManaging Director and Chief Executive Officer\nMr. Amit Agarwal\nChief Financial Officer\nMr. Ajith Pai Mangalore\nChief Operating Officer\nMr. Sandeep Kumar Barasia\nWhole-Time-Director and Chief Business Officer\nMr. Kapil Bharati\nWhole- Time Director and Chief Technology Officer\nMrs. Pooja Gupta\nChief People Officer (Resigned w.e.f. January 15, 2024)\nMr. Suraj Saharan\nHead - New Ventures (w.e.f. August 02 2021) and Chief\nPeople Officer (w.e.f. January 15, 2024)\nMr. Abhik Kumar Mitra\nChief Customer Experience Officer (Delhivery Limited) and\nManaging Director and Chief Executive Officer of Material\nSubsidiary (till April 24, 2023)\nMr. Sunil Kumar Bansal\nCompany Secretary and Compliance Officer (Resigned w.e.f.\nMay 31, 2023)\nMr. Vivek Kumar\nCompany Secretary and Compliance Officer (Compliance\nOfficer w.e.f June 01, 2023 resigned w.e.f. March 27, 2024)\nMrs. Madhulika Rawat\nCompany Secretary and Compliance Officer\n(w.e.f. May 17, 2024)\nMr. Suvir Suren Sujan\nNon-Executive Director (w.e.f. May 24, 2022 resigned w.e.f.\nAugust 24, 2023)\nMr. Srivatsan Ranjan\nNon-Executive - Independent Director\nMr. Deepak Kapoor\nChairman and Non-Executive - Independent Director\nMr. Munish Ravinder Varma\nNominee Director (resigned w.e.f June 29, 2022)\nMr. Agus Tandiono\nNominee Director (resigned w.e.f April 08, 2022)\nMr. Saugata Gupta\nNon Executive - Independent Director\nMr. Anindya Ghose\nNon Executive - Independent Director (w.e.f August 4, 2023)\nMs. Kalpana Jaisingh Morparia\nNon Executive - Independent Director (resigned w.e.f.\nFebruary 11, 2023)\nMs. Aruna Sundararajan\nNon Executive - Independent Director (w.e.f July 08, 2022)\nMr. Donald Francis Colleran\nNon Executive - Nominee Director (till May 23, 2022)\n</text>\n</passage>\n\n<passage id=\"163\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (c)\t Compensated absence\n</context>\n<text>\nNominee Director (resigned w.e.f June 29, 2022)\nMr. Agus Tandiono\nNominee Director (resigned w.e.f April 08, 2022)\nMr. Saugata Gupta\nNon Executive - Independent Director\nMr. Anindya Ghose\nNon Executive - Independent Director (w.e.f August 4, 2023)\nMs. Kalpana Jaisingh Morparia\nNon Executive - Independent Director (resigned w.e.f.\nFebruary 11, 2023)\nMs. Aruna Sundararajan\nNon Executive - Independent Director (w.e.f July 08, 2022)\nMr. Donald Francis Colleran\nNon Executive - Nominee Director (till May 23, 2022)\n(redesignated as Non-Executive Director w.e.f. May 24, 2022\nresigned w.e.f September 27, 2023)\nAnnual Report 2023-24\n261\n260\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nSummary of transactions with the above related parties is as follows:\nA.\nTransactions during the year:\nNature of transactions\nKey management personnel\nSubsidiaries\nAssociate\nTotal\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nInvestment in Associate- Equity Accounting\n-\nFALCON AUTOTECH Private Limited\n-\n-\n-\n-\n500.40\n-\n500.40\n-\nCapital Expenditure\n-\nFALCON AUTOTECH Private Limited\n-\n-\n-\n-\n1,583.85\n637.14\n1,583.85\n637.14\nServices received\n-\nFALCON AUTOTECH Private Limited\n-\n-\n-\n-\n86.46\n40.62\n86.46\n40.62\nRemuneration to Key Managerial Personnel**\nShort term employees benefits\nMr. Sahil Barua\n663.53\n740.64\n-\n-\n-\n-\n663.53\n740.64\nMr. Suraj Saharan\n47.06\n94.02\n-\n-\n-\n-\n47.06\n94.02\nMs. Pooja Gupta\n41.97\n98.81\n-\n-\n-\n-\n41.97\n98.81\nMr. Kapil Bharati\n496.13\n304.63\n-\n-\n-\n-\n496.13\n304.63\nMr. Ajith Pai Mangalore\n85.16\n124.89\n-\n-\n-\n-\n85.16\n124.89\nMr. Amit Agarwal\n146.35\n139.58\n-\n-\n-\n-\n146.35\n139.58\nMr. Sandeep Kumar Barasia\n173.92\n174.35\n-\n-\n-\n-\n173.92\n174.35\nMr. Sunil Kumar Bansal\n1.73\n12.08\n-\n-\n-\n-\n1.73\n12.08\nMr. Vivek Kumar\n4.24\n-\n-\n-\n-\n-\n4.24\n-\nMr. Abhik Mitra\n10.65\n90.47\n-\n-\n-\n-\n10.65\n90.47\nLoan Repaid\nMr. Sandeep Kumar Barasia\n12.20\n10.57\n-\n-\n-\n-\n12.20\n10.57\nSale of Property Plant and Equipment\nMr. Sandeep Kumar Barasia\n-\n3.48\n-\n-\n-\n-\n-\n3.48\nFees to Non-Executive Directors*\nMr. Deepak Kapoor\n8.40\n8.70\n-\n-\n-\n-\n8.40\n8.70\nMr. Romesh Sobti\n7.90\n8.10\n-\n-\n-\n-\n7.90\n8.10\nMr. Saugata Gupta\n8.00\n8.00\n-\n-\n-\n-\n8.00\n8.00\nMr. Anindya Ghose\n4.45\n-\n4.45\n-\nMs. Kalpana Jaisingh Morparia\n-\n6.91\n-\n-\n-\n-\n-\n6.91\nMrs. Aruna Sundararajan\n7.60\n5.21\n-\n-\n-\n-\n7.60\n5.21\nMr. Srivatsan Ranjan\n8.20\n8.70\n-\n-\n-\n-\n8.20\n8.70\n* Fees to non-executive directors includes sitting fees of I\u00a06.60 million (March 31, 2023: I\u00a08.60 million).\n** Remuneration to the key managerial personnel does not include the provisions made for gratuity and leave encashment (except for personnel who have resigned and their full and final\nsettlement is due), as they are determined on an actuarial basis for the Group as a whole.\nB.\nBalances as the year end:\nNature of balances\nKey management personnel\nSubsidiaries\nAssociate\nTotal\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nOutstanding balance receivable/(payable)\nFALCON AUTOTECH Private Limited (Advance to\nsupplier)\n-\n-\n-\n-\n-\n256.56\n-\n256.56\nFALCON AUTOTECH Private Limited (Payables)\n-\n-\n-\n-\n(116.85)\n-\n(116.85)\n-\nSalary payable\nMr. Abhik Mitra**\n-\n(35.79)\n-\n-\n-\n-\n-\n(35.79)\nMr. Vivek Kumar\n(0.51)\n-\n-\n-\n-\n-\n(0.51)\n-\nLoans and advances to related parties\nMr. Sandeep Kumar Barasia\n2.03\n14.23\n-\n-\n-\n-\n2.03\n14.23\nFees payable to Non-Executive Directors\nMr. Deepak Kapoor\n(1.69)\n(1.69)\n-\n-\n-\n-\n(1.69)\n(1.69)\nMr. Romesh Sobti\n(1.46)\n(1.46)\n-\n-\n-\n-\n(1.46)\n(1.46)\nMr. Saugata Gupta\n(1.58)\n(1.46)\n-\n-\n-\n-\n(1.58)\n(1.46)\nMs. Kalpana Jaisingh Morparia\n-\n(0.66)\n-\n-\n-\n-\n-\n(0.66)\nMr. Anindya Ghose\n</text>\n</passage>\n\n<passage id=\"164\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (c)\t Compensated absence\n</context>\n<text>\n-\n-\n-\n-\n(116.85)\n-\n(116.85)\n-\nSalary payable\nMr. Abhik Mitra**\n-\n(35.79)\n-\n-\n-\n-\n-\n(35.79)\nMr. Vivek Kumar\n(0.51)\n-\n-\n-\n-\n-\n(0.51)\n-\nLoans and advances to related parties\nMr. Sandeep Kumar Barasia\n2.03\n14.23\n-\n-\n-\n-\n2.03\n14.23\nFees payable to Non-Executive Directors\nMr. Deepak Kapoor\n(1.69)\n(1.69)\n-\n-\n-\n-\n(1.69)\n(1.69)\nMr. Romesh Sobti\n(1.46)\n(1.46)\n-\n-\n-\n-\n(1.46)\n(1.46)\nMr. Saugata Gupta\n(1.58)\n(1.46)\n-\n-\n-\n-\n(1.58)\n(1.46)\nMs. Kalpana Jaisingh Morparia\n-\n(0.66)\n-\n-\n-\n-\n-\n(0.66)\nMr. Anindya Ghose\n(0.96)\n-\n-\n-\n-\n-\n(0.96)\n-\nMrs. Aruna Sundararajan\n(1.46)\n(1.13)\n-\n-\n-\n-\n(1.46)\n(1.13)\nMr. Srivatsan Ranjan\n(1.30)\n(1.04)\n-\n-\n-\n-\n(1.30)\n(1.04)\n** Remuneration to the key managerial personnel does not include the provisions made for gratuity and leave encashment, as they are determined on an actuarial basis for the Group as a whole.\nAnnual Report 2023-24\n263\n262\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n36(1) Business combinations\na)\n\u0007During the year ended March 31, 2023, the Company acquired 100% stake in Algorhythm Tech Private Limited\n(\u201cAlgorhythm\u201d) (Company engaged in intelligent, connected planning & optimisation solutions for Supply Chain) for\na consideration of I\u00a081.36 million vide share purchase agreement dated December 19, 2022. Post the completion of\nacquisition Algorhythm Tech Private Limited has become 100% subsidiary of Delhivery limited w.e.f January 13, 2023.\nAssets acquired\n\u0007The fair values of the identifiable assets of Algorhythm Tech Private Limited as at the date of acquisition\nJanuary 13, 2023 were:\nAssets\nBalance\nrecognised on\nacquisition\nProperty, plant and equipment\n0.10\nCustomer relationships\n5.13\nSoftware\n50.54\nIntangible assets\n0.15\nRight of use assets\n2.76\nOther financial assets\n0.45\nTrade receivables\n9.64\nCash and cash equivalents\n0.05\nOther bank balances\n10.50\nOther current assets\n4.09\nTotal Assets\n83.41\nLease liabilities\n2.64\nBorrowings\n25.01\nTrade payables\n0.98\nOther financial liabilities\n22.95\nOther current liabilities\n6.04\nProvisions\n1.54\nDeferred tax liabilities on intangible assets\n17.37\nTotal Liabilities\n76.53\nIdentifiable net asset at fair value\n6.88\nGoodwill arising on acquisition\n74.48\nPurchase consideration\n81.36\nThe goodwill of I\u00a074.48 million comprises the value of expected synergies arising from the acquisition.\n\u0007If the acquisition had taken place at the beginning of the year, revenue from continuing operations would have been\nhigher by I\u00a030.56 million and the losses before tax from continuing operations for the Group from \u201cAlgorhythm\u201d would\nhave been higher by I\u00a012.39 million.\n\u0007From the date of acquisition, \u201cAlgorhythm\u201d has contributed I\u00a02.40 million of revenue* and I\u00a016.07 million of loss* to the\nloss before tax from the operations of the Group.\n* Before inter- company elimination.\nAnalysis of cash flows on acquisition\nAmount\nPayment towards acquisition of business (included in cash flow from investing activities)\n81.36\nNet cash used in acquisition\n81.36\nAll other disclosures as required under IND AS 103 are as follows:\ni)\n\u0007There were no contingent consideration arrangements entered into with the acquiree.\nii)\nNo contingent liabilities have been recognised.\n(iii)\t \u0007There are no such transactions that are recognised separately from the acquisition of assets and assumption of\nliabilities in the business combination except as disclosed refer note 36 (2) (a).\n(iv)\t The above business combination is not a bargain-purchase.\n(v)\n\u0007The above business combination is not achieved in stages.\n(vi)\t Goodwill is not tax deductible.\nb)\n\u0007Scheme of Arrangement (\u201cthe Scheme\u201d) between Vankatesh Pharma Private Limited and Spoton Logistics Private\n</text>\n</passage>\n\n<passage id=\"165\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > Assets acquired\n</context>\n<text>\nNo contingent liabilities have been recognised.\n(iii)\t \u0007There are no such transactions that are recognised separately from the acquisition of assets and assumption of\nliabilities in the business combination except as disclosed refer note 36 (2) (a).\n(iv)\t The above business combination is not a bargain-purchase.\n(v)\n\u0007The above business combination is not achieved in stages.\n(vi)\t Goodwill is not tax deductible.\nb)\n\u0007Scheme of Arrangement (\u201cthe Scheme\u201d) between Vankatesh Pharma Private Limited and Spoton Logistics Private\nLimited and their respective shareholders under section 230 to 232 read with Section 66 of the Companies Act, 2013\n(\u201cthe Act\u201d) and the rules made thereunder.\n\u0007One of the Company\u2019s wholly owned subsidiary Spoton Logistics Private Limited had recorded goodwill in its books of\naccount upon amalgamation of Vankatesh Pharma Private Limited (\u2018the transferor Company\u2019) and Spoton Logistics\nPrivate Limited (\u2018the Transferee Company\u2019). The scheme of amalgamation was approved by the NCLT vide its order\ndated November 27, 2019 with an appointed date of August 30, 2018 and a certified copy has been filed by the transferee\nCompany with the Registrar of Companies, Gujarat, on January 10, 2020. In accordance with the scheme approved by the\nNCLT, the Group continues to amortise Goodwill over a period of 5 years in consolidated financial statement, for which\naccounting treatment is different from the accounting treatment prescribed under Accounting Standard (Ind AS) 103\non Business Combinations. Therefore, the aforesaid Goodwill has been fully amortised in the books of account during\nthe year ended on March 31, 2024. If amortisation of goodwill had not been done in the financial statement, loss before\ntax for the year ended March 31, 2024 would have been lower by I\u00a0104.59 million (March 31, 2023: I\u00a0252.82 million) and\nGoodwill & Other equity balance would have been higher by I\u00a0881.01 million as on March 31, 2024 and March 31, 2023.\n36(2) Assets Acquisition\na)\nAcquisition during the year ended March 31, 2023\n\u0007On December 19, 2022, the Holding Company has entered into assets purchase agreement with the promoters of\nAlgorhythm Tech Private Limited and has paid non-compete fees amounting to I\u00a067.70 million. The same has been\naccounted as other intangible assets.\n36(3) Investment in Associate\nThe company has made investment in FALCON AUTOTECH Private Limited (Company engaged in the autotech business) for\na consideration of I\u00a02,518.94 million vide share purchase agreement dated December 31, 2021. Upon closure of transaction\non January 04, 2022, FALCON AUTOTECH Private Limited has become an associate of the Company. Further, on November\n09, 2023, the Company has acquired additional stake in FALCON AUTOTECH Private Limited (Associate) for a consideration\nof I\u00a0500.40 million taking the total stake to 40.98% (non-diluted basis).\nAnnual Report 2023-24\n265\n264\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n37.1 Fair Values\nFinancial instruments by category\nThe carrying value and fair value of financial instruments by categories as of March 31, 2024 were as follows:\nParticulars\nAmortised cost\nFinancial assets/ liabilities at fair value\nthrough profit or loss\nCarrying value\nDesignated upon\ninitial recognition\nMandatory\nAssets:\nCash and cash equivalents (refer note 12)\n3,032.19\n-\n-\n3,032.19\nOther bank balances (refer note 13)\n1,000.00\n-\n-\n1,000.00\nInvestments (current) (refer note 5)\n-\n-\n17,781.34\n17,781.34\nInvestments (non-current) (refer note 5)\n-\n-\n6,771.16\n6,771.16\nInvestments in equity securities (non-current) (refer note 5)\n3,209.76\n-\n-\n3,209.76\nTrade receivables (refer note 7)\n</text>\n</passage>\n\n<passage id=\"166\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > b)\n</context>\n<text>\nAmortised cost\nFinancial assets/ liabilities at fair value\nthrough profit or loss\nCarrying value\nDesignated upon\ninitial recognition\nMandatory\nAssets:\nCash and cash equivalents (refer note 12)\n3,032.19\n-\n-\n3,032.19\nOther bank balances (refer note 13)\n1,000.00\n-\n-\n1,000.00\nInvestments (current) (refer note 5)\n-\n-\n17,781.34\n17,781.34\nInvestments (non-current) (refer note 5)\n-\n-\n6,771.16\n6,771.16\nInvestments in equity securities (non-current) (refer note 5)\n3,209.76\n-\n-\n3,209.76\nTrade receivables (refer note 7)\n14,296.90\n-\n-\n14,296.90\nLoans (current) (refer note 8)\n40.19\n-\n-\n40.19\nOther financial assets (refer note 9)\n29,785.92\n-\n-\n29,785.92\nTotal\n51,364.96\n-\n24,552.50\n75,917.46\nLiabilities:\nTrade payables (refer note 20)\n7,973.74\n-\n-\n7,973.74\nBorrowing (refer note 16)\n1,255.98\n-\n-\n1,255.98\nOther financial liabilities (refer note 17)\n1,091.14\n-\n-\n1,091.14\nLease liabilities (refer note 34)\n10,437.41\n-\n-\n10,437.41\nTotal\n20,758.27\n-\n-\n20,758.27\nThe carrying value and fair value of financial instruments by categories as of March 31, 2023 were as follows:\nParticulars\nAmortised cost\nFinancial assets/ liabilities at fair value\nthrough profit or loss\nCarrying value\nDesignated upon\ninitial recognition\nMandatory\nAssets:\nCash and cash equivalents (refer note 12)\n2,954.52\n-\n-\n2,954.52\nOther bank balances (refer note 13)\n3,500.00\n3,500.00\nInvestments (current) (refer note 5)\n-\n-\n14,817.20\n14,817.20\nInvestments (non-current) (refer note 5)\n-\n-\n3,502.21\n3,502.21\nInvestments in equity securities (non-current) (refer note 5)\n2,622.46\n-\n-\n2,622.46\nTrade receivables (refer note 7)\n15,238.07\n-\n-\n15,238.07\nLoans (current) (refer note 8)\n62.13\n-\n-\n62.13\nOther financial assets (refer note 9)\n34,071.37\n-\n-\n34,071.37\nTotal\n58,448.55\n-\n18,319.41\n76,767.96\nLiabilities:\nTrade payables (refer note 20)\n7,873.56\n-\n-\n7,873.56\nBorrowing (refer note 16)\n1,988.74\n-\n-\n1,988.74\nLease liabilities (refer note 34)\n7,245.69\n-\n-\n7,245.69\nOther financial liabilities (refer note 17)\n977.37\n-\n-\n977.37\nTotal\n18,085.36\n-\n-\n18,085.36\nThe following methods / assumptions were used to estimate the fair values:\ni)\n\u0007The carrying value of trade receivables, cash and cash equivalents, trade payables, security deposits, lease liabilities\nand other current financial assets and other current financial liabilities measured at amortised cost approximate their\nfair value due to the short-term maturities of these instruments.\nii)\n\u0007Fair value of quoted mutual funds and debt instruments is based on quoted market prices at the reporting date.\niii)\n\u0007Fair value of unquoted investments is estimated based on discounted cash flows valuation technique using the cash\nflow projections, discount rate and credit risk.\n37.2 (a) Fair value hierarchy\nThe following table provides the fair value measurement hierarchy of the Group\u2019s assets and liabilities.\nLevel 1 \u2013 Quoted prices in active market for identical assets or liabilities.\nLevel 2 \u2013 Input other than quoted prices included within level 1 that are observable for the assets and liabilities, either directly\n(i.e. as prices) or indirectly i.e. derived from prices.\nLevel 3 \u2013 Inputs for the assets or liabilities that are not based on observable market data (unobservable inputs).\nThe following table presents fair value hierarchy of assets and liabilities measured at fair value on a recurring basis as of\nMarch 31, 2024:\nParticulars\nMarch 31, 2024\nFair value measurement at end of the\nreporting year using\nLevel 1\nLevel 2\nLevel 3\nAssets\nInvestments in unquoted preference shares (refer note 5)\n301.34\n-\n-\n301.34\nInvestments in bonds, non convertible debentures, mutual fund units\n(refer note 5)\n24,251.16\n24,251.16\n-\n-\nThe following table presents fair value hierarchy of assets and liabilities measured at fair value on a recurring basis as of\nMarch 31, 2023:\nParticulars\nMarch 31, 2023\nFair value measurement at end of the\nreporting year using\nLevel 1\nLevel 2\nLevel 3\nAssets\nInvestments in unquoted preference shares (refer note 5)\n197.90\n-\n-\n197.90\nInvestments in bonds, non convertible debentures, mutual fund units\n</text>\n</passage>\n\n<passage id=\"167\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > b)\n</context>\n<text>\nInvestments in bonds, non convertible debentures, mutual fund units\n(refer note 5)\n24,251.16\n24,251.16\n-\n-\nThe following table presents fair value hierarchy of assets and liabilities measured at fair value on a recurring basis as of\nMarch 31, 2023:\nParticulars\nMarch 31, 2023\nFair value measurement at end of the\nreporting year using\nLevel 1\nLevel 2\nLevel 3\nAssets\nInvestments in unquoted preference shares (refer note 5)\n197.90\n-\n-\n197.90\nInvestments in bonds, non convertible debentures, mutual fund units\n(refer note 5)\n18,121.51\n18,121.51\n-\n-\nThere have been no transfers between Level 1 and Level 2 during the current year and previous year.\n37.2 (b) Fair value hierarchy\nReconciliation of Level 3 fair value measurement is as follows:\nParticulars\nInvestments in unquoted preference\nshares (refer note 5)\nMarch 31, 2024\nMarch 31, 2023\nBalance at the beginning of the year\n197.90\n-\nAddition during the year\n250.00\n197.90\nFair value loss on financial instruments at fair value through profit or loss\n(146.56)\n-\nBalance at the end of the year\n301.34\n197.90\n37.2 (c) Fair value hierarchy\nFollowing table describes the valuation techniques used and key inputs thereto for the level 3 financial assets\n/ liabilities as of March 31, 2024 and March 31, 2023:\nFinancial Assets\nValuation\ntechnique(s)\nKey Input(s)\nSensitivity\nInvestments in unquoted preference\nshares (fully paid) in Boxseat\nVentures Private Limited\nDiscounted Cash\nFlows Method\n(DCF)*\ni)\n\u0007Weighted Average Cost of Capital (\u201cWACC\u201d)* - 21.03%\n(March 31, 2023- NA)\nii)\nTerminal Growth Rate - 5% (March 31, 2023 - NA)\nRefer note below#\n* The fair values of financial assets included in level 3 have been determined in accordance with generally accepted pricing models based on a\noption pricing method, with the most significant inputs being the risk free discount rate that reflects the credit risk of counter parties.\nAnnual Report 2023-24\n267\n266\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nFinancial assets\nSignificant unobservable inputs\n% change\nFair value change\n#Investments in unquoted preference shares\nWACC\n(+) 1\n(139.00)\n(-) 1\n161.00\nTerminal Growth Rate\n(+) 0.5\n27.00\n(-) 0.5\n(25.00)\nInvestments in unquoted preference shares (Boxseat Ventures Private Limited,) have been valued basis giving reference\nto the fund raised by Boxseat Ventures Private Limited subsequently on March 29, 2023, which was equivalent to the fund\ninvested by the Company.\nFollowing table describes the valuation techniques used and key inputs thereto for the level 3 financial assets\n/ liabilities as of March 31, 2024 and March 31, 2023:\nFinancial Assets\nValuation\ntechnique(s)\nKey Input(s)\nSensitivity\nInvestments in Unquoted preference\nshares - Vinculum Solutions Private\nLimted\nDiscounted Cash\nFlows Method\n(DCF)*\ni)\n\u0007Weighted Average Cost of Capital (\u201cWACC\u201d) - 50 %\n(March 31, 2023- NA)\nii)\nTerminal Growth Rate - 5% (March 31, 2023 - NA)\nRefer note below#\n* The fair values of financial assets included in level 3 have been determined in accordance with generally accepted pricing models based on a\noption pricing method, with the most significant inputs being the risk free discount rate that reflects the credit risk of counter parties.\nFinancial assets\nSignificant unobservable inputs\n% change\nFair value change\n#Investments in unquoted preference shares\nWACC\n(+) 1\n(110.00)\n(-) 1\n103.00\nTerminal Growth Rate\n(+) 0.5\n10.00\n(-) 0.5\n(10.00)\n37.3 Financial risk management objectives and policies\nFinancial risk management\nFinancial risk factors\n\u0007The Group\u2019s activities expose it to a variety of financial risks: market risk, credit risk and liquidity risk. The Group\u2019s focus\n</text>\n</passage>\n\n<passage id=\"168\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > b)\n</context>\n<text>\noption pricing method, with the most significant inputs being the risk free discount rate that reflects the credit risk of counter parties.\nFinancial assets\nSignificant unobservable inputs\n% change\nFair value change\n#Investments in unquoted preference shares\nWACC\n(+) 1\n(110.00)\n(-) 1\n103.00\nTerminal Growth Rate\n(+) 0.5\n10.00\n(-) 0.5\n(10.00)\n37.3 Financial risk management objectives and policies\nFinancial risk management\nFinancial risk factors\n\u0007The Group\u2019s activities expose it to a variety of financial risks: market risk, credit risk and liquidity risk. The Group\u2019s focus\nis to foresee the unpredictability of financial markets and seek to minimise potential Group\u2019s exposure to credit risk is\ninfluenced mainly by the individual characteristic of each customer.\nA)\nMarket risk\n\u0007Market risk is the risk that the fair value of future cash flows of a financial instrument will fluctuate because of\nchanges in market prices. Market risk comprises three types of risk: interest rate risk, foreign currency risk and\nother price risk, such as equity price risk and commodity risk. Financial instruments affected by market risk include\nloans and borrowings, deposits. The Group has in place appropriate risk management policies to limit the impact\nof these risks on its financial performance. The Group ensures optimisation of cash through fund planning and\nrobust cash management practices.\ni)\nInterest Rate Risk\n\u0007Interest rate risk is the risk that the fair value or future cash flows of a financial instrument will fluctuate\nbecause of changes in market interest rates. As majority of the financial assets and liabilities of the Group\nare either non-interest bearing or fixed interest bearing instruments, the Group\u2019s net exposure to interest risk\nis negligible.\nii)\nForeign currency risk\n\u0007Foreign currency risk is the risk that the fair value or future cash flows of an exposure will fluctuate because\nof changes in foreign exchange rates. The entire revenue and majority of the expenses of the Group are\ndenominated in Indian Rupees.\n\u0007Management considers currency risk to be low and does not hedge its currency risk. As variations in foreign\ncurrency exchange rates are not expected to have a significant impact on the results of operations, a sensitivity\nanalysis is not presented.\n(B)\t Credit risk\n\u0007Credit risk refers to the risk of default on its obligation by the counterparty resulting in a financial loss. The Group is\nexposed to credit risk from its operating activities (primarily trade receivables and unbilled receivables) and from\nits financing activities, including deposits with banks and financial institutions and other financial instruments.\nTrade receivables are typically unsecured and are derived from revenue earned from customers primarily located\nin India. Credit risk has always been managed by the Group through credit approvals and continuously monitoring\nthe credit worthiness of customers to which the Group grants credit terms in the normal course of business. On\naccount of adoption of Ind AS 109, the group uses expected credit loss model to assess the impairment loss or\ngain. The Group uses a provision matrix to compute the expected credit loss allowance for trade receivables. The\nprovision matrix takes into account available external and internal credit risk factors such as the Group\u2019s historical\nexperience for customers.\n\u0007The Group has established an allowance for impairment that represents its expected credit losses in respect of trade\nand other receivables. The management uses a simplified approach for the purpose of computation of expected\ncredit loss for trade receivables and 12 months expected credit loss for other receivables. An impairment analysis\nis performed at each reporting date on an individual basis for major parties. In addition, a large number of minor\nreceivables are combined into homogenous categories and assessed for impairment collectively. The calculation\nis based on historical data of actual losses.\n(C)\t Excessive risk concentration\n</text>\n</passage>\n\n<passage id=\"169\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (B)\t Credit risk\n</context>\n<text>\nand other receivables. The management uses a simplified approach for the purpose of computation of expected\ncredit loss for trade receivables and 12 months expected credit loss for other receivables. An impairment analysis\nis performed at each reporting date on an individual basis for major parties. In addition, a large number of minor\nreceivables are combined into homogenous categories and assessed for impairment collectively. The calculation\nis based on historical data of actual losses.\n(C)\t Excessive risk concentration\n\u0007Concentrations arise when a number of counterparties are engaged in similar business activities, or activities in the\nsame geographical region, or have economic features that would cause their ability to meet contractual obligations\nto be similarly affected by changes in economic, political or other conditions. Concentrations indicate the relative\nsensitivity of the Group\u2019s performance to developments affecting a particular industry.\n\u0007In order to avoid excessive concentrations of risk, the Group\u2019s policies and procedures include specific guidelines\nto focus on the maintenance of a diversified portfolio. Identified concentrations of credit risks are controlled and\nmanaged accordingly.\n\u0007The Group\u2019s largest customer accounted for approximately 16.42% of net sales year ended March 31, 2024 (March\n31, 2023: 16.94% respectively).\n(D)\t Liquidity risk\n\u0007Ultimate responsibility for liquidity risk management rests with the Board, which has established an appropriate\nliquidity risk management framework for the management of the Group\u2019s short, medium and long-term funding\nand liquidity management requirements. The Group\u2019s principal sources of liquidity are cash and cash equivalents\nand the cash flow that is generated from operations. The Group manages liquidity risk by maintaining adequate\ncash reserves, by continuously monitoring forecast and actual cash flows, and by matching the maturity profiles\nof financial assets and liabilities.\n\u0007The table below provides details regarding the contractual undiscounted maturities of significant financial liabilities\nas of March 31, 2024:\nParticulars\nCarrying\nAmount\nLess than\n1 year\n1-2 years\n2-4 years\n> 4 years\nTotal\nTrade payables (refer note 20)\n7,973.73\n7,973.73\n-\n-\n-\n7,973.73\nBorrowings (refer note 16)*\n1,255.98\n918.81\n401.84\n0.32\n-\n1,320.97\nLease liabilities (refer note 34)\n10,437.42\n2,872.51\n2,507.68\n3,842.89\n4,597.00\n13,820.08\nOther financial liabilities (refer note 17)\n1,091.14\n1,091.14\n-\n-\n-\n1,091.14\nAnnual Report 2023-24\n269\n268\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n\u0007The table below provides details regarding the contractual undiscounted maturities of significant financial liabilities\nas of March 31, 2023:\nParticulars\nCarrying\nAmount\nLess than\n1 year\n1-2 years\n2-4 years\n> 4 years\nTotal\nTrade payables (refer note 20)\n7,873.56\n7,873.56\n-\n-\n-\n7,873.56\nBorrowings (refer note 16)*\n1,988.74\n962.41\n862.43\n349.17\n-\n2,174.01\nLease liabilities (refer note 34)\n7,245.69\n2,427.96\n2,537.71\n2,103.94\n1,718.51\n8,788.12\nOther financial liabilities (refer note 17)\n977.37\n977.37\n-\n-\n-\n977.37\n* It includes contractual interest payment based on interest rate prevailing at the end of the reporting period.\n37.4 Capital management\n\u0007For the purpose of the Group\u2019s capital management, capital includes issued equity capital, securities premium and\nall other equity reserves attributable to the equity holders of the Group. The primary objective of the Group\u2019s capital\nmanagement is to maximise the shareholder value.\nThe Group\u2019s objectives when managing capital are to:\ny Safeguard their ability to continue as a going concern, so that they can continue to provide returns for shareholders\n</text>\n</passage>\n\n<passage id=\"170\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\n* It includes contractual interest payment based on interest rate prevailing at the end of the reporting period.\n37.4 Capital management\n\u0007For the purpose of the Group\u2019s capital management, capital includes issued equity capital, securities premium and\nall other equity reserves attributable to the equity holders of the Group. The primary objective of the Group\u2019s capital\nmanagement is to maximise the shareholder value.\nThe Group\u2019s objectives when managing capital are to:\ny Safeguard their ability to continue as a going concern, so that they can continue to provide returns for shareholders\nand benefits for other stakeholders; and\ny Maintain an optimal capital structure to reduce the cost of capital.\n\u0007The Group monitors capital by regularly reviewing the capital structure. As a part of this review, the Group considers the\ncost of capital and the risks associated with the issued share capital. In the opinion of the Directors, the Group\u2019s capital\nrisk is low.\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nBorrowings and Leases (refer note 16 and note 34)\n11,693.39\n9,234.43\nLess: cash and cash equivalents (refer note 12)\n(3,032.19)\n(2,954.52)\nNet debt\n8,661.20\n6,279.91\nTotal Equity\n91,446.46\n91,771.37\nTotal capital\n91,446.46\n91,771.37\nCapital and net debt\n100,107.66\n98,051.28\nGearing ratio\n8.65%\n6.40%\n\u0007No Material changes were made in the objectives, policies or processes for managing capital during the year ended\nMarch 31, 2024 and March 31, 2023.\n38.\tCommitments and contingencies\nA)\t Capital and other commitments\na)\nCapital commitment (net of advances) as on March 31, 2024 is I\u00a0545.66 million (March 31, 2023: 1,562.64 million).\nB)\t Contingent Liability:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nClaims against the Group not acknowledged as debts:\na)\nTax matter in appeal: Income Tax (refer note 1 (a) below)\n344.92\n344.92\nb)\nService Tax (refer note 1 (b) below)\n622.59\n622.59\nc)\nGoods and Service Tax\n10.22\n11.70\nNote 1: The claims against the Group comprises of:\na)\n\u0007The parent company received Assessment Order dated December 26, 2018 for FY 2015-2016 i.e. A.Y 2016-17 wherein\nthe Assessing Officer (AO) raised Income tax demand of I 1,835.70 million under Income Tax Act, 1961. The company\nhas filed appeal in respect of the above demand which is pending at Commissioner of Income Tax (Appeals). The\ncompany filed rectification petition under section 154 of the IT Act, wherein the company was allowed to set-off\nbusiness loss and unabsorbed depreciation and demand was revised to I\u00a0344.92 million accordingly vide order dated\nSeptember 15, 2021.\nb)\n\u0007During year 2017-18, the Commissioner of service tax department had issued show cause notices (SCNs) for raising\ndemands of I\u00a0189.39 million and I\u00a0221.64 million on March 28, 2018 for the period from January 2012 to March 2015 and\nfrom April 2015 to June 2017 respectively, in respect of classification of services of the Holding Company\u2019s subsidiary\n(Spoton Logistics Private Limited or \u201cSpoton\u201d) vendors as a Goods Transport Agency for that period. The SCN alleged\nthat vehicle hire services availed by the Spoton for transporting the goods of its customers both between the cities and\nwithin the city should be classified under \u201cGoods Transportation Agency\u201d (\u201cGTA\u201d) as per section 65 (105) (zzp) of the\nFinance Act prior to July 01, 2012 and Spoton is required to pay the service tax under the reverse tax charge mechanism.\nSpoton had responded to these SCNs in 2017-18.\n\u0007The Department passed two adjudication orders dated September 06, 2018 and July 26, 2021 for service tax demand of\nI\u00a0189.39 million and along with penalty of I\u00a0189.39 million for the period from January 2012 to March 2015 and I\u00a0221.64\nmillion along with penalty of I\u00a022.16 million for the period from April 2015 to June 2017.\n\u0007The Spoton has filed appeals before the CESTAT against the orders after paying the amount under protest for an amount\nof I 14.20 million and I 16.62 million for the respective periods in complaince with section 35F(ii) of the Central Excise\n</text>\n</passage>\n\n<passage id=\"171\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\n\u0007The Department passed two adjudication orders dated September 06, 2018 and July 26, 2021 for service tax demand of\nI\u00a0189.39 million and along with penalty of I\u00a0189.39 million for the period from January 2012 to March 2015 and I\u00a0221.64\nmillion along with penalty of I\u00a022.16 million for the period from April 2015 to June 2017.\n\u0007The Spoton has filed appeals before the CESTAT against the orders after paying the amount under protest for an amount\nof I 14.20 million and I 16.62 million for the respective periods in complaince with section 35F(ii) of the Central Excise\nAct, 1944.\n\u0007Based on the underlying facts, applicable laws and industry standards, Spoton is confident of prevailing against the\ndepartment\u2019s position and does not anticipate any adverse financial outcome.\n\u0007The Group has assessed that it is only possible, but not probable, that outflow of economic resources will be required\nand hence these demands have been disclosed as contingent liability.\n\u0007Contingent liabilities disclosed above represent possible obligations where possibility of cash outflow to settle the\nobligations is not remote.\n39. Share-based payments\nThe Group provides share-based payment schemes to its employees. During the year ended March 31, 2024 and March 31,\n2023, four employee stock option plan (ESOP) and one stock appreciation plan were in existence. The relevant details of the\nschemes and the grant are as below:\nGeneral Employee Share-option Plan (GESP): Delhivery Employees Stock Option Plan, 2012\nOn September 28, 2012, the board of directors approved the Delhivery Employees Stock Option Plan, 2012 for issue of stock\noptions to the key employees and directors of the company. According to the scheme 2012, it applies to bona fide confirmed\nemployees/directors and who are in whole \u2013 time employment of the company and as decided by the board of directors of\nthe company or appropriate committee of the board constituted by the board from time to time. The options granted under\nthe scheme shall vest not less than one year and not more than four years from the date of grant of options. Once the options\nvest as per the scheme, they would be exercisable by the option grantee at any time and the equity shares arising on exercise\nof such options shall not be subject to any lock-in period.\nAnnual Report 2023-24\n271\n270\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nMovements during the year\nThe following table illustrates the number and weighted average exercise prices (WAEP) of and movements in share options\nduring the year:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nNo. of options\nWAEP (J)\nNo. of options\nWAEP (J)\nOutstanding at the beginning of the year\n9,686,124\n13.76\n11,785,442\n19.24\nGranted during the year\n2,612,773\n1.00\n2,891,209\n1.00\nForfeited/cancelled during the year\n(2,041,493)\n5.24\n(1,910,906)\n12.43\nExercised during the year\n(2,561,205)\n20.90\n(3,079,621)\n23.57\nOutstanding at the end of the year\n7,696,174\n9.31\n9,686,124\n13.76\nExercisable at the end of the year\n1,879,594\n22.91\n2,269,431\n22.88\nThe weighted average remaining contractual life for the stock options outstanding as at March 31, 2024 is 1.79 years\n(March 31, 2023: 2.23 years). The range of exercise prices for options outstanding at the year end was I 0.10 to I\u00a029.85\n(March 31, 2023: 0.10 to I\u00a029.85).\nThe weighted average fair value for the stock options granted during the year is I\u00a0363.92 (March 31, 2023: I\u00a0474.38).\nThe following tables list the inputs to the models used for the GESP plans for the year ended March 31, 2024 and March 31\n2023, respectively:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n43.96% -51.10%\n</text>\n</passage>\n\n<passage id=\"172\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\nThe weighted average remaining contractual life for the stock options outstanding as at March 31, 2024 is 1.79 years\n(March 31, 2023: 2.23 years). The range of exercise prices for options outstanding at the year end was I 0.10 to I\u00a029.85\n(March 31, 2023: 0.10 to I\u00a029.85).\nThe weighted average fair value for the stock options granted during the year is I\u00a0363.92 (March 31, 2023: I\u00a0474.38).\nThe following tables list the inputs to the models used for the GESP plans for the year ended March 31, 2024 and March 31\n2023, respectively:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n43.96% -51.10%\n46.30% -52.40%\nRisk\u2013free interest rate (%)\n6.80% - 7.29%\n6.50% - 7.40%\nExpected life of share options\n3 to 5 years\n4 to 5 years\nWeighted average share price (I)\n9.31\n13.76\nModel used\nBlack Scholes Option Pricing Model\nThe expected life of the share options is based on historical data and current expectations and is not necessarily indicative\nof exercise patterns that may occur. The expected volatility reflects the assumption that the historical volatility over a period\nsimilar to the life of the options is indicative of future trends, which may also not necessarily be the actual outcome.\nDelhivery Employees Stock Option Plan - II, 2020\nThe Plan has been formulated and approved on January 25, 2021 by the Board of Directors (\u201cBoard\u201d) and approved on\nFebruary 01, 2021 by the shareholders of Delhivery Limited (the \u201cCompany\u201d). The Plan came into force on February 01, 2021\nand continue to be in force until - (i) its termination by the Board; or (ii) the date on which all of the Options available for\nissuance under the Plan have been Exercised.\nMovement during the year\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nNo. of options\nWAEP (J)\nNo. of options\nWAEP (J)\nOutstanding at the beginning of the year\n7,565,200\n0.10\n7,740,200\n0.10\nGranted during the year\n-\n-\n-\n-\nForfeited during the year\n-\n-\n(175,000)\n0.10\nExercised during the year\n(3,318,501)\n0.10\n-\n-\nOutstanding at the end of the year\n4,246,699\n0.10\n7,565,200\n0.10\nExercisable at the end of the year\n4,246,699\n0.10\n3,782,600\n0.10\nThe Options granted under the plan shall vest as per the schedule determined by the Board / ESOP Committee. Vesting of\noptions shall be subject to continued / uninterrupted employment with the Company and completion of a minimum period of\n1 year from the date of the grant of the options and shall vest on the basis of the Company achieving the valuation thresholds\n(being the multiple of the share price of the Series F round of investment in the Company).\nAny remaining unvested Options (that have not vested in accordance with above) shall automatically lapse. The vesting date\nor conditions for vesting shall be specified in the option Agreement or grant letter between each eligible employee and the\nCompany, unless determined otherwise by the Board / ESOP committee from time to time.\nThe following tables list the inputs to the models used for the plan for the year ended March 31, 2024 and March 31 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n45.1% - 48%\n45.1% - 48%\nRisk\u2013free interest rate (%)\n3.35%\n3.35%\nExpected life of share options\n3.17\n3.17\nFace value (I)\n0.10\n0.10\nModel used\nMonte Carlo simulation\nDelhivery Employees Stock Option Plan III, 2020\nThe Plan has been formulated and approved on January 25, 2021 by the Board of Directors (\u201cBoard\u201d) and approved on February\n01, 2021 by the shareholders of Delhivery Limited (the \u201cCompany\u201d). The Plan came into force on February 01, 2021 and shall\ncontinue to be in force until - (i) its termination by the Board; or (ii) the date on which all of the Options available for issuance\nunder the Plan have been Exercised.\nThe Options granted under the Plan shall vest as per the schedule determined by the Board / ESOP Committee. Vesting of\nOptions shall be subject to continued / uninterrupted employment with the company and completion of a minimum period\nof 1 year from the date of the grant of the Options and shall vest at the discretion of the Board / ESOP Committee on the\n</text>\n</passage>\n\n<passage id=\"173\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\ncontinue to be in force until - (i) its termination by the Board; or (ii) the date on which all of the Options available for issuance\nunder the Plan have been Exercised.\nThe Options granted under the Plan shall vest as per the schedule determined by the Board / ESOP Committee. Vesting of\nOptions shall be subject to continued / uninterrupted employment with the company and completion of a minimum period\nof 1 year from the date of the grant of the Options and shall vest at the discretion of the Board / ESOP Committee on the\nbasis of the performance of the Company or any other transformative event as decided by the Board / ESOP Committee. Any\nremaining unvested Options that have not vested in accordance with this sub-clause shall automatically lapse. The vesting\ndate or conditions for vesting shall be specified in the option agreement or grant letter between each Eligible Employee and\nthe Group, unless determined otherwise by the Board / ESOP Committee from time to time.\nMovement during the year\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nNo. of options\nWAEP (J)\nNo. of options\nWAEP (J)\nOutstanding at the beginning of the year\n7,140,900\n0.10\n8,820,500\n0.10\nGranted during the year\n-\n-\n-\n-\nForfeited during the year\n(437,500)\n0.10\n(287,500)\n0.10\nExercised during the year\n(2,190,400)\n0.10\n(1,392,100)\n0.10\nOutstanding at the end of the year\n4,513,000\n0.10\n7,140,900\n0.10\nExercisable at the end of the year\n2,236,300\n0.10\n1,949,100\n0.10\nThe following tables list the inputs to the models used for the plan for the year ended March 31, 2024 and March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n45.1% - 48%\n45.1% - 48%\nRisk\u2013free interest rate (%)\n3.35%\n3.35%\nExpected life of share options\n3.17\n3.17\nFace value (I)\n0.10\n0.10\nModel used\nMonte Carlo simulation\nDelhivery Employees Stock Option Plan IV, 2021\nThe Plan has been formulated and approved on September 24, 2021 by the Board of Directors (\u201cBoard\u201d) and approved on\nSeptember 29, 2021 by the shareholders of Delhivery Limited (the \u201cCompany\u201d). The Plan shall be deemed to have come into\nforce on September 29, 2021 and shall continue to be in force until -\nAnnual Report 2023-24\n273\n272\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n(i)\nits termination by the Board; or\n(ii)\t the date on which all of the options available for issuance under the plan have been exercised.\nThe options granted under the plan shall vest as per the schedule determined by the Board / ESOP Committee. Vesting of\noptions shall be subject to continued / uninterrupted employment with the group and completion of a minimum period of 1\nyear from the date of the grant of the options and shall vest at the discretion of the Board / ESOP committee on the basis of\nthe performance of the group or any other transformative event as decided by the Board / ESOP committee. Any remaining\nunvested options that have not vested in accordance with this sub-clause shall automatically lapse. The vesting date or\nconditions for vesting shall be specified in the option agreement or grant letter between each eligible employee and the group,\nunless determined otherwise by the Board / ESOP committee from time to time.\nMovement during the year\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nNo. of options\nWAEP (J)\nNo. of options\nWAEP (J)\nOutstanding at the beginning of the year\n10,190,000\n1.00\n7,600,000\n1.00\nGranted during the year\n-\n-\n2,590,000\n1.00\nForfeited during the year\n-\n-\n-\n-\nExercised during the year\n-\n-\n-\n-\nOutstanding at the end of the year\n10,190,000\n1.00\n10,190,000\n1.00\nExercisable at the end of the year\n250,000\n1.00\n-\n-\nThe following tables list the inputs to the models used for the plan for option based on milestone for the year ended March\n</text>\n</passage>\n\n<passage id=\"174\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\nMarch 31, 2024\nMarch 31, 2023\nNo. of options\nWAEP (J)\nNo. of options\nWAEP (J)\nOutstanding at the beginning of the year\n10,190,000\n1.00\n7,600,000\n1.00\nGranted during the year\n-\n-\n2,590,000\n1.00\nForfeited during the year\n-\n-\n-\n-\nExercised during the year\n-\n-\n-\n-\nOutstanding at the end of the year\n10,190,000\n1.00\n10,190,000\n1.00\nExercisable at the end of the year\n250,000\n1.00\n-\n-\nThe following tables list the inputs to the models used for the plan for option based on milestone for the year ended March\n31, 2024 and March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nEffective Valuation Date\nNovember\n20, 2022\nNovember\n20, 2022\nExpected volatility (%)\n64.40%\n64.40%\nRisk\u2013free interest rate (%)\n6.09%\n6.09%\nCommon Stock Value (I per share)\nNA\nNA\nExercise Price (I per share)\n1.00\n1.00\n3 months average closing (I per share)\n509.30\n509.30\nModel used\nMonte Carlo simulation\nThe following tables list the inputs to the models used for the plan for time-based option for the year ended March 31, 2024\nand March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n45.50% - 51.10%\n45.50% - 51.10%\nRisk\u2013free interest rate (%)\n4.20% - 5.60%\n4.20% - 5.60%\nExpected life of share options\n1.4 - 4.44\n1.4 - 4.44\nExercise Price (I\u00a0per share)\n1.00\n1.00\nModel used\nBlack Scholes Option Pricing Model\nDuring the year ended March 31, 2023, Company has granted 2,590,000 stock options convertible into Equity options vesting\nof which is milestone base.\nDuring the year ended March 31, 2022, Company has granted 7,600,000 stock options convertible into Equity Shares out of\nwhich vesting of 2,500,000 stock options is time based and 5,100,000 is milestone based. Vesting of these options is dependent\nupon the listing of the company on recognised stock exchange therefore, ESOP expense pertaining to these options will\nrecognised in books after listing of company.\nAccordingly, when company got listed on May 24, 2022, vesting of these options has commenced for time based stock options.\nDuring the year ended March 31, 2024, the Group has recognised expense of I 2,219.38 million (March 31, 2023:\nI 2,891.41 million).\nDELHIVERY STOCK APPRECIATION RIGHT PLAN, 2023\nThe Plan has been formulated and approved on November 15, 2023. The Plan shall be deemed to have come into force on\nDecember 01, 2023 and shall continue to be in force until -\n(i)\nits termination by the Board; or\n(ii)\t the date on which all of the options available for issuance under the plan have been exercised.\nThe right granted under the plan shall vest as per terms specified in the Rights Agreement or Grant Letter between each\nEmployee and the Company / Group Company, unless determined otherwise by the Nomination and Remuneration Committee\nfrom time to time. Any remaining unvested rights that have not vested in accordance with this sub-clause shall automatically\nlapse. The vesting date or conditions for vesting shall be specified in the right agreement or grant letter between each eligible\nemployee and the Company, unless determined otherwise by from time to time.\nEach Right entitles the holder thereof to receive cash payment equal to the Market Value of one Share as on the date of Exercise\nof such Vested Rights less the exercise price of such Right.\nMovement during the year\nDuring the year ended March 31, 2024, the Group has recognised expense of I\u00a02,219.38 million (March 31, 2023: I\u00a02,891.41 million)\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nNo. of options\nWAEP (J)\nNo. of options\nWAEP (J)\nOutstanding at the beginning of the year\n-\n-\n-\n-\nGranted during the year\n349,150\n1.00\n-\n-\nForfeited during the year\n-\n-\n-\n-\nExercised during the year\n(20,712)\n1.00\n-\n-\nOutstanding at the end of the year\n328,438\n1.00\n-\n-\nExercisable at the end of the year\n-\n-\n-\n-\nThe following tables list the inputs to the models used for the plan for the rights granted for the year ended March 31, 2024\nand March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n43.48%\nNA\nRisk\u2013free interest rate (%)\n</text>\n</passage>\n\n<passage id=\"175\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\nOutstanding at the beginning of the year\n-\n-\n-\n-\nGranted during the year\n349,150\n1.00\n-\n-\nForfeited during the year\n-\n-\n-\n-\nExercised during the year\n(20,712)\n1.00\n-\n-\nOutstanding at the end of the year\n328,438\n1.00\n-\n-\nExercisable at the end of the year\n-\n-\n-\n-\nThe following tables list the inputs to the models used for the plan for the rights granted for the year ended March 31, 2024\nand March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n43.48%\nNA\nRisk\u2013free interest rate (%)\n6.88%-6.94%\nNA\nExpected life of rights\n0.34-10.34 years\nNA\nExercise Price (I\u00a0per share)\n1.00\nNA\nModel used\nBlack Scholes Option Pricing Model\nDuring the year ended March 31, 2024, the company has recognised expense of I\u00a040.99 million (March 31, 2023: Nil)\nThe liability for the share appreciation rights is measured, initially and at the end of each reporting period until settled, at\nthe fair value of the SARs by applying a black scholes option pricing model, taking into account the terms and conditions on\nwhich the SARs were granted, and the extent to which the employees have rendered services to date.\nAnnual Report 2023-24\n275\n274\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n40.\tSegment information\nThe primary reporting of the Group has been performed on the basis of business segment. Based on the \u201cmanagement\napproach\u201d as defined in Ind AS 108 - Operating Segments, the Chief Operating Decision Maker (\u2018CODM\u2019) i.e. Chief Executive\nOfficer of the Company, being the CODM has evaluated the Group performance at an overall level as one segment which is\n\u2018Logistics Services\u2019 that includes warehousing, last mile logistics, designing and deploying logistics management systems,\nlogistics and supply chain consulting/advice, inbound/procurement support and operates in a single business segment based\non the nature of the services, the risks and returns, the organisation structure and the internal financial reporting systems.\nAccordingly, the figures appearing in these financial statements relate to the Group single business segment. The Group has\nidentified geographical segments as reportable segments.\nThe geographical segments comprise:\n1)\nIndia\n2)\nRest of world (ROW)\n(i)\t Revenue from operations\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nWithin India\n81,355.38\n72,212.15\nOutside India\n94.13\n380.42\n81,449.51\n72,592.57\nAdjustment and elimination\n(34.13)\n(339.56)\n81,415.38\n72,253.01\n(ii)\t Non - current operating assets\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nWithin India\n56,617.65\n43,781.04\nOutside India\n136.27\n29.94\n56,753.92\n43,810.98\nAdjustment and elimination\n(1,725.57)\n(1,306.71)\n55,028.35\n42,504.27\n\u0007Non- current operating assets primarily includes Property, plant and equipment, Intangible assets, Right-of-use assets,\nInvestment and other non current assets.\n41. Interest in Associate\nFALCON AUTOTECH Private Limited\nThe Parent Company has made investment in FALCON AUTOTECH Private Limited (Company engaged in the autotech\nbusiness) for a consideration of I\u00a02,518.94 million vide share purchase agreement dated December 31, 2021. Upon closure\nof transaction on January 04, 2022, FALCON AUTOTECH Private Limited has become an associate of the Company. Further,\non November 09, 2023, the Company has acquired additional stake in Falcon Autotech Private Limited (associate) for a\nconsideration of I\u00a0500.40 million taking the total stake to 40.98% (non-diluted basis). The Company\u2019s interest in FALCON\nAUTOTECH Private Limited is accounted for using the equity method in the Consolidated Financial Statements. Summarised\nfinancial information of the associates, based on its summary statements, and reconciliation with the carrying amount of\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The closing defined benefit obligation for gratuity as of March 31, 2024 was 645.71 million.",
+        "confidence": 1,
+        "passage_id": 160,
+        "predicate": "closing_defined_benefit_obligation",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          },
+          {
+            "key": "plan_type",
+            "provenance": "stated",
+            "value": "Gratuity"
+          }
+        ],
+        "quote": "Closing defined benefit obligation\n645.71",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "645.71",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The weighted average duration of the defined benefit plan obligation at the end of the reporting period March 31, 2024 is 11.56 years.",
+        "confidence": 1,
+        "passage_id": 160,
+        "predicate": "weighted_average_duration_defined_benefit_plan",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "The weighted average duration of the defined benefit plan obligation at the end of the reporting period is 11.56 years",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "11.56",
+          "unit": "years"
+        }
+      },
+      {
+        "claim_text": "The total contribution to provident and other funds for the year ended March 31, 2024 was 669.32 million.",
+        "confidence": 1,
+        "passage_id": 161,
+        "predicate": "total_contribution_provident_and_other_funds",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2024"
+          }
+        ],
+        "quote": "Total contribution\n669.32",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "669.32",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The carrying amount of right-of-use assets as at March 31, 2024 was 9,881.78 million.",
+        "confidence": 1,
+        "passage_id": 161,
+        "predicate": "carrying_amount_right_of_use_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "As at March 31, 2024\n9,881.78",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "9,881.78",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The carrying amount of lease liabilities as at March 31, 2024 was 10,437.42 million.",
+        "confidence": 1,
+        "passage_id": 161,
+        "predicate": "carrying_amount_lease_liabilities",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "As at March 31, 2024\n10,437.42",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "10,437.42",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The effective interest rate for lease liabilities for 73 months & Above is 10.25% p.a. as of March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 162,
+        "predicate": "effective_interest_rate_lease_liabilities",
+        "qualifiers": [
+          {
+            "key": "duration",
+            "provenance": "stated",
+            "value": "73 months & Above"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "73 months & Above - 10.25% p.a.",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "10.25%",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The remuneration to Mr. Sahil Barua for the year ended March 31, 2024 was 663.53 million.",
+        "confidence": 1,
+        "passage_id": 163,
+        "predicate": "remuneration",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2024"
+          }
+        ],
+        "quote": "Mr. Sahil Barua\n663.53",
+        "subject_surface": "Mr. Sahil Barua",
+        "value": {
+          "kind": "quantity",
+          "raw": "663.53",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The goodwill arising on acquisition of Algorhythm Tech Private Limited was 74.48 million.",
+        "confidence": 1,
+        "passage_id": 164,
+        "predicate": "goodwill_arising_on_acquisition",
+        "qualifiers": [
+          {
+            "key": "acquisition_date",
+            "provenance": "stated",
+            "value": "January 13, 2023"
+          }
+        ],
+        "quote": "Goodwill arising on acquisition\n74.48",
+        "subject_surface": "Algorhythm Tech Private Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "74.48",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The total stake in FALCON AUTOTECH Private Limited as of March 31, 2024 is 40.98%.",
+        "confidence": 1,
+        "passage_id": 165,
+        "predicate": "stake_percentage",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "non-diluted"
+          },
+          {
+            "key": "as_at",
+            "provenance": "inherited",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "taking the total stake to 40.98% (non-diluted basis)",
+        "subject_surface": "FALCON AUTOTECH Private Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "40.98%",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The Group's largest customer accounted for approximately 16.42% of net sales for the year ended March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 169,
+        "predicate": "largest_customer_net_sales_percentage",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2024"
+          }
+        ],
+        "quote": "The Group\u2019s largest customer accounted for approximately 16.42% of net sales year ended March 31, 2024",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "16.42%",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The gearing ratio of the Group as of March 31, 2024 was 8.65%.",
+        "confidence": 1,
+        "passage_id": 170,
+        "predicate": "gearing_ratio",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "Gearing ratio\n8.65%",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.65%",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "The capital commitment (net of advances) as on March 31, 2024 is 545.66 million.",
+        "confidence": 1,
+        "passage_id": 170,
+        "predicate": "capital_commitment",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "Capital commitment (net of advances) as on March 31, 2024 is I 545.66 million",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "545.66",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The number of outstanding share options at the end of the year March 31, 2024 for the Delhivery Employees Stock Option Plan, 2012 was 7,696,174.",
+        "confidence": 1,
+        "passage_id": 171,
+        "predicate": "outstanding_share_options",
+        "qualifiers": [
+          {
+            "key": "plan",
+            "provenance": "stated",
+            "value": "Delhivery Employees Stock Option Plan, 2012"
+          },
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "Outstanding at the end of the year\n7,696,174",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "7,696,174"
+        }
+      },
+      {
+        "claim_text": "The Group recognised an expense of 2,219.38 million for share-based payments during the year ended March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 174,
+        "predicate": "share_based_payment_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2024"
+          }
+        ],
+        "quote": "During the year ended March 31, 2024, the Group has recognised expense of I 2,219.38 million",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,219.38",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The company recognised an expense of 40.99 million for share appreciation rights during the year ended March 31, 2024.",
+        "confidence": 1,
+        "passage_id": 175,
+        "predicate": "share_appreciation_rights_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2024"
+          }
+        ],
+        "quote": "During the year ended March 31, 2024, the company has recognised expense of I 40.99 million",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "40.99",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The revenue from operations within India for the year ended March 31, 2024 was 81,355.38 million.",
+        "confidence": 1,
+        "passage_id": 175,
+        "predicate": "revenue_from_operations",
+        "qualifiers": [
+          {
+            "key": "geography",
+            "provenance": "stated",
+            "value": "Within India"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2024"
+          }
+        ],
+        "quote": "Within India\n81,355.38",
+        "subject_key": "L63090DL2011PLC221234",
+        "subject_surface": "Delhivery Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "81,355.38",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      }
+    ]
+  }
+}

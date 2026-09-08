@@ -1,0 +1,326 @@
+{
+  "key": "462dd768a41be582a48afa5c2d83d8f98796c3a72481a9e157e94d3a19dd0464",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 3 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"176\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\nof transaction on January 04, 2022, FALCON AUTOTECH Private Limited has become an associate of the Company. Further,\non November 09, 2023, the Company has acquired additional stake in Falcon Autotech Private Limited (associate) for a\nconsideration of I\u00a0500.40 million taking the total stake to 40.98% (non-diluted basis). The Company\u2019s interest in FALCON\nAUTOTECH Private Limited is accounted for using the equity method in the Consolidated Financial Statements. Summarised\nfinancial information of the associates, based on its summary statements, and reconciliation with the carrying amount of\nthe investment in Consolidated Financial Statements are set out below:\nSummarised balance sheet as at March 31, 2024:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nCurrent assets, including cash and cash equivalents (March 31, 2024: I\u00a0716.04 million)\n(March 31, 2023: I\u00a0554.12 million)\n2,839.65\n2,686.62\nNon-current assets\n801.99\n486.96\nNon-current liabilities\n(410.51)\n(311.27)\nCurrent liabilities\n(974.69)\n(886.63)\nEquity\n2,256.44\n1,975.68\nProportion of the Group\u2019s ownership\n40.98%\n35.98%\nGroup share in equity\n924.69\n710.85\nCarrying amount of the investment\n3,209.76\n2,622.46\nSummarised statement of profit and loss for the year ended March 31, 2024 and March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nRevenue from contract with customers\n2,830.13\n2,807.04\nOther income\n97.39\n64.14\nTotal income (I)\n2,927.52\n2,871.18\nCost of materials consumed\n1,277.04\n1,504.15\nChange in inventories of finished goods, work in process & stock in trade\n196.42\n(124.67)\nEmployee benefits expense\n443.62\n341.32\nFinance costs\n34.34\n32.14\nDepreciation and amortisation expense\n96.88\n99.24\nOther expenses\n545.29\n501.74\nTotal expenses (II)\n2,593.59\n2,353.92\nProfit before tax (I-II)\n333.93\n517.26\nTax expense\nCurrent Tax\n(99.28)\n(126.98)\nEarlier year taxes\n(4.42)\n-\nDeferred Tax\n(0.82)\n2.65\nNet profit after tax\n229.42\n392.94\nProportion of the Group\u2019s ownership\n40.98%\n35.98%\nGroup\u2019s share of profit for the year\n86.95\n135.74\nShare of other comprehensive (loss)/income of associate (net)\n(0.06)\n0.06\nThe Group had contingent liabilities of Nil (March 31, 2023: I\u00a091.85 million) and capital commitments of Nil (March 31, 2023:\nI\u00a00.68 million) relating to its interest in associate.\nAnnual Report 2023-24\n277\n276\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n42. Additional Information pursuant to Schedule III of Companies Act, 2013\nName of the entity in the Group\nNet Assets, i.e., total assets\nminus total liabilities\nShare in (loss)/income\nShare in other Comprehensive\n(loss)/income\nShare in total Comprehensive\nloss\nAs % of\nconsolidated\nnet assets\nAmount\nAs % of\nconsolidated\nprofit and loss\nAmount\nAs % of\nconsolidated\nother\ncomprehensive\nincome\nAmount\nAs % of total\nconsolidated\ncomprehensive\nincome\nAmount\nParent\nDelhivery Limited (formerly known as Delhivery\nPrivate Limited)\nBalance as at March 31, 2024\n105.19%\n96,195.00\n67.41%\n(1,679.68)\n110.64%\n46.29\n66.67%\n(1,633.39)\nBalance as at March 31, 2023\n104.28%\n95,703.27\n80.60%\n(8,123.02)\n-72.12%\n(8.87)\n80.79%\n(8,131.89)\nIndian subsidiaries\nOrion Supply Chain Private Limited\nBalance as at March 31, 2024\n-0.41%\n(370.84)\n2.41%\n(60.14)\n0.27%\n0.11\n2.45%\n(60.03)\nBalance as at March 31, 2023\n-0.34%\n(312.43)\n0.69%\n(69.76)\n4.41%\n0.54\n0.69%\n(69.22)\nDelhivery Cross Border Services Private Limited\n(Formerly known as Skynet Logistics Private\nLimited)\nBalance as at March 31, 2024\n-0.11%\n(99.23)\n0.39%\n(9.68)\n-\n-\n0.40%\n(9.68)\nBalance as at March 31, 2023\n-0.10%\n(89.55)\n0.10%\n(9.89)\n-\n-\n0.10%\n(9.89)\nDelhivery Freight Services Private Limited\nBalance as at March 31, 2024\n0.44%\n404.96\n9.67%\n</text>\n</passage>\n\n<passage id=\"177\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\nBalance as at March 31, 2024\n-0.41%\n(370.84)\n2.41%\n(60.14)\n0.27%\n0.11\n2.45%\n(60.03)\nBalance as at March 31, 2023\n-0.34%\n(312.43)\n0.69%\n(69.76)\n4.41%\n0.54\n0.69%\n(69.22)\nDelhivery Cross Border Services Private Limited\n(Formerly known as Skynet Logistics Private\nLimited)\nBalance as at March 31, 2024\n-0.11%\n(99.23)\n0.39%\n(9.68)\n-\n-\n0.40%\n(9.68)\nBalance as at March 31, 2023\n-0.10%\n(89.55)\n0.10%\n(9.89)\n-\n-\n0.10%\n(9.89)\nDelhivery Freight Services Private Limited\nBalance as at March 31, 2024\n0.44%\n404.96\n9.67%\n(240.92)\n-1.74%\n(0.73)\n9.86%\n(241.65)\nBalance as at March 31, 2023\n0.67%\n612.53\n3.88%\n(390.62)\n3.07%\n0.38\n3.88%\n(390.24)\nSpoton Logistics Private Limited\nBalance as at March 31, 2024\n-0.14%\n(129.71)\n10.89%\n(271.30)\n-11.15%\n(4.67)\n11.26%\n(275.97)\nBalance as at March 31, 2023\n0.15%\n139.35\n3.43%\n(345.27)\n-68.08%\n(8.37)\n3.51%\n(353.64)\nAlgorhythm Tech Private Limited (w.e.f. January\n13, 2023)\nBalance as at March 31, 2024\n-0.08%\n(73.46)\n1.72%\n(42.81)\n-2.15%\n(0.90)\n1.78%\n(43.71)\nBalance as at March 31, 2023\n-0.05%\n(44.79)\n0.16%\n(16.21)\n-0.38%\n(0.05)\n0.16%\n(16.25)\nForeign subsidiaries\nDelhivery Corp Limited, United Kingdom\nBalance as at March 31, 2024\n0.01%\n10.19\n0.01%\n(0.34)\n0.90%\n0.38\n0.00%\n0.04\nBalance as at March 31, 2023\n0.01%\n10.15\n0.00%\n0.26\n0.08%\n0.01\n0.00%\n0.27\nDelhivery USA LLC\nBalance as at March 31, 2024\n-0.18%\n(164.84)\n12.64%\n(315.03)\n0.45%\n0.19\n12.85%\n(314.84)\nBalance as at March 31, 2023\n0.14%\n128.05\n4.29%\n(432.24)\n70.32%\n8.65\n4.21%\n(423.59)\nDelhivery HK Pte Ltd.\nBalance as at March 31, 2024\n0.06%\n55.63\n-0.02%\n0.61\n-1.48%\n(0.62)\n0.00%\n(0.01)\nBalance as at March 31, 2023\n0.06%\n55.64\n-0.02%\n1.90\n42.52%\n5.23\n-0.07%\n7.13\nDelhivery Singapore Pte. Ltd.\nBalance as at March 31, 2024\n0.30%\n273.54\n8.05%\n(200.66)\n1.99%\n0.83\n8.16%\n(199.83)\nBalance as at March 31, 2023\n0.08%\n76.46\n1.45%\n(145.71)\n68.96%\n8.48\n1.36%\n(137.23)\nName of the entity in the Group\nNet Assets, i.e., total assets\nminus total liabilities\nShare in (loss)/income\nShare in other Comprehensive\n(loss)/income\nShare in total Comprehensive\nloss\nAs % of\nconsolidated\nnet assets\nAmount\nAs % of\nconsolidated\nprofit and loss\nAmount\nAs % of\nconsolidated\nother\ncomprehensive\nincome\nAmount\nAs % of total\nconsolidated\ncomprehensive\nincome\nAmount\nAssociate (as per proportionate consolidation/\ninvestment as per the equity method)\nFALCON AUTOTECH Private Limited\nBalance as at March 31, 2024\n-\n-\n-3.49%\n86.95\n-0.48%\n(0.06)\n-3.55%\n86.89\nBalance as at March 31, 2023\n-\n-\n-1.35%\n135.74\n0.47%\n0.06\n-5.54%\n135.80\nConsolidation Adjustments\nBalance as at March 31, 2024\n-5.09%\n(4,654.79)\n-9.68%\n241.14\n2.41%\n1.01\n-9.88%\n242.15\nBalance as at March 31, 2023\n-4.91%\n(4,507.30)\n6.78%\n(682.96)\n50.75%\n6.24\n-0.74%\n(676.72)\nTotal\nBalance as at March 31, 2024\n100.00%\n91,446.46\n100.00%\n(2,491.86)\n100.00%\n41.84\n100.00%\n(2,450.02)\nBalance as at March 31, 2023\n100.00%\n91,771.37\n100.00%\n(10,077.79)\n100.00%\n12.30\n100.00%\n(10,065.49)\n43(a). \u0007The management has maintained proper books of account as required by law except for keeping backup on daily basis of such books of account maintained in\nelectronic mode in a server physically located outside India. Further, During the year and subsequent to the year-end, the Company has also started taking daily\nback-up of applications in a server physically located in India.\n43(b). \u0007Ministry of Corporate Affairs (MCA) vide its notification number G.S.R. 206(E) dated March 24, 2021 (amended from time to time) in reference to the proviso to\nRule 3 (1) of the Companies (Accounts) Amendment Rules, 2021, introduced the requirement, where a company used an accounting software, of only using such\naccounting software w.e.f April 01, 2023 which has a feature of recording audit trail of each and every transaction.\n\u0007The Parent Company, its five subsidiary companies and one associate company incorporated in India have assessed all of its IT applications including supporting\napplications considering the guidance provided in \u201cImplementation guide on reporting on audit trail under rule 11(g) of the Companies (Audit and Auditors) Rules,\n</text>\n</passage>\n\n<passage id=\"178\">\n<context>\n[page header]\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nAnnual Report 2023-24\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n\n[section]\nin India > (D)\t Liquidity risk\n</context>\n<text>\nRule 3 (1) of the Companies (Accounts) Amendment Rules, 2021, introduced the requirement, where a company used an accounting software, of only using such\naccounting software w.e.f April 01, 2023 which has a feature of recording audit trail of each and every transaction.\n\u0007The Parent Company, its five subsidiary companies and one associate company incorporated in India have assessed all of its IT applications including supporting\napplications considering the guidance provided in \u201cImplementation guide on reporting on audit trail under rule 11(g) of the Companies (Audit and Auditors) Rules,\n2014 (Revised 2024 edition)\u201d issued by the Institute of Chartered Accounts of India in February 2024, and identified applications that are relevant for maintaining\nbooks of accounts. These companies have an controls framework and the internal controls over financial reporting were designed and operating effectively for\nthe year ended March 31, 2024.\n\u0007In respect of the primary accounting software and certain inhouse developed software, audit trail was not enabled at the database level to log any direct data\nchanges throughout the year.\n\u0007In respect of another software used for maintenance of payroll records whose database is maintained by a third-party software service provider, the Company\nis in the discussion with the third party service provider to implement audit trail feature at database level.\n44.\t \u0007The Code on Social Security, 2020 (\u2018Code\u2019) relating to employee benefits during employment and post-employment benefits received Presidential assent in\nSeptember 2020. The Code has been published in the Gazette of India. However, the date on which the Code will come into effect has not been notified and the\nfinal rules/interpretation have not yet been issued. The Group will assess the impact of the Code when it comes into effect and will record any related impact in\nthe period the Code becomes effective.\nAnnual Report 2023-24\n279\n278\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "FALCON AUTOTECH Private Limited became an associate of Delhivery Limited on January 04, 2022.",
+        "confidence": 1,
+        "passage_id": 176,
+        "predicate": "became_associate_of",
+        "qualifiers": [
+          {
+            "key": "company",
+            "provenance": "inherited",
+            "value": "Delhivery Limited"
+          }
+        ],
+        "quote": "of transaction on January 04, 2022, FALCON AUTOTECH Private Limited has become an associate of the Company.",
+        "subject_key": null,
+        "subject_surface": "FALCON AUTOTECH Private Limited",
+        "subject_type": "associate",
+        "value": {
+          "kind": "date",
+          "raw": "January 04, 2022"
+        }
+      },
+      {
+        "claim_text": "Delhivery Limited acquired an additional stake in Falcon Autotech Private Limited on November 09, 2023, for a consideration of 500.40 million.",
+        "confidence": 1,
+        "passage_id": 176,
+        "predicate": "acquired_stake_in",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "November 09, 2023"
+          },
+          {
+            "key": "target_entity",
+            "provenance": "stated",
+            "value": "Falcon Autotech Private Limited"
+          }
+        ],
+        "quote": "on November 09, 2023, the Company has acquired additional stake in Falcon Autotech Private Limited (associate) for a consideration of I 500.40 million",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "500.40",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The total stake of Delhivery Limited in Falcon Autotech Private Limited is 40.98% on a non-diluted basis.",
+        "confidence": 1,
+        "passage_id": 176,
+        "predicate": "total_stake_in",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "non-diluted basis"
+          },
+          {
+            "key": "target_entity",
+            "provenance": "stated",
+            "value": "Falcon Autotech Private Limited"
+          }
+        ],
+        "quote": "taking the total stake to 40.98% (non-diluted basis)",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "40.98%"
+        }
+      },
+      {
+        "claim_text": "The total consolidated net assets of the Group as at March 31, 2024, were 91,446.46 million.",
+        "confidence": 1,
+        "passage_id": 177,
+        "predicate": "total_consolidated_net_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2024"
+          }
+        ],
+        "quote": "Balance as at March 31, 2024 100.00% 91,446.46",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "91,446.46",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      },
+      {
+        "claim_text": "The total consolidated net assets of the Group as at March 31, 2023, were 91,771.37 million.",
+        "confidence": 1,
+        "passage_id": 177,
+        "predicate": "total_consolidated_net_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2023"
+          }
+        ],
+        "quote": "Balance as at March 31, 2023 100.00% 91,771.37",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "91,771.37",
+          "scale": "million",
+          "unit": "Indian Rupees"
+        }
+      }
+    ]
+  }
+}
