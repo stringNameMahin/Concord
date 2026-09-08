@@ -116,3 +116,26 @@ def test_unparseable_text_abstains(junk):
 def test_same_interval_is_false_when_either_side_is_missing():
     assert not same_interval(None, parse_period("FY24", fy_end_month=FY))
     assert not same_interval(None, None)
+
+
+def test_a_value_that_cites_a_date_is_not_a_date():
+    """Observed live: two different contract conditions citing one anchor date
+    compared as the same condition, because a date was found anywhere in the
+    string. That turned a genuine reconciliation into a contradiction."""
+    from concord.normalize.periods import bare_date, parse_date
+
+    cited = "cessation of employment prior to one year from August 24, 2021"
+    other = "cessation of employment after one year but prior to two years from August 24, 2021"
+
+    assert parse_date(cited) == parse_date(other)  # both mention the same day
+    assert bare_date(cited) is None and bare_date(other) is None
+
+
+@pytest.mark.parametrize(
+    "written",
+    ["March 31, 2024", "As at March 31, 2024", "as of 31 March 2024", "31/03/2024"],
+)
+def test_a_date_wearing_a_preposition_is_still_a_date(written):
+    from concord.normalize.periods import bare_date
+
+    assert bare_date(written) == date(2024, 3, 31)

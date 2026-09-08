@@ -41,6 +41,22 @@ CURRENCIES = {
     "¥": "JPY",
 }
 
+# Written currency names, matched as substrings so "Indian Rupees" and
+# "US dollars" both resolve. Symbols live in CURRENCIES above.
+CURRENCY_WORDS = {
+    "rupee": "INR",
+    "dollar": "USD",
+    "euro": "EUR",
+    "pound sterling": "GBP",
+    "yen": "JPY",
+}
+
+# A percentage is a kind of number, not a unit of measure. When the figure
+# itself is bare and the context supplies "per cent", it must reach the same
+# state as if the cell had read "6.5%" - otherwise two spellings of the same
+# word compare as two different units.
+PERCENT_WORDS = {"%", "percent", "per cent", "pct", "percentage", "percentage points", "pp"}
+
 NIL = {"nil", "-", "–", "—", "na", "n/a", "none", ""}
 
 BOUNDS = [
@@ -106,6 +122,39 @@ def _decimals(digits: str) -> int:
 
 def _strip_grouping(text: str) -> str:
     return re.sub(r"[, \s]", "", text)
+
+
+def is_percent_unit(text: str | None) -> bool:
+    """Does this unit name a percentage rather than a thing being measured?"""
+    if not text:
+        return False
+    return " ".join(text.strip().lower().replace("-", " ").split()) in PERCENT_WORDS
+
+
+def normalize_currency(text: str | None) -> str | None:
+    """Resolve a written currency to its ISO code, leaving other units alone.
+
+    A currency reaches a figure three ways - as a symbol in the cell, as a code
+    in a header, as words in a footnote - and the same money must compare
+    equal however it was written. Without this, a figure carrying the inherited
+    unit `₹` and one carrying `INR` are refused as incomparable, which reads
+    like caution and is actually a bug. A unit that names no currency (`Tons`,
+    `days`) is returned unchanged.
+    """
+    if not text:
+        return None
+
+    raw = text.strip()
+    key = raw.lower().rstrip(".")
+    if key in CURRENCIES:
+        return CURRENCIES[key]
+    for word, code in CURRENCY_WORDS.items():
+        if word in key:
+            return code
+    for symbol, code in CURRENCIES.items():
+        if not symbol.isalpha() and symbol in raw:
+            return code
+    return raw
 
 
 def parse_quantity(raw: str, default_scale: str | None = None,
@@ -175,8 +224,10 @@ def parse_quantity(raw: str, default_scale: str | None = None,
             scale = candidate
             factor = SCALES[candidate]
 
-    if unit is None and not is_percent:
-        unit = default_unit
+    if not is_percent and is_percent_unit(default_unit):
+        is_percent = True
+    elif unit is None and not is_percent:
+        unit = normalize_currency(default_unit)
 
     if tail.lower().startswith("bps"):
         value, is_percent = value / 100.0, True

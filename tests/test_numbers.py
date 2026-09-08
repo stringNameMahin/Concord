@@ -147,3 +147,56 @@ def test_currency_prefixed_parenthesised_negative():
 
 def test_bare_parenthesised_negative():
     assert parse_quantity("(6.3%)").number == pytest.approx(-6.3)
+
+
+@pytest.mark.parametrize(
+    "written,code",
+    [
+        ("₹", "INR"),
+        ("Rs.", "INR"),
+        ("INR", "INR"),
+        ("Indian Rupees", "INR"),
+        ("Rupees in million", "INR"),
+        ("US$", "USD"),
+        ("US dollars", "USD"),
+    ],
+)
+def test_the_same_currency_written_three_ways_resolves_to_one_code(written, code):
+    """Observed live: '₹' and 'INR' were refused as incomparable currencies."""
+    from concord.normalize.numbers import normalize_currency
+
+    assert normalize_currency(written) == code
+
+
+def test_a_unit_that_is_not_a_currency_is_left_alone():
+    from concord.normalize.numbers import normalize_currency
+
+    assert normalize_currency("Tons") == "Tons"
+    assert normalize_currency(None) is None
+
+
+def test_an_inherited_currency_matches_one_written_on_the_figure():
+    inherited = parse_quantity("81,415.38", default_scale="million", default_unit="₹")
+    written = parse_quantity("₹36,465.27 million")
+    assert inherited.unit == written.unit == "INR"
+
+
+@pytest.mark.parametrize("written", ["percent", "per cent", "%", "Per Cent", "percentage"])
+def test_a_percentage_arriving_as_a_unit_is_still_a_percentage(written):
+    """Observed live: the IMF wrote 'percent' and the RBI 'per cent', so two
+    growth rates were refused as different units of measure."""
+    q = parse_quantity("6.5", default_unit=written)
+    assert q.is_percent is True
+    assert q.unit is None
+    assert q.normalized == 6.5
+
+
+def test_two_spellings_of_percent_now_compare():
+    from concord.normalize.numbers import is_percent_unit
+
+    assert is_percent_unit("per cent") and is_percent_unit("percent")
+    assert not is_percent_unit("INR") and not is_percent_unit("Tons")
+    a = parse_quantity("7.8", default_unit="percent")
+    b = parse_quantity("6.5", default_unit="per cent")
+    assert a.is_percent == b.is_percent is True
+    assert not intervals_overlap(a.interval, b.interval)

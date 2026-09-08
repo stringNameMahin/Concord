@@ -17,6 +17,10 @@ COUNT_WORDS = {
 
 DEFAULT_FY_END_MONTH = 3
 
+# Words that may surround a date without making the value something other than
+# a date. Anything else means the string is a statement that cites a date.
+DATE_FILLER = {"as", "at", "of", "on", "the", "dated", "date", "ended", "ending"}
+
 MONTH_RE = "|".join(sorted(MONTHS, key=len, reverse=True))
 COUNT_RE = "|".join(COUNT_WORDS)
 
@@ -111,6 +115,38 @@ def infer_fiscal_year_end(text: str) -> int | None:
     return max(counts, key=counts.get) if counts else None
 
 
+def find_date(text: str) -> tuple[date, int, int] | None:
+    """Locate a written date and report where it sits in the string.
+
+    The span matters to the caller: a value that merely *mentions* a date is
+    not a date, and comparing it as one is how two different conditions
+    anchored to the same day come to look identical.
+    """
+    raw = text or ""
+    for pattern in (BARE_DATE, DAY_FIRST_DATE):
+        match = pattern.search(raw)
+        if match:
+            try:
+                found = date(
+                    int(match.group("year")),
+                    MONTHS[match.group("month").lower()],
+                    int(match.group("day")),
+                )
+            except ValueError:
+                return None
+            return found, match.start(), match.end()
+
+    numeric = NUMERIC_DATE.search(raw)
+    if numeric:
+        day, month, year = (int(group) for group in numeric.groups())
+        if month <= 12:
+            try:
+                return date(year, month, day), numeric.start(), numeric.end()
+            except ValueError:
+                return None
+    return None
+
+
 def parse_date(text: str) -> date | None:
     """Resolve a written date in any of the orders these documents use.
 
@@ -119,28 +155,26 @@ def parse_date(text: str) -> date | None:
     day-first, matching `parse_as_of`. A string that does not resolve returns
     None and is then compared as text rather than guessed at.
     """
-    raw = text or ""
-    for pattern in (BARE_DATE, DAY_FIRST_DATE):
-        match = pattern.search(raw)
-        if match:
-            try:
-                return date(
-                    int(match.group("year")),
-                    MONTHS[match.group("month").lower()],
-                    int(match.group("day")),
-                )
-            except ValueError:
-                return None
+    found = find_date(text)
+    return found[0] if found else None
 
-    numeric = NUMERIC_DATE.search(raw)
-    if numeric:
-        day, month, year = (int(group) for group in numeric.groups())
-        if month <= 12:
-            try:
-                return date(year, month, day)
-            except ValueError:
-                return None
-    return None
+
+def bare_date(text: str) -> date | None:
+    """The date this value *is*, as opposed to one it happens to mention.
+
+    "As at March 31, 2024" is a date wearing a preposition. "Cessation of
+    employment prior to one year from August 24, 2021" is a condition that
+    cites one, and two such conditions citing the same day are not the same
+    condition.
+    """
+    found = find_date(text)
+    if not found:
+        return None
+
+    moment, start, end = found
+    remainder = f"{text[:start]} {text[end:]}"
+    words = re.findall(r"[a-zA-Z0-9]+", remainder)
+    return moment if all(word.lower() in DATE_FILLER for word in words) else None
 
 
 def parse_as_of(text: str) -> date | None:
