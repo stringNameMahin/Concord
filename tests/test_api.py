@@ -163,6 +163,25 @@ def test_ingest_refuses_anything_that_is_not_a_pdf(client):
     assert response.status_code == 400
 
 
+def test_a_corrupt_pdf_is_a_400_with_a_reason_not_a_500(client):
+    """Named like a PDF, but nothing in it parses.
+
+    This was a 500 on Windows: the 502 raised for the parse failure was
+    discarded when the temp directory could not be cleaned up, and the
+    reviewer got a stack trace instead of a reason on their first action with
+    an unusual file. The suite only ever fed this endpoint real PDFs, which is
+    why nothing caught it.
+    """
+    response = client.post(
+        "/ingest", files={"file": ("broken.pdf", b"%PDF-1.4 garbage", "application/pdf")}
+    )
+    assert response.status_code == 400
+
+    detail = response.json()["detail"]
+    assert "broken.pdf" in detail
+    assert "not a readable PDF" in detail
+
+
 def test_the_page_is_served_at_the_root(client):
     response = client.get("/")
     assert response.status_code == 200

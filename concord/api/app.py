@@ -21,7 +21,7 @@ from concord import config
 from concord.compare.adjudicate import adjudicate
 from concord.compare.engine import compare
 from concord.llm.client import LLMClient
-from concord.parse.pdf import file_sha256
+from concord.parse.pdf import UnreadablePDF, file_sha256
 from concord.pipeline import ingest
 from concord.store import repo
 from concord.store.db import session
@@ -106,7 +106,7 @@ async def ingest_document(file: UploadFile, adjudicate_residue: bool = Query(Tru
         raise HTTPException(400, "a PDF is required")
 
     suffix = Path(file.filename).name
-    with tempfile.TemporaryDirectory() as work:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as work:
         target = Path(work) / suffix
         with target.open("wb") as handle:
             shutil.copyfileobj(file.file, handle)
@@ -119,6 +119,11 @@ async def ingest_document(file: UploadFile, adjudicate_residue: bool = Query(Tru
         client = LLMClient()
         try:
             result = ingest(target, client, doc_id=known or Path(suffix).stem)
+        except UnreadablePDF as exc:
+            # Named like a PDF, but nothing in it parses. That is the upload's
+            # fault, not an upstream failure, so it gets the same 400 as a file
+            # that is not named like one - and a reason rather than a trace.
+            raise HTTPException(400, str(exc)) from exc
         except Exception as exc:  # extraction is the one step that can fail hard
             raise HTTPException(
                 502, f"extraction failed: {type(exc).__name__}: {exc}"

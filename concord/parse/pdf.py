@@ -11,6 +11,15 @@ PAGE_SEP = "\n\n"
 BOLD_FLAG = 1 << 4
 
 
+class UnreadablePDF(ValueError):
+    """The bytes handed to `parse` are not a PDF this parser can open.
+
+    Deliberately distinct from an extraction failure. Nothing upstream has
+    been asked anything yet, so the caller's file is the problem and the
+    HTTP surface can say which file instead of blaming a provider.
+    """
+
+
 @dataclass
 class Line:
     page: int
@@ -76,51 +85,71 @@ def file_sha256(path: Path) -> str:
 
 def parse(path: str | Path) -> ParsedDoc:
     path = Path(path)
-    doc = pymupdf.open(path)
+    data = path.read_bytes()
+
+    # Opened from bytes, never from the path. PyMuPDF holds an OS file handle
+    # on a Document whose construction then fails, and the traceback of the
+    # error it raises keeps that frame - and so the handle - alive for as long
+    # as any caller holds the exception. A caller that wraps it inside a
+    # TemporaryDirectory (`raise HTTPException(...) from exc`) therefore cannot
+    # delete the file on Windows, and the unlink error replaces the real one.
+    # No handle, no problem. See docs/decisions.md.
+    try:
+        doc = pymupdf.open(stream=data, filetype="pdf")
+    except Exception as exc:
+        raise UnreadablePDF(f"{path.name} is not a readable PDF: {exc}") from exc
 
     buffer: list[str] = []
     cursor = 0
     lines: list[Line] = []
     pages: list[Page] = []
 
-    for index, page in enumerate(doc):
-        page_start = cursor
-        for block in page.get_text("dict")["blocks"]:
-            if block.get("type") != 0:
-                continue
-            for raw in block["lines"]:
-                spans = raw.get("spans", [])
-                text = "".join(s["text"] for s in spans).strip()
-                if not text:
+    try:
+        for index, page in enumerate(doc):
+            page_start = cursor
+            for block in page.get_text("dict")["blocks"]:
+                if block.get("type") != 0:
                     continue
-                buffer.append(text)
-                lines.append(
-                    Line(
-                        page=index,
-                        text=text,
-                        start=cursor,
-                        end=cursor + len(text),
-                        size=max((s["size"] for s in spans), default=0.0),
-                        bold=any(s.get("flags", 0) & BOLD_FLAG for s in spans),
-                        y=raw["bbox"][1],
+                for raw in block["lines"]:
+                    spans = raw.get("spans", [])
+                    text = "".join(s["text"] for s in spans).strip()
+                    if not text:
+                        continue
+                    buffer.append(text)
+                    lines.append(
+                        Line(
+                            page=index,
+                            text=text,
+                            start=cursor,
+                            end=cursor + len(text),
+                            size=max((s["size"] for s in spans), default=0.0),
+                            bold=any(s.get("flags", 0) & BOLD_FLAG for s in spans),
+                            y=raw["bbox"][1],
+                        )
                     )
+                    cursor += len(text) + 1
+                    buffer.append("\n")
+
+            buffer.append(PAGE_SEP)
+            cursor += len(PAGE_SEP)
+            rect = page.rect
+            pages.append(
+                Page(
+                    index=index,
+                    start=page_start,
+                    end=cursor,
+                    width=rect.width,
+                    height=rect.height,
                 )
-                cursor += len(text) + 1
-                buffer.append("\n")
+            )
 
-        buffer.append(PAGE_SEP)
-        cursor += len(PAGE_SEP)
-        rect = page.rect
-        pages.append(
-            Page(index=index, start=page_start, end=cursor, width=rect.width, height=rect.height)
-        )
-
-    text = "".join(buffer)
-    meta = {k: v for k, v in (doc.metadata or {}).items() if v}
-    doc.close()
+        text = "".join(buffer)
+        meta = {k: v for k, v in (doc.metadata or {}).items() if v}
+    finally:
+        doc.close()
 
     return ParsedDoc(
-        sha256=file_sha256(path),
+        sha256=hashlib.sha256(data).hexdigest(),
         filename=path.name,
         text=text,
         lines=lines,
