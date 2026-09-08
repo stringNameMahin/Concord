@@ -32,6 +32,18 @@ class Retryable(LLMError):
         self.retry_after = retry_after
 
 
+class BudgetExhausted(LLMError):
+    """This client has made the most live requests it was allowed to make.
+
+    An `LLMError` on purpose. Every call site already treats a failed request
+    as something to count and carry on from rather than crash on, so a run that
+    hits its ceiling degrades exactly like a run that lost its key: the work
+    already done is kept, the shortfall is counted in `failed_batches` or
+    `unadjudicated`, and the reason travels out with it. Stopping loudly at the
+    top would throw away the responses already paid for on the way here.
+    """
+
+
 class LLMClient:
     """Gemini over plain HTTP with a disk cache and strict JSON output.
 
@@ -48,6 +60,7 @@ class LLMClient:
         max_attempts: int = 5,
         keys: list[str] | None = None,
         provider: str | object | None = None,
+        max_calls: int | None = None,
     ):
         self.model = model or config.LLM_MODEL
         if provider is None:
@@ -68,6 +81,7 @@ class LLMClient:
         self.cursor = 0
         self.cache = cache or DiskCache()
         self.max_attempts = max_attempts
+        self.max_calls = config.MAX_CALLS if max_calls is None else max_calls
         self.calls = 0
         self.cache_hits = 0
         self.rotations = 0
@@ -110,6 +124,13 @@ class LLMClient:
             )
         if not self.api_key:
             raise LLMError("no API key; set GEMINI_API_KEY or run with CONCORD_OFFLINE=1")
+        if self.max_calls and self.calls >= self.max_calls:
+            raise BudgetExhausted(
+                f"stopped after {self.calls} live requests, the limit set by "
+                f"CONCORD_MAX_CALLS. {self.cache_hits} came from cache and cost "
+                "nothing. Raise the limit, or set it to 0 for no limit, if this "
+                "run is meant to be this large."
+            )
 
         raw = self._post(payload)
         self.calls += 1

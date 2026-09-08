@@ -13,7 +13,15 @@ CACHE_DIR = Path(os.environ.get("CONCORD_CACHE") or DATA / "cache")
 WORK_DIR = Path(os.environ.get("CONCORD_WORK") or DATA / "work")
 DB_PATH = Path(os.environ.get("CONCORD_DB") or DATA / "db" / "concord.sqlite")
 
-LLM_MODEL = os.environ.get("CONCORD_LLM_MODEL", "gemini-3.6-flash")
+# The default is the model the committed cache was built with, not the newest
+# one available. `data/cache/` is keyed by the whole request payload, and the
+# payload carries the model - so a default that disagrees with the cache makes
+# a re-ingest of an already-processed corpus re-buy every response at full
+# price while looking like it did nothing unusual. Newest-is-better costs more
+# than it buys here: 3.6-flash is capped at 20 requests per day per project on
+# the free tier, and flash-lite is what the ledger in `data/db/` was extracted
+# with. Change this only together with a plan to repopulate the cache.
+LLM_MODEL = os.environ.get("CONCORD_LLM_MODEL", "gemini-3.1-flash-lite")
 
 # Inferred from the model name - OpenRouter ids are always `vendor/model` -
 # and overridable when that guess is wrong.
@@ -52,7 +60,13 @@ EMBED_MODEL = os.environ.get("CONCORD_EMBED_MODEL", "BAAI/bge-small-en-v1.5")
 
 # Passages per LLM request. The binding free-tier limit is requests per minute,
 # not tokens, so batching is what makes a rate-limited key usable.
-BATCH_SIZE = int(os.environ.get("CONCORD_BATCH_SIZE", "8"))
+#
+# This is a cache key as much as a throughput knob: the batch size decides how
+# passages are grouped into prompts, so changing it changes every prompt and
+# invalidates every cached extraction response. 16 is the size the committed
+# cache was built at and must stay in step with it for the same reason
+# `LLM_MODEL` must.
+BATCH_SIZE = int(os.environ.get("CONCORD_BATCH_SIZE", "16"))
 
 # Batches in flight at once. A per-token provider rewards concurrency; a
 # per-minute-rate-limited one does not, so this is tuned per provider rather
@@ -62,6 +76,18 @@ WORKERS = int(os.environ.get("CONCORD_WORKERS", "6"))
 # Offline mode serves everything from committed cache artifacts and refuses to
 # make a network call, so a reviewer can evaluate without an API key.
 OFFLINE = os.environ.get("CONCORD_OFFLINE", "").strip().lower() in ("1", "true", "yes")
+
+# Ceiling on live requests one client may make. Cache hits are free and do not
+# count; only calls that actually reach a provider do.
+#
+# Matching the cache defaults above protects the corpus we have already paid
+# for, but it stops protecting anything the moment the model is overridden -
+# which is exactly what testing a new key involves. This is the backstop for
+# that case: a misconfigured run stops after a bounded number of requests
+# instead of working through the whole corpus. The default sits well above any
+# single document (the largest is 12 extraction requests at batch 16, plus its
+# alias and adjudication calls) so it only fires on a runaway. 0 disables it.
+MAX_CALLS = int(os.environ.get("CONCORD_MAX_CALLS", "200"))
 
 
 def ensure_dirs() -> None:

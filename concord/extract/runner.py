@@ -1,6 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 
+from concord.config import BATCH_SIZE, WORKERS
 from concord.extract import prompt
 from concord.extract.align import Aligner, Alignment
 from concord.extract.models import ExtractionOut, FactOut
@@ -8,13 +9,17 @@ from concord.llm.cache import MissingFromCache
 from concord.llm.client import LLMClient, LLMError
 from concord.parse.chunk import Chunk
 
-BATCH_SIZE = 8
-
-# Batches are independent, so they can be in flight together. This was
-# deliberately out of scope while the binding limit was five requests per
-# minute, where concurrency buys nothing. Against a per-token provider the
+# Batch size and worker count come from `config` and are not restated here.
+# They used to be, and the two copies drifted: `pipeline.ingest` passed the
+# config value down while calling `extract` directly picked up a different
+# local default, so the same corpus batched two ways and missed a cache that
+# was keyed on the prompts the first batching produced. Batch size is a cache
+# key, so a second source of truth for it is a way to spend money by accident.
+#
+# On concurrency: batches are independent, so they can be in flight together.
+# This was deliberately out of scope while the binding limit was five requests
+# per minute, where concurrency buys nothing. Against a per-token provider the
 # constraint is latency instead, and a corpus pass goes from hours to minutes.
-WORKERS = 6
 
 
 @dataclass
