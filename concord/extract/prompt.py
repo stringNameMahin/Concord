@@ -32,6 +32,12 @@ Rules you must follow.
 7. `predicate` is lower snake_case naming the relation alone, with no period,
    entity, scale or unit inside it. `subject_key` is a hard identifier only when
    the document supplies one; otherwise leave it null.
+8. `subject_surface` is the thing the value belongs to, never the name of the
+   measurement. In a table, the row label names the property and the subject is
+   whatever the table is about - the organisation, place, product or person the
+   document is reporting on. Name that subject even when it is stated only in a
+   heading, a page header or the document's title. Use the fullest form of its
+   name that appears, and use the same form every time it recurs.
 
 Return only facts supported by the passage. Returning an empty list is a valid
 answer for a passage that states nothing checkable.\

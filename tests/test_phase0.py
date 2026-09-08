@@ -166,3 +166,28 @@ def test_single_key_does_not_rotate(tmp_path, monkeypatch):
     with pytest.raises(LLMError):
         c.complete("hello", Answer)
     assert c.rotations == 0
+
+
+def test_the_servers_own_retry_delay_is_preferred_to_guessing():
+    """Observed live: the schedule gave up after ~30s on a quota asking 52."""
+    import httpx
+
+    from concord.llm.client import MAX_RETRY_AFTER, retry_after
+
+    def response(payload):
+        return httpx.Response(429, json=payload)
+
+    quota = {
+        "error": {
+            "details": [
+                {"@type": "type.googleapis.com/google.rpc.Help", "links": []},
+                {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "52s"},
+            ]
+        }
+    }
+    assert retry_after(response(quota)) == 52.0
+    assert retry_after(response({"error": {"details": []}})) is None
+    assert retry_after(httpx.Response(429, text="not json")) is None
+
+    huge = {"error": {"details": [{"retryDelay": "86400s"}]}}
+    assert retry_after(response(huge)) == MAX_RETRY_AFTER

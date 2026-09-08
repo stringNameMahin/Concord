@@ -7,11 +7,17 @@ import httpx
 from pydantic import BaseModel, ValidationError
 
 from concord import config
+from concord.llm import providers
 from concord.llm.cache import DiskCache, MissingFromCache, request_key
 
 T = TypeVar("T", bound=BaseModel)
 
 RETRY_STATUS = {429, 500, 502, 503, 504}
+
+# A rate-limited response often names how long to wait. Honouring it beats
+# guessing: the exponential schedule gave up after ~30s on a quota that asked
+# for 52. Capped so a long daily-quota delay fails fast instead of hanging.
+MAX_RETRY_AFTER = 120.0
 
 
 class LLMError(RuntimeError):
@@ -20,6 +26,10 @@ class LLMError(RuntimeError):
 
 class Retryable(LLMError):
     """Transient: rate limit or server error. A 404 or 400 is not this."""
+
+    def __init__(self, message: str, retry_after: float | None = None):
+        super().__init__(message)
+        self.retry_after = retry_after
 
 
 class LLMClient:
@@ -37,14 +47,24 @@ class LLMClient:
         cache: DiskCache | None = None,
         max_attempts: int = 5,
         keys: list[str] | None = None,
+        provider: str | object | None = None,
     ):
         self.model = model or config.LLM_MODEL
+        if provider is None:
+            provider = (
+                config.LLM_PROVIDER if model is None else providers.for_model(self.model)
+            )
+        self.provider = (
+            providers.build(provider, config.LLM_ENDPOINT)
+            if isinstance(provider, str)
+            else provider
+        )
         if keys is not None:
             self.keys = list(keys)
         elif api_key is not None:
             self.keys = [api_key] if api_key else []
         else:
-            self.keys = list(config.LLM_API_KEYS)
+            self.keys = list(config._keys(self.provider.name))
         self.cursor = 0
         self.cache = cache or DiskCache()
         self.max_attempts = max_attempts
@@ -104,22 +124,13 @@ class LLMClient:
     def _payload(
         self, prompt: str, schema: type[T], system: str | None, temperature: float
     ) -> dict[str, Any]:
-        body: dict[str, Any] = {
-            "model": self.model,
-            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "temperature": temperature,
-                "responseMimeType": "application/json",
-                "responseJsonSchema": schema.model_json_schema(),
-            },
-        }
-        if system:
-            body["systemInstruction"] = {"parts": [{"text": system}]}
-        return body
+        """The cache key is this payload, and it carries the model, so switching
+        provider or model asks again rather than serving another model's answer."""
+        return self.provider.payload(self.model, prompt, schema, system, temperature)
 
     def _post(self, payload: dict[str, Any]) -> str:
-        body = {k: v for k, v in payload.items() if k != "model"}
-        url = f"{config.LLM_ENDPOINT}/{self.model}:generateContent"
+        body = self.provider.body(payload)
+        url = self.provider.url(self.model)
         last: Exception | None = None
 
         attempt = 0
@@ -128,30 +139,61 @@ class LLMClient:
                 response = httpx.post(
                     url,
                     json=body,
-                    headers={"x-goog-api-key": self.api_key},
-                    timeout=180.0,
+                    headers=self.provider.headers(self.api_key),
+                    timeout=300.0,
                 )
                 # Trying another key is not a retry: it costs no wait and the
                 # backoff budget should survive for genuine transient failures.
                 if response.status_code == 429 and self._rotate():
                     continue
                 if response.status_code in RETRY_STATUS:
-                    raise Retryable(f"{response.status_code}: {response.text[:200]}")
+                    raise Retryable(
+                        f"{response.status_code}: {response.text[:200]}",
+                        retry_after=retry_after(response),
+                    )
                 if response.status_code >= 400:
                     raise LLMError(f"{response.status_code}: {response.text[:300]}")
-                return _first_text(response.json())
+                return _first_text(response.json(), self.provider)
             except (httpx.TransportError, Retryable) as exc:
                 last = exc
                 attempt += 1
                 if attempt >= self.max_attempts:
                     break
-                time.sleep(min(2**attempt, 30) + random.random())
+                wait = getattr(last, "retry_after", None)
+                if wait is None:
+                    wait = min(2**attempt, 30) + random.random()
+                time.sleep(wait)
 
         raise LLMError(f"giving up after {self.max_attempts} attempts: {last}")
 
 
-def _first_text(response: dict[str, Any]) -> str:
+def retry_after(response: httpx.Response) -> float | None:
+    """Read the server's own RetryInfo, in preference to guessing.
+
+    Google returns the wait it wants in the error details; a schedule that
+    ignores it either hammers the endpoint or gives up early on a quota that
+    would have cleared.
+    """
     try:
-        return response["candidates"][0]["content"]["parts"][0]["text"]
+        details = response.json().get("error", {}).get("details", [])
+    except (ValueError, AttributeError):
+        return None
+
+    for detail in details:
+        raw = detail.get("retryDelay") if isinstance(detail, dict) else None
+        if not raw:
+            continue
+        try:
+            seconds = float(str(raw).rstrip("s"))
+        except ValueError:
+            return None
+        return min(seconds, MAX_RETRY_AFTER)
+    return None
+
+
+def _first_text(response: dict[str, Any], provider=None) -> str:
+    provider = provider or providers.Gemini()
+    try:
+        return provider.extract(response)
     except (KeyError, IndexError) as exc:
         raise LLMError(f"unexpected response shape: {json.dumps(response)[:400]}") from exc
