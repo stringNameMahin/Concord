@@ -99,6 +99,19 @@ def parse(path: str | Path) -> ParsedDoc:
     except Exception as exc:
         raise UnreadablePDF(f"{path.name} is not a readable PDF: {exc}") from exc
 
+    # An encrypted file opens cleanly and only fails later, inside the page
+    # loop, when `get_text` touches content it is not authenticated for. That
+    # failure used to leave the endpoint - which cannot tell one exception from
+    # another this far down - answering 502, blaming the provider for a problem
+    # with the caller's file. Checked here, where the handle is known good, it
+    # rides the same path as any other unreadable upload. See bug 24 in
+    # docs/status.md.
+    if doc.needs_pass:
+        doc.close()
+        raise UnreadablePDF(
+            f"{path.name} is password-protected and no password was supplied"
+        )
+
     buffer: list[str] = []
     cursor = 0
     lines: list[Line] = []

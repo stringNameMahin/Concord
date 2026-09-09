@@ -1,0 +1,394 @@
+{
+  "key": "7b1c45aafd350e0d0454a3e06d40f53fb3cc6a03ffdb99e76ddf75e14bae4535",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"128\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > during such engagement\n</context>\n<text>\nactivating growth levers -\ne.g. advertising\nCustomers\n(Business\npartners)\nNo\n\u2022 Dedicated email ID\nOngoing/\nContinuous\n\u2022 Customer feedback\n\u2022 Resolving queries\n\u2022 Grievance redressal\nVendors\nNo\n\u2022 Dedicated email ID\n\u2022 Vendor evaluation\n\u2022 Surveys\n\u2022 Telephonic interactions\n\u2022 Face-to-face interactions\n\u2022 \u0007Other electronic modes of\ncommunication\nOngoing/\nContinuous\n\u2022 Resolving queries\n\u2022 Assessing performance\n\u2022 \u0007Training and awareness\n(including upskilling on\nESG parameters)\n\u2022 \u0007Sharing requests and\nrequirements\n\n\n124\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nStakeholder\ngroup\nWhether\nidentified as\nvulnerable &\nmarginalized\ngroup\n(Yes/ No)\nChannels of communication\n(Email, SMS, Newspaper,\nPamphlets, Advertisement,\nCommunity meetings,\nNotice board, Website),\nOther\nFrequency of\nengagement\n(Annually/ half-\nyearly/ quarterly/\nothers \u2013 please\nspecify)\nPurpose and scope of\nengagement including key\ntopics and concerns raised\nduring such engagement\nDelivery\npartners\n(DPs)\nNo*\n\u2022 \u0007Zomato delivery partner\napp\n\u2022 Dedicated email IDs\n\u2022 \u0007Hotline number for SOS\ncalls from delivery partners\n\u2022 \u0007Zonal Head/ Fleet\noperations managers\n\u2022 \u0007Zone-wise dedicated\nWhatsApp channels\nOngoing/\nContinuous\n\u2022 \u0007Seamless onboarding\nsupport through\nWhatsApp and other\nchannels\n\u2022 \u0007Efficient & timely query\nresolution\n\u2022 \u0007Effective grievance\nredressal\n\u2022 Safety and well-being\n\u2022 Skill based trainings\n\u2022 \u0007Feedback driven process\nimprovement\n\u2022 \u0007Transparent earnings and\npayout management\n\u2022 \u0007\u201cRent an EV\u201d feature for\neasy rentals\nShareholders No\n\u2022 \u0007Shareholder/ investor\nmeetings\n\u2022 \u0007Shareholders\u2019 letters and\nearnings calls\n\u2022 Newspaper advertisements\n\u2022 Email communication\n\u2022 Annual Report\n\u2022 Stock exchange filings\nPeriodic basis\n\u2022 \u0007Queries on financial and\noperational performance\nof the company\n\u2022 \u0007Transparent disclosures of\nmaterial events\n\u2022 \u0007Other topics relevant to\nshareholders\nCommunity/\nSociety\nYes*\nChannels and\ncommunication with\nNGOs, Government bodies,\nadvocacy groups and PwDs:\n\u2022 \u0007Consultations and\nmeetings\n\u2022 \u0007Email and digital\ncommunication\n\u2022 \u0007Roundtable discussions\nand events\n\u2022 \u0007Collaborative workshops\nand listening sessions\nOngoing/\nContinuous\n\u2022 Skill based training\n\u2022 \u0007Enabling access to\nlivelihood\n\u2022 \u0007Support in attaining\nassistive devices\n\u2022 Safety and wellbeing\nGovernment\nand\nregulators\nNo\n\u2022 \u0007Public policy submissions\nand representations\n\u2022 Formal dialogues\nOn need basis\n\u2022 \u0007Inputs on draft regulations\nand policies that have\nbearing on our operations\nand businesses\n*Selected members of our delivery partner community and selected members of society fall under the definition of vulnerable and\nmarginalized groups, such as Persons with Disabilities and women from economically-weaker sections.\n\n\n125\n</text>\n</passage>\n\n<passage id=\"129\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > during such engagement\n</context>\n<text>\n\u2022 \u0007Support in attaining\nassistive devices\n\u2022 Safety and wellbeing\nGovernment\nand\nregulators\nNo\n\u2022 \u0007Public policy submissions\nand representations\n\u2022 Formal dialogues\nOn need basis\n\u2022 \u0007Inputs on draft regulations\nand policies that have\nbearing on our operations\nand businesses\n*Selected members of our delivery partner community and selected members of society fall under the definition of vulnerable and\nmarginalized groups, such as Persons with Disabilities and women from economically-weaker sections.\n\n\n125\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nLeadership Indicators\n1. \t \u0007Provide the processes for consultation between stakeholders and the board on economic,\nenvironmental and social topics or if consultation is delegated, how is feedback from such\nconsultations provided to the Board.\n\u0007We regularly engage with our key stakeholders (end-users, restaurant partners and delivery partners)\nas outlined in our Stakeholder management policy. Each business unit in every operating location is\nrequired to carry out stakeholder engagement in line with the stakeholder management policy. Through\nthe channels described in the policy, the functional teams in Eternal receive feedback from various groups\nof stakeholders (external and internal) on our initiatives and operations. This feedback is analyzed and\ndiscussed with relevant leadership teams to identify, develop and implement the environmental and\nsocial topics. Select actions are discussed with the CSR committee of the board based on their overall\nimportance and these meetings are minuted. The CSR Committee at Eternal also undertakes responsibility\nfor climate and sustainability-related matters.\n(link to the policy)\n2. \t \u0007Whether stakeholder consultation is used to support the identification and management of\nenvironmental, and social topics (Yes/ No). If so, provide details of instances as to how the\ninputs received from stakeholders on these topics were incorporated into the policies and\nactivities of the entity.\n\u0007Yes. Stakeholder consultation was an integral part of the double materiality assessment that we conducted\nin FY26 with the help of an independent external organization to refresh the set of ESG topics material to\nthe firm. Additionally, we regularly engage with local stakeholders via various channels to identify their\nemerging concerns to make improvements and design innovative offerings to meet their expectations.\nWe also conduct regular surveys and impact assessments of projects that involve local stakeholders.\n\u0007Below are the examples of how Eternal has used inputs received from stakeholders on material\nsustainability issues to design new initiatives and offerings in FY26:\nStakeholder group Input modes\nIncorporation of inputs\nEmployees\n\uf09f\t \u0007Online channels\n(slack, emails, etc.)\n\uf09f\t \u0007Discussions with\nemployees across\nforums and targeted\nsession\nMaterial topic: Climate action and circular economy\nBased on input received from employees, one of the\ninitiatives the company launched in FY26 was an\ninternal sustainability education program including:\n\uf09f\t \u0007Regular learning sessions with external and internal\nexperts. In FY26, we conducted sessions focused on\nafforestation and water conservation.\n\uf09f\t \u0007A dedicated online channel and community for\nenvironmental education, exchange of ideas and\nefforts made by employees towards environmental\nprotection.\n\uf09f\t \u0007Offline activities to raise awareness among\nemployees on sustainable packaging, repurposing\nwaste  and to encourage the adoption of sustainable\npractices, such as the appropriate segregation and\ndisposal of various kinds of waste.\n\n\n126\n</text>\n</passage>\n\n<passage id=\"130\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > \uf09f\t \u0007Regular learning sessions with external and internal\n</context>\n<text>\n\uf09f\t \u0007Regular learning sessions with external and internal\nexperts. In FY26, we conducted sessions focused on\nafforestation and water conservation.\n\uf09f\t \u0007A dedicated online channel and community for\nenvironmental education, exchange of ideas and\nefforts made by employees towards environmental\nprotection.\n\uf09f\t \u0007Offline activities to raise awareness among\nemployees on sustainable packaging, repurposing\nwaste  and to encourage the adoption of sustainable\npractices, such as the appropriate segregation and\ndisposal of various kinds of waste.\n\n\n126\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nStakeholder group Input modes\nIncorporation of inputs\nCustomers\n(End-users)\nFeedback received via\na range of customer\ncommunication\nchannels\nMaterial topic: Climate action and circular economy\n\uf09f\t \u0007Zomato Plastic-Free Future Program: In response\nto customer concerns around receiving food from\nrestaurants in plastic packaging, we launched the\n\u2018Zomato Plastic-Free Future Program\u2019 in December\n2024. The program recognizes restaurant partners\nactively adopting sustainable alternatives to\nplastic packaging for food deliveries. More than\n350 restaurant brands, representing 10,000+\nrestaurants across 500+ cities listed on the Zomato\napp have already joined the program by submitting\ndetailed evidence of their packaging, including\nphotos and certificates, confirming that their\nmain menu items are being packed in sustainable\nalternatives. To recognize their efforts, these\nrestaurants now carry a prominent \u2018Low plastic\npackaging\u2019 tag on their menu pages, banners and a\nclear label in the order summary, making it easy for\ncustomers to identify these restaurants. Customers\ncan also discover these restaurants faster by typing\n\u2018Low plastic packaging\u2019 in the search bar or using the\n\u2018Low plastic packaging\u2019 filter option. As of March 31,\n2026, we have facilitated 100 million food delivery\norders through restaurants on the Zomato Plastic-\nFree Future Program.\nMaterial topic: Innovation\n\uf09f\t \u0007Healthy mode: To capture the growing demand for\nhealthier meals, Eternal launched \u201cHealthy mode\u201d\non the Zomato app in top 7 cities in FY26. With this\nmode, end users see a curation of  restaurants along\nwith complete nutritional information, i.e. macros,\ningredient-level description and customization\nfilters. Since its launch, Healthy Mode has helped\ncustomers make more informed and healthier food\nchoices, generating ~8.5 million orders in FY26.\nDelivery partners\n\uf09f\t \u0007In-person interviews\n\uf09f\t \u0007Surveys (including\nDelivery partner\nwellbeing survey)\n\uf09f\t \u0007Focus Group\nDiscussions (FGDs)\nMaterial topic: Stakeholder value creation\n\uf09f\t \u0007Social & Financial security through Government\nscheme facilitation: In FY26, in response to\nrequests for support from our delivery partners,\nEternal designed and launched a structured\nprogram to facilitate their better access to central\nand state government schemes. This initiative was\ndesigned to address key barriers faced by partners\nin accessing schemes including lack of awareness,\ntime scarcity, documentation challenges and\nunclear requirements.\n\u0007The program, run in collaboration with the social\nenterprise, Haqdarshak ran through a series of\non-ground facilitation camps and digital support\nmechanisms across India. In FY26, over 5,500\nZomato delivery partners were enrolled in at least\none government scheme, unlocking benefits valued\nat over INR 120 crore. These benefits span critical\nareas such as healthcare, insurance and income\nsupport.\n\n\n127\n</text>\n</passage>\n\n<passage id=\"131\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > scheme facilitation: In FY26, in response to\n</context>\n<text>\nin accessing schemes including lack of awareness,\ntime scarcity, documentation challenges and\nunclear requirements.\n\u0007The program, run in collaboration with the social\nenterprise, Haqdarshak ran through a series of\non-ground facilitation camps and digital support\nmechanisms across India. In FY26, over 5,500\nZomato delivery partners were enrolled in at least\none government scheme, unlocking benefits valued\nat over INR 120 crore. These benefits span critical\nareas such as healthcare, insurance and income\nsupport.\n\n\n127\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nStakeholder group Input modes\nIncorporation of inputs\nCommunity/\nSociety\n\uf09f\t \u0007In-person & online\ndiscussions\n\uf09f\t Feedback form\nMaterial topic: Stakeholder value creation\n\uf09f\t \u0007Improvements in app accessibility for Persons\nwith Disabilities (PwD) - Based on feedback from\nthe community of Persons with Disabilities, in\nFY26 we launched a feature on the Zomato food\ndelivery app, that enables customers to disclose\ntheir mobility, vision and hearing needs to receive\na customized platform and delivery experience.\nAdditionally, select members of Eternal\u2019s tech,\nproduct and design teams underwent the\nIAAP CPACC certification in accessibility. The\ncertification verifies a professional\u2019s broad, cross-\ndisciplinary knowledge of disabilities, universal\ndesign and global accessibility laws. Completion of\nthis training empowers team members to practically\napply accessibility principles in the course of\nproduct development.\n3. \t \u0007Provide details of instances of engagement with and actions are taken to, address the concerns\nof vulnerable/ marginalized stakeholder groups.\n\u0007Eternal has identified vulnerable/ marginalized stakeholders groups both within and outside of its value\nchain and has taken multiple actions to address their concerns.\n\u0007Below are the actions taken to address concerns of vulnerable/ marginalized groups within Eternal\u2019s value\nchain:\n\uf09f\n\u0007Zomato\u2019s Equitable Action for Livelihood (ZEAL) program- Launched in FY23, our PwD delivery\npartner initiative has benefitted over 6,000 PwDs with a range of disabilities including locomotor\nand hearing and speech impairment. In FY26 alone 3,500+ PwD DPs, collectively delivered over 10\nmillion orders and covered over 40 million kms. The program benefits include waiver of onboarding\nfee, assignment of short-distance deliveries only, enhanced payouts, sensitized fleet coaches and\nsupport teams to better assist delivery partners as needed. In addition, restaurant partners and end-\nusers are notified when a PwD delivery partner is assigned to an order and requested to extend their\nsupport.\n\uf09f\n\u0007Zomato\u2019s Women riding centers- Facilitates two-wheeler riding training for women, basic digital\nliteracy and confidence building. Through this initiative, Eternal aims to empower women by enhancing\ntheir mobility, enabling them to meet their personal needs with greater independence while also\nunlocking access to livelihood opportunities. Highlighted below are the benefits offered at these\ncenters:\n\uf0a7\n\u0007A dedicated space for women and their families to meet with company representatives, inquire\nand seek guidance on working in the gig economy.\n\uf0a7\nA safe space for women to connect, support each other, and build a sense of community.\n\uf0a7\n\u0007Guidance to test and understand the available EV-bike options for interested participants.\nOther initiatives to ensure women safety and support:\n\uf09f\n\u000724\u00d77 SOS emergency support: Available in 900+ cities, the emergency response system connects\ndelivery partners to support like ambulance, police and an in-house response team.\n\uf09f\n\u0007Address visibility at night: Between 7 PM and 5 AM, women delivery partners have the option to avoid\nlocations where they may feel unsafe.\n\n\n128\n</text>\n</passage>\n\n<passage id=\"132\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > with Disabilities (PwD) - Based on feedback from\n</context>\n<text>\nA safe space for women to connect, support each other, and build a sense of community.\n\uf0a7\n\u0007Guidance to test and understand the available EV-bike options for interested participants.\nOther initiatives to ensure women safety and support:\n\uf09f\n\u000724\u00d77 SOS emergency support: Available in 900+ cities, the emergency response system connects\ndelivery partners to support like ambulance, police and an in-house response team.\n\uf09f\n\u0007Address visibility at night: Between 7 PM and 5 AM, women delivery partners have the option to avoid\nlocations where they may feel unsafe.\n\n\n128\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n\uf09f\n\u0007City-specific chat support groups: All women delivery partners in the top seven cities are added to\nWhatsApp support groups for seamless communication, grievance redressal and peer support.\n\uf09f\n\u0007Hotel delivery protocol: Women delivery partners delivering to hotels, lodges or guest houses can\ncomplete deliveries at the reception instead of going to rooms.\n\uf09f\n\u0007Black zones reporting: Delivery partners can report unsafe or difficult-to-navigate areas through\nthe delivery partner app. More than 270 black zones were identified as of 31st March 2026, with such\nlocations marked unserviceable, where required, to enhance safety.\nActions taken to address the concerns of vulnerable/marginalized groups outside of the value chain:\n\uf09f\n\u0007Eternal apps allow customers to contribute to Feeding India, a not-for-profit initiative, directly at the\ncheckout page. These contributions support Feeding India\u2019s mission, focused on eradicating hunger\nand malnutrition among children from under-served communities across the country. Through Feeding\nIndia, 1.4 lakh+ children now receive nourishing meals daily across 2,300+ centers in 150+ cities. In\nFY26, we deepened this work by revamping 45 Anganwadis across Varanasi, Nandurbar, Kushinagar\nand Gurugram. Since its inception, Feeding India has served over 290 million meals till FY26. We also\ndeployed facial recognition technology across educational centers to track meal distribution digitally,\nensuring both accountability and scale without adding administrative burden.\nFor further details of key programs and initiatives, please refer to the Feeding India Annual Report FY25\nPrinciple 5 \u2013 Businesses should respect and promote human rights\nEssential Indicators\n1. \t \u0007Employees and workers who have been provided training on human rights issues and policy(ies)\nof the entity, in the following format:\nCategory\nFY 2025-26\nFY 2024-25\nTotal\n(A)\nNo. of employees\n/ workers\ncovered (B)\n%\n(B/A)\nTotal\n(A)\nNo. of employees\n/ workers\ncovered (B)\n%\n(B/A)\nEmployees*\nPermanent\n6,750\n6,515 96.52%\n6,903\n6,623 95.94%\nOther than permanent\n245\n240\n97.96%\n503\n371 73.76%\nTotal employees\n6,995\n6,755 96.57%\n7,406\n6,994 94.44%\nWorkers\nPermanent\n0\n0\n0%\n0\n0\n0%\nOther than permanent\nworkers**\n544\n524 96.32%\n378\n364 96.30%\nTotal workers\n544\n524 96.32%\n378\n364 96.30%\n\u0007*For employees, training on Human rights has been conducted online via our internal learning platform. Additionally, we also\ncirculated posters and videos via our internal channel. POSH training has been conducted at the time of induction.\n**For other than permanent workers, Human rights training has been conducted in-person via videos.\n\n\n129\n</text>\n</passage>\n\n<passage id=\"133\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Total employees\n</context>\n<text>\n7,406\n6,994 94.44%\nWorkers\nPermanent\n0\n0\n0%\n0\n0\n0%\nOther than permanent\nworkers**\n544\n524 96.32%\n378\n364 96.30%\nTotal workers\n544\n524 96.32%\n378\n364 96.30%\n\u0007*For employees, training on Human rights has been conducted online via our internal learning platform. Additionally, we also\ncirculated posters and videos via our internal channel. POSH training has been conducted at the time of induction.\n**For other than permanent workers, Human rights training has been conducted in-person via videos.\n\n\n129\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n2. \t Details of minimum wages paid to employees and workers, in the following format*:\nCategory\nFY 2025-26\nFY 2024-25\nTotal\n(A)\nEqual to\nminimum wage\nMore than\nminimum wage\nTotal\n(D)\nEqual to\nminimum wage\nMore than\nminimum wage\nNo. (B)\n% (B/A)\nNo. (C)\n% (C/A)\nNo. (E)\n% (E/D)\nNo. (F)\n% (F/D)\nEmployees\nPermanent\n6,750\n0\n0%\n6,750\n100%\n6,903\n0\n0%\n6,903\n100%\nMale\n4,761\n0\n0%\n4,761\n100%\n4,895\n0\n0%\n4,895\n100%\nFemale\n1,987\n0\n0%\n1,987\n100%\n2,007\n0\n0%\n2,007\n100%\nOther\n2\n0\n0%\n2\n100%\n1\n0\n0%\n1\n100%\nOther than\npermanent\n245\n0\n0%\n245\n100%\n503\n0\n0%\n503\n100%\nMale\n203\n0\n0%\n203\n100%\n409\n0\n0%\n409\n100%\nFemale\n42\n0\n0%\n42\n100%\n93\n0\n0%\n93\n100%\nOther\n0\n0\n0%\n0\n0%\n1\n0\n0%\n1\n100%\nWorkers\nPermanent\n0\n0\n0%\n0\n0%\n0\n0\n0%\n0\n0%\nMale\n0\n0\n0%\n0\n0%\n0\n0\n0%\n0\n0%\nFemale\n0\n0\n0%\n0\n0%\n0\n0\n0%\n0\n0%\nOthers\n0\n0\n0%\n0\n0%\n0\n0\n0%\n0\n0%\nOther than\npermanent**\n544\n538\n98.90%\n6\n1.10%\n378\n364\n96.30%\n14\n3.70%\nMale\n451\n446\n98.89%\n5\n1.11%\n300\n294\n98.00%\n6\n2.00%\nFemale\n93\n92\n98.92%\n1\n1.08%\n78\n70\n89.74%\n8\n10.26%\nOthers\n0\n0\n0%\n0\n0%\n0\n0\n0%\n0\n0%\n*Data reported is as on 31st March 2026.\n\u0007**The above disclosure on minimum wage coverage for other than permanent workers is based on confirmations received from\nthird party vendors.\n3 a. Details of remuneration/ salary/ wages, in the following format:\nFY 2025-26\nMale\nFemale\nNumber\nMedian remuneration/\nsalary/ wages of\nrespective category\nNumber\nMedian remuneration/\nsalary/ wages of\nrespective category\nBoard of Directors (BoD)\n3\n1,19,00,000*\n3\n1,13,00,000\nKey Managerial Personnel\n2**\nNil***\n1\n1,15,00,000****\nEmployees other than BoD\nand KMP*****\n4,759\n7,50,000\n1,986\n6,50,000\nWorkers\n-\n\u0007Note: The median remuneration for employees has been calculated based on the proportionate CTC applicable as on 31st March\n2026. This does not include the amount of employee share based payment, the provisions made for gratuity, leave encashment,\nbonus and incentives.\n\u0007*Out of the three male board members, no median value can be reported as two male board members are not drawing salary,\naccordingly remuneration (including sitting fees) of the only male member has been reported.\n\u0007**Key Managerial Personnel includes Mr. Albinder Singh Dhindsa who was appointed as the Chief Executive Officer of the Company\nw.e.f. February 1, 2026 and Mr. Deepinder Goyal, who held the position of Chief Executive Officer till February 1, 2026.\n\u0007***No median value can be reported as both the male KMPs have voluntarily waived their salary and accordingly NIL has been\nreported.\n\u0007****No median value can be reported as there is only one female KMP and accordingly remuneration of the female KMP has been\nreported based on the proportionate CTC applicable as on 31st March 2026.\n\u0007*****Median remuneration value for Employees other than BoDs and KMPs does not include the \u201cOthers\u201d category.\n\n\n130\n</text>\n</passage>\n\n<passage id=\"134\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > respective category\n</context>\n<text>\nw.e.f. February 1, 2026 and Mr. Deepinder Goyal, who held the position of Chief Executive Officer till February 1, 2026.\n\u0007***No median value can be reported as both the male KMPs have voluntarily waived their salary and accordingly NIL has been\nreported.\n\u0007****No median value can be reported as there is only one female KMP and accordingly remuneration of the female KMP has been\nreported based on the proportionate CTC applicable as on 31st March 2026.\n\u0007*****Median remuneration value for Employees other than BoDs and KMPs does not include the \u201cOthers\u201d category.\n\n\n130\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n3 b. Gross wages paid to females as % of total wages paid by the entity, in the following format:*\nFY 2025-26\nFY 2024-25\nGross wages paid to females as % of total wages\n22.44%\n23.42%\n*In FY25 and FY26, Eternal\u2019s coverage in the above question includes wages of permanent employees other than BoDs and KMPs.\n4. \t \u0007Do you have a focal point (individual/ committee) responsible for addressing human rights\nimpacts or issues caused or contributed to by the business? (Yes/ No)\n\u0007Yes, human rights complaints can be reported via hr@eternal.com, where they are routed to the relevant\nHR POC for investigation, resolution, and corrective action.\n5. \t \u0007Describe the internal mechanisms in place to redress grievances related to human rights\nissues.\n\u0007The following are the internal mechanisms in place at Eternal to redress grievances related to human\nrights issues:\n\uf09f\n\u0007We have a dedicated HR business partnering team to address and investigate any human rights\ncomplaints.\n\uf09f\n\u0007POSH related concerns can be reported at speakup@eternal.com, while human rights related issues\ncan be reported at hr@eternal.com.\n\uf09f\n\u0007All emails received in these inboxes are systematically categorized and routed to the relevant\nstakeholder for redressal.\n\uf09f\n\u0007The team is responsible for conducting a thorough investigation, determining appropriate resolutions,\nand implementing necessary corrective actions.\n\uf09f\n\u0007All complaints are kept confidential and investigated promptly.\n\uf09f\n\u0007In addition, we have a grievance mechanism in place for our value chain partners to report instances\nrelated to human rights.\nThese internal mechanisms are detailed in our Human rights policy. (link to the policy)\n6. \t Number of complaints on the following made by employees and workers:\nFY 2025-26\nFY 2024-25\nFiled\nduring the\nyear\nPending\nresolution at\nthe end of year\nRemarks\nFiled\nduring the\nyear\nPending\nresolution at\nthe end of year\nRemarks\nSexual harassment\n27*\n5\n-\n19\n2\n-\nDiscrimination at\nworkplace\n0\n0\n-\n0\n0\n-\nChild labor\n0\n0\n-\n0\n0\n-\nForced labor/\nInvoluntary labor\n0\n0\n-\n0\n0\n-\nWages\n0\n0\n-\n0\n0\n-\nOther human rights-\nrelated issues\n0\n0\n-\n0\n0\n-\nNote: All pending POSH cases as on 31st March 2026 were resolved within the stipulated timelines.\n\u0007*The increase in sexual harassment complaints reported in FY26 is attributable to improved awareness of POSH and the available\nredressal mechanisms. With continued organizational growth and stronger awareness initiatives, employees and workers are\nbetter informed and more confident in raising concerns through speakup@eternal.com. The organization continues to strengthen\nawareness and prevention efforts through regular POSH training and sensitization initiatives aimed at driving long-term behavioral\nchange and fostering a safer workplace culture.\n\n\n131\n</text>\n</passage>\n\n<passage id=\"135\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Remarks\n</context>\n<text>\n\u0007*The increase in sexual harassment complaints reported in FY26 is attributable to improved awareness of POSH and the available\nredressal mechanisms. With continued organizational growth and stronger awareness initiatives, employees and workers are\nbetter informed and more confident in raising concerns through speakup@eternal.com. The organization continues to strengthen\nawareness and prevention efforts through regular POSH training and sensitization initiatives aimed at driving long-term behavioral\nchange and fostering a safer workplace culture.\n\n\n131\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n7. \t \u0007Complaints filed under the Sexual Harassment of Women at Workplace (Prevention, Prohibition\nand Redressal) Act, 2013, in the following format:\nFY 2025-26\nFY 2024-25*\ni) \t \u0007Total complaints reported under sexual harassment of Women\nat Workplace (Prevention, Prohibition and Redressal) Act, 2013\n(POSH)\n27**\n19\nii) \t \u0007Average number of female employees/ workers at the\nbeginning of the year and as at the end of the year\n2,150\n1,622\niii) \tComplaints on POSH as a % of female employees/ workers\n1.26%\n1.17%\niv) \t Complaints on POSH upheld\n24***\n17\nNote: All pending POSH cases as on 31st March 2026 were resolved within the stipulated timelines.\n\u0007*The FY 2024-25 POSH ratio has been restated in line with BRSR guidance by revising the denominator to the average female\nemployees/workers headcount.\n\u0007**The increase in sexual harassment complaints reported in FY26 is attributable to improved awareness of POSH and the available\nredressal mechanisms. With continued organizational growth and stronger awareness initiatives, employees and workers are\nbetter informed and more confident in raising concerns through speakup@eternal.com. The organization continues to strengthen\nawareness and prevention efforts through regular POSH training and sensitization initiatives aimed at driving long-term behavioral\nchange and fostering a safer workplace culture.\n***Above disclosure on POSH upheld, include 2 cases that were pending resolution at the end of FY25.\n8. \t \u0007Mechanisms to prevent adverse consequences to the complainant in discrimination and\nharassment cases.\n\u0007Our commitment to prevent discrimination and harassment at workplace is demonstrated in our documented\npolicies on Prevention of Sexual Harassment (POSH), Human Rights and Equal Opportunity, Diversity and\nInclusion. We have strong anti-retaliation measures built into our policies. We are committed to protecting\nthe complainant and ensuring no retaliation of any kind against anyone reporting good faith concerns.\nAnyone targeting such a person will be subjected to strict disciplinary actions. This protection is extended\nnot only to the complainant but also to anyone who assists with or cooperates as part of an investigation.\n9. \t Do human rights requirements form part of your business agreements and contracts? (Yes/ No)\nNo.\n10. \tAssessments of the year:\n% of your plants and offices that were assessed\n(by the entity or statutory authorities or third parties)\nChild labor\n100%.\nIn FY26, we engaged an independent external organization to conduct a\nHuman Rights Assessment for Eternal Limited (formerly known as Zomato\nLimited) on a standalone basis. The assessment included the below:\n\uf09f\n\u0007Comprehensive review of human rights systems, operating policies and\nprocedures for the entire organization.\n\uf09f\n\u0007Focused discussion with HR, Office and facilities and Governance, risk\nand compliance representatives to understand existing human rights\nsystems and practices.\n\uf09f\n\u0007Roll out of an online human rights assessment survey covering permanent\nand other than permanent employees from all locations.\n\uf09f\n\u0007Focus group discussions across offices with other than permanent\nworkers on a sample basis.\nForced/ involuntary labor\nSexual harassment\nDiscrimination at\nworkplace\nWages\nOthers \u2013 please specify\n\n\n132\n</text>\n</passage>\n\n<passage id=\"136\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > (by the entity or statutory authorities or third parties)\n</context>\n<text>\nprocedures for the entire organization.\n\uf09f\n\u0007Focused discussion with HR, Office and facilities and Governance, risk\nand compliance representatives to understand existing human rights\nsystems and practices.\n\uf09f\n\u0007Roll out of an online human rights assessment survey covering permanent\nand other than permanent employees from all locations.\n\uf09f\n\u0007Focus group discussions across offices with other than permanent\nworkers on a sample basis.\nForced/ involuntary labor\nSexual harassment\nDiscrimination at\nworkplace\nWages\nOthers \u2013 please specify\n\n\n132\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n11. \t \u0007Provide details of any corrective actions taken or underway to address significant risks/\nconcerns arising from the assessments at Question 10 above.\n\u0007As per the results of the Human Rights Assessment conducted by an independent external organization\nin FY26, there were no significant/ high risks identified at Eternal Limited (formerly known as Zomato\nLimited). As an organization we are committed to promoting and respecting human rights of all employees\nand workers. We conduct regular training and awareness sessions pertaining to various human rights\naspects in order to sensitize our workforce.\nLeadership Indicators\n1. \t \u0007Details of a business process being modified/ introduced as a result of addressing human rights\ngrievances/ complaints.\n\u0007We continuously monitor, review and update our policies and processes to ensure a workplace free from\nhuman rights concerns. Our existing frameworks are robust, requiring no major changes to business\nprocesses while effectively addressing and resolving potential issues.\n\u0007To reinforce our commitment, we have procedures in place, supported by grievance redressal mechanisms,\ntraining and awareness programs for employees. Our initiatives ensure that all stakeholders are informed of\ntheir rights and responsibilities, fostering a culture of respect, compliance, and ethical business conduct.\n2. \t Details of the scope and coverage of any Human rights due-diligence conducted.\n\u0007In FY26, our human rights due diligence exercise was conducted by an independent third party, and no\nsignificant risks were identified. Due-diligence for Eternal Limited (formerly known as Zomato Limited)\ncovered all our permanent employees, other than permanent employees and third party workers (including\nmigrant workers) of all genders, across all locations.\nFollowing aspects were covered as part of the due-diligence conducted:\n\uf09f\nWorking conditions: Working hours, work-related stress, degree of safety, and comfort\n\uf09f\n\u0007Labor rights: Employment contracts, freedom of association and collective bargaining, employee\nbenefits, child labor, human trafficking - forced or bonded labor\n\uf09f\n\u0007Rights to privacy: Protection of personal and professional data and information\n\uf09f\n\u0007Health, safety and well-being: Training and awareness sessions, safety drills, insurances, assistance\nprogrammes and policies.\n\uf09f\n\u0007Fair and equal remuneration: Compensation practices\n\uf09f\n\u0007Freedom of speech: Grievance and feedback mechanisms\n\uf09f\n\u0007Workplace discrimination and harassment: Discrimination (age, gender, ethnicity, sexual preference,\ncolor, disability, etc.) as well as mental and sexual harassment\n\uf09f\n\u0007Learning and development: Skill development programs for career progression and professional growth\n\uf09f\n\u0007Diversity and inclusion: Equal opportunity, diversity and inclusion\n\u0007In addition to an annual Human rights due diligence exercise, we also periodically review our policies and\nprocedures to ensure our risk mapping of potential issues (if any) are updated and mitigated accordingly.\n3. \t \u0007Is the premise/ office of the entity accessible to differently abled visitors, as per the requirements\nof the Rights of Persons with Disabilities Act, 2016?\n\u0007Our headquarters and largest office based in Gurugram, underwent an independent external accessibility\naudit in FY24. We have implemented various measures such as ramps/ tactile pathways, disability-friendly\nelevators, gender-neutral accessible toilets and accessible parking at our Gurugram office. Additionally,\n</text>\n</passage>\n\n<passage id=\"137\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > (by the entity or statutory authorities or third parties)\n</context>\n<text>\nprocedures to ensure our risk mapping of potential issues (if any) are updated and mitigated accordingly.\n3. \t \u0007Is the premise/ office of the entity accessible to differently abled visitors, as per the requirements\nof the Rights of Persons with Disabilities Act, 2016?\n\u0007Our headquarters and largest office based in Gurugram, underwent an independent external accessibility\naudit in FY24. We have implemented various measures such as ramps/ tactile pathways, disability-friendly\nelevators, gender-neutral accessible toilets and accessible parking at our Gurugram office. Additionally,\nall new facilities under our direct lease have been evaluated for accessibility standards outlined in the\nRPwD Act, 2016.\n\n\n133\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n4.\t Details on assessment of value chain partners:\n% of value chain partners\n(by value of business done with such partners) that were assessed*\nSexual harassment\n16.95% by total spend on suppliers (upstream)**\n5.08% by total revenue from restaurant partners (downstream)***\nDiscrimination at workplace\nChild labor\nForced Labor/ Involuntary labor\nWages\nOthers - please specify\n-\n*Value chain disclosures are based on the previous financial year (FY25).\n\u0007**The assessment was conducted for 50 upstream suppliers. During the year, we significantly expanded the coverage of supplier\nassessment compared to the previous year. While the percentage based on spend reflects changes in procurement mix and supplier\nspend distribution within the year, the program now covers a broader set of value chain partners.\n***The assessment was conducted for 8 downstream customers.\nPrinciple 6 \u2013 Businesses should respect and make efforts to protect and restore the environment\nEssential Indicators\n1. \t \u0007Details of total energy consumption (in Joules or multiples) and energy intensity, in the following\nformat*:\nParameter\nFY 2025-26\nFY 2024-25\nFrom renewable sources\nTotal electricity consumption (A)\n0.00\n0.00\nTotal fuel consumption (B)\n0.00\n0.00\nEnergy consumption through other sources (C)\n0.00\n0.00\nTotal energy consumed from renewable sources (A+B+C)\n0.00\n0.00\nFrom non-renewable sources\nTotal electricity consumption (D)\n359.52 GJ\n447.75 GJ\nTotal fuel consumption (E)\n103.13 GJ\n146.23 GJ\nEnergy consumption through other sources (F)\n0.00\n0.00\nTotal energy consumed from non-renewable sources (D+E+F)\n462.65 GJ\n593.98 GJ\nTotal energy consumed (A+B+C+D+E+F)\n462.65 GJ\n593.98 GJ\nEnergy intensity per rupee of turnover\n(Total energy consumed/ Revenue from operations)\n0.0000000042449\nGJ/ Rupee\nof turnover\n0.0000000068931\nGJ/ Rupee\nof turnover\nEnergy intensity per rupee of turnover adjusted for\nPurchasing Power Parity (PPP)\n(Total energy consumed/ Revenue from operations adjusted\nfor PPP)\n0.0000000863409\nGJ/ Rupee\nof turnover\nadjusted for PPP\n0.0000001424116\nGJ/ Rupee\nof turnover\nadjusted for PPP\nEnergy intensity in terms of physical output\n-\n-\nEnergy intensity (optional) \u2013 the relevant metric may be\nselected by the entity\n-\n-\n\u0007*Energy consumption data in the table above covers energy from fuel consumption through leased DG sets, owned office vehicles\nand energy from purchased electricity for offices within Eternal\u2019s boundary determined by operational control approach. Please\nrefer to our boundary note on page 86 of this annual report for more details.\n\u0007Note: Indicate if any independent assessment/ evaluation/ assurance has been carried out by an external\nagency? (Y/ N) If yes, name of the external agency.\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n\n\n134\n</text>\n</passage>\n\n<passage id=\"138\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Purchasing Power Parity (PPP)\n</context>\n<text>\n\u0007*Energy consumption data in the table above covers energy from fuel consumption through leased DG sets, owned office vehicles\nand energy from purchased electricity for offices within Eternal\u2019s boundary determined by operational control approach. Please\nrefer to our boundary note on page 86 of this annual report for more details.\n\u0007Note: Indicate if any independent assessment/ evaluation/ assurance has been carried out by an external\nagency? (Y/ N) If yes, name of the external agency.\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n\n\n134\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n2.\t \u0007Does the entity have any sites/ facilities identified as designated consumers (DCs) under the\nperformance, achieve, and trade (PAT) Scheme of the Government of India? (Y/ N) If yes, disclose\nwhether targets set under the PAT scheme have been achieved. In case targets have not been\nachieved, provide the remedial action taken if any.\nNot applicable.\n3. \t Provide details of the following disclosures related to water, in the following format*:\nParameter\nFY 2025-26\nFY 2024-25\nWater withdrawal by source (in kilolitres)\n(i)\t Surface water\n0.00\n0.00\n(ii) \t Groundwater\n0.00\n0.00\n(iii) \tThird-party water\n870.53\n1,238.69\n(iv) \tSeawater/ desalinated water\n0.00\n0.00\n(v) \t Others (Purchased drinking water)\n80.81\n62.50\nTotal volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v)\n951.34\n1,301.18\nTotal volume of water consumption (in kilolitres)\n190.27\n260.24\nWater intensity per rupee of turnover (water consumed/ revenue\nfrom operations )\n0.0000000017\nkL/ Rupee of\nturnover\n0.0000000030\nkL/ Rupee of\nturnover\nWater intensity per rupee of turnover adjusted for Purchasing\nPower Parity (PPP) (Total water consumption/ Revenue from\noperations adjusted to PPP)\n0.0000000355\nkL/ Rupee\nof turnover\nadjusted for\nPPP\n0.0000000624\nkL/ Rupee\nof turnover\nadjusted for\nPPP\nWater intensity in terms of physical output\n-\n-\nWater intensity (optional) \u2013 the relevant metric may be selected by\nthe entity\n-\n-\n\u0007*Environmental performance data for this indicator covers Bengaluru office only based on Eternal\u2019s boundary determined by\noperational control approach. Water consumption values are calculated based on an assumption that 20% of the water supply is\nconsumed, while the remaining 80% is discharged as wastewater (as referenced in the NITI Aayog report).\n\u0007Note: Indicate if any independent assessment/ evaluation/ assurance has been carried out by an\nexternal agency? (Y/ N) If yes, name of the external agency.\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n\n\n135\n</text>\n</passage>\n\n<passage id=\"139\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Total volume of water consumption (in kilolitres)\n</context>\n<text>\n\u0007*Environmental performance data for this indicator covers Bengaluru office only based on Eternal\u2019s boundary determined by\noperational control approach. Water consumption values are calculated based on an assumption that 20% of the water supply is\nconsumed, while the remaining 80% is discharged as wastewater (as referenced in the NITI Aayog report).\n\u0007Note: Indicate if any independent assessment/ evaluation/ assurance has been carried out by an\nexternal agency? (Y/ N) If yes, name of the external agency.\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n\n\n135\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n4.\t Provide the following details related to water discharged*:\nParameter\nFY 2025-26\nFY 2024-25\nWater discharge by destination and level of treatment (in kilolitres)\n(i) \t To Surface water\n- No treatment\n0\n0\n- With treatment \u2013 please specify level of treatment\n0\n0\n(ii) \t To Groundwater\n0\n- No treatment\n0\n0\n- With treatment \u2013 please specify level of treatment\n0\n0\n(iii) \tTo Seawater\n- No treatment\n0\n0\n- With treatment \u2013 please specify level of treatment\n0\n0\n(iv) \tSent to third-parties\n- No treatment\n761.07\n1,040.95\n- With treatment \u2013 please specify level of treatment\n0\n0\n(v) \t Others\n- No treatment\n0\n0\n- With treatment \u2013 please specify level of treatment\n0\n0\nTotal water discharged (in kilolitres)\n761.07\n1,040.95\n\u0007*Environmental performance data for this indicator covers Bengaluru office only based on Eternal\u2019s boundary determined by\noperational control approach. Water discharge values are calculated based on an assumption that 80% of the water supply flows\nback into the ecosystem (through sewage system) as wastewater (as referenced in the NITI Aayog report).\n\u0007Note : Indicate if any independent assessment/ evaluation/ assurance has been carried out by an external\nagency? (Y/ N) If yes, name of the external agency.\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n5. \t \u0007Has the entity implemented a mechanism for Zero Liquid Discharge? If yes, provide details of\nits coverage and implementation.\n\u0007Yes, our corporate offices in Gurugram (multi-tenant facilities), has zero liquid discharge mechanism.\nWe do not have operational control over our Gurugram offices. For all our other offices, wastewater\nis discharged into municipal sewers, which undergo further treatment in line with applicable\nrequirements.\n\n\n136\n</text>\n</passage>\n\n<passage id=\"140\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Total water discharged (in kilolitres)\n</context>\n<text>\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n5. \t \u0007Has the entity implemented a mechanism for Zero Liquid Discharge? If yes, provide details of\nits coverage and implementation.\n\u0007Yes, our corporate offices in Gurugram (multi-tenant facilities), has zero liquid discharge mechanism.\nWe do not have operational control over our Gurugram offices. For all our other offices, wastewater\nis discharged into municipal sewers, which undergo further treatment in line with applicable\nrequirements.\n\n\n136\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n6. \t \u0007Please provide details of air emissions (other than GHG emissions) by the entity, in the following\nformat:\nParameter\nUnit\nFY 2025-26\nFY 2024-25\nNOx\nMT\n0.000504498\n0.000690665\nSOx\nMT\n0.000099776\n0.000133844\nParticulate matter (PM)\nMT\n0.000182740\n0.000231416\nPersistent organic pollutants (POP)\nMT\n-\n-\nVolatile organic compounds (VOC)\nMT\n-\n-\nHazardous air pollutants (HAP)\nMT\n-\n-\nOthers - Hydrocarbon (HC)\nMT\n0.000090820\n-\nOthers - Carbon Monoxide (CO)\nMT\n0.000423773\n-\n\u0007Note:  Indicate if any independent  assessment/ evaluation/ assurance has  been carried out by an\nexternal agency? (Y/ N) If yes, name of the external agency.\nYes, assessment was conducted by Eko Pro Engineers Pvt. Ltd.\n7. \t \u0007Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) and its\nintensity, in the following format:\nParameter\nUnit\nFY 2025-26\nFY 2024-25\nTotal Scope 1 emissions (Break-up of the GHG\ninto CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if\navailable)*\nMetric\ntonnes of CO2\nequivalent\nGross 25.62 tCO2e\nNet 0**\nGross 57.27 tCO2e\nNet 0**\nTotal Scope 2 emissions (Break-up of the GHG\ninto CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if\navailable)*\nMetric\ntonnes of CO2\nequivalent\nGross 70.91 tCO2e\nNet 0**\nGross 90.42 tCO2e\nNet 0**\nTotal Scope 1 and Scope 2 emission intensity\nper rupee of turnover (Total Scope 1 and\nScope 2 GHG emissions/ Revenue from\noperations)\nMetric\ntonnes of CO2\nequivalent\n0.0000000008857\ntCO2e/ Rupee of\nturnover\n0.0000000017139\ntCO2e/ Rupee of\nturnover\nTotal Scope 1 and Scope 2 emissions\nintensity per rupee of turnover adjusted for\nPurchasing Power Parity (PPP) ((Total Scope\n1 and Scope 2 GHG emissions/ Revenue from\noperations adjusted for PPP)\nMetric\ntonnes of CO2\nequivalent/\nrupee of\nturnover\nadjusted for\nPPP\n0.0000000180144\ntCO2e/ Rupee of\nturnover adjusted\nfor PPP\n0.0000000354097\ntCO2e/ Rupee of\nturnover adjusted\nfor PPP\nTotal Scope 1 and Scope 2 emission intensity\nin terms of physical output\n-\n-\n-\nTotal Scope 1 and Scope 2 emission intensity\n(optional) \u2013 the relevant metric may be\nselected by the entity\n-\n-\n-\n\u0007*Scope 1 & 2 emissions include emissions from fuel consumption, purchased electricity and fugitive emissions for offices within\nEternal\u2019s boundary determined by operational control approach. Emissions from the offices where operational control is not\nestablished, they are accounted for under applicable Scope 3 categories. Please refer to our boundary note on page 86 of this\nannual report for more details.\n\u0007**For Scope 1, the figures above are reported after deducting the carbon removal offsets purchased to maintain carbon neutrality\nfor Scope 1. The company uses emission factors from the IPCC 2006. For Scope 2, the figures above are reported after deducting\nthe International Renewable Energy Certificates (IRECs) purchased to maintain carbon neutrality. The company uses emission\nfactors from CEA 2025.\n\n\n137\n</text>\n</passage>\n\n<passage id=\"141\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Purchasing Power Parity (PPP) ((Total Scope\n</context>\n<text>\nestablished, they are accounted for under applicable Scope 3 categories. Please refer to our boundary note on page 86 of this\nannual report for more details.\n\u0007**For Scope 1, the figures above are reported after deducting the carbon removal offsets purchased to maintain carbon neutrality\nfor Scope 1. The company uses emission factors from the IPCC 2006. For Scope 2, the figures above are reported after deducting\nthe International Renewable Energy Certificates (IRECs) purchased to maintain carbon neutrality. The company uses emission\nfactors from CEA 2025.\n\n\n137\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n\u0007Note: Indicate if any independent  assessment/ evaluation/ assurance has been carried out by an external\nagency? (Y/ N) If yes, name of the external agency\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n8. \t \u0007Does the entity have any project related to reducing greenhouse gas emission? If Yes, then\nprovide details.\nYes, below are the details of our projects-\n\uf09f\nProject 1: Carbon market instruments\n\u0007We have maintained 100% of our Scope 1 & Scope 2 emissions at zero through use of an equivalent\namount of verified carbon removal offsets and International Renewable Energy Certificates (IRECs).\n\uf09f\nProject 2: Transition to EV based food deliveries\n\u0007Our key climate risk mitigation action is to support delivery partners in transitioning to EV bikes to\nundertake food deliveries. To achieve this, we generate awareness about EVs among delivery partners,\ncollaborate with EV ecosystem players to secure access to EVs on rent and advocate for better EV\nproducts, infrastructure and financing.\n\uf0a7\n\u0007EV awareness: In FY26, delivery partners were made aware of the benefits of transitioning to\nEVs through multiple engaging videos on the YouTube channel, EV campaigns launched within the\nZomato delivery partner app and also through notifications. We also organized the second edition\nof EV Bazaar in Bengaluru to educate the delivery partners on the benefits of EVs and to support\ntheir transition. Since its inception, the EV Bazaar initiative has achieved significant outreach,\nengaging over 2,000 delivery partners and more than 20 ecosystem providers across Delhi and\nBengaluru.\n\uf0a7\n\u0007EV access: To facilitate easier access to EVs on rent, we have established partnerships with\nEV rental agencies, battery swapping companies and EV-based logistics service providers. We\nlaunched the Zomato EV rental fleet on World Environment Day 2025 in Delhi to enable rental\naccess to quality high-speed EVs at affordable prices for delivery partners. As of March 2026,\nmore than 1,500 EVs have been deployed across Delhi and Chennai under the Zomato EV rental\nfleet initiative.\n\uf0a7\n\u0007EV advocacy: We continuously advocate for better EV products, infrastructure and financing for\ndelivery partners. We are a part of global coalitions on EVs including the Climate Group\u2019s EV100\ninitiative and the UNEP-supported Deliver-e Coalition. We regularly contribute to stakeholder\nconsultations facilitated by central, state and city-level government on the topic of EVs.\n\uf0a7\n\u0007Delivery optimization: Alongside supporting partners in adopting EVs for food delivery, we are\ncontinuously improving operational efficiency through delivery optimization measures that bring\ndown delivery distances and time, thereby reducing energy consumption and its associated\nemissions. In FY26, delivery optimization has resulted in avoidance of 8,100 tCO2e of emissions.\n\u0007As a result of our efforts, our last-mile delivery emissions on a per km basis reduced by 11.77% in\nFY26 when compared to FY22. The total EV-based food deliveries increased by 50% compared to the\nprevious year, totaling 132.3 million orders. This represented 13.5% of total food delivery orders for\nthe same year.\n\n\n138\n</text>\n</passage>\n\n<passage id=\"142\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Project 2: Transition to EV based food deliveries\n</context>\n<text>\ndown delivery distances and time, thereby reducing energy consumption and its associated\nemissions. In FY26, delivery optimization has resulted in avoidance of 8,100 tCO2e of emissions.\n\u0007As a result of our efforts, our last-mile delivery emissions on a per km basis reduced by 11.77% in\nFY26 when compared to FY22. The total EV-based food deliveries increased by 50% compared to the\nprevious year, totaling 132.3 million orders. This represented 13.5% of total food delivery orders for\nthe same year.\n\n\n138\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n9. \t Provide details related to waste management by the entity, in the following format:\nParameter\nFY 2025-26\nFY 2024-25\nTotal waste generated (in metric tonnes)*\nPlastic waste (A)\n0.51\n0.68\nE-waste** (B)\n0.16\n0.94\nBio-medical waste (C)\n0.13\n0.08\nConstruction and demolition waste (D)\n-\n-\nBattery waste (E)\n0.32\n0.00\nRadioactive waste (F)\n-\n-\nOther Hazardous waste. Please specify, if any. (G)\n0.03\n0.00\nOther Non-hazardous waste generated (H). Please specify, if any.\n(Break-up by composition i.e. by materials relevant to the sector)\n3.55\n(Wet Waste: 1.09\nPaper &\nCardboard: 2.46)\n4.50\n(Wet Waste: 1.53\nPaper &\nCardboard: 2.97)\nTotal (A+B + C + D + E + F + G + H)\n4.70\n6.19\nWaste intensity per rupee of turnover\n(Total waste generated/ Revenue from operations)\n0.00000000004\nMT/ Rupee of\nturnover\n0.0000000001\nMT/ Rupee of\nturnover\nWaste intensity per rupee of turnover adjusted for Purchasing\nPower Parity (PPP) (Total waste generated/ Revenue from\noperations adjusted for PPP)\n0.0000000009\nMT/ Rupee\nof turnover\nadjusted for PPP\n0.0000000015\nMT/ Rupee\nof turnover\nadjusted for PPP\nWaste intensity in terms of physical output\n-\n-\nWaste intensity (optional) \u2013 the relevant metric may be selected\nby the entity\n-\n-\n\u0007*Environmental performance data for this indicator covers three offices on direct lease (Gurugram, Bengaluru and Mumbai).\nTherefore, its disclosure in different waste categories is made as per Eternal\u2019s boundary determined by operational control\napproach. Please refer to our boundary note on page 86 of this annual report for more details.\n**The e-waste generation is based on the e-waste disposal certificates received.\n\u0007For each category of waste generated, total waste recovered through recycling, re-using or other\nrecovery operations (in metric tonnes)*\nFY 2025-26\nFY 2024-25\nCategory of waste:\n(i) \t Recycled\n4.65\n4.59\n(ii) \t Re-used\n0.00\n0.00\n(iii) \tOther recovery operations\n0.00\n0.00\nTotal\n4.65\n4.59\n\n\n139\n</text>\n</passage>\n\n<passage id=\"143\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Total waste generated (in metric tonnes)*\n</context>\n<text>\nTherefore, its disclosure in different waste categories is made as per Eternal\u2019s boundary determined by operational control\napproach. Please refer to our boundary note on page 86 of this annual report for more details.\n**The e-waste generation is based on the e-waste disposal certificates received.\n\u0007For each category of waste generated, total waste recovered through recycling, re-using or other\nrecovery operations (in metric tonnes)*\nFY 2025-26\nFY 2024-25\nCategory of waste:\n(i) \t Recycled\n4.65\n4.59\n(ii) \t Re-used\n0.00\n0.00\n(iii) \tOther recovery operations\n0.00\n0.00\nTotal\n4.65\n4.59\n\n\n139\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n\u0007For each category of waste generated, total waste disposed of by nature of disposal method (in metric\ntonnes)*\nFY 2025-26\nFY 2024-25\nCategory of waste:\n(i) \t Incineration\n0.05\n0.07\n(ii) \t Landfilling\n0.00\n0.00\n(iii) \tOther disposal operations\n0.00\n1.53\nTotal\n0.05\n1.60\n\u0007*Environmental performance data for this indicator covers three offices on direct lease (Gurugram, Bengaluru and Mumbai).\nDisclosure in different waste categories is made as per Eternal\u2019s boundary determined by operational control approach. Please\nrefer to our boundary note on page 86 of this annual report for more details.\n\u0007Note: Indicate if any independent assessment/ evaluation/ assurance has  been carried out by an external\nagency? (Y/ N) If yes, name of the external agency -\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n10.\t \u0007Briefly describe the waste management practices adopted in your establishments. Describe\nthe strategy adopted by your company to reduce the usage of hazardous and toxic chemicals\nin your products and processes and the practices adopted to manage such wastes.\n\u0007Eternal Limited (formerly known as Zomato Limited) is a technology platform services provider. Our core\nbusiness  processes do not result in the generation of waste beyond office waste within which no toxic\nwaste is generated and hazardous waste is minimal.\n\u0007However, we are deeply committed to effective waste management strategies to minimize environmental\nimpacts of waste in our offices and in our value chain.\nOffice waste management\n\u0007Our employees sit out of leased premises or co-working spaces where waste disposal is managed by the\nowners or main lessors of the property. In offices that are directly leased by us, we have implemented\ninitiatives to reduce waste and promote segregation at the source.\n\uf09f\n\u0007We promote the use of sustainable alternatives within our workplaces through provision of reusable\ncutlery and plates, implementation of a \u2018Bring Your Own Bottle (BYOB)\u2019 campaign, use of printing paper\nmade from wheat straw (agri-residue). Our office coffee mugs are biodegradable and made of fallen\npine needles, thereby reducing reliance on single-use items and virgin resources.\n\uf09f\n\u0007We utilize color coded and labelled bins to ensure segregation of waste streams, supported by\ndedicated housekeeping teams. For e-waste, biomedical and hazardous waste, we appoint authorized\nvendors and obtain disposal and recycling certificates. For other waste streams such as plastic, wet\nwaste and paper and cardboard, that are managed by landlords or facility operators, we obtain details\non disposal and recycling from their appointed vendors.\n\uf09f\n\u0007We conduct regular awareness campaigns and training initiatives on responsible consumption\nand disposal habits among our employees. These efforts are aimed at promoting efficient waste\nsegregation at source.\n\uf09f\n\u0007We continue to invest in innovative and sustainable waste management practices. For example,\nin FY26, we onboarded Padcare as our menstrual waste management vendor across our offices.\nPadcare collects used sanitary pads and recycles them into hygienic pulp and plastic, offering a safer\nalternative to landfilling and incineration.\n\u0007In line with our environmental best practices, our Gurugram and Bengaluru offices hold ISO 14001\ncertification, demonstrating our commitment to effective environmental management.\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "In FY26, over 5,500 Zomato delivery partners were enrolled in at least one government scheme, unlocking benefits valued at over INR 120 crore.",
+        "confidence": 1,
+        "passage_id": 130,
+        "predicate": "facilitated_government_scheme_benefits",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "currency",
+            "provenance": "stated",
+            "value": "INR"
+          }
+        ],
+        "quote": "In FY26, over 5,500 Zomato delivery partners were enrolled in at least one government scheme, unlocking benefits valued at over INR 120 crore.",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "120",
+          "scale": "crore",
+          "unit": "crore"
+        }
+      },
+      {
+        "claim_text": "In FY26, 3,500+ PwD DPs collectively delivered over 10 million orders.",
+        "confidence": 1,
+        "passage_id": 131,
+        "predicate": "pwd_delivery_partners_order_volume",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "In FY26 alone 3,500+ PwD DPs, collectively delivered over 10 million orders",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "10",
+          "scale": "million",
+          "unit": "million"
+        }
+      },
+      {
+        "claim_text": "Feeding India has served over 290 million meals till FY26.",
+        "confidence": 1,
+        "passage_id": 132,
+        "predicate": "total_meals_served",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "till FY26"
+          }
+        ],
+        "quote": "Since its inception, Feeding India has served over 290 million meals till FY26.",
+        "subject_key": null,
+        "subject_surface": "Feeding India",
+        "subject_type": "initiative",
+        "value": {
+          "kind": "quantity",
+          "raw": "290",
+          "scale": "million",
+          "unit": "million"
+        }
+      },
+      {
+        "claim_text": "The median remuneration for the Board of Directors (male) was 1,19,00,000 in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 133,
+        "predicate": "median_remuneration_board_of_directors_male",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Board of Directors (BoD) 3 1,19,00,000*",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,19,00,000",
+          "scale": null,
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The median remuneration for the Board of Directors (female) was 1,13,00,000 in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 133,
+        "predicate": "median_remuneration_board_of_directors_female",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Board of Directors (BoD) 3 1,19,00,000* 3 1,13,00,000",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,13,00,000",
+          "scale": null,
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "Gross wages paid to females as % of total wages was 22.44% in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 134,
+        "predicate": "gross_wages_paid_to_females_percentage",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Gross wages paid to females as % of total wages 22.44%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "22.44%",
+          "scale": null,
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Total complaints reported under POSH in FY 2025-26 was 27.",
+        "confidence": 1,
+        "passage_id": 135,
+        "predicate": "total_posh_complaints",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Total complaints reported under sexual harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH) 27**",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "27",
+          "scale": null,
+          "unit": null
+        }
+      },
+      {
+        "claim_text": "Total EV-based food deliveries totaled 132.3 million orders in FY26.",
+        "confidence": 1,
+        "passage_id": 141,
+        "predicate": "total_ev_based_food_deliveries",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "The total EV-based food deliveries increased by 50% compared to the previous year, totaling 132.3 million orders.",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "132.3",
+          "scale": "million",
+          "unit": "million"
+        }
+      }
+    ]
+  }
+}

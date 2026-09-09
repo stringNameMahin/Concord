@@ -1,0 +1,1204 @@
+{
+  "key": "6b5dcfa9b96ff09b9f4cb2ebf9b927e69a4d545d0e9f51bf4dba7b61a2c13a48",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"48\">\n<context>\n[section]\nOUR MARKET OPPORTUNITY\n</context>\n<text>\nwarehousing and supply chain services, are expected to grow faster than the logistics industry and to witness\nconsolidation among organized players. As per the RedSeer Report, which has been exclusively commissioned\nand paid for by us in connection with the Offer, the express parcel delivery segment, which is mostly catered to\nby organized players, is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by\nFiscal 2026. Organized players are expected to benefit from the continued growth of e-commerce and the\nemergence of new business models such as D2C, social commerce and eB2B, which rely heavily on 3PL express\ndelivery. As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection\nwith the Offer, the express PTL segment is expected to grow from approximately US$3.3 billion in Fiscal 2021\nto approximately US$9 billion in Fiscal 2026 at a CAGR of 21% and to witness a significant increase in the share\nof organized players from approximately 40% to approximately 70% during the same period. As per the RedSeer\nReport, which has been exclusively commissioned and paid for by us in connection with the Offer, the\nwarehousing and supply chain services segment is expected to grow from approximately US$65.0 billion in Fiscal\n2021 to approximately US$109.0 billion in Fiscal 2026 at a CAGR of 9% from Fiscal 2020 to Fiscal 2026 and\nwitness consolidation of share by organized players from US$1.6 billion in Fiscal 2020 to US$13 \u2013 15 billion in\nFiscal 2026, at a CAGR of 42 \u2013 45% for the same period. Among our other business verticals, the TL market is\nexpected to grow by 7% between Fiscal 2020 and Fiscal 2026 from US$109.0 billion to US$163.0 billion, with\nthe market share of organized players to increase from approximately 1% in Fiscal 2020 to more than 3% in Fiscal\n2026, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with\nthe Offer. Similarly, the cross-border air transportation market is expected to grow from approximately US$5.4\n\n\n217\nbillion in Fiscal 2020 to US$8.2 billion in Fiscal 2026, as per the RedSeer Report, which has been exclusively\ncommissioned and paid for by us in connection with the Offer.\nWe believe that the combination of our integrated solutions, proprietary logistics operating system, data\nintelligence capabilities, automation, asset light operations and entrepreneurial team positions us well to address\nthis large market opportunity.\nOUR SERVICES\nThe integration of our technology platform with our physical network and its operations enables us to provide\ncomprehensive supply chain solutions to a wide range of customers. The following schematic depicts our overall\nservice map:\n\u2022\nExpress Parcel\nAs per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with\nthe Offer, we were the largest and fastest growing 3PL express parcel (and heavy parcel) delivery player in\nIndia by volume and revenue as of Fiscal 2021 and the nine months period ended December 31, 2021, with\na market share of approximately 24% to 25% of the overall e-commerce parcel volumes (including captive\nplayers) in India for the three months period ended December 31, 2021. We have delivered more than 1.2\nbillion shipments since incorporation. Our shipment volume grew from 148.49 million orders in Fiscal 2019\nto 289.20 million orders in Fiscal 2021 on an annual basis, representing a CAGR of 40%. For the nine months\nperiod ended December 31, 2021, we delivered 406.51 million shipments. Our customers include e-\ncommerce marketplaces, vertical e-commerce retailers, D2C brands, omni-channel retailers, SMEs, banks\nand financial institutions. For the nine months period ended December 31, 2021, 20,498 Active Customers\nused our express parcel delivery services.\nWe have increased the capacity of our network as we have scaled our business. Our network is designed to\nensure performance under large volume fluctuations that are a routine occurrence in the e- commerce market\n</text>\n</passage>\n\n<passage id=\"49\">\n<context>\n[section]\nExpress Parcel\n</context>\n<text>\nperiod ended December 31, 2021, we delivered 406.51 million shipments. Our customers include e-\ncommerce marketplaces, vertical e-commerce retailers, D2C brands, omni-channel retailers, SMEs, banks\nand financial institutions. For the nine months period ended December 31, 2021, 20,498 Active Customers\nused our express parcel delivery services.\nWe have increased the capacity of our network as we have scaled our business. Our network is designed to\nensure performance under large volume fluctuations that are a routine occurrence in the e- commerce market\nand during month-end periods in the freight market. This is reflected in our peak daily parcel pick-up volume\nthat has increased from approximately 0.80 million parcels during Fiscal 2019 to 3.29 million parcels for the\nnine months period ended December 31, 2021.\nOur express parcel delivery network, which serviced 17,488 PIN codes for the nine months period ended\nDecember 31, 2021, covering 90.61% of the 19,300 PIN codes in India as of December 31, 2021 (per India\nPost), is capable of handling consignments of up to 10 kilograms with same-day and next-day capabilities\nand 48-96 hour deliveries for long-distance orders. We also provide value-added services such as reverse\nlogistics for returns with quality inspection and product replacement services. We also provide person-\nspecific deliveries involving delivery to a specified person after validating the person\u2019s identity; address-\nspecific deliveries involving delivery to an address specified by the shipper (and not the recipient) and time-\n\n\n218\nspecific delivery involving delivery within a time slot provided by the recipient. In addition, we offer cash\non delivery and other modes of payment on delivery.\nWe launched our heavy goods service in 2016, comprising the warehousing and delivery of heavy goods,\nsuch as large electronic goods, or white goods, furniture and sports equipment. As per the RedSeer Report,\nwhich has been exclusively commissioned and paid for by us in connection with the Offer, large appliances,\nwhite goods and furniture are among the emerging and fastest growing categories in e-commerce. This\nservice leverages our existing warehousing capabilities, the reach of our express parcel network and the\ncapacity to handle large goods of our PTL freight service. As a result, we operate the largest network for\nheavy parcel (large appliances or white goods, appliances, home and furniture and sports equipment) delivery\nin India, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in\nconnection with the Offer. Our shipment volume has grown by more than six times from 0.85 million\nshipments in Fiscal 2019 to 5.26 million shipments in Fiscal 2021 on an annual basis. In May 2021, we also\nlaunched installation and assembly services for consumer durables and furniture. For the nine months period\nended December 31, 2021, 264 e-commerce, enterprise and D2C Active Customers used our heavy goods\nservices.\nWe have also launched Delhivery Direct, our C2C shipping service in June 2021, which enables individual\nconsumers to ship parcels from their homes.\n\u2022\nPTL Freight\nWe launched PTL freight services focused on the B2B express segment in 2016 after achieving significant\nscale in our express parcel network and establishing a full-fledged surface line-haul network to service its\nvolume. In Fiscal 2021, we delivered 373,854 tonnes of freight, growing at a CAGR of 75% between Fiscal\n2019 and Fiscal 2021.\nWe acquired Spoton in August 2021 to further scale our PTL freight services business. Spoton delivered\n758,730 tonnes and 683,999 tonnes of freight in Fiscal 2021 and the nine months period ended December\n31, 2021, respectively, and had a network presence across 13,087 PIN codes with 2.85 million sq. ft. of\ninfrastructure as of December 31, 2021. As per the RedSeer Report, which has been exclusively\ncommissioned and paid for by us in connection with the Offer, following our acquisition of Spoton, we\nbecame the third largest PTL freight player in India in terms of revenue as of Fiscal 2021, with a market\n</text>\n</passage>\n\n<passage id=\"50\">\n<context>\n[section]\nPTL Freight\n</context>\n<text>\n758,730 tonnes and 683,999 tonnes of freight in Fiscal 2021 and the nine months period ended December\n31, 2021, respectively, and had a network presence across 13,087 PIN codes with 2.85 million sq. ft. of\ninfrastructure as of December 31, 2021. As per the RedSeer Report, which has been exclusively\ncommissioned and paid for by us in connection with the Offer, following our acquisition of Spoton, we\nbecame the third largest PTL freight player in India in terms of revenue as of Fiscal 2021, with a market\nshare of approximately 8.3% of the organized PTL market in India. Our Company also operated the fastest\ngrowing PTL freight service amongst the top 10 PTL service providers in India as of Fiscal 2021, as per the\nRedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer.\nIn keeping with our strategy of unifying our infrastructure and network, our PTL service is designed around\nshared linehaul operations with the express parcel business. This has enabled us to build larger, automated\ngateways, operate larger trucks, including tractor-trailers and enhanced capacity utilization in our mid-mile\noperations. Our shared network allows us to offer e-commerce equivalent turnaround times and direct reach\nacross our entire network to PTL freight customers.\nWe provide a full suite of freight services including door-to-door and hub-to-hub delivery, time-definite and\nappointment-based delivery and value-added services such as contactless delivery, electronic proof-of-\ndelivery, transportation of oversize cargo (up to 1 tonne/shipment), reverse pick-ups, invoice value\ncollection and freight collection through cash and digital payment methods.\nTogether with Spoton, we had over 7,900 Active Customers for the nine months period ended December\n31, 2021 across industries such as consumer durables, auto, lifestyle, fashion, e-commerce, FMCG and\nretail.\n\u2022\nTL Freight\nOur truckload freight brokerage platform, \u201cOrion\u201d, connects shippers with fleet-owners and suppliers of\ntruckload capacity across the country via a centralized bidding and matching engine.\nThe Orion platform allows shippers and our teams to post their spot and long-term truckload freight\nrequirements. Registered agents and fleet owners can then bid for these jobs via our in-house application,\n\u201cAxle\u201d. Subsequently, loads are matched to capacity based on price and service quality. All operational and\n\n\n219\nfinancial processes including job creation, bidding, matching, real-time tracking, document management\nand financial transactions are managed in real-time on the Orion platform.\nIn January 2020, we acquired Roadpiper Technologies Private Limited, a digital freight broker with fleet\nowner, load-matching and pricing applications. This has strengthened our capability to engage with\nsuppliers of truckload capacity.\nThe Orion platform was first built based on experience with a large amount of internal truckload demand\ngenerated by our operations, with more than 9,000 trips on average per month for the period from October\n2017 to March 2018. This enabled us to ascertain the platform capabilities and establish a consistent base\nload.\nThe Orion platform was opened to external transacting customers in Fiscal 2019. As of Fiscal 2021, we had\n449 Active Customers and over 1,850 transportation partners. Since the inception of the platform, more than\n75,000 trucks have been registered on the Orion platform and have completed more than 160,000 third-\nparty truck placements, as of December 31, 2021.\n\u2022\nSupply Chain Services\nWe provide integrated supply chain solutions to e-commerce and corporate customers. Our supply chain\nsolutions combine the strength of our warehousing and transportation operations, infrastructure, network\nand technology with deep data-science and business intelligence capabilities. This enables us to provide\ncomprehensive and integrated multi-channel order fulfilment solutions that improve the reliability, speed and\ncost-efficiency of our customers\u2019 supply chains. Our solutions are designed to be modular and configurable\n</text>\n</passage>\n\n<passage id=\"51\">\n<context>\n[section]\nSupply Chain Services\n</context>\n<text>\nWe provide integrated supply chain solutions to e-commerce and corporate customers. Our supply chain\nsolutions combine the strength of our warehousing and transportation operations, infrastructure, network\nand technology with deep data-science and business intelligence capabilities. This enables us to provide\ncomprehensive and integrated multi-channel order fulfilment solutions that improve the reliability, speed and\ncost-efficiency of our customers\u2019 supply chains. Our solutions are designed to be modular and configurable\nwith the flexibility to choose multiple fulfilment and transportation models and partners.\nOur warehousing solutions comprise warehouse management, in-warehouse processing and order fulfilment\nservices that enable customers to optimize inventory management and delivery timelines. Our E2E solutions\nuse system-directed operations to help optimize inventory management, transportation selection, delivery\ntimelines and overall costs. This is driven by our self-developed WMS system \u201cGodam\u201d, which supports\nmulti-tenant, multi-channel operations. We also provide integrated transportation services as part of overall\norder fulfilment, including PTL, TL, cross-border freight, intra-city distribution and express parcel delivery\nservices.\nWe acquired Primaseller Inc. in February 2021 to enable D2C e-commerce brands and omnichannel retailers\nto integrate their online and offline channels with our logistics network. This allows us to provide a reliable\norder-to-delivery promise to end consumers.\nAs of December 31, 2021, we operated over 6.08 million square ft. of warehousing infrastructure across 81\nwarehouses, compared to 0.59 million square ft. across 15 warehouses in 2016. For the nine months period\nended December 31, 2021, 77 Active Customers used our supply chain services solutions.\n\u2022\nCross-Border Services\nWe began providing door-to-door and port-to-port express parcel services to and from India in 2018 to meet\nthe rising demand for cross-border e-commerce and expanded this offering to include cross-border air-cargo\nservices in late 2019.\nOur cross-border operations are powered by our global shipping service, \u201cStarfleet\u201d, where we follow a\n\u201cstring of pearls\u201d strategy, integrating global networks and airlines on the same platform, providing a\nsingle-window visibility into express and freight global shipping to shippers. \u201cStarfleet\u201d also provides\ninternational air cargo services through a mix of charter and block space agreements through partnerships\nwith major airlines on certain trade corridors of India, such as the US, Europe and China.\nWe have established a reciprocal alliance with Aramex and FedEx, both of whom are global express leaders,\nfor customs clearance, pickup and delivery services. We entered into an alliance with Aramex in March\n2019, expanding our coverage in Middle East and North Africa, and providing reciprocal access to Aramex\ncustomers to our India network. In July 2021, we executed an agreement to facilitate a strategic alliance\nwith FedEx, targeted principally at expanding our coverage in the North American, European, Australian\nand Asian markets. This agreement became effective on December 5, 2021. Further, our domestic partners,\n\n\n220\nSpiceJet Limited (SpiceJet) and Interglobe Aviation Ltd. (Indigo), enable charter and block space cargo and\ncargo clearance.\nOur cross-border service is accessible to all of our existing customers and also via our retail sales network\nof over 397 retail points as of December 31, 2021. In Fiscal 2021, we had 407 Active Customers availing\nour cross-border shipping services, transacting over 2,050 tonnes of air freight.\nSale of goods\nA small portion of our total revenue from contracts with customers is from sale of traded goods. Our revenue\nfrom sale of traded goods was nil, \u20b957.50 million, \u20b9110.89 million, \u20b988.14 million and \u20b91,874.74 million for\nFiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and the nine\nmonths period ended December 31, 2021 respectively, constituting nil, 0.21%, 0.30%, 0.33% and 3.90% of our\n</text>\n</passage>\n\n<passage id=\"52\">\n<context>\n[section]\nCross-Border Services\n</context>\n<text>\nour cross-border shipping services, transacting over 2,050 tonnes of air freight.\nSale of goods\nA small portion of our total revenue from contracts with customers is from sale of traded goods. Our revenue\nfrom sale of traded goods was nil, \u20b957.50 million, \u20b9110.89 million, \u20b988.14 million and \u20b91,874.74 million for\nFiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and the nine\nmonths period ended December 31, 2021 respectively, constituting nil, 0.21%, 0.30%, 0.33% and 3.90% of our\ntotal revenue from contracts with customers, respectively, for the same period. This revenue increased\nsignificantly for the nine months period ended December 31, 2021. Such revenue from sale of traded goods has\nhistorically corresponded primarily to revenue from distribution of certain FMCG products for a customer, a\nbusiness activity which has currently been discontinued. In addition, during the nine months period ended\nDecember 31, 2021, we also had a one-off increase in revenue pertaining to import of medical equipment into\nIndia during the COVID-19 pandemic on the basis of back-to-back arrangements with certain customers.\nNETWORK, INFRASTRUCTURE AND AUTOMATION\nWe have built a nation-wide network with presence in every state, servicing 17,488 PIN codes during the nine\nmonths period ended December 31, 2021, or 90.61% of the 19,300 PIN codes in India as of December 31, 2021\n(per India Post). Our network infrastructure includes 122 gateways, 21 automated sort centres, 93 fulfilment\ncentres, 35 collection points, 31 returns processing centres, 244 service centres, 132 intermediate processing\ncentres and 2,521 direct delivery centres as of December 31, 2021, including Spoton\u2019s 40 gateways and 138\nservice centres. Our self-delivery network is augmented by 1,209 partner locations that expand our reach, provide\ncritical flexible capacity and redundancy and Spoton\u2019s service centres are augmented by 205 additional locations\noperated by business associates.\n\u2022\nGateway and Automated sort centre facilities:\nGateways, which are large logistics facilities that form the core of our network, perform pickup, sortation,\nconsolidation and deconsolidation, dispatch and customs clearance operations. Gateways can\nsimultaneously handle all product categories - express parcel, cross-border express and freight, heavy goods\nand PTL freight.\nAll our gateways are connected to each other in a dynamic mesh network via line-haul transportation, unlike\ntraditional hub-and-spoke models. They also connect directly to intermediate processing centres, service\ncentres or delivery centres in real-time, guided by our network algorithms, based on volume and service time\nconsiderations. While this design for speed increases our sortation complexity relative to traditional logistics\nmodels, our large investments in automated shipment sorting, system-directed operations and routing\nalgorithms along with our large base volume, enable us to achieve the speed objective while ensuring cost-\n\n\n221\nefficiency, reliability and operational quality.\nAs of December 31, 2021, 21 of our gateways were equipped with 25 automated parcel sorters having a\nRated Automated Sort Capacity of 3.70 million shipments per day. Four of our largest gateways had\nautomated material handling systems to increase operational throughput and improve quality of handling.\nThese automated material handling systems provide throughput ranging from 3,000 to 32,000 shipments\nper hour. For Fiscal 2019, Fiscal 2020 and Fiscal 2021 and for the nine months ended December 31, 2021,\nthe estimated utilisation of sortation capacity in our network infrastructure was 20.35%, 31.46%, 30.57%\nand 38.55% respectively. Depending on the distribution profile of shipment volumes, the utilisation of\nsortation capacity varies considerably in a day and during the year and also varies considerably between\ndifferent locations where sortation capacity has been installed.\nOn December 31, 2021, we acquired 34.55% of the share capital (on a fully-diluted basis) of Falcon, a\n</text>\n</passage>\n\n<passage id=\"53\">\n<context>\n[section]\nNETWORK, INFRASTRUCTURE AND AUTOMATION\n</context>\n<text>\nper hour. For Fiscal 2019, Fiscal 2020 and Fiscal 2021 and for the nine months ended December 31, 2021,\nthe estimated utilisation of sortation capacity in our network infrastructure was 20.35%, 31.46%, 30.57%\nand 38.55% respectively. Depending on the distribution profile of shipment volumes, the utilisation of\nsortation capacity varies considerably in a day and during the year and also varies considerably between\ndifferent locations where sortation capacity has been installed.\nOn December 31, 2021, we acquired 34.55% of the share capital (on a fully-diluted basis) of Falcon, a\nlogistics automation solution provider, pursuant to a share subscription agreement and a share purchase\nagreement, and also entered into a business co-operation agreement with Falcon.\nAerial View of the Tauru Gateway (Haryana)\nFeeder lines between trucks and sorter\nMulti-level sorter\nShipment Chutes\n\u2022\nFulfilment centres (\u201cFC\u201d):\nAs of December 31, 2021, we operated 93 fulfilment centres with an aggregate floor area of 6.25 million\nsquare feet, including 12 fulfilment centres of Spoton with an aggregate floor area of 0.17 million square\nfeet. Our fulfilment centres are capable of multi-client, multi-channel operations, and of servicing B2C and\nB2B inventory management and order fulfilment requirements. Our fulfilment centres are located in\nstrategic supply and consumption clusters to enable customers to place inventory closer to their end\nconsumers and reduce overall order fulfilment timelines. Several FCs are also co-located and operationally\nintegrated with our gateways, further enhancing delivery speed and reducing overall fulfilment costs.\nBhorakalan FC (Haryana)\n\n\n222\nLuhari FC (Haryana)\n\u2022\nIntermediate processing centres:\nWe operated 132 intermediate processing centers, as of December 31, 2021, to receive consolidated loads\nfrom gateways for a set of delivery centers mapped to them. These facilities increase our ability to use larger\nline-haul vehicles, reduce sortation complexity and act as load-stabilizers in our network by performing\nsimpler sortation operations for delivery centres and distributing these loads multiple times a day.\n\u2022\nService centres and delivery centres:\nService centres and delivery centres perform last-mile delivery of consignments and pickup operations from\ntheir catchment areas. Parcels weighing less than 10kg are picked up and delivered by delivery centres while\nPTL loads and heavier parcels are picked up and delivered through our service centres.\nAs of December 31, 2021, we operated 3,730 delivery centres and 244 service centres, including 138 service\ncentres belonging to Spoton. Spoton\u2019s service centres are augmented by 205 additional locations operated\nby business associates. 2,521 of our delivery centres are self-operated while 1,209 are operated by partners\nthrough our \u201cConstellation\u201d program. In addition, direct delivery centres are further augmented by a\nnetwork of 4,565 partner stores who provide us with flexible delivery capacity in their catchment areas.\n\u2022\nReturns processing centres:\nWe operate 31 dedicated facilities to process e-commerce sale returns to customer warehouses as of\nDecember 31, 2021. These centres are either co-located with Gateway facilities or are stand-alone facilities\nin locations with a high density of e-commerce sellers and warehouses.\n\u2022\nFleet:\nA majority of our line-haul and intra-city distribution requirements are met through partner fleet owners and\nsuppliers of truckload capacity via our middle-mile systems and Orion platform. We also operate an owned\nfleet of heavy trucks and tractor-trailers which are employed in our linehaul network. We have designed and\nintroduced customized trailer containers for use in our line-haul. These assets enable us to drive up\nefficiency by increasing the utilisation of the tractors and their crew and also reduce storage space in\ngateways by utilising the trailers for storage. This fleet enables us to introduce new capabilities such as\ntrailer management, establish real-time benchmarks for truck utilisation and costs across seasons and\n</text>\n</passage>\n\n<passage id=\"54\">\n<context>\n[section]\nNETWORK, INFRASTRUCTURE AND AUTOMATION\n</context>\n<text>\nfleet of heavy trucks and tractor-trailers which are employed in our linehaul network. We have designed and\nintroduced customized trailer containers for use in our line-haul. These assets enable us to drive up\nefficiency by increasing the utilisation of the tractors and their crew and also reduce storage space in\ngateways by utilising the trailers for storage. This fleet enables us to introduce new capabilities such as\ntrailer management, establish real-time benchmarks for truck utilisation and costs across seasons and\ngeographies, and set standards for on-time performance. During the nine months period ended December\n31, 2021, 99.52% of our trucks and other transportation vehicles were leased from third-party fleet partners.\nOur Fleet\nThe following table from the RedSeer Report, which has been exclusively commissioned and paid for by us in\nconnection with the Offer, provides a comparison of our business model as compared to those of traditional 3PL\nplayers in India.\nTraditional 3PL\nDelhivery\nTypical Network Design\nHub-spoke\nMesh network\nTypical Nature of Asset Holdings\nAsset-light; mainly partner operated\nassets\nAsset-light; leased infrastructure and\nfleet, selective ownership of strategic\ntechnology assets\nAutomation\nLow automation; mainly manual\noperations\nHigh degree of automation with full\ncontrol over the value chain\nNote(s): (1) Asset light is defined as a business model with low ownership of physical assets (2) Degree of automation is defined as the intensity\nof reduction in manual processes using technology to perform iterative tasks.\nSource(s): RedSeer Research, RedSeer Analysis\nAccording to the RedSeer Report, which has been exclusively commissioned and paid for by us in connection\nwith the Offer, Mesh Network and Hub-Spoke model refer to two different types of logistics network topologies.\nMesh Network consists of higher proportion of point-to-point connections with dynamic shipment routes\ndetermined typically based on an automated algorithm. On the other hand, Hub-Spoke Model consists of a mother\nnode which is centrally connected to multiple other nodes. This results in fixed shipment paths and relatively\n\n\n223\nlower flexibility compared to a Mesh network. As a result, Mesh network enables faster turnaround time, higher\nroute flexibility and better reliability vs the Hub-Spoke topology. However, it has higher operational complexity\nrequiring sophisticated technology to operate the network.\nOUR TECHNOLOGY CAPABILITIES\nOur logistics operating system is at the heart of our integrated solutions. The integration of our physical operations\nand infrastructure with our technology systems enables us to develop customized solutions and respond quickly\nto our customers\u2019 evolving business needs.\nIntegration of logistics operating system with infrastructure and applications\nWe use over 80 applications which are self-developed and enhanced with data intelligence, to provide various\nservices. These applications and services assist, guide and direct our customers, operations teams, partners and\nnetwork assets. They aid in demand forecasting, network design, tracking and real-time optimization and decision\nsupport.\nWe had an engineering, data sciences and product team of 505 professionals (excluding Spoton) as of December\n31, 2021. We believe that our logistics operating system led by an experienced team are key advantages that\ndifferentiate us from other, traditional logistics companies.\nOur Technology Architecture\nOur technology platform has a layered system architecture comprising the core operating system (\u201cCoreOS\u201d), a\nconfiguration layer and an application layer. We have made significant investments in developing tools and API\nend-points, not only for our operators but also for our customers and partners, allowing development of bespoke\napplications with complete control. In addition, our distributed architecture enables us to scale rapidly and\nprovides flexibility with multiple teams working independently on various services for faster deployment. A\n</text>\n</passage>\n\n<passage id=\"55\">\n<context>\n[section]\nOur Technology Architecture\n</context>\n<text>\nOur technology platform has a layered system architecture comprising the core operating system (\u201cCoreOS\u201d), a\nconfiguration layer and an application layer. We have made significant investments in developing tools and API\nend-points, not only for our operators but also for our customers and partners, allowing development of bespoke\napplications with complete control. In addition, our distributed architecture enables us to scale rapidly and\nprovides flexibility with multiple teams working independently on various services for faster deployment. A\nschematic of our architecture is depicted below:\n\n\n224\nOur technology architecture\nCoreOS: CoreOS provides reusable, business-agnostic tools and services that define standards and data\ngovernance frameworks for logistics. This layer provides foundational and security components and standardizes\nthe exchange of data between services. It is designed with a data first architecture and jurisdiction, enabling user-\nlevel restrictions on data access, coupled with requisite security and infrastructure controls which ensure data privacy\nand security.\nConfiguration layer: This consists of dynamic frameworks that enable rules, policies and structures based on\nbusiness specific, geography specific and customer specific requirements. It facilitates creation and configuration\nof custom rules and operational workflows that enable interoperability of the same underlying network assets and\ninfrastructure across a variety of supply chain use cases.\nApplication layer: This layer consists of purpose-built business applications and services developed by our in-\nhouse product, technology and data teams as well as third party developer partners. These applications and\nservices are, in turn, bundled into solutions serving a variety of supply chain use cases.\nWe have over 80 applications through which we provide various services, which connect all of our operators,\ninfrastructure, partners and network assets, orchestrated through our logistics platform. The end-points that\nconnect all of these ecosystem participants include web and mobile applications for our operators, customer ERP\nsystems and a variety of connected assets such as mobile devices, vehicles, cameras, sortation systems and\nmaterial handling equipment.\nFor details of our operational and customer facing applications, see \u201c\u2e3bOur Technology Applications\u201d on page\n232.\nData Intelligence\nThe vast amount of transaction data that we collect, enrich, process and analyze is one of our key differentiators.\nTransaction data is collected via handheld devices in facilities, field mobile devices, IoT devices on vehicles,\nautomated systems like sorters, X-ray machines and material handling equipment, CCTV cameras and web\napplications. This data is enriched with other environmental data such as traffic and weather information,\ncontextualized with historical trends and fed into proprietary algorithms that use machine learning and big data\nanalytics to derive insights that help us automate and optimize critical business decisions in real-time. Our machine\nlearning models continuously learn from on ground actions by ingesting live data from our operations and\nupgrading their predictions and recommendations.\n\n\n225\n</text>\n</passage>\n\n<passage id=\"56\">\n<context>\n[section]\nData Intelligence\n</context>\n<text>\nautomated systems like sorters, X-ray machines and material handling equipment, CCTV cameras and web\napplications. This data is enriched with other environmental data such as traffic and weather information,\ncontextualized with historical trends and fed into proprietary algorithms that use machine learning and big data\nanalytics to derive insights that help us automate and optimize critical business decisions in real-time. Our machine\nlearning models continuously learn from on ground actions by ingesting live data from our operations and\nupgrading their predictions and recommendations.\n\n\n225\nA schematic of our big data stack is depicted below:\nOur big data stack\nNotes:\n(1) Daily average for December 2021.\n(2) For December 2021.\n(3) For January 1, 2021 to December 31, 2021.\n(4) As of February 28, 2022.\nWe have also invested in packaging our data insights into technology products that are suitable for external use\nby our customers and partners, in India and globally. Some of the key areas that we are focusing on include the\nlocation stack, product intelligence tools, capacity planning systems, network design tools, routing and\noptimization tools in the mid-mile, parcel routing tools in the last mile and inventory placement systems at\nfulfilment centres. For further details of our data applications, see \u201c\u2e3bData Applications\u201d on page 235.\nOUR COMPETITIVE STRENGTHS\nRapid growth, extensive scale and improvement in unit economics\nWe were the largest and fastest growing fully-integrated logistics services player in India by revenue as of Fiscal\n2021, according to the RedSeer Report, which has been exclusively commissioned and paid for by us in\nconnection with the Offer. Our revenue from contracts with customers has grown from \u20b916,538.97 million in\nFiscal 2019 to \u20b936,465.27 million in Fiscal 2021, or a CAGR of 48.49%. Further our revenue from contracts with\ncustomers has improved from \u20b926,438.66 million for the nine months period ended December 31, 2020 to\n\u20b948,105.30 million for the nine months period ended December 31, 2021, or an increase of 81.95%.\nIn Fiscal 2021, we fulfilled over 289.20 million express parcel orders, carried 373,854 tonnes of PTL freight,\nprocessed 47.37 million orders through our fulfilment centers and completed more than 46,878 truckload\nmovements. For the nine months period ended December 31, 2021, excluding Spoton, we fulfilled over 406.51\nmillion express parcel orders, carried 438,795 tonnes of PTL freight, processed 35.75 million orders through our\nfulfilment centers and completed more than 30,000 truckload movements. We have achieved this substantial scale\nin just 10 years since we began operations. In August 2021, we acquired Spoton which delivered 758,730 tonnes\nand 683,999 tonnes of PTL freight in Fiscal 2021 and the nine months period ended December 31, 2021,\nrespectively. Following our acquisition of Spoton, we became the third largest PTL freight player in India in\nterms of revenue as of Fiscal 2021, with a market share of approximately 8.3% of the organized PTL market in\nIndia, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with\nthe Offer.\nOur network structure, quality of engineering and technology and data intelligence capabilities have helped us\nestablish scale in all of our business lines and ensure synergies across them. This has driven higher network\nutilization, resulting in cost efficiencies, while maintaining service speed and reliability. Our ability to build mono-\nline scale and exploit cross-line synergies allows us to pass efficiency gains to our customers, reducing their supply\nchain costs and also allowing customers to benefit from each other through our platform. This has improved our\ncustomer retention and profitability. For example, our restated loss for the year has improved from \u20b917,833.04\n\n\n226\n</text>\n</passage>\n\n<passage id=\"57\">\n<context>\n[section]\nRapid growth, extensive scale and improvement in unit economics\n</context>\n<text>\nestablish scale in all of our business lines and ensure synergies across them. This has driven higher network\nutilization, resulting in cost efficiencies, while maintaining service speed and reliability. Our ability to build mono-\nline scale and exploit cross-line synergies allows us to pass efficiency gains to our customers, reducing their supply\nchain costs and also allowing customers to benefit from each other through our platform. This has improved our\ncustomer retention and profitability. For example, our restated loss for the year has improved from \u20b917,833.04\n\n\n226\nmillion in Fiscal 2019 to \u20b92,689.26 million in Fiscal 2020 and to \u20b94,157.43 million in Fiscal 2021, and from\n\u20b92,974.92 million for the nine months period ended December 31, 2020 to \u20b98,911.39 million for the nine months\nperiod ended December 31, 2021. Our total income increased from \u20b916,948.74 million in Fiscal 2019 to\n\u20b929,886.29 million in Fiscal 2020 and to \u20b938,382.91 million in Fiscal 2021, and from \u20b928,065.29 million for the\nnine months period ended December 31, 2020 to \u20b949,114.06 million for the nine months period ended December\n31, 2021. Our fair value loss on financial liabilities at fair value through profit or loss as a percentage of revenue\nfrom contract with customers was 89.53%, nil, 0.25%, nil, and 6.23% in Fiscal 2019, Fiscal 2020, Fiscal 2021\nand the nine months periods ended December 31, 2020 and December 31, 2021, respectively.\nOur profit/(loss) after tax margin improved from (105.22)% in Fiscal 2019 to (9.00)% in Fiscal 2020 and decreased\nslightly to (10.83)% in Fiscal 2021, and further declined from (10.60)% in the nine months period ended December\n31, 2020 to (18.14)% in the nine months period ended December 31, 2021. Our EBITDA margin improved from\n(8.29)% in Fiscal 2019 to (6.19)% in Fiscal 2020 and to (2.75)% in Fiscal 2021, while declining from (3.37)% in\nthe nine months period ended December 31, 2020 to (4.82)% in the nine months period ended December 31, 2021.\nOur Adjusted EBITDA margin has improved from (11.35%) in Fiscal 2019 to (9.11%) in Fiscal 2020 and to\n(6.95%) in Fiscal 2021 and from (8.06%) for the nine months period ended December 31, 2020 to (0.72%) for the\nnine months period ended December 31, 2021. Further, our customer Retention Rate for top 100 customers (by\nrevenue in the respective Fiscal) was 93.00%, 100.00%, and 92.00% for Fiscal 2019, Fiscal 2020 and Fiscal 2021,\nrespectively.\nAs the scale of our business grows further, we expect to improve our ability to absorb fixed expenses, increase\nresource utilisation, enhance employee efficiency and improve our profitability. For example, our revenue from\ncontracts with customers has improved from \u20b916,538.97 million in Fiscal 2019 to \u20b936,465.27 million in Fiscal\n2021 and \u20b948,105.30 million for nine months period ended December 31, 2021, while during the same period, (i)\nour other expenses as a percentage of our revenue from contracts with customers decreased from 11.87% in Fiscal\n2019 to 9.90% in Fiscal 2021 and 8.78% for the nine months period ended December 31, 2021, (ii) our employee\nbenefit expense as a percentage of our revenue from contracts with customers decreased from 20.84% in Fiscal\n2019 to 16.75% in Fiscal 2021, but increased to 20.22% for the nine months period ended December 31, 2021,\nand (iii) our fair value loss on financial liabilities at fair value through profit or loss decreased from 89.53% in\nFiscal 2019 to 0.25% in Fiscal 2021 and increased to 6.23% for the nine months period ended December 31, 2021.\nAs a result, as a percentage of our revenue from contracts with customers, our restated losses improved from\n107.82% in Fiscal 2019 to 11.40% in Fiscal 2021, then increased to 18.52% for the nine months period ended\nDecember 31, 2021. Our total income increased from \u20b916,948.74 million in Fiscal 2019 to \u20b929,886.29 million in\nFiscal 2020 and to \u20b938,382.91 million in Fiscal 2021, and to \u20b949,114.06 million for the nine months period ended\nDecember 31, 2021. Our fair value loss on financial liabilities at fair value through profit or loss as a percentage\n</text>\n</passage>\n\n<passage id=\"58\">\n<context>\n[section]\nRapid growth, extensive scale and improvement in unit economics\n</context>\n<text>\nAs a result, as a percentage of our revenue from contracts with customers, our restated losses improved from\n107.82% in Fiscal 2019 to 11.40% in Fiscal 2021, then increased to 18.52% for the nine months period ended\nDecember 31, 2021. Our total income increased from \u20b916,948.74 million in Fiscal 2019 to \u20b929,886.29 million in\nFiscal 2020 and to \u20b938,382.91 million in Fiscal 2021, and to \u20b949,114.06 million for the nine months period ended\nDecember 31, 2021. Our fair value loss on financial liabilities at fair value through profit or loss as a percentage\nof revenue from contract with customers was 89.53%, nil, 0.25%, nil, and 6.23% in Fiscal 2019, Fiscal 2020,\nFiscal 2021 and the nine months period ended December 31, 2020 and December 31, 2021, respectively.Our\nprofit/(loss) after tax margin improved from (105.22)% in Fiscal 2019 to (9.00)% in Fiscal 2020 and decreased\nslightly to (10.83)% in Fiscal 2021 and to (18.14)% in the nine months period ended December 31, 2021. Our\nEBITDA margin improved from (8.29)% in Fiscal 2019 to (6.19)% in Fiscal 2020 and to (2.75)% in Fiscal 2021,\nwhile declining to (4.82)% in the nine months period ended December 31, 2021. Our Adjusted EBITDA margin\nimproved from (11.35)% in Fiscal 2019 to (6.95)% in Fiscal 2021 and (0.72)% for the nine months period ended\nDecember 31, 2021. This was partially offset by continued investments in our platform due to the rapidly\nincreasing demand for our services and disruptions caused by COVID-19 for the nine months period ended\nDecember 31, 2021. Share based payment expenses corresponding to ESOPs are excluded from Adjusted\nEBITDA calculation. We granted 7,032,500, 5,212,400, 11,742,700 and 22,220,370 ESOPs to our employees\nduring Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months period ended December 31, 2021, and 805,879\noptions thereafter until the date of this Prospectus. Our Company is required to follow Ind AS 102 Share Based\nPayments in accounting for ESOPs granted. In accordance with Ind AS 102 Share Based Payments, the cost of\nESOPs is recognised as share based payment expenses in the profit and loss statement together with a\ncorresponding increase in share-based payment reserves in equity, over the vesting period of these ESOPs. Please\nsee \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations \u2013 Non GAAP\nFinancial Measures \u2013 Adjusted EBITDA and Adjusted EBITDA Margin\u201d on page 544 for more details.\u201d\nOur proprietary logistics operating system\nOur team of 505 engineering, data sciences and product professionals (excluding Spoton), as of December 31,\n2021, has built proprietary technology systems that enable us to offer integrated logistics services to a wide variety\nof customers. Our technology stack consists of more than 80 applications that encompass all supply chain\nprocesses including order management, warehouse management, transportation management, financial\n\n\n227\ntransactions such as billing and remittance, tracking and supply chain analytics, and that integrate with our\ncustomers\u2019 systems.\nOur robust, scalable and service-agnostic architecture enables us to:\n\u2022\nConfigure new workflows, define rules and business logic in applications, facilitating rapid launch of new\nservice offerings (e.g., repurposing e-commerce parcel applications to support BFSI).\n\u2022\nSupport interoperability with any physical or software services in a plug-and-play manner (e.g., easily on-\nboard any sortation systems, handheld devices or new hardware, independent of underlying firmware).\n\u2022\nEnable partners like franchisees, retail partners and delivery agents to onboard their physical assets and\nresources on our platform, allowing us to seamlessly scale network capacity up or down.\n\u2022\nDrive cross-utilisation of resources and assets across business lines to improve service quality and reduce\ncosts (e.g., sharing mid-mile operations between our parcel and PTL freight operations).\n\u2022\nLaunch and scale complex, integrated products like Fulfilled by Delhivery (FBD) - an E2E fast- fulfilment\n</text>\n</passage>\n\n<passage id=\"59\">\n<context>\n[section]\nOur proprietary logistics operating system\n</context>\n<text>\nEnable partners like franchisees, retail partners and delivery agents to onboard their physical assets and\nresources on our platform, allowing us to seamlessly scale network capacity up or down.\n\u2022\nDrive cross-utilisation of resources and assets across business lines to improve service quality and reduce\ncosts (e.g., sharing mid-mile operations between our parcel and PTL freight operations).\n\u2022\nLaunch and scale complex, integrated products like Fulfilled by Delhivery (FBD) - an E2E fast- fulfilment\noffering targeted at D2C e-commerce companies and brands.\n\u2022\nCollect and analyse data from all our applications, allowing us to build visibility tools and provide near real-\ntime data decision support systems to our operational teams.\n\u2022\nMake operations precise with real time tracking, and more efficient with data insights on operations.\nVast data intelligence capabilities\nWe collect, store, process, structure and analyze vast quantities of transaction data such as location data, product\ninformation, shipper and consignee information, data from operational facilities, activities and devices,\nperformance data for our field teams, data on traffic and weather from several internal and environmental sources.\nAs we have expanded operations and business lines, we have grown access to new sources of data and,\nsimultaneously, our ability to draw insights from these data. This is one of our most valuable assets.\nWe use machine learning, artificial intelligence and operations research to build institutional intelligence,\nautomation and dynamic optimization capabilities that enable us to solve several complex operational problems,\nsome of which are described below.\n\u2022\nExpected path algorithms dynamically modify shipment routes to maximize trip utilization while\nsimultaneously ensuring prioritized loading of shipments vulnerable to service breaches.\n\u2022\nNetwork simulation tools enable forecasting of service and cost impact of changes due to new network routes\nor changes in capacities of existing routes.\n\u2022\nOur automated network planner constantly alerts our network and operations teams to alter the network\nstructure in response to changing demand patterns.\n\u2022\nWe are able to forecast delays and expected loads across our network, allowing our control tower teams to\ndeploy service recovery interventions.\n\u2022\nLocation intelligence has allowed us to bypass unstructured addresses and unpredictable travel/service times.\n\u2022\nWe identify potential fraud and high-risk orders based on shipper and consignee information collected on\nover a billion delivered orders.\n\u2022\nProduct intelligence tools enable us to identify items like air-restricted or HAZMAT goods, select appropriate\ndelivery vehicles and reduce revenue loss through weight and volume predictions.\n\u2022\nWe use machine-vision to provide inputs to our gateway teams to improve the quality of loading of trucks and\noverall truck utilization levels.\nIn 2020, these capabilities enabled us to activate over 8,300 PIN codes within 10 days of the nation-wide COVID-\n19 lockdown and re-establish operations across our network by enabling us to identify essential goods and\ncontainment zones from unstructured lists published by local, state and national authorities.\nIn Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and December\n31, 2021, our investments in technology which comprised investments in team and other infrastructure for data\n\n\n228\nIntelligence, proprietary logistics operating system, cyber security, hardware, software, cloud infrastructure were\n\u20b9943.61 million, \u20b91,377.34 million, \u20b91,701.66 million, \u20b91,288.17 million and \u20b92,418.03 million, respectively.\nOur network design and engineering\nOur network operates as a dense, dynamic mesh, making it efficient, fast and agile in responding to changes in\nvolumes, shipment profiles and environmental conditions. The mesh structure allows us to reduce overall\ntouchpoints in the journey of shipments through the network, reducing handling and improving precision, while\n</text>\n</passage>\n\n<passage id=\"60\">\n<context>\n[section]\nVast data intelligence capabilities\n</context>\n<text>\nIntelligence, proprietary logistics operating system, cyber security, hardware, software, cloud infrastructure were\n\u20b9943.61 million, \u20b91,377.34 million, \u20b91,701.66 million, \u20b91,288.17 million and \u20b92,418.03 million, respectively.\nOur network design and engineering\nOur network operates as a dense, dynamic mesh, making it efficient, fast and agile in responding to changes in\nvolumes, shipment profiles and environmental conditions. The mesh structure allows us to reduce overall\ntouchpoints in the journey of shipments through the network, reducing handling and improving precision, while\nalso allowing us to utilize multiple feasible trans-shipment paths in periods of volatility.\nOur mesh network illustration \u2013 not a depiction of the map\nIn addition, our facilities, systems and processes are engineered for high throughput operations. As per the\nRedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer,\namongst independent e-commerce focused logistics players, we have made the highest investments in technology\nand automation (in warehouse and sortation centers) and have built the largest technology team of engineers,\ndevelopers and data scientists. We have designed and developed in-house capabilities in hardware design (for\nexample, in packaging), automation and integration for shipment sortation, box/bag sortation, and weighing and\ndimensioning. These automated systems are fully integrated with our logistics operating system, thereby reducing\nhuman intervention.\nA high degree of in-facility automation and shorter trunk routes in the last mile, due to our dense mesh network,\nalso creates a work environment wherein our operational staff is placed under reduced physical and\ndecision-making stress while improving productivity and earnings. This significantly contributes to the health,\nsafety and wellness of our employees.\nOur integrated portfolio of logistics services\nWe were the largest and fastest growing fully-integrated logistics services player in India by revenue as of Fiscal\n2021, as per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with\nthe Offer. Our aim is to meet our customers\u2019 requirements for overall, rather than mono-line, supply chain\nreliability and efficiency. We provide a full-range of logistics services, including express parcel delivery, heavy\ngoods delivery, PTL freight, TL freight, warehousing, supply chain solutions, cross border express and freight\nservices and supply chain software, along with value added services such as e-commerce return services, payment\ncollection and processing, installation and assembly services and fraud detection. We believe this will lead to a\nhigher share of wallet and customer retention.\nIn addition, the integrated approach allows us to exploit network and infrastructure synergies, reduces our\ndependence on any single business line and also reduces the effect of cyclicality in our customers\u2019 businesses on\nour operations. For instance, our express parcel business sees festival and sale-driven volatility that is offset by\nour part-truckload business. This ultimately leads to lower costs and greater reliability due to our ability to operate\nwith higher fixed capacities, balance network inefficiencies (like PTL or truckload backhaul) and share\ninfrastructure and operational costs across business lines. For example, our restated loss for the year has improved\nfrom \u20b917,833.04 million in Fiscal 2019 to \u20b92,689.26 million in Fiscal 2020 and to \u20b94,157.43 million in Fiscal\n2021, and from \u20b92,974.92 million for the nine months period ended December 31, 2020 to \u20b98,911.39 million for\nthe nine months period ended December 31, 2021. Our total income increased from \u20b916,948.74 million in Fiscal\n2019 to \u20b929,886.29 million in Fiscal 2020 and to \u20b938,382.91 million in Fiscal 2021, and from \u20b928,065.29 million\nfor the nine months period ended December 31, 2020 to \u20b949,114.06 million for the nine months period ended\n\n\n229\nDecember 31, 2021. Our fair value loss on financial liabilities at fair value through profit or loss as a percentage\n</text>\n</passage>\n\n<passage id=\"61\">\n<context>\n[section]\nOur integrated portfolio of logistics services\n</context>\n<text>\n2021, and from \u20b92,974.92 million for the nine months period ended December 31, 2020 to \u20b98,911.39 million for\nthe nine months period ended December 31, 2021. Our total income increased from \u20b916,948.74 million in Fiscal\n2019 to \u20b929,886.29 million in Fiscal 2020 and to \u20b938,382.91 million in Fiscal 2021, and from \u20b928,065.29 million\nfor the nine months period ended December 31, 2020 to \u20b949,114.06 million for the nine months period ended\n\n\n229\nDecember 31, 2021. Our fair value loss on financial liabilities at fair value through profit or loss as a percentage\nof revenue from contract with customers was 89.53%, nil, 0.25%, nil and 6.23% in Fiscal 2019, Fiscal 2020,\nFiscal 2021 and the nine months periods ended December 31, 2020 and December 31, 2021, respectively.Our\nprofit/(loss) after tax margin improved from (105.22)% in Fiscal 2019 to (9.00)% in Fiscal 2020 and decreased\nslightly to (10.83)% in Fiscal 2021, and further declined from (10.60)% in the nine months period ended\nDecember 31, 2020 to (18.14)% in the nine months period ended December 31, 2021. Our EBITDA margin\nimproved from (8.29)% in Fiscal 2019 to (6.19)% in Fiscal 2020 and to (2.75)% in Fiscal 2021, while declining\nfrom (3.37)% in the nine months period ended December 31, 2020 to (4.82)% in the nine months period ended\nDecember 31, 2021. Our Adjusted EBITDA Margin has improved from (11.35%) in Fiscal 2019 to (9.11%) in\nFiscal 2020 and to (6.95%) in Fiscal 2021 and from (8.06%) for the nine months period ended December 31,\n2020 to (0.72%) for the nine months period ended December 31, 2021. Further, our customer Retention Rate for\nmaterial customers, that is for the top 100 customers (by revenue in the respective Fiscal) was 93.00%, 100.00%,\nand 92.00% for Fiscal 2019, Fiscal 2020 and Fiscal 2021, respectively.\nStrong relationships with a diverse customer base\nWe served a diverse base of 23,113 Active Customers (excluding those serviced by Spoton) across e-commerce,\nconsumer durables, electronics, lifestyle, FMCG, industrial goods, automotives, healthcare and retail, for the nine\nmonths period ended December 31, 2021. As of December 31, 2021, this customer base included most of the key\ne-commerce players in India and over 750 D2C brands. In addition, Spoton offers PTL freight services to 5,533\nActive Customers across industry verticals. Several of our customers use more than one of our service offerings,\nwith 58.13% of our revenue for the nine months period ended December 31, 2021 coming from customers who\nhad used at least two of our services.\nOur service quality, reach and efficiency, coupled with deep integration with customers\u2019 ERP systems and\nbusiness processes have led to customer stickiness. In the first half of Fiscal 2022, 64.97% of our revenues were\nfrom customers who have been transacting with us for over three years. Our customers have also steadily\nincreased the volume of business they undertake with us over time.\nExtensive ecosystem of partners, enabling an asset-light business model and extended reach\nWe have built an asset-light business model that has enabled us to scale up volumes rapidly, with lower fixed\ncosts and greater flexibility. While we design, operate and control our most critical network nodes (fulfilment\ncenters and gateways), partners play a significant role in all our other operations - pickup, mid-mile (trucking and\nair) and last-mile delivery. This enables us to maintain control over operational quality metrics and improve\noverall network performance.\nWe lease a majority of our network infrastructure and a majority of the vehicles operating in our network. As of\nDecember 31, 2021, excluding Spoton, we operated 14.27 million square ft. of leased infrastructure and partnered\nwith over 11,000 vendors and network partners who provide pickup, delivery services and truckload capacity.\nOur network partners are supported by our technology systems, empowering them to grow their business by\noffering multiple Delhivery services in their catchment areas. For example, last mile delivery agents in our\n</text>\n</passage>\n\n<passage id=\"62\">\n<context>\n[section]\nStrong relationships with a diverse customer base\n</context>\n<text>\nWe lease a majority of our network infrastructure and a majority of the vehicles operating in our network. As of\nDecember 31, 2021, excluding Spoton, we operated 14.27 million square ft. of leased infrastructure and partnered\nwith over 11,000 vendors and network partners who provide pickup, delivery services and truckload capacity.\nOur network partners are supported by our technology systems, empowering them to grow their business by\noffering multiple Delhivery services in their catchment areas. For example, last mile delivery agents in our\nConstellation program are also able to extend our last mile reach, capitalize on their local knowledge and\nautonomously offer express parcel, part-truckload freight and cross-border express and freight services to SME\nand retail customers in their catchment areas, backed by our full nationwide network, service precision and cost\nefficiency.\nOur ability to develop mutually beneficial partnerships and strategic alliances with large international players\nsuch as Aramex and FedEx has enabled us to further expand our reach outside India by leveraging their global\nnetworks without having to incur additional fixed costs.\nHighly qualified, professional team\nOur biggest competitive advantage is, ultimately, our experienced and entrepreneurial team.\nOur teams are composed of people from diverse backgrounds who bring perspective from industries like global\nlogistics,\ntechnology\nservices,\nfinancial\nservices,\nmanagement\nconsulting,\ne-commerce,\nFMCG,\ntelecommunications and armed forces. We have also invested significantly in training and upskilling front-line\noperations personnel via the Delhivery Academy, with the aim of building our next generation of operational\nleadership from within the line organization. These teams have introduced and delivered a continuous stream of\ntechnology and operational innovations since our inception and built the \u201cDelhivery\u201d culture of first-principles\n\n\n230\nthinking, innovation, ownership, customer centricity and community responsibility. We also aim to foster a\nculture of ownership through our ESOP program.\nOUR STRATEGY\nExpand investments in infrastructure and network\nWe will continue to expand our operational capabilities and expand network infrastructure and capacity across\nbusiness lines. We have commissioned mega-gateways that will go live in Tauru (Haryana), Bhiwandi\n(Maharashtra) and Bengaluru (Karnataka). We expect to build new integrated facilities and mega-gateways in\nmajor cities, further expand capacity at existing automated sort centers, commission new sorters at strategic\nlocations and invest in portable automation to enhance capacity at collection and return centers and intermediate\nprocessing centers. We will also continue to expand our network of fulfilment centers and in-city micro-fulfilment\ncenters to expand our \u201cFulfilled by Delhivery\u201d and \u201cDelhivery Flash\u201d offerings to vertical e-commerce, D2C and\nbrand customers.\nContinue to build scale in existing business lines\nWe intend to continue to invest to gain scale and increase market share across business lines. We are in the process\nof integrating the Spoton and Delhivery infrastructure and technology systems, in order to enable us to deepen\nsynergies between our part truckload and express parcel businesses, while also creating larger base volumes for\nour truckload freight exchange. This will allow us to further expand critical infrastructure nodes and further\nexpand tractor-trailer operations and truck utilization across our network. We also expect to continue to improve\noperational productivity through automation and technology systems.\nIn addition, partnerships such as the ones with Aramex and our strategic alliance with FedEx offer us the\nopportunity to combine the strength of our global partners\u2019 extensive network with our domestic leadership and\nrapidly scale up our new cross border business.\nAs these initiatives deliver cost savings, in keeping with our overall aim of reducing our customers\u2019 total supply\n</text>\n</passage>\n\n<passage id=\"63\">\n<context>\n[section]\nContinue to build scale in existing business lines\n</context>\n<text>\nexpand tractor-trailer operations and truck utilization across our network. We also expect to continue to improve\noperational productivity through automation and technology systems.\nIn addition, partnerships such as the ones with Aramex and our strategic alliance with FedEx offer us the\nopportunity to combine the strength of our global partners\u2019 extensive network with our domestic leadership and\nrapidly scale up our new cross border business.\nAs these initiatives deliver cost savings, in keeping with our overall aim of reducing our customers\u2019 total supply\nchain spending, we will continue to pass on efficiency gains to our partners and customers, which in turn will help\nus increase share of wallet and volumes, leading to further cost savings.\nDeepen our customer relationships\nWe will continue to expand wallet share with existing customers by designing customized and integrated supply\nchain solutions for their specific needs and industries and introducing practices from our experiences with other\ncustomers. For example, we have successfully introduced good quality packaging and handling guidelines\ndesigned for certain customers into our manufacturing customers\u2019 supply chains. Similarly, we have enabled\ncertain auto spare parts manufacturers to mimic e-commerce like delivery times through distributed order\nfulfilment.\nIn addition, we intend to increase our penetration of new industries like healthcare, distribution and agriculture,\namong others. Acquisition of Spoton has further expanded our customer base. We will also intend to launch new\nservices and capabilities such as traditional non-express PTL freight, domestic air-freight, intra-city distribution,\nand temperature-controlled logistics to expand our value proposition to existing and new customers.\nEnhance our technology (software and hardware) capabilities\nWe will continue to reinforce our innovation capabilities by building innovative technology and data systems and\ninvesting in the best engineering talent.\nWe will also continue to develop and deploy future-ready hardware solutions in our operations. We are in the\nprocess of deploying automatic guided vehicles, automatic storage and retrieval systems and unmanned aerial\nvehicles for parcel sortation, material conveyance or last mile delivery, and customized \u201csoft robotics\u201d or\n\u201cexoskeleton\u201d products to reduce fatigue for workers engaged in repetitive, labour-intensive tasks such as loading\nand unloading. We have also begun to transition more of our cargo and two-wheeler fleet to electric vehicles. In\naddition, we are also testing UAV operations for specialized delivery use-cases and scaling up our capabilities in\nmachine vision.\nWe will also continue to expand our collaboration with renowned research institutions to develop new hardware\n\n\n231\nand systems, and also invest in growing our team of experienced professionals including software and hardware\nengineers, data scientists, machine learning engineers, machine vision domain experts, product managers and\nproduct designers. We have set up technology development centres in Gurugram (Haryana), Hyderabad\n(Telangana), Goa and Bengaluru (Karnataka) in India and in Seattle in the United States and intend to add new\ncenters in India, as well as in Europe, Middle East and Southeast Asia.\nExternalise our logistics operating system\nOur logistics OS has enabled us to set up an interoperable and flexible network by establishing common standards\nfor data governance and information exchange, and allowing multiple product teams to create generic, as well as\ncustom/ purpose-built applications across our various business lines. It has also facilitated machine learning and\nartificial intelligence driven real-time business decision making in our day-to-day operations.\nWe believe that the common standards and guidelines enabled by our OS drive efficiency within the Delhivery\nnetwork and can also reduce high inefficiency costs across traditional siloed supply chain and logistics systems\nglobally. In addition, the ease of use of the underlying logistics OS can be leveraged by new players to create\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Delhivery has delivered more than 1.2 billion shipments since incorporation.",
+        "confidence": 1.0,
+        "passage_id": 48,
+        "predicate": "shipments_delivered_since_incorporation",
+        "qualifiers": [],
+        "quote": "We have delivered more than 1.2 billion shipments since incorporation.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "more than 1.2 billion"
+        }
+      },
+      {
+        "claim_text": "Delhivery's express parcel shipment volume was 148.49 million orders in Fiscal 2019.",
+        "confidence": 1.0,
+        "passage_id": 48,
+        "predicate": "express_parcel_shipment_volume",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2019"
+          }
+        ],
+        "quote": "Our shipment volume grew from 148.49 million orders in Fiscal 2019",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "148.49 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery's express parcel shipment volume was 289.20 million orders in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 48,
+        "predicate": "express_parcel_shipment_volume",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "to 289.20 million orders in Fiscal 2021",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "289.20 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery delivered 406.51 million shipments for the nine months period ended December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 48,
+        "predicate": "express_parcel_shipment_volume",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "For the nine months period ended December 31, 2021, we delivered 406.51 million shipments.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "406.51 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery had 20,498 Active Customers using its express parcel delivery services for the nine months period ended December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 48,
+        "predicate": "active_customers_express_parcel",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "For the nine months period ended December 31, 2021, 20,498 Active Customers used our express parcel delivery services.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "20,498"
+        }
+      },
+      {
+        "claim_text": "Delhivery's peak daily parcel pick-up volume was 3.29 million parcels for the nine months period ended December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "peak_daily_parcel_pickup_volume",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "to 3.29 million parcels for the nine months period ended December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "3.29 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery's express parcel delivery network serviced 17,488 PIN codes for the nine months period ended December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "express_parcel_pin_codes_serviced",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "Our express parcel delivery network, which serviced 17,488 PIN codes for the nine months period ended December 31, 2021",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "17,488"
+        }
+      },
+      {
+        "claim_text": "Delhivery's heavy goods shipment volume was 5.26 million shipments in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "heavy_goods_shipment_volume",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "to 5.26 million shipments in Fiscal 2021 on an annual basis.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.26 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery had 264 Active Customers using its heavy goods services for the nine months period ended December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "active_customers_heavy_goods",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "For the nine months period ended December 31, 2021, 264 e-commerce, enterprise and D2C Active Customers used our heavy goods services.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "264"
+        }
+      },
+      {
+        "claim_text": "Delhivery delivered 373,854 tonnes of PTL freight in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "ptl_freight_delivered",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "In Fiscal 2021, we delivered 373,854 tonnes of freight",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "373,854",
+          "unit": "tonnes"
+        }
+      },
+      {
+        "claim_text": "Spoton delivered 758,730 tonnes of freight in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "freight_delivered",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "Spoton delivered 758,730 tonnes and 683,999 tonnes of freight in Fiscal 2021",
+        "subject_key": null,
+        "subject_surface": "Spoton",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "758,730",
+          "unit": "tonnes"
+        }
+      },
+      {
+        "claim_text": "Spoton had 2.85 million sq. ft. of infrastructure as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 49,
+        "predicate": "infrastructure_area",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "with 2.85 million sq. ft. of infrastructure as of December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Spoton",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.85 million",
+          "unit": "sq. ft."
+        }
+      },
+      {
+        "claim_text": "Delhivery, together with Spoton, had over 7,900 Active Customers for the nine months period ended December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "active_customers_ptl_freight",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "Together with Spoton"
+          }
+        ],
+        "quote": "Together with Spoton, we had over 7,900 Active Customers for the nine months period ended December 31, 2021",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "over 7,900"
+        }
+      },
+      {
+        "claim_text": "The Orion platform had 449 Active Customers as of Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "active_customers",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "As of Fiscal 2021, we had 449 Active Customers",
+        "subject_key": null,
+        "subject_surface": "Orion platform",
+        "subject_type": "platform",
+        "value": {
+          "kind": "quantity",
+          "raw": "449"
+        }
+      },
+      {
+        "claim_text": "More than 75,000 trucks have been registered on the Orion platform as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 50,
+        "predicate": "registered_trucks",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "more than 75,000 trucks have been registered on the Orion platform",
+        "subject_key": null,
+        "subject_surface": "Orion platform",
+        "subject_type": "platform",
+        "value": {
+          "kind": "quantity",
+          "raw": "more than 75,000"
+        }
+      },
+      {
+        "claim_text": "Delhivery operated over 6.08 million square ft. of warehousing infrastructure as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 51,
+        "predicate": "warehousing_infrastructure_area",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "we operated over 6.08 million square ft. of warehousing infrastructure",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "over 6.08 million",
+          "unit": "square ft."
+        }
+      },
+      {
+        "claim_text": "Delhivery operated 81 warehouses as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 51,
+        "predicate": "warehouses_operated",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "across 81 warehouses",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "81"
+        }
+      },
+      {
+        "claim_text": "Delhivery had 77 Active Customers using its supply chain services solutions for the nine months period ended December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 51,
+        "predicate": "active_customers_supply_chain_services",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "For the nine months period ended December 31, 2021, 77 Active Customers used our supply chain services solutions.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "77"
+        }
+      },
+      {
+        "claim_text": "Delhivery had 407 Active Customers availing its cross-border shipping services in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 51,
+        "predicate": "active_customers_cross_border",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "In Fiscal 2021, we had 407 Active Customers availing our cross-border shipping services",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "407"
+        }
+      },
+      {
+        "claim_text": "Delhivery's revenue from sale of traded goods was \u20b9110.89 million in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 51,
+        "predicate": "revenue_sale_of_traded_goods",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "Our revenue from sale of traded goods was nil, \u20b957.50 million, \u20b9110.89 million, \u20b988.14 million and \u20b91,874.74 million for Fiscal 2019, Fiscal 2020 and Fiscal 2021",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b9110.89 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery's network infrastructure included 122 gateways as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 52,
+        "predicate": "gateways_count",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "Our network infrastructure includes 122 gateways",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "122"
+        }
+      },
+      {
+        "claim_text": "Delhivery's network infrastructure included 21 automated sort centres as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 52,
+        "predicate": "automated_sort_centres_count",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "21 automated sort centres",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "21"
+        }
+      },
+      {
+        "claim_text": "Delhivery acquired 34.55% of the share capital of Falcon on December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 52,
+        "predicate": "falcon_share_capital_acquired",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "fully-diluted basis"
+          }
+        ],
+        "quote": "On December 31, 2021, we acquired 34.55% of the share capital (on a fully-diluted basis) of Falcon",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "34.55%"
+        }
+      },
+      {
+        "claim_text": "Delhivery operated 93 fulfilment centres as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 53,
+        "predicate": "fulfilment_centres_count",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "we operated 93 fulfilment centres",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "93"
+        }
+      },
+      {
+        "claim_text": "Delhivery's fulfilment centres had an aggregate floor area of 6.25 million square feet as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 53,
+        "predicate": "fulfilment_centres_floor_area",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "with an aggregate floor area of 6.25 million square feet",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.25 million",
+          "unit": "square feet"
+        }
+      },
+      {
+        "claim_text": "Delhivery operated 132 intermediate processing centers as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 53,
+        "predicate": "intermediate_processing_centers_count",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "We operated 132 intermediate processing centers, as of December 31, 2021",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "132"
+        }
+      },
+      {
+        "claim_text": "Delhivery operated 3,730 delivery centres as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 53,
+        "predicate": "delivery_centres_count",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          }
+        ],
+        "quote": "we operated 3,730 delivery centres",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "3,730"
+        }
+      },
+      {
+        "claim_text": "During the nine months period ended December 31, 2021, 99.52% of Delhivery's trucks and other transportation vehicles were leased from third-party fleet partners.",
+        "confidence": 1.0,
+        "passage_id": 54,
+        "predicate": "leased_vehicles_percentage",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          }
+        ],
+        "quote": "During the nine months period ended December 31, 2021, 99.52% of our trucks and other transportation vehicles were leased from third-party fleet partners.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "99.52%"
+        }
+      },
+      {
+        "claim_text": "Delhivery had an engineering, data sciences and product team of 505 professionals as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 54,
+        "predicate": "engineering_data_sciences_product_team_size",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "excluding Spoton"
+          }
+        ],
+        "quote": "We had an engineering, data sciences and product team of 505 professionals (excluding Spoton) as of December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "505"
+        }
+      },
+      {
+        "claim_text": "Delhivery has over 80 applications through which it provides various services.",
+        "confidence": 1.0,
+        "passage_id": 55,
+        "predicate": "applications_count",
+        "qualifiers": [],
+        "quote": "We have over 80 applications through which we provide various services",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "over 80"
+        }
+      },
+      {
+        "claim_text": "Delhivery's revenue from contracts with customers was \u20b916,538.97 million in Fiscal 2019.",
+        "confidence": 1.0,
+        "passage_id": 56,
+        "predicate": "revenue_from_contracts_with_customers",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2019"
+          }
+        ],
+        "quote": "Our revenue from contracts with customers has grown from \u20b916,538.97 million in Fiscal 2019",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b916,538.97 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery's revenue from contracts with customers was \u20b936,465.27 million in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 56,
+        "predicate": "revenue_from_contracts_with_customers",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "to \u20b936,465.27 million in Fiscal 2021",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b936,465.27 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery processed 47.37 million orders through its fulfilment centers in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 56,
+        "predicate": "orders_processed_fulfilment_centers",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "processed 47.37 million orders through our fulfilment centers",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "47.37 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery completed more than 46,878 truckload movements in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 56,
+        "predicate": "truckload_movements_completed",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "completed more than 46,878 truckload movements.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "more than 46,878"
+        }
+      },
+      {
+        "claim_text": "Delhivery's restated loss for the year was \u20b917,833.04 million in Fiscal 2019.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "restated_loss",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2019"
+          }
+        ],
+        "quote": "our restated loss for the year has improved from \u20b917,833.04 million in Fiscal 2019",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b917,833.04 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery's total income was \u20b916,948.74 million in Fiscal 2019.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "total_income",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2019"
+          }
+        ],
+        "quote": "Our total income increased from \u20b916,948.74 million in Fiscal 2019",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b916,948.74 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery's Adjusted EBITDA margin was (11.35%) in Fiscal 2019.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "adjusted_ebitda_margin",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2019"
+          }
+        ],
+        "quote": "Our Adjusted EBITDA margin has improved from (11.35%) in Fiscal 2019",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(11.35%)"
+        }
+      },
+      {
+        "claim_text": "Delhivery's customer Retention Rate for top 100 customers was 93.00% for Fiscal 2019.",
+        "confidence": 1.0,
+        "passage_id": 57,
+        "predicate": "customer_retention_rate_top_100",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2019"
+          }
+        ],
+        "quote": "our customer Retention Rate for top 100 customers (by revenue in the respective Fiscal) was 93.00%",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "93.00%"
+        }
+      },
+      {
+        "claim_text": "Delhivery granted 7,032,500 ESOPs to its employees during Fiscal 2019.",
+        "confidence": 1.0,
+        "passage_id": 58,
+        "predicate": "esops_granted",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2019"
+          }
+        ],
+        "quote": "We granted 7,032,500, 5,212,400, 11,742,700 and 22,220,370 ESOPs to our employees during Fiscal 2019",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "7,032,500"
+        }
+      },
+      {
+        "claim_text": "Delhivery granted 11,742,700 ESOPs to its employees during Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 58,
+        "predicate": "esops_granted",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "11,742,700 and 22,220,370 ESOPs to our employees during Fiscal 2019, Fiscal 2020, Fiscal 2021",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "11,742,700"
+        }
+      },
+      {
+        "claim_text": "Delhivery's investments in technology were \u20b91,701.66 million in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 59,
+        "predicate": "technology_investments",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "our investments in technology which comprised investments in team and other infrastructure for data Intelligence, proprietary logistics operating system, cyber security, hardware, software, cloud infrastructure were \u20b9943.61 million, \u20b91,377.34 million, \u20b91,701.66 million",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b91,701.66 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery's total income was \u20b938,382.91 million in Fiscal 2021.",
+        "confidence": 1.0,
+        "passage_id": 60,
+        "predicate": "total_income",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "Fiscal 2021"
+          }
+        ],
+        "quote": "to \u20b938,382.91 million in Fiscal 2021",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "\u20b938,382.91 million"
+        }
+      },
+      {
+        "claim_text": "Delhivery served a diverse base of 23,113 Active Customers for the nine months period ended December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 61,
+        "predicate": "active_customers",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months period ended December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "excluding Spoton"
+          }
+        ],
+        "quote": "We served a diverse base of 23,113 Active Customers (excluding those serviced by Spoton) across e-commerce, consumer durables, electronics, lifestyle, FMCG, industrial goods, automotives, healthcare and retail, for the nine months period ended December 31, 2021.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "23,113"
+        }
+      },
+      {
+        "claim_text": "Spoton offers PTL freight services to 5,533 Active Customers.",
+        "confidence": 1.0,
+        "passage_id": 61,
+        "predicate": "active_customers_ptl_freight",
+        "qualifiers": [],
+        "quote": "In addition, Spoton offers PTL freight services to 5,533 Active Customers across industry verticals.",
+        "subject_key": null,
+        "subject_surface": "Spoton",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "5,533"
+        }
+      },
+      {
+        "claim_text": "Delhivery operated 14.27 million square ft. of leased infrastructure as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 61,
+        "predicate": "leased_infrastructure_area",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "stated",
+            "value": "excluding Spoton"
+          }
+        ],
+        "quote": "As of December 31, 2021, excluding Spoton, we operated 14.27 million square ft. of leased infrastructure",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "14.27 million",
+          "unit": "square ft."
+        }
+      },
+      {
+        "claim_text": "Delhivery partnered with over 11,000 vendors and network partners as of December 31, 2021.",
+        "confidence": 1.0,
+        "passage_id": 62,
+        "predicate": "vendors_and_network_partners_count",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "inherited",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "scope",
+            "provenance": "inherited",
+            "value": "excluding Spoton"
+          }
+        ],
+        "quote": "partnered with over 11,000 vendors and network partners who provide pickup, delivery services and truckload capacity.",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "over 11,000"
+        }
+      },
+      {
+        "claim_text": "Delhivery has set up technology development centres in Gurugram, Hyderabad, Goa, Bengaluru, and Seattle.",
+        "confidence": 1.0,
+        "passage_id": 63,
+        "predicate": "technology_development_centres_locations",
+        "qualifiers": [],
+        "quote": "We have set up technology development centres in Gurugram (Haryana), Hyderabad (Telangana), Goa and Bengaluru (Karnataka) in India and in Seattle in the United States",
+        "subject_key": null,
+        "subject_surface": "Delhivery",
+        "subject_type": "company",
+        "value": {
+          "kind": "text",
+          "raw": "Gurugram (Haryana), Hyderabad (Telangana), Goa and Bengaluru (Karnataka) in India and in Seattle in the United States"
+        }
+      }
+    ]
+  }
+}

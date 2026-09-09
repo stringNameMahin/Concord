@@ -1,0 +1,528 @@
+{
+  "key": "9f9a56e81a5961aab3318135f08d78e0030d4a7d4dbda5ac7f9a4caa2d9a20fa",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"304\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report\n</context>\n<text>\ninvolved, the ultimate outcome will be ascertained on\nthe disposal of the above matter.\nOur opinion is not modified in respect of this matter.\nKey Audit Matters\nKey audit matters are those matters that, in our\nprofessional judgment, were of most significance in\nour audit of the standalone financial statements of\nthe current period. These matters were addressed in\nthe context of our audit of the standalone financial\nstatements as a whole, and in forming our opinion\nthereon, and we do not provide a separate opinion\non these matters. We have determined the matters\ndescribed below to be the key audit matters to be\ncommunicated in our report:\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n299\nSr. No. Key Audit Matter\nAuditor\u2019s Response\n1.\nFair valuation of investment in other entities\n(Refer note 5 & 29 of the standalone financial\nstatement)\nThe Company has made investments\nin CureFit Healthcare Private Limited,\nShiprocket Limited, Samast Technologies\nPrivate Limited and Adonmo Private Limited\nwhere the aggregate carrying value of these\ninvestments as on March 31, 2026, is INR 1,781\ncrores. These investments are measured\nat Fair Value through Other Comprehensive\nIncome (\u2018FVTOCI\u2019) as at March 31, 2026.\nWe considered the valuation assumptions\nrelating to weighted average cost of capital,\nterminal growth rate, revenue multiple and\nthe methodology in estimation of fair value of\nthese investments as a key audit matter due\nto the significance of the investment amount\nand the significant estimates and judgement\ninvolved in determination of fair value.\nPrincipal audit procedures performed:\n\u2022\t \u0007Evaluated the design, implementation and tested\noperating effectiveness of relevant internal\ncontrols relating to determination of the fair\nvalue of investment in the said entities.\n\u2022\t \u0007Evaluated the objectivity and competence of the\nspecialist engaged by the Company and reviewed\nthe valuation report issued by such specialist.\n\u2022\t \u0007With the assistance of our valuation specialists,\nwe have assessed overall reasonableness of\nthe methodology used and assumptions used\nparticularly those relating to the weighted\naverage cost of capital, terminal growth rate and\nrevenue multiple.\n\u2022\t \u0007Assessed the adequacy of the disclosures made\nin the financial statements.\n2.\nRevenue Recognition\n(Refer note 18 & 2.2.ix of the standalone\nfinancial statement)\nThe Company provides an e-commerce\nplatform that enables merchants to sell their\nfood items to users through the platform. The\nCompany mainly generates revenue through\ncommission revenue.\nThe Company\u2019s revenue process is largely\nautomated and relies significantly on its IT\nsystems.\nWe considered accuracy of commission\nrevenue relating to food delivery as a key audit\nmatter because of the complexity of the IT\nsystems and significance of volumes of data\nprocessed by the IT systems.\nPrincipal audit procedures performed:\n\u2022\t \u0007We obtained an understanding, evaluated the\ndesign and tested the operating effectiveness\nof (i) the general IT controls, automated controls\nand control over system generated reports\nrelevant for revenue recognition by involving\nour IT specialist; (ii) controls over recording\nof revenue relating to food delivery business;\nand (iii) control over reconciliations performed\nbetween the commission revenue recorded and\namount received from payment gateway;\n\u2022\t \u0007We tested inter se reconciliations between\nreports generated from relevant IT systems with\ngeneral ledger;\n\u2022\t \u0007We tested, on a sample basis, underlying\ncontracts, identifying the key terms and\nattributes from the contracts and checking them\nagainst the underlying data from the system\nused in the transaction processes and then\nrecalculating the revenue amount.\n\u2022\t \u0007Assessed the adequacy of the disclosures made\nin the financial statements.\n\n\nFinancial Statements: Standalone\n</text>\n</passage>\n\n<passage id=\"305\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Revenue Recognition\n</context>\n<text>\namount received from payment gateway;\n\u2022\t \u0007We tested inter se reconciliations between\nreports generated from relevant IT systems with\ngeneral ledger;\n\u2022\t \u0007We tested, on a sample basis, underlying\ncontracts, identifying the key terms and\nattributes from the contracts and checking them\nagainst the underlying data from the system\nused in the transaction processes and then\nrecalculating the revenue amount.\n\u2022\t \u0007Assessed the adequacy of the disclosures made\nin the financial statements.\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n300\nSr. No. Key Audit Matter\nAuditor\u2019s Response\n3.\nImpairment of investment in a subsidiaries\n(Refer note 5 & 37 of the standalone financial\nstatement)\nInvestments in subsidiaries are accounted\nfor at cost less impairment in the Company\u2019s\nstandalone financial statements;\nIf impairment indicators exist, the recoverable\namounts of the investments in subsidiaries\nare estimated in order to determine the\nextent of the impairment loss, if any.  Any\nsuch impairment loss is recognised in the\nStatement of Profit and Loss;\nDuring the current year, based on identified\nimpairment indicators, management has\ncarried out impairment assessment by\ncomparing the carrying value of these\ninvestments to their recoverable amount\nto determine whether an impairment was\nrequired to be recognized.\nWe considered the assumptions relating\nto future revenue growth and the valuation\nassumptions, specifically, the assumptions\nrelating to weighted average cost of capital,\nterminal growth rate and revenue multiple, as\napplicable, used in estimation of recoverable\nvalue of the investment in Zomato Hyperpure\nPrivate Limited (with carrying value of INR\n2,414 Crores as on March 31, 2026), Orbgen\nTechnologies Private Limited (with carrying\nvalue of INR 1,441 Crores as on March 31, 2026),\nWasteland Entertainment Private Limited (with\nCarrying value of INR 877 Crores as on March\n31, 2026) and Blink Commerce Private Limited\n(with Carrying value of INR 9,597 Crores as on\nMarch 31, 2026) as key audit matter due to the\nsignificance of the investment amount and the\nsignificant estimates and judgement involved\nin estimation of these assumptions.\nPrincipal audit procedures performed:\n\u2022\t \u0007Evaluated the design, implementation and tested\nthe operating effectiveness of relevant internal\ncontrols relating to impairment assessment of\ninvestment in subsidiary.\n\u2022\t \u0007Evaluated the reasonableness of the business\nassumptions relating to future revenue growth;\n\u2022\t \u0007Evaluated the objectivity and competency of the\nspecialist engaged by the Company and reviewed\nthe valuation report issued by such specialist;\n\u2022\t \u0007We have used our valuation specialists to assess\noverall reasonableness of the assumptions\nused particularly those relating to the weighted\naverage cost of capital , terminal growth rate and\nrevenue multiple, as applicable;\n\u2022\t \u0007Performed sensitivity analysis on the key\nassumptions such as weighted average cost\nof capital, terminal growth rate and revenue\nmultiple, as applicable;\n\u2022\t \u0007Assessed the adequacy of the disclosures made\nin the financial statements.\nInformation Other than the Financial\nStatements and Auditor\u2019s Report Thereon\n\u2022\t \u0007The Company\u2019s Board of Directors is responsible\nfor the other information. The other information\ncomprises the information included in the Board\nreport, but does not include the consolidated\nfinancial statements, standalone financial\nstatements and our auditor\u2019s report thereon. The\nBoard report is expected to be made available to\nus after the date of this auditor\u2019s report.\n\u2022\t \u0007Our opinion on the standalone financial statements\ndoes not cover the other information and we will\n\n\nFinancial Statements: Standalone\n</text>\n</passage>\n\n<passage id=\"306\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment of investment in a subsidiaries\n</context>\n<text>\n\u2022\t \u0007The Company\u2019s Board of Directors is responsible\nfor the other information. The other information\ncomprises the information included in the Board\nreport, but does not include the consolidated\nfinancial statements, standalone financial\nstatements and our auditor\u2019s report thereon. The\nBoard report is expected to be made available to\nus after the date of this auditor\u2019s report.\n\u2022\t \u0007Our opinion on the standalone financial statements\ndoes not cover the other information and we will\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n301\nnot express any form of assurance conclusion\nthereon.\n\u2022\t \u0007In connection with our audit of the standalone\nfinancial statements, our responsibility is to read\nthe other information identified above when it\nbecomes available and, in doing so, consider\nwhether the other information is materially\ninconsistent with the standalone financial\nstatements or our knowledge obtained during the\ncourse of our audit or otherwise appears to be\nmaterially misstated.\n\u2022\t \u0007When we read the Board report, if we conclude\nthat there is a material misstatement therein, we\nare required to communicate the matter to those\ncharged with governance as required under SA 720\n\u2018The Auditor\u2019s responsibilities Relating to Other\nInformation\u2019.\nResponsibilities of Management and\nBoard of Directors for the Standalone\nFinancial Statements\nThe Company\u2019s  Board of Directors is responsible for\nthe matters stated in section  134(5) of the  Act with\nrespect  to  the  preparation  of  these  standalone\nfinancial statements that give a true and fair view\nof the financial position, financial performance\nincluding other comprehensive income, cash flows\nand changes in equity of the Company in accordance\nwith the accounting principles generally accepted in\nIndia, including Ind AS specified under section 133 of\nthe Act. This responsibility also includes maintenance\nof  adequate accounting records in accordance  with\nthe provisions of the Act for safeguarding the assets of\nthe Company and for preventing and detecting frauds\nand  other  irregularities;  selection  and  application  of\nappropriate accounting  policies;  making  judgments\nand  estimates  that  are  reasonable  and prudent;\nand design, implementation and maintenance of\nadequate internal financial controls, that were\noperating effectively for ensuring the accuracy and\ncompleteness of the accounting records, relevant\nto the preparation and presentation of the financial\nstatements that give a true and fair view and are free\nfrom material misstatement, whether due to fraud or\nerror.\nIn preparing the standalone financial statements,\nmanagement and Board of Directors are responsible\nfor assessing the Company\u2019s ability to continue as\na going concern, disclosing, as applicable, matters\nrelated to going concern and using the going concern\nbasis of accounting unless the Board of Directors\neither intend to liquidate the Company or to cease\noperations, or has no realistic alternative but to do so.\nThe Company\u2019s Board of Directors is also responsible\nfor overseeing the Company\u2019s financial reporting\nprocess.\nAuditor\u2019s Responsibility for the Audit of\nthe Standalone Financial Statements\nOur objectives are to obtain reasonable assurance\nabout whether the standalone financial statements\nas a whole are free from material misstatement,\nwhether due to fraud or error, and to issue an\nauditor\u2019s report that includes our opinion. Reasonable\nassurance is a high level of assurance, but is not a\nguarantee that an audit conducted in accordance\nwith SAs will always detect a material misstatement\nwhen it exists. Misstatements can arise from fraud or\nerror and are considered material if, individually or in\nthe aggregate, they could reasonably be expected to\ninfluence the economic decisions of users taken on\nthe basis of these standalone financial statements.\nAs part of an audit in accordance with SAs, we exercise\nprofessional judgment and maintain professional\nskepticism throughout the audit. We also:\n\u2022\n</text>\n</passage>\n\n<passage id=\"307\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment of investment in a subsidiaries\n</context>\n<text>\nguarantee that an audit conducted in accordance\nwith SAs will always detect a material misstatement\nwhen it exists. Misstatements can arise from fraud or\nerror and are considered material if, individually or in\nthe aggregate, they could reasonably be expected to\ninfluence the economic decisions of users taken on\nthe basis of these standalone financial statements.\nAs part of an audit in accordance with SAs, we exercise\nprofessional judgment and maintain professional\nskepticism throughout the audit. We also:\n\u2022\n\u0007Identify and assess the risks of material\nmisstatement of the standalone financial\nstatements, whether due to fraud or error, design\nand perform audit procedures responsive to\nthose risks, and obtain audit evidence that is\nsufficient and appropriate to provide a basis for\nour opinion. The risk of not detecting a material\nmisstatement resulting from fraud is higher\nthan for one resulting from error, as fraud may\ninvolve collusion, forgery, intentional omissions,\nmisrepresentations, or the override of internal\ncontrol.\n\u2022\n\u0007Obtain an understanding of internal financial\ncontrols relevant to the audit in order to design\naudit procedures that are appropriate in the\ncircumstances. Under section 143(3)(i) of the\nAct, we are also responsible for expressing our\nopinion on whether the Company has adequate\ninternal financial controls with reference to\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n302\nstandalone financial statements in place and the\noperating effectiveness of such controls.\n\u2022\n\u0007Evaluate the appropriateness of accounting\npolicies used and the reasonableness of\naccounting estimates and related disclosures\nmade by the management.\n\u2022\n\u0007Conclude\non\nthe\nappropriateness\nof\nmanagement\u2019s use of the going concern basis\nof accounting and, based on the audit evidence\nobtained, whether a material uncertainty exists\nrelated to events or conditions that may cast\nsignificant doubt on the Company\u2019s ability to\ncontinue as a going concern. If we conclude that\na material uncertainty exists, we are required\nto draw attention in our auditor\u2019s report to the\nrelated disclosures in the standalone financial\nstatements or, if such disclosures are inadequate,\nto modify our opinion. Our conclusions are based\non the audit evidence obtained up to the date of\nour auditor\u2019s report. However, future events or\nconditions may cause the Company to cease to\ncontinue as a going concern.\n\u2022\n\u0007Evaluate the overall presentation, structure and\ncontent of the standalone financial statements,\nincluding the disclosures, and whether the\nstandalone financial statements represent the\nunderlying transactions and events in a manner\nthat achieves fair presentation.\n\u2022\n\u0007Obtain sufficient appropriate audit evidence\nregarding the financial information of the\nCompany which includes the trust to express an\nopinion on the standalone financial statements.\nWe are responsible for the direction, supervision\nand performance of the audit of the financial\nstatements of such entities included in the\nstandalone financial statements of which we are\nthe independent auditor. For the trust included in\nthe standalone financial statements, which have\nbeen audited by the other auditor, such other\nauditor remain responsible for the direction,\nsupervision and performance of the audits\ncarried out by them. We remain solely responsible\nfor our audit opinion.\nMateriality is the magnitude of misstatements in the\nstandalone financial statements that, individually or\nin aggregate, makes it probable that the economic\ndecisions of a reasonably knowledgeable user of the\nstandalone financial statements may be influenced.\nWe consider quantitative materiality and qualitative\nfactors in (i) planning the scope of our audit work\nand in evaluating the results of our work; and (ii) to\nevaluate the effect of any identified misstatements\nin the standalone financial statements.\nWe communicate with those charged with governance\nregarding, among other matters, the planned scope\nand timing of the audit and significant audit findings,\n</text>\n</passage>\n\n<passage id=\"308\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment of investment in a subsidiaries\n</context>\n<text>\ndecisions of a reasonably knowledgeable user of the\nstandalone financial statements may be influenced.\nWe consider quantitative materiality and qualitative\nfactors in (i) planning the scope of our audit work\nand in evaluating the results of our work; and (ii) to\nevaluate the effect of any identified misstatements\nin the standalone financial statements.\nWe communicate with those charged with governance\nregarding, among other matters, the planned scope\nand timing of the audit and significant audit findings,\nincluding any significant deficiencies in internal\nfinancial controls that we identify during our audit.\nWe also provide those charged with governance with\na statement that we have complied with relevant\nethical requirements regarding independence, and to\ncommunicate with them all relationships and other\nmatters that may reasonably be thought to bear on\nour independence, and where applicable, related\nsafeguards.\nFrom the matters communicated with those charged\nwith governance, we determine those matters\nthat were of most significance in the audit of the\nstandalone financial statements of the current period\nand are therefore the key audit matters. We describe\nthese matters in our auditor\u2019s report unless law or\nregulation precludes public disclosure about the\nmatter or when, in extremely rare circumstances, we\ndetermine that a matter should not be communicated\nin our report because the adverse consequences of\ndoing so would reasonably be expected to outweigh\nthe public interest benefits of such communication.\nOther Matters\nWe did not audit the financial statements of trust\nincluded in the standalone financial statements of\nthe Company whose financial statements reflect\ntotal assets of ` 34 crores as at 31st March 2026 and\ntotal revenue of ` Nil and net cash inflows to ` Nil\nfor the year ended on that date, as considered in\nthe standalone financial statements. The financial\nstatements of trust have been audited by the other\nauditor whose reports have been furnished to us, and\nour opinion in so far as it relates to the amounts and\ndisclosures included in respect of the trust and our\nreport in terms of subsection (3) of Section 143 of\nthe Act, in so far as it relates to the aforesaid trust, is\nbased solely on the report of such other auditor.\nOur opinion on the standalone financial statements\nand our report on Other Legal and Regulatory\nRequirements below is not modified in respect of\nthese matters.\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n303\nReport on Other Legal and Regulatory\nRequirements\n1.\n\u0007As required by Section 143(3) of the Act, based on\nour audit and on the consideration of the reports\nof the other auditor on the separate financial\nstatements of the trust, referred to in the Other\nMatters section above, we report that:\na)\n\u0007We have sought and obtained all the\ninformation and explanations which to\nthe best of our knowledge and belief were\nnecessary for the purposes of our audit.\nb)\n\u0007In our opinion, proper books of account\nas required by law have been kept by the\nCompany so far as it appears from our\nexamination of those books, except for not\ncomplying with the requirement of audit trail\nas stated in (i)(vi) below.\nc)\n\u0007The Balance Sheet, the Statement of Profit\nand Loss including Other Comprehensive\nIncome, the Statement of Cash Flows and\nStatement of Changes in Equity dealt with\nby this Report are in agreement with the\nrelevant books of account.\nd)\n\u0007In our opinion, the aforesaid standalone\nfinancial statements comply with the Ind AS\nspecified under Section 133 of the Act.\ne)\n\u0007On the basis of the written representations\nreceived from the directors as on March\n31, 2026 taken on record by the Board of\nDirectors, none of the directors is disqualified\nas on March 31, 2026 from being appointed as\na director in terms of Section 164(2) of the\nAct.\nf)\n\u0007The modification relating to the maintenance\nof accounts and other matters connected\ntherewith, is as stated in paragraph (b) above.\ng)\n\u0007With respect to the adequacy of the\n</text>\n</passage>\n\n<passage id=\"309\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment of investment in a subsidiaries\n</context>\n<text>\nfinancial statements comply with the Ind AS\nspecified under Section 133 of the Act.\ne)\n\u0007On the basis of the written representations\nreceived from the directors as on March\n31, 2026 taken on record by the Board of\nDirectors, none of the directors is disqualified\nas on March 31, 2026 from being appointed as\na director in terms of Section 164(2) of the\nAct.\nf)\n\u0007The modification relating to the maintenance\nof accounts and other matters connected\ntherewith, is as stated in paragraph (b) above.\ng)\n\u0007With respect to the adequacy of the\ninternal financial controls with reference\nto standalone financial statements of the\nCompany and the operating effectiveness of\nsuch controls, refer to our separate Report\nin \u201cAnnexure A\u201d. Our report expresses an\nunmodified opinion on the adequacy and\noperating effectiveness of the Company\u2019s\ninternal financial controls with reference to\nstandalone financial statements.\nh)\n\u0007With respect to the other matters to be\nincluded in the Auditor\u2019s Report in accordance\nwith the requirements of section 197(16) of\nthe Act, as amended, in our opinion and to the\nbest of our information and according to the\nexplanations given to us, the remuneration\npaid by the Company to its directors during\nthe year is in accordance with the provisions\nof section 197 of the Act.\ni)\n\u0007With respect to the other matters to be\nincluded in the Auditor\u2019s Report in accordance\nwith Rule 11 of the Companies (Audit and\nAuditors) Rules, 2014, as amended in our\nopinion and to the best of our information and\naccording to the explanations given to us:\ni.\n\u0007The Company has disclosed the impact\nof pending litigations on its financial\nposition in its standalone financial\nstatements - Refer Note 35 to the\nstandalone financial statements;\nii.\n\u0007The Company did not have any long-term\ncontracts including derivative contracts\nfor which there were any material\nforeseeable losses.\niii.\t \u0007There were no amounts which were\nrequired to be transferred to the Investor\nEducation and Protection Fund by the\nCompany.\niv.\t (a)\t \u0007The Management has represented\nthat, to the best of its knowledge and\nbelief, no funds have been advanced\nor loaned or invested (either from\nborrowed funds or share premium or\nany other sources or kind of funds)\nby the Company to or in any other\nperson(s) or entity(ies), including\nforeign entities (\u201cIntermediaries\u201d),\nwith the understanding, whether\nrecorded in writing or otherwise,\nthat the Intermediary shall, directly\nor indirectly lend or invest in other\npersons or entities identified in\nany manner whatsoever by or on\nbehalf of the Company (\u201cUltimate\nBeneficiaries\u201d) or provide any\nguarantee, security or the like on\nbehalf of the Ultimate Beneficiaries.\n(b)\t \u0007The Management has represented,\nthat, to the best of its knowledge\nand belief, no funds have been\nreceived by the Company from any\nperson(s) or entity(ies), including\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n304\nforeign entities (\u201cFunding Parties\u201d),\nwith the understanding, whether\nrecorded in writing or otherwise,\nthat the Company shall, directly or\nindirectly, lend or invest in other\npersons or entities identified in any\nmanner whatsoever by or on behalf\nof the Funding Party (\u201cUltimate\nBeneficiaries\u201d) or provide any\nguarantee, security or the like on\nbehalf of the Ultimate Beneficiaries.\n(c)\t \u0007Based on the audit procedures\nperformed\nthat\nhave\nbeen\nconsidered reasonable  and\nappropriate in the circumstances,\nnothing has come to our notice that\nhas caused us to believe that the\nrepresentations under sub-clause\n(i) and (ii) of Rule 11(e), as provided\nunder (a) and (b) above, contain any\nmaterial misstatement.\nv.\n\u0007The company has not declared or paid\nany dividend during the year and has not\nproposed final dividend for the year.\nvi.\t \u0007Based on our examination, which included\ntest checks, the Company has used\naccounting software for maintaining\nits books of account for the year ended\nMarch 31, 2026, which has a feature of\nrecording audit trail (edit log) facility\nand the same has operated throughout\n</text>\n</passage>\n\n<passage id=\"310\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment of investment in a subsidiaries\n</context>\n<text>\nrepresentations under sub-clause\n(i) and (ii) of Rule 11(e), as provided\nunder (a) and (b) above, contain any\nmaterial misstatement.\nv.\n\u0007The company has not declared or paid\nany dividend during the year and has not\nproposed final dividend for the year.\nvi.\t \u0007Based on our examination, which included\ntest checks, the Company has used\naccounting software for maintaining\nits books of account for the year ended\nMarch 31, 2026, which has a feature of\nrecording audit trail (edit log) facility\nand the same has operated throughout\nthe year for all relevant transactions\nrecorded in the software(s), except that:\n(a)\t \u0007in respect of certain accounting\nsoftware(s), the audit trail log for\ndirect data changes at database level\nin the software is being maintained\nthroughout the year, at any given\npoint in time for a period up to 30\ndays for all relevant transactions\nrecorded in the software.\n(b)\t \u0007in respect of an accounting\nsoftware(s) operated by third party\nsoftware service provider, for\nmaintaining payroll records and\npurchase records, in the absence\nof an independent auditor \u2019s system\nand organization controls report\ncovering the requirement of audit\ntrail at database level, we are unable\nto comment whether the audit trail\nat database level was enabled and\noperated throughout the year and\nwhether there were any instances of\nthe audit trail (edit log) feature been\ntampered with.\n\u0007Further, during the course of our audit,\nwe did not come across any instance of\nthe audit trail feature being tampered\nwith in respect of the said accounting\nsoftware for the period for which the\naudit trail feature was operating and log\nwas maintained.\n\u0007Additionally, the audit trail that was\nenabled and operated for the year ended\nMarch 31, 2024 and year ended March 31,\n2025, has been preserved by the Company\nas per the statutory requirements for\nrecord retention, as stated in Note 44 to\nthe financial statements.\n2.\t \u0007As required by the Companies (Auditor\u2019s Report)\nOrder, 2020 (\u201cthe Order\u201d) issued by the Central\nGovernment in terms of Section 143(11) of the Act,\nwe give in \u201cAnnexure B\u201d a statement on the matters\nspecified in paragraphs 3 and 4 of the Order.\nFor Deloitte Haskins & Sells\nChartered Accountants\n(Firm\u2019s Registration No. 015125N)\nSd/-\nVikas Khurana\n(Partner)\nPlace: Gurugram \b\n(Membership No. 503760)\nDate: April 28, 2026\b\n(UDIN: 26503760ARSMCA1359)\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n305\nAnnexure A to the Independent Auditor\u2019s Report\n(Referred to in paragraph 1(g) under \u2018Report on Other Legal and Regulatory Requirements\u2019 section of our\nreport of even date)\nReport on the Internal Financial Controls\nwith reference to standalone financial\nstatements under Clause (i) of Sub-\nsection 3 of Section 143 of the Companies\nAct, 2013 (the \u201cAct\u201d)\nWe have audited the internal financial controls with\nreference to standalone financial statements of\nEternal Limited (formerly Known as Zomato Limited)\n(the \u201cCompany\u201d) as at 31st March 2026 in conjunction\nwith our audit of the standalone financial statements\nof the Company for the year ended on that date.\nManagement\u2019s and Board of Directors\u2019\nResponsibilities for Internal Financial\nControls\nThe Company\u2019s management and Board of Directors\nare responsible for establishing and maintaining\ninternal financial controls with reference to standalone\nfinancial statements based on \u201cthe internal control\nwith reference to standalone financial statements\ncriteria established by the Company considering\nthe essential components of internal control stated\nin the Guidance Note on Audit of Internal Financial\nControls Over Financial Reporting issued by the\nInstitute of Chartered Accountants of India\u201d. These\nresponsibilities include the design, implementation\nand maintenance of adequate internal financial\ncontrols that were operating effectively for ensuring\nthe orderly and efficient conduct of its business,\nincluding adherence to the company\u2019s policies,\nthe safeguarding of its assets, the prevention and\ndetection of frauds and errors, the accuracy and\n</text>\n</passage>\n\n<passage id=\"311\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Annexure A to the Independent Auditor\u2019s Report > report of even date)\n</context>\n<text>\nin the Guidance Note on Audit of Internal Financial\nControls Over Financial Reporting issued by the\nInstitute of Chartered Accountants of India\u201d. These\nresponsibilities include the design, implementation\nand maintenance of adequate internal financial\ncontrols that were operating effectively for ensuring\nthe orderly and efficient conduct of its business,\nincluding adherence to the company\u2019s policies,\nthe safeguarding of its assets, the prevention and\ndetection of frauds and errors, the accuracy and\ncompleteness of the accounting records, and the\ntimely preparation of reliable financial information,\nas required under the Companies Act, 2013.\nAuditor\u2019s Responsibility\nOur responsibility is to express an opinion on the\nCompany\u2019s internal financial controls with reference\nto standalone financial statements of the Company.\nWe conducted our audit in accordance with the\nGuidance Note on Audit of Internal Financial Controls\nOver Financial Reporting (the \u201cGuidance Note\u201d) issued\nby the Institute of Chartered Accountants of India and\nthe Standards on Auditing prescribed under Section\n143(10) of the Companies Act, 2013, to the extent\napplicable to an audit of internal financial controls\nwith reference to standalone financial statements.\nThose Standards and the Guidance Note require that\nwe comply with ethical requirements and plan and\nperform the audit to obtain reasonable assurance\nabout whether adequate internal financial controls\nwith reference to standalone financial statements\nwas established and maintained and if such controls\noperated effectively in all material respects.\nOur audit involves performing procedures to\nobtain audit evidence about the adequacy of\nthe internal financial controls with reference to\nstandalone financial statements and their operating\neffectiveness. Our audit of internal financial controls\nwith reference to standalone financial statements\nincluded obtaining an understanding of internal\nfinancial controls with reference to standalone\nfinancial statements, assessing the risk that a\nmaterial weakness exists, and testing and evaluating\nthe design and operating effectiveness of internal\ncontrol based on the assessed risk. The procedures\nselected depend on the auditor\u2019s judgement, including\nthe assessment of the risks of material misstatement\nof the financial statements, whether due to fraud or\nerror.\nWe believe that the audit evidence we have obtained\nis sufficient and appropriate to provide a basis for\nour audit opinion on the Company\u2019s internal financial\ncontrols with reference to standalone financial\nstatements.\nMeaning of Internal Financial Controls\nwith reference to standalone financial\nstatements\nA company\u2019s internal financial control with\nreference to standalone financial statements is a\nprocess designed to provide reasonable assurance\nregarding the reliability of financial reporting and\nthe preparation of financial statements for external\npurposes in accordance with generally accepted\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n306\naccounting principles. A company\u2019s internal financial\ncontrol with reference to standalone financial\nstatements includes those policies and procedures\nthat (1) pertain to the maintenance of records that,\nin reasonable detail, accurately and fairly reflect\nthe transactions and dispositions of the assets of\nthe company; (2) provide reasonable assurance that\ntransactions are recorded as necessary to permit\npreparation of financial statements in accordance\nwith generally accepted accounting principles, and\nthat receipts and expenditures of the company are\nbeing made only in accordance with authorisations\nof management and directors of the company; and (3)\nprovide reasonable assurance regarding prevention\nor timely detection of unauthorised acquisition, use,\nor disposition of the company\u2019s assets that could\nhave a material effect on the financial statements.\nInherent Limitations of Internal Financial\nControls with reference to standalone\nfinancial statements\nBecause of the inherent limitations of internal financial\n</text>\n</passage>\n\n<passage id=\"312\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Annexure A to the Independent Auditor\u2019s Report > report of even date)\n</context>\n<text>\nthat receipts and expenditures of the company are\nbeing made only in accordance with authorisations\nof management and directors of the company; and (3)\nprovide reasonable assurance regarding prevention\nor timely detection of unauthorised acquisition, use,\nor disposition of the company\u2019s assets that could\nhave a material effect on the financial statements.\nInherent Limitations of Internal Financial\nControls with reference to standalone\nfinancial statements\nBecause of the inherent limitations of internal financial\ncontrols with reference to standalone financial\nstatements, including the possibility of collusion or\nimproper management override of controls, material\nmisstatements due to error or fraud may occur and\nnot be detected. Also, projections of any evaluation\nof the internal financial controls with reference to\nstandalone financial statements to future periods are\nsubject to the risk that the internal financial control\nwith reference to standalone financial statements\nmay become inadequate because of changes in\nconditions, or that the degree of compliance with the\npolicies or procedures may deteriorate.\nOpinion\nIn our opinion, to the best of our information and\naccording to the explanations given to us, the\nCompany has, in all material respects, an adequate\ninternal financial controls with reference to\nstandalone financial statements and such internal\nfinancial controls with reference to standalone\nfinancial statements were operating effectively as\nat 31st March 2026, based on the criteria for internal\nfinancial control with reference to standalone\nfinancial statements established by the Company\nconsidering the essential components of internal\ncontrol stated in the Guidance Note on Audit of\nInternal Financial Controls Over Financial Reporting\nissued by the Institute of Chartered Accountants of\nIndia.\nFor Deloitte Haskins & Sells\nChartered Accountants\n(Firm\u2019s Registration No. 015125N)\nSd/-\nVikas Khurana\n(Partner)\nPlace: Gurugram \b\n(Membership No. 503760)\nDate: April 28, 2026\b\n(UDIN: 26503760ARSMCA1359)\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n307\nAnnexure B to the Independent Auditor\u2019s Report\n(Referred to in paragraph 2 under \u2018Report on Other Legal and Regulatory Requirements\u2019 section of our\nreport of even date)\nIn terms of the information and explanations sought\nby us and given by the Company and the books of\naccount and records examined by us in the normal\ncourse of audit and to the best of our knowledge and\nbelief, we state that\n(i)\n(a)\t \u0007The Company has maintained proper\nrecords showing full particulars, including\nquantitative details and situation of Property,\nplant and equipment, and relevant details of\nright-of-use assets.\n(b)\t \u0007The Company has maintained proper records\nshowing full particulars of intangible assets.\n(c)\t \u0007The Company has a program of verification\nof property, plant and equipment, capital\nwork- in-progress and right-of-use asset\nso to cover all the non IT assets once in\nevery 3 years and IT assets once in every 2\nyears which, in our opinion, is reasonable\nhaving regard to the size of the Company\nand the nature of its assets. Pursuant to\nthe program, no such assets were due for\nphysical verification during the year. Since\nno physical verification of property, plant\nand equipment, capital work-in-progress\nand right-of-use asset was due during the\nyear the question of reporting on material\ndiscrepancies noted on verification does not\narise.\n(d)\t \u0007The Company does not have any immovable\nproperties (other than properties where\nthe company is the lessee and the lease\nagreements are duly executed in favour of\nthe lessee) and hence reporting under clause\n3(i)(d) of the Order is not applicable.\n(e)\t \u0007The Company has not revalued any of its\nproperty, plant and equipment (including\nRight of Use assets) and intangible assets\nduring the year.\n(f)\t \u0007No proceedings have been initiated during\nthe year or are pending against the Company\nas of 31 March 2026 for holding any benami\nproperty under the Benami Transactions\n</text>\n</passage>\n\n<passage id=\"313\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Annexure B to the Independent Auditor\u2019s Report > report of even date)\n</context>\n<text>\nproperties (other than properties where\nthe company is the lessee and the lease\nagreements are duly executed in favour of\nthe lessee) and hence reporting under clause\n3(i)(d) of the Order is not applicable.\n(e)\t \u0007The Company has not revalued any of its\nproperty, plant and equipment (including\nRight of Use assets) and intangible assets\nduring the year.\n(f)\t \u0007No proceedings have been initiated during\nthe year or are pending against the Company\nas of 31 March 2026 for holding any benami\nproperty under the Benami Transactions\n(Prohibition) Act, 1988 (as amended in 2016)\nand rules made thereunder.\n(ii)\t (a)\t \u0007The Company does not have any inventory\nand hence reporting under clause 3(ii)(a) of\nthe Order is not applicable.\n(b)\t \u0007According to the information and\nexplanations given to us, at any point of\ntime of the year, the Company has not been\nsanctioned any working capital facility from\nbanks or financial institutions and hence\nreporting under clause 3(ii)(b) of the Order is\nnot applicable.\n(iii)\t \u0007The Company has not provided any guarantee or\nsecurity, and granted any advances in the nature\nof loans, secured or unsecured, to companies,\nfirms, Limited Liability Partnerships or any other\nparties during the year. The Company has made\ninvestment in and granted unsecured loans to\ncompanies during the year, in respect of which:\n(a)\t \u0007The Company has provided loans during the\nyear and details of which are given below:\nParticulars\nLoans\n(INR Crores)\nA.\t \u0007Aggregate amount granted /\nprovided during the year:\n-\nSubsidiaries\n1,125\nB.\t \u0007Balance outstanding as\nat balance sheet date in\nrespect of above cases:\n-\nSubsidiaries\n1,229\n(b)\t \u0007The investments made and the terms and\nconditions of all above mentioned loans\nprovided, during the year are, in our opinion,\nprima facie, not prejudicial to the Company\u2019s\ninterest\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n308\n(c)\t \u0007In respect of loans granted by the Company,\nthe schedule of repayment of principal and\npayment of interest has been stipulated\nand the repayments or receipts of principal\namounts and interest have been regular as\nper stipulations.\n(d)\t \u0007According to the information and\nexplanations given to us and based on the\naudit procedures performed, in respect of\nloans granted by the Company, there is no\noverdue amount remaining outstanding as\nat the balance sheet date.\n(e)\t \u0007No loan or advance in the nature of loan\ngranted by the Company which has fallen\ndue during the year, has been renewed or\nextended or fresh loans granted to settle the\noverdue of existing loans given to the same\nparties.\n(f)\t \u0007According to information and explanations\ngiven to us and based on the audit procedures\nperformed, the Company has not granted any\nloans or advances in the nature of loans either\nrepayable on demand or without specifying\nany terms or period of repayment during the\nyear. Hence, reporting under clause 3(iii)(f) is\nnot applicable.\n(iv)\t \u0007In our opinion and according to the information\nand explanations given to us, the Company has\ncomplied with the provisions of section 186 of\nthe Companies Act, 2013 in respect of grant of\nloans and making investments. The Company\nhas not granted any loans, made investments,\nor provided guarantees under Section 185 of the\nCompanies Act 2013.\n(v)\t \u0007The Company has not accepted any deposit\nor amounts which are deemed to be deposits.\nHence reporting under clause 3(v) of the Order is\nnot applicable.\n(vi)\t \u0007Having regard to the nature of the Company\u2019s\nbusiness / activities, reporting under clause 3(vi)\nof the Order is not applicable.\n(vii)\tIn respect of statutory dues:\n(a)\t \u0007Undisputed statutory dues, including Goods\nand Services tax, Income-tax, provident\nfund, labour welfare fund, Employees\u2019 State\nInsurance Act, 1948, professional tax, cess\nand other material statutory dues applicable\nto the Company have been regularly deposited\nby it with the appropriate authorities. We\nhave been informed that the provisions of the\nService Tax, Sales Tax, duty of Excise, duty of\n</text>\n</passage>\n\n<passage id=\"314\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Annexure B to the Independent Auditor\u2019s Report > (INR Crores)\n</context>\n<text>\nbusiness / activities, reporting under clause 3(vi)\nof the Order is not applicable.\n(vii)\tIn respect of statutory dues:\n(a)\t \u0007Undisputed statutory dues, including Goods\nand Services tax, Income-tax, provident\nfund, labour welfare fund, Employees\u2019 State\nInsurance Act, 1948, professional tax, cess\nand other material statutory dues applicable\nto the Company have been regularly deposited\nby it with the appropriate authorities. We\nhave been informed that the provisions of the\nService Tax, Sales Tax, duty of Excise, duty of\nCustoms, Value Added Tax are not applicable\nto the Company.\n\u0007There were no material undisputed amounts\npayable in respect of Goods and Services tax,\nProfessional tax, Provident Fund, Employees\u2019\nState Insurance Act, 1948, Income-tax, cess\nand other material statutory dues in arrears\nas at March 31, 2026 for a period of more\nthan six months from the date they became\npayable.\n(b)\t \u0007Details of statutory dues referred to in\nsub-clause (a) above which have not been\ndeposited as on March 31,2026 on account\nof disputes are given below:\nName of Statute\nNature of Dues\nAmount\ndisputed\n(`. in Crores)\nAmount\ndisputed (net\nof payment)\n(`. in Crores)\nPeriod to which\nthe Amount\nRelates\nForum where dispute is\npending\nFinance Act 1994\nService   tax\n184\n177\nOctober 2014 to\nJune 2017\nCESTAT\nGoods and Services Tax\nAct 2017\nGoods & Service\nTax\n978\n930\nJuly 2017- March\n2018,  FY 2018-19\nto FY 2023-24\nJoint\nCommissioner(Appeals)/\nCommissioner\n(Appeals)/ Additional\nCommissioner (Appeals)\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n309\nName of Statute\nNature of Dues\nAmount\ndisputed\n(`. in Crores)\nAmount\ndisputed (net\nof payment)\n(`. in Crores)\nPeriod to which\nthe Amount\nRelates\nForum where dispute is\npending\nGoods and Services  Tax\nAct 2017\nGoods & Service\nTax\n9\n8\nFY 2018-19 to FY\n2020-21\nDeputy Commissioner/\nAssistant\nCommissioner/ Joint\nCommissioner\nGoods and Services Tax\nAct 2017\nGoods & Service\nTax\n71\n65\nJuly 2017- March\n2018 to FY 19-20,\nFY 2019-20 to\n2021-22\nGST Tribunal\n(viii)\t\u0007There were no transactions relating to previously\nunrecorded income that were surrendered or\ndisclosed as income in the tax assessment under\nthe Income Tax Act, 1961 (43 of 1961) during the\nyear.\n(ix)\t (a)\t \u0007The Company has not taken any loans or\nother borrowings from any lender. Hence\nreporting under clause 3(ix)(a) of the Order is\nnot applicable to the Company.\n(b)\t \u0007The Company has not been declared willful\ndefaulter by any bank or financial institution\nor government or any government authority.\n(c)\t \u0007The Company has not taken any term loan\nduring the year and there are no unutilized\nterm loans at the beginning of the year and\nhence, reporting under clause 3(ix)(c) of the\nOrder is not applicable.\n(d)\t \u0007As informed to us, the company has not\nraised any money as short-term fund. Hence,\nreporting under clause 3(ix)(d) of the Order is\nnot applicable.\n(e)\t \u0007On an overall examination of the financial\nstatements of the Company, the Company has\nnot taken any funds from any entity or person\non account of or to meet the obligations of its\nsubsidiaries.\n(f)\t \u0007The Company has not raised any loans during\nthe year and hence reporting on clause 3(ix)\n(f) of the Order is not applicable.\n(x)\t (a)\t \u0007The Company has not raised moneys by\nway of further public offer (including debt\ninstruments) during the year.\n(b)\t \u0007During the year, the Company has not\nmade any preferential allotment or private\nplacement of shares or convertible\ndebentures (fully or partly or optionally) and\nhence reporting under clause 3(x)(b) of the\nOrder is not applicable to the Company.\n(xi)\t (a)\t \u0007To the best of our knowledge, no fraud by\nthe company and no material fraud on the\nCompany has been noticed or reported\nduring the year.\n(b)\t \u0007To the best of our knowledge, no report\nunder sub-section (12) of section 143 of the\nCompanies Act has been filed in Form ADT-\n4 as prescribed under rule 13 of Companies\n(Audit and Auditors) Rules, 2014 with the\nCentral Government, during the year and\n</text>\n</passage>\n\n<passage id=\"315\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\nCIN : L93030DL2010PLC198141\n\n[section]\nchanging lifestyles > Annexure B to the Independent Auditor\u2019s Report > (INR Crores)\n</context>\n<text>\ndebentures (fully or partly or optionally) and\nhence reporting under clause 3(x)(b) of the\nOrder is not applicable to the Company.\n(xi)\t (a)\t \u0007To the best of our knowledge, no fraud by\nthe company and no material fraud on the\nCompany has been noticed or reported\nduring the year.\n(b)\t \u0007To the best of our knowledge, no report\nunder sub-section (12) of section 143 of the\nCompanies Act has been filed in Form ADT-\n4 as prescribed under rule 13 of Companies\n(Audit and Auditors) Rules, 2014 with the\nCentral Government, during the year and\nupto the date of this report.\n(c)\t \u0007We have taken into consideration the whistle\nblower complaints received by the Company\nduring the year.\n(xii)\t\u0007The Company is not a Nidhi Company and hence\nreporting under clause 3(xii) of the Order is not\napplicable.\n(xiii)\t \u0007In our opinion, the Company is in compliance\nwith Section 177 and 188 of the Companies Act,\nwhere applicable, for all transactions with the\nrelated parties and the details of related party\ntransactions have been disclosed in the financial\n\n\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n310\nstatements etc. as required by the applicable\naccounting standards.\n(xiv)\t(a)\t \u0007In our opinion the Company has an adequate\ninternal audit system commensurate with\nthe size and the nature of its business.\n(b) \t \u0007We have considered, the internal audit\nreports issued to the Company during the\nyear and covering the period from April to\nDecember 2025 as per plan of the Company\nfor the period under audit.\n(xv)\t\u0007In our opinion, during the year the Company\nhas not entered into any non-cash transactions\nwith its directors or persons connected with its\ndirectors and hence provisions of section 192 of\nthe Companies Act, 2013 are not applicable to the\nCompany.\n(xvi)\t \u0007The Company is not required to be registered\nunder section 45-IA of the Reserve Bank of India\nAct, 1934. Hence, reporting under clause 3(xvi)\n(a), (b) and (c) of the Order is not applicable.\n\u0007With respect to the Indian entities, the Group\ndoes not have any CIC as part of the Group and\naccordingly reporting under clause 3(xvi)(d) of the\nOrder is not applicable.\n(xvii) \u0007The Company has not incurred cash losses\nduring the financial year covered by our audit\nand the immediately preceding financial year.\n(xviii) \u0007There has been no resignation of the statutory\nauditors of the Company during the year.\n(xix)\t  \u0007On the basis of the financial ratios, ageing\nand expected dates of realization of financial\nassets and payment of financial liabilities,\nother information accompanying the financial\nstatements and our knowledge of the Board of\nDirectors and Management plans and based on\nour examination of the evidence supporting the\nassumptions, nothing has come to our attention,\nwhich causes us to believe that any material\nuncertainty exists as on the date of the audit\nreport indicating that Company is not capable\nof meeting its liabilities existing at the date of\nbalance sheet as and when they fall due within a\nperiod of one year from the balance sheet date.\nWe, however, state that this is not an assurance\nas to the future viability of the Company. We\nfurther state that our reporting is based on the\nfacts up to the date of the audit report and we\nneither give any guarantee nor any assurance\nthat all liabilities falling due within a period of\none year from the balance sheet date, will get\ndischarged by the Company as and when they fall\ndue.\n(xx)\t\u0007The company has incurred average net loss in the\nperiod of three immediately preceding financial\nyears and hence, it is not required to spend any\nmoney under sub-section (5) of section 135 of the\nAct. Accordingly, reporting under clause 3(xx) of\nthe Order is not applicable to the Company for the\nyear.\nFor Deloitte Haskins & Sells\nChartered Accountants\n(Firm\u2019s Registration No. 015125N)\nSd/-\nVikas Khurana\n(Partner)\nPlace: Gurugram \b\n(Membership No. 503760)\nDate: April 28, 2026\b\n(UDIN: 26503760ARSMCA1359)\n\n\nStandalone Balance Sheet\n</text>\n</passage>\n\n<passage id=\"316\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\nCIN : L93030DL2010PLC198141\n\n[section]\nchanging lifestyles > Annexure B to the Independent Auditor\u2019s Report > (INR Crores)\n</context>\n<text>\n(xx)\t\u0007The company has incurred average net loss in the\nperiod of three immediately preceding financial\nyears and hence, it is not required to spend any\nmoney under sub-section (5) of section 135 of the\nAct. Accordingly, reporting under clause 3(xx) of\nthe Order is not applicable to the Company for the\nyear.\nFor Deloitte Haskins & Sells\nChartered Accountants\n(Firm\u2019s Registration No. 015125N)\nSd/-\nVikas Khurana\n(Partner)\nPlace: Gurugram \b\n(Membership No. 503760)\nDate: April 28, 2026\b\n(UDIN: 26503760ARSMCA1359)\n\n\nStandalone Balance Sheet\nas at March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nNote\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nAssets\nNon-current assets\nProperty, plant and equipment\n3\n113\n86\nCapital work-in-progress\n3\n1\n0\nRight-of-use assets\n28\n388\n151\nGoodwill\n4\n1,209\n1,209\nOther intangible assets\n4\n17\n25\nFinancial assets\nInvestments\n5\n24,653\n24,431\nLoans\n10\n1,229\n880\nOther financial assets\n11\n1,376\n2,636\nTax assets (net)\n21\n48\nDeferred tax assets (net)\n31\n14\n-\nOther non-current assets\n12\n158\n74\nTotal non-current assets\n29,179\n29,540\nCurrent assets\nFinancial assets\nInvestments\n6\n3,335\n1,442\nTrade receivables\n7\n142\n112\nCash and cash equivalents\n8\n706\n431\nBank balances other than cash and cash equivalents\n9\n448\n1,368\nOther financial assets\n11\n5,360\n2,753\nOther current assets\n12\n235\n205\nTotal current assets\n10,226\n6,311\nTotal assets\n39,405\n35,851\nEquity and liabilities\nEquity\nEquity share capital\n13(a)\n919\n907\nOther equity\n13(b)\n36,137\n33,208\nTotal equity\n37,056\n34,115\nLiabilities\nNon-current liabilities\nFinancial liabilities\nLease liabilities\n28\n286\n95\nProvisions\n17\n70\n62\nDeferred tax liabilities (net)\n31\n-\n47\nTotal non-current liabilities\n356\n204\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n311\n\n\nStandalone Balance Sheet (Contd.)\n</text>\n</passage>\n\n<passage id=\"317\">\n<context>\n[page header]\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\nfor the year ended March 31, 2026\n\n[section]\nchanging lifestyles > Standalone Balance Sheet > Current assets\n</context>\n<text>\nOther current assets\n12\n235\n205\nTotal current assets\n10,226\n6,311\nTotal assets\n39,405\n35,851\nEquity and liabilities\nEquity\nEquity share capital\n13(a)\n919\n907\nOther equity\n13(b)\n36,137\n33,208\nTotal equity\n37,056\n34,115\nLiabilities\nNon-current liabilities\nFinancial liabilities\nLease liabilities\n28\n286\n95\nProvisions\n17\n70\n62\nDeferred tax liabilities (net)\n31\n-\n47\nTotal non-current liabilities\n356\n204\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n311\n\n\nStandalone Balance Sheet (Contd.)\nas at March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nNote\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nCurrent liabilities\nFinancial liabilities\nLease liabilities\n28\n128\n78\nTrade payables\n14\na.\t \u0007total outstanding dues of micro enterprises and\nsmall enterprises\n8\n7\nb.\t \u0007total outstanding dues of creditors other than\nmicro enterprises and small enterprises\n614\n522\nOther financial liabilities\n15\n770\n609\nOther current liabilities\n16\n441\n298\nProvisions\n17\n18\n18\nCurrent tax liabilities (net)\n14\n-\nTotal current liabilities\n1,993\n1,532\nTotal liabilities\n2,349\n1,736\nTotal equity and liabilities\n39,405\n35,851\nThe accompanying notes are an integral part of the standalone financial statements.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells\nChartered Accountants\nFirm registration number-015125N\nFor and on behalf of the Board of Directors of\nEternal Limited (formerly known as Zomato Limited)\nSd/-\nVikas Khurana\n(Partner)\nMembership No-503760\nSd/-\nKaushik Dutta\n(Chairman and\nIndependent Director)\n(DIN-03328890)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nDeepinder Goyal\n(Vice Chairman and\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n312\n\n\nStandalone Statement of Profit and Loss\n</text>\n</passage>\n\n<passage id=\"318\">\n<context>\n[page header]\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\nfor the year ended March 31, 2026\n\n[section]\nchanging lifestyles > Standalone Balance Sheet > Standalone Balance Sheet (Contd.) > Total equity and liabilities\n</context>\n<text>\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n312\n\n\nStandalone Statement of Profit and Loss\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nNote\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nIncome\nRevenue from operations\n18\n10,899\n8,617\nOther income\n19\n1,803\n1,260\nTotal income (I)\n12,702\n9,877\nExpenses\nEmployee benefits expense\n20\n1,466\n1,266\nFinance costs\n21\n34\n16\nDepreciation and amortisation expenses\n22\n202\n97\nOther expenses\n23\n8,034\n6,297\nTotal expenses (II)\n9,736\n7,676\nProfit before exceptional items and tax (III= I-II)\n2,966\n2,201\nExceptional items (IV)\n24\n-\n11\nProfit before tax (V= III-IV)\n2,966\n2,190\nTax expense :\n31\nCurrent tax\n318\n230\nDeferred tax\n(7)\n-\nTotal tax expense (VI)\n311\n230\nProfit for the year (VII= V-VI)\n2,655\n1,960\nOther comprehensive income / (loss)\n(a) Items that will not be reclassified to profit or loss:\n(i) \t Remeasurements of the defined benefit plans\n0\n(6)\n(ii)\t \u0007Equity instruments through other\ncomprehensive income\n(515)\n77\n(iii)\t Income tax relating to above items\n31\n34\n(30)\nSubtotal (VIII)\n(481)\n41\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n313\n\n\nStandalone Statement of Profit and Loss (Contd.)\n</text>\n</passage>\n\n<passage id=\"319\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Standalone Statement of Profit and Loss > Profit before tax (V= III-IV)\n</context>\n<text>\n(7)\n-\nTotal tax expense (VI)\n311\n230\nProfit for the year (VII= V-VI)\n2,655\n1,960\nOther comprehensive income / (loss)\n(a) Items that will not be reclassified to profit or loss:\n(i) \t Remeasurements of the defined benefit plans\n0\n(6)\n(ii)\t \u0007Equity instruments through other\ncomprehensive income\n(515)\n77\n(iii)\t Income tax relating to above items\n31\n34\n(30)\nSubtotal (VIII)\n(481)\n41\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n313\n\n\nStandalone Statement of Profit and Loss (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nNote\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\n(b)\t Items that will be reclassified to profit or loss:\n(i)\t \u0007Exchange differences on translation of foreign\noperations\n5\n1\n(ii)\t \u0007Debt instruments through other comprehensive\nincome\n(90)\n112\n(iii)\tIncome tax relating to above items\n31\n23\n(23)\nSubtotal (IX)\n(62)\n90\nTotal other comprehensive income / (loss) for the\nyear (X=VIII+IX)\n(543)\n131\nTotal comprehensive income / (loss) for the year (XI =\nVII+ X)\n2,112\n2,091\nEarnings per equity share (\"EPS\") (face value of INR 1\neach)\n25\n(a)\t Basic EPS (INR)\n2.91\n2.22\n(b)\t Diluted EPS (INR)\n2.86\n2.15\nThe accompanying notes are an integral part of the standalone financial statements.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells\nChartered Accountants\nFirm registration number-015125N\nFor and on behalf of the Board of Directors of\nEternal Limited (formerly known as Zomato Limited)\nSd/-\nVikas Khurana\n(Partner)\nMembership No-503760\nSd/-\nKaushik Dutta\n(Chairman and\nIndependent Director)\n(DIN-03328890)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nDeepinder Goyal\n(Vice Chairman and\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n314\n\n\nStandalone Statement of Changes in Equity\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The aggregate carrying value of investments in CureFit Healthcare Private Limited, Shiprocket Limited, Samast Technologies Private Limited and Adonmo Private Limited as on March 31, 2026, is INR 1,781 crores.",
+        "confidence": 1,
+        "passage_id": 304,
+        "predicate": "carrying_value_of_investments",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "The Company has made investments\nin CureFit Healthcare Private Limited,\nShiprocket Limited, Samast Technologies\nPrivate Limited and Adonmo Private Limited\nwhere the aggregate carrying value of these\ninvestments as on March 31, 2026, is INR 1,781\ncrores.",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,781",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The carrying value of the investment in Zomato Hyperpure Private Limited as on March 31, 2026, is INR 2,414 Crores.",
+        "confidence": 1,
+        "passage_id": 305,
+        "predicate": "carrying_value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "recoverable\nvalue of the investment in Zomato Hyperpure\nPrivate Limited (with carrying value of INR\n2,414 Crores as on March 31, 2026)",
+        "subject_surface": "Zomato Hyperpure Private Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,414",
+          "scale": "Crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The carrying value of the investment in Orbgen Technologies Private Limited as on March 31, 2026, is INR 1,441 Crores.",
+        "confidence": 1,
+        "passage_id": 305,
+        "predicate": "carrying_value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Orbgen Technologies Private Limited (with carrying\nvalue of INR 1,441 Crores as on March 31, 2026)",
+        "subject_surface": "Orbgen Technologies Private Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,441",
+          "scale": "Crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The carrying value of the investment in Wasteland Entertainment Private Limited as on March 31, 2026, is INR 877 Crores.",
+        "confidence": 1,
+        "passage_id": 305,
+        "predicate": "carrying_value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Wasteland Entertainment Private Limited (with\nCarrying value of INR 877 Crores as on March\n31, 2026)",
+        "subject_surface": "Wasteland Entertainment Private Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "877",
+          "scale": "Crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The carrying value of the investment in Blink Commerce Private Limited as on March 31, 2026, is INR 9,597 Crores.",
+        "confidence": 1,
+        "passage_id": 305,
+        "predicate": "carrying_value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Blink Commerce Private Limited (with Carrying\nvalue of INR 9,597 Crores as on March 31, 2026)",
+        "subject_surface": "Blink Commerce Private Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "9,597",
+          "scale": "Crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The trust included in the standalone financial statements had total assets of INR 34 crores as at 31st March 2026.",
+        "confidence": 1,
+        "passage_id": 308,
+        "predicate": "total_assets",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "31st March 2026"
+          }
+        ],
+        "quote": "We did not audit the financial statements of trust\nincluded in the standalone financial statements of\nthe Company whose financial statements reflect\ntotal assets of ` 34 crores as at 31st March 2026",
+        "subject_surface": "trust",
+        "value": {
+          "kind": "quantity",
+          "raw": "34",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The aggregate amount of loans granted to subsidiaries during the year ended March 31, 2026, was INR 1,125 Crores.",
+        "confidence": 1,
+        "passage_id": 313,
+        "predicate": "aggregate_loans_granted_to_subsidiaries",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Aggregate amount granted / provided during the year:\n- Subsidiaries 1,125",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,125",
+          "scale": "Crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The balance outstanding of loans granted to subsidiaries as at March 31, 2026, was INR 1,229 Crores.",
+        "confidence": 1,
+        "passage_id": 313,
+        "predicate": "outstanding_loans_to_subsidiaries",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "inherited",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Balance outstanding as at balance sheet date in respect of above cases:\n- Subsidiaries 1,229",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,229",
+          "scale": "Crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The disputed service tax amount for the period October 2014 to June 2017 is INR 184 Crores.",
+        "confidence": 1,
+        "passage_id": 314,
+        "predicate": "disputed_service_tax",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "October 2014 to June 2017"
+          }
+        ],
+        "quote": "Finance Act 1994 Service tax 184 177 October 2014 to June 2017 CESTAT",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "184",
+          "scale": "Crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The disputed Goods & Service Tax amount for the period July 2017- March 2018, FY 2018-19 to FY 2023-24 is INR 978 Crores.",
+        "confidence": 1,
+        "passage_id": 314,
+        "predicate": "disputed_goods_and_service_tax",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "July 2017- March 2018, FY 2018-19 to FY 2023-24"
+          }
+        ],
+        "quote": "Goods and Services Tax Act 2017 Goods & Service Tax 978 930 July 2017- March 2018, FY 2018-19 to FY 2023-24",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "978",
+          "scale": "Crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The total assets of Eternal Limited as at March 31, 2026, were INR 39,405 crores.",
+        "confidence": 1,
+        "passage_id": 316,
+        "predicate": "total_assets",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total assets 39,405 35,851",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "39,405",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The revenue from operations for the year ended March 31, 2026, was INR 10,899 crores.",
+        "confidence": 1,
+        "passage_id": 318,
+        "predicate": "revenue_from_operations",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Revenue from operations 18 10,899 8,617",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "10,899",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The profit for the year ended March 31, 2026, was INR 2,655 crores.",
+        "confidence": 1,
+        "passage_id": 318,
+        "predicate": "profit_for_the_year",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Profit for the year (VII= V-VI) 2,655 1,960",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,655",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The basic earnings per equity share for the year ended March 31, 2026, was INR 2.91.",
+        "confidence": 1,
+        "passage_id": 319,
+        "predicate": "basic_eps",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "(a) Basic EPS (INR) 2.91 2.22",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.91",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The diluted earnings per equity share for the year ended March 31, 2026, was INR 2.86.",
+        "confidence": 1,
+        "passage_id": 319,
+        "predicate": "diluted_eps",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "(b) Diluted EPS (INR) 2.86 2.15",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "2.86",
+          "unit": "INR"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "key": "6e5f6371952f170752ced3155a7f59cd1002df4444c4273509d8f637bf0446d0",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Do these two names denote the same relation?\n\nA: defined benefit obligation beginning of year\nB: defined benefit obligation\n\nThey are used in these claims:\nA: The present value of the defined benefit obligation as at the beginning of the year ended March 31, 2026 was INR 52 crore.\nB: (not given)"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "properties": {
+          "reason": {
+            "description": "One sentence, naming what makes them the same or different",
+            "title": "Reason",
+            "type": "string"
+          },
+          "same_relation": {
+            "description": "True only if the two names denote the same relation, for the same kind of subject",
+            "title": "Same Relation",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "same_relation",
+          "reason"
+        ],
+        "title": "AliasAnswer",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You decide whether two field names denote the same relation. You work on any\nkind of document and must not assume a subject area.\n\nAnswer `true` only when a value recorded under one name could be recorded under\nthe other without changing what is being claimed about the subject.\n\nAnswer `false` when the names differ in what they measure, over what scope, or\non what basis, however similar the wording. Two names that describe related but\ndistinct quantities are `false`. If you cannot tell, answer `false`: leaving\ntwo names separate keeps their facts comparable within each name, while merging\nthem wrongly makes unlike things look like contradictions."
+        }
+      ]
+    }
+  },
+  "response": {
+    "reason": "The defined benefit obligation beginning of year refers to a specific point-in-time balance at the start of a reporting period, whereas defined benefit obligation is a general term that could refer to the balance at any point in time.",
+    "same_relation": false
+  }
+}

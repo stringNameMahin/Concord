@@ -1,0 +1,51 @@
+{
+  "key": "0030e1adb226a47bddb181086d3704ce3dc65cc420f3ba78944118c5762bf908",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Do these two names denote the same relation?\n\nA: paid up share capital\nB: paid up capital\n\nThey are used in these claims:\nA: The issued, subscribed and paid up share capital of the Company as on March 31, 2026 is INR 9,65,03,50,647.\nB: (not given)"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "properties": {
+          "reason": {
+            "description": "One sentence, naming what makes them the same or different",
+            "title": "Reason",
+            "type": "string"
+          },
+          "same_relation": {
+            "description": "True only if the two names denote the same relation, for the same kind of subject",
+            "title": "Same Relation",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "same_relation",
+          "reason"
+        ],
+        "title": "AliasAnswer",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You decide whether two field names denote the same relation. You work on any\nkind of document and must not assume a subject area.\n\nAnswer `true` only when a value recorded under one name could be recorded under\nthe other without changing what is being claimed about the subject.\n\nAnswer `false` when the names differ in what they measure, over what scope, or\non what basis, however similar the wording. Two names that describe related but\ndistinct quantities are `false`. If you cannot tell, answer `false`: leaving\ntwo names separate keeps their facts comparable within each name, while merging\nthem wrongly makes unlike things look like contradictions."
+        }
+      ]
+    }
+  },
+  "response": {
+    "reason": "Paid up share capital is a specific type of paid up capital, and in the context of corporate financial reporting, the terms are used interchangeably to refer to the total amount of capital for which shares have been issued and fully paid by shareholders.",
+    "same_relation": true
+  }
+}

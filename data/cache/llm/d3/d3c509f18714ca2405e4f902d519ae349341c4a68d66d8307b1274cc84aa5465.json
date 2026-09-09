@@ -1,0 +1,51 @@
+{
+  "key": "d3c509f18714ca2405e4f902d519ae349341c4a68d66d8307b1274cc84aa5465",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Do these two names denote the same relation?\n\nA: lease liabilities\nB: carrying amount lease liabilities\n\nThey are used in these claims:\nA: The lease liabilities (undiscounted value) of the Company as at March 31, 2026 is INR 544 crores.\nB: (not given)"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "properties": {
+          "reason": {
+            "description": "One sentence, naming what makes them the same or different",
+            "title": "Reason",
+            "type": "string"
+          },
+          "same_relation": {
+            "description": "True only if the two names denote the same relation, for the same kind of subject",
+            "title": "Same Relation",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "same_relation",
+          "reason"
+        ],
+        "title": "AliasAnswer",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You decide whether two field names denote the same relation. You work on any\nkind of document and must not assume a subject area.\n\nAnswer `true` only when a value recorded under one name could be recorded under\nthe other without changing what is being claimed about the subject.\n\nAnswer `false` when the names differ in what they measure, over what scope, or\non what basis, however similar the wording. Two names that describe related but\ndistinct quantities are `false`. If you cannot tell, answer `false`: leaving\ntwo names separate keeps their facts comparable within each name, while merging\nthem wrongly makes unlike things look like contradictions."
+        }
+      ]
+    }
+  },
+  "response": {
+    "reason": "Lease liabilities can refer to the undiscounted value, whereas the carrying amount of lease liabilities specifically refers to the present value of lease payments as recognized on the balance sheet.",
+    "same_relation": false
+  }
+}

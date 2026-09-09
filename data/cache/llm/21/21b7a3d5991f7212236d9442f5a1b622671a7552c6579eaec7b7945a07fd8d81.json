@@ -1,0 +1,51 @@
+{
+  "key": "21b7a3d5991f7212236d9442f5a1b622671a7552c6579eaec7b7945a07fd8d81",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Do these two names denote the same relation?\n\nA: aggregate amount of investments in unquoted equity instruments designated at fvtoci\nB: aggregate amount of investments in unquoted debt instruments measured at fvtoci\n\nThey are used in these claims:\nA: The aggregate amount of investments in unquoted equity instruments designated at FVTOCI was INR 1,785 crore as at March 31, 2026.\nB: (not given)"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "properties": {
+          "reason": {
+            "description": "One sentence, naming what makes them the same or different",
+            "title": "Reason",
+            "type": "string"
+          },
+          "same_relation": {
+            "description": "True only if the two names denote the same relation, for the same kind of subject",
+            "title": "Same Relation",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "same_relation",
+          "reason"
+        ],
+        "title": "AliasAnswer",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You decide whether two field names denote the same relation. You work on any\nkind of document and must not assume a subject area.\n\nAnswer `true` only when a value recorded under one name could be recorded under\nthe other without changing what is being claimed about the subject.\n\nAnswer `false` when the names differ in what they measure, over what scope, or\non what basis, however similar the wording. Two names that describe related but\ndistinct quantities are `false`. If you cannot tell, answer `false`: leaving\ntwo names separate keeps their facts comparable within each name, while merging\nthem wrongly makes unlike things look like contradictions."
+        }
+      ]
+    }
+  },
+  "response": {
+    "reason": "Equity instruments and debt instruments are distinct financial asset classes with different characteristics and accounting treatments.",
+    "same_relation": false
+  }
+}

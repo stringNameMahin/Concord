@@ -158,6 +158,43 @@ def test_unknown_ids_are_404_not_500(client):
     assert client.get("/evidence/nope").status_code == 404
 
 
+def test_the_default_page_of_every_listing_serves(client):
+    """The endpoints a reviewer hits first, with no query string at all.
+
+    Both defaulted to `limit=200` and nothing exercised that: every example in
+    the manual guide passes a small limit, and no fixture built a bounded
+    figure. The shipped ledger had four, and both listings 500ed.
+    """
+    for path in ("/facts", "/relations", "/schema", "/stats", "/health"):
+        assert client.get(path).status_code == 200, path
+
+
+def test_an_unbounded_figure_serialises_with_a_null_open_end(client, tmp_path):
+    """`over 33,200` is a half-open interval, and JSON has no infinity.
+
+    Python's json writes and reads the non-standard token `Infinity`, so the
+    value round-trips through SQLite and only dies at the HTTP boundary, where
+    Starlette serialises with allow_nan=False. The open end has to reach the
+    client as null; the bound field is what carries the semantics.
+    """
+    from concord.store.db import connect
+
+    conn = connect(tmp_path / "ledger.sqlite")
+    bounded = make_fact(fact_id="f_bounded", doc="d1", raw="over 4,100")
+    assert bounded.quantity.interval[1] == float("inf")  # the fixture is the case
+    repo.save_facts(conn, [bounded], "d1")
+    conn.commit()
+    conn.close()
+
+    response = client.get("/facts?limit=300")
+    assert response.status_code == 200
+
+    fact = next(f for f in response.json()["facts"] if f["fact_id"] == "f_bounded")
+    quantity = fact["value"]["quantity"]
+    assert quantity["interval"] == [4100.0, None]
+    assert quantity["bound"] == "greater_than"
+
+
 def test_ingest_refuses_anything_that_is_not_a_pdf(client):
     response = client.post("/ingest", files={"file": ("notes.txt", b"hello", "text/plain")})
     assert response.status_code == 400
@@ -295,3 +332,40 @@ def test_a_failure_with_a_key_present_reports_the_actual_cause(client, monkeypat
     ).json()["detail"]
     assert "quota exhausted" in detail
     assert "GEMINI_API_KEY" not in detail  # they have one; that is not the problem
+
+
+def test_a_password_protected_pdf_is_a_400_and_not_a_502(client, tmp_path):
+    """Bug 24 at the endpoint. 502 says the provider failed; nothing reached
+    a provider. The caller sent a file nobody here can open, which is the same
+    class of problem as a corrupt one and gets the same answer."""
+    import pymupdf
+
+    locked = tmp_path / "locked.pdf"
+    doc = pymupdf.open()
+    doc.new_page().insert_text((72, 72), "confidential")
+    doc.save(str(locked), encryption=pymupdf.PDF_ENCRYPT_AES_256, owner_pw="o", user_pw="u")
+    doc.close()
+
+    response = client.post(
+        "/ingest",
+        files={"file": ("locked.pdf", locked.read_bytes(), "application/pdf")},
+    )
+    assert response.status_code == 400
+    assert "password" in response.json()["detail"]
+
+
+def test_the_page_never_keys_an_element_id_on_a_fact_id(client):
+    """Bug 22, as a shape rule rather than a browser test.
+
+    One fact appears in the ledger and in every relation card it belongs to,
+    so an element id built from its fact id is not unique on the page.
+    `querySelector` then returns the first in document order, and a reviewer
+    clicking the lower card was shown another occurrence's evidence under a
+    "verified" tick - the one claim this whole system rests on. The evidence
+    box is found by walking up from the clicked button instead.
+    """
+    page = client.get("/").text
+
+    assert 'id="ev-' not in page
+    assert 'showEvidence(\'${f.fact_id}\', this)' in page
+    assert 'btn.closest(".side, .card").querySelector(".evidence")' in page

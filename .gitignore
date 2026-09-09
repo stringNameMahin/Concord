@@ -3,14 +3,10 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
+
 .env
 
-docs/
 ideation/
-starter-datasets/
-
 
 *.sqlite-wal
 *.sqlite-shm
-
-test.md

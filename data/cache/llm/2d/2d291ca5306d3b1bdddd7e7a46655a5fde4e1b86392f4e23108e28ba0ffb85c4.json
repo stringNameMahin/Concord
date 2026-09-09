@@ -1,0 +1,411 @@
+{
+  "key": "2d291ca5306d3b1bdddd7e7a46655a5fde4e1b86392f4e23108e28ba0ffb85c4",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"0\">\n<context>\n(none given)\n</context>\n<text>\nAnnual Report 2025-26\nNATIONAL SPORTS STADIUM\nPowering India's changing lifestyles\n\n\nOur mission statement\nPowering India's\nchanging lifestyles\nOur vision statements\nBetter food for more people\nZOMATO\nInstant commerce indistinguishable from magic\nBLINKIT\nWorld class going-out experiences in India\nDISTRICT\nBuilding India\u02c7ss most trusted food supply chain\nHYPERPURE\nMake India malnutrition free\nFEEDING INDIA\n\n\nTable of contents\n</text>\n</passage>\n\n<passage id=\"1\">\n<context>\n[section]\nchanging lifestyles > Table of contents\n</context>\n<text>\nTable of contents\nCompany Overview\nEternal at a glance\n1\nFinancial highlights\n2\nOur key businesses\n4\nOperational and financial highlights\n12\nESG update\n33\nCorporate information\n44\nStatutory Reports\nManagement discussion and analysis\n45\nBoard report\n51\nReport on corporate governance\n161\nFinancial Statements\nConsolidated auditor\u02c7s report\n186\nConsolidated financial statements\n197\nStandalone auditor\u02c7s report\n298\nStandalone financial statements\n311\n\n\nCompany Overview: Eternal at a glance  |  Statutory Reports  |  Financial Statements\nEternal at a glance\nEternal is more than just a name - it is a commitment to building something that deserves to last. An\ninstitution where culture outlasts strategy, where systems outlast individuals, where the work of one\ngeneration creates the foundation for the next. Today, that foundation spans four key businesses\ntransforming how Indians dine, shop and go-out.\nA. Food delivery\nFood ordering and\ndelivery business\nin India\nLaunched\n2015\nFootprint\n900+ cities\n(India)\nB. Quick commerce\nDoorstep delivery (\nof products across\ncategories\nLaunched\n2021\n(acquired in Aug-22)\nFootprint\n250+ cities\n(India)\nC. Going-out\nEnabling discovery\nand transactions\nacross going-out\nexperiences\nLaunched\n2022\nFootprint\n800+ cities\n(India + UAE)\nD. B2B supplies\nB2B business (\nsupplying quality food\ningredients & other\nproducts to restaurants\nLaunched\n2019\nFootprint\n8 cities\n(India)\n1\n\n\nCompany Overview: Financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"2\">\n<context>\n[section]\nchanging lifestyles > Eternal at a glance\n</context>\n<text>\n900+ cities\n(India)\nB. Quick commerce\nDoorstep delivery (\nof products across\ncategories\nLaunched\n2021\n(acquired in Aug-22)\nFootprint\n250+ cities\n(India)\nC. Going-out\nEnabling discovery\nand transactions\nacross going-out\nexperiences\nLaunched\n2022\nFootprint\n800+ cities\n(India + UAE)\nD. B2B supplies\nB2B business (\nsupplying quality food\ningredients & other\nproducts to restaurants\nLaunched\n2019\nFootprint\n8 cities\n(India)\n1\n\n\nCompany Overview: Financial highlights  |  Statutory Reports  |  Financial Statements\nConsolidated financial highlights\nNOV (B2C business) and consolidated Adjusted Revenue grew 55% YoY and 159% YoY (61% LFL*)\nrespectively\nConsolidated Adjusted EBITDA grew 10% YoY to INR 1,189 crore\nFY26 non-GAAP metrics\nNOV (B2C business)\nAdjusted Revenue**\nAdjusted EBITDA\nINR 95,959 crore\nINR 55,903 crore\nINR 1,189 crore\n55%\n159% (61% LFL*)\nINR 110 crore\nYoY growth\nYoY growth\nYoY improvement\nFY26 GAAP metrics\nRevenue**\nEBITDA\nPAT\nINR 54,364 crore\nINR 1,208 crore\nINR 366 crore\n169%\nINR 571 crore\nINR 161 crore\nYoY growth\nYoY improvement\nYoY change\n* Like-for-like (\u02ddLFL\u02db) consolidated Adjusted Revenue is calculated as consolidated Adjusted Revenue (-) Revenue from Hyperpure\u02c7s non-restaurant business\n(-) cost of goods sold in case of own inventory sales in quick commerce.\n** Sharp increase mainly due to shift to inventory model in quick commerce from Q1FY26 onwards, where Revenue now also includes the full monetary value\nof goods sold (and not just the marketplace commission).\nNotes:\nNOV (B2C business) is defined as the combined net order value (NOV) of consumer facing businesses i.e. food delivery, quick commerce and going-out.\nNOV (B2C business) excludes the NOV of Bistro business which is part of the \u02d8Others\u02c7 segment.\nAdjusted Revenue defined as consolidated revenue from operations as per financials (+) actual customer delivery charges paid in the food delivery\nbusiness (net of any discounts, including free delivery discounts on Zomato Gold program) (+) platform fee and other charges paid on food delivery\nOrders that are not already included in revenue from operations.\nAdjusted EBITDA defined as consolidated EBITDA (+) share-based payment expense (-) rental paid for the period pertaining to \u02d8I\nnd AS 116 leases\u02c7..\n2\n\n\nCompany Overview: Financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"3\">\n<context>\n[section]\nchanging lifestyles > Consolidated financial highlights\n</context>\n<text>\nAdjusted Revenue defined as consolidated revenue from operations as per financials (+) actual customer delivery charges paid in the food delivery\nbusiness (net of any discounts, including free delivery discounts on Zomato Gold program) (+) platform fee and other charges paid on food delivery\nOrders that are not already included in revenue from operations.\nAdjusted EBITDA defined as consolidated EBITDA (+) share-based payment expense (-) rental paid for the period pertaining to \u02d8I\nnd AS 116 leases\u02c7..\n2\n\n\nCompany Overview: Financial highlights  |  Statutory Reports  |  Financial Statements\nFinancial highlights by business\nINR crore\nNet order\nvalue (NOV)\nAdjusted\nRevenue\nAdjusted\nEBITDA\nFood\ndelivery\n37,993\n11,698\n2,017\n16% YoY\n24% YoY\n512 YoY\nQuick\ncommerce\n48,567\n37,779\n-277\n117% YoY\n15 YoY\nGoing-\nout\n9,399\n973\n-319\n42% YoY\n32% YoY\n281 YoY\n95,959\n50,450\n1,421\nTotal (B2C businesses)\nB2C business\n144% YoY (LFL*)\n626% YoY\nB2B\nsupplies\n-\n5,366\n13% YoY\n-17\n67 YoY\nOthers\n-\n87\n-215\n-\n55,903\n1,189\nTotal (All businesses)\nNotes:\n* Like-for-like (\n\u02ddLFL\u02db) ) quick commerce Revenue calculated as quick commerce Revenue (-) cost of goods sold in case of own inventory sales.\nOthers segment includes Bistro, Nugget, Greening India and other new initiatives that we may launch from time to time.\n3\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"4\">\n<context>\n[section]\nchanging lifestyles > Financial highlights by business\n</context>\n<text>\nTotal (B2C businesses)\nB2C business\n144% YoY (LFL*)\n626% YoY\nB2B\nsupplies\n-\n5,366\n13% YoY\n-17\n67 YoY\nOthers\n-\n87\n-215\n-\n55,903\n1,189\nTotal (All businesses)\nNotes:\n* Like-for-like (\n\u02ddLFL\u02db) ) quick commerce Revenue calculated as quick commerce Revenue (-) cost of goods sold in case of own inventory sales.\nOthers segment includes Bistro, Nugget, Greening India and other new initiatives that we may launch from time to time.\n3\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nA. Food delivery\nZomato operates a B2C technology platform\nthat provides customers with a seamless, on-\ndemand solution to discover local restaurants,\norder food, and have it delivered reliably and\nquickly.\nEvery order on Zomato requires real-time\ncoordination. A meal has to be prepared by a\nthird-party restaurant, picked up by an\nindependent delivery partner navigating\nunpredictable traffic, and delivered while the\nfood is still hot \u0014 executed at a scale of millions\nof orders per day with no room for error. Over\ntime, we have invested in building systems that make this possible, reliably and at scale across the length\nand breadth of the country. As of Mar-26, our food delivery operations were present across 900+ cities pan-\nIndia.\nFY26 key metrics\nNet AOV (NAOV)\nINR 388\nYoY growth\n1%\nNOV\nOrders\nINR 37,993 crore\nYoY growth\n16%\n979 million\nYoY growth\n15%\nAverage monthly\ntransacting customers\n24.3 million\nYoY growth\n18%\n552k\n17% YoY growth\nAverage monthly active\ndelivery partners\nAverage monthly active food\ndelivery restaurant partners\n330k\n11% YoY growth\nWe also run a membership program called Zomato Gold which provides members with multiple benefits\nincluding free delivery on orders and exclusive offers, subject to terms. As of Mar-26, we had 24.2 million\nactive Gold members on our platform.\n4\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"5\">\n<context>\n[section]\nchanging lifestyles > A. Food delivery\n</context>\n<text>\ntransacting customers\n24.3 million\nYoY growth\n18%\n552k\n17% YoY growth\nAverage monthly active\ndelivery partners\nAverage monthly active food\ndelivery restaurant partners\n330k\n11% YoY growth\nWe also run a membership program called Zomato Gold which provides members with multiple benefits\nincluding free delivery on orders and exclusive offers, subject to terms. As of Mar-26, we had 24.2 million\nactive Gold members on our platform.\n4\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nFood delivery new initiatives\nHealthy mode\nDedicated in-app experience powered by AI,\nwhere customers can browse and order from a\ncurated assortment of healthy dishes with\nnutritional information, ingredient-level\ninsights and a healthy score for every item\nChef\u02c7ss table\nCurated selection of signature dishes served\nin tasting portions, letting customers\nexperience the breadth of a restaurant's\noffering in a single order\nApart from the above, we have also been innovating and building on features such as food rescue, food on\ntrain, Zomato for Enterprise (ZFE), scheduled orders, group ordering, crowd favourites and friends\u02c7\nrecommendation to drive customer engagement on our platform.\n5\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"6\">\n<context>\n[section]\nchanging lifestyles > A. Food delivery\n</context>\n<text>\nCurated selection of signature dishes served\nin tasting portions, letting customers\nexperience the breadth of a restaurant's\noffering in a single order\nApart from the above, we have also been innovating and building on features such as food rescue, food on\ntrain, Zomato for Enterprise (ZFE), scheduled orders, group ordering, crowd favourites and friends\u02c7\nrecommendation to drive customer engagement on our platform.\n5\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nB. Quick commerce\nBlinkit is a quick commerce B2C platform\nproviding on-demand delivery of products\nacross multiple categories. Customers can\nplace orders on the Blinkit app and have them\ndelivered to their doorstep. Orders are fulfilled\nthrough a network of stores located typically\nwithin a 3 km radius from the customer and are\ndelivered by a last mile delivery fleet of\nindependent delivery partners. Blinkit offers a\nwide assortment including daily essentials,\nelectronics, beauty & personal care, home\nd\u00e9cor, toys & games, sports accessories,\ngeneral merchandise and more.\nFY26 key metrics\nNet AOV (NAOV)\nINR 530\nYoY growth\n0.3%\nNOV\nOrders\nINR 48,567 crore\nYoY growth\n117%\n917 million\nYoY growth\n116%\nAverage monthly\ntransacting customers\n22.1 million\n2,243\n250+\nYoY growth\nnet new stores\ncities\n117%\n942\n150+\nIn FY26, we transitioned the quick commerce business from a marketplace model to inventory ownership.\nOwning inventory gives us greater control over assortment depth, margins and lets us expand assortment\nfaster, making our business more durable over time. By Mar-26, ~90% of our quick commerce NOV was on our\nown inventory, which we expect to be the steady state going forward.\nBlinkit continued to expand its geographical footprint during the fiscal and added 942 net new stores to its\nnetwork. We also expanded our backend warehousing infrastructure to support this growth. As of Mar-26,\nBlinkit managed a total of 8.5 million sqft. of warehousing space.\n6\n# of stores (\n(Mar-26)\n# of cities present in (\n(Mar-26)\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"7\">\n<context>\n[section]\nchanging lifestyles > B. Quick commerce\n</context>\n<text>\nfaster, making our business more durable over time. By Mar-26, ~90% of our quick commerce NOV was on our\nown inventory, which we expect to be the steady state going forward.\nBlinkit continued to expand its geographical footprint during the fiscal and added 942 net new stores to its\nnetwork. We also expanded our backend warehousing infrastructure to support this growth. As of Mar-26,\nBlinkit managed a total of 8.5 million sqft. of warehousing space.\n6\n# of stores (\n(Mar-26)\n# of cities present in (\n(Mar-26)\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nBlinkit assortment range\nDuring FY26, Blinkit continued to expand the breadth and depth of\n(assortment available and now offers 1 lakh+ SKUs across India\n7\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"8\">\n<context>\n[section]\nchanging lifestyles > B. Quick commerce\n</context>\n<text>\nnetwork. We also expanded our backend warehousing infrastructure to support this growth. As of Mar-26,\nBlinkit managed a total of 8.5 million sqft. of warehousing space.\n6\n# of stores (\n(Mar-26)\n# of cities present in (\n(Mar-26)\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nBlinkit assortment range\nDuring FY26, Blinkit continued to expand the breadth and depth of\n(assortment available and now offers 1 lakh+ SKUs across India\n7\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"9\">\n<context>\n[section]\nchanging lifestyles > B. Quick commerce\n</context>\n<text>\nBlinkit managed a total of 8.5 million sqft. of warehousing space.\n6\n# of stores (\n(Mar-26)\n# of cities present in (\n(Mar-26)\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nBlinkit assortment range\nDuring FY26, Blinkit continued to expand the breadth and depth of\n(assortment available and now offers 1 lakh+ SKUs across India\n7\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"10\">\n<context>\n[section]\nchanging lifestyles > B. Quick commerce\n</context>\n<text>\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nC. Going-out\nGoing-out is our third B2C business which\naddresses the \u02d8going-out\u02c7 needs of our customers\nby enabling discovery and transactions across\nmultiple going-out experiences including dining-\nout, movies, sporting events, live events, concerts,\noutdoor activities and shopping through the\nDistrict app.\nFY26 was the first full year of District operating as a\nunified going-out platform. No other platform in\nIndia brings together this breadth of going-out use\ncases on a single app. As we add more use cases,\nengagement frequency and customer retention\nimprove, with each category reinforcing the others.\nDining-out\nDiscovery, table reservations\nand transactions across\nrestaurants\nMovies\nTicketing partner for all major\ncinema chains pan-India\nEvents\nTicketing for third party and co-\nproduced events across concerts,\ntheatre, comedy shows and others\nSports\nTicketing for live sports events;\nexclusive ticketing partner for\nmultiple IPL teams\nFY26 key metrics\nStores\nDigitizing offline retail by\nenabling discovery of stores\nwith access to exclusive deals\nand offers\nActivities\nDiscovery and booking of sports\nfacilities, theme parks, monument\ntours, etc. for recreational\nactivities\nNOV\nTransactions\nINR 9,399 crore\nYoY growth\n42%\n56.0 million\nYoY growth\n61%\nNet AOV (NAOV)\nINR 1,678\nYoY change\n12%\n8\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nDuring FY26, we launched four new initiatives:\nDistrict Stores: digitizing offline retail by enabling discovery of stores with access to deals and offers;\nonboarded ~5,200 outlets across 8 cities by Mar-26\nDistrict Play: entered recreational sports by enabling discovery and booking of third-party sports\nfacilities on a pay-and-play basis\nDistrict Pass: launched our loyalty membership program offering benefits across movies and dining-out,\nto drive customer retention and incremental demand across all going-out use cases on District\nUAE expansion: launched District app in UAE bringing dining-out and live events onto a single app\nGoing-out highlights\n9\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"11\">\n<context>\n[section]\nchanging lifestyles > C. Going-out\n</context>\n<text>\nDistrict Play: entered recreational sports by enabling discovery and booking of third-party sports\nfacilities on a pay-and-play basis\nDistrict Pass: launched our loyalty membership program offering benefits across movies and dining-out,\nto drive customer retention and incremental demand across all going-out use cases on District\nUAE expansion: launched District app in UAE bringing dining-out and live events onto a single app\nGoing-out highlights\n9\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nD. B2B supplies\nHyperpure is our B2B supplies business\noffering quality food ingredients and other\nproducts to restaurants. Hyperpure operates a\n1P model (i.e., owns inventory) where it sources\ndirectly from farmer producer organizations,\ntraders and brands, and supplies to its\ncustomers through its end-to-end supply chain.\nIn addition, Hyperpure has also been scaling\ntwo new verticals \u0013 a) value added food supplies\nthrough its own processing facility for value\nadded products such as sauces, spreads, pre-\ncut and semi-finished perishables, and b) 4PL\nwarehousing supply chain services offering\nend-to-end logistics and supply chain management for restaurants including procurement, warehousing and\nfinal supply, currently serving multiple large branded chains with a pan-India presence. Customers choose\nHyperpure as it acts as a single destination offering consistently high quality products with competitive pricing\nacross categories and reliable & timely delivery.\nFY26 key metrics\n# of warehouses (Mar-26)\nINR 5,366 crore\n130,000+\n11\nYoY change\nYoY growth\nAcross 8 cities\n13%\n25%\nUp until FY26, Hyperpure also had a non-restaurant business comprising B2B sales of mainly fresh food and\nstaples to the sellers on Blinkit marketplace. This business scaled down completely during the fiscal year\ndriven by shift to inventory ownership in quick commerce and hence, Hyperpure\u02c7s total Revenue saw a YoY\ndecline. However, the core restaurant business continued to scale and grew 38% YoY in FY26.\nHyperpure also fulfils a core capability for each of our B2C businesses -\nFood delivery and going-out (dining): For restaurants, Hyperpure removes the daily stress of sourcing\nand inventory management. Chefs and operators get fresh, reliable ingredients every time without\nneeding large storage space or a dedicated procurement team. This enables restaurants to run leaner\noperations, scale faster, and focus more on delivering a great experience to their customers. Over time,\nthis kind of reliability builds trust, which then extends to our relationship with these restaurants in both\nthese businesses\nQuick commerce: Blinkit relies on Hyperpure\u02c7s sourcing engine for fresh and perishable products. Its technology-driven, backward-integrated supply chain and warehousing infrastructure enables Blinkit to offer consistent and quality SKUs while maintaining healthy sourcing margins and minimising wastage\n10\nRevenue\nUnique outlets billed\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"12\">\n<context>\n[section]\nchanging lifestyles > D. B2B supplies\n</context>\n<text>\nthis kind of reliability builds trust, which then extends to our relationship with these restaurants in both\nthese businesses\nQuick commerce: Blinkit relies on Hyperpure\u02c7s sourcing engine for fresh and perishable products. Its technology-driven, backward-integrated supply chain and warehousing infrastructure enables Blinkit to offer consistent and quality SKUs while maintaining healthy sourcing margins and minimising wastage\n10\nRevenue\nUnique outlets billed\n\n\nCompany Overview: Our key businesses  |  Statutory Reports  |  Financial Statements\nE. Others\nOthers segment primarily includes new initiatives that we may launch from time to time. As of Mar-26, Others\nsegment included Bistro, Nugget, Greening India, amongst others.\nBistro: (\nBistro is a quick food delivery service where it\ncontrols the entire supply chain from kitchen\ninfrastructure to food preparation to last mile\ndelivery, which allows it to bring down food costs\nmaterially. The intent is to focus on two demand\npockets that are currently unaddressed by the\nexisting restaurant and food delivery ecosystem - a)\ncustomers looking for high quality but low cost meals\nand, b) customers looking for instant snacky food.\nNugget:\nNugget is our AI platform for customer operations,\nwith agents capable of not only handling conversations\nbut also driving processes to completion across\nchannels. Nugget powers 15+ million interactions a\nmonth across Zomato, Blinkit, District and Hyperpure,\nwith 85%+ resolved end-to-end without human\nintervention. In FY26, Nugget was piloted with select\nexternal customers.\nIn addition to the above, Others segment also includes Zomato Payments Private Limited (ZPPL) and Zomato\nLocal Services Private Limited (ZLSPL).\n11\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"13\">\n<context>\n[section]\nchanging lifestyles > E. Others\n</context>\n<text>\nbut also driving processes to completion across\nchannels. Nugget powers 15+ million interactions a\nmonth across Zomato, Blinkit, District and Hyperpure,\nwith 85%+ resolved end-to-end without human\nintervention. In FY26, Nugget was piloted with select\nexternal customers.\nIn addition to the above, Others segment also includes Zomato Payments Private Limited (ZPPL) and Zomato\nLocal Services Private Limited (ZLSPL).\n11\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nFY26 operational and financial highlights\nOverall Company\n1\nConsolidated topline grew at a healthy pace\nNOV (B2C business)\nAdjusted Revenue\nINR crore\nINR crore\n52% YoY\n61,852\n55% YoY\n95,959\n159% YoY\n55,903\n40,562\n59% YoY\n21,581\n13,545\nFY24\nFY25\nFY26\nFY24\nFY25\nFY26\nNOV (B2C business) grew 55% YoY to INR 95,959 crore in FY26 driven by growth across all three B2C\nbusinesses:\u20ac\nFood delivery NOV grew 16% YoY to INR 37,993 crore\nQuick commerce NOV grew 117% YoY to INR 48,567 crore\nGoing-out NOV grew 42% YoY to INR 9,399 crore\nFY26 was the first year when our NOV (B2C business) crossed $10 billion - a milestone that took us 18\nyears to reach. We expect annual NOV to double to $20 billion in the next two years.\n\nB2B business Hyperpure\u02c7s Revenue declined 13% YoY to INR 5,366 crore as the non-restaurant\nbusiness scaled down following the shift to inventory ownership in quick commerce.\nConsolidated Adjusted Revenue grew 159% YoY to INR 55,903 crore in FY26. The sharp increase was\nprimarily driven by the shift to inventory ownership in quick commerce where Revenue now includes\nthe full monetary value of goods sold (and not just the marketplace commission). On a like-for-like\nbasis (excluding the impact of inventory ownership shift), Adjusted Revenue grew 61% YoY.\nNotes:\nLike-for-like (\u02ddLFL\u02db) consolidated Adjusted Revenue is calculated as consolidated Adjusted Revenue (-) R\nevenue from Hyperpure\u02c7s non-restaurant\nbusiness (-) cost of goods sold in case of own inventory sales in quick commerce.\nFY25 Adjusted Revenue shown above consolidates the acquired entertainment ticketing business from 27-Aug-24 onwards (transaction closing date).\n12\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"14\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nbasis (excluding the impact of inventory ownership shift), Adjusted Revenue grew 61% YoY.\nNotes:\nLike-for-like (\u02ddLFL\u02db) consolidated Adjusted Revenue is calculated as consolidated Adjusted Revenue (-) R\nevenue from Hyperpure\u02c7s non-restaurant\nbusiness (-) cost of goods sold in case of own inventory sales in quick commerce.\nFY25 Adjusted Revenue shown above consolidates the acquired entertainment ticketing business from 27-Aug-24 onwards (transaction closing date).\n12\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nConsolidated Adjusted EBITDA grew 10% YoY despite accelerated\ninvestments in Blinkit and District\n2\nAdjusted EBITDA\nProfit after tax (PAT)\nINR crore\nINR crore\n42\n637\n1,208\n1,189\n1,079\n372\nFY24\nFY25\nFY26\nAdjusted EBITDA\nEBITDA (INR crore)\nImprovement in Adjusted EBITDA was largely driven by improvement in food delivery Adjusted EBITDA\nmargin which was partly offset by investments in quick commerce, going-out and Others segments.\nWe expect to reach $1 billion of consolidated Adjusted EBITDA by FY29.\nConsolidated EBITDA grew 90% YoY to INR 1,208 crore in FY26 from INR 637 crore in FY25. EBITDA is\ncomputed as Adjusted EBITDA less share-based payment expense plus rental paid for the period\npertaining to\n\u02d8Ind AS 116 leases\u02c7. EBITDA grew faster than Adjusted EBITDA as ESOP expense remained flattish with only 3% YoY increase, while the rent pertaining to \u02d8Ind AS 116 leases\u02c7 gre grew rapidly in line\nwith the growth in our quick commerce business.\nProfit after tax (PAT) declined to INR 366 crore in FY26 from INR 527 crore in FY25 despite YoY\nincrease in consolidated Adjusted EBITDA. Decrease in PAT was mainly due to increase in depreciation\n& amortisation expense in the quick commerce business.\n351\nFY24\n527\nFY25\n366\nFY26\n13\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"15\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\n\u02d8Ind AS 116 leases\u02c7. EBITDA grew faster than Adjusted EBITDA as ESOP expense remained flattish with only 3% YoY increase, while the rent pertaining to \u02d8Ind AS 116 leases\u02c7 gre grew rapidly in line\nwith the growth in our quick commerce business.\nProfit after tax (PAT) declined to INR 366 crore in FY26 from INR 527 crore in FY25 despite YoY\nincrease in consolidated Adjusted EBITDA. Decrease in PAT was mainly due to increase in depreciation\n& amortisation expense in the quick commerce business.\n351\nFY24\n527\nFY25\n366\nFY26\n13\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n3\nCash balance decreased by INR 852 crore in FY26\nConsolidated cash balance decreased to INR\n17,972 crore as of Mar-26 despite increase in\nAdjusted EBITDA and treasury income,\nprimarily due to investments in capex and net\nworking capital in the quick commerce\nbusiness. Capex increased on account of rapid\nexpansion of Blinkit\u02c7s store and warehouse\nnetwork, while net working capital increased\nfollowing the transition to inventory ownership.\nWe expect these investments in quick\ncommerce to generate ROCE of at least 40% in\nsteady state.\nConsolidated cash balance\nINR crore\nINR 6,583 crore YoY\nINR 852 crore YoY\n18,824\n17,972\n12,241\nMar-24\nMar-25\nMar-26\n14\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The food delivery business was launched in 2015.",
+        "confidence": 1,
+        "passage_id": 1,
+        "predicate": "launched",
+        "quote": "Launched\n2015",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "date",
+          "raw": "2015"
+        }
+      },
+      {
+        "claim_text": "The quick commerce business was launched in 2021.",
+        "confidence": 1,
+        "passage_id": 1,
+        "predicate": "launched",
+        "quote": "Launched\n2021",
+        "subject_surface": "Quick commerce",
+        "value": {
+          "kind": "date",
+          "raw": "2021"
+        }
+      },
+      {
+        "claim_text": "The going-out business was launched in 2022.",
+        "confidence": 1,
+        "passage_id": 1,
+        "predicate": "launched",
+        "quote": "Launched\n2022",
+        "subject_surface": "Going-out",
+        "value": {
+          "kind": "date",
+          "raw": "2022"
+        }
+      },
+      {
+        "claim_text": "The B2B supplies business was launched in 2019.",
+        "confidence": 1,
+        "passage_id": 1,
+        "predicate": "launched",
+        "quote": "Launched\n2019",
+        "subject_surface": "B2B supplies",
+        "value": {
+          "kind": "date",
+          "raw": "2019"
+        }
+      },
+      {
+        "claim_text": "Consolidated Adjusted EBITDA grew 10% YoY to INR 1,189 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 2,
+        "predicate": "consolidated_adjusted_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Consolidated Adjusted EBITDA grew 10% YoY to INR 1,189 crore",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,189",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "As of Mar-26, the food delivery operations were present across 900+ cities pan-India.",
+        "confidence": 1,
+        "passage_id": 4,
+        "predicate": "footprint",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "Mar-26"
+          }
+        ],
+        "quote": "As of Mar-26, our food delivery operations were present across 900+ cities pan-India.",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "900+",
+          "unit": "cities"
+        }
+      },
+      {
+        "claim_text": "The food delivery business had 24.2 million active Gold members as of Mar-26.",
+        "confidence": 1,
+        "passage_id": 4,
+        "predicate": "active_members",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "Mar-26"
+          }
+        ],
+        "quote": "As of Mar-26, we had 24.2 million\nactive Gold members on our platform.",
+        "subject_surface": "Zomato Gold",
+        "value": {
+          "kind": "quantity",
+          "raw": "24.2 million"
+        }
+      },
+      {
+        "claim_text": "Blinkit managed a total of 8.5 million sqft. of warehousing space as of Mar-26.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "warehousing_space",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "Mar-26"
+          }
+        ],
+        "quote": "As of Mar-26,\nBlinkit managed a total of 8.5 million sqft. of warehousing space.",
+        "subject_surface": "Blinkit",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.5 million",
+          "unit": "sqft."
+        }
+      },
+      {
+        "claim_text": "District Stores onboarded ~5,200 outlets across 8 cities by Mar-26.",
+        "confidence": 1,
+        "passage_id": 10,
+        "predicate": "outlets_onboarded",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "Mar-26"
+          }
+        ],
+        "quote": "onboarded ~5,200 outlets across 8 cities by Mar-26",
+        "subject_surface": "District Stores",
+        "value": {
+          "kind": "quantity",
+          "raw": "~5,200"
+        }
+      },
+      {
+        "claim_text": "Consolidated EBITDA grew 90% YoY to INR 1,208 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 14,
+        "predicate": "consolidated_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Consolidated EBITDA grew 90% YoY to INR 1,208 crore in FY26",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,208",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Profit after tax (PAT) declined to INR 366 crore in FY26 from INR 527 crore in FY25.",
+        "confidence": 1,
+        "passage_id": 14,
+        "predicate": "profit_after_tax",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Profit after tax (PAT) declined to INR 366 crore in FY26 from INR 527 crore in FY25",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "366",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Consolidated cash balance decreased to INR 17,972 crore as of Mar-26.",
+        "confidence": 1,
+        "passage_id": 15,
+        "predicate": "consolidated_cash_balance",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "Mar-26"
+          }
+        ],
+        "quote": "Consolidated cash balance decreased to INR\n17,972 crore as of Mar-26",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "17,972",
+          "unit": "INR crore"
+        }
+      }
+    ]
+  }
+}

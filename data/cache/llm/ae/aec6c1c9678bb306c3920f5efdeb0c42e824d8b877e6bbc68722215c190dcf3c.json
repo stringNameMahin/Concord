@@ -1,0 +1,51 @@
+{
+  "key": "aec6c1c9678bb306c3920f5efdeb0c42e824d8b877e6bbc68722215c190dcf3c",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Do these two names denote the same relation?\n\nA: carrying value of investments\nB: aggregate carrying value of investments\n\nThey are used in these claims:\nA: The aggregate carrying value of investments in CureFit Healthcare Private Limited, Shiprocket Limited, Samast Technologies Private Limited and Adonmo Private Limited as on March 31, 2026, is INR 1,781 crores.\nB: (not given)"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "properties": {
+          "reason": {
+            "description": "One sentence, naming what makes them the same or different",
+            "title": "Reason",
+            "type": "string"
+          },
+          "same_relation": {
+            "description": "True only if the two names denote the same relation, for the same kind of subject",
+            "title": "Same Relation",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "same_relation",
+          "reason"
+        ],
+        "title": "AliasAnswer",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You decide whether two field names denote the same relation. You work on any\nkind of document and must not assume a subject area.\n\nAnswer `true` only when a value recorded under one name could be recorded under\nthe other without changing what is being claimed about the subject.\n\nAnswer `false` when the names differ in what they measure, over what scope, or\non what basis, however similar the wording. Two names that describe related but\ndistinct quantities are `false`. If you cannot tell, answer `false`: leaving\ntwo names separate keeps their facts comparable within each name, while merging\nthem wrongly makes unlike things look like contradictions."
+        }
+      ]
+    }
+  },
+  "response": {
+    "reason": "The term aggregate is used in the context of the first field to describe the sum of the carrying values of multiple investments, making the two names synonymous in this context.",
+    "same_relation": true
+  }
+}

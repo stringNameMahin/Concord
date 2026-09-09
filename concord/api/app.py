@@ -10,6 +10,7 @@ fact at a time, rather than taking the claim on trust.
 from __future__ import annotations
 
 import json
+import math
 import shutil
 import tempfile
 from pathlib import Path
@@ -47,6 +48,27 @@ def encoder():
     return _encoder
 
 
+def _finite(obj):
+    """Encode an infinite interval bound as null.
+
+    A bounded figure - `over 33,200` - normalises to a half-open precision
+    interval whose open end is infinity. That is the correct comparison
+    semantics and it round-trips through SQLite, because Python's json
+    writes and reads the non-standard token `Infinity`. Strict JSON has no
+    such value, so Starlette refuses to serialise it and the whole page
+    500s - which took out the ledger and relations views on any page that
+    happened to contain one. `null` is the honest encoding of an unbounded
+    end, and the interval stays infinite everywhere it is actually used.
+    """
+    if isinstance(obj, float):
+        return obj if math.isfinite(obj) else None
+    if isinstance(obj, dict):
+        return {k: _finite(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_finite(v) for v in obj]
+    return obj
+
+
 def _fact_row(row) -> dict:
     evidence = json.loads(row["evidence_json"])
     return {
@@ -56,14 +78,14 @@ def _fact_row(row) -> dict:
         "subject": {"surface": row["subject_surface"], "key": row["subject_key"]},
         "predicate": row["predicate"],
         "comparison_key": row["comparison_key"],
-        "value": json.loads(row["value_json"]),
+        "value": _finite(json.loads(row["value_json"])),
         "value_kind": row["value_kind"],
-        "normalized": row["value_normalized"],
-        "qualifiers": json.loads(row["qualifiers_json"]),
+        "normalized": _finite(row["value_normalized"]),
+        "qualifiers": _finite(json.loads(row["qualifiers_json"])),
         "evidence": evidence,
         "align_status": row["align_status"],
         "page": row["page"],
-        "confidence": row["confidence"],
+        "confidence": _finite(row["confidence"]),
         "flags": json.loads(row["flags_json"]),
     }
 

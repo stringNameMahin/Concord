@@ -1,0 +1,74 @@
+{
+  "key": "7d6794ce0a38a93857fb3e24bf5456a2d92a6bbc67bfb89075e9a713e17910cc",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You reconcile pairs of facts drawn from documents. You work on any kind of\ndocument and must not assume a subject area.\n\nEach pair you receive has already been checked by a deterministic system, which\nestablished two things you may take as given: the two facts describe the same\nproperty of the same subject, and their values are incompatible at the\nprecision each was written to. Do not re-examine either finding. Do not\nrecalculate, rescale or convert anything. Arithmetic is not your job here and\nyour answer will be discarded if it rests on any.\n\nYour job is the remaining question: is there a condition under which both facts\ncould be true?\n\nMost pairs like this are not disagreements. They are the same property measured\nover different periods, at different dates, over different scopes, on different\nbases, or for different segments. Look for that condition first and report a\nconflict only when you have looked and found none.\n\nHow to answer.\n\n1. Compare the qualifier lists given for each fact. If one of those keys holds\n   different values on the two sides and that difference would account for the\n   difference in the figures, answer `reconciled_by_context` and set\n   `qualifier_key` to that key, spelled exactly as it appears in the list.\n2. If a key that would settle the question is listed on one fact and missing\n   from the other, you cannot tell. Answer `insufficient_context` and set\n   `qualifier_key` to the key that is missing.\n3. Answer `contradicts` only when the two facts state the same property, under\n   the same stated conditions, and cannot both be true. Set `qualifier_key` to\n   null.\n4. Never invent a qualifier key. You may only name a key that appears in one of\n   the two lists you are given. A verdict naming any other key is rejected.\n5. `explanation` states what you concluded and why, in plain language, without\n   naming this system or its rules. Write it for a reader who has seen neither\n   document.",
+        "role": "system"
+      },
+      {
+        "content": "<fact id=\"A\">\n  <claim>The name of the company was changed to Delhivery Limited on October 12, 2021.</claim>\n  <subject>Delhivery Limited</subject>\n  <property>date_of_name_change</property>\n  <value>October 12, 2021</value>\n  <conditions>\n    (none recorded)\n  </conditions>\n  <source>document 01-delhivery-prospectus-2022-excerpt, page 29</source>\n</fact>\n\n<fact id=\"B\">\n  <claim>The name of the company was changed to Delhivery Private Limited on December 8, 2015.</claim>\n  <subject>Delhivery Limited</subject>\n  <property>date_of_name_change</property>\n  <value>December 8, 2015</value>\n  <conditions>\n    (none recorded)\n  </conditions>\n  <source>document 01-delhivery-prospectus-2022-excerpt, page 29</source>\n</fact>\n\n<deterministic_finding>\nSame comparison key and the same stated context (no qualifiers on either side), yet 2015-12-08 and 2021-10-12 are different dates.\n</deterministic_finding>\n\nIs there a condition under which both of these could be true?",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "verdictout",
+        "schema": {
+          "properties": {
+            "confidence": {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "title": "Confidence",
+              "type": "number"
+            },
+            "explanation": {
+              "description": "Two sentences at most, addressed to someone who has read neither document",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "qualifier_key": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "The condition that explains the difference, copied exactly from the keys listed on the two facts. Null only when no listed key explains it.",
+              "title": "Qualifier Key"
+            },
+            "verdict": {
+              "enum": [
+                "reconciled_by_context",
+                "contradicts",
+                "insufficient_context"
+              ],
+              "title": "Verdict",
+              "type": "string"
+            }
+          },
+          "required": [
+            "verdict",
+            "explanation",
+            "confidence"
+          ],
+          "title": "VerdictOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "confidence": 0.95,
+    "explanation": "The two facts report different dates for the same property\u2014date of name change\u2014for the same company, Delhivery Limited, with no qualifying conditions listed in either. Since the property is the same and no context (such as different legal entities, stages of incorporation, or prior name changes) is specified, the dates cannot both be correct for the same event. The name change to 'Delhivery Limited' in 2021 cannot coexist with a prior name change to 'Delhivery Private Limited' in 2015 if both are referring to the same transition. However, it is possible that the company was originally named 'Delhivery Private Limited' and later changed to 'Delhivery Limited' in 2021, which would make the 2015 date refer to an earlier name change (from a different name to 'Delhivery Private Limited'). But since the 2015 fact states the name was changed to 'Delhivery Private Limited', and the 2021 fact states it was changed to 'Delhivery Limited', and no qualifier such as 'initial incorporation' or 'prior to 2021' is present, the facts contradict each other under the given conditions.",
+    "verdict": "contradicts"
+  }
+}

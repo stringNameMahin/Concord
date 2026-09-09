@@ -1,0 +1,74 @@
+{
+  "key": "c4fa0701ddb43d46066a493daf2fa2725405de460eb9cce7645fd81687487773",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You reconcile pairs of facts drawn from documents. You work on any kind of\ndocument and must not assume a subject area.\n\nEach pair you receive has already been checked by a deterministic system, which\nestablished two things you may take as given: the two facts describe the same\nproperty of the same subject, and their values are incompatible at the\nprecision each was written to. Do not re-examine either finding. Do not\nrecalculate, rescale or convert anything. Arithmetic is not your job here and\nyour answer will be discarded if it rests on any.\n\nYour job is the remaining question: is there a condition under which both facts\ncould be true?\n\nMost pairs like this are not disagreements. They are the same property measured\nover different periods, at different dates, over different scopes, on different\nbases, or for different segments. Look for that condition first and report a\nconflict only when you have looked and found none.\n\nHow to answer.\n\n1. Compare the qualifier lists given for each fact. If one of those keys holds\n   different values on the two sides and that difference would account for the\n   difference in the figures, answer `reconciled_by_context` and set\n   `qualifier_key` to that key, spelled exactly as it appears in the list.\n2. If a key that would settle the question is listed on one fact and missing\n   from the other, you cannot tell. Answer `insufficient_context` and set\n   `qualifier_key` to the key that is missing.\n3. Answer `contradicts` only when the two facts state the same property, under\n   the same stated conditions, and cannot both be true. Set `qualifier_key` to\n   null.\n4. Never invent a qualifier key. You may only name a key that appears in one of\n   the two lists you are given. A verdict naming any other key is rejected.\n5. `explanation` states what you concluded and why, in plain language, without\n   naming this system or its rules. Write it for a reader who has seen neither\n   document.",
+        "role": "system"
+      },
+      {
+        "content": "<fact id=\"A\">\n  <claim>Net FDI to India for FY24 was USD 10.1 billion.</claim>\n  <subject>net FDI to India</subject>\n  <property>value</property>\n  <value>10.1</value>\n  <conditions>\n    period: FY24  [stated]\n  </conditions>\n  <source>document 01-india-economic-survey-2024-25-excerpt, page 65</source>\n</fact>\n\n<fact id=\"B\">\n  <claim>Net FDI to India during the first eight months of FY24 stood at USD 8.5 billion.</claim>\n  <subject>net FDI to India</subject>\n  <property>value</property>\n  <value>8.5</value>\n  <conditions>\n    period: first eight months of FY24  [stated]\n  </conditions>\n  <source>document 01-india-economic-survey-2024-25-excerpt, page 65</source>\n</fact>\n\n<deterministic_finding>\nSame comparison key and the same stated context (period), yet 10.1 spans [10.05, 10.15] and 8.5 spans [8.45, 8.55], which are disjoint.\n</deterministic_finding>\n\nIs there a condition under which both of these could be true?",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "verdictout",
+        "schema": {
+          "properties": {
+            "confidence": {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "title": "Confidence",
+              "type": "number"
+            },
+            "explanation": {
+              "description": "Two sentences at most, addressed to someone who has read neither document",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "qualifier_key": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "The condition that explains the difference, copied exactly from the keys listed on the two facts. Null only when no listed key explains it.",
+              "title": "Qualifier Key"
+            },
+            "verdict": {
+              "enum": [
+                "reconciled_by_context",
+                "contradicts",
+                "insufficient_context"
+              ],
+              "title": "Verdict",
+              "type": "string"
+            }
+          },
+          "required": [
+            "verdict",
+            "explanation",
+            "confidence"
+          ],
+          "title": "VerdictOut",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "confidence": 1.0,
+    "explanation": "The two facts report net FDI to India for different time periods within the same financial year (FY24). Fact A covers the entire FY24, while Fact B covers only the first eight months of FY24. Since the value for the full year (10.1 billion) is higher than the value for the first eight months (8.5 billion), it is consistent for the full-year figure to be greater than the partial-year figure. The difference in time periods explains the discrepancy, and no contradiction exists when the context of the period is considered. Therefore, the facts are reconciled by the difference in the period condition.",
+    "verdict": "reconciled_by_context"
+  }
+}

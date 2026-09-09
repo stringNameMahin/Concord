@@ -72,6 +72,28 @@ def surface_tokens(text: str) -> frozenset[str]:
     return frozenset(normalize_surface(text).split())
 
 
+def subject_names_the_measurement(subject_surface: str, predicate: str) -> bool:
+    """True when the subject is the row label instead of the thing measured.
+
+    A model reading a table can hand back `Adjusted EBITDA / adjusted_ebitda`
+    or `Total equity / total_equity`, naming the metric twice and never the
+    organisation the table is about. Prompt rule 8 forbids it and a model still
+    does it, so this is the deterministic check - the same shape of guard the
+    quote gets from the aligner and the qualifier gets from the named-key test.
+
+    The test is that every word of the subject already appears in the
+    predicate. That is what a doubled row label looks like, and it stays inside
+    what the rules already promise: rule 7 bars the entity from the predicate,
+    so a subject wholly contained in one is either the metric restated or a
+    predicate that broke rule 7. It needs no vocabulary and no subject area,
+    which is the whole constraint on this system. Measured on the shipped
+    ledger: 7 of 506 facts, every one of them a genuine instance, no false
+    positives - see bug 23 in docs/status.md.
+    """
+    subject = surface_tokens(subject_surface)
+    return bool(subject) and subject <= set(canonical_predicate(predicate).split("_"))
+
+
 @dataclass(frozen=True)
 class Qualifier:
     """One condition on a fact, with how we came to know it.
@@ -289,6 +311,9 @@ def materialize(
             )
         except NotANumber:
             flags.append("unparsed_quantity")
+
+    if subject_names_the_measurement(out.subject_surface, out.predicate):
+        flags.append("subject_names_the_measurement")
 
     evidence = Evidence(
         doc_id=doc_id,

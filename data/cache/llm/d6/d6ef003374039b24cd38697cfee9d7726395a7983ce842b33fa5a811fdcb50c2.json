@@ -1,0 +1,419 @@
+{
+  "key": "d6ef003374039b24cd38697cfee9d7726395a7983ce842b33fa5a811fdcb50c2",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"192\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Revenue Recognition\n</context>\n<text>\n\u2022\t \u0007We tested inter se reconciliations between\nreports generated from relevant IT systems\nwith general ledger;\n\u2022\t \u0007We tested, on a sample basis, underlying\ncontracts, identifying the key terms and\nattributes from the contracts and checking\nthem against the underlying data from the\nsystem used in the transaction processes and\nthen recalculating the revenue amount.\n\u2022\t \u0007Assessed the adequacy of the disclosures\nmade in the financial statements.\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n187\n\n\nSr. No. Key Audit Matter\nAuditor\u2019s Response\n3.\nImpairment Assessment of Goodwill\n(Refer note 4 of the consolidated financial\nstatement)\nThe consolidated financial statements of the\nGroup as at 31 March, 2026 carries goodwill\namounting to INR 4,528 crores in relation to the\nAcquisition of Blink Commerce Private Limited\n(\u201cBCPL\u201d), Orbgen Technologies Private Limited\n(\u201cOTPL\u201d) and Wasteland Entertainment Private\nLimited (\u201cWEPL\u201d) in previous year.\nGoodwill is assessed for impairment at each\nreporting date and is additionally tested annually\nfor impairment.\nDuring the current year, based on identified\nimpairment indicators, management has carried\nout impairment assessment by comparing the\ncarrying value of the goodwill to their recoverable\namount to determine whether an impairment was\nrequired to be recognized.\nWe considered the assumptions relating to future\nrevenue growth and the valuation assumptions,\nspecifically, the assumptions relating to weighted\naverage cost of capital, terminal growth rate\nand revenue multiple, used in estimation of\nrecoverable value of BCPL, OTPL and WEPL as\na key audit matter due to the significance of the\ninvestment amount and the significant estimates\nand judgement involved in estimation of these\nassumptions.\nPrincipal audit procedures performed:\n\u2022\t \u0007Evaluated the design, implementation and\ntested the operating effectiveness of relevant\ninternal controls relating to impairment\nassessment of Goodwill.\n\u2022\t \u0007Evaluated the reasonableness of the business\nassumptions relating to future revenue\ngrowth;\n\u2022\t \u0007Evaluated the objectivity and competency of\nthe specialist engaged by the Company and\nreviewed the valuation report issued by such\nspecialist;\n\u2022\t \u0007We have used our valuation specialists\nto assess overall reasonableness of the\nassumptions used particularly those relating\nto the weighted average cost of capital,\nterminal growth rate and revenue multiple;\n\u2022\t \u0007Performed sensitivity analysis on the key\nassumptions such as weighted average cost\nof capital, terminal growth rate and revenue\nmultiple;\n\u2022\t \u0007Assessed the adequacy of the disclosures\nmade in the financial statements\nInformation Other than the Financial\nStatements and Auditor\u2019s Report Thereon\n\u2022\t \u0007The Parent\u2019s Board of Directors is responsible\nfor the other information. The other information\ncomprises the information included in the Board\nreport, but does not include the consolidated\nfinancial statements, standalone financial\nstatements and our auditor\u2019s report thereon. The\nBoard report is expected to be made available to\nus after the date of this auditor\u2019s report.\n\u2022\t \u0007Our opinion on the consolidated financial\nstatements does not cover the other information\nand will not express any form of assurance\nconclusion thereon.\n\u2022\t \u0007In connection with our audit of the consolidated\nfinancial statements, our responsibility is to read\nthe other information identified above when it\nbecomes available, compare with the financial\nstatements of the subsidiaries and trust audited by\nthe other auditors, to the extent it relates to these\nentities and, in doing so, place reliance on the\nwork of the other auditors and consider whether\nthe other information is materially inconsistent\nwith the consolidated financial statements or\nour knowledge obtained during the course of\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n188\n\n\nour audit or otherwise appears to be materially\n</text>\n</passage>\n\n<passage id=\"193\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment Assessment of Goodwill\n</context>\n<text>\nbecomes available, compare with the financial\nstatements of the subsidiaries and trust audited by\nthe other auditors, to the extent it relates to these\nentities and, in doing so, place reliance on the\nwork of the other auditors and consider whether\nthe other information is materially inconsistent\nwith the consolidated financial statements or\nour knowledge obtained during the course of\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n188\n\n\nour audit or otherwise appears to be materially\nmisstated. Other information so far as it relates to\nthe subsidiaries and the trust, is traced from their\nfinancial statements audited by the other auditors.\n\u2022\t \u0007When we read the Board report, if we conclude\nthat there is a material misstatement therein, we\nare required to communicate the matter to those\ncharged with governance as required under SA 720\n\u2018The Auditor\u2019s responsibilities Relating to Other\nInformation\u2019.\nResponsibilities of Management and\nBoard of Directors for the Consolidated\nFinancial Statements\nThe Parent\u2019s Board of Directors is responsible for\nthe matters stated in section  134(5) of the  Act with\nrespect  to  the  preparation  of  these  consolidated\nfinancial statements that give a true and fair view\nof the consolidated financial position, consolidated\nfinancial performance including other comprehensive\nincome, consolidated cash flows and consolidated\nchanges in equity of the Group in accordance with\nthe accounting principles generally accepted in India,\nincluding Ind AS specified under section 133 of the Act.\nThe respective Board of Directors of the companies\nincluded in the Group are responsible for maintenance\nof adequate accounting records in accordance with\nthe provisions of the Act for safeguarding the assets\nof the Group and for preventing and detecting frauds\nand  other  irregularities;  selection  and  application  of\nappropriate accounting policies;  making  judgments\nand  estimates  that  are  reasonable  and prudent;\nand design, implementation and maintenance of\nadequate internal financial controls, that were\noperating effectively for ensuring the accuracy and\ncompleteness of the accounting records, relevant\nto the preparation and presentation of the  financial\nstatements that give a true and fair view and are free\nfrom material misstatement, whether due to fraud\nor error, which have been used for the purpose of\npreparation of the consolidated financial statements\nby the Directors of the Parent, as aforesaid.\nIn preparing the consolidated financial statements,\nthe respective Management and Board of Directors of\nthe companies included in the Group  are responsible\nfor assessing the  ability of the respective entities to\ncontinue as a going concern, disclosing, as applicable,\nmatters related to going concern and using the going\nconcern basis of accounting unless the respective\nBoard of Directors either intend to liquidate their\nrespective entities or to cease operations, or has no\nrealistic alternative but to do so.\nThe respective Board of Directors of the companies\nincluded in the Group are also responsible for\noverseeing the financial reporting process of the\nGroup.\nAuditor\u2019s Responsibility for the Audit of\nthe Consolidated Financial Statements\nOur objectives are to obtain reasonable assurance\nabout whether the consolidated financial statements\nas a whole are free from material misstatement,\nwhether due to fraud or error, and to issue an\nauditor\u2019s report that includes our opinion. Reasonable\nassurance is a high level of assurance, but is not a\nguarantee that an audit conducted in accordance\nwith SAs will always detect a material misstatement\nwhen it exists. Misstatements can arise from fraud or\nerror and are considered material if, individually or in\nthe aggregate, they could reasonably be expected to\ninfluence the economic decisions of users taken on\nthe basis of these consolidated financial statements.\nAs part of an audit in accordance with SAs, we exercise\nprofessional judgment and maintain professional\n</text>\n</passage>\n\n<passage id=\"194\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment Assessment of Goodwill\n</context>\n<text>\nassurance is a high level of assurance, but is not a\nguarantee that an audit conducted in accordance\nwith SAs will always detect a material misstatement\nwhen it exists. Misstatements can arise from fraud or\nerror and are considered material if, individually or in\nthe aggregate, they could reasonably be expected to\ninfluence the economic decisions of users taken on\nthe basis of these consolidated financial statements.\nAs part of an audit in accordance with SAs, we exercise\nprofessional judgment and maintain professional\nskepticism throughout the audit. We also:\n\u2022\n\u0007Identify and assess the risks of material\nmisstatement of the consolidated financial\nstatements, whether due to fraud or error, design\nand perform audit procedures responsive to\nthose risks, and obtain audit evidence that is\nsufficient and appropriate to provide a basis for\nour opinion. The risk of not detecting a material\nmisstatement resulting from fraud is higher\nthan for one resulting from error, as fraud may\ninvolve collusion, forgery, intentional omissions,\nmisrepresentations, or the override of internal\ncontrol.\n\u2022\n\u0007Obtain an understanding of internal financial\ncontrols relevant to the audit in order to design\naudit procedures that are appropriate in the\ncircumstances. Under section 143(3)(i) of the\nAct, we are also responsible for expressing our\nopinion on whether the Parent has adequate\ninternal financial controls with reference to\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n189\n\n\nconsolidated financial statements in place and\nthe operating effectiveness of such controls.\n\u2022\n\u0007Evaluate the appropriateness of accounting\npolicies used and the reasonableness of\naccounting estimates and related disclosures\nmade by the management.\n\u2022\n\u0007Conclude\non\nthe\nappropriateness\nof\nmanagement\u2019s use of the going concern basis\nof accounting and, based on the audit evidence\nobtained, whether a material uncertainty exists\nrelated to events or conditions that may cast\nsignificant doubt on the ability of the Group to\ncontinue as a going concern. If we conclude that\na material uncertainty exists, we are required\nto draw attention in our auditor\u2019s report to the\nrelated disclosures in the consolidated financial\nstatements or, if such disclosures are inadequate,\nto modify our opinion. Our conclusions are based\non the audit evidence obtained up to the date\nof our auditor\u2019s report. However, future events\nor conditions may cause the Group to cease to\ncontinue as a going concern.\n\u2022\n\u0007Evaluate the overall presentation, structure and\ncontent of the consolidated financial statements,\nincluding the disclosures, and whether the\nconsolidated financial statements represent the\nunderlying transactions and events in a manner\nthat achieves fair presentation.\n\u2022\n\u0007Obtain sufficient appropriate audit evidence\nregarding the financial information of the\nentities within the Group to express an opinion\non the consolidated financial statements. We\nare responsible for the direction, supervision\nand performance of the audit of the financial\nstatements of such entities included in the\nconsolidated financial statements of which we\nare the independent auditors. For the entities\nincluded in the consolidated financial statements,\nwhich have been audited by the other auditors,\nsuch other auditors remain responsible for the\ndirection, supervision and performance of the\naudits carried out by them. We remain solely\nresponsible for our audit opinion.\nMateriality is the magnitude of misstatements in the\nconsolidated financial statements that, individually\nor in aggregate, makes it probable that the economic\ndecisions of a reasonably knowledgeable user of the\nconsolidated financial statements may be influenced.\nWe consider quantitative materiality and qualitative\nfactors in (i) planning the scope of our audit work\nand in evaluating the results of our work; and (ii) to\nevaluate the effect of any identified misstatements\nin the consolidated financial statements.\nWe communicate with those charged with governance\n</text>\n</passage>\n\n<passage id=\"195\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment Assessment of Goodwill\n</context>\n<text>\nconsolidated financial statements that, individually\nor in aggregate, makes it probable that the economic\ndecisions of a reasonably knowledgeable user of the\nconsolidated financial statements may be influenced.\nWe consider quantitative materiality and qualitative\nfactors in (i) planning the scope of our audit work\nand in evaluating the results of our work; and (ii) to\nevaluate the effect of any identified misstatements\nin the consolidated financial statements.\nWe communicate with those charged with governance\nof the Parent and such other entities included in\nthe consolidated financial statements of which we\nare the independent auditors regarding, among\nother matters, the planned scope and timing of the\naudit and significant audit findings, including any\nsignificant deficiencies in internal financial controls\nthat we identify during our audit.\nWe also provide those charged with governance with\na statement that we have complied with relevant\nethical requirements regarding independence, and to\ncommunicate with them all relationships and other\nmatters that may reasonably be thought to bear on\nour independence, and where applicable, related\nsafeguards.\nFrom the matters communicated with those charged\nwith governance, we determine those matters\nthat were of most significance in the audit of the\nconsolidated financial statements of the current\nperiod and are therefore the key audit matters. We\ndescribe these matters in our auditor\u2019s report unless\nlaw or regulation precludes public disclosure about the\nmatter or when, in extremely rare circumstances, we\ndetermine that a matter should not be communicated\nin our report because the adverse consequences of\ndoing so would reasonably be expected to outweigh\nthe public interest benefits of such communication.\nOther Matters\n(a)\t \u0007We did not audit the financial statements of\n11 subsidiaries and 1 trust, whose financial\nstatements reflect total assets of ` 2,384 crores\nas at 31st March, 2026, total revenues of\n`408 crores and net cash inflows amounting\nto ` 11 crores for the year ended on that date,\nas considered in the consolidated financial\nstatements. These financial statements have\nbeen audited by other auditors whose reports\nhave been furnished to us by the Management\nand our opinion on the consolidated financial\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n190\n\n\nstatements, in so far as it relates to the amounts\nand disclosures included in respect of these\nsubsidiaries and trust, and our report in terms\nof subsection (3) of Section 143 of the Act, in so\nfar as it relates to the aforesaid subsidiaries and\ntrust is based solely on the reports of the other\nauditors.\n(b)\t \u0007We did not audit the financial statements of 11\nsubsidiaries, whose financial statements reflect\ntotal assets of ` 154 crores as at 31st March, 2026,\ntotal revenues of ` 13 crores and net cash inflows\namounting to ` 11 crores for the year ended on\nthat date, as considered in the consolidated\nfinancial statements. These financial statements\nare unaudited and have been furnished to us\nby the Management and our opinion on the\nconsolidated financial statements, in so far as it\nrelates to the amounts and disclosures included\nin respect of these subsidiaries, is based solely\non such unaudited financial information. In our\nopinion and according to the information and\nexplanations given to us by the Management,\nthese financial information are not material to\nthe Group.\nOur opinion on the consolidated financial statements\nabove and our report on Other Legal and Regulatory\nRequirements below, is not modified in respect of the\nabove matters with respect to our reliance on the work\ndone and the reports of the other auditors and the\nfinancial statements certified by the Management.\nReport on Other Legal and Regulatory\nRequirements\n1.\n\u0007As required by Section 143(3) of the Act, based on\nour audit and on the consideration of the reports\nof the other auditors on the separate financial\nstatements of the subsidiaries and trust referred\n</text>\n</passage>\n\n<passage id=\"196\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment Assessment of Goodwill\n</context>\n<text>\nabove and our report on Other Legal and Regulatory\nRequirements below, is not modified in respect of the\nabove matters with respect to our reliance on the work\ndone and the reports of the other auditors and the\nfinancial statements certified by the Management.\nReport on Other Legal and Regulatory\nRequirements\n1.\n\u0007As required by Section 143(3) of the Act, based on\nour audit and on the consideration of the reports\nof the other auditors on the separate financial\nstatements of the subsidiaries and trust referred\nto in the Other Matters section above, we report\nthat:\na)\n\u0007We have sought and obtained all the information\nand explanations which to the best of our\nknowledge and belief were necessary for\nthe purposes of our audit of the aforesaid\nconsolidated financial statements.\nb)\n\u0007In our opinion, proper books of account as\nrequired by law relating to preparation of the\naforesaid consolidated financial statements have\nbeen kept by the Group including relevant records\nso far as it appears from our examination of those\nbooks except in relation to compliance with the\nrequirements of audit trail, refer paragraph (h)(vi)\nbelow.\nc)\n\u0007The Consolidated Balance Sheet, the\nConsolidated Statement of Profit and Loss\nincluding Other Comprehensive Income, the\nConsolidated Statement of Cash Flows and the\nConsolidated Statement of Changes in Equity\ndealt with by this Report are in agreement with\nthe relevant books of account maintained for\nthe purpose of preparation of the consolidated\nfinancial statements.\nd)\n\u0007In our opinion, the aforesaid consolidated\nfinancial statements comply with the Ind AS\nspecified under Section 133 of the Act.\ne)\n\u0007On the basis of the written representations\nreceived from the directors of the Parent as on\n31st March, 2026 taken on record by the Board of\nDirectors of the Company and the reports of the\nstatutory auditors of its subsidiary companies\nincorporated in India, none of the directors of\nthe Group companies incorporated in India is\ndisqualified as on 31st March, 2026 from being\nappointed as a director in terms of Section 164\n(2) of the Act.\nf)\n\u0007With respect to the adequacy of the internal\nfinancial controls with reference to consolidated\nfinancial statements and the operating\neffectiveness of such controls, refer to our\nseparate Report in \u201cAnnexure A\u201d which is based\non the auditors\u2019 reports of the Parent and\nsubsidiary companies incorporated in India. Our\nreport expresses an unmodified opinion on the\nadequacy and operating effectiveness of internal\nfinancial controls with reference to consolidated\nfinancial statements of those companies.\ng)\n\u0007With respect to the other matters to be included\nin the Auditor\u2019s Report in accordance with the\nrequirements of section 197(16) of the Act, as\namended, in our opinion and to the best of our\ninformation and according to the explanations\ngiven to us and based on the auditor\u2019s reports\nof subsidiary companies incorporated in India,\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n191\n\n\nthe remuneration paid by the Parent and such\nsubsidiary companies to their respective\ndirectors during the year is in accordance with\nthe provisions of section 197 of the Act.\nh)\n\u0007With respect to the other matters to be included\nin the Auditor\u2019s Report in accordance with Rule\n11 of the Companies (Audit and Auditors) Rules,\n2014, as amended in our opinion and to the best of\nour information and according to the explanations\ngiven to us:\ni)\n\u0007The consolidated financial statements\ndisclose the impact of pending litigations\non the consolidated financial position of the\nGroup - Refer Note 37 to the consolidated\nfinancial statements.\nii)\n\u0007The Group did not have any material\nforeseeable losses on long-term contracts\nincluding derivative contracts.\niii)\t \u0007There were no amounts which were required\nto be transferred to the Investor Education\nand Protection Fund by the Parent and its\nsubsidiary companies incorporated in India.\niv)\t (a)\t \u0007The respective Managements of the\nParent and its subsidiaries which are\n</text>\n</passage>\n\n<passage id=\"197\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment Assessment of Goodwill\n</context>\n<text>\ndisclose the impact of pending litigations\non the consolidated financial position of the\nGroup - Refer Note 37 to the consolidated\nfinancial statements.\nii)\n\u0007The Group did not have any material\nforeseeable losses on long-term contracts\nincluding derivative contracts.\niii)\t \u0007There were no amounts which were required\nto be transferred to the Investor Education\nand Protection Fund by the Parent and its\nsubsidiary companies incorporated in India.\niv)\t (a)\t \u0007The respective Managements of the\nParent and its subsidiaries which are\ncompanies incorporated in India, whose\nfinancial statements have been audited\nunder the Act, have represented to\nus and to the other auditors of such\nsubsidiaries respectively that, to the\nbest of their knowledge and belief, no\nfunds have been advanced or loaned\nor invested (either from borrowed\nfunds or share premium or any other\nsources or kind of funds) by the Parent\nor any of such subsidiaries to or in any\nother person(s) or entity(ies), including\nforeign entities (\u201cIntermediaries\u201d), with\nthe understanding, whether recorded\nin writing or otherwise, that the\nIntermediary shall, directly or indirectly\nlend or invest in other persons or entities\nidentified in any manner whatsoever\nby or on behalf of the Parent Company\nor any of such subsidiaries (\u201cUltimate\nBeneficiaries\u201d) or provide any guarantee,\nsecurity or the like on behalf of the\nUltimate Beneficiaries.\n(b)\t \u0007The respective Managements of the\nParent and its subsidiaries which are\ncompanies incorporated in India, whose\nfinancial statements have been audited\nunder the Act, have represented to\nus and to the other auditors of such\nsubsidiaries respectively that, to the\nbest of their knowledge and belief,\nno funds have been received by the\nParent or any of such subsidiaries from\nany person(s) or entity(ies), including\nforeign entities (\u201cFunding Parties\u201d), with\nthe understanding, whether recorded in\nwriting or otherwise, that the Parent or\nany of such subsidiaries shall, directly\nor indirectly, lend or invest in other\npersons or entities identified in any\nmanner whatsoever by or on behalf of the\nFunding Party (\u201cUltimate Beneficiaries\u201d)\nor provide any guarantee, security\nor the like on behalf of the Ultimate\nBeneficiaries.\n(c) \t \u0007Based on the audit procedures performed\nthat have been considered reasonable\nand appropriate in the circumstances\nperformed by us and that performed by\nthe auditors of the subsidiaries which are\ncompanies incorporated in India whose\nfinancial statements have been audited\nunder the Act, nothing has come to our\nor other auditor\u2019s notice that has caused\nus or the other auditors to believe that\nthe representations under sub-clause (i)\nand (ii) of Rule 11(e), as provided under\n(a) and (b) above, contain any material\nmisstatement.\nv)\n\u0007The Parent and its subsidiaries which are\ncompanies incorporated in India, whose\nfinancial statements have been audited\nunder the Act, have not declared or paid\nany dividend during the year and have not\nproposed final dividend for the year.\nvi)\t \u0007Based on our examination which included\ntest checks and based on the other auditor\u2019s\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n192\n\n\nreports of its subsidiary companies\nincorporated in India whose financial\nstatements have been audited under the\nAct, except for the instances mentioned\nbelow, the Parent Company and its subsidiary\ncompanies, incorporated in India have used\naccounting software for maintaining their\nrespective books of account for the year\nended March 31, 2026, which have a feature\nof recording audit trail (edit log) facility and\nthe same has operated throughout the year\nfor all relevant transactions recorded in the\nsoftware except that:\n\u0007In respect of Parent Company and nine\nsubsidiaries:\n\u0007In respect of certain accounting software(s), the\naudit trail log for direct data changes at database\nlevel in the software is being maintained\nthroughout the year, at any given point in time for\na period up to 30 days for all relevant transactions\n</text>\n</passage>\n\n<passage id=\"198\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > Impairment Assessment of Goodwill\n</context>\n<text>\nended March 31, 2026, which have a feature\nof recording audit trail (edit log) facility and\nthe same has operated throughout the year\nfor all relevant transactions recorded in the\nsoftware except that:\n\u0007In respect of Parent Company and nine\nsubsidiaries:\n\u0007In respect of certain accounting software(s), the\naudit trail log for direct data changes at database\nlevel in the software is being maintained\nthroughout the year, at any given point in time for\na period up to 30 days for all relevant transactions\nrecorded in the software.\n\u0007In respect of Parent Company and eight\nsubsidiaries:\n\u0007In respect of an accounting software(s) operated\nby third party software service provider, for\nmaintaining payroll records, in the absence of an\nindependent auditor \u2019s system and organization\ncontrols report covering the requirement of audit\ntrail at database level, we are unable to comment\nwhether the audit trail at database level was\nenabled and operated throughout the year and\nwhether there were any instances of the audit\ntrail (edit log) feature been tampered with.\n\u0007In respect of Parent Company and ten\nsubsidiaries:\n\u0007In respect of an accounting software(s) operated\nby third party software service provider, for\nmaintaining purchase records, in the absence of\nan independent auditor \u2019s system and organization\ncontrols report covering the requirement of audit\ntrail at database level, we are unable to comment\nwhether the audit trail at database level was\nenabled and operated throughout the year and\nwhether there were any instances of the audit\ntrail (edit log) feature been tampered with.\n\u0007Further, during the course of our audit, we and\nthe respective other auditors, whose reports\nhave been furnished to us by the Management of\nthe Parent Company, have not come across any\ninstance of the audit trail feature being tampered\nwith in respect of the accounting software for\nthe period for which the audit trail feature was\noperating.\n\u0007Additionally, audit trail that was enabled and\noperated for the year ended March 31, 2024 and\nyear ended March 31, 2025, has been preserved\nby the Company and above referred subsidiaries,\nas per the statutory requirements for record\nretention, as stated in Note 44 to the financial\nstatements.\n2.\t \u0007With respect to the matters specified in clause\n(xxi) of paragraph 3 and paragraph 4 of the\nCompanies (Auditor\u2019s Report) Order, 2020 (\u201cCARO\u201d/\n\u201cthe Order\u201d) issued by the Central Government in\nterms of Section 143(11) of the Act, according\nto the information and explanations given to us,\nand based on the CARO reports issued by us and\nthe auditors of respective companies included\nin the consolidated financial statements to\nwhich reporting under CARO is applicable, as\nprovided to us by the Management of the Parent,\nwe report that there are no qualifications or\nadverse remarks by the respective auditors in the\nCARO reports of the said respective companies\nincluded in the consolidated financial statements\nexcept for the following:\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n193\n\n\nName of the company\nCIN\nNature of\nrelationship\nClause Number of\nCARO report with\nqualification or\nadverse remark\nTonguestun Food Networks Private Limited U55101KA2012PTC066805\nSubsidiary\nClause 3(xvii)\nZomato Entertainment Private Limited\nU74999DL2018PTC342569\nSubsidiary\nClause 3(xvii)\nZomato Foods Private Limited\nU73100DL2020PTC369324\nSubsidiary\nClause 3(xvii)\nZomato Local Services Private Limited\nU74900DL2019PTC351669\nSubsidiary\nClause 3(xvii)\nBlink Commerce Private Limited\nU74140HR2015PTC055568\nSubsidiary\nClause 3(xvii)\nBlinkit Foods Limited\nU47222DL2025PLC453320\nSubsidiary\nClause 3(xvii)\nWasteland Entertainment Private Limited\nU74120MH2015PTC271160\nSubsidiary\nClause 3(xvii)\nOrbgen technologies Private Limited\nU72200TN2007PTC065476\nSubsidiary\nClause 3(xvii)\nFor Deloitte Haskins & Sells\nChartered Accountants\n(Firm\u2019s Registration No. 015125N)\nSd/-\nVikas Khurana\n(Partner)\nPlace: Gurugram \b\n(Membership No. 503760)\nDate: April 28, 2026\b\n(UDIN: 26503760QSVJWF9305)\n</text>\n</passage>\n\n<passage id=\"199\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Independent Auditor\u2019s Report > adverse remark\n</context>\n<text>\nBlink Commerce Private Limited\nU74140HR2015PTC055568\nSubsidiary\nClause 3(xvii)\nBlinkit Foods Limited\nU47222DL2025PLC453320\nSubsidiary\nClause 3(xvii)\nWasteland Entertainment Private Limited\nU74120MH2015PTC271160\nSubsidiary\nClause 3(xvii)\nOrbgen technologies Private Limited\nU72200TN2007PTC065476\nSubsidiary\nClause 3(xvii)\nFor Deloitte Haskins & Sells\nChartered Accountants\n(Firm\u2019s Registration No. 015125N)\nSd/-\nVikas Khurana\n(Partner)\nPlace: Gurugram \b\n(Membership No. 503760)\nDate: April 28, 2026\b\n(UDIN: 26503760QSVJWF9305)\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n194\n\n\nAnnexure A to the Independent Auditor\u2019s Report\n(Referred to in paragraph 1(f) under \u2018Report on Other Legal and Regulatory Requirements\u2019 section of our\nreport of even date)\nReport on the Internal Financial Controls\nwith reference to consolidated financial\nstatements under Clause (i) of Sub-\nsection 3 of Section 143 of the Companies\nAct, 2013 (the \u201cAct\u201d)\nIn conjunction with our audit of the consolidated\nfinancial statements of the Company as at and for\nthe year ended  March 31, 2026, we have audited\nthe internal financial controls with reference to\nconsolidated financial statements of Eternal Limited\n(formerly known as Zomato Limited) (hereinafter\nreferred to as the \u201cParent\u201d) and its subsidiary\ncompanies, which are companies incorporated in\nIndia, as of that date.\nManagement\u2019s and Board of Directors\u2019\nResponsibilities for Internal Financial\nControls\nThe Company\u2019s management and Board of Directors\nof the Parent, are responsible for establishing and\nmaintaining internal financial controls with reference\nto consolidated financial statements based on \u201cthe\ninternal control with reference to consolidated\nfinancial statements  criteria established by the\nCompany considering the essential components of\ninternal control stated in the Guidance Note on Audit\nof Internal Financial Controls Over Financial Reporting\nissued by the Institute of Chartered Accountants\nof India (the \u201cICAI)\u201d. These responsibilities include\nthe design, implementation and maintenance of\nadequate internal financial controls that were\noperating effectively for ensuring the orderly\nand efficient conduct of its business, including\nadherence to the Parent\u2019s policies, the safeguarding\nof its assets, the prevention and detection of frauds\nand errors, the accuracy and completeness of the\naccounting records, and the timely preparation of\nreliable financial information, as required under the\nCompanies Act, 2013.\nAuditor\u2019s Responsibility\nOur responsibility is to express an opinion on the\nParent\u2019s internal financial controls with reference\nto consolidated financial statements based on our\naudit. We conducted our audit in accordance with the\nGuidance Note on Audit of Internal Financial Controls\nOver Financial Reporting (the \u201cGuidance Note\u201d) issued\nby the Institute of Chartered Accountants of India and\nthe Standards on Auditing, prescribed under Section\n143(10) of the Companies Act, 2013, to the extent\napplicable to an audit of internal financial controls\nwith reference to consolidated financial statements.\nThose Standards and the Guidance Note require that\nwe comply with ethical requirements and plan and\nperform the audit to obtain reasonable assurance\nabout whether adequate internal financial controls\nwith reference to consolidated financial statements\nwas established and maintained and if such controls\noperated effectively in all material respects.\nOur audit involves performing procedures to\nobtain audit evidence about the adequacy of\nthe internal financial controls with reference to\nconsolidated financial statements and their operating\neffectiveness. Our audit of internal financial controls\nwith reference to consolidated financial statements\nincluded obtaining an understanding of internal\nfinancial controls with reference to consolidated\nfinancial statements, assessing the risk that a\nmaterial weakness exists, and testing and evaluating\nthe design and operating effectiveness of internal\ncontrol based on the assessed risk. The procedures\n</text>\n</passage>\n\n<passage id=\"200\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Annexure A to the Independent Auditor\u2019s Report > report of even date)\n</context>\n<text>\nthe internal financial controls with reference to\nconsolidated financial statements and their operating\neffectiveness. Our audit of internal financial controls\nwith reference to consolidated financial statements\nincluded obtaining an understanding of internal\nfinancial controls with reference to consolidated\nfinancial statements, assessing the risk that a\nmaterial weakness exists, and testing and evaluating\nthe design and operating effectiveness of internal\ncontrol based on the assessed risk. The procedures\nselected depend on the auditor\u2019s judgement, including\nthe assessment of the risks of material misstatement\nof the financial statements, whether due to fraud or\nerror.\nWe believe that the audit evidence we have obtained,\nis sufficient and appropriate to provide a basis for\nour audit opinion on the Parent\u2019s internal financial\ncontrols with reference to consolidated financial\nstatements.\nMeaning of Internal Financial Controls\nwith reference to consolidated financial\nstatements\nA company\u2019s internal financial control with\nreference to consolidated financial statements is a\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n195\n\n\nprocess designed to provide reasonable assurance\nregarding the reliability of financial reporting and\nthe preparation of financial statements for external\npurposes in accordance with generally accepted\naccounting principles. A company\u2019s internal financial\ncontrol with reference to consolidated financial\nstatements  includes those policies and procedures\nthat (1) pertain to the maintenance of records that,\nin reasonable detail, accurately and fairly reflect\nthe transactions and dispositions of the assets of\nthe company; (2) provide reasonable assurance that\ntransactions are recorded as necessary to permit\npreparation of financial statements in accordance\nwith generally accepted accounting principles, and\nthat receipts and expenditures of the company are\nbeing made only in accordance with authorisations\nof management and directors of the company; and (3)\nprovide reasonable assurance regarding prevention\nor timely detection of unauthorised acquisition, use,\nor disposition of the company\u2019s assets that could\nhave a material effect on the financial statements.\nInherent Limitations of Internal Financial\nControls with reference to consolidated\nfinancial statements\nBecause of the inherent limitations of internal financial\ncontrols with reference to consolidated financial\nstatements, including the possibility of collusion or\nimproper management override of controls, material\nmisstatements due to error or fraud may occur and\nnot be detected. Also, projections of any evaluation\nof the internal financial controls with reference to\nconsolidated financial statements to future periods\nare subject to the risk that the internal financial control\nwith reference to consolidated financial statements\nmay become inadequate because of changes in\nconditions, or that the degree of compliance with the\npolicies or procedures may deteriorate.\nOpinion\nIn  our opinion to the best of our information and\naccording to the explanations given to us, the Parent,\nhas, in all material respects, an adequate internal\nfinancial controls with reference to consolidated\nfinancial statements and such internal financial\ncontrols with reference to consolidated financial\nstatements  were operating effectively as at\nMarch  31, 2026, based on \u201cthe internal control with\nreference to consolidated financial statements\ncriteria established by the Company considering the\nessential components of internal control stated in the\nGuidance Note on Audit of Internal Financial Controls\nOver Financial Reporting issued by the Institute of\nChartered Accountants of India\u201d.\nOther Matters\nOur aforesaid report under Section 143(3)(i) of the\nAct on the adequacy and operating effectiveness\nof the internal financial controls with reference\nto consolidated financial statements insofar as\nit relates to 11 subsidiary company which are\ncompanies incorporated in India are based solely on\n</text>\n</passage>\n\n<passage id=\"201\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\nCIN : L93030DL2010PLC198141\n\n[section]\nchanging lifestyles > Annexure A to the Independent Auditor\u2019s Report > report of even date)\n</context>\n<text>\nessential components of internal control stated in the\nGuidance Note on Audit of Internal Financial Controls\nOver Financial Reporting issued by the Institute of\nChartered Accountants of India\u201d.\nOther Matters\nOur aforesaid report under Section 143(3)(i) of the\nAct on the adequacy and operating effectiveness\nof the internal financial controls with reference\nto consolidated financial statements insofar as\nit relates to 11 subsidiary company which are\ncompanies incorporated in India are based solely on\nthe corresponding reports of the auditors of such\ncompanies incorporated in India.\nOur opinion is not modified in respect of the above\nmatters.\nFor Deloitte Haskins & Sells\nChartered Accountants\n(Firm\u2019s Registration No. 015125N)\nSd/-\nVikas Khurana\n(Partner)\nPlace: Gurugram \b\n(Membership No. 503760)\nDate: April 28, 2026\b\n(UDIN: 26503760QSVJWF9305)\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n196\n\n\nConsolidated Balance Sheet\nas at March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nNote\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nAssets\nNon-current assets\nProperty, plant and equipment\n3\n2,033\n965\nCapital work-in-progress\n3\n136\n51\nRight-of-use assets\n30\n4,294\n1,918\nGoodwill\n4\n5,737\n5,737\nOther intangible assets\n4\n611\n912\nFinancial assets\nInvestments\n5\n9,742\n10,920\nOther financial assets\n10\n1,606\n2,744\nTax assets (net)\n202\n129\nDeferred tax assets (net)\n33\n14\n-\nOther non-current assets\n11\n661\n546\nTotal non-current assets\n25,036\n23,922\nCurrent assets\nInventories\n12\n2,181\n176\nFinancial assets\nInvestments\n6\n5,091\n2,272\nTrade receivables\n7\n1,764\n1,946\nCash and cash equivalents\n8\n996\n666\nBank balances other than cash and cash equivalents\n9\n527\n2,948\nOther financial assets\n10\n3,537\n2,769\nOther current assets\n11\n1,604\n924\nTotal current assets\n15,700\n11,701\nTotal assets\n40,736\n35,623\nEquity and liabilities\nEquity\nEquity share capital\n13(a)\n919\n907\nOther equity\n13(b)\n30,061\n29,410\nEquity attributable to owners of the Parent\n30,980\n30,317\nNon-controlling interests\n(7)\n(7)\nTotal equity\n30,973\n30,310\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n197\n\n\nConsolidated Balance Sheet (Contd.)\n</text>\n</passage>\n\n<passage id=\"202\">\n<context>\n[page header]\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\nfor the year ended March 31, 2026\n\n[section]\nchanging lifestyles > Consolidated Balance Sheet > Current assets\n</context>\n<text>\nBank balances other than cash and cash equivalents\n9\n527\n2,948\nOther financial assets\n10\n3,537\n2,769\nOther current assets\n11\n1,604\n924\nTotal current assets\n15,700\n11,701\nTotal assets\n40,736\n35,623\nEquity and liabilities\nEquity\nEquity share capital\n13(a)\n919\n907\nOther equity\n13(b)\n30,061\n29,410\nEquity attributable to owners of the Parent\n30,980\n30,317\nNon-controlling interests\n(7)\n(7)\nTotal equity\n30,973\n30,310\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n197\n\n\nConsolidated Balance Sheet (Contd.)\nas at March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nNote\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nLiabilities\nNon-current liabilities\nFinancial liabilities\nLease liabilities\n30\n3,833\n1,654\nOther financial liabilities\n15\n-\n1\nProvisions\n17\n156\n120\nDeferred tax liabilities (net)\n33\n102\n212\nTotal non-current liabilities\n4,091\n1,987\nCurrent liabilities\nFinancial liabilities\nLease liabilities\n30\n759\n391\nTrade payables\n14\na. \t \u0007total outstanding dues of micro enterprises and\nsmall enterprises\n232\n75\nb.\t \u0007total outstanding dues of creditors other than\nmicro enterprises and small enterprises\n2,778\n1,461\nOther financial liabilities\n15\n1,105\n913\nOther current liabilities\n16\n744\n452\nProvisions\n17\n39\n34\nCurrent tax liabilities (net)\n15\n-\nTotal current liabilities\n5,672\n3,326\nTotal liabilities\n9,763\n5,313\nTotal equity and liabilities\n40,736\n35,623\nThe accompanying notes are an integral part of the consolidated financial statements.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells\nChartered Accountants\nFirm registration number-015125N\nFor and on behalf of the Board of Directors of\nEternal Limited (formerly known as Zomato Limited)\nSd/-\nVikas Khurana\n(Partner)\nMembership No-503760\nSd/-\nKaushik Dutta\n(Chairman and\nIndependent Director)\n(DIN-03328890)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nDeepinder Goyal\n(Vice Chairman and\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n198\n\n\nConsolidated Statement of Profit and Loss\n</text>\n</passage>\n\n<passage id=\"203\">\n<context>\n[page header]\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\nfor the year ended March 31, 2026\n\n[section]\nchanging lifestyles > Consolidated Balance Sheet > Consolidated Balance Sheet (Contd.) > Total equity and liabilities\n</context>\n<text>\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n198\n\n\nConsolidated Statement of Profit and Loss\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nNote\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nIncome\nRevenue from operations\n18\n54,364\n20,243\nOther income\n19\n1,396\n1,077\nTotal income (I)\n55,760\n21,320\nExpenses\nCost of materials consumed\n20\n54\n-\nPurchases of stock-in-trade\n32,115\n5,653\nChanges in inventories of finished goods, stock-in-\ntrade and work-in-progress\n21\n(2,002)\n(88)\nEmployee benefits expense\n22\n3,536\n2,558\nFinance costs\n23\n392\n154\nDepreciation and amortisation expenses\n24\n1,597\n863\nOther expenses\n25\n19,453\n11,483\nTotal expenses (II)\n55,145\n20,623\nProfit before exceptional items and tax (III= I-II)\n615\n697\nExceptional items (IV)\n-\n-\nProfit before tax (V= III-IV)\n615\n697\nTax expense :\n33\nCurrent tax\n319\n231\nDeferred tax\n(70)\n(61)\nTotal tax expense (VI)\n249\n170\nProfit for the year (VII= V-VI)\n366\n527\nOther comprehensive income / (loss)\n(a)\t \u0007Items that will not be reclassified to profit or loss:\n(i)\t Remeasurements of the defined benefit plans\n(3)\n(10)\n(ii)\t \u0007Equity instruments through other comprehensive\nincome\n(515)\n77\n(iii)\tIncome tax relating to above items\n33\n34\n(30)\nSubtotal (VIII)\n(484)\n37\n(b)\t Items that will be reclassified to profit or loss:\n(i)\t \u0007Exchange differences on translation of foreign\noperations\n19\n2\n(ii)\t \u0007Debt instruments through other comprehensive\nincome\n(90)\n112\n(iii)\tIncome tax relating to above items\n33\n23\n(23)\nSubtotal (IX)\n(48)\n91\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n199\n\n\nConsolidated Statement of Profit and Loss (Contd.)\n</text>\n</passage>\n\n<passage id=\"204\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Statement of Profit and Loss > Other comprehensive income / (loss)\n</context>\n<text>\n(ii)\t \u0007Equity instruments through other comprehensive\nincome\n(515)\n77\n(iii)\tIncome tax relating to above items\n33\n34\n(30)\nSubtotal (VIII)\n(484)\n37\n(b)\t Items that will be reclassified to profit or loss:\n(i)\t \u0007Exchange differences on translation of foreign\noperations\n19\n2\n(ii)\t \u0007Debt instruments through other comprehensive\nincome\n(90)\n112\n(iii)\tIncome tax relating to above items\n33\n23\n(23)\nSubtotal (IX)\n(48)\n91\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n199\n\n\nConsolidated Statement of Profit and Loss (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nNote\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nTotal other comprehensive income / (loss) for the\nyear (X = VIII+IX)\n(532)\n128\nTotal comprehensive income / (loss) for the year (XI =\nVII+ X)\n(166)\n655\nProfit for the year attributable to:\nOwners of the Parent\n366\n527\nNon-controlling interests\n-\n-\n366\n527\nTotal other comprehensive income / (loss) for the\nyear attributable to:\nOwners of the Parent\n(532)\n128\nNon-controlling interests\n(0)\n0\n(532)\n128\nTotal comprehensive income / (loss) for the year\nattributable to:\nOwners of the Parent\n(166)\n655\nNon-controlling interests\n(0)\n0\n(166)\n655\nEarnings per equity share (\"EPS\")\n(face value of INR 1 each)\n26\n(a)\t Basic EPS (INR)\n0.40\n0.60\n(b)\t Diluted EPS (INR)\n0.39\n0.58\nThe accompanying notes are an integral part of the consolidated financial statements.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells\nChartered Accountants\nFirm registration number-015125N\nFor and on behalf of the Board of Directors of\nEternal Limited (formerly known as Zomato Limited)\nSd/-\nVikas Khurana\n(Partner)\nMembership No-503760\nSd/-\nKaushik Dutta\n(Chairman and\nIndependent Director)\n(DIN-03328890)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nDeepinder Goyal\n(Vice Chairman and\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n200\n\n\nConsolidated Statement of Changes in Equity\n</text>\n</passage>\n\n<passage id=\"205\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Statement of Profit and Loss > Consolidated Statement of Profit and Loss (Contd.) > (face value of INR 1 each)\n</context>\n<text>\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n200\n\n\nConsolidated Statement of Changes in Equity\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nA.\t Equity Share Capital\nShares issued\n(A)\nShares held by ESOP Trust*\n(Treasury shares) (B)\nTotal outstanding shares\n(A-B)\nEquity shares of INR 1 each issued, subscribed and fully paid\nNumber\nAmount\nNumber\nAmount\nNumber\nAmount\nAs at April 01, 2025\n9,65,03,50,647\n965\n57,74,65,008\n58\n9,07,28,85,639\n907\nLess: shares issued by ESOP Trust on exercise of employee\nstock options\n-\n-\n(12,10,06,540)\n(12)\n12,10,06,540\n12\nAs at March 31, 2026\n9,65,03,50,647\n965\n45,64,58,468\n46\n9,19,38,92,179\n919\nShares issued\n(A)\nShares held by ESOP Trust*\n(Treasury shares) (B)\nTotal outstanding shares\n(A-B)\nEquity shares of INR 1 each issued, subscribed and fully paid\nNumber\nAmount\nNumber\nAmount\nNumber\nAmount\nAs at April 01, 2024\n8,81,97,83,744\n882\n13,95,28,706\n14\n8,68,02,55,038\n868\nAdd: bonus shares issued during the year (pursuant to\nexercise of employee stock options)\n93,18,309\n1\n-\n-\n93,18,309\n1\nAdd: shares issued on exercise of employee stock options\n72,39,994\n1\n-\n-\n72,39,994\n1\nAdd: bonus shares issued to ESOP Trust (refer note 41(b))\n3,99,52,836\n4\n3,99,52,836\n4\n-\n-\nAdd: shares issued to ESOP Trust (refer note 41(b))\n43,75,82,009\n44\n43,75,82,009\n44\n-\n-\nAdd: shares issued during the year (refer note 41(a))\n33,64,73,755\n34\n-\n-\n33,64,73,755\n34\nLess: shares issued by ESOP Trust on exercise of employee\nstock options\n-\n-\n(3,95,98,543)\n(4)\n3,95,98,543\n4\nAs at March 31, 2025\n9,65,03,50,647\n965\n57,74,65,008\n58\n9,07,28,85,639\n907\n*Foodie bay Employees ESOP Trust (\u201cESOP Trust\u201d)\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n201\n\n\nConsolidated Statement of Changes in Equity  (Contd.)\n</text>\n</passage>\n\n<passage id=\"206\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Statement of Changes in Equity\n</context>\n<text>\nAdd: shares issued to ESOP Trust (refer note 41(b))\n43,75,82,009\n44\n43,75,82,009\n44\n-\n-\nAdd: shares issued during the year (refer note 41(a))\n33,64,73,755\n34\n-\n-\n33,64,73,755\n34\nLess: shares issued by ESOP Trust on exercise of employee\nstock options\n-\n-\n(3,95,98,543)\n(4)\n3,95,98,543\n4\nAs at March 31, 2025\n9,65,03,50,647\n965\n57,74,65,008\n58\n9,07,28,85,639\n907\n*Foodie bay Employees ESOP Trust (\u201cESOP Trust\u201d)\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n201\n\n\nConsolidated Statement of Changes in Equity  (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nB.\t Other equity\nFor the year ended March 31, 2026\b\n(INR crores)\nDescription\nEquity attributable to owners of the Parent\nNon-\ncontrolling\ninterests\nTotal\nReserves and Surplus\nItems of other comprehensive income\nTotal\nCapital\nreserve\nShare-\nbased\npayment\nreserve\nSecurities\npremium\nRetained\nearnings\nTreasury\nshares\nEquity\ninstruments\nthrough other\ncomprehensive\nincome\nDebt\ninstruments\nthrough other\ncomprehensive\nincome\nExchange\ndifferences\non\ntranslation\nof foreign\noperations\nRemeasurements\nof the defined\nbenefit plans\nAs at April 01, 2025\n3\n1,253\n33,116\n(5,265)\n15\n181\n81\n39\n(13)\n29,410\n(7)\n29,403\nProfit for the year\n-\n-\n-\n366\n-\n-\n-\n-\n-\n366\n-\n366\nOther comprehensive income / (loss)\n-\n-\n-\n-\n-\n(485)\n(67)\n19\n1\n(532)\n(0)\n(532)\nTotal comprehensive income / (loss)\n-\n-\n-\n366\n-\n(485)\n(67)\n19\n1\n(166)\n(0)\n(166)\nAdd / (less): transfer on account of\nexercise of employee stock options\n-\n(670)\n-\n670\n-\n-\n-\n-\n-\n-\n-\n-\nAdd: share based payment expense\n-\n819\n-\n-\n-\n-\n-\n-\n-\n819\n-\n819\nAdd: surplus in ESOP Trust on exercise\nof employee stock options (net of tax)\n-\n-\n-\n1\n-\n-\n-\n-\n-\n1\n-\n1\nLess: shares issued by ESOP Trust on\nexercise of employee stock options\n-\n-\n-\n-\n(3)\n-\n-\n-\n-\n(3)\n-\n(3)\nAs at March 31, 2026\n3\n1,402\n33,116\n(4,228)\n12\n(304)\n14\n58\n(12) 30,061\n(7)\n30,054\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n202\n\n\nB.\t Other equity (Contd.)\n</text>\n</passage>\n\n<passage id=\"207\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Statement of Changes in Equity  (Contd.)\n</context>\n<text>\nexercise of employee stock options\n-\n(670)\n-\n670\n-\n-\n-\n-\n-\n-\n-\n-\nAdd: share based payment expense\n-\n819\n-\n-\n-\n-\n-\n-\n-\n819\n-\n819\nAdd: surplus in ESOP Trust on exercise\nof employee stock options (net of tax)\n-\n-\n-\n1\n-\n-\n-\n-\n-\n1\n-\n1\nLess: shares issued by ESOP Trust on\nexercise of employee stock options\n-\n-\n-\n-\n(3)\n-\n-\n-\n-\n(3)\n-\n(3)\nAs at March 31, 2026\n3\n1,402\n33,116\n(4,228)\n12\n(304)\n14\n58\n(12) 30,061\n(7)\n30,054\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n202\n\n\nB.\t Other equity (Contd.)\nFor the year ended March 31, 2025\b\n(INR crores)\nDescription\nEquity attributable to owners of the Parent\nNon-\ncontrolling\ninterests\nTotal\nReserves and Surplus\nItems of other comprehensive income\nTotal\nCapital\nreserve\nShare-\nbased\npayment\nreserve\nSecurities\npremium\nRetained\nearnings\nTreasury\nshares\nEquity\ninstruments\nthrough other\ncomprehensive\nincome\nDebt\ninstruments\nthrough other\ncomprehensive\nincome\nExchange\ndifferences\non\ntranslation\nof foreign\noperations\nRemeasurements\nof the defined\nbenefit plans\nAs at April 01, 2024\n3\n683\n24,709\n(6,024)\n14\n134\n(8)\n37\n(3) 19,545\n(7)\n19,538\nProfit for the year\n-\n-\n-\n527\n-\n-\n-\n-\n-\n527\n-\n527\nOther comprehensive income / (loss)\n-\n-\n-\n-\n-\n47\n89\n2\n(10)\n128\n0\n128\nTotal comprehensive income / (loss)\n-\n-\n-\n527\n-\n47\n89\n2\n(10)\n655\n0\n655\nAdd / (less): transfer on account of\nexercise of employee stock options\n-\n(228)\n-\n228\n-\n-\n-\n-\n-\n-\n-\n-\nAdd: share based payment expense\n-\n798\n-\n-\n-\n-\n-\n-\n-\n798\n-\n798\nAdd: surplus in ESOP Trust on exercise\nof employee stock options (net of tax)\n-\n-\n-\n4\n-\n-\n-\n-\n-\n4\n-\n4\nAdd: premium on issue of equity shares\n(refer note 41(a))\n-\n-\n8,466\n-\n-\n-\n-\n-\n-\n8,466\n-\n8,466\nAdd / (less): bonus shares issued to\nESOP Trust (refer note 41(b))\n-\n-\n(4)\n-\n4\n-\n-\n-\n-\n-\n-\n-\nLess: transaction cost on issue of equity\nshares (refer note 41(a))\n-\n-\n(54)\n-\n-\n-\n-\n-\n-\n(54)\n-\n(54)\nLess: share based payment on cash\nsettlement of option (fractional shares)\n-\n-\n-\n(0)\n-\n-\n-\n-\n-\n(0)\n-\n(0)\nLess: shares issued by ESOP Trust on\nexercise of employee stock options\n-\n-\n-\n-\n(3)\n-\n-\n-\n-\n(3)\n-\n(3)\nConsolidated Statement of Changes in Equity  (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n203\n\n\nConsolidated Statement of Changes in Equity  (Contd.)\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The consolidated financial statements of the Group as at 31 March, 2026 carries goodwill amounting to INR 4,528 crores in relation to the Acquisition of Blink Commerce Private Limited, Orbgen Technologies Private Limited and Wasteland Entertainment Private Limited.",
+        "confidence": 1,
+        "passage_id": 192,
+        "predicate": "goodwill_amount",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "31 March, 2026"
+          }
+        ],
+        "quote": "The consolidated financial statements of the Group as at 31 March, 2026 carries goodwill amounting to INR 4,528 crores in relation to the Acquisition of Blink Commerce Private Limited (\u201cBCPL\u201d), Orbgen Technologies Private Limited (\u201cOTPL\u201d) and Wasteland Entertainment Private Limited (\u201cWEPL\u201d) in previous year.",
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "4,528",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The Group did not audit the financial statements of 11 subsidiaries and 1 trust, whose financial statements reflect total assets of INR 2,384 crores as at 31st March, 2026.",
+        "confidence": 1,
+        "passage_id": 195,
+        "predicate": "total_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "31st March, 2026"
+          }
+        ],
+        "quote": "We did not audit the financial statements of 11 subsidiaries and 1 trust, whose financial statements reflect total assets of ` 2,384 crores as at 31st March, 2026",
+        "subject_surface": "11 subsidiaries and 1 trust",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,384",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The Group did not audit the financial statements of 11 subsidiaries and 1 trust, whose financial statements reflect total revenues of INR 408 crores for the year ended 31st March, 2026.",
+        "confidence": 1,
+        "passage_id": 195,
+        "predicate": "total_revenues",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended 31st March, 2026"
+          }
+        ],
+        "quote": "total revenues of `408 crores and net cash inflows amounting to ` 11 crores for the year ended on that date",
+        "subject_surface": "11 subsidiaries and 1 trust",
+        "value": {
+          "kind": "quantity",
+          "raw": "408",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The Group did not audit the financial statements of 11 subsidiaries, whose financial statements reflect total assets of INR 154 crores as at 31st March, 2026.",
+        "confidence": 1,
+        "passage_id": 195,
+        "predicate": "total_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "31st March, 2026"
+          }
+        ],
+        "quote": "We did not audit the financial statements of 11 subsidiaries, whose financial statements reflect total assets of ` 154 crores as at 31st March, 2026",
+        "subject_surface": "11 subsidiaries",
+        "value": {
+          "kind": "quantity",
+          "raw": "154",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The total assets of Eternal Limited as at March 31, 2026 were INR 40,736 crores.",
+        "confidence": 1,
+        "passage_id": 201,
+        "predicate": "total_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total assets 40,736",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "40,736",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The total assets of Eternal Limited as at March 31, 2025 were INR 35,623 crores.",
+        "confidence": 1,
+        "passage_id": 201,
+        "predicate": "total_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2025"
+          }
+        ],
+        "quote": "Total assets 35,623",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "35,623",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The revenue from operations of Eternal Limited for the year ended March 31, 2026 was INR 54,364 crores.",
+        "confidence": 1,
+        "passage_id": 203,
+        "predicate": "revenue_from_operations",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Revenue from operations 18 54,364",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "54,364",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The revenue from operations of Eternal Limited for the year ended March 31, 2025 was INR 20,243 crores.",
+        "confidence": 1,
+        "passage_id": 203,
+        "predicate": "revenue_from_operations",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2025"
+          }
+        ],
+        "quote": "Revenue from operations 18 20,243",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "20,243",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The basic earnings per share of Eternal Limited for the year ended March 31, 2026 was INR 0.40.",
+        "confidence": 1,
+        "passage_id": 204,
+        "predicate": "basic_eps",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "(a) Basic EPS (INR) 0.40",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.40",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The diluted earnings per share of Eternal Limited for the year ended March 31, 2026 was INR 0.39.",
+        "confidence": 1,
+        "passage_id": 204,
+        "predicate": "diluted_eps",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "(b) Diluted EPS (INR) 0.39",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.39",
+          "unit": "INR"
+        }
+      }
+    ]
+  }
+}

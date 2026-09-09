@@ -1,0 +1,357 @@
+{
+  "key": "39fb25f8f9fb786d9ab4e68213492735a72ddefa15a3e1bb85e9051d2fe7a1da",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"384\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Credit risk\n</context>\n<text>\nalways been managed by the Company through credit approvals, establishing credit limits and continuously\nmonitoring the creditworthiness of customers to which the Company grants credit terms in the normal course\nof business.\nThe Company uses expected credit loss (\u201cECL\u201d) model to assess the impairment loss. The Company has\nestablished an allowance for impairment that represents its ECL in respect of trade receivables and other\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n377\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nfinancial assets. The management uses a simplified approach for the purpose of computation of ECL for\ntrade receivables and 12 months expected credit loss for other financial assets, in case credit risk has not\nincreased significantly since initial recognition for other financial assets. However, if credit risk has increased\nsignificantly, lifetime ECL is used. The Company uses a provision matrix to compute the ECL for trade\nreceivables. The provision matrix takes into account available external and internal credit risk factors such\nas the Company\u2019s historical experience for customers and adjusted for forward-looking information.\nOutstanding trade receivables are regularly and closely monitored. Basis historical trend, the Company\nprovides for any outstanding beyond 180 days. The trade receivables on the respective reporting dates are\nnet off the allowance which is sufficient to cover the entire lifetime credit loss recognized including those that\nare currently less than 180 days outstanding.\nThe Company has made investments in government securities which carries sovereign rating and debenture\nor bonds which are rated AAA; which do not have a default history.\nThe Company\u2019s treasury maintains its cash and cash equivalents and deposits \u2013 with banks, financial and\nother institutions, having a good reputation and past track record which are considered to carry a low credit\nrisk. Similarly, counterparties of the Company\u2019s other receivables carry either negligible or very low credit\nrisk. Further, the Company reviews the creditworthiness of the counter-parties on the basis of its ratings and\nfinancial strength for all the above assets on an ongoing basis, and if required, takes necessary mitigation\nmeasures.\nThe Company has established an allowance for impairment that represents its expected credit losses in\nrespect of investments in debt instruments. The management uses a 12 months expected credit loss approach\nafter taking into account the time value of money and other reasonable information available as a result of\npast events, current conditions and forecasts of future economic conditions.\nFor trade receivable ageing, refer note 39.\nLiquidity risk\nLiquidity risk is defined as the risk that the Company will not be able to settle or meet its obligations on time.\nThe Company has established an appropriate liquidity risk management framework for the management of\nthe Company\u2019s short, medium and long-term funding and liquidity requirements.\nThe Company\u2019s principal sources of liquidity are cash and cash equivalents and liquid mutual funds. The\nCompany manages liquidity risk by maintaining adequate cash reserves, by continuously monitoring forecast\nand actual cash flows and by matching the maturity profiles of financial assets and liabilities. Accordingly, no\nliquidity risk is perceived.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n378\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"385\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Liquidity risk\n</context>\n<text>\nthe Company\u2019s short, medium and long-term funding and liquidity requirements.\nThe Company\u2019s principal sources of liquidity are cash and cash equivalents and liquid mutual funds. The\nCompany manages liquidity risk by maintaining adequate cash reserves, by continuously monitoring forecast\nand actual cash flows and by matching the maturity profiles of financial assets and liabilities. Accordingly, no\nliquidity risk is perceived.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n378\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n\u0007The table below provides details regarding the contractual maturities of financial liabilities as at March 31,\n2026:\n(INR crores)\nParticulars\nLess than\n1 year\n1-5 years More than\n5 years\nTotal\nTrade payables\n622\n-\n-\n622\nLease liabilities (undiscounted value) (refer note 28)\n164\n273\n107\n544\nOther financial liabilities\n770\n-\n-\n770\n\u0007The table below provides details regarding the contractual maturities of financial liabilities as at March 31,\n2025:\n(INR crores)\nParticulars\nLess than\n1 year\n1-5 years More than\n5 years\nTotal\nTrade payables\n529\n-\n-\n529\nLease liabilities (undiscounted value) (refer note 28)\n93\n101\n-\n194\nOther financial liabilities\n609\n-\n-\n609\nCapital management\nFor the purpose of the Company\u2019s capital management, capital includes issued equity share capital, securities\npremium and all other equity reserves attributable to the equity shareholders of the Company. The primary\nobjective of the Company\u2019s capital management is to maximise the shareholder value. As at March 31, 2026 and\nMarch 31, 2025, the Company has no debt, therefore, there are no externally imposed capital requirements.\n30.\tRelated party disclosures\nA.\t Names and relationship with related parties - under Ind AS 24\nRelationship\nName\nSubsidiary\nZomato Ireland Limited\nZomato Media (Private) Limited, Sri Lanka *\nZomato Middle East Fz - LLC\nCarthero Technologies Private Limited\nZomato Hyperpure Private Limited\nZomato Entertainment Private Limited\nTongueStun Food Networks Private Limited\nZomato Local Services Private Limited\nZomato Foods Private Limited\nZomato Payments Private Limited\nEternal Technology Solutions Limited (Formerly known as Zomato Financial\nServices Limited)\nBlink Commerce Private Limited\nOrbgen Technologies Private Limited (w.e.f. August 27, 2024)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n379\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"386\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Name\n</context>\n<text>\nZomato Hyperpure Private Limited\nZomato Entertainment Private Limited\nTongueStun Food Networks Private Limited\nZomato Local Services Private Limited\nZomato Foods Private Limited\nZomato Payments Private Limited\nEternal Technology Solutions Limited (Formerly known as Zomato Financial\nServices Limited)\nBlink Commerce Private Limited\nOrbgen Technologies Private Limited (w.e.f. August 27, 2024)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n379\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nWasteland Entertainment Private Limited (w.e.f. August 27, 2024)\nBlinkit Foods Limited (w.e.f August 18, 2025)\nEternal General Service Foundation (w.e.f December 18, 2025)\nStep down subsidiary\nZomato Internet Hizmetleri Ticaret Anonim Sirketi (closed w.e.f December 9,\n2025)\nGastronauci Sp z.o.o\nZomato, Inc.\nZomato Slovakia S.R.O (closed w.e.f. July 12, 2024)\nZomato Malaysia SDN. BHD.(closed w.e.f August 8, 2025)\nZomato Netherlands B.V.(closed w.e.f January 27, 2026)\nDelivery21 Inc.\nZomato Internet LLC, Qatar (closed w.e.f. November 28, 2024)\nZomato Philippines Inc.\nKey Management Personnel\n(\"KMP\u201d)\nDeepinder Goyal (resigned as Managing Director and Chief Executive Officer\nw.e.f  February 1, 2026 and appointed as Vice Chairman and Non-Executive\nDirector w.e.f  March 13, 2026)\nAlbinder Singh Dhindsa (Chief Executive Officer w.e.f February 1, 2026)\nKaushik Dutta (Chairman and Independent Director)\nNamita Gupta (Independent Director)\nSanjeev Bikhchandani (Nominee Director)\nGunjan Tilak Raj Soni (Independent Director)(resigned w.e.f. October 11,\n2024)\nAparna Popat Ved (Independent Director)\nSutapa Banerjee (Independent Director)\nAkshant Goyal (Chief Financial Officer)\nSandhya Sethia (Company Secretary)\nEntity controlled by KMP\nAirveda Technologies Private Limited\n*The strike off of Zomato Media (Private) Limited (Sri Lanka) was published in the Government Gazette dated November 21, 2025. Further,\nthe name of Zomato Media (Private) Limited (Sri Lanka) was struck off from the register of companies on April 2, 2026.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n380\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"387\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements\n</context>\n<text>\nAkshant Goyal (Chief Financial Officer)\nSandhya Sethia (Company Secretary)\nEntity controlled by KMP\nAirveda Technologies Private Limited\n*The strike off of Zomato Media (Private) Limited (Sri Lanka) was published in the Government Gazette dated November 21, 2025. Further,\nthe name of Zomato Media (Private) Limited (Sri Lanka) was struck off from the register of companies on April 2, 2026.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n380\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nB.\t Transactions and balances with related parties:\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nRemuneration to KMP\nSalaries and other employee benefits (1)\n146\n165\nDirectors remuneration and sitting fees (2)\n5\n5\nPayment made on behalf of - KMP\n-\n0\n(1) Includes expense for post-employment benefits INR 0 crore (March 31, 2025: INR 0 crore), expense for other long-term benefits INR 0\ncrore (March 31, 2025: INR 0 crore), and a charge of INR 145 crore (March 31, 2025 : INR 164 crore) towards share-based payment expense.\n(2) As at March 31, 2026, remuneration and sitting fees payable to Directors is INR 2 crore (March 31, 2025: INR 2 crore).\nInvestment in subsidiaries\nZomato Hyperpure Private Limited\n-\n750\nZomato Entertainment Private Limited\n200\n75\nZomato Local Services Private Limited\n50\n-\nBlink Commerce Private Limited\n1,050\n2,299\nOrbgen Technologies Private Limited\n-\n200\nWasteland Entertainment Private Limited\n-\n100\nBlinkit Foods Limited\n100\n-\nEternal General Service Foundation\n0\n-\nInvestment written off / disposal in subsidiaries\nZomato Ireland Limited\n88\n22\nZomato Media (Private) Limited, Sri lanka\n0\n-\nRecoverable from subsidiaries on account of grant / (lapse) of\nEmployee Stock Option Plans (ESOPs)\nZomato Hyperpure Private Limited\n87\n85\nZomato Entertainment Private Limited\n(0)\n15\nZomato Payments Private Limited\n2\n6\nEternal Technology Solutions Limited\n0\n0\nBlink Commerce Private Limited\n448\n302\nZomato Local Services Private Limited\n0\n0\nZomato Middle East FZ LLC\n0\n1\nOrbgen Technologies Private Limited\n5\n4\nWasteland Entertainment Private Limited\n(1)\n3\nBlinkit Foods Limited\n1\n-\nZomato, Inc.\n1\n-\nRemittance of taxes on exercise of Employee Stock Option Plans\n(ESOPs)\nCarthero Technologies Private Limited\n8\n9\nTonguestun Food Networks Private Limited\n0\n0\nZomato Hyperpure Private Limited\n45\n47\nZomato Entertainment Private Limited\n8\n3\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n381\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"388\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Employee Stock Option Plans (ESOPs)\n</context>\n<text>\nZomato Middle East FZ LLC\n0\n1\nOrbgen Technologies Private Limited\n5\n4\nWasteland Entertainment Private Limited\n(1)\n3\nBlinkit Foods Limited\n1\n-\nZomato, Inc.\n1\n-\nRemittance of taxes on exercise of Employee Stock Option Plans\n(ESOPs)\nCarthero Technologies Private Limited\n8\n9\nTonguestun Food Networks Private Limited\n0\n0\nZomato Hyperpure Private Limited\n45\n47\nZomato Entertainment Private Limited\n8\n3\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n381\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nZomato Foods Private Limited\n0\n0\nZomato Payments Private Limited\n13\n10\nEternal Technology Solutions Limited\n1\n0\nBlink Commerce Private Limited\n216\n50\nZomato Local Services Private Limited\n0\n0\nWasteland Entertainment Private Limited\n0\n-\nOrbgen Technologies Private Limited\n1\n-\nBlinkit Foods Limited\n0\n-\nTransfer in / (out) of employee benefit obligations (gratuity and\nleave encashment)\nBlink Commerce Private Limited\n(1)\n-\nZomato Hyperpure Private Limited\n0\n-\nZomato Local Services Private Limited\n(0)\n-\nOrbgen Technologies Privtae Limited\n0\n-\nWasteland Entertainment Private Limited\n0\n-\nZomato Entertainment Private Limited\n(0)\n-\nBlinkit Foods Limited\n(0)\n-\nZomato Payments Private Limited\n0\n-\nZomato Foods Private Limited\n0\n-\nProvision created / (reversed) on disposal / written off investments\nZomato Ireland Limited\n(88)\n(22)\nEternal Technology Solutions Limited\n-\n3\nZomato Local Services Private Limited\n-\n8\nZomato Media (Private) Limited, Sri lanka\n(0)\n-\nRevenue from operations - royalty income\nZomato Middle East FZ LLC\n1\n1\nZomato Local Services Private Limited\n(0)\n1\nZomato Entertainment Private Limited\n2\n1\nZomato Hyperpure Private Limited\n14\n22\nRevenue from operations - facilitation, technology support,\nonboarding, support fee & advertisement\nBlink Commerce Private Limited\n46\n28\nRevenue from operations - sale of services\nZomato Local Services Private Limited\n0\n0\nZomato Entertainment Private Limited\n-\n1\nOrbgen Technologies Private Limited\n10\n3\nWasteland Entertainment Private Limited\n21\n5\nZomato Middle East FZ LLC\n0\n-\nBlink Commerce Private Limited\n5\n-\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n382\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"389\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Revenue from operations - royalty income\n</context>\n<text>\nRevenue from operations - facilitation, technology support,\nonboarding, support fee & advertisement\nBlink Commerce Private Limited\n46\n28\nRevenue from operations - sale of services\nZomato Local Services Private Limited\n0\n0\nZomato Entertainment Private Limited\n-\n1\nOrbgen Technologies Private Limited\n10\n3\nWasteland Entertainment Private Limited\n21\n5\nZomato Middle East FZ LLC\n0\n-\nBlink Commerce Private Limited\n5\n-\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n382\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nZomato Hyperpure Private Limited\n0\n-\nReimbursement for delivery partner fees\nZomato Local Services Private Limited\n0\n20\nBlink Commerce Private Limited\n3,850\n1,740\nSale of property, plant and equipment\nBlink Commerce Private Limited\n1\n-\nIncome from cross charge\nZomato Entertainment Private Limited\n3\n4\nZomato Hyperpure Private Limited\n118\n81\nZomato Local Services Private Limited\n2\n1\nZomato Payments Private Limited\n(0)\n0\nBlink Commerce Private Limited\n344\n145\nZomato Middle East FZ LLC\n2\n0\nOrbgen Technologies Private Limited\n20\n9\nWasteland Entertainment Private Limited\n39\n5\nEternal Technology Solutions Limited\n0\n-\nBlinkit Foods Limited\n4\n-\nZomato, Inc.\n0\n-\nZomato Foods Private Limited\n0\n-\nRecovery of expenses from\nZomato Payments Private Limited\n0\n0\nEternal Technology Solutions Limited\n0\n0\nZomato Entertainment Private Limited\n0\n0\nBlink Commerce Private Limited\n27\n18\nZomato Hyperpure Private Limited\n0\n0\nZomato Local Services Private Limited\n0\n1\nWasteland Entertainment Private Limited\n0\n0\nOrbgen Technologies Private Limited\n1\n-\nBlinkit Foods Limited\n0\n-\nZomato Middle East FZ LLC\n0\n-\nZomato, Inc.\n0\n-\nPayment made on behalf of\nCarthero Technologies Private Limited\n0\n0\nTonguestun Food Networks Private Limited\n0\n0\nZomato Entertainment Private Limited\n0\n0\nZomato Foods Private Limited\n-\n0\nZomato Hyperpure Private Limited\n1\n1\nZomato Payments Private Limited\n0\n0\nEternal Technology Solutions Limited\n0\n0\nZomato Local Services Private Limited\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n383\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"390\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Recovery of expenses from\n</context>\n<text>\nZomato Middle East FZ LLC\n0\n-\nZomato, Inc.\n0\n-\nPayment made on behalf of\nCarthero Technologies Private Limited\n0\n0\nTonguestun Food Networks Private Limited\n0\n0\nZomato Entertainment Private Limited\n0\n0\nZomato Foods Private Limited\n-\n0\nZomato Hyperpure Private Limited\n1\n1\nZomato Payments Private Limited\n0\n0\nEternal Technology Solutions Limited\n0\n0\nZomato Local Services Private Limited\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n383\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nZomato Middle East FZ LLC\n0\n0\nOrbgen Technologies Privtae Limited\n1\n-\nWasteland Entertainment Private Limited\n0\n-\nBlinkit Foods Limited\n0\n-\nBlink Commerce Private Limited\n2\n1\nCollected on behalf of\nZomato Hyperpure Private Limited\n1,063\n947\nBlink Commerce Private Limited\n1,875\n1,524\nZomato Local Services Private Limited\n1\n30\nOrbgen Technologies Private Limited\n1,564\n203\nWasteland Entertainment Private Limited\n983\n270\nCollected on behalf of the Company\nBlink Commerce Private Limited\n56\n24\nZomato Entertainment Private Limited\n-\n2\nOrbgen Technologies Private Limited\n6\n-\nWasteland Entertainment Private Limited\n-\n29\nZomato Middle East FZ LLC\n7\n-\nZomato Hyperpure Private Limited\n0\n-\nPayment made on behalf of the Company\nBlink Commerce Private Limited\n-\n1\nZomato Entertainment Private Limited\n-\n0\nZomato Hyperpure Private Limited\n-\n1\nZomato Food Private Limited\n0\n-\nExpense charged on the Company by\nZomato Middle East FZ LLC\n- Leave encashment & Gratuity\n-\n0\nZomato Hyperpure Private Limited\n- Marketing expense\n2\n0\n- Loaned staff expenses\n0\n0\n- Leave encashment & Gratuity\n-\n0\n- Staff welfare expenses\n3\n2\nZomato Payments Private Limited\n- Payment aggregation\n12\n21\n- Leave encashment & Gratuity\n3\n-\nBlink Commerce Private Limited\n- Advertisement expense\n3\n3\n- Loaned staff expenses\n0\n0\n- Leave encashment & Gratuity\n-\n1\n- Staff welfare expenses\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n384\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"391\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Expense charged on the Company by\n</context>\n<text>\nZomato Hyperpure Private Limited\n- Marketing expense\n2\n0\n- Loaned staff expenses\n0\n0\n- Leave encashment & Gratuity\n-\n0\n- Staff welfare expenses\n3\n2\nZomato Payments Private Limited\n- Payment aggregation\n12\n21\n- Leave encashment & Gratuity\n3\n-\nBlink Commerce Private Limited\n- Advertisement expense\n3\n3\n- Loaned staff expenses\n0\n0\n- Leave encashment & Gratuity\n-\n1\n- Staff welfare expenses\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n384\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nZomato Entertainment Private Limited\n- Sponsorship expenses\n-\n12\n- Loaned staff expenses\n0\n1\n- Leave encashment & Gratuity\n-\n0\n- Advertisement expense\n0\n0\n- Sales support for marketplace events\n-\n19\nEternal Technology Solutions Limited\n- Loaned staff expenses\n2\n1\nZomato Local Services Private Limited\n- Leave encashment & Gratuity\n-\n0\n- Loaned staff expenses\n-\n0\nZomato Food Private Limited\n- Loaned staff expenses\n0\n-\n- Leave encashment & Gratuity\n-\n0\nOrbgen Technologies Private Limited\n- Advertisement\n57\n17\n- Leave encashment & Gratuity\n-\n0\n- Loaned staff expenses\n0\n-\nWasteland Entertainment Private Limited\n- Event operational support\n-\n5\n- Loaned staff expenses\n1\n0\n- Royalty\n0\n-\n- Staff welfare expenses\n0\n-\nZomato, Inc.\n- Loaned staff expenses\n6\n-\nBlinkit Foods Limited\n- Staff welfare expenses\n0\n-\n- Loaned staff expenses\n0\n-\nAirveda Technologies Private Limited\n-AQI monitoring devices subscription & maintenance\n0\n0\nLoan given to subsidiary\nZomato Hyperpure Private Limited\n350\n700\nBlink Commerce Private Limited\n250\n150\nZomato Local Services Private Limited\n13\n-\nOrbgen Technologies Private Limited\n200\n160\nWasteland Entertainment Private Limited\n240\n270\nZomato Middle East FZ LLC\n72\n-\nLoan (repaid) by subsidiary\nZomato Hyperpure Private Limited\n(500)\n-\nBlink Commerce Private Limited\n-\n(150)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n385\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"392\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > March 31, 2025\n</context>\n<text>\n0\n0\nLoan given to subsidiary\nZomato Hyperpure Private Limited\n350\n700\nBlink Commerce Private Limited\n250\n150\nZomato Local Services Private Limited\n13\n-\nOrbgen Technologies Private Limited\n200\n160\nWasteland Entertainment Private Limited\n240\n270\nZomato Middle East FZ LLC\n72\n-\nLoan (repaid) by subsidiary\nZomato Hyperpure Private Limited\n(500)\n-\nBlink Commerce Private Limited\n-\n(150)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n385\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nOrbgen Technologies Private Limited\n(100)\n(160)\nWasteland Entertainment Private Limited\n(180)\n(90)\nInterest income on loan give to subsidiary\nZomato Hyperpure Private Limited\n46\n21\nBlink Commerce Private Limited\n9\n2\nZomato Local Services Private Limited\n0\n-\nOrbgen Technologies Private Limited\n7\n3\nWasteland Entertainment Private Limited\n7\n2\nZomato Middle East FZ LLC\n2\n-\nNet balance written off / (provision reversal) from subsidiary\nZomato Philippines Inc.\n-\n0\nBalances receivable / payable at the end of the year\nLoan receivable from subsidiary\nZomato Hyperpure Private Limited\n550\n700\nWasteland Entertainment Private Limited\n240\n180\nBlink Commerce Private Limited\n250\n-\nOrbgen Technologies Privtae Limited\n100\n-\nZomato Local Services Private Limited\n13\n-\nZomato Middle East FZ LLC*\n76\n-\nInterest accrued on loan receivable from subsidiary\nZomato Hyperpure Private Limited\n20\n19\nWasteland Entertainment Private Limited\n2\n1\nBlink Commerce Private Limited\n8\n-\nOrbgen Technologies Privtae Limited\n5\n-\nZomato Local Services Private Limited\n0\n-\nZomato Middle East FZ LLC*\n2\n-\nTrade receivables\nZomato Middle East FZ LLC\n0\n0\nZomato Hyperpure Private Limited\n1\n2\nZomato Entertainment Private Limited\n0\n0\nZomato Local Services Private Limited\n-\n0\nZomato Philippines Inc.\n0\n0\nOther financial liabilities\nCarthero Technologies Private Limited\n18\n18\nZomato, Inc.\n1\n-\nZomato Philippines Inc.\n0\n0\nZomato Payments Private Limited\n1\n0\nZomato Foods Private Limited\n-\n0\nEternal Technology Solutions Limited\n0\n0\nOrbgen Technologies Private Limited\n18\n24\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n386\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"393\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Trade receivables\n</context>\n<text>\n2\nZomato Entertainment Private Limited\n0\n0\nZomato Local Services Private Limited\n-\n0\nZomato Philippines Inc.\n0\n0\nOther financial liabilities\nCarthero Technologies Private Limited\n18\n18\nZomato, Inc.\n1\n-\nZomato Philippines Inc.\n0\n0\nZomato Payments Private Limited\n1\n0\nZomato Foods Private Limited\n-\n0\nEternal Technology Solutions Limited\n0\n0\nOrbgen Technologies Private Limited\n18\n24\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n386\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nWasteland Entertainment Private Limited\n8\n10\nOther financial assets\nBlink Commerce Private Limited\n2,716\n395\nZomato Entertainment Private Limited\n2\n4\nZomato Foods Private Limited\n0\n-\nZomato Hyperpure Private Limited\n96\n41\nZomato Local Services Private Limited\n0\n8\nZomato Middle East FZ LLC\n9\n0\nBlinkit Foods Limited\n5\n-\nAdditional disclosure required under Section 186(4) of the Companies Act 2013 and\n(Regulations 34 (3) and 53 (f) read together with Para A of Schedule V of the SEBI (Listing\nObligations and Disclosure Requirements), Regulations 2015\n(INR crores)\nName of\nrelated parties\nRate of\nInterest\nNature\nMarch 31,\n2025\nLoan\ngiven\nLoan\nrepaid\nMarch\n31, 2026\nMaximum\nAmount\nOutstanding\nduring the year\nZomato\nHyperpure\nPrivate Limited\n5.74% - 7.07%\nLoan for\nworking\ncapital\n700\n350\n(500)\n550\n1,050\nBlink Commerce\nPrivate Limited\n5.78%\n-\n250\n-\n250\n250\nOrbgen\nTechnologies\nPrivate Limited\n6.11%\n-\n200\n(100)\n100\n200\nWasteland\nEntertainment\nPrivate Limited\n5.70% - 6.70%\n180\n240\n(180)\n240\n240\nZomato Local\nServices Private\nLimited\n5.72% - 5.81%\n-\n13\n-\n13\n13\nZomato Middle\nEast FZ LLC\n6.00%\n-\n72\n-\n76*\n76*\n880\n1,125\n(780)\n1,229\n1,829\n*Including unrealised foreign exchange gain\nFor details related to investments in subsidiaries , refer note 5\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n387\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"394\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > during the year\n</context>\n<text>\nOrbgen\nTechnologies\nPrivate Limited\n6.11%\n-\n200\n(100)\n100\n200\nWasteland\nEntertainment\nPrivate Limited\n5.70% - 6.70%\n180\n240\n(180)\n240\n240\nZomato Local\nServices Private\nLimited\n5.72% - 5.81%\n-\n13\n-\n13\n13\nZomato Middle\nEast FZ LLC\n6.00%\n-\n72\n-\n76*\n76*\n880\n1,125\n(780)\n1,229\n1,829\n*Including unrealised foreign exchange gain\nFor details related to investments in subsidiaries , refer note 5\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n387\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n31\t Tax expense (Income Tax)\n(a)\tMajor components of tax expense/(benefit):\n1. \t Amount recognized in the Statement of profit and loss\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\n(i)\t Current Tax:\nCurrent tax expense\n318\n230\nAdjustment for current tax of prior period\n-\n-\n(ii) \tDeferred Tax:\n\u0007Tax expense on origination / reversal of temporary\ndifferences\n(7)\n-\nIncome tax expense reported in the Statement of profit and\nloss\n311\n230\n2. \t Amount recognized in other comprehensive income\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\n(i)\t \u0007On Equity instruments through other comprehensive\nincome\nCurrent tax\n-\n-\nDeferred Tax\n(30)\n30\nSub-total (A)\n(30)\n30\n(ii) \t\u0007On Debt instruments through other comprehensive\nincome\nCurrent tax\n(3)\n6\nDeferred Tax\n(20)\n17\nSub-total (B)\n(23)\n23\n(iii)\tOn Remeasurements of the defined benefit plans\nCurrent tax\n-\n-\nDeferred Tax\n(4)\n(0)\nSub-total (C)\n(4)\n(0)\nIncome tax expense reported in other comprehensive\nincome (A)+(B)+(C)\n(57)\n53\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n388\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"395\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > (i)\t \u0007On Equity instruments through other comprehensive\n</context>\n<text>\n(i)\t \u0007On Equity instruments through other comprehensive\nincome\nCurrent tax\n-\n-\nDeferred Tax\n(30)\n30\nSub-total (A)\n(30)\n30\n(ii) \t\u0007On Debt instruments through other comprehensive\nincome\nCurrent tax\n(3)\n6\nDeferred Tax\n(20)\n17\nSub-total (B)\n(23)\n23\n(iii)\tOn Remeasurements of the defined benefit plans\nCurrent tax\n-\n-\nDeferred Tax\n(4)\n(0)\nSub-total (C)\n(4)\n(0)\nIncome tax expense reported in other comprehensive\nincome (A)+(B)+(C)\n(57)\n53\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n388\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n3. Amount recognized in equity\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\n(i)\t \u0007On surplus in ESOP Trust on exercise of employee stock\noptions\nCurrent tax\n1\n0\nDeferred Tax\n-\n-\nIncome tax expense reported in equity\n1\n0\n(b)\tComponents of deferred tax assets / (liabilities) recognized in the Balance Sheet:\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAmount recognized in the Statement of profit and loss\nIntangible assets\n(247)\nRight of use assets\n(97)\nLease liabilities\n104\nBrought forward business losses\n170\nProperty, plant and equipment\n17\nProvision for employee benefits\n18\nOther temporary differences\n42\nSubtotal (A)\n7\nAmount recognized in other comprehensive income\nDebt instruments through other comprehensive income\n3\nProvision for employee benefits\n4\nSubtotal (B)\n7\nNet Deferred tax assets/ (liabilities) (A+B)\n14\n(INR crores)\nParticulars\nAs at\nMarch 31, 2025\nAmount recognized in other comprehensive income\nDebt instruments through other comprehensive income\n(17)\nEquity instruments through other comprehensive income\n(30)\nNet Deferred tax assets/ (liabilities)\n(47)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n389\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"396\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Amount recognized in other comprehensive income\n</context>\n<text>\nDebt instruments through other comprehensive income\n3\nProvision for employee benefits\n4\nSubtotal (B)\n7\nNet Deferred tax assets/ (liabilities) (A+B)\n14\n(INR crores)\nParticulars\nAs at\nMarch 31, 2025\nAmount recognized in other comprehensive income\nDebt instruments through other comprehensive income\n(17)\nEquity instruments through other comprehensive income\n(30)\nNet Deferred tax assets/ (liabilities)\n(47)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n389\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(c)\tReconciliation of accounting profit and tax expense:\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nProfit before income tax\n2,966\n2,190\nIndia's statutory income tax rate\n25.168%\n25.168%\nExpected income tax expense\n746\n551\nOther non deductible items\n2\n4\nOther temporary differences on which deferred tax not\ncreated/utilized\n9\n(19)\nSet off against brought forward tax losses and unabsorbed\ndepreciation\n(442)\n(298)\nOthers\n(4)\n(8)\nIncome tax expense reported in the Statement of Profit and\nLoss\n311\n230\n(d)\tItems for which no deferred tax asset is recognized in the Balance Sheet:\nFollowing are the brought forward tax losses on which deferred tax was not created in the absence of convincing\nevidence of future taxable income against which such brought forward tax losses can be utilised.\n(INR crores)\nParticulars\nExpiry Date\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nTemporary differences arising on account of:\nBusiness loss\nMarch 31, 2028\n-\n764\nBusiness loss\nMarch 31, 2029\n-\n644\nBusiness loss\nMarch 31, 2030\n-\n1,030\nLong term capital loss\nMarch 31, 2029\n2\n4\nLong term capital loss\nMarch 31, 2031\n0\n0\nLong term capital loss\nMarch 31, 2032\n120\n120\nOther temporary differences\nNo expiry period\n-\n(671)\nTotal\n122\n1,891\n32\tSegment information :\nThe Company publishes the standalone financial statements along with the consolidated financial statements.\nTherefore in accordance with Ind AS 108, \u2018Operating Segments\u2019, the Company has disclosed the segment\ninformation only in the consolidated financial statements.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n390\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"397\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > March 31, 2025\n</context>\n<text>\nMarch 31, 2032\n120\n120\nOther temporary differences\nNo expiry period\n-\n(671)\nTotal\n122\n1,891\n32\tSegment information :\nThe Company publishes the standalone financial statements along with the consolidated financial statements.\nTherefore in accordance with Ind AS 108, \u2018Operating Segments\u2019, the Company has disclosed the segment\ninformation only in the consolidated financial statements.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n390\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n33\tDetails of dues to micro and small enterprises as defined under MSMED Act 2006 :\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\na)\t \u0007The principal amount and the interest due thereon remaining unpaid\nto any supplier as at the end of each accounting year\nPrincipal amount due to micro and small enterprises\n6\n6\nInterest due on above\n0\n0\nb)\t \u0007The amount of interest paid by the buyer in terms of section 16 of the\nMSMED Act 2006 along with the amounts of the payment made to the\nsupplier beyond the appointed day during each accounting year\n-\n-\nc)\t \u0007The amount of interest due and payable for the period of delay in\nmaking payment (which have been paid but beyond the appointed\nday during the year) but without adding the interest specified under\nthe MSMED Act 2006\n1\n0\nd)\t \u0007The amount of interest accrued and remaining unpaid at the end of\neach accounting year\n2\n1\ne)\t \u0007The amount of further interest remaining due and payable even in\nthe succeeding years, until such date when the interest dues as\nabove are actually paid to the small enterprise for the purpose of\ndisallowance as a deductible expenditure under section 23 of the\nMSMED Act 2006.\n2\n1\nDues to micro and small enterprises have been determined to the extent such parties have been identified\non the basis of information collected by the Management.\n34\tCapital and other commitments :\n(a) \t \u0007The Company has commitments for purchase / sale orders which are issued after considering requirements\nper operating cycle for purchase / sale of goods and services, employee benefits. The Company does not\nhave any long term commitment or material non-cancellable contractual commitments/contracts which\nmight have a material impact on the financial statements.\n(b)\t \u0007The Company has estimated amount of contract remaining to be executed on capital account not provided\nfor, net of advances as at March 31, 2026 is INR 23 crore (March 31, 2025: INR 3 crore).\n35\tContingent Liabilities:\nClaims against the Company not acknowledged as debt :\n(a) \t \u0007The Company is in receipt of the following Show Cause Notices (\u201cSCNs\u201d) and Demand Orders (\u201cOrders\u201d)\nfrom various GST authorities :\na.\nOrders for October 2019 to March 2022 for all the States for INR 420 crores\nb.\t Order for April 2022 to March 2023 for Andhra Pradesh for INR 8 crores\nc.\nSCN for April 2022 to March 2023 for Gujarat for INR 13 crores\nd.\t SCN for April 2023 to March 2024 for Andhra Pradesh for INR 6 Crores,\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n391\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"398\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > March 31, 2025\n</context>\n<text>\n(a) \t \u0007The Company is in receipt of the following Show Cause Notices (\u201cSCNs\u201d) and Demand Orders (\u201cOrders\u201d)\nfrom various GST authorities :\na.\nOrders for October 2019 to March 2022 for all the States for INR 420 crores\nb.\t Order for April 2022 to March 2023 for Andhra Pradesh for INR 8 crores\nc.\nSCN for April 2022 to March 2023 for Gujarat for INR 13 crores\nd.\t SCN for April 2023 to March 2024 for Andhra Pradesh for INR 6 Crores,\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n391\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nThere are no SCNs or Orders on this matter other than those mentioned here.The SCNs and Orders require\nthe Company to pay GST on the delivery charges collected by the Company from the end users on behalf of\nthe delivery partners, along with additional interest and penalties as per GST provisions. The Company is\ncontesting the Orders/ SCNs at applicable forums. The Company, supported by the external independent\nexpert\u2019s advice, is of the view that it has a strong case on merits. W.e.f. September 22, 2025, the government\nhas included local delivery services provided through Electronic Commerce Operators (\u201cECOs\u201d) by unregistered\nservice providers u/s 9(5) of CGST Act, 2017. Pursuant to change in law, the Company is paying GST on delivery\ncharges collected from the customers on behalf of unregistered delivery partners.\n(b)\t \u0007The Company has certain pending litigations pertains to consumer cases and other legal cases amounting\nto INR 19 crore (March 31, 2025: INR 13 crore).\n(c)\t \u0007During the year ended March 31, 2022, the Company was served with a copy of a writ petition filed by the\nIndian Federation of APP-Based Transport Workers (IFAT) and two others, which is in the nature of a public\ninterest litigation before the Hon\u2019 ble Supreme Court of India. The writ petition has been filed against 5\nministries of the Union of India (i.e. Ministry of Labour and Employment, Ministry of Commerce and Industry,\nMinistry of Consumer Affairs, food and public distribution, Ministry of Road Transport and Highways,\nMinistry of Electronic and Information Technology) and aggregators such as ANI Technologies Pvt Ltd\n(Ola), Uber India Systems Pvt. Ltd. (Uber) and Swiggy Limited (formerly known as Bundl Technologies Pvt.\nLtd). and Eternal Limited (formerly known as Zomato Limited) have been made a party to the writ petition.\nThe petitioners have sought several alternative reliefs, including a declaration to recognize app based/\ngig workers as \u2018workers\u2019 under various labour/social legislations; directions to the Government of India\nfor promulgating schemes extending social security benefits to gig/ app based workers which schemes\nare yet to be formulated. At this stage, there is no specific obligation that can be ascribed to the Company\npending the Hon\u2019ble Court\u2019s final decision in the Writ Petition.\n(d)\t \u0007During the year ended March 31, 2022, the Company received an order under Section 26(1) of the Competition\nAct, 2002, under which the Hon\u2019ble Competition Commission of India (CCI) initiated an investigation into\ncertain aspects of the Company\u2019s business. The Company continues to work closely with the Hon\u2019ble CCI\nto assist them with their inquiry and explain to the Hon\u2019ble CCI why all its practices are in compliance with\ncompetition laws and do not have any adverse effect on competition in India.\n36\t \u0007On August 27, 2024, Eternal Limited (formerly known as Zomato Limited) completed the acquisition of\nOrbgen Technologies Private Limited (\u201cOTPL\u201d), and Wasteland Entertainment Private Limited (\u201cWEPL\u201d),\nholding the \u201cMovies Ticketing\u201d business and \u201cEvents\u201d business respectively, from One 97 Communications\nLimited (\u201cOCL\u201d/\u201dSeller\u201d). These acquisitions were executed through a combination of secondary share\npurchases from OCL amounting to INR 758 crore  (for both the entities) and primary infusion into the OTPL\nand WEPL amounting to INR 1,260 crore. This amount was subject to adjustments as agreed in definitive\n</text>\n</passage>\n\n<passage id=\"399\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements\n</context>\n<text>\nOrbgen Technologies Private Limited (\u201cOTPL\u201d), and Wasteland Entertainment Private Limited (\u201cWEPL\u201d),\nholding the \u201cMovies Ticketing\u201d business and \u201cEvents\u201d business respectively, from One 97 Communications\nLimited (\u201cOCL\u201d/\u201dSeller\u201d). These acquisitions were executed through a combination of secondary share\npurchases from OCL amounting to INR 758 crore  (for both the entities) and primary infusion into the OTPL\nand WEPL amounting to INR 1,260 crore. This amount was subject to adjustments as agreed in definitive\nagreements. Post adjustment, the total purchase consideration amounted to INR 2,014 crore.\n\u0007The cash consideration paid for 100% of paid-up equity share capital of OTPL and WEPL amounted to INR\n1,236 crore and INR 778 crore respectively.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n392\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n37\t \u0007The Company has made long term strategic investments in Zomato Hyperpure Private Limited (\u201cZHPL\u201d),\nZomato Entertainment Private Limited (\u201cZEPL\u201d), Blink Commerce Private Limited (\u201cBCPL\u201d), Orbgen\nTechnologies Private Limited (\u201cOTPL\u201d) and Wasteland Entertainment Private Limited (\u201cWEPL\u201d) (\u201csubsidiary\ncompanies\u201d), which are in their initial/developing stage of operation and would generate growth and\nreturns over a period of time. These subsidiary companies have incurred significant expenses for building\nthe brand, market share and operations which have added to the losses of these entities. The Company\nhas committed to provide support to each of its subsidiaries in the event they are unable to meet their\nindividual liabilities. The Company conducted impairment assessment of these investments by getting\nvaluation performed for these investments by an external expert using methods like Discounted cash flow\nmethod (\u201cDCF\u201d) and Comparable companies mutiple method (\u201cCCM\u201d) and concluded that no impairment is\nrequired as on March 31, 2026. The same was noted by the Audit Committee and the Board.\n\u0007The significant unobservable inputs used in the estimation of recoverable value together with a quantitative\nsensitivity analysis as at March 31, 2026 and March 31, 2025 are as shown below:\nSensitivity analysis for the year ended March 31, 2026 is shown below:\n(INR crores)\nSignificant unobservable inputs\n% change\nin input\nChange in\nrecoverable value\nWeighted Average Cost of Capital (\u201cWACC\u201d)\n(Ranging from 13% to 25%)\n(+) 5\n(1,164)\n(-) 5\n1,324\nTerminal growth rate\n(Ranging from 4% to 6%)\n(+) 5\n194\n(-) 5\n(184)\nRevenue multiple\n(Ranging from 1.0x to 11.8x)\n(+) 5\n409\n(-) 5\n(409)\nSensitivity analysis for the year ended March 31, 2025 is shown below:\n(INR crores)\nSignificant unobservable inputs\n% change in input\nChange in\nrecoverable value\nWeighted Average Cost of Capital (\u201cWACC\u201d)\n(Ranging from 11% to 26%)\n(+) 5\n(971)\n(-) 5\n1,147\nTerminal growth rate\n(Ranging from 4% to 5%)\n(+) 5\n166\n(-) 5\n(157)\nRevenue multiple\n(Ranging from 1.0x to 11.9x)\n(+) 5\n321\n(-) 5\n(321)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n393\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The trade payables of the Company as at March 31, 2026 is INR 622 crores.",
+        "confidence": 1,
+        "passage_id": 385,
+        "predicate": "trade_payables",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Trade payables\n622",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "622",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The lease liabilities (undiscounted value) of the Company as at March 31, 2026 is INR 544 crores.",
+        "confidence": 1,
+        "passage_id": 385,
+        "predicate": "lease_liabilities",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "undiscounted value"
+          }
+        ],
+        "quote": "Lease liabilities (undiscounted value) (refer note 28)\n164\n273\n107\n544",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "544",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The other financial liabilities of the Company as at March 31, 2026 is INR 770 crores.",
+        "confidence": 1,
+        "passage_id": 385,
+        "predicate": "other_financial_liabilities",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Other financial liabilities\n770",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "770",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The current tax expense of the Company for the year ended March 31, 2026 is INR 318 crores.",
+        "confidence": 1,
+        "passage_id": 394,
+        "predicate": "current_tax_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Current tax expense\n318",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "318",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The profit before income tax of the Company for the year ended March 31, 2026 is INR 2,966 crores.",
+        "confidence": 1,
+        "passage_id": 396,
+        "predicate": "profit_before_income_tax",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Profit before income tax\n2,966",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,966",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The estimated amount of contract remaining to be executed on capital account not provided for, net of advances as at March 31, 2026 is INR 23 crore.",
+        "confidence": 1,
+        "passage_id": 397,
+        "predicate": "capital_commitments",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "The Company has estimated amount of contract remaining to be executed on capital account not provided for, net of advances as at March 31, 2026 is INR 23 crore",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "23",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "The total purchase consideration for the acquisition of Orbgen Technologies Private Limited and Wasteland Entertainment Private Limited amounted to INR 2,014 crore.",
+        "confidence": 1,
+        "passage_id": 398,
+        "predicate": "acquisition_cost",
+        "qualifiers": [
+          {
+            "key": "entities_acquired",
+            "provenance": "stated",
+            "value": "Orbgen Technologies Private Limited and Wasteland Entertainment Private Limited"
+          }
+        ],
+        "quote": "Post adjustment, the total purchase consideration amounted to INR 2,014 crore.",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,014",
+          "unit": "INR crore"
+        }
+      }
+    ]
+  }
+}

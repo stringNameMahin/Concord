@@ -139,3 +139,61 @@ def test_a_date_qualifier_under_a_coined_key_is_still_parsed_as_a_period():
         page=1,
     )
     assert fact.qualifier("as_of_date").period is not None
+
+
+def test_a_row_label_used_as_the_subject_is_flagged():
+    """Bug 23: the model names the metric twice and the entity never.
+
+    `Adjusted EBITDA / adjusted_ebitda` grounds cleanly - the quote locates,
+    the figure parses - and is still malformed, because the subject is half of
+    the comparison key and two unrelated organisations' EBITDA rows will block
+    together. Prompt rule 8 forbids it in words; this is the check in code.
+    """
+    fact = materialize(
+        extraction(subject_surface="Adjusted EBITDA", predicate="adjusted_ebitda"),
+        "d1",
+        alignment(),
+        page=12,
+    )
+    assert "subject_names_the_measurement" in fact.flags
+
+
+def test_the_row_label_guard_reads_words_and_not_the_exact_string():
+    """`Debt/Equity` against `debt_to_equity_ratio` is the same defect.
+
+    The predicate is not the subject slugged, so an equality test misses it.
+    Every word of the subject already being in the predicate is what the
+    doubled row label actually looks like.
+    """
+    fact = materialize(
+        extraction(subject_surface="Debt/Equity", predicate="debt_to_equity_ratio"),
+        "d1",
+        alignment(),
+        page=12,
+    )
+    assert "subject_names_the_measurement" in fact.flags
+
+
+def test_a_real_subject_is_not_flagged():
+    """The guard has to stay quiet on the ordinary case, which is most of them.
+
+    Rule 7 already bars the entity from the predicate, so a well-formed fact
+    cannot have its subject contained in one. Measured on the shipped ledger:
+    7 of 506 flagged, all seven genuine.
+    """
+    assert not materialize(extraction(), "d1", alignment(), page=214).flags
+
+
+def test_a_flagged_fact_is_still_a_fact():
+    """Flagged, not quarantined. The value, the quote and the qualifiers are
+    all sound; only the subject is wrong, and a reviewer is the one who should
+    decide what that is worth. Quarantine means the quote never located, and
+    overloading it would make the grounding metric mean two things."""
+    fact = materialize(
+        extraction(subject_surface="Total income", predicate="total_income"),
+        "d1",
+        alignment(),
+        page=12,
+    )
+    assert fact.evidence.align_status == "exact"
+    assert fact.quantity is not None

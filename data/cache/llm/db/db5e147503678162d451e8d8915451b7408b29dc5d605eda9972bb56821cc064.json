@@ -1,0 +1,504 @@
+{
+  "key": "db5e147503678162d451e8d8915451b7408b29dc5d605eda9972bb56821cc064",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"16\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nbusiness. Capex increased on account of rapid\nexpansion of Blinkit\u02c7s store and warehouse\nnetwork, while net working capital increased\nfollowing the transition to inventory ownership.\nWe expect these investments in quick\ncommerce to generate ROCE of at least 40% in\nsteady state.\nConsolidated cash balance\nINR crore\nINR 6,583 crore YoY\nINR 852 crore YoY\n18,824\n17,972\n12,241\nMar-24\nMar-25\nMar-26\n14\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nA. Food delivery\n1\nNOV grew 16% YoY in FY26\n1\nFood delivery NOV\nFood delivery Orders\nINR crore\nmillion\n365\n385\n388\n18.4\n20.6\n24.3\n16% YoY\n15% YoY\n20% YoY\n13% YoY\n37,993\n979\n32,862\n853\n27,478\n753\nFY24\nFY25\nFY26\nFY24\nFY25\nFY26\nNOV\nNAOV (INR)\nFood delivery Orders\nAvg. MTC (million)\nFood delivery NOV grew 16% YoY to INR 37,993 crore in FY26, driven by 15% YoY growth in Orders\nwhile NAOV remained broadly flat (0.7% YoY growth). Order volume growth was largely driven by\ngrowth in average monthly transacting customers (MTC), which grew 18% YoY to 24.3 million in\nFY26.\nNOV growth recovered progressively through the year after bottoming out in Q1FY26, with Q4FY26\nNOV growth accelerating to 19% YoY. The recovery was driven by an improvement in the overall\ndemand environment and our continued focus on expanding the addressable market into more\nprice-sensitive segments. During FY26, we lowered the minimum order value for free delivery\nunder the Gold program from INR 199 to INR 99 and stepped up targeted customer activation.\nWe expect YoY NOV growth to continue trending towards our long-term expectation of 20%+ over\ntime, driven by gradual market share gains and the compounding impact of continued investments\nin affordability and selection.\n15\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"17\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nprice-sensitive segments. During FY26, we lowered the minimum order value for free delivery\nunder the Gold program from INR 199 to INR 99 and stepped up targeted customer activation.\nWe expect YoY NOV growth to continue trending towards our long-term expectation of 20%+ over\ntime, driven by gradual market share gains and the compounding impact of continued investments\nin affordability and selection.\n15\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n2\nThe restaurant and delivery partner base grew 11% YoY and 17%\nYoY respectively\nAverage monthly active food delivery\nrestaurant partners\nAverage monthly active delivery\npartners\n\u02d8000\n\u02d8000\n17% YoY\n11% YoY\n18% YoY\n20% YoY\n552\n330\n473\n297\n400\n247\nFY24\nFY25\nFY26\nFY24\nFY25\nFY26\nAverage monthly active food delivery restaurant partners grew 11% YoY to 330k in FY26 from 297k\nin FY25, reflecting continued supply expansion in an underserved food delivery market.\nAverage monthly active delivery partners grew 17% YoY to 552k in FY26, to support growth in order\nvolumes.\n3\nAdjusted Revenue grew faster than NOV\nAdjusted Revenue grew 24% YoY to INR 11,698\ncrore in FY26.\n\u20ac\nAdjusted Revenue as a % of NOV improved to\n30.8% in FY26 compared to 28.7% in FY25\nlargely driven by better ad monetization and\nincrease in platform fee.\nThese gains more than offset the reduction in\ncustomer delivery charge per order due to the\nfree delivery benefit available on Gold orders.\nFood delivery Adjusted Revenue\nINR crore\n24% YoY\n11,698\n21% YoY\n9,418\n7,792\nFY24\nFY25\nFY26\n16\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"18\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\ncrore in FY26.\n\u20ac\nAdjusted Revenue as a % of NOV improved to\n30.8% in FY26 compared to 28.7% in FY25\nlargely driven by better ad monetization and\nincrease in platform fee.\nThese gains more than offset the reduction in\ncustomer delivery charge per order due to the\nfree delivery benefit available on Gold orders.\nFood delivery Adjusted Revenue\nINR crore\n24% YoY\n11,698\n21% YoY\n9,418\n7,792\nFY24\nFY25\nFY26\n16\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n4\nAdjusted EBITDA margin (% of NOV) expanded to 5.3% during FY26\nFood delivery Adjusted EBITDA grew 34% YoY\nto INR 2,017 crore in FY26. Adjusted EBITDA\nmargin improved from 4.6% in FY25 to 5.3% in\nFY26.\nMargin improvement was largely driven by\nincrease in revenue per order and cost\nefficiencies even as the order mix shifted\ntowards lower-value orders.\nFood delivery Adjusted EBITDA\nINR crore\n3.3%\n4.6%\n5.3%\n2,017\n1,505\n912\nFY24\nAdjusted EBITDA\nFY25\nFY26\nAdjusted EBITDA margin (% of NOV)\n17\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"19\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nFood delivery Adjusted EBITDA grew 34% YoY\nto INR 2,017 crore in FY26. Adjusted EBITDA\nmargin improved from 4.6% in FY25 to 5.3% in\nFY26.\nMargin improvement was largely driven by\nincrease in revenue per order and cost\nefficiencies even as the order mix shifted\ntowards lower-value orders.\nFood delivery Adjusted EBITDA\nINR crore\n3.3%\n4.6%\n5.3%\n2,017\n1,505\n912\nFY24\nAdjusted EBITDA\nFY25\nFY26\nAdjusted EBITDA margin (% of NOV)\n17\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nB. Quick commerce\nQuick commerce became our largest B2C business in FY26, with\nNOV growing 117% YoY\n1\nQuick commerce Orders\nQuick commerce NOV\nmillion\nINR crore\n517\n528\n5.1\n10.2\n22.1\n116% YoY\n917\n108% YoY\n424\n530\n117% YoY\n48,567\n113% YoY\n22,371\n10,503\n203\nFY24\nFY25\nFY26\nFY24\nFY25\nFY26\nOrders\nAvg. MTC (million)\nNOV\nNAOV (INR)\nQuick commerce NOV grew 117% YoY to INR 48,567 crore in FY26, surpassing food delivery NOV\nscale for the full year. NOV growth was driven by 116% YoY growth in Orders while NAOV remained\nbroadly flat (0.3% YoY growth). Order volume growth was driven by 117% YoY increase in average\nmonthly transacting customers, on the back of continued investments in geographic expansion\nand customer acquisition.\nBlinkit has scaled at a NOV CAGR of 104% since FY23 (year of Blinkit acquisition). The long-term\nopportunity remains significant, and we expect NOV to grow at 60%+ CAGR over the next three\nyears. This growth will be driven by assortment expansion, geographic coverage and demand\ndensification while improving the quality and reliability of our service.\n1\n18\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"20\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nmonthly transacting customers, on the back of continued investments in geographic expansion\nand customer acquisition.\nBlinkit has scaled at a NOV CAGR of 104% since FY23 (year of Blinkit acquisition). The long-term\nopportunity remains significant, and we expect NOV to grow at 60%+ CAGR over the next three\nyears. This growth will be driven by assortment expansion, geographic coverage and demand\ndensification while improving the quality and reliability of our service.\n1\n18\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n2\nStore network scaled to 2,243 stores across 250+ cities as of Mar-26\n2\nStores as at the end of the period\nCities present as at the end of the period\n#\n#\n672\n766\n756\n250+\n2,243\n1,301\n526\nFY24\nFY25\nFY26\nStores as at the\nend of the period\nAverage NOV per day,\nper store (INR \u02c70000)\nBlinkit added 942 net new stores in FY26, taking the total count to 2,243 stores across 250+ cities as\nof Mar-26. Store additions were driven by expansion into new localities and increasing network\ndensity in existing areas where demand was exceeding capacity.\nTo support this rapid expansion, we added ~3.3 million sqft. of backend warehousing space during\nFY26, taking the total warehousing footprint to 8.5 million sqft. as of Mar-26. We remain on track to\nachieve our target of ~3,000 stores by Mar-27.\nDespite the accelerated pace of store additions, average NOV per day, per store remained broadly\nstable at INR 756k in FY26.\n26\nMar-24\n100+\nMar-25\nMar-26\n19\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"21\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nTo support this rapid expansion, we added ~3.3 million sqft. of backend warehousing space during\nFY26, taking the total warehousing footprint to 8.5 million sqft. as of Mar-26. We remain on track to\nachieve our target of ~3,000 stores by Mar-27.\nDespite the accelerated pace of store additions, average NOV per day, per store remained broadly\nstable at INR 756k in FY26.\n26\nMar-24\n100+\nMar-25\nMar-26\n19\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n3\nRevenue saw a sharp increase driven by the shift to inventory\nownership\n3\nQuick commerce Revenue\nQuick commerce Gross Profit\nINR crore\nINR crore\n21.9%\n23.3%\n26.2%\n626% YoY\n37,779\n144% YoY\n12,706\n126% YoY\n5,206\n126% YoY\n2,301\n5,206\n2,301\nFY24\nFY25\nFY26\nFY24\nFY25\nFY26\nGross Profit\nGross Profit (% of NOV)\nQuick commerce Revenue grew 626% YoY due to shift to inventory ownership where Revenue now\nincludes the full monetary value of goods sold (and not just the marketplace commission).\nSince Q3FY26, ~90% of NOV was transacted on our own inventory, which we expect to be the steady\nstate level. Accordingly, FY26 quick commerce Revenue is not comparable with previous years.\nGross profit (like-for-like revenue) grew 144% YoY in FY26, faster than NOV growth.\nNote: Gross Profit is calculated as quick commerce Revenue (-) cost of goods sold in case of own inventory sales.\n20\n20\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"22\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nincludes the full monetary value of goods sold (and not just the marketplace commission).\nSince Q3FY26, ~90% of NOV was transacted on our own inventory, which we expect to be the steady\nstate level. Accordingly, FY26 quick commerce Revenue is not comparable with previous years.\nGross profit (like-for-like revenue) grew 144% YoY in FY26, faster than NOV growth.\nNote: Gross Profit is calculated as quick commerce Revenue (-) cost of goods sold in case of own inventory sales.\n20\n20\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n4\nAdjusted EBITDA margin improved to -0.6% in FY26 with the\nbusiness turning profitable from Q3FY26 onwards\nAdjusted EBITDA loss reduced to INR 277 crore in\nFY26 despite 100%+ YoY NOV growth with Adjusted\nEBITDA margin improving from -1.3% in FY25 to\n-0.6% in FY26. The business achieved Adjusted\nEBITDA break-even in Q3FY26 and reached 0.3%\nAdjusted EBITDA margin (% of NOV) in Q4FY26.\nImprovement in profitability was driven by gross\nmargin expansion, cost efficiencies and operating\nleverage. These gains were achieved despite\ncontinued investments in store expansion &\ncustomer acquisition and the heightened\ncompetitive intensity during the fiscal.\nWe expect the business to get to 5-6% of Adjusted\nEBITDA margin in steady state. Some of our more\nmature cities are already approaching steady state\nmargins.\nQuick commerce Adjusted EBITDA\nINR crore\n-3.7%\n-1.3%\n-0.6%\n-277\n-292\n-384\nFY24\nFY25\nFY26\nAdjusted EBITDA\nAdjusted EBITDA margin (% of NOV)\n21\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"23\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\ncontinued investments in store expansion &\ncustomer acquisition and the heightened\ncompetitive intensity during the fiscal.\nWe expect the business to get to 5-6% of Adjusted\nEBITDA margin in steady state. Some of our more\nmature cities are already approaching steady state\nmargins.\nQuick commerce Adjusted EBITDA\nINR crore\n-3.7%\n-1.3%\n-0.6%\n-277\n-292\n-384\nFY24\nFY25\nFY26\nAdjusted EBITDA\nAdjusted EBITDA margin (% of NOV)\n21\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nC. Going-out\nNote: FY25 going-out data shown below consolidates the acquired entertainment ticketing business from 27-Aug-24 onwards (transaction\nclosing date).\n1\nGoing-out NOV grew 42% YoY\nGoing-out NOV\nGoing-out Revenue\nINR crore\nINR crore\n42% YoY\n9,399\n156% YoY\n6,618\n2,581\n258\nFY24\nFY25\nFY26\nFY24\nFY25\nFY26\nGoing-out NOV grew 42% YoY to INR 9,399 crore in FY26 from INR 6,618 crore in FY25, driven by\ncontinued growth across all key categories including dining-out, movies, sports and live events.\nRevenue grew 32% YoY to INR 973 crore in FY26.\nDuring FY26, we added new categories such as shopping (local retail), launched District in the UAE\nby bringing our existing dining-out business and live event ticketing on a single app and introduced\nDistrict Pass as a common loyalty program across multiple going-out use cases. Together, these\ninitiatives strengthened the District ecosystem and supported NOV growth during the fiscal.\n186% YoY\n737\n32% YoY\n973\n22\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"24\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nDuring FY26, we added new categories such as shopping (local retail), launched District in the UAE\nby bringing our existing dining-out business and live event ticketing on a single app and introduced\nDistrict Pass as a common loyalty program across multiple going-out use cases. Together, these\ninitiatives strengthened the District ecosystem and supported NOV growth during the fiscal.\n186% YoY\n737\n32% YoY\n973\n22\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nAdjusted EBITDA loss increased due to investments in customer\nacquisition and scaling supply\n2\nGoing-out Adjusted EBITDA\nGoing-out losses increased YoY primarily due\nto investments in new live event IPs and the\nlaunch of District Pass, over and above our\nongoing investments in customer acquisition\nand engagement on the District app.\nWe expect losses to reduce sequentially\ntowards breakeven in a few quarters. By FY30,\nDistrict could reach $3 billion NOV with 5%\nAdjusted EBITDA margin.\nINR crore\n-0.2%\n-0.6%\n-3.4%\n-6\n-38\nFY24\nAdjusted EBITDA\n-319\nFY25\nFY26\nAdjusted EBITDA margin (% of NOV)\n23\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"25\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nto investments in new live event IPs and the\nlaunch of District Pass, over and above our\nongoing investments in customer acquisition\nand engagement on the District app.\nWe expect losses to reduce sequentially\ntowards breakeven in a few quarters. By FY30,\nDistrict could reach $3 billion NOV with 5%\nAdjusted EBITDA margin.\nINR crore\n-0.2%\n-0.6%\n-3.4%\n-6\n-38\nFY24\nAdjusted EBITDA\n-319\nFY25\nFY26\nAdjusted EBITDA margin (% of NOV)\n23\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nD. B2B supplies (Hyperpure)\n1\nCore restaurant supplies grew 38% YoY and the business turned\nAdjusted EBITDA positive from Q3FY26 onwards\nHyperpure Revenue\nHyperpure Adjusted EBITDA\nINR crore\nINR crore\n95% YoY\n-4%\n6,196\n13% YoY\n5,366\n3,172\n-1%\n-84\n-0.3%\n-17\n-126\nFY24\nFY25\nFY26\nAdjusted EBITDA\nAdjusted EBITDA margin (% of Revenue)\nHyperpure Revenue decreased 13% YoY to INR 5,366 crore in FY26 as the non-restaurant business\nscaled down due to shift to inventory ownership in quick commerce. The core restaurant supplies\nbusiness grew 38% YoY in FY26, driven primarily by an increase in the number of restaurant outlets\nserved, and we expect it to keep growing at around 40% YoY over the next few years.\nProfitability improved during FY26, with Adjusted EBITDA margin improving to -0.3% for the full\nyear from -1.4% in FY25. The business achieved quarterly Adjusted EBITDA break-even for the first\ntime in Q3FY26 and remained profitable in Q4FY26.\nIn the next three years, Hyperpure could achieve $1 billion in topline with 4-5% Adjusted EBITDA\nmargin.\nFY24\nFY25\nFY26\n24\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"26\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nserved, and we expect it to keep growing at around 40% YoY over the next few years.\nProfitability improved during FY26, with Adjusted EBITDA margin improving to -0.3% for the full\nyear from -1.4% in FY25. The business achieved quarterly Adjusted EBITDA break-even for the first\ntime in Q3FY26 and remained profitable in Q4FY26.\nIn the next three years, Hyperpure could achieve $1 billion in topline with 4-5% Adjusted EBITDA\nmargin.\nFY24\nFY25\nFY26\n24\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nE. Others\n1\nAdjusted EBITDA losses increased largely due to investments in\nBistro\nOthers losses increased YoY largely due to\ninvestments in Bistro, our express food\ndelivery service where kitchen\ninfrastructure is managed by us. We scaled\nto 50+ kitchens by Mar-26 across Delhi NCR\nand Bangalore. Early indicators have been\nencouraging with kitchens generating\nincremental demand without cannibalizing\nthe food delivery business. We will continue\nto make calibrated investments towards\nbuilding a scalable and profitable business\nhere.\nOthers Adjusted EBITDA\nINR crore\nFY24\nFY25\n-215\nFY26\n-24\n-12\n25\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"27\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\ninfrastructure is managed by us. We scaled\nto 50+ kitchens by Mar-26 across Delhi NCR\nand Bangalore. Early indicators have been\nencouraging with kitchens generating\nincremental demand without cannibalizing\nthe food delivery business. We will continue\nto make calibrated investments towards\nbuilding a scalable and profitable business\nhere.\nOthers Adjusted EBITDA\nINR crore\nFY24\nFY25\n-215\nFY26\n-24\n-12\n25\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nFY26 operational and financial highlights summary\nAdjusted Revenue\nINR crore, unless otherwise mentioned\nFY24\nFY25\nFY26\nFood delivery\n7,792\n9,418\n11,698\nQuick commerce\n2,301\n5,206\n37,779\nGoing-out(1)\n258\n737\n973\nB2B supplies (Hyperpure)\n3,172\n6,196\n5,366\nOthers(2)\n22\n24\n87\nTotal\n13,545\n21,581\n55,903\nYoY % change\n56%\n59%\n159%(3)\nAdjusted EBITDA\nINR crore, unless otherwise mentioned\nFY24\nFY25\nFY26\nFood delivery\n912\n1,505\n2,017\nQuick commerce\n-384\n-292\n-277\nGoing-out(1)\n-6\n-38\n-319\nB2B supplies (Hyperpure)\n-126\n-84\n-17\nOthers(2)\n-24\n-12\n-215\nTotal\n372\n1,079\n1,189\nNotes:\nFY25 data shown above consolidates the acquired entertainment ticketing business from 27-Aug-24 onwards (transaction closing date).\nOthers segment includes Bistro, Nugget, Greening India and other new initiatives that we may launch from time to time.\nOn a like-for-like (\u02ddLFL\u02db) basis, consolidated Adjusted Revenue grew 61% YoY in FY26. LFL consolidated Adjusted Revenue is calculated as consolidated\nAdjusted Revenue (-) Revenue from Hyperpure\u02c7s non-restaurant business (-) cost of goods sold in case of own inventory sales in quick commerce.\nAdjusted Revenue shown above does not include inter-segment revenue.\nThere could be some totalling anomalies in the numbers displayed above due to the impact of rounding off.\n26\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"28\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nOn a like-for-like (\u02ddLFL\u02db) basis, consolidated Adjusted Revenue grew 61% YoY in FY26. LFL consolidated Adjusted Revenue is calculated as consolidated\nAdjusted Revenue (-) Revenue from Hyperpure\u02c7s non-restaurant business (-) cost of goods sold in case of own inventory sales in quick commerce.\nAdjusted Revenue shown above does not include inter-segment revenue.\nThere could be some totalling anomalies in the numbers displayed above due to the impact of rounding off.\n26\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nFood delivery\nFinancial metrics\nINR crore, unless otherwise mentioned\nFY24\nNOV\n27,478\nAdjusted Revenue\n7,792\nContribution\n2,225\nContribution (as a % of NOV)\n8.1%\nAdjusted EBITDA\n912\nAdjusted EBITDA (as a % of NOV)\n3.3%\nOperating metrics\nmillion, unless otherwise mentioned\nFY24\nOrders\n753\nNet average order value (NAOV) (INR)\n365\nAverage monthly transacting customers\n18.4\nAverage monthly active food delivery restaurant partners (\u02d8000)\n247\nAverage monthly active delivery partners (\u02d8000)\n400\nQuick commerce\nFinancial metrics\nINR crore, unless otherwise mentioned\nFY24\nFY25\nFY26\nNOV\n10,503\n22,371\n48,567\nRevenue\n2,301\n5,206\n37,779\nGross Profit\n2,301\n5,206\n12,706\nGross Profit margin (as a % of NOV)\n21.9%\n23.3%\n26.2%\nContribution\n266\n953\n2,420\nContribution margin (as a % of NOV)\n2.5%\n4.3%\n5.0%\nAdjusted EBITDA\n-384\n-292\n-277\nAdjusted EBITDA (as a % of NOV)\n-3.7%\n-1.3%\n-0.6%\nFY25\n32,862\n9,418\n3,092\n9.4%\n1,505\n4.6%\nFY25\n853\n385\n20.6\n297\n473\nFY26\n37,993\n11,698\n3,882\n10.2%\n2,017\n5.3%\nFY26\n979\n388\n24.3\n330\n552\n27\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"29\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\n2,301\n5,206\n37,779\nGross Profit\n2,301\n5,206\n12,706\nGross Profit margin (as a % of NOV)\n21.9%\n23.3%\n26.2%\nContribution\n266\n953\n2,420\nContribution margin (as a % of NOV)\n2.5%\n4.3%\n5.0%\nAdjusted EBITDA\n-384\n-292\n-277\nAdjusted EBITDA (as a % of NOV)\n-3.7%\n-1.3%\n-0.6%\nFY25\n32,862\n9,418\n3,092\n9.4%\n1,505\n4.6%\nFY25\n853\n385\n20.6\n297\n473\nFY26\n37,993\n11,698\n3,882\n10.2%\n2,017\n5.3%\nFY26\n979\n388\n24.3\n330\n552\n27\n\n\nCompany Overview: Operational and financial highlights  |  Statutory Reports  |  Financial Statements\nQuick commerce (continued)\nOperating metrics\nmillion, unless otherwise mentioned\nFY24\nFY25\nFY26\nOrders\n203\n424\n917\nNet average order value (NAOV) (INR)\n517\n528\n530\nAverage monthly transacting customers\n5.1\n10.2\n22.1\nAverage monthly active delivery partners (\u02d8000)\n67\n141\n340\nAverage NOV per day, per store (INR \u02d8000)\n672\n766\n756\nStores at the end of the period (#)\n526\n1,301\n2,243\nNotes:\nOn a like-for-like (\n\u02ddLFL\u02db) ) basis, quick commerce Revenue grew 144% YoY in FY26. LFL quick commerce Revenue is calculated as\nquick commerce Revenue (-) cost of goods sold in case of own inventory sales.\nNOV per day, per store is calculated as a simple average of total NOV transacted per day divided by total number of stores\noperational for the day, for that period.\nGoing-out\nFinancial metrics\nINR crore, unless otherwise mentioned\nFY24\nFY25\nFY26\nNOV\n2,581\n6,618\n9,399\nRevenue\n258\n737\n973\nAdjusted EBITDA\n-6\n-38\n-319\nAdjusted EBITDA (as a % of NOV)\n-0.2%\n-0.6%\n-3.4%\nNote:\nSince Q2FY25, Going-out includes data for the acquired entertainment ticketing business from 27-Aug-24 onwards (transaction\nclosing date).\nB2B supplies (Hyperpure)\nFinancial metrics\nINR crore, unless otherwise mentioned\nFY24\nRevenue\n3,172\nAdjusted EBITDA\n-126\nAdjusted EBITDA (as a % of Revenue)\n-4%\nFY25\n6,196\n-84\n-1%\nFY26\n5,366\n-17\n-0.3%\n28\n\n\nCompany Overview: Glossary  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"30\">\n<context>\n[section]\nchanging lifestyles > FY26 operational and financial highlights\n</context>\n<text>\nAdjusted EBITDA\n-6\n-38\n-319\nAdjusted EBITDA (as a % of NOV)\n-0.2%\n-0.6%\n-3.4%\nNote:\nSince Q2FY25, Going-out includes data for the acquired entertainment ticketing business from 27-Aug-24 onwards (transaction\nclosing date).\nB2B supplies (Hyperpure)\nFinancial metrics\nINR crore, unless otherwise mentioned\nFY24\nRevenue\n3,172\nAdjusted EBITDA\n-126\nAdjusted EBITDA (as a % of Revenue)\n-4%\nFY25\n6,196\n-84\n-1%\nFY26\n5,366\n-17\n-0.3%\n28\n\n\nCompany Overview: Glossary  |  Statutory Reports  |  Financial Statements\nGlossary\nConsolidated\nTerm\nDescription\nRevenue\nConsolidated revenue from operations as per financials which includes food\ndelivery Revenue (+) Hyperpure (B2B supplies) Revenue (+) Quick commerce\nRevenue (+) Going-out Revenue (+) revenue from Others business segment\nAdjusted Revenue\nDefined as Revenue (+) actual customer delivery charges paid in the food\ndelivery business (net of any discounts, including free delivery discounts on\naccount of Zomato Gold program)\u20ac(+ (+) platform fee and other charges paid on\nfood delivery Orders that are not already included in Revenue\nAdjusted EBITDA\nDefined as consolidated EBITDA (+) share-based payment expense (-)\nrental paid for the period pertaining to \u02d8Ind AS 116  leases\u02c7\nFood delivery\nTerm\nDescription\nFood delivery business\nRefers to India food ordering and delivery business\nOrders\nAll food delivery orders placed on our platform in India, including canceled\norders\nGross order value (GOV)\nTotal monetary value of Orders gross of any restaurant or platform funded\ndiscounts (excluding tips) (+) actual customer delivery charges paid (net of\nany discounts, including free delivery discounts on account of Zomato Gold\nprogram) (+) gross platform fee and other charges paid by the customer (+)\ntaxes\nNet order value (NOV)\nGOV (-) all discounts (funded by restaurant, platform, bank, others)\nAverage order value (AOV)\nGOV divided by number of Orders\nNet average order value (\n(NAOV)\nNOV divided by number of Orders\nRevenue\nDefined as food delivery revenue from operations including commission\nand other charges (+) ad revenue (+) platform fee and subscription revenue\n(net of discounts, credits and refunds other than free delivery) (+)\nrestaurant & delivery partner onboarding fee\n29\n\n\nCompany Overview: Glossary  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"31\">\n<context>\n[section]\nchanging lifestyles > Glossary\n</context>\n<text>\nGOV (-) all discounts (funded by restaurant, platform, bank, others)\nAverage order value (AOV)\nGOV divided by number of Orders\nNet average order value (\n(NAOV)\nNOV divided by number of Orders\nRevenue\nDefined as food delivery revenue from operations including commission\nand other charges (+) ad revenue (+) platform fee and subscription revenue\n(net of discounts, credits and refunds other than free delivery) (+)\nrestaurant & delivery partner onboarding fee\n29\n\n\nCompany Overview: Glossary  |  Statutory Reports  |  Financial Statements\nFood delivery (continued)\nTerm\nDescription\nAdjusted Revenue\nDefined as Revenue (+) actual customer delivery charges paid (net of any\ndiscounts, including free delivery discounts on account of Zomato Gold\nprogram)  (+) platform fee and other charges that are not already included\nin Revenue on account of Ind AS 115 adjustment\nContribution\nDefined as Adjusted Revenue (-) last mile delivery cost (-) platform funded\ndiscounts (-) payment gateway and COD handling charges (-) customer\nsupport and appeasement cost (-) customer & restaurant partner refunds\n(-) delivery partner recruitment and onboarding cost (-) other\nmiscellaneous costs\nAdjusted EBITDA\nDefined as EBITDA (+) share-based payment expense (-) rental paid for the\nperiod pertaining to \u02d8Ind AS 116 leases\u02c7\nMonthly transacting\ncustomers\nNumber of unique transacting customers identified by customers\u02c7  mobile\nnumber that have placed at least one Order in India in that month\nMonthly active delivery\npartners\nUnique delivery partners identified by their national identity proof who\nsuccessfully delivered at least one Order in India in that month\nMonthly active food delivery\nrestaurant partners\nUnique restaurant partners that received at least one Order in India in that\nmonth\nQuick commerce\nTerm\nDescription\nOrders\nDefined as all orders placed on the Blinkit platform in India, including\ncanceled orders\nGross order value (GOV)\nTotal monetary value of Orders at maximum retail price (\u02ddMRP\u02db) of goods\nsold (except for instances where MRP is not applicable such as fruits and\nvegetables in which case final selling price is used instead of MRP), gross\nof any seller/ brand/ platform funded subsidies (excluding tips) (+) actual\ncustomer delivery charges paid (net of any discounts) (+) other charges\nsuch as handling fee, convenience fee, packaging fee (+) taxes\nNet order value (NOV)\nGOV (-) all discounts (funded by brands, sellers, platform, bank, others)\nAverage order value (AOV)\nGOV divided by number of Orders\nNet average order value\n(NAOV)\nNOV divided by number of Orders\n30\n\n\nCompany Overview: Glossary  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Food delivery NOV grew 16% YoY to INR 37,993 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "nov_growth_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Food delivery NOV grew 16% YoY to INR 37,993 crore in FY26",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "16%",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Food delivery NOV was INR 37,993 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "nov",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Food delivery NOV grew 16% YoY to INR 37,993 crore in FY26",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "37,993",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Average monthly transacting customers grew 18% YoY to 24.3 million in FY26.",
+        "confidence": 1,
+        "passage_id": 16,
+        "predicate": "average_monthly_transacting_customers",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "average monthly transacting customers (MTC), which grew 18% YoY to 24.3 million in FY26.",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "24.3",
+          "unit": "million"
+        }
+      },
+      {
+        "claim_text": "Average monthly active food delivery restaurant partners grew 11% YoY to 330k in FY26.",
+        "confidence": 1,
+        "passage_id": 17,
+        "predicate": "average_monthly_active_restaurant_partners",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Average monthly active food delivery restaurant partners grew 11% YoY to 330k in FY26",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "330",
+          "unit": "k"
+        }
+      },
+      {
+        "claim_text": "Average monthly active delivery partners grew 17% YoY to 552k in FY26.",
+        "confidence": 1,
+        "passage_id": 17,
+        "predicate": "average_monthly_active_delivery_partners",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Average monthly active delivery partners grew 17% YoY to 552k in FY26",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "552",
+          "unit": "k"
+        }
+      },
+      {
+        "claim_text": "Food delivery Adjusted Revenue grew 24% YoY to INR 11,698 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 17,
+        "predicate": "adjusted_revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Adjusted Revenue grew 24% YoY to INR 11,698 crore in FY26.",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "11,698",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Food delivery Adjusted EBITDA grew 34% YoY to INR 2,017 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "adjusted_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Food delivery Adjusted EBITDA grew 34% YoY to INR 2,017 crore in FY26.",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,017",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Food delivery Adjusted EBITDA margin was 5.3% in FY26.",
+        "confidence": 1,
+        "passage_id": 18,
+        "predicate": "adjusted_ebitda_margin",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Adjusted EBITDA margin improved from 4.6% in FY25 to 5.3% in FY26.",
+        "subject_surface": "Food delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.3%",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Quick commerce NOV grew 117% YoY to INR 48,567 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 19,
+        "predicate": "nov",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Quick commerce NOV grew 117% YoY to INR 48,567 crore in FY26",
+        "subject_surface": "Quick commerce",
+        "value": {
+          "kind": "quantity",
+          "raw": "48,567",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Blinkit had 2,243 stores as of Mar-26.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "store_count",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "Mar-26"
+          }
+        ],
+        "quote": "taking the total count to 2,243 stores across 250+ cities as of Mar-26.",
+        "subject_surface": "Blinkit",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,243"
+        }
+      },
+      {
+        "claim_text": "Blinkit had a total warehousing footprint of 8.5 million sqft. as of Mar-26.",
+        "confidence": 1,
+        "passage_id": 20,
+        "predicate": "warehousing_footprint",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "Mar-26"
+          }
+        ],
+        "quote": "taking the total warehousing footprint to 8.5 million sqft. as of Mar-26.",
+        "subject_surface": "Blinkit",
+        "value": {
+          "kind": "quantity",
+          "raw": "8.5",
+          "unit": "million sqft."
+        }
+      },
+      {
+        "claim_text": "Quick commerce Revenue grew 626% YoY in FY26.",
+        "confidence": 1,
+        "passage_id": 21,
+        "predicate": "revenue_growth_rate",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Quick commerce Revenue grew 626% YoY due to shift to inventory ownership",
+        "subject_surface": "Quick commerce",
+        "value": {
+          "kind": "quantity",
+          "raw": "626%",
+          "unit": "percent"
+        }
+      },
+      {
+        "claim_text": "Quick commerce Adjusted EBITDA loss was INR 277 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 22,
+        "predicate": "adjusted_ebitda",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Adjusted EBITDA loss reduced to INR 277 crore in FY26",
+        "subject_surface": "Quick commerce",
+        "value": {
+          "kind": "quantity",
+          "raw": "-277",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Going-out NOV grew 42% YoY to INR 9,399 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 23,
+        "predicate": "nov",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Going-out NOV grew 42% YoY to INR 9,399 crore in FY26",
+        "subject_surface": "Going-out",
+        "value": {
+          "kind": "quantity",
+          "raw": "9,399",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Hyperpure Revenue was INR 5,366 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 25,
+        "predicate": "revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Hyperpure Revenue decreased 13% YoY to INR 5,366 crore in FY26",
+        "subject_surface": "Hyperpure",
+        "value": {
+          "kind": "quantity",
+          "raw": "5,366",
+          "unit": "INR crore"
+        }
+      }
+    ]
+  }
+}

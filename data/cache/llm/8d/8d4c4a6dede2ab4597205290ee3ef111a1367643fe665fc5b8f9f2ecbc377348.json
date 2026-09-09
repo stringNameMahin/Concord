@@ -1,0 +1,411 @@
+{
+  "key": "8d4c4a6dede2ab4597205290ee3ef111a1367643fe665fc5b8f9f2ecbc377348",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"256\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Goodwill arising on acquisition\n</context>\n<text>\nAcquired receivables\n(INR crores)\nParticulars\nSecurity\nDeposits\nOthers\nTotal\nFair value of acquired receivables\n31\n8\n39\nGross contractual amount of receivables\n34\n8\n42\nContractual cash flows not expected to be collected\n-\n-\n-\n\u0007From the date of acquisition, OTPL had contributed INR 53 crore of revenue* and INR 38 crore of loss* to the\nconsolidated revenue and profit of the Group for the year ended March 31, 2025.\n* before inter-company eliminations\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n251\nNet cash acquired on acquisition is INR 5 crore.\nIf the acquisition had occurred on April 01, 2024, consolidated revenue and profit for the year ended March 31,\n2025 would have been INR 20,272 crore and INR 516 crore respectively. These amounts have been calculated\nusing the subsidiary results and adjusting them for:\n-\ndifferences in the accounting policies between the group and the subsidiary (if any), and\n-\n\u0007the additional amortisation that would have been charged assuming the fair value adjustments to intangible\nassets had applied from April 01, 2024, together with the consequential tax effects.\nAcquisition related costs\nAcquisition related costs of INR 4 crore that were not directly attributable to the issue of shares are included\nin other expenses in the consolidated statement of profit and loss.\nii)\t The total consideration for 100% of paid-up equity share capital of WEPL amounts to INR 778 crore.\nThe purchase price allocation (PPA) and fair values are as follows:\nAssets acquired and liabilities assumed\nThe fair values of the identifiable assets and liabilities of WEPL as at the date of acquisition were:\n(INR crores)\nAssets\nAmount\nProperty, plant and equipment and Capital work-in-progress\n2\nRight-of-use assets and Other intangible assets\n0\nTrade receivables\n56\nCash and cash equivalents\n4\nBank balances other than cash and cash equivalents\n1\nInvestments\n1\nOther financial assets\n1\nOther non-current assets\n12\nOther current assets\n133\nTotal Assets (A)\n210\nLiabilities\nTrade payables\n16\nProvisions\n2\nOther financial liabilities\n20\nOther current liabilities\n1\nTotal Liabilities (B)\n39\nIdentifiable net assets at fair value (C=(A-B))\n171\nFair value of intangible assets#\n- Merchant relationships\n51\n- Technology\n59\n- Brand\n10\n- Active users\n5\n- Non-compete\n9\nTotal (D)\n134\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"257\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Amount\n</context>\n<text>\nBank balances other than cash and cash equivalents\n1\nInvestments\n1\nOther financial assets\n1\nOther non-current assets\n12\nOther current assets\n133\nTotal Assets (A)\n210\nLiabilities\nTrade payables\n16\nProvisions\n2\nOther financial liabilities\n20\nOther current liabilities\n1\nTotal Liabilities (B)\n39\nIdentifiable net assets at fair value (C=(A-B))\n171\nFair value of intangible assets#\n- Merchant relationships\n51\n- Technology\n59\n- Brand\n10\n- Active users\n5\n- Non-compete\n9\nTotal (D)\n134\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n252\n(INR crores)\nAmount\nPurchase consideration\nCash consideration\n778\nTotal purchase consideration\n778\nCalculation of goodwill\nPurchase consideration\n778\nDeferred Tax Liability created on fair value of intangible assets\n33\nLess: identifiable net assets at fair value and fair value of intangible assets (C+D)\n(305)\nGoodwill arising on acquisition\n506\n\u0007#The useful lives of the acquired intangible assets were assigned as follows: merchant relationships (10 years), technology (5 years),\nbrand (3 years), active users (1 year) and non-compete (6 years).\nThe excess of the purchase consideration paid over the fair value of assets acquired has been attributed\nto goodwill. The primary items that generated this goodwill are the value of the estimated synergies and\nexpansion of Going Out business neither of which qualify as an intangible asset. Goodwill is not tax-deductible.\nAcquired receivables\n(INR crores)\nParticulars\nTrade\nreceivables\nOthers\nTotal\nFair value of acquired receivables\n56\n1\n57\nGross contractual amount of receivables\n59\n1\n60\nContractual cash flows not expected to be collected\n3\n-\n3\n\u0007From the date of acquisition, WEPL has contributed INR 167 crore of revenue* and INR 10 crore of loss* to the\nconsolidated revenue and profit of the Group for the year ended March 31, 2025.\n* before inter-company eliminations\nNet cash acquired on acquisition is INR 4 crores.\nIf the acquisition had occurred on April 01, 2024, consolidated revenue and profit for the year ended March 31,\n2025 would have been INR 20,305 crore and INR 507 crore respectively. These amounts have been calculated\nusing the subsidiary results and adjusting them for:\n-\ndifferences in the accounting policies between the group and the subsidiary (if any), and\n-\n\u0007the additional amortisation that would have been charged assuming the fair value adjustments to intangible\nassets had applied from April 01, 2024, together with the consequential tax effects.\nAcquisition related costs\nAcquisition related costs of INR 4 crore that were not directly attributable to the issue of shares are included\nin other expenses in the consolidated statement of profit and loss.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"258\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Total\n</context>\n<text>\ndifferences in the accounting policies between the group and the subsidiary (if any), and\n-\n\u0007the additional amortisation that would have been charged assuming the fair value adjustments to intangible\nassets had applied from April 01, 2024, together with the consequential tax effects.\nAcquisition related costs\nAcquisition related costs of INR 4 crore that were not directly attributable to the issue of shares are included\nin other expenses in the consolidated statement of profit and loss.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n253\n28\tEmployee benefits obligation\na) \t Defined benefit obligations (Gratuity)\n(i) \t \u0007The Group has a defined benefit gratuity plan. Effective November 21, 2025, the gratuity plan of India is\ngoverned by the Code on Social Security, 2020 (replacing the existing Payment of Gratuity Act, 1972) and\nthe gratuity plan of United Arab Emirates is governed by the United Arab Emirates Labour Law. Under the\nCode on Social Security, 2020, employee who has completed five years of service (one year in case of Fixed\nTerm Employee) is entitled to specific benefit. The level of benefits provided depends on the employee\u2019s\nlength of service and salary at retirement age.\nChanges in the defined benefit obligation (DBO):\n(INR crores)\nDescription\nMarch 31, 2026\nMarch 31, 2025\nPresent value of the obligation as at the beginning of the year\n98\n72\nCurrent service cost*\n30\n17\nPast service cost*\n-\n1\nInterest cost*\n6\n3\nRemeasurements\n5\n10\nBenefits paid\n(15)\n(10)\nLiability acquired on account of business combination\n-\n5\nExchange difference on translations of foreign operations\n0\n0\nPresent value of the obligation as at the end of the year\n124\n98\n*recognized in consolidated statement of profit and loss\nDue to its defined benefits plans, the Group is exposed to the following risks:\nChanges in discount rate - A decrease in yield will increase plan liability and vice-versa.\n\u0007Salary risk - An increase in the salary of the plan participants will increase the plan\u2019s liability and vice-\nversa.\nAttrition rates- A decrease in the attrition rate will increase the plan\u2019s liability and vice-versa.\nA quantitative sensitivity analysis for significant assumption is as shown below:\n(INR crores)\nIncrease/(Decrease) in defined\nbenefit obligation\nParticulars\nSensitivity level\nMarch 31, 2026\nMarch 31, 2025\nDiscount rate\n1% increase\n(5)\n(4)\n1% decrease\n5\n4\nFuture salary increase\n1% increase\n4\n3\n1% decrease\n(4)\n(3)\nAttrition rates\n10% increase\n(5)\n(4)\n10% decrease\n7\n5\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"259\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Present value of the obligation as at the end of the year\n</context>\n<text>\nAttrition rates- A decrease in the attrition rate will increase the plan\u2019s liability and vice-versa.\nA quantitative sensitivity analysis for significant assumption is as shown below:\n(INR crores)\nIncrease/(Decrease) in defined\nbenefit obligation\nParticulars\nSensitivity level\nMarch 31, 2026\nMarch 31, 2025\nDiscount rate\n1% increase\n(5)\n(4)\n1% decrease\n5\n4\nFuture salary increase\n1% increase\n4\n3\n1% decrease\n(4)\n(3)\nAttrition rates\n10% increase\n(5)\n(4)\n10% decrease\n7\n5\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n254\nThe sensitivity analysis above have been determined based on a method that extrapolates the impact on\ndefined benefit obligation as a result of reasonable changes in key assumptions occurring at the end of\nthe reporting date.\nThe average remaining future service at the end of the reporting year is 20.00 - 30.50 years (March 31,\n2025: 22.00 - 30.44 years).\nThe weighted average duration of defined benefit obligation, at the end of the reporting year is 3.00 - 5.00\nyears (March 31, 2025: 2.74  - 5.00 years).\n(INR crores)\nMaturity analysis (the projection of gross payments)\nMarch 31, 2026\nMarch 31, 2025\nLess than one year\n19\n16\nYear 1-2\n19\n15\nYear 2-5\n55\n42\nOver 5 year\n54\n41\n(INR crores)\nRemeasurement of defined benefit obligation recognized in OCI\nMarch 31, 2026\nMarch 31, 2025\nActuarial loss / (gain) due to changes in demographic assumptions\n-\n(2)\nActuarial loss / (gain) due to changes in financial assumptions\n(1)\n1\nActuarial loss / (gain) due to experience adjustments\n6\n11\nTotal (A)\n5\n10\n(ii) \t Gratuity Insurance / Investment Plan\n\u0007A part of defined benefit obligation is invested in an appropriate investment product of an Insurance\nCompany (Gratuity insurance / investment plan) and is recognized as having \u2018reimbursement right\u2019 as per\nInd AS 19.The gratuity insurance/investment plan is treated as a separate asset measured at fair value\nand is not offset against the defined benefit obligation.\n(INR crores)\nDescription\nMarch 31, 2026\nMarch 31, 2025\nBalance as at the beginning of the year\n67\n-\nInvestments during the year\n31\n64\nInterest income*\n4\n3\nBenefits paid/ withdrawals\n-\n-\nRemeasurements\n2\n-\nBalance as at the end of the year\n104\n67\n*recognized in consolidated statement of profit and loss\nThe Group expects to contribute INR 3 crore to reimbursement right for the next annual reporting period.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"260\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > (ii) \t Gratuity Insurance / Investment Plan\n</context>\n<text>\nand is not offset against the defined benefit obligation.\n(INR crores)\nDescription\nMarch 31, 2026\nMarch 31, 2025\nBalance as at the beginning of the year\n67\n-\nInvestments during the year\n31\n64\nInterest income*\n4\n3\nBenefits paid/ withdrawals\n-\n-\nRemeasurements\n2\n-\nBalance as at the end of the year\n104\n67\n*recognized in consolidated statement of profit and loss\nThe Group expects to contribute INR 3 crore to reimbursement right for the next annual reporting period.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n255\nRemeasurement of Gratuity insurance / investment plan recognized in OCI\n(INR crores)\nDescription\nMarch 31, 2026\nMarch 31, 2025\nActurial loss / (gain) on return on Gratuity insurance / investment\nplan (excl. interest income)\n(2)\n-\nTotal (B)\n(2)\n-\nTotal remeasurements of the defined benefit plans (A+B)\n3\n10\n(iii) \t The principal assumptions used in determining gratuity obligations for the Group\u2019s plan is shown below:\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nIndia\nUAE\nIndia\nUAE\nDiscount rate\n6.90%\n4.50%\n6.6% - 7.04%\n4.70%\nFuture salary increases\n13% - 15%\n13%\n13% - 15%\n13%\nRetirement age (years)\n58\n58\n58\n58\nEmployee turnover (age)\nUp to 30 Years\n30%\n30%\n30%\n30%\nAbove 30 Years\n25%\n25%\n25%\n25%\nMortality rates inclusive of provision for disability -  IAL2012-14Ult\nb) \t Defined Contribution Plan\nDuring the year, the Group has recognized the following amounts in the statement of profit and loss:\n(INR crores)\nDescription\nMarch 31, 2026\nMarch 31, 2025\nEmployer contribution to provident fund and other funds\n69\n46\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"261\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > UAE\n</context>\n<text>\n13% - 15%\n13%\nRetirement age (years)\n58\n58\n58\n58\nEmployee turnover (age)\nUp to 30 Years\n30%\n30%\n30%\n30%\nAbove 30 Years\n25%\n25%\n25%\n25%\nMortality rates inclusive of provision for disability -  IAL2012-14Ult\nb) \t Defined Contribution Plan\nDuring the year, the Group has recognized the following amounts in the statement of profit and loss:\n(INR crores)\nDescription\nMarch 31, 2026\nMarch 31, 2025\nEmployer contribution to provident fund and other funds\n69\n46\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n256\n29\tShare-based payments\n\u0007General Employee Share-option Plan (\u201cGESP\u201d) (Equity settled):\nThe Foodie Bay Employee Stock Option Plan 2014 (\u201cESOP 2014\u201d) was approved by the shareholders of the\nCompany on June 27, 2014 (last amendment was done by the Board of directors on February 10, 2022) for\ngranting aggregate 27,089 Employees stock options (\u201cESOPs/Option(s)\u201d) of the Company. The Company\nfurther increased number of Options by 5,364 under the ESOP 2014 at the extraordinary general meeting of\nshareholders held on September 07, 2015, and 9,313 Options under the ESOP scheme at the extraordinary\ngeneral meeting of shareholders held on March 04, 2016 aggregating to 41,766 Options. The ESOP 2014\ncovers grant of Options to the specified employees covered under ESOP 2014 . Further, bonus issuance in the\nratio 1:6699 to equity shareholders was approved by the shareholders at their meeting held on April 5, 2021.\nAccordingly, the number of shares that can be issued under the ESOP 2014 has been increased from 41,766\nto 27,98,32,200.\nZomato Employee Stock Option Plan 2018 (\u201cESOP 2018\u201d) was approved by the shareholders of the Company on\nOctober 22, 2018 (last amendment was done by the shareholders on November 22, 2024) for granting aggregate\n30,150 Employees stock options (\u201cESOPs/Option(s)\u201d) which were reduced to 18,135 Options vide extraordinary\ngeneral meeting held on September 4, 2020. The ESOP 2018 covers grant of Options to the specified employees\ncovered under ESOP 2018. Further, bonus issuance in the ratio 1:6699 to equity shareholders was approved by\nthe shareholders at their meeting held on April 5, 2021. Accordingly, the number of shares that can be issued\nunder the ESOP 2018 were increased from 18,135 to 12,15,04,500. Further, the Company changed the mode\nof implementation and administration of ESOP 2018 from direct allotment to trust route through an already\nsetup irrevocable employee welfare trust of the Company, namely \u2018Foodie Bay Employees ESOP Trust\u2019 (\u201cESOP\nTrust\u201d) w.e.f  November 22, 2024.\nZomato Employee Stock Option Plan 2021 (\u201cESOP 2021\u201d) was approved by the shareholders of the Company\non April 5, 2021 (last amendment was done by the shareholders on November 22, 2024) for granting aggregate\n50,25,00,000 Employees stock option (\u201cESOPs/Option(s)\u201d) of the Company. The ESOP 2021 covers grant of\nOptions to the specified employees covered under ESOP 2021. Further, the Company changed the mode of\nimplementation and administration of ESOP 2021 from direct allotment to trust route through ESOP Trust\nw.e.f  November 22, 2024.\nZomato Employee Stock Option Plan 2022 (\u201cESOP 2022\u201d) was approved by the shareholders of the Company\nthrough postal ballot on July 25, 2022 (last amendment was done by the shareholders on November 22, 2024),\nfor granting aggregate 3,36,55,902 Employees stock option (\u201cESOPs/Option(s)\u201d) of the Company. The ESOP\n2022 covers grant of Options to the specified employees covered under ESOP 2022. Further, the Company\nchanged the mode of implementation and administration of ESOP 2022 from direct allotment to trust route\nthrough ESOP Trust w.e.f  November 22, 2024.\nZomato Employee Stock Option Plan 2024 (\u201cESOP 2024\u201d) was approved by the shareholders of the Company\nthrough postal ballot on June 29, 2024 (last amendment was done by the shareholders on November 22, 2024),\nfor granting aggregate 18,26,27,402 Employees stock option (\u201cESOPs/Option(s)\u201d) of the Company. The ESOP\n</text>\n</passage>\n\n<passage id=\"262\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements\n</context>\n<text>\n2022 covers grant of Options to the specified employees covered under ESOP 2022. Further, the Company\nchanged the mode of implementation and administration of ESOP 2022 from direct allotment to trust route\nthrough ESOP Trust w.e.f  November 22, 2024.\nZomato Employee Stock Option Plan 2024 (\u201cESOP 2024\u201d) was approved by the shareholders of the Company\nthrough postal ballot on June 29, 2024 (last amendment was done by the shareholders on November 22, 2024),\nfor granting aggregate 18,26,27,402 Employees stock option (\u201cESOPs/Option(s)\u201d) of the Company. The ESOP\n2024 covers grant of Options to the specified employees covered under ESOP 2024. Further, the Company\nchanged the mode of implementation and administration of ESOP 2024 from direct allotment to trust route\nthrough ESOP Trust w.e.f November 22, 2024.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n257\nMovements during the year\nThe following table illustrates the number and weighted average exercise prices (WAEP) of, and movements\nin, share options during the year:\nParticulars\nYear ended\nMarch 31, 2026\nYear ended\nMarch 31, 2025\nNumber\nWAEP (INR)\nNumber\nWAEP (INR)\nESOP 2014\nOutstanding at April 01\n14,364\n14,224\n18,242\n12,237\nGranted during the year\n321\n1\n2,417\n1\nExercised during the year\n2,768\n10,184\n5,429\n8,200\nForfeited/expired during the year\n851\n1\n865\n1\nOutstanding at the end of the year\n11,066\n16,223\n14,364\n14,224\nExercisable at the end of the year\n7,548\n37,569\n9,591\n32,533\nParticulars\nYear ended\nMarch 31, 2026\nYear ended\nMarch 31, 2025\nNumber\nWAEP (INR)\nNumber\nWAEP (INR)\nESOP 2018\nOutstanding at April 01\n5,131\n1\n6,751\n1\nGranted during the year\n-\n-\n-\n1\nExercised during the year\n1,602\n1\n1,569\n1\nForfeited/expired during the year\n-\n-\n51\n1\nOutstanding at the end of the year\n3,529\n1\n5,131\n1\nExercisable at the end of the year\n3,148\n1\n4,646\n1\nParticulars\nYear ended\nMarch 31, 2026\nYear ended\nMarch 31, 2025\nNumber\nWAEP (INR)\nNumber\nWAEP (INR)\nESOP 2021\nOutstanding at April 01\n18,79,98,354\n1\n14,03,14,955\n1\nGranted during the year\n1,97,45,428\n1\n5,83,46,878\n1\nExercised during the year\n8,53,71,926\n1\n32,43,629\n1\nForfeited/expired during the year\n4,81,36,935\n1\n74,19,850\n1\nOutstanding at the end of the year\n7,42,34,921\n1\n18,79,98,354\n1\nExercisable at the end of the year\n1,11,78,608\n1\n5,32,55,388\n1\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"263\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Particulars\n</context>\n<text>\nParticulars\nYear ended\nMarch 31, 2026\nYear ended\nMarch 31, 2025\nNumber\nWAEP (INR)\nNumber\nWAEP (INR)\nESOP 2021\nOutstanding at April 01\n18,79,98,354\n1\n14,03,14,955\n1\nGranted during the year\n1,97,45,428\n1\n5,83,46,878\n1\nExercised during the year\n8,53,71,926\n1\n32,43,629\n1\nForfeited/expired during the year\n4,81,36,935\n1\n74,19,850\n1\nOutstanding at the end of the year\n7,42,34,921\n1\n18,79,98,354\n1\nExercisable at the end of the year\n1,11,78,608\n1\n5,32,55,388\n1\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n258\nParticulars\nYear ended\nMarch 31, 2026\nYear ended\nMarch 31, 2025\nNumber\nWAEP (INR)\nNumber\nWAEP (INR)\nESOP 2022\nOutstanding at April 01\n1,96,51,244\n1\n2,64,43,689\n1\nGranted during the year\n-\n-\n-\n1\nExercised during the year\n63,52,130\n1\n60,43,166\n1\nForfeited/expired during the year\n4,17,700\n1\n7,49,279\n1\nOutstanding at the end of the year\n1,28,81,414\n1\n1,96,51,244\n1\nExercisable at the end of the year\n52,72,936\n1\n49,62,915\n1\nParticulars\nYear ended\nMarch 31, 2026\nYear ended\nMarch 31, 2025\nNumber\nWAEP (INR)\nNumber\nWAEP (INR)\nESOP 2024\nOutstanding at April 01\n3,76,32,800\n1\n-\n-\nGranted during the year\n3,72,92,374\n1\n3,76,32,800\n1\nExercised during the year\n-\n-\n-\n-\nForfeited/expired during the year\n-\n-\n-\n-\nOutstanding at the end of the year\n7,49,25,174\n1\n3,76,32,800\n1\nExercisable at the end of the year\n66,40,000\n1\n-\n-\nTotal expense arising from share based payment transaction for the year is INR 819 crore (March 31, 2025: INR\n798 crore) which has been charged to consolidated statement of profit and loss.\nThe weighted average remaining contractual life for the share options outstanding as at March 31, 2026 is 7.07\nyears (March 31, 2025 : 7.03 years)\nThe weighted average fair value of options granted during the year was for ESOP 2014 and ESOP 2018 is INR\n16,55,038 (March 31, 2025 : INR 13,33,125). For ESOP 2021, ESOP 2022 and ESOP 2024 is INR 275 (March 31,\n2025 : INR 220)\nThe weighted average share price at the date of exercise of stock options during the year was INR 277 (March\n31, 2025 : INR 226)\nFor ESOP 2014, the range of exercise prices for options outstanding at the end of the year was INR 1 to INR\n2,50,000 (March 31, 2025 : INR 1 to INR 2,50,000)\nFor ESOP 2018, ESOP 2021, ESOP 2022 and ESOP 2024 the exercise prices for options outstanding at the end\nof the year was INR 1 (March 31, 2025 : INR 1)\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"264\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Outstanding at the end of the year\n</context>\n<text>\n2025 : INR 220)\nThe weighted average share price at the date of exercise of stock options during the year was INR 277 (March\n31, 2025 : INR 226)\nFor ESOP 2014, the range of exercise prices for options outstanding at the end of the year was INR 1 to INR\n2,50,000 (March 31, 2025 : INR 1 to INR 2,50,000)\nFor ESOP 2018, ESOP 2021, ESOP 2022 and ESOP 2024 the exercise prices for options outstanding at the end\nof the year was INR 1 (March 31, 2025 : INR 1)\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n259\nThe following tables list the inputs to the models used for the GESP plans for the year ended March 31, 2026\nand March 31, 2025 :\nModel used: Black Scholes valuation model\nYear ended\nMarch 31, 2026\nYear ended\nMarch 31, 2025\nDividend yield (%)\n0.00%\n0.00%\nExpected volatility (%)\n47.93%-50.67%\n50.92%-53.63%\nRisk\u2013free interest rate (%)\n5.91%-6.49%\n6.40%-6.79%\nExpected life of share options\n6-9 years\n6-9 years\nWeighted average share price at the date of grant\n284\n222\nModel used: Monte Carlo simulation model\nYear ended\nMarch 31, 2026\nYear ended\nMarch 31, 2025\nDividend yield (%)\n0.00%\n0.00%\nExpected volatility (%)\n48.00%\n51.30%\nRisk\u2013free interest rate (%)\n6.80%\n6.90%\nExpected life of share options\n10 years\n10 years\nWeighted average share price at the date of grant\n278\n215\nThe expected life of the share options is based on historical data and current expectations and is not\nnecessarily indicative of exercise patterns that may occur. The expected volatility reflects the assumption\nthat the historical volatility over a period similar to the life of the options is indicative of future trends, which\nmay also not necessarily be the actual outcome.\n30\tRight-of-use assets and Lease liabilities\nVarious commercial premises are leased by the Group such as office buildings, warehouses, stores etc. for\nits business operations.\nSet out below are the carrying amounts of right-of-use assets recognized and the movements during the year:\n(INR crores)\nParticulars\nBuildings\nAs at April 01, 2024\n690\nAssets acquired on business combination (refer note 27)\n0\nAdditions\n1,569\nDisposals\n(12)\nDepreciation expense\n(329)\nAs at March 31, 2025\n1,918\nAdditions\n3,216\nDisposals\n(80)\nDepreciation expense\n(760)\nExchange difference on translations of foreign operations\n0\nAs at March 31, 2026\n4,294\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"265\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > March 31, 2025\n</context>\n<text>\nSet out below are the carrying amounts of right-of-use assets recognized and the movements during the year:\n(INR crores)\nParticulars\nBuildings\nAs at April 01, 2024\n690\nAssets acquired on business combination (refer note 27)\n0\nAdditions\n1,569\nDisposals\n(12)\nDepreciation expense\n(329)\nAs at March 31, 2025\n1,918\nAdditions\n3,216\nDisposals\n(80)\nDepreciation expense\n(760)\nExchange difference on translations of foreign operations\n0\nAs at March 31, 2026\n4,294\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n260\nSet out below are the carrying amounts of lease liabilities recognized and the movements during the year:\n(INR crores)\nParticulars\nAmount\nAs at April 01, 2024\n749\nLiabilities acquired on business combination (refer note 27)\n0\nAdditions\n1,520\nTermination\n(15)\nAccretion of interest\n147\nPayments\n(356)\nAs at March 31, 2025\n2,045\nAdditions\n3,110\nTermination\n(92)\nAccretion of interest\n367\nPayments\n(838)\nExchange difference on translations of foreign operations\n0\nAs at March 31, 2026\n4,592\nThe following is the break-up of current and non-current lease liabilities:\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nCurrent lease liabilities\n759\n391\nNon-current lease liabilities\n3,833\n1,654\nClosing balance\n4,592\n2,045\nThe following are the amounts recognized in consolidated statement of profit and loss:\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nDepreciation expense on right-of-use assets\n760\n329\nInterest expense on lease liabilities\n367\n147\nGain on termination of lease contracts\n(13)\n(3)\nRent expense relating to short-term leases\n113\n45\nRent expense relating to low value assets\n31\n23\nTotal\n1,258\n541\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"266\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Closing balance\n</context>\n<text>\n4,592\n2,045\nThe following are the amounts recognized in consolidated statement of profit and loss:\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nDepreciation expense on right-of-use assets\n760\n329\nInterest expense on lease liabilities\n367\n147\nGain on termination of lease contracts\n(13)\n(3)\nRent expense relating to short-term leases\n113\n45\nRent expense relating to low value assets\n31\n23\nTotal\n1,258\n541\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n261\nThe table below provides details regarding the contractual maturities of lease liabilities on an undiscounted\nbasis:\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nLess than one year\n1,217\n593\nOne to five years\n3,784\n1,805\nMore than five years\n1,259\n256\nClosing balance\n6,260\n2,654\nThe Group does not face a liquidity risk with regard to its lease liabilities as the assets are sufficient to meet\nthe obligations related to lease liabilities as and when they fall due.\nTotal cash outflow for rent paid during the year ending March 31,2026 is INR 982 crores (March 31, 2025: INR\n425 crores)\nThe weighted average incremental borrowing rate applied to lease liabilities is 9.95% - 15% (March 31, 2025:\n10% - 15%)\n31 \t Fair value of financial instruments assets and liabilities\n(a)\tFinancial instrument by category\nThe carrying value and fair value of financial instruments by categories as at March 31, 2026 are as\nfollows:\n(INR crores)\nParticulars\nAmortised\ncost\nFair value\nthrough\nprofit or loss\nFair value\nthrough other\ncomprehensive\nincome\nTotal\ncarrying\nvalue\nAssets:\nCash and cash equivalents (refer note 8)\n996\n-\n-\n996\nBank balances other than cash and cash\nequivalents (refer note 9)\n527\n-\n-\n527\nInvestments (current) (refer note 6)\n- Mutual funds\n-\n2,979\n-\n2,979\n- Government securities\n-\n-\n237\n237\n- Debentures or bonds\n-\n-\n1,875\n1,875\nInvestment (non-current) (refer note 5)\n- Equity instruments*\n-\n-\n1,785\n1,785\n- Government securities\n-\n-\n2,725\n2,725\n- Debentures or bonds\n-\n-\n5,232\n5,232\nTrade receivables (refer note 7)\n1,764\n-\n-\n1,764\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"267\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > value\n</context>\n<text>\nCash and cash equivalents (refer note 8)\n996\n-\n-\n996\nBank balances other than cash and cash\nequivalents (refer note 9)\n527\n-\n-\n527\nInvestments (current) (refer note 6)\n- Mutual funds\n-\n2,979\n-\n2,979\n- Government securities\n-\n-\n237\n237\n- Debentures or bonds\n-\n-\n1,875\n1,875\nInvestment (non-current) (refer note 5)\n- Equity instruments*\n-\n-\n1,785\n1,785\n- Government securities\n-\n-\n2,725\n2,725\n- Debentures or bonds\n-\n-\n5,232\n5,232\nTrade receivables (refer note 7)\n1,764\n-\n-\n1,764\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n262\n(INR crores)\nParticulars\nAmortised\ncost\nFair value\nthrough\nprofit or loss\nFair value\nthrough other\ncomprehensive\nincome\nTotal\ncarrying\nvalue\nOther financial assets (refer note 10)\n5,143\n-\n-\n5,143\nTotal\n8,430\n2,979\n11,854\n23,263\nLiabilities:\nTrade payables (refer note 14)\n3,010\n-\n-\n3,010\nLease liabilities (refer note 30)\n4,592\n-\n-\n4,592\nOther financial liabilities (refer note 15)\n1,105\n-\n-\n1,105\nTotal\n8,707\n-\n-\n8,707\nThe carrying value and fair value of financial instruments by categories as at March 31, 2025 are as follows:\n(INR crores)\nParticulars\nAmortised\ncost\nFair value\nthrough\nprofit or loss\nFair value\nthrough other\ncomprehensive\nincome\nTotal\ncarrying\nvalue\nAssets:\nCash and cash equivalents (refer note 8)\n666\n-\n-\n666\nBank balances other than cash and cash\nequivalents (refer note 9)\n2,948\n-\n-\n2,948\nInvestments (current) (refer note 6)\n- Mutual funds\n-\n1,910\n-\n1,910\n- Government securities\n-\n-\n-\n-\n- Debentures or bonds\n-\n-\n362\n362\nInvestment (non-current) (refer note 5)\n- Equity instruments*\n-\n-\n2,300\n2,300\n- Government securities\n-\n-\n3,250\n3,250\n- Debentures or bonds\n-\n-\n5,370\n5,370\nTrade receivables (refer note 7)\n1,946\n-\n-\n1,946\nOther financial assets (refer note 10)\n5,513\n-\n-\n5,513\nTotal\n11,073\n1,910\n11,282\n24,265\nLiabilities:\nTrade payables (refer note 14)\n1,536\n-\n-\n1,536\nLease liabilities (refer note 30)\n2,045\n-\n-\n2,045\nOther financial liabilities (refer note 15)\n914\n-\n-\n914\nTotal\n4,495\n-\n-\n4,495\n* These equity instruments are not held for trading, and the Group has made an irrevocable election at initial recognition to recognize\nchanges in FVTOCI rather than FVTPL as these are strategic investments and the Group considered this to be more relevant.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"268\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Total\n</context>\n<text>\n24,265\nLiabilities:\nTrade payables (refer note 14)\n1,536\n-\n-\n1,536\nLease liabilities (refer note 30)\n2,045\n-\n-\n2,045\nOther financial liabilities (refer note 15)\n914\n-\n-\n914\nTotal\n4,495\n-\n-\n4,495\n* These equity instruments are not held for trading, and the Group has made an irrevocable election at initial recognition to recognize\nchanges in FVTOCI rather than FVTPL as these are strategic investments and the Group considered this to be more relevant.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n263\n(b) \tFair value hierarchy\nThe Group uses the following hierarchy for determining and disclosing the fair value of financial instruments\nby valuation technique using:\nLevel 1 - Quoted prices (unadjusted) in active markets for identical assets or liabilities.\nLevel 2 - Inputs other than quoted prices included within Level 1 that are observable for the asset or liability,\neither directly (i.e. as prices) or indirectly (i.e. derived from prices).\nLevel 3 - Inputs for the assets or liabilities that are not based on observable market data (unobservable inputs).\nThe following table presents fair value hierarchy of assets and liabilities measured at fair value on\na recurring basis as at March 31, 2026:\n(INR crores)\nParticulars\nCarrying\nValue\nFair value measurement at end of\nthe reporting year using\nLevel 1\nLevel 2\nLevel 3\nAssets\nInvestments\n- Mutual funds\n2,979\n2,979\n-\n-\n- Debentures or bonds\n7,107\n-\n7,107\n-\n- Government securities\n2,962\n-\n2,962\n-\n- Equity instruments\n1,785\n-\n-\n1,785\nThe following table presents fair value hierarchy of assets and liabilities measured at fair value on\na recurring basis as at March 31, 2025:\n(INR crores)\nParticulars\nCarrying\nValue\nFair value measurement at end of\nthe reporting year using\nLevel 1\nLevel 2\nLevel 3\nAssets\nInvestments\n- Mutual funds\n1,910\n1,910\n-\n-\n- Debentures or bonds\n5,732\n-\n5,732\n-\n- Government securities\n3,250\n-\n3,250\n-\n- Equity instruments\n2,300\n-\n-\n2,300\nThere were no transfers between Level 1 and Level 2 fair value measurements during the year ended March\n31, 2026 and March 31, 2025.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"269\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\nFor the year ended March 31, 2025\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Level 3\n</context>\n<text>\na recurring basis as at March 31, 2025:\n(INR crores)\nParticulars\nCarrying\nValue\nFair value measurement at end of\nthe reporting year using\nLevel 1\nLevel 2\nLevel 3\nAssets\nInvestments\n- Mutual funds\n1,910\n1,910\n-\n-\n- Debentures or bonds\n5,732\n-\n5,732\n-\n- Government securities\n3,250\n-\n3,250\n-\n- Equity instruments\n2,300\n-\n-\n2,300\nThere were no transfers between Level 1 and Level 2 fair value measurements during the year ended March\n31, 2026 and March 31, 2025.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n264\nThe following methods / assumptions were used to estimate the fair values:\ni)\n\u0007The carrying value of cash and cash equivalents, bank balances other than cash and cash equivalents,\ntrade receivables, other financial assets, trade payables and other financial liabilities approximate their\nfair value mainly due to the short-term maturities of these instruments.\nii)\n\u0007Fair value of quoted mutual funds is based on the last available Net assets value (\u201cNAV\u201d) as at the reporting\ndate.\niii)\t \u0007The fair values of the unquoted investments in Equity instruments have been estimated using one or\nmore of the valuation techniques such as discounted cash flow method (\u201cDCF\u201d), comparable companies\nmultiples method (\u201cCCM\u201d), comparable companies transactions multiples method (\u201cCTM\u201d), net asset value\n(\u201cNAV\u201d) method and backsolve method.\niv)\t \u0007The investments in Government securities and debentures or bonds are valued by referring to market\ninputs including quotes, trades, poll, primary issuances for securities and /or underlying securities issued\nby the same or similar issuer for similar maturities and movement in benchmark security, etc.\nSignificant unobservable inputs used in Level 3 fair value along with its sensitivity:\nFor the year ended March 31, 2026\nFinancial assets\nValuation technique\nSignificant unobservable inputs\nInvestment in Equity instruments\nDiscounted Cash Flow method\n(\u201cDCF\u201d), Comparable Companies\nMultiples method (\u201cCCM\u201d), Net\nAssets Value method (\u201cNAV\u201d),\nBacksolve Method*\nWeighted Average Cost of Capital\n(\u201cWACC\u201d), Terminal growth rate,\nRevenue multiple\nSensitivity analysis for the year ended March 31, 2026 :\n(INR crores)\nFinancial assets\nSignificant unobservable inputs\n% change in\nsignificant\nunobservable inputs\nFair value\nchange\nInvestment in Equity instruments\nWeighted average cost of\ncapital (\"\"WACC\"\")(21%)\n(+) 5\n(14)\n(-) 5\n22\nTerminal Growth Rate (5%)\n(+) 5\n3\n(-) 5\n(3)\nRevenue multiple\n(Ranging from 0.7x to 6.1x)\n(+) 5\n16\n(-) 5\n(12)\n* Sensitivity analysis has not been performed for Backsolve Method\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"270\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\nFor the year ended March 31, 2025\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Significant unobservable inputs\n</context>\n<text>\nSensitivity analysis for the year ended March 31, 2026 :\n(INR crores)\nFinancial assets\nSignificant unobservable inputs\n% change in\nsignificant\nunobservable inputs\nFair value\nchange\nInvestment in Equity instruments\nWeighted average cost of\ncapital (\"\"WACC\"\")(21%)\n(+) 5\n(14)\n(-) 5\n22\nTerminal Growth Rate (5%)\n(+) 5\n3\n(-) 5\n(3)\nRevenue multiple\n(Ranging from 0.7x to 6.1x)\n(+) 5\n16\n(-) 5\n(12)\n* Sensitivity analysis has not been performed for Backsolve Method\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n265\nFor the year ended March 31, 2025\nFinancial assets\nValuation technique\nSignificant unobservable inputs\nInvestment in Equity instruments\nDiscounted Cash Flow method\n(\u201cDCF\u201d), Comparable Companies\nMultiples method (\u201cCCM\u201d),\nComparable Companies\nTransactions Multiples method\n(\u201cCTM\u201d), Backsolve Method*\nWeighted Average Cost of Capital\n(\u201cWACC\u201d), Terminal growth rate,\nRevenue multiple\nSensitivity analysis for the year ended March 31, 2025 :\n(INR crores)\nFinancial assets\nSignificant unobservable inputs\n% change in\nsignificant\nunobservable inputs\nFair value\nchange\nInvestment in Equity instruments\nWeighted average cost of\ncapital (\u201cWACC\u201d)\n(Ranging from 15% to 40%)\n(+) 5\n(36)\n(-) 5\n41\nTerminal Growth Rate (5%)\n(+) 5\n4\n(-) 5\n(4)\nRevenue multiple\n(Ranging from 1.6x to 6.4x)\n(+) 5\n16\n(-) 5\n(23)\n* Sensitivity analysis has not been performed for Backsolve Method\nReconciliation of level 3 fair value measurements of financial assets is as follows:\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nBalance at the beginning of the year\n2,300\n2,223\nAdditions during the year\n-\n0\nFair value gain / (loss) recognized in other comprehensive income\nduring the year\n(515)\n77\nBalance at the end of the year\n1,785\n2,300\n(c)\t Financial risk management\nFinancial risk factors\nThe Group\u2019s activities exposes it to a variety of financial risks namely market risk, credit risk and liquidity risk.\nThe Group\u2019s primary focus is to foresee the unpredictability of financial markets and seek to minimise potential\nadverse effects on its financial performance.\nRisk management is carried out by senior management for cash and cash equivalents, trade receivables,\ninvestments, deposits with banks and NBFC, foreign currency risk exposure and liquidity risk.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"271\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\nFor the year ended March 31, 2025\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Financial risk factors\n</context>\n<text>\nThe Group\u2019s activities exposes it to a variety of financial risks namely market risk, credit risk and liquidity risk.\nThe Group\u2019s primary focus is to foresee the unpredictability of financial markets and seek to minimise potential\nadverse effects on its financial performance.\nRisk management is carried out by senior management for cash and cash equivalents, trade receivables,\ninvestments, deposits with banks and NBFC, foreign currency risk exposure and liquidity risk.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n266\nMarket risk\nMarket risk is the risk that the fair value or future cash flows of a financial instrument will fluctuate because of\nchanges in market prices. Market risk comprises three types of risk: interest rate risk, foreign currency risk\nand other price risk, such as equity price risk and commodity risk. The Group ensures optimisation of cash\nthrough fund planning and robust cash management practices.\ni)\nInterest rate risk\n\u0007Interest rate risk is the risk that the fair value or future cash flows of a financial instrument will fluctuate\nbecause of changes in market interest rates. The Group\u2019s investments are predominantly held in\ngovernment securities, debenture or bonds, bank and NBFC deposits and mutual funds.\n\u0007Investment in bank and NBFC deposits are measured at amortised cost and are fixed interest rate bearing\ninstruments and hence not subject to interest rate volatility. The Group also invests in mutual fund schemes\nof leading fund houses, such investments are susceptible to market interest risks which may impact the\nreturn and value of such investments. However, given the relatively short tenure of underlying portfolio\nof the mutual fund schemes in which the Group has invested, such risk is not significant. Investments\nin debenture or bonds and certain government securities are subject to interest rate risk which are fair\nvalued through other comprehensive income to recognize market volatility.\nSensitivity analysis\nThe following table demonstrate the sensitivity to a reasonably possible change in interest rates:\nFor the year ended March 31, 2026\n(INR crores)\nFinancial assets\nExposure\n% change in\ninput\nPre-Tax impact\non Equity\nDebenture or bonds\n7,107\n(+)1\n(143)\nGovernment securities\n2,962\n(+)1\n(84)\nFor the year ended March 31, 2025\n(INR crores)\nFinancial assets\nExposure\n% change in\ninput\nPre-Tax impact\non Equity\nDebenture or bonds\n5,732\n(+)1\n(127)\nGovernment securities\n3,250\n(+)1\n(123)\nA reduction in interest rates would have an equal and opposite effect on the Group\u2019s financial statements.\nii) \t Foreign currency risk\nForeign currency risk is the risk that the fair value or future cash flows of an exposure will fluctuate\nbecause of changes in foreign exchange rates. The Group\u2019s exposure to foreign currencies is negligible,\nwith the exception of the AED, which has an impact on profit and loss for the year ended March 31, 2026\nof INR 1 crore (March 31, 2025: INR 1 crore) if foreign exchange rate changes by 1%. The Group keeps a\nregular track of all the changes in foreign currency rates to monitor and manage this foreign currency risk.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The total consideration for 100% of paid-up equity share capital of WEPL amounts to INR 778 crore.",
+        "confidence": 1,
+        "passage_id": 256,
+        "predicate": "total_consideration",
+        "quote": "The total consideration for 100% of paid-up equity share capital of WEPL amounts to INR 778 crore.",
+        "subject_key": null,
+        "subject_surface": "WEPL",
+        "value": {
+          "kind": "quantity",
+          "raw": "778",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "Goodwill arising on the acquisition of WEPL is INR 506 crore.",
+        "confidence": 1,
+        "passage_id": 257,
+        "predicate": "goodwill_arising_on_acquisition",
+        "quote": "Goodwill arising on acquisition\n506",
+        "subject_key": null,
+        "subject_surface": "WEPL",
+        "value": {
+          "kind": "quantity",
+          "raw": "506",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The present value of the defined benefit obligation as at March 31, 2026 is INR 124 crore.",
+        "confidence": 1,
+        "passage_id": 258,
+        "predicate": "defined_benefit_obligation",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Present value of the obligation as at the end of the year\n124",
+        "subject_key": null,
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "124",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The balance of the gratuity insurance/investment plan as at March 31, 2026 is INR 104 crore.",
+        "confidence": 1,
+        "passage_id": 259,
+        "predicate": "gratuity_insurance_investment_plan_balance",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Balance as at the end of the year\n104",
+        "subject_key": null,
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "104",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The employer contribution to provident fund and other funds for the year ended March 31, 2026 is INR 69 crore.",
+        "confidence": 1,
+        "passage_id": 260,
+        "predicate": "employer_contribution_to_provident_fund_and_other_funds",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Employer contribution to provident fund and other funds\n69",
+        "subject_key": null,
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "69",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "Total expense arising from share based payment transaction for the year ended March 31, 2026 is INR 819 crore.",
+        "confidence": 1,
+        "passage_id": 263,
+        "predicate": "total_expense_share_based_payment",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Total expense arising from share based payment transaction for the year is INR 819 crore",
+        "subject_key": null,
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "819",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The carrying amount of right-of-use assets as at March 31, 2026 is INR 4,294 crore.",
+        "confidence": 1,
+        "passage_id": 264,
+        "predicate": "right_of_use_assets_carrying_amount",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "As at March 31, 2026\n4,294",
+        "subject_key": null,
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "4,294",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The carrying amount of lease liabilities as at March 31, 2026 is INR 4,592 crore.",
+        "confidence": 1,
+        "passage_id": 265,
+        "predicate": "lease_liabilities_carrying_amount",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "As at March 31, 2026\n4,592",
+        "subject_key": null,
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "4,592",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "Total cash outflow for rent paid during the year ending March 31, 2026 is INR 982 crore.",
+        "confidence": 1,
+        "passage_id": 266,
+        "predicate": "total_cash_outflow_rent_paid",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ending March 31, 2026"
+          }
+        ],
+        "quote": "Total cash outflow for rent paid during the year ending March 31,2026 is INR 982 crores",
+        "subject_key": null,
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "982",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The balance of level 3 fair value measurements of financial assets as at March 31, 2026 is INR 1,785 crore.",
+        "confidence": 1,
+        "passage_id": 270,
+        "predicate": "level_3_financial_assets_fair_value",
+        "qualifiers": [
+          {
+            "key": "date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Balance at the end of the year\n1,785",
+        "subject_key": null,
+        "subject_surface": "Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,785",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      }
+    ]
+  }
+}

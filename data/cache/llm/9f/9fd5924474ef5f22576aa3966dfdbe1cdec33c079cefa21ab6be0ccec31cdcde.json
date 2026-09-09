@@ -1,0 +1,471 @@
+{
+  "key": "9fd5924474ef5f22576aa3966dfdbe1cdec33c079cefa21ab6be0ccec31cdcde",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"0\">\n<context>\n[section]\nUNITED STATES\n</context>\n<text>\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\n\u00c8\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE\nSECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended December 31, 2022\nOR\n\u2018\nTRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE\nSECURITIES EXCHANGE ACT OF 1934\nFor the transition period from\nto\nCommission File No. 001-16111\nGLOBAL PAYMENTS INC.\n(Exact name of registrant as specified in charter)\nGeorgia\n58-2567903\n(State or other jurisdiction of\nincorporation or organization)\n(I.R.S. Employer\nIdentification No.)\n3550 Lenox Road, Atlanta, Georgia\n30326\n(Address of principal executive offices)\n(Zip Code)\nRegistrant\u2019s telephone number, including area code:\n770-829-8000\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading symbol\nName of each exchange\non which registered\nCommon Stock, No Par Value\nGPN\nNew York Stock Exchange\nSecurities registered pursuant to Section 12(g) of the Act:\nNONE\nIndicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act.\nYes \u00c8\nNo \u2018\nIndicate by check mark if the registrant is not required to file reports pursuant to Section 13 or 15(d) of the Act.\nYes \u2018\nNo \u00c8\nIndicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange\nAct of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been\nsubject to such filing requirements for the past 90 days.\nYes \u00c8\nNo \u2018\nIndicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to\nRule 405 of Regulation S-T (\u00a7 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was\nrequired to submit such files).\nYes \u00c8\nNo \u2018\nIndicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting\ncompany or an emerging growth company. See the definitions of \u201clarge accelerated filer,\u201d \u201caccelerated filer,\u201d \u201csmaller reporting company\u201d\nand \u201cemerging growth company\u201d in Rule 12b-2 of the Exchange Act.\nLarge accelerated filer\n\u00c8\nAccelerated filer\n\u2018\nNon-accelerated filer\n\u2018\nSmaller reporting company \u2018\nEmerging growth company\n\u2018\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying\nwith any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.\n\u2018\nIndicate by check mark whether the registrant has filed a report on and attestation to its management\u2019s assessment of the effectiveness of\nits internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public\naccounting firm that prepared or issued its audit report\n\u00c8\nIf securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant\nincluded in the filing reflect the correction of an error to previously issued financial statements\n\u2018\nIndicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based\ncompensation received by any of the registrant\u2019s executive officers during the relevant recovery period pursuant to \u00a7240.10D-1(b).\n\u2018\nIndicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act).\nYes \u2018\nNo \u00c8\nThe aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which\nthe common equity was last sold, or the average bid and asked price of such common equity, as of the last business day of the registrant\u2019s\nmost recently completed second fiscal quarter was $30,255,291,202. The number of shares of the registrant\u2019s common stock outstanding at\n</text>\n</passage>\n\n<passage id=\"1\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 3\n\n[section]\nCommission File No. 001-16111\n</context>\n<text>\nIndicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act).\nYes \u2018\nNo \u00c8\nThe aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which\nthe common equity was last sold, or the average bid and asked price of such common equity, as of the last business day of the registrant\u2019s\nmost recently completed second fiscal quarter was $30,255,291,202. The number of shares of the registrant\u2019s common stock outstanding at\nFebruary 15, 2023 was 263,154,052 shares.\nDOCUMENTS INCORPORATED BY REFERENCE\nSpecifically identified portions of the registrant\u2019s proxy statement for the 2023 annual meeting of shareholders are incorporated by reference\nin Part III.\n\n\nGLOBAL PAYMENTS INC.\n2022 ANNUAL REPORT ON FORM 10-K\nPage\nPART I\nITEM 1.\nBUSINESS\n5\nITEM 1A.\nRISK FACTORS\n18\nITEM 2.\nPROPERTIES\n32\nITEM 3.\nLEGAL PROCEEDINGS\n32\nPART II\nITEM 5.\nMARKET FOR REGISTRANT\u2019S COMMON EQUITY, RELATED STOCKHOLDER MATTERS\nAND ISSUER PURCHASES OF EQUITY SECURITIES\n33\nITEM 6.\n[RESERVED]\n35\nITEM 7.\nMANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND\nRESULTS OF OPERATIONS\n35\nITEM 7A.\nQUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK\n54\nITEM 8.\nFINANCIAL STATEMENTS AND SUPPLEMENTARY DATA\n55\nITEM 9.\nCHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND\nFINANCIAL DISCLOSURE\n110\nITEM 9A.\nCONTROLS AND PROCEDURES\n110\nITEM 9B.\nOTHER INFORMATION\n110\nITEM 9C.\nDISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSPECTIONS\n111\nPART III\nITEM 10.\nDIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE\n112\nITEM 11.\nEXECUTIVE COMPENSATION\n112\nITEM 12.\nSECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND\nRELATED STOCKHOLDER MATTERS\n112\nITEM 13.\nCERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR\nINDEPENDENCE\n113\nITEM 14.\nPRINCIPAL ACCOUNTANT FEES AND SERVICES\n113\nPART IV\nITEM 15.\nEXHIBITS AND FINANCIAL STATEMENT SCHEDULES\n114\nSIGNATURES\n120\n\n\nCAUTIONARY NOTICE REGARDING FORWARD-\n</text>\n</passage>\n\n<passage id=\"2\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 3\n\n[section]\nPART II\n</context>\n<text>\nDISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSPECTIONS\n111\nPART III\nITEM 10.\nDIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE\n112\nITEM 11.\nEXECUTIVE COMPENSATION\n112\nITEM 12.\nSECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND\nRELATED STOCKHOLDER MATTERS\n112\nITEM 13.\nCERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR\nINDEPENDENCE\n113\nITEM 14.\nPRINCIPAL ACCOUNTANT FEES AND SERVICES\n113\nPART IV\nITEM 15.\nEXHIBITS AND FINANCIAL STATEMENT SCHEDULES\n114\nSIGNATURES\n120\n\n\nCAUTIONARY NOTICE REGARDING FORWARD-\nLOOKING STATEMENTS\nSome of the statements we use in this report, and in some of the documents we incorporate by reference in this\nreport, contain forward-looking statements concerning our business operations, economic performance and\nfinancial condition, including in particular: our business strategy and means to implement the strategy; measures\nof future results of operations, such as revenues, expenses, operating margins, income tax rates, and earnings\nper share; other operating metrics such as shares outstanding and capital expenditures; the effects of general\neconomic conditions on our business, including those caused by the COVID-19 pandemic; statements about the\nstrategic rationale and benefits of the proposed acquisition of EVO Payments, Inc. (\u201cEVO\u201d), including future\nfinancial and operating results, the combined company\u2019s plans, objectives, expectation and intentions and the\ncompletion and expected timing of completion of the proposed transaction; planned divestitures, including\nNetspend\u2019s consumer business and our gaming solutions business, or strategic initiatives; and our success and\ntiming in developing and introducing new services and expanding our business. You can sometimes identify\nforward-looking statements by our use of the words \u201cbelieves,\u201d \u201canticipates,\u201d \u201cexpects,\u201d \u201cintends,\u201d \u201cplan,\u201d\n\u201cforecast,\u201d \u201cguidance\u201d and similar expressions. For these statements, we claim the protection of the safe\nharbor for forward-looking statements contained in the Private Securities Litigation Reform Act of 1995.\nAlthough we believe that the plans and expectations reflected in or suggested by our forward-looking statements\nare reasonable, those statements are based on a number of assumptions, estimates, projections or plans that are\ninherently subject to significant risks, uncertainties and contingencies, many of which are beyond our control,\ncannot be foreseen and reflect future business decisions that are subject to change. Accordingly, we cannot\nguarantee that our plans and expectations will be achieved. Our actual revenues, revenue growth rates and\nmargins, and other results of operations could differ materially from those anticipated in our forward-looking\nstatements as a result of many known and unknown factors, many of which are beyond our ability to predict or\ncontrol. Important factors that may otherwise cause actual events or results to differ materially from those\nanticipated by such forward-looking statements or historical performance include, among others, the effects of\nglobal economic, political, market, health and social events or other conditions, including the effects and duration\nof, and actions taken in response to, the COVID-19 pandemic and Russia\u2019s invasion of Ukraine; foreign currency\nexchange, inflation and rising interest rate risks; difficulties, delays and higher than anticipated costs related to\nintegrating the businesses of acquired companies, including with respect to implementing controls to prevent a\nmaterial security breach of any internal systems or to successfully manage credit and fraud risks in business\nunits; the effect of a security breach or operational failure on the Company\u2019s business; our ability to complete the\nproposed transaction with EVO on the proposed terms or on the proposed timeline, or at all, including risks and\nuncertainties related to securing the necessary regulatory approvals and the satisfaction of other closing\nconditions; the occurrence of any event, change or other circumstance that could give rise to the termination of\n</text>\n</passage>\n\n<passage id=\"3\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 3\n4 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 5\n\n[section]\nLOOKING STATEMENTS\n</context>\n<text>\nmaterial security breach of any internal systems or to successfully manage credit and fraud risks in business\nunits; the effect of a security breach or operational failure on the Company\u2019s business; our ability to complete the\nproposed transaction with EVO on the proposed terms or on the proposed timeline, or at all, including risks and\nuncertainties related to securing the necessary regulatory approvals and the satisfaction of other closing\nconditions; the occurrence of any event, change or other circumstance that could give rise to the termination of\nthe definitive merger agreement relating to the transaction with EVO; failure to realize the expected benefits of\nthe proposed transaction with EVO; effects relating to the announcement of the proposed transaction with EVO,\nincluding on the market price of our common stock and our relationships with customers, employees and\nsuppliers; the risk of potential shareholder litigation associated with the proposed transaction with EVO; failing to\ncomply with the applicable requirements of Visa, Mastercard or other payment networks or card schemes or\nchanges in those requirements; the ability to maintain Visa and Mastercard registration and financial institution\nsponsorship; the ability to retain, develop and hire key personnel; the diversion of management\u2019s attention from\nongoing business operations; the continued availability of capital and financing; increased competition in the\nmarkets in which we operate and our ability to increase our market share in existing markets and expand into\nnew markets; our ability to safeguard our data; risks associated with our indebtedness; our ability to meet\nenvironmental, social and governance targets, goals and commitments; the potential effects of climate change,\nincluding natural disasters; the effects of new or changes in current laws, regulations, credit card association\nrules or other industry standards on us or our partners and customers, including privacy and cybersecurity laws\nand regulations; and other events beyond our control, and other factors presented in \u201cItem 1A\u2014Risk Factors\u201d of\nthis Annual Report on Form 10-K and subsequent filings we make with the SEC, which we advise you to review.\nThese cautionary statements qualify all of our forward-looking statements, and you are cautioned not to place\nundue reliance on these forward-looking statements. Our forward-looking statements speak only as of the date\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 3\n\n\nthey are made and should not be relied upon as representing our plans and expectations as of any subsequent\ndate. While we may elect to update or revise forward-looking statements at some time in the future, we\nspecifically disclaim any obligation to publicly release the results of any revisions to our forward-looking\nstatements, except as required by law.\n4 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n\nPART I\n</text>\n</passage>\n\n<passage id=\"4\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 3\n4 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 5\n\n[section]\nLOOKING STATEMENTS\n</context>\n<text>\nundue reliance on these forward-looking statements. Our forward-looking statements speak only as of the date\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 3\n\n\nthey are made and should not be relied upon as representing our plans and expectations as of any subsequent\ndate. While we may elect to update or revise forward-looking statements at some time in the future, we\nspecifically disclaim any obligation to publicly release the results of any revisions to our forward-looking\nstatements, except as required by law.\n4 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n\nPART I\n</text>\n</passage>\n\n<passage id=\"5\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 3\n4 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 5\n\n[section]\nLOOKING STATEMENTS\n</context>\n<text>\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 3\n\n\nthey are made and should not be relied upon as representing our plans and expectations as of any subsequent\ndate. While we may elect to update or revise forward-looking statements at some time in the future, we\nspecifically disclaim any obligation to publicly release the results of any revisions to our forward-looking\nstatements, except as required by law.\n4 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n\nPART I\n</text>\n</passage>\n\n<passage id=\"6\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 5\n6 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n[section]\nPART I\n</context>\n<text>\nPART I\nITEM 1- BUSINESS\nGlobal Payments Inc. and its consolidated subsidiaries are referred to collectively as \u201cGlobal Payments,\u201d the\n\u201cCompany,\u201d \u201cwe,\u201d \u201cour\u201d or \u201cus,\u201d unless the context requires otherwise.\nIntroduction\nWe are a leading payments technology company delivering innovative software and services to approximately\n4.0 million merchant locations and more than 1,500 financial institutions across more than 170 countries\nthroughout North America, Europe, Asia-Pacific and Latin America. Our technologies, services and team member\nexpertise allow us to provide a broad range of solutions that enable our customers to operate their businesses\nmore efficiently across a variety of channels around the world. Headquartered in Georgia with approximately\n25,000 team members worldwide, Global Payments is a Fortune 500 company and is a member of the S&P\n500. Our common stock is traded on the New York Stock Exchange under the symbol \u201cGPN.\u201d\nIndustry Overview\nThe payments technology industry provides financial institutions, businesses and consumers with payment\nprocessing services, merchant acceptance solutions and related information and other value-added services. The\nindustry continues to grow as a result of wider merchant acceptance and increased use of credit and debit cards,\nadvances in payment solutions and processing technology and migration to ecommerce, omnichannel and\ncontactless payment solutions. The proliferation of credit and debit cards, as well as other digital payment\nsolutions, has made the acceptance of digital payments a necessity for many businesses, regardless of size, in\norder to remain competitive. The COVID-19 pandemic further accelerated the use of digital payments, the need\nfor development of technologies and digital-based solutions and the expansion of ecommerce, omnichannel and\ncontactless payment solutions. The increased use of cards and the availability of more sophisticated technology\nservices to all market segments has resulted in an increasingly competitive and specialized industry.\nStrategy\nWe seek to leverage the adoption of, and transition to, card and digital-based payments by expanding our share\nin our existing markets through our distribution channels and service innovation, as well as through acquisitions\nto improve our offerings and scale. We also seek to enter new markets through acquisitions, alliances and joint\nventures around the world. We intend to continue to invest in and leverage our technology infrastructure and our\npeople to increase our penetration in existing markets.\nThe key tenets of our strategy include the following:\n\u2022\nLeading with technology and innovation to deepen our competitive advantages;\n\u2022\nFurther scaling the four pillars of our strategy: software-driven focus, ecommerce & omnichannel\nsolutions, exposure to faster growth markets and business-to-business (\u201cB2B\u201d) payments;\n\u2022\nDelivering commerce enablement solutions globally to broaden our leading position as a sales-driven,\nproduct-led company;\n\u2022\nProviding frictionless, best-in-class customer experiences, creating longer-term relationships;\n\u2022\nNurturing our culture, values and diversity, equity and inclusion initiatives to attract, retain and motivate\nexceptional team members; and\n\u2022\nSupporting our communities as a socially responsible company with purpose and understanding.\nCompetitive Strengths\nWe believe that our competitive strengths include the following:\n\u2022\nTechnology Solutions - We provide innovative technology-based solutions, including enterprise software\nand other ecommerce enablement solutions, that enable our customers to operate their business more\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 5\n\n\nefficiently, increase sales and simplify the payments process, regardless of the channel through which the\ntransaction occurs. We believe our robust technology solutions will continue to differentiate us in the\nmarketplace and position us for continued growth.\n\u2022\nGlobal Footprint and Distribution - Our worldwide presence allows us to focus our investments on markets\n</text>\n</passage>\n\n<passage id=\"7\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 5\n6 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n[section]\nPART I > Competitive Strengths\n</context>\n<text>\nand other ecommerce enablement solutions, that enable our customers to operate their business more\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 5\n\n\nefficiently, increase sales and simplify the payments process, regardless of the channel through which the\ntransaction occurs. We believe our robust technology solutions will continue to differentiate us in the\nmarketplace and position us for continued growth.\n\u2022\nGlobal Footprint and Distribution - Our worldwide presence allows us to focus our investments on markets\nwith promising gross domestic product fundamentals and favorable secular trends, makes us more\nattractive to customers with international operations and exposes us to emerging innovations that we can\nadopt globally, while diversifying our economic risk.\n\u2022\nScalable Operating Environment and Technology Infrastructure - We operate with a multi-channel, global\ntechnology infrastructure, which provides scalable and innovative service offerings and a consistent\nservice experience to our merchants, customers, financial institutions and other partners worldwide, while\nalso driving sustainable operating efficiencies.\n\u2022\nStrong, Long-lasting Partner Relationships - We have established strong, long-lasting relationships with\nmany financial institutions, enterprise software providers, value-added resellers and other technology-\nbased payment service providers, which enable us to deliver a set of diverse solutions to our customers.\n\u2022\nDisciplined Acquisition Approach - Our proven track record for selectively and successfully sourcing,\ncompleting and integrating acquired businesses in existing and new markets positions us well for future\ngrowth and as an attractive partner for potential acquisition targets.\nRecent Business Acquisitions and Dispositions\nEVO Payments, Inc.\nOn August 1, 2022, we entered into a merger agreement to acquire EVO Payments, Inc. (\u201cEVO\u201d) for total\npurchase consideration of approximately $4 billion. EVO is a leading payment technology and services provider,\noffering an array of payment solutions to merchants ranging from small and middle market enterprises to\nmultinational companies and organizations across the Americas and Europe. The acquisition aligns with our\ntechnology-enabled payments strategy, expands our geographic presence and augments our B2B software and\npayment solutions business. The acquisition is expected to close in the first quarter of 2023, subject to\ncustomary closing conditions.\nConsumer Business\nOn July 31, 2022, we entered into a definitive agreement to sell the consumer portion of our Netspend business\nfor $1 billion, subject to certain closing adjustments. The disposition further aligns our businesses with our\nstrategy to focus on our core corporate customers, including merchants, financial institutions, software partners\nand technology leaders. The transaction is expected to close in the first quarter of 2023, subject to required\nregulatory approvals and other customary closing conditions.\nGaming Business\nOn December 6, 2022, we entered into a definitive agreement to sell our gaming business for consideration of\napproximately $400 million, subject to certain closing adjustments. The disposition further aligns our businesses\nwith our strategy to focus on our core corporate customers. The transaction is expected to close in the first\nquarter of 2023 and is subject to customary terms and conditions, including any required regulatory approvals.\nSale of Merchant Solutions Business in Russia\nAs a result of economic sanctions that were imposed on individuals and entities in Russia in April 2022 that\nwould have affected our ability to continue normal operations in Russia, we sold our Merchant Solutions business\nin Russia effective April 29, 2022 for cash proceeds of $9 million.\nSee \u201cNote 2\u2014Acquisitions\u201d and \u201cNote 3\u2014Business Dispositions\u201d in the notes to the accompanying\nconsolidated financial statements for further discussion of these and other recent transactions.\n6 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n</text>\n</passage>\n\n<passage id=\"8\">\n<context>\n[page header]\n6 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 7\n\n[section]\nPART I > Sale of Merchant Solutions Business in Russia\n</context>\n<text>\nAs a result of economic sanctions that were imposed on individuals and entities in Russia in April 2022 that\nwould have affected our ability to continue normal operations in Russia, we sold our Merchant Solutions business\nin Russia effective April 29, 2022 for cash proceeds of $9 million.\nSee \u201cNote 2\u2014Acquisitions\u201d and \u201cNote 3\u2014Business Dispositions\u201d in the notes to the accompanying\nconsolidated financial statements for further discussion of these and other recent transactions.\n6 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n\nBusiness Segments\nDuring 2022, as a result of the pending divestiture of our consumer business and changes in how our business is\nmanaged, we realigned the businesses previously comprising our Business and Consumer Solutions segment to\ninclude the B2B portion within our Issuer Solutions segment and the consumer portion forming our new\nConsumer Solutions segment. Our three reportable segments now are: Merchant Solutions, Issuer Solutions and\nConsumer Solutions. See \u201cNote 17\u2014Segment Information\u201d in the notes to the accompanying consolidated\nfinancial statements for additional information about our segments, including revenues, operating income and\ndepreciation and amortization by segment as well as financial information about geographic areas in which we\noperate.\nOur foreign operations subject us to various risks, including, without limitation, currency exchange risks and\npolitical, economic and regulatory risks. See \u201cItem 1A - Risk Factors\u201d for additional information about these risks.\nMerchant Solutions Segment\nThrough our Merchant Solutions segment, we provide payments technology and software solutions to\ncustomers globally. Our payment technology solutions are similar around the world in that we enable our\ncustomers to accept card, check and digital-based payments. Our comprehensive offerings include, but are not\nlimited to, authorization, settlement and funding services, customer support, chargeback resolution, terminal\nrental, sales and deployment, payment security services, consolidated billing and reporting.\nIn addition, we offer a wide array of enterprise software solutions that streamline business operations to customers\nin numerous vertical markets. We also provide a variety of value-added solutions and services, including specialty\npoint-of-sale software, analytics and customer engagement, human capital management and payroll and reporting\nthat assist our customers with driving demand and operating their businesses more efficiently.\nOur value proposition is to provide distinctive high-quality, responsive and secure services to all of our\ncustomers. We distribute our Merchant Solutions services globally through multiple technology-enabled and\nrelationship-led distribution channels and target customers in many vertical markets located throughout North\nAmerica, Europe, Asia-Pacific and Latin America. The majority of our revenues is generated by services priced as\na percentage of transaction value or a specified fee per transaction, depending on the payment type or the\nmarket. We also earn software subscription and licensing fees, as well as other fees for specific value-added\nservices, that may be unrelated to the number or value of transactions.\nDistribution Channels\nIn the Merchant Solutions segment, we actively market and provide our payment services, enterprise software\nsolutions and other value-added services directly to our customers through a variety of technology-enabled and\nrelationship-led distribution channels.\nTechnology-Enabled. Many of our payment solutions are technology-enabled in that they incorporate or are\nincorporated into innovative, technology-driven solutions, including enterprise software solutions, designed to\nenable merchants to better manage their businesses. Our technology-enabled solutions represent a substantial\ncomponent of our revenues. Our technology-enabled distribution includes integrated and vertical market\nsoftware solutions and ecommerce and omnichannel solutions, each as described below.\n</text>\n</passage>\n\n<passage id=\"9\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 7\n8 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n[section]\nPART I > Distribution Channels\n</context>\n<text>\nTechnology-Enabled. Many of our payment solutions are technology-enabled in that they incorporate or are\nincorporated into innovative, technology-driven solutions, including enterprise software solutions, designed to\nenable merchants to better manage their businesses. Our technology-enabled solutions represent a substantial\ncomponent of our revenues. Our technology-enabled distribution includes integrated and vertical market\nsoftware solutions and ecommerce and omnichannel solutions, each as described below.\nIntegrated Solutions. Our integrated solutions provide advanced payments technology that is deeply embedded into\nbusiness management software solutions owned by our technology partners who operate in numerous vertical\nmarkets, primarily in North America. We grow our integrated solutions business when new or existing merchants\nenable payments services through enterprise software solutions sold by our partners, both new and existing.\nVertical Markets Software Solutions. Our vertical markets software solutions provide advanced payments\ntechnology that is deeply integrated into business enterprise software solutions that we own. We distribute our\nvertical markets software solutions primarily through the following businesses:\n\u2022\nACTIVE Network. Through ACTIVE Network, we deliver cloud-based enterprise software, including\npayment technology solutions, to event organizers in the communities, government services and health\nand fitness markets.\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 7\n\n\n\u2022\nAdvancedMD. Through AdvancedMD, we provide cloud-based enterprise solutions to small-to-medium\nsized ambulatory care physician practices in the United States.\n\u2022\nEducation Solutions. We offer integrated payment solutions specifically designed for all levels of\neducational institutions. For colleges and universities, we offer integrated commerce software solutions,\npayment services, loan services, credentialing services, open- and closed-loop payment solutions,\nhardware, technical support and training. For institutions serving kindergarten through 12th grade levels,\nwe provide ecommerce and in-person payments, cafeteria POS solutions and back-office management\nsoftware, hardware, technical support and training.\n\u2022\nGaming. We offer a comprehensive suite of solutions to the gaming market in North America. These\nsolutions include credit and debit card cash advance, cashless advance, iGaming solutions, traditional and\ndigital check processing and other services specific to this market. On December 6, 2022, we entered into\na definitive agreement to sell our gaming business, and that transaction is expected to close in the first\nquarter of 2023.\n\u2022\nXenial. Through Xenial, we offer leading-edge enterprise software and hardware solutions that integrate\nwith our payment services and other adjacent business service applications to the restaurant and\nhospitality vertical markets.\n\u2022\nZego. Through Zego, we offer a comprehensive resident experience management software and digital\ncommerce solutions to property managers, primarily in the United States.\nEcommerce and Omnichannel. We offer ecommerce and omnichannel solutions that seamlessly blend payment\ngateway services, retail payment acceptance infrastructure and payment technology service capabilities through\na unified commerce platform to allow merchants to accept various payment methods through any channel across\nour geographical footprint. We sell ecommerce and omnichannel solutions to customers of all sizes, from small\nbusinesses accepting payments in a single country to enterprise and multinational businesses that have complex\npayment needs and operate retail and online businesses in multiple countries.\nRelationship-Led. Through our relationship-led direct sales force worldwide, as well as bank and other referral\npartnerships, we offer our payments technology services, software and other value-added solutions directly to\ncustomers across numerous verticals in the markets we serve. We offer high-touch services that provide our\n</text>\n</passage>\n\n<passage id=\"10\">\n<context>\n[page header]\n8 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 9\n\n[section]\nPART I > Distribution Channels\n</context>\n<text>\nbusinesses accepting payments in a single country to enterprise and multinational businesses that have complex\npayment needs and operate retail and online businesses in multiple countries.\nRelationship-Led. Through our relationship-led direct sales force worldwide, as well as bank and other referral\npartnerships, we offer our payments technology services, software and other value-added solutions directly to\ncustomers across numerous verticals in the markets we serve. We offer high-touch services that provide our\ncustomers with reliable and secure solutions coupled with high-quality and responsive support services. Although\nour primary focus is on building high-quality, direct relationships with merchants, we also provide our services to\nmerchants through independent sales organizations (\u201cISOs\u201d) and financial institutions.\nCredit and Debit Card Transaction Processing\nCredit and debit card transaction processing includes the processing of the world\u2019s major international card\nbrands, including, among others, American Express, Discover Card (\u201cDiscover\u201d), JCB, Mastercard, UnionPay\nInternational and Visa, as well as certain domestic debit networks, such as Interac in Canada. Credit and debit\nnetworks establish uniform regulations that govern much of the payment card industry. During a typical payment\ntransaction, the merchant and the card issuer do not interface directly with each other, but instead rely on\npayments technology companies, such as Global Payments, to facilitate transaction processing services,\nincluding authorization, electronic draft capture, file transfers to facilitate funds settlement and certain exception-\nbased, back-office support services such as chargeback resolution.\nWe process funds settlement under two models: a sponsorship model and a direct membership model. Under\nthe sponsorship model, member clearing financial institutions (\u201cMembers\u201d) sponsor us and require our\nadherence to the standards of the networks. In these markets, we have sponsorship or depository and clearing\nagreements with financial institution sponsors. These agreements allow us to route transactions under the\nMembers\u2019 control and identification numbers to clear card transactions through Mastercard and Visa. In this\nmodel, the standards of the card networks restrict us from performing funds settlement or accessing merchant\nsettlement funds, and, instead, require that these funds be in the possession of the Member until the merchant\nhas been funded.\nUnder the direct membership model, we are direct members in various payment networks, allowing us to\nprocess and fund transactions without third-party sponsorship. Under this model, we route and clear transactions\n8 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n\ndirectly through the card brand\u2019s network and are not restricted from performing funds settlement. Otherwise,\nwe process these transactions similarly to how we process transactions in the sponsorship model. We are\nrequired to adhere to the standards of the various networks in which we are direct members. We maintain\nrelationships with financial institutions, which may also serve as our Member sponsors for other card brands or in\nother markets, to assist with funds settlement.\nHow a Card Transaction Works\nA typical payment transaction begins when a cardholder presents a card for payment to a merchant at which\ntime card and transaction information, such as the card identification number, transaction date and transaction\namount, is captured and transmitted to our network. The information is captured by a point-of-sale (\u201cPOS\u201d)\nterminal card reader or mobile device card reader, which may be sold or leased to the merchant and serviced by\nus, or through a POS device or ecommerce portal by one of a number of services that we offer directly or\nthrough a value-added reseller.\nAfter the card and transaction information is captured, the POS device or ecommerce portal automatically\nconnects to our network through the internet or other communication channel in order to receive authorization of\n</text>\n</passage>\n\n<passage id=\"11\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 9\n10 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n[section]\nPART I > How a Card Transaction Works\n</context>\n<text>\namount, is captured and transmitted to our network. The information is captured by a point-of-sale (\u201cPOS\u201d)\nterminal card reader or mobile device card reader, which may be sold or leased to the merchant and serviced by\nus, or through a POS device or ecommerce portal by one of a number of services that we offer directly or\nthrough a value-added reseller.\nAfter the card and transaction information is captured, the POS device or ecommerce portal automatically\nconnects to our network through the internet or other communication channel in order to receive authorization of\nthe transaction. For a credit card transaction, authorization services generally refer to the process in which the\ncard issuer indicates whether a particular credit card is authentic and whether the impending transaction amount\nwill cause the cardholder to exceed defined credit limits. In a debit card transaction, we obtain authorization for\nthe transaction from the card issuer through the payment network verifying that the cardholder has access to\nsufficient funds for the transaction amount.\nAs an illustration, shown below in the sponsorship model, on a $100.00 card transaction the card issuer may fund\nthe Member, our sponsor, (indirectly through the card network) $98.50 after retaining $1.50 referred to as an\ninterchange fee. The card issuer would seek reimbursement of $100.00 from the cardholder in the cardholder\u2019s\nmonthly credit card statement. The Member would, in turn, pay the merchant $100.00. The net settlement after\nthis transaction would require us to advance the $1.50 interchange fee to the Member. After the end of the\nmonth, we would bill the merchant a percentage, also known as the merchant discount, of the transaction\namount to cover the full amount of the interchange fee and our fee from the transaction. Assuming the merchant\ndiscount in the above example is 2%, we bill the merchant $2.00 after the end of the month for the transaction,\nreimburse ourselves for $1.50 in interchange fees and retain $0.50 as our fee for the transaction. Under some\narrangements, we remit the net amount of $98.00 to the merchant, rather than funding the full $100.00 and\nsubsequently billing the merchant at the end of the month.\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 9\n\n\nDiscount rates vary based on negotiations with merchants and the economic characteristics of transactions and\ntake many forms, such as interchange plus our fee or a bundled rate that includes all fees. Interchange rates also\nvary based on the economic characteristics of individual transactions. Accordingly, our fee per transaction varies\nacross our merchant base and is subject to change based on changes in discount rates and interchange rates.\nOur profit on a transaction reflects the merchant discount less interchange fees, payment network fees and\noperating expenses, including systems costs to process the transaction and commissions paid to our sales force\nor external partner. Payment network fees are charged by the card brands, in part, based on the value of\ntransactions processed through their networks.\nIssuer Solutions Segment\nThrough our Issuer Solutions segment, we provide solutions that enable financial institutions and other financial\nservice providers to manage their card portfolios, reduce technical complexity and overhead and offer a seamless\nexperience for cardholders on a single platform. In addition, we provide flexible commercial payments, accounts\npayable and electronic payment alternatives solutions that support B2B payment processes for businesses and\ngovernments. We also offer complementary services, including account management and servicing, fraud\nsolution services, analytics and business intelligence, cards, statements and correspondence, customer contact\nsolutions and risk management solutions. Additionally, our Issuer Solutions segment provides B2B payment\nservices and other financial service solutions marketed to corporations, including software-as-a-service (\u201cSaaS\u201d)\nofferings that automate key procurement processes, provide invoice capture, coding and approval, and enable\n</text>\n</passage>\n\n<passage id=\"12\">\n<context>\n[page header]\n10 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 11\n\n[section]\nPART I > Issuer Solutions Segment\n</context>\n<text>\ngovernments. We also offer complementary services, including account management and servicing, fraud\nsolution services, analytics and business intelligence, cards, statements and correspondence, customer contact\nsolutions and risk management solutions. Additionally, our Issuer Solutions segment provides B2B payment\nservices and other financial service solutions marketed to corporations, including software-as-a-service (\u201cSaaS\u201d)\nofferings that automate key procurement processes, provide invoice capture, coding and approval, and enable\nvirtual cards and integrated payments options across a variety of key vertical markets.\nIssuer Solutions segment revenues are primarily derived from long-term processing contracts with financial\ninstitutions and other financial services providers. Payment processing services revenues are generated primarily\nfrom charges based on the number of accounts on file, transactions and authorizations processed, statements\ngenerated and/or mailed, managed services, cards embossed and mailed, and other processing services for\ncardholder accounts on file. Most of these customer contracts have prescribed annual minimums, penalties for\nearly termination, and service level agreements that may affect contractual fees if specified service levels are not\nachieved. Issuer Solutions segment revenues also include software subscription, licensing fees, loyalty\nredemption services and professional services.\n10 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n\nConsumer Solutions Segment\nOur Consumer Solutions segment provides general purpose reloadable (\u201cGPR\u201d) prepaid debit and payroll cards,\ndemand deposit accounts and other financial service solutions to the underbanked and other consumers and\nbusinesses in the United States through our Netspend\u00ae and other brands. Through our Consumer Solutions\nsegment, we provide customers with access to depository accounts insured by the Federal Deposit Insurance\nCorporation (\u201cFDIC\u201d) with a menu of features specifically tailored to their needs. The Consumer Solutions\nsegment has an extensive distribution and reload network comprised of financial service centers and other retail\nlocations throughout the United States, and is a program manager for FDIC-insured depository institutions that\nprovide the services that the Consumer Solutions segment develops, promotes and distributes. Consumer\nSolutions currently has active agreements with four card-issuing banks.\nThe Consumer Solutions segment markets its services through multiple distribution channels, including\nalternative financial service providers, traditional retailers, direct-to-consumer and online marketing programs and\ncontractual relationships with corporate employers. Consumer Solutions segment revenues principally consist of\nfees collected from cardholders and fees generated by cardholder activity in connection with the programs that\nwe manage. Customers are typically charged a fee for each purchase transaction made using their cards, unless\nthe customer is on a monthly or annual service plan, in which case the customer is instead charged a monthly or\nannual subscription fee, as applicable. Customers are also charged a monthly maintenance fee after a specified\nperiod of inactivity. We also charge fees associated with additional services offered in connection with programs\nwe manage, including the use of overdraft features, a variety of bill payment options, card replacement, foreign\nexchange and card-to-card transfers of funds initiated through our call centers. Revenues are recognized net of\nfees charged by the payment networks for services they provide in processing transactions routed through them.\nOn July 31, 2022, we entered into a definitive agreement to sell our consumer business, and that transaction is\nexpected to close in the first quarter of 2023.\nCompetition\nIn each of our business segments, we compete with a large variety of companies\u2014financial institutions, financial\ntechnology companies, traditional payment providers, new market entrants, and others, both large and small. The\n</text>\n</passage>\n\n<passage id=\"13\">\n<context>\n[page header]\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 11\n12 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n[section]\nPART I > Consumer Solutions Segment\n</context>\n<text>\nfees charged by the payment networks for services they provide in processing transactions routed through them.\nOn July 31, 2022, we entered into a definitive agreement to sell our consumer business, and that transaction is\nexpected to close in the first quarter of 2023.\nCompetition\nIn each of our business segments, we compete with a large variety of companies\u2014financial institutions, financial\ntechnology companies, traditional payment providers, new market entrants, and others, both large and small. The\nmarkets for the services we provide are highly fragmented and competitive. Many of these providers compete\nwith us across our segments, markets and geographies. Some of these competitors possess greater financial,\nsales and marketing resources than we do. We expect each of our segments to become more competitive over\ntime, as advances in technology enable new entrants, barriers to entry fall and existing providers expand their\nservices, both operationally and geographically.\nOur Merchant Solutions segment competes with financial institutions, merchant acquirers and other financial\ntechnology companies who provide businesses with merchant acquiring and related services. In the United\nStates, we compete with a large number of providers, including but not limited to Fiserv, Inc. (\u201cFiserv\u201d), Fidelity\nNational Information Services, Inc. (\u201cFIS\u201d), Chase Paymentech Solutions, LLC, Elavon, Inc., a subsidiary of U.S.\nBancorp, Bank of America Merchant Services, Wells Fargo Merchant Services, Toast, Inc., Stripe, Inc., Shopify\nInc. and Block Inc. (formerly known as Square, Inc.). While these are our primary competitors in the merchant\nacquiring space, our vertically focused businesses in the United States compete with numerous other providers\nin their respective verticals.\nInternationally, financial institutions remain the primary providers of payment technology services to merchants,\nalthough the outsourcing of these services to third-party service providers is becoming more prevalent. We\ncompete outside the U.S. with financial institutions in the markets in which we operate, as well as both large\nproviders (such as FIS, Worldline, Nexi) and new entrants (such as Adyen, Block and Stripe). We have seen\ncompetition internationally increase and expect that trend to continue as new companies enter our markets and\nexisting competitors expand or consolidate their product lines and services.\nOur Issuer Solutions segment encounters competition from other third-party payment card processors, the card\nbrands, core banking platform providers, independent software vendors, B2B providers, and various other firms\nthat deliver services to payment card issuers in the markets we serve, as well as financial institutions who\nprovide such services in-house. Our competitors in this segment include, but are not limited to Fiserv, FIS,\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 11\n\n\nMarqeta, Nexi, Worldline, i2c, Bill.com, AvidExchange, Billtrust, Adyen and Stripe. We expect the number of\ncompetitors in this segment to continue to expand.\nOur Consumer Solutions segment primarily competes with other demand deposit account and prepaid debit\naccount program managers to provide financial service solutions to the underbanked and other consumers and\nbusinesses. Our primary competitors in this space include Green Dot Corporation, InComm, Fiserv and Chime.\nSee the section titled \u201cRisk Factors\u2014Risks Related to Our Business Model and Operations\u201d for further\ninformation on the competitive and continuously evolving markets we serve.\nSafeguarding Our Business\nIn order to provide our services, we process and store sensitive business information and personal information,\nwhich may include credit and debit card numbers, bank account numbers, social security numbers, driver\u2019s\nlicense numbers, names and addresses, and other types of personal information or sensitive business\ninformation. Some of this information is also processed and stored by financial institutions, merchants and other\n</text>\n</passage>\n\n<passage id=\"14\">\n<context>\n[page header]\n12 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 13\n\n[section]\nPART I > Competition\n</context>\n<text>\ninformation on the competitive and continuously evolving markets we serve.\nSafeguarding Our Business\nIn order to provide our services, we process and store sensitive business information and personal information,\nwhich may include credit and debit card numbers, bank account numbers, social security numbers, driver\u2019s\nlicense numbers, names and addresses, and other types of personal information or sensitive business\ninformation. Some of this information is also processed and stored by financial institutions, merchants and other\nentities, as well as third-party service providers to whom we outsource certain functions and other agents, which\nwe refer to collectively as our associated third parties. We may have responsibility to the card networks, financial\ninstitutions, and in some instances, our merchants, ISOs and/or individuals, for our failure or the failure of our\nassociated third-party service providers (as applicable) to protect this information.\nWe are subject to cybersecurity and information theft risks in our operations, which we seek to manage through\ncyber and information security programs, training and insurance coverage. To strengthen our security and cyber\ndefenses, we continue to deploy multiple methods at different layers to defend our systems against misuse,\nintrusions and cyberattacks and to protect the data we collect. Furthermore, we work with information security\nand forensics firms and employ advanced technologies to help prevent, investigate and address issues relating to\nprocessing system security and availability. We also collaborate with third parties, regulators and law\nenforcement, when appropriate, to resolve security incidents and assist in efforts to prevent unauthorized access\nto our processing systems.\nIntellectual Property\nOur intellectual property is an important part of our strategy to be a leading provider of payment technology and\nsoftware solutions. We use a combination of internal policies, intellectual property laws and contractual\nprovisions to protect our proprietary technologies and brands. In addition, to protect our various brands, we seek\nand maintain registration of U.S. and international patents, trademarks, service marks and domain names that\nalign with our brand strategy. We also enforce our trademarks against potential sources of misunderstanding that\ncould harm our brand and ability to compete. In addition to using our intellectual property in our own operations,\nwe grant licenses to certain of our customers to use our intellectual property.\nHuman Capital Management\nTeam Member Population\nWe currently do business in over 170 countries around the world, with team members living and working in 33 of\nthem. As of December 31, 2022, our approximately 25,000 team member workforce represented approximately\n80 nationalities and 19 natively spoken languages, with approximately 63% residing in the Americas, 15%\nresiding in Europe and 22% residing in Asia Pacific. Many of our team members are highly skilled in technical\nareas specific to payment technology and software solutions.\nOur overall workforce strategies are developed and managed by our Chief People Officer, who reports to the\nCEO. We regularly engage with our team members through a variety of forums, including periodic surveys, to\nhelp us understand their perspectives related to workplace culture, engagement, talent management and well-\nbeing and to inform our diversity, equity and inclusion (\u201cDEI\u201d) strategies and initiatives. The results of these\ninteractions are leveraged to further develop our talent management initiatives.\n12 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n\nTalent Management and Retention\nWe place an emphasis on attracting and retaining premier and diverse team members. To that end, we have\nimplemented programs and initiatives focused on enriching new hire experiences, developing team members\nthrough extensive training and professional development opportunities, including mentorship and leadership\nprograms, promoting team members\u2019 wellness and safety, providing flexible work arrangements and offering\n</text>\n</passage>\n\n<passage id=\"15\">\n<context>\n[page header]\n12 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\nGLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report \u2013 13\n\n[section]\nPART I > Team Member Population\n</context>\n<text>\n12 \u2013 GLOBAL PAYMENTS INC. | 2022 Form 10-K Annual Report\n\n\nTalent Management and Retention\nWe place an emphasis on attracting and retaining premier and diverse team members. To that end, we have\nimplemented programs and initiatives focused on enriching new hire experiences, developing team members\nthrough extensive training and professional development opportunities, including mentorship and leadership\nprograms, promoting team members\u2019 wellness and safety, providing flexible work arrangements and offering\ncomprehensive and competitive benefits packages, including paid parental leave, team member assistance and\nsavings and retirement programs. Furthermore, we celebrate and recognize the efforts of all of our team\nmembers through a combination of programs, including team appreciation activities and annual awards programs\nto honor top performers and notable contributors. Over the past several years, we have also made significant\ninvestments in modernizing our operating environments and technologies to include cloud-based systems and\ncollaboration tools that support day-to-day engagement and execution.\nHealth and Well-being\nThe success of our business is connected to the well-being of our team members. Accordingly, we are\ncommitted to the health, safety and wellness of our team members worldwide, and we provide team members\nwith various health and wellness programs and benefits, including employee education and assistance programs\nthat focus on physical, financial, social and emotional resources.\nDiversity, Equity and Inclusion\nWe remain committed to addressing the ever-changing needs of our team members and finding new ways to\nimprove our culture. Our DEI strategy reflects the shift in our current workforce, changing business landscape\nand potential talent and is anchored by three pillars: Leadership Accountability, Inclusive Capability and\nEngagement. We have also broadened our focus to include social and racial equity in our conversations, and\nequip and empower our Employee Resource Group (\u201cERG\u201d) leaders with the right tools and training to lead their\nnetworks, including the launch of \u201cInclusion 365,\u201d an initiative to reinforce inclusion and belonging throughout\nour workforce. These efforts are further supported by our Chief Diversity Officer who leads a dedicated and\nspecialized team designated to advance DEI within our Company. Our Compensation Committee assists the\nBoard in overseeing the Company\u2019s DEI initiatives.\nEmployee Growth and Development\nOur strategy to develop and retain the best talent includes an emphasis on team member development and\ntraining. We provide a variety of training and development opportunities to team members globally, including our\nonline training platform that contains a vast array of tools and application resources for all team members to build\nlearning experiences and skills. In order to help our team members strengthen the skills and behaviors needed\nfor career advancement, our performance management program enables team members to drive their\ndevelopment with a focus on growth, performance, and well-being through regular meetings with their leaders.\nGovernment Regulation\nVarious aspects of our business are subject to regulation and supervision under federal, state and local laws in\nthe United States and foreign laws, regulations and rules. Many of these regulations and laws are evolving and\ntheir applicability and scope, as interpreted by courts and regulators, remain uncertain. These regulations and\nlaws involve a variety of matters, including privacy and information security, data and personal information\nprotection, money-transmission and payment instrument laws and regulations, consumer protection laws, anti-\nmoney laundering and anti-bribery laws, tax, environmental sustainability (including climate change), human rights\nand security regulations. In addition, we are subject to rules promulgated by the various payment networks,\nincluding Nacha, American Express, Discover, Interac, Mastercard and Visa.\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The aggregate market value of the voting and non-voting common equity held by non-affiliates as of the last business day of the registrant\u2019s most recently completed second fiscal quarter was $30,255,291,202.",
+        "confidence": 1,
+        "passage_id": 0,
+        "predicate": "aggregate_market_value_non_affiliates",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "last business day of the registrant\u2019s most recently completed second fiscal quarter"
+          }
+        ],
+        "quote": "The aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which\nthe common equity was last sold, or the average bid and asked price of such common equity, as of the last business day of the registrant\u2019s\nmost recently completed second fiscal quarter was $30,255,291,202.",
+        "subject_key": "001-16111",
+        "subject_surface": "GLOBAL PAYMENTS INC.",
+        "value": {
+          "kind": "quantity",
+          "raw": "$30,255,291,202",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "The number of shares of the registrant\u2019s common stock outstanding at February 15, 2023 was 263,154,052 shares.",
+        "confidence": 1,
+        "passage_id": 1,
+        "predicate": "shares_outstanding",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "February 15, 2023"
+          }
+        ],
+        "quote": "The number of shares of the registrant\u2019s common stock outstanding at\nFebruary 15, 2023 was 263,154,052 shares.",
+        "subject_key": "001-16111",
+        "subject_surface": "GLOBAL PAYMENTS INC.",
+        "value": {
+          "kind": "quantity",
+          "raw": "263,154,052",
+          "unit": "shares"
+        }
+      },
+      {
+        "claim_text": "Global Payments Inc. serves approximately 4.0 million merchant locations.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "merchant_locations_served",
+        "quote": "We are a leading payments technology company delivering innovative software and services to approximately\n4.0 million merchant locations",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "4.0 million"
+        }
+      },
+      {
+        "claim_text": "Global Payments Inc. serves more than 1,500 financial institutions.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "financial_institutions_served",
+        "quote": "and more than 1,500 financial institutions",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,500"
+        }
+      },
+      {
+        "claim_text": "Global Payments Inc. operates in more than 170 countries.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "countries_of_operation",
+        "quote": "across more than 170 countries",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "170"
+        }
+      },
+      {
+        "claim_text": "Global Payments Inc. has approximately 25,000 team members worldwide.",
+        "confidence": 1,
+        "passage_id": 6,
+        "predicate": "number_of_employees",
+        "quote": "Headquartered in Georgia with approximately\n25,000 team members worldwide",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "25,000"
+        }
+      },
+      {
+        "claim_text": "Global Payments Inc. entered into a merger agreement to acquire EVO Payments, Inc. for approximately $4 billion on August 1, 2022.",
+        "confidence": 1,
+        "passage_id": 7,
+        "predicate": "acquisition_cost",
+        "qualifiers": [
+          {
+            "key": "target_company",
+            "provenance": "stated",
+            "value": "EVO Payments, Inc."
+          },
+          {
+            "key": "agreement_date",
+            "provenance": "stated",
+            "value": "August 1, 2022"
+          }
+        ],
+        "quote": "On August 1, 2022, we entered into a merger agreement to acquire EVO Payments, Inc. (\u201cEVO\u201d) for total\npurchase consideration of approximately $4 billion.",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "$4 billion",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "Global Payments Inc. entered into a definitive agreement to sell the consumer portion of its Netspend business for $1 billion on July 31, 2022.",
+        "confidence": 1,
+        "passage_id": 7,
+        "predicate": "disposition_proceeds",
+        "qualifiers": [
+          {
+            "key": "disposed_business",
+            "provenance": "stated",
+            "value": "consumer portion of our Netspend business"
+          },
+          {
+            "key": "agreement_date",
+            "provenance": "stated",
+            "value": "July 31, 2022"
+          }
+        ],
+        "quote": "On July 31, 2022, we entered into a definitive agreement to sell the consumer portion of our Netspend business\nfor $1 billion, subject to certain closing adjustments.",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "$1 billion",
+          "scale": "billion",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "Global Payments Inc. entered into a definitive agreement to sell its gaming business for approximately $400 million on December 6, 2022.",
+        "confidence": 1,
+        "passage_id": 7,
+        "predicate": "disposition_proceeds",
+        "qualifiers": [
+          {
+            "key": "disposed_business",
+            "provenance": "stated",
+            "value": "gaming business"
+          },
+          {
+            "key": "agreement_date",
+            "provenance": "stated",
+            "value": "December 6, 2022"
+          }
+        ],
+        "quote": "On December 6, 2022, we entered into a definitive agreement to sell our gaming business for consideration of\napproximately $400 million, subject to certain closing adjustments.",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "$400 million",
+          "scale": "million",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "Global Payments Inc. sold its Merchant Solutions business in Russia for $9 million on April 29, 2022.",
+        "confidence": 1,
+        "passage_id": 7,
+        "predicate": "disposition_proceeds",
+        "qualifiers": [
+          {
+            "key": "disposed_business",
+            "provenance": "stated",
+            "value": "Merchant Solutions business in Russia"
+          },
+          {
+            "key": "effective_date",
+            "provenance": "stated",
+            "value": "April 29, 2022"
+          }
+        ],
+        "quote": "we sold our Merchant Solutions business\nin Russia effective April 29, 2022 for cash proceeds of $9 million.",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "$9 million",
+          "scale": "million",
+          "unit": "USD"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2022, 63% of Global Payments Inc. team members resided in the Americas.",
+        "confidence": 1,
+        "passage_id": 14,
+        "predicate": "employee_residence_percentage",
+        "qualifiers": [
+          {
+            "key": "region",
+            "provenance": "stated",
+            "value": "Americas"
+          },
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2022"
+          }
+        ],
+        "quote": "As of December 31, 2022, our approximately 25,000 team member workforce represented approximately\n80 nationalities and 19 natively spoken languages, with approximately 63% residing in the Americas",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "63%"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2022, 15% of Global Payments Inc. team members resided in Europe.",
+        "confidence": 1,
+        "passage_id": 14,
+        "predicate": "employee_residence_percentage",
+        "qualifiers": [
+          {
+            "key": "region",
+            "provenance": "stated",
+            "value": "Europe"
+          },
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2022"
+          }
+        ],
+        "quote": "15% residing in Europe",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "15%"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2022, 22% of Global Payments Inc. team members resided in Asia Pacific.",
+        "confidence": 1,
+        "passage_id": 14,
+        "predicate": "employee_residence_percentage",
+        "qualifiers": [
+          {
+            "key": "region",
+            "provenance": "stated",
+            "value": "Asia Pacific"
+          },
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "December 31, 2022"
+          }
+        ],
+        "quote": "22% residing in Asia Pacific.",
+        "subject_surface": "Global Payments Inc.",
+        "value": {
+          "kind": "quantity",
+          "raw": "22%"
+        }
+      }
+    ]
+  }
+}

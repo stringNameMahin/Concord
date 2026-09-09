@@ -1,0 +1,580 @@
+{
+  "key": "4808841497a420691c92c4e01998bf8b74f445a239c14e49e177dd4d9df50245",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"112\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > SECTION B \u2013 MANAGEMENT AND PROCESS DISCLOSURES\n</context>\n<text>\nP6\nP7\nP8\nP9\nThe entity does not consider the Principles material to its business (Yes/ No)\nThis question is not applicable since the answer\nto question (1) is yes.\nThe entity is not at a stage where it is in a position to formulate and implement the policies on specified principles (Yes/ No)\nThe entity does not have the financial or/ human and technical resources available for the task (Yes/ No)\nIt is planned to be done in the next financial year (Yes/ No)\nAny other reason (please specify)\n\n\n108\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nSECTION C \u2013 PRINCIPLE WISE PERFORMANCE DISCLOSURE\nPrinciple 1 \u2013 Businesses should conduct and govern themselves with integrity, and in a manner that is\nethical, transparent and accountable.\nEssential Indicators\n1. \t \u0007Percentage coverage by training and awareness programmes on any of the principles during\nthe financial year:\nSegment\nTotal number of\ntraining and awareness\nprograms held\nTopics/ principles covered\nunder the training and its\nimpact\n% of persons in respective\ncategory covered by the\nawareness programs\nBoard of\nDirectors\n1\n\uf09f\t BRSR principles\n100.00%\nKey Managerial\nPersonnel\n6\n\uf09f\t BRSR principles\n\uf09f\t \u0007Employee Code of\nConduct (including\nHuman rights)\n\uf09f\t \u0007Prevention of Insider\nTrading\n\uf09f\t \u0007Prevention of Sexual\nHarassment\n\uf09f\t \u0007Environment, Health &\nSafety\n\uf09f\t Cyber Security\n100.00%\nEmployees other\nthan BoDs and\nKMPs*\n9\n\uf09f\t \u0007BRSR principles\n\uf09f\t \u0007Human rights\n\uf09f\t \u0007Prevention of Insider\nTrading\n\uf09f\t \u0007Prevention of Sexual\nHarassment\n\uf09f\t \u0007Environment, Health &\nSafety\n\uf09f\t \u0007Cyber Security\n\uf09f\t \u0007Whistleblower\n\uf09f\t \u0007Anti-bribery and Anti-\ncorruption\n\uf09f\t \u0007AI Awareness\n97.67%\nWorkers*\n3\n\uf09f\t \u0007BRSR principles\n\uf09f\t \u0007Human rights\n\uf09f\t \u0007Health & Safety\n96.32%\n\u0007*In FY26, Eternal\u2019s coverage of trainings in the above question consists of both permanent employees and other than permanent\nemployees and workers.\n\n\n109\n</text>\n</passage>\n\n<passage id=\"113\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Employees other\n</context>\n<text>\nEmployees other\nthan BoDs and\nKMPs*\n9\n\uf09f\t \u0007BRSR principles\n\uf09f\t \u0007Human rights\n\uf09f\t \u0007Prevention of Insider\nTrading\n\uf09f\t \u0007Prevention of Sexual\nHarassment\n\uf09f\t \u0007Environment, Health &\nSafety\n\uf09f\t \u0007Cyber Security\n\uf09f\t \u0007Whistleblower\n\uf09f\t \u0007Anti-bribery and Anti-\ncorruption\n\uf09f\t \u0007AI Awareness\n97.67%\nWorkers*\n3\n\uf09f\t \u0007BRSR principles\n\uf09f\t \u0007Human rights\n\uf09f\t \u0007Health & Safety\n96.32%\n\u0007*In FY26, Eternal\u2019s coverage of trainings in the above question consists of both permanent employees and other than permanent\nemployees and workers.\n\n\n109\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n2. \t \u0007Details of fines/ penalties/ punishment/ award/ compounding fees/ settlement amount paid in\nproceedings (by the entity or by directors/ KMPs) with regulators/ law enforcement agencies/\njudicial institutions, in the financial year, in the following format (Note: the entity shall make\ndisclosures on the basis of materiality as specified in Regulation 30 of SEBI (Listing Obligations\nand Disclosure Obligations) Regulations, 2015 and as disclosed on the entity\u2019s website):\nMonetary\nNGRBC\nPrinciple\nName of the regulatory/\nenforcement agency/\njudicial institutions\nAmount\n(In INR)\nBrief of\nthe Case\nHas an appeal\nbeen preferred?\n(Yes/ No)\nPenalty/ Fine\nNone\nSettlement\nCompounding fee\nNon-Monetary\nNGRBC\nPrinciple\nName of the regulatory/\nenforcement agency/\njudicial institutions\nBrief of the Case\nHas an appeal\nbeen preferred?\n(Yes/ No)\nImprisonment\nNone\nPunishment\n3. \t \u0007Of the instances disclosed in Question 2 above, details of the Appeal/ Revision are preferred in\ncases where monetary or non-monetary action has been appealed.\nCase Details\nName of the regulatory/ enforcement agencies/ judicial institutions\nNot applicable\n4. \t \u0007Does the entity have an anti-corruption or anti-bribery policy? If yes, provide details in brief and\nif available, provide a web link to the policy.\n\u0007Yes. We have an anti-bribery and anti-corruption policy that demonstrates our stance on bribery and\ncorruption practices and its consequences in case of non-compliance. Our policy covers the activities\nwhich are in the ambit of bribery or corruption and extends its applicability to employees, directors,\nstakeholders and third-parties.\n\u0007The policy covers mechanisms to report and resolve concerns related to bribery or corruption through\nreporting at informant@eternal.com. In addition, training on anti-bribery and anti-corruption is mandatory\nfor all employees at the time of induction.\nThe anti-bribery and anti-corruption policy is available on our website: link to the policy\n5. \t \u0007Number of Directors/ KMPs/ employees/ workers against whom disciplinary action was taken\nby any law enforcement agency for the charges of bribery/ corruption.\nFY 2025-26\nFY 2024-25\nDirectors\n0\n0\nKMPs\n0\n0\nEmployees*\n0\n0\nWorkers*\n0\n0\n*The permanent category of employees and workers have been considered in the above question.\n\n\n110\n</text>\n</passage>\n\n<passage id=\"114\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Name of the regulatory/ enforcement agencies/ judicial institutions\n</context>\n<text>\nreporting at informant@eternal.com. In addition, training on anti-bribery and anti-corruption is mandatory\nfor all employees at the time of induction.\nThe anti-bribery and anti-corruption policy is available on our website: link to the policy\n5. \t \u0007Number of Directors/ KMPs/ employees/ workers against whom disciplinary action was taken\nby any law enforcement agency for the charges of bribery/ corruption.\nFY 2025-26\nFY 2024-25\nDirectors\n0\n0\nKMPs\n0\n0\nEmployees*\n0\n0\nWorkers*\n0\n0\n*The permanent category of employees and workers have been considered in the above question.\n\n\n110\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n6. \t Details of complaints with regard to conflict of interest:\nFY 2025-26\nFY 2024-25\nNumber\nRemarks\nNumber\nRemarks\nNumber of complaints received in relation to issues of\nConflict of Interest of the Directors\n0\n-\n0\n-\nNumber of complaints received in relation to issues of\nConflict of Interest of the KMPs\n0\n-\n0\n-\n7. \t \u0007Provide details of any corrective action taken or underway on issues related to fines/\npenalties/ action taken by regulators/ law enforcement agencies/ judicial institutions,\non cases of corruption and conflicts of interest.\nNot applicable- No such cases have been reported.\n8. \t \u0007Number of days of accounts payables ( [Accounts payable x365]/ [Cost of goods/\nservices procured] ) in the following format:\nFY 2025-26*\nFY 2024-25\nNumber of days of accounts payables\n33\n35\n*The data reported is as on 31st March 2026.\n9. \t \u0007Open-ness of business - Provide details of concentration of purchases and sales with trading\nhouses, dealers and related parties along-with loans and advances & investments, with related\nparties, in the following format:\nParameter\nMetrics\nFY 2025-26\nFY 2024-25\nConcentration of\nPurchases\na. \t \u0007Purchases from trading houses as % of total\npurchases\n-\n-\nb. \t \u0007Number of trading houses where purchases\nare made from\n-\n-\nc.  \t \u0007Purchases from top 10 trading houses as %\nof total purchases from trading houses\n-\n-\nConcentration\nof Sales\na.  \t \u0007Sales to dealers/ distributors as % of total\nsales\nNA\nNA\nb.  \t \u0007Number of dealers/ distributors to whom\nsales are made\nNA\nNA\nc.  \t \u0007Sales to top 10 dealers/ distributors as % of\ntotal sales to dealers/ distributors\nNA\nNA\nShare of RPTs in a. \t \u0007Purchases (Purchases with related parties/\nTotal purchases)\n1.41%\n1.69%\nb. \t \u0007Sales (Sales to related parties/ Total sales)\n0.92%\n0.72%\nc. \t \u0007Loans & advances (Loans & advances given\nto related parties/ Total loans & advances)*\n100%**\n100%\nd. \t \u0007Investments (Investments in related parties/\nTotal investments made)*\n53.28%\n52.22%\n\u0007Note: Eternal Limited (formerly known as Zomato Limited) on a standalone basis is a technology platform services provider and\ndoes not deal with trading houses and dealers/ distributors.\n*The data reported is as on 31st March 2026.\n**In FY26, 100% of loans and advances were given to related parties only.\n\n\n111\n</text>\n</passage>\n\n<passage id=\"115\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > FY 2024-25\n</context>\n<text>\nc. \t \u0007Loans & advances (Loans & advances given\nto related parties/ Total loans & advances)*\n100%**\n100%\nd. \t \u0007Investments (Investments in related parties/\nTotal investments made)*\n53.28%\n52.22%\n\u0007Note: Eternal Limited (formerly known as Zomato Limited) on a standalone basis is a technology platform services provider and\ndoes not deal with trading houses and dealers/ distributors.\n*The data reported is as on 31st March 2026.\n**In FY26, 100% of loans and advances were given to related parties only.\n\n\n111\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nLeadership Indicators\n1. \t \u0007Awareness programs conducted for value chain partners on any of the principles during the\nfinancial year:\nNo. of awareness\nprograms held\nTopics/ principles\ncovered\nPercentage of value chain partners covered (by value  of\nbusiness done) under the awareness programs*\n1\nBRSR Principles\n9.56% of total spend on suppliers (upstream)**\n1\nHuman rights and\nHealth & safety\n1\nSustainable\npackaging\n1.19% by total revenue from restaurant partners\n(downstream)***\n\u0007Note: The upstream value chain partners covered in the above indicator does not include our delivery partners. All our delivery\npartners have to complete a mandatory road safety awareness module (including health & safety aspects) at the time of\nonboarding. The above number also excludes suppliers covered through the circulation of the human rights training module\nacross our supply chain.\n*Value chain disclosures are based on the previous financial year (FY25).\n\u0007**In FY26, we conducted multiple Sustainable Supply Chain workshops to familiarize our select suppliers with BRSR principles and\nsustainability best practices, along with training on human rights and health & safety and held one-on-one engagements with key\nsuppliers. Through these initiatives, we trained over 200 suppliers during FY26.\n\u0007***In FY26, we conducted a master class on sustainable packaging as part of the 2nd edition of Packathon, attended by key restaurant\npartners.\n2. \t \u0007Does the entity have processes in place to avoid/ manage conflict of interests involving members\nof the Board? (Yes/ No) If Yes, provide details of the same.\n\u0007Yes. We have a policy on \u2018Code of conduct for the board of directors and senior management personnel\u2019.\nOur policy covers the activities which are within the ambit of processes in place to avoid/ manage conflict\nof interests involving members of the Board.\n\u0007Under Section 4 \u2018Code for Directors and SMP\u2019, point number (j) mandates that Directors and SMPs must\n\u2018Disclose potential conflicts of interest that they may have regarding any matter, if any, at the Board\nMeetings and any Director having such conflict of interest will abstain himself/ herself from discussions\nand voting on the concerned matter\u2019.\n\u0007All the members of the Board are required to confirm on an annual basis whether they are complying to\nthis code including declaration on Conflict of Interest, additionally, we ensure that all necessary approvals,\nas mandated by the statute and the company\u2019s policies are secured before engaging in transactions with\nany companies in which any Board member may have a conflict.\n\u0007Code of conduct for the board of directors and senior management personnel is available on our website-\nlink to the policy\n\n\n112\n</text>\n</passage>\n\n<passage id=\"116\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > business done) under the awareness programs*\n</context>\n<text>\n\u0007All the members of the Board are required to confirm on an annual basis whether they are complying to\nthis code including declaration on Conflict of Interest, additionally, we ensure that all necessary approvals,\nas mandated by the statute and the company\u2019s policies are secured before engaging in transactions with\nany companies in which any Board member may have a conflict.\n\u0007Code of conduct for the board of directors and senior management personnel is available on our website-\nlink to the policy\n\n\n112\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nPrinciple 2 \u2013 Businesses should provide goods and services in a manner that is sustainable and safe\nEssential Indicators\n1. \t \u0007Percentage of R&D and capital expenditure (CAPEX) investments in specific technologies to\nimprove the environmental and social impacts of product and processes to total R&D and capex\ninvestments made by the entity, respectively.\nCurrent\nFinancial Year\nPrevious\nFinancial Year\nDetails of improvements in environmental\nand social impacts\nR&D\n-\n- Not applicable\nCapex\n-\n- In our financial statements, CAPEX includes fitouts and\nequipment for our offices, laptops, etc.\nWe try to consciously choose environment-friendly\ntechnologies, including energy efficient air conditioning\nand air purification systems, LED lighting fixtures,\nsensor-based taps, energy-efficient televisions and\nlaptops, among others.\n2. \t a. \t Does the entity have procedures in place for sustainable sourcing? (Yes/No)\nYes.\n\u0007Eternal Limited continued to strengthen its Sustainable Supply Chain program in FY26 to promote\nresponsible sourcing practices across its value chain. Initiatives taken in FY26 panned across these\nthree areas:\n\uf09f\n\u0007Supplier assessment: Our supplier assessment on ESG parameters is integrated into our\nsupplier onboarding process. We regularly evaluate our upstream suppliers through an ESG\nquestionnaire (aligned with the requirements of BRSR Core KPIs) enabling consistent monitoring\nand improvement across our supply chain.\n\uf09f\nCapacity building and engagement:\n\uf0a7\n\u0007Conducted workshops to communicate sustainability expectations to suppliers, with focused\ndiscussions on health & safety and human rights practices in the supply chain attended by\n200+ suppliers.\n\uf0a7\n\u0007Held one-on-one interactions with key supplier categories to discuss ESG practices and\nimprovement areas.\n\uf0a7\n\u0007Circulated human rights learning modules for suppliers to strengthen awareness and\nresponsible business practices.\n\uf0a7\n\u0007Conducted road safety and health & safety training for delivery partners as part of the\nonboarding process.\n\uf09f\nSupplier partnership and recognition:\n\uf0a7\n\u0007Initiated efforts to recognise suppliers demonstrating strong ESG performance, responsible\nbusiness practices and contributing to positive outcomes.\n\uf0a7\n\u0007Continued supplier engagement through esg-suppliers@eternal.com, to facilitate onboarding\nof sustainable suppliers and addressing supplier-related ESG queries.\n\uf0a7\n\u0007Expanded sourcing from within India by working with 1800+ MSMEs in FY25.\nLink to our policies: Responsible sourcing policy and Business partner code of conduct\n\n\n113\n</text>\n</passage>\n\n<passage id=\"117\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > and social impacts\n</context>\n<text>\nSupplier partnership and recognition:\n\uf0a7\n\u0007Initiated efforts to recognise suppliers demonstrating strong ESG performance, responsible\nbusiness practices and contributing to positive outcomes.\n\uf0a7\n\u0007Continued supplier engagement through esg-suppliers@eternal.com, to facilitate onboarding\nof sustainable suppliers and addressing supplier-related ESG queries.\n\uf0a7\n\u0007Expanded sourcing from within India by working with 1800+ MSMEs in FY25.\nLink to our policies: Responsible sourcing policy and Business partner code of conduct\n\n\n113\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n2.\t b. \t If yes, what percentage of inputs were sourced sustainably?\n\u0007We assessed our top upstream suppliers (in terms of input) for FY25 on their sustainability credentials,\nwhich includes SA 8000, ISO 14001/EMS, OHSAS 18001/ISO 45001 and labels like Rainforest Alliance,\nRugmark, RSPO etc. The assessment was based on voluntary disclosures by suppliers and publicly\navailable information. In FY26, we also introduced industry-specific questions for key suppliers to\nbetter understand their sustainability focus areas and practices. After conducting the assessment,\nwe concluded that in FY25, 15.99% of our inputs were sourced sustainably.\n\u0007Additionally, 65.71% of our total inputs comprised payments to delivery partners (individuals\nproviding food delivery services within the cities of operation), reflecting our focus on local sourcing\nand supporting livelihoods in our areas of operation.\n3. \t \u0007Describe the processes in place to safely reclaim your products for reusing, recycling and\ndisposing at the end of life, for (a) Plastics (including packaging) (b) E-waste (c) Hazardous\nwaste and (d) other waste.\nWaste type\nWaste management procedure in place\nPlastic (including packaging)\nNot applicable*\nE-waste\nHazardous waste\nOther waste\n\u0007*Eternal Limited (formerly known as Zomato Limited) is a technology platform services provider and does not produce any\nphysical products.\n4. \t Whether Extended Producer Responsibility (EPR) is applicable to the entity\u2019s activities (Yes/ No).\n\u0007If yes, whether the waste collection plan is in line with the Extended Producer Responsibility\n(EPR) plan submitted to Pollution Control Boards? If not, provide steps taken to address the\nsame.\nNot applicable.\nPrinciple 3 \u2013 Businesses should respect and promote the well-being of all employees, including those in\ntheir value chains\nEssential Indicators\n1.\na.\t Details of measures for the well-being of employees:\nCategory\n% of employees covered by\nTotal\n(A)\nHealth\ninsurance\nAccident\ninsurance\nMaternity\nbenefits\nPaternity\nbenefits\nDay care\nfacilities*\nNumber\n(B)\n%\n(B/A)\nNumber\n(C)\n%\n(C/A)\nNumber\n(D)\n%\n(D/A)\nNumber\n(E)\n%\n(E/A)\nNumber\n(F)\n%\n(F/A)\nPermanent employees\nMale\n4,761\n4,761\n100%\n4,761\n100%\nN.A.\nN.A.\n4,761\n100%\n4,745 99.66%\nFemale\n1,987\n1,987\n100%\n1,987\n100%\n1,987\n100%\nN.A.\nN.A.\n1,985 99.90%\nOthers\n2\n2\n100%\n2\n100%\n-\n100%**\n-\n100%**\n2\n100%\nTotal\n6,750\n6,750\n100%\n6,750\n100%\n1,987 29.44%***\n4,761 70.53%***\n6,732 99.73%\n\n\n114\n</text>\n</passage>\n\n<passage id=\"118\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > their value chains\n</context>\n<text>\n% of employees covered by\nTotal\n(A)\nHealth\ninsurance\nAccident\ninsurance\nMaternity\nbenefits\nPaternity\nbenefits\nDay care\nfacilities*\nNumber\n(B)\n%\n(B/A)\nNumber\n(C)\n%\n(C/A)\nNumber\n(D)\n%\n(D/A)\nNumber\n(E)\n%\n(E/A)\nNumber\n(F)\n%\n(F/A)\nPermanent employees\nMale\n4,761\n4,761\n100%\n4,761\n100%\nN.A.\nN.A.\n4,761\n100%\n4,745 99.66%\nFemale\n1,987\n1,987\n100%\n1,987\n100%\n1,987\n100%\nN.A.\nN.A.\n1,985 99.90%\nOthers\n2\n2\n100%\n2\n100%\n-\n100%**\n-\n100%**\n2\n100%\nTotal\n6,750\n6,750\n100%\n6,750\n100%\n1,987 29.44%***\n4,761 70.53%***\n6,732 99.73%\n\n\n114\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nCategory\n% of employees covered by\nTotal\n(A)\nHealth\ninsurance\nAccident\ninsurance\nMaternity\nbenefits\nPaternity\nbenefits\nDay care\nfacilities*\nNumber\n(B)\n%\n(B/A)\nNumber\n(C)\n%\n(C/A)\nNumber\n(D)\n%\n(D/A)\nNumber\n(E)\n%\n(E/A)\nNumber\n(F)\n%\n(F/A)\nOther than permanent employees\nMale\n203\n203\n100%\n203\n100%\nN.A.\nN.A.\n203\n100%\n203\n100%\nFemale\n42\n42\n100%\n42\n100%\n42\n100%\nN.A.\nN.A.\n42\n100%\nOthers\n0\n0\n0%\n0\n0%\n0\n0%\n0\n0%\n0\n0%\nTotal\n245\n245\n100%\n245\n100%\n42 17.14%***\n203 82.86%***\n245\n100%\n*The above daycare coverage is less than 100% as some employees are based out of offices with less than 50 employees, or are not\neligible. Coverage of daycare facilities has been accounted based on:\n\uf09f\nIn-house daycare facility available at our Gurugram and Bengaluru corporate office.\n\uf09f\n\u0007Partnership with IPSAA Holdings Pvt. Ltd. providing access to employees to daycare facilities (at a discounted rate) near our\noffice premises, across various locations.\n\uf09f\n\u0007In addition to the above, we also publish a list of daycare facilities to our employees in locations where IPSAA facilities are not\npresent.\n**Two of our \u2018permanent employees\u2019 who fall under the \u2018Others\u2019 category of gender are included in the total headcount count above.\nThese employees are covered by our gender-neutral paid parental leave policy.\n***All our employees are covered by our gender-neutral paid parental leave policy, the total % of maternity and paternity benefits only\ndenotes the gender split of the employee base.\nb. \t Details of measures for the well-being of workers:\nCategory\n% of workers covered by\nTotal\n(A)\nHealth\ninsurance*\nAccident\ninsurance\nMaternity\nbenefits\nPaternity\nbenefits\nDay care\nfacilities\nNumber\n(B)\n%\n(B/A)\nNumber\n(C)\n%\n(C/A)\nNumber\n(D)\n%\n(D/A)\nNumber\n(E)\n%\n(E/A)\nNumber\n(F)\n%\n(F/A)\nPermanent workers\nMale\n0\n0\n0%\n0\n0%\nN.A.\nN.A.\n0\n0%\n0\n0%\nFemale\n0\n0\n0%\n0\n0%\n0\n0%\nN.A.\nN.A.\n0\n0%\nTotal\n0\n0\n0%\n0\n0%\n0\n0%\n0\n0%\n0\n0%\nOther than permanent workers\nMale-\nContract\nWorkers\n451\n451\n100%\n422\n93.57%\nN.A.\nN.A.\n0\n0%\n0\n0%\nFemale-\nContract\nWorkers\n93\n93\n100%\n89\n95.70%\n93\n100%\nN.A.\nN.A.\n0\n0%\nTotal\n544\n544\n100%\n511 93.93%\n93 17.10%**\n0\n0%\n0\n0%\n*The number for \u2018Health insurance\u2019 has been considered by combining ESI and Medical insurance as every worker is covered under either\nof these schemes. The % of other than permanent workers covered is based on the confirmations received from third party vendors.\n**All our other than permanent female workers are covered by maternity benefits, the total % of maternity benefits only denotes the\ngender split of workers.\n\n\n115\n</text>\n</passage>\n\n<passage id=\"119\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > their value chains\n</context>\n<text>\n93\n100%\nN.A.\nN.A.\n0\n0%\nTotal\n544\n544\n100%\n511 93.93%\n93 17.10%**\n0\n0%\n0\n0%\n*The number for \u2018Health insurance\u2019 has been considered by combining ESI and Medical insurance as every worker is covered under either\nof these schemes. The % of other than permanent workers covered is based on the confirmations received from third party vendors.\n**All our other than permanent female workers are covered by maternity benefits, the total % of maternity benefits only denotes the\ngender split of workers.\n\n\n115\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nc. \t \u0007Spending on measures towards well-being of employees and workers (including permanent and\nother than permanent) in the following format:\nFY 2025-26\nFY 2024-25\nCost incurred on well-being measures as a % of total revenue of\nthe company\n0.41%*\n0.26%\n\u0007*The aforementioned spending includes health coverage premiums, accidental insurance premiums, insurance for contractual\nworkers, paternity and maternity benefits, Environment, Health & Safety (EHS) expenses (including trainings), salaries and\nrelated costs for the physical wellness, mental wellness and EHS teams, daycare facility expenses (including lactation rooms),\nand medical room expenses covering doctors, paramedics, equipment and consumables.\n2. \t Details of retirement benefits, for Current FY and Previous FY:\nBenefits\nFY 2025-26\nFY 2024-25\nNo. of\nemployees\ncovered as\na % of total\nemployees\nNo. of\nworkers\ncovered as\na % of total\nworkers*\nDeducted and\ndeposited\nwith the\nauthority\n(Y/N/ N.A.)\nNo. of\nemployees\ncovered as\na % of total\nemployees\nNo. of\nworkers\ncovered as\na % of total\nworkers\nDeducted and\ndeposited\nwith the\nauthority\n(Y/N/ N.A.)\nPF**\n99.73%\n99.82%\nY***\n99.58%\n99.73%\nY\nGratuity\n100%\n100%\nN.A.****\n100%\n100%\nN.A.\nESI*****\n100%\n100%\nY\n100%\n100%\nY\nOthers \u2013\nNPS******\n100%\n-\nY\n100%\n-\nY\n\u0007Note: In FY26, Eternal\u2019s coverage of the above disclosure consists of permanent employees, other than permanent employees and\nother than permanent workers.\n\u0007*The reported figures for Provident Fund (PF), Gratuity and ESI coverage, of other than permanent workers, are based on\nconfirmations received from third party vendors.\n\u0007**The above percentage represents data for eligible employees and workers as at the end of the financial year. All eligible employees\nget PF benefits. However, the reported data is less than 100% since some employees have voluntarily opted out of PF contribution.\nFor workers, the reported data is less than 100% since one worker has voluntarily opted out of PF contribution.\n\u0007***The deduction and deposition with the authority of PF for \u2018Other than permanent workers\u2019 is ensured by their respective employers\n(third party vendors).\n\u0007****Eternal has funded the gratuity liability as on 31st March 2026 upto 94% of the total gratuity liability with ICICI Prudential Life\nInsurance Company Limited.\n\u0007*****The above percentage of ESI represents data for eligible employees and workers at the end of the financial year. Out of the\ntotal headcount, 65 employees and 425 workers (as on 31st March 2026) and 144 employees and 309 workers (as on 31st  March 2025)\nwere eligible for ESI.\n\u0007******The above percentage of NPS represents data for eligible employees at the end of the financial year. Out of the total headcount,\n110 employees had opted for the National Pension Scheme as on 31st March 2026.\n3. \t Accessibility of workplaces\n\u0007Are the premises/ offices of the entity accessible to differently-abled employees and workers, as per\nthe requirements of the Rights of Persons with Disabilities Act, 2016? If not, whether any steps are\nbeing taken by the entity in this regard.\n\u0007Our headquarters and largest office based in Gurugram underwent a third party accessibility audit in\nFY24. We have implemented various measures such as ramps/ tactile pathways, disability-friendly\nelevators, gender-neutral accessible toilets and accessible parking at our Gurugram office. Additionally,\nall new facilities under our direct lease have been evaluated for accessibility standards outlined in the\n</text>\n</passage>\n\n<passage id=\"120\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > FY 2024-25\n</context>\n<text>\nthe requirements of the Rights of Persons with Disabilities Act, 2016? If not, whether any steps are\nbeing taken by the entity in this regard.\n\u0007Our headquarters and largest office based in Gurugram underwent a third party accessibility audit in\nFY24. We have implemented various measures such as ramps/ tactile pathways, disability-friendly\nelevators, gender-neutral accessible toilets and accessible parking at our Gurugram office. Additionally,\nall new facilities under our direct lease have been evaluated for accessibility standards outlined in the\nRPwD Act, 2016.\n4. \t \u0007Does the entity have an equal opportunity policy as per the Rights of Persons with Disabilities\nAct, 2016? If so, provide a web link to the policy.\n\u0007Yes. Eternal has an Equal opportunity, diversity and inclusion policy aligned with the principles of Rights\nof Persons with Disabilities Act, 2016. (link to the policy)\n\n\n116\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n5. \t \u0007Return to work and Retention rates of permanent employees and workers that took\nparental leave in FY26:\nGender\nPermanent employees\nPermanent workers\nReturn to\nwork rate\nRetention\nrate\nReturn to\nwork rate\nRetention\nrate\nMale\n98.17%\n63.50%\n-\n-\nFemale\n96.88%\n56.76%\n-\n-\nOthers\n-\n-\n-\n-\nTotal\n98.01%\n62.07%\n-\n-\n6. \t \u0007Is there a mechanism available to receive and redress grievances for the following categories\nof employees and workers? If yes, give details of the mechanism in brief.\nYes/ No (If Yes, then give details of the mechanism in brief)\nPermanent workers\nNot applicable\nOther than permanent workers\nYes. Eternal has established a grievance redressal mechanism for\nits workforce to receive and address their concerns.\nEternal has a dedicated email address accessible for all to raise\nany complaints/ issues. Complaints can be filed by writing to the\nPeople assist team at peopleassist@eternal.com, the Internal\nCommittee at speakup@eternal.com (for sexual harassment\nrelated complaints) or hr@eternal.com (for human rights related\ncomplaints).\n(Stakeholder management policy and Equal opportunity, diversity\nand inclusion policy)\nPermanent employees\nOther than permanent employees\n7. \t Membership of employees and workers in association(s) or Unions recognized by the listed entity:\nCategory\nFY 2025-26\nFY 2024-25\nTotal\nemployees/\nworkers\nin the\nrespective\ncategory\n(A)\nNo. of employees/\nworkers in the\nrespective\ncategory, who\nare part of the\nassociation(s) or\nUnion (B)\n%\n(B/A)\nTotal\nemployees/\nworkers\nin the\nrespective\ncategory\n(A)\nNo. of employees/\nworkers in the\nrespective\ncategory, who\nare part of the\nassociation(s) or\nUnion (B)\n%\n(B/A)\nTotal permanent\nemployees\n6,750\n-\n-\n6,903\n-\n-\nMale\n4,761\n-\n-\n4,895\n-\n-\nFemale\n1,987\n-\n-\n2,007\n-\n-\nOther\n2\n-\n-\n1\n-\n-\nTotal permanent\nworkers\n0\n-\n-\n0\n-\n-\nMale\n0\n-\n-\n0\n-\n-\nFemale\n0\n-\n-\n0\n-\n-\nOther\n-\n-\n-\n-\n-\n-\n\n\n117\n</text>\n</passage>\n\n<passage id=\"121\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > category\n</context>\n<text>\ncategory\n(A)\nNo. of employees/\nworkers in the\nrespective\ncategory, who\nare part of the\nassociation(s) or\nUnion (B)\n%\n(B/A)\nTotal\nemployees/\nworkers\nin the\nrespective\ncategory\n(A)\nNo. of employees/\nworkers in the\nrespective\ncategory, who\nare part of the\nassociation(s) or\nUnion (B)\n%\n(B/A)\nTotal permanent\nemployees\n6,750\n-\n-\n6,903\n-\n-\nMale\n4,761\n-\n-\n4,895\n-\n-\nFemale\n1,987\n-\n-\n2,007\n-\n-\nOther\n2\n-\n-\n1\n-\n-\nTotal permanent\nworkers\n0\n-\n-\n0\n-\n-\nMale\n0\n-\n-\n0\n-\n-\nFemale\n0\n-\n-\n0\n-\n-\nOther\n-\n-\n-\n-\n-\n-\n\n\n117\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n8. \t Details of training given to employees and workers:\nCategory\nFY 2025-26\nFY 2024-25\nTotal\n(A)\nOn health and\nsafety measures\nOn skill\nupgradation\nTotal\n(D)\nOn health and\nsafety measures\nOn skill\nupgradation\nNo. (B)\n% (B/A)\nNo. (C)\n% (C/A)\nNo. (E)\n% (E/D)\nNo.(F)\n% (F/D)\nEmployees*\nMale\n4,761\n4,650\n97.67%\n4,665\n97.98%\n4,895\n4,684\n95.69%\n4,431\n90.52%\nFemale\n1,987\n1,954\n98.34%\n1,951\n98.19%\n2,007\n1,937\n96.51%\n1,790\n89.19%\nOthers\n2\n2\n100%\n2\n100%\n1\n1\n100%\n1\n100%\nTotal\n6,750\n6,606\n97.87%\n6,618\n98.04%\n6,903\n6,622\n95.93%\n6,222\n90.13%\nWorkers**\nMale\n451\n434\n96.23%\n-\n-\n300\n287\n95.67%\n-\n-\nFemale\n93\n90\n96.77%\n-\n-\n78\n77\n98.72%\n-\n-\nOthers\n0\n0\n0%\n-\n-\n0\n0\n0%\n-\n-\nTotal\n544\n524\n96.32%\n-\n-\n378\n364\n96.30%\n-\n-\n*In FY26, Eternal\u2019s coverage of the above disclosure consists of health & safety and skill upgradation training provided to permanent\nemployees.\n**In FY26, Eternal\u2019s coverage of the above disclosure consists of health & safety training provided to other than permanent workers.\n9. \t Details of performance and career development reviews of employees and workers:\nCategory\nFY 2025-26*\nFY 2024-25\nTotal (A)\nNo. (B)\n% (B/A)\nTotal (C)\nNo. (D)\n% (D/C)\nEmployees\nMale\n4,761\n4,761\n100%\n4,895\n4,895\n100%\nFemale\n1,987\n1,987\n100%\n2,007\n2,007\n100%\nOthers\n2\n2\n100%\n1\n1\n100%\nTotal\n6,750\n6,750\n100%\n6,903\n6,903\n100%\nWorkers\nMale\n-\n-\n-\n-\n-\n-\nFemale\n-\n-\n-\n-\n-\n-\nOthers\n-\n-\n-\n-\n-\n-\nTotal\n-\n-\n-\n-\n-\n-\n\u0007*The above disclosure is based on all permanent employees who were active in the performance review cycle, representing 100%\ncoverage of the applicable employee population for performance reviews.\n\n\n118\n</text>\n</passage>\n\n<passage id=\"122\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > FY 2024-25\n</context>\n<text>\nFY 2024-25\nTotal (A)\nNo. (B)\n% (B/A)\nTotal (C)\nNo. (D)\n% (D/C)\nEmployees\nMale\n4,761\n4,761\n100%\n4,895\n4,895\n100%\nFemale\n1,987\n1,987\n100%\n2,007\n2,007\n100%\nOthers\n2\n2\n100%\n1\n1\n100%\nTotal\n6,750\n6,750\n100%\n6,903\n6,903\n100%\nWorkers\nMale\n-\n-\n-\n-\n-\n-\nFemale\n-\n-\n-\n-\n-\n-\nOthers\n-\n-\n-\n-\n-\n-\nTotal\n-\n-\n-\n-\n-\n-\n\u0007*The above disclosure is based on all permanent employees who were active in the performance review cycle, representing 100%\ncoverage of the applicable employee population for performance reviews.\n\n\n118\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n10. \tHealth and safety management system:\na. \t \u0007Whether an occupational health and safety management system has been implemented by\nthe entity? (Yes/ No). If yes, the coverage of such a system?\n\u0007Yes. At Eternal, our Health and Safety Policy includes nine pillars that outline how we effectively manage\ncritical Occupational Health and Safety (OH&S) aspects. Additionally, we hold the ISO 45001:2018\ncertification for our OH&S Management System. The Audit Committee of Eternal Limited maintains\noversight on health and safety related matters and reviews them on a quarterly basis.\n\u0007\n\u0007The Environment, Health and Safety (EHS) team helps the organization maintain high levels of safety\nstandards. Our offices are equipped with essential safety systems such as fire detection, fire fighting\nmechanisms, public address systems, safety signage, etc., to ensure the safety of employees and\nworkers. Additionally, there is a Safety Reporting System (SRS) that enables employees and workers\nto report OH&S incidents and hazards actively. The system ensures seamless tracking, analysis and\nresolution, thereby building a proactive safety culture and enabling continuous improvement of our\nOH&S management system.\n\u0007Health and Safety training is mandatory for all employees of Eternal and a key pillar of our Health &\nSafety policy. In FY26, we strengthened our safety culture through a series of focused awareness\ninitiatives. We marked National Road Safety month, with a mix of on-ground and digital engagement\nactivities, including interactive carnivals, recognition of road safety champions under the company-\nwide \u201cSadak Suraksha Jeevan Raksha\u201d campaign. During this month, we also conducted engaging\nawareness initiatives across offices, emphasizing people safety and SRS reporting, while reinforcing\nthe message that \u201csafety is a habit we build together.\u201d These efforts are further supported by\ncontinuous monitoring by the Workplace & Facilities team to ensure sustained adherence to safety\nstandards.\nb. \t \u0007What are the processes used to identify work-related hazards and assess risks on a routine and\nnon-routine basis by the entity?\n\u0007Risk identification and mitigation remain integral to our Health and Safety policy.  We adopt a proactive\napproach to identifying, assessing and mitigating hazards across both routine and non-routine\nactivities. An integrated action plan is also in place to effectively respond to emergency situations.\n\u0007As part of our ISO 45001:2018-certified Occupational Health and Safety Management System, we\nfollow documented procedures to systematically evaluate work-related hazards and risks across all\noperations. Employees and workers are encouraged to report hazards, near-misses and incidents\nthrough our Safety Reporting System (SRS), enabling structured investigation and timely closure of\nsuch cases.\n\u0007We continuously strengthen our approach through regular internal inspections and audits to\nproactively identify and address workplace risks. Identified risks are managed through structured\naction plans with defined timelines and measurable targets to ensure effective mitigation.\nc. \t \u0007Whether you have processes for workers to report the work-related hazards and to remove\nthemselves from such risks. (Y/ N)\n\u0007Yes, we have established a robust process for workers to report work-related hazards and protect\nthemselves from associated risks. In FY24, we introduced the Safety Reporting System (SRS), enabling\n</text>\n</passage>\n\n<passage id=\"123\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > non-routine basis by the entity?\n</context>\n<text>\nproactively identify and address workplace risks. Identified risks are managed through structured\naction plans with defined timelines and measurable targets to ensure effective mitigation.\nc. \t \u0007Whether you have processes for workers to report the work-related hazards and to remove\nthemselves from such risks. (Y/ N)\n\u0007Yes, we have established a robust process for workers to report work-related hazards and protect\nthemselves from associated risks. In FY24, we introduced the Safety Reporting System (SRS), enabling\nemployees and workers to report health and safety hazards, incidents, and near-misses.\n\u0007Building on this, the process is now well established across the organization. During FY26, we further\nstrengthened its implementation through multiple awareness sessions, townhalls and training\nprograms, ensuring it remains a reliable and accessible platform. We also ensured timely closure of\nidentified risks, supported by effective Root Cause Analysis (RCA) and implementation of Corrective\nand Preventive Actions (CAPA).\n\n\n119\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n\u0007As part of our annual safety campaigns, we launched the \u201c7 Habits of Eternal Safety Champions\u201d\nin FY25, reinforcing that safety is a shared responsibility built through consistent behaviors and\ncollective commitment. This is a successful ongoing campaign in FY26. This initiative has significantly\nstrengthened safety awareness, encouraged proactive hazard identification and inculcated a culture\nof shared responsibility across the organization.\nd. \t \u0007Do the employees/ workers of the entity have access to non-occupational medical and healthcare\nservices?  (Yes/ No)\n\u0007Yes. Eternal provides its employees with non-occupational medical and healthcare benefits. These\ninclude comprehensive group medical insurance that extends to the employee, spouse/ partner and\nup to four children. The medical insurance has progressive coverages such as treatment for autism\nand psychiatric ailments, lifelong coverage for children living with disabilities, etc. We also offer free\nonline medical consultations, nutrition counselling, psychological counselling, discounted diagnostic\ntests and discounts on medicines, etc.\n\u0007Over and above, all employees are covered under the group accidental insurance. We also provide\nmedical insurance or ESI benefits to our other than permanent workers basis applicability.\n11. \t Details of safety related incidents, in the following format:\nSafety incident/ number\nCategory*\nFY 2025-26\nFY 2024-25\nLost Time Injury Frequency Rate (LTIFR) (per one-\nmillion-person hour worked)\nEmployees\n0\n0\nWorkers\n0\n0\nTotal recordable work-related injuries\nEmployees\n0\n0\nWorkers\n0\n0\nNo. of fatalities\nEmployees\n0\n0\nWorkers\n0\n0\nHigh consequence work-related injury or ill-\nhealth (excluding fatalities)\nEmployees\n0\n0\nWorkers\n0\n0\n*Including in the contract workforce\n12. \tDescribe the measures taken by the entity to ensure a safe and healthy workplace.\n\u0007At Eternal, we prioritize the safety and welfare of our employees and their overall well-being. We have\nimplemented comprehensive policies and protocols aimed at fostering an incident-free, vibrant and\nsecure workplace environment. We have dedicated teams which are responsible for monitoring safety\nperformance and implementing necessary measures to enhance safety protocols. The following outline\nseveral initiatives designed to promote a culture of health, safety and wellbeing of employees within our\norganization:\n\uf09f\nImplemented Occupational Health & Safety Management System (ISO 45001:2018)\n\uf09f\nMedical rooms with dedicated doctors and nurses in our corporate office\n\uf09f\n\u0007Fire detection, fire fighting equipment and first-aid facilities active in our offices to ensure prompt\nresponse and mitigation during incidents\n\uf09f\n\u0007Implemented measures for preparing and responding to fire emergencies and conducting regular\nmock drills to assess our readiness and improve our response capabilities\n\uf09f\nAwareness sessions promoting healthy postures\n\uf09f\nUse of Personal Protective Equipment (PPE) by the workforce\n</text>\n</passage>\n\n<passage id=\"124\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > FY 2024-25\n</context>\n<text>\n\uf09f\nMedical rooms with dedicated doctors and nurses in our corporate office\n\uf09f\n\u0007Fire detection, fire fighting equipment and first-aid facilities active in our offices to ensure prompt\nresponse and mitigation during incidents\n\uf09f\n\u0007Implemented measures for preparing and responding to fire emergencies and conducting regular\nmock drills to assess our readiness and improve our response capabilities\n\uf09f\nAwareness sessions promoting healthy postures\n\uf09f\nUse of Personal Protective Equipment (PPE) by the workforce\n\n\n120\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n\uf09f\n\u0007In the event of serious injuries, investigations are conducted to prevent recurrence. Corrective and\nPreventive Actions (CAPA) are diligently implemented following investigations\n\uf09f\nGroup health insurance for employees and dependents\n\uf09f\nGroup personal accident insurance\n\uf09f\nDiscounts on diagnostic services\n\uf09f\nFree telehealth and medical consultation for employees and dependents\n\uf09f\nDiscounted dental consultations and free vision checkups\n\uf09f\nEqual paid parental leave of 26 weeks provided to mothers and fathers\n\uf09f\nWellness leaves (physical and mental), period leaves and paid annual leaves provided\n\uf09f\nMental wellness expert counselling by the in-house team of trained psychologists and counsellors\n\uf09f\nNutrition counselling\n\uf09f\nGym facilities across multiple offices\n\uf09f\n\u0007Regular campaigns and training conducted on health and safety topics such as First Aid, CPR,\nfirefighting and evacuation procedures\n\uf09f\n\u0007Mandatory EHS training and assessment implemented for all employees via Eternal Learning Hub (ELH\nplatform)\n13.\t Number of complaints on the following made by employees and workers:\nFY 2025-26\nFY 2024-25\nFiled\nduring\nthe year\nPending\nresolution at\nthe end of year\nRemarks\nFiled\nduring\nthe year\nPending\nresolution at\nthe end of year\nRemarks\nWorking conditions*\n0\n0\n-\n13\n0\n-\nHealth and safety**\n1\n0\n-\n0\n0\n-\n\u0007*In FY26, we continued to prioritize open communication and proactive resolution through our robust working conditions complaint\nmanagement process. We have a dedicated team that ensures instant resolution of complaints (temperature, ergonomics, leakage,\nwashroom hygiene, etc.) to provide a safe & healthy working environment, however for the above indicator we report only high risk\ncomplaints based on internal SOP.\n\u0007**We have a dedicated Safety Reporting System (SRS) for all employees to report Health & Safety issues. The EHS team follows an\ninternal SOP to validate and resolve all complaints received on SRS in a stipulated time.\n14. \tAssessments for the year:\n% of your plants and offices that were assessed\n(by entity or statutory authorities or third parties)\nHealth and safety practices\n100%\nAn independent Human Rights Assessment (including Health & Safety)\nwas conducted for all our office locations. In addition, we continue\nto hold ISO 45001:2018 certification for our Gurugram and Bengaluru\noffices.\nWorking conditions\n\n\n121\n</text>\n</passage>\n\n<passage id=\"125\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Remarks\n</context>\n<text>\n\u0007**We have a dedicated Safety Reporting System (SRS) for all employees to report Health & Safety issues. The EHS team follows an\ninternal SOP to validate and resolve all complaints received on SRS in a stipulated time.\n14. \tAssessments for the year:\n% of your plants and offices that were assessed\n(by entity or statutory authorities or third parties)\nHealth and safety practices\n100%\nAn independent Human Rights Assessment (including Health & Safety)\nwas conducted for all our office locations. In addition, we continue\nto hold ISO 45001:2018 certification for our Gurugram and Bengaluru\noffices.\nWorking conditions\n\n\n121\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n15. \t\u0007Provide details of any corrective action taken or underway to address safety-related incidents\n(if any) and on significant risks/ concerns arising from assessments of health & safety practices\nand working conditions.\n\u0007We have conducted comprehensive risk assessments and revised risk evaluations across all activities in\nour offices to ensure continued compliance with safety standards and best practices. Through our internal\nassessment we have confirmed that our operations align with the established safety protocols since there\nwere zero safety-related incidents reported in FY26 (Principle 3, Q11), therefore no immediate corrective\nactions or mitigation measures were required.\n\u0007We hold ISO 45001:2018 certification for our Gurugram and Bengaluru offices. For our newly leased\noffices we are in the process of attaining these certifications. Our Occupational Health and Safety (OH&S)\nmanagement system remains aligned with the requirements of the standard, reaffirming the robustness\nof the framework.\n\u0007In addition, an independent Human Rights assessment has been conducted for all our office locations and\nno major findings were reported during the financial year.\nLeadership Indicators\n1. \t \u0007Does the entity extend any life insurance or any compensatory package in the event of death of\n(A) Employees (Y/ N) (B) Workers (Y/ N).\n\u2022\n\u0007Employees: Yes, all employees are covered by a comprehensive group accident insurance policy that\nprovides compensation to their families in the unfortunate event of the death of an employee due to\nan accident.\n\u0007The company also provides a generous ex gratia payment to the families of all our deceased employees.\nThis payment amounts to the employee\u2019s annual salary and continues for a duration of 10 years from\nthe date of the employee\u2019s passing.\n\u2022\nWorkers: Not applicable.\n5.\t Details on assessment of value chain partners:\n% of value chain partners (by value of business done with such\npartners) that were assessed*\nHealth and safety practices\n16.95% by total spend on suppliers (upstream)**\n5.08% by total revenue from restaurant partners (downstream)***\nWorking Conditions\n*Value chain disclosures are based on the previous financial year (FY25).\n\u0007**The assessment was conducted for 50 upstream suppliers. During the year, we significantly expanded the coverage of supplier\nassessment compared to the previous year. While the percentage based on spend reflects changes in procurement mix and supplier\nspend distribution within the year, the program now covers a broader set of value chain partners.\n***The assessment was conducted for 8 downstream customers.\n\n\n122\n</text>\n</passage>\n\n<passage id=\"126\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > partners) that were assessed*\n</context>\n<text>\nWorking Conditions\n*Value chain disclosures are based on the previous financial year (FY25).\n\u0007**The assessment was conducted for 50 upstream suppliers. During the year, we significantly expanded the coverage of supplier\nassessment compared to the previous year. While the percentage based on spend reflects changes in procurement mix and supplier\nspend distribution within the year, the program now covers a broader set of value chain partners.\n***The assessment was conducted for 8 downstream customers.\n\n\n122\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nPrinciple 4 \u2013 Businesses should respect the interests of and be responsive to all its stakeholders\nEssential Indicators\n1. \t Describe the processes for identifying key stakeholder groups of the entity.\n\u0007In our Stakeholder management policy, which is in line with the AA1000 Stakeholder Engagement\nStandard, we have analyzed our internal and external environment to identify stakeholders including\nindividuals, groups of individuals or organizations:\n\u2022\n\u0007Who are directly or indirectly dependent on our activities, products or services and associated\nperformance, whom we are dependent on in order to operate effectively\n\u2022\n\u0007To whom Eternal has, or in the future may have, legal, commercial, operational or ethical/ moral\nresponsibilities\n\u2022\nWho can influence or have impact on Eternal\u2019s strategic or operational decision-making\nBased on the above definition, we have identified our key stakeholders as follows:\n\u2022\nCustomers (end users, restaurant partners and business partners)\n\u2022\nEmployees\n\u2022\nVendors\n\u2022\nDelivery partners\n\u2022\nShareholders\n\u2022\nGovernment and regulators\n\u2022\nCommunity/ society\n(link to the policy)\n2. \t \u0007List stakeholder groups identified as key for your entity and the frequency of engagement with\neach stakeholder group.\n\u0007At Eternal, stakeholder engagement is done through multiple channels. We have developed engagement\nprograms that are applicable across all local operations.\nStakeholder\ngroup\nWhether\nidentified as\nvulnerable &\nmarginalized\ngroup\n(Yes/ No)\nChannels of communication\n(Email, SMS, Newspaper,\nPamphlets, Advertisement,\nCommunity meetings,\nNotice board, Website),\nOther\nFrequency of\nengagement\n(Annually/ half-\nyearly/ quarterly/\nothers \u2013 please\nspecify)\nPurpose and scope of\nengagement including key\ntopics and concerns raised\nduring such engagement\nEmployees\nNo\n\u2022 Employee newsletters\n\u2022 Intranet portal\n\u2022 Employee resource groups\n\u2022 Posters, TV screens\n\u2022 \u0007Internal communication\nchannels\n\u2022 Employee town halls\n\u2022 Employee surveys\n\u2022 Performance reviews\n\u2022 \u0007Dedicated email IDs\n(including grievance\nredressal)\n\u2022 Notice boards\nOngoing/\nContinuous\n\u2022 Employee benefits\n\u2022 \u0007Awareness about\ncompany policies\n\u2022 Employee recognition\n\u2022 Learning and development\n\u2022 \u0007Health, safety and well-\nbeing\n\u2022 \u0007Performance review and\ncareer development\n\u2022 Grievance redressal\n\u2022 Company updates\n\u2022 Community connect\n\n\n123\n</text>\n</passage>\n\n<passage id=\"127\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > during such engagement\n</context>\n<text>\n\u2022 Intranet portal\n\u2022 Employee resource groups\n\u2022 Posters, TV screens\n\u2022 \u0007Internal communication\nchannels\n\u2022 Employee town halls\n\u2022 Employee surveys\n\u2022 Performance reviews\n\u2022 \u0007Dedicated email IDs\n(including grievance\nredressal)\n\u2022 Notice boards\nOngoing/\nContinuous\n\u2022 Employee benefits\n\u2022 \u0007Awareness about\ncompany policies\n\u2022 Employee recognition\n\u2022 Learning and development\n\u2022 \u0007Health, safety and well-\nbeing\n\u2022 \u0007Performance review and\ncareer development\n\u2022 Grievance redressal\n\u2022 Company updates\n\u2022 Community connect\n\n\n123\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nStakeholder\ngroup\nWhether\nidentified as\nvulnerable &\nmarginalized\ngroup\n(Yes/ No)\nChannels of communication\n(Email, SMS, Newspaper,\nPamphlets, Advertisement,\nCommunity meetings,\nNotice board, Website),\nOther\nFrequency of\nengagement\n(Annually/ half-\nyearly/ quarterly/\nothers \u2013 please\nspecify)\nPurpose and scope of\nengagement including key\ntopics and concerns raised\nduring such engagement\nCustomers\n(end-users)\nNo\n\u2022 \u0007Zomato app and Eternal\u2019s\nwebsite\n\u2022 Customer service support\n\u2022 \u0007Customer satisfaction\nsurvey\n\u2022 Email communication\n\u2022 \u0007Online (including social\nmedia) and offline\nmarketing channels\nOngoing/\nContinuous\n\u2022 Customer feedback\n\u2022 Grievance redressal\n\u2022 Resolution of their queries\n\u2022 Advertising\nCustomer\n(Restaurants)\nNo\n\u2022 \u0007Zomato restaurant partner\napp\n\u2022 Zomato dashboard\n\u2022 Dedicated email ID\n\u2022 Account managers\n\u2022 Social media channels\nOngoing/\nContinuous\n\u2022 Onboarding support\n\u2022 Resolving queries\n\u2022 Grievance redressal\n\u2022 \u0007Discussions on ensuring\nsafe deliveries\n\u2022 \u0007Enhancing user\nexperience\n\u2022 Capturing feedback\n\u2022 \u0007Creating and updating\nmenu, pricing,\npromotions, etc.\n\u2022 \u0007Understanding and\nactivating growth levers -\ne.g. advertising\nCustomers\n(Business\npartners)\nNo\n\u2022 Dedicated email ID\nOngoing/\nContinuous\n\u2022 Customer feedback\n\u2022 Resolving queries\n\u2022 Grievance redressal\nVendors\nNo\n\u2022 Dedicated email ID\n\u2022 Vendor evaluation\n\u2022 Surveys\n\u2022 Telephonic interactions\n\u2022 Face-to-face interactions\n\u2022 \u0007Other electronic modes of\ncommunication\nOngoing/\nContinuous\n\u2022 Resolving queries\n\u2022 Assessing performance\n\u2022 \u0007Training and awareness\n(including upskilling on\nESG parameters)\n\u2022 \u0007Sharing requests and\nrequirements\n\n\n124\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The percentage coverage by training and awareness programmes on BRSR principles for the Board of Directors was 100.00% during the financial year.",
+        "confidence": 1,
+        "passage_id": 112,
+        "predicate": "training_coverage_percentage",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Board of Directors"
+          },
+          {
+            "key": "topic",
+            "provenance": "stated",
+            "value": "BRSR principles"
+          }
+        ],
+        "quote": "Board of Directors 1 \uf09f BRSR principles 100.00%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "100.00%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The percentage coverage by training and awareness programmes on BRSR principles for Key Managerial Personnel was 100.00% during the financial year.",
+        "confidence": 1,
+        "passage_id": 112,
+        "predicate": "training_coverage_percentage",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Key Managerial Personnel"
+          },
+          {
+            "key": "topic",
+            "provenance": "stated",
+            "value": "BRSR principles"
+          }
+        ],
+        "quote": "Key Managerial Personnel 6 \uf09f BRSR principles \uf09f Employee Code of Conduct (including Human rights) \uf09f Prevention of Insider Trading \uf09f Prevention of Sexual Harassment \uf09f Environment, Health & Safety \uf09f Cyber Security 100.00%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "100.00%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The percentage coverage by training and awareness programmes on BRSR principles for Employees other than BoDs and KMPs was 97.67% during the financial year.",
+        "confidence": 1,
+        "passage_id": 112,
+        "predicate": "training_coverage_percentage",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Employees other than BoDs and KMPs"
+          },
+          {
+            "key": "topic",
+            "provenance": "stated",
+            "value": "BRSR principles"
+          }
+        ],
+        "quote": "Employees other than BoDs and KMPs* 9 \uf09f BRSR principles \uf09f Human rights \uf09f Prevention of Insider Trading \uf09f Prevention of Sexual Harassment \uf09f Environment, Health & Safety \uf09f Cyber Security \uf09f Whistleblower \uf09f Anti-bribery and Anti- corruption \uf09f AI Awareness 97.67%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "97.67%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The percentage coverage by training and awareness programmes on BRSR principles for Workers was 96.32% during the financial year.",
+        "confidence": 1,
+        "passage_id": 112,
+        "predicate": "training_coverage_percentage",
+        "qualifiers": [
+          {
+            "key": "segment",
+            "provenance": "stated",
+            "value": "Workers"
+          },
+          {
+            "key": "topic",
+            "provenance": "stated",
+            "value": "BRSR principles"
+          }
+        ],
+        "quote": "Workers* 3 \uf09f BRSR principles \uf09f Human rights \uf09f Health & Safety 96.32%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "96.32%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The number of days of accounts payables was 33 in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "accounts_payable_days",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "FY 2025-26* 33",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "33"
+        }
+      },
+      {
+        "claim_text": "The number of days of accounts payables was 35 in FY 2024-25.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "accounts_payable_days",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2024-25"
+          }
+        ],
+        "quote": "FY 2024-25 35",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "35"
+        }
+      },
+      {
+        "claim_text": "The share of RPTs in purchases was 1.41% in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "rpt_purchases_share",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Share of RPTs in a. Purchases (Purchases with related parties/ Total purchases) 1.41%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.41%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The share of RPTs in purchases was 1.69% in FY 2024-25.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "rpt_purchases_share",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2024-25"
+          }
+        ],
+        "quote": "Share of RPTs in a. Purchases (Purchases with related parties/ Total purchases) 1.69%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "1.69%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The share of RPTs in sales was 0.92% in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "rpt_sales_share",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "b. Sales (Sales to related parties/ Total sales) 0.92%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.92%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The share of RPTs in sales was 0.72% in FY 2024-25.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "rpt_sales_share",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2024-25"
+          }
+        ],
+        "quote": "b. Sales (Sales to related parties/ Total sales) 0.72%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.72%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The share of RPTs in loans & advances was 100% in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "rpt_loans_advances_share",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "c. Loans & advances (Loans & advances given to related parties/ Total loans & advances)* 100%**",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "100%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The share of RPTs in loans & advances was 100% in FY 2024-25.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "rpt_loans_advances_share",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2024-25"
+          }
+        ],
+        "quote": "c. Loans & advances (Loans & advances given to related parties/ Total loans & advances)* 100%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "100%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The share of RPTs in investments was 53.28% in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "rpt_investments_share",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "d. Investments (Investments in related parties/ Total investments made)* 53.28%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "53.28%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The share of RPTs in investments was 52.22% in FY 2024-25.",
+        "confidence": 1,
+        "passage_id": 114,
+        "predicate": "rpt_investments_share",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2024-25"
+          }
+        ],
+        "quote": "d. Investments (Investments in related parties/ Total investments made)* 52.22%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "52.22%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "In FY25, 15.99% of inputs were sourced sustainably.",
+        "confidence": 1,
+        "passage_id": 117,
+        "predicate": "sustainable_sourcing_percentage",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY25"
+          }
+        ],
+        "quote": "we concluded that in FY25, 15.99% of our inputs were sourced sustainably.",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "15.99%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The cost incurred on well-being measures as a % of total revenue of the company was 0.41% in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 119,
+        "predicate": "wellbeing_cost_revenue_percentage",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Cost incurred on well-being measures as a % of total revenue of the company 0.41%*",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.41%",
+          "unit": "%"
+        }
+      },
+      {
+        "claim_text": "The cost incurred on well-being measures as a % of total revenue of the company was 0.26% in FY 2024-25.",
+        "confidence": 1,
+        "passage_id": 119,
+        "predicate": "wellbeing_cost_revenue_percentage",
+        "qualifiers": [
+          {
+            "key": "financial_year",
+            "provenance": "stated",
+            "value": "FY 2024-25"
+          }
+        ],
+        "quote": "Cost incurred on well-being measures as a % of total revenue of the company 0.26%",
+        "subject_key": null,
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "0.26%",
+          "unit": "%"
+        }
+      }
+    ]
+  }
+}

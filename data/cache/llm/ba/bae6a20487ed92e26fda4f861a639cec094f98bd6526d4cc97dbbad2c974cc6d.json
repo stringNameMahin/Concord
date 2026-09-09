@@ -1,0 +1,327 @@
+{
+  "key": "bae6a20487ed92e26fda4f861a639cec094f98bd6526d4cc97dbbad2c974cc6d",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 13 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"400\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > recoverable value\n</context>\n<text>\nSensitivity analysis for the year ended March 31, 2025 is shown below:\n(INR crores)\nSignificant unobservable inputs\n% change in input\nChange in\nrecoverable value\nWeighted Average Cost of Capital (\u201cWACC\u201d)\n(Ranging from 11% to 26%)\n(+) 5\n(971)\n(-) 5\n1,147\nTerminal growth rate\n(Ranging from 4% to 5%)\n(+) 5\n166\n(-) 5\n(157)\nRevenue multiple\n(Ranging from 1.0x to 11.9x)\n(+) 5\n321\n(-) 5\n(321)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n393\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n38 Trade payable ageing :\nOutstanding for following periods from the date of transaction / due date of payment\n(INR crores)\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nMicro\nenterprises\nand small\nenterprises\nOthers\nMicro\nenterprises\nand small\nenterprises\nOthers\nNot yet due*\n4\n580\n4\n500\nLess than 1 year\n4\n31\n3\n20\n1-2 years\n-\n3\n-\n2\n2-3 years\n-\n-\n-\n-\nMore than 3 years\n-\n-\n-\n-\nTotal\n8\n614\n7\n522\n*includes unbilled dues\n39\tTrade receivable ageing :\nOutstanding for following periods from due date of payment\n(INR crores)\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nUndisputed\n- Trade\nreceivables-\nconsidered\ngood*\nUndisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nUndisputed\n- Trade\nreceivables-\nconsidered\ngood*\nUndisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nNot yet due\n117\n-\n59\n-\nLess than 6 months\n25\n3\n53\n-\n6 months to 1 year\n-\n18\n-\n5\n1-2 years\n-\n10\n-\n8\n2-3 years\n-\n-\n-\n-\nMore than 3 years\n-\n-\n-\n-\nTotal\n142\n31\n112\n13\n* The amount of not yet due includes unbilled receivables of INR 16 crore (March 31, 2025: INR 12 crore)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n394\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"401\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > \u2013 credit\n</context>\n<text>\n\u2013 credit\nimpaired\nUndisputed\n- Trade\nreceivables-\nconsidered\ngood*\nUndisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nNot yet due\n117\n-\n59\n-\nLess than 6 months\n25\n3\n53\n-\n6 months to 1 year\n-\n18\n-\n5\n1-2 years\n-\n10\n-\n8\n2-3 years\n-\n-\n-\n-\nMore than 3 years\n-\n-\n-\n-\nTotal\n142\n31\n112\n13\n* The amount of not yet due includes unbilled receivables of INR 16 crore (March 31, 2025: INR 12 crore)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n394\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n40\tCapital work-in-progress ageing :\nProjects in progress\nAmount in capital work-in-progress for a period of\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nLess than 1 year\n1\n0\n1-2 years\n-\n-\n2-3 years\n-\n-\nMore than 3 years\n-\n-\nTotal\n1\n0\nThere is no project whose completion is overdue or has exceeded its cost compared to its original plan during\nthe year.\n41\t (a) \t During the previous year ended March 31, 2025, the Company had allotted 33,64,73,755 Equity Shares\nof face value INR 1 each to eligible Qualified Institutional Buyers (QIB) at an issue price of INR 252.62 per\nEquity Share (including a premium of INR 251.62 per Equity Share) aggregating to INR 8,500 crores, pursuant\nto Qualified Institutional Placement (QIP) in accordance with the provisions of Securities and Exchange Board\nof India (Issue of Capital and Disclosure Requirements) Regulations (the \u201cSEBI ICDR Regulations\u201d).\nFollowing are the details of utilisation of proceeds of INR 8,436 crore post meeting issue expenses of INR 64\ncrore (inclusive of Goods & Services Tax (GST) as applicable)\n(INR crores)\nAgreed Purpose\nAmount to be\nutilised as per\nprospectus\nUtilisation up to\nMarch 31, 2026\nUnutilised as on\nMarch 31, 2026*\nExpenditure towards setting up and running\noperations of Dark Stores and warehouses\n2,137\n2,137\n-\nAdvertising, marketing and branding initiatives\nacross our business offerings\n2,492\n1,433\n1,059\nInvestment in our technology infrastructure\nand capabilities, including cloud infrastructure\nand software and towards development of our\ntechnological capabilities\n1,769\n697\n1,072\nGeneral corporate purposes\n2,038\n1,332\n706\nTotal\n8,436\n5,599\n2,837\n*unutilized proceeds as on March 31, 2026 have been invested in bank and NBFC deposits, government securities and Mutual fund units.\n(b) \t During the previous year ended March 31, 2025, the Company had allotted 47,75,34,845 equity shares\n(including 3,99,52,836 bonus share) having a face value of INR 1/- each to \u2018Foodie Bay Employees ESOP\nTrust\u2019(\u201cESOP Trust\u201d), for further issuance under various Employee Stock Option Plans.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n395\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"402\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Total\n</context>\n<text>\n*unutilized proceeds as on March 31, 2026 have been invested in bank and NBFC deposits, government securities and Mutual fund units.\n(b) \t During the previous year ended March 31, 2025, the Company had allotted 47,75,34,845 equity shares\n(including 3,99,52,836 bonus share) having a face value of INR 1/- each to \u2018Foodie Bay Employees ESOP\nTrust\u2019(\u201cESOP Trust\u201d), for further issuance under various Employee Stock Option Plans.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n395\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n42\tRelationship with struck off companies under section 248 of the Companies Act, 2013\n(INR crores)\nSr.\nNo.\nName of the struck off Company\nNature of transactions\nwith struck off Company\nRelationship with the\nstruck off Company\nBalance outstanding\nas at March 31, 2026\nBalance outstanding\nas at March 31, 2025\n1\nAdhya Hospitality Services Private Limited\nAdvance from merchant\nMerchant\n0\n-\n2\nCrudex Lng Petroleum Private Limited\nAdvance from merchant\nMerchant\n0\n0\n3\nFlavoursking Hospitality Private Limited\nAdvance from merchant\nMerchant\n-\n-\n4\nFoodizen India Private Limited\nAdvance from merchant\nMerchant\n0\n0\n5\nGolmooorrich Food Services Private Limited\nAdvance from merchant\nMerchant\n-\n-\n6\nGovindkripa Reflectservices Private Limited\nAdvance from merchant\nMerchant\n-\n-\n7\nInsp Hospitality Private Limited\nAdvance from merchant\nMerchant\n-\n-\n8\nKerman'S Hospitality Service Private Limited\nAdvance from merchant\nMerchant\n-\n0\n9\nMy Muscle Meal Private Limited\nAdvance from merchant\nMerchant\n-\n0\n10\nNavgrah Hospitality Private Limited\nAdvance from merchant\nMerchant\n-\n-\n11\nNozama Hospitality (OPC) Private Limited\nAdvance from merchant\nMerchant\n-\n-\n12\nSwayam Comicbuk Private Limited\nAdvance from merchant\nMerchant\n-\n0\n13\n99 Healthlounge Private Limited\nPayable to merchant\nMerchant\n-\n-\n14\nAalbaik India Private Limited\nPayable to merchant\nMerchant\n0\n0\n15\nAbhinil Hospitality Private Limited\nPayable to merchant\nMerchant\n-\n-\n16\nAdhya Hospitality Services Private Limited\nPayable to merchant\nMerchant\n-\n-\n17\nAlhabibi Food Private Limited\nPayable to merchant\nMerchant\n0\n0\n18\nAnanya Hotels Private Limited\nPayable to merchant\nMerchant\n0\n-\n19\nArhaam Fine Dine Private Limited\nPayable to merchant\nMerchant\n-\n0\n20\nBlue Whale Ventures Private Limited\nPayable to merchant\nMerchant\n-\n-\n21\nBonjour Bonheur Holidays Private Limited\nPayable to merchant\nMerchant\n-\n-\n22\nBoston Corporation Private Limited\nPayable to merchant\nMerchant\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n396\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"403\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > as at March 31, 2025\n</context>\n<text>\nPayable to merchant\nMerchant\n0\n0\n18\nAnanya Hotels Private Limited\nPayable to merchant\nMerchant\n0\n-\n19\nArhaam Fine Dine Private Limited\nPayable to merchant\nMerchant\n-\n0\n20\nBlue Whale Ventures Private Limited\nPayable to merchant\nMerchant\n-\n-\n21\nBonjour Bonheur Holidays Private Limited\nPayable to merchant\nMerchant\n-\n-\n22\nBoston Corporation Private Limited\nPayable to merchant\nMerchant\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n396\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nSr.\nNo.\nName of the struck off Company\nNature of transactions\nwith struck off Company\nRelationship with the\nstruck off Company\nBalance outstanding\nas at March 31, 2026\nBalance outstanding\nas at March 31, 2025\n23\nCocoteros Hospitality Private Limited\nPayable to merchant\nMerchant\n-\n-\n24\nConvenant Ark Ventures Private Limited\nPayable to merchant\nMerchant\n-\n-\n25\nCrudex Lng Petroleum Private Limited\nPayable to merchant\nMerchant\n-\n-\n26\nDalchini (OPC) Private Limited\nPayable to merchant\nMerchant\n-\n-\n27\nDosursu Food Products Private Limited\nPayable to merchant\nMerchant\n0\n0\n28\nGreenox Food And Beverages Private Limited Payable to merchant\nMerchant\n-\n-\n29\nIchiban Tabemono Food And Beverages India\nPrivate Limited\nPayable to merchant\nMerchant\n0\n-\n30\nIn Green Hotels Private Limited\nPayable to merchant\nMerchant\n0\n-\n31\nKanir Consturctions Private Limited\nPayable to merchant\nMerchant\n-\n-\n32\nKeepmefit Wellness Private Limited\nPayable to merchant\nMerchant\n0\n0\n33\nKhanabadosh India Private Limited\nPayable to merchant\nMerchant\n-\n-\n34\nKin Dwell Hospitality Private Limited\nPayable to merchant\nMerchant\n0\n0\n35\nKrisa Hospitality Private Limited\nPayable to merchant\nMerchant\n-\n-\n36\nKroods Technologies Private Limited\nPayable to merchant\nMerchant\n0\n0\n37\nKrvs Business Solutions Private Limited\nPayable to merchant\nMerchant\n0\n-\n38\nKss Koncept Living Private Limited\nPayable to merchant\nMerchant\n0\n0\n39\nMarbeleven Private Limited\nPayable to merchant\nMerchant\n0\n-\n40\nMarshall Hotels Private Limited\nPayable to merchant\nMerchant\n-\n-\n41\nMegros Services Private Limited\nPayable to merchant\nMerchant\n0\n0\n42\nMntr Yummies Pizza Mart Private Limited\nPayable to merchant\nMerchant\n-\n-\n43\nMy Muscle Meal Private Limited\nPayable to merchant\nMerchant\n-\n-\n44\nNeelam Hotels Private Limited\nPayable to merchant\nMerchant\n0\n0\n45\nNewayz Hospitality And Support Services\nPrivate Limited\nPayable to merchant\nMerchant\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n397\n\n\n(INR crores)\n</text>\n</passage>\n\n<passage id=\"404\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > as at March 31, 2025\n</context>\n<text>\nMarshall Hotels Private Limited\nPayable to merchant\nMerchant\n-\n-\n41\nMegros Services Private Limited\nPayable to merchant\nMerchant\n0\n0\n42\nMntr Yummies Pizza Mart Private Limited\nPayable to merchant\nMerchant\n-\n-\n43\nMy Muscle Meal Private Limited\nPayable to merchant\nMerchant\n-\n-\n44\nNeelam Hotels Private Limited\nPayable to merchant\nMerchant\n0\n0\n45\nNewayz Hospitality And Support Services\nPrivate Limited\nPayable to merchant\nMerchant\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n397\n\n\n(INR crores)\nSr.\nNo.\nName of the struck off Company\nNature of transactions\nwith struck off Company\nRelationship with the\nstruck off Company\nBalance outstanding\nas at March 31, 2026\nBalance outstanding\nas at March 31, 2025\n46\nNozama Hospitality (Opc) Private Limited\nPayable to merchant\nMerchant\n-\n0\n47\nOm Ji Om Caterers Private Limited\nPayable to merchant\nMerchant\n0\n0\n48\nOmgourmet Nutrition Private Limited\nPayable to merchant\nMerchant\n-\n-\n49\nPan Club Hotels Private Limited\nPayable to merchant\nMerchant\n-\n-\n50\nParikh Inn Private Limited\nPayable to merchant\nMerchant\n0\n0\n51\nRadhegovind Hospitality Private Limited\nPayable to merchant\nMerchant\n0\n0\n52\nRanjit Mahaprabhu Gita (Opc) Private Limited\nPayable to merchant\nMerchant\n0\n-\n53\nRap Hotels & Resorts Private Limited\nPayable to merchant\nMerchant\n-\n-\n54\nRpm Global Solutions Private. Limited\nPayable to merchant\nMerchant\n-\n-\n55\nS T Developers Co Private Limited\nPayable to merchant\nMerchant\n-\n-\n56\nShivam Hotels Private Limited\nPayable to merchant\nMerchant\n0\n0\n57\nSimply Sweet Bakers Private Limited\nPayable to merchant\nMerchant\n0\n0\n58\nSng Hospitality Private Limited\nPayable to merchant\nMerchant\n0\n0\n59\nStar Gourmet Private Limited\nPayable to merchant\nMerchant\n-\n-\n60\nThodaaur Services Private Limited\nPayable to merchant\nMerchant\n0\n0\n61\nTrofi Hospitality Private Limited\nPayable to merchant\nMerchant\n-\n-\n62\nVanhog Restaurant & Cafe Private Limited\nPayable to merchant\nMerchant\n0\n0\n63\nVillva Foods And Beverages Private Limited\nPayable to merchant\nMerchant\n0\n-\n64\nVimora Food And Beverage India Private\nLimited\nPayable to merchant\nMerchant\n0\n0\n65\nWebplanet Iets Private Limited\nPayable to merchant\nMerchant\n-\n-\n66\nRhapsody Application Solutions Private\nLimited\nTrade Payable\nVendor\n-\n0\n67\nBabli Foods Private Limited\nTrade Receivable\nMerchant\n0\n0\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n398\n\n\n(INR crores)\n</text>\n</passage>\n\n<passage id=\"405\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > as at March 31, 2025\n</context>\n<text>\nPayable to merchant\nMerchant\n0\n-\n64\nVimora Food And Beverage India Private\nLimited\nPayable to merchant\nMerchant\n0\n0\n65\nWebplanet Iets Private Limited\nPayable to merchant\nMerchant\n-\n-\n66\nRhapsody Application Solutions Private\nLimited\nTrade Payable\nVendor\n-\n0\n67\nBabli Foods Private Limited\nTrade Receivable\nMerchant\n0\n0\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n398\n\n\n(INR crores)\nSr.\nNo.\nName of the struck off Company\nNature of transactions\nwith struck off Company\nRelationship with the\nstruck off Company\nBalance outstanding\nas at March 31, 2026\nBalance outstanding\nas at March 31, 2025\n68\nBaguette Salads Private Limited\nTrade Receivable\nMerchant\n0\n0\n69\nBbq Central Hotels Private Limited\nTrade Receivable\nMerchant\n0\n0\n70\nBuffins Milkshake Private Limited\nTrade Receivable\nMerchant\n0\n0\n71\nConvenant Ark Ventures Private Limited\nTrade Receivable\nMerchant\n0\n0\n72\nCrispbread Confectioneries Private Limited\nTrade Receivable\nMerchant\n0\n0\n73\nDeepforest Private Limited\nTrade Receivable\nMerchant\n0\n0\n74\nDsquare Foods Private Limited\nTrade Receivable\nMerchant\n0\n0\n75\nDzaprino India Private Limited\nTrade Receivable\nMerchant\n0\n0\n76\nFoodroll Private Limited\nTrade Receivable\nMerchant\n0\n0\n77\nFoodvolt Private Limited\nTrade Receivable\nMerchant\n0\n0\n78\nForesight Hospitality Private Limited\nTrade Receivable\nMerchant\n0\n0\n79\nGarden Of Taste Private Limited\nTrade Receivable\nMerchant\n0\n0\n80\nGreenox Food And Beverages Private Limited Trade Receivable\nMerchant\n-\n-\n81\nIchiban Tabemono Food And Beverages India\nPrivate Limited\nTrade Receivable\nMerchant\n0\n-\n82\nKerman'S Hospitality Service Private Limited\nTrade Receivable\nMerchant\n-\n-\n83\nKhanabadosh India Private Limited\nTrade Receivable\nMerchant\n-\n-\n84\nLegs And Wings (Qsr) Private Limited\nTrade Receivable\nMerchant\n0\n0\n85\nMaa Bhook Lagi Food Services Private\nLimited\nTrade Receivable\nMerchant\n-\n-\n86\nMahanirvana Hospitality Private Limited\nTrade Receivable\nMerchant\n0\n0\n87\nMontage Retail Private Limited\nTrade Receivable\nMerchant\n-\n-\n88\nNeelam Hotels Private Limited\nTrade Receivable\nMerchant\n0\n0\n89\nNeem Homes Private Limited\nTrade Receivable\nMerchant\n0\n0\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n399\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"406\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > as at March 31, 2025\n</context>\n<text>\nTrade Receivable\nMerchant\n-\n-\n86\nMahanirvana Hospitality Private Limited\nTrade Receivable\nMerchant\n0\n0\n87\nMontage Retail Private Limited\nTrade Receivable\nMerchant\n-\n-\n88\nNeelam Hotels Private Limited\nTrade Receivable\nMerchant\n0\n0\n89\nNeem Homes Private Limited\nTrade Receivable\nMerchant\n0\n0\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n399\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nSr.\nNo.\nName of the struck off Company\nNature of transactions\nwith struck off Company\nRelationship with the\nstruck off Company\nBalance outstanding\nas at March 31, 2026\nBalance outstanding\nas at March 31, 2025\n90\nNozama Hospitality (OPC) Private Limited\nTrade Receivable\nMerchant\n-\n-\n91\nPeedampalli Brothers Ventures Private\nLimited\nTrade Receivable\nMerchant\n-\n-\n92\nPudding And Pie India Private Limited\nTrade Receivable\nMerchant\n0\n0\n93\nPunching Dough Private Limited\nTrade Receivable\nMerchant\n0\n0\n94\nRed Chick-Bablu Gurung (Opc) Private Limited Trade Receivable\nMerchant\n0\n0\n95\nRelume Innovations Private Limited\nTrade Receivable\nMerchant\n-\n-\n96\nRumm Dinning Private Limited\nTrade Receivable\nMerchant\n0\n0\n97\nShank'S Coffee House Private Limited\nTrade Receivable\nMerchant\n0\n0\n98\nSherlocks Hotels Private Limited\nTrade Receivable\nMerchant\n0\n0\n99\nSignature Cuisines Private Limited\nTrade Receivable\nMerchant\n0\n0\n100 Simply Sweet Bakers Private Limited\nTrade Receivable\nMerchant\n-\n-\n101 Terrafix Hospitality Private Limited\nTrade Receivable\nMerchant\n-\n-\n102 Twenty Four Hour Cake Private Limited\nTrade Receivable\nMerchant\n0\n0\n103 Upssav Foods Private Limited\nTrade Receivable\nMerchant\n0\n0\n104 Veshra Restaurant Private Limited\nTrade Receivable\nMerchant\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n400\n\n\n43\tRatios :\n</text>\n</passage>\n\n<passage id=\"407\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > as at March 31, 2025\n</context>\n<text>\n0\n0\n99\nSignature Cuisines Private Limited\nTrade Receivable\nMerchant\n0\n0\n100 Simply Sweet Bakers Private Limited\nTrade Receivable\nMerchant\n-\n-\n101 Terrafix Hospitality Private Limited\nTrade Receivable\nMerchant\n-\n-\n102 Twenty Four Hour Cake Private Limited\nTrade Receivable\nMerchant\n0\n0\n103 Upssav Foods Private Limited\nTrade Receivable\nMerchant\n0\n0\n104 Veshra Restaurant Private Limited\nTrade Receivable\nMerchant\n0\n0\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n400\n\n\n43\tRatios :\nParticulars\nNumerator\nDenominator\nMarch 31, 2026\nMarch 31, 2025\nVariance\nReasons for Variance*\nCurrent ratio\n(in times)\nTotal current assets\nTotal current liabilities\n5.13\n4.12\n25%\nDebt Equity ratio^\nTotal Debt\nShareholders Equity\n0.01\n0.01\n120%\nMajorly on account of increase in\nlease liabilities\nDebt service\ncoverage ratio (in\ntimes)^\nEarnings for debt\nservice = Net profit\nafter taxes+ Non-cash\noperating expenses+\nInterest+ Other non-cash\nadjustments\nDebt service = Interest\nand lease payments +\nPrincipal repayments\n25.01\n36.75\n(32%)\nMajorly on account of increase in\nlease liabilities\nReturn on equity (%)\nNet profits after taxes\nAverage shareholder\u2019s\nequity\n7.46%\n6.89%\n8%\nTrade receivable\nturnover ratio (in\ntimes)\nRevenue from operations Average trade\nreceivable\n85.82\n95.22\n(10%)\nTrade payable\nturnover ratio (in\ntimes)\nPurchase of services and\nother expenses\nAverage trade payable\n11.18\n10.34\n8%\nNet capital turnover\nratio (in times)\nRevenue from operations Average working\ncapital\n1.68\n2.49\n(33%)\nMajorly on account of increase in\nworking capital\nNet profit (%)\nNet profit\nRevenue from\noperations\n24.36%\n22.75%\n7%\nReturn on Capital\nEmployed (%)\nEarnings before interest\nand taxes\n(\"EBIT\")\nCapital employed=\nTangible net worth+\nTotal debt+ Deferred\ntax (assets)/liabilities\n8.39%\n6.66%\n26%\nMajorly on account of increase in EBIT\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n401\n\n\nParticulars\n</text>\n</passage>\n\n<passage id=\"408\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > as at March 31, 2025\n</context>\n<text>\nMajorly on account of increase in\nworking capital\nNet profit (%)\nNet profit\nRevenue from\noperations\n24.36%\n22.75%\n7%\nReturn on Capital\nEmployed (%)\nEarnings before interest\nand taxes\n(\"EBIT\")\nCapital employed=\nTangible net worth+\nTotal debt+ Deferred\ntax (assets)/liabilities\n8.39%\n6.66%\n26%\nMajorly on account of increase in EBIT\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n401\n\n\nParticulars\nNumerator\nDenominator\nMarch 31, 2026\nMarch 31, 2025\nVariance\nReasons for Variance*\nReturn on\nInvestment (%)\n(a)\t \u0007Investment\nin Equity\ninstruments\nIncome generated from\ninvestment designated at\nFVTOCI\nTime weighted\naverage investments\n(22.43%)\n3.50%\n(741%)\nOn account of decrease in valuation\nof investments\n(b)\t \u0007Return on\ninvestment\n(treasury funds)\nInvestment income\nTime weighted\naverage investments\n7.49%\n7.50%\n0%\n(c)\t \u0007Return on\ninvestment\n(treasury funds\nincluding mark\nto market\nthrough OCI)\nInvestment income\nincluding realised &\nunrealised gains/losses\nTime weighted\naverage investments\n6.86%\n8.38%\n(18%)\n* Ratios variances have been explained for any change by more than 25% as compared to the previous year.\n^ The company does not have any borrowings. Debt Equity ratio and Debt Service coverage ratio have been computed basis lease liabilities as per Guidance note on Schedule III issued\nby the Institute of Chartered Accountants of India.\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n402\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"409\">\n<context>\n[page header]\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements\n</context>\n<text>\n* Ratios variances have been explained for any change by more than 25% as compared to the previous year.\n^ The company does not have any borrowings. Debt Equity ratio and Debt Service coverage ratio have been computed basis lease liabilities as per Guidance note on Schedule III issued\nby the Institute of Chartered Accountants of India.\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n402\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n44\t \u0007The Ministry of Corporate Affairs (MCA) introduced certain requirements, where accounting software(s)\nused by the Company should have a feature of recording audit trail of each and every transaction (effective\nApril 01, 2023). The Company has an IT environment which is adequately governed with General information\ntechnology controls (GITCs) for financial reporting process and the Company has assessed all of its IT\napplications that are relevant for maintaining books of accounts.\n\u0007The Company has used accounting software(s) for maintaining its books of account for the year ended\nMarch 31, 2026 which has a feature of recording audit trail (edit log) facility and the same has operated\nthroughout the year for all relevant transactions recorded in the software(s), except that:\n(a)\t \u0007in respect of certain accounting software(s), the audit trail log for direct data changes at database\nlevel in the software is being maintained throughout the year, at any given point in time for a period\nup to 30 days for all relevant transactions recorded in the software.\n(b)\t \u0007In respect of software(s) used for payroll processing and purchase records in which the database is\nmaintained by a third party software service provider, the Company is in the discussion with a third\nparty service provider to implement audit trail (edit log) feature at database level.\n\u0007The Company has not noted any tampering of the audit trail feature in respect of the software for which\nthe audit trail feature was operating.\n\u0007Additionally, the audit trail that was enabled and operated for the year ended March 31, 2024 and year\nended March 31, 2025, has been preserved by the Company as per the statutory requirements for record\nretention.\n45\t (a)\t \u0007No funds (which are material either individually or in the aggregate)  have been advanced or loaned or\ninvested (either from borrowed funds or share premium or any other sources or kind of funds) by the\nCompany to or in any other person(s) or entity(is), including foreign entities  (\u201cIntermediaries\u201d), with\nthe understanding, whether recorded in writing or otherwise, that the Intermediary shall, directly or\nindirectly lend or invest in other persons or entities identified in any manner whatsoever by or on behalf\nof the Company (\u201cUltimate Beneficiaries\u201d) or provide any guarantee, security or the like on behalf of\nthe Ultimate Beneficiaries.\n(b)\t \u0007No funds (which are material either individually or in the aggregate)  have been received by the Company\nfrom any person(s) or entity(is), including foreign entities  (\u201cFunding Parties\u201d), with the understanding,\nwhether recorded in writing or otherwise, that the Company shall, directly or indirectly, lend or invest\nin other persons or entities identified in any manner whatsoever by or on behalf of the Funding Party\n(\u201cUltimate Beneficiaries\u201d) or provide any guarantee, security or the like on behalf of the Ultimate\nBeneficiaries.\n46\t \u0007Based on the calculations as per section 135 of the Act, no expenditure on Corporate Social Responsibility\n(\u201cCSR\u201d) activities was required to be incurred by the Company for current as well as previous year.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n403\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"410\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements\n</context>\n<text>\nin other persons or entities identified in any manner whatsoever by or on behalf of the Funding Party\n(\u201cUltimate Beneficiaries\u201d) or provide any guarantee, security or the like on behalf of the Ultimate\nBeneficiaries.\n46\t \u0007Based on the calculations as per section 135 of the Act, no expenditure on Corporate Social Responsibility\n(\u201cCSR\u201d) activities was required to be incurred by the Company for current as well as previous year.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n403\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n47\t \u0007The Government of India, with effect from November 21, 2025, notified the Code on Social Security, 2020;\nthe Occupational Safety, Health and Working Conditions Code, 2020; the Industrial Relations Code, 2020;\nand the Code on Wages, 2019 (collectively, the \u201cLabour Codes\u201d), which replace existing central labour\nlegislations. Draft rules under the Labour Codes were released by the Ministry of Labour and Employment\non December 30, 2025 and are yet to be notified. Various State Governments have also notified state-\nspecific legislations. Based on the Company\u2019s assessment, the provisions currently in force do not have a\nmaterial impact on the financial statement of the Company. The financial impact, if any, of the remaining\nprovisions will be assessed upon notification of the final rules and their effective dates.\n48\tInformation of significant investments made in subsidiaries\nThese financial statements are separate financial statements.\nFollowing is the key information of significant investment made in subsidiaries:\n(INR crores)\nName of subsidiary\nPrincipal place of\nbusiness\n% Equity interest\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nZomato Hyperpure Private Limited\nIndia\n100%\n100%\nZomato Entertainment Private Limited\nIndia\n100%\n100%\nBlink Commerce Private Limited\nIndia\n100%\n100%\nOrbgen Technologies Private Limited\nIndia\n100%\n100%\nWasteland Entertainment Private Limited\nIndia\n100%\n100%\nThe Company has accounted for investments in the above entities at cost less impairment loss, if any.\n49 \tRecent pronouncements :\n(a) \tNewly applicable standards:\n\u0007The Ministry of Corporate Affairs has notified Companies (Indian Accounting Standards) Amendment Rules,\n2025 dated May 07, 2025, to amend Ind AS 21 relating to Lack of exchangeability and Companies (Indian\nAccounting Standards) Second Amendment Rules, 2025 dated August 13, 2025, to amend Ind AS 7 and\nInd AS 107 relating to Supplier Finance Arrangements, Ind AS 1 relating to Classification of Liabilities as\nCurrent or Non-current and Non-current Liabilities with Covenants and Ind AS 12 relating to International\nTax Reform\u2014Pillar Two Model Rules.\n\u0007These amendments are effective for annual reporting periods beginning on or after April 01, 2025. The\nCompany has applied these amendments for the first-time.\n(i)\t Amendments to Ind AS 21 - Lack of exchangeability\n\u0007The amendments specifies how an entity should assess whether a currency is exchangeable and\nhow it should determine a spot exchange rate when exchangeability is lacking. The amendments also\nrequire disclosure of information that enables users of its financial statements to understand how the\ncurrency not being exchangeable into the other currency affects, or is expected to affect, the entity\u2019s\nfinancial performance, financial position and cash flows.\nThe amendments have no impact on the Company\u2019s financial statements.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n404\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"411\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > (i)\t Amendments to Ind AS 21 - Lack of exchangeability\n</context>\n<text>\nhow it should determine a spot exchange rate when exchangeability is lacking. The amendments also\nrequire disclosure of information that enables users of its financial statements to understand how the\ncurrency not being exchangeable into the other currency affects, or is expected to affect, the entity\u2019s\nfinancial performance, financial position and cash flows.\nThe amendments have no impact on the Company\u2019s financial statements.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n404\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(ii)\t Amendments to Ind AS 7 and Ind AS 107 - Supplier Finance Arrangements\n\u0007The amendments clarify the characteristics of supplier finance arrangements and require additional\ndisclosures of such arrangements. The disclosure requirements in the amendments are intended to\nassist users of financial statements in understanding the effects of supplier finance arrangements\non an entity\u2019s liabilities, cash flows and exposure to liquidity risk.\nThe amendments have no impact on the Company\u2019s financial statements.\n(iii)\tAmendments to Ind AS 1 - Classification of Liabilities as Current or Non-current\n\u0007The amendments specify the requirements for classifying liabilities as current or non-current. The\namendments clarify:\n\u2022\nWhat is meant by a right to defer settlement\n\u2022\nThat a right to defer must exist at the end of the reporting period\n\u2022\nThat classification is unaffected by the likelihood that an entity will exercise its deferral right\n\u2022\n\u0007That only if an embedded derivative in a convertible liability is itself an equity instrument would\nthe terms of a liability not impact its classification\n\u0007In addition, an entity is required to disclose when a liability arising from a loan agreement is classified\nas non-current and the entity\u2019s right to defer settlement is contingent on compliance with future\ncovenants within twelve months.\nThe amendments have no impact on the Company\u2019s financial statements.\n(iv)\tAmendments to Ind AS 12 - International Tax Reform\u2014Pillar Two Model Rules\n\u0007The amendments have been introduced in response to the OECD\u2019s BEPS Pillar Two rules and include:\n\u2022\n\u0007A mandatory temporary exception to the recognition and disclosure of deferred taxes arising\nfrom the jurisdictional implementation of the Pillar Two model rules. This mandatory temporary\nexception needs to be applied retrospectively; and\n\u2022\n\u0007Disclosure requirements for affected entities to help users of the financial statements better\nunderstand an entity\u2019s exposure to Pillar Two income taxes arising from that legislation,\nparticularly before its effective date.\nThe amendments have no impact on the Company\u2019s financial statements.\n(b)\tStandards issued/notified but not yet effective:\n\u0007The Ministry of Corporate Affairs has notified Companies (Indian Accounting Standards) Second\nAmendment Rules, 2025 dated August 13, 2025, to amend Ind AS 1 and Ind AS 10 relating to classification\nof liabilities as Current or Non-current and Non-current liabilities with Covenants. The amendments are\neffective for annual reporting periods beginning on or after April 01, 2026.\n\u0007Amendments to Ind AS 1 and Ind AS 10 - Classification of Liabilities as Current or Non-current and\nNon-current Liabilities with Covenants\n\u0007Ind AS 10: Events after the Reporting Period has been amended to eliminate the earlier requirement to\ntreat a lender\u2019s waiver of a covenant breach, granted after the reporting date but before approval of the\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n405\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"412\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements\n</context>\n<text>\neffective for annual reporting periods beginning on or after April 01, 2026.\n\u0007Amendments to Ind AS 1 and Ind AS 10 - Classification of Liabilities as Current or Non-current and\nNon-current Liabilities with Covenants\n\u0007Ind AS 10: Events after the Reporting Period has been amended to eliminate the earlier requirement to\ntreat a lender\u2019s waiver of a covenant breach, granted after the reporting date but before approval of the\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n405\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nfinancial statements, as an adjusting event where such breach made the liability repayable on demand at\nthe reporting date.\n\u0007For annual reporting periods beginning on or after April 01, 2026, any breach of a covenant occurring on\nor before the reporting date will require the related liability to be classified as current in accordance with\nInd AS 1, unless the lender has granted a waiver of the breach on or before the reporting date and agreed\nnot to demand repayment for at least 12 months after the reporting date.\nThe amendments are not expected to have any impact on the Company\u2019s financial statements.\n(c)\tNew Income Tax Act\n\u0007The Government of India has enacted the Income-tax Act, 2025, replacing the existing Income tax Act,\n1961, effective for the financial years beginning on and after April 01, 2026. Based on management\u2019s\nassessment, the new legislation will not have any material impact on the financial statements of the\nCompany.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells\nChartered Accountants\nFirm registration number-015125N\nFor and on behalf of the Board of Directors of\nEternal Limited (formerly known as Zomato Limited)\nSd/-\nVikas Khurana\n(Partner)\nMembership No-503760\nSd/-\nKaushik Dutta\n(Chairman and\nIndependent Director)\n(DIN-03328890)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nDeepinder Goyal\n(Vice Chairman and\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n406\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The total trade payable as at March 31, 2026 is 622 INR crores.",
+        "confidence": 1,
+        "passage_id": 400,
+        "predicate": "total_trade_payable",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total 8 614",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "622",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total trade receivable as at March 31, 2026 is 173 INR crores.",
+        "confidence": 1,
+        "passage_id": 400,
+        "predicate": "total_trade_receivable",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total 142 31",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "173",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total capital work-in-progress as at March 31, 2026 is 1 INR crore.",
+        "confidence": 1,
+        "passage_id": 401,
+        "predicate": "total_capital_work_in_progress",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total 1 0",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "1",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The current ratio of the company as at March 31, 2026 is 5.13.",
+        "confidence": 1,
+        "passage_id": 407,
+        "predicate": "current_ratio",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Current ratio (in times) Total current assets Total current liabilities 5.13",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.13"
+        }
+      },
+      {
+        "claim_text": "The return on equity of the company for the year ended March 31, 2026 is 7.46%.",
+        "confidence": 1,
+        "passage_id": 407,
+        "predicate": "return_on_equity",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "inherited",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Return on equity (%) Net profits after taxes Average shareholder\u2019s equity 7.46%",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.46%"
+        }
+      },
+      {
+        "claim_text": "Zomato Hyperpure Private Limited is a subsidiary with 100% equity interest as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 410,
+        "predicate": "equity_interest",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Zomato Hyperpure Private Limited India 100%",
+        "subject_surface": "Zomato Hyperpure Private Limited",
+        "value": {
+          "kind": "quantity",
+          "raw": "100%"
+        }
+      }
+    ]
+  }
+}

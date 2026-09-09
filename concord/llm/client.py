@@ -1,5 +1,6 @@
 import json
 import random
+import threading
 import time
 from typing import Any, TypeVar
 
@@ -85,10 +86,36 @@ class LLMClient:
         self.calls = 0
         self.cache_hits = 0
         self.rotations = 0
+        self._budget = threading.Lock()
 
     @property
     def api_key(self) -> str | None:
         return self.keys[self.cursor] if self.keys else None
+
+    def _reserve(self) -> None:
+        """Claim one live request from the ceiling before sending it.
+
+        The ceiling used to be a check in `complete()` with the increment after
+        `_post` returned, which is check-then-act: batches run concurrently, so
+        three workers all read `calls == 0` against a limit of 2 and all three
+        posted. A ceiling of 2 bought 4 requests - see bug 21 in docs/status.md.
+        Reserving under a lock makes the count a claim on the budget rather
+        than a record of what was already spent, so the ceiling holds however
+        many workers are in flight.
+
+        A claim is not refunded when the request fails. A request the provider
+        received and rejected still consumed quota, and the point of this
+        counter is what leaves the machine, not what came back usable.
+        """
+        with self._budget:
+            if self.max_calls and self.calls >= self.max_calls:
+                raise BudgetExhausted(
+                    f"stopped after {self.calls} live requests, the limit set by "
+                    f"CONCORD_MAX_CALLS. {self.cache_hits} came from cache and cost "
+                    "nothing. Raise the limit, or set it to 0 for no limit, if this "
+                    "run is meant to be this large."
+                )
+            self.calls += 1
 
     def _rotate(self) -> bool:
         """Move to the next key. Returns False once every key has been tried.
@@ -124,16 +151,9 @@ class LLMClient:
             )
         if not self.api_key:
             raise LLMError("no API key; set GEMINI_API_KEY or run with CONCORD_OFFLINE=1")
-        if self.max_calls and self.calls >= self.max_calls:
-            raise BudgetExhausted(
-                f"stopped after {self.calls} live requests, the limit set by "
-                f"CONCORD_MAX_CALLS. {self.cache_hits} came from cache and cost "
-                "nothing. Raise the limit, or set it to 0 for no limit, if this "
-                "run is meant to be this large."
-            )
 
+        self._reserve()
         raw = self._post(payload)
-        self.calls += 1
         try:
             parsed = schema.model_validate_json(raw)
         except ValidationError as exc:
@@ -155,8 +175,16 @@ class LLMClient:
         last: Exception | None = None
 
         attempt = 0
+        sent = 0
         while attempt < self.max_attempts:
             try:
+                # The caller reserved the first send. A retry and a key
+                # rotation are each another request over the wire, so each
+                # claims its own slot: a rate-limited batch that retried five
+                # times used to register as one call and cost five.
+                if sent:
+                    self._reserve()
+                sent += 1
                 response = httpx.post(
                     url,
                     json=body,

@@ -1,0 +1,578 @@
+{
+  "key": "be332d1b19d83b0d009de8ec76fd4238b3ac3b932034e075af8a88ed9f64fe9b",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"144\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Office waste management\n</context>\n<text>\n\u0007We continue to invest in innovative and sustainable waste management practices. For example,\nin FY26, we onboarded Padcare as our menstrual waste management vendor across our offices.\nPadcare collects used sanitary pads and recycles them into hygienic pulp and plastic, offering a safer\nalternative to landfilling and incineration.\n\u0007In line with our environmental best practices, our Gurugram and Bengaluru offices hold ISO 14001\ncertification, demonstrating our commitment to effective environmental management.\n\n\n140\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nValue chain waste management\n\u0007Packaging and food waste are the two kinds of waste associated with food delivery orders sent by\nrestaurants to end-consumers via the Zomato platform. Restaurants choose the kind of packaging they\nwish to use to deliver food. Restaurant practices also determine the amount of waste generated in the\ncooking process. End-consumers control the number of orders they may place, cancellation decisions and\nprocess of disposal of packaging and leftovers (after consuming food). We run several voluntary initiatives\nto positively influence behaviours of both stakeholders with respect to waste management.\n\uf09f\nReducing food and cutlery waste\n\uf0a7\n\u0007The Zomato app offers consumers the option of making special requests at the time of ordering,\nincluding a request to the restaurant not to send cutlery, thereby reducing cutlery waste. Between\nFY22 and FY26, this initiative has helped avoid over 3,000 MT of cutlery waste.\n\uf0a7\n\u0007Additionally, The \u2018Food Rescue\u2019 initiative further addresses food wastage by making canceled\norders available for nearby customers in their original untampered packaging at discounted\nprices. Since launch in FY25, Zomato\u2019s Food Rescue feature has helped prevent over 7.5 lakh kg\nof food waste by diverting cancelled orders to interested buyers (assuming each order weighs\napproximately 400g).\n\uf09f\n\u0007Rewarding adopters and innovators of sustainable packaging\n\uf0a7\n\u0007We introduced the Zomato Plastic-Free Future Program in December 2024 for restaurant partners\nactively adopting sustainable alternatives to plastic packaging for food deliveries. To recognize\ntheir efforts, these restaurants now carry a prominent \u2018Low plastic packaging\u2019 tag on their menu\npages, banners and a clear label in the order summary, making it easy for customers to identify\nthese restaurants. Customers can also discover these restaurants faster by typing \u2018Low plastic\npackaging\u2019 in the search bar or using the \u2018Low plastic packaging\u2019 filter option. As of March 31st\n2026, over 100 million \u2018Low plastic packaging\u2019 orders had been delivered from restaurants that\nhad signed up to the Plastic-Free Future Program.\n\uf0a7\n\u0007To promote innovation on alternatives to plastic packaging for the food delivery use-case, we\nrun an annual event on sustainable packaging bringing start-up innovators and restaurateurs to\nthe same platform. In FY26, Zomato Plastic-Free Future Packathon was held in partnership with\nStartup India and Hyperpure by Zomato attracting applications from more than 125 sustainable\npackaging start-ups all over India.\n\uf09f\nVoluntary recycling\n\uf0a7\n\u0007Plastic continues to play an important role in packaging for food deliveries for a few important\nreasons. Many restaurants, especially those that offer Indian and Oriental cuisine, choose plastic\ncontainers, trays and bottles for food deliveries on account of lack of suitable sustainable\nalternatives for liquids and \u2018wet\u2019 cuisine such as  gravies, soups and beverages. Apart from\nfunctional reasons, plastic is relatively affordable and more available across India. In order to\noffset the impact of plastic packaging used by restaurants on the environment, in FY23, we\nlaunched a voluntary plastic waste recycling initiative called the 100% plastic neutral deliveries\ninitiative. Since launch, Eternal has voluntarily recycled 60,000 MT of plastic waste from FY23-\nFY26 (15,000 MT was recycled in FY26 alone) fully meeting the target of 100% plastic neutral\n</text>\n</passage>\n\n<passage id=\"145\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Voluntary recycling\n</context>\n<text>\nalternatives for liquids and \u2018wet\u2019 cuisine such as  gravies, soups and beverages. Apart from\nfunctional reasons, plastic is relatively affordable and more available across India. In order to\noffset the impact of plastic packaging used by restaurants on the environment, in FY23, we\nlaunched a voluntary plastic waste recycling initiative called the 100% plastic neutral deliveries\ninitiative. Since launch, Eternal has voluntarily recycled 60,000 MT of plastic waste from FY23-\nFY26 (15,000 MT was recycled in FY26 alone) fully meeting the target of 100% plastic neutral\ndeliveries as per independent estimates.\n\n\n141\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n11. \t \u0007If the entity has operations/ offices in/ around ecologically sensitive areas (such as national\nparks, wildlife sanctuaries, biosphere reserves, wetlands, biodiversity hotspots, forests, coastal\nregulation zones, etc.) where environmental approvals/ clearances are required, please specify\ndetails in the following format:\nEternal does not have any offices in/ around ecologically sensitive areas.\n12.\t \u0007Details of Environmental Impact Assessments of projects undertaken by the entity based on\napplicable laws, in the current financial year:\nNot applicable.\n13. \t\u0007Is the entity compliant with the applicable environmental law/ regulations/ guidelines in India;\nsuch as the Water (prevention and control of pollution) Act, Air (prevention and control of\npollution) Act, Environment Protection Act, and rules thereunder (Y/ N). If not, provide details\nof all such non-compliances, in the following format:\nYes.\nLeadership Indicators\n2. \t Please provide details of total Scope 3 emissions & its intensity, in the following format:\nParameter\nUnit\nFY 2025-26*\nFY 2024-25\nTotal Scope 3 emissions (Break-up of the\nGHG into CO2, CH4, N2O, HFCs, PFCs, SF6,\nNF3, if available)\nMetric tonnes of\nCO2 equivalent\n1,47,101.39 tCO2e 1,32,089.34 tCO2e\nTotal Scope 3 emissions per rupee of\nturnover\nMetric tonnes of\nCO2 equivalent\n0.0000013496779\ntCO2e/ Rupee of\nturnover\n0.0000015328924\ntCO2e/ Rupee of\nturnover\nTotal Scope 3 emission intensity (optional) \u2013 the\nrelevant metric may be selected by the entity\n-\n-\n\u0007*Scope 3 emissions are calculated using emission factors sourced from the India GHG Program, the UK Department for Environment,\nFood & Rural Affairs (DEFRA), USEPA- EEIO Emission factors Version 1.3, and the Central Electricity Authority (CEA) 2025 emission\nfactors.\n\u0007Note: Indicate if any independent assessment/ evaluation/ assurance has been carried out by an external\nagency? (Y/ N) If yes, name of the external agency.\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n\n\n142\n</text>\n</passage>\n\n<passage id=\"146\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > turnover\n</context>\n<text>\nrelevant metric may be selected by the entity\n-\n-\n\u0007*Scope 3 emissions are calculated using emission factors sourced from the India GHG Program, the UK Department for Environment,\nFood & Rural Affairs (DEFRA), USEPA- EEIO Emission factors Version 1.3, and the Central Electricity Authority (CEA) 2025 emission\nfactors.\n\u0007Note: Indicate if any independent assessment/ evaluation/ assurance has been carried out by an external\nagency? (Y/ N) If yes, name of the external agency.\nYes, assured by Deloitte Haskins & Sells LLP for FY26.\n\n\n142\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n4. \t \u0007If the entity has undertaken any specific initiatives or used innovative technology or solutions\nto improve resource efficiency, or reduce impact due to emissions / effluent discharge/waste\ngenerated, please provide details of the same as well as the outcome of such initiatives, as per\nthe following format:\n\u0007Eternal Limited (formerly known as Zomato Limited) is a technology platform services provider and\ndoes not produce any physical products. Eternal has minimal environmental impacts through its direct\noperations. The initiatives below describe voluntary initiatives taken within our value chain featured under\n\u2018Climate action and circular economy\u2019 material topic to minimize environmental impacts across our value\nchain - both upstream (suppliers) and downstream (customers):\nS. No Initiative\nundertaken\nDetails of the initiative (Web-link, if any, may be\nprovided along-with summary)\nOutcome of the initiative\n1.\nTransition to\nEV-based food\ndeliveries\nOur key climate mitigation action is to support\ndelivery partners in transitioning to EV bikes\nto undertake food deliveries. Towards this\ngoal, we invest in creating awareness about\nEVs among delivery partners, partner with EV\necosystem players to secure their access to EVs\non rent & and advocate for better EV products,\ninfrastructure and financing.\nEV awareness:\n\uf09f\n\u0007Communication channels- We release\nengaging videos on our \u2018Zomato Delivery\nPartners\u2019 youtube channel to generate\nawareness among delivery partners about\nthe benefits of using EVs for deliveries.\nThis channel is very popular among delivery\npartners. We also have a communication\nhub on Zomato\u2019s delivery partner app that\nupdates partners on initiatives that can be\nbeneficial, including new EV partnerships,\nfinancial products and offers for owning an\nEV bike.\n\uf09f\n\u0007EV Bazaar- We bridge the gaps between\ndelivery partners and EV ecosystem\nproviders, through on-ground events like EV\nmelas and bazaars. In September 2025, we\norganized the second edition of EV Bazaar in\nBengaluru.\nEV awareness:\n\uf09f\n\u0007Communication channels- In FY26,\ndelivery partners were made aware of the\nbenefits of transitioning to EVs through\nmultiple engaging videos on the YouTube\nchannel, EV campaigns launched within\nthe Zomato delivery partner app and\nalso through notifications. A total of 20\nEV-related awareness videos have been\nreleased for delivery partners resulting in\nover 4,00,000 views. In FY26, we launched\nfive EV campaigns, engaging 10 lakh+\ndelivery partners and generated over 96\nlakh impressions.\n\uf09f\n\u0007EV Bazaar- The second edition of EV\nbazaar event in Bengaluru was attended\nby more than 1,000 delivery partners and\nmore than 20 ecosystem providers which\nhelped enhance their awareness about the\nEV ecosystem. Since its inception, the EV\nBazaar initiative has achieved significant\noutreach, engaging over 2,000 delivery\npartners and more than 20 ecosystem\nproviders across Delhi and Bengaluru.\n\n\n143\n</text>\n</passage>\n\n<passage id=\"147\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > turnover\n</context>\n<text>\nover 4,00,000 views. In FY26, we launched\nfive EV campaigns, engaging 10 lakh+\ndelivery partners and generated over 96\nlakh impressions.\n\uf09f\n\u0007EV Bazaar- The second edition of EV\nbazaar event in Bengaluru was attended\nby more than 1,000 delivery partners and\nmore than 20 ecosystem providers which\nhelped enhance their awareness about the\nEV ecosystem. Since its inception, the EV\nBazaar initiative has achieved significant\noutreach, engaging over 2,000 delivery\npartners and more than 20 ecosystem\nproviders across Delhi and Bengaluru.\n\n\n143\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nS. No Initiative\nundertaken\nDetails of the initiative (Web-link, if any, may be\nprovided along-with summary)\nOutcome of the initiative\nTransition to\nEV-based food\ndeliveries\nEV access (via partnerships):\n\uf09f\n\u0007We established partnership with EV rental,\nfinancing, swapping and logistics companies\nto help in facilitating seamless access to EVs\non rent.\n\uf09f\n\u0007We launched the Zomato EV rental fleet\nacross Delhi and Chennai to make electric\nvehicles more accessible for our delivery\npartners.\nEV advocacy:\n\uf09f\n\u0007We continuously advocate for better EV\nproducts, infrastructure and financing for\ndelivery partners. We are a part of global\ncoalitions on EVs including the Climate\nGroup\u2019s EV100 initiative and the UNEP\nsupported Deliver-e Coalition. We regularly\ncontribute to stakeholder consultations\nfacilitated by central, state and city-level\ngovernment on the topic of EVs.\nEV access (via partnerships):\n\uf09f\n\u0007We collaborate with EV ecosystem players\nto secure access for delivery partners to\nEVs on rent and advocate for better EV\nproducts, infrastructure and financing.\nIt enabled delivery partners to view and\nbook EVs on rent through the \u2018Rent an EV\u2019\nfeature on their app. They are also able\nto view conveniently located charging\nand swapping points that fall in their zone\ndirectly on the delivery partner app. 23,675\ndelivery partners have rented EVs via the\n\u201cRent an EV\u201d feature in FY26, totaling to\n48,686 rentals since its launch in FY25.\n\uf09f\n\u0007As of March 2026, more than 1,500 EVs\nhave been deployed across Delhi and\nChennai under the Zomato EV rental fleet\ninitiative.\nEV advocacy:\n\uf09f\n\u0007Through participation in global EV\ncoalitions such as Climate Group\u2019s EV100\nand the UNEP supported Deliver-E\nCoalition, the company enabled cross-\nindustry collaboration, shared best\npractices, and contributed to scalable\nsolutions for key EV adoption challenges\nacross last-mile logistics, including\ncharging infrastructure, financing, and\noperational accessibility. Engagement with\ngovernment stakeholders at central and\nstate levels also supported policy dialogue\nfor strengthening the EV ecosystem in last-\nmile logistics.\nOur above initiatives across EV awareness,\naccess and advocacy to support delivery\npartners in transitioning to electric bikes for\nundertaking food deliveries have led to the\nfollowing outcomes:\n\uf09f\n\u0007Our monthly active EV-based delivery fleet\nas on March 2026 stood at 63,435 which is\n~70% increase since March 2025.\n\uf09f\n\u000713.5% of our food delivery orders were\ndelivered by EVs in FY26, helping avoid\n7,304 tCO2e (scope 3) emissions.\n\uf09f\n\u0007In FY26, our last-mile delivery emissions\non a per km basis reduced by 11.77 %\ncompared to FY22.\n2.\nClimate\nadaptation\nsupport for\ndelivery\npartners\nAutomatic weather stations:\n\uf09f\n\u0007We have been building a proprietary network\nof onground weather stations that provides\nprecise and real-time data on key weather\nparameters such as temperature, wind\nspeed, rainfall, etc. This initiative supports\ninformed business decisions to better serve\nour customers and delivery partners under\nvarious climatic conditions.\nAutomatic weather stations:\n\uf09f\n\u0007In FY26, we expanded our Automated\nWeather Stations (AWS) network to 1,150\ndevices across 100 cities to guide business\ndecisions and to predict and communicate\nweather conditions to our delivery\npartners.\n\n\n144\n</text>\n</passage>\n\n<passage id=\"148\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > turnover\n</context>\n<text>\nof onground weather stations that provides\nprecise and real-time data on key weather\nparameters such as temperature, wind\nspeed, rainfall, etc. This initiative supports\ninformed business decisions to better serve\nour customers and delivery partners under\nvarious climatic conditions.\nAutomatic weather stations:\n\uf09f\n\u0007In FY26, we expanded our Automated\nWeather Stations (AWS) network to 1,150\ndevices across 100 cities to guide business\ndecisions and to predict and communicate\nweather conditions to our delivery\npartners.\n\n\n144\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nS. No Initiative\nundertaken\nDetails of the initiative (Web-link, if any, may be\nprovided along-with summary)\nOutcome of the initiative\n3.\nVoluntary\nrecycling\n\uf09f\n\u0007In FY23, Zomato app launched the 100%\nPlastic Neutral Deliveries initiative. While\nthe choice of packaging used for food\ndeliveries rests with our restaurant partners,\nwe are committed to mitigating the impact\nof this packaging on the environment\nthrough voluntary recycling. To estimate the\nvolume of plastic used by restaurants for\npackaging, we engaged an expert third party\nto review data from orders by dish type,\nrestaurant location and price of meals. This\ndata was supplemented by an independent\nsurvey of the packaging practices of over\n600 restaurants. Zomato then engaged\nauthorized waste management agencies to\nundertake recycling of plastic waste equal\nto the volume estimated by the third party\nstudy of restaurant packaging.\nRefer to this link for further details\n\uf09f\n\u0007Since launch, Eternal has voluntarily\nrecycled 60,000 MT of plastic waste from\nFY23- FY26 (15,000 MT was recycled in\nFY26 alone) fully meeting the target of\n100% plastic neutral deliveries as per\nindependent estimates.\n4.\nRewarding\nadopters and\ninnovators of\nsustainable\npackaging\n\uf09f\n\u0007Plastic-Free Future Program: Restaurant\npartners choose and procure their own\npackaging for food delivery based on cuisine\ntype, brand and budget. We introduced\nthe Zomato Plastic-Free Future Program\nin December 2024 to recognise restaurant\npartners actively adopting alternatives to\nplastic packaging for food deliveries.\n\u0007To recognize their efforts, these\nrestaurants now carry a prominent \u2018low\nplastic packaging\u2019 tag on their menu pages,\nbanners, and a clear label in the order\nsummary, making it easy for customers to\nidentify these restaurants. Customers can\nalso discover these restaurants faster by\ntyping \u2018low plastic packaging\u2019 in the search\nbar or by using the \u2018low plastic packaging\u2019\nfilter option.\n\u0007Our aim is to motivate more restaurants to\nmake the switch from plastic to sustainable\npackaging alternatives while making it\neasier for environment-conscious and/or\npackaging-conscious customers to discover\nand order from these restaurants easily. A\nsurge in customer awareness and usage is\nlikely to drive greater adoption of sustainable\npackaging among restaurants.\n(Link: Plastic-Free Future Program)\n\uf09f\n\u0007Plastic-Free Future Program: More than\n350 restaurant brands, representing\n10,000+ restaurants across 500+ cities\nlisted on the Zomato app have already\njoined the program by submitting detailed\nevidence of their packaging, including\nphotos and certificates, confirming their\nmain menu items are being packed in\nsustainable alternatives. As of March\n31st 2026, over 100 million \u2018low plastic\npackaging\u2019 orders had been delivered\nfrom restaurants that had signed up to the\nPlastic-Free Future Program.\n\n\n145\n</text>\n</passage>\n\n<passage id=\"149\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > turnover\n</context>\n<text>\n\u0007Plastic-Free Future Program: More than\n350 restaurant brands, representing\n10,000+ restaurants across 500+ cities\nlisted on the Zomato app have already\njoined the program by submitting detailed\nevidence of their packaging, including\nphotos and certificates, confirming their\nmain menu items are being packed in\nsustainable alternatives. As of March\n31st 2026, over 100 million \u2018low plastic\npackaging\u2019 orders had been delivered\nfrom restaurants that had signed up to the\nPlastic-Free Future Program.\n\n\n145\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nS. No Initiative\nundertaken\nDetails of the initiative (Web-link, if any, may be\nprovided along-with summary)\nOutcome of the initiative\nRewarding\nadopters and\ninnovators of\nsustainable\npackaging\n\uf09f\n\u0007Plastic Free Future Packathon: While\nrestaurants choose their own packaging,\nalternatives to plastic packaging are limited\nin the market. To promote innovation\non alternatives to plastic packaging for\nthe food delivery use-case, we run the\nZomato Plastic-Free Future Packathon\nin partnership with Startup India and\nHyperpure by Zomato which serves over\n2.6 lakh+ restaurants. This annual contest\nsurfaces and spotlights startups working on\ninnovative sustainable packaging solutions\nfor food delivery.\n\uf09f\n\u0007Plastic Free Future Packathon: The\nsecond edition of the Packathon\nrecognized two winners across two\ncategories - ready-to-scale and prototype\n- from 128 applicants from 21 states. 47\nstart-ups were led by women.\n\u0007Ready-to-scale startup winners Imaga\nand Go Do Good showcased bamboo\nfiber-based food delivery packaging that\ncan effectively pack oily food items, and\nplant-based barrier coatings that are oil\nand grease resistant respectively. In the\nprototype category, Agrileaf Exports\npresented takeaway containers made\nof areca palm leaves with heat-sealable\nlids, and Earthworks Biomat showcased\ndeliveryware made from natural fibers and\nbiopolymers derived from agri-waste.\n\u0007Additionally, we presented the first Zomato\nPlastic-Free Packaging Awards to 24\nnational and regional restaurant brands that\nhave successfully shifted to sustainable\npackaging alternatives while ensuring a high-\nquality customer experience.\n\u0007Across the two editions of the Zomato\nPackathon, many exciting innovative\nsolutions have been highlighted, including\nedible cutlery, barrier coatings made of\nplant-based gums and seaweed and patented\ncarry bags made of agri-waste. These\ninnovations were displayed to all attendees\nthrough an extensive exhibition featuring\n41 enterprises working on plastic-free\npackaging solutions for food delivery. In\nFY26, Zomato Plastic-Free Future Packathon\nwas held in partnership with Startup India\nand Hyperpure by Zomato attracting\napplications from more than 125 sustainable\npackaging start-ups all over India.\n\u0007The Zomato Plastic-Free Future Program\n(and the Zomato Packathon) is a one-of-a-\nkind initiative by a food delivery platform\nglobally to actively encourage the restaurant\nindustry to adopt sustainable alternatives\nwhile working on unlocking progress for the\nIndian sustainable packaging ecosystem.\n5.\nReducing food\nand cutlery\nwaste\n\uf09f\n\u0007Reducing cutlery waste: The Zomato app\noffers consumers the option of making\nspecial requests at the time of ordering,\nincluding a request to the restaurant not to\nsend cutlery, thereby reducing cutlery waste.\n\uf09f\n\u0007Food rescue initiative: Food wastage is a\nsignificant challenge, given that every month,\naround 4,00,000 perfectly good orders already\non their way to customers are canceled on the\nZomato app. To reduce this food wastage, we\nintroduced \u2018Food Rescue\u2019, an initiative that\nmakes canceled orders available for nearby\ncustomers in their original untampered\npackaging at unbeatable prices within minutes.\n\uf09f\n\u0007Reducing cutlery waste: Between FY22\nand FY26, this initiative has helped avoid\nover 3,000 MT of cutlery waste in total.\n\uf09f\n\u0007Food rescue initiative: Since launch in\nFY25, Zomato\u2019s Food Rescue feature has\nhelped prevent over 7.5 lakh kg of food\nwaste by diverting cancelled orders to\n</text>\n</passage>\n\n<passage id=\"150\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > turnover\n</context>\n<text>\nZomato app. To reduce this food wastage, we\nintroduced \u2018Food Rescue\u2019, an initiative that\nmakes canceled orders available for nearby\ncustomers in their original untampered\npackaging at unbeatable prices within minutes.\n\uf09f\n\u0007Reducing cutlery waste: Between FY22\nand FY26, this initiative has helped avoid\nover 3,000 MT of cutlery waste in total.\n\uf09f\n\u0007Food rescue initiative: Since launch in\nFY25, Zomato\u2019s Food Rescue feature has\nhelped prevent over 7.5 lakh kg of food\nwaste by diverting cancelled orders to\ninterested buyers (assuming each order\nweighs approximately 400g).\n\n\n146\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n5.\t \u0007Does the entity have a business continuity and disaster management plan? Give details in 100\nwords/ web link.\n\u0007Yes. Eternal Limited has established a Business Continuity Management (BCM) Program, which includes\nformal Business Continuity and Crisis Management plans. The framework is designed to proactively\nidentify threats and mitigate risks associated with potential business disruptions (including climate). Our\nprogram includes regular Risk Assessments and Business Impact Analysis (BIA) to evaluate and manage\nfinancial, operational and reputational consequences. The plans define clear recovery strategies to ensure\nthe swift restoration of critical business operations (including technology systems). Furthermore, we\nmaintain organizational readiness through periodic testing, training and oversight by a dedicated team.\n6. \t \u0007Disclose any significant adverse impact to the environment, arising from the value chain of  the\nentity. What mitigation or adaptation measures have been taken by the entity in this regard.\n\u0007Eternal\u2019s value chain does not have any adverse impact on the environment. We proactively help our value\nchain partners in reducing their environmental impact through collaborative efforts. These initiatives have\nbeen described in the above table (Principle 6, Leadership indicator 4).\n7. \t \u0007Percentage of value chain partners (by value of business done with such partners) that were\nassessed for environmental impacts.\n% of value chain partners\n(by value of business done with such partners) that were assessed*\nEnvironmental impacts\n16.95% by total spend on suppliers (upstream)**\n5.08% by total revenue from restaurant partners (downstream)***\n*Value chain disclosures are based on the previous financial year (FY25).\n\u0007**The assessment was conducted for 50 upstream suppliers. During the year, we significantly expanded the coverage of supplier\nassessment compared to the previous year. While the percentage based on spend reflects changes in procurement mix and supplier\nspend distribution within the year, the program now covers a broader set of value chain partners.\n***The assessment was conducted for 8 downstream customers.\nPrinciple 7 \u2013 Businesses, when engaging in influencing public and regulatory policy, should do so in a\nmanner that is responsible and transparent\nEssential Indicators\n1. \t a. \t Number of affiliations with trade and industry chambers/ associations.\n\u0007Eternal Limited (formerly known as Zomato Limited) was affiliated with/ participated in discussions\nwith six industry bodies.\nb. \t \u0007List the top 10 trade and industry chambers/ associations (determined based on the total\nmembers of such a body) the entity is a member of/ affiliated to.\nS.\nNo.\nName of the trade and industry chambers/\nassociations\nReach of trade and industry chambers/\nassociations (State/ National)\n1.\nInternet and Mobile Association of India (IAMAI)\nNational\n2.\nFederation of Indian Chambers of Commerce and\nIndustry (FICCI)\nNational\n3.\nTechnology Services Industry Association\n(Indiatech.org)\nNational\n4.\nNational Association of Software and Service\nCompanies (NASSCOM)\nNational\n5.\nConfederation of Indian Industry (CII)\nNational\n6.\nPHD Chamber of Commerce and Industry\n(PHDCCI)*\nNational\n*Membership existed until December 2025\n\n\n147\n</text>\n</passage>\n\n<passage id=\"151\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Reach of trade and industry chambers/\n</context>\n<text>\nReach of trade and industry chambers/\nassociations (State/ National)\n1.\nInternet and Mobile Association of India (IAMAI)\nNational\n2.\nFederation of Indian Chambers of Commerce and\nIndustry (FICCI)\nNational\n3.\nTechnology Services Industry Association\n(Indiatech.org)\nNational\n4.\nNational Association of Software and Service\nCompanies (NASSCOM)\nNational\n5.\nConfederation of Indian Industry (CII)\nNational\n6.\nPHD Chamber of Commerce and Industry\n(PHDCCI)*\nNational\n*Membership existed until December 2025\n\n\n147\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n2. \t \u0007Provide details of corrective action taken or underway on any issues related to anti-competitive\nconduct by the entity, based on adverse orders from regulatory authorities.\nName of authority\nBrief of the case\nCorrective action taken\nNone. No adverse order received by the Company from regulatory authorities in FY26*.\n\u0007*During the year ended March 31, 2022, the Company received an order under Section 26(1) of the Competition Act, 2002, under\nwhich the Hon\u2019ble Competition Commission of India (CCI) initiated an investigation into certain aspects of the Company\u2019s business.\nThe Company continues to work closely with the Hon\u2019ble CCI to assist them with their inquiry and explain to the Hon\u2019ble CCI why all\nits practices are in compliance with competition laws and do not have any adverse effect on competition in India.\nLeadership Indicators\n1. \t Details of public policy positions advocated by the entity:\nS.\nNo.\nPublic policy\nadvocated\nMethod resorted for such\nadvocacy\nWhether\ninformation\navailable in\nthe public\ndomain?\n(Yes/ No)\nFrequency of\nreview by board\n(Annually/ half\nyearly/ quarterly/\nothers \u2013 please\nspecify)\nWeb-link, if available\n1.\nProvided inputs on\nDirection No. 94 of\nthe Commission\nfor Air Quality\nManagement\n(CAQM)\nEternal, along with other\nindustry stakeholders,\nparticipated in\nconsultations on Direction\nNo. 94 issued by the CAQM.\nYes\n-\nhttps://www.pib.gov.\nin/PressReleasePage.\naspx?PRID=2207584&reg=3&lang=2\n2.\nProvided inputs on\ndraft rules under\nthe four labor\ncodes, Code on\nSocial Security,\n2020; Code on\nWages, 2019;\nOccupational\nSafety, Health and\nWorking Conditions\nCode, 2020; and\nIndustrial Relations\nCode, 2020\nAs part of pre-legislative\nconsultation, Eternal\nprovided comments to\nthe Ministry of Labour\nand Employment on the\nsubordinate draft rules\nunder the four labor codes.\nYes\n-\nhttps://sansad.in/getFile/\nannex/270/AU746_c4wglH.\npdf?source=pqars#:~:text=(a)%20\nto%20(d):,for%20consultations%20\non%20draft%20Rules\n3.\nProvided inputs to\nstate governments\nincluding\nKarnataka,\nTelangana,\nJharkhand and\nMaharashtra on\ntheir draft policies\non gig work\nEternal participated in\ngovernment consultations\nand provided inputs to\nrelevant state government\nauthorities towards state-\nlevel drafts on gig work.\nYes\n-\nhttps://www.deccanherald.com/\nindia/karnataka/gig-workers-act-\nrules-soon-cess-quantum-yet-to-\nbe-decided-by-karnataka-labour-\ndepartment-3775313\nhttps://www.deccanchronicle.\ncom/southern-states/telangana/\ntelangana-cabinet-approves-\nwelfare-law-for-gig-and-platform-\nworkers-1917754\nhttps://www.thehindu.com/\nincoming/platforms-decry-\njharkhand-gig-worker-bills-gross-\nrevenue-benchmark-for-welfare-\ncontributions/article69988836.\nece#google_vignette\nhttps://www.hindustantimes.com/\ncities/mumbai-news/state-plans-\nto-bring-gig-workers-under-social-\nsecurity-net-101754853158843.html\nhttps://www.financialexpress.com/\nbusiness/news/karnataka-notifies-\ngig-workers-welfare-board-uber-\nporter-zomato-and-amazon-to-\nrepresent-industry/4120867/\n\n\n148\n</text>\n</passage>\n\n<passage id=\"152\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Corrective action taken\n</context>\n<text>\nwelfare-law-for-gig-and-platform-\nworkers-1917754\nhttps://www.thehindu.com/\nincoming/platforms-decry-\njharkhand-gig-worker-bills-gross-\nrevenue-benchmark-for-welfare-\ncontributions/article69988836.\nece#google_vignette\nhttps://www.hindustantimes.com/\ncities/mumbai-news/state-plans-\nto-bring-gig-workers-under-social-\nsecurity-net-101754853158843.html\nhttps://www.financialexpress.com/\nbusiness/news/karnataka-notifies-\ngig-workers-welfare-board-uber-\nporter-zomato-and-amazon-to-\nrepresent-industry/4120867/\n\n\n148\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nS.\nNo.\nPublic policy\nadvocated\nMethod resorted for such\nadvocacy\nWhether\ninformation\navailable in\nthe public\ndomain?\n(Yes/ No)\nFrequency of\nreview by board\n(Annually/ half\nyearly/ quarterly/\nothers \u2013 please\nspecify)\nWeb-link, if available\n4.\nProvided inputs on\nDraft Guidelines\nfor Prevention,\nRegulation and\nRemediation\nof Fake Online\nConsumer Reviews,\n2024\nEternal participated in\ngovernment consultations\nand provided comments\nto the Department of\nConsumer Affairs as part\nof the pre-legislative\nconsultation.\nYes\n-\nhttps://www.hindustantimes.\ncom/india-news/govt-to-invoke-\nnew-regulation-to-combat-\nfake-reviews-on-e-com-\nsites-101715802457465.html\nhttps://sansad.in/getFile/\nloksabhaquestions/\nannex/185/AU4442_BLYB4U.\npdf?source=pqals&utm_\n5.\nProvided inputs on\nDraft Environment\nProtection\n(Extended Producer\nResponsibility for\nPackaging made\nfrom paper, glass\nand metal as well as\nsanitary products)\nRules, 2024\nEternal provided\ncomments to the Ministry\nof Environment, Forest\nand Climate Change as\npart of the pre-legislative\nconsultation.\nYes\n-\nhttps://lexplosion.in/\npublic-comments-invited-\non-draft-environment-\nprotection-extended-producer-\nresponsibility-for-packaging-made-\nfrom-paper-glass-and-metal-as-\nwell-as-sanitary-products-rules-\n2024-till-4th-february-202/\n6.\nProvided inputs\non ease of doing\nbusiness in the live\nevents and concert\neconomy\nEternal (via District)\nprovided inputs as\npart of the Live Events\nDevelopment Cell (formerly\nknown as Joint Working\nGroup) constituted by the\nMinistry of Information and\nBroadcasting, focusing\non improvising regulatory\nprocesses and ease of\ndoing business in the live\nevents sector.\nYes\n-\nhttps://www.pib.gov.\nin/PressReleasePage.\naspx?PRID=2161855&reg=3&lang=2\nhttps://economictimes.\nindiatimes.com/industry/media/\nentertainment/govt-forms-live-\nevents-development-cell-to-\nboost-indias-booming-concert-\neconomy/articleshow/126334496.\ncms?from=mdr\n7.\nProvided inputs on\nimplementation\ntimelines under the\nDigital Personal\nData Protection\n(DPDP) Act, 2023\nand DPDP Rules,\n2025\nEternal participated in\ngovernment consultations\nand provided inputs to the\nMinistry of Electronics and\nInformation Technology on\nthe implementation of the\nDPDP Act and Rules.\nYes\n-\nhttps://www.moneycontrol.com/\ntechnology/after-january-meeting-\nmeity-gives-platforms-till-feb-4-to-\nweigh-in-on-dpdp-rule-timelines-\narticle-13793342.html\n\n\n149\n</text>\n</passage>\n\n<passage id=\"153\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Corrective action taken\n</context>\n<text>\neconomy/articleshow/126334496.\ncms?from=mdr\n7.\nProvided inputs on\nimplementation\ntimelines under the\nDigital Personal\nData Protection\n(DPDP) Act, 2023\nand DPDP Rules,\n2025\nEternal participated in\ngovernment consultations\nand provided inputs to the\nMinistry of Electronics and\nInformation Technology on\nthe implementation of the\nDPDP Act and Rules.\nYes\n-\nhttps://www.moneycontrol.com/\ntechnology/after-january-meeting-\nmeity-gives-platforms-till-feb-4-to-\nweigh-in-on-dpdp-rule-timelines-\narticle-13793342.html\n\n\n149\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nPrinciple 8 \u2013 Businesses should promote inclusive growth and equitable development\nEssential Indicators\n1. \t \u0007Details of Social Impact Assessments (SIA) of projects undertaken by the entity based on\napplicable laws, in the current financial year.\nName and\nbrief details of\nproject\nSIA\nnotification No.\nDate of\nnotification\nWhether\nconducted by independent\nexternal agency\n(Yes/ No)\nResults\ncommunicated in\npublic domain\n(Yes/ No)\nRelevant web\nlink\nNot applicable\n2. \t \u0007Provide information on the project(s) for which ongoing Rehabilitation and Resettlement (R&R)\nis being undertaken by your entity:\nS No.\nName of project\nfor which R&R is\nongoing\nState\nDistrict\nNo. of project\naffected families\n(PAFs)\n% of PAFs\ncovered by R&R\nAmounts paid to PAFs\nin the FY (In `)\nNot applicable\n3. \t Describe the mechanisms to receive and redress grievances of the community.\n\u0007As outlined in our Stakeholder management policy (link to the policy), we have a grievance redressal\nmechanism in place for all stakeholders (including community) to raise any concern. We regularly track\nprogress on and address grievances (if any) across different stakeholder groups.\n\u0007Should stakeholders have any concerns, queries, or complaints, they can reach out to us through the below\ngrievance reporting channels:\n\uf09f\ngrievance@eternal.com\n\uf09f\nnodal@eternal.com\nAdditionally, feedback or concern can be submitted through https://www.eternal.com/contact.\n4. \t Percentage of input material (inputs to total inputs by value) sourced from suppliers:\nFY 2025-26\nFY 2024-25\nDirectly sourced from MSMEs/ small producers\n6.74%\n7.96%\nSourced directly from within India\n97.88%\n96.32%\n5. \t \u0007Job creation in smaller towns \u2013 Disclose wages paid to persons employed (including employees\nor workers employed on a permanent or non-permanent/ on contract basis) in the following\nlocations, as % of total wage cost\nLocation\nFY 2025-26*\nFY 2024-25*\nRural\n0.02%\n0.04%\nSemi-Urban\n2.66%\n0.08%\nUrban\n70.20%\n69.68%\nMetropolitan\n27.12%\n30.21%\n*The above reported data includes the wages paid to all Eternal Limited India employees and workers in FY25 and FY26.\n(Place to be categorized as per RBI Classification System - rural/ semi-urban/ urban/ metropolitan)\n\n\n150\n</text>\n</passage>\n\n<passage id=\"154\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > FY 2024-25\n</context>\n<text>\n5. \t \u0007Job creation in smaller towns \u2013 Disclose wages paid to persons employed (including employees\nor workers employed on a permanent or non-permanent/ on contract basis) in the following\nlocations, as % of total wage cost\nLocation\nFY 2025-26*\nFY 2024-25*\nRural\n0.02%\n0.04%\nSemi-Urban\n2.66%\n0.08%\nUrban\n70.20%\n69.68%\nMetropolitan\n27.12%\n30.21%\n*The above reported data includes the wages paid to all Eternal Limited India employees and workers in FY25 and FY26.\n(Place to be categorized as per RBI Classification System - rural/ semi-urban/ urban/ metropolitan)\n\n\n150\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nPrinciple 9 \u2013 Businesses should engage with and provide value to their consumers in a responsible manner\nEssential Indicators\n1. \t Describe the mechanisms in place to receive and respond to consumer complaints and feedback\n\u0007We have a system to collect queries and feedback from our consumers through multiple channels including\nthe customer support section within the Zomato app, social media channels, email, app ratings and\nreviews. Additionally, after every supported chat, feedback is sought to gauge their satisfaction with the\nsupport received. Trends derived from the analysis of the feedback and ratings are used to implement\ncorrective measures as required.\n\u0007If the consumers complaints are still unresolved they can also reach out/ escalate through the below\nchannels -\n\uf09f\ngrievance@eternal.com\n\uf09f\nnodal@eternal.com\n\u0007Eternal introduced Nugget, an AI-native customer support platform that handles and resolves  customer\ngrievances autonomously. This has resulted in faster query resolution, personalized support, improved\ncustomer satisfaction and delivered significant cost savings. Nugget is also available to businesses\noutside of Eternal, enabling them to enhance their customer support operations effortlessly.\n2. \t \u0007Turnover of products and/ services as a percentage of turnover from all products/ services that\ncarry information about:\nAs a % to total turnover\nEnvironmental and social\nparameters relevant to the product\nEternal Limited (formerly known as Zomato Limited) is a\ntechnology platform services provider and does not produce\nany physical products. The platform enables restaurant\npartners to provide consumer-relevant information such\nas FSSAI license details, dietary classifications (e.g.,\nvegetarian/ non-vegetarian), low-plastic packaging indicators,\ncalorie information for select partners, transparent pricing\ncomponents and other relevant disclosures through the\nZomato food delivery app. Eternal continues to strengthen its\nprocesses to improve the consistency and reliability of such\ninformation for its customers.\nEternal has a comprehensive privacy and cybersecurity\nframework aligned with industry standards, supported\nby relevant policies and procedures that helps in safe and\nresponsible usage of the Zomato app.\nBelow are the web links to our policies:\n\uf09f\n\u0007Terms & Conditions of Safe & Responsible usage of\ncompany\u2019s service offerings are mentioned on Eternal\u2019s\nwebsite: (link to the policy)\n\uf09f\nPrivacy policy: (link to the policy)\n\uf09f\nInformation security policy: (link to the policy)\nSafe and responsible usage\nRecycling and/ or safe disposal\n\n\n151\n</text>\n</passage>\n\n<passage id=\"155\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > As a % to total turnover\n</context>\n<text>\nEternal has a comprehensive privacy and cybersecurity\nframework aligned with industry standards, supported\nby relevant policies and procedures that helps in safe and\nresponsible usage of the Zomato app.\nBelow are the web links to our policies:\n\uf09f\n\u0007Terms & Conditions of Safe & Responsible usage of\ncompany\u2019s service offerings are mentioned on Eternal\u2019s\nwebsite: (link to the policy)\n\uf09f\nPrivacy policy: (link to the policy)\n\uf09f\nInformation security policy: (link to the policy)\nSafe and responsible usage\nRecycling and/ or safe disposal\n\n\n151\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n3. \t Number of consumer complaints in respect of the following:\nFY 2025-26*\nRemarks\nFY 2024-25\nRemarks\nReceived\nduring\nthe year\nPending\nresolution at\nend of year\nReceived\nduring the\nyear\nPending\nresolution at\nend of year\nData privacy\n0\n0\n-\n0\n0\n-\nAdvertising\n0\n1\n-\n0\n1\n-\nCyber-security\n0\n0\n-\n0\n0\n-\nDelivery of essential\nservices\n-\n-\nN.A.\n-\n-\nN.A.\nRestrictive trade\npractices\n0\n0\n-\n0\n0\n-\nUnfair trade practices\n90\n155\n-\n49\n110\n-\nOther\n44\n83\n-\n51\n66\n-\n\u0007*Consumer complaints data for FY26 and FY25  includes complaints filed before various courts by our customers i.e. end-users of\nour platform and restaurant partners.\n4. \t Details of instances of product recalls on account of safety issues.\nNumber\nReasons for Recall\nVoluntary Recalls\nNot applicable\nForced Recalls\n5. \t \u0007Does the entity have a framework/ policy on cyber security and risks related to data privacy?\n(Yes/ No) If available, provide a web link to the policy.\n\u0007Yes. Eternal has a comprehensive privacy and cybersecurity framework in line with the industry standards,\nsupported by policies and procedures.\nBelow are the web links to our policies:\n\uf09f\nInformation security policy: (link to the policy)\n\uf09f\nPrivacy policy: (link to the policy)\n6. \t \u0007Provide details of any corrective actions taken or underway on issues relating to advertising,\nand delivery of essential services; cyber security and data privacy of customers; re-occurrence\nof instances of product recalls; penalty/ action taken by regulatory authorities on the safety of\nproducts/ services.\n\u0007There were no significant concerns/ complaints identified during the reporting year on the topics\nmentioned above. However, in case of any concerns, customers can reach out to us via multiple channels\nas described in Principle 4, Q2.\n\u0007For data-privacy-related concerns, we have a privacy policy in place which outlines the process to\nreport and investigate any suspected or potential threats to personal data. The Data Protection Officer\ninvestigates user reports and feedback to continuously improve processes, controls and mitigate\nlikelihood of any potential breaches.\nPrivacy policy: (link to the policy)\n\n\n152\n</text>\n</passage>\n\n<passage id=\"156\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Reasons for Recall\n</context>\n<text>\nmentioned above. However, in case of any concerns, customers can reach out to us via multiple channels\nas described in Principle 4, Q2.\n\u0007For data-privacy-related concerns, we have a privacy policy in place which outlines the process to\nreport and investigate any suspected or potential threats to personal data. The Data Protection Officer\ninvestigates user reports and feedback to continuously improve processes, controls and mitigate\nlikelihood of any potential breaches.\nPrivacy policy: (link to the policy)\n\n\n152\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n7. \t Provide the following information relating to data breaches:\na. \t Number of instances of data breaches - None\nb. \t Percentage of data breaches involving personally identifiable information of customers - N.A.\nc. \t Impact, if any, of the data breaches - N.A.\nLeadership Indicators\n1. \t \u0007Channels / platforms where information on products and services of the entity can be accessed\n(provide web link, if available).\nInformation regarding products and services can be accessed via the below platforms:\n\uf09f\nCorporate website: www.eternal.com\n\uf09f\nZomato & District app website: www.zomato.com | www.district.in\n\uf09f\n\u0007Google Play Store: Zomato Food Delivery & Dining App | Zomato Restaurant Partner App |\nZomato Delivery Partner App | District App\n\uf09f\nApple App Store: Zomato Food Delivery & Dining App | Zomato Restaurant Partner App | District App\n\uf09f\nFacebook: Zomato Page | District Page\n\uf09f\nInstagram page: @Zomato | @districtupdates\n\uf09f\nLinkedin page: Zomato Page | District Page\n\uf09f\nX (former Twitter) page: @Zomato | @district_india\n\uf09f\nYoutube page: Zomato Page\n4. \t \u0007Does the entity display product information on the product over and above what is mandated\nas per local laws? (Yes/ No/ Not Applicable) If yes, provide details in brief. Did your entity carry\nout any survey with regard to consumer satisfaction relating to the major products/ services\nof the entity, significant locations of operation of the entity or the entity as a whole? (Yes/ No)\n\u0007Not Applicable - Eternal Limited (formerly known as Zomato Limited) is a technology platform that provides\nservices to multiple stakeholders.\n\u0007We periodically collect feedback from consumers and conduct satisfaction surveys relating to services\nthat we provide. For instance:\n1.\n\u0007We collect feedback on our chat support service via the ratings tool available on our mobile app post\nevery chat resolution.\n2.\t \u0007We have an option on the Zomato app for customers to \u2018send feedback\u2019 about the services they liked\nor highlight areas of improvement.\n\n\n153\n</text>\n</passage>\n\n<passage id=\"157\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > Reasons for Recall\n</context>\n<text>\n\u0007Not Applicable - Eternal Limited (formerly known as Zomato Limited) is a technology platform that provides\nservices to multiple stakeholders.\n\u0007We periodically collect feedback from consumers and conduct satisfaction surveys relating to services\nthat we provide. For instance:\n1.\n\u0007We collect feedback on our chat support service via the ratings tool available on our mobile app post\nevery chat resolution.\n2.\t \u0007We have an option on the Zomato app for customers to \u2018send feedback\u2019 about the services they liked\nor highlight areas of improvement.\n\n\n153\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nINDEPENDENT PRACTITIONER\u2019S ASSURANCE REPORT ON IDENTIFIED\nSUSTAINABILITY INFORMATION IN ETERNAL LIMITED\u2019S BUSINESS RESPONSIBILITY\nAND SUSTAINABILITY REPORT\nTo the Board of Directors\nof ETERNAL LIMITED (formerly known as Zomato\nLimited)\n1.\t \u0007We have undertaken to perform assurance\nengagement, for ETERNAL LIMITED (the\n\u201cCompany\u201d) vide our engagement letter dated\nFebruary 13, 2026, in respect of the agreed\nSustainability Information listed below (the\n\u201cIdentified Sustainability Information\u201d) in\naccordance with the criteria stated in paragraph 3\nbelow. This Sustainability Information is included\nin the Business Responsibility & Sustainability\nReport (or the \u201cBRSR Report\u201d) within the Annual\nReport of the Company for the year ended March\n31, 2026. This engagement was conducted by\nour multidisciplinary team including assurance\npractitioners, environmental engineers and\nspecialists.\n2.\t Identified Sustainability Information\n\u0007Our scope of reasonable and limited assurance\nconsists of the Sustainability Information listed\nin Appendix I and Appendix II respectively in our\nreport. The reporting boundary of the Report is\nas disclosed in Question 13 of Section A: General\nDisclosure of the BRSR Report with exceptions\ndisclosed by way of note under respective\nquestions of the BRSR, where applicable.\n\u0007Our assurance engagement was with respect to\nthe year ended March 31, 2026, information only\nas listed in Appendix I unless otherwise stated\nand we have not performed any procedures with\nrespect to any other elements included in the\nBRSR Report and, therefore, do not express any\nopinion/ conclusion thereon.\n3.\t Criteria\n\u0007The Criteria used by the Company to prepare the\nIdentified Sustainability Information is as under:\n\uf09f\n\u0007Regulation 34(2)(f) of the Securities and\nExchange Board of India (the \"SEBI\") (Listing\nObligations and Disclosure Requirements),\nRegulations, 2015 as amended;\n\uf09f\n\u0007Business Responsibility and Sustainability\nReporting Requirements for listed entities\nper Master Circular No. HO/49/14/14(7)2025-\nCFD-POD2/I/3762/2026 dated January 30,\n2026 (the \u201cSEBI Master Circular\u201d); and\n\uf09f\n\u0007GHG Protocol Corporate Accounting and\nReporting Standard as amended thereto,\nand its supplement, the Corporate Value\nChain (Scope 3) Accounting and Reporting\nStandard, both developed by GHG Protocol\nInitiative\n4.\t Management\u2019s Responsibility\n\u0007The Company\u2019s management is responsible\nfor selecting or establishing suitable criteria\nfor preparing the Sustainability Information\nincluding the reporting boundary of the BRSR\nReport, taking into account applicable laws and\nregulations, if any, related to reporting on the\nSustainability Information, identification of key\naspects, engagement with stakeholders, content,\npreparation and presentation of the Identified\nSustainability Information in accordance with\nthe Criteria. This responsibility includes design,\nimplementation and maintenance of internal\ncontrols relevant to the preparation of the BRSR\nReport and the measurement of Identified\nSustainability Information, which is free from\nmaterial misstatement, whether due to fraud or\nerror.\n5.\t Inherent limitations\n\u0007The absence of a significant body of established\npractice on which to draw to evaluate and measure\nnon-financial information allows for different,\nbut acceptable, measures and measurement\ntechniques and can affect comparability between\ncompanies.\n6.\t Our Independence and Quality Control\n</text>\n</passage>\n\n<passage id=\"158\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > engagement, for ETERNAL LIMITED (the\n</context>\n<text>\ncontrols relevant to the preparation of the BRSR\nReport and the measurement of Identified\nSustainability Information, which is free from\nmaterial misstatement, whether due to fraud or\nerror.\n5.\t Inherent limitations\n\u0007The absence of a significant body of established\npractice on which to draw to evaluate and measure\nnon-financial information allows for different,\nbut acceptable, measures and measurement\ntechniques and can affect comparability between\ncompanies.\n6.\t Our Independence and Quality Control\n\u0007We have maintained our independence and\nconfirm that we have met the requirements of the\nCode of Ethics issued by the Institute of Chartered\nAccountants of India (the \u201cICAI\u201d) and the SEBI\nMaster Circular and its clarifications thereto and\n\n\n154\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\nhave the required competencies and experience\nto conduct this assurance engagement.\n\u0007We apply Standard on Quality Control (\u201cSQC\u201d) 1,\n\u201cQuality Control for Firms that Perform Audits\nand Reviews of Historical Financial Information,\nand Other Assurance and Related Services\nEngagements\u201d, and accordingly maintain\na comprehensive system of quality control\nincluding documented policies and procedures\nregarding compliance with ethical requirements,\nprofessional standards, and applicable legal and\nregulatory requirements.\n7.\t Our Responsibility\n\u0007Our responsibility is to express a reasonable\nassurance opinion and limited assurance\nconclusion on the Identified Sustainability\nInformation listed in Appendix I and Appendix II\nrespectively based on the procedures we have\nperformed and evidence we have obtained.\n\u0007We conducted our engagement in accordance\nwith the Standard on Sustainability Assurance\nEngagements (SSAE) 3000, \u201cAssurance\nEngagements on Sustainability Information\u201d,\nand Standard on Assurance Engagements (SAE)\n3410 Assurance Engagements on Greenhouse\nGas Statements (together the \u201cStandards\u201d), both\nissued by the Sustainability Reporting Standards\nBoard (the \u201cSRSB\u201d) of the ICAI.\n\u0007These Standards require that we plan and perform\nour engagement to obtain reasonable assurance\nabout whether the Identified Sustainability\nInformation listed in Appendix I and included in the\nBRSR Report are prepared, in all material respects,\nin accordance with the Criteria; and obtain\nlimited assurance about whether the Identified\nSustainability Information listed in Appendix II and\nincluded in the BRSR Report is free from material\nmisstatement.\n\u0007As part of both reasonable and limited assurance\nengagement in accordance with the Standards,\nwe exercise professional judgment and maintain\nprofessional skepticism throughout the\nengagement.\nReasonable Assurance\n\u0007A reasonable assurance engagement involves\nidentifying and assessing the risks of material\nmisstatement of the Identified Sustainability\nInformation whether due to fraud or error,\nresponding to the assessed risks as necessary\nin the circumstances.\n\u0007The procedures we performed were based on our\nprofessional judgment and included inquiries,\nobservation of processes performed, inspection\nof documents, evaluating the appropriateness\nof quantification methods and reporting policies\nand agreeing or reconciling with underlying\nrecords.\n\u0007Given the circumstances of the engagement, in\nperforming the procedures listed above, we:\n\uf09f\n\u0007Obtained an understanding of the Identified\nSustainability Information and related\ndisclosures;\n\uf09f\n\u0007Obtained an understanding of the assessment\ncriteria and their suitability for the evaluation\nand/or measurements of the Identified\nSustainability Information;\n\uf09f\n\u0007Made inquiries of Company\u2019s management,\nincluding the corporate sustainability team,\nEnvironment, Health and Safety (EHS) team,\nthe compliance team, the human resource\nteam, the finance team amongst others and\nthose with the responsibility for preparation\nof the BRSR Report;\n\uf09f\n\u0007Obtained an understanding and performed an\nevaluation of the design of the key systems,\nprocesses and controls for recording,\nprocessing and reporting on the Identified\n</text>\n</passage>\n\n<passage id=\"159\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Business Responsibility and Sustainability Report > engagement, for ETERNAL LIMITED (the\n</context>\n<text>\nand/or measurements of the Identified\nSustainability Information;\n\uf09f\n\u0007Made inquiries of Company\u2019s management,\nincluding the corporate sustainability team,\nEnvironment, Health and Safety (EHS) team,\nthe compliance team, the human resource\nteam, the finance team amongst others and\nthose with the responsibility for preparation\nof the BRSR Report;\n\uf09f\n\u0007Obtained an understanding and performed an\nevaluation of the design of the key systems,\nprocesses and controls for recording,\nprocessing and reporting on the Identified\nSustainability Information at the corporate\noffice and other offices on a sample basis.\nThis included evaluating the design of\nthose controls relevant to the engagement\nand determining whether they have been\nimplemented by performing procedures\nin addition to inquiry of the personnel\nresponsible for the Identified Sustainability\nInformation;\n\n\n155\nFinancial Statements\nStatutory Reports: BRSR\nCompany Overview\n\uf09f\n\u0007Based on the above understanding and\nthe risks that the Identified Sustainability\nInformation may be materially misstated,\ndetermined the nature, timing and extent of\nfurther procedures;\n\uf09f\n\u0007Tested the key assumptions, emission factors\nand methodologies used for calculation of\nGreenhouse Gas (the \u201cGHG\u201d) emissions;\n\uf09f\n\u0007Tested the Company\u2019s process for collating\nthe sustainability information through\nagreeing or reconciling the Identified\nSustainability Information with the underlying\nrecords on a sample basis; and\n\uf09f\n\u0007Tested the consolidation for various offices\non sample basis under the reporting boundary\nfor ensuring the completeness and accuracy\nof data being reported.\n\u0007We believe that the evidence we have obtained is\nsufficient and appropriate to provide a basis for\nour reasonable assurance opinion.\nLimited Assurance\n\u0007A limited assurance engagement involves\nassessing the suitability in the circumstances of\nthe Company\u2019s use of the Criteria as the basis for\nthe preparation of the Identified Sustainability\nInformation as listed in Appendix II, assessing the\nrisks of material misstatement of the Identified\nSustainability Information whether due to fraud\nor error, responding to the assessed risks as\nnecessary in the circumstances, and evaluating\nthe overall presentation of the Identified\nSustainability Information.\n\u0007A limited assurance engagement is substantially\nless in scope than a reasonable assurance\nengagement in relation to both the risk assessment\nprocedures, including an understanding of\ninternal controls, and the procedures performed\nin response to the assessed risks.\n\u0007The procedures we performed were based on our\nprofessional judgment and included inquiries,\nobservation of processes performed, inspection\nof documents and evaluating the appropriateness\nof quantification methods and reporting policies\nand agreeing with underlying records.\n\u0007Given the circumstances of the engagement, in\nperforming the procedures listed above, we:\n\uf09f\n\u0007Obtained an understanding of the Identified\nSustainability Information and related\ndisclosures;\n\uf09f\n\u0007Obtained an understanding of the assessment\ncriteria and their suitability for the evaluation\nand/or measurements of the Identified\nSustainability Information;\n\uf09f\n\u0007Made inquiries of Company\u2019s management,\nincluding the Corporate Sustainability team,\nEnvironment, Health & Safety (EHS) team,\nthe compliance team, the human resource\nteam, the finance team amongst others and\nthose with the responsibility for preparation\nof the BRSR Report;\n\uf09f\n\u0007Obtained an understanding of the key\nsystems, processes and controls for\nrecording, processing and reporting on the\nIdentified Sustainability Information at the\ncorporate office and other offices of the\nCompany on a sample basis. Our procedures\ndid not include evaluating the suitability\nof design, obtaining evidence about their\nimplementation or testing operating\neffectiveness of particular control activities;\n\uf09f\n\u0007Based on the above understanding and\nthe risks that the Identified Sustainability\nInformation may be materially misstated,\ndetermined the nature, timing, and extent of\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "In FY26, Eternal onboarded Padcare as its menstrual waste management vendor across its offices.",
+        "confidence": 1,
+        "passage_id": 144,
+        "predicate": "onboarded_vendor",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "service_type",
+            "provenance": "stated",
+            "value": "menstrual waste management"
+          }
+        ],
+        "quote": "in FY26, we onboarded Padcare as our menstrual waste management vendor across our offices.",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "text",
+          "raw": "Padcare"
+        }
+      },
+      {
+        "claim_text": "The Gurugram and Bengaluru offices of Eternal hold ISO 14001 certification.",
+        "confidence": 1,
+        "passage_id": 144,
+        "predicate": "holds_certification",
+        "qualifiers": [
+          {
+            "key": "location",
+            "provenance": "stated",
+            "value": "Gurugram and Bengaluru offices"
+          }
+        ],
+        "quote": "our Gurugram and Bengaluru offices hold ISO 14001 certification",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "text",
+          "raw": "ISO 14001"
+        }
+      },
+      {
+        "claim_text": "Between FY22 and FY26, the initiative to allow consumers to request no cutlery helped avoid over 3,000 MT of cutlery waste.",
+        "confidence": 1,
+        "passage_id": 144,
+        "predicate": "avoided_cutlery_waste",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "Between FY22 and FY26"
+          }
+        ],
+        "quote": "Between FY22 and FY26, this initiative has helped avoid over 3,000 MT of cutlery waste.",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "3,000",
+          "unit": "MT"
+        }
+      },
+      {
+        "claim_text": "Since its launch in FY25, the Food Rescue feature has helped prevent over 7.5 lakh kg of food waste.",
+        "confidence": 1,
+        "passage_id": 144,
+        "predicate": "prevented_food_waste",
+        "qualifiers": [
+          {
+            "key": "start_date",
+            "provenance": "stated",
+            "value": "FY25"
+          }
+        ],
+        "quote": "Since launch in FY25, Zomato\u2019s Food Rescue feature has helped prevent over 7.5 lakh kg of food waste",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "7.5 lakh",
+          "unit": "kg"
+        }
+      },
+      {
+        "claim_text": "As of March 31st 2026, over 100 million \u2018Low plastic packaging\u2019 orders had been delivered.",
+        "confidence": 1,
+        "passage_id": 144,
+        "predicate": "delivered_low_plastic_packaging_orders",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "March 31st 2026"
+          }
+        ],
+        "quote": "As of March 31st 2026, over 100 million \u2018Low plastic packaging\u2019 orders had been delivered",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "100 million"
+        }
+      },
+      {
+        "claim_text": "Eternal voluntarily recycled 60,000 MT of plastic waste from FY23-FY26.",
+        "confidence": 1,
+        "passage_id": 144,
+        "predicate": "voluntarily_recycled_plastic_waste",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY23-FY26"
+          }
+        ],
+        "quote": "Eternal has voluntarily recycled 60,000 MT of plastic waste from FY23- FY26",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "60,000",
+          "unit": "MT"
+        }
+      },
+      {
+        "claim_text": "Eternal recycled 15,000 MT of plastic waste in FY26.",
+        "confidence": 1,
+        "passage_id": 144,
+        "predicate": "voluntarily_recycled_plastic_waste",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "15,000 MT was recycled in FY26 alone",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "15,000",
+          "unit": "MT"
+        }
+      },
+      {
+        "claim_text": "Total Scope 3 emissions for Eternal in FY 2025-26 were 1,47,101.39 tCO2e.",
+        "confidence": 1,
+        "passage_id": 145,
+        "predicate": "total_scope_3_emissions",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Total Scope 3 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available) Metric tonnes of CO2 equivalent 1,47,101.39 tCO2e",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,47,101.39",
+          "unit": "tCO2e"
+        }
+      },
+      {
+        "claim_text": "Total Scope 3 emissions for Eternal in FY 2024-25 were 1,32,089.34 tCO2e.",
+        "confidence": 1,
+        "passage_id": 145,
+        "predicate": "total_scope_3_emissions",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY 2024-25"
+          }
+        ],
+        "quote": "1,32,089.34 tCO2e",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,32,089.34",
+          "unit": "tCO2e"
+        }
+      },
+      {
+        "claim_text": "As of March 2026, 23,675 delivery partners have rented EVs via the \u201cRent an EV\u201d feature in FY26.",
+        "confidence": 1,
+        "passage_id": 147,
+        "predicate": "delivery_partners_rented_evs",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "23,675 delivery partners have rented EVs via the \u201cRent an EV\u201d feature in FY26",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "23,675"
+        }
+      },
+      {
+        "claim_text": "As of March 2026, more than 1,500 EVs have been deployed across Delhi and Chennai under the Zomato EV rental fleet initiative.",
+        "confidence": 1,
+        "passage_id": 147,
+        "predicate": "evs_deployed",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "March 2026"
+          },
+          {
+            "key": "location",
+            "provenance": "stated",
+            "value": "Delhi and Chennai"
+          }
+        ],
+        "quote": "As of March 2026, more than 1,500 EVs have been deployed across Delhi and Chennai under the Zomato EV rental fleet initiative.",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,500"
+        }
+      },
+      {
+        "claim_text": "The monthly active EV-based delivery fleet as on March 2026 stood at 63,435.",
+        "confidence": 1,
+        "passage_id": 147,
+        "predicate": "monthly_active_ev_delivery_fleet",
+        "qualifiers": [
+          {
+            "key": "as_of_date",
+            "provenance": "stated",
+            "value": "March 2026"
+          }
+        ],
+        "quote": "Our monthly active EV-based delivery fleet as on March 2026 stood at 63,435",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "63,435"
+        }
+      },
+      {
+        "claim_text": "13.5% of food delivery orders were delivered by EVs in FY26.",
+        "confidence": 1,
+        "passage_id": 147,
+        "predicate": "percentage_orders_delivered_by_evs",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "13.5% of our food delivery orders were delivered by EVs in FY26",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "13.5%"
+        }
+      },
+      {
+        "claim_text": "In FY26, the Automated Weather Stations (AWS) network was expanded to 1,150 devices across 100 cities.",
+        "confidence": 1,
+        "passage_id": 147,
+        "predicate": "automated_weather_stations_count",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "geographic_scope",
+            "provenance": "stated",
+            "value": "100 cities"
+          }
+        ],
+        "quote": "In FY26, we expanded our Automated Weather Stations (AWS) network to 1,150 devices across 100 cities",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,150"
+        }
+      },
+      {
+        "claim_text": "16.95% of value chain partners by total spend on suppliers were assessed for environmental impacts in FY25.",
+        "confidence": 1,
+        "passage_id": 150,
+        "predicate": "percentage_value_chain_partners_assessed",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "total spend on suppliers (upstream)"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY25"
+          }
+        ],
+        "quote": "16.95% by total spend on suppliers (upstream)**",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "16.95%"
+        }
+      },
+      {
+        "claim_text": "5.08% of value chain partners by total revenue from restaurant partners were assessed for environmental impacts in FY25.",
+        "confidence": 1,
+        "passage_id": 150,
+        "predicate": "percentage_value_chain_partners_assessed",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "total revenue from restaurant partners (downstream)"
+          },
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY25"
+          }
+        ],
+        "quote": "5.08% by total revenue from restaurant partners (downstream)***",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "5.08%"
+        }
+      },
+      {
+        "claim_text": "6.74% of input material was sourced from MSMEs/small producers in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 153,
+        "predicate": "percentage_input_material_sourced_from_msmes",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Directly sourced from MSMEs/ small producers 6.74%",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "6.74%"
+        }
+      },
+      {
+        "claim_text": "97.88% of input material was sourced directly from within India in FY 2025-26.",
+        "confidence": 1,
+        "passage_id": 153,
+        "predicate": "percentage_input_material_sourced_from_india",
+        "qualifiers": [
+          {
+            "key": "fiscal_year",
+            "provenance": "stated",
+            "value": "FY 2025-26"
+          }
+        ],
+        "quote": "Sourced directly from within India 97.88%",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "97.88%"
+        }
+      }
+    ]
+  }
+}

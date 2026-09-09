@@ -1,0 +1,579 @@
+{
+  "key": "64be77c145986d04629adfc90d921b91467d23c45097ff8210afa12911f370af",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"48\">\n<context>\n[section]\nchanging lifestyles > Management discussion and analysis\n</context>\n<text>\nincome. While the closing cash balance declined YoY in FY26 on account of capex and NWC investments in\nthe quick commerce business, the average investable cash balance remained higher than FY25 as the QIP\nproceeds received in November 2024 were available for the full year (versus only part of FY25). Treasury\nyields remained broadly stable YoY.\nNote:\nLike-for-like (\n\u02ddLFL\u02db) ) quick commerce revenue is calculated as quick commerce revenue from operations (-) cost of goods sold in case of own\ninventory sales.\n46\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\nB.\nExpense\nCost of goods sold (COGS) increased by 442% YoY to INR 30,167 crore in FY26 primarily due to shift to\ninventory ownership in our quick commerce business.\nEmployee benefits expense increased 38% YoY to INR 3,536 crore in FY26. This primarily includes salaries,\nwages, bonuses and share-based compensation paid to our on-roll employees across all our businesses.\nIncrease in expense was largely driven by higher salaries & wages, which grew YoY due to (i) impact of annual\nincrements, (ii) 33% YoY increase in headcount to 22,470 in FY26 and (iii) full-year impact of consolidation of\nemployees onboarded as part of the acquisition of the entertainment ticketing business in FY25. Increase in\nheadcount was largely due to team expansion in the quick commerce and going-out business segments.\nShare-based payment expense grew 3% YoY to INR 819 crore in FY26.\nFinance costs increased 155% YoY to INR 392 crore in FY26. This primarily includes interest on lease\nliabilities recorded under Ind AS 116 which increased YoY due to the expansion in store and warehouse\nnetwork in the quick commerce business.\nDepreciation and amortisation expenses grew 85% YoY to INR 1,597 crore in FY26. This includes (i)\ndepreciation on fixed assets, (ii) depreciation as recorded under Ind AS 116 and (iii) amortisation of intangible\nassets. Increase in expense was primarily driven by higher depreciation on fixed assets and under Ind AS 116\ndue to the continued expansion of store and warehouse network in the quick commerce business.\nAmortisation expense increased 7% YoY due to the full year impact of amortisation of intangible assets\ncreated due to the acquisition of the entertainment ticketing business in FY25.\nOther expenses\nINR crore\nParticulars\nFY26\nFY25\nDelivery and related charges\n9,065\n5,728\nAdvertisement and sales promotion\n3,350\n1,972\nIT support services, server and communication cost\n1,091\n644\nOutsourced support cost\n1,131\n570\nPayment gateway charges\n285\n228\nOthers\n4,531\n2,341\nTotal\n19,453\n11,483\n47\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"49\">\n<context>\n[section]\nchanging lifestyles > Management discussion and analysis\n</context>\n<text>\nAmortisation expense increased 7% YoY due to the full year impact of amortisation of intangible assets\ncreated due to the acquisition of the entertainment ticketing business in FY25.\nOther expenses\nINR crore\nParticulars\nFY26\nFY25\nDelivery and related charges\n9,065\n5,728\nAdvertisement and sales promotion\n3,350\n1,972\nIT support services, server and communication cost\n1,091\n644\nOutsourced support cost\n1,131\n570\nPayment gateway charges\n285\n228\nOthers\n4,531\n2,341\nTotal\n19,453\n11,483\n47\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\nDelivery and related charges increased 58% YoY in FY26 to INR 9,065 crore. This includes (i) payouts1 to\ndelivery partners for last mile deliveries, (ii) delivery partner support cost and (iii) cost of consumables issued\nto delivery partners at the time of onboarding. Increase in expense was largely due to increase in delivery\npartner payouts in the food delivery and quick commerce businesses due to the growth in order volumes.\nDelivery partner support cost and cost of consumables also increased YoY due to increase in overall order\nvolumes and delivery partners on the platform.\nAdvertisement and sales promotion expenses increased 70% YoY to INR 3,350 crore in FY26. This includes\n(i) platform funded subsidies (to the extent not netted off from revenue), (ii) marketing & branding costs, (iii)\ncustomer appeasement costs and, (iv) refunds across our business operations. Increase in expense was\nprimarily driven by higher marketing & branding costs and promotional spends. Marketing and branding costs\nincreased primarily due to growth investments in the quick commerce and going-out business, including\nhigher digital marketing spends to drive customer growth. Promotional spends increased primarily due to\ninvestments in targeted activation of price sensitive customer cohorts in the food delivery business and\ndriving customer acquisition and engagement in the going-out business, including the launch of District\nPass.\nIT support services, server and communication costs increased 69% YoY to INR 1,091 crore in FY26. This\nprimarily includes server hire charges, software subscription cost and communication costs incurred for our\nconsolidated operations. Increase in expense was primarily driven by higher cloud computing costs due to\nincrease in order/ transaction volumes across our B2C businesses.\nOutsourced support cost increased 98% YoY to INR 1,131 crore in FY26. This primarily includes costs related\nto (i) store and warehouse related off-roll manpower costs in our quick commerce operations and (ii) support\ncosts across our consolidated operations. Increase in expense was largely driven by increase in off-roll\nmanpower deployed across stores in the quick commerce business. Support cost decreased YoY as we\nscaled Nugget.\nPayment gateway charges increased 25% YoY to INR 285 crore in FY26 primarily driven by increase in NOV\ntransacted across our B2C platforms.\nOthers expense increased 94% YoY to INR 4,531 crore in FY26. This primarily includes quick commerce\nwarehouse management & associated logistics cost, rental expenses, legal & professional fee, general &\nadmin expenses, insurance cost, amongst others. Increase in expense was largely driven by increase in costs\nassociated with our quick commerce business including rentals & utilities, warehouse management\nexpenses, freight and logistics expense (excluding last mile cost) and others. Part of the increase was also\ndue to growth in live event costs (e.g., artist and venue booking) in case of events co-produced, managed and\nmarketed by the Company. Other expenses such as legal & professional fee, G&A expenses also grew YoY.\nNote:\nComprises of (i) availability fees paid by Zomato to the delivery partner over and above the customer delivery charge collected on behalf of delivery\npartners in the food delivery business and (ii) delivery partner payouts in the quick commerce business.\n48\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"50\">\n<context>\n[section]\nchanging lifestyles > Management discussion and analysis\n</context>\n<text>\ndue to growth in live event costs (e.g., artist and venue booking) in case of events co-produced, managed and\nmarketed by the Company. Other expenses such as legal & professional fee, G&A expenses also grew YoY.\nNote:\nComprises of (i) availability fees paid by Zomato to the delivery partner over and above the customer delivery charge collected on behalf of delivery\npartners in the food delivery business and (ii) delivery partner payouts in the quick commerce business.\n48\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\nAdditional notes: Adjusted Revenue and Adjusted EBITDA reconciliation\nINR crore\nINR crore unless otherwise mentioned\nFY26\nFY25\nAdjusted Revenue\nRevenue from operations\n54,364\n20,243\nAdd: Actual customer delivery charges paid in the food delivery business\n875\n1,001\nAdd: Platform fee and other charges paid on food delivery orders that are\nnot already included in revenue from operations\n664\n337\nAdjusted Revenue\n55,903\n21,581\nAdjusted EBITDA\nFY25\nFY24\nAdjusted EBITDA\n1,189\n1,079\nAdd: Other income\n1,396\n1,077\nAdd: Rental paid pertaining to \u02d8Ind AS 116 leases\u02c7\n838\n356\nLess: Depreciation & amortisation expense\n1,597\n863\nLess: Finance cost\n392\n154\nLess: ESOP expense\n819\n798\nLess: Tax expense\n249\n170\nProfit for the period\n366\n527\nNotes:\nFrom Q2FY25 onwards, provision for income tax has been created on other income (primarily being treasury income) post adjustment of unabsorbed\ndepreciation permitted under the Income Tax Act. No provision is created on business income since that is being set off against the carried forward\nlosses from the past years.\nThere could be some totaling anomalies in the numbers displayed above due to the impact of rounding off.\n49\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"51\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Management discussion and analysis\n</context>\n<text>\nNotes:\nFrom Q2FY25 onwards, provision for income tax has been created on other income (primarily being treasury income) post adjustment of unabsorbed\ndepreciation permitted under the Income Tax Act. No provision is created on business income since that is being set off against the carried forward\nlosses from the past years.\nThere could be some totaling anomalies in the numbers displayed above due to the impact of rounding off.\n49\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\nOur quarterly shareholders\u02c7  letter and results in FY26\n50\n\n\nBoard Report\n</text>\n</passage>\n\n<passage id=\"52\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Management discussion and analysis\n</context>\n<text>\nFrom Q2FY25 onwards, provision for income tax has been created on other income (primarily being treasury income) post adjustment of unabsorbed\ndepreciation permitted under the Income Tax Act. No provision is created on business income since that is being set off against the carried forward\nlosses from the past years.\nThere could be some totaling anomalies in the numbers displayed above due to the impact of rounding off.\n49\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\nOur quarterly shareholders\u02c7  letter and results in FY26\n50\n\n\nBoard Report\n</text>\n</passage>\n\n<passage id=\"53\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Management discussion and analysis\n</context>\n<text>\ndepreciation permitted under the Income Tax Act. No provision is created on business income since that is being set off against the carried forward\nlosses from the past years.\nThere could be some totaling anomalies in the numbers displayed above due to the impact of rounding off.\n49\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\nOur quarterly shareholders\u02c7  letter and results in FY26\n50\n\n\nBoard Report\n</text>\n</passage>\n\n<passage id=\"54\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report\n</context>\n<text>\nBoard Report\nDear Members,\nThe Board of Directors of the Company (\u201cBoard\u201d) hereby submits the board report for the financial year ended\non March 31, 2026 (\u201cBoard Report\u201d) on the business, operations and performance of Eternal Limited (formerly\nknown as Zomato Limited) (\u201cthe Company\u201d/ \u201cEternal\u201d).\n1. Financial highlights\nThe highlights on the Company\u2019s financial statements on a standalone and consolidated basis are summarised\nbelow:\n(INR crore)\nParticulars\nStandalone\nConsolidated\nFor the financial year ended on March 31\n2026\n2025\n2026\n2025\nTotal income\n12,702\n9,877\n55,760\n21,320\nLess: Total expenses\n9,736\n7,676\n55,145\n20,623\nLess: Exceptional items\n-\n11\n-\n-\nProfit/ (loss) before tax\n2,966\n2,190\n615\n697\nLess: Tax expenses\n311\n230\n249\n170\nProfit / (loss) for the year\n2,655\n1,960\n366\n527\nOther comprehensive income/(loss):\n1) \t Items that will not be reclassified to profit or (loss)\na. \tRemeasurements of the defined benefit plans\n0\n(6)\n(3)\n(10)\nb. \tEquity instruments through other comprehensive income\n(515)\n77\n(515)\n77\nc. \tIncome tax relating to above items\n34\n(30)\n34\n(30)\n2) \tItems that will be reclassified to profit or (loss)\na. \tExchange differences on translation of foreign operations\n5\n1\n19\n2\nb. \tDebt instruments through other comprehensive income\n(90)\n112\n(90)\n112\nc. \tIncome tax relating to above items\n23\n(23)\n23\n(23)\nTotal comprehensive income /(loss) for the year\n2,112\n2,091\n(166)\n655\n2. State of the Company\u2019s affairs\nCompany overview\nThe Company is one of the first home-grown new-age\ntech companies listed in India and operates through\nfour key business segments:\n\uf09f\n\u0007Food delivery: A technology platform that\nprovides customers with a seamless, on-demand\nsolution to search and discover restaurants,\norder food, and have it delivered reliably\nand quickly.\n\uf09f\n\u0007Quick commerce: Platform offering doorstep\ndelivery of products across categories\n(fresh, staples, electronics, beauty, general\nmerchandise, festive needs ++).\n\uf09f\n\u0007Going-out: Going-out segment addresses the\n\u2018going-out\u2019 needs of our customers and enables\ndiscovery and transactions for large going-out\nexperiences including dining-out, movies, sports\n& other live events, shopping etc.\n\uf09f\n\u0007B2B supplies: B2B business supplying quality food\ningredients and other products to restaurants.\n51\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nFinancial results\nConsolidated revenue from operations grew 169%\nYoY to INR 54,364 crore in FY26 from INR 20,243 crore\nin FY25 primarily driven by shift to inventory model\nin quick commerce where revenue now also includes\nthe full monetary value of goods sold (and not just the\nmarketplace commission):\n\uf09f\n\u0007Food delivery revenue grew 26% YoY to INR 10,159\ncrore in FY26, primarily driven by higher order\nvolumes and increase in revenue per order.\n\uf09f\n\u0007Quick commerce revenue grew 626% YoY to INR\n37,779 crore in FY26 primarily driven by shift to\ninventory model where revenue now also includes\nthe full monetary value of goods sold (and not\njust the marketplace commission).\n\uf09f\n\u0007Going-out revenue grew 32% YoY to INR 973 crore\nin FY26 driven by growth across all categories\nincluding dining-out, movies and events.\nFY26 was also the first full financial year post\nacquisition of entertainment ticketing business\nin FY25.\n\uf09f\n\u0007B2B supplies revenue declined 13% YoY to INR\n5,366 crore in FY26, driven by scale down of\nthe non-restaurant business following the shift\nto inventory model in quick commerce. Core\nrestaurant supplies business continued to grow\nYoY.\nConsolidated Adjusted EBITDA improved to INR\n1,189 crore in FY26 from INR 1,079 crore in FY25.\nImprovement in Adjusted EBITDA profitability was\nprimarily driven by (a) improvement in food delivery\nAdjusted EBITDA margin and (b) reduction in losses\nin our quick commerce business and B2B supplies\nbusiness.\nConsolidated EBITDA for the full fiscal year was\npositive INR 1,208 crore. Consolidated PAT declined\nto INR 366 crore in FY26 compared to INR 527 crore\nin FY25 largely due to increase in depreciation\n</text>\n</passage>\n\n<passage id=\"55\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > \u0007B2B supplies revenue declined 13% YoY to INR\n</context>\n<text>\nConsolidated Adjusted EBITDA improved to INR\n1,189 crore in FY26 from INR 1,079 crore in FY25.\nImprovement in Adjusted EBITDA profitability was\nprimarily driven by (a) improvement in food delivery\nAdjusted EBITDA margin and (b) reduction in losses\nin our quick commerce business and B2B supplies\nbusiness.\nConsolidated EBITDA for the full fiscal year was\npositive INR 1,208 crore. Consolidated PAT declined\nto INR 366 crore in FY26 compared to INR 527 crore\nin FY25 largely due to increase in depreciation\n& amortization expense in the quick commerce\nbusiness.\nNote: To supplement our financial information presented in\naccordance with IND AS, we consider certain financial measures\nthat are not prepared in accordance with IND AS, including Adjusted\nRevenue and Adjusted EBITDA. We use these financial measures in\nconjunction with IND AS measures as part of overall assessment\nof our performance to evaluate the effectiveness of our business\nstrategies and to communicate with our board of directors\nconcerning our business and financial performance. We believe\nthese non-GAAP financial measures provide useful information to\ninvestors about our business and financial performance, enhance\ntheir overall understanding of our past performance and future\nprospects, and allow for greater transparency with respect to\nmetrics used by our management in their financial and operational\ndecision making. We are presenting these non-GAAP financial\nmeasures to assist our investors and because we believe that\nthese non-GAAP financial measures provide an additional tool for\ninvestors to use in comparing results of operations of our business\nover multiple periods. Information given also includes information\nrelated to material subsidiaries. Non-GAAP measures used by us\nare defined below:\na)\n\u0007Adjusted EBITDA = Consolidated EBITDA (+) share-based\npayment expense (-) rental paid for the period pertaining to\n\u2018IND AS 116 leases\u2019\nb)\n\u0007EBITDA = Profit/loss as per financials excluding (i) tax expense\n(ii) other income (iii) depreciation and amortization expense\n(iv) finance cost and (v) exceptional items\n3. Subsidiary(ies)\nAs at the closure of the financial year ended March\n31, 2026, the Company has 16 (sixteen) direct\nsubsidiaries and 4 (four) step down subsidiaries, and\ndid not have any associate company or joint venture.\nDuring the financial year under review, 2 (two) wholly\nowned subsidiaries were incorporated and 3 (three)\nstep down subsidiaries were dissolved/ liquidated as\ndetailed below:\n\uf09f\n\u0007Zomato Malaysia Sdn. Bhd., dissolved with effect\nfrom August 8, 2025.\n\uf09f\n\u0007Blinkit Foods Limited, incorporated on August 18,\n2025.\n\uf09f\n\u0007Zomato Internet Hizmetleri Ticaret Anonim\nSirketi, liquidated with effect from December 9,\n2025.\n\uf09f\n\u0007Eternal General Service Foundation, incorporated\non December 18, 2025.\n\uf09f\n\u0007Zomato Netherlands B.V., dissolved with effect\nfrom January 27, 2026.\nDuring the financial year under review, the Department\nof Registrar of Companies, Sri Lanka published the\nnotification (\u201cPublication\u201d) for strike off of Zomato\nMedia (Private) Limited (\u201cZMPL\u201d), wholly owned\nsubsidiary of the Company situated in Sri Lanka, to\nbe effective upon the expiry of three months from the\ndate of Publication. Further, the Company received\nconfirmation that ZMPL was struck off from the\nRegister of Companies, Sri Lanka with effect from\nApril 2, 2026.\n52\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nIn accordance with the Section 129 of the Companies\nAct, 2013 read with rules framed thereunder (\u201cAct\u201d),\na statement containing the salient features of the\nfinancial statements of the subsidiaries of the\nCompany in form AOC-1 is annexed as Annexure - I.\nIn accordance with Section 136 of the Act and\nthe Securities and Exchange Board of India\n(Listing Obligations and Disclosure Requirements)\nRegulations, 2015 (\u201cSEBI Listing Regulations\u201d),\nthe audited financial statements, including the\nconsolidated financial statements and financial\nresults of the subsidiaries are available at Link.\n</text>\n</passage>\n\n<passage id=\"56\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Media (Private) Limited (\u201cZMPL\u201d), wholly owned\n</context>\n<text>\nAct, 2013 read with rules framed thereunder (\u201cAct\u201d),\na statement containing the salient features of the\nfinancial statements of the subsidiaries of the\nCompany in form AOC-1 is annexed as Annexure - I.\nIn accordance with Section 136 of the Act and\nthe Securities and Exchange Board of India\n(Listing Obligations and Disclosure Requirements)\nRegulations, 2015 (\u201cSEBI Listing Regulations\u201d),\nthe audited financial statements, including the\nconsolidated financial statements and financial\nresults of the subsidiaries are available at Link.\n4. Change in nature of business\nDuring the financial year under review, there has been\nno change in the nature of business of the Company.\n5. Dividend\nDuring the financial year under review, the Board\nhas not recommended any dividend. The dividend\ndistribution policy of the Company is available at\nLink.\n6. Amount proposed to be transferred\nto reserves\nDuring the financial year under review, the Company\nhas not proposed to transfer any amount to the\nreserves.\n7. Capital structure\nDuring the financial year under review, there is no\nchange in the authorised, issued, subscribed and paid\nup share capital of the Company.\nAuthorised share capital\nThe authorised share capital of the Company\nas on financial year ended on March 31, 2026 is\nINR 14,48,63,29,341/- (Indian rupees one thousand\nfour hundred forty eight crore sixty three lakh\ntwenty nine thousand three hundred and forty one\nonly) divided into 14,48,63,29,341 (One thousand four\nhundred forty eight crore sixty three lakh twenty nine\nthousand three hundred and forty one) equity shares\nhaving face value of INR 1/- (Indian rupee one) each\n(\u201cEquity Shares\u201d).\nIssued, subscribed and paid up share\ncapital\nThe issued, subscribed and paid up share capital of the\nCompany as on financial year ended on March 31, 2026\nis INR 9,65,03,50,647/- (Indian rupees nine hundred\nsixty five crore three lakh fifty thousand six hundred\nand forty seven only), divided into 9,65,03,50,647 (Nine\nhundred sixty five crore three lakh fifty thousand six\nhundred and forty seven) Equity Shares.\nEquity shares with differential rights and\nsweat equity shares\nDuring the financial year under review, the Company\nhas neither issued sweat equity shares nor issued\nequity shares with differential rights as to dividend,\nvoting or otherwise.\n8. Directors and Key Managerial\nPersonnel (\u201cKMP\u201d)\nAppointment / re-appointment or\nresignation of director(s)\nDuring the financial year under review, following\nappointment/re-appointment of directors were\napproved by shareholders on March 13, 2026:\n\uf09f\n\u0007Kaushik Dutta (DIN: 03328890) as Independent\nDirector of the Company for a second term of 5\n(five) consecutive years commencing from March\n1, 2026 to February 28, 2031.\n\uf09f\n\u0007Namita Gupta (DIN: 07337772) as Independent\nDirector of the Company for a second term of 5\n(five) consecutive years commencing from March\n1, 2026 to February 28, 2031.\n\uf09f\n\u0007Deepinder Goyal (DIN: 02613583) as Vice\nChairman & Non-Executive Director of the\nCompany effective from March 13, 2026.\n\uf09f\n\u0007Sutapa Banerjee (DIN: 02844650) as Independent\nDirector of the Company for a second term of 5\n(five) consecutive years commencing from April\n12, 2026 to April 11, 2031.\n\uf09f\n\u0007Aparna Popat Ved (DIN: 08661466) as Independent\nDirector of the Company for a second term of 5\n(five) consecutive years commencing from April\n19, 2026 to April 18, 2031.\n53\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nFurther, Deepinder Goyal (DIN: 02613583) resigned\nas Director, Managing Director & Chief Executive\nOfficer of the Company, effective from the close of\nbusiness hours on February 1, 2026.\nIn accordance with the provisions of Section 152 of\nthe Act and articles of association of the Company,\nSanjeev Bikhchandani (DIN: 00065640) Non-Executive\nNominee Director (\u201cNominee Director\u201d), who has\nbeen longest in office since his last election, is liable\nto retire by rotation at the ensuing Annual General\nMeeting (\u201cAGM\u201d) and, being eligible, has offered\nhimself for re-appointment. The Board recommends\n</text>\n</passage>\n\n<passage id=\"57\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Media (Private) Limited (\u201cZMPL\u201d), wholly owned\n</context>\n<text>\nas Director, Managing Director & Chief Executive\nOfficer of the Company, effective from the close of\nbusiness hours on February 1, 2026.\nIn accordance with the provisions of Section 152 of\nthe Act and articles of association of the Company,\nSanjeev Bikhchandani (DIN: 00065640) Non-Executive\nNominee Director (\u201cNominee Director\u201d), who has\nbeen longest in office since his last election, is liable\nto retire by rotation at the ensuing Annual General\nMeeting (\u201cAGM\u201d) and, being eligible, has offered\nhimself for re-appointment. The Board recommends\nhis re-appointment as non-executive nominee\ndirector for shareholders\u2019 approval.\nAppointment or resignation of KMP\nDuring the financial year under review, Deepinder\nGoyal (DIN: 02613583) resigned as Director, Managing\nDirector & Chief Executive Officer of the Company,\neffective from the close of business hours on\nFebruary 1, 2026.\nFurther, Albinder Singh Dhindsa was appointed\nas Chief Executive Officer and Key Managerial\nPersonnel of the Company effective from February\n1, 2026. Additionally, he continues to be whole time\ndirector in Blink Commerce Private Limited.\nDeclarations from independent director(s)\nThe Independent Directors have confirmed\ncompliance with the Code for Independent Directors\nprescribed under Schedule IV to the Act and\nindependence under the Act and the SEBI Listing\nRegulations, including inter-alia the criteria as\ndetailed below:\n\uf09f\n\u0007they have registered themselves with the\nindependent director\u2019s databank maintained by\nthe Indian Institute of Corporate Affairs;\n\uf09f\n\u0007they are not material supplier, service provider or\ncustomer or a lessor or lessee of the Company;\n\uf09f\n\u0007they have not been an employee, proprietor\nor partner, of the firm of auditors or company\nsecretaries in practice, of the Company or its\nsubsidiaries in any of the three immediately\npreceding financial years and the financial year\nended March 31, 2026;\n\uf09f\n\u0007they have not been an employee or proprietor\nor a partner of any legal or consulting firm that\nhad business transactions with the Company or\nits subsidiaries, amounting to 10 (ten) per cent or\nmore of the gross turnover of such firm, in any of\nthe three immediately preceding financial years\nand the financial year ended March 31, 2026;\n\uf09f\n\u0007apart from receiving director\u2019s remuneration\n(including sitting fees), there have not been any\nmaterial pecuniary relationship or transaction\nwith the Company or its subsidiaries or their\npromoters or directors during the three\nimmediately preceding financial years and\nfinancial year ended March 31, 2026, exceeding\nthe limits specified under the Act and SEBI Listing\nRegulations;\n\uf09f\n\u0007they have not been linked to a non profit\norganisation\nthat\nreceives\nsignificant\ncontribution from the Company or its directors\nor its subsidiaries or that holds 2 (two) per cent or\nmore of the total voting power of the Company;\n\uf09f\n\u0007they are not aware of any circumstance or\nsituation, which exists or may be reasonably\nanticipated, that could impair or impact their\nability to discharge duties with an objective\nindependent judgment and without any external\ninfluence;\n\uf09f\n\u0007neither they nor their relative(s) have held the\nposition of a key managerial personnel in the\nCompany or its subsidiaries in any of the three\nimmediately preceding financial years and the\nfinancial year ended March 31, 2026.\nAccordingly, based on the declarations received from\nall independent directors, the Board has confirmed\nthat, in their opinion, independent directors of the\nCompany are the persons of integrity, possess\nrelevant expertise and experience and fulfil the\nconditions specified in the Act and SEBI Listing\nRegulations and are independent of the management.\n54\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nCompany\u2019s\npolicy\non\ndirectors\u2019\nappointment and remuneration including\ncriteria for determining qualifications,\npositive attributes, independence of a\ndirector and other matters\nThe Nomination and Remuneration Policy\n(\u201cNRC Policy\u201d) has been formulated in compliance with\n</text>\n</passage>\n\n<passage id=\"58\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Meeting (\u201cAGM\u201d) and, being eligible, has offered\n</context>\n<text>\nCompany are the persons of integrity, possess\nrelevant expertise and experience and fulfil the\nconditions specified in the Act and SEBI Listing\nRegulations and are independent of the management.\n54\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nCompany\u2019s\npolicy\non\ndirectors\u2019\nappointment and remuneration including\ncriteria for determining qualifications,\npositive attributes, independence of a\ndirector and other matters\nThe Nomination and Remuneration Policy\n(\u201cNRC Policy\u201d) has been formulated in compliance with\nSection 178 of the Act and Regulation 19 of the SEBI\nListing Regulations. It serves as a comprehensive\nframework governing the nomination, evaluation,\nand compensation of the Company\u2019s directors and\nsenior management personnel. The objective of\nthis NRC Policy is to attract, retain, and incentivize\ntalent to drive the Company\u2019s sustainable growth and\nlong-term success.\nThere have been no changes in the NRC Policy during\nthe financial year under review. The NRC Policy is\navailable at Link.\n9. Number of meetings of Board\nDuring the financial year under review, the Board\nmet 8 (eight) times. The maximum interval between\nany two meetings of the Board did not exceed 120\ndays. Details of the Board meetings held, including\nthe attendance of the directors therein have been\ndisclosed in the Corporate Governance Report\nforming part of this Annual Report.\n10. Performance evaluation\nThe Company recognises that an effective board\nevaluation process is integral to strong corporate\ngovernance and supports the Board in continuously\nenhancing its effectiveness. Accordingly, the\nCompany has adopted a structured framework for the\nannual evaluation of the performance of the Board, its\ncommittees, the chairman and individual directors,\nincluding independent directors.\nThe Nomination and Remuneration Committee\n(\u201cNRC\u201d), in consultation with the Board, oversees the\nevaluation framework and criteria. The evaluation,\ninter alia, considered the following aspects:\n\uf09f\n\u0007Board composition, diversity and the mix of skills\nand experience;\n\uf09f\n\u0007Clarity of roles, responsibilities and accountability;\n\uf09f\n\u0007Quality, timeliness and adequacy of information\nprovided to the Board;\n\uf09f\n\u0007Effectiveness of Board deliberations, strategic\noversight and decision-making;\n\uf09f\n\u0007Leadership of the chairman and the functioning\nof the Board;\n\uf09f\n\u0007Contribution and performance of individual\ndirectors;\n\uf09f\n\u0007Effectiveness of the Board committees in\ndischarging their responsibilities.\nIn compliance with Section 149 of the Act, Regulation\n17 of the SEBI Listing Regulations and the Company\u2019s\npolicy for evaluation of the performance of the board\nof directors, the performance evaluation of each\nindependent director was carried out considering\nthe aspects related to fulfillment of independence\ncriteria and independence from management.\nDuring the financial year under review, the Company\nengaged Nasdaq Corporate Solutions International\nLimited (\u201cNasdaq\u201d), an independent governance\nadvisory firm, to facilitate the evaluation process. The\nevaluation was conducted through a combination of\nstructured questionnaires, wherein all directors were\nrequested to complete comprehensive evaluation\nquestionnaires tailored to capture an objective\noverview of the overall performance and one-on-one\ninterviews with independent directors, providing an\nadditional layer of qualitative insights and feedback.\nThe independent and comprehensive evaluation,\nconsolidated by Nasdaq, assessed the Board\u2019s\noverall vitality, offering deep insights into its\nleadership mindset, strategic engagement, cultural\nethos, interpersonal dynamics, and governance\npractices.\nFollowing a review by the NRC and subsequent\ndeliberation by the Board, the findings reaffirmed\nthat the Board and its committees continue to\nfunction effectively and provide appropriate strategic\noversight. It also provided constructive insights\nto support the Board\u2019s ongoing focus on strategic\n55\nFinancial Statements\nStatutory Reports: Board Report\n</text>\n</passage>\n\n<passage id=\"59\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Limited (\u201cNasdaq\u201d), an independent governance\n</context>\n<text>\noverall vitality, offering deep insights into its\nleadership mindset, strategic engagement, cultural\nethos, interpersonal dynamics, and governance\npractices.\nFollowing a review by the NRC and subsequent\ndeliberation by the Board, the findings reaffirmed\nthat the Board and its committees continue to\nfunction effectively and provide appropriate strategic\noversight. It also provided constructive insights\nto support the Board\u2019s ongoing focus on strategic\n55\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nengagement and governance excellence. The Board\nhas considered these insights  to further strengthen\nits governance framework in line with its commitment\nto continuous improvement and long-term value\ncreation.\n11.\tCommittees of the Board\nAs on the financial year ended March 31, 2026, the\nBoard has 7 (seven) committees comprising of\nBoard members as detailed below:\n\uf09f\n\u0007Audit Committee;\n\uf09f\n\u0007Nomination and Remuneration Committee;\n\uf09f\n\u0007Stakeholders\u2019 Relationship Committee;\n\uf09f\n\u0007Risk Management Committee;\n\uf09f\n\u0007Corporate Social Responsibility Committee;\n\uf09f\n\u0007Investment Committee; and\n\uf09f\n\u0007Fund Raising Committee.\nA detailed note on the composition of the aforesaid\ncommittees and other mandatory details are provided\nin the Corporate Governance Report forming part of\nthis Annual Report.\n12. Corporate Social Responsibility\n(\u201cCSR\u201d) policy\nThe CSR policy sets out the Company\u2019s approach\ntowards social welfare and sustainable development.\nIt provides the guiding principles, responsibilities,\nand framework for undertaking meaningful initiatives\nthat positively impact communities, particularly in\nareas surrounding the Company\u2019s operations.\nA summary of the CSR policy, along with other\ndisclosures, is provided in Annexure \u2013 II.\n13. Vigil mechanism and whistle\nblower policy\nThe Company is committed to maintain the highest\nstandards of integrity, transparency, and ethical\nconduct.\nIn alignment with the Section 177 of the Act and\nRegulation 22 of the SEBI Listing Regulations, our\nVigil Mechanism and Whistle Blower Policy (\u201cPolicy\u201d)\nprovides a secure, confidential channel for employees,\ndirectors, and stakeholders to report instances of\nmisconduct, fraud, unethical practices, or violations\nof the Code of Conduct. The Policy is available at Link.\nThis framework ensures direct access to the\nchairperson of the Audit Committee and includes\nstrict safeguards against any form of retaliation\nor victimization. All reported concerns undergo\nindependent investigation, with key findings\npresented periodically to the relevant committees.\nDuring the financial year under review, the Company\nconfirms that no individual was denied access to the\nAudit Committee\u2019s chairperson. For the financial\nyear under review, 9 (nine) reportable matters were\nthoroughly investigated and successfully resolved\nunder the provisions of the Policy.\n14. Risk management\nThe Board has established a Risk Management\nCommittee (\u201cRMC\u201d) to supervise the Company\u2019s risk\ngovernance framework and verify the effectiveness\nof its mitigation strategies.\nIntegrated directly into core decision-making\nprocesses, this framework enables the systematic\nidentification, assessment, monitoring, and\nmitigation of strategic and operational risks. The\nRisk Management Policy details the corporate risk\ngovernance structure\u2014including the \u201cThree Lines\nof Defence\u201d model\u2014and defines clear lines of risk\nownership, the said policy is available at Link.\nImplementation of this framework is driven by\nthe Governance, Risk & Compliance team, which\nevaluates risks based on its likelihood and impact.\nThis structured methodology enhances transparency,\nsupports well-informed decisions, and bolsters the\nCompany\u2019s capacity to navigate emerging risks and\nopportunities.\n56\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nRisks and Concerns\n</text>\n</passage>\n\n<passage id=\"60\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Committee (\u201cRMC\u201d) to supervise the Company\u2019s risk\n</context>\n<text>\nof Defence\u201d model\u2014and defines clear lines of risk\nownership, the said policy is available at Link.\nImplementation of this framework is driven by\nthe Governance, Risk & Compliance team, which\nevaluates risks based on its likelihood and impact.\nThis structured methodology enhances transparency,\nsupports well-informed decisions, and bolsters the\nCompany\u2019s capacity to navigate emerging risks and\nopportunities.\n56\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nRisks and Concerns\nIn line with the Enterprise Risk Management (\u201cERM\u201d)\nexercise conducted for Eternal at a consolidated\nlevel, below are the strategic risks that have been\nidentified and may impact Eternal in the long run.\nThese risks have been further mapped to the relevant\nEnvironmental, Social, and Governance (\u201cESG\u201d) pillars\nfrom a sustainability standpoint, with their changing\ntrends over the past fiscal year tracked closely by\nthe RMC.\n\uf09f Competition | Governance\nEternal faces an intensifying competitive landscape\nacross both established and emerging segments,\nwhich can directly hinder growth, compress operating\nmargins, and reduce overall platform revenue and\nprofitability. Key risk factors include capital-fueled\nexpansions by quick commerce rivals and the entry\nof new players. Furthermore, aggressive competitor\ntactics\u2014such as eliminating user handling fees\nand lowering delivery fee thresholds\u2014exert strong\npricing pressure, triggering risk of customer\nmigration or heightened monthly inactivity on our B2C\nmarketplaces.\nTo protect market share and strengthen our\noperational moats, Eternal continues to evolve its\nbusiness strategy from rapid expansion to sustained\nefficiency. Blinkit has strategically transitioned to an\ninventory-owned model to achieve absolute control\nover pricing, product availability, and margins,\nsupplemented by Hyperpure entering the B2C market\nas a core seller for fresh and perishable products.\nConcurrently, Zomato has scaled user retention\nand expanded affordability features by introducing\nconsumer-centric options like \u201cHealthy Mode\u201d and\nbudget-conscious \u201cMeals under 250,\u201d while the\nDistrict app continues to establish exclusive global\npartnerships with international agencies to secure\npremium event inventories.\nDriven by execution capabilities and strategic agility,\nEternal is dedicated to sustaining its ecosystem\nleadership through disciplined cost efficiencies and\ndifferentiated consumer offerings.\n\uf09f Regulatory Compliances | Governance\nAs a leading digital platform, Eternal operates under\nan evolving legislative and supervisory framework,\nwhere any failure to track, interpret, or communicate\nregulatory updates can lead to significant operational\ndisruptions, heavy financial penalties, or license\ncancellations. The compliance landscape has become\nincreasingly demanding following the notification\nof new centralized Labor Codes which introduced\nrigid system obligations and social security fund\ncontributions for our fleet. Additionally, heightened\nplatform governance requirements\u2014including\nexplicit data principal consent under Digital Personal\nData Protection Rules, strict country-of-origin\nmetrology declarations, Bureau of Indian Standards\nhallmarking, and enforcement directives from\nauthorities to eliminate delivery speed claims from\nmarketing narratives\u2014require continuous, resource-\nintensive platform modifications.\nTo maintain high standards of statutory adherence,\nEternal\u2019s public policy, product, and legal teams\nproactively engage with governing authorities to\nensure consistent framework alignments. On the\ntechnology front, our data governance structures\nhave been enhanced to incorporate robust consent\nmanagement systems and transparent country-of-\norigin discovery filters, while the entire property\nonboarding flow for dark stores has been embedded\nwith mandatory legal due diligence layers.\nEternal remains committed to fostering an\nuncompromised culture of compliance, embedding\ntransparent regulatory tracking directly into the core\n</text>\n</passage>\n\n<passage id=\"61\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > \uf09f Regulatory Compliances | Governance\n</context>\n<text>\nproactively engage with governing authorities to\nensure consistent framework alignments. On the\ntechnology front, our data governance structures\nhave been enhanced to incorporate robust consent\nmanagement systems and transparent country-of-\norigin discovery filters, while the entire property\nonboarding flow for dark stores has been embedded\nwith mandatory legal due diligence layers.\nEternal remains committed to fostering an\nuncompromised culture of compliance, embedding\ntransparent regulatory tracking directly into the core\ndesign of our business processes.\n\uf09f Stakeholder Management | Governance\nEternal\u2019s highly distributed operational model relies\non the seamless alignment of key stakeholders,\nmaking the platform vulnerable to sudden operational\nbreakthroughs or revenue losses from service\nlapses. Labor volatility, underscored by nationwide\nor regional gig worker strikes orchestrated by\nplatform unions over social security structures,\npresents an immediate threat to last-mile fulfillment\ncontinuity and order volumes. Similarly, supply chain\nconstraints across our B2B verticals\u2014driven by\nintensive competitive hiring and high turnover among\nwarehouse personnel seeking aggressive payout\nstructures\u2014can restrict our ability to reliably fulfill\ndemand during peak business windows.  To mitigate\nfriction and fortify stakeholder relationships, our\ncity and central teams have established responsive\ncommunication protocols and structured grievance\nchannels. During high-demand and festive\n57\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nwindows, we actively calibrate our rate cards and\nperformance incentives to reward partners fairly,\nensuring continuous fleet availability and safe\noperations through local coordination. Hyperpure is\nactively aligning its payout structures with market\ndynamics to match competitive frequencies and\nhas collaborated with third-party vendors to extend\nenhanced social security scheme onboarding and\nvisibility to warehouse personnel. Furthermore, our\ncommitment to systemic equity is reinforced through\nlarge-scale platforms, such as hosting the inclusive\ngrowth conference in New Delhi to advance collective\npartner well-being.\nRecognizing that our partners form the vital\ninfrastructure of our business, Eternal is dedicated\nto cultivating a fair, rewarding, and deeply sustainable\necosystem for all participants.\n\uf09f Macro-Economics | Social & Governance\nFluctuations in localized and global economic\nconditions, alongside broader geopolitical volatility,\ncan severely restrict consumer discretionary\nspending and compress corporate operating\nmargins. Escalations in international conflicts pose\nsevere logistics constraints, leading to dual-impact\ncrises such as global energy transit bottlenecks\nthat simultaneously inflate platform delivery costs\nand disrupt the fuel and LPG dependencies of our\nrestaurant partners. Such structural shortages\ndirectly manifest as revenue bottlenecks, causing\nimpact in order volumes and restricting restaurant\nsupply capabilities across our core B2C and B2B\nsegments.  Eternal leverages its multi-vertical\nbusiness architecture to reduce dependency on any\nsingle market segment or price point, providing a\nnatural cushion against macro-level discretionary\ncontractions. To insulate our fleet from volatile crude\noil metrics, Zomato and Blinkit have accelerated their\nstrategic transition to EV-based logistics, optimizing\nlocal routes and enhancing fleet efficiency. Our\nprocurement teams have strengthened supply chain\nresilience by diversifying our supplier base and\nbuilding robust inventory reserves, while proactively\nplanning for alternative energy options to protect\nour restaurant partners during macro bottlenecks.\nThrough continuous macroeconomic monitoring\nand structured financial discipline, Eternal remains\nagile, maintaining its capacity to deliver long-term\nstakeholder value despite global uncertainties.\n\uf09f Brand / Reputation | Governance\nIn an environment heavily driven by digital interactions,\n</text>\n</passage>\n\n<passage id=\"62\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > \uf09f Macro-Economics | Social & Governance\n</context>\n<text>\nprocurement teams have strengthened supply chain\nresilience by diversifying our supplier base and\nbuilding robust inventory reserves, while proactively\nplanning for alternative energy options to protect\nour restaurant partners during macro bottlenecks.\nThrough continuous macroeconomic monitoring\nand structured financial discipline, Eternal remains\nagile, maintaining its capacity to deliver long-term\nstakeholder value despite global uncertainties.\n\uf09f Brand / Reputation | Governance\nIn an environment heavily driven by digital interactions,\nEternal faces persistent brand exposure from adverse\npublicity, social media perception pressures, and\nineffective customer experiences during complex\noperations. Public narratives can shift rapidly due to\npolitical criticism regarding gig worker welfare, public\nprotests, or administrative and crowd management\nbottlenecks during major co-produced ticketing\nevents. Such incidents can inflate negative social\nmedia mentions, trigger elevated refund requests,\nand place sudden stress on platform support\ninfrastructures, presenting a challenge to long-term\nuser retention and brand loyalty.  To safeguard brand\nhealth and maintain public trust, Eternal utilizes\nadvanced analytics tools to pre-emptively monitor\nsocial narratives and deploy immediate corporate\ncommunications. We consistently validate our\ncommitment to our fleet through wide-ranging\ntransparency initiatives regarding partner earnings\nand have rolled out multi-city road safety campaigns\nin coordination with local authorities. For our going-\nout verticals, platform features have been upgraded\nto include consumer-friendly safeguards such as a\n\u201cRefund Guarantee Fee\u201d for flexible cancellations\nand upfront payment capabilities to secure high-\ndemand inventory smoothly.  Guided by long-term\ntransparency and a responsible marketing approach,\nEternal continues to reinforce consumer trust and\nsecure its brand equity across all touchpoints.\n\uf09f Black Swan Disruption | Governance\nUnforeseen, large-scale catastrophic events\u2014\nincluding severe geopolitical conflicts, regional trade\nor tariff disruptions, public health emergencies, and\nlocalized security incidents\u2014pose fundamental risks to\nconsumer behavior and financial stability. Given that a\nsubstantial concentration of group Gross Merchandise\nValue (GMV) is anchored within top-tier urban metros,\nany localized mobility restriction, trade deadlock,\nor supply shock can trigger severe operational and\nfinancial vulnerabilities across our consolidated\nnetwork.  To ensure uninterrupted business continuity\nunder adverse conditions, Eternal has systematically\ndecentralized its operational footprint and established\na geographically distributed supply architecture. We\nintentionally source critical inventory and materials\nfrom a diversified pool of independent vendors across\nseparate regions, eliminating over-reliance on singular\n58\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nsupply vectors. Furthermore, the Company is actively\nembedding advanced technological solutions\u2014\nincluding deeper logistically focused automated\nsystems\u2014to systematically reduce platform\ndependency on highly volatile human and energy\nvariables.  By prioritizing deep system resilience\nand predictive planning, Eternal stands prepared\nto navigate complex, large-scale disruptions while\nsafeguarding core operational integrity.\n15. Auditors and auditors\u2019 reports\nStatutory auditors\nM/s. Deloitte Haskins & Sells , Chartered Accountants\n(Firm Registration No.: 015125N and Peer\nReview Certificate No.: 017816) (\u201cDeloitte\u201d), were\nre-appointed as the Statutory Auditors of the\nCompany for a second term of 5 (five) consecutive\nyears to hold office from the conclusion of 15th AGM,\nheld in 2025, till the conclusion of 20th AGM. Further,\nDeloitte on their appointment confirmed that:\n\uf09f\n\u0007their appointment is within the limit prescribed\nunder Section 141 of the Act;\n\uf09f\n\u0007they are not disqualified from continuing as\nstatutory auditors under Section 141 of the Act;\n</text>\n</passage>\n\n<passage id=\"63\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > \uf09f Black Swan Disruption | Governance\n</context>\n<text>\n(Firm Registration No.: 015125N and Peer\nReview Certificate No.: 017816) (\u201cDeloitte\u201d), were\nre-appointed as the Statutory Auditors of the\nCompany for a second term of 5 (five) consecutive\nyears to hold office from the conclusion of 15th AGM,\nheld in 2025, till the conclusion of 20th AGM. Further,\nDeloitte on their appointment confirmed that:\n\uf09f\n\u0007their appointment is within the limit prescribed\nunder Section 141 of the Act;\n\uf09f\n\u0007they are not disqualified from continuing as\nstatutory auditors under Section 141 of the Act;\nand\n\uf09f\n\u0007they hold a valid certificate issued by the peer\nreview board of the Institute of Chartered\nAccountants of India.\nDeloitte has given an unmodified opinion and has\nnot given any qualification or reservation or adverse\nremark or disclaimer in their audit report on the\nfinancial statements (standalone and consolidated)\nof the Company for the financial year ended on March\n31, 2026.\nSecretarial auditors\nM/s. Chandrasekaran Associates, Company\nSecretaries (Firm Registration No.: P1988DE002500\nand Peer Review Certificate No.: 6689/2025) (\u201cCACS\u201d)\nwere appointed as Secretarial Auditors of the\nCompany for a term of 5 (five) consecutive years\nstarting from April 1, 2025 and ending on March 31,\n2030. Further, CACS on their appointment confirmed\nthat:\n\uf09f\n\u0007their appointment is within the limits laid down\nunder the guidelines of Institute of Company\nSecretaries of India (\u201cICSI\u201d);\n\uf09f\n\u0007they are not disqualified from continuing as\nsecretarial auditors under Section 204 of the\nAct, Company Secretaries Act, 1980, SEBI Listing\nRegulations and Securities and Exchange Board\nof India circulars;\n\uf09f\n\u0007they hold a valid peer review certificate issued by\nthe ICSI.\nThe secretarial audit report issued for the financial\nyear ended on March 31, 2026 does not contain any\nqualification or reservation or observation or adverse\nremark and is annexed as Annexure - III A.\nFurther, CACS were also appointed as secretarial\nauditors for Zomato Hyperpure Private Limited\n(\u201cZHPL\u201d), and Blink Commerce Private Limited (\u201cBCPL\u201d)\nmaterial unlisted subsidiaries of the Company for the\nfinancial year ended on March 31, 2026. The secretarial\naudit reports of ZHPL and BCPL are also annexed as\nAnnexure - III B and Annexure \u2013 III C respectively.\nThe Company has submitted the annual secretarial\ncompliance report with BSE Limited (\u201cBSE\u201d) and\nNational Stock Exchange of India Limited (\u201cNSE\u201d)\n(collectively referred to as \u201cStock Exchanges\u201d)\nin compliance of Regulation 24A of the SEBI\nListing Regulations and same is available at\nLink.\nInternal auditor\nDeepak Ahluwalia, Chartered Accountant, Global Head\n\u2013 Governance, Risk & Compliance of the Company,\ncontinues to act as the Internal Auditor of the Company\nin accordance with Section 138 of the Act.\nHe oversees the internal audit function across\ndomains including business processes, IT systems\ninformation security, regulatory compliance,\nhealth and safety and data protection, with a focus\non strengthening internal controls and driving\ncontinuous improvement. In carrying out this\nresponsibility, he is supported by reputed firms of\nchartered accountants that provide independent\nassurance on the effectiveness of internal controls,\nprocedures and compliance processes.\n59\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nKey audit findings and the results of management\ntesting of internal financial controls are presented to\nthe Audit Committee on a quarterly basis.\n16. Internal financial controls and\ntheir adequacy\nAs an integral component of the Company\u2019s risk\nand governance framework, internal financial\ncontrols mitigate financial and operational risks to\nensure orderly and efficient business conduct. This\nframework secures adherence to corporate policies,\nsafeguards assets, prevents and detects fraud,\nmaintains the accuracy of accounting records, and\nfacilitates the timely preparation of reliable financial\nstatements.\nCommensurate with the scale of its operations, the\nCompany maintains a robust internal control system\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "Cost of goods sold (COGS) increased by 442% YoY to INR 30,167 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "cost_of_goods_sold",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "yoy_change",
+            "provenance": "stated",
+            "value": "442%"
+          }
+        ],
+        "quote": "Cost of goods sold (COGS) increased by 442% YoY to INR 30,167 crore in FY26",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "30,167",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Employee benefits expense increased 38% YoY to INR 3,536 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "employee_benefits_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "yoy_change",
+            "provenance": "stated",
+            "value": "38%"
+          }
+        ],
+        "quote": "Employee benefits expense increased 38% YoY to INR 3,536 crore in FY26.",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "3,536",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "The headcount increased by 33% YoY to 22,470 in FY26.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "headcount",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "yoy_change",
+            "provenance": "stated",
+            "value": "33%"
+          }
+        ],
+        "quote": "33% YoY increase in headcount to 22,470 in FY26",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "22,470"
+        }
+      },
+      {
+        "claim_text": "Share-based payment expense grew 3% YoY to INR 819 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "share_based_payment_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "yoy_change",
+            "provenance": "stated",
+            "value": "3%"
+          }
+        ],
+        "quote": "Share-based payment expense grew 3% YoY to INR 819 crore in FY26.",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "819",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Finance costs increased 155% YoY to INR 392 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "finance_costs",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "yoy_change",
+            "provenance": "stated",
+            "value": "155%"
+          }
+        ],
+        "quote": "Finance costs increased 155% YoY to INR 392 crore in FY26.",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "392",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Depreciation and amortisation expenses grew 85% YoY to INR 1,597 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 48,
+        "predicate": "depreciation_and_amortisation_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "yoy_change",
+            "provenance": "stated",
+            "value": "85%"
+          }
+        ],
+        "quote": "Depreciation and amortisation expenses grew 85% YoY to INR 1,597 crore in FY26.",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,597",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "The consolidated total income for the financial year ended March 31, 2026 was INR 55,760 crore.",
+        "confidence": 1,
+        "passage_id": 54,
+        "predicate": "total_income",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "financial year ended on March 31, 2026"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "consolidated"
+          }
+        ],
+        "quote": "Total income 55,760",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "55,760",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "The consolidated profit for the year ended March 31, 2026 was INR 366 crore.",
+        "confidence": 1,
+        "passage_id": 54,
+        "predicate": "profit_for_the_year",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "financial year ended on March 31, 2026"
+          },
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "consolidated"
+          }
+        ],
+        "quote": "Profit / (loss) for the year 366",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "366",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "As at March 31, 2026, the Company has 16 direct subsidiaries and 4 step down subsidiaries.",
+        "confidence": 1,
+        "passage_id": 55,
+        "predicate": "subsidiary_count",
+        "qualifiers": [
+          {
+            "key": "type",
+            "provenance": "stated",
+            "value": "direct"
+          },
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "As at the closure of the financial year ended March 31, 2026, the Company has 16 (sixteen) direct subsidiaries",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "16"
+        }
+      },
+      {
+        "claim_text": "As at March 31, 2026, the Company has 4 step down subsidiaries.",
+        "confidence": 1,
+        "passage_id": 55,
+        "predicate": "subsidiary_count",
+        "qualifiers": [
+          {
+            "key": "type",
+            "provenance": "stated",
+            "value": "step down"
+          },
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "and 4 (four) step down subsidiaries",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "4"
+        }
+      },
+      {
+        "claim_text": "The authorised share capital of the Company as on March 31, 2026 is INR 14,48,63,29,341.",
+        "confidence": 1,
+        "passage_id": 56,
+        "predicate": "authorised_share_capital",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "The authorised share capital of the Company as on financial year ended on March 31, 2026 is INR 14,48,63,29,341/-",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "14,48,63,29,341",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The issued, subscribed and paid up share capital of the Company as on March 31, 2026 is INR 9,65,03,50,647.",
+        "confidence": 1,
+        "passage_id": 56,
+        "predicate": "paid_up_share_capital",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "The issued, subscribed and paid up share capital of the Company as on financial year ended on March 31, 2026 is INR 9,65,03,50,647/-",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "9,65,03,50,647",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "During the financial year ended March 31, 2026, the Board met 8 times.",
+        "confidence": 1,
+        "passage_id": 58,
+        "predicate": "board_meeting_count",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "financial year ended March 31, 2026"
+          }
+        ],
+        "quote": "During the financial year under review, the Board met 8 (eight) times.",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "8"
+        }
+      },
+      {
+        "claim_text": "As on March 31, 2026, the Board has 7 committees.",
+        "confidence": 1,
+        "passage_id": 59,
+        "predicate": "board_committee_count",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "As on the financial year ended March 31, 2026, the Board has 7 (seven) committees",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "7"
+        }
+      },
+      {
+        "claim_text": "For the financial year ended March 31, 2026, 9 reportable matters were investigated and resolved under the Vigil Mechanism and Whistle Blower Policy.",
+        "confidence": 1,
+        "passage_id": 59,
+        "predicate": "whistle_blower_matters_resolved",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "financial year ended March 31, 2026"
+          }
+        ],
+        "quote": "For the financial year under review, 9 (nine) reportable matters were thoroughly investigated and successfully resolved under the provisions of the Policy.",
+        "subject_key": null,
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "9"
+        }
+      }
+    ]
+  }
+}

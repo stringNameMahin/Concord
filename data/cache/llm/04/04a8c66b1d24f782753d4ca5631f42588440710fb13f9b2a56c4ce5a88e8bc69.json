@@ -1,0 +1,49 @@
+{
+  "key": "04a8c66b1d24f782753d4ca5631f42588440710fb13f9b2a56c4ce5a88e8bc69",
+  "request": {
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "content": "You decide whether two field names denote the same relation. You work on any\nkind of document and must not assume a subject area.\n\nAnswer `true` only when a value recorded under one name could be recorded under\nthe other without changing what is being claimed about the subject.\n\nAnswer `false` when the names differ in what they measure, over what scope, or\non what basis, however similar the wording. Two names that describe related but\ndistinct quantities are `false`. If you cannot tell, answer `false`: leaving\ntwo names separate keeps their facts comparable within each name, while merging\nthem wrongly makes unlike things look like contradictions.",
+        "role": "system"
+      },
+      {
+        "content": "Do these two names denote the same relation?\n\nA: revenue\nB: total revenue\n\nThey are used in these claims:\nA: (not given)\nB: (not given)",
+        "role": "user"
+      }
+    ],
+    "model": "qwen/qwen3-30b-a3b-instruct-2507",
+    "response_format": {
+      "json_schema": {
+        "name": "aliasanswer",
+        "schema": {
+          "properties": {
+            "reason": {
+              "description": "One sentence, naming what makes them the same or different",
+              "title": "Reason",
+              "type": "string"
+            },
+            "same_relation": {
+              "description": "True only if the two names denote the same relation, for the same kind of subject",
+              "title": "Same Relation",
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "same_relation",
+            "reason"
+          ],
+          "title": "AliasAnswer",
+          "type": "object"
+        },
+        "strict": false
+      },
+      "type": "json_schema"
+    },
+    "temperature": 0.0
+  },
+  "response": {
+    "reason": "The term \"revenue\" generally refers to the total income generated from normal business operations, while \"total revenue\" explicitly emphasizes the sum of all revenue streams, often to distinguish it from partial or net measures. Although the two terms are closely related and often used interchangeably in casual contexts, \"total revenue\" is more precise and explicitly conveys the comprehensive sum. However, in most standard usage, \"revenue\" alone is understood to mean \"total revenue\" unless otherwise specified. Since the context of the claims is not provided, and no distinction in scope or measurement basis is indicated, the two names are effectively denoting the same relation in practice.",
+    "same_relation": true
+  }
+}

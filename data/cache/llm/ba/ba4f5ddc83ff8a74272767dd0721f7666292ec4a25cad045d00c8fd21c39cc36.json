@@ -1,0 +1,388 @@
+{
+  "key": "ba4f5ddc83ff8a74272767dd0721f7666292ec4a25cad045d00c8fd21c39cc36",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"64\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > (collectively referred to as \u201cStock Exchanges\u201d)\n</context>\n<text>\nAs an integral component of the Company\u2019s risk\nand governance framework, internal financial\ncontrols mitigate financial and operational risks to\nensure orderly and efficient business conduct. This\nframework secures adherence to corporate policies,\nsafeguards assets, prevents and detects fraud,\nmaintains the accuracy of accounting records, and\nfacilitates the timely preparation of reliable financial\nstatements.\nCommensurate with the scale of its operations, the\nCompany maintains a robust internal control system\nover financial reporting. This framework ensures\nthat all transactions are duly authorized, recorded,\nand reported in compliance with the applicable\naccounting standards. Key controls have been\nthoroughly documented, automated where feasible,\nand embedded directly into core business processes.\nOversight and assurance regarding control\neffectiveness are delivered to the Board through\nthree structured lines of defense:\n\uf09f\n\u0007Management Oversight: Maintained through\nongoing business reviews and self-assessments.\n\uf09f\n\u0007Risk Compliance: Driven by continuous\nmonitoring from the Governance, Risk, and\nCompliance function.\n\uf09f\n\u0007Independent Audits: Verified through\ncomprehensive design and operational testing\nby the Statutory and Secretarial Auditors.\nThe Company confirms that its internal financial\ncontrols were adequate and operating effectively\nthroughout the financial year under review. This\nevaluation is further validated by the Statutory\nAuditors, whose independent testing revealed no\nmaterial weaknesses or significant deficiencies.\n17. Human resources\nAs on the financial year ended on March 31, 2026, the\npermanent employees on the rolls of the Company\nwere 6,750 (on standalone basis) and 21,995\n(on consolidated basis).\nAt Eternal, we believe that our people are fundamental\nto building enduring businesses and delivering\nsustainable long-term growth. We remain focused\non attracting, developing, and retaining exceptional\ntalent while fostering a culture of meritocracy,\nownership, accountability, collaboration, and\ncontinuous\nlearning.\nThrough\nmeaningful\nopportunities for growth and development, we seek\nto empower our employees to contribute to the\nCompany\u2019s success and create lasting value for all\nstakeholders. We believe that a strong and engaged\nworkforce is fundamental to driving sustainable\ngrowth, innovation, and organizational resilience.\nThe details with respect to the remuneration of\ndirectors and employees as required under Section\n197 of the Act and Rule 5(1) of the Companies\n(Appointment and Remuneration of Managerial\nPersonnel) Rules, 2014 is annexed as Annexure - IV.\nIn terms of Section 136 of the Act, Annual Report and\nfinancial statements of the Company are being sent to\nthe shareholders excluding information on details of\nemployee remuneration as required under provisions\nof Section 197 of the Act and Rule 5(2) & 5(3) of the\nCompanies (Appointment and Remuneration of\nManagerial Personnel) Rules, 2014. If any shareholder\nis interested in obtaining a copy of the aforesaid\ninformation, such shareholder may send an email to\nthe Company Secretary and Compliance Officer of the\nCompany at companysecretary@eternal.com.\n18. Disclosure regarding employee\nstock options plans\nAt Eternal, we view our Employee Stock Option Plan\n(\u201cESOP\u201d) as a strategic instrument to foster a culture\nof ownership and long-term value creation. ESOPs\nare designed to align employee interests with the\nCompany\u2019s long-term growth and success while\nrewarding sustained contribution and performance.\nBy linking long-term incentives to employee\ncontributions and the Company\u2019s outcomes, ESOPs\nreinforces ownership, accountability, and long-term\nthinking, while supporting the attraction, retention,\nand engagement of exceptional talent.\nThe Company has five employee stock option plans\n(\u201cESOP Schemes\u201d) as on the financial year ended on\nMarch 31, 2026, namely:\n60\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\n\uf09f\n\u0007Foodie Bay Employee Stock Option Plan 2014\n</text>\n</passage>\n\n<passage id=\"65\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > (\u201cESOP\u201d) as a strategic instrument to foster a culture\n</context>\n<text>\nrewarding sustained contribution and performance.\nBy linking long-term incentives to employee\ncontributions and the Company\u2019s outcomes, ESOPs\nreinforces ownership, accountability, and long-term\nthinking, while supporting the attraction, retention,\nand engagement of exceptional talent.\nThe Company has five employee stock option plans\n(\u201cESOP Schemes\u201d) as on the financial year ended on\nMarch 31, 2026, namely:\n60\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\n\uf09f\n\u0007Foodie Bay Employee Stock Option Plan 2014\n(\u201cESOP 2014\u201d);\n\uf09f\n\u0007Zomato Employee Stock Option Plan 2018\n(\u201cESOP 2018\u201d);\n\uf09f\n\u0007Zomato Employee Stock Option Plan 2021\n(\u201cESOP 2021\u201d);\n\uf09f\n\u0007Zomato Employee Stock Option Plan 2022\n(\u201cESOP 2022\u201d);and\n\uf09f\n\u0007Zomato Employee Stock Option Plan 2024\n(\u201cESOP 2024\u201d).\nFurther, there has been no change in the ESOP\nSchemes during the financial year under review.\nIn accordance with the terms of ESOP Schemes,\noptions may be granted to employees of the Company\nand its subsidiaries which gives them rights to receive\nEquity Shares upon exercise.\nThe Company confirms that the ESOP Schemes are in\ncompliance with the Securities and Exchange Board\nof India (Share Based Employee Benefits and Sweat\nEquity) Regulations, 2021 (\u201cSEBI ESOP Regulations\u201d).\nThe Company has also obtained certificate(s) from\nthe Secretarial Auditors confirming that ESOP 2014,\nESOP 2018, ESOP 2021, ESOP 2022 and ESOP 2024\nhave been implemented in accordance with the\nSEBI ESOP Regulations and the resolutions passed\nby the shareholders of the Company. The said\ncertificates will be made available for inspection\nby the members electronically during the AGM of\nthe Company. If any shareholder is interested in\nobtaining a copy of the aforesaid certificates, such\nshareholder may send an email to the Company\nSecretary and Compliance Officer of the Company at\ncompanysecretary@eternal.com.\nFurther, the details as required to be disclosed under\nRegulation 14 of the SEBI ESOP Regulations are\navailable at Link.\n19. Disclosure under the Sexual\nHarassment of Women at Workplace\n(Prevention, Prohibition and\nRedressal) Act, 2013\nThe Company maintains a zero-tolerance approach\ntowards sexual harassment and is committed to\nprovide a safe, respectful, and inclusive workplace.\nIn compliance with the Sexual Harassment of Women\nat Workplace (Prevention, Prohibition and Redressal)\nAct, 2013 (\u201cPOSH Act\u201d) and the rules thereunder,\nthe Company has adopted a Prevention of Sexual\nHarassment (\u201cPOSH\u201d) policy.\nThe POSH policy is inclusive and gender-neutral,\ncovering employees across genders, including those\nwho identify as members of the LGBTQI+ community.\nThe Company has established a robust framework for\nreporting and addressing complaints while ensuring\nconfidentiality.\nThe POSH policy is available at Link.\nTo implement the POSH policy, the Company has\nconstituted an Internal Complaints Committee (\u201cICC\u201d)\nin accordance with the Section 4 of the POSH Act. The\nICC comprises members with relevant and diverse\nexperiences, and is responsible for investigating\ncomplaints, ensuring fair and impartial resolution,\nand promoting awareness through training and\nsensitization initiatives designed to prevent\nharassment and promote a culture of dignity and\ninclusion.\nDetails of sexual harassment complaints received\nand resolved during the financial year under review\nby ICC are given below:\nNumber of complaints received/filed during\nthe financial year\n27\nNumber of complaints disposed off during\nthe financial year\n241\nNumber of cases pending for more than\nninety days\n0\nNumber of complaints pending as on the end\nof the financial year\n52\n1Number of complaints disposed off during the financial year\nincludes 2 (two) complaints that were received in previous\nfinancial year and disposed off in current financial year within\nstipulated timelines.\n2The 5 (five) complaints pending as on the closure of the financial\nyear ended March 31, 2026 were subsequently resolved within the\nstipulated timelines.\n20. Disclosure with respect to the\n</text>\n</passage>\n\n<passage id=\"66\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > constituted an Internal Complaints Committee (\u201cICC\u201d)\n</context>\n<text>\nNumber of cases pending for more than\nninety days\n0\nNumber of complaints pending as on the end\nof the financial year\n52\n1Number of complaints disposed off during the financial year\nincludes 2 (two) complaints that were received in previous\nfinancial year and disposed off in current financial year within\nstipulated timelines.\n2The 5 (five) complaints pending as on the closure of the financial\nyear ended March 31, 2026 were subsequently resolved within the\nstipulated timelines.\n20. Disclosure with respect to the\ncompliance of the provisions relating\nto the Maternity Benefit Act, 1961\nCommitted to workplace inclusivity and the principle\nof shared parenting, the Company provides an\nEqual Parental Leave aligned with the Maternity\n61\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nBenefit Act, 1961. We take a holistic approach to\nworking parents by offering structured return to\nwork frameworks, professional counselling and\nmental wellness initiatives. Further, our corporate\ndaycare partnerships and creche facilities provide\nthe practical infrastructure necessary to support\nan optimal work life balance. Further, all applicable\nprovisions of the Maternity Benefit Act, 1961, have\nbeen complied by the Company during the financial\nyear under review.\n21. Conservation of energy, technology\nabsorption, and foreign exchange\nearnings and outgo\nThe particulars relating to conservation of energy,\ntechnology absorption, and foreign exchange\nearnings and outgo are given hereunder:\nConservation of energy\nEternal remains deeply committed to energy\nconservation and climate action, principles that are\nfirmly embedded in our operations and detailed in our\nenvironmental policy which is available on the website\nof the Company. Eternal continually strives to minimize\nthe  overall environmental impact of its operations\nand lower its carbon footprint by prioritizing energy\nefficiency and waste management.\nDuring the financial year under review, we\nimplemented several key initiatives to advance our\nsustainability goals and drive carbon reduction:\n\uf09f\n\u0007Equipment Optimization: Use of electrical\nequipment was streamlined across the\norganisation\u2014including air-conditioning systems,\noffice lighting, and beverage dispensers\u2014to\nminimize energy waste and maximize operational\nefficiency.\n\uf09f\n\u0007Energy-Efficient Infrastructure: Deployment of\nLED lighting and monitors was prioritised across\nour corporate offices, stores, and warehouses,\nreinforcing our commitment to sustainable\nfacility management.\n\uf09f\n\u0007Culture of Conservation: To foster energy\nconsciousness, we consistently distribute\neducational\ncontent\nacross\ninternal\ncommunication channels. These campaigns\nencourage our workforce to adopt simple,\nimpactful habits, such as turning off lights in\nempty meeting rooms and unplugging fully\ncharged devices.\nThrough these targeted efforts, Eternal is making\nsubstantial strides in energy conservation and carbon\nreduction, setting a strong benchmark for corporate\nsustainability and environmental responsibility.\nThe details of conservation of energy are given\nhereunder:\nS.\nNo.\nParticulars\nDetails\ni.\nthe steps taken or impact on\nconservation of energy\nAs mentioned\nabove\nii.\nthe steps taken by the Company\nfor utilising alternate sources of\nenergy\nAs mentioned\nabove\niii. the capital investment\non energy conservation\nequipments\n-\nTechnology absorption\nEternal continuously explores and deploys\ntechnological, product, and service innovations\nacross its business portfolio. Notable recent\nadvancements in financial FY26 include:\n\uf09f\n\u0007Nugget: Originally introduced in FY25, Nugget is\nan AI-native customer support platform designed\nto autonomously manage and resolve customer\ngrievances. Its deployment has significantly\naccelerated query resolution times, enabled\nhighly personalized support, and elevated overall\ncustomer satisfaction while driving substantial\ncost efficiencies. Furthermore, Nugget is offered\nas a B2B solution, allowing external businesses to\neffortlessly upgrade their own customer support\n</text>\n</passage>\n\n<passage id=\"67\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Details\n</context>\n<text>\nadvancements in financial FY26 include:\n\uf09f\n\u0007Nugget: Originally introduced in FY25, Nugget is\nan AI-native customer support platform designed\nto autonomously manage and resolve customer\ngrievances. Its deployment has significantly\naccelerated query resolution times, enabled\nhighly personalized support, and elevated overall\ncustomer satisfaction while driving substantial\ncost efficiencies. Furthermore, Nugget is offered\nas a B2B solution, allowing external businesses to\neffortlessly upgrade their own customer support\noperations.\n\uf09f\n\u0007Healthy Mode: Launched on the Zomato app in\nFY26, \u201cHealthy Mode\u201d empowers users to make\nhighly informed dietary choices. Rather than\nfocusing solely on calories, this feature assigns\na comprehensive \u201cHealthy Score\u201d\u2014ranging from\n\u2018Low\u2019 to \u2018Super\u2019\u2014to every dish based on essential\nnutritional elements such as proteins, complex\ncarbohydrates, fiber, and micronutrients. Such\ninformation is derived from restaurants\u2019 item\ndescription data and food images, which is\nanalysed via our proprietary AI-model.\n62\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\n\uf09f\n\u0007Ambulance Service: Enabled on the Blinkit app,\nwith an aim to bring reliable emergency support\ncloser to the consumers, addressing a wide range\nof emergencies including cardiac arrest, seizure,\nroadside accident as well as OPD (Outpatient\nDepartment) cases. The service is equipped\nwith essential life-saving equipment, including\nstretcher, scoop, wheelchair, vital-monitoring\ndevices, oxygen cylinder, AED (Automated\nExternal Defibrillator), a suction machine, and\nessential medicine and fluid.\n\uf09f\n\u0007Parental Controls Feature: Blinkit being the first\nquick commerce platform, where consumers\ncan set a 6-digit PIN to hide sensitive items from\ncertain product categories, such that younger\nage groups can browse the app without seeing\nage inappropriate products. In case there are any\nThe details of technology absorption are given hereunder:\nSr. No. Particulars\nCategory\ni.\nThe efforts made towards technology absorption\nAs mentioned above\nii.\nThe benefits derived like product improvement, cost reduction, product\ndevelopment or import substitution\nAs mentioned above\niii.\nIn case of imported technology (imported during the last three years\nreckoned from the beginning of the financial year)\n-\na) \t the details of technology imported\n-\nb) \t the year of import\n-\nc) \t whether the technology been fully absorbed\n-\nd) \t \u0007if not fully absorbed, areas where absorption has not taken place, and\nthe reasons thereof\n-\niv.\nThe expenditure incurred on research and development\n-\nchanges made to these settings, the consumer is\nnotified about the same.\n\uf09f\n\u0007Print Store: Enables consumers to upload\ndocuments, passport-sized photos and pictures\nfor printing and have them delivered within\nminutes through the Blinkit app, making it a\nconvenient solution for last-minute needs.\n\uf09f\n\u0007Pharma Category: Blinkit deployed a seamless,\nteleconsultation and prescription verification\nworkflow. Under this framework, customer-\nuploaded prescriptions undergo structured\npharmacist review, with automated escalation to\ncertified physicians for secondary verification if\nrequired. For unprescribed orders, the app instantly\nconnects users to certified doctors for on-demand\nconsultations and e-prescription issuance.\nForeign exchange earnings and outgo\nThe details of foreign exchange earnings and outgo\nare given hereunder:\n(INR crore)\nParticulars\nAmount\nForeign exchange earned\n58\nForeign exchange outgo\n169\nForeign exchange earnings and outgo are on an accrual basis.\n22. Statutory disclosures\nRequirements for maintenance of cost\nrecords\nDuring the financial year under review, requirement\nfor maintenance of cost records under Section\n148 of the Act is not applicable on the Company.\nConsequently, the appointment of a cost auditor is\nnot required.\n63\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nDetails in respect of frauds reported by\n</text>\n</passage>\n\n<passage id=\"68\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Amount\n</context>\n<text>\nForeign exchange earned\n58\nForeign exchange outgo\n169\nForeign exchange earnings and outgo are on an accrual basis.\n22. Statutory disclosures\nRequirements for maintenance of cost\nrecords\nDuring the financial year under review, requirement\nfor maintenance of cost records under Section\n148 of the Act is not applicable on the Company.\nConsequently, the appointment of a cost auditor is\nnot required.\n63\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nDetails in respect of frauds reported by\nauditors\nDuring the financial year under review, pursuant to\nSection 143 of the Act, Deloitte, Statutory Auditors,\nDeepak Ahluwalia, Global Head - Governance,\nRisk & Compliance and Internal Auditors and CACS,\nSecretarial Auditors have not reported any instance\nof frauds committed in the Company, by its officers\nor employees to the Audit Committee.\nAnnual return\nThe annual return of the Company as on the financial\nyear ended on March 31, 2026  in terms of Section 92\nand Section 134 of the Act is available at Link.\nMaterial changes and commitments, if\nany, affecting the financial position of the\nCompany which have occurred between\nthe end of the financial year of the Company\nto which the financial statements relate\nand the date of the report\nNo material changes and commitments affecting\nthe financial position of the Company have occurred\nbetween the end of March 31, 2026, to which the\nfinancial statements relate and the date of this Board\nReport.\nDetails of significant and material orders\npassed by the regulators or courts or\ntribunals impacting the going concern\nstatus and Company\u2019s operations in\nfuture\nDuring the financial year under review, no significant\nand material orders have been passed by the\nregulators or courts or tribunals impacting the going\nconcern status and Company\u2019s operations in future.\nFurther, there has been no change in the legal status\nof the Company during the financial year under review.\nManagement discussion and analysis\nreport\nIn terms of the provisions of Regulation 34 of the SEBI\nListing Regulations, management discussion and\nanalysis report is set out as a separate section under\nthis Annual Report.\nBusiness Responsibility and Sustainability\nReport (\u201cBRSR\u201d)\nFor the financial year under review, the Company\ncontinues to prepare its sustainability disclosures\nin accordance with the BRSR framework. The BRSR\nenables the Company to report its sustainability\nperformance in line with the principles of the\nNational Guidelines on Responsible Business Conduct\n(\u201cNGRBC\u201d).\nThe Company has adopted the evolving BRSR\nframework in accordance with Master Circular No.\nHO/49/14/14(7)2025-CFD-POD2/1/3762/2026 dated\nJanuary 30, 2026 read with guidelines, press releases\nas may be issued from time to time by SEBI.\nIn accordance with the aforementioned circulars, the\nCompany has appointed Deloitte Haskins & Sells LLP\nto provide assurance on the core Key Performance\nIndicators (\u201cKPIs\u201d) and select non-core KPIs included\nin the Assurance Report of the BRSR.\nAdditionally, while ESG disclosures related to value\nchain partners remain voluntary for the financial year\nunder review, the Company has voluntarily reported\nselect ESG indicators for its value chain partners in\nthe BRSR. The BRSR is included as a separate section\nof this Annual Report in accordance with the above\nregulatory guidance.\nCorporate governance report\nThe Company has complied with all applicable\ncorporate governance requirements as prescribed\nunder the Act and SEBI Listing Regulations. The\nreport on corporate governance is set out as a\nseparate section under this Annual Report.\nTransactions with related parties\nIn terms of provisions of Section 188 of the Act,\ntransactions entered into with related parties during\nthe financial year under review were in the ordinary\ncourse of business and on an arm\u2019s length basis.\nFurther, disclosure in Form AOC-2 under Section 134\nof the Act is not applicable for the year under review.\nRelated party transactions entered during the\n</text>\n</passage>\n\n<passage id=\"69\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Indicators (\u201cKPIs\u201d) and select non-core KPIs included\n</context>\n<text>\nunder the Act and SEBI Listing Regulations. The\nreport on corporate governance is set out as a\nseparate section under this Annual Report.\nTransactions with related parties\nIn terms of provisions of Section 188 of the Act,\ntransactions entered into with related parties during\nthe financial year under review were in the ordinary\ncourse of business and on an arm\u2019s length basis.\nFurther, disclosure in Form AOC-2 under Section 134\nof the Act is not applicable for the year under review.\nRelated party transactions entered during the\nfinancial year under review were approved by the\nAudit Committee and the Board from time to time,\nand are disclosed in the notes to accounts of the\n64\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nfinancial statements forming part of this Annual\nReport. Further, the Company did not enter into any\nmaterially significant related party transactions that\nrequired the approval of shareholders.\nThe policy on the materiality of related party\ntransactions and dealings with related party\ntransactions is available at Link.\nDeposits\nThe Company has not accepted any deposits from the\npublic within the meaning of Section 73 of the Act and no\namount on account of principal or interest on deposits\nfrom the public was outstanding as on March 31, 2026.\nAccordingly, disclosures related to deposits as\nrequired to be made under the Act are not applicable\nto the Company.\nParticulars of loans and advances,\nguarantees and investments\nDetails of loans and advances given, investments\nmade or guarantees given or security provided as\nper the provisions of Section 186 of the Act and\nRegulation 34 of the SEBI Listing Regulations are\ngiven in the notes forming part of the financial\nstatements provided in this Annual Report.\nDetails of application made or any\nproceeding pending under the Insolvency\nand Bankruptcy Code, 2016\nAs on the financial year ended on March 31, 2026, the\nCompany doesn\u2019t have any application or proceeding\npending under Insolvency and Bankruptcy Code,\n2016. Further, during the financial year under\nreview, Nona Lifestyle Private Limited (\u201cOperational\nCreditor\u201d) whose original petition under Section 9 of\nInsolvency and Bankruptcy Code, 2016 was dismissed\nby the National Company Law Tribunal, Delhi Bench\nII (\u201cNCLT\u201d) on November 25, 2024, filed a restoration\napplication which was also rejected by the NCLT vide\nits order dated April 3, 2025.\nCompliance with Secretarial Standards\nDuring the financial year under review, the Company\nhas complied with the applicable provisions of the\nSecretarial Standard-1 and Secretarial Standard-2\nspecified by the ICSI.\nRevision of financial statements and\nBoard Report\nDuring the financial year under review, there were\nno revisions in the financial statements and Board\nReport of the Company.\nUtilisation of proceeds of Qualified Institutions Placement and deviation in utilisation\nof proceeds of the issue, if any\nDuring the year under review, there has been  no deviation/ variation in utilisation of the Qualified Institutions\nPlacement (\u201cQIP\u201d) proceeds. Further, details of utilisation of QIP proceeds for the said period are given herein below:\nItem head\nAmount as\nproposed in the\noffer document\n(INR crore)\nAmount utilized (INR crore)\nTotal\nunutilized\namount\n(INR crore)\nAt the\nbeginning of\nthe period\nDuring the\nperiod\nAt the\nend of the\nperiod\nExpenditure towards setting up and\nrunning operations of Dark Stores\nand warehouses\n2,137.00\n180.86\n1,956.14\n2,137.00\n0.00\nAdvertising, marketing and branding\ninitiatives across business offerings\n2,492.00\n133.97\n1,298.56\n1,432.53\n1,059.47\nInvestment in technology infrastructure\nand capabilities, including cloud\ninfrastructure and software and\ntowards development of technological\ncapabilities\n1,769.00\n111.10\n586.36\n697.46\n1,071.54\nGeneral corporate purposes\n2,038.12\n380.83\n951.26\n1,332.09\n706.03\nTotal\n8,436.121\n806.76\n4,792.322\n5,599.08\n2,837.04\n1Amount does not include the offer related expenses of approx. INR 63.88 crore in relation to the QIP issue.\n</text>\n</passage>\n\n<passage id=\"70\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > period\n</context>\n<text>\ninitiatives across business offerings\n2,492.00\n133.97\n1,298.56\n1,432.53\n1,059.47\nInvestment in technology infrastructure\nand capabilities, including cloud\ninfrastructure and software and\ntowards development of technological\ncapabilities\n1,769.00\n111.10\n586.36\n697.46\n1,071.54\nGeneral corporate purposes\n2,038.12\n380.83\n951.26\n1,332.09\n706.03\nTotal\n8,436.121\n806.76\n4,792.322\n5,599.08\n2,837.04\n1Amount does not include the offer related expenses of approx. INR 63.88 crore in relation to the QIP issue.\n65\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\n2aIncludes reimbursement of the following amounts incurred by the\nCompany during the financial year ended March 31, 2025, which\nhas been withdrawn from issue proceeds during the financial year\nended March 31, 2026.\n- Expenditure towards setting up and running operations of Dark\nStores and warehouses \u2013 INR 31.84 crore.\n- Advertising, marketing and branding initiatives across our\nbusiness offerings \u2013 INR 41.03 crore.\n- Investment in our technology infrastructure and capabilities,\nincluding cloud infrastructure and software and towards\ndevelopment of our technological capabilities \u2013 INR 3.67 crore.\n2bIncludes below amounts which have been paid during the\nfinancial year ended March 31, 2026 and are currently forming part\nof the unutilized proceeds. Such amounts have been paid from the\ncurrent account and will be considered as utilized in the financial\nyear ending on March 31, 2027 when such amounts will be utilized\nfrom the unutilized proceeds.\n- Advertising, marketing and branding initiatives across our\nbusiness offerings \u2013 INR 131.32 crore.\n- Investment in our technology infrastructure and capabilities,\nincluding cloud infrastructure and software and towards\ndevelopment of our technological capabilities \u2013 INR 70.04 crore.\nValuation done at the time of one time\nsettlement\nDisclosure w.r.t. details of difference between\namount of the valuation done at the time of one time\nsettlement and the valuation done while taking loan\nfrom the banks or financial institutions along with the\nreasons thereof, is not applicable for the financial\nyear under review.\nOther disclosures\nIn addition, the following disclosures are provided for\nthe financial year under review:\n\uf09f\n\u0007There was no requirement to transfer any funds\nand equity shares to the investor education and\nprotection fund.\n\uf09f\n\u0007The Company has not made any provision of\nmoney for the purchase of its own shares by\nemployees or by trustees for the benefits of\nemployees.\n\uf09f\n\u0007There were no corporate actions undertaken by\nthe Company. Accordingly, there are no instances\nof failure or non-compliance required to be\nreported.\n\uf09f\n\u0007There has been no change in the charter\ndocuments of the Company. The power to\nchange, amend, or completely replace the charter\ndocuments lies exclusively with the shareholders\nof the Company.\n23. Directors responsibility statement\nIn accordance with the provisions of Section 134 of\nthe Act, directors to the best of their knowledge and\nbelief confirm and state that:\n\uf09f\n\u0007In the preparation of the annual accounts for\nthe financial year ended on March 31, 2026, the\napplicable accounting standards have been\nfollowed along with proper explanation relating\nto material departures;\n\uf09f\n\u0007The directors have selected such accounting\npolicies and applied them consistently and made\njudgments and estimates that are reasonable and\nprudent so as to give a true and fair view of the\nstate of affairs of the Company as at the end of\nthe financial year March 31, 2026 and of the profit\nof the Company for that period;\n\uf09f\n\u0007The directors have taken proper and sufficient\ncare for the maintenance of adequate accounting\nrecords in accordance with the provisions of the\nAct for safeguarding the assets of the Company\nand for preventing and detecting fraud and other\nirregularities;\n\uf09f\n\u0007The directors have prepared the annual accounts\non a going concern basis;\n\uf09f\n\u0007The directors have laid down internal financial\ncontrols to be followed by the Company and that\n</text>\n</passage>\n\n<passage id=\"71\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Total\n</context>\n<text>\nthe financial year March 31, 2026 and of the profit\nof the Company for that period;\n\uf09f\n\u0007The directors have taken proper and sufficient\ncare for the maintenance of adequate accounting\nrecords in accordance with the provisions of the\nAct for safeguarding the assets of the Company\nand for preventing and detecting fraud and other\nirregularities;\n\uf09f\n\u0007The directors have prepared the annual accounts\non a going concern basis;\n\uf09f\n\u0007The directors have laid down internal financial\ncontrols to be followed by the Company and that\nsuch internal financial controls are adequate and\nwere operating effectively; and\n\uf09f\n\u0007The directors have devised proper systems to\nensure compliance with the provisions of all\napplicable laws and that such systems were\nadequate and operating effectively.\n66\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nAcknowledgments\nThe Board would also like to thank all stakeholders including but not limited to shareholders, customers,\ndelivery partners, restaurant partners and all other business associates for their continuous support to the\nCompany and their confidence in its management.\nWe look forward to their continuous support in the future.\nFor and on behalf of the Board\nEternal Limited (Formerly known as Zomato Limited)\nSd/-\nSd/-\nKaushik Dutta\nDeepinder Goyal\nChairman & Independent Director\nVice Chairman & Non - Executive Director\nDIN: 03328890\nDIN: 02613583\nDate: July 22, 2026\nDate: July 22, 2026\nPlace: New Delhi\nPlace: New Delhi\n67\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE - I\n</text>\n</passage>\n\n<passage id=\"72\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Total\n</context>\n<text>\ndelivery partners, restaurant partners and all other business associates for their continuous support to the\nCompany and their confidence in its management.\nWe look forward to their continuous support in the future.\nFor and on behalf of the Board\nEternal Limited (Formerly known as Zomato Limited)\nSd/-\nSd/-\nKaushik Dutta\nDeepinder Goyal\nChairman & Independent Director\nVice Chairman & Non - Executive Director\nDIN: 03328890\nDIN: 02613583\nDate: July 22, 2026\nDate: July 22, 2026\nPlace: New Delhi\nPlace: New Delhi\n67\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE - I\nForm AOC-1\n(Pursuant to first proviso to sub-section (3) of section 129 read with rule 5 of Companies (Accounts) Rules, 2014)\nStatement containing salient features of the financial statement of subsidiaries\nPart A: Subsidiaries1\n(INR crore)2\n1.\u00a0\t Sr. No.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n2.\nName of the subsidiary\nZomato Media\n(Private)\nLimited3\nZomato\nIreland\nLimited\nGastronauci\nSp z.o.o\nZomato\nMalaysia Sdn.\nBhd.\nZomato Inc.\nZomato\nNetherlands\nB.V.\nZomato\nInternet\nHizmetleri\nTicaret\nAnonim\nSirketi\nZomato\nMiddle East\nFz - LLC\nZomato\nPhilippines\nInc.\nZomato\nHyperpure\nPrivate\nLimited\nBlink\nCommerce\nPrivate Limited\nDelivery\n21 Inc.\n3.  \t \u0007The date since when subsidiary was\nacquired\n10-May-13\n9-May-14\n30-Oct-14\n15-Sep-14\n16-Dec-14\n23-Jan-15\n23-Jan-15\n20-Jul-15\n7-Jul-15\n8-Oct-15\n10-Aug-22\n23-Oct-15\n4.  \t \u0007Reporting period for the subsidiary\nconcerned, if different from the holding\ncompany\u2019s reporting period.\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n\u0007Status\nClosed w.e.f\nAugust 8, 2025\nClosed w.e.f\nJanuary 27,\n2026\nClosed w.e.f\nDecember\n9, 2025\n5.  \t \u0007Reporting currency and Exchange rate as\non the last date of the relevant Financial\nyear in the case of foreign subsidiaries.\nSri Lankan\nRupee\nEuro\nPLN\nMalaysian\nRinggit\nUSD\nEuro\nTurkish Lira\nAED\nPHP\nINR\nINR\nPHP\n\u0007Exchange Rate\n\u0007Closing Rate\n0.2884\n108.0075\n25.1820\n23.0880\n93.4845\n108.0075\n2.1032\n25.4500\n1.5420\n1.0000\n1.0000\n1.5420\n\u0007Average Rate\n0.2873\n102.4513\n24.1264\n21.2574\n93.4845\n102.4513\n2.1372\n24.0538\n1.5296\n1.0000\n1.0000\n1.5296\n6.  \t \u0007Share capital\n-\n923\n8\n-\n464\n-\n-\n24\n44.12342\n40\n0\n0\n7.  \t \u0007Reserves & surplus\n-\n(907)\n(8)\n-\n(464)\n-\n-\n34\n(47)\n1,347\n1,336\n(14)\n8.  \t \u0007Total assets\n-\n17\n0\n-\n1\n-\n-\n140\n(3)\n4,398\n9,281\n-\n9.  \t \u0007Total Liabilities\n-\n0\n0\n-\n2\n-\n-\n82\n0\n3,011\n7,945\n14\n10.\t \u0007Investments\n-\n-\n-\n-\n-\n-\n-\n-\n-\n148\n1,361\n-\n11.\t \u0007Turnover\n-\n-\n-\n-\n-\n-\n-\n13\n-\n15,344\n28,662\n-\n12.\t \u0007Profit/(Loss) before taxation\n-\n3\n(0)\n-\n1\n-\n-\n(9)\n(1)\n(154)\n(1,601)\n-\n13.  \t\u0007Provision for taxation\n-\n0\n-\n-\n0\n-\n-\n(0)\n-\n-\n-\n-\n14.\t \u0007Profit/(Loss) after taxation\n(0)\n2\n(0)\n-\n1\n(0)\n1\n(9)\n(1)\n(154)\n(1,601)\n-\n15.\t \u0007Other comprehensive income\n-\n2\n(0)\n-\n(0)\n-\n-\n6\n(0)\n(1)\n(3)\n(0)\n16.\t \u0007Profit (Loss) for the year\n(0)\n4\n(0)\n-\n1\n(0)\n1\n(3)\n(1)\n(155)\n(1,604)\n(0)\n17.\t \u0007Proposed Dividend\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n18.\t % of shareholding\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n52.20%\n68\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\n(INR crore)1\n</text>\n</passage>\n\n<passage id=\"73\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Part A: Subsidiaries1\n</context>\n<text>\n-\n0\n-\n-\n(0)\n-\n-\n-\n-\n14.\t \u0007Profit/(Loss) after taxation\n(0)\n2\n(0)\n-\n1\n(0)\n1\n(9)\n(1)\n(154)\n(1,601)\n-\n15.\t \u0007Other comprehensive income\n-\n2\n(0)\n-\n(0)\n-\n-\n6\n(0)\n(1)\n(3)\n(0)\n16.\t \u0007Profit (Loss) for the year\n(0)\n4\n(0)\n-\n1\n(0)\n1\n(3)\n(1)\n(155)\n(1,604)\n(0)\n17.\t \u0007Proposed Dividend\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n18.\t % of shareholding\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n52.20%\n68\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\n(INR crore)1\n1.\u00a0\t Sr. No.\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n2.\n\u0007Name of the subsidiary\nCarthero\nTechnologies\nPrivate\nLimited\nZomato\nEntertainment\nPrivate\nLimited\nTonguestun\nFood Network\nPrivate Limited\nZomato Local\nServices Private\nLimited\nZomato\nFoods Private\nLimited\nZomato\nPayments\nPrivate Limited\nEternal Technology\nSolutions Limited\n(formerly known as\nZomato Financial\nServices Limited)\nOrbgen\nTechnologies\nPrivate\nLimited\nWasteland\nEntertainment\nPrivate Limited\nBlinkit Foods\nLimited\nEternal General\nService\nFoundation\n3.  \t \u0007The date since when subsidiary was\nacquired\n27-Mar-18\n4-Dec-18\n22-Nov-18\n21-Jun-19\n5-Sep-20\n4-Aug-21\n25-Feb-22\n27-Aug-24\n27-Aug-24\n18-Aug-25\n18-Dec-25\n4.  \t \u0007Reporting period for the subsidiary\nconcerned, if different from the holding\ncompany\u2019s reporting period.\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n31-Mar-26\n\u0007Status\nIncorpoarted\non August\n18, 2025\nIncorpoarted\non December\n18, 2025\n5.  \t \u0007Reporting currency and Exchange rate as\non the last date of the relevant Financial\nyear in the case of foreign subsidiaries.\nINR\nINR\nINR\nINR\nINR\nINR\nINR\nINR\nINR\nINR\nINR\n\u0007Exchange Rate\n\u0007Closing Rate\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n\u0007Average Rate\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n1.0000\n6.  \t \u0007Share capital\n0\n0\n4\n1\n0\n59\n16\n20\n0\n0\n0\n7.  \t \u0007Reserves & surplus\n23\n137\n(4)\n38\n2\n(12)\n(2)\n1,241\n210\n(39)\n0\n8.  \t \u0007Total assets\n23\n243\n2\n56\n2\n50\n14\n1,403\n606\n92\n0\n9.  \t \u0007Total Liabilities\n0\n106\n2\n17\n0\n2\n0\n142\n396\n130\n0\n10.\t \u0007Investments\n2\n39\n1\n34\n1\n-\n-\n73\n81\n16\n-\n11. Turnover\n-\n92\n-\n2\n-\n25\n-\n75\n137\n76\n0\n12.\t \u0007Profit/(Loss) before taxation\n0\n(86)\n(0)\n(9)\n0\n8\n1\n(83)\n(65)\n(86)\n0\n13.  \t\u0007Provision for taxation\n-\n-\n-\n-\n0\n0\n0\n-\n-\n-\n-\n14.\t \u0007Profit/(Loss) after taxation\n0\n(86)\n(0)\n(9)\n0\n8\n0\n(83)\n(65)\n(86)\n0\n15.\t \u0007Other comprehensive income\n-\n(0)\n-\n(0)\n(0)\n0\n(0)\n0\n0\n0\n-\n16.\t \u0007Profit (Loss) for the year\n0\n(86)\n(0)\n(9)\n0\n8\n0\n(83)\n(65)\n(86)\n0\n17.\t \u0007Proposed Dividend\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n18.\t % of shareholding\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n100.00%\n1The companies are subsidiaries of the Company pursuant to the provision of Section 2(87)(ii) of the Act. Further the CIN/ and other registration number of the subsidiary are provided in the financial statements\nof the respective subsidiary uploaded on the website at www.eternal.com.\n20 represent value less than INR 50,00,000.\n3During the financial year under review, Registrar of Companies, Sri Lanka published to strike off ZMPL effective upon expiry of three months from date of publication. Subsequently, ZMPL was officially\nstruck off from the Registrar of Companies, Sri Lanka, effective April 2, 2026.\nNotes:\n1. Names of subsidiaries which are yet to commence operations: Eternal Technology Solutions Limited (formerly known as Zomato Financial Services Limited)\n2. Names of subsidiaries which have been acquired/incorporated, liquidated or sold during the year: Please refer status given in row no. 4 in the above table.\n69\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nPart B: Associates and Joint Ventures\n</text>\n</passage>\n\n<passage id=\"74\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Part A: Subsidiaries1\n</context>\n<text>\nstruck off from the Registrar of Companies, Sri Lanka, effective April 2, 2026.\nNotes:\n1. Names of subsidiaries which are yet to commence operations: Eternal Technology Solutions Limited (formerly known as Zomato Financial Services Limited)\n2. Names of subsidiaries which have been acquired/incorporated, liquidated or sold during the year: Please refer status given in row no. 4 in the above table.\n69\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nPart B: Associates and Joint Ventures\nStatement pursuant to Section 129(3) of the Act related to Associate Companies and Joint Ventures.\n1.\nName of Associates/Joint Ventures\n-\n2.\t Latest audited Balance Sheet Date\n-\n3.\nDate on which the Associate or Joint Venture was associated or acquired\n-\n4.\nShares of Associate/Joint Ventures held by the Company on the year end\n-\nA. \t Number\n-\nB. \t Amount of Investment in Associates/Joint Venture\n-\nC. \t Extent of Holding %\n-\n5.\nDescription of how there is significant influence\n-\n6.\nReason why the associate/joint venture is not consolidated\n-\n7.\nNetworth attributable to Shareholding as per latest audited Balance Sheet\n-\n8.\nProfit / (Loss) for the year\nA. \t Considered in Consolidation\n-\nB.\t Not Considered in Consolidation\n-\nNotes:\n1. Names of associates or joint ventures which are yet to commence operations: NA\n2. Names of associates or joint ventures which have been liquidated or sold during the year: NA\nFor and on behalf of the Board of Directors of\nEternal Limited (Formerly known as Zomato Limited)\nSd/-\nSd/-\nSd/-\nKaushik Dutta\nDeepinder Goyal\nAlbinder Singh Dhindsa\nChairman & Independent Director\nDIN: 03328890\nVice Chairman &\nNon-Executive Director\nChief Executive Officer\nPAN- BKLPD1477Q\nDIN: 02613583\nDate: April 28, 2026\nDate: April 28, 2026\nDate: April 28, 2026\nPlace: New Delhi\nPlace: New Delhi\nPlace: New Delhi\nSd/-\nSd/-\nAkshant Goyal\nSandhya Sethia\nChief Financial Officer\nCompany Secretary\nPAN- AIVPG9914G\nA-29579\nDate: April 28, 2026\nDate: April 28, 2026\nPlace: New Delhi\nPlace: Gurugram\n70\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE \u2013 II\n</text>\n</passage>\n\n<passage id=\"75\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > Chairman & Independent Director\n</context>\n<text>\nChairman & Independent Director\nDIN: 03328890\nVice Chairman &\nNon-Executive Director\nChief Executive Officer\nPAN- BKLPD1477Q\nDIN: 02613583\nDate: April 28, 2026\nDate: April 28, 2026\nDate: April 28, 2026\nPlace: New Delhi\nPlace: New Delhi\nPlace: New Delhi\nSd/-\nSd/-\nAkshant Goyal\nSandhya Sethia\nChief Financial Officer\nCompany Secretary\nPAN- AIVPG9914G\nA-29579\nDate: April 28, 2026\nDate: April 28, 2026\nPlace: New Delhi\nPlace: Gurugram\n70\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE \u2013 II\nREPORT ON CSR ACTIVITIES\nBrief outline on CSR policy of the Company\nThe Company\u2019s CSR policy reflects its commitment to creating sustainable value for society while conducting\nits business in a responsible, ethical and environmentally conscious manner. The policy is founded on the belief\nthat businesses have an important role to play in contributing towards inclusive and sustainable development\nby creating a positive impact on the communities and the environment around their areas of operation.\nThe Company voluntarily undertakes initiatives with the objective of supporting programmes that create\nmeaningful, measurable and long-term social impact. It further enables the Company to undertake projects\nacross the areas including initiatives relating to healthcare, education, livelihood enhancement, environmental\nsustainability, hunger eradication, disaster relief and other activities that address evolving societal needs.\nThe Company believes that its CSR initiatives will be implemented in a transparent, accountable and efficient\nmanner, with appropriate oversight and periodic review to ensure effective utilisation of resources and\nachievement of the intended outcomes.\nThe CSR policy also sets out the roles and responsibilities of the Board and the CSR Committee in providing\nstrategic direction and oversight, including the approval, monitoring and review of CSR projects and expenditure,\nif any. During the financial year under review, there was no change in the CSR policy of the Company. The CSR\npolicy is available on the Company\u2019s website.\nComposition of CSR committee and meeting(s) held\nSr. no.\nName of director(s)\nDesignation / nature of\ndirectorship\nMeeting\nattendance1\n1\nSanjeev Bikhchandani2\nChairman/ Nominee Director\n2\nDeepinder Goyal3\nChairman/ Managing Director &\nChief Executive Officer\n3\nAparna Popat Ved\nMember/ Non- Executive\nIndependent Director\n4\nNamita Gupta\nMember/ Non- Executive\nIndependent Director\nPresent\nAbsent\nNA\n1During the financial year under review, the committee met once on July 18, 2025.\n2Sanjeev Bikhchandani has been appointed as the chairman and member of the committee effective from February 10, 2026.\n3Deepinder Goyal resigned as Director, Managing Director & Chief Executive Officer of the Company and chairman & member of committee\neffective from the close of business hours on February 1, 2026. Further, while he has been appointed as Vice Chairman & Non Executive\nDirector of the Company, he is not a member of the committee.\n71\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nWeb-link(s) where composition of CSR committee, CSR policy and CSR projects\n</text>\n</passage>\n\n<passage id=\"76\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > attendance1\n</context>\n<text>\n2Sanjeev Bikhchandani has been appointed as the chairman and member of the committee effective from February 10, 2026.\n3Deepinder Goyal resigned as Director, Managing Director & Chief Executive Officer of the Company and chairman & member of committee\neffective from the close of business hours on February 1, 2026. Further, while he has been appointed as Vice Chairman & Non Executive\nDirector of the Company, he is not a member of the committee.\n71\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nWeb-link(s) where composition of CSR committee, CSR policy and CSR projects\napproved by the Board are disclosed on the website of the Company\nComposition of CSR committee\nLink to the composition\nCSR Policy of the Company\nLink to the policy\nCSR projects approved by the Board\nNot Applicable\nAs the average net profit of the Company is NIL (due to the impact of brought forward losses from preceding\nfinancial years), disclosure with respect to point no. 4 to 8 of Annexure - II of rule 8 of the Companies (Corporate\nSocial Responsibility Policy) Rules, 2014 is not applicable.\nFor and on behalf of the Board of Directors of\nEternal Limited (Formerly known as Zomato Limited)\nSd/-\nSd/-\nSanjeev Bikhchandani\nNamita Gupta\nNominee Director\nIndependent Director\nChairman - CSR Committee\nMember - CSR Committee\nDIN: 00065640\nDIN:07337772\nDate: July 22, 2026\nDate: July 22, 2026\nPlace: New Delhi\nPlace: New Delhi\n72\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE \u2013 III A\n</text>\n</passage>\n\n<passage id=\"77\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > CSR projects approved by the Board\n</context>\n<text>\nfinancial years), disclosure with respect to point no. 4 to 8 of Annexure - II of rule 8 of the Companies (Corporate\nSocial Responsibility Policy) Rules, 2014 is not applicable.\nFor and on behalf of the Board of Directors of\nEternal Limited (Formerly known as Zomato Limited)\nSd/-\nSd/-\nSanjeev Bikhchandani\nNamita Gupta\nNominee Director\nIndependent Director\nChairman - CSR Committee\nMember - CSR Committee\nDIN: 00065640\nDIN:07337772\nDate: July 22, 2026\nDate: July 22, 2026\nPlace: New Delhi\nPlace: New Delhi\n72\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE \u2013 III A\nFORM NO. MR-3\nSECRETARIAL AUDIT REPORT\nFOR THE FINANCIAL YEAR ENDED MARCH 31, 2026\n[Pursuant to Section 204(1) of the Companies Act, 2013 and Rule 9 of the Companies\n(Appointment and Remuneration of Managerial Personnel) Rules, 2014]\nTo,\nThe Members\nEternal Limited\n(Formerly known as Zomato Limited)\nGround Floor 12A, 94 Meghdoot,\nNehru Place, New Delhi \u2013 110019\nWe have conducted the Secretarial Audit of the\ncompliance of applicable statutory provisions\nand the adherence to good corporate governance\npractices by Eternal Limited (formerly known as\nZomato Limited) (hereinafter called \u201cthe Company\u201d).\nSecretarial Audit was conducted in a manner that\nprovided us a reasonable basis for evaluating the\ncorporate conducts/ statutory compliances and\nexpressing our opinion thereon.\nBased on our verification of the Company\u2019s books,\npapers, minute books, forms and returns filed and\nother records maintained by the Company and also\nthe information provided by the Company, its officers,\nagents and authorized representatives during the\nconduct of secretarial audit, we hereby report that in\nour opinion, the Company has, during the audit period\ncovering the financial year ended on March 31, 2026\n(\u201cAudit Period\u201d/ \u201cperiod under review\u201d) complied\nwith the statutory provisions listed hereunder and\nalso that the Company has proper Board-processes\nand compliance-mechanism in place to the extent,\nin the manner and subject to the reporting made\nhereinafter.\nWe have examined the books, papers, minute books,\nforms and returns filed and other records maintained\nby the Company for the financial year ended on March\n31, 2026 according to the provisions of:\n(i)\nThe Companies Act, 2013 (\u2018the Act\u2019) and the rules\nmade thereunder;\n(ii)\t The Securities Contracts (Regulation) Act, 1956\n(\u2018SCRA\u2019) and the rules made thereunder;\n(iii)\t The Depositories Act, 1996 and the Regulations\nand Bye-laws framed thereunder to the extent of\nRegulation 76 and 74(5) of SEBI (Depositories and\nParticipants) Regulations, 2018;\n(iv)\t Foreign Exchange Management Act, 1999 and\nthe rules and regulations made thereunder to the\nextent of Foreign Direct Investment, Overseas Direct\nInvestment and External Commercial Borrowings to\nthe extent applicable;\n(v)\t The following Regulations and Guidelines\nprescribed under the Securities and Exchange Board\nof India Act, 1992 (\u2018SEBI Act\u2019):-\n(a)\t The Securities and Exchange Board of India\n(Substantial Acquisition of Shares and Takeovers)\nRegulations, 2011;\n(b)\t The Securities and Exchange Board of India\n(Prohibition of Insider Trading) Regulations, 2015;\n(c)\t The Securities and Exchange Board of India (Issue\nof Capital and Disclosure Requirements) Regulations,\n2018 to the extent applicable;\n(d)\t The Securities and Exchange Board of India\n(Share Based Employee Benefits and Sweat Equity)\nRegulations, 2021 to the extent applicable;\n(e)\t The Securities and Exchange Board of India\n(Issue and Listing of Non-Convertible Securities)\nRegulations, 2021; Not applicable to the Company\nduring the Audit Period\n(f)\t The Securities and Exchange Board of India\n(Registrars to an Issue and Share Transfer Agents)\nRegulations, 2025 regarding the Companies Act and\ndealing with client to the extent of securities issued;\n(g)\t The Securities and Exchange Board of India\n(Delisting of Equity Shares) Regulations, 2021; Not\napplicable to the Company during the Audit Period\n73\nFinancial Statements\nStatutory Reports: Board Report\n</text>\n</passage>\n\n<passage id=\"78\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > of India Act, 1992 (\u2018SEBI Act\u2019):-\n</context>\n<text>\n(Issue and Listing of Non-Convertible Securities)\nRegulations, 2021; Not applicable to the Company\nduring the Audit Period\n(f)\t The Securities and Exchange Board of India\n(Registrars to an Issue and Share Transfer Agents)\nRegulations, 2025 regarding the Companies Act and\ndealing with client to the extent of securities issued;\n(g)\t The Securities and Exchange Board of India\n(Delisting of Equity Shares) Regulations, 2021; Not\napplicable to the Company during the Audit Period\n73\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\n(h)\t The Securities and Exchange Board of India (Buy-\nback of Securities) Regulations, 2018; Not applicable\nto the Company during the Audit Period\n(vi)\t The management has identified and confirmed\nthe following sectoral laws as being specifically\napplicable to the Company:\na)\n\u0007Food Safety & Standards Act, 2006 and its allied\nrules & regulations; and\nb)\n\u0007Legal Metrology Act, 2009 and its allied rules &\nregulations.\nWe have also examined compliance with the applicable\nclauses/Regulations of the following:\ni)\n\u0007Secretarial Standards issued by The Institute\nof Company Secretaries of India and notified by\nMinistry of Corporate Affairs;\nii)\n\u0007Securities and Exchange Board of India (Listing\nObligations and Disclosure Requirements)\nRegulations, 2015.\nDuring the period under review, the Company has\ngenerally complied with the provisions of the Act,\nRules, Regulations, Guidelines, Standards, etc.\nmentioned above.\nWe further report that\nThe Board of Directors of the Company is duly\nconstituted with proper balance of Non-Executive\nDirectors, Independent Directors and Women\nDirector as on March 31, 2026. The changes, in the\ncomposition of the Board of Directors that took place\nduring the period under review were carried out in\ncompliance with the provisions of the Act.\nAdequate notice is given to all Directors to schedule\nthe Board/Committee Meetings. Agenda and detailed\nnotes on agenda were sent at least seven days in\nadvance except in cases where meetings were\nconvened at a shorter notice. The Company has\ncomplied with the provisions of Act for convening\nmeeting at the shorter notice. A system exists for\nseeking and obtaining further information and\nclarifications on the agenda items before the meeting\nand for meaningful participation at the meeting.\nAll decisions at Board Meetings and Committee\nMeetings are carried out unanimously as recorded in\nthe minutes of the meetings of the Board of Directors\nor Committees of the Board, as the case may be.\nWe further report that there are adequate systems\nand processes in the company commensurate with\nthe size and operations of the company to monitor\nand ensure compliance with applicable laws, rules,\nregulations and guidelines.\nWe further report that no major events have\noccurred during the audit period, which has a major\nbearing on the company\u2019s affairs in pursuance of the\nabove referred laws, rules, regulations, guidelines,\nstandards, etc. applicable upon the Company.\nFor Chandrasekaran Associates\nCompany Secretaries\nFRN: P1988DE002500\nPeer Review Certificate No.: 6689/2025\nSd/-\nDr. S Chandrasekaran\nSenior Partner\nMembership No. SF1644\nCertificate of Practice No. 715\nUDIN: F001644H000894074\nDate: July 20, 2026\nPlace: Delhi\nNote: This report is to be read with our letter of even date which is\nannexed as Annexure-A to this Report and forms an integral part\nof this report.\n74\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE-A\n</text>\n</passage>\n\n<passage id=\"79\">\n<context>\n[page header]\nFinancial Statements\nCompany Overview\n\n[section]\nchanging lifestyles > Board Report > to the Company during the Audit Period\n</context>\n<text>\nstandards, etc. applicable upon the Company.\nFor Chandrasekaran Associates\nCompany Secretaries\nFRN: P1988DE002500\nPeer Review Certificate No.: 6689/2025\nSd/-\nDr. S Chandrasekaran\nSenior Partner\nMembership No. SF1644\nCertificate of Practice No. 715\nUDIN: F001644H000894074\nDate: July 20, 2026\nPlace: Delhi\nNote: This report is to be read with our letter of even date which is\nannexed as Annexure-A to this Report and forms an integral part\nof this report.\n74\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE-A\nTo,\nThe Members\nEternal Limited\n(Formerly known as Zomato Limited)\nGround Floor 12A, 94 Meghdoot,\nNehru Place, New Delhi \u2013 110019\nAuditor\u2019s responsibility\nBased on audit, our responsibility is to express an\nopinion on the compliance with the applicable laws\nand maintenance of records by the Company. We\nconducted our audit in accordance with the auditing\nstandards CSAS 1 to CSAS 4 (\u201cCSAS\u201d) prescribed by\nthe Institute of Company Secretaries of India (\u201cICSI\u201d).\nThese standards require that the auditor complies\nwith statutory and regulatory requirements and\nplans and performs the audit to obtain reasonable\nassurance about compliance with applicable laws and\nmaintenance of records. Our report of even date is to\nbe read along with this letter.\n1.\nMaintenance of secretarial record is the\nresponsibility of the management of the Company.\nOur responsibility is to express an opinion on these\nsecretarial records based on our audit.\n2.\t We have followed the audit practices and\nprocesses as were appropriate to obtain reasonable\nassurance about the correctness of the contents of\nthe secretarial records. The verification was done on\nthe random test basis to ensure that correct facts\nare reflected in secretarial records. We believe that\nthe processes and practices, we followed provide a\nreasonable basis for our opinion.\n3.\nWe have not verified the correctness and\nappropriateness of financial records and Books of\nAccounts of the Company and for which we relied on\nthe report of statutory auditor.\n4.\nWherever required, we have obtained the\nManagement representation about the compliance of\nlaws, rules and regulations and happening of events\netc.\n5.\t The compliance of the provisions of Corporate and\nother applicable laws, rules, regulations, standards is\nthe responsibility of management. Our examination\nwas limited to the verification of procedures on\nrandom test basis.\n6.\t The Secretarial Audit Report is neither an\nassurance as to the future viability of the company\nnor of the efficacy or effectiveness with which\nthe management has conducted the affairs of the\nCompany.\nFor Chandrasekaran Associates\nCompany Secretaries\nFRN: P1988DE002500\nPeer Review Certificate No.: 6689/2025\nSd/-\nDr. S Chandrasekaran\nSenior Partner\nMembership No. SF1644\nCertificate of Practice No. 715\nUDIN: F001644H000894074\nDate: July 20, 2026\nPlace: Delhi\n75\nFinancial Statements\nStatutory Reports: Board Report\nCompany Overview\n\n\nANNEXURE \u2013 III B\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "As on the financial year ended on March 31, 2026, the permanent employees on the rolls of the Company were 6,750 on a standalone basis.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "permanent_employees",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "standalone"
+          },
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "As on the financial year ended on March 31, 2026, the\npermanent employees on the rolls of the Company\nwere 6,750 (on standalone basis)",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "6,750"
+        }
+      },
+      {
+        "claim_text": "As on the financial year ended on March 31, 2026, the permanent employees on the rolls of the Company were 21,995 on a consolidated basis.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "permanent_employees",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "consolidated"
+          },
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "and 21,995\n(on consolidated basis).",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "21,995"
+        }
+      },
+      {
+        "claim_text": "The Company has five employee stock option plans as on the financial year ended on March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 64,
+        "predicate": "employee_stock_option_plans_count",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "The Company has five employee stock option plans\n(\u201cESOP Schemes\u201d) as on the financial year ended on\nMarch 31, 2026",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "five"
+        }
+      },
+      {
+        "claim_text": "The number of sexual harassment complaints received/filed during the financial year was 27.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "sexual_harassment_complaints_received",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "financial year under review"
+          }
+        ],
+        "quote": "Number of complaints received/filed during\nthe financial year\n27",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "27"
+        }
+      },
+      {
+        "claim_text": "The number of sexual harassment complaints disposed off during the financial year was 241.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "sexual_harassment_complaints_disposed",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "financial year under review"
+          }
+        ],
+        "quote": "Number of complaints disposed off during\nthe financial year\n241",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "241"
+        }
+      },
+      {
+        "claim_text": "The number of sexual harassment cases pending for more than ninety days was 0.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "sexual_harassment_cases_pending_over_ninety_days",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "financial year under review"
+          }
+        ],
+        "quote": "Number of cases pending for more than\nninety days\n0",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "0"
+        }
+      },
+      {
+        "claim_text": "The number of sexual harassment complaints pending as on the end of the financial year was 52.",
+        "confidence": 1,
+        "passage_id": 65,
+        "predicate": "sexual_harassment_complaints_pending",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "end of the financial year"
+          }
+        ],
+        "quote": "Number of complaints pending as on the end\nof the financial year\n52",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "52"
+        }
+      },
+      {
+        "claim_text": "The foreign exchange earned by the Company was 58 INR crore.",
+        "confidence": 1,
+        "passage_id": 67,
+        "predicate": "foreign_exchange_earned",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "accrual basis"
+          }
+        ],
+        "quote": "Foreign exchange earned\n58",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "58",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "The foreign exchange outgo of the Company was 169 INR crore.",
+        "confidence": 1,
+        "passage_id": 67,
+        "predicate": "foreign_exchange_outgo",
+        "qualifiers": [
+          {
+            "key": "basis",
+            "provenance": "stated",
+            "value": "accrual basis"
+          }
+        ],
+        "quote": "Foreign exchange outgo\n169",
+        "subject_surface": "Eternal",
+        "value": {
+          "kind": "quantity",
+          "raw": "169",
+          "unit": "INR crore"
+        }
+      }
+    ]
+  }
+}

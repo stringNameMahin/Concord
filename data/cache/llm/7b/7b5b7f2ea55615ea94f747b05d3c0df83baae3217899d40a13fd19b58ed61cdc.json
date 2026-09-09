@@ -1,0 +1,357 @@
+{
+  "key": "7b5b7f2ea55615ea94f747b05d3c0df83baae3217899d40a13fd19b58ed61cdc",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"32\">\n<context>\n[section]\nchanging lifestyles > Glossary\n</context>\n<text>\nof any seller/ brand/ platform funded subsidies (excluding tips) (+) actual\ncustomer delivery charges paid (net of any discounts) (+) other charges\nsuch as handling fee, convenience fee, packaging fee (+) taxes\nNet order value (NOV)\nGOV (-) all discounts (funded by brands, sellers, platform, bank, others)\nAverage order value (AOV)\nGOV divided by number of Orders\nNet average order value\n(NAOV)\nNOV divided by number of Orders\n30\n\n\nCompany Overview: Glossary  |  Statutory Reports  |  Financial Statements\nQuick commerce  (continued)\nTerm\nDescription\nRevenue\nDefined as quick commerce revenue from operations including Blinkit\nmarketplace commission income on sale of goods where inventory is\nowned by a third-party seller (+) monetary value of goods sold where\ninventory is owned by the subsidiaries of the Company (+) actual customer\ndelivery charges (net of any discounts) (+) ad revenue (+) warehousing and\nancillary services income\nAdjusted Revenue\nSame as Revenue\nGross Profit\nDefined as Adjusted Revenue (-) cost of goods sold where inventory is\nowned by the subsidiaries of the Company\nContribution\nDefined as Adjusted Revenue (-) cost of goods sold where inventory is\nowned by the subsidiaries of the Company (-) dark store operations cost\n(including actual rent paid prior to any accounting adjustment for Ind AS\n116) (-) last mile delivery costs (-) warehouses expenses (including actual\nrent paid prior to any accounting adjustment for Ind AS 116) (-) middle mile\ntransportation costs (-) customer acquisition subsidies (-) wastage losses\n(-) customer refund cost (-) packaging cost (-) payment gateway charges (-)\nsupport cost (-) delivery partner recruitment and onboarding cost (-) cash\non delivery handling (-) other miscellaneous costs\nAdjusted EBITDA\nDefined as EBITDA (+) share-based payment expense (-) rental paid for the\nperiod pertaining to \u02d8Ind AS 116  leases\u02c7\nMonthly transacting\ncustomers\nDefined as the number of unique transacting customers identified by the\ncustomers' mobile number that have placed at least one Order in that\nmonth\nAverage GOV per day, per store\nCalculated as a simple average of total GOV transacted on a particular day\ndivided by total number of stores operational for the day, for that period\nAverage NOV per day, per store\nCalculated as a simple average of total NOV transacted on a particular day\ndivided by total number of stores operational for the day, for that period\nGoing-out\nTerm\nDescription\nTransactions\nAll transactions executed across our going-out platforms in India and UAE,\nincluding transactions canceled by customers\nGross order value (GOV)\nDefined as total monetary value of Transactions (gross of cancellations)\nacross our going-out platforms in India and UAE including dining-out and\nentertainment ticketing (movies, sports and events) gross of all discounts\n(+) convenience fee & other charges (+) taxes (as applicable)\n31\n\n\nCompany Overview: Glossary  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"33\">\n<context>\n[section]\nchanging lifestyles > Glossary\n</context>\n<text>\nAll transactions executed across our going-out platforms in India and UAE,\nincluding transactions canceled by customers\nGross order value (GOV)\nDefined as total monetary value of Transactions (gross of cancellations)\nacross our going-out platforms in India and UAE including dining-out and\nentertainment ticketing (movies, sports and events) gross of all discounts\n(+) convenience fee & other charges (+) taxes (as applicable)\n31\n\n\nCompany Overview: Glossary  |  Statutory Reports  |  Financial Statements\nGoing-out  (continued)\nTerm\nDescription\nNet order value (NOV)\nGOV (-) all discounts (funded by merchants, platform, bank, others)\nAverage order value (AOV)\nGOV divided by number of Transactions\nNet average order value\n(NAOV)\nNOV divided by number of Transactions\nRevenue\nDefined as going-out revenue from operations including commission\ncharged from restaurant and other partners on Transactions done through\nthe Zomato or District app in India and UAE (+) subscription revenue for\nZomato Gold in UAE for access to dining-out offers in UAE (+) ad revenue (+)\nplatform share of convenience fee collected from customers (+)\nmembership fee collected from sale of District Pass (+) take-rate earned\nfrom merchants and third-party event organizers on sale of tickets (+)\nticket sale collections for events managed by Eternal (+) sponsorship and\nevent marketing revenue (+) event production and management fee earned\nfrom co-produced events (+) revenue for providing on-ground event\nmanagement services (+) rentals and commission charged on sale of food\n& other products from merchants participating in Eternal managed live\nevents (+) cancellation fee and other charges\nAdjusted Revenue\nSame as Revenue\nAdjusted EBITDA\nDefined as EBITDA (+) share-based payment expense (-) rental paid for the\nperiod pertaining to \u02d8Ind AS 116 leases\u02c7\nB2B supplies (Hyperpure)\nTerm\nDescription\nRevenue\nDefined as Hyperpure supplies revenue from operations including total\nmonetary value of goods sold on the Hyperpure platform (net of any\nreturns/ discounts) (+) actual delivery charges paid (net of any discounts)\n(+) other revenue\nAdjusted Revenue\nSame as Revenue\nAdjusted EBITDA\nDefined as EBITDA (+) share-based payment expense (-) rental paid for the\nperiod pertaining to \u02d8Ind AS 116 leases\u02c7\n32\n\n\nESG update\n</text>\n</passage>\n\n<passage id=\"34\">\n<context>\n[section]\nchanging lifestyles > Glossary\n</context>\n<text>\nperiod pertaining to \u02d8Ind AS 116 leases\u02c7\nB2B supplies (Hyperpure)\nTerm\nDescription\nRevenue\nDefined as Hyperpure supplies revenue from operations including total\nmonetary value of goods sold on the Hyperpure platform (net of any\nreturns/ discounts) (+) actual delivery charges paid (net of any discounts)\n(+) other revenue\nAdjusted Revenue\nSame as Revenue\nAdjusted EBITDA\nDefined as EBITDA (+) share-based payment expense (-) rental paid for the\nperiod pertaining to \u02d8Ind AS 116 leases\u02c7\n32\n\n\nESG update\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nFY26 ESG highlights\nDoubled our EV-based delivery\npartner fleet to 1 lakh+, helping\navoid 9,926 MT of carbon\nemissions in FY26\nSpent over INR 200+ crore till\ndate on insurance coverage for\ndelivery partners\nDelivered 100 million \u02d8low\nplastic packaging\u02c7 food delivery\norders from 10k+ restaurants\u20ac\nAttended to 10,000+ medical\nemergencies through the\nBlinkit Ambulance Service\nESG ratings and scores\nS&P Global\nESG score\nSustainalytics\nscore & rating\nFTSE4Good\nIndex Series\nMSCI ESG\nRating\nScore of 72 /100\n(Increase from 58\nin FY25)\nS&P Global CSA score\ndated 19-Jan-26\nLow-risk rating\nmaintained with a\nscore of 17.2\n(Jun-26)\nConstituent since\nDec-22\nRating: A\n15,384 MT of emissions avoided\nthrough 3W and 4W EV-based\nmid-mile transport in Blinkit and\nHyperpure\nServed 300 million meals to\nunderprivileged children through\nFeeding India (Jun-26)\nVoluntarily recycled ~15,000 MT of\nplastic waste to offer 100% plastic\nneutral food deliveries\nDistributed 1 million plant saplings\nunder Greening India initiative with\na potential to sequester ~6 lakh\ntonnes of CO2 over the next 30\nyears\n33\n\n\nImpact materiality\n</text>\n</passage>\n\n<passage id=\"35\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\nscore of 17.2\n(Jun-26)\nConstituent since\nDec-22\nRating: A\n15,384 MT of emissions avoided\nthrough 3W and 4W EV-based\nmid-mile transport in Blinkit and\nHyperpure\nServed 300 million meals to\nunderprivileged children through\nFeeding India (Jun-26)\nVoluntarily recycled ~15,000 MT of\nplastic waste to offer 100% plastic\nneutral food deliveries\nDistributed 1 million plant saplings\nunder Greening India initiative with\na potential to sequester ~6 lakh\ntonnes of CO2 over the next 30\nyears\n33\n\n\nImpact materiality\nModerate\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nOur updated materiality matrix\nWe conducted our first comprehensive materiality assessment in FY22 to identify our key sustainability\nthemes. The eight themes identified were reflective of the company we were at the time. Food delivery was\nour single large business, complemented by a dining-out offering and a much smaller Hyperpure business.\nSince then, the organization has grown multi-fold. Quick commerce, which did not exist as a business for us\nin FY22, is now our largest business by NOV. Dining-out has grown into a full-fledged going-out offering\nspanning dining, events, movies, shopping and other use cases. Hyperpure has scaled meaningfully and now\nsupports each of our B2C businesses. With this evolution, our stakeholder universe has also broadened and\nso have the ESG themes that are relevant to us.\nTo align our ESG priorities with the business we are today, we refreshed our materiality assessment in FY26\nthrough a double materiality assessment covering all four key businesses. A double materiality lens\nevaluates each topic on two dimensions:\nImpact our businesses have on people and the environment\nFinancial implications of sustainability-related issues on our businesses\nNine material topics were identified through this assessment.\u20ac\nCorporate governance,\nethics and risk oversight\nHigh\nBrand and\nreputation\nInnovation\nData privacy, cybersecurity\nand responsible AI\nFood quality, storage\nand transportation\nHealth, safety and\ndignity for all\nHuman capital\ndevelopment\nClimate action and\ncircular economy\nStakeholder value\ncreation\nLow\nLow\nOur core sustainability pillars\nClimate action and circular economy\nResponsible business leadership\nModerate\nFinancial materiality\nInclusive growth\nCorporate governance\nHigh\n34\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"36\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\nBrand and\nreputation\nInnovation\nData privacy, cybersecurity\nand responsible AI\nFood quality, storage\nand transportation\nHealth, safety and\ndignity for all\nHuman capital\ndevelopment\nClimate action and\ncircular economy\nStakeholder value\ncreation\nLow\nLow\nOur core sustainability pillars\nClimate action and circular economy\nResponsible business leadership\nModerate\nFinancial materiality\nInclusive growth\nCorporate governance\nHigh\n34\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nOur core sustainability pillars\u20ac\nThe nine material topics identified through our double materiality assessment have been classified under\nfour core ESG pillars aligned with UN SDGs. These pillars build on the eight-theme framework we have\nfollowed since FY22, consolidating them into a sharper structure that reflects the business we operate\ntoday.\u20ac\nSustainability\npillar\nMaterial topic\nUN SDG alignment\nClimate action\nand circular\neconomy\nClimate action and circular\neconomy\nI\nnclusive growth\nStakeholder value creation\nH uman capital development\nInnovation\nR\nesponsible\nbusiness leadership\nH ealth, safety and dignity for all\nFood quality, storage and\ntransportation\nB rand and reputation\nCorporate governance, ethics\nand risk oversight\nData privacy, cybersecurity\nand responsible AI\nThe goals we set under our earlier framework in Jan-23 were defined for the food delivery business, which\nwas our only large business at the time. We made good progress on many of those goals. For example, we\nhave maintained 100% plastic neutral food deliveries by recycling as much plastic as restaurants use for\npacking their food delivery orders, delivered 100 million 'low plastic packaging' orders from 10k+ restaurants\nand achieved our target of serving 300,000+ MSME restaurants and creating economic opportunities for\nover 1 million delivery partners. We also achieved our goal of serving 300 million meals through Feeding India\nin Jun-26, well before our initial timeline of 2030.\nWe are now crafting new goals relevant to our expanded portfolio of businesses and aligned with the material\ntopics identified in our latest assessment. As part of this exercise, we also intend to revise our goals around\n100% EV-based deliveries and Net Zero (covered under Pillar 1 below).\nCorporate\ngovernance\n35\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"37\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\nover 1 million delivery partners. We also achieved our goal of serving 300 million meals through Feeding India\nin Jun-26, well before our initial timeline of 2030.\nWe are now crafting new goals relevant to our expanded portfolio of businesses and aligned with the material\ntopics identified in our latest assessment. As part of this exercise, we also intend to revise our goals around\n100% EV-based deliveries and Net Zero (covered under Pillar 1 below).\nCorporate\ngovernance\n35\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nThe section below provides an overview of our four ESG pillars and highlights of our progress. For more\ndetails, please refer to the Business Responsibility and Sustainability Report on page 85 of this report.\nPillar 1\nMaterial topics covered\nClimate action and circular economy\nClimate action and\ncircular economy\nWe recognize the impact our operations have on the\nenvironment. We also believe that businesses built to last\ncannot treat climate change and its consequences as\ndistant concerns. They are operating realities that will only\ngrow in significance.\u20ac\nWe are committed to minimizing our environmental\nfootprint while preparing for climate change, ensuring\nlong-term business growth and resilience. Our work under\nthis pillar spans three themes. The table below summarizes\nour key initiatives and progress under each theme in FY26.\nReducing\nand\noffsetting\nemissions\nTheme\nKey initiatives and FY26 updates\nDoubled EV-based delivery partners to 1 lakh+ (100% YoY growth) who\ndelivered more than 228 million orders\n- Avoided 9,926 MT of carbon emissions through 2W EV deliveries\n15, 384 MT of emissions avoided through EV-based 3W and 4W mid-\nmile transport in Blinkit and Hyperpure\n3 .5 MW of rooftop solar capacity installed across warehouses; 1.3 MW of\nrooftop solar capacity under construction (Jun-26)\nScope 1 and 2 net emissions maintained at zero for third straight year\nin food delivery via verified carbon removal offsets and IRECs\n1 million saplings distributed under Greening India, our agro-forestry\ninitiative live across six states with 3,000+ farmer partners\n- 6 lakh+ saplings planted across ~5,000 acres of land\n- Potential to sequester ~6 lakh tonnes of CO2 over 30 years\n- Distribution of 2.5 million more saplings targeted by FY27\n36\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"38\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\nScope 1 and 2 net emissions maintained at zero for third straight year\nin food delivery via verified carbon removal offsets and IRECs\n1 million saplings distributed under Greening India, our agro-forestry\ninitiative live across six states with 3,000+ farmer partners\n- 6 lakh+ saplings planted across ~5,000 acres of land\n- Potential to sequester ~6 lakh tonnes of CO2 over 30 years\n- Distribution of 2.5 million more saplings targeted by FY27\n36\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nKey initiatives and FY26 updates\n1,150 automatic weather stations deployed across 100 cities to support\nbusiness decisions, predict and communicate hyperlocal weather\nconditions to delivery partners\nAdapting to\nclimate impact\nOperated 3,395 rest points pan-India, in partnership with restaurants\nand other merchants, giving\u00a0gig workers access to basic amenities like\ndrinking water, washrooms, charging stations, etc.\nCooling vests pilot initiated to combat heat stress through personal\nprotective equipment\nDelivered 100 million 'low plastic packaging' food delivery orders from\n10k+ restaurants\n~60,000 MT of plastic waste voluntarily recycled since Apr-22 as part\nof 100% plastic neutral food deliveries initiative\nCircular economy\nDelivered 3,255 MT (20% YoY) of sustainable food packaging to 50,000+\nrestaurants via Hyperpure\n~ 7.5 lakh kgs of food waste prevented through the Zomato food rescue\ninitiative since launch\nRe-evaluation of EV and Net Zero\u20acgo al s\nOur focused efforts on driving EV-based last-mile deliveries over the last few years has led to 2W EV fleet\npenetration reaching an estimated 2x+ of the on-road penetration of 2W EVs in India. Our learnings through\nthis journey point to three constraints holding back mass EV adoption among delivery partners. With\ndeliveries contributing significantly to our scope 3 emissions, EV adoption is central to our Net Zero goal:\nHigh upfront costs vs. low full-time participation: A majority of delivery partners work part-time to\nsupplement existing incomes and prefer to use vehicles they already own or have access to. Investing in\na new EV is viable only for a small share of delivery partners with long-term delivery plans\nHigh need for credit but limited and expensive financing: Most of the delivery partners interested in\nbuying an EV require financing, but credit availability is limited. Those who can access financing often\nface unfavorable loan terms (higher interest rates, lower loan-to-value ratios) compared to ICE vehicles\nCharging infrastructure gaps: Inadequate charging and swapping infrastructure outside major cities,\ne.g., hometowns of delivery partners, creates range anxiety and undermines partners\u2019 confidence in the\nlong-term viability of owning an EV\nThese are ecosystem-level constraints. Solving them requires coordinated effort across multiple\naggregators like us, EV manufacturers, infrastructure and financing players from both public and private\nsectors to facilitate a just, orderly and equitable transition away from petrol-based vehicles. We continue to\ncontribute through awareness-building, enabling access to rental EVs and advocacy via government\nconsultations and industry coalitions.\nWe are working with experts and partners to craft new sustainable transportation goals that better reflect\nour growth, diversification and on-ground realities. This exercise will lead to a revision of both of our 100%\nEV-based deliveries and Net Zero goals. We will share the outcome once it concludes.\n37\nTheme\n\n\nPillar 2\n</text>\n</passage>\n\n<passage id=\"39\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\nsectors to facilitate a just, orderly and equitable transition away from petrol-based vehicles. We continue to\ncontribute through awareness-building, enabling access to rental EVs and advocacy via government\nconsultations and industry coalitions.\nWe are working with experts and partners to craft new sustainable transportation goals that better reflect\nour growth, diversification and on-ground realities. This exercise will lead to a revision of both of our 100%\nEV-based deliveries and Net Zero goals. We will share the outcome once it concludes.\n37\nTheme\n\n\nPillar 2\nInclusive growth\nReaching customers at scale has, traditionally,\nrequired investments most small businesses cannot\nafford. Our platforms lower these barriers, giving\nsmall businesses and upcoming entrepreneurs\naccess to millions of customers and enabling them to\ncompete with larger players on a level playing field. In\nthis process, we also help generate income\nopportunities for lakhs of riders and merchant\npartners.\nWe intend to deepen this over time by (i) helping\nmore small businesses find growth on our platforms,\n(ii) expanding earning opportunities for delivery\npartners and (iii) investing in the development of our\nown people, whose capabilities ultimately determine\nhow well we serve everyone else. Our work under this\npillar spans four themes. The table below\nsummarizes our key initiatives and progress under\neach theme in FY26.\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nMaterial topics covered\nS takeholder value creation\nH uman capital development\nLivelihoods and\nwelfare for\ndelivery partners\nand workers\nKey initiatives and FY26 updates\nZomato and Blinkit generated income opportunities through delivery\nfor 30 lakh+ gig workers\n1 lakh+ workers engaged in stores, warehouses and other facilities\nacross our four key businesses (Mar-26)\n16,800+ active women workers across warehouses, stores and last-\nmile delivery as of Mar-26\u00a0 (100% YoY)\n3,700+ persons with disabilities\u00a0in last mile deliveries as of Mar-26\n(90% YoY)\nI NR 200 crore of government scheme benefits unlocked for delivery\npartners through pan-India enrolment camps\n1 lakh+ retirement accounts opened by delivery partners under\nNational Pension Scheme (gig worker variant) via the Zomato app\n1.2 lakh delivery partners filed income tax returns through the Zomato\napp; ~70% first-time filers, receiving INR 18+ crore in refunds\nTheme\n38\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"40\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\n3,700+ persons with disabilities\u00a0in last mile deliveries as of Mar-26\n(90% YoY)\nI NR 200 crore of government scheme benefits unlocked for delivery\npartners through pan-India enrolment camps\n1 lakh+ retirement accounts opened by delivery partners under\nNational Pension Scheme (gig worker variant) via the Zomato app\n1.2 lakh delivery partners filed income tax returns through the Zomato\napp; ~70% first-time filers, receiving INR 18+ crore in refunds\nTheme\n38\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nKey initiatives and FY26 updates\nServed 3.4 lakh MSME restaurants across Zomato and District\nEnabled market access for 3 lakh+ food delivery restaurants across\n900+ cities in India, including 700+ tier 3\u20136 cities\nSimplified operations for 37,000+ restaurants through the Zomato\nRestaurant Services Hub, a single point of access for equipment\nprocurement, vendor management, staffing, FSSAI licensing and\nhygiene audits\nWorked with ~6,900 MSME suppliers across our consolidated\nbusinesses\n4x growth in active transacting farmers on Blinkit and Hyperpure;\n3x YoY growth in new farmer onboardings\nGrowing income\nfor farmers\nTransparent, fixed SKU-level pricing live at 100% of collection centres,\nwith IoT-based weighing to ensure farmers are paid for exact quantities\nP ayouts within 24 hours, backed by formal purchase orders and digital\ninvoices via the Hyperpure Seller Hub app\nG enerated employment for ~22,000 skilled individuals across our\nkey businesses with ~16% women in STEM\nD\neveloping our\npeople\nFlat organi zational structure with cross-functional mobility and in-\nhouse learning and development programs\n5 0% of Eternal\u2019s Board members are women\nSignatory to the U N Women's Empowerment Principles since 2023\nSupp\norting\nthe growth\nof small\nbusinesses\nTheme\n39\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"41\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\ninvoices via the Hyperpure Seller Hub app\nG enerated employment for ~22,000 skilled individuals across our\nkey businesses with ~16% women in STEM\nD\neveloping our\npeople\nFlat organi zational structure with cross-functional mobility and in-\nhouse learning and development programs\n5 0% of Eternal\u2019s Board members are women\nSignatory to the U N Women's Empowerment Principles since 2023\nSupp\norting\nthe growth\nof small\nbusinesses\nTheme\n39\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nAdditional voluntary benefits for delivery partners\nInsurance protection\nAccidental, OPD, maternity cover, amongst other benefits; INR 200+ crore spent till date\nDoctor-at-store\nFacility providing free consultations and medicines to Blinkit delivery partners\nWeekly payouts\nAll earnings are transferred to delivery partners\u02c7  bank accounts weekly\nInstant withdrawal\nAccrued earnings can also be withdrawn at an on-demand basis\nInstant access to tips\nTips paid by customers are instantly transferred post order delivery\nAccess to in-app savings & fixed deposits\nAccrued savings of INR 2.5 crore in fixed and recurring deposits\nScholarships for children\nMobilized scholarships worth INR 7+ crore for 2,250+ children of 1,700+ delivery partners\nPeriod rest days\nTwo paid period rest days every month for women delivery partners\nNote:\nAbove benefits are subject to terms.\n40\n\n\nPillar 3\n</text>\n</passage>\n\n<passage id=\"42\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\nAccrued earnings can also be withdrawn at an on-demand basis\nInstant access to tips\nTips paid by customers are instantly transferred post order delivery\nAccess to in-app savings & fixed deposits\nAccrued savings of INR 2.5 crore in fixed and recurring deposits\nScholarships for children\nMobilized scholarships worth INR 7+ crore for 2,250+ children of 1,700+ delivery partners\nPeriod rest days\nTwo paid period rest days every month for women delivery partners\nNote:\nAbove benefits are subject to terms.\n40\n\n\nPillar 3\nResponsible business leadership\nFor us, business leadership carries a dual mandate: (i)\ninnovating ahead of evolving stakeholder expectations\nand, (ii) protecting the health, safety and dignity of\neveryone our businesses touch, including beyond our\nvalue chain through initiatives like Feeding India and\nBlinkit Ambulance service. At the same time, we also\nwork to preserve the quality of the food across our\noperations while safeguarding the trust our brands\nhave earned.\nOur work under this pillar spans five themes. The table\nbelow summarizes our key initiatives and progress\nunder each theme in FY26.\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nMaterial topics covered\nInnovation\nHuman rights\nBrand and reputation\nHealth, safety and\ndignity for all\nFood quality, storage and\ntransportation\nInnovation\nBr\nand and\nreputation\nKey initiatives and FY26 updates\nScaled Nugget from an in-house support tool to an agentic AI\nsolution for enterprise clients; 15 million+ interactions managed\nper month\nL aunched healthy mode on the Zomato app in top 7 cities, offering a\ncurated assortment of healthy dishes; 8.5 million+ orders in FY26\nL aunched Blinkit pharmacy for home delivery of OTC and prescription\nmedicines. Also started India's first in-terminal quick commerce\nservice at Mumbai's domestic airport\nNo material gaps identified in human rights assessment carried\nout by an independent consultant\nHuman rights training for all Eternal employees with 88% compliance\nP ublished first-ever Delivery Partner Wellbeing survey in partnership\nwith Nielsen IQ covering 3,000+ Zomato partners across 35 cities\nM aintained stringent policies, including our Code of Conduct, and\nrobust processes to ensure our brands and teams communicate\nresponsibly with stakeholders\nD eployed Nugget for faster resolution of queries and complaints from\ncustomers, delivery partners and restaurant partners\n41\nHum\nan rights\nTheme\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"43\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\nP ublished first-ever Delivery Partner Wellbeing survey in partnership\nwith Nielsen IQ covering 3,000+ Zomato partners across 35 cities\nM aintained stringent policies, including our Code of Conduct, and\nrobust processes to ensure our brands and teams communicate\nresponsibly with stakeholders\nD eployed Nugget for faster resolution of queries and complaints from\ncustomers, delivery partners and restaurant partners\n41\nHum\nan rights\nTheme\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nKey initiatives and FY26 updates\nFor employees\nMandatory health and safety trainings for all employees, with\n~90% compliance\nAccess to qualified doctors and counselors, along with insurance\ncoverage\nHealth, safety, and\ndignity for all\nFor warehouse and store workers\n1.2 lakh+ free consultations and medicines worth INR 3.7 crore\nprovided to store workers, delivery partners and their families through\nthe Blinkit Doctor-at-Store initiative\n84,000+ hours of health & safety trainings completed by supply chain\ngig workers (100%+ YoY)\nFor delivery partners\nOn-the-job road accidents per million kms rate improved from 1.6 in\nFY25 to 1.0 in FY26\nSpent INR 200+ crore till date on insurance coverage for delivery\npartners, covering accidental, OPD, loss-of-pay and maternity benefits\n- INR 54 crore disbursed in FY26 alone; 27% of payouts for non-\naccidental claims\nFacilitate access to\u20acfree emergency ambulance services across 900+\ncities with 20-minute response time\nMandated valid food safety licenses for restaurants at the time of\nonboarding on Zomato\nFood quality,\nstorage and\ntransportation\nTrained all delivery partners on food handling practices through online\ntraining modules\nHyperpure achieved FSSC 22000 certification across its manufacturing\noperations and 9 major supply chain sites; also received Global G.A.P.\ncertification for its hydroponic farm in Gurugram\nTheme\n42\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"44\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\ncities with 20-minute response time\nMandated valid food safety licenses for restaurants at the time of\nonboarding on Zomato\nFood quality,\nstorage and\ntransportation\nTrained all delivery partners on food handling practices through online\ntraining modules\nHyperpure achieved FSSC 22000 certification across its manufacturing\noperations and 9 major supply chain sites; also received Global G.A.P.\ncertification for its hydroponic farm in Gurugram\nTheme\n42\n\n\nCompany Overview: ESG update  |  Statutory Reports  |  Financial Statements\nBeyond our value chain\nEven as a young company, we have tried to give back to\nsociety through initiatives that sit outside our value chain.\nFeeding India (FI), is an example of that.\nFeeding India currently serves over 1.4 lakh children daily\nacross 2,300+ schools and Anganwadis and has served ~300\nmillion meals since inception. In FY26, FI leveraged technology\nto build higher trust with donors. A mobile application verifies\neach child through facial recognition attendance and validates\neach meal as it is received, ensuring every donated rupee\ntranslates into a verified meal. Donors can search 'Feeding\nIndia' on Zomato and Blinkit apps to see the number of meals\ntheir contributions have funded.\nDaily\nfeeding\nprogram by\nIn FY26, FI also extended its effort beyond providing meals to improving the spaces where those meals are\nserved. Anganwadis serve as the first point of contact between India's underprivileged children and the\npublic care system, yet many operate out of rooms that were never built for the purpose. In FY26, FI rebuilt\n45 of them across Varanasi, Nandurbar, Gurugram and Kushinagar into dedicated care centres. These\ncentres are safe, functional spaces where children can be served meals, taught and looked after the way the\nsystem intends. Separately, when floods struck Punjab in September 2025, FI worked with local NGO\npartners to distribute 5,250 relief kits to the affected families.\nWe also scaled the Blinkit Ambulance service during the fiscal year. In FY26, this service provided\nemergency medical assistance in 10,000+ cases.\nPillar 4\nCorporate governance\nCorporate governance,\nethics and risk oversight\nMaterial topics covered\nD ata privacy, cybersecurity\nand responsible AI\nStrong governance is the foundational pillar on which the\nother three pillars rest. The Report on Corporate\nGovernance on page 161 and the Business Responsibility\nand Sustainability Report on page 85 of this report cover\nthis pillar in detail.\nFY26 key highlights:\nLaunched online Code of Conduct training through\nour learning platform in May 2025, supported by an\nannual employee sign-off\nReported zero data breaches in FY26\nContinued to hold ISO 27001:2022 certification for the management of information security\nScaled AI adoption across our businesses: We are amongst the largest deployers of AI in India. We use it\nto expand our addressable market and improve efficiency across our operations\nAdopted responsible AI practices: AI outputs are clearly labeled, models are monitored for accuracy and\nbias, data is kept in secure, access-controlled environments and all employees are trained on responsible\nuse of AI\n43\n\n\nCompany Overview: Corporate information  |  Statutory Reports  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"45\">\n<context>\n[section]\nchanging lifestyles > ESG update\n</context>\n<text>\nContinued to hold ISO 27001:2022 certification for the management of information security\nScaled AI adoption across our businesses: We are amongst the largest deployers of AI in India. We use it\nto expand our addressable market and improve efficiency across our operations\nAdopted responsible AI practices: AI outputs are clearly labeled, models are monitored for accuracy and\nbias, data is kept in secure, access-controlled environments and all employees are trained on responsible\nuse of AI\n43\n\n\nCompany Overview: Corporate information  |  Statutory Reports  |  Financial Statements\nCorporate information\nBoard of Directors\nMr. Kaushik Dutta\nFounder - TARI,\nex - PwC India\nMr. Deepinder Goyal\nFounder - Eternal\nMr. Sanjeev\nBikhchandani\nFounder -  Info Edge\nChairman & Independent Director\nVice Chairman & Non Executive Director\nNon Executive Director\nMs. Sutapa\nBanerjee\nex - CEO Ambit Capital,\nABN Amro\nMs. Namita Gupta\nFounder - Airveda, (\nex - Facebook, Microsoft,\nEternal\nMs. Aparna Popat\nVed\nProfessional Badminton\nPlayer, ex - Olympian\nIndependent Director\nIndependent Director\nIndependent Director\nKey Managerial Personnel\nName\nDesignation\nMr. Albinder Singh Dhindsa\nChief Executive Officer\nMr. Akshant Goyal\nChief Financial Officer\nMs. Sandhya Sethia\nCompany Secretary and Compliance Officer\nOther details\nStatutory Auditors:\nM/s Deloitte Haskins & Sells, (\nChartered Accountants\nSecretarial Auditors:\nM/s Chandrasekaran Associates, (\nCompany Secretaries\nBankers\nAxis Bank Limited\nCitibank NA\nHDFC Bank Limited\nHSBC Limited\nICICI Bank Limited\nKotak Mahindra Bank Limited\nState Bank of India\nRegistrar and Share Transfer Agent:\nMUFG Intime India Private Limited (\n(Formerly known as Link Intime India Private Limited)\nNoble Heights, 1st Floor, Plot NH 2, C-1 Block LSC, (\nNear Savitri Market, Janakpuri, New Delhi - 110058\nTel.: +91 11 4941 1000\nEmail: investor.helpdesk@in.mpms.mufg.com\nWebsite: www.in.mpms.mufg.com\nRegistered Name:\nEternal Limited (\n(Formerly known as Zomato Limited)\nCIN: L93030DL2010PLC198141\nE-mail:\ncompanysecretary@eternal.com\nWebsite: www.eternal.com\nRegistered Office:\nGround Floor 12A, 94\nMeghdoot,\nNehru Place, New Delhi - 110019\nTel: +91 11 4059 2373\nCorporate Office:\nPioneer Square Building,\nSector 62, Golf Course\nExtension Road, Gurugram,\nHaryana, 122098\nTel: +91 124 426 8565\n44\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"46\">\n<context>\n[section]\nchanging lifestyles > Corporate information\n</context>\n<text>\nNear Savitri Market, Janakpuri, New Delhi - 110058\nTel.: +91 11 4941 1000\nEmail: investor.helpdesk@in.mpms.mufg.com\nWebsite: www.in.mpms.mufg.com\nRegistered Name:\nEternal Limited (\n(Formerly known as Zomato Limited)\nCIN: L93030DL2010PLC198141\nE-mail:\ncompanysecretary@eternal.com\nWebsite: www.eternal.com\nRegistered Office:\nGround Floor 12A, 94\nMeghdoot,\nNehru Place, New Delhi - 110019\nTel: +91 11 4059 2373\nCorporate Office:\nPioneer Square Building,\nSector 62, Golf Course\nExtension Road, Gurugram,\nHaryana, 122098\nTel: +91 124 426 8565\n44\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\nManagement discussion and analysis\nNote: Sharp increase in FY26 revenue from operations mainly due to shift to inventory ownership in quick commerce from Q1FY26 onwards, where\nrevenue now also includes the full monetary value of goods sold (and not just the marketplace commission).\nConsolidated statement of profit and loss\nINR crore\nParticulars\nFY26\nFY25\nA. Income\nRevenue from operations\n54,364\n20,243\nOther income\n1,396\n1,077\nTotal income\n55,760\n21,320\nB. Expenses\nCost of goods sold\n30,167\n5,565\nEmployee benefits expense\n3,536\n2,558\nFinance costs\nDepreciation and amortisation expenses\nOther expenses\nTotal expenses\nProfit before exceptional items and tax\nExceptional items\n392\n1,597\n19,453\n55,145\n615\n-\n154\n863\n11,483\n20,623\n697\n-\nProfit before tax\n615\n697\nTax expense\n249\n170\nProfit for the year\n366\n527\n45\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\n</text>\n</passage>\n\n<passage id=\"47\">\n<context>\n[section]\nchanging lifestyles > Management discussion and analysis\n</context>\n<text>\nRevenue from operations\n54,364\n20,243\nOther income\n1,396\n1,077\nTotal income\n55,760\n21,320\nB. Expenses\nCost of goods sold\n30,167\n5,565\nEmployee benefits expense\n3,536\n2,558\nFinance costs\nDepreciation and amortisation expenses\nOther expenses\nTotal expenses\nProfit before exceptional items and tax\nExceptional items\n392\n1,597\n19,453\n55,145\n615\n-\n154\n863\n11,483\n20,623\n697\n-\nProfit before tax\n615\n697\nTax expense\n249\n170\nProfit for the year\n366\n527\n45\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\nA.\nIncome\nConsolidated revenue from operations increased 169% YoY to INR 54,364 crore in FY26. The sharp increase\nwas primarily driven by the shift to inventory ownership in the quick commerce business where revenue now\nincludes the full monetary value of goods sold (and not just the marketplace commission).\na) Food delivery revenue from operations grew 26% YoY to INR 10,159 crore in FY26, primarily driven by\nhigher order volumes and increase in revenue per order. Revenue per order increased due to higher\ncommission income, increase in platform fee and better ad monetization. Platform fee grew faster than food\ndelivery revenue due to increase in average platform fee per order in FY26 compared to FY25.\n(Note: Food delivery revenue as per the financial statements is different from the food delivery Adjusted\nRevenue that we have presented on prior pages of this report as that also includes the customer delivery\ncharges that we collect on behalf of delivery partners from customers (net of any discounts, including free\ndelivery discounts on account of Zomato Gold program) and platform fee and other charges paid by the\ncustomers on food delivery orders that are not already included in revenue from operations. Adjusted Revenue\nis a metric tracked by the management to analyse the business performance. Refer page 49 for the\nreconciliation between consolidated Adjusted Revenue and revenue from operations.)\nb) Quick commerce revenue grew 626% YoY to INR 37,779 crore in FY26 primarily driven by shift to inventory\nownership in quick commerce from Q1FY26 onwards, where revenue now also includes the full monetary\nvalue of goods sold (and not just the marketplace commission). On a like-for-like basis1, quick commerce\nrevenue grew 144% YoY.\nc) Going-out revenue grew 32% YoY to INR 973 crore in FY26 driven by growth across all categories including\ndining-out, movies and events. FY26 was also the first full financial year post acquisition of entertainment\nticketing business in FY25.\nd) Hyperpure revenue declined 13% YoY to INR 5,366 crore in FY26, driven by scale down of the non-\nrestaurant business following the shift to inventory ownership in quick commerce. The core restaurant\nsupplies business grew 38% YoY in FY26, driven primarily by an increase in the number of restaurant outlets\nserved.\nOther income increased by INR 319 crore to INR 1,396 crore in FY26, primarily driven by higher treasury\nincome. While the closing cash balance declined YoY in FY26 on account of capex and NWC investments in\nthe quick commerce business, the average investable cash balance remained higher than FY25 as the QIP\nproceeds received in November 2024 were available for the full year (versus only part of FY25). Treasury\nyields remained broadly stable YoY.\nNote:\nLike-for-like (\n\u02ddLFL\u02db) ) quick commerce revenue is calculated as quick commerce revenue from operations (-) cost of goods sold in case of own\ninventory sales.\n46\n\n\nCompany Overview  |  Statutory Reports: MD&A  |  Financial Statements\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The consolidated revenue from operations for Eternal Limited in FY26 was INR 54,364 crore.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "revenue_from_operations",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          }
+        ],
+        "quote": "Revenue from operations\n54,364",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "54,364",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "The consolidated revenue from operations for Eternal Limited in FY25 was INR 20,243 crore.",
+        "confidence": 1,
+        "passage_id": 46,
+        "predicate": "revenue_from_operations",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY25"
+          }
+        ],
+        "quote": "Revenue from operations\n54,364\n20,243",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "20,243",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Food delivery revenue from operations for Eternal Limited grew 26% YoY to INR 10,159 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "food_delivery_revenue_from_operations",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "growth_rate",
+            "provenance": "stated",
+            "value": "26%"
+          }
+        ],
+        "quote": "Food delivery revenue from operations grew 26% YoY to INR 10,159 crore in FY26",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "10,159",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Quick commerce revenue for Eternal Limited grew 626% YoY to INR 37,779 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "quick_commerce_revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "growth_rate",
+            "provenance": "stated",
+            "value": "626%"
+          }
+        ],
+        "quote": "Quick commerce revenue grew 626% YoY to INR 37,779 crore in FY26",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "37,779",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Going-out revenue for Eternal Limited grew 32% YoY to INR 973 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "going_out_revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "growth_rate",
+            "provenance": "stated",
+            "value": "32%"
+          }
+        ],
+        "quote": "Going-out revenue grew 32% YoY to INR 973 crore in FY26",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "973",
+          "unit": "INR crore"
+        }
+      },
+      {
+        "claim_text": "Hyperpure revenue for Eternal Limited declined 13% YoY to INR 5,366 crore in FY26.",
+        "confidence": 1,
+        "passage_id": 47,
+        "predicate": "hyperpure_revenue",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "FY26"
+          },
+          {
+            "key": "growth_rate",
+            "provenance": "stated",
+            "value": "-13%"
+          }
+        ],
+        "quote": "Hyperpure revenue declined 13% YoY to INR 5,366 crore in FY26",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "5,366",
+          "unit": "INR crore"
+        }
+      }
+    ]
+  }
+}

@@ -75,3 +75,27 @@ def test_refusing_a_pdf_does_not_leave_it_open(tmp_path):
     assert caught is not None
     broken.unlink()  # PermissionError before the fix
     assert not broken.exists()
+
+
+def test_a_password_protected_pdf_is_refused_like_any_unreadable_one(tmp_path):
+    """Bug 24. An encrypted file opens cleanly and fails later.
+
+    PyMuPDF returns a Document for it, so the guard on `open` never sees it
+    and the failure surfaced deep in the page loop as an unclassified
+    exception - which the endpoint could only answer 502 for, blaming the
+    provider for the caller's file. `needs_pass` is knowable the moment the
+    handle exists, so it is checked there.
+    """
+    import pymupdf
+
+    locked = tmp_path / "locked.pdf"
+    doc = pymupdf.open()
+    doc.new_page().insert_text((72, 72), "confidential")
+    doc.save(str(locked), encryption=pymupdf.PDF_ENCRYPT_AES_256, owner_pw="o", user_pw="u")
+    doc.close()
+
+    with pytest.raises(UnreadablePDF) as caught:
+        parse(locked)
+
+    assert "locked.pdf" in str(caught.value)
+    assert "password" in str(caught.value)

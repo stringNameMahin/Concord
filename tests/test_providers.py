@@ -6,6 +6,10 @@ three things that actually differ, and the one thing that must not - that a
 cached answer is never served for a different model.
 """
 
+import time
+from unittest import mock
+
+import httpx
 import pytest
 
 from concord import config
@@ -164,3 +168,87 @@ def test_an_exhausted_budget_is_survivable_like_any_other_failure():
     """Callers catch `LLMError` and count the failure. The ceiling must land in
     that path, so a run that hits it keeps the responses it already paid for."""
     assert issubclass(BudgetExhausted, LLMError)
+
+
+def test_the_ceiling_holds_when_workers_race_for_it(tmp_path):
+    """Bug 21, which cost four live requests against a ceiling of two.
+
+    The check and the increment used to sit either side of the request, so
+    every worker that read the count before any of them finished passed. Three
+    workers, a limit of two, and a request slow enough that they overlap is the
+    whole reproduction: it counted 4 before the fix and counts 2 after.
+    """
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+
+    client = LLMClient(api_key="k", cache=DiskCache(root=tmp_path), max_calls=2)
+    inflight = threading.Barrier(3, timeout=5)
+
+    def slow(payload):
+        # Hold every worker inside the request until all three are in it,
+        # which is what a real batch of concurrent HTTP calls does for free.
+        try:
+            inflight.wait()
+        except threading.BrokenBarrierError:
+            pass
+        return '{"facts": []}'
+
+    client._post = slow
+
+    def ask(n):
+        try:
+            client.complete(f"passage {n}", ExtractionOut)
+            return None
+        except BudgetExhausted as exc:
+            inflight.abort()
+            return exc
+
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        outcomes = list(pool.map(ask, range(6)))
+
+    assert client.calls == 2
+    assert sum(o is not None for o in outcomes) == 4
+
+
+def test_a_retry_costs_the_budget_what_it_costs_the_quota(tmp_path):
+    """Every attempt is a request over the wire, and only the last was counted.
+
+    A rate-limited batch retried five times registered as one call and spent
+    five, so the meter `test.md` calls the spend meter undercounted by up to
+    the retry limit exactly when a run was in trouble.
+    """
+    client = LLMClient(
+        api_key="k", cache=DiskCache(root=tmp_path), max_calls=10, max_attempts=3
+    )
+    client.max_attempts = 3
+    sends = []
+
+    def flaky(url, json, headers, timeout):
+        sends.append(url)
+        return httpx.Response(503, text="upstream is unwell", request=httpx.Request("POST", url))
+
+    with mock.patch.object(httpx, "post", flaky), mock.patch.object(time, "sleep"):
+        with pytest.raises(LLMError):
+            client.complete("hello", ExtractionOut)
+
+    assert len(sends) == 3
+    assert client.calls == 3
+
+
+def test_a_request_the_provider_rejected_still_counted(tmp_path):
+    """OpenRouter answering 402 is quota that left the machine.
+
+    The increment used to sit after a successful parse, so a request the
+    provider received and refused registered as free. It is not free, and a
+    ceiling that believes it is will keep sending.
+    """
+    client = LLMClient(api_key="k", cache=DiskCache(root=tmp_path), max_calls=5)
+
+    def refused(url, json, headers, timeout):
+        return httpx.Response(402, text="requires more credits", request=httpx.Request("POST", url))
+
+    with mock.patch.object(httpx, "post", refused):
+        with pytest.raises(LLMError):
+            client.complete("hello", ExtractionOut)
+
+    assert client.calls == 1

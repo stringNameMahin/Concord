@@ -1,0 +1,467 @@
+{
+  "key": "4aaca543d63aba480a99ac84f69f0d30e26cf2969a4cd543a4f197be97666118",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"272\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > ii) \t Foreign currency risk\n</context>\n<text>\nForeign currency risk is the risk that the fair value or future cash flows of an exposure will fluctuate\nbecause of changes in foreign exchange rates. The Group\u2019s exposure to foreign currencies is negligible,\nwith the exception of the AED, which has an impact on profit and loss for the year ended March 31, 2026\nof INR 1 crore (March 31, 2025: INR 1 crore) if foreign exchange rate changes by 1%. The Group keeps a\nregular track of all the changes in foreign currency rates to monitor and manage this foreign currency risk.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n267\nCredit risk\nCredit risk refers to the risk of default on its obligation by the counterparty resulting in a financial loss. The\nmaximum exposure to the credit risk at the reporting date is primarily from trade receivables amounting to INR\n1,852 crore (March 31, 2025: INR 1,985 crore). Trade receivables are typically unsecured and are derived from\nrevenue earned from customers primarily located in India and United Arab Emirates. Credit risk has always\nbeen managed by the Group through credit approvals, establishing credit limits and continuously monitoring\nthe creditworthiness of customers to which the Group grants credit terms in the normal course of business.\nThe Group uses expected credit loss (\u201cECL\u201d) model to assess the impairment loss. The Group has established\nan allowance for impairment that represents its ECL in respect of trade receivables and other financial assets.\nThe management uses a simplified approach for the purpose of computation of ECL for trade receivables and\n12 months expected credit loss for other financial assets, in case credit risk has not increased significantly\nsince initial recognition for other financial assets. However, if credit risk has increased significantly, lifetime\nECL is used. The Group uses a provision matrix to compute the ECL for trade receivables. The provision matrix\ntakes into account available external and internal credit risk factors such as the Group\u2019s historical experience\nfor customers and adjusted for forward-looking information.\nOutstanding trade receivables are regularly and closely monitored. Basis historical trend, the Group provides for\nany outstanding trade receivables beyond 180 days (except for certain subsidiaries which based on the specific\nnature of their customer relationships and historical collection patterns, provides for any outstanding trade\nreceivables when these are aged more than 365 days). The trade receivables on the respective reporting dates\nare net off the allowance which is sufficient to cover the entire lifetime credit loss recognized including those\nthat are currently less than 180/365 days outstanding as applicable. The Group further assesses impairment\nof major parties and provide for any outstanding before 180/365 days if they are credit impaired as applicable.\nThe Group has made investments in government securities which carries sovereign rating and debenture or\nbonds which are rated AAA; which do not have a default history.\nThe Group\u2019s treasury maintains its cash and cash equivalents and deposits \u2013 with banks, financial and other\ninstitutions, having a good reputation and past track record which are considered to carry a low credit risk.\nSimilarly, counterparties of the Group\u2019s other receivables carry either negligible or very low credit risk. Further,\nthe Group reviews the creditworthiness of the counter-parties on the basis of its ratings and financial strength\nfor all the above assets on an ongoing basis, and if required, takes necessary mitigation measures.\nThe Group has established an allowance for impairment that represents its expected credit losses in respect\nof investments in debt instruments. The management uses a 12 months expected credit loss approach after\ntaking into account the time value of money and other reasonable information available as a result of past\n</text>\n</passage>\n\n<passage id=\"273\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Credit risk\n</context>\n<text>\nthe Group reviews the creditworthiness of the counter-parties on the basis of its ratings and financial strength\nfor all the above assets on an ongoing basis, and if required, takes necessary mitigation measures.\nThe Group has established an allowance for impairment that represents its expected credit losses in respect\nof investments in debt instruments. The management uses a 12 months expected credit loss approach after\ntaking into account the time value of money and other reasonable information available as a result of past\nevents, current conditions and forecasts of future economic conditions.\nFor trade receivable ageing, refer note 39.\nLiquidity risk\nLiquidity risk is defined as the risk that the Group will not be able to settle or meet its obligations on time. The\nGroup has established an appropriate liquidity risk management framework for the management of the Group\u2019s\nshort, medium and long-term funding and liquidity requirements.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n268\nThe Group\u2019s principal sources of liquidity are cash and cash equivalents and liquid mutual funds. The Group\nmanages liquidity risk by maintaining adequate cash reserves, by continuously monitoring forecast and actual\ncash flows and by matching the maturity profiles of financial assets and liabilities. Accordingly, no liquidity\nrisk is perceived.\n\u0007The table below provides details regarding the contractual maturities of financial liabilities as at March 31,\n2026:\n(INR crores)\nParticulars\nLess than\n1 year\n1-5 years More than\n5 years\nTotal\nTrade payables\n3,010\n-\n-\n3,010\nLease liabilities (undiscounted value) (refer note 30)\n1,217\n3,784\n1,259\n6,260\nOther financial liabilities\n1,105\n-\n-\n1,105\nThe table below provides details regarding the contractual maturities of financial liabilities as at March 31,\n2025:\n(INR crores)\nParticulars\nLess than\n1 year\n1-5 years More than\n5 years\nTotal\nTrade payables\n1,536\n-\n-\n1,536\nLease liabilities (undiscounted value) (refer note 30)\n593\n1,805\n256\n2,654\nOther financial liabilities\n913\n1\n-\n914\nCapital management\nFor the purpose of the Group\u2019s capital management, capital includes issued equity share capital, securities\npremium and all other equity reserves attributable to the equity shareholders of the parent. The primary\nobjective of the Group\u2019s capital management is to maximise the shareholder value. As at March 31, 2026 and\nMarch 31, 2025, the Group has no material debt, therefore, there are no externally imposed capital requirements.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"274\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Capital management\n</context>\n<text>\nCapital management\nFor the purpose of the Group\u2019s capital management, capital includes issued equity share capital, securities\npremium and all other equity reserves attributable to the equity shareholders of the parent. The primary\nobjective of the Group\u2019s capital management is to maximise the shareholder value. As at March 31, 2026 and\nMarch 31, 2025, the Group has no material debt, therefore, there are no externally imposed capital requirements.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n269\n32.\tRelated party disclosures\nA.\t Names and relationship with related parties - under Ind AS 24\nNote 35 provides the information about the Group\u2019s structure including the details of the subsidiaries.\nRelated parties under Ind AS 24\nRelationship\nName\nKey Management Personnel\n(\u201cKMP\u201d)\nDeepinder Goyal (resigned as Managing  Director  and  Chief Executive\nOfficer  w.e.f  February 1, 2026  and appointed as Vice Chairman and Non-\nExecutive Director w.e.f March 13, 2026)\nAlbinder Singh Dhindsa (Chief Executive Officer w.e.f February 1, 2026)\nKaushik Dutta (Chairman and Independent Director)\nNamita Gupta (Independent Director)\nSanjeev Bikhchandani (Nominee Director)\nGunjan Tilak Raj Soni (Independent Director)(resigned w.e.f October 11, 2024)\nAparna Popat Ved (Independent Director)\nSutapa Banerjee (Independent Director)\nAkshant Goyal (Chief Financial Officer)\nSandhya Sethia (Company Secretary)\nEntity controlled/jointly\ncontrolled by KMP and close\nmember of KMP\nAirveda Technologies Private Limited\nACAD Foundation\nB.\t Transactions and balances with related parties:\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nRemuneration to KMP\nSalaries and other employee benefits (1)\n146\n165\nDirectors remuneration and sitting fees (2)\n5\n5\nPayment made on behalf of KMP\n-\n0\n(1)\n\u0007Includes expense for post-employment benefits INR 0 crore (March 31, 2025: INR 0 crore), expense for other long-term benefits INR\n0 crore (March 31, 2025: INR 0 crore), and a charge of INR 145 crore (March 31, 2025 : INR 164 crore) towards share-based payment\nexpense.\n(2)\nAs at March 31, 2026, remuneration and sitting fees payable to Directors is INR 2 crore (March 31, 2025: INR 2 crore).\nExpense charged on the Group by\nAirveda Technologies Private Limited\nAQI monitoring devices subscription & maintenance\n0\n0\nDonation income\nACAD Foundation\n0\n-\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"275\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Remuneration to KMP\n</context>\n<text>\n\u0007Includes expense for post-employment benefits INR 0 crore (March 31, 2025: INR 0 crore), expense for other long-term benefits INR\n0 crore (March 31, 2025: INR 0 crore), and a charge of INR 145 crore (March 31, 2025 : INR 164 crore) towards share-based payment\nexpense.\n(2)\nAs at March 31, 2026, remuneration and sitting fees payable to Directors is INR 2 crore (March 31, 2025: INR 2 crore).\nExpense charged on the Group by\nAirveda Technologies Private Limited\nAQI monitoring devices subscription & maintenance\n0\n0\nDonation income\nACAD Foundation\n0\n-\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n270\n33\tTax expense (Income Tax)\n(a)\tMajor components of tax expense/(benefit):\n1. \t Amount recognized in the consolidated statement of profit and loss\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\n(i)\t Current Tax:\nCurrent tax expense\n319\n231\nAdjustment for current tax of prior period\n-\n-\n(ii) \tDeferred Tax:\n\u0007Tax expense on origination / reversal of temporary\ndifferences\n(70)\n(61)\nIncome tax expense reported in the consolidated statement\nof profit and loss\n249\n170\n2. \t Amount recognized in other comprehensive income\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\n(i) \t \u0007On Equity instruments through other comprehensive\nincome\nCurrent tax\n-\n-\nDeferred Tax\n(30)\n30\nSub-total (A)\n(30)\n30\n(ii) \t \u0007On Debt instruments through other comprehensive income\nCurrent tax\n(3)\n6\nDeferred Tax\n(20)\n17\nSub-total (B)\n(23)\n23\n(iii)\tOn Remeasurements of the defined benefit plans\nCurrent tax\n-\n-\nDeferred tax\n(4)\n(0)\nSub-total (C)\n(4)\n(0)\nIncome tax expense reported in other comprehensive\nincome (A)+(B)+(C)\n(57)\n53\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"276\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > March 31, 2025\n</context>\n<text>\nMarch 31, 2025\n(i) \t \u0007On Equity instruments through other comprehensive\nincome\nCurrent tax\n-\n-\nDeferred Tax\n(30)\n30\nSub-total (A)\n(30)\n30\n(ii) \t \u0007On Debt instruments through other comprehensive income\nCurrent tax\n(3)\n6\nDeferred Tax\n(20)\n17\nSub-total (B)\n(23)\n23\n(iii)\tOn Remeasurements of the defined benefit plans\nCurrent tax\n-\n-\nDeferred tax\n(4)\n(0)\nSub-total (C)\n(4)\n(0)\nIncome tax expense reported in other comprehensive\nincome (A)+(B)+(C)\n(57)\n53\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n271\n3.\t Amount recognized in equity\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\n(i) \t \u0007On surplus in ESOP Trust on exercise of employee stock\noptions\nCurrent tax\n1\n0\nDeferred Tax\n-\n-\nIncome tax expense reported in equity\n1\n0\n(b)\t(i) Components of deferred tax assets (net) recognized in the Balance Sheet:\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAmount recognized in the consolidated statement of profit and loss\nIntangible assets\n(255)\nRight of use assets\n(1,078)\nLease liabilities\n1,156\nBrought forward business losses\n1,294\nUnabsorbed depreciation\n163\nProperty, plant and equipment\n92\nProvision for employee benefits\n46\nOther temporary differences\n127\n1,545\nLess: Deferred tax asset not created due to uncertainty of future recoverability in\ncertain subsidiaries\n(1,538)\nSubtotal (A)\n7\nAmount recognized in other comprehensive income\nDebt instruments through other comprehensive income\n3\nProvision for employee benefits\n4\nSubtotal (B)\n7\nDeferred tax assets (net) (A+B)\n14\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"277\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Amount recognized in the consolidated statement of profit and loss\n</context>\n<text>\n1,294\nUnabsorbed depreciation\n163\nProperty, plant and equipment\n92\nProvision for employee benefits\n46\nOther temporary differences\n127\n1,545\nLess: Deferred tax asset not created due to uncertainty of future recoverability in\ncertain subsidiaries\n(1,538)\nSubtotal (A)\n7\nAmount recognized in other comprehensive income\nDebt instruments through other comprehensive income\n3\nProvision for employee benefits\n4\nSubtotal (B)\n7\nDeferred tax assets (net) (A+B)\n14\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n272\n(b)\t(ii)\tComponents of deferred tax liabilities (net) recognized in the Balance Sheet:\nParticulars\nAs at\nMarch 31, 2026\nAmount recognized in the consolidated statement of profit and loss\nTemporary differences on intangible assets created under business combination\n(102)\nDeferred tax liabilities (net)\n(102)\nParticulars\nAs at\nMarch 31, 2025\nAmount recognized in the consolidated statement of profit and loss\nTemporary differences on intangible assets created under business combination\n(165)\nSubtotal (A)\n(165)\nAmount recognized in other comprehensive income\nDebt instruments through other comprehensive income\n(17)\nEquity instruments through other comprehensive income\n(30)\nSubtotal (B)\n(47)\nDeferred tax liabilities (net) (A+B)\n(212)\n(c)\tReconciliation of accounting profit and tax expense:\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nProfit before income tax\n615\n697\nIndia's statutory income tax rate\n25.168%\n25.168%\nExpected income tax expense\n155\n175\nOther non deductible items\n11\n6\nNon-taxable subsidiaries and effect of differential tax rate\nunder various jurisdiction\n0\n0\nOther temporary differences, business losses and unabsorbed\ndepreciation on which deferred tax not created\n532\n296\nSet off against brought forward tax losses and unabsorbed\ndepreciation\n(443)\n(300)\nOthers\n(6)\n(7)\nIncome tax expense reported in Statement of Profit and\nLoss\n249\n170\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"278\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Profit before income tax\n</context>\n<text>\n25.168%\n25.168%\nExpected income tax expense\n155\n175\nOther non deductible items\n11\n6\nNon-taxable subsidiaries and effect of differential tax rate\nunder various jurisdiction\n0\n0\nOther temporary differences, business losses and unabsorbed\ndepreciation on which deferred tax not created\n532\n296\nSet off against brought forward tax losses and unabsorbed\ndepreciation\n(443)\n(300)\nOthers\n(6)\n(7)\nIncome tax expense reported in Statement of Profit and\nLoss\n249\n170\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n273\n(d)\tDeductible temporary differences for which no deferred tax asset is recognized in the\nBalance Sheet:\nAs at the year ended on March 31, 2026 and March 31, 2025, the Group is having deductible temporary\ndifferences, brought forward business losses and unabsorbed depreciation under the tax laws. However in\nthe absence of reasonable certainty of realization, deferred tax assets have not been created. The unused\ntax losses expire upto 8 years.\n(INR crores)\nParticulars\nExpiry Date\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nTemporary differences arising on account of*:\nBusiness loss\nMarch 31, 2027\n20\n20\nBusiness loss\nMarch 31, 2028\n59\n823\nBusiness loss\nMarch 31, 2029\n62\n707\nBusiness loss\nMarch 31, 2030\n138\n1,168\nBusiness loss\nMarch 31, 2031\n1,325\n1,330\nBusiness loss\nMarch 31, 2032\n733\n734\nBusiness loss\nMarch 31, 2033\n857\n861\nBusiness loss\nMarch 31, 2034\n1,199\n-\nLong term capital loss\nMarch 31, 2029\n2\n4\nLong term capital loss\nMarch 31, 2031\n0\n0\nLong term capital loss\nMarch 31, 2032\n120\n120\nUnabsorbed depreciation\nNo expiry period\n646\n384\nOther temporary differences\nNo expiry period\n1,003\n(243)\nTotal\n6,164\n5,908\n*Excludes amounts in respect of non-operational subsidiaries.\n34\tSegment information :\n\u0007Operating segments are defined as components of an enterprise for which discrete financial information\nis available that is evaluated regularly by the chief operating decision maker (\u201cCODM\u201d), in deciding how\nto allocate resources and assessing performance. Effective February 1, 2026, The Group\u2019s CODM is the\nChief Executive Officer of the Company (earlier Managing Director and Chief Executive Officer) (refer note\n32). The change in CODM did not result in any change in the identification of operating segments or the\nmeasurement of segment information.\nThe segments for the Group are as follows:\n1.\nIndia food ordering and delivery\n2.\t Hyperpure supplies (B2B business)\n3.\nQuick commerce\n4.\nGoing out\n5.\nAll other segments (Residual)\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"279\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Total\n</context>\n<text>\nto allocate resources and assessing performance. Effective February 1, 2026, The Group\u2019s CODM is the\nChief Executive Officer of the Company (earlier Managing Director and Chief Executive Officer) (refer note\n32). The change in CODM did not result in any change in the identification of operating segments or the\nmeasurement of segment information.\nThe segments for the Group are as follows:\n1.\nIndia food ordering and delivery\n2.\t Hyperpure supplies (B2B business)\n3.\nQuick commerce\n4.\nGoing out\n5.\nAll other segments (Residual)\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n274\nIndia food ordering and delivery comprises of online marketplace platform through which the Group facilitates\nlisting and online ordering of food items and delivery of these food items by connecting end users, restaurant\npartners and independent delivery partners.\nHyperpure supplies (B2B business) is our farm-to-fork supplies offering for restaurants in India and sale of\nitems to businesses for onward sales.\nQuick commerce comprises of online platform named Blinkit (\u201cPlatform\u201d) that enables listing and sale of items\ndirectly by the Group or by third-party sellers. End users are able to place orders of these listed items on the\nPlatform which are delivered to their doorsteps within minutes. Quick commerce also includes provision of\nadvertisement, warehousing and ancillary services.\nGoing-out is a combination of our dining-out and entertainment ticketing business. Customers / end users use\nour dining-out offering to search and discover restaurants, reserve tables, avail offers and make payments\nwhile dining-out at restaurants. In our entertainment ticketing business, we offer ticketing services to\ncustomers for movies, sports and events (including our own events) and offer services like event production,\nmanagement etc. to other event partners/ participants.\nThe Group has combined and disclosed balancing number in \u201cAll other segments\u201d which are not reportable.\nRevenue and expenses directly attributable to segments are reported under each reportable segment.\nExpenses which are not directly identifiable to any reporting segment have been allocated to respective\nsegments based on the number of orders, revenue, number of employees or gross/net order value as reviewed\nby CODM.\nSummarised segment information for the year ended March 31, 2026 and March 31, 2025 are\nas follows:\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nRevenue from operations (external customers)\nIndia food ordering and delivery\n10,159\n8,080\nHyperpure supplies (B2B business)\n5,366\n6,196\nQuick Commerce business\n37,779\n5,206\nGoing Out\n973\n737\nAll other segments (residual)\n87\n24\nTotal\n54,364\n20,243\nRevenue from operations (inter-segment)\nIndia food ordering and delivery\n46\n27\nHyperpure supplies (B2B business)\n78\n2\nQuick Commerce business\n13\n10\nGoing Out\n-\n0\nAll other segments (residual)\n49\n59\nTotal\n186\n98\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"280\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Revenue from operations (external customers)\n</context>\n<text>\nRevenue from operations (external customers)\nIndia food ordering and delivery\n10,159\n8,080\nHyperpure supplies (B2B business)\n5,366\n6,196\nQuick Commerce business\n37,779\n5,206\nGoing Out\n973\n737\nAll other segments (residual)\n87\n24\nTotal\n54,364\n20,243\nRevenue from operations (inter-segment)\nIndia food ordering and delivery\n46\n27\nHyperpure supplies (B2B business)\n78\n2\nQuick Commerce business\n13\n10\nGoing Out\n-\n0\nAll other segments (residual)\n49\n59\nTotal\n186\n98\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n275\n(INR crores)\nParticulars\nMarch 31, 2026\nMarch 31, 2025\nSegment Results\nIndia food ordering and delivery\n2,079\n1,541\nHyperpure supplies (B2B business)\n16\n(43)\nQuick Commerce business\n430\n(21)\nGoing Out\n(292)\n(30)\nAll other segments (residual)\n(206)\n(12)\nSegment Results\n2,027\n1,435\nAdd: other income\n1,396\n1,077\nLess: share based payment expense\n819\n798\nLess: finance costs\n392\n154\nLess: depreciation and amortization expense\n1,597\n863\nAdd: exceptional items\n-\n-\nProfit before tax\n615\n697\nInformation about major customers: No single customer represents 10% or more of the Group\u2019s total revenue\nfor the year ended March 31, 2026. For the year ended March 31, 2025, the Group had one customer constituting\nmore than 10% of the total revenue of the Group amounting to INR 2,378 crores.\nFor the year ended March 31, 2026, the Group earned revenue(from external customers) of INR 65 crores (March\n31, 2025: INR 51 crore) from geographies located outside India. The carrying amount of non-current assets\n(excluding financial instruments) from geographies located outside India as at March 31, 2026 is INR 4 crores\n(March 31, 2025: INR 4 crore).\nDuring the quarter ended June 30, 2025, the Group started transitioning from its marketplace model to a\ncombination of marketplace and inventory-led model in its quick commerce segment. Owing to this change,\nthe revenue under quick commerce segment now includes amount on account of direct sales to customers\non the Blinkit platform and not just the marketplace commission on such sales and a reduction in sales of\nHyperpure supplies (B2B business).\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"281\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Profit before tax\n</context>\n<text>\n(March 31, 2025: INR 4 crore).\nDuring the quarter ended June 30, 2025, the Group started transitioning from its marketplace model to a\ncombination of marketplace and inventory-led model in its quick commerce segment. Owing to this change,\nthe revenue under quick commerce segment now includes amount on account of direct sales to customers\non the Blinkit platform and not just the marketplace commission on such sales and a reduction in sales of\nHyperpure supplies (B2B business).\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n276\n35\tInterest in other entities\nThe consolidated financial information of the Group consists of parent company Eternal Limited (including\nFoodie Bay Employees ESOP Trust and foreign branches), its subsidiaries and step down subsidiaries as below:\nS. No. Name of the Company\nPrincipal activities\nCountry of\nincorporation\n% Equity interest\nMarch 31, 2026\nMarch 31, 2025\nSubsidiary\n1\nZomato Media (Private)\nLimited *\nOperating internet\nportal\nSri Lanka\n-\n100%\n2\nZomato Middle East Fz\n- LLC\nOperating internet\nportal\nDubai\n100%\n100%\n3\nZomato Ireland Limited\nOperating internet\nportal\nIreland\n100%\n100%\n4\nZomato Hyperpure\nPrivate Limited\nTrading of goods and\nWarehousing services\nIndia\n100%\n100%\n5\nCarthero Technologies\nPvt. Ltd\nDelivery services\nIndia\n100%\n100%\n6\nTongueStun Food\nNetwork Private Limited\nOperating internet\nportal\nIndia\n100%\n100%\n7\nZomato Entertainment\nPrivate Limited\nEvent organising\nservices\nIndia\n100%\n100%\n8\nZomato Local Services\nPrivate Limited\nLogistics services\nIndia\n100%\n100%\n9\nZomato Foods Private\nLimited\nTrading business\nIndia\n100%\n100%\n10\nZomato Payments\nPrivate Limited\nPayment aggregator\nservices and payment\ngateway services\nIndia\n100%\n100%\n11\nEternal Technology\nSolutions Limited\n(Formerly known as\nZomato Financial\nServices Limited)\nTechnology solutions\nIndia\n100%\n100%\n12\nBlink Commerce Private\nLimited\nQuick commerce\nIndia\n100%\n100%\n13\nOrbgen Technologies\nPrivate Limited (w.e.f\nAugust 27, 2024)\nEvent ticketing\nservices\nIndia\n100%\n100%\n14\nWasteland\nEntertainment Private\nLimited (w.e.f August 27,\n2024)\nEvent organising and\nticketing services\nIndia\n100%\n100%\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"282\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Subsidiary\n</context>\n<text>\ngateway services\nIndia\n100%\n100%\n11\nEternal Technology\nSolutions Limited\n(Formerly known as\nZomato Financial\nServices Limited)\nTechnology solutions\nIndia\n100%\n100%\n12\nBlink Commerce Private\nLimited\nQuick commerce\nIndia\n100%\n100%\n13\nOrbgen Technologies\nPrivate Limited (w.e.f\nAugust 27, 2024)\nEvent ticketing\nservices\nIndia\n100%\n100%\n14\nWasteland\nEntertainment Private\nLimited (w.e.f August 27,\n2024)\nEvent organising and\nticketing services\nIndia\n100%\n100%\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n277\nS. No. Name of the Company\nPrincipal activities\nCountry of\nincorporation\n% Equity interest\nMarch 31, 2026\nMarch 31, 2025\n15\nBlinkit Foods Limited\n(w.e.f August 18, 2025)\nQuick food service\nIndia\n100%\n-\n16\nEternal General Service\nFoundation (w.e.f\nDecember 18, 2025)\nCharitable and social\nwelfare activities\nIndia\n100%\n-\nStep Down Subsidiary\n1\nZomato Malaysia SDN.\nBHD. (closed w.e.f\nAugust 8, 2025)\nOperating internet\nportal\nMalaysia\n-\n100%\n2\nGastronauci Sp.Z.O.O.\nOperating internet\nportal\nPoland\n100%\n100%\n3\nZomato Netherlands\nB.V.(closed w.e.f\nJanuary 27, 2026)\nOperating internet\nportal\nNetherlands\n-\n100%\n4\nZomato Inc.\nOperating internet\nportal\nUSA\n100%\n100%\n5\nZomato Philippines Inc.\nOperating internet\nportal\nPhilippines\n100%\n100%\n6\nZomato Internet\nHizmetleri Ticaret\nAnonim Sirketi (closed\nw.e.f December 9, 2025)\nOperating internet\nportal\nTurkey\n-\n100%\n7\nDelivery21 Inc.\nOperating internet\nportal\nPhilippines\n52.20%\n52.20%\n*The strike off of Zomato Media (Private) Limited was published in the Government Gazette dated November 21, 2025. Further, the name\nof Zomato Media (Private) Limited was struck off from the register of companies on April 2, 2026.\n36\tCapital and other commitments :\n(a)\t \u0007The Group has commitments for purchase/sale orders which are issued after considering requirements\nper operating cycle for purchase/sale of goods and services, employee benefits. The Group does not have\nany long term commitment or material non-cancellable contractual commitments/contracts which might\nhave a material impact on the financial statements.\n(b)\t \u0007The Group has estimated amount of contract remaining to be executed on capital account not provided\nfor, net of advances as at March 31, 2026 is INR 649 crores (March 31, 2025: INR 384 crores).\n(c)\t \u0007The Group has made long term strategic investments in certain subsidiary companies, which are in their\ninitial/developing stage of operation and would generate growth and returns over a period of time. These\nsubsidiaries have incurred significant expenses for building the brand and market share which have added\nto the losses of these entities. The parent has committed to provide support to each of its subsidiaries in\nthe event they are unable to meet their individual liabilities.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"283\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Step Down Subsidiary\n</context>\n<text>\n(c)\t \u0007The Group has made long term strategic investments in certain subsidiary companies, which are in their\ninitial/developing stage of operation and would generate growth and returns over a period of time. These\nsubsidiaries have incurred significant expenses for building the brand and market share which have added\nto the losses of these entities. The parent has committed to provide support to each of its subsidiaries in\nthe event they are unable to meet their individual liabilities.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n278\n37\t Contingent Liabilities:\nClaims against the Group not acknowledged as debts:\n(a)\t \u0007The Company is in receipt of the following Show Cause Notices (\u201cSCNs\u201d) and Demand Orders (\u201cOrders\u201d)\nfrom various GST authorities :\na.\nOrders for October 2019 to March 2022 for all the States for INR 420 crores\nb.\t Order for April 2022 to March 2023 for Andhra Pradesh for INR 8 crores\nc.\nSCN for April 2022 to March 2023 for Gujarat for INR 13 crores\nd.\t SCN for April 2023 to March 2024 for Andhra Pradesh for INR 6 Crores,\n\u0007There are no SCNs or Orders on this matter other than those mentioned here.The SCNs and Orders\nrequire the Company to pay GST on the delivery charges collected by the Company from the end users on\nbehalf of the delivery partners, along with additional interest and penalties as per GST provisions. The\nCompany is contesting the Orders/ SCNs at applicable forums. The Company, supported by the external\nindependent expert\u2019s advice, is of the view that it has a strong case on merits. W.e.f. September 22, 2025,\nthe government has included local delivery services provided through Electronic Commerce Operators\n(\u201cECOs\u201d) by unregistered service providers u/s 9(5) of CGST Act, 2017. Pursuant to change in law, the\nCompany is paying GST on delivery charges collected from the customers on behalf of unregistered\ndelivery partners.\n(b)\t \u0007The Group has certain pending litigations pertaining to consumer cases and other legal cases amounting\nto INR 20 crore (March 31, 2025: INR 14 crore).\n(c)\t \u0007During the year ended March 31, 2022, the Company was served with a copy of a writ petition filed by the\nIndian Federation of APP-Based Transport Workers (IFAT) and two others, which is in the nature of a public\ninterest litigation before the Hon\u2019 ble Supreme Court of India. The writ petition has been filed against 5\nministries of the Union of India (i.e. Ministry of Labour and Employment, Ministry of commerce and Industry,\nMinistry of Consumer Affairs, food and public distribution, Ministry of Road Transport and Highways,\nMinistry of Electronic and Information Technology) and aggregators such as ANI Technologies Pvt Ltd\n(Ola), Uber India Systems Pvt. Ltd. (Uber) and Swiggy Limited (formerly known as Bundl Technologies Pvt.\nLtd). and Eternal Limited (formerly known as Zomato Limited) have been made a party to the writ petition.\nThe petitioners have sought several alternative reliefs, including a declaration to recognize app based/\ngig workers as \u2018workers\u2019 under various labour/social legislations; directions to the Government of India\nfor promulgating schemes extending social security benefits to gig/ app based workers which schemes\nare yet to be formulated. At this stage, there is no specific obligation that can be ascribed to the Company\npending the Hon\u2019ble Court\u2019s final decision in the Writ Petition.\n(d)\t \u0007During the year ended March 31, 2022, the Company received an order under Section 26(1) of the Competition\nAct, 2002, under which the Hon\u2019ble Competition Commission of India (CCI) initiated an investigation into\ncertain aspects of the Company\u2019s business. The Company continues to work closely with the Hon\u2019ble CCI\nto assist them with their inquiry and explain to the Hon\u2019ble CCI why all its practices are in compliance with\ncompetition laws and do not have any adverse effect on competition in India.\n</text>\n</passage>\n\n<passage id=\"284\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements\n</context>\n<text>\n(d)\t \u0007During the year ended March 31, 2022, the Company received an order under Section 26(1) of the Competition\nAct, 2002, under which the Hon\u2019ble Competition Commission of India (CCI) initiated an investigation into\ncertain aspects of the Company\u2019s business. The Company continues to work closely with the Hon\u2019ble CCI\nto assist them with their inquiry and explain to the Hon\u2019ble CCI why all its practices are in compliance with\ncompetition laws and do not have any adverse effect on competition in India.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n279\n38\tTrade payable ageing :\nOutstanding for following periods from the date of transaction / due date of payment\n(INR crores)\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nMicro\nenterprises\nand small\nenterprises\nOthers\nDisputed\ndues-\nothers\nMicro\nenterprises\nand small\nenterprises\nOthers\nDisputed\ndues-others\nNot yet due*\n194\n2,679\n1\n20\n1281\n1\nLess than 1 year\n37\n80\n-\n55\n170\n-\n1-2 years\n1\n12\n-\n0\n5\n-\n2-3 years\n0\n1\n-\n0\n3\n0\nMore than 3 years\n-\n4\n1\n0\n1\n0\nTotal\n232\n2,776\n2\n75\n1,460\n1\n*includes unbilled dues\n39\tTrade receivable ageing :\nOutstanding for following periods from due date of payment\n(INR crores)\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nUndisputed\n- Trade\nreceivables-\nconsidered\ngood*\nUndisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nDisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nUndisputed\n- Trade\nreceivables-\nconsidered\ngood*\nUndisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nDisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nNot yet due\n1,342\n-\n-\n1,507\n-\n-\nLess than 6 months\n416\n7\n-\n431\n-\n-\n6 months to 1 year\n6\n37\n-\n8\n19\n0\n1-2 years\n0\n34\n0\n0\n20\n0\n2-3 years\n-\n10\n-\n-\n-\n-\nMore than 3 years\n-\n-\n-\n-\n-\n-\nTotal\n1,764\n88\n0\n1,946\n39\n0\n* The amount of not yet due includes unbilled receivables of INR 497 crore (March 31, 2025: INR 159 crore).\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"285\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Undisputed\n</context>\n<text>\nUndisputed\n- Trade\nreceivables-\nconsidered\ngood*\nUndisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nDisputed\nTrade\nReceivables\n\u2013 credit\nimpaired\nNot yet due\n1,342\n-\n-\n1,507\n-\n-\nLess than 6 months\n416\n7\n-\n431\n-\n-\n6 months to 1 year\n6\n37\n-\n8\n19\n0\n1-2 years\n0\n34\n0\n0\n20\n0\n2-3 years\n-\n10\n-\n-\n-\n-\nMore than 3 years\n-\n-\n-\n-\n-\n-\nTotal\n1,764\n88\n0\n1,946\n39\n0\n* The amount of not yet due includes unbilled receivables of INR 497 crore (March 31, 2025: INR 159 crore).\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n280\n40\tCapital work-in-progress ageing :\nProjects in progress\nAmount in capital work-in-progress for a period of\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nLess than 1 year\n136\n51\n1-2 years\n-\n-\n2-3 years\n-\n-\nMore than 3 years\n-\n-\nTotal\n136\n51\nThere is no project whose completion is overdue or has exceeded its cost compared to its original plan during\nthe year.\n41\t (a)\t During the previous year ended March 31, 2025, the Company had allotted 33,64,73,755 Equity Shares\nof face value INR 1 each to eligible Qualified Institutional Buyers (QIB) at an issue price of INR 252.62 per\nEquity Share (including a premium of INR 251.62 per Equity Share) aggregating to INR 8,500 crore, pursuant\nto Qualified Institutional Placement (QIP) in accordance with the provisions of Securities and Exchange Board\nof India (Issue of Capital and Disclosure Requirements) Regulations (the \u201cSEBI ICDR Regulations\u201d).\nFollowing are the details of utilisation of proceeds of INR 8,436 crores post meeting issue expenses of INR 64\ncrore (inclusive of Goods & Services Tax (GST) as applicable)\n(INR crores)\nAgreed Purpose\nAmount to be\nutilised as per\nprospectus\nUtilisation up to\nMarch 31, 2026\nUnutilised as on\nMarch 31, 2026*\nExpenditure towards setting up and running\noperations of Dark Stores and warehouses\n2,137\n2,137\n-\nAdvertising, marketing and branding initiatives\nacross our business offerings\n2,492\n1,433\n1,059\nInvestment in our technology infrastructure\nand capabilities, including cloud infrastructure\nand software and towards development of our\ntechnological capabilities\n1,769\n697\n1,072\nGeneral corporate purposes\n2,038\n1,332\n706\nTotal\n8,436\n5,599\n2,837\n*unutilized proceeds as on March 31, 2026 have been invested in bank and NBFC deposits, government securities and Mutual fund units.\n(b) \t During the previous year ended March 31, 2025, the Company had allotted 47,75,34,845 equity shares\n(including 3,99,52,836 bonus share) having a face value of INR 1/- each to \u2018Foodie Bay Employees ESOP Trust\u2019\n(\u201c ESOP Trust\u201d), for further issuance under various Employee Stock Option Plans.\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"286\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > Total\n</context>\n<text>\nTotal\n8,436\n5,599\n2,837\n*unutilized proceeds as on March 31, 2026 have been invested in bank and NBFC deposits, government securities and Mutual fund units.\n(b) \t During the previous year ended March 31, 2025, the Company had allotted 47,75,34,845 equity shares\n(including 3,99,52,836 bonus share) having a face value of INR 1/- each to \u2018Foodie Bay Employees ESOP Trust\u2019\n(\u201c ESOP Trust\u201d), for further issuance under various Employee Stock Option Plans.\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n42\tRelationship with struck off companies under section 248 of the Companies Act, 2013:\n(INR crores)\nSr.\nNo.\nName of the struck off Company\nNature of transactions\nwith struck off Company\nRelationship with the\nstruck off Company\nBalance outstanding\nas at March 31, 2026\nBalance outstanding\nas at March 31, 2025\n1\nAdhya Hospitality Services Private Limited\nAdvance from merchant Merchant\n0\n-\n2\nCrudex Lng Petroleum Private Limited\nAdvance from merchant Merchant\n0\n0\n3\nFlavoursking Hospitality Private Limited\nAdvance from merchant Merchant\n-\n-\n4\nFoodizen India Private Limited\nAdvance from merchant Merchant\n0\n0\n5\nGolmooorrich Food Services Private Limited\nAdvance from merchant Merchant\n-\n-\n6\nGovindkripa Reflectservices Private Limited\nAdvance from merchant Merchant\n-\n-\n7\nInsp Hospitality Private Limited\nAdvance from merchant Merchant\n-\n-\n8\nKerman'S Hospitality Service Private Limited\nAdvance from merchant Merchant\n-\n0\n9\nMy Muscle Meal Private Limited\nAdvance from merchant Merchant\n-\n0\n10\nNavgrah Hospitality Private Limited\nAdvance from merchant Merchant\n-\n-\n11\nNozama Hospitality (Opc) Private Limited\nAdvance from merchant Merchant\n-\n-\n12\nSwayam Comicbuk Private Limited\nAdvance from merchant Merchant\n-\n0\n13\nGopika Agro Product\nAdvance to vendor\nVendor\n-\n0\n14\nKripalu Enterprises Opc Private Limited\nAdvance to vendor\nVendor\n-\n0\n15\nNekkanti Consumer Foods Private Limited\nAdvance to vendor\nVendor\n-\n0\n16\nRight Place Manpower Solutions Private\nLimited\nAdvance to vendor\nVendor\n-\n0\n17\nUtilidad Solutions Private Limited\nAdvance to vendor\nVendor\n-\n0\n18\nWehr Jk Manpower Services Private Limited\nAdvance to vendor\nVendor\n-\n0\n19\nUsha Netcoms Private Limited\nOther financial asset\nVendor\n0\n0\n20\n99 Healthlounge Private Limited\nPayable to merchant\nMerchant\n-\n-\n21\nAalbaik India Private Limited\nPayable to merchant\nMerchant\n-\n0\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n281\n\n\nNotes to the Consolidated Financial Statements\n</text>\n</passage>\n\n<passage id=\"287\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Consolidated Financial Statements > as at March 31, 2025\n</context>\n<text>\nRight Place Manpower Solutions Private\nLimited\nAdvance to vendor\nVendor\n-\n0\n17\nUtilidad Solutions Private Limited\nAdvance to vendor\nVendor\n-\n0\n18\nWehr Jk Manpower Services Private Limited\nAdvance to vendor\nVendor\n-\n0\n19\nUsha Netcoms Private Limited\nOther financial asset\nVendor\n0\n0\n20\n99 Healthlounge Private Limited\nPayable to merchant\nMerchant\n-\n-\n21\nAalbaik India Private Limited\nPayable to merchant\nMerchant\n-\n0\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n281\n\n\nNotes to the Consolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nSr.\nNo.\nName of the struck off Company\nNature of transactions\nwith struck off Company\nRelationship with the\nstruck off Company\nBalance outstanding\nas at March 31, 2026\nBalance outstanding\nas at March 31, 2025\n22\nAbhinil Hospitality Private Limited\nPayable to merchant\nMerchant\n-\n-\n23\nAdhya Hospitality Services Private Limited\nPayable to merchant\nMerchant\n-\n-\n24\nAlhabibi Food Private Limited\nPayable to merchant\nMerchant\n0\n0\n25\nAnanya Hotels Private Limited\nPayable to merchant\nMerchant\n0\n-\n26\nArhaam Fine Dine Private Limited\nPayable to merchant\nMerchant\n-\n0\n27\nBlue Whale Ventures Private Limited\nPayable to merchant\nMerchant\n-\n-\n28\nBonjour Bonheur Holidays Private Limited\nPayable to merchant\nMerchant\n-\n-\n29\nBoston Corporation Private Limited\nPayable to merchant\nMerchant\n0\n0\n30\nCocoteros Hospitality Private Limited\nPayable to merchant\nMerchant\n-\n-\n31\nConvenant Ark Ventures Private Limited\nPayable to merchant\nMerchant\n-\n-\n32\nCrudex Lng Petroleum Private Limited\nPayable to merchant\nMerchant\n-\n-\n33\nDalchini (Opc) Private Limited\nPayable to merchant\nMerchant\n-\n-\n34\nDosursu Food Products Private Limited\nPayable to merchant\nMerchant\n0\n0\n35\nGreenox Food And Beverages Private Limited\nPayable to merchant\nMerchant\n-\n-\n36\nIchiban Tabemono Food And Beverages India\nPrivate Limited\nPayable to merchant\nMerchant\n0\n-\n37\nIn Green Hotels Private Limited\nPayable to merchant\nMerchant\n0\n-\n38\nKanir Consturctions Private Limited\nPayable to merchant\nMerchant\n-\n-\n39\nKeepmefit Wellness Private Limited\nPayable to merchant\nMerchant\n0\n0\n40\nKhanabadosh India Private Limited\nPayable to merchant\nMerchant\n-\n-\n41\nKin Dwell Hospitality Private Limited\nPayable to merchant\nMerchant\n0\n0\n42\nKrisa Hospitality Private Limited\nPayable to merchant\nMerchant\n-\n-\n43\nKroods Technologies Private Limited\nPayable to merchant\nMerchant\n0\n0\n44\nKrvs Business Solutions Private Limited\nPayable to merchant\nMerchant\n0\n-\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n282\n\n\n(INR crores)\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The Group's profit and loss for the year ended March 31, 2026 would be impacted by INR 1 crore if the AED foreign exchange rate changes by 1%.",
+        "confidence": 1,
+        "passage_id": 272,
+        "predicate": "profit_and_loss_impact_from_aed_exchange_rate_fluctuation",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          },
+          {
+            "key": "rate_change_basis",
+            "provenance": "stated",
+            "value": "1%"
+          }
+        ],
+        "quote": "the AED, which has an impact on profit and loss for the year ended March 31, 2026 of INR 1 crore (March 31, 2025: INR 1 crore) if foreign exchange rate changes by 1%.",
+        "subject_surface": "The Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "1",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The maximum exposure to credit risk from trade receivables as at March 31, 2026 is INR 1,852 crore.",
+        "confidence": 1,
+        "passage_id": 272,
+        "predicate": "maximum_credit_risk_exposure_from_trade_receivables",
+        "qualifiers": [
+          {
+            "key": "reporting_date",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "The maximum exposure to the credit risk at the reporting date is primarily from trade receivables amounting to INR 1,852 crore (March 31, 2025: INR 1,985 crore).",
+        "subject_surface": "The Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,852",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The contractual maturity of trade payables for less than 1 year as at March 31, 2026 is INR 3,010 crore.",
+        "confidence": 1,
+        "passage_id": 273,
+        "predicate": "contractual_maturity_trade_payables",
+        "qualifiers": [
+          {
+            "key": "maturity_period",
+            "provenance": "stated",
+            "value": "Less than 1 year"
+          },
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Trade payables 3,010",
+        "subject_surface": "The Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "3,010",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The remuneration to KMP for salaries and other employee benefits for the year ended March 31, 2026 is INR 146 crore.",
+        "confidence": 1,
+        "passage_id": 274,
+        "predicate": "remuneration_salaries_and_other_employee_benefits",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Remuneration to KMP Salaries and other employee benefits (1) 146",
+        "subject_surface": "Key Management Personnel",
+        "value": {
+          "kind": "quantity",
+          "raw": "146",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The remuneration and sitting fees payable to Directors as at March 31, 2026 is INR 2 crore.",
+        "confidence": 1,
+        "passage_id": 274,
+        "predicate": "remuneration_and_sitting_fees_payable",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "As at March 31, 2026, remuneration and sitting fees payable to Directors is INR 2 crore",
+        "subject_surface": "Directors",
+        "value": {
+          "kind": "quantity",
+          "raw": "2",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The current tax expense for the year ended March 31, 2026 is INR 319 crore.",
+        "confidence": 1,
+        "passage_id": 275,
+        "predicate": "current_tax_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Current tax expense 319",
+        "subject_surface": "The Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "319",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The profit before income tax for the year ended March 31, 2026 is INR 615 crore.",
+        "confidence": 1,
+        "passage_id": 277,
+        "predicate": "profit_before_income_tax",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Profit before income tax 615",
+        "subject_surface": "The Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "615",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The revenue from operations (external customers) for India food ordering and delivery for the year ended March 31, 2026 is INR 10,159 crore.",
+        "confidence": 1,
+        "passage_id": 279,
+        "predicate": "revenue_from_operations_external_customers",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "India food ordering and delivery 10,159",
+        "subject_surface": "India food ordering and delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "10,159",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The segment result for India food ordering and delivery for the year ended March 31, 2026 is INR 2,079 crore.",
+        "confidence": 1,
+        "passage_id": 280,
+        "predicate": "segment_result",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "India food ordering and delivery 2,079",
+        "subject_surface": "India food ordering and delivery",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,079",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The estimated amount of contract remaining to be executed on capital account not provided for, net of advances as at March 31, 2026 is INR 649 crore.",
+        "confidence": 1,
+        "passage_id": 282,
+        "predicate": "capital_commitments",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "The Group has estimated amount of contract remaining to be executed on capital account not provided for, net of advances as at March 31, 2026 is INR 649 crores",
+        "subject_surface": "The Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "649",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The pending litigations pertaining to consumer cases and other legal cases as at March 31, 2026 is INR 20 crore.",
+        "confidence": 1,
+        "passage_id": 283,
+        "predicate": "pending_litigations_amount",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "The Group has certain pending litigations pertaining to consumer cases and other legal cases amounting to INR 20 crore",
+        "subject_surface": "The Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "20",
+          "scale": "crore",
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "The total capital work-in-progress as at March 31, 2026 is INR 136 crore.",
+        "confidence": 1,
+        "passage_id": 285,
+        "predicate": "total_capital_work_in_progress",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total 136",
+        "subject_surface": "The Group",
+        "value": {
+          "kind": "quantity",
+          "raw": "136",
+          "scale": "crores",
+          "unit": "INR"
+        }
+      }
+    ]
+  }
+}

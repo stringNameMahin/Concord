@@ -1,0 +1,604 @@
+{
+  "key": "527453f07dce671188bca8d6516aa37635313cd3dfcb556e6212f1b42996a305",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"352\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Investments in Preference Shares\n</context>\n<text>\nNil (March 31, 2025 : 21,832)  Series B CCPS 0.0001%\ncompulsorily convertible preference shares with face\nvalue of INR 333 each in Shiprocket Limited@\n-\n74\nAdd: fair value through other comprehensive income\n-\n-\n47\n571\n55,514 (March 31, 2025 : 55,514) Series D CCPS 0.001 %\ncompulsorily convertible preference shares with a face\nvalue of INR 10 each in Samast Technologies Private\nLimited\n371\n371\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n345\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nAdd: fair value through other comprehensive income\n(196)\n175\n8\n379\n11,214 (March 31, 2025 : 11,214) Series B CCPS 0.001%\ncompulsorily convertible preference shares with a face\nvalue of INR 10 each in Adonmo Private Limited\n112\n112\nAdd: fair value through other comprehensive income\n95\n207\n57\n169\n\u00071,259 (March 31, 2025 : 1,259) Series B CCPS 0.001%\ncompulsorily convertible preference shares with a face\nvalue of INR 10 each in Urbanpiper Technology Private\nLimited\n37\n37\nAdd: fair value through other comprehensive income\n(37)\n-\n(15)\n22\n\u000713,289 (March 31, 2025 : 13,289) Series B1 CCPS 0.01%\ncompulsorily convertible preference shares with a face\nvalue of INR 10 each in Mukunda Foods Private Limited\n38\n38\nAdd: fair value through other comprehensive income\n(38)\n-\n(12)\n26\n\u0007Aggregate amount of Investments in unquoted equity\ninstruments designated at FVTOCI (B)\n1,785\n2,300\n(ii)\t \u0007Investments in unquoted debt instruments measured\nat FVTOCI\nDebentures or bonds\n5,262\n5,338\nAdd: fair value through other comprehensive income\n(30)\n5,232\n32\n5,370\nGovernment securities\n2,683\n3,178\nAdd: fair value through other comprehensive income\n42\n2,725\n72\n3,250\n\u0007Aggregate amount of Investments in unquoted debt\ninstruments measured at FVTOCI (C)\n7,957\n8,620\nTotal Investments (non-current) (A+B+C)\n24,653\n24,431\nAggregate amount of unquoted investments (A+B+C)\n24,653\n24,431\nAggregate amount of impairment on investments (refer\nnote 24 for movement)\n823\n911\n* includes cost of stock options allocated to subsidiary companies for stock options given to employees of subsidiary companies.\n^The strike off of Zomato Media (Private) Limited (Sri Lanka) was published in the Government Gazette dated November 21, 2025. Further,\nthe name of Zomato Media (Private) Limited (Sri Lanka) was struck off from the register of companies on April 2, 2026.\n@During the year ended March 31, 2026, Shiprocket Limited (formerly Shiprocket Private Limited) issued bonus shares in 1:265 ratio to its\nexisting equity shareholders. Consequently, the conversion ratio of CCPS was revised from 1:1 to 1:266, following which all outstanding\nCCPS were converted into equity shares.\n# Consequent to the execution of business transfer agreement between the Company and CTPL during the year ended March 31, 2020,\nthe carrying amount of investment in CTPL has been reduced to \u201cNil\u201d.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n346\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"353\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Aggregate amount of unquoted investments (A+B+C)\n</context>\n<text>\n@During the year ended March 31, 2026, Shiprocket Limited (formerly Shiprocket Private Limited) issued bonus shares in 1:265 ratio to its\nexisting equity shareholders. Consequently, the conversion ratio of CCPS was revised from 1:1 to 1:266, following which all outstanding\nCCPS were converted into equity shares.\n# Consequent to the execution of business transfer agreement between the Company and CTPL during the year ended March 31, 2020,\nthe carrying amount of investment in CTPL has been reduced to \u201cNil\u201d.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n346\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n6\t Investments (current)\n(INR crores)\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\ni)\t \u0007Investments measured at fair value through profit or\nloss (FVTPL) (quoted)\nMutual funds units\n1,223\n1,080\n\u0007Aggregate amount of Investments measured at FVTPL\n(quoted) (A)\n1,223\n1,080\nii)\t \u0007Investments in unquoted debt instruments measured at\nFVTOCI\nDebentures or bonds\n1,875\n361\n\u0007Add / (less) : fair value through other comprehensive\nincome\n0\n1,875\n1\n362\nGovernment securities\n234\n-\n\u0007Add / (less) : fair value through other comprehensive\nincome\n3\n237\n-\n-\nAggregate amount of Investments in unquoted debt\ninstruments measured at FVTOCI (B)\n2,112\n362\nTotal Investments (current) (A+B)\n3,335\n1,442\nAggregate amount of quoted investments\n1,223\n1,080\nAggregate market value of quoted investments\n1,223\n1,080\nAggregate amount of unquoted investments\n2,112\n362\n7\t Trade receivables\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nTrade receivables - considered good - unsecured *\n142\n112\nTrade receivables - credit impaired\n31\n13\n173\n125\nImpairment allowance (allowance for bad and doubtful debts)\nTrade receivables - credit impaired\n(31)\n(13)\nTotal trade receivables\n142\n112\nThe allowance for doubtful debts and changes in the allowance for\ndoubtful accounts during the year ended as of that date was as follows:\nOpening balance\n13\n8\nAdd: addition / (reversal) of impairment allowance of trade receivables-\ncredit impaired\n22\n6\nLess: write offs/adjustments\n(4)\n(1)\nClosing balance\n31\n13\nTrade receivables are non-interest bearing and are generally on terms of 0 to 90 days. Refer note 39 for trade\nreceivable ageing.\nNo trade or other receivable are due from directors or other officers of the Company either severally or jointly\nwith any other person. Except as disclosed in note 30 , no trade or other receivable are due from firms or private\ncompanies respectively in which any director is a partner, a director or a member.\n* includes amount of INR 1 crore ( March 31, 2025 : INR 2 crore) receivable from related party (refer note 30)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n347\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"354\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Closing balance\n</context>\n<text>\nNo trade or other receivable are due from directors or other officers of the Company either severally or jointly\nwith any other person. Except as disclosed in note 30 , no trade or other receivable are due from firms or private\ncompanies respectively in which any director is a partner, a director or a member.\n* includes amount of INR 1 crore ( March 31, 2025 : INR 2 crore) receivable from related party (refer note 30)\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n347\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n8\t Cash and cash equivalents\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nBalances with banks:\nIn current accounts\n351\n361\nBank deposits*\n355\n70\nCash on hand\n0\n-\nTotal cash and cash equivalents\n706\n431\n*represent deposits with original maturity of three months or less\n9\t Bank balances other than cash and cash equivalents\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nBank deposits\n444\n1,365\nMargin money deposits\n4\n3\nTotal bank balances other than cash and cash equivalents^\n448\n1,368\n^represent deposits with original maturity of more than three months but less than 12 months\n10\t Loans\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nNon-current\nConsidered good- unsecured\nLoan to related parties  (refer note 30)\n1,229\n880\nTotal non-current loans\n1,229\n880\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n348\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"355\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > March 31, 2025\n</context>\n<text>\nMargin money deposits\n4\n3\nTotal bank balances other than cash and cash equivalents^\n448\n1,368\n^represent deposits with original maturity of more than three months but less than 12 months\n10\t Loans\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nNon-current\nConsidered good- unsecured\nLoan to related parties  (refer note 30)\n1,229\n880\nTotal non-current loans\n1,229\n880\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n348\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n11\t Other financial assets\n(INR crores)\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nNon-current\nUnsecured, considered good, unless stated otherwise\nBank and NBFC deposits#\n1,260\n2,528\nMargin money deposits#\n6\n-\nInterest accrued on bank deposits and others\n54\n75\nSecurity deposits\n56\n33\nTotal non-current other financial assets\n1,376\n2,636\nCurrent\nUnsecured, considered good, unless stated otherwise\nBank and NBFC deposits#\n1,747\n1,691\nMargin money deposits#\n-\n1\nInterest accrued on bank deposits and others*\n534\n354\nSecurity deposit\n17\n10\nReceivable from related parties (refer note 30)\n2,828\n449\nAmount recoverable from payment gateways\n129\n181\nOthers**\n181\n127\nLess: impairment allowance\n(76)\n105\n(60)\n67\nTotal current other financial assets\n5,360\n2,753\n#represent deposits with original maturity of more than 12 months\n* includes interest receivable on intercompany loans amounting to INR 38 crore ( March 31, 2025: INR 20 crore) (refer note 30)\n** includes receivable from merchants against user incentives paid on their behalf, delivery partners for cash on delivery collections, etc.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n349\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"356\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Total current other financial assets\n</context>\n<text>\nTotal current other financial assets\n5,360\n2,753\n#represent deposits with original maturity of more than 12 months\n* includes interest receivable on intercompany loans amounting to INR 38 crore ( March 31, 2025: INR 20 crore) (refer note 30)\n** includes receivable from merchants against user incentives paid on their behalf, delivery partners for cash on delivery collections, etc.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n349\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n12\t Other assets\n(INR crores)\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nNon-current\nPrepaid expenses\n40\n33\nGratuity insurance / investment plan (refer note 26)\n55\n40\nBalances with statutory/government authorities\n61\n-\nCapital advances\n2\n1\nTotal non-current other assets\n158\n74\nCurrent\nAdvances to suppliers\n69\n54\nLess: impairment allowance\n(11)\n58\n(11)\n43\nPrepaid expenses\n40\n32\nAdvance to merchants\n123\n66\nLess: impairment allowance\n(4)\n119\n-\n66\nBalances with statutory/government authorities\n30\n76\nLess: impairment allowance\n(13)\n17\n(12)\n64\nStaff imprest\n1\n0\nTotal current other assets\n235\n205\nNo advances are due from directors or other officers of the Company either severally or jointly with any other\nperson. Except as disclosed in note 30, no advances are due from firms or private companies respectively in\nwhich any director is a partner, a director or a member.\n13 (a) Equity share capital\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nAuthorised share capital\n14,48,63,29,341 (March 31, 2025: 14,48,63,29,341) equity shares of INR 1 each\n1,449\n1,449\nIssued, subscribed and fully paid-up equity shares\n9,65,03,50,647 (March 31, 2025: 9,65,03,50,647) equity shares of INR 1 each\n965\n965\nLess: 45,64,58,468 (March 31, 2025: 57,74,65,008) equity shares held by ESOP\ntrust as at the year end of INR 1 each\n46\n58\n919\n907\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n350\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"357\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Total current other assets\n</context>\n<text>\nMarch 31, 2025\nAuthorised share capital\n14,48,63,29,341 (March 31, 2025: 14,48,63,29,341) equity shares of INR 1 each\n1,449\n1,449\nIssued, subscribed and fully paid-up equity shares\n9,65,03,50,647 (March 31, 2025: 9,65,03,50,647) equity shares of INR 1 each\n965\n965\nLess: 45,64,58,468 (March 31, 2025: 57,74,65,008) equity shares held by ESOP\ntrust as at the year end of INR 1 each\n46\n58\n919\n907\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n350\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\ni)\t Reconciliation of the shares outstanding at the beginning and at the end of the year\nEquity shares\nParticulars\nAs at March 31, 2026\nAs at March 31, 2025\nNumber\nAmount\nNumber\nAmount\nAt the beginning of the year\n9,65,03,50,647\n965\n8,81,97,83,744\n882\nAdd: bonus shares issued during the year\n-\n-\n93,18,309\n1\nAdd: shares issued on exercise of employee stock options\n-\n-\n72,39,994\n1\nAdd: bonus shares issued to ESOP Trust (refer note 41(b))\n-\n-\n3,99,52,836\n4\nAdd: shares issued to ESOP Trust (refer note 41(b))\n-\n-\n43,75,82,009\n44\nAdd: shares issued during the year (refer note 41(a))\n-\n-\n33,64,73,755\n34\nSubtotal\n9,65,03,50,647\n965 9,65,03,50,647\n965\nLess: shares held by ESOP Trust as at the end of the year\n45,64,58,468\n46\n57,74,65,008\n58\nOutstanding at the end of the year\n9,19,38,92,179\n919\n9,07,28,85,639\n907\nii)\t Details of shareholders holding more than 5% shares in the Company\nEquity shares of INR 1 each fully paid\nName of the shareholder\nAs at March 31, 2026\nAs at March 31, 2025\nNumber\n% of Holding\nNumber\n% of Holding\nInfo Edge (India) Limited\n1,19,46,87,095\n12.38%\n1,19,46,87,095\n12.38%\nFoodie Bay Employees ESOP Trust*\n45,64,58,468\n4.73%\n57,74,65,008\n5.98%\nTerms/rights attached to equity shares\nThe Company has only one class of equity shares having a par value of INR 1 per share. Each holder of equity\nis entitled to one vote per share. Dividends (including proposed dividends), if any, are declared and paid or\nproposed in Indian rupees. The dividend proposed if any by the Board of Directors is subject to the approval\nof the shareholders in the ensuing Annual General Meeting.\nIn the event of liquidation of the Company, the holders of equity shares will be entitled to receive remaining\nassets of the company, after distribution of all preferential amounts. The distribution will be in proportion to\nthe number of equity shares held by the shareholders.\nAs per records of the Company, including its register of shareholders/members and other declarations received\nfrom shareholders regarding beneficial interest, the above shareholding represents both legal and beneficial\nownership of shares. The Company is professionally managed and does not have an identifiable promoter.\n* As per Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations,\n2021, the trustees of a Foodie Bay Employees ESOP Trust, shall not vote in respect of the shares held by the\ntrust.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n351\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"358\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > % of Holding\n</context>\n<text>\nfrom shareholders regarding beneficial interest, the above shareholding represents both legal and beneficial\nownership of shares. The Company is professionally managed and does not have an identifiable promoter.\n* As per Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations,\n2021, the trustees of a Foodie Bay Employees ESOP Trust, shall not vote in respect of the shares held by the\ntrust.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n351\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\niii)\t In the period of five years immediately preceding  March 31, 2026:\na)\n\u0007The Company had allotted 1,576 fully paid up equity shares of face value INR 1/- each during the year\nended March 31, 2021 pursuant to acquisition of Jogo Technologies Private Limited (\u201cFitSo\u201d) for non\ncash consideration.\nb)\n\u0007The Company had approved and allotted bonus shares during the financial year ended March 31, 2022\nin the ratio of 1:6699 to existing equity shareholders and had also approved bonus issuance to option\nholders whose name appears in the register of employee stock options, which will be issued basis the\nequity shares held by the option holders upon the exercise of the option.\nc)\n\u0007During the year ended March 31, 2023 the Company had acquired 33,018 equity shares of Blink\nCommerce Private Limited by issuance and allotment of 62,85,30,012 equity shares of the Company.\niv)\t Shares reserved for issue under options:\n\u0007For details of shares reserved for issue under the employee stock option (ESOP) plan of the Company,\nplease refer note 27\n13 (b) Other equity\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nCapital reserve\nBalance at the beginning of the year\n3\n3\n3\n3\nSecurities Premium\nBalance at the beginning of the year\n33,114\n24,707\nAdd: premium on issue of equity shares (refer note 41(a))\n-\n8,466\nLess: bonus issue of equity shares (pursuant to exercise of employee\nstock options)\n-\n(1)\nLess: bonus shares issued to ESOP Trust (refer note 41(b))\n-\n(4)\nLess: transaction cost on issue of equity shares (refer note 41(a))\n-\n(54)\n33,114\n33,114\nShare-based payment reserve\nBalance at the beginning of the year\n1,253\n683\nAdd: share based payment expense\n275\n380\nAdd: share based payment expense allocated to subsidiary companies\n544\n418\nLess: transfer to retained earning on exercise of employee stock options\n(670)\n(228)\n1,402\n1,253\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n352\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"359\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Securities Premium\n</context>\n<text>\n-\n(4)\nLess: transaction cost on issue of equity shares (refer note 41(a))\n-\n(54)\n33,114\n33,114\nShare-based payment reserve\nBalance at the beginning of the year\n1,253\n683\nAdd: share based payment expense\n275\n380\nAdd: share based payment expense allocated to subsidiary companies\n544\n418\nLess: transfer to retained earning on exercise of employee stock options\n(670)\n(228)\n1,402\n1,253\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n352\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nRetained earnings\nBalance at the beginning of the year\n(1,412)\n(3,604)\nAdd: transfer from share-based payment reserve on exercise of\nemployee stock options\n670\n228\nAdd: surplus in ESOP Trust on exercise of employee stock options (net\nof tax) (refer note 31)\n1\n4\nAdd: profit for the year\n2,655\n1,960\nLess: share based payment on cash settlement of option (fractional\nshares)\n-\n(0)\n1,914\n(1,412)\nTreasury shares\nBalance at the beginning of the year\n15\n14\nAdd: bonus shares issued to ESOP Trust (refer note 41(b))\n-\n4\nLess : shares issued by ESOP trust on exercise of employee stock\noptions\n(3)\n(3)\n12\n15\nBusiness transfer adjustment reserve\nBalance at the beginning of the year\n(43)\n(43)\nAdd / (less) during the year\n-\n-\n(43)\n(43)\nRemeasurements of the defined benefit plans\nBalance at the beginning of the year\n(16)\n(10)\nAdd / (less) during the year\n0\n(6)\nLess: Income tax relating to above (refer note 31)\n4\n-\n(12)\n(16)\nExchange differences on translation of foreign operations\nBalance at the beginning of the year\n32\n31\nAdd / (less) during the year\n5\n1\n37\n32\nEquity instruments through other comprehensive income\nBalance at the beginning of the year\n181\n134\nAdd / (less) during the year\n(515)\n77\nLess: Income tax relating to above (refer note 31)\n30\n(30)\n(304)\n181\nDebt instruments through other comprehensive income\nBalance at the beginning of the year\n81\n(8)\nAdd / (less) during the year\n(83)\n112\nLess: Income tax relating to above (refer note 31)\n21\n(23)\nReclassified to profit or loss on sale\n(7)\n-\nLess: income tax relating to above (refer note 31)\n2\n-\n14\n81\nTotal\n36,137\n33,208\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n353\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"360\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Equity instruments through other comprehensive income\n</context>\n<text>\nLess: Income tax relating to above (refer note 31)\n30\n(30)\n(304)\n181\nDebt instruments through other comprehensive income\nBalance at the beginning of the year\n81\n(8)\nAdd / (less) during the year\n(83)\n112\nLess: Income tax relating to above (refer note 31)\n21\n(23)\nReclassified to profit or loss on sale\n(7)\n-\nLess: income tax relating to above (refer note 31)\n2\n-\n14\n81\nTotal\n36,137\n33,208\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n353\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n13 (c) Nature and purpose of Reserves:\nCapital reserve\nThe Company recognises profit or loss on purchase, sale, issue or cancellation of the Company\u2019s own equity\ninstruments to capital reserve.\nSecurities premium\nSecurities premium is used to record the premium on issue of shares. The reserve is utilised in accordance\nwith the provisions of section 52 of the Companies Act, 2013.\nShare based payment reserve\nThe share based payment reserve is used to recognise the grant date fair value of options issued to employees\nunder Employee stock option plan.\nRetained earnings\nRetained earnings represent the net profit or (loss) accumulated by the Company till date, adjusted for\nany distributions made to shareholders and any transfers from Other Comprehensive Income (OCI) or\nreclassification/adjustments within the other equity, as per applicable accounting framework.\nIncludes amount transferred from Share based payment reserve at the time of exercise of employee stock\noptions amounting to INR 2,490 crore and INR 1,820 crore as at March 31, 2026 and March 31, 2025 respectively.\nThe same is not available for distribution of dividend.\nTreasury shares\nOwn equity instruments that are held by the ESOP Trust are recognised at cost and deducted from equity. No\ngain or loss is recognised in the statement of profit and loss on the purchase, sale, issue or cancellation of\nthe Company\u2019s own equity instruments. Any difference between the carrying amount and the consideration,\nif reissued/transferred, is recognised in equity.\nBusiness transfer adjustment reserve\nThe Company has accounted for the business transfer of Carthero Technologies Private Limited (\u201cCTPL\u201d) to\nthe Company under \u2018pooling of interest\u2019 method. Consequently, investment of the company in CTPL, share\ncapital of CTPL has been cancelled. The difference between the net assets acquired and the value of shares\nand investment so cancelled has been recognized in Business Transfer Adjustment Reserve. From utilisation\nperspective, this is akin to debit balance in retained earnings.\nRemeasurements of the defined benefit plans\nRemeasurements, comprising of actuarial gains and losses, excluding amounts included in net interest on\nthe net defined benefit liability and reimbursement right are recognised immediately in the OCI in the period\nin which they occur. They are then accumulated in a separate reserve named as \u201cRemeasurement of defined\nbenefit plans\u201d. These amounts are not reclassified to statement of profit and loss in subsequent years.\nExchange differences on translation of foreign operations\nExchange differences arising on translation of the foreign operations are recognised in other comprehensive\nincome and are accumulated in exchange differences on translation of foreign operations. The cumulative\namount is reclassified to profit or loss when the foreign operations are disposed off.\nEquity instruments through other comprehensive income\nThe Company has elected to recognise changes in the fair value of certain investments in equity instruments in\nother comprehensive income. These fair value changes are accumulated in \u201cEquity instruments through other\ncomprehensive income\u201d within other equity. The Company transfers amounts from this reserve to retained\nearnings when the relevant equity instruments are derecognised.\nDebt instruments through other comprehensive income\nDebt instruments through other comprehensive income represents the cumulative gains (net of losses) arising\n</text>\n</passage>\n\n<passage id=\"361\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements\n</context>\n<text>\nThe Company has elected to recognise changes in the fair value of certain investments in equity instruments in\nother comprehensive income. These fair value changes are accumulated in \u201cEquity instruments through other\ncomprehensive income\u201d within other equity. The Company transfers amounts from this reserve to retained\nearnings when the relevant equity instruments are derecognised.\nDebt instruments through other comprehensive income\nDebt instruments through other comprehensive income represents the cumulative gains (net of losses) arising\non fair valuation of debt instruments measured at fair value through other comprehensive income, net of\namounts reclassified, if any, to profit or loss when those instruments are derecognised.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n354\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n14\t Trade payables\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nTotal outstanding dues of micro enterprises and small enterprises\n8\n7\n\u0007Total outstanding dues of creditors other than micro enterprises and\nsmall enterprises\n614\n522\nTotal trade payables\n622\n529\nTrade payables are non-interest bearing and are normally settled on 0-60 days terms. Refer note 38 for trade\npayable ageing\nRefer note 33 for details of dues to micro and small enterprises\n15\t Other financial liabilities\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nCurrent\nCapital creditors\n4\n4\nSecurity deposit payable\n5\n3\nAmount payable to merchant\n691\n521\nPayable to related parties (refer note 30)\n46\n54\nPayable to customers\n15\n15\nOther payable\n9\n12\nTotal current other financial liabilities\n770\n609\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n355\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"362\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Total trade payables\n</context>\n<text>\nRefer note 33 for details of dues to micro and small enterprises\n15\t Other financial liabilities\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nCurrent\nCapital creditors\n4\n4\nSecurity deposit payable\n5\n3\nAmount payable to merchant\n691\n521\nPayable to related parties (refer note 30)\n46\n54\nPayable to customers\n15\n15\nOther payable\n9\n12\nTotal current other financial liabilities\n770\n609\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n355\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n16\t Other current liabilities\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nUnearned revenue\n11\n17\nAdvances from customers\n3\n4\nStatutory dues :\nProvident fund payable\n4\n4\nEmployee state insurance payable\n0\n0\nProfessional tax payable\n0\n0\nGoods and services tax payable\n319\n225\nTax deducted at source payable\n50\n32\nOther statutory dues payable\n0\n0\nEmployee related payable\n53\n3\nOthers\n1\n13\nTotal other current liabilities\n441\n298\n17\t Provisions\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nNon-current\nProvisions for gratuity (refer note 26)\n50\n43\nProvisions for compensated absences\n20\n19\nTotal non-current provisions\n70\n62\nCurrent\nProvisions for gratuity (refer note 26)\n10\n9\nProvisions for compensated absences\n8\n9\nTotal current provisions\n18\n18\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n356\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"363\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > March 31, 2025\n</context>\n<text>\n13\nTotal other current liabilities\n441\n298\n17\t Provisions\n(INR crores)\nParticulars\nAs at\nMarch 31, 2026\nAs at\nMarch 31, 2025\nNon-current\nProvisions for gratuity (refer note 26)\n50\n43\nProvisions for compensated absences\n20\n19\nTotal non-current provisions\n70\n62\nCurrent\nProvisions for gratuity (refer note 26)\n10\n9\nProvisions for compensated absences\n8\n9\nTotal current provisions\n18\n18\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n356\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n18\t Revenue from operations\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nRevenue from sale of services (refer note 30)\n10,882\n8,592\nRoyalty income (refer note 30)\n17\n25\nTotal revenue from operations *\n10,899\n8,617\n* The above revenues are net of adjustments amounting to INR 747 crore (March 31, 2025: INR 393 crore) on account of discounts and\nconsideration payable to customers.\nTiming of revenue recognition\n(INR crores)\nParticulars\nFor the year ended March 31, 2026\nRevenue\nfrom sale of\nservices\nRoyalty\nincome\nTotal\nAt a point in time\n8,384\n17\n8,401\nOver time\n2,498\n-\n2,498\nTotal revenue from contract with customers\n10,882\n17\n10,899\n(INR crores)\nParticulars\nFor the year ended March 31, 2025\nRevenue\nfrom sale of\nservices\nRoyalty\nincome\nTotal\nAt a point in time\n6,689\n25\n6,714\nOver time\n1,903\n-\n1,903\nTotal revenue from contract with customers\n8,592\n25\n8,617\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n357\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"364\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > from sale of\n</context>\n<text>\nfrom sale of\nservices\nRoyalty\nincome\nTotal\nAt a point in time\n8,384\n17\n8,401\nOver time\n2,498\n-\n2,498\nTotal revenue from contract with customers\n10,882\n17\n10,899\n(INR crores)\nParticulars\nFor the year ended March 31, 2025\nRevenue\nfrom sale of\nservices\nRoyalty\nincome\nTotal\nAt a point in time\n6,689\n25\n6,714\nOver time\n1,903\n-\n1,903\nTotal revenue from contract with customers\n8,592\n25\n8,617\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n357\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nContract balances\nThe following table provides information about receivables and contract liabilities\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nTrade receivables\n142\n112\nContract liabilities\n14\n21\nNotes:\n1. \t \u0007Contract liabilities relates to payments received in advance of performance and unearned revenue against\nwhich amount has been received from customer but services are yet to be rendered on the reporting date\neither in full or in parts. Contract liabilities are recognised on completion / satisfaction of performance\nobligation.\na) \t Changes in unearned revenue during the year:\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nOpening balance\n17\n21\nAdditions for which revenue will be recognised in subsequent\nyears\n11\n17\nLess: revenue recognized\n(17)\n(21)\nLess: adjustments to revenue due to a contract modification\nor foreign exchange difference\n-\n-\nClosing balance *\n11\n17\nb) \t Changes in advances from customers during the year :\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nOpening balance\n4\n6\nAdditions for which revenue will be recognised in subsequent\nyears\n3\n1\nLess: revenue recognized\n(3)\n(1)\nLess: advances written back\n-\n(2)\nLess: payable to customers\n(1)\n-\nClosing balance*\n3\n4\n*The Company has applied the practical expedient not to disclose information about its remaining performance obligation as the\ncontracts have an original expected duration of less than a year.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n358\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"365\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Opening balance\n</context>\n<text>\nAdditions for which revenue will be recognised in subsequent\nyears\n3\n1\nLess: revenue recognized\n(3)\n(1)\nLess: advances written back\n-\n(2)\nLess: payable to customers\n(1)\n-\nClosing balance*\n3\n4\n*The Company has applied the practical expedient not to disclose information about its remaining performance obligation as the\ncontracts have an original expected duration of less than a year.\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n358\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n19\t Other income\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nInterest income\nOn financial assets measured at amortised cost\nBank and other deposits\n379\n212\nGovernment securities\n-\n1\nOthers*\n77\n31\nOn financial assets measured at fair value through other\ncomprehensive income\nDebentures or bonds\n484\n440\nGovernment securities\n222\n188\nOn income tax refund\n7\n14\nOther non operating income\nNet gain arising on financial assets measured at fair\nvalue through profit or loss\nNet gain on redemption of mutual fund units\n73\n116\nFair value gain / (loss) on mutual fund units (net)\n2\n75\n1\n117\nNet gain arising on financial assets measured at fair\nvalue through other comprehensive income\nNet gain on sale of government securities\n7\n-\nLiabilities written back\n13\n5\nProfit on sale of property, plant and equipment (net)\n4\n1\nGain on termination of lease contracts (refer note 28)\n2\n1\nForeign exchange gain (net)\n3\n-\nIncome from cross charge (refer note 30)\n528\n250\nOthers\n2\n0\nTotal other income\n1,803\n1,260\n*includes amount of interest on loan INR 71 crore (March 31, 2025: INR 28 crore) pertaining to related parties (refer note 30)\n20\tEmployee benefits expense\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nSalaries and wages\n1,089\n817\nContribution to provident fund and other funds\n24\n20\nShare based payment expense (refer note 27)\n275\n380\nGratuity expenses\n14\n10\nStaff welfare expenses\n64\n39\nTotal employee benefits expense\n1,466\n1,266\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n359\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"366\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > Total other income\n</context>\n<text>\n*includes amount of interest on loan INR 71 crore (March 31, 2025: INR 28 crore) pertaining to related parties (refer note 30)\n20\tEmployee benefits expense\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nSalaries and wages\n1,089\n817\nContribution to provident fund and other funds\n24\n20\nShare based payment expense (refer note 27)\n275\n380\nGratuity expenses\n14\n10\nStaff welfare expenses\n64\n39\nTotal employee benefits expense\n1,466\n1,266\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n359\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n21\t Finance costs\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nInterest expense\nOn lease liabilities (refer note 28)\n29\n14\nOthers\n3\n0\nOther finance costs\n2\n2\nTotal finance costs\n34\n16\n22\tDepreciation and amortisation expenses\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nDepreciation on property, plant and equipment (refer note 3)\n70\n44\nAmortisation on intangible assets (refer note 4)\n11\n5\nDepreciation on right-of-use assets (refer note 28)\n121\n48\nTotal depreciation and amortisation expenses\n202\n97\n23\tOther expenses\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nPower and fuel\n4\n3\nRent (refer note 28)\n35\n30\nRates and taxes\n36\n11\nRepairs and maintenance\n24\n19\nAdvertisement and sales promotion\n2,064\n1,427\nOutsourced support cost\n51\n81\nDelivery and related charges\n4,658\n3,788\nTravelling and conveyance\n53\n38\nServer and communication cost\n181\n123\nIT support services\n471\n346\nRecruitment cost\n5\n6\nInsurance\n97\n66\nPayment gateway charges\n179\n176\nSecurity expense\n9\n6\nEvent infrastructure and artist fee\n0\n24\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n360\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n\n<passage id=\"367\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Notes to the Standalone Financial Statements > March 31, 2025\n</context>\n<text>\n36\n11\nRepairs and maintenance\n24\n19\nAdvertisement and sales promotion\n2,064\n1,427\nOutsourced support cost\n51\n81\nDelivery and related charges\n4,658\n3,788\nTravelling and conveyance\n53\n38\nServer and communication cost\n181\n123\nIT support services\n471\n346\nRecruitment cost\n5\n6\nInsurance\n97\n66\nPayment gateway charges\n179\n176\nSecurity expense\n9\n6\nEvent infrastructure and artist fee\n0\n24\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n360\n\n\nNotes to the Standalone Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nLegal and professional fee\n82\n86\nPayment to auditors (refer detail below)\n2\n2\nFinancial and non financial assets written off\n45\n44\nLess: written-off against opening impairment allowance\n(45)\n0\n(44)\n-\nPostage and courier cost\n16\n21\nImpairment allowance on financial and non financial assets\n(net)\n61\n39\nMiscellaneous expenses\n6\n5\nTotal other expenses\n8,034\n6,297\nA. \t Payment to auditors\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nAs auditor\n- Statutory audit\n1\n1\n- Quarterly limited reviews\n0\n0\nIn other capacity\n-Certification & other services *\n1\n0\n- Reimbursement of expenses\n0\n0\nTotal\n2\n2\n*  Excludes fees for Qualified Institutional Placement (QIP) related services of INR 3 crore debited to securities premium for the year\nended March 31, 2025.\nNote - For the year ended March 31, 2026, fees for statutory audit INR 1.17 crore, quarterly limited reviews INR\n0.33 crore, certifications INR 0.74 crore, reimbursement of expenses INR 0.20 crore.\n- For the year ended March 31, 2025, fees for statutory audit INR 1.17 crore, quarterly limited reviews INR 0.33\ncrore, certifications INR 0.44 crore, reimbursement of expenses INR 0.14 crore.\n24\tExceptional items\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nClosure of /impairment in value of investment in\nsubsidiaries (refer note 30)\n88\n33\nLess: Opening provision for impairment in value of\ninvestment in subsidiaries (refer note 30)\n(88)\n-\n(22)\n11\nTotal exceptional items\n-\n11\nFinancial Statements: Standalone\nStatutory Reports\nCompany Overview\n361\n\n\nNotes to the Standalone Financial Statements\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The aggregate amount of investments in unquoted equity instruments designated at FVTOCI was INR 1,785 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 352,
+        "predicate": "aggregate_amount_of_investments_in_unquoted_equity_instruments_designated_at_fvtoci",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Aggregate amount of Investments in unquoted equity\ninstruments designated at FVTOCI (B)\n1,785",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,785",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The aggregate amount of investments in unquoted debt instruments measured at FVTOCI was INR 7,957 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 352,
+        "predicate": "aggregate_amount_of_investments_in_unquoted_debt_instruments_measured_at_fvtoci",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Aggregate amount of Investments in unquoted debt\ninstruments measured at FVTOCI (C)\n7,957",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "7,957",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total non-current investments (A+B+C) was INR 24,653 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 352,
+        "predicate": "total_non_current_investments",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total Investments (non-current) (A+B+C)\n24,653",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "24,653",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total current investments (A+B) was INR 3,335 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 353,
+        "predicate": "total_current_investments",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total Investments (current) (A+B)\n3,335",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "3,335",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total cash and cash equivalents was INR 706 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 354,
+        "predicate": "total_cash_and_cash_equivalents",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total cash and cash equivalents\n706",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "706",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total bank balances other than cash and cash equivalents was INR 448 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 354,
+        "predicate": "total_bank_balances_other_than_cash_and_cash_equivalents",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total bank balances other than cash and cash equivalents^\n448",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "448",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total non-current other financial assets was INR 1,376 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 355,
+        "predicate": "total_non_current_other_financial_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total non-current other financial assets\n1,376",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,376",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total current other financial assets was INR 5,360 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 355,
+        "predicate": "total_current_other_financial_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total current other financial assets\n5,360",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "5,360",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total non-current other assets was INR 158 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 356,
+        "predicate": "total_non_current_other_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total non-current other assets\n158",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "158",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total current other assets was INR 235 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 356,
+        "predicate": "total_current_other_assets",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total current other assets\n235",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "235",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total trade payables was INR 622 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 361,
+        "predicate": "total_trade_payables",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total trade payables\n622",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "622",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total current other financial liabilities was INR 770 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 361,
+        "predicate": "total_current_other_financial_liabilities",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total current other financial liabilities\n770",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "770",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total other current liabilities was INR 441 crore as at March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 362,
+        "predicate": "total_other_current_liabilities",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total other current liabilities\n441",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "441",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total revenue from operations was INR 10,899 crore for the year ended March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 363,
+        "predicate": "total_revenue_from_operations",
+        "qualifiers": [
+          {
+            "key": "for_the_year_ended",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total revenue from operations *\n10,899",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "10,899",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total other income was INR 1,803 crore for the year ended March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 365,
+        "predicate": "total_other_income",
+        "qualifiers": [
+          {
+            "key": "for_the_year_ended",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total other income\n1,803",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,803",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total employee benefits expense was INR 1,466 crore for the year ended March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 365,
+        "predicate": "total_employee_benefits_expense",
+        "qualifiers": [
+          {
+            "key": "for_the_year_ended",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total employee benefits expense\n1,466",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "1,466",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total finance costs was INR 34 crore for the year ended March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 366,
+        "predicate": "total_finance_costs",
+        "qualifiers": [
+          {
+            "key": "for_the_year_ended",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total finance costs\n34",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "34",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total depreciation and amortisation expenses was INR 202 crore for the year ended March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 366,
+        "predicate": "total_depreciation_and_amortisation_expenses",
+        "qualifiers": [
+          {
+            "key": "for_the_year_ended",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total depreciation and amortisation expenses\n202",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "202",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The total other expenses was INR 8,034 crore for the year ended March 31, 2026.",
+        "confidence": 1,
+        "passage_id": 367,
+        "predicate": "total_other_expenses",
+        "qualifiers": [
+          {
+            "key": "for_the_year_ended",
+            "provenance": "stated",
+            "value": "March 31, 2026"
+          }
+        ],
+        "quote": "Total other expenses\n8,034",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Company",
+        "value": {
+          "kind": "quantity",
+          "raw": "8,034",
+          "unit": "INR crores"
+        }
+      }
+    ]
+  }
+}

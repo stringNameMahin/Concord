@@ -1,0 +1,459 @@
+{
+  "key": "951dc7f3b4de19b293cc4fb7506109af70df58f13622bac95f010c422bd64bfb",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 16 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"208\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n\n[section]\nchanging lifestyles > Consolidated Statement of Changes in Equity  (Contd.)\n</context>\n<text>\nshares (refer note 41(a))\n-\n-\n(54)\n-\n-\n-\n-\n-\n-\n(54)\n-\n(54)\nLess: share based payment on cash\nsettlement of option (fractional shares)\n-\n-\n-\n(0)\n-\n-\n-\n-\n-\n(0)\n-\n(0)\nLess: shares issued by ESOP Trust on\nexercise of employee stock options\n-\n-\n-\n-\n(3)\n-\n-\n-\n-\n(3)\n-\n(3)\nConsolidated Statement of Changes in Equity  (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n203\n\n\nConsolidated Statement of Changes in Equity  (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFor the year ended March 31, 2025\b\n(INR crores)\nDescription\nEquity attributable to owners of the Parent\nNon-\ncontrolling\ninterests\nTotal\nReserves and Surplus\nItems of other comprehensive income\nTotal\nCapital\nreserve\nShare-\nbased\npayment\nreserve\nSecurities\npremium\nRetained\nearnings\nTreasury\nshares\nEquity\ninstruments\nthrough other\ncomprehensive\nincome\nDebt\ninstruments\nthrough other\ncomprehensive\nincome\nExchange\ndifferences\non\ntranslation\nof foreign\noperations\nRemeasurements\nof the defined\nbenefit plans\nLess: bonus issue of equity shares\n(pursuant to exercise of employee stock\noptions)\n-\n-\n(1)\n-\n-\n-\n-\n-\n-\n(1)\n-\n(1)\nAs at March 31, 2025\n3\n1,253\n33,116\n(5,265)\n15\n181\n81\n39\n(13)\n29,410\n(7)\n29,403\nThe accompanying notes are an integral part of the consolidated financial statements.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells\nChartered Accountants\nFirm registration number-015125N\nFor and on behalf of the Board of Directors of\nEternal Limited (formerly known as Zomato Limited)\nSd/-\nVikas Khurana\n(Partner)\nMembership No-503760\nSd/-\nKaushik Dutta\n(Chairman and\nIndependent Director)\n(DIN-03328890)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nDeepinder Goyal\n(Vice Chairman and\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n204\n\n\nConsolidated Statement of Cash Flows\n</text>\n</passage>\n\n<passage id=\"209\">\n<context>\n[page header]\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n\n[section]\nchanging lifestyles > Consolidated Statement of Changes in Equity  (Contd.)\n</context>\n<text>\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n204\n\n\nConsolidated Statement of Cash Flows\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nA)\nCash flows from operating activities\nProfit before tax\n615\n697\nAdjustments to reconcile profit before tax to net cash\nflows:\nInterest income on bank deposits and others\n(473)\n(262)\nInterest income on government securities\n(120)\n(100)\nAmortisation of premium / (discount) on government securities\n(102)\n(89)\nInterest income on debentures or bonds\n(484)\n(436)\nAmortisation of premium / (discount) on debentures or bonds\n0\n(4)\nInterest income on income tax refund\n(9)\n(17)\nNet gain on mutual fund units\n(155)\n(151)\nNet gain on sale of government securities\n(7)\n-\nLiabilities written back\n(18)\n(10)\n(Profit) / loss on sale of property, plant and equipment (net)\n/ assets written off\n(3)\n11\nGain on termination of lease contracts\n(13)\n(3)\nInventories write-down (net)\n37\n-\nShare-based payment expense\n819\n798\nInterest expense on lease liabilities\n367\n147\nInterest expense others\n16\n4\nDepreciation on property, plant and equipment and\ndepreciation on right-of-use assets\n1,291\n576\nAmortisation on intangible assets\n306\n287\nImpairment of financial and non financial assets (net)\n148\n71\nFinancial and non financial assets written off\n7\n-\n(Gain) / loss on disposal of foreign operations\n7\n(0)\nOther non-cash items\n(3)\n0\nOperating profit before working capital changes\n2,226\n1,519\nMovements in working capital :\n- Trade receivables\n117\n(1,117)\n- Other financial assets\n(552)\n(226)\n- Other assets\n(807)\n(586)\n- Inventories\n(2,042)\n(88)\n- Other financial liabilities and other liabilities\n540\n274\n- Provisions\n38\n21\n- Trade payables\n1,478\n629\nCash generated from / (used in) operations\n998\n426\nIncome taxes (paid) / refund (net)\n(366)\n(118)\nNet cash generated from / (used in) operating activities (A)\n632\n308\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n205\n\n\nConsolidated Statement of Cash Flows (Contd.)\n</text>\n</passage>\n\n<passage id=\"210\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Statement of Cash Flows > Operating profit before working capital changes\n</context>\n<text>\n- Trade receivables\n117\n(1,117)\n- Other financial assets\n(552)\n(226)\n- Other assets\n(807)\n(586)\n- Inventories\n(2,042)\n(88)\n- Other financial liabilities and other liabilities\n540\n274\n- Provisions\n38\n21\n- Trade payables\n1,478\n629\nCash generated from / (used in) operations\n998\n426\nIncome taxes (paid) / refund (net)\n(366)\n(118)\nNet cash generated from / (used in) operating activities (A)\n632\n308\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n205\n\n\nConsolidated Statement of Cash Flows (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nB)\nCash flows from investing activities\nPurchase of property, plant and equipment and other\nintangible assets (including capital work-in-progress,\ncapital advances and capital creditors)\n(1,751)\n(936)\nProceeds from sale of property, plant and equipment\n5\n5\nInvestment in bank and other deposits (having original\nmaturity of more than 3 months)\n(2,321)\n(7,697)\nProceeds from redemption / maturity of bank and other\ndeposits (having original maturity of more than 3 months)\n5,668\n2,942\nInvestment in mutual fund units\n(45,895)\n(47,326)\nProceeds from redemption of mutual fund units\n44,981\n46,738\nAcquisition of businesses, net of cash acquired (refer note 27)\n-\n(2,005)\nPurchase of other non-current investments\n-\n(0)\nInvestment in government securities\n(151)\n(648)\nProceeds from sale / maturity of government securities\n520\n65\nInvestment in debentures or bonds\n(1,839)\n-\nProceeds from redemption of debentures or bonds\n366\n50\nInterest received\n953\n819\nNet cash generated from / (used in) investing activities (B)\n536\n(7,993)\nC)\nCash flows from financing activities\nProceeds from issue of equity shares\n-\n8,501\nTransaction cost paid on issue of equity shares\n-\n(54)\nShare based payment on cash settlement of option\n(fractional shares)\n-\n(0)\nAmount collected by ESOP trust on exercise of employee\nstock options\n12\n4\nPayment of principal portion of lease liabilities\n(471)\n(258)\nPayment of interest portion of lease liabilities\n(367)\n(147)\nOther interest paid\n(16)\n(4)\nNet cash generated from / (used in) financing activities (C)\n(842)\n8,042\nNet increase / (decrease) in cash and cash equivalents\n(A+B+C)\n326\n357\nNet foreign exchange difference\n4\n(0)\nCash and cash equivalents at beginning of the year\n666\n309\nCash and cash equivalents as at end of the year\n996\n666\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n206\n\n\n(INR crores)\n</text>\n</passage>\n\n<passage id=\"211\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Statement of Cash Flows (Contd.) > Cash flows from financing activities\n</context>\n<text>\nPayment of principal portion of lease liabilities\n(471)\n(258)\nPayment of interest portion of lease liabilities\n(367)\n(147)\nOther interest paid\n(16)\n(4)\nNet cash generated from / (used in) financing activities (C)\n(842)\n8,042\nNet increase / (decrease) in cash and cash equivalents\n(A+B+C)\n326\n357\nNet foreign exchange difference\n4\n(0)\nCash and cash equivalents at beginning of the year\n666\n309\nCash and cash equivalents as at end of the year\n996\n666\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n206\n\n\n(INR crores)\nParticulars\nFor the year ended\nMarch 31, 2026\nFor the year ended\nMarch 31, 2025\nCash and cash equivalents comprise of :\nBalances with banks:\nIn current accounts\n617\n569\nBank deposits\n363\n90\nMargin money deposits\n3\n-\nCash on hand\n13\n7\n996\n666\nThe above consolidated statement of cash flows has been prepared under the \u2018Indirect Method\u2019 as set out in Ind AS 7\n\u2018Statement of Cash Flows\u2019\nFor changes arising from financing activities in respect of lease liabilities (refer note 30)\nThe accompanying notes are an integral part of the consolidated financial statements.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells\nChartered Accountants\nFirm registration number-015125N\nFor and on behalf of the Board of Directors of\nEternal Limited (formerly known as Zomato Limited)\nSd/-\nVikas Khurana\n(Partner)\nMembership No-503760\nSd/-\nKaushik Dutta\n(Chairman and\nIndependent Director)\n(DIN-03328890)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nDeepinder Goyal\n(Vice Chairman and\nNon - Executive Director)\n(DIN-02613583)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nAlbinder Singh Dhindsa\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nConsolidated Statement of Cash Flows (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n207\n\n\nMaterial  Accounting Policies to the\n</text>\n</passage>\n\n<passage id=\"212\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Statement of Cash Flows (Contd.) > March 31, 2025\n</context>\n<text>\n(Chief Executive Officer)\n(PAN-BKLPD1477Q)\nPlace: New Delhi\nDate: April 28, 2026\nPlace: Gurugram\nDate: April 28, 2026\nSd/-\nAkshant Goyal\n(Chief Financial Officer)\n(PAN-AIVPG9914G)\nPlace: New Delhi\nDate: April 28, 2026\nSd/-\nSandhya Sethia\n(Company Secretary)\n(A-29579)\nPlace: Gurugram\nDate: April 28, 2026\nConsolidated Statement of Cash Flows (Contd.)\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n207\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n208\n1.\t Corporate Information\nEternal Limited (formerly known as Zomato Limited)\n(\u201cEternal\u201d or \u201cthe Company\u201d or \u201cthe Parent Company\u201d) is\na public limited company, incorporated and domiciled\nin India under the provisions of the Companies Act,\n2013 (the \u201cAct\u201d) applicable in India. The Company is\nlisted on National Stock Exchange of India Limited and\nBSE Limited. The registered office of the Company is\nlocated at Ground Floor \u2013 12A, 94, Meghdoot, Nehru\nPlace, New Delhi - 110019. On March 20, 2025, the\nname of the Company had been changed from Zomato\nLimited to Eternal Limited and had been approved by\nthe Registrar of Companies.\nThe Group operates e-commerce platforms for online\nfood delivery transactions and quick commerce\ntransactions, enabling the sale or facilitation of sale\nof goods to the customers. The Group also supplies\nhigh quality ingredients to restaurant partners and\nquick commerce merchants, and offers services like\nentertainment ticketing, delivery, warehousing and\ndining out.\nOn August 27, 2024, the Group had completed the\nacquisition of Orbgen Technologies Private Limited\n(\u201cOTPL\u201d) and Wasteland Entertainment Private\nLimited (\u201cWEPL\u201d), holding the \u2018Movies Ticketing\u2019\nbusiness and \u2018Events\u2019 business respectively, from\nOne 97 Communications Limited (\u201cSeller\u201d). These\nacquisitions are in line with the Group\u2019s strategy of\ninvesting in the Going-out business.\nThese consolidated financial statements relate to the\nParent and its subsidiary companies (including trust\nand branches) (collectively referred as \u201cthe Group\u201d).\nThe Group\u2019s consolidated financial statements for\nthe year ended March 31, 2026 were approved by the\nBoard of Directors and authorised for issue on April\n28, 2026.\n2.\t Basis of preparation and measurement\nof consolidated financial statements and\nsummary of material accounting policies\n2.1\tBasis of preparation and measurement\nThese consolidated financial statements have been\nprepared in accordance with Indian Accounting\nStandards (Ind AS) prescribed under Section 133 of\nthe Companies Act, 2013 (the \u201cAct\u201d) read with rule 3 of\nthe Companies (Indian Accounting Standards) Rules,\n2015 and relevant amendments issued thereunder\nand presentation requirements of Division II of\nSchedule III and other relevant provisions of the Act\n(as amended from time to time).\nThese consolidated financial statements have been\nprepared on the historical cost basis, except for\nthe following assets and liabilities which have been\nmeasured at fair value:\n\u2022\n\u0007Certain financial assets and liabilities measured\nat fair value (refer accounting policy regarding\nfinancial instruments);\n\u2022\n\u0007Defined benefits plan obligations and\nreimbursement right measured at fair value.\nThese consolidated financial statements comprise\nthe financial statements of the Company and its\nsubsidiaries (including trust and branches) for the\nyear ended March 31, 2026 and March 31, 2025. (Refer\nNote 43)\nThese consolidated financial statements are\npresented in Indian Rupees \u201cINR\u201d or \u201c `\u201d and all amounts\ndisclosed in the consolidated financial statements\nhave been rounded off to the nearest crore (as per\nthe requirements of Schedule III of the Act), unless\notherwise stated. Further, amounts which are less\nthan half a crore are appearing as \u201c0\u201d.\n\n\nMaterial  Accounting Policies to the\n</text>\n</passage>\n\n<passage id=\"213\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements\n</context>\n<text>\nthe financial statements of the Company and its\nsubsidiaries (including trust and branches) for the\nyear ended March 31, 2026 and March 31, 2025. (Refer\nNote 43)\nThese consolidated financial statements are\npresented in Indian Rupees \u201cINR\u201d or \u201c `\u201d and all amounts\ndisclosed in the consolidated financial statements\nhave been rounded off to the nearest crore (as per\nthe requirements of Schedule III of the Act), unless\notherwise stated. Further, amounts which are less\nthan half a crore are appearing as \u201c0\u201d.\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n209\n2.2 Basis of consolidation\nThese consolidated financial statements relate to the\nParent and its subsidiary companies (including trust\nand branches). Subsidiaries include all the entities\nover which the Group has control. Control is achieved\nwhen the Group has power over investee, is exposed\nto variable returns from its involvement with the\ninvestee and has the ability to affect those returns\nthrough its power over the investee.\nThe Group re-assesses whether or not it controls\nan investee if facts and circumstances indicate\nthat there are changes to one or more of the three\nelements of control. Consolidation of a subsidiary\nbegins when the Group obtains control over the\nsubsidiary and ceases, when the Group loses control.\nConsolidated financial statements present assets,\nliabilities, equity, income, expenses and cash\nflows of the parent and its subsidiaries as those of\na single economic entity. Consolidated financial\nstatements are prepared using uniform accounting\npolicies for like transactions and other events in\nsimilar circumstances. If a member of the Group\nuses accounting policies other than those adopted\nin the consolidated financial statements for like\ntransactions and events in similar circumstances,\nappropriate adjustments are made to that Group\nmembers\u2019 statements in preparing the consolidated\nfinancial statements to ensure consistency and\nconformity with the Group\u2019s accounting policies.\nThe consolidated financial statements of all entities\nused for the purpose of consolidation are drawn up to\nsame reporting date as that of the Parent Company,\ni.e., year ended on March 31, 2026 and March 31, 2025.\n2.3 \u0007Summary of material accounting\npolicies\na)\t Use of estimates\nThe preparation of the consolidated financial\nstatements in conformity with the principles of Ind\nAS requires the management to make judgements,\nestimates and assumptions that effect the reported\namounts of revenues, expenses, assets and liabilities\nand the disclosure of contingent liabilities, at the\nend of the reporting year. Although these estimates\nare based on the management\u2019s best knowledge\nof current events and actions, uncertainty about\nthese assumptions and estimates could result in\nthe outcomes requiring a material adjustment to\nthe carrying amounts of assets or liabilities in future\nyears.\nThe estimates and underlying assumptions are\nreviewed on an ongoing basis. Revisions to accounting\nestimates are recognized in the year in which the\nestimate is revised, if the revision affects only that\nyear, or in the year of the revision and future years\nif the revision affects both current and future years.\nInformation about the significant areas of estimation,\nuncertainty and critical judgements in applying\naccounting policies that have the most significant\neffect on the amounts recognized in the consolidated\nfinancial statements are disclosed in note no 2.4.\nb) \t Business combination and goodwill\nBusiness combinations are accounted for as follows:\nBusiness combinations (other than common control\nbusiness combinations) - Acquisition Method\nThe cost of an acquisition in a business combination\nis measured at fair value, which is calculated as the\nsum of the acquisition date fair values of the assets\ntransferred by the Group, liabilities incurred by the\nGroup to the former owners of the acquiree and the\n</text>\n</passage>\n\n<passage id=\"214\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements\n</context>\n<text>\nfinancial statements are disclosed in note no 2.4.\nb) \t Business combination and goodwill\nBusiness combinations are accounted for as follows:\nBusiness combinations (other than common control\nbusiness combinations) - Acquisition Method\nThe cost of an acquisition in a business combination\nis measured at fair value, which is calculated as the\nsum of the acquisition date fair values of the assets\ntransferred by the Group, liabilities incurred by the\nGroup to the former owners of the acquiree and the\nequity interest issued by the Group in exchange of\ncontrol of the acquiree.\nAt the acquisition date, the identifiable assets\nacquired, and the liabilities assumed are recognized\nat their acquisition date fair values (except certain\nassets and liabilities which are required to be\nmeasured as per the applicable standard). For this\npurpose, the liabilities assumed include contingent\nliabilities representing present obligation and they are\nmeasured at their acquisition fair values irrespective\nof the fact that outflow of resources embodying\neconomic benefits is not probable.\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n210\nFor each business combination, the Group elects\nwhether to measure the non-controlling interests\nin the acquiree at fair value or at the proportionate\nshare of the acquiree\u2019s identifiable net assets.\nAcquisition-related costs are expensed as incurred,\nexcept for the costs of issuing debt or equity securities\nthat are recognized in accordance with Ind AS 32 and\nInd AS 109.\nWhen the Group acquires a business, it assesses the\nfinancial assets and liabilities assumed for appropriate\nclassification and designation in accordance with\nthe contractual terms, economic circumstances and\npertinent conditions as at the acquisition date.\nc)\t Current versus non- current classification\nThe Group presents assets and liabilities in the\nconsolidated balance sheet based on current/ non-\ncurrent classification. An asset is treated as current\nwhen it is:\n\u2022\n\u0007Expected to be realised or intended to be sold or\nconsumed in normal operating cycle\n\u2022\nHeld primarily for the purpose of trading.\n\u2022\n\u0007It is expected to be realised within twelve months\nafter the reporting year, or\n\u2022\n\u0007Cash or cash equivalent unless restricted from\nbeing exchanged or used to settle a liability for\nat least twelve months after the reporting year.\nAll other assets are classified as non-current.\nA liability is current when:\n\u2022\n\u0007It is expected to be settled in normal operating\ncycle.\n\u2022\nHeld primarily for the purpose of trading.\n\u2022\n\u0007It is due to be settled within twelve months after\nthe reporting year, or\n\u2022\n\u0007There is no right at the end of the reporting period\nto defer settlement of the liability for at least\ntwelve months after the reporting period.\nAll other liabilities are classified as non-current.\nDeferred tax assets and liabilities are classified as\nnon-current assets and liabilities.\nThe operating cycle is the time between the acquisition\nof assets for processing and their realisation in cash\nand cash equivalents. The Group has identified twelve\nmonths as its operating cycle.\nd)\t Foreign currencies\nThe Group\u2019s consolidated financial statements are\npresented in INR, which is also the Parent Company\u2019s\nfunctional currency.\nThe financial statements of each of the Group entity\nare measured using the currency of the primary\neconomic environment in which the entities forming\npart of the Group operates (\u201cfunctional currency\u201d).\nThe functional currency is normally the currency in\nwhich the entities forming part of Group primarily\ngenerate and expend cash.\nTransactions and balances\nTransactions in foreign currencies are initially\nrecorded at their respective functional currencies\nusing the spot rates at the date when the transaction\nfirst qualifies for recognition. However, for practical\nreasons, the Group uses an average rate if the average\n</text>\n</passage>\n\n<passage id=\"215\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements\n</context>\n<text>\neconomic environment in which the entities forming\npart of the Group operates (\u201cfunctional currency\u201d).\nThe functional currency is normally the currency in\nwhich the entities forming part of Group primarily\ngenerate and expend cash.\nTransactions and balances\nTransactions in foreign currencies are initially\nrecorded at their respective functional currencies\nusing the spot rates at the date when the transaction\nfirst qualifies for recognition. However, for practical\nreasons, the Group uses an average rate if the average\napproximates the exchange rates at the date of the\ntransaction.\nMonetary assets and liabilities denominated in foreign\ncurrencies are translated at the functional currency\nspot rates of exchange at the reporting date.\nExchange differences arising on settlement or\ntranslation of monetary items are recognized in\nconsolidated statement of profit and loss.\nNon-monetary items that are measured in terms of\nhistorical cost in a foreign currency are translated\nusing the exchange rates at the dates of the initial\ntransactions.\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n211\nForeign operations\nOn consolidation, the assets and liabilities of foreign\noperations are translated into Indian Rupees at the\nrate of exchange prevailing at the reporting date and\ntheir consolidated financial statements of profit and\nloss are translated at exchange rates prevailing at\nthe dates of the transactions. For practical reasons,\nthe Group uses an average rate for the period to\ntranslate income and expense items, if the average\nrate approximates the exchange rates at the dates of\nthe transactions. The exchange differences arising\non translation for consolidation are recognized in\nOther Comprehensive Income (\u201cOCI\u201d). On disposal of\na foreign operation, the component of OCI relating to\nthat particular foreign operation is reclassified in the\nconsolidated statement of profit and loss.\ne)\t Fair value measurement\nFair value is the price that would be received to sell\nan asset or paid to transfer a liability in an orderly\ntransaction between market participants at the\nmeasurement date. The fair value measurement is\nbased on the presumption that the transaction to sell\nthe asset or transfer the liability takes place either:\n\u2022\nIn the principal market for the asset or liability, or\n\u2022\n\u0007In the absence of a principal market, in the most\nadvantageous market for the asset or liability.\nThe principal or the most advantageous market must\nbe accessible by the Group.\nThe fair value of an asset or a liability is measured\nusing the assumptions that market participants\nwould use when pricing the asset or liability, assuming\nthat market participants act in their economic best\ninterest.\nA fair value measurement of a non-financial asset\ntakes into account a market participant\u2019s ability to\ngenerate economic benefits by using the asset in its\nhighest and best use or by selling it to another market\nparticipant that would use the asset in its highest and\nbest use.\nThe Group uses valuation techniques that are\nappropriate in the circumstances and for which\nsufficient data is available to measure fair value,\nmaximising the use of relevant observable inputs and\nminimising the use of unobservable inputs.\nAll assets and liabilities for which fair value is\nmeasured or disclosed in the consolidated financial\nstatements are categorized within the fair value\nhierarchy, described as follows, based on the\nlowest level input that is significant to the fair value\nmeasurement as a whole:\n\u2022\n\u0007Level 1 \u2014 Quoted (unadjusted) market prices in\nactive markets for identical assets or liabilities.\n\u2022\n\u0007Level 2 \u2014 Valuation techniques for which the\nlowest level input that is significant to the fair\nvalue measurement is directly or indirectly\nobservable.\n\u2022\n\u0007Level 3 \u2014 Valuation techniques for which the\nlowest level input that is significant to the fair\n</text>\n</passage>\n\n<passage id=\"216\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements > Foreign operations\n</context>\n<text>\nstatements are categorized within the fair value\nhierarchy, described as follows, based on the\nlowest level input that is significant to the fair value\nmeasurement as a whole:\n\u2022\n\u0007Level 1 \u2014 Quoted (unadjusted) market prices in\nactive markets for identical assets or liabilities.\n\u2022\n\u0007Level 2 \u2014 Valuation techniques for which the\nlowest level input that is significant to the fair\nvalue measurement is directly or indirectly\nobservable.\n\u2022\n\u0007Level 3 \u2014 Valuation techniques for which the\nlowest level input that is significant to the fair\nvalue measurement is unobservable.\nFor assets and liabilities that are recognized in the\nconsolidated financial statements on a recurring\nbasis, the Group determines whether transfers have\noccurred between levels in the hierarchy by re-\nassessing categorisation (based on the lowest level\ninput that is significant to the fair value measurement\nas a whole) at the end of each reporting year.\nFor the purpose of fair value disclosures, the Group\nhas determined classes of assets and liabilities on\nthe basis of the nature, characteristics and risks of\nthe asset or liability and the level of the fair value\nhierarchy as explained above.\nf) \t Property, plant and equipment\nProperty, plant, and equipment (\u201cPPE\u201d) are stated at\ncost, less accumulated depreciation and accumulated\nimpairment loss (if any). Such cost includes the\nexpenditure directly attributable to bringing the\nasset to the location and condition necessary for it\nto be capable of operating in the manner intended by\nmanagement.\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n212\nSubsequent costs on a PPE are included in the asset\u2019s\ncarrying amount only when it is probable that future\neconomic benefits associated with the item will flow\nto the Group and the cost of the item can be measured\nreliably. The carrying amount of any component\naccounted for as a separate asset is derecognized\nwhen replaced. Rest of the subsequent costs are\ncharged to the consolidated statement of profit and\nloss in the reporting period in which they are incurred.\nCapital work in progress is stated at cost, net of\naccumulated impairment loss, if any.\nDepreciation on property plant and equipment is\nprovided on a straight-line method based on the\nestimated useful life of the asset, which is as follows:\nProperty, plant and\nequipment\nUseful\nlives as per\nSchedule II\nUseful lives\nestimated by\nmanagement\nElectrical Equipments\n10 years\n1-5 years\nFurniture & Fittings\n10 years\n1-5 years\nComputers\n3 years\n1-3 years\nPlant and Machinery\n15 years\n1-10 years\nMotor Vehicles\n8 years\n3-8 years\nLeasehold improvements are amortized over the\nlease term or estimated useful life of such assets,\nwhichever is lower.\nThe management has estimated the useful lives and\nresidual values of property, plant and equipment\nand adopted useful lives based on management\u2019s\ntechnical assessment of their respective economic\nuseful lives. The residual values, useful lives and\nmethods of depreciation of property, plant and\nequipment are reviewed at each financial year end\nand adjusted prospectively (if any).\nDepreciation on the assets purchased during the\nyear is provided on pro-rata basis from the date of\npurchase of the assets.\nAn item of property, plant and equipment and any\nsignificant part initially recognized is derecognized\nupon disposal or when no future economic benefits\nare expected from its use or disposal. Any gain or loss\narising on derecognition of the asset (calculated as\nthe difference between the net disposal proceeds\nand the carrying amount of the asset) is included in\nthe consolidated statement of profit and loss when\nthe asset is derecognized.\ng) \t Goodwill and other intangible assets\nGoodwill represents the excess of the aggregate of\nthe cost of acquired business, amount recognized\nfor non-controlling interests, and the fair value of any\nprevious interest held in the acquiree over the net fair\n</text>\n</passage>\n\n<passage id=\"217\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements > management\n</context>\n<text>\nare expected from its use or disposal. Any gain or loss\narising on derecognition of the asset (calculated as\nthe difference between the net disposal proceeds\nand the carrying amount of the asset) is included in\nthe consolidated statement of profit and loss when\nthe asset is derecognized.\ng) \t Goodwill and other intangible assets\nGoodwill represents the excess of the aggregate of\nthe cost of acquired business, amount recognized\nfor non-controlling interests, and the fair value of any\nprevious interest held in the acquiree over the net fair\nvalue of the identifiable assets acquired and liabilities\nassumed. Goodwill is tested for impairment annually\nor when events or circumstances indicate that the\nimplied fair value of goodwill is less than the carrying\namount.\nIntangible assets acquired separately are measured\non initial recognition at cost. The cost of intangible\nassets acquired in a business combination is their fair\nvalue at the date of acquisition.\nFollowing initial recognition, intangible assets are\ncarried at cost less accumulated amortisation and\naccumulated impairment losses, if any. Internally\ngenerated intangibles, excluding capitalised\ndevelopment costs, are not capitalised and the related\nexpenditure is reflected in consolidated statement of\nprofit and loss in the year in which the expenditure is\nincurred.\nThe useful lives of intangible assets are assessed as\neither finite or indefinite.\nSoftware and websites (other than those acquired in\nbusiness combination) with finite lives are amortised\non a straight-line basis over the estimated useful life.\nAll intangible assets (other than goodwill) are assessed\nfor impairment whenever there is an indication that\nthe intangible asset may be impaired. The useful life\nand the amortisation method for an intangible asset\nwith a finite useful life are reviewed at least at the\nend of each reporting year. Changes in the expected\nuseful life or the expected pattern of consumption\nof future economic benefits embodied in the asset\nare considered to modify the amortisation period or\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n213\nmethod, as appropriate, and are treated as changes in\naccounting estimates. The amortisation expense on\nintangible assets with finite lives is recognized in the\nconsolidated statement of profit and loss unless such\nexpenditure forms part of carrying value of another\nasset.\nIntangible assets acquired in business combination,\ninclude brand, consumer contracts and relationship,\ntechnology platform, content/ reviews, trademarks,\nnon-compete and merchant relationship, are also\namortized on a straight- line basis over their estimated\nuseful life.\nThe estimated useful life of the intangible assets are\nas follows:\nNature of assets\nUseful lives\nestimated by\nmanagement\nBrand\n2-5 years\nCustomer contracts and\nrelationship / active users\n1-10 years\nTechnology platform\n5 years\nContent/ reviews\n5 years\nTrademarks\n5 years\nRestaurant listing platform\n6 years\nNon-Compete\n2-6 years\nSoftware and websites\n1-3 years\nMerchant relationship/\nDistribution network\n5-10 years\nThe amortisation period and method are reviewed\nat least at each financial year-end. If the expected\nuseful life of the asset is significantly different\nfrom previous estimates, the amortisation period is\nchanged accordingly.\nAn intangible asset is derecognized upon disposal\n(i.e., at the date the recipient obtains control) or\nwhen no future economic benefits are expected from\nits use or disposal. Any gains or losses arising from\nderecognition of an intangible asset are measured as\nthe difference between the net disposal proceeds and\nthe carrying amount of the asset and are recognized\nin the consolidated statement of profit and loss when\nthe asset is derecognized.\nh) \t Leases\nThe Group assesses at contract inception whether\na contract is, or contains, a lease i.e., whether the\n</text>\n</passage>\n\n<passage id=\"218\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements > management\n</context>\n<text>\n(i.e., at the date the recipient obtains control) or\nwhen no future economic benefits are expected from\nits use or disposal. Any gains or losses arising from\nderecognition of an intangible asset are measured as\nthe difference between the net disposal proceeds and\nthe carrying amount of the asset and are recognized\nin the consolidated statement of profit and loss when\nthe asset is derecognized.\nh) \t Leases\nThe Group assesses at contract inception whether\na contract is, or contains, a lease i.e., whether the\ncontract conveys the right to control the use of an\nidentified asset for a period of time in exchange for\nconsideration.\n\u2022\nGroup as a lessee\nThe Group applies a single recognition and\nmeasurement approach for all leases, except for\nshort-term leases and leases of low-value assets.\nThe Group recognizes lease liabilities to make lease\npayments and right-of-use assets representing the\nright to use the underlying assets.\nRight of use assets\nThe Group recognizes right-of-use (\u201cROU\u201d) assets at\nthe commencement date of the lease (i.e., the date\nthe underlying asset is available for use). The cost\nof ROU assets include the amount of lease liabilities\nrecognized, initial direct costs incurred, and lease\npayments made at or before the commencement date\nless any lease incentives received. The ROU assets are\nsubsequently measured at cost, less any accumulated\ndepreciation and accumulated impairment losses, if\nany, and adjusted for any remeasurement of lease\nliabilities. ROU assets are depreciated on a straight-\nline basis over the shorter of the lease term or the\nestimated useful lives of the assets. The Company\nhas lease contracts for office premises having a lease\nterm ranging from 1 to 10 years.\nIf ownership of the leased asset transfers to the\nGroup at the end of the lease term or the cost reflects\nthe exercise of a purchase option, depreciation is\ncalculated using the estimated useful life of the asset.\nThe right-of-use assets are also subject to\nimpairment. Refer to the accounting policies in\nsection (s) Impairment of non-financial assets.\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n214\nLease liabilities\nAt the commencement date of the lease, the Group\nrecognizes lease liabilities measured at the present\nvalue of lease payments to be made over the lease\nterm. The lease payments include fixed payments\n(including in substance fixed payments) less any lease\nincentives receivable, variable lease payments that\ndepend on an index or a rate, and amounts expected\nto be paid under residual value guarantees. The lease\npayments also include the exercise price of a purchase\noption reasonably certain to be exercised by the\nGroup and payments of penalties for terminating the\nlease, if the lease term reflects the Group exercising\nthe option to terminate. Variable lease payments that\ndo not depend on an index or a rate are recognized\nas expenses (unless they are incurred to produce\ninventories) in the year in which the event or condition\nthat triggers the payment occurs.\nIn calculating the present value of lease payments,\nthe Group uses its incremental borrowing rate at the\nlease commencement date because the interest\nrate implicit in the lease is not readily determinable.\nAfter the commencement date, the amount of lease\nliabilities is increased to reflect the accretion of\ninterest and reduced for the lease payments made.\nIn addition, the carrying amount of lease liabilities\nis remeasured if there is a modification, change in\nthe lease term, change in the lease payments (e.g.,\nchanges to future payments resulting from a change\nin an index or rate used to determine such lease\npayments) or change in the assessment of an option\nto purchase the underlying asset.\nShort term leases and leases of low value assets\nThe Group has elected not to recognize ROU assets\nand lease liabilities for short term leases that have a\n</text>\n</passage>\n\n<passage id=\"219\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements > Lease liabilities\n</context>\n<text>\ninterest and reduced for the lease payments made.\nIn addition, the carrying amount of lease liabilities\nis remeasured if there is a modification, change in\nthe lease term, change in the lease payments (e.g.,\nchanges to future payments resulting from a change\nin an index or rate used to determine such lease\npayments) or change in the assessment of an option\nto purchase the underlying asset.\nShort term leases and leases of low value assets\nThe Group has elected not to recognize ROU assets\nand lease liabilities for short term leases that have a\nlease term of twelve months or less and leases of low\nvalue assets. The Group recognizes lease payments\nassociated with these leases as an expense on a\nstraight-line basis over the lease term.\n\u2022\nGroup as a lessor\nWhen the Group acts as a lessor, it determines at lease\ninception whether the lease is a finance lease or an\noperating lease based on whether the lease transfers\nsubstantially all of the risks and rewards incidental\nto ownership of the underlying asset. If this is the\ncase, then the lease is a finance lease; if not, then it\nis an operating lease. As part of this assessment, the\nGroup considers certain indicators such as whether\nthe lease is for the major part of the economic life of\nthe asset.\nBasis on the Group\u2019s assessment, all of the Group\u2019s\npresent leasing arrangements are classified as\noperating leases.\nThe Group recognises lease payments received under\noperating leases as an income over the lease term.\ni)\nInventories\nInventories are valued at lower of cost and net\nrealisable value. Cost is determined using either\nfirst in first out method or the weighted average cost\nmethod, as appropriate depending upon the nature of\nusage of inventories. Inventory cost includes purchase\nprice and other directly attributable costs (such as\ntaxes other than those subsequently recovered from\nthe tax authorities), freight inward and other related\nincidental expenses incurred in bringing the inventory\nto its present condition and location.\nNet realisable value is the estimated selling price in\nthe ordinary course of business less estimated cost\nnecessary to make the sale.\nj) \t Revenue recognition\nThe Group generates revenue mainly by providing\ne-commerce platform services to third party\nmerchants (including restaurant partners, quick\ncommerce merchants, delivery partners, theatres,\nsports facilities and event organisers) and users. In\naddition, the Group is also engaged in sale of goods\nto customers through its quick commerce platform,\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n215\nevent organization/management business, sale of\ngoods to restaurant partners and quick commerce\nmerchants, warehousing and other ancillary services.\nRevenue towards satisfaction of a performance\nobligation is measured at the amount of transaction\nprice (net of variable consideration) allocated towards\nthat performance obligation. The transaction price\nof goods sold, and services rendered is net of any\ntaxes collected from customers, which is remitted\nto government authorities and variable consideration\non account of various discounts and rebates offered\nby the Group. The transaction price is an amount\nof consideration to which the entity expects to\nbe entitled in exchange for transferring promised\ngoods or services. Consideration includes goods or\nservices contributed by the customer, as non-cash\nconsideration, over which Group has control.\nWhere performance obligation is satisfied over time,\nthe Group recognizes revenue over the contract\nperiod. Where performance obligation is satisfied at\na point in time, the Group recognizes revenue when\ncustomer obtains control of promised goods and\nservices in the contract.\nFollowing are the revenue recognition principles:\ni)\nFood delivery and quick commerce transactions\n(platform facilitation to third party merchants):\n</text>\n</passage>\n\n<passage id=\"220\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements\n</context>\n<text>\nservices contributed by the customer, as non-cash\nconsideration, over which Group has control.\nWhere performance obligation is satisfied over time,\nthe Group recognizes revenue over the contract\nperiod. Where performance obligation is satisfied at\na point in time, the Group recognizes revenue when\ncustomer obtains control of promised goods and\nservices in the contract.\nFollowing are the revenue recognition principles:\ni)\nFood delivery and quick commerce transactions\n(platform facilitation to third party merchants):\nThe Group operates e-commerce platforms\nconnecting the users, restaurant partners/ quick\ncommerce merchants and the delivery partners. The\nGroup has separate contractual arrangements with\nthe users, restaurant partners /quick commerce\nmerchants and the delivery partners respectively\nwhich specify and creates enforceable rights and\nobligations of each of the parties.\n\u2022\nIdentification of customer\n\u0007The Group considers a party to be a customer if\na) it provides services to the party and b) receives\nconsideration from the party.\n-\n\u0007Based on the contractual arrangement,\nthe restaurant partners/quick commerce\nmerchants are considered as customers;\n-\n\u0007In case of delivery services, the users are\nconsidered customer only in the cases where\nthe Group is responsible for delivery services\nto the end users;\n-\n\u0007In case of services other than delivery, the\nusers are considered customer only in case\nthe Group charges service fee from the\nusers; and\n-\n\u0007Where the Group is providing goods to the\nquick commerce merchants, which further\nsale these goods to the end users on the\nGroup platform, the end user is considered\nas a customer of these quick commerce\nmerchants (i.e. customer of the customer).\nHowever, for the services provided by the\nGroup to the restaurant partners/ quick\ncommerce merchants, the Group does\nnot consider user as a customer of these\nrestaurant partners/ quick commerce\nmerchants (i.e. customer of the customer),\nas the Group is not providing the services\nof/ on behalf of Restaurant partners/ quick\ncommerce merchants.\n\u2022\n\u0007Goods or services provided by restaurant\npartners/quick commerce merchants and\ncommission income:\n\u0007The Group considers itself as a principal in an\narrangement when it controls the goods or\nservice provided. The Group has concluded that\nit does not control the goods or services provided\nby the restaurant partners/quick commerce\nmerchants.\n\u0007The Group recognizes the commission revenue\nearned from restaurant partners/ quick\ncommerce merchants on a point in time basis.\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n216\nii)\t Sale of goods\nRevenue from sale of goods is recognized at a point\nin time when control of the goods is transferred\nto the customers, (i.e. upon the satisfaction of\nperformance obligation) at an amount that reflects\nthe consideration to which the entity expects to be\nentitled in exchange for those goods.\niii)\t User incentives\nThe Group provides various types of incentives to the\nusers to promote the transactions on its platforms.\nIn case where the Group has considered the user as a\ncustomer, the incentives paid to user are netted off in\nrevenue against the amount charged from the user. In\ncases where the Group does not consider the user as\na customer, the incentives paid to user are recorded\nas expense.\niv)\t Platform services and transactions\nThe Group provides platform services to its users\nand earns revenue in the form of platform fee. This\nplatform fee is recognized at a point in time when the\nservices are rendered, i.e., when an order is placed\nand/or facilitated through the platform.\nv)\t Advertisement revenue\nAdvertisement revenue is derived principally from the\nsale of online/ offline advertisements which is usually\nrun over a contracted period of time. The revenue from\nadvertisements is thus recognized over this contract\nperiod as the performance obligation is met over the\n</text>\n</passage>\n\n<passage id=\"221\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements > iv)\t Platform services and transactions\n</context>\n<text>\nThe Group provides platform services to its users\nand earns revenue in the form of platform fee. This\nplatform fee is recognized at a point in time when the\nservices are rendered, i.e., when an order is placed\nand/or facilitated through the platform.\nv)\t Advertisement revenue\nAdvertisement revenue is derived principally from the\nsale of online/ offline advertisements which is usually\nrun over a contracted period of time. The revenue from\nadvertisements is thus recognized over this contract\nperiod as the performance obligation is met over the\ncontract period. There are some contracts where in\naddition to the contract period, the Group assures\ncertain clicks/impressions (which are generated each\ntime viewers on our platform clicks/views through the\nadvertiser\u2019s advertisement on the platform) to the\nadvertisers. In these cases, the revenue is recognized\nwhen both the conditions of time period and number\nof clicks/impressions assured are met.\nvi)\t Subscription revenue\nRevenues from subscription contracts are recognized\nover the subscription period on systematic basis in\naccordance with terms of agreement entered with\ncustomer.\nvii)\t Sign-up revenue\nThe Group receives a sign-up amount from its\nrestaurant partners/quick commerce merchants and\ndelivery partners. These are recognized on receipt\nor over a period of time in accordance with terms of\nagreement entered into with such relevant partners.\nviii)\tDelivery facilitation services\nIn certain arrangements, the Group is a technology\nplatform provider enabling delivery partners to\nprovide their delivery services to the restaurant\npartners/users and may charge a fee for providing\nthe platform services to delivery partners which\nis recognized as revenue on a point in time basis.\nThe Group has no control over the delivery services\nprovided by the delivery partners.\nix)\t Delivery services\nIn certain arrangements, the Group is responsible for\nproviding delivery services, in such cases the Group\nrecognizes the delivery fee received as revenue on a\npoint in time basis.\nx)\t Warehousing services\nRevenue from warehousing services is recognised\nover the period during which the warehousing\nservices are rendered, as the performance obligation\nis satisfied over time in accordance with terms of\nagreement entered with customers.\nxi)\t Ticketing services:\nThe Group provides an online/offline platform that\nfacilitates the booking of movies, sports venues and\nevents between users and movie theatres/ sports\nfacilities/ event organisers.\nThe Group has assessed that it does not control the\nunderlying services provided by the movie theatres/\nsports facilities/ event organisers and acts as an\nagent in the transaction. Accordingly, the Group\nrecognizes revenue on a net basis, representing the\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n217\ncommission earned on ticketing services on a point\nin time basis.\nFurther, the Group\u2019s share of convenience fee is\nrecognized as revenue at a point in time, when a\nbooking is made by the user.\nxii)\t Event organisation and management services:\nThe Group also organises its own events and\nprovides event management services to third-party\norganisers. The revenue recognition principles from\nthese are:\n-\n\u0007Own Events: Revenue from ticket sales of events\norganised by the Group is recognized at a point in\ntime, i.e., when the event occurs.\n-\n\u0007Event Management Services: Revenue from\nevent management services provided to other\norganisers is recognized over time, based on\nthe stage of completion, as the services are\nrendered.\nInterest\nInterest income is recognized using the effective\ninterest rate (EIR) method. Interest income is included\nunder the head \u201cother income\u201d in the consolidated\nstatement of profit and loss.\nContract balances:\nContract assets\nThe Group recognizes a contract asset when there\nexists a right, to receive consideration in exchange\n</text>\n</passage>\n\n<passage id=\"222\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements\n</context>\n<text>\n\u0007Event Management Services: Revenue from\nevent management services provided to other\norganisers is recognized over time, based on\nthe stage of completion, as the services are\nrendered.\nInterest\nInterest income is recognized using the effective\ninterest rate (EIR) method. Interest income is included\nunder the head \u201cother income\u201d in the consolidated\nstatement of profit and loss.\nContract balances:\nContract assets\nThe Group recognizes a contract asset when there\nexists a right, to receive consideration in exchange\nfor goods or services already transferred to the\ncustomer which is conditioned on something\nother than passage of time (e.g. the Group\u2019s future\nperformance obligation).\nTrade receivables\nA receivable represents the Group\u2019s right to an\namount of consideration that is unconditional (i.e.,\nonly the passage of time is required before payment\nof the consideration is due).\nContract liabilities\nThe Group recognizes a contract liability for an\nobligation to transfer goods or services to a customer\nfor which the Group has received consideration (or the\namount is due) from the customer.\nk) \t Retirement and other employee benefits\nDefined contribution plans\nRetirement benefit in the form of provident fund and\nsocial security is a defined contribution scheme. The\nGroup has no obligation, other than the contribution\npayable to the provident fund/social security.\nThe Group recognizes contribution payable to the\nprovident fund scheme/ social security scheme as\nan expense, when an employee renders the related\nservice. If the contribution payable to the scheme\nfor service received before the balance sheet date\nexceeds the contribution already paid, the deficit\npayable to the scheme is recognized as a liability\nafter deducting the contribution already paid. If the\ncontribution already paid exceeds the contribution\ndue for services received before the balance\nsheet date, then excess is recognized as an asset\n(representing a reduction in future payment or a cash\nrefund).\nIn case of other foreign subsidiary companies and\nforeign branches, contributions are made as per\nthe respective country laws and regulations. The\nsame is charged to consolidated statement of profit\nand loss. There is no obligation beyond the Group\u2019s\ncontribution.\nDefined benefit plans (Gratuity)\nThe Group operates a defined benefit gratuity plan in\nIndia and United Arab Emirates.\nThe cost of providing benefits under the defined\nbenefit plan is determined using the projected unit\ncredit method.\nThe obligation so determined is invested in an\nappropriate investment product of an Insurance\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n218\nCompany and is recognized as having \u2018reimbursement\nright\u2019 as per Ind AS 19. The reimbursement right is\ntreated as a separate asset measured at fair value\nand is not offset against the related defined benefit\nobligation. This investment will earn interest and the\ncorresponding interest expense on defined benefit\nliability will be decreased with this interest amount.\nThe amount recoverable from the investment product\nwould be utilized for payment of the defined benefits\npayable.\nRemeasurements, comprising of actuarial gains and\nlosses, excluding amounts included in net interest\non the defined benefit liability and reimbursement\nright, are recognized immediately in the consolidated\nbalance sheet with a corresponding debit or credit\nto OCI in the year in which they occur. They are then\naccumulated in a separate reserve. Remeasurements\nare not reclassified to consolidated statement of\nprofit and loss in subsequent years.\nThe Group recognizes the following changes in the\ndefined benefit obligation and reimbursement right\nas an expense in the consolidated statement of profit\nand loss:\n\u2022\n\u0007Service costs comprising current service\ncosts, past-service costs, gains and losses on\ncurtailments and non-routine settlements; and\n</text>\n</passage>\n\n<passage id=\"223\">\n<context>\n[page header]\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n\n[section]\nchanging lifestyles > Consolidated Financial Statements\n</context>\n<text>\nbalance sheet with a corresponding debit or credit\nto OCI in the year in which they occur. They are then\naccumulated in a separate reserve. Remeasurements\nare not reclassified to consolidated statement of\nprofit and loss in subsequent years.\nThe Group recognizes the following changes in the\ndefined benefit obligation and reimbursement right\nas an expense in the consolidated statement of profit\nand loss:\n\u2022\n\u0007Service costs comprising current service\ncosts, past-service costs, gains and losses on\ncurtailments and non-routine settlements; and\n\u2022\nNet interest expense\nOther long term employee benefits (Compensated\nAbsences)\nIn some countries the Group has liabilities for earned\nleaves which are not expected to be settled wholly\nwithin 12 months after the end of the period in which\nthe employees render the related service. These\nobligations are therefore measured as the present value\nof expected future payments to be made in respect of\nservices provided by employees up to the end of the\nreporting period by actuaries using the projected unit\ncredit method. The benefits are discounted using the\nmarket yields at the end of the reporting year that\nhave terms approximating to the terms of the related\nobligation. Remeasurements as a result of experience\nadjustments and changes in actuarial assumptions are\nrecognized in the consolidated statement of profit and\nloss.\nl) \t Taxes\nCurrent tax\nCurrent tax assets and liabilities are measured at the\namount expected to be recovered from or paid to the\ntaxation authorities. The tax rates and tax laws used\nto compute the amount are those that are enacted\nor substantively enacted, at the reporting date in the\ncountries where the Group operates and generates\ntaxable income.\nCurrent tax relating to items recognized outside\nconsolidated profit and loss is recognized outside\nconsolidated profit and loss (either in other\ncomprehensive income or in equity). Current tax\nitems are recognized in correlation to the underlying\ntransaction either in OCI or directly in equity.\nManagement yearly evaluates positions taken in\nthe tax returns with respect to situations in which\napplicable tax regulations are subject to interpretation\nand establishes provisions where appropriate.\nAdvance taxes and provisions for current taxes are\npresented in the consolidated balance sheet after\noff-setting advance tax paid and income tax provision\narising in the same tax jurisdiction and for the same\nperiod and where the relevant tax paying unit intends\nto settle the asset and liability on a net basis.\nDeferred taxes\nDeferred tax is calculated on the temporary\ndifferences between the tax bases of assets and\nliabilities and their carrying amounts for financial\nreporting purposes at the reporting date.\nDeferred tax liabilities are recognized for all taxable\ntemporary differences, except:\n\u2022\n\u0007When the deferred tax liability arises from the\ninitial recognition of goodwill or an asset or\n\n\nMaterial  Accounting Policies to the\nConsolidated Financial Statements\nfor the year ended March 31, 2026\nCIN : L93030DL2010PLC198141\nFinancial Statements: Consolidated\nStatutory Reports\nCompany Overview\n219\nliability in a transaction that is not a business\ncombination and, at the time of the transaction,\naffects neither the accounting profit nor taxable\nprofit and loss, and does not give rise to equal\ntaxable and deductible temporary differences.\n\u2022\n\u0007In respect of taxable temporary differences\nassociated with investments in subsidiaries,\nassociates and interests in joint ventures, when\nthe timing of the reversal of the temporary\ndifferences can be controlled and it is probable\nthat the temporary differences will not reverse\nin the foreseeable future.\nDeferred tax assets are recognized for all deductible\ntemporary differences, the carry forward of unused\ntax credits and any unused tax losses. Deferred tax\nassets are recognized to the extent that it is probable\nthat taxable profit will be available against which the\ndeductible temporary differences, and the carry\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "The consolidated financial statements for the year ended March 31, 2025, show a total equity attributable to owners of the Parent of 29,410 INR crores.",
+        "confidence": 1,
+        "passage_id": 208,
+        "predicate": "equity_attributable_to_owners_of_the_parent",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2025"
+          }
+        ],
+        "quote": "As at March 31, 2025\n3\n1,253\n33,116\n(5,265)\n15\n181\n81\n39\n(13)\n29,410",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "29,410",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The profit before tax for the year ended March 31, 2026, was 615 INR crores.",
+        "confidence": 1,
+        "passage_id": 209,
+        "predicate": "profit_before_tax",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Profit before tax\n615",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "615",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The profit before tax for the year ended March 31, 2025, was 697 INR crores.",
+        "confidence": 1,
+        "passage_id": 209,
+        "predicate": "profit_before_tax",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2025"
+          }
+        ],
+        "quote": "Profit before tax\n615\n697",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "697",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The net cash generated from operating activities for the year ended March 31, 2026, was 632 INR crores.",
+        "confidence": 1,
+        "passage_id": 210,
+        "predicate": "net_cash_generated_from_operating_activities",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Net cash generated from / (used in) operating activities (A)\n632",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "632",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The net cash generated from operating activities for the year ended March 31, 2025, was 308 INR crores.",
+        "confidence": 1,
+        "passage_id": 210,
+        "predicate": "net_cash_generated_from_operating_activities",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2025"
+          }
+        ],
+        "quote": "Net cash generated from / (used in) operating activities (A)\n632\n308",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "308",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The net cash generated from investing activities for the year ended March 31, 2026, was 536 INR crores.",
+        "confidence": 1,
+        "passage_id": 210,
+        "predicate": "net_cash_generated_from_investing_activities",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Net cash generated from / (used in) investing activities (B)\n536",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "536",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The net cash used in investing activities for the year ended March 31, 2025, was 7,993 INR crores.",
+        "confidence": 1,
+        "passage_id": 210,
+        "predicate": "net_cash_used_in_investing_activities",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2025"
+          }
+        ],
+        "quote": "Net cash generated from / (used in) investing activities (B)\n536\n(7,993)",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(7,993)",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The net cash used in financing activities for the year ended March 31, 2026, was 842 INR crores.",
+        "confidence": 1,
+        "passage_id": 210,
+        "predicate": "net_cash_used_in_financing_activities",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2026"
+          }
+        ],
+        "quote": "Net cash generated from / (used in) financing activities (C)\n(842)",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(842)",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The net cash generated from financing activities for the year ended March 31, 2025, was 8,042 INR crores.",
+        "confidence": 1,
+        "passage_id": 210,
+        "predicate": "net_cash_generated_from_financing_activities",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2025"
+          }
+        ],
+        "quote": "Net cash generated from / (used in) financing activities (C)\n(842)\n8,042",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "8,042",
+          "unit": "INR crores"
+        }
+      },
+      {
+        "claim_text": "The registered office of Eternal Limited is located at Ground Floor \u2013 12A, 94, Meghdoot, Nehru Place, New Delhi - 110019.",
+        "confidence": 1,
+        "passage_id": 212,
+        "predicate": "registered_office_address",
+        "qualifiers": [],
+        "quote": "The registered office of the Company is\nlocated at Ground Floor \u2013 12A, 94, Meghdoot, Nehru\nPlace, New Delhi - 110019.",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "text",
+          "raw": "Ground Floor \u2013 12A, 94, Meghdoot, Nehru Place, New Delhi - 110019"
+        }
+      },
+      {
+        "claim_text": "On March 20, 2025, the name of the Company was changed from Zomato Limited to Eternal Limited.",
+        "confidence": 1,
+        "passage_id": 212,
+        "predicate": "name_change_date",
+        "qualifiers": [
+          {
+            "key": "previous_name",
+            "provenance": "stated",
+            "value": "Zomato Limited"
+          },
+          {
+            "key": "new_name",
+            "provenance": "stated",
+            "value": "Eternal Limited"
+          }
+        ],
+        "quote": "On March 20, 2025, the\nname of the Company had been changed from Zomato\nLimited to Eternal Limited",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "date",
+          "raw": "March 20, 2025"
+        }
+      },
+      {
+        "claim_text": "The Group has identified twelve months as its operating cycle.",
+        "confidence": 1,
+        "passage_id": 212,
+        "predicate": "operating_cycle_duration",
+        "qualifiers": [],
+        "quote": "The Group has identified twelve\nmonths as its operating cycle.",
+        "subject_key": "L93030DL2010PLC198141",
+        "subject_surface": "Eternal Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "text",
+          "raw": "twelve months"
+        }
+      }
+    ]
+  }
+}

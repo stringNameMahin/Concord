@@ -1,0 +1,620 @@
+{
+  "key": "e72bf654ab87ff2d583c7ff26470b3bdb949d555de186f7ae90a6fc3506b704f",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Below are 15 independent passages from one document, each with its own\nenclosing context. Work through every passage in order and give each the same\nattention. The last passage matters as much as the first.\n\nFor every fact, set `passage_id` to the id of the passage you took it from, and\ncopy `quote` from inside that same passage. A quote that does not appear\nverbatim in the passage it claims will be discarded.\n\nContext blocks are background. Qualifiers taken from a context block are\n`inherited`. Do not extract facts from a context block unless its passage\nrepeats them.\n\n<passage id=\"15\">\n<context>\n[section]\nAverage cost of acquisition of equity shares of the Selling Shareholders\n</context>\n<text>\nN.A.\nNil\nN.A.\nN.A.\n2.\nDeli CMF Pte. Ltd.\nN.A.\nNil\nN.A.\nN.A.\n3.\nSVF Doorbell\n(Cayman) Ltd\nDecember 3,\n2019\n13,753\n18,214.00\nTransfer of Series C\nPreference Shares\nDecember 3,\n2019\n164,862\n18,214.00\nTransfer of Series D\nPreference Shares\nDecember 3,\n2019\n1,987\n18,214.00\nTransfer of Series E\nPreference Shares\n4.\nTimes Internet Limited\nN.A.\nNil\nN.A.\nN.A\n5.\nMohit Tandon\nN.A.\nNil\nN.A.\nN.A\n6.\nKapil Bharati\nFebruary 3, 2021\n6,408\n22,615.00\nAllotment of Series G\nPreference Shares\n7.\nSuraj Saharan\nN.A.\nNil\nN.A.\nN.A\nOther Shareholders with nominee director rights\n8.\nSahil Barua\nFebruary 3, 2021\n6,408\n22,615.00\nAllotment of Series G\nPreference Shares\n9.\nCanada Pension Plan\nInvestment Board\nSeptember 27,\n2019\n152,631\n18,214.00\nTransfer of Series B\nPreference Shares\nSeptember 27,\n2019\n18,522\n18,214.00\nTransfer of Series C\nPreference Shares\nSeptember 27,\n2019\n172,205\n18,214.00\nTransfer of Series D\nPreference Shares\nSeptember 27,\n2019\n1,539\n18,214.00\nTransfer of Series D1\nPreference Shares\nSeptember 27,\n2019\n614\n18,214.00\nTransfer of Series E\nPreference Shares\n10.\nNexus Ventures III\nLimited\nN.A.\nNil\nN.A.\nN.A.\n11.\nNexus Opportunity\nFund Ltd\nN.A.\nNil\nN.A.\nN.A.\n12.\nFedEx Express\nTransportation and\nSupply Chain Services\n(India) Private Limited\nN.A.\nNil\nN.A.\nN.A.\n\n\n33\nPreference\nShares\nNumber of\nPreference Shares\nNumber of Equity\nShares allotted\npost-split and post-\nbonus\nFace Value per Equity Share\nImplied average\ncost of\nacquisition (\u20b9)\nPre-split\nPost-split\nSeries\nH\nPreference Shares\n563,349\n56,334,990\n10\n1\n356.55\nSeries I Preference\nShares\n146,961\n14,696,100\n10\n1\n380.00\nDetails of Pre-IPO Placement\nOur Company does not propose to undertake any pre-IPO placement of its Equity Shares.\nOffer of equity shares for consideration other than cash or by way of bonus in the last one year\nExcept as disclosed below, our Company has not issued any equity shares or preference shares for consideration\nother than cash or by way of bonus issue in the last one year:\nDate of\nallotment\nReason /\nNature of\nallotment\nNo. of equity\nshares allotted\nFace value per\nequity share\n(\u20b9)\nIssue price per\nequity share\n(\u20b9)\nBenefits accrued to our\nCompany\nSeptember\n29, 2021\nBonus issue in\nthe ratio of\nnine equity\nshares for one\nequity share (1)\n16,846,803\n10\nN.A.\nN.A.\n(1) Allotment of equity shares of face value of \u20b910 each, by way of bonus issue, to such holders of equity shares of our Company, whose\nnames appear in the list of beneficial owners on the record date, i.e. September 28, 2021.\nSplit or consolidation of equity shares in the last one year\nPursuant to shareholders\u2019 resolution dated September 29, 2021 each equity share of our Company of face value\nof \u20b910 each was split into 10 Equity Shares of face value of \u20b91 each. Therefore, an aggregate of 18,718,670 equity\nshares of \u20b910 each were split into 187,186,700 Equity Shares of \u20b91 each.\n\n\n90\n</text>\n</passage>\n\n<passage id=\"16\">\n<context>\n[section]\nDetails of Pre-IPO Placement\n</context>\n<text>\n(1) Allotment of equity shares of face value of \u20b910 each, by way of bonus issue, to such holders of equity shares of our Company, whose\nnames appear in the list of beneficial owners on the record date, i.e. September 28, 2021.\nSplit or consolidation of equity shares in the last one year\nPursuant to shareholders\u2019 resolution dated September 29, 2021 each equity share of our Company of face value\nof \u20b910 each was split into 10 Equity Shares of face value of \u20b91 each. Therefore, an aggregate of 18,718,670 equity\nshares of \u20b910 each were split into 187,186,700 Equity Shares of \u20b91 each.\n\n\n90\nSUMMARY OF FINANCIAL STATEMENTS\nI.\nSUMMARY OF RESTATED FINANCIAL STATEMENTS\nThe following tables provide the summary of financial information of our Company derived from the Restated\nFinancial Statements.\nRESTATED SUMMARY CONSOLIDATED BALANCE SHEET DATA\n(in \u20b9 million, unless otherwise stated)\nParticulars\nAs at\nAs at\nAs at\nAs at\nAs at\nDecember\n31, 2021\nDecember 31, 2020\nMarch 31, 2021\nMarch\n31, 2020\nMarch 31,\n2019\nAssets\nNon-current assets\nProperty, plant and\nequipment\n5,516.57\n2,482.47\n2,379.71\n2,358.91\n1,610.12\nRight of use asset\n8,487.29\n8,027.33\n7,828.04\n4,781.14\n2,975.12\nCapital work in progress\n647.71\n940.83\n767.55\n267.22\n8.80\nGoodwill\n13,861.48\n186.40\n186.48\n186.40\n163.80\nOther intangible assets\n4,074.08\n108.41\n139.55\n113.80\n130.62\nIntangible assets under\ndevelopment\n20.73\n47.00\n-\n48.09\n-\nFinancial assets\ni)  Investments\n4,073.64\n3,271.36\n4,205.89\n3,772.39\n247.01\nii)  Loans\n-\n-\n-\n-\n27.32\niii) Other financial assets\n2,626.79\n1,914.49\n886.62\n5,253.76\n2,036.03\nNon-current tax assets (net)\n1,388.59\n1,367.17\n1,231.69\n1,050.15\n596.45\nOther non-current assets\n237.13\n13.05\n47.47\n13.64\n134.27\nTotal non- current assets\n40,934.01\n18,358.51\n17,673.00\n17,845.50\n7,929.54\nCurrent assets\nInventories\n317.82\n241.09\n259.48\n178.32\n226.33\nFinancial assets\ni) Investments\n17,374.67\n8,070.37\n7,075.64\n8,104.41\n11,304.27\nii) Trade receivables\n8,917.91\n7,558.62\n5,945.82\n6,013.31\n2,146.50\niii) Cash and cash\nequivalents\n3,609.80\n2,023.21\n2,758.63\n1,200.38\n16,626.39\niv) Other bank balances\n-\n-\n15.78\n2,886.62\n7.93\nv) Loans\n90.00\n64.15\n264.21\n26.80\n2.30\nvi) Other financial assets\n10,310.01\n10,387.15\n10,815.26\n6,444.10\n1,951.17\nOther current assets\n2,740.61\n1,144.46\n1,170.16\n873.64\n431.02\nTotal current assets\n43,360.82\n29,489.05\n28,304.98\n25,727.58\n32,695.91\nTotal assets\n84,294.83\n47,847.56\n45,977.98\n43,573.08\n40,625.45\nEquity and liabilities\nEquity\nEquity share capital\n216.68\n16.24\n16.33\n9.75\n9.58\nInstruments entirely equity in\nnature\n425.02\n353.99\n353.99\n391.72\n391.72\nOther equity\n59,156.77\n28,778.14\n27,997.65\n31,302.59\n33,481.53\n\n\n91\n</text>\n</passage>\n\n<passage id=\"17\">\n<context>\n[section]\nRESTATED SUMMARY CONSOLIDATED BALANCE SHEET DATA\n</context>\n<text>\n26.80\n2.30\nvi) Other financial assets\n10,310.01\n10,387.15\n10,815.26\n6,444.10\n1,951.17\nOther current assets\n2,740.61\n1,144.46\n1,170.16\n873.64\n431.02\nTotal current assets\n43,360.82\n29,489.05\n28,304.98\n25,727.58\n32,695.91\nTotal assets\n84,294.83\n47,847.56\n45,977.98\n43,573.08\n40,625.45\nEquity and liabilities\nEquity\nEquity share capital\n216.68\n16.24\n16.33\n9.75\n9.58\nInstruments entirely equity in\nnature\n425.02\n353.99\n353.99\n391.72\n391.72\nOther equity\n59,156.77\n28,778.14\n27,997.65\n31,302.59\n33,481.53\n\n\n91\n(in \u20b9 million, unless otherwise stated)\nParticulars\nAs at\nAs at\nAs at\nAs at\nAs at\nDecember\n31, 2021\nDecember 31, 2020\nMarch 31, 2021\nMarch\n31, 2020\nMarch 31,\n2019\nTotal equity\n59,798.47\n29,148.37\n28,367.97\n31,704.06\n33,882.83\nLiabilities\nNon-current liabilities\nFinancial Liabilities\ni)   Borrowings\n1,005.28\n1,329.84\n1,316.09\n998.02\n356.20\nii)  Lease liabilities\n6,912.95\n6,563.72\n6,538.44\n3,870.65\n2,425.22\niii)  Trade payables\na. total outstanding dues\nof micro enterprises and\nsmall enterprises\n-\n-\n-\n-\n-\nb. total outstanding dues\nof creditors other than micro\nenterprises\nand\nsmall\nenterprises\n-\n-\n-\n1.10\n24.75\nProvisions\n406.55\n214.58\n219.16\n166.12\n108.90\nDeferred tax liabilities (net)\n734.97\n-\n-\n-\n-\nTotal non- current\nliabilities\n9,059.75\n8,108.14\n8,073.69\n5,035.89\n2,915.07\nCurrent liabilities\nFinancial liabilities\ni) Borrowings\n2,702.53\n2,064.74\n1,697.34\n1,570.13\n579.97\nii) Lease liabilities\n2,211.17\n1,755.08\n1,617.16\n1,107.66\n744.43\niii) Trade payables\na. total outstanding dues\nof micro enterprises and\nsmall enterprises\n38.38\n16.64\n20.52\n7.97\n0.61\nb. total outstanding dues\nof creditors other than micro\nenterprises and small\nenterprises\n7,799.53\n4,963.02\n4,401.78\n2,725.53\n1,581.78\niv) Other financial\nliabilities\n1,450.02\n1,353.33\n1,305.75\n1,096.90\n683.88\nProvisions\n192.49\n118.33\n121.67\n103.62\n67.50\nOther current liabilities\n1,042.49\n318.71\n370.90\n220.08\n169.38\nCurrent tax liabilities (net)\n-\n1.20\n1.20\n1.24\n-\nTotal current liabilities\n15,436.61\n10,591.05\n9,536.32\n6,833.13\n3,827.55\nTotal liabilities\n24,496.36\n18,699.19\n17,610.01\n11,869.02\n6,742.62\nTotal equity and liabilities\n84,294.83\n47,847.56\n45,977.98\n43,573.08\n40,625.45\n\n\n92\n</text>\n</passage>\n\n<passage id=\"18\">\n<context>\n[section]\nRESTATED SUMMARY CONSOLIDATED BALANCE SHEET DATA\n</context>\n<text>\n7,799.53\n4,963.02\n4,401.78\n2,725.53\n1,581.78\niv) Other financial\nliabilities\n1,450.02\n1,353.33\n1,305.75\n1,096.90\n683.88\nProvisions\n192.49\n118.33\n121.67\n103.62\n67.50\nOther current liabilities\n1,042.49\n318.71\n370.90\n220.08\n169.38\nCurrent tax liabilities (net)\n-\n1.20\n1.20\n1.24\n-\nTotal current liabilities\n15,436.61\n10,591.05\n9,536.32\n6,833.13\n3,827.55\nTotal liabilities\n24,496.36\n18,699.19\n17,610.01\n11,869.02\n6,742.62\nTotal equity and liabilities\n84,294.83\n47,847.56\n45,977.98\n43,573.08\n40,625.45\n\n\n92\nRESTATED SUMMARY CONSOLIDATED PROFIT AND LOSS DATA\n(in \u20b9 million, unless otherwise stated)\nParticulars\nFor the nine\nmonths period\nended\nFor the nine\nmonths period\nended\nFor the year ended\nFor the\nyear ended\nFor the\nyear ended\nDecember 31,\n2021\nDecember 31,\n2020\nMarch 31, 2021\nMarch 31,\n2020\nMarch 31,\n2019\nIncome\nRevenue from contract\nwith customers\n48,105.30\n26,438.66\n36,465.27\n27,805.75\n16,538.97\nOther income\n1,008.76\n1,626.63\n1,917.64\n2,080.54\n409.77\nTotal income (I)\n49,114.06\n28,065.29\n38,382.91\n29,886.29\n16,948.74\nExpenses\nFreight, handling and\nservicing cost\n34,786.36\n20,257.07\n27,780.82\n21,837.96\n12,506.83\nPurchase of traded\ngoods\n1,750.22\n79.73\n102.08\n57.69\n-\nChange in inventory\nof traded goods\n(28.75)\n-\n-\n-\n-\nEmployee benefit\nexpense\n9,726.30\n4,387.89\n6,109.23\n4,908.94\n3,446.39\nFair value loss on\nfinancial liabilities at\nfair value through\nprofit or loss\n2,997.39\n-\n91.95\n-\n14,806.64\nFinance costs\n762.29\n639.39\n886.27\n492.18\n358.13\nDepreciation and\namortisation expense\n3,881.75\n2,545.81\n3,546.20\n2,555.91\n1,700.05\nOther expenses\n4,225.95\n2,717.03\n3,610.49\n2,721.63\n1,963.74\nTotal expenses (II)\n58,101.51\n30,626.92\n42,127.04\n32,574.31\n34,781.78\nRestated loss before\nexceptional item and\ntax (III= I - II)\n(8,987.45)\n(2,561.62)\n(3,744.13)\n(2,688.02)\n(17,833.04)\nExceptional items (IV)\n-\n(413.30)\n(413.30)\n-\n-\nRestated loss before\ntax (V= III+IV)\n(8,987.45)\n(2,974.92)\n(4,157.43)\n(2,688.02)\n(17,833.04)\nTax expense,\ncomprising:\nCurrent tax\n100.49\n-\n-\n(1.24)\n-\nDeferred tax\n(176.55)\n-\n-\n-\n-\nTotal tax expense\n(VI)\n(76.06)\n-\n-\n(1.24)\n-\nRestated loss for the\nperiod /  year (VII=\nV+VI)\n(8,911.39)\n(2,974.92)\n(4,157.43)\n(2,689.26)\n(17,833.04)\nOther\ncomprehensive\nincome:\n(a) Items that will not\nbe\nreclassified\nto\n\n\n93\n</text>\n</passage>\n\n<passage id=\"19\">\n<context>\n[section]\nRESTATED SUMMARY CONSOLIDATED PROFIT AND LOSS DATA\n</context>\n<text>\n(8,987.45)\n(2,561.62)\n(3,744.13)\n(2,688.02)\n(17,833.04)\nExceptional items (IV)\n-\n(413.30)\n(413.30)\n-\n-\nRestated loss before\ntax (V= III+IV)\n(8,987.45)\n(2,974.92)\n(4,157.43)\n(2,688.02)\n(17,833.04)\nTax expense,\ncomprising:\nCurrent tax\n100.49\n-\n-\n(1.24)\n-\nDeferred tax\n(176.55)\n-\n-\n-\n-\nTotal tax expense\n(VI)\n(76.06)\n-\n-\n(1.24)\n-\nRestated loss for the\nperiod /  year (VII=\nV+VI)\n(8,911.39)\n(2,974.92)\n(4,157.43)\n(2,689.26)\n(17,833.04)\nOther\ncomprehensive\nincome:\n(a) Items that will not\nbe\nreclassified\nto\n\n\n93\n(in \u20b9 million, unless otherwise stated)\nParticulars\nFor the nine\nmonths period\nended\nFor the nine\nmonths period\nended\nFor the year ended\nFor the\nyear ended\nFor the\nyear ended\nDecember 31,\n2021\nDecember 31,\n2020\nMarch 31, 2021\nMarch 31,\n2020\nMarch 31,\n2019\nprofit\nor\nloss\nin\nsubsequent periods:\n(i) Re-measurement\n(loss) / gain on\ndefined benefit plans\n(24.33)\n1.47\n10.38\n(7.62)\n(0.00)\n(ii) Income tax\nrelating to items that\nwill not be re-\nclassified to profit and\nloss\n(1.38)\n-\n-\n-\n-\nSubtotal (a)\n(25.71)\n1.47\n10.38\n(7.62)\n(0.00)\n(b) Items that will be\nreclassified to profit\nor loss in subsequent\nperiods:\n(i)\nExchange\ndifferences\non\ntranslation of foreign\noperations\n(6.37)\n(14.69)\n(8.32)\n17.27\n(4.59)\n(ii) Income tax relating\nto items that will be re-\nclassified to profit and\nloss\n-\n-\n-\n-\n-\nSubtotal (b)\n(6.37)\n(14.69)\n(8.32)\n17.27\n(4.59)\nRestated other\ncomprehensive\nincome / (loss) for the\nperiod / year (a+b)\n(32.08)\n(13.22)\n2.06\n9.65\n(4.59)\nRestated total\ncomprehensive loss\nfor the  period / year\n(8,943.47)\n(2,988.14)\n(4,155.37)\n(2,679.61)\n(17,837.63)\nRestated loss per\nshare\n- Basic loss per share\n(INR)\n(15.36)\n(5.77)\n(8.05)\n(5.22)\n(47.22)\n- Diluted loss per\nshare (INR)\n(15.36)\n(5.77)\n(8.05)\n(5.22)\n(47.22)\n\n\n94\n</text>\n</passage>\n\n<passage id=\"20\">\n<context>\n[section]\nRESTATED SUMMARY CONSOLIDATED PROFIT AND LOSS DATA\n</context>\n<text>\n(ii) Income tax relating\nto items that will be re-\nclassified to profit and\nloss\n-\n-\n-\n-\n-\nSubtotal (b)\n(6.37)\n(14.69)\n(8.32)\n17.27\n(4.59)\nRestated other\ncomprehensive\nincome / (loss) for the\nperiod / year (a+b)\n(32.08)\n(13.22)\n2.06\n9.65\n(4.59)\nRestated total\ncomprehensive loss\nfor the  period / year\n(8,943.47)\n(2,988.14)\n(4,155.37)\n(2,679.61)\n(17,837.63)\nRestated loss per\nshare\n- Basic loss per share\n(INR)\n(15.36)\n(5.77)\n(8.05)\n(5.22)\n(47.22)\n- Diluted loss per\nshare (INR)\n(15.36)\n(5.77)\n(8.05)\n(5.22)\n(47.22)\n\n\n94\nRESTATED SUMMARY CONSOLIDATED CASH FLOWS DATA\n(in \u20b9 million, unless otherwise stated)\nParticulars\nFor the\nnine\nmonths\nperiod\nended\nFor the\nnine\nmonths\nperiod\nended\nFor the\nyear ended\nFor the year\nended\nFor the year\nended\nDecember\n31, 2021\nDecember\n31, 2020\nMarch 31,\n2021\nMarch 31, 2020\nMarch 31, 2019\nOperating activities\nRestated loss before tax\n(8,987.45)\n(2,974.92)\n(4,157.43)\n(2,688.02)\n(17,833.04)\nAdjustments to reconcile loss\nbefore tax to net cash flows:\nDepreciation of property, plant\nand equipment\n1,493.92\n1,081.03\n1,567.32\n1,321.96\n895.76\nAmortization of intangible\nassets\n699.25\n53.81\n76.56\n83.76\n38.01\nDepreciation of right of use\nassets\n1,688.58\n1,410.97\n1,902.32\n1,150.15\n766.28\nAllowances for doubtful debts\n892.47\n762.82\n894.78\n447.91\n275.40\nBad debts written off\n1.51\n4.44\n4.45\n11.06\n36.10\nAllowances for doubtful\nadvances\n7.64\n41.14\n47.53\n9.48\n7.55\nProvision for diminution in\nvalue of non - current\ninvestments\n-\n-\n-\n-\n92.90\nProvision for doubtful debts\n-\n413.30\n413.30\n-\n-\nInventory written off\n-\n-\n-\n75.62\n-\nShare based payment expense\n2,168.41\n420.72\n723.12\n488.05\n379.44\nInterest expense\n180.32\n137.51\n198.64\n113.26\n97.24\nInterest on lease liabilities\n574.39\n498.43\n683.05\n377.99\n257.41\nStamp duty expense\n-\n(1.56)\n(2.58)\n(3.76)\n-\nFair value gain on investment\nat fair value through profit or\nloss\n(192.14)\n(385.24)\n(325.01)\n(133.50)\n(10.07)\nAssets written off\n2.05\n-\n-\n0.26\n-\nInterest income\n(452.34)\n(900.64)\n(1,150.36)\n(1,419.65)\n(319.32)\nInterest income on unwinding\nof discount on security deposits\npaid\n(84.84)\n(84.91)\n(105.63)\n(39.80)\n(20.22)\nNet loss/ (gain) on sale of\ncurrent investments\n(151.98)\n(100.81)\n(100.81)\n(394.80)\n(24.74)\nExchange differences on\ntranslation of foreign\noperations\n-\n-\n-\n-\n(4.59)\nRent waiver on lease liabilities\n-\n(33.80)\n(33.80)\n-\n-\nGain on modification /\ntermination of lease contracts\n(36.86)\n(79.26)\n(99.76)\n-\n(7.28)\nFair value loss on financial\nliabilities at fair value through\nprofit or loss\n2,997.39\n-\n91.95\n-\n14,806.64\n\n\n95\n</text>\n</passage>\n\n<passage id=\"21\">\n<context>\n[section]\n(in \u20b9 million, unless otherwise stated)\n</context>\n<text>\nInterest income on unwinding\nof discount on security deposits\npaid\n(84.84)\n(84.91)\n(105.63)\n(39.80)\n(20.22)\nNet loss/ (gain) on sale of\ncurrent investments\n(151.98)\n(100.81)\n(100.81)\n(394.80)\n(24.74)\nExchange differences on\ntranslation of foreign\noperations\n-\n-\n-\n-\n(4.59)\nRent waiver on lease liabilities\n-\n(33.80)\n(33.80)\n-\n-\nGain on modification /\ntermination of lease contracts\n(36.86)\n(79.26)\n(99.76)\n-\n(7.28)\nFair value loss on financial\nliabilities at fair value through\nprofit or loss\n2,997.39\n-\n91.95\n-\n14,806.64\n\n\n95\n(in \u20b9 million, unless otherwise stated)\nParticulars\nFor the\nnine\nmonths\nperiod\nended\nFor the\nnine\nmonths\nperiod\nended\nFor the\nyear ended\nFor the year\nended\nFor the year\nended\nDecember\n31, 2021\nDecember\n31, 2020\nMarch 31,\n2021\nMarch 31, 2020\nMarch 31, 2019\nFair value loss on financial\ninstruments at fair value\nthrough profit or loss\n-\n-\n-\n-\n92.95\n(Profit) / loss on disposals of\nproperty, plant and equipment\n(3.85)\n(2.11)\n(2.95)\n8.08\n(0.47)\nOperating loss before\nworking capital changes\n796.47\n260.92\n624.69\n(591.95)\n(474.05)\nMovements in working\ncapital :\nIncrease in inventories\n(58.34)\n(62.77)\n(81.17)\n(27.62)\n(56.74)\nIncrease in trade and other\nreceivables\n(2,070.02)\n(2,725.92)\n(831.62)\n(4,356.46)\n(826.53)\nIncrease in financial assets\n(2,919.69)\n(1,386.81)\n(1,007.50)\n(2,238.76)\n(452.82)\n(Increase) / decrease in other\nassets\n(1,489.59)\n(269.45)\n(303.01)\n(16.61)\n61.66\nDecrease / (Increase) in loans\n(1,819.95)\n(37.38)\n(237.44)\n25.00\n5.81\nIncrease / (decrease) in trade\npayables\n2,094.89\n2,242.34\n1,689.64\n1,130.30\n(375.55)\nIncrease / (decrease) in other\nliabilities\n151.46\n311.80\n304.55\n103.90\n(139.32)\nIncrease in provisions\n199.04\n64.64\n71.10\n85.60\n58.40\nCash (used in) / flow from\noperations\n(5,115.73)\n(1,602.63)\n229.24\n(5,886.60)\n(2,199.14)\nIncome taxes paid /(refund)\n(net)\n24.76\n(317.03)\n(181.55)\n(452.46)\n(227.70)\nNet cash (used in )/ flow from\noperating activities (A)\n(5,090.97)\n(1,919.66)\n47.69\n(6,339.06)\n(2,426.84)\nInvesting activities\nPurchase of property, plant &\nequipment (including other\nintangible assets, capital work\nin progress and capital\nadvances)\n(3,825.74)\n(1,895.28)\n(2,509.39)\n(2,135.86)\n(1,565.90)\nProceeds from property, plant\n& equipment (including other\nintangible assets)\n40.15\n7.10\n23.71\n0.26\n-\nPayment towards acquisition of\nbusiness\n(13,866.73)\n-\n(35.00)\n(36.31)\n(265.40)\nProceeds from sale of financial\nassets - liquid mutual fund\nunits, debt instruments\n22,405.88\n10,217.72\n10,217.69\n45,696.23\n2,910.16\nPayment to acquire financial\nassets-  liquid mutual fund\nunits, debt instruments\n(32,230.14)\n(9,196.59)\n(9,196.60)\n(45,493.49)\n(11,905.47)\nAcquisition of property, plant\nand equipment\n(1,885.86)\n-\n-\n-\n-\nProceeds from sale of\ninvestment in equity\n1.55\n-\nMaturity of bank deposits\n(having original maturity of\nmore than 12 months)\n7,940.60\n1,942.41\n2,484.66\n1,754.37\n2,799.03\n\n\n96\n</text>\n</passage>\n\n<passage id=\"22\">\n<context>\n[section]\n(in \u20b9 million, unless otherwise stated)\n</context>\n<text>\nProceeds from sale of financial\nassets - liquid mutual fund\nunits, debt instruments\n22,405.88\n10,217.72\n10,217.69\n45,696.23\n2,910.16\nPayment to acquire financial\nassets-  liquid mutual fund\nunits, debt instruments\n(32,230.14)\n(9,196.59)\n(9,196.60)\n(45,493.49)\n(11,905.47)\nAcquisition of property, plant\nand equipment\n(1,885.86)\n-\n-\n-\n-\nProceeds from sale of\ninvestment in equity\n1.55\n-\nMaturity of bank deposits\n(having original maturity of\nmore than 12 months)\n7,940.60\n1,942.41\n2,484.66\n1,754.37\n2,799.03\n\n\n96\n(in \u20b9 million, unless otherwise stated)\nParticulars\nFor the\nnine\nmonths\nperiod\nended\nFor the\nnine\nmonths\nperiod\nended\nFor the\nyear ended\nFor the year\nended\nFor the year\nended\nDecember\n31, 2021\nDecember\n31, 2020\nMarch 31,\n2021\nMarch 31, 2020\nMarch 31, 2019\nincluding margin money\ndeposits\nInvestments in bank deposits\n(having original maturity of\nmore than 12 months)\nincluding margin money\ndeposits\n(6,103.32)\n(947.51)\n(1,227.49)\n(7,185.57)\n(1,687.04)\nMaturity / (investments) of\nbank deposits (having original\nmaturity of more than 3\nmonths)\n15.78\n2,886.62\n2,870.84\n(2,878.69)\n0.94\nInterest received\n1,117.13\n569.88\n754.50\n953.61\n319.32\nNet cash (used in) / flow from\ninvesting activities (B)\n(26,390.70)\n3,584.35\n3,382.92\n(9,325.45)\n(9,394.36)\nFinancing activities\nProceeds from issuance of\nequity share capital (including\nstock option exercised)\n8,456.04\n11.73\n98.25\n14.68\n-\nProceeds from issuance of\ninstruments entirely equity in\nnature\n25,501.56\n-\n-\n-\n28,900.96\nProceeds from issuance of\ncompulsorily convertible\npreference shares\n956.22\n-\n92.88\n(Repayment) / Proceeds from\nlong term borrowings\n(1,382.79)\n331.76\n133.20\n641.78\n268.31\nInterest paid\n(169.20)\n(131.57)\n(205.34)\n(108.69)\n(93.49)\nPayment of interest portion of\nlease liabilities\n(574.39)\n(498.42)\n(683.05)\n(377.99)\n(257.41)\nPayment of principal portion of\nlease liabilities\n(1,371.25)\n(1,049.97)\n(1,435.51)\n(921.44)\n(620.48)\nRepayments of short term\nborrowings\n(1,697.24)\n(1,164.60)\n(500.00)\n(287.89)\n(319.76)\nProceeds from short term\nborrowings\n2,118.56\n2,064.59\n1,032.58\n872.68\n706.08\nNet cash flow from/ (used in)\nfinancing activities (C)\n31,837.51\n(436.48)\n(1,466.99)\n(166.87)\n28,584.21\nNet (decrease) / increase in\ncash and cash equivalents\n(A+B+C)\n355.86\n1,228.20\n1,963.62\n(15,831.38)\n16,763.01\nCash and cash equivalents at\nbeginning of the period/ year\n2,758.63\n795.01\n795.01\n16,626.39\n(136.62)\nCash and cash equivalents at\nend of the period/ year\n3,114.49\n2,023.21\n2,758.63\n795.01\n16,626.39\n\n\n97\n</text>\n</passage>\n\n<passage id=\"23\">\n<context>\n[section]\n(in \u20b9 million, unless otherwise stated)\n</context>\n<text>\n(319.76)\nProceeds from short term\nborrowings\n2,118.56\n2,064.59\n1,032.58\n872.68\n706.08\nNet cash flow from/ (used in)\nfinancing activities (C)\n31,837.51\n(436.48)\n(1,466.99)\n(166.87)\n28,584.21\nNet (decrease) / increase in\ncash and cash equivalents\n(A+B+C)\n355.86\n1,228.20\n1,963.62\n(15,831.38)\n16,763.01\nCash and cash equivalents at\nbeginning of the period/ year\n2,758.63\n795.01\n795.01\n16,626.39\n(136.62)\nCash and cash equivalents at\nend of the period/ year\n3,114.49\n2,023.21\n2,758.63\n795.01\n16,626.39\n\n\n97\nII.\nSUMMARY OF PROFORMA FINANCIAL STATEMENTS\nThe following tables provide the summary of financial information derived from the Proforma Financial\nStatements.\nPROFORMA SUMMARY CONSOLIDATED PROFIT AND LOSS DATA FOR THE YEAR ENDED\nMARCH 31, 2021\n(amount in \u20b9 million, unless otherwise stated)\nRestated\nConsolidated\nSummary\nStatement of\nProfit and\nLoss of\nDelhivery\nLimited for\nthe year\nended March\n31, 2021\nSpoton\nLogistics\nPrivate\nLimited\nSpecial\nPurpose\nConsolidated\nStatement of\nProfit and\nLoss for the\nyear ended\nMarch 31,\n2021\nIntragroup\nelimination\nAcquisition\nAdjustments\nTotal\nAdjustments\nProforma\nConsolidated\nstatement of\nProfit and\nLoss of\nDelhivery\nLimited for\nthe year\nended\nMarch 31,\n2021\n(A)\n(B)\n(D)\n(C)\n(E=C+D)\n(F=A+B+E)\nIncome\nRevenue from\ncontract with\ncustomers\n36,465.27\n8,035.88\n(1.84)\n-\n-\n44,501.15\nOther income\n1,917.64\n26.89\n-\n-\n-\n1,944.53\nTotal income\n(I)\n38,382.91\n8,062.77\n(1.84)\n-\n-\n46,445.68\nExpenses\nFreight,\nhandling and\nservicing cost\n27,780.82\n5,925.38\n(1.84)\n-\n-\n33,706.20\nPurchase of\ntraded goods\n102.08\n-\n-\n-\n-\n102.08\nEmployee\nbenefit expense\n6,109.23\n856.04\n-\n115.10\n115.10\n7,080.37\nFair value loss\non financial\nliabilities at fair\nvalue through\nprofit or loss\n91.95\n-\n-\n-\n-\n91.95\nFinance costs\n886.27\n369.28\n-\n-\n-\n1,255.55\nDepreciation\nand amortisation\nexpense\n3,546.20\n718.98\n-\n1,320.19\n1,320.19\n5,585.37\nOther expenses\n3,610.49\n503.19\n-\n95.00\n95.00\n4,208.68\nTotal expenses\n(II)\n42,127.04\n8,372.87\n(1.84)\n1,530.29\n1,530.29\n52,030.20\nLoss before\nexceptional\nitem and tax\n(III)\n(3,744.13)\n(310.10)\n-\n(1,530.29)\n(1,530.29)\n(5,584.52)\nExceptional\nitems (IV)\n(413.30)\n-\n(413.30)\nLoss before tax\n(V= III+IV)\n(4,157.43)\n(310.10)\n-\n(1,530.29)\n(1,530.29)\n(5,997.82)\n\n\n98\n</text>\n</passage>\n\n<passage id=\"24\">\n<context>\n[section]\nMARCH 31, 2021\n</context>\n<text>\n91.95\n-\n-\n-\n-\n91.95\nFinance costs\n886.27\n369.28\n-\n-\n-\n1,255.55\nDepreciation\nand amortisation\nexpense\n3,546.20\n718.98\n-\n1,320.19\n1,320.19\n5,585.37\nOther expenses\n3,610.49\n503.19\n-\n95.00\n95.00\n4,208.68\nTotal expenses\n(II)\n42,127.04\n8,372.87\n(1.84)\n1,530.29\n1,530.29\n52,030.20\nLoss before\nexceptional\nitem and tax\n(III)\n(3,744.13)\n(310.10)\n-\n(1,530.29)\n(1,530.29)\n(5,584.52)\nExceptional\nitems (IV)\n(413.30)\n-\n(413.30)\nLoss before tax\n(V= III+IV)\n(4,157.43)\n(310.10)\n-\n(1,530.29)\n(1,530.29)\n(5,997.82)\n\n\n98\n(amount in \u20b9 million, unless otherwise stated)\nRestated\nConsolidated\nSummary\nStatement of\nProfit and\nLoss of\nDelhivery\nLimited for\nthe year\nended March\n31, 2021\nSpoton\nLogistics\nPrivate\nLimited\nSpecial\nPurpose\nConsolidated\nStatement of\nProfit and\nLoss for the\nyear ended\nMarch 31,\n2021\nIntragroup\nelimination\nAcquisition\nAdjustments\nTotal\nAdjustments\nProforma\nConsolidated\nstatement of\nProfit and\nLoss of\nDelhivery\nLimited for\nthe year\nended\nMarch 31,\n2021\nTax expense,\ncomprising:\nCurrent tax\n-\n120.13\n-\n-\n-\n120.13\nDeferred tax\ncredit\n-\n(156.57)\n-\n-\n-\n(156.57)\nTotal tax\nexpense\n-\n(36.44)\n-\n-\n-\n(36.44)\nLoss for the\nyear (III-IV)\n(4,157.43)\n(273.66)\n-\n(1,530.29)\n(1,530.29)\n(5,961.38)\nOther\ncomprehensive\nincome\na)\nItems that will\nnot be\nreclassified to\nstatement of\nprofit and loss\nin subsequent\nperiods\ni) Re-\nmeasurement\ngains on defined\nbenefit plans\n10.38\n9.70\n-\n-\n-\n20.08\nii) Income tax\nrelating to items\nthat will not be\nreclassified to\nprofit and loss\n-\n(3.39)\n-\n-\n-\n(3.39)\n-\nSubtotal (a)\n10.38\n6.31\n-\n-\n-\n16.69\nb)\nItems that will\nbe reclassified\nto profit or loss\nin subsequent\nperiods:\ni) Exchange\ndifferences on\ntranslation of\nforeign\noperations\n(8.32)\n-\n-\n-\n-\n(8.32)\nii) Income tax\nrelating to items\nthat will be re-\nclassified to\nprofit and loss\n-\n-\n-\n-\n-\n-\nSubtotal (b)\n(8.32)\n-\n-\n-\n-\n(8.32)\n\n\n99\n</text>\n</passage>\n\n<passage id=\"25\">\n<context>\n[section]\nMARCH 31, 2021\n</context>\n<text>\ni) Re-\nmeasurement\ngains on defined\nbenefit plans\n10.38\n9.70\n-\n-\n-\n20.08\nii) Income tax\nrelating to items\nthat will not be\nreclassified to\nprofit and loss\n-\n(3.39)\n-\n-\n-\n(3.39)\n-\nSubtotal (a)\n10.38\n6.31\n-\n-\n-\n16.69\nb)\nItems that will\nbe reclassified\nto profit or loss\nin subsequent\nperiods:\ni) Exchange\ndifferences on\ntranslation of\nforeign\noperations\n(8.32)\n-\n-\n-\n-\n(8.32)\nii) Income tax\nrelating to items\nthat will be re-\nclassified to\nprofit and loss\n-\n-\n-\n-\n-\n-\nSubtotal (b)\n(8.32)\n-\n-\n-\n-\n(8.32)\n\n\n99\n(amount in \u20b9 million, unless otherwise stated)\nRestated\nConsolidated\nSummary\nStatement of\nProfit and\nLoss of\nDelhivery\nLimited for\nthe year\nended March\n31, 2021\nSpoton\nLogistics\nPrivate\nLimited\nSpecial\nPurpose\nConsolidated\nStatement of\nProfit and\nLoss for the\nyear ended\nMarch 31,\n2021\nIntragroup\nelimination\nAcquisition\nAdjustments\nTotal\nAdjustments\nProforma\nConsolidated\nstatement of\nProfit and\nLoss of\nDelhivery\nLimited for\nthe year\nended\nMarch 31,\n2021\nOther\ncomprehensive\nincome / (loss)\nfor the year\n(a+b)\n2.06\n6.31\n-\n-\n-\n8.37\nTotal\nComprehensive\nloss for the\nyear\n(4,155.37)\n(267.35)\n-\n(1,530.29)\n(1,530.29)\n(5,953.01)\nLoss per share\n(Nominal value\nper share - Re\n1)\n- Basic loss per\nshare (INR)\n(8.05)\n(10.79)\n-  Diluted loss\nper share (INR)\n(8.05)\n(10.79)\n\n\n100\n</text>\n</passage>\n\n<passage id=\"26\">\n<context>\n[section]\nMARCH 31, 2021\n</context>\n<text>\nyear ended\nMarch 31,\n2021\nIntragroup\nelimination\nAcquisition\nAdjustments\nTotal\nAdjustments\nProforma\nConsolidated\nstatement of\nProfit and\nLoss of\nDelhivery\nLimited for\nthe year\nended\nMarch 31,\n2021\nOther\ncomprehensive\nincome / (loss)\nfor the year\n(a+b)\n2.06\n6.31\n-\n-\n-\n8.37\nTotal\nComprehensive\nloss for the\nyear\n(4,155.37)\n(267.35)\n-\n(1,530.29)\n(1,530.29)\n(5,953.01)\nLoss per share\n(Nominal value\nper share - Re\n1)\n- Basic loss per\nshare (INR)\n(8.05)\n(10.79)\n-  Diluted loss\nper share (INR)\n(8.05)\n(10.79)\n\n\n100\nPROFORMA SUMMARY CONSOLIDATED BALANCE SHEET DATA AS AT MARCH 31, 2021\n(amount in \u20b9 million, unless otherwise stated)\nRestated\nConsolidated\nSummary\nStatement of\nAssets and\nLiabilities of\nDelhivery\nLimited as at\nMarch 31, 2021\nSpoton Logistics\nPrivate Limited\nSpecial Purpose\nConsolidated\nBalance Sheet\nas at March 31,\n2021\nIntragroup\nelimination\nAcquisition\nAdjustments\nTotal\nadjustments\nProforma\nConsolidated\nBalance Sheet\nof Delhivery\nLimited as at\nMarch 31,\n2021\n(A)\n(B)\n(D)\n(C)\n(E=C+D)\n(F=A+B+E)\nASSETS\nI. Non-current assets\nPPE\nProperty, plant and\nequipment\n2,379.71\n195.94\n-\n-\n-\n2,575.65\nPPE\nRight of use asset\n7,828.04\n924.13\n-\n-\n-\n8,752.17\nPPE\nCapital work in\nprogress\n767.55\n-\n-\n-\n-\n767.55\nInta\nngib\nle\nAsse\nts\nGoodwill\n186.48\n807.15\n-\n11,800.15\n11,800.15\n12,793.78\nOther intangible assets\n139.55\n60.11\n-\n2,929.20\n2,929.20\n3,128.86\nIntangible assets under\ndevelopment\n-\n6.78\n-\n-\n-\n6.78\nFinancial assets\n(i)  Investments\n4,205.89\n-\n-\n-\n-\n4,205.89\n(ii) Other financial\nassets\n886.62\n133.67\n-\n-\n-\n1,020.29\nNon-current tax assets\n(net)\n1,231.69\n273.85\n-\n-\n-\n1,505.54\nOther non-current\nassets\n47.47\n20.78\n-\n-\n-\n68.25\nTotal non-current assets\n17,673.00\n2,422.41\n-\n14,729.35\n14,729.35\n34,824.76\nII. Current assets\nInventories\n259.48\n-\n-\n-\n-\n259.48\nFinancial assets\n(i) Investments\n7,075.64\n-\n-\n-\n-\n7,075.64\n(ii) Trade\nreceivables\n5,945.82\n1,792.77\n(2.17)\n-\n-\n7,738.59\n(iii) Cash and cash\nequivalents\n2,758.63\n237.27\n-\n4,881.93\n4,881.93\n7,877.83\n(iv) Other bank\nbalances\n15.78\n6.87\n-\n-\n-\n22.65\n(v) Loans\n264.21\n-\n-\n-\n-\n264.21\n(vi) Other\nfinancial assets\n10,815.26\n492.21\n-\n-\n-\n11,307.47\nOther current assets\n1,170.16\n216.22\n-\n-\n-\n1,386.38\nTotal current assets\n28,304.98\n2,745.34\n(2.17)\n4,881.93\n4,881.93\n35,932.25\nTotal Assets (I+II)\n45,977.98\n5,167.75\n(2.17)\n19,611.28\n19,611.28\n70,757.01\nEQUITY AND\nLIABILITIES\nIII. EQUITY\n\n\n101\n</text>\n</passage>\n\n<passage id=\"27\">\n<context>\n[section]\nPROFORMA SUMMARY CONSOLIDATED BALANCE SHEET DATA AS AT MARCH 31, 2021\n</context>\n<text>\nreceivables\n5,945.82\n1,792.77\n(2.17)\n-\n-\n7,738.59\n(iii) Cash and cash\nequivalents\n2,758.63\n237.27\n-\n4,881.93\n4,881.93\n7,877.83\n(iv) Other bank\nbalances\n15.78\n6.87\n-\n-\n-\n22.65\n(v) Loans\n264.21\n-\n-\n-\n-\n264.21\n(vi) Other\nfinancial assets\n10,815.26\n492.21\n-\n-\n-\n11,307.47\nOther current assets\n1,170.16\n216.22\n-\n-\n-\n1,386.38\nTotal current assets\n28,304.98\n2,745.34\n(2.17)\n4,881.93\n4,881.93\n35,932.25\nTotal Assets (I+II)\n45,977.98\n5,167.75\n(2.17)\n19,611.28\n19,611.28\n70,757.01\nEQUITY AND\nLIABILITIES\nIII. EQUITY\n\n\n101\n(amount in \u20b9 million, unless otherwise stated)\nRestated\nConsolidated\nSummary\nStatement of\nAssets and\nLiabilities of\nDelhivery\nLimited as at\nMarch 31, 2021\nSpoton Logistics\nPrivate Limited\nSpecial Purpose\nConsolidated\nBalance Sheet\nas at March 31,\n2021\nIntragroup\nelimination\nAcquisition\nAdjustments\nTotal\nadjustments\nProforma\nConsolidated\nBalance Sheet\nof Delhivery\nLimited as at\nMarch 31,\n2021\n(A)\n(B)\n(D)\n(C)\n(E=C+D)\n(F=A+B+E)\nEquity share capital\n16.33\n198.26\n-\n(198.26)\n(198.26)\n16.33\nInstruments entirely\nequity in nature\n353.99\n-\n-\n56.34\n56.34\n410.33\nOther equity\n27,997.65\n288.41\n19,753.20\n19,753.20\n48,039.26\nTotal equity\n28,367.97\n486.67\n-\n19,611.28\n19,611.28\n48,465.92\nLIABILITIES\nIV. Non-current liabilities\nFinancial Liabilities\n(i) Borrowings\n1,316.09\n1,059.48\n-\n-\n-\n2,375.57\n(ii) Lease liabilities\n6,538.44\n654.78\n-\n-\n-\n7,193.22\n(iii) Other financial\nliabilities\n-\n226.06\n-\n-\n-\n226.06\nProvisions\n219.16\n75.59\n-\n-\n-\n294.75\nDeferred tax liabilities\n(net)\n-\n33.48\n-\n-\n-\n33.48\nTotal non- current\nliabilities\n8,073.69\n2,049.39\n-\n-\n-\n10,123.08\nV. Current liabilities\nFinancial liabilities\n(i)  Borrowings\n1,697.34\n727.23\n-\n-\n-\n2,424.57\n(ii)  Lease liabilities\n1,617.16\n312.82\n-\n-\n-\n1,929.98\n(iii) Trade payables\na. total\noutstanding dues of\nmicro enterprises and\nsmall enterprises\n20.52\n16.02\n-\n-\n-\n36.54\nb. total\noutstanding dues of\ncreditors other than\nmicro enterprises and\nsmall enterprises\n4,401.78\n1,356.09\n(2.17)\n-\n-\n5,757.87\n(iv) Other financial\nliabilities\n1,305.75\n159.16\n-\n-\n1,464.91\nProvisions\n121.67\n18.94\n-\n-\n-\n140.61\nOther current liabilities\n370.90\n41.43\n-\n-\n-\n412.33\nCurrent tax liabilities\n(net)\n1.20\n-\n-\n-\n-\n1.20\nTotal current\nliabilities\n9,536.32\n2,631.69\n(2.17)\n-\n-\n12,168.01\nTotal Equity and\nLiabilities (III+IV+V)\n45,977.98\n5,167.75\n(2.17)\n19,611.28\n19,611.28\n70,757.01\n\n\n102\n</text>\n</passage>\n\n<passage id=\"28\">\n<context>\n[section]\nPROFORMA SUMMARY CONSOLIDATED BALANCE SHEET DATA AS AT MARCH 31, 2021\n</context>\n<text>\n-\n36.54\nb. total\noutstanding dues of\ncreditors other than\nmicro enterprises and\nsmall enterprises\n4,401.78\n1,356.09\n(2.17)\n-\n-\n5,757.87\n(iv) Other financial\nliabilities\n1,305.75\n159.16\n-\n-\n1,464.91\nProvisions\n121.67\n18.94\n-\n-\n-\n140.61\nOther current liabilities\n370.90\n41.43\n-\n-\n-\n412.33\nCurrent tax liabilities\n(net)\n1.20\n-\n-\n-\n-\n1.20\nTotal current\nliabilities\n9,536.32\n2,631.69\n(2.17)\n-\n-\n12,168.01\nTotal Equity and\nLiabilities (III+IV+V)\n45,977.98\n5,167.75\n(2.17)\n19,611.28\n19,611.28\n70,757.01\n\n\n102\nPROFORMA SUMMARY CONSOLIDATED PROFIT AND LOSS DATA FOR THE NINE MONTHS\nPERIOD ENDED DECEMBER 31, 2021\n(amount in \u20b9 million, unless otherwise stated)\nRestated\nConsolida\nted\nSummary\nStatement\nof Profit\nand Loss\nof\nDelhivery\nLimited\nfor nine\nmonths\nperiod\nended\nDecember\n31, 2021\nSpoton Logistics\nPrivate Limited\nSpecial purpose\ninterim\nconsolidated\nstatement of\nProfit and Loss\nfor the nine\nmonths period\nended\nDecember 31,\n2021\nAdjustment\nfor Spoton\nLogistics\nPrivate\nLimited\nInterim\nConsolidated\nProfit and\nLoss for\nperiod\nAugust 24,\n2021 to\nDecember 31,\n2021\nIntragroup\nelimination\nfor period\nApril 1,\n2021 to\nAugust 23,\n2021\nAcquisiti\non\nAdjustm\nents for\nperiod\nApril 1,\n2021 to\nAugust\n23, 2021\nTotal\nAdjustment\ns\nProforma\nConsolida\nted\nStatement\nof Profit\nand Loss\nfor the\nnine\nmonths\nperiod\nended\nDecember\n31, 2021\n(A)\n(B)\n(C)\n(D)\n(E)\n(F=C+D+E)\n(G=A+B+F\n)\nIncome:\nRevenue from\ncontract with\ncustomers\n48,105.30\n7,575.11\n(3,973.94)\n(9.92)\n-\n(3,983.86)\n51,696.55\nOther income\n1,008.76\n11.55\n(10.05)\n-\n-\n(10.05)\n1,010.26\nTotal income\n(I)\n49,114.06\n7,586.66\n(3,983.99)\n(9.92)\n-\n(3,993.91)\n52,706.81\nExpenses:\nFreight,\nhandling and\nservicing cost\n34,786.36\n5,446.88\n(2,838.88)\n(9.92)\n-\n(2,848.80)\n37,384.44\nPurchase of\ntraded goods\n1,750.22\n-\n-\n-\n-\n-\n1,750.22\nChange in\ninventory of\ntraded goods\n(28.75)\n-\n-\n-\n-\n-\n(28.75)\nEmployee\nbenefit\nexpense\n9,726.30\n838.93\n(400.19)\n-\n45.73\n(354.45)\n10,210.77\nFair value loss\non financial\nliabilities at\nfair value\nthrough profit\nor loss\n2,997.39\n-\n-\n-\n-\n-\n-\n2,997.39\nFinance costs\n762.29\n413.01\n(102.68)\n-\n-\n(102.68)\n1,072.62\nDepreciation\nand\namortisation\nexpense\n3,881.75\n592.05\n(284.45)\n-\n524.46\n240.01\n4,713.81\nOther\nexpenses\n4,225.95\n468.20\n(266.73)\n-\n-\n(266.73)\n4,427.42\nTotal\nexpenses (II)\n58,101.51\n7,759.07\n(3,892.93)\n(9.92)\n570.19\n(3,332.66)\n62,527.92\nLoss before\nexceptional\nitem and tax\n(III)\n(8,987.45)\n(172.41)\n(91.06)\n-\n(570.19)\n(661.25)\n(9,821.11)\n\n\n103\n</text>\n</passage>\n\n<passage id=\"29\">\n<context>\n[section]\nPERIOD ENDED DECEMBER 31, 2021\n</context>\n<text>\nFair value loss\non financial\nliabilities at\nfair value\nthrough profit\nor loss\n2,997.39\n-\n-\n-\n-\n-\n-\n2,997.39\nFinance costs\n762.29\n413.01\n(102.68)\n-\n-\n(102.68)\n1,072.62\nDepreciation\nand\namortisation\nexpense\n3,881.75\n592.05\n(284.45)\n-\n524.46\n240.01\n4,713.81\nOther\nexpenses\n4,225.95\n468.20\n(266.73)\n-\n-\n(266.73)\n4,427.42\nTotal\nexpenses (II)\n58,101.51\n7,759.07\n(3,892.93)\n(9.92)\n570.19\n(3,332.66)\n62,527.92\nLoss before\nexceptional\nitem and tax\n(III)\n(8,987.45)\n(172.41)\n(91.06)\n-\n(570.19)\n(661.25)\n(9,821.11)\n\n\n103\n(amount in \u20b9 million, unless otherwise stated)\nRestated\nConsolida\nted\nSummary\nStatement\nof Profit\nand Loss\nof\nDelhivery\nLimited\nfor nine\nmonths\nperiod\nended\nDecember\n31, 2021\nSpoton Logistics\nPrivate Limited\nSpecial purpose\ninterim\nconsolidated\nstatement of\nProfit and Loss\nfor the nine\nmonths period\nended\nDecember 31,\n2021\nAdjustment\nfor Spoton\nLogistics\nPrivate\nLimited\nInterim\nConsolidated\nProfit and\nLoss for\nperiod\nAugust 24,\n2021 to\nDecember 31,\n2021\nIntragroup\nelimination\nfor period\nApril 1,\n2021 to\nAugust 23,\n2021\nAcquisiti\non\nAdjustm\nents for\nperiod\nApril 1,\n2021 to\nAugust\n23, 2021\nTotal\nAdjustment\ns\nProforma\nConsolida\nted\nStatement\nof Profit\nand Loss\nfor the\nnine\nmonths\nperiod\nended\nDecember\n31, 2021\n(A)\n(B)\n(C)\n(D)\n(E)\n(F=C+D+E)\n(G=A+B+F\n)\nExceptional\nitems (IV)\n-\n(17.98)\n-\n-\n-\n-\n(17.98)\nLoss before\ntax (V=\nIII+IV)\n(8,987.45)\n(190.39)\n(91.06)\n-\n(570.19)\n(661.25)\n(9,839.09)\nTax expense,\ncomprising:\nCurrent tax\n100.49\n146.95\n(100.49)\n-\n-\n(100.49)\n146.95\nDeferred tax\ncredit\n(176.55)\n(64.69)\n28.72\n-\n(163.63)\n(134.91)\n(376.15)\nTotal tax\nexpense\n(76.06)\n82.26\n(71.77)\n-\n(163.63)\n(235.40)\n(229.20)\nLoss for the\nperiod (III-\nIV)\n(8,911.39)\n(272.65)\n(19.29)\n-\n(406.56)\n(425.85)\n(9,609.89)\nOther\ncomprehensi\nve income\n(a) Items that\nwill not be\nreclassified\nto statement\nof profit and\nloss in\nsubsequent\nperiods\ni) Re-\nmeasurement\nloss on\ndefined\nbenefit plans\n(24.33)\n0.40\n(5.50)\n-\n-\n(5.50)\n(29.43)\nii) Income tax\nrelating to\nitems that will\nnot be\nreclassified to\nprofit and loss\n(1.38)\n(0.10)\n1.38\n-\n-\n1.38\n(0.10)\nSubtotal (a)\n(25.71)\n0.30\n(4.12)\n-\n-\n(4.12)\n(29.53)\n\n\n104\n</text>\n</passage>\n"
+          }
+        ],
+        "role": "user"
+      }
+    ],
+    "generationConfig": {
+      "responseJsonSchema": {
+        "$defs": {
+          "FactOut": {
+            "properties": {
+              "claim_text": {
+                "description": "One self-contained sentence stating the fact",
+                "title": "Claim Text",
+                "type": "string"
+              },
+              "confidence": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "title": "Confidence",
+                "type": "number"
+              },
+              "passage_id": {
+                "description": "id of the passage this fact and its quote came from",
+                "title": "Passage Id",
+                "type": "integer"
+              },
+              "predicate": {
+                "description": "Lower snake_case relation name",
+                "title": "Predicate",
+                "type": "string"
+              },
+              "qualifiers": {
+                "items": {
+                  "$ref": "#/$defs/QualifierOut"
+                },
+                "title": "Qualifiers",
+                "type": "array"
+              },
+              "quote": {
+                "description": "Verbatim span copied from the document",
+                "title": "Quote",
+                "type": "string"
+              },
+              "subject_key": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Hard identifier for the subject if the document gives one",
+                "title": "Subject Key"
+              },
+              "subject_surface": {
+                "title": "Subject Surface",
+                "type": "string"
+              },
+              "subject_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Subject Type"
+              },
+              "value": {
+                "$ref": "#/$defs/ValueOut"
+              }
+            },
+            "required": [
+              "passage_id",
+              "claim_text",
+              "subject_surface",
+              "predicate",
+              "value",
+              "quote",
+              "confidence"
+            ],
+            "title": "FactOut",
+            "type": "object"
+          },
+          "QualifierOut": {
+            "properties": {
+              "key": {
+                "description": "Lower snake_case condition name",
+                "title": "Key",
+                "type": "string"
+              },
+              "provenance": {
+                "enum": [
+                  "stated",
+                  "inherited"
+                ],
+                "title": "Provenance",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "provenance"
+            ],
+            "title": "QualifierOut",
+            "type": "object"
+          },
+          "ValueOut": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "quantity",
+                  "text",
+                  "date",
+                  "boolean"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "raw": {
+                "description": "The value exactly as written in the document",
+                "title": "Raw",
+                "type": "string"
+              },
+              "scale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Magnitude word such as million or crore, if any",
+                "title": "Scale"
+              },
+              "unit": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "description": "Currency code or unit of measure, as written",
+                "title": "Unit"
+              }
+            },
+            "required": [
+              "kind",
+              "raw"
+            ],
+            "title": "ValueOut",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/$defs/FactOut"
+            },
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "title": "ExtractionOut",
+        "type": "object"
+      },
+      "responseMimeType": "application/json",
+      "temperature": 0.0
+    },
+    "model": "gemini-3.5-flash",
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You extract checkable facts from documents so they can later be compared across\ndocuments. You work on any kind of document. Do not assume a subject area.\n\nA fact is worth extracting when it is specific, checkable against this text, and\nwould still be meaningful to someone who had not read the surrounding page.\nPrefer facts that another document could plausibly also state: measured\nquantities, identifiers, dates, roles and statuses, named properties of things.\n\nRules you must follow.\n\n1. Quote verbatim. `quote` must be copied character for character from the text\n   you were given, long enough to contain the value and enough words to locate\n   it. Never write a character offset, a page number, or a paraphrase.\n2. Never calculate. Do not add, convert, rescale, or restate a number in\n   different units. Copy `raw` exactly as written, including separators,\n   currency symbols, parentheses and any leading comparison operator.\n3. Conditions go in `qualifiers`, never folded into the predicate. Any\n   circumstance under which the value holds is a qualifier: the time period or\n   as-at date it covers, the entity scope it aggregates, the basis or\n   measurement convention, the segment, the geography, the units context. Use\n   whatever keys the document implies. Invent a key when you need one, but reuse\n   an obvious key rather than coining a synonym.\n4. Mark qualifier provenance honestly. `stated` means it is in the passage\n   itself. `inherited` means you took it from the enclosing context block.\n   Never guess a qualifier that neither source supports. Omitting it is correct.\n5. Split compound statements into separate facts, one value each.\n6. Abstain when the correct reading is genuinely unclear. If a number's meaning,\n   subject or period cannot be determined from the passage plus its context, do\n   not emit it. A missing fact is cheap; a wrong one is not. Lower `confidence`\n   when you are unsure rather than inflating it.\n7. `predicate` is lower snake_case naming the relation alone, with no period,\n   entity, scale or unit inside it. `subject_key` is a hard identifier only when\n   the document supplies one; otherwise leave it null.\n8. `subject_surface` is the thing the value belongs to, never the name of the\n   measurement. In a table, the row label names the property and the subject is\n   whatever the table is about - the organisation, place, product or person the\n   document is reporting on. Name that subject even when it is stated only in a\n   heading, a page header or the document's title. Use the fullest form of its\n   name that appears, and use the same form every time it recurs.\n\nReturn only facts supported by the passage. Returning an empty list is a valid\nanswer for a passage that states nothing checkable."
+        }
+      ]
+    }
+  },
+  "response": {
+    "facts": [
+      {
+        "claim_text": "As of September 29, 2021, Delhivery Limited had an aggregate of 18,718,670 equity shares of \u20b910 each before the split.",
+        "confidence": 0.95,
+        "passage_id": 15,
+        "predicate": "pre_split_equity_shares",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "September 29, 2021"
+          }
+        ],
+        "quote": "an aggregate of 18,718,670 equity shares of \u20b910 each were split",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "18,718,670",
+          "scale": null,
+          "unit": "shares"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, the restated consolidated goodwill of Delhivery Limited was \u20b913,861.48 million.",
+        "confidence": 0.95,
+        "passage_id": 16,
+        "predicate": "restated_goodwill",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Restated Consolidated"
+          }
+        ],
+        "quote": "Goodwill\n13,861.48\n186.40\n186.48\n186.40\n163.80",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "13,861.48",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "As of December 31, 2021, the restated consolidated total equity of Delhivery Limited was \u20b959,798.47 million.",
+        "confidence": 0.95,
+        "passage_id": 17,
+        "predicate": "restated_total_equity",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Restated Consolidated"
+          }
+        ],
+        "quote": "Total equity\n59,798.47\n29,148.37\n28,367.97\n31,704.06\n33,882.83",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "59,798.47",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the restated consolidated revenue from contract with customers of Delhivery Limited was \u20b948,105.30 million.",
+        "confidence": 0.95,
+        "passage_id": 18,
+        "predicate": "restated_revenue_from_contract_with_customers",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months ended December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Restated Consolidated"
+          }
+        ],
+        "quote": "Revenue from contract\nwith customers\n48,105.30\n26,438.66\n36,465.27\n27,805.75\n16,538.97",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "48,105.30",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the restated basic loss per share of Delhivery Limited was INR (15.36).",
+        "confidence": 0.95,
+        "passage_id": 19,
+        "predicate": "restated_basic_loss_per_share",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months ended December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Restated Consolidated"
+          }
+        ],
+        "quote": "- Basic loss per share\n(INR)\n(15.36)\n(5.77)\n(8.05)\n(5.22)\n(47.22)",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(15.36)",
+          "scale": null,
+          "unit": "INR"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the restated share based payment expense of Delhivery Limited was \u20b92,168.41 million.",
+        "confidence": 0.95,
+        "passage_id": 20,
+        "predicate": "restated_share_based_payment_expense",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months ended December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Restated Consolidated"
+          }
+        ],
+        "quote": "Share based payment expense\n2,168.41\n420.72\n723.12\n488.05\n379.44",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "2,168.41",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the restated net cash used in operating activities of Delhivery Limited was \u20b9(5,090.97) million.",
+        "confidence": 0.95,
+        "passage_id": 21,
+        "predicate": "restated_net_cash_from_operating_activities",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months ended December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Restated Consolidated"
+          }
+        ],
+        "quote": "Net cash (used in )/ flow from\noperating activities (A)\n(5,090.97)\n(1,919.66)\n47.69\n(6,339.06)\n(2,426.84)",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(5,090.97)",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the restated proceeds from issuance of equity share capital of Delhivery Limited was \u20b98,456.04 million.",
+        "confidence": 0.95,
+        "passage_id": 22,
+        "predicate": "restated_proceeds_from_issuance_of_equity_share_capital",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months ended December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Restated Consolidated"
+          }
+        ],
+        "quote": "Proceeds from issuance of\nequity share capital (including\nstock option exercised)\n8,456.04\n11.73\n98.25\n14.68\n-",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "8,456.04",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the year ended March 31, 2021, the proforma consolidated revenue from contract with customers of Delhivery Limited was \u20b944,501.15 million.",
+        "confidence": 0.95,
+        "passage_id": 23,
+        "predicate": "proforma_consolidated_revenue_from_contract_with_customers",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Proforma Consolidated"
+          }
+        ],
+        "quote": "Revenue from\ncontract with\ncustomers\n36,465.27\n8,035.88\n(1.84)\n-\n-\n44,501.15",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "44,501.15",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the year ended March 31, 2021, the proforma consolidated loss of Delhivery Limited was \u20b9(5,961.38) million.",
+        "confidence": 0.95,
+        "passage_id": 24,
+        "predicate": "proforma_consolidated_loss",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Proforma Consolidated"
+          }
+        ],
+        "quote": "Loss for the\nyear (III-IV)\n(4,157.43)\n(273.66)\n-\n(1,530.29)\n(1,530.29)\n(5,961.38)",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(5,961.38)",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the year ended March 31, 2021, the proforma consolidated total comprehensive loss of Delhivery Limited was \u20b9(5,953.01) million.",
+        "confidence": 0.95,
+        "passage_id": 25,
+        "predicate": "proforma_consolidated_total_comprehensive_loss",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "year ended March 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Proforma Consolidated"
+          }
+        ],
+        "quote": "Total\nComprehensive\nloss for the\nyear\n(4,155.37)\n(267.35)\n-\n(1,530.29)\n(1,530.29)\n(5,953.01)",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(5,953.01)",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "As of March 31, 2021, the proforma consolidated goodwill of Delhivery Limited was \u20b912,793.78 million.",
+        "confidence": 0.95,
+        "passage_id": 26,
+        "predicate": "proforma_consolidated_goodwill",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Proforma Consolidated"
+          }
+        ],
+        "quote": "Goodwill\n186.48\n807.15\n-\n11,800.15\n11,800.15\n12,793.78",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "12,793.78",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "As of March 31, 2021, the proforma consolidated total equity of Delhivery Limited was \u20b948,465.92 million.",
+        "confidence": 0.95,
+        "passage_id": 27,
+        "predicate": "proforma_consolidated_total_equity",
+        "qualifiers": [
+          {
+            "key": "as_at",
+            "provenance": "stated",
+            "value": "March 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Proforma Consolidated"
+          }
+        ],
+        "quote": "Total equity\n28,367.97\n486.67\n-\n19,611.28\n19,611.28\n48,465.92",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "48,465.92",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the proforma consolidated revenue from contract with customers of Delhivery Limited was \u20b951,696.55 million.",
+        "confidence": 0.95,
+        "passage_id": 28,
+        "predicate": "proforma_consolidated_revenue_from_contract_with_customers",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months ended December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Proforma Consolidated"
+          }
+        ],
+        "quote": "Revenue from\ncontract with\ncustomers\n48,105.30\n7,575.11\n(3,973.94)\n(9.92)\n-\n(3,983.86)\n51,696.55",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "51,696.55",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      },
+      {
+        "claim_text": "For the nine months period ended December 31, 2021, the proforma consolidated loss of Delhivery Limited was \u20b9(9,609.89) million.",
+        "confidence": 0.95,
+        "passage_id": 29,
+        "predicate": "proforma_consolidated_loss",
+        "qualifiers": [
+          {
+            "key": "period",
+            "provenance": "stated",
+            "value": "nine months ended December 31, 2021"
+          },
+          {
+            "key": "financial_convention",
+            "provenance": "inherited",
+            "value": "Proforma Consolidated"
+          }
+        ],
+        "quote": "Loss for the\nperiod (III-\nIV)\n(8,911.39)\n(272.65)\n(19.29)\n-\n(406.56)\n(425.85)\n(9,609.89)",
+        "subject_key": null,
+        "subject_surface": "Delhivery Limited",
+        "subject_type": "company",
+        "value": {
+          "kind": "quantity",
+          "raw": "(9,609.89)",
+          "scale": "million",
+          "unit": "\u20b9"
+        }
+      }
+    ]
+  }
+}

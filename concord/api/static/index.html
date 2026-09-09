@@ -64,6 +64,7 @@
   .empty { color: var(--muted); padding: 30px; text-align: center; }
   .row { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
   .tag { font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 3px; padding: 0 5px; }
+  .tag.flag { color: #92400e; border-color: #fbbf24; background: #fffbeb; }
   .ev { display: grid; grid-template-columns: 150px 1fr auto; gap: 10px; padding: 7px 0;
     border-bottom: 1px solid var(--line); align-items: baseline; }
   .ev:last-child { border-bottom: none; }
@@ -125,20 +126,35 @@ function qualifiers(f) {
     `<span class="q">${esc(k)}: ${esc(q[k].value)} <i>[${esc(q[k].provenance)}]</i></span>`).join("")}</div>`;
 }
 
+function flags(f) {
+  // A flag is a fact the system will still compare but wants a reviewer to
+  // look at. `subject_names_the_measurement` is the loudest of them: the value
+  // and the quote are sound and the subject is the table's row label, which is
+  // half of the comparison key.
+  return (f.flags || []).map(x =>
+    `<span class="tag flag">⚠ ${esc(x.replace(/_/g, " "))}</span>`).join("");
+}
+
 function factSide(f) {
   if (!f) return `<div class="side"><i class="meta">fact missing</i></div>`;
   return `<div class="side">
     <div class="meta">${esc(f.doc_id)} · page ${f.page} · <code>${esc(f.predicate)}</code></div>
     <div class="val">${esc(f.value?.raw ?? f.claim_text)}</div>
-    <div class="meta">${esc(f.subject.surface)}${f.subject.key ? " · " + esc(f.subject.key) : ""}</div>
+    <div class="meta">${esc(f.subject.surface)}${f.subject.key ? " · " + esc(f.subject.key) : ""} ${flags(f)}</div>
     ${qualifiers(f)}
-    <div id="ev-${f.fact_id}"></div>
-    <div class="verify"><button class="link" onclick="showEvidence('${f.fact_id}')">show evidence &amp; verify</button></div>
+    <div class="evidence"></div>
+    <div class="verify"><button class="link" onclick="showEvidence('${f.fact_id}', this)">show evidence &amp; verify</button></div>
   </div>`;
 }
 
-window.showEvidence = async function (id) {
-  const box = $("#ev-" + id);
+// The box is found from the button that was clicked, never by fact id. One
+// fact can appear in several open relation cards and again in the ledger, so
+// an id keyed on it is not unique on the page: `querySelector` returned the
+// first match in document order and a reviewer clicking the lower card was
+// shown - and told "verified" about - a different occurrence's evidence. See
+// bug 22 in docs/status.md.
+window.showEvidence = async function (id, btn) {
+  const box = btn.closest(".side, .card").querySelector(".evidence");
   if (!box || box.dataset.open) { if (box) { box.innerHTML = ""; delete box.dataset.open; } return; }
   box.dataset.open = "1";
   box.innerHTML = `<div class="meta">loading…</div>`;
@@ -198,8 +214,12 @@ async function renderFacts(quarantined) {
   if (search) p.set("q", search);
   const { facts, total } = await api("/facts?" + p);
 
-  $("#filters").innerHTML = `<input id="search" placeholder="search claims, subjects, predicates" value="${esc(search)}">
-    <span class="meta">${total} ${quarantined ? "quarantined" : "grounded"} facts</span>`;
+  // Keep the input node alive during searches so its caret and selection survive.
+  if (!$("#search")) {
+    $("#filters").innerHTML = `<input id="search" placeholder="search claims, subjects, predicates" value="${esc(search)}">
+      <span class="meta" id="fact-count"></span>`;
+  }
+  $("#fact-count").textContent = `${total} ${quarantined ? "quarantined" : "grounded"} facts`;
 
   if (!facts.length) {
     return `<div class="empty">${quarantined
@@ -210,12 +230,12 @@ async function renderFacts(quarantined) {
   return facts.map(f => `<div class="card">
     <div class="row">
       <div><code>${esc(f.predicate)}</code> <span class="val">${esc(f.value?.raw ?? "")}</span></div>
-      <span class="meta">${esc(f.doc_id)} · p${f.page} · ${esc(f.align_status)}</span>
+      <span class="meta">${flags(f)} ${esc(f.doc_id)} · p${f.page} · ${esc(f.align_status)}</span>
     </div>
     <div class="meta">${esc(f.claim_text)}</div>
     ${qualifiers(f)}
-    <div id="ev-${f.fact_id}"></div>
-    <div class="verify"><button class="link" onclick="showEvidence('${f.fact_id}')">show evidence &amp; verify</button></div>
+    <div class="evidence"></div>
+    <div class="verify"><button class="link" onclick="showEvidence('${f.fact_id}', this)">show evidence &amp; verify</button></div>
   </div>`).join("");
 }
 
@@ -260,8 +280,9 @@ async function render() {
     el.innerHTML = `<div class="empty">${esc(e.message)}</div>`;
   }
   const s = $("#search");
-  if (s) {
-    s.oninput = debounce(() => { search = s.value; render().then(() => $("#search")?.focus()); }, 300);
+  if (s && !s.oninput) {
+    const refresh = debounce(() => { if (s.isConnected) render(); }, 300);
+    s.oninput = () => { search = s.value; refresh(); };
   }
 }
 
