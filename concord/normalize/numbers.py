@@ -26,19 +26,19 @@ SCALES = {
 }
 
 CURRENCIES = {
-    "₹": "INR",
+    "\u20b9": "INR",             # rupee sign
     "rs": "INR",
     "rs.": "INR",
     "inr": "INR",
-    "रू": "INR",
+    "\u0930\u0942": "INR",         # rupee, Devanagari
     "$": "USD",
     "us$": "USD",
     "usd": "USD",
-    "€": "EUR",
+    "\u20ac": "EUR",             # euro sign
     "eur": "EUR",
-    "£": "GBP",
+    "\u00a3": "GBP",             # pound sign
     "gbp": "GBP",
-    "¥": "JPY",
+    "\u00a5": "JPY",             # yen sign
 }
 
 # Written currency names, matched as substrings so "Indian Rupees" and
@@ -57,17 +57,17 @@ CURRENCY_WORDS = {
 # word compare as two different units.
 PERCENT_WORDS = {"%", "percent", "per cent", "pct", "percentage", "percentage points", "pp"}
 
-NIL = {"nil", "-", "–", "—", "na", "n/a", "none", ""}
+NIL = {"nil", "-", "\u2013", "\u2014", "na", "n/a", "none", ""}
 
 BOUNDS = [
     (">=", "at_least"),
     ("<=", "at_most"),
-    ("≥", "at_least"),
-    ("≤", "at_most"),
+    ("\u2265", "at_least"),
+    ("\u2264", "at_most"),
     (">", "greater_than"),
     ("<", "less_than"),
     ("~", "about"),
-    ("≈", "about"),
+    ("\u2248", "about"),
     ("over", "greater_than"),
     ("above", "greater_than"),
     ("more than", "greater_than"),
@@ -83,7 +83,7 @@ BOUNDS = [
     ("circa", "about"),
 ]
 
-NUMBER = re.compile(r"\d[\d, \s]*(?:\.\d+)?")
+NUMBER = re.compile(r"\d[\d,\u00a0\s]*(?:\.\d+)?")
 SCALE_WORD = re.compile(r"[A-Za-z]+\.?")
 
 
@@ -121,7 +121,7 @@ def _decimals(digits: str) -> int:
 
 
 def _strip_grouping(text: str) -> str:
-    return re.sub(r"[, \s]", "", text)
+    return re.sub(r"[,\u00a0\s]", "", text)
 
 
 def is_percent_unit(text: str | None) -> bool:
@@ -137,7 +137,7 @@ def normalize_currency(text: str | None) -> str | None:
     A currency reaches a figure three ways - as a symbol in the cell, as a code
     in a header, as words in a footnote - and the same money must compare
     equal however it was written. Without this, a figure carrying the inherited
-    unit `₹` and one carrying `INR` are refused as incomparable, which reads
+    unit written as the rupee sign and one carrying `INR` are refused as
     like caution and is actually a bug. A unit that names no currency (`Tons`,
     `days`) is returned unchanged.
     """

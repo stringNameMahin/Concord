@@ -14,7 +14,7 @@ import numpy as np
 import pytest
 from factories import make_fact
 
-from concord.registry import AliasAnswer, Entry, PredicateRegistry
+from concord.registry import AliasAnswer, Entry, PredicateRegistry, contrastive
 
 
 DIM = 64
@@ -110,6 +110,54 @@ def test_the_model_may_refuse_and_the_predicate_stays_separate():
     event = reg.observe("revenue_from_operations", "d2")
 
     assert event.event_type == "alias_rejected"
+    assert len(reg) == 2
+    assert reg.aliases() == {}
+
+
+# --- measures in contrast ---------------------------------------------------
+
+@pytest.mark.parametrize(
+    "left, right",
+    [
+        ("gross_inflows", "total_inflows"),
+        ("net_carrying_value", "gross_carrying_value"),
+        ("basic_earnings_per_share", "diluted_earnings_per_share"),
+        ("standalone_revenue", "consolidated_revenue"),
+    ],
+)
+def test_two_measures_of_one_thing_are_never_the_same_relation(left, right):
+    assert contrastive(left, right)
+
+
+@pytest.mark.parametrize(
+    "left, right",
+    [
+        # Only one side carries a modifier: `total` restates rather than
+        # contrasts, and this shape is most of the corpus's real aliases.
+        ("total_revenue_from_operations", "revenue_from_operations"),
+        # Same modifier on both sides, different wording after it.
+        ("net_cash_used_in_financing", "net_cash_generated_from_financing"),
+        # One word stripped, not a greedy run: the heads stay different.
+        ("consolidated_net_assets", "total_consolidated_net_assets"),
+        # No modifier anywhere.
+        ("expected_growth", "projected_growth_rate"),
+    ],
+)
+def test_names_that_are_not_in_contrast_stay_mergeable(left, right):
+    assert contrastive(left, right) is None
+
+
+def test_a_measure_in_contrast_is_refused_without_asking_the_model():
+    """The model answers this class inconsistently, so code answers it."""
+    judge = Judge(same=True)
+    reg = registry(client=judge, threshold=0.5)
+    reg.observe("gross_inflows", "d1")
+    event = reg.observe("total_inflows", "d2")
+
+    assert event.event_type == "alias_rejected"
+    assert event.decided_by == "deterministic"
+    assert judge.prompts == []
+    assert reg.calls == 0
     assert len(reg) == 2
     assert reg.aliases() == {}
 

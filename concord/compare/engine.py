@@ -12,6 +12,7 @@ from dataclasses import dataclass, field
 
 from concord.compare.block import BUCKET_WIDTH, BUCKET_WINDOW, TOP_K, BlockingStats, block
 from concord.compare.decide import DISCRIMINATING, Decision, decide
+from concord.compare.partition import index as build_partitions
 from concord.facts import Fact
 
 
@@ -42,6 +43,7 @@ class ComparisonRun:
     blocking: BlockingStats = field(default_factory=BlockingStats)
     verdicts: Counter = field(default_factory=Counter)
     dropped_unrelated: int = 0
+    partitions: int = 0
 
     @property
     def llm_queue(self) -> list[Relation]:
@@ -91,10 +93,17 @@ def compare(
         facts, encoder=encoder, k=k, width=width, window=window, fresh=fresh
     )
 
-    run = ComparisonRun(blocking=stats)
+    # Built over every fact, not over the candidate pairs: a distribution is a
+    # property of the group, and a pair cannot be recognised as two parts of
+    # one whole while only the pair is in view.
+    partitions = build_partitions(facts, aliases)
+
+    run = ComparisonRun(blocking=stats, partitions=len(partitions))
     for (left, right), strategies in candidates.items():
         a, b = by_id[left], by_id[right]
-        decision = decide(a, b, aliases=aliases, discriminating=discriminating)
+        decision = decide(
+            a, b, aliases=aliases, discriminating=discriminating, partitions=partitions
+        )
         run.verdicts[decision.verdict] += 1
 
         if decision.verdict == "unrelated" and not keep_unrelated:

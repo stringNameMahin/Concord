@@ -10,3 +10,5 @@ ideation/
 
 *.sqlite-wal
 *.sqlite-shm
+
+docs/

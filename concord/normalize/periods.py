@@ -21,6 +21,17 @@ DEFAULT_FY_END_MONTH = 3
 # a date. Anything else means the string is a statement that cites a date.
 DATE_FILLER = {"as", "at", "of", "on", "the", "dated", "date", "ended", "ending"}
 
+# The same discipline for year labels. A label resolves to a whole fiscal or
+# calendar year only when the rest of the string adds nothing to it. These are
+# the words that add nothing: naming the basis, or nothing at all. Provisional,
+# revised and budget markers are here because they qualify the vintage of the
+# figure rather than the span it covers.
+YEAR_FILLER = {
+    "fy", "f", "y", "fiscal", "financial", "year", "years", "yr",
+    "cy", "calendar", "the", "of", "for", "in", "during", "full", "entire",
+    "whole", "period", "p", "be", "re", "prov", "provisional",
+}
+
 MONTH_RE = "|".join(sorted(MONTHS, key=len, reverse=True))
 COUNT_RE = "|".join(COUNT_WORDS)
 
@@ -45,7 +56,21 @@ NUMERIC_DATE = re.compile(r"\b(\d{1,2})[/-](\d{1,2})[/-](\d{4})\b")
 FY_SPLIT = re.compile(r"\b(?:FY|F\.Y\.?|fiscal(?:\s+year)?)?\s*(\d{4})\s*[-/]\s*(\d{2,4})\b", re.I)
 FY_SHORT = re.compile(r"\bFY\s*[-']?\s*(\d{2}|\d{4})\b", re.I)
 CY = re.compile(r"\b(?:CY|calendar\s+year)\s*(\d{4})\b", re.I)
-QUARTER = re.compile(r"\bQ([1-4])\s*[-,]?\s*(?:FY|F\.Y\.?)?\s*(\d{2,4})(?:\s*[-/]\s*(\d{2,4}))?\b", re.I)
+QUARTER = re.compile(
+    r"\bQ([1-4])\s*[-,]?\s*(?:of\s+)?(?:FY|F\.Y\.?|fiscal(?:\s+year)?)?\s*"
+    r"(\d{2,4})(?:\s*[-/]\s*(\d{2,4}))?\b",
+    re.I,
+)
+
+# A run of months or quarters cut out of a year: "first eight months of FY25",
+# "first quarter of FY2025/26", "last three months of 2024".
+SUBSPAN = re.compile(
+    rf"\b(?P<edge>first|initial|last|final)\s+"
+    rf"(?:(?P<count>{COUNT_RE}|\d{{1,2}})\s+)?"
+    rf"(?P<unit>month|months|quarter|quarters)\b",
+    re.I,
+)
+HALF = re.compile(r"\b(?:H\s*(?P<index>[12])|(?P<edge>first|second)\s+half)\b", re.I)
 
 
 @dataclass(frozen=True)
@@ -191,12 +216,97 @@ def parse_as_of(text: str) -> date | None:
     return None
 
 
+def _run_of_months(start: date, months: int) -> date:
+    """The last day of a run of `months` months beginning at `start`."""
+    return _end_of(*_add_months(start, months - 1).timetuple()[:2])
+
+
+def _subspan(remainder: str, months: int = 12) -> tuple[int, int] | None:
+    """A run cut out of a year, as (offset, length) in months, or None."""
+    half = HALF.search(remainder)
+    if half:
+        index = (
+            int(half.group("index"))
+            if half.group("index")
+            else (1 if half.group("edge").lower() == "first" else 2)
+        )
+        return (0, months // 2) if index == 1 else (months // 2, months - months // 2)
+
+    match = SUBSPAN.search(remainder)
+    if not match:
+        return None
+
+    unit = match.group("unit").lower()
+    raw_count = match.group("count")
+    if raw_count:
+        count = COUNT_WORDS.get(raw_count.lower()) or int(raw_count)
+    elif unit.startswith("quarter"):
+        count = 1
+    else:
+        return None  # "months of FY24" names no length we can use
+
+    length = count * (3 if unit.startswith("quarter") else 1)
+    if not 0 < length < months:
+        return None
+    leading = match.group("edge").lower() in ("first", "initial")
+    return (0, length) if leading else (months - length, length)
+
+
+def restrict(base: Period, remainder: str) -> Period | None:
+    """Narrow a whole-year interval by whatever else the label says, or refuse.
+
+    A year label means that year only when the rest of the string adds nothing
+    to it. `first eight months of FY25` is eight months, `FY20 to FY24` is five
+    years and `FY25 (April-December)` is nine months; all three used to resolve
+    to one whole fiscal year, because the year was matched anywhere in the
+    string and everything around it discarded. A partial-year figure and a
+    full-year figure then carried equal intervals, read as the same stated
+    condition, and their disagreement came out `contradicts`. Two such pairs
+    are in the shipped ledger, and both had to be rescued by the adjudicating
+    model - which is the layer that is not supposed to be settling arithmetic.
+
+    So: resolve the sub-span where the words name one exactly, and return None
+    where they name something else. None is not a failure. The label survives
+    as a string and is compared as one, which keeps two different labels
+    different; silently widening a part into its whole is the only outcome
+    that loses information.
+
+    This is the discipline `bare_date` already applies to dates - a value that
+    *mentions* a date is not a date - carried over to years.
+    """
+    months = 12
+    cut = _subspan(remainder, months)
+    consumed = HALF.sub(" ", SUBSPAN.sub(" ", remainder)) if cut is not None else remainder
+
+    if any(word.lower() not in YEAR_FILLER for word in re.findall(r"[a-zA-Z0-9]+", consumed)):
+        return None
+    if cut is None:
+        return base
+
+    offset, length = cut
+    start = _add_months(base.start, offset)
+    return Period(
+        start,
+        _run_of_months(start, length),
+        base.label,
+        "quarter" if length == 3 else "months",
+        base.fiscal_basis,
+    )
+
+
+def _outside(raw: str, match: re.Match) -> str:
+    return f"{raw[: match.start()]} {raw[match.end() :]}"
+
+
 def parse_period(text: str, fy_end_month: int | None = None) -> Period | None:
     """Resolve a written period label to an interval.
 
     Handles the shapes this document population actually uses: explicit "year
     ended" statements, partial periods such as "nine months ended", FY labels
     in several spellings, calendar years, and fiscal quarters.
+
+    A label built around a year label means that whole year only when nothing
+    else in the string narrows or extends it - see `restrict`.
     """
     if not text:
         return None
@@ -243,7 +353,10 @@ def parse_period(text: str, fy_end_month: int | None = None) -> Period | None:
     cy = CY.search(raw)
     if cy:
         year = int(cy.group(1))
-        return Period(date(year, 1, 1), date(year, 12, 31), raw.strip(), "year", "stated:calendar")
+        whole = Period(
+            date(year, 1, 1), date(year, 12, 31), raw.strip(), "year", "stated:calendar"
+        )
+        return restrict(whole, _outside(raw, cy))
 
     span = FY_SPLIT.search(raw)
     if span:
@@ -251,14 +364,39 @@ def parse_period(text: str, fy_end_month: int | None = None) -> Period | None:
         end_year = _widen_year(second, int(first))
         if end_year <= int(first):
             return None
-        return _fy_from_end_year(end_year, basis_month, raw.strip(), basis)
+        whole = _fy_from_end_year(end_year, basis_month, raw.strip(), basis)
+        return restrict(whole, _outside(raw, span))
 
     short = FY_SHORT.search(raw)
     if short:
         end_year = _widen_year(short.group(1), date.today().year)
-        return _fy_from_end_year(end_year, basis_month, raw.strip(), basis)
+        whole = _fy_from_end_year(end_year, basis_month, raw.strip(), basis)
+        return restrict(whole, _outside(raw, short))
 
     return None
+
+
+YEAR_4 = re.compile(r"\b(?:19|20)\d{2}\b")
+YEAR_FY = re.compile(r"\bFY\s*[-']?\s*(\d{2,4})\b", re.I)
+
+
+def mentioned_years(text: str) -> frozenset[int]:
+    """Every calendar year a label names, however it spells them.
+
+    Used to tell two labels that could not be parsed apart. "till FY26" and
+    "inception till FY26" name the same year; "April-December 2024" and
+    "April-December 2023" do not.
+    """
+    raw = text or ""
+    years = {int(m.group()) for m in YEAR_4.finditer(raw)}
+    years |= {_widen_year(m.group(1), date.today().year) for m in YEAR_FY.finditer(raw)}
+    return frozenset(years)
+
+
+def years_compatible(left: str, right: str) -> bool:
+    """True when neither label names a year the other rules out."""
+    a, b = mentioned_years(left), mentioned_years(right)
+    return a <= b or b <= a
 
 
 def same_interval(a: Period | None, b: Period | None) -> bool:

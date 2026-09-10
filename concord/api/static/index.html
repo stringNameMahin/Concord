@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Concord — fact knowledge layer</title>
+<title>Concord - fact knowledge layer</title>
 <style>
   :root {
     --bg: #fbfaf8; --panel: #ffffff; --ink: #1a1a19; --muted: #6b6b66;
@@ -98,7 +98,7 @@
   </nav>
 
   <div id="filters" class="filters"></div>
-  <div id="content"><div class="empty">Loading…</div></div>
+  <div id="content"><div class="empty">Loading...</div></div>
 </main>
 
 <script>
@@ -132,15 +132,15 @@ function flags(f) {
   // and the quote are sound and the subject is the table's row label, which is
   // half of the comparison key.
   return (f.flags || []).map(x =>
-    `<span class="tag flag">⚠ ${esc(x.replace(/_/g, " "))}</span>`).join("");
+    `<span class="tag flag">! ${esc(x.replace(/_/g, " "))}</span>`).join("");
 }
 
 function factSide(f) {
   if (!f) return `<div class="side"><i class="meta">fact missing</i></div>`;
   return `<div class="side">
-    <div class="meta">${esc(f.doc_id)} · page ${f.page} · <code>${esc(f.predicate)}</code></div>
+    <div class="meta">${esc(f.doc_id)} | page ${f.page} | <code>${esc(f.predicate)}</code></div>
     <div class="val">${esc(f.value?.raw ?? f.claim_text)}</div>
-    <div class="meta">${esc(f.subject.surface)}${f.subject.key ? " · " + esc(f.subject.key) : ""} ${flags(f)}</div>
+    <div class="meta">${esc(f.subject.surface)}${f.subject.key ? " | " + esc(f.subject.key) : ""} ${flags(f)}</div>
     ${qualifiers(f)}
     <div class="evidence"></div>
     <div class="verify"><button class="link" onclick="showEvidence('${f.fact_id}', this)">show evidence &amp; verify</button></div>
@@ -157,18 +157,18 @@ window.showEvidence = async function (id, btn) {
   const box = btn.closest(".side, .card").querySelector(".evidence");
   if (!box || box.dataset.open) { if (box) { box.innerHTML = ""; delete box.dataset.open; } return; }
   box.dataset.open = "1";
-  box.innerHTML = `<div class="meta">loading…</div>`;
+  box.innerHTML = `<div class="meta">loading...</div>`;
   const [ev, vr] = await Promise.all([api("/evidence/" + id), api("/verify/" + id)]);
   let html = "";
   if (ev.located) {
     const [a, b] = ev.highlight, c = ev.context;
     html += `<div class="ctx">${esc(c.slice(0, a))}<mark>${esc(c.slice(a, b))}</mark>${esc(c.slice(b))}</div>`;
   } else {
-    html += `<div class="ctx"><i>quarantined — the quote was never located in the source</i></div>`;
+    html += `<div class="ctx"><i>quarantined - the quote was never located in the source</i></div>`;
   }
   html += `<div class="verify">${vr.verified
-    ? `<span class="ok">✓ verified</span> <span class="meta">chars ${vr.char_start}–${vr.char_end} re-read from the source match the stored quote exactly</span>`
-    : `<span class="bad">✗ not verified</span> <span class="meta">${esc(vr.reason || "the source no longer matches the stored quote")}</span>`}</div>`;
+    ? `<span class="ok">OK verified</span> <span class="meta">chars ${vr.char_start}-${vr.char_end} re-read from the source match the stored quote exactly</span>`
+    : `<span class="bad">X not verified</span> <span class="meta">${esc(vr.reason || "the source no longer matches the stored quote")}</span>`}</div>`;
   box.innerHTML = html;
 };
 
@@ -188,7 +188,7 @@ async function renderRelations() {
     + `<button data-xdoc="1" class="${xdocOnly ? "on" : ""}">cross-document only</button>`
     + `<span class="meta">${total} shown</span>`;
 
-  if (!relations.length) return `<div class="empty">No relations yet. Upload a PDF — then a second one, so facts have something to disagree with.</div>`;
+  if (!relations.length) return `<div class="empty">No relations yet. Upload a PDF - then a second one, so facts have something to disagree with.</div>`;
 
   return relations.map(r => {
     const open = openRelations.has(r.relation_id);
@@ -200,11 +200,11 @@ async function renderRelations() {
           ${r.qualifier_key ? `<span class="tag">on ${esc(r.qualifier_key)}</span>` : ""}
           <span class="tag">${esc(r.decided_by)}</span>
         </div>
-        <span class="meta mono">${esc(r.rule_fired)} ${open ? "▾" : "▸"}</span>
+        <span class="meta mono">${esc(r.rule_fired)} ${open ? "v" : ">"}</span>
       </div>
       ${open ? `<div class="pair">${factSide(r.a_fact)}${factSide(r.b_fact)}</div>
         <div class="why">${esc(r.explanation)}</div>
-        <div class="meta" style="margin-top:6px">found by: ${r.blocked_by.join(", ") || "—"}</div>` : ""}
+        <div class="meta" style="margin-top:6px">found by: ${r.blocked_by.join(", ") || "-"}</div>` : ""}
     </div>`;
   }).join("");
 }
@@ -224,13 +224,13 @@ async function renderFacts(quarantined) {
   if (!facts.length) {
     return `<div class="empty">${quarantined
       ? "Nothing quarantined. Every extracted quote located in its source."
-      : "No facts yet — upload a PDF."}</div>`;
+      : "No facts yet - upload a PDF."}</div>`;
   }
 
   return facts.map(f => `<div class="card">
     <div class="row">
       <div><code>${esc(f.predicate)}</code> <span class="val">${esc(f.value?.raw ?? "")}</span></div>
-      <span class="meta">${flags(f)} ${esc(f.doc_id)} · p${f.page} · ${esc(f.align_status)}</span>
+      <span class="meta">${flags(f)} ${esc(f.doc_id)} | p${f.page} | ${esc(f.align_status)}</span>
     </div>
     <div class="meta">${esc(f.claim_text)}</div>
     ${qualifiers(f)}
@@ -241,11 +241,11 @@ async function renderFacts(quarantined) {
 
 async function renderSchema() {
   const s = await api("/schema?limit=400");
-  $("#filters").innerHTML = `<span class="meta"><b>${s.predicates}</b> predicates ·
-    <b>${s.aliases}</b> aliases confirmed ·
-    ${Object.entries(s.event_counts).map(([k, v]) => `${v} ${k.replace(/_/g, " ")}`).join(" · ")}</span>`;
+  $("#filters").innerHTML = `<span class="meta"><b>${s.predicates}</b> predicates |
+    <b>${s.aliases}</b> aliases confirmed |
+    ${Object.entries(s.event_counts).map(([k, v]) => `${v} ${k.replace(/_/g, " ")}`).join(" | ")}</span>`;
 
-  if (!s.predicates) return `<div class="empty">No predicates yet — the schema is written by the documents, so upload one.</div>`;
+  if (!s.predicates) return `<div class="empty">No predicates yet - the schema is written by the documents, so upload one.</div>`;
 
   const timeline = s.timeline.filter(e => e.event_type !== "predicate_seen");
   return `<div class="card">
@@ -254,7 +254,7 @@ async function renderSchema() {
       <div style="margin-top:10px">${timeline.length ? timeline.map(e => `
         <div class="ev">
           <span class="what e-${e.event_type}">${e.event_type.replace(/_/g, " ")}</span>
-          <span><code>${esc(e.subject)}</code>${e.target ? ` → <code>${esc(e.target)}</code>` : ""}
+          <span><code>${esc(e.subject)}</code>${e.target ? ` -> <code>${esc(e.target)}</code>` : ""}
             ${e.similarity != null ? `<span class="tag">cos ${e.similarity.toFixed(3)}</span>` : ""}
             <span class="tag">${esc(e.decided_by)}</span></span>
           <span class="meta">${esc(e.doc_id || "")}</span>
@@ -265,7 +265,7 @@ async function renderSchema() {
         <div class="ev">
           <code>${esc(e.canonical)}</code>
           <span class="meta">${e.aliases.length ? "also: " + e.aliases.map(esc).join(", ") : ""}</span>
-          <span class="meta">${e.count}×</span>
+          <span class="meta">${e.count}x</span>
         </div>`).join("")}</div>
     </div>`;
 }
@@ -304,15 +304,15 @@ $("#filters").onclick = e => {
 
 async function upload(f) {
   const msg = $("#dropmsg");
-  msg.textContent = `Ingesting ${f.name} — parsing, extracting, grounding, comparing…`;
+  msg.textContent = `Ingesting ${f.name} - parsing, extracting, grounding, comparing...`;
   const body = new FormData(); body.append("file", f);
   try {
     const r = await api("/ingest", { method: "POST", body });
     msg.innerHTML = `<b>${esc(r.doc_id)}</b>: ${r.facts} facts from ${r.chunks} chunks over ${r.pages} pages
-      · ${r.quarantined} quarantined · ${r.requests} LLM requests ·
+      | ${r.quarantined} quarantined | ${r.requests} LLM requests |
       ${r.blocking.candidates} candidate pairs from ${r.blocking.theoretical_pairs}
-      (${(r.blocking.reduction * 100).toFixed(2)}% reduction) · ${r.llm_pairs} pairs needed a model
-      ${r.schema ? `· schema: ${r.schema.new_predicates} new predicates,
+      (${(r.blocking.reduction * 100).toFixed(2)}% reduction) | ${r.llm_pairs} pairs needed a model
+      ${r.schema ? `| schema: ${r.schema.new_predicates} new predicates,
       ${r.schema.aliases_confirmed} aliased (${r.schema.predicates_known} known)` : ""}`;
     await stats(); await render();
   } catch (e) { msg.innerHTML = `<span class="bad">${esc(e.message)}</span>`; }

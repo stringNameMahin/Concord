@@ -9,6 +9,8 @@ value conflicts, and only that residue is worth an LLM call.
     condition                                              verdict
     ----------------------------------------------------  --------------------
     comparison keys differ                                 unrelated
+    keys match, facts are two categories of one            unrelated
+      distribution                                           (complementary)
     keys match, bags compatible, intervals overlap         corroborates
     keys match, discriminating qualifier differs, values   unrelated
       agree                                                  (different conditions)
@@ -19,7 +21,12 @@ value conflicts, and only that residue is worth an LLM call.
     keys match, values disagree, bags equal                 contradicts
                                                              (LLM adjudicates)
 
-Two guards are enforced here in code rather than asked of a prompt:
+Complementary-category guard - two rows of one breakdown are parts of a
+whole, not rival claims about it, so they never reach the value comparison at
+all. `concord.compare.partition` decides which facts those are, arithmetically
+rather than semantically; this module only reads the answer.
+
+Two further guards are enforced here in code rather than asked of a prompt:
 
 Missing-qualifier guard - a pair cannot be called `contradicts` when a
 discriminating qualifier is present on one side and absent on the other. The
@@ -61,9 +68,16 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from concord.facts import Fact, Qualifier, comparison_keys_match, key_matches
+from concord.compare.partition import PartitionIndex
+from concord.facts import (
+    PERIOD_KEYS,
+    Fact,
+    Qualifier,
+    comparison_keys_match,
+    key_matches,
+)
 from concord.normalize.numbers import intervals_overlap
-from concord.normalize.periods import bare_date, same_interval
+from concord.normalize.periods import bare_date, same_interval, years_compatible
 
 VERDICTS = (
     "corroborates",
@@ -126,10 +140,16 @@ class ContextDiff:
     missing: list[tuple[str, str]] = field(default_factory=list)  # (key, side present)
     agreeing: list[str] = field(default_factory=list)
     known_conflicting: list[str] = field(default_factory=list)
+    unreadable: list[str] = field(default_factory=list)
 
     @property
     def compatible(self) -> bool:
         return not self.conflicting
+
+    @property
+    def proven_conflicting(self) -> list[str]:
+        """Recognised conditions we established differ, rather than assumed."""
+        return [key for key in self.known_conflicting if key not in self.unreadable]
 
 
 def _normalize_text(value: str) -> str:
@@ -154,6 +174,25 @@ def compare_qualifier(a: Qualifier, b: Qualifier) -> str:
     return AGREE if _normalize_text(a.value) == _normalize_text(b.value) else DISAGREE
 
 
+def unreadable_period(left: Qualifier, right: Qualifier) -> bool:
+    """A period key whose difference we compared as text, not as intervals.
+
+    At least one label did not parse, so the comparison fell through to string
+    equality and the only evidence of a difference is that the two strings are
+    spelled differently - and two spellings are often one period.
+    In the shipped corpus "till FY26" against "inception till FY26" and
+    "financial year under review" against "financial year ended March 31, 2026"
+    are both the same period written twice. The years each label names are
+    still checked, so "April-December 2024" against "April-December 2023" stays
+    a difference.
+    """
+    if not key_matches(left.key, PERIOD_KEYS):
+        return False
+    if left.period and right.period:
+        return False
+    return years_compatible(left.value, right.value)
+
+
 def compare_qualifiers(
     a: Fact, b: Fact, discriminating: frozenset[str] = DISCRIMINATING
 ) -> ContextDiff:
@@ -169,6 +208,8 @@ def compare_qualifiers(
                 diff.conflicting.append(key)
                 if is_discriminating(key, discriminating):
                     diff.known_conflicting.append(key)
+                if unreadable_period(left, right):
+                    diff.unreadable.append(key)
         else:
             diff.missing.append((key, a.fact_id if left.known else b.fact_id))
 
@@ -228,6 +269,7 @@ def decide(
     b: Fact,
     aliases: dict[str, str] | None = None,
     discriminating: frozenset[str] = DISCRIMINATING,
+    partitions: PartitionIndex | None = None,
 ) -> Decision:
     """Apply the decision table to one candidate pair."""
     if not comparison_keys_match(a, b, aliases):
@@ -238,6 +280,25 @@ def decide(
                 f"Different comparison keys: {a.comparison_key!r} and {b.comparison_key!r}. "
                 "The two facts are not about the same thing."
             ),
+        )
+
+    # Before the values are looked at, because there is nothing to look at:
+    # two categories of one distribution disagree by construction and neither
+    # is evidence about the other.
+    partition_key = partitions.key_for(a, b) if partitions is not None else None
+    if partition_key:
+        return Decision(
+            verdict="unrelated",
+            rule_fired="complementary_categories",
+            explanation=(
+                f"The two facts are different categories of one distribution: they share "
+                f"a comparison key and differ only on {partition_key!r} "
+                f"({a.qualifier(partition_key).value!r} against "
+                f"{b.qualifier(partition_key).value!r}), whose values across the group add "
+                "up to the whole. They divide a total rather than making rival claims "
+                "about it, so there is no apparent conflict to reconcile."
+            ),
+            qualifier_key=partition_key,
         )
 
     outcome, evidence = compare_values(a, b)
@@ -253,19 +314,21 @@ def decide(
         )
 
     if outcome == AGREE:
-        # Agreement is only broken up by a condition we recognise. An
-        # incidental key differing between two identical figures does not make
-        # them separate facts.
-        if diff.known_conflicting:
+        # Agreement is only broken up by a condition we recognise and can show
+        # differs. An incidental key differing between two identical figures
+        # does not make them separate facts, and neither does a period label
+        # that only differs as text.
+        proven = diff.proven_conflicting
+        if proven:
             return Decision(
                 verdict="unrelated",
                 rule_fired="context_differs_values_agree",
                 explanation=(
                     f"The values agree ({evidence}) but the facts hold under different "
-                    f"conditions: {_name(diff.known_conflicting)} differ. They describe separate "
+                    f"conditions: {_name(proven)} differ. They describe separate "
                     "states of affairs rather than confirming one another."
                 ),
-                qualifier_key=diff.known_conflicting[0],
+                qualifier_key=proven[0],
             )
 
         note = ""
@@ -273,6 +336,14 @@ def decide(
             note = (
                 f" One side does not state {_name(missing_keys)}, so the agreement holds "
                 "only under the conditions both documents do state."
+            )
+        if diff.unreadable:
+            note += (
+                f" The two sides spell {_name(diff.unreadable)} differently "
+                f"({a.qualifier(diff.unreadable[0]).value!r} against "
+                f"{b.qualifier(diff.unreadable[0]).value!r}) and neither spelling "
+                "resolves to an interval, so the wording is not evidence that the "
+                "conditions differ."
             )
         return Decision(
             verdict="corroborates",

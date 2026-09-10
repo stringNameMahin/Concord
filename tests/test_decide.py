@@ -38,13 +38,93 @@ def test_different_hard_keys_are_unrelated_despite_similar_names():
     assert decision.verdict == "unrelated"
 
 
-def test_surface_subset_counts_as_the_same_subject():
+def test_a_trailing_legal_form_is_the_same_subject():
     assert subjects_match(
-        make_fact(subject="Acme"), make_fact(subject="Acme Logistics Limited")
+        make_fact(subject="Acme"), make_fact(subject="Acme Limited")
     )
     assert not subjects_match(
         make_fact(subject="Acme Logistics"), make_fact(subject="Borealis Freight")
     )
+
+
+def test_a_longer_name_is_a_different_subject_not_a_shorter_one():
+    """The subset rule this replaced let a parent absorb its subsidiaries."""
+    assert not subjects_match(
+        make_fact(subject="Acme Limited"),
+        make_fact(subject="Acme Freight Services Private Limited"),
+    )
+    assert not subjects_match(
+        make_fact(subject="Acme Limited"), make_fact(subject="Acme Corp Limited")
+    )
+    assert not subjects_match(
+        make_fact(subject="cash and cash equivalents"),
+        make_fact(subject="bank balances other than cash and cash equivalents"),
+    )
+    assert not subjects_match(
+        make_fact(subject="current other assets"),
+        make_fact(subject="current other financial assets"),
+    )
+
+
+def test_extra_words_that_are_not_a_legal_form_are_a_different_subject():
+    assert not subjects_match(
+        make_fact(subject="Acme"), make_fact(subject="Acme gateways")
+    )
+    assert not subjects_match(
+        make_fact(subject="Company"), make_fact(subject="Acme Limited")
+    )
+
+
+def test_only_one_legal_form_may_be_stripped():
+    """`Acme Corp Limited` is a company in its own right, not `Acme`."""
+    assert not subjects_match(
+        make_fact(subject="Acme"), make_fact(subject="Acme Corp Limited")
+    )
+
+
+@pytest.mark.parametrize(
+    "parent, subsidiary, parent_key, subsidiary_key",
+    [
+        # A subsidiary whose name extends the parent's, no hard key on either
+        # side. This is the shape the old subset rule could not reject.
+        ("Acme Limited", "Acme Freight Services Private Limited", None, None),
+        # The same shape with distinct company identifiers on both sides.
+        (
+            "Acme Limited",
+            "Acme Cross Border Services Private Limited",
+            "CIN:U00000AA2011PLC000001",
+            "CIN:U00000AA2015PTC000002",
+        ),
+        # A foreign subsidiary, where the only extra word is a legal form.
+        ("Acme Limited", "Acme Corp Limited", None, "UKCRN:00000001"),
+    ],
+)
+def test_a_subsidiary_never_compares_against_its_parent(
+    parent, subsidiary, parent_key, subsidiary_key
+):
+    """An incorporation date has no reason to match across two companies.
+
+    The predicate is incidental: the pair must be rejected on the subject,
+    before any value or qualifier is looked at, whatever is being compared.
+    """
+    decision = decide(
+        make_fact(
+            subject=parent,
+            subject_key=parent_key,
+            predicate="date_of_incorporation",
+            kind="date",
+            raw="June 22, 2011",
+        ),
+        make_fact(
+            subject=subsidiary,
+            subject_key=subsidiary_key,
+            predicate="date_of_incorporation",
+            kind="date",
+            raw="April 21, 2020",
+        ),
+    )
+    assert decision.verdict == "unrelated"
+    assert decision.rule_fired == "comparison_key_differs"
 
 
 def test_alias_map_makes_two_predicates_one_key():
@@ -52,6 +132,87 @@ def test_alias_map_makes_two_predicates_one_key():
     b = make_fact(predicate="revenue_from_operations", raw="81,420.00 mn")
     assert not comparison_keys_match(a, b)
     assert comparison_keys_match(a, b, {"revenue_from_operations": "revenue_from_services"})
+
+
+def test_a_segment_inherited_from_the_layout_blocks_a_contradiction():
+    """The missing-qualifier guard binds on inherited keys as on stated ones.
+
+    A figure sitting under a bullet that names one business line, and a
+    company-wide figure elsewhere in the same document, are not a conflict.
+    The engine cannot say they agree either, so it names the key it is
+    missing rather than choosing between them.
+    """
+    segmented = make_fact(
+        raw="7,900",
+        predicate="active_customers",
+        subject="Acme",
+        period="nine months ended December 31, 2021",
+        segment=("Express Parcel", "inherited"),
+    )
+    company_wide = make_fact(
+        raw="23,113",
+        predicate="active_customers",
+        subject="Acme",
+        period="nine months ended December 31, 2021",
+    )
+    decision = decide(segmented, company_wide)
+    assert decision.verdict == "insufficient_context"
+    assert decision.rule_fired == "missing_qualifier_guard"
+    assert decision.qualifier_key == "segment"
+
+
+def test_two_different_inherited_segments_reconcile_rather_than_conflict():
+    a = make_fact(
+        raw="20,498", predicate="active_customers", subject="Acme",
+        period="FY24", segment=("Express Parcel", "inherited"),
+    )
+    b = make_fact(
+        raw="77", predicate="active_customers", subject="Acme",
+        period="FY24", segment=("Supply Chain Services", "inherited"),
+    )
+    decision = decide(a, b)
+    assert decision.verdict == "reconciled_by_context"
+    assert decision.qualifier_key == "segment"
+
+
+def test_two_spellings_of_one_period_do_not_break_a_corroboration():
+    """Neither label resolves, so their wording is not evidence of a difference.
+
+    Both facts state the same cumulative total; one document writes the period
+    as "till FY26" and the other as "inception till FY26".
+    """
+    a = make_fact(raw="290 million", predicate="meals_served", period="till FY26")
+    b = make_fact(
+        raw="290 million", predicate="meals_served", period="inception till FY26", doc="d2"
+    )
+    decision = decide(a, b)
+    assert decision.verdict == "corroborates"
+    assert "spell period differently" in decision.explanation
+
+
+def test_unresolved_periods_naming_different_years_still_differ():
+    a = make_fact(raw="210.8", predicate="trade_deficit", period="April-December 2024")
+    b = make_fact(raw="210.8", predicate="trade_deficit", period="April-December 2023", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "unrelated"
+    assert decision.rule_fired == "context_differs_values_agree"
+
+
+def test_a_resolved_period_difference_still_breaks_agreement():
+    """The relaxation only covers labels the parser could not read."""
+    a = make_fact(raw="8,142 Cr", period="FY24")
+    b = make_fact(raw="8,142 Cr", period="FY23", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "unrelated"
+    assert decision.rule_fired == "context_differs_values_agree"
+
+
+def test_an_unreadable_period_does_not_rescue_a_disagreement():
+    """The relaxation binds on agreement only; disagreement still reconciles."""
+    a = make_fact(raw="290 million", predicate="meals_served", period="till FY26")
+    b = make_fact(raw="180 million", predicate="meals_served", period="inception till FY26")
+    decision = decide(a, b)
+    assert decision.verdict == "reconciled_by_context"
 
 
 # --- row 2: keys match, bags compatible, intervals overlap -----------------

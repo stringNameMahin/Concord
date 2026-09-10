@@ -33,6 +33,89 @@ from concord.facts import canonical_predicate
 # and semantic blocks can still bring the facts together.
 ALIAS_THRESHOLD = 0.86
 
+# Words that say how a quantity was measured rather than what was measured.
+# Two names built on the same head noun but carrying different ones of these
+# are different measures however close their wording, and no amount of
+# similarity should merge them.
+#
+# This is not a subject-area vocabulary: every entry is a basis, an
+# aggregation or a treatment, the same class of thing the decision table's
+# `DISCRIMINATING` set names. It is consulted only by `contrastive`, and only
+# for names that are otherwise word-for-word identical.
+MEASURE_MODIFIERS = frozenset(
+    {
+        "gross",
+        "net",
+        "total",
+        "aggregate",
+        "average",
+        "mean",
+        "median",
+        "cumulative",
+        "incremental",
+        "nominal",
+        "real",
+        "adjusted",
+        "unadjusted",
+        "underlying",
+        "reported",
+        "basic",
+        "diluted",
+        "weighted",
+        "consolidated",
+        "standalone",
+        "restated",
+        "annualised",
+        "annualized",
+        "opening",
+        "closing",
+        "maximum",
+        "minimum",
+        "inward",
+        "outward",
+    }
+)
+
+
+def contrastive(left: str, right: str) -> str | None:
+    """The pair of modifiers that makes these two names different measures.
+
+    Returns `("gross", "total")` style pairing as a reason string, or None if
+    the names are not in contrast.
+
+    The test is deliberately narrow. Both names must reduce to the *same* head
+    after one leading modifier is removed, and the two modifiers removed must
+    differ. `gross_fdi_inflows` and `total_fdi_inflows` are in contrast;
+    `total_revenue_from_operations` and `revenue_from_operations` are not,
+    because only one side carries a modifier and `total` there is a restatement
+    rather than a contrast. Exactly one leading word is stripped, so
+    `consolidated_net_assets` and `total_consolidated_net_assets` keep
+    different heads and stay mergeable.
+
+    This exists because the model that answers the alias question gets this
+    class wrong and gets it wrong inconsistently: on the shipped corpus it
+    refused `gross_fdi_inflows` against `cumulative_fdi_inflows` at 0.892 and
+    accepted `total_fdi_inflows` at 0.930, merging the RBI's gross FDI inflows
+    (US$ 81.0 billion) with Appendix Table 9's Total FDI (US$ 50.0 billion) and
+    manufacturing a contradiction out of two different series. A coin flip is
+    not a decision procedure, so the case is settled in code.
+    """
+    left_head, left_mod = _split_modifier(left)
+    right_head, right_mod = _split_modifier(right)
+    if not left_mod or not right_mod or left_mod == right_mod:
+        return None
+    if not left_head or left_head != right_head:
+        return None
+    return f"{left_mod!r} against {right_mod!r} on the same measure {left_head!r}"
+
+
+def _split_modifier(name: str) -> tuple[str, str | None]:
+    """A name as (head, leading measure modifier or None)."""
+    head, _, rest = name.partition("_")
+    if head in MEASURE_MODIFIERS and rest:
+        return rest, head
+    return name, None
+
 
 class AliasAnswer(BaseModel):
     same_relation: bool = Field(
@@ -164,6 +247,23 @@ class PredicateRegistry:
                     similarity=similarity if match else None,
                     decided_by="deterministic",
                     doc_id=doc_id,
+                )
+            )
+
+        # Settled before the model is asked. A name in contrast with the one
+        # it is nearest to is a different measure by construction, so there is
+        # nothing to ask and the refusal is ours rather than the model's.
+        contrast = contrastive(name, match.canonical)
+        if contrast:
+            self._register(name, doc_id)
+            return self._record(
+                SchemaEvent(
+                    "alias_rejected",
+                    name,
+                    match.canonical,
+                    similarity,
+                    "deterministic",
+                    doc_id,
                 )
             )
 

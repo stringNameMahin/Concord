@@ -31,6 +31,55 @@ from concord.normalize.periods import Period, bare_date, parse_period
 # only says how to compare the value, never which keys may exist.
 PERIOD_KEYS = ("period", "as_of", "as_at")
 
+# Trailing corporate legal forms, as whole phrases. Read only by
+# `same_entity`, and only to strip one suffix off the end of a name that
+# already matches word for word - see that function for why the list is safe
+# where a general suffix-stripping rule would not be. Bare "as" (the
+# Norwegian form) is deliberately absent: it is a common English word, and
+# the only entry that could plausibly end a subject surface by accident.
+LEGAL_FORMS = frozenset(
+    {
+        "limited",
+        "ltd",
+        "company",
+        "company limited",
+        "co",
+        "co ltd",
+        "corporation",
+        "corp",
+        "inc",
+        "incorporated",
+        "plc",
+        "private limited",
+        "private ltd",
+        "pvt ltd",
+        "pvt limited",
+        "pte ltd",
+        "pte limited",
+        "llp",
+        "llc",
+        "lp",
+        "limited liability partnership",
+        "gmbh",
+        "ag",
+        "nv",
+        "bv",
+        "sa",
+        "sas",
+        "spa",
+        "srl",
+        "ab",
+        "aps",
+        "oy",
+        "oyj",
+        "kk",
+        "sdn bhd",
+        "bhd",
+        "pjsc",
+        "jsc",
+    }
+)
+
 _WORD = re.compile(r"[^a-z0-9]+")
 
 
@@ -64,7 +113,7 @@ def canonical_predicate(text: str) -> str:
 def normalize_surface(text: str) -> str:
     """Normalise a subject surface form for use as a fallback identity."""
     lowered = (text or "").strip().lower()
-    lowered = re.sub(r"['’]s\b", "", lowered)
+    lowered = re.sub("['\u2019]s\\b", "", lowered)
     return _WORD.sub(" ", lowered).strip()
 
 
@@ -181,22 +230,59 @@ class Fact:
         return self.claim_text or f"{self.subject_surface} {self.predicate} {self.value_raw}"
 
 
+def same_entity(left: str, right: str) -> bool:
+    """Is one surface form the other plus a trailing corporate legal form?
+
+    This is the whole of the surface-form latitude the system allows, and it
+    is deliberately one hop wide. The rule the corpus needs is `Delhivery` and
+    `Delhivery Limited`; the rule it must not have is anything that lets a
+    parent absorb a subsidiary. Two constraints together give that:
+
+    - the shorter name must be an ordered **prefix** of the longer one, not a
+      token subset. `Delhivery Limited` is not a prefix of `Delhivery Corp
+      Limited`, so the UK subsidiary cannot reach the parent even though the
+      only extra word is one this module recognises.
+    - what remains must be exactly one legal form, spelled as a whole. `corp
+      limited` is not a legal form, so a name cannot pick up two of them.
+
+    `LEGAL_FORMS` is a vocabulary, and this is the one place the system keeps
+    one. It is a naming convention rather than a subject area - it says how
+    organisations write their own names, not what any of them do - and the
+    prefix rule means an entry can only ever strip a suffix, never bridge two
+    names whose content words differ. Measured over the 223 distinct subject
+    surfaces in the shipped ledger, it joins exactly two pairs, both correct.
+    """
+    if left == right:
+        return True
+    if len(right) < len(left):
+        left, right = right, left
+    return right.startswith(left + " ") and right[len(left) + 1 :] in LEGAL_FORMS
+
+
 def subjects_match(a: Fact, b: Fact) -> bool:
     """Decide whether two facts speak about the same subject.
 
     Two hard keys must be equal - a CIN or an ISIN is an identity, and two
     different ones are two different entities no matter how alike the names
-    look. Without a hard key on both sides we fall back to the surface forms
-    and accept one being a token subset of the other, so `Delhivery` matches
-    `Delhivery Limited` without a list of corporate suffixes to maintain.
+    look. Without a hard key on both sides the surface forms have to be the
+    same name, up to the trailing legal form `same_entity` allows.
+
+    This used to accept one token set being a subset of the other. That rule
+    matched `Delhivery` to `Delhivery Limited` as intended, and also matched
+    the parent to `Delhivery Freight Services Private Limited`, `current other
+    assets` to `current other financial assets`, and `cash and cash
+    equivalents` to `bank balances other than cash and cash equivalents`. On
+    the shipped ledger it produced twenty mismatched-subject pairs, including
+    every one of the eight false contradictions. A subset of a name is a
+    different name, not a shorter one.
     """
     if a.subject_key and b.subject_key:
         return a.subject_key == b.subject_key
 
-    left, right = surface_tokens(a.subject_surface), surface_tokens(b.subject_surface)
+    left, right = normalize_surface(a.subject_surface), normalize_surface(b.subject_surface)
     if not left or not right:
         return False
-    return left <= right or right <= left
+    return same_entity(left, right)
 
 
 def predicates_match(a: Fact, b: Fact, aliases: dict[str, str] | None = None) -> bool:
@@ -254,7 +340,7 @@ def _as_interval(value: str, fy_end_month: int | None) -> Period | None:
 
 
 def build_qualifiers(
-    pairs, fy_end_month: int | None = None
+    pairs, fy_end_month: int | None = None, inherited: dict[str, str] | None = None
 ) -> dict[str, Qualifier]:
     """Turn the model's qualifier list into a bag, resolving period labels.
 
@@ -262,6 +348,12 @@ def build_qualifiers(
     decision table. If a label does not resolve, the qualifier survives as a
     string and is compared as one; an unparsed label must never silently
     become a missing qualifier.
+
+    `inherited` carries conditions the document states structurally rather
+    than in the sentence - the bullet heading a figure sits under. They fill
+    keys the extractor left empty and never overwrite one it filled: a
+    qualifier read off the claim itself is better evidence than one read off
+    the layout, and where both exist the sentence wins.
     """
     bag: dict[str, Qualifier] = {}
     for item in pairs:
@@ -278,6 +370,14 @@ def build_qualifiers(
         bag[key] = Qualifier(
             key=key, value=str(value).strip(), provenance=provenance, period=period
         )
+
+    for raw_key, raw_value in (inherited or {}).items():
+        key = canonical_predicate(raw_key)
+        value = str(raw_value or "").strip()
+        if not key or not value or key in bag:
+            continue
+        period = _as_interval(value, fy_end_month) if key_matches(key, PERIOD_KEYS) else None
+        bag[key] = Qualifier(key=key, value=value, provenance="inherited", period=period)
     return bag
 
 
@@ -289,6 +389,7 @@ def materialize(
     fy_end_month: int | None = None,
     default_scale: str | None = None,
     default_unit: str | None = None,
+    inherited: dict[str, str] | None = None,
 ) -> Fact:
     """Build a `Fact` from one grounded extraction.
 
@@ -335,7 +436,7 @@ def materialize(
         value_kind=kind,
         value_raw=out.value.raw,
         quantity=quantity,
-        qualifiers=build_qualifiers(out.qualifiers, fy_end_month),
+        qualifiers=build_qualifiers(out.qualifiers, fy_end_month, inherited),
         evidence=evidence,
         confidence=out.confidence,
         flags=flags,

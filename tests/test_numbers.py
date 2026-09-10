@@ -60,7 +60,7 @@ def test_precision_interval_follows_written_digits():
 
 
 def test_currency_symbols_and_words():
-    assert parse_quantity("₹8,142 Cr").unit == "INR"
+    assert parse_quantity("\u20b98,142 Cr").unit == "INR"
     assert parse_quantity("Rs. 500").unit == "INR"
     assert parse_quantity("$1.2 bn").unit == "USD"
     assert parse_quantity("500", default_unit="INR").unit == "INR"
@@ -139,7 +139,7 @@ def test_parenthesised_negative_keeps_its_scale():
 
 
 def test_currency_prefixed_parenthesised_negative():
-    q = parse_quantity("₹(404) Cr")
+    q = parse_quantity("\u20b9(404) Cr")
     assert q.unit == "INR"
     assert q.number == -404.0
     assert q.normalized == pytest.approx(-4.04e9)
@@ -152,7 +152,7 @@ def test_bare_parenthesised_negative():
 @pytest.mark.parametrize(
     "written,code",
     [
-        ("₹", "INR"),
+        ("\u20b9", "INR"),
         ("Rs.", "INR"),
         ("INR", "INR"),
         ("Indian Rupees", "INR"),
@@ -162,7 +162,7 @@ def test_bare_parenthesised_negative():
     ],
 )
 def test_the_same_currency_written_three_ways_resolves_to_one_code(written, code):
-    """Observed live: '₹' and 'INR' were refused as incomparable currencies."""
+    """Observed live: the rupee sign and 'INR' were refused as incomparable."""
     from concord.normalize.numbers import normalize_currency
 
     assert normalize_currency(written) == code
@@ -176,8 +176,8 @@ def test_a_unit_that_is_not_a_currency_is_left_alone():
 
 
 def test_an_inherited_currency_matches_one_written_on_the_figure():
-    inherited = parse_quantity("81,415.38", default_scale="million", default_unit="₹")
-    written = parse_quantity("₹36,465.27 million")
+    inherited = parse_quantity("81,415.38", default_scale="million", default_unit="\u20b9")
+    written = parse_quantity("\u20b936,465.27 million")
     assert inherited.unit == written.unit == "INR"
 
 

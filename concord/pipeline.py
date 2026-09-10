@@ -123,6 +123,12 @@ def ingest(
                 fy_end_month=fy_end_month,
                 default_scale=scale,
                 default_unit=unit,
+                # The context stack is walked at the fact's own offset, not the
+                # chunk's. A chunk is four thousand characters wide and can
+                # cross several bullet sections, so the enclosing scope has to
+                # be resolved per fact or every fact in the window inherits
+                # whichever scope happened to be open where the window started.
+                inherited=structure.inherited_qualifiers(record.alignment.start),
             )
         )
 

@@ -5,10 +5,12 @@ import pytest
 from concord.normalize.periods import (
     Period,
     infer_fiscal_year_end,
+    mentioned_years,
     overlaps,
     parse_as_of,
     parse_period,
     same_interval,
+    years_compatible,
 )
 
 FY = 3
@@ -62,6 +64,106 @@ def test_partial_period_is_not_the_same_as_the_full_year():
     full = parse_period("FY22", fy_end_month=FY)
     assert not same_interval(partial, full)
     assert overlaps(partial, full)
+
+
+# --- a year label that names less than the year --------------------------
+
+
+@pytest.mark.parametrize(
+    "label, start, end",
+    [
+        ("first eight months of FY24", date(2023, 4, 1), date(2023, 11, 30)),
+        ("first nine months of FY25", date(2024, 4, 1), date(2024, 12, 31)),
+        ("first quarter of FY25", date(2024, 4, 1), date(2024, 6, 30)),
+        ("last three months of FY24", date(2024, 1, 1), date(2024, 3, 31)),
+        ("H1 FY25", date(2024, 4, 1), date(2024, 9, 30)),
+        ("H1 of FY24", date(2023, 4, 1), date(2023, 9, 30)),
+        ("second half of FY25", date(2024, 10, 1), date(2025, 3, 31)),
+    ],
+)
+def test_a_run_cut_out_of_a_year_resolves_to_that_run(label, start, end):
+    period = parse_period(label, fy_end_month=FY)
+    assert (period.start, period.end) == (start, end)
+
+
+def test_a_partial_year_is_never_equal_to_its_whole_year():
+    """Widening a part into its whole made a partial-year figure and a
+    full-year figure read as one stated condition, and their disagreement then
+    came out `contradicts`."""
+    part = parse_period("first eight months of FY24", fy_end_month=FY)
+    whole = parse_period("FY24", fy_end_month=FY)
+    assert not same_interval(part, whole)
+    assert overlaps(part, whole)
+
+
+def test_the_last_run_of_a_year_meets_its_quarter():
+    assert same_interval(
+        parse_period("last three months of FY24", fy_end_month=FY),
+        parse_period("Q4 FY24", fy_end_month=FY),
+    )
+
+
+def test_one_quarter_spelled_two_ways_is_one_condition():
+    assert same_interval(
+        parse_period("Q2 of FY25", fy_end_month=FY),
+        parse_period("Q2 FY25", fy_end_month=FY),
+    )
+
+
+@pytest.mark.parametrize(
+    "label",
+    [
+        "FY20 to FY24",
+        "FY23-FY26",
+        "Between FY22 and FY26",
+        "till FY26",
+        "inception till FY26",
+        "FY25 (April-December)",
+        "end of FY24",
+    ],
+)
+def test_a_label_that_is_not_one_whole_year_abstains(label):
+    """Refusing leaves the label to be compared as text, which keeps two
+    different labels different. Widening it to a year we cannot justify does
+    not."""
+    assert parse_period(label, fy_end_month=FY) is None
+
+
+@pytest.mark.parametrize("label", ["2024-25 (P)", "2024-25 (RE)", "full year FY24"])
+def test_words_that_do_not_change_the_span_still_resolve(label):
+    assert parse_period(label, fy_end_month=FY) is not None
+
+
+# --- which years a label names ---------------------------------------------
+
+
+@pytest.mark.parametrize(
+    "label, years",
+    [
+        ("till FY26", {2026}),
+        ("inception till FY26", {2026}),
+        ("March 31, 2024", {2024}),
+        ("end of FY24", {2024}),
+        ("financial year under review", set()),
+        ("April-December 2023", {2023}),
+    ],
+)
+def test_a_label_names_the_years_it_spells(label, years):
+    assert mentioned_years(label) == years
+
+
+@pytest.mark.parametrize(
+    "left, right, compatible",
+    [
+        ("till FY26", "inception till FY26", True),
+        ("financial year under review", "financial year ended March 31, 2026", True),
+        ("March 31, 2024", "end of FY24", True),
+        ("April-December 2024", "April-December 2023", False),
+        ("end of FY24", "end of FY23", False),
+    ],
+)
+def test_years_compatible_when_neither_label_rules_the_other_out(left, right, compatible):
+    assert years_compatible(left, right) is compatible
 
 
 def test_fiscal_quarters_land_in_the_right_months():
