@@ -61,6 +61,8 @@ Expected: **454 passed** in roughly 20 seconds. The suite needs no network and
 no API key; the one test that loads the real embedding model is marked `slow`
 and will download the sentence-transformer if it is not already cached.
 
+You can run a keyless demo using the data cached from the 6 documents upload initially from the starter datasets. Simply start the application and you may browsed through the previously cached datasets.
+
 > Do **not** set `CONCORD_OFFLINE=1` when running the tests. They stub their
 > own LLM clients, and the flag only confuses the failure messages.
 
