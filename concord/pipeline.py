@@ -55,6 +55,16 @@ def _default_units(fact) -> tuple[str | None, str | None]:
     A table header saying the column is in millions reaches the extractor as a
     qualifier, not as part of the figure. Without this, `81,415.38` under such
     a header would normalise to eighty-one thousand.
+
+    This depends on the model coining one of a handful of key names, and over
+    the seven-document ledger it coined `scale` or `magnitude` exactly **zero**
+    times out of 773 facts. It is kept because it costs nothing and is right
+    when it fires, but it is not what makes a bare cell work. What does is
+    `materialize` reading the magnitude back out of the bytes the aligner
+    located - see F1 in docs/devRead.md section 8, and see that entry for why
+    the page-level `(All amounts in ... in million)` declaration is *not* read
+    here: it is row-scoped in the source, and applying it at page granularity
+    turned share counts into millions of shares.
     """
     scale = unit = None
     for qualifier in fact.qualifiers:

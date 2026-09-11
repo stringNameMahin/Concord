@@ -200,3 +200,77 @@ def test_two_spellings_of_percent_now_compare():
     b = parse_quantity("6.5", default_unit="per cent")
     assert a.is_percent == b.is_percent is True
     assert not intervals_overlap(a.interval, b.interval)
+
+
+# --- reading a magnitude back out of the document -------------------------
+#
+# `scale_after_figure` is the deterministic half of the fix for the defect
+# recorded as F1 in docs/devRead.md: a model that returns `raw="81,415.38"`
+# from a sentence saying "81,415.38 million" leaves a record wrong by a factor
+# of a million, and wrong invisibly.
+
+from concord.normalize.numbers import scale_after_figure
+
+
+def test_a_scale_word_directly_behind_the_figure_is_read():
+    assert scale_after_figure("5,444", "Total cash balance: Rs 5,444 Cr") == "cr"
+    assert scale_after_figure("81,415.38", "revenue was 81,415.38 million.") == "million"
+    assert scale_after_figure("131", "to 131 lakh in FY24") == "lakh"
+
+
+def test_the_currency_glyph_on_the_figure_does_not_block_the_match():
+    """`raw` keeps the symbol as written; the text may space it differently."""
+    assert scale_after_figure("Rs8,142", "Rs 8,142 Cr FY24 revenue") == "cr"
+
+
+def test_a_scale_word_belonging_to_a_different_figure_is_not_returned():
+    """The commonest way a loose rule would go wrong: one line, two figures."""
+    assert scale_after_figure("13,087", "across 13,087 PIN codes with 2.85 million") is None
+
+
+def test_a_scale_word_that_is_not_behind_the_figure_is_not_returned():
+    assert scale_after_figure("0.56", "(per one million-person hours) 0.56") is None
+    assert scale_after_figure("622", "Trade payables 622") is None
+
+
+def test_a_figure_the_text_does_not_contain_returns_nothing():
+    assert scale_after_figure("9,999", "revenue was 81,415.38 million") is None
+    assert scale_after_figure("", "81,415.38 million") is None
+
+
+def test_an_accounting_negative_still_finds_its_scale():
+    """`(217)` wraps the figure alone, so the scale sits outside the bracket."""
+    assert scale_after_figure("(217)", "Adjusted EBITDA (217) Cr") == "cr"
+
+
+def test_the_indian_compound_scales_are_read_as_one_phrase():
+    """`lakh crore` is a trillion. Read as `lakh` it is out by ten million.
+
+    The RBI and the Union Budget both write large rupee sums this way, and the
+    misreading is silent - the figure still parses and still looks ordinary.
+    """
+    assert parse_quantity("2.8 lakh crore").normalized == 2.8e12
+    assert parse_quantity("11.9 lakh crores").normalized == 11.9e12
+    assert parse_quantity("5 thousand crore").normalized == 5e10
+    assert parse_quantity("2.8", default_scale="lakh crore").normalized == 2.8e12
+
+
+def test_a_plain_lakh_is_still_a_lakh():
+    """The compound must not swallow the simple case."""
+    assert parse_quantity("2.8 lakh").normalized == 2.8e5
+    assert parse_quantity("131", default_scale="lakh").normalized == 131e5
+
+
+def test_a_compound_scale_broken_across_a_line_still_resolves():
+    """PyMuPDF breaks the line between the two halves as readily as not."""
+    assert scale_after_figure("2.8", "NFA expanded by Rs 2.8 lakh\ncrore") == "lakh crore"
+
+
+def test_a_currency_token_between_the_figure_and_its_scale_is_allowed():
+    """`622 INR crores` is one quantity; a currency cannot be another figure.
+
+    Without this the two halves of a restated pair recovered asymmetrically
+    and two statements of one figure came out as a contradiction.
+    """
+    assert scale_after_figure("622", "The total trade payable is 622 INR crores.") == "crores"
+    assert scale_after_figure("668.3", "reserves stood at US$ 668.3 billion") == "billion"

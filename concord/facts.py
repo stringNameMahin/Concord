@@ -23,7 +23,13 @@ import hashlib
 import re
 from dataclasses import dataclass, field
 
-from concord.normalize.numbers import NotANumber, Quantity, parse_quantity
+from concord.normalize.numbers import (
+    NotANumber,
+    Quantity,
+    is_scale_word,
+    parse_quantity,
+    scale_after_figure,
+)
 from concord.normalize.periods import Period, bare_date, parse_period
 
 # Qualifier keys whose value is a date interval rather than a string, so they
@@ -398,17 +404,53 @@ def materialize(
     the cell, and only the caller knows the stack. A figure that will not parse
     is not an error: the fact keeps its text value, is flagged, and simply
     never takes part in an interval comparison.
+
+    The magnitude is recovered from the document rather than trusted to the
+    model. A model handed a sentence reading "81,415.38 million" routinely
+    returns `raw="81,415.38"` with `scale` left null, and the resulting record
+    is wrong by a factor of a million while looking entirely ordinary - the
+    quote is right, the value shown is right, only `normalized` is wrong, and
+    `normalized` is what every interval comparison uses. Measured over the
+    seven-document ledger before this guard existed: 133 of 728 quantity facts,
+    touching 36 of 171 relations. So the order is
+
+        the figure itself  ->  what the model said  ->  the located bytes
+                           ->  the sentence         ->  the caller's context
+
+    and only the first two are the model's. Reading the scale back out of the
+    span the aligner already located is the same deterministic guard the quote
+    gets from the aligner and the subject gets from
+    `subject_names_the_measurement`; the magnitude was the last load-bearing
+    field without one.
     """
     quantity = None
     flags: list[str] = []
     kind = out.value.kind
 
     if kind == "quantity":
+        recovered = scale_after_figure(out.value.raw, alignment.text) or scale_after_figure(
+            out.value.raw, out.claim_text
+        )
+        # Both of the model's units fields are free text and it fills them the
+        # wrong way round often enough to matter, so neither is trusted by
+        # position. A `scale` that names no known magnitude is not a scale and
+        # must not shadow what the document itself says; a `unit` that names a
+        # magnitude is a scale and must not become a bogus unit that then
+        # refuses every comparison.
+        stated = next(
+            (s for s in (out.value.scale, out.value.unit) if is_scale_word(s)), None
+        )
+        scale = next(
+            (s for s in (stated, recovered, default_scale) if is_scale_word(s)), None
+        )
+        unit = next(
+            (u for u in (out.value.unit, default_unit) if u and not is_scale_word(u)), None
+        )
+        if scale is not None and scale == recovered and stated is None:
+            flags.append("scale_recovered_from_source")
         try:
             quantity = parse_quantity(
-                out.value.raw,
-                default_scale=out.value.scale or default_scale,
-                default_unit=out.value.unit or default_unit,
+                out.value.raw, default_scale=scale, default_unit=unit
             )
         except NotANumber:
             flags.append("unparsed_quantity")

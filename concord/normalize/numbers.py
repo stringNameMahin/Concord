@@ -23,6 +23,19 @@ SCALES = {
     "billions": 1e9,
     "trillion": 1e12,
     "tn": 1e12,
+    # Indian compound scales. `lakh crore` is how the RBI and the Union Budget
+    # write a trillion, and it has to be matched as one phrase: read as `lakh`
+    # alone it is out by a factor of ten million, and as `crore` alone by a
+    # hundred thousand. Both misreadings are silent - the figure still parses
+    # and still looks ordinary. Five facts in the shipped RBI report were
+    # stored unscaled because the model returned this phrase correctly and this
+    # table did not hold it.
+    "lakh crore": 1e12,
+    "lakh crores": 1e12,
+    "lakhs crore": 1e12,
+    "lakhs crores": 1e12,
+    "thousand crore": 1e10,
+    "thousand crores": 1e10,
 }
 
 CURRENCIES = {
@@ -85,6 +98,100 @@ BOUNDS = [
 
 NUMBER = re.compile(r"\d[\d,\u00a0\s]*(?:\.\d+)?")
 SCALE_WORD = re.compile(r"[A-Za-z]+\.?")
+
+
+def _scale_key(text: str | None) -> str:
+    """Fold a written scale to its `SCALES` key.
+
+    Case, a trailing full stop, and the line break a PDF drops into the middle
+    of `lakh\\ncrore` are all noise; the phrase names the same scale either way.
+    """
+    return " ".join((text or "").lower().rstrip(".").split())
+
+
+# Every scale this module knows, longest first so `lakh crore` wins over
+# `lakh`, `millions` over `million` and `crores` over `cr`. Built from SCALES
+# rather than restated, so the two cannot drift, and with the space inside a
+# compound relaxed to any whitespace because a PDF breaks the line between its
+# two halves as readily as not.
+_SCALE_ALT = "|".join(
+    re.escape(word).replace(r"\ ", r"\s+")
+    for word in sorted(SCALES, key=len, reverse=True)
+)
+
+# The same alternation anchored at the start of a string, for reading the scale
+# off the tail of the figure itself.
+LEADING_SCALE = re.compile(rf"({_SCALE_ALT})\b\.?", re.I)
+
+_CURRENCY_ALT = (
+    r"[\u20b9$\u20ac\u00a3\u00a5]|rs\.?|inr|usd|eur|gbp|"
+    r"indian\s+rupees?|us\s+dollars?|rupees?|dollars?|euros?|pounds?"
+)
+
+# A scale word sitting immediately after a figure, with nothing between them
+# but a closing parenthesis, a currency token and a little whitespace.
+# Deliberately tight: a table row holds several figures, and a scale word three
+# words away belongs to a different one.
+#
+# The two things allowed in between are the two that cannot themselves be
+# another figure. The `)` is the accounting negative, which wraps the figure
+# alone, so `(217) Cr` is minus two hundred and seventeen crore. The currency
+# token is how a written-out claim spells one quantity - `622 INR crores` -
+# and a currency word cannot smuggle in a second figure for the scale to
+# belong to instead. Without it the two halves of a restated pair recovered
+# asymmetrically: `622 INR crores` kept its scale, `Trade payables 622` did
+# not, and two statements of one figure came out as a contradiction.
+TRAILING_SCALE = re.compile(
+    rf"\)?[\s\u00a0]{{0,3}}(?:(?:{_CURRENCY_ALT})[\s\u00a0]{{0,3}})?({_SCALE_ALT})\b\.?",
+    re.I,
+)
+
+
+def is_scale_word(text: str | None) -> bool:
+    """Does this name a magnitude rather than a thing being measured?
+
+    Used to tell the model's two units fields apart when it fills them the
+    wrong way round, which it does: on the RBI report it returned `scale="₹"`
+    and `unit="lakh crore"` for five figures, exactly reversed. Both fields are
+    free text, so neither can be trusted by position alone.
+    """
+    return _scale_key(text) in SCALES
+
+
+def scale_after_figure(figure: str, text: str) -> str | None:
+    """The scale the document wrote immediately after this figure.
+
+    A model handed a sentence reading "81,415.38 million" routinely returns
+    `raw="81,415.38"` with `scale` left null, and the record is then wrong by a
+    factor of a million while looking entirely ordinary - the quote is right,
+    the displayed value is right, and only `normalized` is wrong. The dropped
+    magnitude is sitting in the bytes the aligner already located, so reading
+    it back is the same deterministic guard the quote gets from the aligner and
+    the subject gets from `subject_names_the_measurement`. The magnitude was
+    the last load-bearing field still taken on the model's word.
+
+    Returns None unless the figure occurs in `text` with a scale directly
+    behind it. Every other case - the figure absent, a bare figure, a scale
+    word further away - is silence, because a wrong magnitude is worse than a
+    missing one.
+    """
+    digits = NUMBER.search(figure or "")
+    if digits is None or not text:
+        return None
+
+    # Match on the digits alone. Everything ahead of them in `raw` is a
+    # currency symbol, an opening parenthesis or a comparison operator, and the
+    # document spaces those differently from the model - `Rs8,142` in the
+    # record against `Rs 8,142` on the page.
+    needle = digits.group().strip()
+    if not needle:
+        return None
+
+    for match in re.finditer(re.escape(needle), text):
+        trailing = TRAILING_SCALE.match(text, match.end())
+        if trailing:
+            return _scale_key(trailing.group(1))
+    return None
 
 
 @dataclass
@@ -211,15 +318,15 @@ def parse_quantity(raw: str, default_scale: str | None = None,
 
     scale = None
     factor = 1.0
-    word = SCALE_WORD.match(tail)
+    word = LEADING_SCALE.match(tail)
     if word:
-        candidate = word.group().lower().rstrip(".")
+        candidate = _scale_key(word.group(1))
         if candidate in SCALES:
             scale = candidate
             factor = SCALES[candidate]
 
     if scale is None and not is_percent and default_scale:
-        candidate = default_scale.lower().rstrip(".")
+        candidate = _scale_key(default_scale)
         if candidate in SCALES:
             scale = candidate
             factor = SCALES[candidate]
