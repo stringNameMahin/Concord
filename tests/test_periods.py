@@ -241,3 +241,75 @@ def test_a_date_wearing_a_preposition_is_still_a_date(written):
     from concord.normalize.periods import bare_date
 
     assert bare_date(written) == date(2024, 3, 31)
+
+
+# --- the fiscal basis is a claim about a whole document ---------------------
+
+
+def test_an_event_that_ended_on_a_date_does_not_set_the_fiscal_basis():
+    """F2, in the shape that cost two verdicts.
+
+    One sentence in ninety-five pages put the IMF Article IV on a September
+    fiscal year, and every FY label in it then resolved six months away from
+    every other publisher's reading of the same label. The sentence was the
+    mission's own meeting schedule. `ended on <date>` is not a reporting basis
+    unless what ended was a year.
+    """
+    text = (
+        "The report was prepared for the Board's consideration on November 21, 2025, "
+        "following discussions that ended on September 18, 2025, with the officials."
+    )
+    assert infer_fiscal_year_end(text) is None
+
+
+def test_a_year_ending_still_sets_it_from_a_single_statement():
+    """The precision is in which sentences count, not in how many."""
+    text = "Notes to the Financial Statements for the year ended March 31, 2024."
+    assert infer_fiscal_year_end(text) == 3
+
+
+def test_a_year_ending_outvotes_an_unrelated_event_in_the_same_document():
+    text = (
+        "Consolidated statements for the year ended March 31, 2024. "
+        "The engagement ended on September 18, 2025."
+    )
+    assert infer_fiscal_year_end(text) == 3
+
+
+def test_a_tie_is_not_an_answer():
+    """Two months with equal support means the document has not said.
+
+    Picking a winner out of dict ordering would be a coin flip dressed as a
+    reading, and the cost of abstaining is only that the label carries the
+    `assumed` tier it should have had anyway.
+    """
+    text = (
+        "the year ended March 31, 2024 ... the year ended December 31, 2024"
+    )
+    assert infer_fiscal_year_end(text) is None
+
+
+def test_a_partial_period_still_does_not_set_the_year_end():
+    assert infer_fiscal_year_end("nine months ended December 31, 2021") is None
+    assert infer_fiscal_year_end("three months ended June 30, 2024") is None
+
+
+def test_the_evidence_behind_the_basis_is_reported():
+    """An inference over a whole document that nobody can see is how F2 hid."""
+    from concord.normalize.periods import fiscal_year_end_evidence
+
+    text = (
+        "for the year ended March 31, 2024 and the year ended March 31, 2023, "
+        "against the year ended December 31, 2022."
+    )
+    assert fiscal_year_end_evidence(text) == {3: 2, 12: 1}
+    assert infer_fiscal_year_end(text) == 3
+
+
+def test_an_unstated_basis_marks_every_label_assumed_rather_than_guessing():
+    """The whole point of returning None: the label still resolves, on the
+    default, and says so. Two publishers then read `FY25` the same way."""
+    imf = parse_period("FY2024/25", infer_fiscal_year_end("discussions ended on September 18, 2025"))
+    rbi = parse_period("2024-25", infer_fiscal_year_end("for the year ended March 31, 2025"))
+    assert same_interval(imf, rbi)
+    assert imf.assumed and not rbi.assumed

@@ -41,6 +41,22 @@ ENDED = re.compile(
     rf"(?P<year>\d{{4}})",
     re.I,
 )
+# A *year* that ended on a date, which is a document stating its reporting
+# basis. `ENDED` above is deliberately looser because it serves `parse_period`,
+# where any "ended <date>" is a period boundary worth resolving - but a basis
+# is a claim about the whole document and needs the stronger evidence.
+#
+# The difference is one word and it decides everything. "for the year ended
+# March 31, 2024" names a reporting year; "discussions that ended on September
+# 18, 2025" names a meeting. `ENDED` matches both, and the second put the IMF
+# Article IV on a September fiscal year off one sentence in ninety-five pages -
+# see F2 in docs/devRead.md. Partial periods are excluded by construction: a
+# "nine months ended December 31" carries no "year" before "ended".
+YEAR_ENDED = re.compile(
+    rf"\byears?\s+end(?:ed|ing)\s+(?:on\s+)?(?P<month>{MONTH_RE})\.?\s+"
+    rf"(?P<day>\d{{1,2}}),?\s+(?P<year>\d{{4}})",
+    re.I,
+)
 AS_OF = re.compile(
     rf"\bas\s+(?:at|of|on)\s+(?P<month>{MONTH_RE})\.?\s+(?P<day>\d{{1,2}}),?\s+(?P<year>\d{{4}})",
     re.I,
@@ -124,20 +140,53 @@ def _fy_from_end_year(end_year: int, fy_end_month: int, label: str, basis: str) 
     return Period(start, end, label, "year", basis)
 
 
+def fiscal_year_end_evidence(text: str) -> dict[int, int]:
+    """Every month this document says one of its years ended in, counted.
+
+    Returned rather than kept private because the basis is an inference the
+    layer makes about a whole document off a handful of sentences, and an
+    inference nobody can see the evidence for is the kind that goes wrong
+    quietly. `POST /ingest` reports this alongside the month it chose.
+    """
+    counts: dict[int, int] = {}
+    for match in YEAR_ENDED.finditer(text):
+        month = MONTHS[match.group("month").lower()]
+        counts[month] = counts.get(month, 0) + 1
+    return counts
+
+
 def infer_fiscal_year_end(text: str) -> int | None:
     """Read the document's own fiscal year end rather than assuming one.
 
     A filing that says "for the year ended March 31, 2024" has told us its
     basis. Only when nothing in the document says so does the configured
-    default apply, and the period is then marked assumed.
+    default apply, and the period is then marked assumed - which is the right
+    answer far more often than a guess is, because the label a document writes
+    means what its publisher's calendar says and getting that wrong moves
+    every period in the document by months.
+
+    Two things make the reading conservative.
+
+    **Only a year ending counts.** `YEAR_ENDED` requires the word before
+    `ended`, so a sentence about anything else that ended on a date cannot vote.
+    The IMF Article IV was put on a September basis by exactly one match in
+    ninety-five pages - "discussions that ended on September 18, 2025", the
+    mission's own meeting schedule - and every period label in it then resolved
+    six months away from every other publisher's reading of the same label.
+
+    **A tie is not an answer.** Two months with equal support means the
+    document has not told us, and inventing a winner out of dict ordering would
+    be a coin flip dressed as a reading. Returning None costs a label the
+    `assumed` tier it should have had anyway.
     """
-    counts: dict[int, int] = {}
-    for match in ENDED.finditer(text):
-        if match.group("span") and match.group("span").lower().startswith(("month", "quarter")):
-            continue
-        month = MONTHS[match.group("month").lower()]
-        counts[month] = counts.get(month, 0) + 1
-    return max(counts, key=counts.get) if counts else None
+    counts = fiscal_year_end_evidence(text)
+    if not counts:
+        return None
+
+    ranked = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+    if len(ranked) > 1 and ranked[0][1] == ranked[1][1]:
+        return None
+    return ranked[0][0]
 
 
 def find_date(text: str) -> tuple[date, int, int] | None:

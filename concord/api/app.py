@@ -207,6 +207,13 @@ async def ingest_document(file: UploadFile, adjudicate_residue: bool = Query(Tru
             "quarantine_rate": round(result.extraction.quarantine_rate, 4),
             "failed_batches": result.extraction.failed_batches,
             "duplicates_collapsed": result.duplicates,
+            # The fiscal basis is inferred per document and silently decides
+            # what every FY label in it means, so it is reported with the
+            # evidence behind it rather than left for a reader to guess at.
+            "fiscal_year_end_month": result.fy_end_month,
+            "fiscal_year_end_evidence": {
+                str(month): count for month, count in sorted(result.fy_evidence.items())
+            },
             "requests": result.extraction.requests,
             "blocking": {
                 "theoretical_pairs": run.blocking.theoretical_pairs,

@@ -15,7 +15,10 @@ from concord.config import BATCH_SIZE, WORKERS
 from concord.extract.align import Aligner
 from concord.extract.runner import ExtractionRun, extract
 from concord.facts import Fact, materialize
-from concord.normalize.periods import infer_fiscal_year_end
+from concord.normalize.periods import (
+    fiscal_year_end_evidence,
+    infer_fiscal_year_end,
+)
 from concord.parse.chunk import Chunk, chunk_document
 from concord.parse.pdf import ParsedDoc, parse
 from concord.parse.structure import Structure, analyse
@@ -36,6 +39,11 @@ class Ingested:
     facts: list[Fact] = field(default_factory=list)
     fy_end_month: int | None = None
     duplicates: int = 0
+    # Which months the document said one of its years ended in, and how often.
+    # The basis is an inference over a whole document drawn from a handful of
+    # sentences, so the evidence travels with it rather than being thrown away
+    # - see F2 in docs/devRead.md for what one unexamined sentence cost.
+    fy_evidence: dict[int, int] = field(default_factory=dict)
 
     @property
     def doc_id(self) -> str:
@@ -119,6 +127,7 @@ def ingest(
 
     run = extract(chunks, aligner, client, size, workers)
     fy_end_month = infer_fiscal_year_end(doc.text)
+    fy_evidence = fiscal_year_end_evidence(doc.text)
     identifier = doc_id or Path(doc.filename).stem
 
     facts = []
@@ -150,5 +159,6 @@ def ingest(
         extraction=run,
         facts=unique,
         fy_end_month=fy_end_month,
+        fy_evidence=fy_evidence,
         duplicates=duplicates,
     )
