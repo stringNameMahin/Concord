@@ -42,6 +42,30 @@ BULLET_MAX_DY = 6.0
 SCOPE_MAX_WORDS = 6
 SCOPE_MIN_CASED_WORD = 4
 
+# The one pair of words this layer knows, and the reason it knows them.
+#
+# A company files the same line items twice - once for the group, once for the
+# parent alone - under the same subject, the same predicate and the same year.
+# Nothing about that pair is visible in the figures: `Profit before tax 615` and
+# `Profit before tax 2,966` differ by a factor of five and both are correct.
+# The only thing separating them is the statement they sit in, and a document
+# says which in a running header and in the statement's own title.
+#
+# Without this, the two reach the decision table with identical qualifier bags
+# and it returns `contradicts` - measured on the shipped ledger: 11 relations
+# pairing a consolidated figure against a standalone one, 6 of them false
+# contradiction candidates the guards had to catch. The model, asked to
+# adjudicate them, replied that one side was "possibly consolidated" and the
+# distinction "not explicitly stated" - about a phrase 230 characters away.
+#
+# Two words is the same order of commitment as the `SCALES` and `CURRENCIES`
+# tables in `normalize/numbers.py`: a naming convention every filer shares,
+# not knowledge of what any particular filer reports. It is a real commitment
+# all the same, and it is the only vocabulary in this module.
+CONSOLIDATION = ("consolidated", "standalone")
+# Built from the tuple rather than restated, so the two cannot drift.
+CONSOLIDATION_RE = re.compile(rf"\b({'|'.join(CONSOLIDATION)})\b", re.I)
+
 
 def shape(text: str) -> str:
     """Collapse a line to a repetition-comparable form.
@@ -71,10 +95,12 @@ class Structure:
     offset"; what a heading *means* is the extractor's job, which is what keeps
     the pipeline free of domain rules.
 
-    `inherited_qualifiers` is the one exception, and a narrow one: a bulleted
-    heading is promoted to a `segment` qualifier on the facts beneath it. That
-    names a structural relation - this bullet scopes those figures - rather
-    than interpreting the words, and it is the only reading this layer does.
+    `inherited_qualifiers` holds the two exceptions, both narrow: a bulleted
+    heading is promoted to a `segment` qualifier on the facts beneath it, and a
+    heading or running header naming one of the two consolidation bases is
+    promoted to a `consolidation` qualifier. The first names a structural
+    relation - this bullet scopes those figures - without reading the words; the
+    second does read two words, for the reason set out at `CONSOLIDATION`.
     """
 
     furniture: set[str]
@@ -95,7 +121,36 @@ class Structure:
     def heading_path(self, offset: int) -> list[str]:
         return [h.text for h in self.enclosing(offset)]
 
-    def inherited_qualifiers(self, offset: int) -> dict[str, str]:
+    def consolidation_at(self, offset: int, page: int | None = None) -> str | None:
+        """Which set of statements this offset sits in, if the document says.
+
+        Two sources, nearest first. The enclosing heading is the statement's own
+        title - `Consolidated Statement of Cash Flows` - and the running header
+        is the page frame - `Financial Statements: Standalone`. The heading wins
+        because it is nearer the figure; the frame catches the notes pages, where
+        the statement title is many pages back.
+
+        A line naming both bases names neither: `Consolidated and Standalone
+        Financial Statements` is a contents entry, not a scope, and guessing
+        which half applies would be worse than abstaining.
+        """
+        for heading in reversed(self.enclosing(offset)):
+            found = self._sole_basis(heading.text)
+            if found:
+                return found
+        if page is not None:
+            for line in self.page_frames.get(page, ()):
+                found = self._sole_basis(line)
+                if found:
+                    return found
+        return None
+
+    @staticmethod
+    def _sole_basis(text: str) -> str | None:
+        found = {m.group(1).lower() for m in CONSOLIDATION_RE.finditer(text or "")}
+        return found.pop() if len(found) == 1 else None
+
+    def inherited_qualifiers(self, offset: int, page: int | None = None) -> dict[str, str]:
         """Context this offset sits inside, as qualifier key-values.
 
         A bullet opens a scope. A bullet glyph followed by `PTL Freight` heads
@@ -117,14 +172,23 @@ class Structure:
         outer bullet a deeper one has already narrowed is not a second, coarser
         condition on the same figure, and a bulleted sentence is not a
         condition at all - see `scope_label`.
+
+        `consolidation` is the second key, on the same terms: recorded as
+        `inherited` so the reader can see the layer supplied it, value verbatim
+        from the document. See `consolidation_at` and `CONSOLIDATION`.
         """
+        found: dict[str, str] = {}
+        basis = self.consolidation_at(offset, page)
+        if basis:
+            found["consolidation"] = basis
         for heading in reversed(self.enclosing(offset)):
             if not heading.bulleted:
                 continue
             label = scope_label(heading.text)
             if label:
-                return {"segment": label}
-        return {}
+                found["segment"] = label
+                break
+        return found
 
 
 def _in_band(line: Line, doc: ParsedDoc) -> bool:

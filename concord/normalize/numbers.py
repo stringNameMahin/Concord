@@ -123,6 +123,11 @@ _SCALE_ALT = "|".join(
 # off the tail of the figure itself.
 LEADING_SCALE = re.compile(rf"({_SCALE_ALT})\b\.?", re.I)
 
+# Any scale word standing as a whole word, for lifting a magnitude out of a unit
+# the model wrote as a column header (`INR crores`). Word-bounded on both sides
+# so `k` does not bite `kg` or `kWh`.
+WHOLE_SCALE_WORD = re.compile(rf"\b(?:{_SCALE_ALT})\b\.?", re.I)
+
 _CURRENCY_ALT = (
     r"[\u20b9$\u20ac\u00a3\u00a5]|rs\.?|inr|usd|eur|gbp|"
     r"indian\s+rupees?|us\s+dollars?|rupees?|dollars?|euros?|pounds?"
@@ -158,6 +163,41 @@ def is_scale_word(text: str | None) -> bool:
     return _scale_key(text) in SCALES
 
 
+def truncates(stated: str | None, recovered: str | None) -> bool:
+    """Is `stated` only part of the compound scale `recovered` names?
+
+    `lakh` against `lakh crore` is out by a factor of ten million, and `crore`
+    against it by a hundred thousand - both silent, because either half parses
+    as a magnitude on its own. A model that answers with one word of a two-word
+    phrase the page wrote has not contradicted the document, it has read part of
+    it, so the document wins. `million` against `cr` is a real disagreement -
+    neither contains the other - and there the model still wins.
+    """
+    if not stated or not recovered:
+        return False
+    left, right = _scale_key(stated).split(), _scale_key(recovered).split()
+    if not left or len(left) >= len(right):
+        return False
+    return any(right[i : i + len(left)] == left for i in range(len(right) - len(left) + 1))
+
+
+def _whole_number_at(text: str, start: int, end: int) -> bool:
+    """Is `text[start:end]` a figure in its own right, not part of a longer one?
+
+    The needle is a digit run, so it matches inside any longer number that
+    contains it - and the match that wins is whichever one a scale word happens
+    to follow. Searching for `6` in "reaching USD 602.6 billion, witnessing a
+    YoY growth of 6 per cent" found the final digit of `602.6`, read `billion`
+    off it, and stored six per cent as six billion. A digit, a thousands comma
+    or a decimal point on either side means the run belongs to a bigger figure
+    and says nothing about this one.
+    """
+    boundary = "0123456789.,"
+    if start > 0 and text[start - 1] in boundary:
+        return False
+    return end >= len(text) or text[end] not in boundary
+
+
 def scale_after_figure(figure: str, text: str) -> str | None:
     """The scale the document wrote immediately after this figure.
 
@@ -170,10 +210,10 @@ def scale_after_figure(figure: str, text: str) -> str | None:
     the subject gets from `subject_names_the_measurement`. The magnitude was
     the last load-bearing field still taken on the model's word.
 
-    Returns None unless the figure occurs in `text` with a scale directly
-    behind it. Every other case - the figure absent, a bare figure, a scale
-    word further away - is silence, because a wrong magnitude is worse than a
-    missing one.
+    Returns None unless the figure occurs in `text` as a whole number with a
+    scale directly behind it. Every other case - the figure absent, a bare
+    figure, a scale word further away - is silence, because a wrong magnitude is
+    worse than a missing one.
     """
     digits = NUMBER.search(figure or "")
     if digits is None or not text:
@@ -188,6 +228,8 @@ def scale_after_figure(figure: str, text: str) -> str | None:
         return None
 
     for match in re.finditer(re.escape(needle), text):
+        if not _whole_number_at(text, match.start(), match.end()):
+            continue
         trailing = TRAILING_SCALE.match(text, match.end())
         if trailing:
             return _scale_key(trailing.group(1))
@@ -238,28 +280,58 @@ def is_percent_unit(text: str | None) -> bool:
     return " ".join(text.strip().lower().replace("-", " ").split()) in PERCENT_WORDS
 
 
-def normalize_currency(text: str | None) -> str | None:
-    """Resolve a written currency to its ISO code, leaving other units alone.
-
-    A currency reaches a figure three ways - as a symbol in the cell, as a code
-    in a header, as words in a footnote - and the same money must compare
-    equal however it was written. Without this, a figure carrying the inherited
-    unit written as the rupee sign and one carrying `INR` are refused as
-    like caution and is actually a bug. A unit that names no currency (`Tons`,
-    `days`) is returned unchanged.
-    """
-    if not text:
-        return None
-
-    raw = text.strip()
-    key = raw.lower().rstrip(".")
+def _currency_code(text: str) -> str | None:
+    """The ISO code this text names, or None if it names no currency."""
+    key = text.lower().strip().rstrip(".")
     if key in CURRENCIES:
         return CURRENCIES[key]
     for word, code in CURRENCY_WORDS.items():
         if word in key:
             return code
     for symbol, code in CURRENCIES.items():
-        if not symbol.isalpha() and symbol in raw:
+        if not symbol.isalpha() and symbol in text:
+            return code
+    return None
+
+
+def normalize_currency(text: str | None) -> str | None:
+    """Resolve a written currency to its ISO code, leaving other units alone.
+
+    A currency reaches a figure three ways - as a symbol in the cell, as a code
+    in a header, as words in a footnote - and the same money must compare equal
+    however it was written. Without this, a figure carrying the inherited unit
+    written as the rupee sign and one carrying `INR` are refused as incomparable,
+    which looks like caution and is actually a bug. A unit that names no
+    currency (`Tons`, `days`) is returned unchanged.
+
+    **A magnitude in the unit field is not part of the unit.** The model writes
+    the column header verbatim, so `INR crores`, `INR crore` and `USD billion`
+    all arrive as units while the magnitude is *also* sitting in
+    `Quantity.scale`, already applied. Left alone they are four different
+    identities for two currencies, and `compare_values` refuses every pair that
+    spans them: on the shipped ledger 140 facts, and 12 of the 14
+    `incomparable_values` relations - including `revenue_from_operations 54,364`
+    against `revenue_from_operations 54,364`, the same figure declared
+    incomparable with itself because one side said `INR` and the other
+    `INR crore`.
+
+    The strip is deliberately conditional: it only stands when what is left
+    names a currency. `per one million-person hours worked` and `lakh metric
+    tonnes` are units whose magnitude is part of their meaning, and rewriting
+    those would be a new bug in place of this one.
+    """
+    if not text:
+        return None
+
+    raw = text.strip()
+    code = _currency_code(raw)
+    if code:
+        return code
+
+    stripped = WHOLE_SCALE_WORD.sub(" ", raw).strip()
+    if stripped != raw:
+        code = _currency_code(stripped)
+        if code:
             return code
     return raw
 
@@ -314,26 +386,44 @@ def parse_quantity(raw: str, default_scale: str | None = None,
         after = after.replace(")", "", 1)
 
     tail = after.strip()
-    is_percent = tail.startswith("%") or "percent" in tail.lower() or "bps" in tail.lower()
+    # Percentness is settled before any scale is applied, and it has two
+    # sources: the figure's own tail, and the unit. Deciding it from the tail
+    # alone and consulting the unit afterwards let a percentage take a scale it
+    # should have refused - "6" with unit "per cent" was handed `billion` from
+    # the surrounding bytes and stored as six billion, because `not is_percent`
+    # was still true when the scale was applied and only became false three
+    # lines later. Both sources have to be read first for the guard to bind.
+    is_percent = (
+        tail.startswith("%")
+        or "percent" in tail.lower()
+        or "bps" in tail.lower()
+        or is_percent_unit(default_unit)
+    )
 
     scale = None
-    factor = 1.0
     word = LEADING_SCALE.match(tail)
     if word:
         candidate = _scale_key(word.group(1))
         if candidate in SCALES:
             scale = candidate
-            factor = SCALES[candidate]
+
+    # The figure's own tail wins, except where the context names a compound the
+    # tail is only the first half of. A model handed "an outlay of Rs 1.5 lakh
+    # crore" returned `raw="Rs1.5 lakh"`, dropping the second word *inside* the
+    # figure - so the scale read off the tail is `lakh` and the document says
+    # `lakh crore`, a factor of ten million apart. Same rule as `materialize`
+    # applies to the model's `scale` field: a truncation is not a disagreement.
+    if not is_percent and truncates(scale, default_scale):
+        scale = _scale_key(default_scale)
 
     if scale is None and not is_percent and default_scale:
         candidate = _scale_key(default_scale)
         if candidate in SCALES:
             scale = candidate
-            factor = SCALES[candidate]
 
-    if not is_percent and is_percent_unit(default_unit):
-        is_percent = True
-    elif unit is None and not is_percent:
+    factor = SCALES.get(scale, 1.0) if scale else 1.0
+
+    if unit is None and not is_percent:
         unit = normalize_currency(default_unit)
 
     if tail.lower().startswith("bps"):

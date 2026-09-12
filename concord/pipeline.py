@@ -133,12 +133,13 @@ def ingest(
     facts = []
     for record in run.grounded:
         scale, unit = _default_units(record.fact)
+        page = doc.page_of(record.alignment.start)
         facts.append(
             materialize(
                 record.fact,
                 identifier,
                 record.alignment,
-                page=doc.page_of(record.alignment.start),
+                page=page,
                 fy_end_month=fy_end_month,
                 default_scale=scale,
                 default_unit=unit,
@@ -147,7 +148,12 @@ def ingest(
                 # cross several bullet sections, so the enclosing scope has to
                 # be resolved per fact or every fact in the window inherits
                 # whichever scope happened to be open where the window started.
-                inherited=structure.inherited_qualifiers(record.alignment.start),
+                #
+                # The page goes with it because one of the two things the stack
+                # promotes lives in the running header rather than in a heading,
+                # and the header is what covers the notes pages where the
+                # statement's own title is fifty pages back.
+                inherited=structure.inherited_qualifiers(record.alignment.start, page),
             )
         )
 

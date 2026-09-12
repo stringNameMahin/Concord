@@ -327,3 +327,72 @@ def test_a_model_scale_that_names_no_magnitude_does_not_shadow_the_document():
     )
     assert fact.quantity.scale == "cr"
     assert fact.quantity.normalized == 5444 * 1e7
+
+
+def test_a_scale_the_model_read_only_half_of_loses_to_the_document():
+    """The exception to the model winning: it stopped reading mid-phrase.
+
+    `lakh` and `lakh crore` are two magnitudes a factor of ten million apart,
+    and both parse on their own, so the mistake is silent. A model that returns
+    `scale="lakh"` for a page reading `Rs 1.1 lakh crore` has not disagreed with
+    the document, it has read one word of two - so the longer phrase the page
+    actually wrote wins. Measured in the shipped ledger before this: cumulative
+    FPI debt flows of Rs 1.1 lakh crore stored as 110,000.
+    """
+    quote = "cumulative flows of Rs 1.1 lakh crore from October 2023 to June 2024."
+    fact = materialize(
+        extraction(
+            claim_text="Cumulative FPI debt flows were Rs 1.1 lakh crore.",
+            value=ValueOut(kind="quantity", raw="1.1", unit=None, scale="lakh"),
+            quote=quote,
+        ),
+        "d1",
+        Alignment("exact", 0, len(quote), quote, 100.0),
+        page=2,
+    )
+    assert fact.quantity.scale == "lakh crore"
+    assert fact.quantity.normalized == 1.1e12
+
+
+def test_reading_the_compound_late_loses_to_the_document_too():
+    """`crore` for `lakh crore` is out by a hundred thousand, the same shape."""
+    quote = "NFA expanded by Rs 2.8 lakh crore during the year."
+    fact = materialize(
+        extraction(
+            claim_text="Net foreign assets expanded by Rs 2.8 lakh crore.",
+            value=ValueOut(kind="quantity", raw="2.8", unit=None, scale="crore"),
+            quote=quote,
+        ),
+        "d1",
+        Alignment("exact", 0, len(quote), quote, 100.0),
+        page=2,
+    )
+    assert fact.quantity.scale == "lakh crore"
+    assert fact.quantity.normalized == 2.8e12
+
+
+def test_a_percentage_is_not_scaled_by_a_figure_beside_it():
+    """End to end, the defect F20 records.
+
+    The sentence states an absolute in billions and a growth rate in per cent.
+    The rate's digit occurs inside the absolute, so a boundary-blind read handed
+    it `billion` and the ledger carried six per cent as six billion.
+    """
+    quote = (
+        "exports have shown positive momentum, reaching USD 602.6 billion, "
+        "witnessing a YoY growth of 6 per cent."
+    )
+    fact = materialize(
+        extraction(
+            claim_text="Total exports grew by 6 per cent in the first nine months of FY25.",
+            value=ValueOut(kind="quantity", raw="6", unit="per cent", scale=None),
+            quote=quote,
+        ),
+        "d1",
+        Alignment("exact", 0, len(quote), quote, 100.0),
+        page=2,
+    )
+    assert fact.quantity.is_percent is True
+    assert fact.quantity.scale is None
+    assert fact.quantity.normalized == 6.0
+    assert "scale_recovered_from_source" not in fact.flags

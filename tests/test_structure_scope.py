@@ -198,3 +198,74 @@ def test_the_sentence_beats_the_layout_where_both_state_a_key():
     )
     assert bag["segment"].value == "Cross-Border Services"
     assert bag["segment"].provenance == "stated"
+
+
+# --- the consolidation basis, promoted from title or running header ----------
+
+def basis_structure(headings=(), frames=None):
+    return Structure(furniture=set(), page_frames=frames or {}, headings=list(headings))
+
+
+def test_a_statement_title_names_the_basis_it_reports():
+    """A company files the same line items twice under the same subject, the
+    same predicate and the same year. The statement's own title is the nearest
+    thing that says which set they are."""
+    structure = basis_structure(
+        [Heading("Consolidated Statement of Cash Flows", 0, 207, 12.0, 0)]
+    )
+    assert structure.consolidation_at(100) == "consolidated"
+    assert structure.inherited_qualifiers(100) == {"consolidation": "consolidated"}
+
+
+def test_the_running_header_carries_the_basis_where_the_title_does_not():
+    """The notes run for a hundred pages after the statement they belong to, so
+    the page frame is what reaches them."""
+    structure = basis_structure(frames={274: ["Financial Statements: Standalone", "94"]})
+    assert structure.consolidation_at(100, page=274) == "standalone"
+    assert structure.inherited_qualifiers(100, page=274) == {"consolidation": "standalone"}
+
+
+def test_the_nearer_title_beats_the_running_header():
+    structure = basis_structure(
+        [Heading("Standalone Balance Sheet", 0, 313, 12.0, 0)],
+        frames={313: ["Financial Statements: Consolidated"]},
+    )
+    assert structure.consolidation_at(100, page=313) == "standalone"
+
+
+def test_a_line_naming_both_bases_names_neither():
+    """`Consolidated and Standalone Financial Statements` is a contents entry,
+    not a scope. Guessing which half applies is worse than abstaining."""
+    structure = basis_structure(
+        [Heading("Consolidated and Standalone Financial Statements", 0, 3, 12.0, 0)]
+    )
+    assert structure.consolidation_at(100) is None
+    assert structure.inherited_qualifiers(100) == {}
+
+
+def test_a_document_that_never_says_gets_no_basis():
+    structure = basis_structure([Heading("Management Discussion", 0, 12, 12.0, 0)])
+    assert structure.consolidation_at(100, page=12) is None
+
+
+def test_the_basis_and_a_bullet_segment_can_both_be_inherited():
+    """They are different dimensions and neither displaces the other."""
+    structure = basis_structure(
+        [
+            Heading("Consolidated Statement of Profit and Loss", 0, 201, 12.0, 0),
+            Heading("Express Parcel", 50, 201, 10.0, 1, bulleted=True),
+        ]
+    )
+    assert structure.inherited_qualifiers(100) == {
+        "consolidation": "consolidated",
+        "segment": "Express Parcel",
+    }
+
+
+def test_the_inherited_basis_is_marked_as_ours():
+    bag = build_qualifiers(
+        [{"key": "period", "value": "year ended March 31, 2026"}],
+        inherited={"consolidation": "consolidated"},
+    )
+    assert bag["consolidation"].value == "consolidated"
+    assert bag["consolidation"].provenance == "inherited"

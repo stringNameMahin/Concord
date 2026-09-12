@@ -208,16 +208,14 @@ Two things a reviewer can do from here, both at zero cost:
    ```
 
    Measured: **41 extraction requests, 0 live API calls, 0 cache misses**,
-   giving 488 grounded facts, 5 quarantined and **115 relations**.
+   giving 488 grounded facts, 5 quarantined and **118 relations**.
 
    **The shipped `.sqlite` contains this replay**, plus one further document -
    a 409-page annual report from a company outside the starter set, ingested to
    test that the fixes below generalise. The file therefore holds 7 documents,
-   773 grounded facts, 12 quarantined and 171 relations; the six starters
-   account for 488 / 5 / 115 of those, and every per-corpus number in this
-   README and in `docs/EVIDENCE.md` is the six-starter figure unless it says
-   otherwise. `docs/EVIDENCE.md` opens with the earlier batch-size mismatch and
-   the arithmetic behind its repair.
+   773 grounded facts, 12 quarantined and 174 relations; the six starters
+   account for 488 / 5 / 118 of those, and every per-corpus number in this
+   README is the six-starter figure unless it says otherwise.
 
 ---
 
@@ -370,21 +368,42 @@ Measured on the six-document corpus:
 
 ```
 118,828 theoretical pairs
-  ->  3,804 candidates after blocking          (96.80% reduction)
-  ->  3,732 finished by a deterministic rule   (98.1% of candidates)
-  ->     72 pairs reached a model              (0.061% of the theoretical space)
-       of which 69 were prose-only, on verdicts already decided
-  ->      0 verdicts in the ledger were the model's       (was 7)
+  ->  3,670 candidates after blocking          (96.91% reduction)
+  ->  3,591 finished by a deterministic rule   (97.8% of candidates)
+  ->     79 pairs reached a model              (0.066% of the theoretical space)
+       of which 75 were prose-only, on verdicts already decided
+  ->      1 verdict in the ledger is the model's          (was 7)
 ```
 
-That last line is the one that moved. Before the correctness pass, seven
-relations carried `decided_by: "llm"` - the model had settled them, including
-five `contradicts`. Every one of those five turned out to rest on a defect in
-the deterministic layer: three on a subject-identity rule that matched a parent
-to its subsidiaries, one on a predicate alias that merged two different FDI
-series, one on a qualifier the context stack never propagated. With those
-fixed, **the deterministic layer settles every verdict in the ledger and the
-model only writes prose.**
+That last line is the one that moved, and it has moved twice. Before the
+correctness pass, seven relations carried `decided_by: "llm"` - the model had
+settled them, including five `contradicts`. Every one of those five turned out
+to rest on a defect in the deterministic layer: three on a subject-identity rule
+that matched a parent to its subsidiaries, one on a predicate alias that merged
+two different FDI series, one on a qualifier the context stack never propagated.
+Fixing those took it to zero.
+
+It then went back up, and the reason is the useful part. Adding a 409-page
+annual report put five verdicts back in the model's hands, and four of them were
+the same defect wearing a new hat: the report states its figures twice, once
+consolidated and once standalone, and nothing promoted that distinction to a
+qualifier. Two identical bags, disjoint values, so the table proposed
+`contradicts` and the model was left guessing - it replied that one side was
+"possibly consolidated" and the distinction "not explicitly stated", about a
+phrase 230 characters away in a running page header. Promoting it (see
+`CONSOLIDATION` in `parse/structure.py`) returned those four to the
+deterministic layer as `reconciled_by_context` on `consolidation`.
+
+**One verdict in the shipped ledger is the model's**, and it is the one that
+should be: two publishers giving India's FY2024-25 real GDP growth as 6.4 and
+6.5 for the same period on the same basis. No qualifier reconciles that, and
+calling it a contradiction is a judgment rather than a rule. Every other verdict
+in the file is deterministic and the model only writes prose.
+
+The pattern is worth naming because it has now happened three times: **a prompt
+rule with no deterministic backstop.** The scale, the subject and the
+consolidation basis were each left to the extractor to volunteer, and each
+produced silently wrong output until a guard read it back out of the bytes.
 
 When a model *is* asked, three guards stand between its answer and the ledger:
 a verdict must **name** the qualifier that drove it and that key must exist on
@@ -689,7 +708,7 @@ is a root cause with a regression test, not a patched instance.
    extracted, and neither PIN came back.
 
 2. **Abstention is the failure mode, by design, and it grew.**
-   `insufficient_context` is 35 of 115 relations, and two of those are new: the
+   `insufficient_context` is 32 of 118 relations, and two of those are new: the
    `active_customers` pairs where one side now carries an inherited `segment`
    the other cannot match. That is the missing-qualifier guard working as
    specified - it binds on *any* key present on one side and absent on the
@@ -783,26 +802,6 @@ is a root cause with a regression test, not a patched instance.
 
 ## Additional Notes
 
-- **[`docs/EVIDENCE.md`](docs/EVIDENCE.md)** - the graded artifact. A one-page
-  pipeline walkthrough, then the four required cases as the system actually
-  produced them: real `Fact` records with subject, predicate, normalised value,
-  qualifier bag and evidence span; the verbatim source quote with document, page
-  and char offsets; which blocking strategy surfaced each pair; which decision
-  rule fired and the qualifier diff or interval comparison behind it; and the
-  system's own explanation. Then the five evaluation criteria answered with code
-  and measurements, and the four optional extensions answered only as far as the
-  code supports them.
-
-- **[`docs/decisions.md`](docs/decisions.md)** - 36 dated entries, each naming
-  the options rejected and why. This is where the trade-offs actually live: the
-  parser bake-off, why the discriminating-key allowlist was the wrong shape,
-  why precision intervals are half-open, why an open model that extracted twice
-  as much was reverted, why a spending ceiling is a reservation and not a count.
-
-- **[`docs/devRead.md`](docs/devRead.md)** - the original phase plan, scope
-  decisions and explicit non-goals. **[`docs/status.md`](docs/status.md)** - the
-  live build log, including every bug found and fixed.
-
 - **Cost of a full run: $0.00 from cache.** The corpus was extracted on a
   free-tier key across 41 requests; the only money spent on the project was
   $0.1933 on OpenRouter for an extraction experiment that was reverted.
@@ -812,5 +811,4 @@ is a root cause with a regression test, not a patched instance.
 - **Offline evaluation path:** `CONCORD_OFFLINE=1`, then either browse the
   shipped ledger or re-derive the whole corpus by dropping the six starter PDFs
   onto the page - 56 seconds, zero live requests. See *Setup and Run
-  Instructions* above. The rebuild note at the top of `docs/EVIDENCE.md`
-  records the earlier batch-size mismatch and its repair.
+  Instructions* above.

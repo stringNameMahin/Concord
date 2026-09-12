@@ -105,6 +105,23 @@ DISCRIMINATING = frozenset(
     }
 )
 
+# Conditions that name two views of one subject rather than two different
+# states of affairs, and so cannot turn agreement into `unrelated`.
+#
+# Consolidated and standalone statements report the same entity over the same
+# year twice. When their figures *disagree* that is the whole explanation, and
+# `consolidation` earns its place in `DISCRIMINATING` for exactly that. When
+# they *agree* the agreement is the interesting part: an address, a CIN or an
+# incorporation date restated in both sets of statements is one fact stated
+# twice, and a subsidiary contribution of nil is a real corroboration too.
+# Calling those `unrelated` would lose three correct verdicts on the shipped
+# ledger to buy nothing.
+#
+# This binds only in the values-agree branch. A consolidation difference still
+# reconciles a disagreement, and still forces `insufficient_context` when only
+# one side states it.
+NON_SEPARATING = frozenset({"consolidation"})
+
 AGREE, DISAGREE, INCOMPARABLE = "agree", "disagree", "incomparable"
 
 
@@ -206,7 +223,9 @@ def compare_qualifiers(
                 diff.agreeing.append(key)
             else:
                 diff.conflicting.append(key)
-                if is_discriminating(key, discriminating):
+                if is_discriminating(key, discriminating) and not key_matches(
+                    key, NON_SEPARATING
+                ):
                     diff.known_conflicting.append(key)
                 if unreadable_period(left, right):
                     diff.unreadable.append(key)

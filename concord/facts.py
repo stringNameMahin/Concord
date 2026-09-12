@@ -29,6 +29,7 @@ from concord.normalize.numbers import (
     is_scale_word,
     parse_quantity,
     scale_after_figure,
+    truncates,
 )
 from concord.normalize.periods import Period, bare_date, parse_period
 
@@ -440,6 +441,16 @@ def materialize(
         stated = next(
             (s for s in (out.value.scale, out.value.unit) if is_scale_word(s)), None
         )
+        # One exception to the model winning: when what it said is only the
+        # first half of what the document wrote. `lakh` and `lakh crore` are
+        # different magnitudes by a factor of ten million, and a model that
+        # returns `scale="lakh"` for "Rs 1.1 lakh crore" has not disagreed with
+        # the page, it has stopped reading early. Preferring the longer phrase
+        # the document actually contains is not second-guessing a complete
+        # answer - `million` against bytes reading `Cr` is still the model's
+        # call, because neither extends the other.
+        if stated and truncates(stated, recovered):
+            stated = recovered
         scale = next(
             (s for s in (stated, recovered, default_scale) if is_scale_word(s)), None
         )

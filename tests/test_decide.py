@@ -524,3 +524,104 @@ def test_contradiction_now_means_the_same_stated_conditions():
         make_fact(raw="23,113", doc="d2", period="nine months ended December 31, 2021"),
     )
     assert decision.verdict == "contradicts"
+
+
+# --- consolidated against standalone -----------------------------------------
+
+def test_the_same_line_item_on_two_bases_is_reconciled_not_contradicted():
+    """The defect F18 records, from the comparison side.
+
+    A group and its parent report the same line item for the same year under the
+    same subject, and the figures differ by a factor of five with both correct.
+    Before the basis was captured both bags read `{period}` alone, so the table
+    returned `contradicts` and only the LLM stood between that and the ledger.
+    """
+    consolidated = make_fact(
+        raw="615", predicate="profit_before_tax", unit="INR", scale="crore",
+        period="year ended March 31, 2026",
+        consolidation=("consolidated", "inherited"),
+    )
+    standalone = make_fact(
+        raw="2,966", predicate="profit_before_tax", unit="INR", scale="crore",
+        period="year ended March 31, 2026",
+        consolidation=("standalone", "inherited"),
+    )
+    decision = decide(consolidated, standalone)
+    assert decision.verdict == "reconciled_by_context"
+    assert decision.qualifier_key == "consolidation"
+
+
+def test_a_basis_on_one_side_only_still_abstains():
+    """The missing-qualifier guard binds on the basis like any other key."""
+    labelled = make_fact(
+        raw="615", predicate="profit_before_tax", unit="INR", scale="crore",
+        period="year ended March 31, 2026",
+        consolidation=("consolidated", "inherited"),
+    )
+    bare = make_fact(
+        raw="2,966", predicate="profit_before_tax", unit="INR", scale="crore",
+        period="year ended March 31, 2026",
+    )
+    decision = decide(labelled, bare)
+    assert decision.verdict == "insufficient_context"
+    assert decision.qualifier_key == "consolidation"
+
+
+def test_figures_that_agree_across_the_two_bases_still_corroborate():
+    """The basis explains a disagreement; it does not split an agreement.
+
+    Consolidated and standalone statements are two reports of one entity over
+    one year. A registered office, a CIN or an incorporation date restated in
+    both is one fact stated twice, and calling it `unrelated` because the
+    enclosing statement differs would lose a correct verdict to buy nothing.
+    """
+    a = make_fact(
+        raw="1,781", predicate="carrying_value_of_investments", unit="INR", scale="crore",
+        period="year ended March 31, 2026",
+        consolidation=("consolidated", "inherited"),
+    )
+    b = make_fact(
+        raw="1,781", predicate="carrying_value_of_investments", unit="INR", scale="crore",
+        period="year ended March 31, 2026",
+        consolidation=("standalone", "inherited"),
+    )
+    assert decide(a, b).verdict == "corroborates"
+
+
+def test_a_recognised_condition_other_than_the_basis_still_splits_agreement():
+    """The exemption is for the basis only; `segment` behaves as before."""
+    a = make_fact(raw="1,781", predicate="revenue", unit="INR", scale="crore",
+                  segment="Express Parcel")
+    b = make_fact(raw="1,781", predicate="revenue", unit="INR", scale="crore",
+                  segment="Cross-Border")
+    assert decide(a, b).verdict == "unrelated"
+
+
+# --- the unit no longer carries the magnitude -------------------------------
+
+def test_one_figure_written_twice_is_not_blocked_by_its_column_header():
+    """The defect F22 records.
+
+    The model writes the column header verbatim, so one side's unit is `INR` and
+    the other's `INR crore` while both magnitudes are already applied. Compared
+    as strings that refused 12 of the 14 `incomparable_values` relations on the
+    shipped ledger - including the same figure against itself.
+    """
+    # Both magnitudes are already applied - this is the shipped shape, where the
+    # scale is on the `Quantity` and the word is *also* still in the unit field.
+    header = make_fact(raw="54,364", predicate="revenue_from_operations",
+                       unit="INR crore", scale="crore", period="FY26")
+    cell = make_fact(raw="54,364", predicate="revenue_from_operations",
+                     unit="INR", scale="crore", period="FY26")
+    assert header.quantity.unit == cell.quantity.unit == "INR"
+    assert decide(header, cell).verdict == "corroborates"
+
+
+def test_two_genuinely_different_currencies_are_still_refused():
+    """Stripping the magnitude must not start converting money."""
+    rupees = make_fact(raw="8,142", predicate="revenue", unit="INR crore")
+    dollars = make_fact(raw="8,142", predicate="revenue", unit="USD billion")
+    decision = decide(rupees, dollars)
+    assert decision.verdict == "insufficient_context"
+    assert decision.rule_fired == "incomparable_values"
+    assert "INR and USD" in decision.explanation
