@@ -9,6 +9,13 @@ The graded object here is not the fact list; it is the **adjudicated pair**.
 
 ---
 
+## Branch Navigation
+
+- **'sub1'** - 1st submission. Working, but has some bugs and issues.
+- **'dev'** - Active development branch with ongoing fixes and new features.
+
+---
+
 ## Setup and Run Instructions
 
 ### Requirements
