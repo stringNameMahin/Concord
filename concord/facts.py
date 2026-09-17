@@ -157,11 +157,26 @@ def split_consolidation(predicate: str) -> tuple[str, str | None]:
     return canonical, None
 
 
+# Leading words that belong to a name's grammar rather than to the name. Both
+# lists strip only from the front and only one word, which is strictly
+# narrower than the trailing-legal-form rule in `same_entity` and cannot bridge
+# two names whose content words differ. Measured over the 223 distinct subject
+# surfaces in the shipped ledger, this joins `the group` to `group` and
+# `mr sahil barua` to `sahil barua`, and nothing else.
+ARTICLES = frozenset({"the", "a", "an"})
+HONORIFICS = frozenset(
+    {"mr", "mrs", "ms", "miss", "dr", "prof", "shri", "smt", "sri", "sh", "mx"}
+)
+
+
 def normalize_surface(text: str) -> str:
     """Normalise a subject surface form for use as a fallback identity."""
     lowered = (text or "").strip().lower()
     lowered = re.sub("['\u2019]s\\b", "", lowered)
-    return _WORD.sub(" ", lowered).strip()
+    words = _WORD.sub(" ", lowered).split()
+    if len(words) > 1 and (words[0] in ARTICLES or words[0] in HONORIFICS):
+        words = words[1:]
+    return " ".join(words)
 
 
 def surface_tokens(text: str) -> frozenset[str]:
@@ -304,6 +319,68 @@ def same_entity(left: str, right: str) -> bool:
     if len(right) < len(left):
         left, right = right, left
     return right.startswith(left + " ") and right[len(left) + 1 :] in LEGAL_FORMS
+
+
+# Words a document uses to mean "the entity this document is about". They name
+# no entity on their own, so two documents that both use one share a comparison
+# key while meaning two different organisations - which is a real collision
+# waiting for the third corporate report, not a hypothetical one: `Company`,
+# `Group` and `the Group` are 50 of the 773 facts in the shipped ledger and all
+# from one document, which is luck rather than design.
+#
+# Deliberately short. `Bank` is absent although the RBI report uses it that
+# way, because a bank is also a thing a document can be about from the outside.
+ANAPHORS = frozenset(
+    {"company", "group", "issuer", "firm", "entity", "corporation",
+     "organisation", "organization"}
+)
+
+
+def resolve_anaphora(facts: list[Fact]) -> int:
+    """Point `the Company` at the entity its document names elsewhere.
+
+    Prompt rule 8 asks the extractor to name the subject even where the
+    document states it only in a heading or a page header. It complied for one
+    filer (113 of 136 facts say the full name) and not for another, which is
+    the same shape as every other finding here: a prompt rule with no
+    deterministic backstop.
+
+    The backstop is the document's own dominant subject - the most common
+    surface that is not itself an anaphor - and it is applied only when that is
+    unambiguous. A tie means the document has not settled who it is about, and
+    inventing a winner would attach facts to the wrong entity, which is worse
+    than leaving them orphaned. Rewritten facts carry a flag, because a subject
+    the layer supplied and one the sentence stated are different evidence.
+
+    The identifier is untouched: a hard key is an identity and nothing here
+    invents one.
+    """
+    counts: dict[str, int] = {}
+    surfaces: dict[str, str] = {}
+    for fact in facts:
+        surface = normalize_surface(fact.subject_surface)
+        if not surface or surface in ANAPHORS:
+            continue
+        if "subject_names_the_measurement" in fact.flags:
+            continue
+        counts[surface] = counts.get(surface, 0) + 1
+        surfaces.setdefault(surface, fact.subject_surface)
+
+    ranked = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+    if not ranked or ranked[0][1] < 2:
+        return 0
+    if len(ranked) > 1 and ranked[0][1] == ranked[1][1]:
+        return 0
+
+    dominant = surfaces[ranked[0][0]]
+    resolved = 0
+    for fact in facts:
+        if normalize_surface(fact.subject_surface) not in ANAPHORS:
+            continue
+        fact.subject_surface = dominant
+        fact.flags.append("subject_resolved_from_anaphor")
+        resolved += 1
+    return resolved
 
 
 def subjects_match(a: Fact, b: Fact) -> bool:

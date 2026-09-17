@@ -14,6 +14,7 @@ from concord.facts import (
     make_fact_id,
     materialize,
     normalize_surface,
+    resolve_anaphora,
     split_consolidation,
 )
 
@@ -472,3 +473,75 @@ def test_the_name_beats_the_page_frame_but_not_a_stated_qualifier():
         "d1", alignment(), page=1,
     )
     assert stated.qualifier("consolidation").value == "consolidated"
+
+
+# --- anaphoric subjects, and the two surface gaps --------------------------
+
+@pytest.mark.parametrize(
+    "written,normalised",
+    [
+        ("the Group", "group"),
+        ("The Company", "company"),
+        ("Mr Sahil Barua", "sahil barua"),
+        ("Dr. A. Rao", "a rao"),
+        ("Shri R Kumar", "r kumar"),
+        ("The Bombay Dyeing Company", "bombay dyeing company"),
+        ("A", "a"),
+        ("The", "the"),
+    ],
+)
+def test_a_leading_article_or_honorific_is_not_part_of_the_name(written, normalised):
+    """F5. Both strip one word from the front only, which cannot bridge two
+    names whose content words differ."""
+    assert normalize_surface(written) == normalised
+
+
+def test_stripping_cannot_bridge_two_different_names():
+    assert normalize_surface("The Acme Group") != normalize_surface("The Borealis Group")
+    assert normalize_surface("Mr Rao") != normalize_surface("Mr Kumar")
+
+
+def anaphoric(subject, predicate, span):
+    return materialize(
+        extraction(subject_surface=subject, subject_key=None, predicate=predicate),
+        "d1",
+        alignment(span),
+        page=1,
+    )
+
+
+def test_an_anaphor_is_pointed_at_the_document_s_dominant_subject():
+    """F4. `the Company` names no entity, so two reports that both use it share
+    a comparison key while meaning two different organisations."""
+    facts = [
+        anaphoric("Acme Logistics Limited", "revenue", 100),
+        anaphoric("Acme Logistics Limited", "total_assets", 200),
+        anaphoric("the Company", "employee_count", 300),
+        anaphoric("Group", "finance_costs", 400),
+    ]
+    assert resolve_anaphora(facts) == 2
+    assert {normalize_surface(f.subject_surface) for f in facts} == {"acme logistics limited"}
+    assert "subject_resolved_from_anaphor" in facts[2].flags
+    assert "subject_resolved_from_anaphor" not in facts[0].flags
+
+
+def test_a_document_with_no_settled_subject_leaves_its_anaphors_alone():
+    """A tie means the document has not said who it is about, and inventing a
+    winner attaches facts to the wrong entity."""
+    facts = [
+        anaphoric("Acme Logistics Limited", "revenue", 100),
+        anaphoric("Acme Logistics Limited", "total_assets", 200),
+        anaphoric("Borealis Freight Limited", "revenue", 300),
+        anaphoric("Borealis Freight Limited", "total_assets", 400),
+        anaphoric("the Company", "employee_count", 500),
+    ]
+    assert resolve_anaphora(facts) == 0
+    assert facts[-1].subject_surface == "the Company"
+
+
+def test_a_single_mention_is_not_a_dominant_subject():
+    facts = [
+        anaphoric("Acme Logistics Limited", "revenue", 100),
+        anaphoric("the Company", "employee_count", 200),
+    ]
+    assert resolve_anaphora(facts) == 0

@@ -14,7 +14,7 @@ from pathlib import Path
 from concord.config import BATCH_SIZE, WORKERS
 from concord.extract.align import Aligner
 from concord.extract.runner import ExtractionRun, extract
-from concord.facts import Fact, materialize
+from concord.facts import Fact, materialize, resolve_anaphora
 from concord.normalize.periods import (
     fiscal_year_end_evidence,
     infer_fiscal_year_end,
@@ -39,6 +39,10 @@ class Ingested:
     facts: list[Fact] = field(default_factory=list)
     fy_end_month: int | None = None
     duplicates: int = 0
+    # Facts whose subject was `the Company` until the document's own dominant
+    # subject was read onto them. Counted because it is the layer's reading
+    # rather than the sentence's - see `resolve_anaphora`.
+    anaphors_resolved: int = 0
     # Which months the document said one of its years ended in, and how often.
     # The basis is an inference over a whole document drawn from a handful of
     # sentences, so the evidence travels with it rather than being thrown away
@@ -157,6 +161,10 @@ def ingest(
             )
         )
 
+    # After every fact exists, because the document's dominant subject is a
+    # property of the document and cannot be known one fact at a time.
+    anaphors = resolve_anaphora(facts)
+
     unique, duplicates = dedupe(facts)
     return Ingested(
         doc=doc,
@@ -167,4 +175,5 @@ def ingest(
         fy_end_month=fy_end_month,
         fy_evidence=fy_evidence,
         duplicates=duplicates,
+        anaphors_resolved=anaphors,
     )
