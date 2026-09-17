@@ -5,9 +5,18 @@ categories - workforce by region, revenue by segment, shareholding by class.
 Every row disagrees with every other row by construction, and every row is
 correct. Run through the decision table those pairs come out
 `reconciled_by_context`, which is mechanically right and substantively wrong:
-nothing was reconciled, because nothing ever looked like a conflict. On the
-shipped ledger one three-region breakdown produced three such rows, and the
-shape scales quadratically with the number of categories.
+nothing was reconciled, because nothing ever looked like a conflict. The shape
+scales quadratically with the number of categories.
+
+**It fires on nothing in the shipped corpus, and that is the correct answer
+for it.** 190 facts are share-eligible, 24 subject-and-predicate groups hold
+two or more, 21 reach the sum test and all 21 are correctly rejected - their
+sums span [3.09, 3.11], [46.20, 46.40], [393.97, 394.01] and so on, none of
+them containing 100. The gate was written against a three-region workforce
+breakdown in a 10-K outside the starter set, where it turns three
+`reconciled_by_context` rows into none, and it will earn its place again the
+first time a breakdown table lands. Zero false positives over a ledger with no
+distribution in it is what this module is supposed to report.
 
 The test is arithmetic, not semantic. Take the facts that share a subject, a
 predicate and every qualifier but one; if the values under the remaining
@@ -35,7 +44,7 @@ import re
 from collections import defaultdict
 from dataclasses import dataclass, field
 
-from concord.facts import Fact
+from concord.facts import PERIOD_KEYS, Fact, key_matches
 
 WHOLE = 100.0
 
@@ -53,6 +62,33 @@ MAX_SHARE = 100.0
 MIN_CATEGORIES = 2
 
 _WORD = re.compile(r"[^a-z0-9]+")
+
+
+# Time, under every name the extractor coins for it. `PERIOD_KEYS` alone is
+# too narrow here: the nearest miss in the shipped ledger is split on
+# `financial_year`, which is not one of them. Matched as word runs, so
+# `financial_year`, `fiscal_year` and `as_of_date` are all covered without
+# `date` having to be listed for each of them.
+TIME_KEYS = PERIOD_KEYS + ("year", "quarter", "month", "date", "time")
+
+
+def _splittable(key: str) -> bool:
+    """Can this qualifier be the axis a distribution is divided along?
+
+    Everything except time. A period is a sequence, not a partition: two
+    readings of one measure in two years are a time series, and
+    `reconciled_by_context` is the right verdict for every one of them. The
+    gate cannot tell the difference arithmetically, so a series whose values
+    happen to sum near a whole would be declared a distribution and suppressed
+    - turning right answers into `unrelated`. The nearest miss in the shipped
+    ledger is an investment-share series split on `financial_year` summing to
+    [105.49, 105.51], 5.5% from firing.
+
+    40 groups in the ledger have the shape a partition would have and almost
+    all of them are time series, so this is the difference between a gate with
+    no false positives and one with forty chances at its first.
+    """
+    return not key_matches(key, TIME_KEYS)
 
 
 def _value_key(text: str) -> str:
@@ -132,6 +168,8 @@ def index(facts: list[Fact], aliases: dict[str, str] | None = None) -> Partition
         members = by_measure[measure]
         keys = {key for fact in members for key in fact.qualifier_keys()}
         for key in sorted(keys):
+            if not _splittable(key):
+                continue
             candidates: dict[tuple, list[Fact]] = defaultdict(list)
             for fact in members:
                 if fact.qualifier(key).known:

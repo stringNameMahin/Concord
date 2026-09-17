@@ -5,6 +5,7 @@ import pytest
 from concord.normalize.numbers import (
     NotANumber,
     intervals_overlap,
+    normalize_currency,
     overlap_rests_on_imprecision,
     parse_quantity,
     written_digits,
@@ -440,3 +441,20 @@ def test_a_half_open_interval_is_left_alone():
     assert overlap_rests_on_imprecision(
         parse_quantity("over 1 billion"), parse_quantity("740 million")
     ) is None
+
+
+def test_a_unit_field_that_is_only_a_magnitude_is_not_a_unit():
+    """The model writes `K` or `million` where a unit belongs. The scale is
+    already applied, so keeping the word invents a unit of measure that then
+    refuses every comparison against the same figure written plainly."""
+    assert normalize_currency("K") is None
+    assert normalize_currency("million") is None
+    assert parse_quantity("384", default_unit="K").unit is None
+
+
+def test_a_unit_whose_magnitude_is_part_of_its_meaning_is_left_alone():
+    assert normalize_currency("lakh metric tonnes") == "lakh metric tonnes"
+    assert normalize_currency("per one million-person hours worked") == (
+        "per one million-person hours worked"
+    )
+    assert normalize_currency("cities") == "cities"

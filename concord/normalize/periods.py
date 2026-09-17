@@ -62,7 +62,13 @@ AS_OF = re.compile(
     re.I,
 )
 AS_OF_NUMERIC = re.compile(r"\bas\s+(?:at|of|on)\s+(\d{1,2})[/-](\d{1,2})[/-](\d{4})", re.I)
-BARE_DATE = re.compile(rf"\b(?P<month>{MONTH_RE})\.?\s+(?P<day>\d{{1,2}}),?\s+(?P<year>\d{{4}})", re.I)
+# The ordinal suffix is optional on both sides of the word order: a filing
+# writes "March 31st 2026" as readily as "March 31, 2026", and without this
+# the first does not resolve as a date at all.
+BARE_DATE = re.compile(
+    rf"\b(?P<month>{MONTH_RE})\.?\s+(?P<day>\d{{1,2}})(?:st|nd|rd|th)?,?\s+(?P<year>\d{{4}})",
+    re.I,
+)
 DAY_FIRST_DATE = re.compile(
     rf"\b(?P<day>\d{{1,2}})(?:st|nd|rd|th)?\s+(?:of\s+)?(?P<month>{MONTH_RE})\.?,?\s+(?P<year>\d{{4}})",
     re.I,
@@ -70,7 +76,15 @@ DAY_FIRST_DATE = re.compile(
 NUMERIC_DATE = re.compile(r"\b(\d{1,2})[/-](\d{1,2})[/-](\d{4})\b")
 
 FY_SPLIT = re.compile(r"\b(?:FY|F\.Y\.?|fiscal(?:\s+year)?)?\s*(\d{4})\s*[-/]\s*(\d{2,4})\b", re.I)
-FY_SHORT = re.compile(r"\bFY\s*[-']?\s*(\d{2}|\d{4})\b", re.I)
+# `Fiscal 2021` is the Delhivery prospectus's house style - 212 occurrences in
+# that one document - and `financial year 2024` is the Eternal report's. Both
+# name the same thing as `FY2021` and neither resolved, so two spellings of
+# one year compared as two different conditions. The year still has to be
+# adjacent to the words: `fiscal` and `financial` on their own say nothing.
+FY_SHORT = re.compile(
+    r"\b(?:FY|F\.Y\.?|fiscal(?:\s+year)?|financial\s+year)\s*[-']?\s*(\d{2}|\d{4})\b",
+    re.I,
+)
 CY = re.compile(r"\b(?:CY|calendar\s+year)\s*(\d{4})\b", re.I)
 QUARTER = re.compile(
     r"\bQ([1-4])\s*[-,]?\s*(?:of\s+)?(?:FY|F\.Y\.?|fiscal(?:\s+year)?)?\s*"
@@ -87,6 +101,24 @@ SUBSPAN = re.compile(
     re.I,
 )
 HALF = re.compile(r"\b(?:H\s*(?P<index>[12])|(?P<edge>first|second)\s+half)\b", re.I)
+
+# "end of FY24" names the instant a year closes, not the year. Read as the
+# whole year it compares unequal to `March 31, 2024`, which is the same
+# moment written the other way; read as an instant the two are one condition.
+# The opening edge is here for symmetry, because a document that writes one
+# writes the other.
+EDGE = re.compile(r"\b(?P<edge>end|close|closing|beginning|start|opening)\s+of\b", re.I)
+
+# A month, and a run of months, named without a day. `Mar-26` is a column
+# header, `March 2026` a sentence and `April-December 2024` a partial year
+# stated by its bounds rather than by its length. All three resolve exactly,
+# so none of them has to fall through to string comparison.
+MONTH_YEAR = re.compile(rf"\b(?P<month>{MONTH_RE})\.?[\s-]+(?P<year>\d{{4}}|\d{{2}})\b", re.I)
+MONTH_RANGE = re.compile(
+    rf"\b(?P<from>{MONTH_RE})\.?\s*(?:-|\u2013|\u2014|to|through|until|till)\s*"
+    rf"(?P<to>{MONTH_RE})\.?[\s,-]+(?P<year>\d{{4}})\b",
+    re.I,
+)
 
 
 @dataclass(frozen=True)
@@ -327,8 +359,23 @@ def restrict(base: Period, remainder: str) -> Period | None:
     cut = _subspan(remainder, months)
     consumed = HALF.sub(" ", SUBSPAN.sub(" ", remainder)) if cut is not None else remainder
 
+    edge = EDGE.search(consumed) if cut is None else None
+    if edge is not None:
+        consumed = EDGE.sub(" ", consumed)
+
     if any(word.lower() not in YEAR_FILLER for word in re.findall(r"[a-zA-Z0-9]+", consumed)):
         return None
+
+    if edge is not None:
+        # An instant, represented as a zero-length interval the way `as_of`
+        # dates already are, so one comparison rule serves both.
+        moment = (
+            base.start
+            if edge.group("edge").lower() in ("beginning", "start", "opening")
+            else base.end
+        )
+        return Period(moment, moment, base.label, "instant", base.fiscal_basis)
+
     if cut is None:
         return base
 
@@ -340,6 +387,18 @@ def restrict(base: Period, remainder: str) -> Period | None:
         base.label,
         "quarter" if length == 3 else "months",
         base.fiscal_basis,
+    )
+
+
+def _only_filler(remainder: str) -> bool:
+    """Does what surrounds a matched label add nothing to it?
+
+    The same discipline `restrict` applies to year labels: a label means what
+    it names only when the rest of the string is filler. `March 2026` is a
+    month; `since March 2026` is a statement that mentions one.
+    """
+    return not any(
+        word.lower() not in YEAR_FILLER for word in re.findall(r"[a-zA-Z0-9]+", remainder)
     )
 
 
@@ -422,6 +481,43 @@ def parse_period(text: str, fy_end_month: int | None = None) -> Period | None:
         whole = _fy_from_end_year(end_year, basis_month, raw.strip(), basis)
         return restrict(whole, _outside(raw, short))
 
+    # A label that names a day is a date, and `bare_date` answers for it. Only
+    # once that is ruled out can a month standing next to a number be a month:
+    # otherwise "as at March 31, 2024" reads `March 31` as March 2031.
+    if find_date(raw) is None:
+        window = MONTH_RANGE.search(raw)
+        if window:
+            first = MONTHS[window.group("from").lower()]
+            last = MONTHS[window.group("to").lower()]
+            year = int(window.group("year"))
+            if first <= last and _only_filler(_outside(raw, window)):
+                return Period(
+                    date(year, first, 1),
+                    _end_of(year, last),
+                    raw.strip(),
+                    "year" if (first, last) == (1, 12) else "months",
+                    "stated:calendar",
+                )
+
+        month = MONTH_YEAR.search(raw)
+        if month:
+            index = MONTHS[month.group("month").lower()]
+            year = _widen_year(month.group("year"), date.today().year)
+            if _only_filler(_outside(raw, month)):
+                return Period(
+                    date(year, index, 1),
+                    _end_of(year, index),
+                    raw.strip(),
+                    "month",
+                    "stated:calendar",
+                )
+
+    # A bare year is deliberately not resolved. "2024" could be the calendar
+    # year or the fiscal year that ends in it, the two differ by a quarter, and
+    # nothing in the label says which. Left unparsed it is compared as text and
+    # `unreadable_period` still lets "2024" and "FY2024" agree on the year they
+    # name; resolved to a calendar year it would compare as a genuinely
+    # different interval from FY2024 and turn a match into a difference.
     return None
 
 
@@ -453,4 +549,13 @@ def same_interval(a: Period | None, b: Period | None) -> bool:
 
 
 def overlaps(a: Period | None, b: Period | None) -> bool:
+    """Do these two intervals touch at all?
+
+    Deliberately not what `compare_qualifier` uses, and kept separate so the
+    distinction stays visible. Two periods are the *same condition* only when
+    their intervals are equal: a nine-month figure and the full year that
+    contains it overlap, and they are still two different facts. This is here
+    to state that property in tests and to inspect a pair by hand, never to
+    decide a verdict.
+    """
     return bool(a and b and a.start <= b.end and b.start <= a.end)

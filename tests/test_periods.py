@@ -8,6 +8,7 @@ from concord.normalize.periods import (
     mentioned_years,
     overlaps,
     parse_as_of,
+    parse_date,
     parse_period,
     same_interval,
     years_compatible,
@@ -119,7 +120,6 @@ def test_one_quarter_spelled_two_ways_is_one_condition():
         "till FY26",
         "inception till FY26",
         "FY25 (April-December)",
-        "end of FY24",
     ],
 )
 def test_a_label_that_is_not_one_whole_year_abstains(label):
@@ -313,3 +313,88 @@ def test_an_unstated_basis_marks_every_label_assumed_rather_than_guessing():
     rbi = parse_period("2024-25", infer_fiscal_year_end("for the year ended March 31, 2025"))
     assert same_interval(imf, rbi)
     assert imf.assumed and not rbi.assumed
+
+
+# --- spellings the corpus uses that used to fall through to string equality --
+
+@pytest.mark.parametrize(
+    "label,expected",
+    [
+        ("Fiscal 2021", ("2020-04-01", "2021-03-31")),
+        ("fiscal year 2021", ("2020-04-01", "2021-03-31")),
+        ("financial year 2024", ("2023-04-01", "2024-03-31")),
+        ("FY2021", ("2020-04-01", "2021-03-31")),
+    ],
+)
+def test_a_fiscal_year_resolves_however_the_document_spells_it(label, expected):
+    """F12. `Fiscal 2021` is one document's house style, 212 occurrences of it,
+    and it did not resolve - so it compared as text against every `FY2021`."""
+    period = parse_period(label, fy_end_month=FY)
+    assert (period.start.isoformat(), period.end.isoformat()) == expected
+
+
+def test_every_spelling_of_one_fiscal_year_is_one_condition():
+    spellings = ["FY21", "FY2021", "Fiscal 2021", "financial year 2021", "2020-21"]
+    resolved = [parse_period(label, fy_end_month=FY) for label in spellings]
+    assert all(same_interval(resolved[0], other) for other in resolved[1:])
+
+
+def test_the_end_of_a_year_is_an_instant_and_not_the_year():
+    """`4.6 MW as at "end of FY24"` and `as at "March 31, 2024"` are one
+    instant written two ways. Read as the whole year they are not equal; read
+    as an instant they are the same condition."""
+    edge = parse_period("end of FY24", fy_end_month=FY)
+    assert (edge.start.isoformat(), edge.end.isoformat()) == ("2024-03-31", "2024-03-31")
+    assert edge.granularity == "instant"
+
+    opening = parse_period("beginning of FY24", fy_end_month=FY)
+    assert opening.start.isoformat() == "2023-04-01"
+
+
+@pytest.mark.parametrize(
+    "label,expected",
+    [
+        ("March 2026", ("2026-03-01", "2026-03-31")),
+        ("Mar-26", ("2026-03-01", "2026-03-31")),
+        ("Sep 2024", ("2024-09-01", "2024-09-30")),
+        ("April-December 2024", ("2024-04-01", "2024-12-31")),
+        ("Apr-Dec 2024", ("2024-04-01", "2024-12-31")),
+    ],
+)
+def test_a_month_named_without_a_day_resolves_to_that_month(label, expected):
+    period = parse_period(label, fy_end_month=FY)
+    assert (period.start.isoformat(), period.end.isoformat()) == expected
+
+
+def test_two_month_ranges_in_different_years_stay_different():
+    """The reason the range is worth resolving rather than widening."""
+    assert not same_interval(
+        parse_period("April-December 2024"), parse_period("April-December 2023")
+    )
+
+
+def test_a_value_that_merely_mentions_a_month_is_not_a_month():
+    assert parse_period("revised upward since March 2026") is None
+    assert parse_period("supply agreements signed in Sep 2024 and after") is None
+
+
+def test_a_full_date_is_still_a_date_and_not_a_month():
+    """`March 31, 2024` has to keep falling through to `bare_date`; reading the
+    day as a two-digit year would put it in 2031."""
+    assert parse_period("March 31, 2024") is None
+    assert parse_period("as at March 31, 2024") is None
+    assert parse_date("March 31, 2024").isoformat() == "2024-03-31"
+
+
+def test_a_bare_year_is_still_refused():
+    """Deliberate. `2024` is either the calendar year or the fiscal year ending
+    in it, the two differ by a quarter, and the label does not say which."""
+    assert parse_period("2024") is None
+    assert parse_period("during 2024") is None
+
+
+def test_an_ordinal_day_is_still_a_date():
+    """`March 31st 2026` did not resolve at all, in either direction."""
+    assert parse_date("March 31st 2026").isoformat() == "2026-03-31"
+    assert parse_date("31st March 2026").isoformat() == "2026-03-31"
+    assert parse_date("March 31, 2026").isoformat() == "2026-03-31"

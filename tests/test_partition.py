@@ -132,3 +132,45 @@ def test_a_different_subject_is_a_different_distribution():
 def test_a_figure_outside_the_whole_is_not_a_share(share):
     facts = breakdown("growth_share", "region", {"Americas": share, "Europe": "40%"})
     assert len(index(facts)) == 0
+
+
+def test_a_time_series_is_not_a_distribution():
+    """F7. A period is a sequence, not a partition.
+
+    Two readings of one measure in two years are a time series and
+    `reconciled_by_context` is right for every one of them - but two of them
+    summing near a whole has the same arithmetic shape as a two-way split, and
+    the gate would suppress them. The nearest miss in the shipped ledger is
+    5.5% away from firing.
+    """
+    series = [
+        make_fact(fact_id="f_1", raw="48%", predicate="capacity_utilisation", period="FY24"),
+        make_fact(fact_id="f_2", raw="52%", predicate="capacity_utilisation", period="FY23"),
+    ]
+    assert len(index(series)) == 0
+    assert index(series).key_for(series[0], series[1]) is None
+    assert decide(series[0], series[1], partitions=index(series)).verdict != "unrelated"
+
+
+@pytest.mark.parametrize(
+    "key",
+    ["period", "as_at", "as_of", "reporting_period", "as_of_date", "financial_year",
+     "fiscal_year", "quarter"],
+)
+def test_no_spelling_of_a_period_can_be_the_split_key(key):
+    facts = [
+        make_fact(fact_id="f_1", raw="48%", predicate="capacity_utilisation", **{key: "FY24"}),
+        make_fact(fact_id="f_2", raw="52%", predicate="capacity_utilisation", **{key: "FY23"}),
+    ]
+    assert len(index(facts)) == 0
+
+
+def test_a_genuine_two_way_split_still_fires():
+    """The floor stays at two categories: `Domestic` against `Overseas` is the
+    commonest real partition there is."""
+    split = [
+        make_fact(fact_id="f_1", raw="48%", predicate="revenue_share", geography="Domestic"),
+        make_fact(fact_id="f_2", raw="52%", predicate="revenue_share", geography="Overseas"),
+    ]
+    assert len(index(split)) == 1
+    assert index(split).key_for(split[0], split[1]) == "geography"

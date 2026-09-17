@@ -89,7 +89,3 @@ OFFLINE = os.environ.get("CONCORD_OFFLINE", "").strip().lower() in ("1", "true",
 # alias and adjudication calls) so it only fires on a runaway. 0 disables it.
 MAX_CALLS = int(os.environ.get("CONCORD_MAX_CALLS", "200"))
 
-
-def ensure_dirs() -> None:
-    for path in (CACHE_DIR, WORK_DIR, DB_PATH.parent):
-        path.mkdir(parents=True, exist_ok=True)

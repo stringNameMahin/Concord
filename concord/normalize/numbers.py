@@ -333,6 +333,12 @@ def normalize_currency(text: str | None) -> str | None:
         code = _currency_code(stripped)
         if code:
             return code
+        if not stripped:
+            # The whole field was a magnitude: the model wrote `K` or
+            # `million` where a unit belongs. The scale is already applied, so
+            # keeping the word as an identity invents a unit of measure that
+            # then refuses every comparison against a figure written plainly.
+            return None
     return raw
 
 
