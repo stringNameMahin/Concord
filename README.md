@@ -64,7 +64,7 @@ starter-datasets/india-macroeconomy/*.pdf
 uv run pytest -q            # or: .venv/bin/pytest -q
 ```
 
-Expected: **454 passed** in roughly 20 seconds. The suite needs no network and
+Expected: **629 passed** in roughly 20 seconds. The suite needs no network and
 no API key; the one test that loads the real embedding model is marked `slow`
 and will download the sentence-transformer if it is not already cached.
 
@@ -170,18 +170,21 @@ $env:CONCORD_WORK = "data/work-scratch"
 
 ### Offline evaluation - the whole system, with no API key
 
-`data/cache/llm/` holds **483 content-addressed LLM responses** covering every
-extraction, alias question and adjudication for the six starter documents.
-**The whole corpus replays with 0 cache misses and 0 live calls.**
+`data/cache/llm/` holds **515 content-addressed LLM responses** covering every
+extraction and alias question for the corpus, and most of its adjudication.
+**The whole corpus replays with 0 live calls and no failed extraction batch.**
 
-It briefly did not. The correctness pass changed six judge prompts - the cache
-is keyed on the whole request payload, and the prompt carries both qualifier
-bags, so a pair that gained an inherited `segment` no longer matched its stored
-response. Offline those six counted as `unadjudicated` and kept their
-deterministic explanation, which is the documented behaviour: **failure is not
-a verdict.** Six live calls regenerated them and wrote them back to the cache;
-no verdict moved, because a `reconciled_by_context` call is prose-only and
-cannot change one.
+Adjudication is the one leg with holes in it, and the reason is worth stating
+plainly. The cache is keyed on the whole request payload and a judge prompt
+carries both qualifier bags, so every fix that changes a qualifier invalidates
+that pair's stored explanation. The correctness passes have changed a lot of
+qualifier bags - a `segment` inherited from a bullet, a `consolidation` read
+off a running header, a basis lifted out of a predicate - and **57 of the six
+starters' 129 relations now carry the deterministic explanation rather than
+model prose.** That is the documented behaviour and not a failure: **failure is
+not a verdict.** No verdict is affected, because those calls are prose-only on
+verdicts the table has already settled. Refilling them costs one live call
+each.
 
 `CONCORD_OFFLINE=1` refuses every network call and serves from that cache only;
 a request with no cached response raises `MissingFromCache` instead of being
@@ -214,15 +217,26 @@ Two things a reviewer can do from here, both at zero cost:
    india-macroeconomy/03-imf-india-2025-article-iv-excerpt.pdf
    ```
 
-   Measured: **41 extraction requests, 0 live API calls, 0 cache misses**,
-   giving 488 grounded facts, 5 quarantined and **118 relations**.
+   Measured: **41 extraction requests, 0 live API calls, 0 extraction cache
+   misses**, giving 488 grounded facts, 5 quarantined and **129 relations**, in
+   24 seconds.
 
    **The shipped `.sqlite` contains this replay**, plus one further document -
    a 409-page annual report from a company outside the starter set, ingested to
    test that the fixes below generalise. The file therefore holds 7 documents,
-   773 grounded facts, 12 quarantined and 174 relations; the six starters
-   account for 488 / 5 / 118 of those, and every per-corpus number in this
+   773 grounded facts, 12 quarantined and 201 relations; the six starters
+   account for 488 / 5 / 129 of those, and every per-corpus number in this
    README is the six-starter figure unless it says otherwise.
+
+   The order above is the order the shipped file was built in, and it is now
+   recorded for reproducibility rather than because the answer depends on it.
+   It used to: a pair was only ever judged while one of its facts was new, so
+   the same six documents uploaded in a different sequence produced a different
+   ledger, and re-running the comparison over the stored facts produced a third
+   - 186 relations against the 174 that shipped. Every ingest now re-blocks the
+   whole corpus, which the persisted fact embeddings make affordable: a full
+   comparison run over 773 facts is **0.11 s warm against 13.8 s cold**, and
+   the three blocking strategies together are 3 ms of that.
 
 ---
 
@@ -376,13 +390,13 @@ Measured on the six-document corpus:
 ```
 118,828 theoretical pairs
   ->  3,670 candidates after blocking          (96.91% reduction)
-  ->  3,591 finished by a deterministic rule   (97.8% of candidates)
-  ->     79 pairs reached a model              (0.066% of the theoretical space)
-       of which 75 were prose-only, on verdicts already decided
-  ->      1 verdict in the ledger is the model's          (was 7)
+  ->  3,598 finished by a deterministic rule   (98.0% of candidates)
+  ->     72 pairs reached a model              (0.061% of the theoretical space)
+       every one of them prose-only, on a verdict already decided
+  ->      0 verdicts in the ledger are the model's        (was 7, then 1)
 ```
 
-That last line is the one that moved, and it has moved twice. Before the
+That last line is the one that moved, and it has moved three times. Before the
 correctness pass, seven relations carried `decided_by: "llm"` - the model had
 settled them, including five `contradicts`. Every one of those five turned out
 to rest on a defect in the deterministic layer: three on a subject-identity rule
@@ -401,11 +415,18 @@ phrase 230 characters away in a running page header. Promoting it (see
 `CONSOLIDATION` in `parse/structure.py`) returned those four to the
 deterministic layer as `reconciled_by_context` on `consolidation`.
 
-**One verdict in the shipped ledger is the model's**, and it is the one that
-should be: two publishers giving India's FY2024-25 real GDP growth as 6.4 and
-6.5 for the same period on the same basis. No qualifier reconciles that, and
-calling it a contradiction is a judgment rather than a rule. Every other verdict
-in the file is deterministic and the model only writes prose.
+The fifth was the interesting one and it is now gone too, at a cost worth
+stating rather than hiding. Two publishers give India's FY2024-25 real GDP
+growth as 6.4 and 6.5, and the model called that a contradiction. It reached
+the model at all because the predicate registry had merged
+`real_gdp_growth_rate` into `gdp_growth_rate` on the model's yes - and real and
+nominal growth are different measures, so that merge was wrong even though this
+pair happened to be right. The registry now refuses a one-sided basis modifier
+in code (`contrastive` in `registry.py`), which splits the GDP family into
+three vocabulary entries and leaves 6.4 and 6.5 under different comparison
+keys. **A real cross-publisher disagreement is no longer surfaced.** The trade
+is a latent wrong merge closed against a right answer lost, and it is the one
+place in this pass where the fix took something with it.
 
 The pattern is worth naming because it has now happened three times: **a prompt
 rule with no deterministic backstop.** The scale, the subject and the
@@ -469,18 +490,16 @@ so an offset can be checked by hand and `/verify` can re-read the bytes fresh.
 
 ### The numbers, from the offline replay of all six starter PDFs
 
-Both columns are the same replay of the same six PDFs from the same committed
-cache. `before` is the code as it stood before this correctness pass; `after`
-is the code as it stands now. Nothing in the fixes touches parsing, chunking,
-extraction or blocking, so those rows are identical by construction and are
-listed once.
+One replay of the six starter PDFs from the committed cache, re-derived after
+the correctness passes below. There is no before/after column any more: the
+ledger has been rebuilt three times now and a stale comparison column is worse
+than none. What moved in the latest pass is named underneath.
 
 ```
 Documents                     6          511 pages, 1,658,944 chars, 602 chunks
-Parse + structure + chunk     2.9 s
 Extraction requests           41         all served from data/cache/llm/
-Live API requests             0
-Wall clock, all six           16.3 s     warm embedding model
+Live API requests             0          and 0 failed extraction batches
+Wall clock, all six           23.7 s     warm embedding model, six full ingests
 
 Facts extracted               501
   grounded                    496        99.0%
@@ -488,82 +507,99 @@ Facts extracted               501
   duplicates collapsed        8
   in the ledger               488        477 located exactly, 11 fuzzily
 
+Facts carrying a qualifier the layer supplied, not the sentence
+  consolidation (page frame / statement title)   33
+  segment (bullet heading)                       16
+Facts whose magnitude was read back out of the bytes    66
+Facts flagged for a subject that names the measurement   5
+
 Theoretical pairs             118,828    = C(488, 2)
-Candidates after blocking     3,804      96.80% reduction
-  comparison-key block        79
-  value-anchored block        207
-  semantic block              3,741
-Blocking + decision table     1.4 s
+Candidates after blocking     3,670      96.91% reduction
+  comparison-key block        80
+  value-anchored block        228
+  semantic block              3,596
+Full comparison run           0.11 s     warm vectors; 13.8 s if re-embedded
 
-                                             before      after
-Facts carrying an inherited segment          0           16
-Finished by a deterministic rule             3,725       3,732
-Reached the LLM                              79          72
-  prose-only, on a settled verdict           68          69
-  adjudicated, the model may decide          11          3
+Finished by a deterministic rule             3,598     98.0% of candidates
+Reached a model                                 72     all prose-only
+Verdicts in the ledger decided by the model      0
 
-Relations stored                             121         115
-  reconciled_by_context                      70          69
-  insufficient_context                       35          35
-  corroborates                               11          11
-  contradicts                                5           0
-  unrelated (counted, not stored)            3,683       3,689
-  cross-document                             34          33
-Partition groups detected                    n/a         0
+Relations stored                               129
+  reconciled_by_context                         75
+  insufficient_context                          38
+     ...missing qualifier                       31
+     ...agreement rested on a single digit       3
+     ...values incomparable                      2
+     ...the judge named a qualifier neither      2
+        fact carries
+  corroborates                                  16
+  contradicts                                    0
+  unrelated (counted, not stored)            3,541
+  cross-document                                46
+Partition groups detected                        0
 
-Verdicts in the ledger decided by the model  7           0
-Adjudication calls                           90          75
-Hallucinated-qualifier rejection             4 of 90     3 of 75
-Judge self-consistency                       7 of 8      0 of 1
-Unadjudicated                                0           0
+Adjudication calls                              74
+Unadjudicated (no cached response, offline)      5
+Hallucinated-qualifier rejection            2 of 74
 
-Predicates registered                        297         298
-  alias questions asked                      89          88
-  confirmed                                  32          31
-  refused                                    57          58
-Tests                                        366         454   (19.3 s)
+Predicates registered                          298
+  alias questions asked                         85
+  confirmed                                     29
+  refused by the model                          56
+  refused in code, without asking                3
+Tests                                          629   (20.6 s)
 ```
 
-**Reading the verdict rows.** Seven relations left the ledger, one entered it,
-and two changed verdict in place.
+**What moved in this pass, and why.** Relations went from 115 to 129 and
+`corroborates` from 11 to 16. Three things account for almost all of it. Every
+ingest now re-blocks the whole corpus instead of only the pairs touching the
+new document, which recovers the pairs an incremental run could never propose
+(this is also what makes the count reproducible - see *Offline evaluation*
+above). `Fiscal 2021`, `Mar-26`, `April-December 2024` and `end of FY24` now
+resolve to intervals instead of being compared as text, which is 46 of the 103
+period qualifiers that used to fall through. And a basis the model folded into
+a predicate name is lifted into the qualifier bag, which puts three spellings
+of one line item back on one comparison key.
 
-Leaving, all seven because the two facts were never about the same subject:
-three parent-against-subsidiary incorporation dates (`Delhivery Limited`
-against `Delhivery Freight Services Private Limited`, `Delhivery Cross Border
-Services Private Limited` and `Delhivery Corp Limited`); one
-`gross FDI inflows` 81.0 against `Total FDI` 50.0, which are two different RBI
-series the predicate registry had merged; `Delhivery Limited` against
-`Delhivery HK Pte Limited`; `Delhivery` against `Delhivery gateways`; and
-`global economy` against `Global`.
+Three new `insufficient_context` rows are the single-digit guard refusing to
+call a cumulative lifetime total corroboration of one year's volume; `1
+billion` spans half its own value either way, so it overlapped `740 million`
+and used to be stored as agreement.
 
-Entering: `installed_solar_power_capacity` 4.6 MW against itself, stated on
-one page `as_at "March 31, 2024"` and on another `as_at "end of FY24"`. Neither
-label is a fiscal year, so neither resolves to an interval and the comparison
-falls through to string equality; the two spellings differ, and a difference
-in wording used to be enough to declare two identical figures separate states
-of affairs. The years the two labels name are checked instead, and they agree.
+**Reading the residue.** Two pairs still reach the contradiction branch
+deterministically, and both are refused before they reach the ledger as one:
+the two CIN spellings of one company (`U...` before listing, `L...` after) and
+two different name-change dates. In each the model answered
+`reconciled_by_context` naming a condition that appears on neither record, the
+named-qualifier guard threw the answer out, and the pair is stored as
+`insufficient_context` saying so. That is the designed behaviour: the system
+declines to explain a real conflict with a qualifier nobody wrote down.
 
-Changing: `active_customers` 7,900 against 23,113 - the run's former headline
-contradiction - is now `insufficient_context` naming `segment`, because the
-bullet heading `PTL Freight` that the 7,900 sits under now reaches its
-qualifier bag, and the 23,113 has no counterpart to compare it against. The
-same inherited qualifier moves `449` against `23,113` from
-`reconciled_by_context` to the same abstention.
+Self-consistency therefore has no denominator in this run. Both adjudicated
+pairs were refused by the first guard, so neither reached the second. A rate
+over zero pairs is worth printing as zero pairs rather than as 0%.
 
-**Every `contradicts` in the run was a false positive**, and the ledger is now
-honest about the corpus containing none. Three pairs still reach the
-contradiction branch deterministically - two CIN spellings of one company
-(`U...` before listing, `L...` after), two different name-change dates, and the
-Economic Survey's 6.4% against the RBI's 6.5% for the same year - and all three
-are downgraded to `insufficient_context` by the adjudication guards. Those are
-the honest residue: same subject, same predicate, disagreeing values, and no
-qualifier on either side to explain it.
+**Every `contradicts` in the six starters was a false positive**, and the
+ledger is now honest about the corpus containing none. The one genuine
+cross-publisher disagreement it used to surface - 6.4 against 6.5 for India's
+FY2024-25 real GDP growth - is no longer surfaced either, for a reason recorded
+in full under *The deterministic / LLM split* above: the registry merge that
+brought those two facts onto one comparison key was itself unsound, and closing
+it took the right answer with the wrong one.
 
-`Judge self-consistency 0 of 1` is one pair, not a rate. With the false
-contradictions gone only three pairs still reach the adjudicating branch; two
-are refused by the hallucinated-qualifier guard before the consistency check is
-reached, and the third disagreed with itself and was correctly downgraded. A
-denominator of one is worth printing as a denominator of one rather than as 0%.
+**What the inherited qualifiers changed.** `active_customers` 7,900 against
+23,113 was the run's original headline contradiction. The bullet heading
+`PTL Freight` that the 7,900 sits under now reaches its qualifier bag and the
+23,113 has no counterpart to compare against, so it abstains naming `segment`.
+The extraction failure underneath it is unchanged and is case 4 below: the
+distinguishing phrase is in both quotes and was never emitted as a qualifier.
+
+**And one pair that agreement recovered.** `installed_solar_power_capacity`
+4.6 MW is stated on one page `as_at "March 31, 2024"` and on another
+`as_at "end of FY24"`. Both now resolve to the same instant - the closing edge
+of a fiscal year is a moment, not a year - so two spellings of one date are one
+condition by interval rather than by a fallback that checks the years they
+name.
 
 **Cost.** The full corpus replays for **$0.00** - it is all cache. Extracting it
 the first time was 41 requests on a Google AI Studio **free-tier** key, so the
@@ -687,6 +723,92 @@ is a root cause with a regression test, not a patched instance.
    against `4.6 MW as_at "end of FY24"`, which is one instant written two
    ways.
 
+### What a third audit pass found, and what it cost
+
+A full re-audit of the codebase against the shipped ledger raised twelve more
+findings. These are the ones acted on, each with a regression test and a
+measurement rather than an assertion.
+
+9. **The ledger was a function of upload order.** A pair was only ever judged
+   while one of its facts was new, so the same documents uploaded in a
+   different sequence produced a different ledger - and re-running the
+   comparison over the stored facts produced a third answer again, 186
+   relations against the 174 that shipped. Every ingest now re-blocks the whole
+   corpus and replaces what it no longer keeps. What stays incremental is the
+   part that costs money: a pair a model has already answered carries that
+   answer forward and never re-enters the queue, which is the same guarantee
+   the incremental path was written for and is now recorded on the row
+   (`relations.judged`) instead of inferred from which document was new.
+
+10. **Every ingest re-embedded the entire ledger.** `facts.embedding` was
+    declared and never written, so a comparison run spent 13.8 of its 13.9
+    seconds encoding facts it had encoded before, growing with the ledger
+    rather than with the document being added. Vectors are now persisted
+    against the model that produced them and a different model's are ignored
+    rather than trusted. **13.8 s to 0.11 s** over 773 facts, which is what
+    makes re-blocking the whole corpus affordable on every upload.
+
+11. **A figure written to one digit corroborated most of its decade.**
+    `1 billion` spans `[5e8, 1.5e9]` - half its own value either way - so it
+    overlapped `740 million` and the ledger stored cumulative lifetime
+    shipments as confirmation of one year's volume. An overlap that exists only
+    because one side committed to a single digit is now `insufficient_context`
+    naming the figure that carried it. The test is not "is it round": it is
+    whether the *other* figure's own precision could account for the gap, which
+    is what keeps `8,142 Cr` against `81,415.38 mn` corroborating.
+
+12. **A basis folded into a predicate name fragmented the comparison key.**
+    The model sometimes coins `consolidated_revenue_from_operations` instead of
+    qualifying `revenue_from_operations`, which puts the basis where it splits
+    the key instead of conditioning it - three spellings of one line item,
+    every pair `unrelated`, no trace. The basis is now lifted into the
+    `consolidation` qualifier, where the decision table already knows what to
+    do with it. The model's own spelling is kept for display beside the quote.
+
+13. **`the Company` named no entity.** 50 facts in the ledger had a subject
+    that is document-relative, so two annual reports both saying "the Company"
+    would share a comparison key while meaning two different organisations.
+    Anaphors are now resolved to the document's own dominant subject, and only
+    where that is unambiguous - a tie leaves them alone, because attaching
+    facts to the wrong entity is worse than leaving them orphaned. The rewrite
+    is flagged on the fact, because a subject the layer supplied and one the
+    sentence stated are different evidence.
+
+14. **A fifth of period labels never resolved to an interval.** `Fiscal 2021`
+    is one document's house style with 212 occurrences of it, `Mar-26` is a
+    column header, `April-December 2024` is a partial year stated by its bounds
+    and `end of FY24` is an instant rather than a year. None of them parsed, so
+    they fell through to string equality and two spellings of one period read
+    as two conditions. **46 of the 103 unresolved period qualifiers now
+    resolve.** A bare `2024` deliberately still does not - see 8 below.
+
+15. **A quarantined row's id moved between processes.** It was built from
+    Python's `hash()` of the quote, which is randomised per interpreter, so the
+    same unlocated quote got a different id in every run and its
+    `/evidence/{id}` link broke on the next ingest. Content-addressed now, the
+    way `make_fact_id` already was.
+
+16. **Adjudication failure was silent.** `/ingest` caught every exception from
+    the judge and omitted the block, so a run whose deterministic `contradicts`
+    rows were never judged looked exactly like a clean one. The reason now
+    travels in the payload and the upload line renders it, along with failed
+    extraction batches and the fiscal basis the document was read on.
+
+17. **The two quarantine rates could not be reconciled.** `/ingest` measured it
+    before `dedupe` and `/stats` after, and the counters that would explain the
+    difference - extracted, requests, failed batches, duplicates collapsed -
+    lived only in one HTTP response. They are persisted on the document row
+    now, so the extracted-to-grounded leg is checkable from the shipped
+    artifacts by someone who did not run the ingest.
+
+18. **The partition gate could have suppressed a time series.** It looks for
+    facts that share everything but one qualifier and whose values sum to a
+    whole; a two-point series whose values happen to sum near 100 has that
+    shape exactly, and the nearest miss in the ledger was 5.5% away. Time is
+    now excluded as a split axis under every name the extractor coins for it.
+    The gate still fires on nothing in this corpus, which is the correct answer
+    for a corpus with no distribution in it.
+
 ### What still does not work
 
 1. **Extraction recall is thin, and batching is most of the reason.** The
@@ -714,16 +836,16 @@ is a root cause with a regression test, not a patched instance.
    section) is in the source, sits in the same chunk as a fact that *was*
    extracted, and neither PIN came back.
 
-2. **Abstention is the failure mode, by design, and it grew.**
-   `insufficient_context` is 32 of 118 relations, and two of those are new: the
-   `active_customers` pairs where one side now carries an inherited `segment`
-   the other cannot match. That is the missing-qualifier guard working as
-   specified - it binds on *any* key present on one side and absent on the
-   other, whether stated or inherited - but it means enriching one side's
-   context can turn a confident reconciliation into an abstention. A pair whose
-   one-sided qualifier is genuinely incidental abstains instead of resolving.
-   Contradiction over-calling is the documented failure of this task, so this is
-   the right direction to err, and it is still a real cost.
+2. **Abstention is the failure mode, by design, and it grows with every
+   context fix.** `insufficient_context` is 38 of 129 relations, and 31 of
+   those are the missing-qualifier guard: a discriminating key present on one
+   side and absent on the other. The guard binds on *any* such key, stated or
+   inherited, so enriching one side's context turns a confident reconciliation
+   into an abstention - the `active_customers` pairs abstain on `segment`
+   precisely because the bullet heading now reaches one of them. Contradiction
+   over-calling is the documented failure of this task, so this is the right
+   direction to err, and it is still a real cost: a pair whose one-sided
+   qualifier is genuinely incidental abstains instead of resolving.
 
 3. **The subject rule cannot bridge two spellings of one legal form.**
    `Delhivery` reaches `Delhivery Limited` because one name is the other plus
@@ -737,29 +859,53 @@ is a root cause with a regression test, not a patched instance.
    `Acme Limited`, which are different companies, so it is not a free change
    and it is not made on zero evidence.
 
-4. **A figure's scale can be stated in prose the extractor does not read into
-   the value.** The RBI narrative says "US$ 81.0 billion"; the fact's
-   `value.scale` is `null` and it normalises to 81.0, while a table cell for a
-   related series normalises to 5.0e10. Both facts are now `unrelated` for a
-   different and correct reason, so no verdict currently depends on it, but the
-   defect is real and would bite a corpus that stated the same series both ways.
+4. **A footnote marker's legend is usually in a different chunk, and a
+   multi-marker reference keeps only the first.** Across the eight PDFs there
+   are 600 `(n)` references attached to a figure, and only 26 of them sit in a
+   chunk that also holds the matching legend line; 204 have a legend elsewhere
+   in the document that no chunk holding the reference can see. Worse, where a
+   figure carries two markers the second is lost every time - a headcount of
+   `98,135 (1,5)` kept the `as_of` from the first marker and dropped the
+   second, which is the one that says whether contractors are counted. Those
+   are exactly the discriminating qualifiers the missing-qualifier guard exists
+   to protect. The fix is structural rather than semantic - collect the legend
+   lines per page during structure analysis and append the ones a chunk's
+   figures actually reference to its context block - and nothing is wrong
+   today only because no counterpart fact exists for any of the three measured
+   cases.
 
-5. **The semantic block carries the run.** All 115 stored relations were
-   proposed by it; 31 by nothing else, including 16 of the 35 abstentions. It
-   is also the least precise strategy by an order of magnitude - 3,741
-   proposals for 115 kept relations. The honest description of the blocking
-   layer is "one recall device and two cheap accelerators".
+5. **The semantic block carries the run.** Of the 129 stored relations it
+   proposed 127, and 40 of those nothing else found. It is also the least
+   precise strategy by an order of magnitude: 3,596 proposals for 129 kept
+   relations, against the comparison-key block's 80 proposals for 80 kept
+   relations. The honest description of the blocking layer is "one recall
+   device and two cheap accelerators" - and the accelerators earn their keep by
+   2 uniquely contributed verdicts each, which is marginal enough to say out
+   loud. All three together run in 3 ms, so nothing here is worth trading
+   recall for.
 
-6. **A reviewer with no key cannot ingest a genuinely new PDF.** Everything
-   already in the cache replays; anything else needs a key. This is the one
-   honest gap in the keyless path. It is also a maintenance cost on every
-   change to the comparison layer: the judge prompt carries both qualifier
-   bags, so any fix that changes a bag invalidates that pair's cached
-   explanation and needs a live call to refill. The correctness pass cost six.
+6. **A reviewer with no key cannot ingest a genuinely new PDF, and the judge
+   cache is expensive to keep warm.** Everything already in the cache replays;
+   anything else needs a key. That is the one honest gap in the keyless path.
+   The second half is a standing maintenance cost: the judge prompt carries
+   both qualifier bags, so every fix that changes a bag invalidates that pair's
+   cached explanation. **57 of the 129 six-starter relations currently carry
+   the deterministic explanation rather than model prose** for that reason. No
+   verdict is affected - those calls are prose-only on verdicts the table has
+   already settled - and refilling them is one live call each, but the number
+   only goes up as the context stack improves.
 
-7. **Embeddings are recomputed for every fact on every ingest.** The
-   `facts.embedding` BLOB column exists and is not read back. Two seconds at
-   488 facts, prohibitive at 50,000.
+7. **Closing an unsound predicate merge cost a right answer.** The registry now
+   refuses, in code, a merge where one name carries a basis modifier the other
+   does not: `real_gdp_growth_rate` and `gdp_growth_rate` really are different
+   measures. Splitting that family put the Economic Survey's 6.4% and the RBI's
+   6.5% for the same year under different comparison keys, so the one genuine
+   cross-publisher disagreement in the corpus is no longer surfaced at all. The
+   merge that used to surface it was unsound; the relation it produced was
+   right. Closing this properly needs the registry to recognise
+   `real_gdp_growth` and `real_gdp_growth_rate` as one measure - which is
+   precisely the question the model got wrong when it was asked, refusing at
+   cosine 0.979.
 
 8. **Smaller, real, and unfixed:** no UI pagination (`limit` is fixed at
    200-300; fine at 773 facts, broken at 5,000); no true table cell grid, so
@@ -767,7 +913,9 @@ is a root cause with a regression test, not a patched instance.
    scope, though an unreadable or password-protected file is answered as a 400
    with a reason rather than a 500. `subject_key` is still only used when both
    sides carry one - a CIN on a document's cover page does not arm the rest of
-   its facts.
+   its facts. A bare `2024` as a period label is deliberately left unresolved,
+   because it is either the calendar year or the fiscal year ending in it and
+   the label does not say which; 9 qualifiers in the ledger sit in that state.
 
 ### Next steps, in the order the failures above dictate
 
@@ -794,16 +942,21 @@ is a root cause with a regression test, not a patched instance.
    `"FY23\n48 days"` from `"Particulars FY24 FY23 ... 45 days 48 days"` - is
    recoverable without weakening the grounding guarantee, because the bytes are
    still the document's.
-5. **Extend partition detection past percentages (acts on 4 above).** A
-   breakdown in absolute units is the same shape but needs the total to check
-   against; where the total is itself an extracted fact, the parts could be
-   summed against it instead of against 100.
-6. **Ablate the semantic block (settles 5).** Rerun at `k` = 5, 10, 20 and plot
+5. **Carry footnote legends into the chunk that references them (closes 4).**
+   Collect the `(n) text` lines per page alongside the page frame and append
+   the ones a chunk's figures reference to its context block, keeping every
+   marker rather than the first. It reuses the offset machinery already there
+   and adds no vocabulary.
+6. **Refill the judge cache, then keep it warm (acts on 6).** 57 relations
+   carry a deterministic explanation because a qualifier fix invalidated their
+   cached prose. One live call each, prose-only, no verdict at risk. Worth
+   doing as the last step before a demo rather than after every fix.
+7. **Ablate the semantic block (settles 5).** Rerun at `k` = 5, 10, 20 and plot
    relations recovered against candidates proposed; record the cosine on each
    candidate so a similarity floor can finally be argued from evidence.
-7. **A local-LLM provider behind the existing seam (closes 6).** Roughly an
-   hour: the provider interface is three methods.
-8. **Cache the embeddings (closes 7)**, then paginate the UI (8).
+8. **A local-LLM provider behind the existing seam (closes the keyless gap in
+   6).** Roughly an hour: the provider interface is three methods. Then
+   paginate the UI (8).
 
 ---
 
