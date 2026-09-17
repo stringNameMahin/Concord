@@ -23,10 +23,13 @@ import json
 import pytest
 
 from concord import config
+from concord.facts import ANAPHORS, normalize_surface, split_consolidation
 from concord.normalize.numbers import (
     SCALES,
     WHOLE_SCALE_WORD,
+    Quantity,
     _scale_key,
+    overlap_rests_on_imprecision,
     scale_after_figure,
 )
 from concord.store.db import connect
@@ -185,3 +188,55 @@ def test_a_contradiction_names_no_qualifier_the_facts_do_not_carry(ledger):
         if row["qualifier_key"] not in keys:
             fabricated.append((row["relation_id"], row["qualifier_key"], sorted(keys)))
     assert fabricated == []
+
+
+def test_no_stored_corroboration_rests_on_a_single_digit_figure(ledger):
+    """F28. A figure written to one digit spans half its own value either way,
+    so it overlaps most of its decade. An overlap the coarse side alone
+    produces is consistency, not confirmation, and the ledger must not carry it
+    as agreement."""
+    vacuous = []
+    for row in ledger.execute(
+        """SELECT r.relation_id, a.value_json AS va, b.value_json AS vb
+             FROM relations r
+             JOIN facts a ON a.fact_id = r.fact_a
+             JOIN facts b ON b.fact_id = r.fact_b
+            WHERE r.verdict = 'corroborates'"""
+    ):
+        left = json.loads(row["va"]).get("quantity")
+        right = json.loads(row["vb"]).get("quantity")
+        if not left or not right:
+            continue
+        pair = [Quantity(**{**q, "interval": tuple(q["interval"])}) for q in (left, right)]
+        coarse = overlap_rests_on_imprecision(*pair)
+        if coarse is not None:
+            vacuous.append((row["relation_id"], coarse.raw))
+    assert vacuous == []
+
+
+def test_no_predicate_carries_a_basis_the_qualifier_bag_should_hold(ledger):
+    """F25. A basis folded into the name fragments the comparison key instead
+    of conditioning it, so three spellings of one line item never meet and
+    every pair drops out as `unrelated` before a guard can run."""
+    folded = [
+        (row["fact_id"], row["predicate_canonical"])
+        for row in ledger.execute(
+            "SELECT fact_id, predicate_canonical FROM facts "
+            "WHERE predicate_canonical IS NOT NULL"
+        )
+        if split_consolidation(row["predicate_canonical"])[1] is not None
+    ]
+    assert folded == []
+
+
+def test_no_subject_is_a_word_that_names_no_entity(ledger):
+    """F4. `the Company` is document-relative, so two reports that both use it
+    share a comparison key while meaning two different organisations."""
+    orphaned = [
+        (row["fact_id"], row["subject_surface"])
+        for row in ledger.execute(
+            "SELECT fact_id, subject_surface FROM facts WHERE align_status != 'unlocated'"
+        )
+        if normalize_surface(row["subject_surface"] or "") in ANAPHORS
+    ]
+    assert orphaned == []
