@@ -8,7 +8,7 @@ exactly what runs here.
 from factories import make_fact
 from test_block import BagOfWords
 
-from concord.compare.engine import compare
+from concord.compare.engine import carry_forward, compare
 
 
 def corpus():
@@ -140,3 +140,68 @@ def test_comparison_is_stable_across_runs():
     assert [(r.fact_a, r.fact_b, r.verdict) for r in first.relations] == [
         (r.fact_a, r.fact_b, r.verdict) for r in second.relations
     ]
+
+
+# --- carrying an answer forward instead of buying it twice ------------------
+
+def referred_pair():
+    """Two figures under one key differing only on a stated period: the
+    deterministic table finds the qualifier, so the verdict is settled and the
+    model is asked for prose. That is the pair a re-run must not re-buy."""
+    return [
+        make_fact(fact_id="f_a", raw="8,142 Cr", period="FY 2023-24"),
+        make_fact(fact_id="f_b", raw="7,224 Cr", period="FY 2022-23"),
+    ]
+
+
+def test_a_pair_a_model_has_already_answered_leaves_the_queue():
+    facts = referred_pair()
+    first = compare(facts)
+    assert len(first.llm_queue) == 1
+
+    answered = first.relations[0]
+    answered.explanation = "The two figures are for consecutive financial years."
+    answered.judged = True
+    prior = {(answered.fact_a, answered.fact_b): answered}
+
+    second = compare(facts)
+    assert carry_forward(second, prior) == 1
+    assert second.llm_queue == []
+    assert second.relations[0].explanation == answered.explanation
+    assert second.relations[0].judged is True
+
+
+def test_an_unanswered_pair_is_still_queued():
+    """A stored row a model never reached is not an answer, so the pair has to
+    stay in the queue for the run that does have a key."""
+    facts = referred_pair()
+    first = compare(facts)
+    prior = {(first.relations[0].fact_a, first.relations[0].fact_b): first.relations[0]}
+
+    second = compare(facts)
+    assert carry_forward(second, prior) == 0
+    assert len(second.llm_queue) == 1
+
+
+def test_a_stored_answer_does_not_survive_the_table_learning_to_finish_the_pair():
+    """The guard on carrying forward: a fix that gives the deterministic layer
+    a rule of its own for a pair must win over what a model said before it
+    existed, or every future fix is silently overridden by the ledger."""
+    facts = referred_pair()
+    stale = compare(facts).relations[0]
+    stale.verdict = "contradicts"
+    stale.decided_by = "llm"
+    stale.judged = True
+    prior = {(stale.fact_a, stale.fact_b): stale}
+
+    # The same two facts with no period on either side: now the table returns a
+    # verdict itself and refers nothing.
+    settled = compare([
+        make_fact(fact_id="f_a", raw="8,142 Cr", segment="Express"),
+        make_fact(fact_id="f_b", raw="8,142 Cr", segment="Express"),
+    ])
+    prior_by_new_pair = {
+        (settled.relations[0].fact_a, settled.relations[0].fact_b): stale
+    }
+    assert carry_forward(settled, prior_by_new_pair) == 0
+    assert settled.relations[0].verdict == "corroborates"

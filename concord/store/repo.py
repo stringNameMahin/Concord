@@ -230,13 +230,30 @@ def save_quarantine(conn: Connection, run, doc_id: str) -> int:
     return len(rows)
 
 
-def save_relations(conn: Connection, relations: list[Relation]) -> int:
+def save_relations(conn: Connection, relations: list[Relation], replace: bool = False) -> int:
+    """Upsert this run's relations, optionally dropping every row it did not keep.
+
+    `replace` belongs with a run that judged the whole corpus. Such a run is
+    the complete answer, so a stored pair it no longer keeps has become
+    `unrelated` and must go; leaving it behind would show a reader a verdict
+    the current code does not produce. An incremental run must never pass it -
+    it only looked at part of the space and would delete the rest.
+    """
+    if replace:
+        kept = {(relation.fact_a, relation.fact_b) for relation in relations}
+        stale = [
+            (row["fact_a"], row["fact_b"])
+            for row in conn.execute("SELECT fact_a, fact_b FROM relations")
+            if (row["fact_a"], row["fact_b"]) not in kept
+        ]
+        conn.executemany("DELETE FROM relations WHERE fact_a = ? AND fact_b = ?", stale)
+
     conn.executemany(
         """
         INSERT INTO relations (relation_id, fact_a, fact_b, verdict, rule_fired,
                                qualifier_key, explanation, decided_by, self_consistent,
-                               cross_document, blocked_by, created_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                               cross_document, blocked_by, judged, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(fact_a, fact_b) DO UPDATE SET
             verdict = excluded.verdict,
             rule_fired = excluded.rule_fired,
@@ -244,7 +261,8 @@ def save_relations(conn: Connection, relations: list[Relation]) -> int:
             explanation = excluded.explanation,
             decided_by = excluded.decided_by,
             self_consistent = excluded.self_consistent,
-            blocked_by = excluded.blocked_by
+            blocked_by = excluded.blocked_by,
+            judged = excluded.judged
         """,
         [
             (
@@ -259,12 +277,79 @@ def save_relations(conn: Connection, relations: list[Relation]) -> int:
                 None if relation.self_consistent is None else int(relation.self_consistent),
                 int(relation.cross_document),
                 json.dumps(relation.blocked_by),
+                int(relation.judged),
                 _now(),
             )
             for relation in relations
         ],
     )
     return len(relations)
+
+
+def load_relations(conn: Connection) -> dict[tuple[str, str], Relation]:
+    """Every stored relation, keyed by its pair.
+
+    Read back so a run that re-judges the whole corpus can recognise the pairs
+    a model has already answered on and leave them alone. See
+    `concord.compare.engine.carry_forward`.
+    """
+    relations: dict[tuple[str, str], Relation] = {}
+    for row in conn.execute("SELECT * FROM relations"):
+        relations[(row["fact_a"], row["fact_b"])] = Relation(
+            fact_a=row["fact_a"],
+            fact_b=row["fact_b"],
+            verdict=row["verdict"],
+            rule_fired=row["rule_fired"],
+            explanation=row["explanation"] or "",
+            decided_by=row["decided_by"],
+            qualifier_key=row["qualifier_key"],
+            blocked_by=json.loads(row["blocked_by"]),
+            cross_document=bool(row["cross_document"]),
+            self_consistent=(
+                None if row["self_consistent"] is None else bool(row["self_consistent"])
+            ),
+            judged=bool(row["judged"]),
+        )
+    return relations
+
+
+def load_embeddings(conn: Connection, model: str | None = None) -> dict[str, "object"]:
+    """Fact vectors this encoder produced, so an ingest does not re-embed the ledger.
+
+    Encoding is the whole cost of a comparison run - 4.3 of 4.6 seconds at 773
+    facts, and it grows with the ledger rather than with the document being
+    added. The vectors never decide anything (see `compare.embed`), so caching
+    them changes nothing about the answer, only how long it takes to reach.
+
+    Rows written by a different embedding model are ignored rather than
+    trusted: two models' vectors are not comparable even at the same width, and
+    a stale one would quietly distort every neighbour list. Re-encoding is the
+    safe answer to a model change, and it is the only cost of one.
+    """
+    import numpy as np
+
+    name = model or config.EMBED_MODEL
+    vectors: dict[str, object] = {}
+    for row in conn.execute(
+        "SELECT fact_id, embedding FROM facts "
+        "WHERE embedding IS NOT NULL AND embedding_model = ?",
+        (name,),
+    ):
+        vectors[row["fact_id"]] = np.frombuffer(row["embedding"], dtype="float32")
+    return vectors
+
+
+def save_embeddings(conn: Connection, vectors: dict[str, "object"], model: str | None = None) -> int:
+    """Persist fact vectors against the model that produced them."""
+    name = model or config.EMBED_MODEL
+    rows = [
+        (vector.astype("float32").tobytes(), name, fact_id)
+        for fact_id, vector in vectors.items()
+    ]
+    conn.executemany(
+        "UPDATE facts SET embedding = ?, embedding_model = ? WHERE fact_id = ?", rows
+    )
+    return len(rows)
 
 
 def load_facts(conn: Connection, doc_id: str | None = None) -> list[Fact]:

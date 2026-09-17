@@ -261,3 +261,68 @@ def test_an_incremental_pass_with_no_new_facts_does_nothing():
     candidates, stats = block(settled, encoder=BagOfWords(), fresh=frozenset())
     assert candidates == {}
     assert stats.theoretical_pairs == 0
+
+
+# --- the vector cache -------------------------------------------------------
+
+class CountingEncoder:
+    """Fixed-width encoder that records how much work it was asked to do.
+
+    Width has to be fixed, unlike `BagOfWords`, because a cached vector and a
+    fresh one have to stack into one matrix.
+    """
+
+    def __init__(self, width: int = 16):
+        self.width = width
+        self.encoded: list[str] = []
+
+    def encode(self, texts):
+        self.encoded.extend(texts)
+        matrix = np.zeros((len(texts), self.width), dtype=np.float32)
+        for row, text in enumerate(texts):
+            for word in text.lower().split():
+                matrix[row, hash(word) % self.width] += 1.0
+        return unit_rows(matrix)
+
+
+def test_a_cached_vector_is_not_computed_twice():
+    """Encoding is the whole cost of a comparison run and it grows with the
+    ledger, not with the document being added."""
+    from concord.compare.block import encode
+
+    facts = [make_fact(fact_id=f"f_{i}", raw=f"{100 + i} Cr") for i in range(4)]
+    encoder = CountingEncoder()
+    vectors: dict = {}
+
+    encode(facts, encoder, vectors)
+    assert len(encoder.encoded) == 4
+    assert set(vectors) == {f.fact_id for f in facts}
+
+    encode(facts, encoder, vectors)
+    assert len(encoder.encoded) == 4  # nothing re-encoded
+
+
+def test_only_the_facts_without_a_vector_are_encoded():
+    from concord.compare.block import encode
+
+    facts = [make_fact(fact_id=f"f_{i}", raw=f"{100 + i} Cr") for i in range(4)]
+    encoder = CountingEncoder()
+    vectors: dict = {}
+    encode(facts[:3], encoder, vectors)
+
+    encoder.encoded.clear()
+    matrix = encode(facts, encoder, vectors)
+    assert encoder.encoded == [facts[3].embed_text]
+    assert matrix.shape == (4, encoder.width)
+
+
+def test_the_cache_does_not_change_which_pairs_are_proposed():
+    facts = [
+        make_fact(fact_id="f_a", claim="revenue from services was 8,142 Cr"),
+        make_fact(fact_id="f_b", claim="revenue from services was 81,415.38 mn"),
+        make_fact(fact_id="f_c", claim="the registered office is in Gurugram"),
+    ]
+    warm: dict = {}
+    cold = semantic_pairs(facts, CountingEncoder(), k=1)
+    semantic_pairs(facts, CountingEncoder(), k=1, vectors=warm)
+    assert ids(semantic_pairs(facts, CountingEncoder(), k=1, vectors=warm)) == ids(cold)

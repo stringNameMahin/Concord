@@ -20,7 +20,7 @@ from fastapi.responses import FileResponse, JSONResponse
 
 from concord import config
 from concord.compare.adjudicate import adjudicate
-from concord.compare.engine import compare
+from concord.compare.engine import carry_forward, compare
 from concord.llm.client import LLMClient
 from concord.parse.pdf import UnreadablePDF, file_sha256
 from concord.pipeline import ingest
@@ -184,19 +184,31 @@ async def ingest_document(file: UploadFile, adjudicate_residue: bool = Query(Tru
         repo.save_registry(conn, registry)
         repo.log_schema_events(conn, events, doc_id)
 
-        # Only pairs touching this document are judged. The rest are already in
-        # the ledger and nothing about them has changed.
-        fresh = frozenset(fact.fact_id for fact in result.facts)
+        # Every pair is proposed, not only the ones touching this document.
+        # Blocking is top-k over whatever is in the pool at the time and a pair
+        # is only ever considered while one side is new, so judging the
+        # increment alone made the ledger a function of upload order: the same
+        # seven documents in a different sequence produced a different answer,
+        # and re-running the comparison over the stored facts produced a third.
+        # The three strategies together are milliseconds and the vectors are
+        # cached, so completeness is affordable and order-dependence is not.
+        prior = repo.load_relations(conn)
+        vectors = repo.load_embeddings(conn)
         run = compare(
-            everything, encoder=encoder(), aliases=registry.aliases(), fresh=fresh
+            everything, encoder=encoder(), aliases=registry.aliases(), vectors=vectors
         )
+        repo.save_embeddings(conn, vectors)
+
+        # What stays incremental is the part that costs money: a pair a model
+        # has already answered keeps that answer and never reaches the queue.
+        carried = carry_forward(run, prior)
         adjudication = None
         if adjudicate_residue and run.llm_queue:
             try:
                 adjudication = adjudicate(run.llm_queue, everything, client)
             except Exception:
                 adjudication = None  # deterministic verdicts stand on their own
-        repo.save_relations(conn, run.relations)
+        repo.save_relations(conn, run.relations, replace=True)
 
         payload = {
             "doc_id": doc_id,
@@ -222,7 +234,9 @@ async def ingest_document(file: UploadFile, adjudicate_residue: bool = Query(Tru
                 "by_strategy": run.blocking.by_strategy,
             },
             "verdicts": dict(run.final_verdicts()),
+            "relations": len(run.relations),
             "llm_pairs": len(run.llm_queue),
+            "carried_forward": carried,
             "schema": {
                 "predicates_known": len(registry),
                 "new_predicates": sum(

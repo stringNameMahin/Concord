@@ -109,3 +109,106 @@ def test_counts_separate_grounded_from_quarantined(conn):
         "quarantined": 0,
         "relations": 0,
     }
+
+
+# --- relations: the judged flag, and a full run replacing what it dropped ---
+
+def relation(a, b, **kwargs):
+    from concord.compare.engine import Relation
+
+    fields = {
+        "verdict": "reconciled_by_context",
+        "rule_fired": "discriminating_qualifier_differs",
+        "explanation": "the period differs",
+        "qualifier_key": "period",
+        "blocked_by": ["semantic"],
+    }
+    fields.update(kwargs)
+    return Relation(fact_a=a, fact_b=b, **fields)
+
+
+def test_a_relation_round_trips_with_the_record_of_having_been_judged(conn):
+    """`judged` is what stops a whole-corpus run re-paying for settled pairs,
+    so it has to survive the ledger, not just the process that set it."""
+    store(conn, [make_fact(fact_id="f_1"), make_fact(fact_id="f_2", span=900)])
+    repo.save_relations(conn, [relation("f_1", "f_2", judged=True, decided_by="llm")])
+
+    back = repo.load_relations(conn)[("f_1", "f_2")]
+    assert back.judged is True
+    assert back.decided_by == "llm"
+    assert back.qualifier_key == "period"
+    assert back.blocked_by == ["semantic"]
+
+
+def test_an_unjudged_relation_reads_back_unjudged(conn):
+    store(conn, [make_fact(fact_id="f_1"), make_fact(fact_id="f_2", span=900)])
+    repo.save_relations(conn, [relation("f_1", "f_2")])
+    assert repo.load_relations(conn)[("f_1", "f_2")].judged is False
+
+
+def test_a_whole_corpus_run_removes_a_pair_it_no_longer_keeps(conn):
+    """A pair that has become `unrelated` is dropped by `compare`, so a run
+    that judged everything must take its stored row with it. Otherwise the UI
+    shows a verdict the current code does not produce."""
+    store(
+        conn,
+        [
+            make_fact(fact_id="f_1"),
+            make_fact(fact_id="f_2", span=900),
+            make_fact(fact_id="f_3", span=1900),
+        ],
+    )
+    repo.save_relations(conn, [relation("f_1", "f_2"), relation("f_1", "f_3")])
+    assert len(repo.load_relations(conn)) == 2
+
+    repo.save_relations(conn, [relation("f_1", "f_3")], replace=True)
+    assert set(repo.load_relations(conn)) == {("f_1", "f_3")}
+
+
+def test_an_incremental_run_leaves_the_rest_of_the_ledger_alone(conn):
+    """The default must stay additive: a run that only looked at part of the
+    space cannot be allowed to delete the part it never judged."""
+    store(conn, [make_fact(fact_id="f_1"), make_fact(fact_id="f_2", span=900),
+                 make_fact(fact_id="f_3", span=1900)])
+    repo.save_relations(conn, [relation("f_1", "f_2")])
+    repo.save_relations(conn, [relation("f_1", "f_3")])
+    assert len(repo.load_relations(conn)) == 2
+
+
+# --- embeddings: computed once per fact, not once per ingest ---------------
+
+def test_embeddings_round_trip_for_the_model_that_made_them(conn):
+    import numpy as np
+
+    store(conn, [make_fact(fact_id="f_1"), make_fact(fact_id="f_2", span=900)])
+    vectors = {
+        "f_1": np.array([0.1, 0.2, 0.3], dtype="float32"),
+        "f_2": np.array([0.4, 0.5, 0.6], dtype="float32"),
+    }
+    assert repo.save_embeddings(conn, vectors, model="test-model") == 2
+
+    back = repo.load_embeddings(conn, model="test-model")
+    assert set(back) == {"f_1", "f_2"}
+    assert np.allclose(back["f_1"], vectors["f_1"])
+
+
+def test_another_models_vectors_are_not_served_to_this_one(conn):
+    """Two encoders' vectors are not comparable even at the same width, and a
+    stale one would distort every neighbour list without failing anywhere."""
+    import numpy as np
+
+    store(conn, [make_fact(fact_id="f_1")])
+    repo.save_embeddings(conn, {"f_1": np.zeros(3, dtype="float32")}, model="old-model")
+    assert repo.load_embeddings(conn, model="new-model") == {}
+    assert set(repo.load_embeddings(conn, model="old-model")) == {"f_1"}
+
+
+def test_re_extracting_a_document_drops_its_stale_vectors(conn):
+    """`save_facts` replaces the document's rows, so the embedding goes with
+    the text it was made from rather than outliving it."""
+    import numpy as np
+
+    store(conn, [make_fact(fact_id="f_1")])
+    repo.save_embeddings(conn, {"f_1": np.zeros(3, dtype="float32")}, model="m")
+    repo.save_facts(conn, [make_fact(fact_id="f_1")], "d1")
+    assert repo.load_embeddings(conn, model="m") == {}

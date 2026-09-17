@@ -139,6 +139,9 @@ def _write_prose(relation: Relation, a: Fact, b: Fact, client, run: Adjudication
 
     run.prose_only += 1
     run.verdicts_checked += 1
+    # The answer is in hand, admissible or not. Asking again would return the
+    # same one, so the pair is settled as far as spending is concerned.
+    relation.judged = True
 
     reason = validate(answer, a, b)
     if reason:
@@ -163,6 +166,7 @@ def _adjudicate_one(relation: Relation, a: Fact, b: Fact, client, run: Adjudicat
 
     run.adjudicated += 1
     run.verdicts_checked += 2
+    relation.judged = True
 
     reasons = [
         reason

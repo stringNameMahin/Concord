@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS facts (
     confidence          REAL,
     flags_json          TEXT NOT NULL DEFAULT '[]',
     embedding           BLOB,
+    embedding_model     TEXT,
     extractor           TEXT,
     created_at          TEXT NOT NULL
 );
@@ -58,6 +59,7 @@ CREATE TABLE IF NOT EXISTS relations (
     self_consistent INTEGER,
     cross_document  INTEGER NOT NULL DEFAULT 0,
     blocked_by      TEXT NOT NULL DEFAULT '[]',
+    judged          INTEGER NOT NULL DEFAULT 0,
     created_at      TEXT NOT NULL,
     UNIQUE (fact_a, fact_b)
 );

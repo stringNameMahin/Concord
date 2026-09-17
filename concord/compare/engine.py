@@ -31,6 +31,13 @@ class Relation:
     cross_document: bool = False
     needs_llm: bool = False
     self_consistent: bool | None = None
+    # A model has already been asked about this pair and answered. Not the same
+    # as `decided_by == "llm"`: a prose-only call, a rejected verdict and a
+    # downgraded one were all judged, and none of them left the verdict in the
+    # model's hands. It is the record that asking again would buy nothing,
+    # which is what keeps a run over the whole corpus from re-paying for every
+    # pair that is already settled.
+    judged: bool = False
 
     @property
     def relation_id(self) -> str:
@@ -81,6 +88,7 @@ def compare(
     width: float = BUCKET_WIDTH,
     window: int = BUCKET_WINDOW,
     fresh: frozenset[str] | None = None,
+    vectors: dict | None = None,
 ) -> ComparisonRun:
     """Judge every candidate pair deterministically.
 
@@ -90,7 +98,8 @@ def compare(
     """
     by_id = {fact.fact_id: fact for fact in facts}
     candidates, stats = block(
-        facts, encoder=encoder, k=k, width=width, window=window, fresh=fresh
+        facts, encoder=encoder, k=k, width=width, window=window, fresh=fresh,
+        vectors=vectors,
     )
 
     # Built over every fact, not over the candidate pairs: a distribution is a
@@ -114,6 +123,39 @@ def compare(
 
     run.relations.sort(key=lambda relation: (relation.verdict, relation.fact_a, relation.fact_b))
     return run
+
+
+def carry_forward(run: ComparisonRun, prior: dict[tuple[str, str], Relation]) -> int:
+    """Restore the answers a model has already given, on pairs still referred.
+
+    A run over the whole corpus re-proposes every pair, including the ones a
+    model settled on an earlier ingest. Asking again would return the same
+    answer at full price, so the stored outcome is written back over the fresh
+    deterministic one and the pair leaves the queue.
+
+    The guard is that the deterministic layer must *still* refer the pair.
+    Where a fix has since given it a rule of its own - a verdict the table can
+    now reach without asking - the new deterministic answer wins and the stored
+    adjudication is discarded. Nothing carries forward onto a pair the code no
+    longer sends to a model.
+    """
+    carried = 0
+    for relation in run.relations:
+        if not relation.needs_llm:
+            continue
+        stored = prior.get((relation.fact_a, relation.fact_b))
+        if stored is None or not stored.judged:
+            continue
+        relation.verdict = stored.verdict
+        relation.rule_fired = stored.rule_fired
+        relation.explanation = stored.explanation
+        relation.qualifier_key = stored.qualifier_key
+        relation.decided_by = stored.decided_by
+        relation.self_consistent = stored.self_consistent
+        relation.needs_llm = False
+        relation.judged = True
+        carried += 1
+    return carried
 
 
 def _relation(a: Fact, b: Fact, decision: Decision, strategies: list[str]) -> Relation:

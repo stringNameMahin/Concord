@@ -141,11 +141,36 @@ def only_touching(pairs: set[PairKey], fresh: frozenset[str] | None) -> set[Pair
     return {(a, b) for a, b in pairs if a in fresh or b in fresh}
 
 
+def encode(facts: list[Fact], encoder, vectors: dict | None = None):
+    """The (n, d) matrix for these facts, encoding only what is not already known.
+
+    `vectors` maps fact id to its embedding and is filled in as new ones are
+    computed, so a caller that persists it pays the encoder once per fact for
+    the life of the ledger instead of once per ingest. A fact id is
+    content-addressed over its span and predicate, and re-extracting a document
+    replaces its rows outright, so a cached vector cannot outlive the text it
+    was made from.
+    """
+    import numpy as np
+
+    texts = [fact.embed_text for fact in facts]
+    if vectors is None:
+        return encoder.encode(texts)
+
+    missing = [i for i, fact in enumerate(facts) if fact.fact_id not in vectors]
+    if missing:
+        fresh_vectors = encoder.encode([texts[i] for i in missing])
+        for position, index in enumerate(missing):
+            vectors[facts[index].fact_id] = np.asarray(fresh_vectors[position], dtype=np.float32)
+    return np.vstack([vectors[fact.fact_id] for fact in facts])
+
+
 def semantic_pairs(
     facts: list[Fact],
     encoder,
     k: int = TOP_K,
     fresh: frozenset[str] | None = None,
+    vectors: dict | None = None,
 ) -> set[PairKey]:
     """Top-k cosine neighbours over claim text, both directions unioned.
 
@@ -158,7 +183,7 @@ def semantic_pairs(
     if len(facts) < 2 or encoder is None:
         return set()
 
-    matrix = encoder.encode([fact.embed_text for fact in facts])
+    matrix = encode(facts, encoder, vectors)
     rows = (
         list(range(len(facts)))
         if fresh is None
@@ -179,6 +204,7 @@ def block(
     width: float = BUCKET_WIDTH,
     window: int = BUCKET_WINDOW,
     fresh: frozenset[str] | None = None,
+    vectors: dict | None = None,
 ) -> tuple[dict[PairKey, list[str]], BlockingStats]:
     """Run all three strategies and union them, keeping which one fired.
 
@@ -199,7 +225,11 @@ def block(
     produced = {
         "comparison_key": only_touching(comparison_key_pairs(facts), fresh),
         "value": only_touching(value_pairs(facts, width, window), fresh),
-        "semantic": semantic_pairs(facts, encoder, k, fresh) if encoder is not None else set(),
+        "semantic": (
+            semantic_pairs(facts, encoder, k, fresh, vectors)
+            if encoder is not None
+            else set()
+        ),
     }
 
     candidates: dict[PairKey, list[str]] = defaultdict(list)

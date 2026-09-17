@@ -84,3 +84,42 @@ def test_the_timeline_records_what_happened_and_when(conn):
 def test_an_empty_registry_loads_as_an_empty_one(conn):
     assert len(repo.load_registry(conn)) == 0
     assert repo.schema_timeline(conn) == []
+
+
+def test_a_ledger_written_before_the_new_columns_catches_up_in_place(tmp_path):
+    """`CREATE TABLE IF NOT EXISTS` cannot widen a table that already exists.
+
+    The committed ledger predates both `facts.embedding_model` and
+    `relations.judged`, so without a migration every read of either column
+    fails against the one file the project ships.
+    """
+    import sqlite3
+
+    from concord.store.db import LATER_COLUMNS, connect, migrate
+
+    from concord.store.db import SCHEMA
+
+    # The previous shape, built from the current one by removing exactly the
+    # columns that were added - so this stays a test of the migration rather
+    # than of a hand-copied snapshot that will drift.
+    previous = "\n".join(
+        line
+        for line in SCHEMA.read_text(encoding="utf-8").splitlines()
+        if not any(f" {column} " in line for _, column, _ in LATER_COLUMNS)
+    )
+    path = tmp_path / "old.sqlite"
+    old = sqlite3.connect(path)
+    old.row_factory = sqlite3.Row
+    old.executescript(previous)
+    old.commit()
+    assert "embedding_model" not in {
+        row["name"] for row in old.execute("PRAGMA table_info(facts)")
+    }
+    assert migrate(old) == [f"{table}.{column}" for table, column, _ in LATER_COLUMNS]
+    assert migrate(old) == []  # idempotent
+    old.close()
+
+    conn = connect(path)
+    columns = {row["name"] for row in conn.execute("PRAGMA table_info(facts)")}
+    assert "embedding_model" in columns
+    conn.close()
