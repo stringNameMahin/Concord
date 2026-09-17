@@ -77,20 +77,47 @@ MEASURE_MODIFIERS = frozenset(
 )
 
 
+# Of those, the two that only ever restate a measure at a wider aggregation.
+# `total_finance_costs` really is `finance_costs`, and refusing that merge
+# would fragment the vocabulary for nothing. Everything else in the set names
+# a *basis* - a different way of measuring the same head noun - and a basis is
+# a difference whether or not the other name bothers to say so.
+#
+# `cumulative` sits with the bases rather than the restatements, against the
+# audit's own suggestion, because it names a different span: cumulative
+# shipments since inception and shipments in a year are not one measure stated
+# twice. Refusing a merge costs recall; accepting a wrong one manufactures a
+# contradiction, and this project errs the first way everywhere else.
+RESTATEMENTS = frozenset({"total", "aggregate"})
+BASES = MEASURE_MODIFIERS - RESTATEMENTS
+
+
 def contrastive(left: str, right: str) -> str | None:
     """The pair of modifiers that makes these two names different measures.
 
     Returns `("gross", "total")` style pairing as a reason string, or None if
     the names are not in contrast.
 
-    The test is deliberately narrow. Both names must reduce to the *same* head
-    after one leading modifier is removed, and the two modifiers removed must
-    differ. `gross_fdi_inflows` and `total_fdi_inflows` are in contrast;
-    `total_revenue_from_operations` and `revenue_from_operations` are not,
-    because only one side carries a modifier and `total` there is a restatement
-    rather than a contrast. Exactly one leading word is stripped, so
-    `consolidated_net_assets` and `total_consolidated_net_assets` keep
-    different heads and stay mergeable.
+    The test is narrow in one dimension and not in the other. Both names must
+    reduce to the *same* head after one leading modifier is removed - exactly
+    one leading word is stripped, so `consolidated_net_assets` and
+    `total_consolidated_net_assets` keep different heads and stay mergeable.
+    But the modifiers themselves need not both be present:
+
+    - two different modifiers, `gross_fdi_inflows` against `total_fdi_inflows`,
+      are in contrast;
+    - one *restatement*, `total_revenue_from_operations` against
+      `revenue_from_operations`, is not: `total` there says the same thing at a
+      wider aggregation;
+    - one *basis*, `real_gdp_growth_rate` against `gdp_growth_rate`, is. Real
+      and nominal growth are different measures, and a name that declines to
+      say which is not thereby the same as one that does.
+
+    The one-sided basis case is why this gate was widened. It tested both
+    sides only, so 18 of 67 confirmed aliases in the shipped ledger differed on
+    a modifier it never looked at; three of those - the GDP-growth family -
+    are genuine measure differences that merged because the corpus happens to
+    contain no nominal-growth fact for them to be wrong about yet.
 
     This exists because the model that answers the alias question gets this
     class wrong and gets it wrong inconsistently: on the shipped corpus it
@@ -102,11 +129,17 @@ def contrastive(left: str, right: str) -> str | None:
     """
     left_head, left_mod = _split_modifier(left)
     right_head, right_mod = _split_modifier(right)
-    if not left_mod or not right_mod or left_mod == right_mod:
+    if left_mod == right_mod:
         return None
     if not left_head or left_head != right_head:
         return None
-    return f"{left_mod!r} against {right_mod!r} on the same measure {left_head!r}"
+    if left_mod and right_mod:
+        return f"{left_mod!r} against {right_mod!r} on the same measure {left_head!r}"
+
+    lone = left_mod or right_mod
+    if lone in RESTATEMENTS:
+        return None
+    return f"{lone!r} names a basis the other name does not, on {left_head!r}"
 
 
 def _split_modifier(name: str) -> tuple[str, str | None]:
@@ -291,7 +324,11 @@ class PredicateRegistry:
         """
         events = []
         for fact in sorted(facts, key=lambda f: (f.predicate_canonical, f.fact_id)):
-            events.append(self.observe(fact.predicate, doc_id, fact.claim_text))
+            # The canonical form, not the model's spelling: a basis the model
+            # folded into the name has already been lifted into the qualifier
+            # bag, and registering the folded spelling would put the same
+            # measure in the vocabulary twice under two comparison keys.
+            events.append(self.observe(fact.predicate_canonical, doc_id, fact.claim_text))
         return events
 
     # --- internals ---------------------------------------------------------

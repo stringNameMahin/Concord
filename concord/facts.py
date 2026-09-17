@@ -117,6 +117,46 @@ def canonical_predicate(text: str) -> str:
     return _WORD.sub("_", (text or "").strip().lower()).strip("_")
 
 
+# The two bases a filer states twice over the same year. Named here as well as
+# in `parse.structure` because they arrive by two routes: from the page, where
+# the structure layer promotes them, and from inside the predicate, where the
+# model folds them into the name.
+CONSOLIDATION_WORDS = ("consolidated", "standalone")
+
+
+def split_consolidation(predicate: str) -> tuple[str, str | None]:
+    """A predicate as (measure, basis), where the model folded the basis in.
+
+    Asked for the consolidated revenue line the model does not always coin
+    `revenue_from_operations` and qualify it; sometimes it coins
+    `consolidated_revenue_from_operations`. That puts the basis where it
+    fragments the comparison key instead of conditioning it, and the two
+    figures then never meet at all:
+
+        delhivery limited|standalone_revenue_from_operations    74,540.82
+        delhivery limited|consolidated_revenue_from_operations  81,415.38
+        delhivery limited|revenue_from_operations               81,355.38
+
+    Three keys, so every pair is `unrelated` and drops out before any guard
+    runs, with no trace. Ten facts in the shipped ledger carry a basis-bearing
+    predicate and five of the eight such predicates have a de-basis twin
+    already in the vocabulary. Lifting the word into the `consolidation`
+    qualifier puts those figures back on one key, where the decision table can
+    say what it is for.
+
+    Only these two words, and only as the leading token. This is the same
+    commitment `parse.structure` already makes and not a licence to strip
+    modifiers generally: `real` against nominal growth is a genuine predicate
+    distinction with no qualifier key waiting for it, and folding that one out
+    would merge two different measures.
+    """
+    canonical = canonical_predicate(predicate)
+    head, _, rest = canonical.partition("_")
+    if head in CONSOLIDATION_WORDS and rest:
+        return rest, head
+    return canonical, None
+
+
 def normalize_surface(text: str) -> str:
     """Normalise a subject surface form for use as a fallback identity."""
     lowered = (text or "").strip().lower()
@@ -466,7 +506,20 @@ def materialize(
         except NotANumber:
             flags.append("unparsed_quantity")
 
-    if subject_names_the_measurement(out.subject_surface, out.predicate):
+    # A basis the model folded into the predicate is a condition, not part of
+    # the measure's name. See `split_consolidation`.
+    canonical, basis = split_consolidation(out.predicate)
+    qualifiers = build_qualifiers(out.qualifiers, fy_end_month, inherited)
+    if basis:
+        stated_basis = qualifiers.get("consolidation")
+        # The name is nearer the claim than the page frame is, so it beats an
+        # inherited basis - and loses to one the extractor stated outright.
+        if stated_basis is None or stated_basis.provenance != "stated":
+            qualifiers["consolidation"] = Qualifier(
+                key="consolidation", value=basis, provenance="stated"
+            )
+
+    if subject_names_the_measurement(out.subject_surface, canonical):
         flags.append("subject_names_the_measurement")
 
     evidence = Evidence(
@@ -479,17 +532,22 @@ def materialize(
     )
 
     return Fact(
-        fact_id=make_fact_id(doc_id, alignment.start, alignment.end, out.predicate),
+        fact_id=make_fact_id(doc_id, alignment.start, alignment.end, canonical),
         doc_id=doc_id,
         claim_text=out.claim_text,
         subject_surface=out.subject_surface,
         subject_key=out.subject_key,
         subject_type=out.subject_type,
+        # The model's own spelling is kept for display - a reader comparing the
+        # record against the quote should see what was read - while the
+        # canonical form, which is half the comparison key, carries the basis
+        # in the qualifier bag instead of in the name.
         predicate=out.predicate,
+        predicate_canonical=canonical,
         value_kind=kind,
         value_raw=out.value.raw,
         quantity=quantity,
-        qualifiers=build_qualifiers(out.qualifiers, fy_end_month, inherited),
+        qualifiers=qualifiers,
         evidence=evidence,
         confidence=out.confidence,
         flags=flags,

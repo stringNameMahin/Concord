@@ -5,6 +5,8 @@ record the engine can compare: the figure parsed into base units, the period
 label resolved to an interval, the qualifier bag carrying provenance.
 """
 
+import pytest
+
 from concord.extract.align import Alignment
 from concord.extract.models import FactOut, QualifierOut, ValueOut
 from concord.facts import (
@@ -12,6 +14,7 @@ from concord.facts import (
     make_fact_id,
     materialize,
     normalize_surface,
+    split_consolidation,
 )
 
 
@@ -396,3 +399,76 @@ def test_a_percentage_is_not_scaled_by_a_figure_beside_it():
     assert fact.quantity.scale is None
     assert fact.quantity.normalized == 6.0
     assert "scale_recovered_from_source" not in fact.flags
+
+
+# --- a basis the model folded into the predicate ---------------------------
+
+@pytest.mark.parametrize(
+    "predicate,measure,basis",
+    [
+        ("consolidated_revenue_from_operations", "revenue_from_operations", "consolidated"),
+        ("standalone_revenue_from_operations", "revenue_from_operations", "standalone"),
+        ("Consolidated EBITDA", "ebitda", "consolidated"),
+        ("revenue_from_operations", "revenue_from_operations", None),
+        ("consolidation_ratio", "consolidation_ratio", None),
+        ("consolidated", "consolidated", None),
+    ],
+)
+def test_a_folded_basis_is_split_out_of_the_predicate(predicate, measure, basis):
+    assert split_consolidation(predicate) == (measure, basis)
+
+
+@pytest.mark.parametrize("modifier", ["real", "gross", "net", "adjusted", "diluted"])
+def test_no_other_modifier_is_stripped(modifier):
+    """Only the two words there is a qualifier key waiting for. `real` against
+    nominal growth is a genuine predicate distinction, and folding it out would
+    merge two different measures."""
+    name = f"{modifier}_gdp_growth"
+    assert split_consolidation(name) == (name, None)
+
+
+def test_the_folded_basis_becomes_a_qualifier_and_the_keys_meet():
+    """F25. Three spellings of one line item made three comparison keys, so
+    every pair was `unrelated` before any guard could run."""
+    def without_basis(predicate):
+        return extraction(predicate=predicate, qualifiers=[])
+
+    group = materialize(
+        without_basis("consolidated_revenue_from_operations"), "d1", alignment(), page=1
+    )
+    parent = materialize(
+        without_basis("standalone_revenue_from_operations"), "d1", alignment(), page=1
+    )
+    plain = materialize(
+        without_basis("revenue_from_operations"), "d1", alignment(), page=1
+    )
+
+    assert group.comparison_key == parent.comparison_key == plain.comparison_key
+    assert group.qualifier("consolidation").value == "consolidated"
+    assert parent.qualifier("consolidation").value == "standalone"
+    assert not plain.qualifier("consolidation").known
+    # The model's own spelling survives for display, beside the quote.
+    assert group.predicate == "consolidated_revenue_from_operations"
+
+
+def test_the_name_beats_the_page_frame_but_not_a_stated_qualifier():
+    """The predicate sits on the claim; the running header sits on the page.
+    Where they disagree the nearer evidence wins - and an explicit qualifier
+    from the extractor is nearer still."""
+    from_name = materialize(
+        extraction(predicate="standalone_profit_before_tax", qualifiers=[]),
+        "d1", alignment(), page=1, inherited={"consolidation": "consolidated"},
+    )
+    assert from_name.qualifier("consolidation").value == "standalone"
+    assert from_name.qualifier("consolidation").provenance == "stated"
+
+    stated = materialize(
+        extraction(
+            predicate="standalone_profit_before_tax",
+            qualifiers=[
+                QualifierOut(key="consolidation", value="consolidated", provenance="stated")
+            ],
+        ),
+        "d1", alignment(), page=1,
+    )
+    assert stated.qualifier("consolidation").value == "consolidated"

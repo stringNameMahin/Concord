@@ -268,3 +268,46 @@ def test_entries_embedded_by_another_model_are_skipped_not_fatal():
     event = reg.observe("revenue_from_operations", "d2")
     assert event.event_type == "predicate_registered"
     assert reg.calls == 0
+
+
+# --- a one-sided basis is still a contrast ---------------------------------
+
+@pytest.mark.parametrize(
+    "left,right",
+    [
+        ("real_gdp_growth_rate", "gdp_growth_rate"),
+        ("gdp_growth_rate", "real_gdp_growth_rate"),
+        ("nominal_output", "output"),
+        ("diluted_earnings_per_share", "earnings_per_share"),
+        ("adjusted_operating_margin", "operating_margin"),
+        ("cumulative_shipments", "shipments"),
+    ],
+)
+def test_a_basis_on_one_side_only_is_a_contrast(left, right):
+    """F6. Real and nominal growth are different measures, and a name that
+    declines to say which is not thereby the same as one that does."""
+    assert contrastive(left, right) is not None
+
+
+@pytest.mark.parametrize(
+    "left,right",
+    [
+        ("total_finance_costs", "finance_costs"),
+        ("aggregate_remuneration", "remuneration"),
+        ("finance_costs", "total_finance_costs"),
+    ],
+)
+def test_a_restatement_on_one_side_only_still_merges(left, right):
+    """`total` at a wider aggregation is the same measure, and refusing that
+    merge would fragment the vocabulary for nothing."""
+    assert contrastive(left, right) is None
+
+
+def test_a_one_sided_basis_is_refused_without_asking_a_model():
+    registry = PredicateRegistry(encoder=WordOverlap(), client=Judge(same=True), threshold=0.4)
+    registry.observe("gdp_growth_rate", "d1")
+    event = registry.observe("real_gdp_growth_rate", "d2")
+
+    assert event.event_type == "alias_rejected"
+    assert event.decided_by == "deterministic"
+    assert registry.calls == 0
