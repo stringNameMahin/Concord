@@ -99,3 +99,148 @@ def test_a_password_protected_pdf_is_refused_like_any_unreadable_one(tmp_path):
 
     assert "locked.pdf" in str(caught.value)
     assert "password" in str(caught.value)
+
+
+# --- end to end: one synthetic PDF, one fake model, a real ledger row -------
+#
+# `ingest()` had no end-to-end test through two audits, and its absence is why
+# F1 (a magnitude dropped from a fifth of quantity facts) was invisible: every
+# comparison fixture built a fact whose scale was already inside `raw`, so the
+# bug class "figure in the cell, magnitude in the surrounding bytes" could not
+# be expressed. This builds the document, so the bytes are real.
+
+# A running header on every page, the way a filing carries one, and the
+# figures far enough down the page to stay out of the furniture band.
+HEADER = "Financial Statements: Consolidated"
+PAGES = [
+    [
+        "Statement of Profit and Loss for the year ended March 31, 2024",
+        "Revenue from services 81,415.38 million for the year ended March 31, 2024.",
+    ],
+    ["Active customers stood at 33,200 as at March 31, 2024."],
+    ["The board met 8 times during the year ended March 31, 2024."],
+    ["Acme Logistics Limited is incorporated in India."],
+]
+
+
+def synthetic_pdf(path, pages=PAGES, header=HEADER):
+    import pymupdf
+
+    doc = pymupdf.open()
+    for lines in pages:
+        page = doc.new_page()
+        page.insert_text((72, 60), header, fontsize=9)
+        for row, line in enumerate(lines):
+            page.insert_text((72, 260 + row * 18), line, fontsize=11)
+    doc.save(str(path))
+    doc.close()
+    return path
+
+
+class Extractor:
+    """A model that reports the figures and leaves the magnitude in the page.
+
+    This is the behaviour measured on the real one: handed
+    "81,415.38 million" it returns `raw="81,415.38"` with `scale` null, and the
+    record is then wrong by a factor of a million while looking ordinary.
+    """
+
+    def __init__(self, facts):
+        self.facts = facts
+        self.calls = 0
+
+    def complete(self, prompt, schema, system=None, temperature=0.0):
+        from concord.extract.models import ExtractionOut
+
+        self.calls += 1
+        return ExtractionOut(facts=[build() for build in self.facts])
+
+
+def emitted(quote, predicate, raw, kind="quantity", quals=(), **value):
+    from concord.extract.models import FactOut, QualifierOut, ValueOut
+
+    def build():
+        return FactOut(
+            passage_id=0,
+            claim_text=quote,
+            subject_surface="Acme Logistics Limited",
+            predicate=predicate,
+            value=ValueOut(kind=kind, raw=raw, **value),
+            qualifiers=[
+                QualifierOut(key=k, value=v, provenance="stated") for k, v in quals
+            ],
+            quote=quote,
+            confidence=0.9,
+        )
+
+    return build
+
+
+def test_ingest_grounds_materialises_and_scales_one_document(tmp_path):
+    from concord.pipeline import ingest
+
+    path = synthetic_pdf(tmp_path / "acme.pdf")
+    client = Extractor([
+        emitted("Revenue from services 81,415.38 million", "revenue_from_services", "81,415.38"),
+        emitted("Active customers stood at 33,200", "active_customers", "33,200"),
+    ])
+    result = ingest(path, client)
+
+    assert client.calls == 1
+    assert result.extraction.failed_batches == 0
+    assert len(result.facts) == 2
+    assert not result.extraction.quarantined
+
+    by_predicate = {fact.predicate: fact for fact in result.facts}
+    revenue = by_predicate["revenue_from_services"]
+
+    # Grounding: the stored quote is the document's bytes, not the model's.
+    assert result.doc.text[revenue.evidence.char_start : revenue.evidence.char_end] == (
+        revenue.evidence.quote
+    )
+    # F1: the magnitude was in the page and not in `raw`, and it was recovered.
+    assert revenue.quantity.scale == "million"
+    assert revenue.quantity.normalized == 81415.38e6
+    assert "scale_recovered_from_source" in revenue.flags
+    # ...and a figure with no magnitude behind it does not acquire one.
+    assert by_predicate["active_customers"].quantity.scale is None
+
+
+def test_ingest_infers_the_fiscal_basis_and_keeps_the_evidence(tmp_path):
+    from concord.pipeline import ingest
+
+    path = synthetic_pdf(tmp_path / "acme.pdf")
+    result = ingest(path, Extractor([
+        emitted("Revenue from services 81,415.38 million", "revenue_from_services", "81,415.38"),
+    ]))
+
+    assert result.fy_end_month == 3
+    assert sum(result.fy_evidence.values()) >= 1
+
+
+def test_ingest_inherits_the_consolidation_basis_from_the_statement(tmp_path):
+    """F18, end to end: the one qualifier that matters most in a financial
+    document reaches the fact from the page rather than from the sentence."""
+    from concord.pipeline import ingest
+
+    path = synthetic_pdf(tmp_path / "acme.pdf")
+    result = ingest(path, Extractor([
+        emitted("Revenue from services 81,415.38 million", "revenue_from_services", "81,415.38"),
+    ]))
+
+    basis = result.facts[0].qualifier("consolidation")
+    assert basis.value == "consolidated"
+    assert basis.provenance == "inherited"
+
+
+def test_an_invented_quote_never_reaches_the_ledger(tmp_path):
+    from concord.pipeline import ingest
+
+    path = synthetic_pdf(tmp_path / "acme.pdf")
+    result = ingest(path, Extractor([
+        emitted("Revenue from services 99,999.99 million", "revenue_from_services", "99,999.99"),
+    ]))
+
+    assert result.facts == []
+    assert len(result.extraction.quarantined) == 1
+    assert result.extraction.quarantine_rate == 1.0

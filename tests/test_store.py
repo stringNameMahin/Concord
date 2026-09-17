@@ -5,12 +5,16 @@ plausible and stop being true. So the test that matters here is not "does a row
 come back" but "does the engine reach the same conclusions after a round-trip".
 """
 
+from pathlib import Path
+
 import pytest
 from factories import make_fact
 
 from concord.compare.engine import compare
 from concord.store import repo
 from concord.store.db import connect
+
+ROOT = Path(__file__).resolve().parent.parent
 
 
 @pytest.fixture
@@ -212,3 +216,64 @@ def test_re_extracting_a_document_drops_its_stale_vectors(conn):
     repo.save_embeddings(conn, {"f_1": np.zeros(3, dtype="float32")}, model="m")
     repo.save_facts(conn, [make_fact(fact_id="f_1")], "d1")
     assert repo.load_embeddings(conn, model="m") == {}
+
+
+# --- a quarantined row keeps its id across processes ------------------------
+
+def test_a_quarantine_id_does_not_move_between_processes():
+    """F15, as its own reproduction rather than as a restatement of the code.
+
+    The id was `abs(hash(quote))`, and Python randomises string hashing per
+    interpreter, so the same unlocated quote got a different id in every run:
+    three processes, three ids. `save_quarantine` writes `INSERT OR REPLACE`
+    as though the id were stable, and `/evidence/{id}` hands a reviewer a link
+    that breaks on the next ingest.
+    """
+    import os
+    import subprocess
+    import sys
+
+    script = (
+        "from concord.store.repo import quarantine_id;"
+        "print(quarantine_id('d1', 3, 'a quote that never located'))"
+    )
+    ids = set()
+    for seed in ("1", "12345"):
+        env = {**os.environ, "PYTHONHASHSEED": seed, "PYTHONPATH": str(ROOT)}
+        out = subprocess.run(
+            [sys.executable, "-c", script], capture_output=True, text=True, env=env, check=True
+        )
+        ids.add(out.stdout.strip())
+    assert len(ids) == 1
+    assert ids.pop().startswith("q_d1_3_")
+
+
+def test_a_quarantined_row_keeps_its_id_when_the_document_is_re_ingested(conn):
+    """The link in the quarantine bin has to survive the next upload."""
+    run = _run_with_quarantine("a quote that never located")
+    store(conn, [make_fact(fact_id="f_1")])
+    repo.save_quarantine(conn, run, "d1")
+    first = [row["fact_id"] for row in conn.execute(
+        "SELECT fact_id FROM facts WHERE align_status = 'unlocated'"
+    )]
+
+    repo.save_quarantine(conn, run, "d1")
+    again = [row["fact_id"] for row in conn.execute(
+        "SELECT fact_id FROM facts WHERE align_status = 'unlocated'"
+    )]
+    assert first == again and len(again) == 1
+
+
+def _run_with_quarantine(quote):
+    from types import SimpleNamespace
+
+    fact = SimpleNamespace(
+        claim_text="a claim",
+        subject_surface="Acme",
+        predicate="revenue",
+        value=SimpleNamespace(raw="1", kind="quantity"),
+        quote=quote,
+        confidence=0.5,
+    )
+    chunk = SimpleNamespace(index=3, pages=[1])
+    return SimpleNamespace(quarantined=[SimpleNamespace(fact=fact, chunk=chunk)])

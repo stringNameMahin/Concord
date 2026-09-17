@@ -203,11 +203,18 @@ async def ingest_document(file: UploadFile, adjudicate_residue: bool = Query(Tru
         # has already answered keeps that answer and never reaches the queue.
         carried = carry_forward(run, prior)
         adjudication = None
+        adjudication_error = None
         if adjudicate_residue and run.llm_queue:
             try:
                 adjudication = adjudicate(run.llm_queue, everything, client)
-            except Exception:
-                adjudication = None  # deterministic verdicts stand on their own
+            except Exception as exc:
+                # The deterministic verdicts stand on their own, so this is not
+                # fatal - but it used to be invisible, and a silently skipped
+                # adjudication leaves `contradicts` rows that were meant to be
+                # judged in both orders and never were. Extraction failure is
+                # answered with a 503 that says what to do; this leg said
+                # nothing at all.
+                adjudication_error = f"{type(exc).__name__}: {exc}"
         repo.save_relations(conn, run.relations, replace=True)
 
         payload = {
@@ -250,10 +257,17 @@ async def ingest_document(file: UploadFile, adjudicate_residue: bool = Query(Tru
         }
         if adjudication:
             payload["adjudication"] = {
+                "pairs": adjudication.pairs,
                 "calls": adjudication.calls,
                 "self_consistency_rate": round(adjudication.self_consistency_rate, 4),
                 "rejection_rate": round(adjudication.rejection_rate, 4),
                 "unadjudicated": adjudication.unadjudicated,
+            }
+        elif adjudication_error:
+            payload["adjudication"] = {
+                "error": adjudication_error,
+                "pairs": len(run.llm_queue),
+                "unadjudicated": len(run.llm_queue),
             }
         return payload
 
@@ -433,24 +447,43 @@ def stats():
                 "SELECT verdict, COUNT(*) AS n FROM relations GROUP BY verdict"
             )
         }
-        by_document = [
-            dict(row)
-            for row in conn.execute(
-                """SELECT d.doc_id, d.filename, d.n_pages,
-                          (SELECT COUNT(*) FROM facts f
-                            WHERE f.doc_id = d.doc_id
-                              AND f.align_status != 'unlocated') AS facts,
-                          (SELECT COUNT(*) FROM facts f
-                            WHERE f.doc_id = d.doc_id
-                              AND f.align_status = 'unlocated') AS quarantined
-                     FROM documents d ORDER BY d.doc_id"""
-            )
-        ]
+        by_document = []
+        for row in conn.execute(
+            """SELECT d.doc_id, d.filename, d.n_pages, d.doc_context,
+                      (SELECT COUNT(*) FROM facts f
+                        WHERE f.doc_id = d.doc_id
+                          AND f.align_status != 'unlocated') AS facts,
+                      (SELECT COUNT(*) FROM facts f
+                        WHERE f.doc_id = d.doc_id
+                          AND f.align_status = 'unlocated') AS quarantined
+                 FROM documents d ORDER BY d.doc_id"""
+        ):
+            entry = {key: row[key] for key in row.keys() if key != "doc_context"}
+            context = json.loads(row["doc_context"] or "{}") or {}
+            # The fiscal basis silently decides what every FY label in the
+            # document means, so it is shown beside the document rather than
+            # left implicit in the intervals it produced.
+            entry["fiscal_year_end_month"] = context.get("fy_end_month")
+            entry["fiscal_year_end_evidence"] = context.get("fy_evidence") or {}
+            entry["extraction"] = context.get("extraction") or {}
+            by_document.append(entry)
         total = base["facts"] + base["quarantined"]
+        # Two rates over two populations, and they are only reconcilable
+        # because both are now reported. The ledger rate is measured after
+        # `dedupe` collapses facts sharing a span and predicate; the extraction
+        # rate is measured before it, on the run itself. They differ by exactly
+        # the number of duplicates collapsed, which used to be knowable only
+        # from an `/ingest` response nobody kept.
+        extraction = repo.extraction_totals(conn)
+        extracted = extraction["grounded"] + extraction["quarantined"]
+        extraction["quarantine_rate"] = (
+            round(extraction["quarantined"] / extracted, 4) if extracted else 0.0
+        )
         return {
             **base,
             "quarantine_rate": round(base["quarantined"] / total, 4) if total else 0.0,
             "verdicts": verdicts,
+            "extraction": extraction,
             "by_document": by_document,
         }
 

@@ -15,6 +15,7 @@ Phase 7 append a fourth document without rebuilding the first three.
 
 from __future__ import annotations
 
+import hashlib
 import json
 from dataclasses import asdict
 from datetime import datetime, timezone
@@ -86,6 +87,36 @@ def document_id_for_hash(conn: Connection, sha256: str) -> str | None:
     return row["doc_id"] if row else None
 
 
+def document_context(ingested) -> dict:
+    """Everything about a run that only its own process ever knew.
+
+    Three things used to die with the HTTP response. The **fiscal basis
+    evidence**: the basis itself was stored, the count of sentences behind it
+    was not, so a reader could see March but not whether sixty-two sentences
+    said so or one did. The **extraction counters**: `extracted`, `requests`,
+    `failed_batches` and `duplicates_collapsed` existed only in the `/ingest`
+    payload, which meant the extracted-to-grounded leg could not be checked
+    from the shipped artifacts at all, and the two quarantine rates the system
+    reports could not be reconciled with each other.
+
+    None of it is expensive to keep. All of it is needed to audit a ledger
+    somebody else built.
+    """
+    run = ingested.extraction
+    return {
+        "fy_end_month": ingested.fy_end_month,
+        "fy_evidence": {str(month): count for month, count in sorted(ingested.fy_evidence.items())},
+        "extraction": {
+            "extracted": run.total,
+            "grounded": len(run.grounded),
+            "quarantined": len(run.quarantined),
+            "duplicates_collapsed": ingested.duplicates,
+            "requests": run.requests,
+            "failed_batches": run.failed_batches,
+        },
+    }
+
+
 def save_document(conn: Connection, ingested, doc_id: str | None = None) -> str:
     """Persist the document row and write its canonical text beside it.
 
@@ -126,7 +157,7 @@ def save_document(conn: Connection, ingested, doc_id: str | None = None) -> str:
             ingested.doc.parser,
             ingested.doc.parser_version,
             str(path),
-            json.dumps({"fy_end_month": ingested.fy_end_month}),
+            json.dumps(document_context(ingested)),
             "ingested",
             _now(),
         ),
@@ -175,6 +206,21 @@ def save_facts(conn: Connection, facts: list[Fact], doc_id: str) -> int:
     return len(facts)
 
 
+def quarantine_id(doc_id: str, chunk_index: int, quote: str) -> str:
+    """A stable id for a row whose quote never located.
+
+    This used to be `abs(hash(quote))`, and Python randomises string hashing
+    per process, so the same unlocated quote got a different id in every
+    interpreter: three runs, three ids. `save_quarantine` writes
+    `INSERT OR REPLACE` as though the id were stable, and `/evidence/{id}`
+    hands a reviewer a link that breaks on the next ingest. Content-addressed
+    the same way `make_fact_id` is, because the module's own docstring already
+    promises that.
+    """
+    digest = hashlib.sha1(quote.encode("utf-8")).hexdigest()
+    return f"q_{doc_id}_{chunk_index}_{digest[:10]}"
+
+
 def save_quarantine(conn: Connection, run, doc_id: str) -> int:
     """Store facts whose quote could not be located.
 
@@ -187,7 +233,7 @@ def save_quarantine(conn: Connection, run, doc_id: str) -> int:
         fact = record.fact
         rows.append(
             (
-                f"q_{doc_id}_{record.chunk.index}_{abs(hash(fact.quote)) % 10**10}",
+                quarantine_id(doc_id, record.chunk.index, fact.quote),
                 doc_id,
                 fact.claim_text,
                 fact.subject_surface,
@@ -521,6 +567,23 @@ def document_text(conn: Connection, doc_id: str) -> str:
     if row is None:
         raise KeyError(doc_id)
     return Path(row["text_path"]).read_text(encoding="utf-8")
+
+
+def extraction_totals(conn: Connection) -> dict[str, int]:
+    """Sum the stored per-document extraction counters across the ledger."""
+    totals = {
+        "extracted": 0,
+        "grounded": 0,
+        "quarantined": 0,
+        "duplicates_collapsed": 0,
+        "requests": 0,
+        "failed_batches": 0,
+    }
+    for row in conn.execute("SELECT doc_context FROM documents"):
+        counters = (json.loads(row["doc_context"] or "{}") or {}).get("extraction") or {}
+        for key in totals:
+            totals[key] += int(counters.get(key) or 0)
+    return totals
 
 
 def counts(conn: Connection) -> dict[str, int]:

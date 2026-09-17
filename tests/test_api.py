@@ -369,3 +369,185 @@ def test_the_page_never_keys_an_element_id_on_a_fact_id(client):
     assert 'id="ev-' not in page
     assert 'showEvidence(\'${f.fact_id}\', this)' in page
     assert 'btn.closest(".side, .card").querySelector(".evidence")' in page
+
+
+# --- the successful upload path --------------------------------------------
+#
+# Every `/ingest` test until now monkeypatched `ingest` away and asserted on a
+# failure, so the endpoint's whole body - storage, the registry, comparison,
+# adjudication and the payload - was never executed by the suite. That is what
+# let the fiscal-basis fields ship untested and the two stubs drift out of
+# sync with the real contract.
+
+class Model:
+    """One fake model behind all three call sites, answering by schema.
+
+    Extraction, the alias question and the judge share a client, so a double
+    that only knows about one of them fails in the middle of the endpoint
+    rather than at the seam under test.
+    """
+
+    def __init__(self, facts=(), same=False, verdict="reconciled_by_context"):
+        self.facts, self.same, self.verdict = list(facts), same, verdict
+        self.calls = 0
+
+    def complete(self, prompt, schema, system=None, temperature=0.0):
+        from concord.compare.judge import VerdictOut
+        from concord.extract.models import ExtractionOut
+        from concord.registry import AliasAnswer
+
+        self.calls += 1
+        if schema is ExtractionOut:
+            return ExtractionOut(facts=[build() for build in self.facts])
+        if schema is AliasAnswer:
+            return AliasAnswer(same_relation=self.same, reason="a test double")
+        if schema is VerdictOut:
+            return VerdictOut(
+                verdict=self.verdict,
+                qualifier_key="period",
+                explanation="The two figures are stated for different periods.",
+                confidence=0.9,
+            )
+        raise AssertionError(f"unexpected schema {schema!r}")
+
+
+class Words:
+    """A fixed-width encoder, so the endpoint never loads torch in a test."""
+
+    def encode(self, texts):
+        import numpy as np
+
+        from concord.compare.embed import unit_rows
+
+        matrix = np.zeros((len(texts), 32), dtype=np.float32)
+        for row, text in enumerate(texts):
+            for word in text.lower().split():
+                matrix[row, hash(word) % 32] += 1.0
+        return unit_rows(matrix)
+
+
+@pytest.fixture
+def uploaded(client, monkeypatch, tmp_path):
+    """POST one synthetic PDF through the real endpoint and return the payload."""
+    from test_pipeline import emitted, synthetic_pdf
+
+    import concord.api.app as app_module
+
+    model = Model(facts=[
+        emitted("Revenue from services 81,415.38 million", "revenue_from_services",
+                "81,415.38"),
+        emitted("Active customers stood at 33,200", "active_customers", "33,200"),
+    ])
+    monkeypatch.setattr(app_module, "LLMClient", lambda *a, **k: model)
+    monkeypatch.setattr(app_module, "encoder", lambda: Words())
+
+    pdf = synthetic_pdf(tmp_path / "acme.pdf")
+    response = client.post(
+        "/ingest", files={"file": ("acme.pdf", pdf.read_bytes(), "application/pdf")}
+    )
+    assert response.status_code == 200, response.text
+    return response.json(), model
+
+
+def test_a_successful_upload_returns_facts_and_stores_them(uploaded, client):
+    payload, _ = uploaded
+    assert payload["doc_id"] == "acme"
+    assert payload["facts"] == 2
+    assert payload["quarantined"] == 0
+    assert payload["failed_batches"] == 0
+
+    stored = client.get("/facts", params={"doc_id": "acme"}).json()
+    assert stored["total"] == 2
+    predicates = {fact["predicate"] for fact in stored["facts"]}
+    assert predicates == {"revenue_from_services", "active_customers"}
+
+
+def test_the_upload_reports_the_fiscal_basis_it_inferred(uploaded):
+    """F27: the basis silently decides what every FY label in the document
+    means, and nothing asserted it was reported at all."""
+    payload, _ = uploaded
+    assert payload["fiscal_year_end_month"] == 3
+    assert sum(payload["fiscal_year_end_evidence"].values()) >= 1
+
+
+def test_the_fiscal_basis_survives_into_the_ledger(uploaded, client):
+    """It used to live for exactly one HTTP response. A reviewer browsing the
+    committed ledger could not see it, which is where it matters most."""
+    entry = next(
+        row for row in client.get("/stats").json()["by_document"]
+        if row["doc_id"] == "acme"
+    )
+    assert entry["fiscal_year_end_month"] == 3
+    assert sum(entry["fiscal_year_end_evidence"].values()) >= 1
+
+
+def test_the_extraction_counters_survive_into_the_ledger(uploaded, client):
+    """F26: the extracted-to-grounded leg could not be checked from the
+    shipped artifacts, because only the `/ingest` response ever knew it."""
+    stats = client.get("/stats").json()
+    extraction = stats["extraction"]
+    assert extraction["extracted"] == extraction["grounded"] + extraction["quarantined"]
+    assert extraction["requests"] >= 1
+    assert "quarantine_rate" in extraction
+
+    # The two rates are over two populations - before `dedupe` and after it -
+    # and they differ by exactly the duplicates collapsed. That was only
+    # assertable once the extraction leg was persisted.
+    acme = next(
+        row for row in stats["by_document"] if row["doc_id"] == "acme"
+    )
+    assert acme["extraction"]["grounded"] - acme["facts"] == (
+        acme["extraction"]["duplicates_collapsed"]
+    )
+
+
+def test_an_adjudication_failure_is_reported_rather_than_swallowed(
+    client, monkeypatch, tmp_path
+):
+    """F16. The deterministic verdicts stand, but a skipped adjudication left
+    no trace anywhere - not in the payload, not in the UI, not in the row."""
+    from test_pipeline import emitted, synthetic_pdf
+
+    import concord.api.app as app_module
+
+    model = Model(facts=[
+        emitted("Revenue from services 81,415.38 million", "revenue_from_services",
+                "81,415.38"),
+    ])
+    monkeypatch.setattr(app_module, "LLMClient", lambda *a, **k: model)
+    monkeypatch.setattr(app_module, "encoder", lambda: Words())
+
+    def explode(*_args, **_kwargs):
+        raise RuntimeError("the judge is unreachable")
+
+    monkeypatch.setattr(app_module, "adjudicate", explode)
+    monkeypatch.setattr(app_module, "compare", _always_referring(app_module.compare))
+
+    pdf = synthetic_pdf(tmp_path / "acme.pdf")
+    payload = client.post(
+        "/ingest", files={"file": ("acme.pdf", pdf.read_bytes(), "application/pdf")}
+    ).json()
+
+    assert "the judge is unreachable" in payload["adjudication"]["error"]
+    assert payload["adjudication"]["unadjudicated"] == payload["llm_pairs"] > 0
+
+
+def _always_referring(real):
+    """Force one pair into the residue so the failure path has work to fail on."""
+
+    def wrapped(*args, **kwargs):
+        run = real(*args, **kwargs)
+        for relation in run.relations[:1]:
+            relation.needs_llm = True
+        return run
+
+    return wrapped
+
+
+def test_the_upload_line_shows_what_went_wrong(client):
+    """The UI half of the same finding: a 200 that hid a failed batch or a
+    skipped adjudication was indistinguishable from a clean run."""
+    page = client.get("/").text
+    assert "failed_batches" in page
+    assert "adjudication failed" in page
+    assert "fiscal year ends" in page

@@ -308,12 +308,33 @@ async function upload(f) {
   const body = new FormData(); body.append("file", f);
   try {
     const r = await api("/ingest", { method: "POST", body });
+    // Everything that went wrong is reported here too. A run that lost some of
+    // its extraction batches, or could not reach a model to adjudicate the
+    // residue, still returns 200 with real facts in it - so if this line does
+    // not say so, nothing does.
+    const months = ["", "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"];
+    const fy = r.fiscal_year_end_month
+      ? `| fiscal year ends ${months[r.fiscal_year_end_month]}
+         (${Object.values(r.fiscal_year_end_evidence || {}).reduce((a, b) => a + b, 0)} statements)`
+      : "";
+    const failed = r.failed_batches
+      ? `<span class="bad">${r.failed_batches} extraction batch(es) failed</span> |` : "";
+    const adj = r.adjudication
+      ? (r.adjudication.error
+          ? `<span class="bad">adjudication failed: ${esc(r.adjudication.error)} -
+             ${r.adjudication.unadjudicated} pair(s) keep their deterministic verdict</span>`
+          : `| ${r.adjudication.calls} adjudication calls,
+             ${r.adjudication.unadjudicated} unadjudicated`)
+      : "";
     msg.innerHTML = `<b>${esc(r.doc_id)}</b>: ${r.facts} facts from ${r.chunks} chunks over ${r.pages} pages
-      | ${r.quarantined} quarantined | ${r.requests} LLM requests |
+      | ${r.quarantined} quarantined | ${failed} ${r.requests} LLM requests ${fy} |
       ${r.blocking.candidates} candidate pairs from ${r.blocking.theoretical_pairs}
-      (${(r.blocking.reduction * 100).toFixed(2)}% reduction) | ${r.llm_pairs} pairs needed a model
+      (${(r.blocking.reduction * 100).toFixed(2)}% reduction) | ${r.llm_pairs} pairs needed a model,
+      ${r.carried_forward} already answered
       ${r.schema ? `| schema: ${r.schema.new_predicates} new predicates,
-      ${r.schema.aliases_confirmed} aliased (${r.schema.predicates_known} known)` : ""}`;
+      ${r.schema.aliases_confirmed} aliased (${r.schema.predicates_known} known)` : ""}
+      ${adj}`;
     await stats(); await render();
   } catch (e) { msg.innerHTML = `<span class="bad">${esc(e.message)}</span>`; }
 }
