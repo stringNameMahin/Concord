@@ -5,7 +5,9 @@ import pytest
 from concord.normalize.numbers import (
     NotANumber,
     intervals_overlap,
+    overlap_rests_on_imprecision,
     parse_quantity,
+    written_digits,
 )
 
 
@@ -370,3 +372,71 @@ def test_the_figures_own_tail_still_wins_a_real_disagreement():
 def test_a_lakh_with_no_compound_in_context_is_still_a_lakh():
     assert parse_quantity("2.8 lakh").normalized == 2.8e5
     assert parse_quantity("2.8 lakh", default_scale="million").normalized == 2.8e5
+
+
+# --- a figure written to one digit is a magnitude, not a quantity -----------
+
+@pytest.mark.parametrize(
+    "raw,expected",
+    [
+        ("1", 1),
+        ("8", 1),
+        ("0.5", 1),
+        ("1.0", 2),
+        ("20", 2),
+        ("740", 3),
+        ("8,142", 4),
+        ("81,415.38", 7),
+        ("0", 1),
+        ("no digits here", 0),
+    ],
+)
+def test_written_digits_counts_what_the_figure_committed_to(raw, expected):
+    assert written_digits(raw) == expected
+
+
+def test_an_overlap_only_a_single_digit_figure_produces_is_named():
+    """One decade-wide figure swallowing a precise one is not agreement.
+
+    `1 billion` spans [5e8, 1.5e9], so it overlaps most of its decade. The
+    guard returns the coarse figure rather than a boolean, so the explanation
+    can quote the interval that is doing the work.
+    """
+    coarse = parse_quantity("1 billion")
+    fine = parse_quantity("740 million")
+    assert intervals_overlap(coarse.interval, fine.interval)
+    assert overlap_rests_on_imprecision(coarse, fine) is coarse
+    assert overlap_rests_on_imprecision(fine, coarse) is coarse
+
+
+def test_a_cross_scale_restatement_still_stands_on_its_own():
+    """The flagship pair: four written digits against seven, and the gap is
+    larger than the precise side alone allows - but four digits is a real
+    commitment, so the overlap is evidence."""
+    crore = parse_quantity("8,142 Cr")
+    million = parse_quantity("81,415.38 mn")
+    assert intervals_overlap(crore.interval, million.interval)
+    assert overlap_rests_on_imprecision(crore, million) is None
+
+
+def test_two_identical_single_digit_figures_are_not_imprecise_agreement():
+    """Both sides say 8. There is no gap for the width to be carrying."""
+    assert overlap_rests_on_imprecision(parse_quantity("8"), parse_quantity("8")) is None
+
+
+def test_the_guard_only_bites_where_the_values_actually_differ():
+    """`5` against `5.00` is one figure written twice, whatever its precision.
+
+    Where the values do differ, a single-digit figure cannot supply the
+    overlap on its own - the gap is always wider than the precise side's own
+    interval, because that is what a single digit means.
+    """
+    assert overlap_rests_on_imprecision(parse_quantity("5"), parse_quantity("5.00")) is None
+    assert overlap_rests_on_imprecision(parse_quantity("5"), parse_quantity("5.2")) is not None
+
+
+def test_a_half_open_interval_is_left_alone():
+    """A bounded figure has no width to compare, so the guard abstains."""
+    assert overlap_rests_on_imprecision(
+        parse_quantity("over 1 billion"), parse_quantity("740 million")
+    ) is None

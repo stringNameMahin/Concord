@@ -12,6 +12,8 @@ value conflicts, and only that residue is worth an LLM call.
     keys match, facts are two categories of one            unrelated
       distribution                                           (complementary)
     keys match, bags compatible, intervals overlap         corroborates
+    keys match, intervals overlap only because one figure   insufficient_context
+      is written to a single digit                            (imprecise)
     keys match, discriminating qualifier differs, values   unrelated
       agree                                                  (different conditions)
     keys match, values disagree, discriminating qualifier   insufficient_context
@@ -40,6 +42,12 @@ Precision-interval comparison - values are never compared as points. Each
 figure carries the interval implied by the digits it committed to, and overlap
 decides agreement. That is what lets `8,142 Cr` corroborate `81,415.38 mn`
 without a tolerance constant anyone has to defend.
+
+Single-digit guard - the same rule degenerates at one written digit. `1
+billion` spans half its own value either way, so it overlaps most of its
+decade, and an overlap the coarse figure alone produces is consistency rather
+than confirmation. Those pairs abstain and say which figure is carrying the
+overlap. See `overlap_rests_on_imprecision`.
 
 `DISCRIMINATING` is an allowlist, and it binds in exactly one branch. The
 qualifier bag is an open vocabulary: on the starter corpus the extractor coined
@@ -76,7 +84,7 @@ from concord.facts import (
     comparison_keys_match,
     key_matches,
 )
-from concord.normalize.numbers import intervals_overlap
+from concord.normalize.numbers import intervals_overlap, overlap_rests_on_imprecision
 from concord.normalize.periods import bare_date, same_interval, years_compatible
 
 VERDICTS = (
@@ -348,6 +356,28 @@ def decide(
                     "states of affairs rather than confirming one another."
                 ),
                 qualifier_key=proven[0],
+            )
+
+        # An overlap that exists only because one figure is written to a
+        # single digit is consistency, not confirmation. See
+        # `overlap_rests_on_imprecision`.
+        coarse = (
+            overlap_rests_on_imprecision(a.quantity, b.quantity)
+            if a.quantity is not None and b.quantity is not None
+            else None
+        )
+        if coarse is not None:
+            return Decision(
+                verdict="insufficient_context",
+                rule_fired="agreement_rests_on_imprecision",
+                explanation=(
+                    f"The intervals overlap ({evidence}), but only because {coarse.raw!r} is "
+                    f"written to a single digit and so stands for anything in "
+                    f"[{coarse.interval[0]:.6g}, {coarse.interval[1]:.6g}]. Read at the "
+                    "precision the other figure commits to, the two do not meet, so the "
+                    "overlap is not evidence that the documents agree."
+                ),
+                missing_keys=missing_keys,
             )
 
         note = ""

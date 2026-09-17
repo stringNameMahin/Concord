@@ -625,3 +625,49 @@ def test_two_genuinely_different_currencies_are_still_refused():
     assert decision.verdict == "insufficient_context"
     assert decision.rule_fired == "incomparable_values"
     assert "INR and USD" in decision.explanation
+
+
+# --- the single-digit guard on the agreement branch -------------------------
+
+def test_an_overlap_a_single_digit_figure_produces_is_not_corroboration():
+    """F28: a lifetime cumulative total is not confirmation of one year's.
+
+    `1 billion` spans [5e8, 1.5e9] - half its own value either way - so it
+    overlaps most of its decade. Two facts under one predicate, one of them
+    written to a single digit, used to come back `corroborates` purely on that
+    width.
+    """
+    cumulative = make_fact(raw="1 billion", predicate="parcels_delivered")
+    annual = make_fact(raw="740 million", predicate="parcels_delivered")
+    decision = decide(cumulative, annual)
+    assert decision.verdict == "insufficient_context"
+    assert decision.rule_fired == "agreement_rests_on_imprecision"
+    assert "'1 billion'" in decision.explanation
+    assert not decision.needs_llm
+
+
+def test_the_cross_scale_corroboration_survives_the_single_digit_guard():
+    """The headline pair is four written digits against seven. The guard has
+    to leave it alone or it has taken the system's best answer with it."""
+    crore = make_fact(raw="8,142 Cr", predicate="revenue_from_services", period="FY24")
+    million = make_fact(raw="81,415.38 mn", predicate="revenue_from_services", period="FY24")
+    assert decide(crore, million).verdict == "corroborates"
+
+
+def test_two_identical_single_digit_figures_still_corroborate():
+    """Counts are written to one digit all the time. The guard fires on the
+    width carrying a gap, not on a figure being short."""
+    a = make_fact(raw="8", predicate="board_meetings_held", period="FY24")
+    b = make_fact(raw="8", predicate="board_meetings_held", period="FY24")
+    assert decide(a, b).verdict == "corroborates"
+
+
+def test_a_differing_condition_still_wins_over_the_single_digit_guard():
+    """The values-agree branch decides `unrelated` first: two facts holding
+    under different recognised conditions are separate states of affairs, and
+    saying so is more informative than abstaining on precision."""
+    a = make_fact(raw="1 billion", predicate="parcels_delivered", period="FY24")
+    b = make_fact(raw="740 million", predicate="parcels_delivered", period="FY23")
+    decision = decide(a, b)
+    assert decision.verdict == "unrelated"
+    assert decision.rule_fired == "context_differs_values_agree"

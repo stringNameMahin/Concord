@@ -472,6 +472,61 @@ def precision_interval(
     return (normalized - half, normalized + half)
 
 
+def written_digits(raw: str) -> int:
+    """How many digits the figure actually committed to.
+
+    Leading zeros are not a commitment and the decimal point is not a digit, so
+    `0.5` commits to one and `1.0` to two. This is the precision the interval
+    rule already uses, counted rather than applied: a figure of one digit
+    stands for anything within half its own leading digit, which is a band of
+    5% at best and 50% at worst.
+    """
+    match = NUMBER.search(raw or "")
+    if match is None:
+        return 0
+    digits = _strip_grouping(match.group()).replace(".", "").lstrip("0")
+    return len(digits) or 1
+
+
+def overlap_rests_on_imprecision(left: Quantity, right: Quantity) -> Quantity | None:
+    """The figure whose own coarseness is the only reason these two overlap.
+
+    A figure written to a single digit is a statement of magnitude rather than
+    of quantity. `1 billion` spans [5e8, 1.5e9] - half its own value either
+    way - so it overlaps almost anything in its decade, and reading that
+    overlap as mutual confirmation turns a lifetime cumulative total into
+    corroboration of one year's volume. Measured on the corpus: cumulative
+    express parcel shipments of `1 billion` against `740 million` delivered in
+    a single year, declared `corroborates`.
+
+    The test is not "is one figure round". It is whether the *other* figure's
+    own precision could account for the gap: if the two would still meet when
+    the coarse one is read as precisely as its neighbour, the agreement is
+    real and the width is incidental. That is what keeps the flagship pair -
+    `8,142 Cr` against `81,415.38 mn`, four written digits against seven -
+    corroborating, while refusing an overlap that exists only because one side
+    committed to a single digit.
+
+    Returns the coarse figure, so the explanation can quote it. `None` means
+    the overlap stands on its own.
+    """
+    if left.normalized == right.normalized:
+        return None
+    for interval in (left.interval, right.interval):
+        if not (math.isfinite(interval[0]) and math.isfinite(interval[1])):
+            return None
+
+    gap = abs(left.normalized - right.normalized)
+    coarse, fine = sorted(
+        (left, right), key=lambda q: q.interval[1] - q.interval[0], reverse=True
+    )
+    if gap < fine.interval[1] - fine.interval[0]:
+        return None  # the precise side alone allows a gap this size
+    if written_digits(coarse.raw) > 1:
+        return None
+    return coarse
+
+
 def intervals_overlap(a: tuple[float, float], b: tuple[float, float]) -> bool:
     """Strict overlap, because a precision interval is half-open.
 
