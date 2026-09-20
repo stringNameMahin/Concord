@@ -37,6 +37,50 @@ def text_path(doc_id: str) -> Path:
     return Path(config.WORK_DIR) / f"{doc_id}.txt"
 
 
+def resolve_text_path(doc_id: str, stored: str | None = None) -> Path:
+    """Where this installation keeps a document's canonical text.
+
+    `documents.text_path` used to be written as an absolute path, so a ledger
+    committed from one checkout pointed every reader at that checkout's
+    directory. `data/work/` ships with the repository, so a clone has the
+    files - it just had no way to find them: nothing in the read path consulted
+    `CONCORD_WORK`, and the stored string is not even a path on a platform
+    whose separator is `/`. `/evidence` and `/verify` answered 500 on every
+    fact, which is the one endpoint the grounding guarantee rests on.
+
+    Worse than the miss was the hit. On a machine that *did* have the original
+    checkout, the stored path resolved - to the other repository's bytes. A
+    reviewer running a clone would have been verifying facts against a
+    directory they had never cloned.
+
+    So this installation's own copy is tried first and the stored value is only
+    a fallback: a ledger read here should be read against the text sitting next
+    to it. The fallback keeps working for a ledger written before this change
+    and for one whose text genuinely lives elsewhere.
+    """
+    local = text_path(doc_id)
+    if local.exists():
+        return local
+
+    if stored:
+        candidate = Path(stored)
+        if candidate.exists():
+            return candidate
+        # Take the base name off either separator - a value written on Windows
+        # is one long filename to `Path` on POSIX - and look for it where this
+        # installation keeps its text.
+        name = stored.replace("\\", "/").rsplit("/", 1)[-1]
+        beside = Path(config.WORK_DIR) / name
+        if beside.exists():
+            return beside
+
+    raise FileNotFoundError(
+        f"no canonical text for document {doc_id!r}: looked in {local} "
+        f"and at the stored path {stored!r}. `data/work/` ships with this "
+        "repository; set CONCORD_WORK if it lives somewhere else."
+    )
+
+
 def _value_json(fact: Fact) -> str:
     """Store the written value alongside the parsed one.
 
@@ -156,7 +200,10 @@ def save_document(conn: Connection, ingested, doc_id: str | None = None) -> str:
             ingested.doc.n_pages,
             ingested.doc.parser,
             ingested.doc.parser_version,
-            str(path),
+            # The file name, not the absolute path it happens to have on this
+            # machine. `resolve_text_path` reads it back against the current
+            # `CONCORD_WORK`, so a ledger stays readable wherever it is cloned.
+            path.name,
             json.dumps(document_context(ingested)),
             "ingested",
             _now(),
@@ -566,7 +613,7 @@ def document_text(conn: Connection, doc_id: str) -> str:
     ).fetchone()
     if row is None:
         raise KeyError(doc_id)
-    return Path(row["text_path"]).read_text(encoding="utf-8")
+    return resolve_text_path(doc_id, row["text_path"]).read_text(encoding="utf-8")
 
 
 def extraction_totals(conn: Connection) -> dict[str, int]:

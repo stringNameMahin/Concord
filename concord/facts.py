@@ -107,6 +107,64 @@ def key_matches(key: str, known: frozenset[str] | tuple[str, ...]) -> bool:
     return False
 
 
+# --- qualifier dimensions ---------------------------------------------------
+#
+# The bag is an open vocabulary and always will be, but an open vocabulary
+# means the same condition arrives under several names. `period`, `as_at`,
+# `as_of`, `time_period`, `financial_year` and `for_the_year_ended` all answer
+# "when does this figure hold?", and the decision table used to diff the bags
+# by literal key name - so two facts that both stated the time, spelled
+# differently, each read as "states a condition the other does not" and the
+# missing-qualifier guard abstained. Measured on the shipped ledger: 18 of 46
+# `missing_qualifier_guard` relations, whose explanations then said one side
+# did not state a period two words away from where it did.
+#
+# A dimension is a set of key spellings that answer one question. Everything
+# not named here is its own dimension, which is exactly today's behaviour, so
+# the coined keys the corpus invents (`service`, `auditor`, `category`) are
+# untouched.
+#
+# Only one dimension is declared, because only one is measurably needed. This
+# is a naming convention - how a document spells "when" - and not knowledge of
+# any subject area, the same commitment `LEGAL_FORMS` and `CONSOLIDATION_WORDS`
+# already make.
+REPORTING_TIME = PERIOD_KEYS + ("as_on", "year", "quarter", "month", "date", "time")
+
+# ...minus the moments that belong to an event inside the claim rather than to
+# the measurement. A contract's effective date and the period a figure covers
+# are two conditions, not two spellings of one, and merging them would be the
+# false merge this whole change is trying not to make. Matched as whole words,
+# so `for_the_year_ended` keeps its place in the dimension while `end_date`
+# leaves it.
+EVENT_TIME = (
+    "effective",
+    "acquisition",
+    "meeting",
+    "target",
+    "start",
+    "end",
+    "maturity",
+    "commencement",
+    "expiry",
+    "vesting",
+    "grant",
+    "inception",
+)
+
+TIME_DIMENSION = "period"
+
+
+def dimension_of(key: str) -> str:
+    """Which question this qualifier key answers.
+
+    Returns the dimension's name, or the key itself when it names a dimension
+    of its own - which is the answer for every key the corpus coins.
+    """
+    if key_matches(key, REPORTING_TIME) and not key_matches(key, EVENT_TIME):
+        return TIME_DIMENSION
+    return key
+
+
 def canonical_predicate(text: str) -> str:
     """Fold a predicate to a comparable form without interpreting it.
 
@@ -319,6 +377,61 @@ def same_entity(left: str, right: str) -> bool:
     if len(right) < len(left):
         left, right = right, left
     return right.startswith(left + " ") and right[len(left) + 1 :] in LEGAL_FORMS
+
+
+# The longest legal form in the table, in words, so the stripper knows how far
+# back to look. Derived rather than restated, so adding a form cannot make the
+# two disagree.
+_LONGEST_LEGAL_FORM = max(len(form.split()) for form in LEGAL_FORMS)
+
+
+def surface_identities(surface: str) -> frozenset[str]:
+    """Every normalised name `same_entity` would accept this surface as.
+
+    `same_entity` is a test over two names; blocking needs the same rule as a
+    *group key*, so that two facts about one entity land in one bucket without
+    comparing every surface against every other. A surface answers to its own
+    normalised form and to that form with one trailing legal form removed - the
+    only latitude `same_entity` allows - so `Delhivery Limited` answers to both
+    `delhivery limited` and `delhivery`, and meets a fact whose surface is just
+    `Delhivery` in the second.
+
+    Every matching trailing run is stripped, not only the longest, because
+    `LEGAL_FORMS` holds `pvt limited` and `limited` both and `same_entity`
+    accepts either reading. Nothing is stripped that would leave the name
+    empty, so a subject that is *only* a legal form keeps it.
+    """
+    normalised = normalize_surface(surface)
+    if not normalised:
+        return frozenset()
+
+    identities = {normalised}
+    words = normalised.split()
+    for size in range(1, min(_LONGEST_LEGAL_FORM, len(words) - 1) + 1):
+        if " ".join(words[-size:]) in LEGAL_FORMS:
+            identities.add(" ".join(words[:-size]))
+    return frozenset(identities)
+
+
+def subject_identities(fact: "Fact") -> frozenset[str]:
+    """The identities a fact answers to, for grouping - never for deciding.
+
+    A hard key is an identity, so a fact that carries one answers to it. It
+    answers to its surface forms as well, because `subjects_match` falls back
+    to the surface whenever *either* side lacks a key - so a fact with a CIN
+    and a fact without one, both naming the same company, have to meet
+    somewhere. They never used to: `comparison_key` is `subject_key or
+    surface`, so the two sat in different buckets and only the semantic block
+    could bring them together.
+
+    This is deliberately a superset of `subjects_match`. Grouping decides what
+    is *compared*; `subjects_match` still decides what is *related*, and throws
+    out the extra pairs this admits.
+    """
+    identities = set(surface_identities(fact.subject_surface))
+    if fact.subject_key:
+        identities.add(fact.subject_key)
+    return frozenset(identities)
 
 
 # Words a document uses to mean "the entity this document is about". They name

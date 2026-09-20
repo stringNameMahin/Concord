@@ -23,6 +23,7 @@ import json
 import pytest
 
 from concord import config
+from concord.compare.block import comparison_key_pairs
 from concord.facts import ANAPHORS, normalize_surface, split_consolidation
 from concord.normalize.numbers import (
     SCALES,
@@ -32,6 +33,7 @@ from concord.normalize.numbers import (
     overlap_rests_on_imprecision,
     scale_after_figure,
 )
+from concord.store import repo
 from concord.store.db import connect
 
 pytestmark = pytest.mark.skipif(
@@ -77,9 +79,11 @@ def test_every_grounded_fact_still_cuts_its_quote_from_source(ledger):
     evidence link is broken, which is the one failure this system cannot survive.
     """
     texts = {}
-    for row in ledger.execute("SELECT doc_id, text_path FROM documents"):
-        with open(row["text_path"], encoding="utf-8") as handle:
-            texts[row["doc_id"]] = handle.read()
+    for row in ledger.execute("SELECT doc_id FROM documents"):
+        # Through the repository, not through the stored path. Reading
+        # `text_path` directly is what made this test pass on the machine that
+        # wrote the ledger and fail on every clone - see `resolve_text_path`.
+        texts[row["doc_id"]] = repo.document_text(ledger, row["doc_id"])
 
     broken = []
     for row in ledger.execute(
@@ -240,3 +244,34 @@ def test_no_subject_is_a_word_that_names_no_entity(ledger):
         if normalize_surface(row["subject_surface"] or "") in ANAPHORS
     ]
     assert orphaned == []
+
+
+def test_every_stored_relation_is_proposed_by_the_exact_block(ledger):
+    """The guarantee that stops relations disappearing as the corpus grows.
+
+    The semantic block is a top-k device, and k is an absolute budget: as facts
+    accumulate, a true pair can be pushed out of both facts' neighbour lists.
+    A whole-corpus run replaces what it no longer keeps, so a relation the
+    ledger held is then deleted - and two were, silently, between one rebuild
+    and the next. Neither was a defect in the pair; both were crowded out.
+
+    The fix was not a larger k. A pair is only stored if its comparison keys
+    match, so once the exact block resolves those keys the way the decision
+    table does - through the registry's aliases and the subject identities
+    `same_entity` accepts - it enumerates every storable pair by construction
+    and has no rank to be crowded out of. This asserts that property over
+    whatever the ledger actually holds: if the exact block ever stops being
+    complete, some stored relation is resting on top-k again and this fails.
+    """
+    facts = repo.load_facts(ledger)
+    if len(facts) < 2:
+        pytest.skip("not enough facts in the ledger to block")
+
+    aliases = repo.load_registry(ledger).aliases()
+    proposed = comparison_key_pairs(facts, aliases)
+    stored = {
+        (row["fact_a"], row["fact_b"])
+        for row in ledger.execute("SELECT fact_a, fact_b FROM relations")
+    }
+    assert stored, "the ledger holds no relations to check"
+    assert stored <= proposed

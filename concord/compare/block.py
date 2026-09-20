@@ -8,9 +8,18 @@ candidate set, by contrast, can never be judged at all.
 
 Three strategies, unioned, each catching what the others miss:
 
-  comparison key  exact, free, catches the majority of true pairs
-  semantic        catches predicate paraphrases the canonicaliser missed
+  comparison key  exact, free, and complete over what the ledger can store
+  semantic        catches predicate paraphrases the registry has not linked
   value-anchored  catches the same number written at different scales
+
+The first is the load-bearing one, and it is worth being precise about why. A
+pair is only ever stored if its comparison keys match, so once this strategy
+resolves the key the way the decision table does - through the predicate
+registry's aliases and through the subject identities `same_entity` accepts -
+it proposes every pair that could become a relation. The other two propose
+pairs the table then rejects. They stay because they cost milliseconds and
+because they are the only recall a *new* vocabulary has before the registry has
+learned it; they are no longer what carries the ledger.
 
 The third is the one that makes cross-scale corroboration land. `Rs 8,142 Cr`
 and `Rs 81,415.38 million` share almost no characters and are only mildly
@@ -25,7 +34,7 @@ import math
 from collections import defaultdict
 from dataclasses import dataclass, field
 
-from concord.facts import Fact
+from concord.facts import Fact, subject_identities
 
 # Bucket width in decades. 0.002 decades is a 0.46% band, so a figure and its
 # rounded restatement land in the same bucket or the neighbouring one; the
@@ -71,16 +80,49 @@ def _same_span(a: Fact, b: Fact) -> bool:
     return a.evidence.span == b.evidence.span
 
 
-def comparison_key_pairs(facts: list[Fact]) -> set[PairKey]:
-    """Group on the exact comparison key and pair within each group."""
-    groups: dict[str, list[Fact]] = defaultdict(list)
+def comparison_key_pairs(
+    facts: list[Fact], aliases: dict[str, str] | None = None
+) -> set[PairKey]:
+    """Group on the comparison key as the decision table reads it, and pair within.
+
+    This used to group on `Fact.comparison_key` verbatim, which is the key as
+    *written* rather than the key as *resolved* - and the decision table
+    resolves it twice over before deciding anything. It asks the predicate
+    registry whether two names are one relation, and it asks `subjects_match`
+    whether two surfaces are one entity up to a trailing legal form. Neither
+    question reached this function, so the one exact, free strategy could not
+    see the equivalences the rest of the system had already established:
+
+      - `revenue_from_operations` and `total_revenue_from_operations`, an alias
+        the registry confirmed, sat in two buckets;
+      - a fact carrying a CIN and a fact carrying only `Delhivery Limited` sat
+        in two buckets, because the written key is `subject_key or surface`;
+      - `Delhivery` and `Delhivery Limited` sat in two buckets.
+
+    Those pairs could then only be found by the semantic block, whose top-k
+    budget is contested by every fact added to the corpus - so a relation the
+    ledger held could be crowded out and, because a whole-corpus run replaces
+    what it no longer keeps, deleted. Two were. Resolving the key here puts
+    them back on a strategy that has no rank budget to be crowded out of.
+
+    A fact is filed under every identity it answers to, so one fact can be in
+    several buckets. That is deliberately a superset of what `subjects_match`
+    accepts: two facts with different hard keys and one surface will meet here
+    and be thrown out there. Blocking decides what is compared; the table
+    decides what is related.
+    """
+    resolve = aliases or {}
+    groups: dict[tuple[str, str], list[Fact]] = defaultdict(list)
     for fact in facts:
-        groups[fact.comparison_key].append(fact)
+        predicate = resolve.get(fact.predicate_canonical, fact.predicate_canonical)
+        for identity in subject_identities(fact):
+            groups[(identity, predicate)].append(fact)
 
     pairs: set[PairKey] = set()
     for group in groups.values():
         for a, b in itertools.combinations(group, 2):
-            pairs.add(pair_key(a, b))
+            if a.fact_id != b.fact_id:
+                pairs.add(pair_key(a, b))
     return pairs
 
 
@@ -205,6 +247,7 @@ def block(
     window: int = BUCKET_WINDOW,
     fresh: frozenset[str] | None = None,
     vectors: dict | None = None,
+    aliases: dict[str, str] | None = None,
 ) -> tuple[dict[PairKey, list[str]], BlockingStats]:
     """Run all three strategies and union them, keeping which one fired.
 
@@ -214,6 +257,12 @@ def block(
     `fresh` restricts the result to pairs touching those fact ids, which is what
     makes an incremental ingest incremental. The theoretical count drops to
     match, so the reduction figure stays honest about the work actually faced.
+
+    `aliases` is the predicate registry's map, and it is what makes the exact
+    strategy complete: a pair can only be stored if its comparison keys match,
+    and with the alias map and the subject identities in hand this strategy
+    enumerates exactly those pairs. The other two are recall insurance over a
+    vocabulary the registry has not linked yet, and cost 3 ms.
     """
     by_id = {fact.fact_id: fact for fact in facts}
     n = len(facts)
@@ -223,7 +272,7 @@ def block(
         stats.theoretical_pairs -= settled * (settled - 1) // 2
 
     produced = {
-        "comparison_key": only_touching(comparison_key_pairs(facts), fresh),
+        "comparison_key": only_touching(comparison_key_pairs(facts, aliases), fresh),
         "value": only_touching(value_pairs(facts, width, window), fresh),
         "semantic": (
             semantic_pairs(facts, encoder, k, fresh, vectors)

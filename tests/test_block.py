@@ -1,6 +1,8 @@
 """Blocking: does the candidate set contain the pairs that matter, and how
 much of the O(n^2) space did it cost to get them."""
 
+import itertools
+
 import numpy as np
 import pytest
 from factories import make_fact
@@ -13,6 +15,7 @@ from concord.compare.block import (
     semantic_pairs,
     value_pairs,
 )
+from concord.compare.decide import decide
 from concord.compare.embed import top_k, unit_rows
 
 
@@ -326,3 +329,81 @@ def test_the_cache_does_not_change_which_pairs_are_proposed():
     cold = semantic_pairs(facts, CountingEncoder(), k=1)
     semantic_pairs(facts, CountingEncoder(), k=1, vectors=warm)
     assert ids(semantic_pairs(facts, CountingEncoder(), k=1, vectors=warm)) == ids(cold)
+
+
+# --- the exact block reads the key the way the decision table does ---------
+#
+# A pair is only ever stored if its comparison keys match, so once this
+# strategy resolves predicates through the registry's aliases and subjects
+# through the identities `same_entity` accepts, it proposes every pair that
+# could become a relation - and it has no rank budget to be crowded out of.
+
+def test_the_exact_block_follows_a_confirmed_alias():
+    """The registry decided these two names are one relation. Before, the one
+    strategy that costs nothing could not see that decision."""
+    a = make_fact(fact_id="f_a", predicate="revenue_from_operations")
+    b = make_fact(fact_id="f_b", predicate="total_revenue_from_operations", doc="d2")
+    assert comparison_key_pairs([a, b]) == set()
+    aliases = {"total_revenue_from_operations": "revenue_from_operations"}
+    assert comparison_key_pairs([a, b], aliases) == {pair_key(a, b)}
+
+
+def test_the_exact_block_bridges_a_trailing_legal_form():
+    a = make_fact(fact_id="f_a", subject="Acme Logistics")
+    b = make_fact(fact_id="f_b", subject="Acme Logistics Limited", doc="d2")
+    assert comparison_key_pairs([a, b]) == {pair_key(a, b)}
+
+
+def test_a_hard_key_on_one_side_only_still_meets_the_surface():
+    """`comparison_key` is `subject_key or surface`, so a fact that read a CIN
+    out of its sentence and one that did not sat in different buckets - for the
+    same company, in the same document."""
+    a = make_fact(fact_id="f_a", subject="Acme Logistics Limited", subject_key="CIN-1")
+    b = make_fact(fact_id="f_b", subject="Acme Logistics Limited", doc="d2")
+    assert comparison_key_pairs([a, b]) == {pair_key(a, b)}
+
+
+def test_grouping_proposes_what_the_table_then_refuses():
+    """Two hard keys are two entities however alike the names. Blocking may
+    still put them in one bucket; the decision table is where that is settled."""
+    a = make_fact(fact_id="f_a", subject="Acme Logistics Limited", subject_key="CIN-1")
+    b = make_fact(fact_id="f_b", subject="Acme Logistics Limited", subject_key="CIN-2", doc="d2")
+    assert comparison_key_pairs([a, b]) == {pair_key(a, b)}
+    assert decide(a, b).verdict == "unrelated"
+
+
+def test_a_fact_is_never_paired_with_itself_through_two_identities():
+    """One fact is filed under several identities, so it meets itself in a
+    bucket unless the pairing says otherwise."""
+    fact = make_fact(fact_id="f_a", subject="Acme Logistics Limited", subject_key="CIN-1")
+    assert comparison_key_pairs([fact]) == set()
+
+
+def test_the_exact_block_proposes_every_pair_that_could_be_stored():
+    """The guarantee that closes the corpus-size dependence.
+
+    `unrelated` is never stored, and a pair is `unrelated` unless its
+    comparison keys match - so the set of storable pairs is exactly the set
+    this strategy enumerates. Anything the semantic block alone had to find
+    was a pair whose survival depended on a top-k budget that every new
+    document contests, which is how relations went missing.
+    """
+    facts = [
+        make_fact(fact_id="f_a", subject="Acme Logistics", predicate="revenue_from_operations"),
+        make_fact(fact_id="f_b", subject="Acme Logistics Limited",
+                  predicate="total_revenue_from_operations", doc="d2"),
+        make_fact(fact_id="f_c", subject="Acme Logistics Limited", subject_key="CIN-1",
+                  predicate="revenue_from_operations", doc="d3"),
+        make_fact(fact_id="f_d", subject="Borealis Freight", predicate="revenue_from_operations"),
+        make_fact(fact_id="f_e", subject="Acme Logistics", predicate="employee_count"),
+    ]
+    aliases = {"total_revenue_from_operations": "revenue_from_operations"}
+    proposed = comparison_key_pairs(facts, aliases)
+
+    storable = {
+        pair_key(x, y)
+        for x, y in itertools.combinations(facts, 2)
+        if decide(x, y, aliases=aliases).verdict != "unrelated"
+    }
+    assert storable, "the fixture must contain at least one storable pair"
+    assert storable <= proposed

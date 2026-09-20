@@ -100,6 +100,10 @@ def compare(
     candidates, stats = block(
         facts, encoder=encoder, k=k, width=width, window=window, fresh=fresh,
         vectors=vectors,
+        # The same map the decision table resolves predicates with. Without it
+        # the exact strategy cannot see an alias the registry has confirmed,
+        # and the pair falls to the semantic block's top-k budget.
+        aliases=aliases,
     )
 
     # Built over every fact, not over the candidate pairs: a distribution is a

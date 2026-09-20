@@ -18,6 +18,9 @@ value conflicts, and only that residue is worth an LLM call.
       agree                                                  (different conditions)
     keys match, values disagree, discriminating qualifier   insufficient_context
       absent on one side
+    keys match, values disagree, the only condition that    insufficient_context
+      differs is one dimension spelled two ways, neither      (unestablished)
+      of which resolves
     keys match, values disagree, bags differ on a           reconciled_by_context
       discriminating key                                     (LLM writes prose)
     keys match, values disagree, bags equal                 contradicts
@@ -49,6 +52,15 @@ decade, and an overlap the coarse figure alone produces is consistency rather
 than confirmation. Those pairs abstain and say which figure is carrying the
 overlap. See `overlap_rests_on_imprecision`.
 
+Bags are diffed by *dimension*, not by literal key name. An open vocabulary
+spells one condition several ways - `period`, `as_at`, `time_period` and
+`financial_year` all answer "when?" - and comparing the names meant two facts
+that both stated the time each read as stating a condition the other lacked, so
+the missing-qualifier guard abstained and said so in a sentence that was not
+true. `concord.facts.dimension_of` holds the one dimension that is declared and
+the moments deliberately excluded from it; everything else is its own
+dimension, which is what the key-by-key diff already did.
+
 `DISCRIMINATING` is an allowlist, and it binds in exactly one branch. The
 qualifier bag is an open vocabulary: on the starter corpus the extractor coined
 `service`, `category`, `condition` and `auditor`, none of which any fixed list
@@ -78,10 +90,11 @@ from dataclasses import dataclass, field
 
 from concord.compare.partition import PartitionIndex
 from concord.facts import (
-    PERIOD_KEYS,
+    TIME_DIMENSION,
     Fact,
     Qualifier,
     comparison_keys_match,
+    dimension_of,
     key_matches,
 )
 from concord.normalize.numbers import intervals_overlap, overlap_rests_on_imprecision
@@ -166,6 +179,20 @@ class ContextDiff:
     agreeing: list[str] = field(default_factory=list)
     known_conflicting: list[str] = field(default_factory=list)
     unreadable: list[str] = field(default_factory=list)
+    # Conditions that differ only in the sense that the two documents reached
+    # for different key names *and* neither label resolves, so nothing about
+    # the values was established. Comparing dimensions rather than key names
+    # created this case: `period="year ended March 31, 2026"` against
+    # `date="March 31, 2026"` is one moment written twice, and before the
+    # dimensions met, the pair abstained because each key was missing from the
+    # other side. It must not now be reconciled *by* that difference.
+    unestablished: list[str] = field(default_factory=list)
+    # How each compared condition is spelled on the two sides. Entries are
+    # keyed by the left-hand spelling, which is what the lists above carry, so
+    # everything reading them keeps working; this is what lets an explanation
+    # quote the right value when the two documents named one condition two
+    # ways. See `concord.facts.dimension_of`.
+    spellings: dict[str, tuple[str, str]] = field(default_factory=dict)
 
     @property
     def compatible(self) -> bool:
@@ -175,6 +202,22 @@ class ContextDiff:
     def proven_conflicting(self) -> list[str]:
         """Recognised conditions we established differ, rather than assumed."""
         return [key for key in self.known_conflicting if key not in self.unreadable]
+
+    def spelled(self, key: str) -> tuple[str, str]:
+        return self.spellings.get(key, (key, key))
+
+    def sides(self, a: Fact, b: Fact, key: str) -> tuple[Qualifier, Qualifier]:
+        """The two qualifiers behind one entry, under each side's own name."""
+        left, right = self.spelled(key)
+        return a.qualifier(left), b.qualifier(right)
+
+    def name(self, key: str) -> str:
+        """The condition as a reader should see it, both spellings if they differ."""
+        left, right = self.spelled(key)
+        return left if left == right else f"{left}/{right}"
+
+    def names(self, keys) -> str:
+        return ", ".join(self.name(key) for key in keys)
 
 
 def _normalize_text(value: str) -> str:
@@ -210,35 +253,106 @@ def unreadable_period(left: Qualifier, right: Qualifier) -> bool:
     are both the same period written twice. The years each label names are
     still checked, so "April-December 2024" against "April-December 2023" stays
     a difference.
+
+    Asked of the dimension rather than of `PERIOD_KEYS`, because the pair being
+    compared may now be `as_at` against `date`: the reason a wording difference
+    is weak evidence does not depend on which of time's several spellings each
+    document reached for. Widening this can only keep an agreement that would
+    otherwise have been broken, which is the safe direction.
     """
-    if not key_matches(left.key, PERIOD_KEYS):
+    if TIME_DIMENSION not in (dimension_of(left.key), dimension_of(right.key)):
+        return False
+    if dimension_of(left.key) != dimension_of(right.key):
         return False
     if left.period and right.period:
         return False
     return years_compatible(left.value, right.value)
 
 
+def _by_dimension(fact: Fact) -> dict[str, list[str]]:
+    """This fact's known qualifier keys, grouped by the question they answer."""
+    grouped: dict[str, list[str]] = {}
+    for key in sorted(fact.qualifier_keys()):
+        grouped.setdefault(dimension_of(key), []).append(key)
+    return grouped
+
+
+def _align(left_keys: list[str], right_keys: list[str]):
+    """Pair up two sides' spellings of one dimension.
+
+    A key spelled the same on both sides pairs with itself, which is every pair
+    the old key-by-key diff already handled and is why this change moves
+    nothing in the common case. Only what is left over may cross spellings, and
+    only when there is exactly one candidate a side: two unmatched keys against
+    one is an ambiguity, and guessing which of them answers the other would
+    invent a reading. Those fall through as unpaired and are reported missing,
+    which is what the old code did with all of them.
+    """
+    shared = [key for key in left_keys if key in right_keys]
+    pairs = [(key, key) for key in shared]
+    rest_left = [key for key in left_keys if key not in shared]
+    rest_right = [key for key in right_keys if key not in shared]
+
+    if len(rest_left) == 1 and len(rest_right) == 1:
+        pairs.append((rest_left[0], rest_right[0]))
+        return pairs, [], []
+    return pairs, rest_left, rest_right
+
+
 def compare_qualifiers(
     a: Fact, b: Fact, discriminating: frozenset[str] = DISCRIMINATING
 ) -> ContextDiff:
-    """Set difference over two qualifier bags. This is all case 3 is."""
-    diff = ContextDiff()
-    for key in sorted(a.qualifier_keys() | b.qualifier_keys()):
-        left, right = a.qualifier(key), b.qualifier(key)
+    """Set difference over two qualifier bags, by dimension rather than by name.
 
-        if left.known and right.known:
+    The bags are still open vocabularies and nothing here decides what a key
+    may be called. What it does decide is that two keys answering the same
+    question are one condition to compare rather than two conditions each
+    missing from the other side - see `concord.facts.dimension_of` for which
+    keys those are and how narrowly the set is drawn.
+    """
+    diff = ContextDiff()
+    left_bag, right_bag = _by_dimension(a), _by_dimension(b)
+
+    for dimension in sorted(set(left_bag) | set(right_bag)):
+        left_keys = left_bag.get(dimension, [])
+        right_keys = right_bag.get(dimension, [])
+
+        if not left_keys or not right_keys:
+            holder = a.fact_id if left_keys else b.fact_id
+            for key in left_keys or right_keys:
+                diff.missing.append((key, holder))
+            continue
+
+        pairs, spare_left, spare_right = _align(left_keys, right_keys)
+        for left_key, right_key in pairs:
+            left, right = a.qualifier(left_key), b.qualifier(right_key)
+            diff.spellings[left_key] = (left_key, right_key)
+
             if compare_qualifier(left, right) == AGREE:
-                diff.agreeing.append(key)
-            else:
-                diff.conflicting.append(key)
-                if is_discriminating(key, discriminating) and not key_matches(
-                    key, NON_SEPARATING
-                ):
-                    diff.known_conflicting.append(key)
-                if unreadable_period(left, right):
-                    diff.unreadable.append(key)
-        else:
-            diff.missing.append((key, a.fact_id if left.known else b.fact_id))
+                diff.agreeing.append(left_key)
+                continue
+
+            diff.conflicting.append(left_key)
+            # Both spellings must be recognised before a difference is allowed
+            # to break up two agreeing figures. `date` alone is deliberately
+            # not a condition, and pairing it with `period` must not promote it
+            # into one - that is the merge this change is most at risk of
+            # making by accident, so it is refused outright.
+            if (
+                is_discriminating(left_key, discriminating)
+                and is_discriminating(right_key, discriminating)
+                and not key_matches(left_key, NON_SEPARATING)
+            ):
+                diff.known_conflicting.append(left_key)
+            if unreadable_period(left, right):
+                diff.unreadable.append(left_key)
+                if left_key != right_key:
+                    diff.unestablished.append(left_key)
+
+        for key in spare_left:
+            diff.missing.append((key, a.fact_id))
+        for key in spare_right:
+            diff.missing.append((key, b.fact_id))
 
     # Name a recognised condition first, so a pair differing on both `period`
     # and some incidental key reports the one a reader will recognise.
@@ -352,7 +466,7 @@ def decide(
                 rule_fired="context_differs_values_agree",
                 explanation=(
                     f"The values agree ({evidence}) but the facts hold under different "
-                    f"conditions: {_name(proven)} differ. They describe separate "
+                    f"conditions: {diff.names(proven)} differ. They describe separate "
                     "states of affairs rather than confirming one another."
                 ),
                 qualifier_key=proven[0],
@@ -387,10 +501,10 @@ def decide(
                 "only under the conditions both documents do state."
             )
         if diff.unreadable:
+            left, right = diff.sides(a, b, diff.unreadable[0])
             note += (
-                f" The two sides spell {_name(diff.unreadable)} differently "
-                f"({a.qualifier(diff.unreadable[0]).value!r} against "
-                f"{b.qualifier(diff.unreadable[0]).value!r}) and neither spelling "
+                f" The two sides spell {diff.names(diff.unreadable)} differently "
+                f"({left.value!r} against {right.value!r}) and neither spelling "
                 "resolves to an interval, so the wording is not evidence that the "
                 "conditions differ."
             )
@@ -417,15 +531,42 @@ def decide(
             missing_keys=missing_keys,
         )
 
-    if diff.conflicting:
+    # A condition can only account for a difference in value if we established
+    # that the condition differs. Where the two sides merely spelled one
+    # dimension two ways and neither label resolved, we did not: those pairs
+    # abstain and name the condition, rather than being handed an explanation
+    # that rests on a difference nobody demonstrated. This binds only on the
+    # cross-spelled case, which is the one comparing dimensions introduced;
+    # a difference between two identical key names is left exactly as the table
+    # already decided it - see `test_an_unreadable_period_does_not_rescue_a_disagreement`.
+    established = [key for key in diff.conflicting if key not in diff.unestablished]
+    if diff.conflicting and not established:
         key = diff.conflicting[0]
+        left, right = diff.sides(a, b, key)
+        return Decision(
+            verdict="insufficient_context",
+            rule_fired="unestablished_context_difference",
+            explanation=(
+                f"The values disagree ({evidence}). The two facts both state "
+                f"{diff.name(key)}, under different names and in wordings neither of "
+                f"which resolves to an interval ({left.value!r} against {right.value!r}), "
+                "so it cannot be shown that the condition differs at all - and a "
+                "difference that has not been shown cannot account for the figures."
+            ),
+            qualifier_key=key,
+            missing_keys=missing_keys,
+        )
+
+    if established:
+        key = established[0]
+        left, right = diff.sides(a, b, key)
         return Decision(
             verdict="reconciled_by_context",
             rule_fired="discriminating_qualifier_differs",
             explanation=(
                 f"The values disagree ({evidence}), and the facts differ on "
-                f"{_name(diff.conflicting)}: "
-                f"{a.qualifier(key).value!r} against {b.qualifier(key).value!r}. "
+                f"{diff.names(diff.conflicting)}: "
+                f"{left.value!r} against {right.value!r}. "
                 "The difference in context accounts for the difference in value."
             ),
             qualifier_key=key,
@@ -437,7 +578,7 @@ def decide(
         rule_fired="same_context_disjoint_intervals",
         explanation=(
             f"Same comparison key and the same stated context "
-            f"({_name(diff.agreeing) or 'no qualifiers on either side'}), yet {evidence}."
+            f"({diff.names(diff.agreeing) or 'no qualifiers on either side'}), yet {evidence}."
         ),
         needs_llm=True,
     )

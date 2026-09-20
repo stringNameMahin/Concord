@@ -54,9 +54,11 @@ Put the starter PDFs where the instructions below expect them (any path works;
 these are just the paths used throughout the docs):
 
 ```
-starter-datasets/delhivery/*.pdf
-starter-datasets/india-macroeconomy/*.pdf
+starter-datasets/starter-datasets/delhivery/*.pdf
+starter-datasets/starter-datasets/india-macroeconomy/*.pdf
 ```
+
+They are already committed at those paths, so a clone has them.
 
 ### Check the install
 
@@ -64,11 +66,16 @@ starter-datasets/india-macroeconomy/*.pdf
 uv run pytest -q            # or: .venv/bin/pytest -q
 ```
 
-Expected: **629 passed** in roughly 20 seconds. The suite needs no network and
+Expected: **659 passed**, in about 40 seconds. The suite needs no network and
 no API key; the one test that loads the real embedding model is marked `slow`
 and will download the sentence-transformer if it is not already cached.
 
-You can run a keyless demo using the data cached from the 6 documents upload initially from the starter datasets. Simply start the application and you may browsed through the previously cached datasets.
+Twelve of those tests run against the committed ledger itself rather than
+against fixtures, so they check the shipped artifacts and not only the code.
+
+The whole demo runs with no API key at all: the ledger and the model responses
+behind it are committed, so starting the server is enough to browse, search and
+byte-verify everything already in it. See *Offline evaluation* below.
 
 > Do **not** set `CONCORD_OFFLINE=1` when running the tests. They stub their
 > own LLM clients, and the flag only confuses the failure messages.
@@ -179,8 +186,9 @@ plainly. The cache is keyed on the whole request payload and a judge prompt
 carries both qualifier bags, so every fix that changes a qualifier invalidates
 that pair's stored explanation. The correctness passes have changed a lot of
 qualifier bags - a `segment` inherited from a bullet, a `consolidation` read
-off a running header, a basis lifted out of a predicate - and **57 of the six
-starters' 129 relations now carry the deterministic explanation rather than
+off a running header, a basis lifted out of a predicate - and the blocking pass
+below adds pairs that had never been judged at all, so **62 of the six
+starters' 134 relations now carry the deterministic explanation rather than
 model prose.** That is the documented behaviour and not a failure: **failure is
 not a verdict.** No verdict is affected, because those calls are prose-only on
 verdicts the table has already settled. Refilling them costs one live call
@@ -218,14 +226,14 @@ Two things a reviewer can do from here, both at zero cost:
    ```
 
    Measured: **41 extraction requests, 0 live API calls, 0 extraction cache
-   misses**, giving 488 grounded facts, 5 quarantined and **129 relations**, in
-   24 seconds.
+   misses**, giving 488 grounded facts, 5 quarantined and **134 relations**, in
+   60 seconds on a laptop.
 
    **The shipped `.sqlite` contains this replay**, plus one further document -
    a 409-page annual report from a company outside the starter set, ingested to
    test that the fixes below generalise. The file therefore holds 7 documents,
-   773 grounded facts, 12 quarantined and 201 relations; the six starters
-   account for 488 / 5 / 129 of those, and every per-corpus number in this
+   773 grounded facts, 12 quarantined and 209 relations; the six starters
+   account for 488 / 5 / 134 of those, and every per-corpus number in this
    README is the six-starter figure unless it says otherwise.
 
    The order above is the order the shipped file was built in, and it is now
@@ -235,14 +243,25 @@ Two things a reviewer can do from here, both at zero cost:
    ledger, and re-running the comparison over the stored facts produced a third
    - 186 relations against the 174 that shipped. Every ingest now re-blocks the
    whole corpus, which the persisted fact embeddings make affordable: a full
-   comparison run over 773 facts is **0.11 s warm against 13.8 s cold**, and
+   comparison run over 773 facts is **0.09 s warm against 13.8 s cold**, and
    the three blocking strategies together are 3 ms of that.
+
+   Re-blocking the whole corpus fixed the order dependence and left a subtler
+   one behind, which is also now closed. The semantic block is top-k, and k is
+   an absolute budget: as facts accumulate, a true pair can be pushed out of
+   both facts' neighbour lists, and a whole-corpus run then deletes the
+   relation it no longer proposes. Two went that way. The fix was not a larger
+   k - see *What was wrong and is now fixed*, item 19.
 
 ---
 
 ## Video Demo
 
 **Link:** : https://drive.google.com/file/d/10zHrwhABFf-fdw-qt_kofQyPxU6nmgJW/view?usp=sharing
+
+The video was recorded against an earlier ledger, so the relation counts on
+screen are lower than the ones in this README. Nothing about the behaviour it
+shows has changed.
 
 ---
 
@@ -308,6 +327,12 @@ PDF
  +- compare/block.py     Three strategies, unioned, tuned for recall:
  |                       exact comparison key | top-10 cosine neighbours |
  |                       log-magnitude bucket on the NORMALISED value.
+ |                       The exact one resolves the key the way the decision
+ |                       table does - through the registry's aliases and the
+ |                       subject identities `same_entity` accepts - so it
+ |                       proposes every pair that could be stored. The other
+ |                       two are recall insurance over a vocabulary the
+ |                       registry has not linked yet.
  |
  +- compare/partition.py Which facts are complementary categories of one
  |                       distribution rather than rival claims about it -
@@ -333,8 +358,18 @@ PDF
 | Values agree, a **recognised** condition differs | `unrelated` | `context_differs_values_agree` | no |
 | Values agree, bags compatible | `corroborates` | `keys_match_intervals_overlap` | no |
 | Values disagree, a condition is stated on one side and **absent** on the other | `insufficient_context` | `missing_qualifier_guard` | no |
+| Values disagree, the only condition that differs is one dimension spelled two ways, neither wording resolving | `insufficient_context` | `unestablished_context_difference` | no |
 | Values disagree, a stated condition differs | `reconciled_by_context` | `discriminating_qualifier_differs` | prose only |
 | Values disagree, both sides state the **same** conditions | `contradicts` | `same_context_disjoint_intervals` | yes, adjudicates |
+
+Bags are diffed by **dimension**, not by literal key name. An open vocabulary
+spells one condition several ways - `period`, `as_at`, `as_of`, `time_period`
+and `financial_year` all answer *when?* - and comparing the names meant two
+facts that both stated the time each read as stating a condition the other
+lacked. `concord/facts.py` declares the one dimension that is measurably needed
+and, just as importantly, the moments deliberately kept out of it: a contract's
+`effective_date` is not the period a figure covers, and merging those would be
+the false merge the whole change exists to avoid.
 
 Three guards are enforced in Python, not asked of a prompt:
 
@@ -389,10 +424,12 @@ Measured on the six-document corpus:
 
 ```
 118,828 theoretical pairs
-  ->  3,670 candidates after blocking          (96.91% reduction)
-  ->  3,598 finished by a deterministic rule   (98.0% of candidates)
-  ->     72 pairs reached a model              (0.061% of the theoretical space)
+  ->  3,679 candidates after blocking          (96.90% reduction)
+  ->  3,588 finished by a deterministic rule   (97.5% of candidates)
+  ->     91 pairs a deterministic rule referred
+  ->     72 of those reached a model           (0.061% of the theoretical space)
        every one of them prose-only, on a verdict already decided
+       (the other 19 have no cached response and keep the table's own sentence)
   ->      0 verdicts in the ledger are the model's        (was 7, then 1)
 ```
 
@@ -444,10 +481,14 @@ why the whole pipeline runs with no key at all.
 ### Storage
 
 **SQLite, five tables** (`documents`, `facts`, `relations`,
-`predicate_registry`, `schema_events`) with JSON columns. It ships as a 1.5 MB
+`predicate_registry`, `schema_events`) with JSON columns. It ships as a 4.4 MB
 file a reviewer opens with `sqlite3` and no Docker. The canonical document text
 lives *beside* the database as `data/work/<doc_id>.txt` rather than inside it,
 so an offset can be checked by hand and `/verify` can re-read the bytes fresh.
+The row stores that file's *name* and the reader resolves it against
+`CONCORD_WORK`, so a ledger is readable from whatever directory it was cloned
+into. It used to store the absolute path of the checkout that wrote it, which is
+a path no reviewer has - see *What was wrong and is now fixed*.
 
 ### Rejected alternatives
 
@@ -499,7 +540,7 @@ than none. What moved in the latest pass is named underneath.
 Documents                     6          511 pages, 1,658,944 chars, 602 chunks
 Extraction requests           41         all served from data/cache/llm/
 Live API requests             0          and 0 failed extraction batches
-Wall clock, all six           23.7 s     warm embedding model, six full ingests
+Wall clock, all six           59.8 s     warm embedding model, six full ingests
 
 Facts extracted               501
   grounded                    496        99.0%
@@ -514,57 +555,75 @@ Facts whose magnitude was read back out of the bytes    66
 Facts flagged for a subject that names the measurement   5
 
 Theoretical pairs             118,828    = C(488, 2)
-Candidates after blocking     3,670      96.91% reduction
-  comparison-key block        80
+Candidates after blocking     3,679      96.90% reduction
+  comparison-key block        141
   value-anchored block        228
   semantic block              3,596
-Full comparison run           0.11 s     warm vectors; 13.8 s if re-embedded
+Full comparison run           0.06 s     warm vectors; 13.8 s if re-embedded
 
-Finished by a deterministic rule             3,598     98.0% of candidates
-Reached a model                                 72     all prose-only
+Finished by a deterministic rule             3,588     97.5% of candidates
+Referred by a deterministic rule                91
+  ...of which reached a model                   72     all prose-only
+  ...no cached response, kept the table's own    19
 Verdicts in the ledger decided by the model      0
 
-Relations stored                               129
-  reconciled_by_context                         75
-  insufficient_context                          38
-     ...missing qualifier                       31
-     ...agreement rested on a single digit       3
+Relations stored                               134
+  reconciled_by_context                         89
+  insufficient_context                          29
+     ...missing qualifier                       24
      ...values incomparable                      2
      ...the judge named a qualifier neither      2
         fact carries
+     ...a difference that could not be shown     1
   corroborates                                  16
   contradicts                                    0
-  unrelated (counted, not stored)            3,541
-  cross-document                                46
+  unrelated (counted, not stored)            3,545
+  cross-document                                48
 Partition groups detected                        0
 
-Adjudication calls                              74
-Unadjudicated (no cached response, offline)      5
-Hallucinated-qualifier rejection            2 of 74
+Which strategy proposed each stored relation
+  comparison-key block                         134     all of them
+  semantic block                               124
+  value-anchored block                          17
+  proposed by the comparison-key block alone     8
+  proposed by any other strategy alone           0
+
+Relations carrying model prose                  72
+Relations carrying the table's own sentence     62
 
 Predicates registered                          298
   alias questions asked                         85
   confirmed                                     29
   refused by the model                          56
   refused in code, without asking                3
-Tests                                          629   (20.6 s)
+Tests                                          659   (about 40 s)
 ```
 
-**What moved in this pass, and why.** Relations went from 115 to 129 and
-`corroborates` from 11 to 16. Three things account for almost all of it. Every
-ingest now re-blocks the whole corpus instead of only the pairs touching the
-new document, which recovers the pairs an incremental run could never propose
-(this is also what makes the count reproducible - see *Offline evaluation*
-above). `Fiscal 2021`, `Mar-26`, `April-December 2024` and `end of FY24` now
-resolve to intervals instead of being compared as text, which is 46 of the 103
-period qualifiers that used to fall through. And a basis the model folded into
-a predicate name is lifted into the qualifier bag, which puts three spellings
-of one line item back on one comparison key.
+**What moved in this pass, and why.** Relations went from 129 to 134 and
+`insufficient_context` fell from 38 to 29, with `corroborates` unchanged at 16.
+Two changes account for all of it, and both are about pairs the layer was
+failing to *compare* rather than failing to judge.
 
-Three new `insufficient_context` rows are the single-digit guard refusing to
-call a cumulative lifetime total corroboration of one year's volume; `1
-billion` spans half its own value either way, so it overlapped `740 million`
-and used to be stored as agreement.
+The qualifier bag is now diffed by dimension rather than by key name, which
+moved 11 relations out of `insufficient_context` and into
+`reconciled_by_context`: both documents had stated when the figure held, one
+writing `as_at` and the other `as_of`, and the guard had been abstaining with
+an explanation that said one of them had not.
+
+The exact comparison-key block now resolves predicates through the registry's
+aliases and subjects through the identities `same_entity` accepts, which added
+11 relations that only the semantic block could previously have found - and, on
+three of them, had stopped finding.
+
+Three rows left the ledger in the same pass, and they are the one place to look
+twice. `1 billion` cumulative shipments against `740 million` in a year used to
+be stored as `insufficient_context`, the single-digit guard refusing to read a
+coarse figure's overlap as agreement. Those pairs now differ on a condition the
+table can prove differs - a fiscal year against an as-at date - so they are
+`unrelated` before the precision question is reached, and `unrelated` is not
+stored. Both answers refuse the corroboration, which is the point; the cost is
+that the single-digit guard no longer has a live example in this corpus, though
+it is still in the table and still pinned by its own tests.
 
 **Reading the residue.** Two pairs still reach the contradiction branch
 deterministically, and both are refused before they reach the ledger as one:
@@ -745,7 +804,7 @@ measurement rather than an assertion.
     seconds encoding facts it had encoded before, growing with the ledger
     rather than with the document being added. Vectors are now persisted
     against the model that produced them and a different model's are ignored
-    rather than trusted. **13.8 s to 0.11 s** over 773 facts, which is what
+    rather than trusted. **13.8 s to 0.09 s** over 773 facts, which is what
     makes re-blocking the whole corpus affordable on every upload.
 
 11. **A figure written to one digit corroborated most of its decade.**
@@ -809,6 +868,88 @@ measurement rather than an assertion.
     The gate still fires on nothing in this corpus, which is the correct answer
     for a corpus with no distribution in it.
 
+### What a fourth audit pass found, and what it cost
+
+An audit of the shipped repository against a fresh clone rather than against
+the working tree. The first finding is the one that mattered, and it is the
+kind only a clone can show you.
+
+19. **A clone could not read its own evidence.** `documents.text_path` stored
+    the absolute path of the checkout that wrote the ledger -
+    `D:\...\data\work\<doc>.txt` - and nothing in the read path ever consulted
+    `CONCORD_WORK`. `data/work/` ships with the repository, so a clone *has*
+    every document's canonical text; it simply had no way to find it. On a
+    reviewer's machine that path does not exist, so `GET /evidence/{id}` and
+    `GET /verify/{id}` answered **500 on every fact** - the two endpoints the
+    grounding guarantee rests on, and every *show evidence & verify* button in
+    the UI - and the ledger invariant that re-cuts each quote failed with
+    `FileNotFoundError`, so `pytest` reported a failure on a clean clone.
+
+    The miss was not the worst of it. On a machine that *did* have the original
+    checkout, the stored path resolved - to the other repository's bytes. A
+    clone would have been verifying its facts against a directory nobody had
+    cloned, and saying `verified: true` about it.
+
+    **Fixed.** The row stores the file's name; `resolve_text_path` reads it
+    against this installation's `CONCORD_WORK` first and falls back to the
+    stored value, so an old ledger still opens and a relocated one prefers the
+    text sitting next to it. Verified by cloning the repository, making the
+    original checkout unreachable, and running the suite and both endpoints
+    from the clone: 659 passed, both endpoints 200, `verified: true`.
+
+20. **One condition spelled two ways read as two conditions, each missing.**
+    The qualifier bag is an open vocabulary, so `period`, `as_at`, `as_of`,
+    `time_period` and `financial_year` all arrive meaning *when this figure
+    holds*. The decision table diffed the bags by literal key name, so a pair
+    where both documents stated the time - one writing `as_at`, the other
+    `as_of` - saw two keys each absent from the other side, hit the
+    missing-qualifier guard, and abstained with an explanation that said one
+    fact did not state a period two words from where it did. **18 of the 46
+    abstentions in the seven-document ledger were this.**
+
+    **Fixed.** Bags are diffed by dimension. The dimension is declared narrowly
+    and the exclusions are the load-bearing half: `effective_date`,
+    `acquisition_date`, `start_date` and `maturity_period` name moments
+    belonging to an event in the claim, not the reporting time of the
+    measurement, and folding those in would have been a worse bug than the one
+    being fixed. Where the two sides spell one dimension differently and
+    *neither* wording resolves to an interval, the pair is not reconciled
+    either: nothing was shown to differ, and a difference that has not been
+    shown cannot account for the figures. That is a new row in the table
+    (`unestablished_context_difference`) and it fires 4 times.
+
+21. **The one strategy that costs nothing could not see what the system had
+    already decided.** The exact block grouped on `Fact.comparison_key`
+    verbatim - the key as *written*. The decision table resolves it twice over
+    before deciding anything: the predicate registry says whether two names are
+    one relation, and `subjects_match` says whether two surfaces are one entity
+    up to a trailing legal form. Neither question reached blocking, so a
+    confirmed alias, a fact carrying a CIN against one carrying only the name,
+    and `Delhivery` against `Delhivery Limited` all sat in separate buckets and
+    could only be found by the semantic block. **12 of the 215 pairs that share
+    a resolved comparison key were never proposed at all.**
+
+    **Fixed.** The block resolves predicates through the alias map and files
+    each fact under every identity it answers to. Candidates rose by 12 across
+    the whole corpus - 5,973 to 5,985 - and recall over storable pairs went
+    from 203/215 to **215/215**.
+
+22. **A relation could disappear because an unrelated document was uploaded.**
+    The semantic block is top-k and k is an absolute budget, so as facts
+    accumulate a true pair can be pushed out of both facts' neighbour lists.
+    A whole-corpus run replaces what it no longer proposes, so the relation is
+    then deleted. Two were, between one rebuild and the next: a `>2.8Bn`
+    cumulative shipment figure against two statements of `740 million`, which
+    had fallen to neighbour ranks 16 and 22 at 773 facts.
+
+    **The fix was not a larger k.** A pair is only stored if its comparison
+    keys match, so once item 21 made the exact block resolve those keys it
+    enumerates every storable pair by construction - and it has no rank to be
+    crowded out of. Both lost relations are back, proposed by the exact block.
+    A ledger invariant now asserts that every stored relation is proposed by
+    that strategy, so if anything ever starts resting on top-k again the suite
+    says so rather than a future rebuild quietly deleting it.
+
 ### What still does not work
 
 1. **Extraction recall is thin, and batching is most of the reason.** The
@@ -836,16 +977,22 @@ measurement rather than an assertion.
    section) is in the source, sits in the same chunk as a fact that *was*
    extracted, and neither PIN came back.
 
-2. **Abstention is the failure mode, by design, and it grows with every
-   context fix.** `insufficient_context` is 38 of 129 relations, and 31 of
-   those are the missing-qualifier guard: a discriminating key present on one
-   side and absent on the other. The guard binds on *any* such key, stated or
-   inherited, so enriching one side's context turns a confident reconciliation
-   into an abstention - the `active_customers` pairs abstain on `segment`
-   precisely because the bullet heading now reaches one of them. Contradiction
-   over-calling is the documented failure of this task, so this is the right
-   direction to err, and it is still a real cost: a pair whose one-sided
-   qualifier is genuinely incidental abstains instead of resolving.
+2. **Abstention is the failure mode, by design.** `insufficient_context` is 29
+   of 134 relations, and 24 of those are the missing-qualifier guard: a
+   discriminating key present on one side and absent on the other. The guard
+   binds on *any* such key, stated or inherited, so enriching one side's
+   context turns a confident reconciliation into an abstention - the
+   `active_customers` pairs abstain on `segment` precisely because the bullet
+   heading now reaches one of them. Contradiction over-calling is the
+   documented failure of this task, so this is the right direction to err, and
+   it is still a real cost: a pair whose one-sided qualifier is genuinely
+   incidental abstains instead of resolving.
+
+   This used to be worse and by a measurable amount. Eighteen of the 46
+   abstentions in the seven-document ledger were pairs where *both* documents
+   stated the condition and had only spelled it differently, which the
+   dimension diff now handles. What is left is the real shape of the problem:
+   one document says something the other does not.
 
 3. **The subject rule cannot bridge two spellings of one legal form.**
    `Delhivery` reaches `Delhivery Limited` because one name is the other plus
@@ -874,26 +1021,37 @@ measurement rather than an assertion.
    today only because no counterpart fact exists for any of the three measured
    cases.
 
-5. **The semantic block carries the run.** Of the 129 stored relations it
-   proposed 127, and 40 of those nothing else found. It is also the least
-   precise strategy by an order of magnitude: 3,596 proposals for 129 kept
-   relations, against the comparison-key block's 80 proposals for 80 kept
-   relations. The honest description of the blocking layer is "one recall
-   device and two cheap accelerators" - and the accelerators earn their keep by
-   2 uniquely contributed verdicts each, which is marginal enough to say out
-   loud. All three together run in 3 ms, so nothing here is worth trading
-   recall for.
+5. **The semantic block no longer carries the run, and that is the fix rather
+   than a loss.** It used to propose 127 of 129 stored relations with 40 of
+   them found by nothing else, which sounds like strength and was a weakness:
+   top-k is an absolute budget, so a relation whose only proposer was the
+   semantic block could be crowded out by an unrelated upload and then deleted
+   by the whole-corpus replace. Two were.
+
+   The exact block now resolves the comparison key the way the decision table
+   does. Because a pair is only ever stored if its comparison keys match, that
+   makes it complete: it proposes all 134 stored relations, 8 of them alone,
+   and no other strategy is the sole proposer of any. The semantic block still
+   runs - it is 3 ms and it is the only recall a vocabulary has before the
+   registry has linked it - but nothing in the ledger now depends on it.
+
+   It remains by far the least precise strategy: 3,596 proposals for 124 of the
+   kept relations, against the comparison-key block's 141 proposals for all
+   134. That is the honest description of the blocking layer now: one complete
+   deterministic strategy, and two cheap devices that widen the net for
+   vocabulary the system has not learned yet.
 
 6. **A reviewer with no key cannot ingest a genuinely new PDF, and the judge
    cache is expensive to keep warm.** Everything already in the cache replays;
    anything else needs a key. That is the one honest gap in the keyless path.
    The second half is a standing maintenance cost: the judge prompt carries
    both qualifier bags, so every fix that changes a bag invalidates that pair's
-   cached explanation. **57 of the 129 six-starter relations currently carry
-   the deterministic explanation rather than model prose** for that reason. No
-   verdict is affected - those calls are prose-only on verdicts the table has
-   already settled - and refilling them is one live call each, but the number
-   only goes up as the context stack improves.
+   cached explanation. **62 of the 134 six-starter relations currently carry
+   the deterministic explanation rather than model prose** for that reason, and
+   the blocking fix added pairs that had never been judged at all. No verdict
+   is affected - those calls are prose-only on verdicts the table has already
+   settled - and refilling them is one live call each, but the number only goes
+   up as the context stack improves.
 
 7. **Closing an unsound predicate merge cost a right answer.** The registry now
    refuses, in code, a merge where one name carries a basis modifier the other
@@ -907,8 +1065,10 @@ measurement rather than an assertion.
    precisely the question the model got wrong when it was asked, refusing at
    cosine 0.979.
 
-8. **Smaller, real, and unfixed:** no UI pagination (`limit` is fixed at
-   200-300; fine at 773 facts, broken at 5,000); no true table cell grid, so
+8. **Smaller, real, and unfixed:** no UI pagination - the fact ledger view
+   asks for 300 rows and the ledger holds 773, so it is already truncating and
+   the header count beside it is the full total; search reaches the rest. No
+   true table cell grid, so
    row/column coordinates are not recorded; OCR and scanned PDFs are out of
    scope, though an unreadable or password-protected file is answered as a 400
    with a reason rather than a 500. `subject_key` is still only used when both
@@ -947,13 +1107,17 @@ measurement rather than an assertion.
    the ones a chunk's figures reference to its context block, keeping every
    marker rather than the first. It reuses the offset machinery already there
    and adds no vocabulary.
-6. **Refill the judge cache, then keep it warm (acts on 6).** 57 relations
+6. **Refill the judge cache, then keep it warm (acts on 6).** 62 relations
    carry a deterministic explanation because a qualifier fix invalidated their
-   cached prose. One live call each, prose-only, no verdict at risk. Worth
-   doing as the last step before a demo rather than after every fix.
-7. **Ablate the semantic block (settles 5).** Rerun at `k` = 5, 10, 20 and plot
-   relations recovered against candidates proposed; record the cosine on each
-   candidate so a similarity floor can finally be argued from evidence.
+   cached prose or because the blocking fix proposed the pair for the first
+   time. One live call each, prose-only, no verdict at risk. Worth doing as the
+   last step before a demo rather than after every fix.
+7. **Ablate the semantic block (settles 5).** Now that the exact block proposes
+   every stored relation, the open question is whether the semantic block earns
+   its 3,596 proposals at all, or only pays for itself on vocabulary the
+   registry has not yet linked. Rerun at `k` = 0, 5, 10, 20 and plot relations
+   recovered against candidates proposed. A measured answer of "nothing" would
+   be a real simplification rather than a loss.
 8. **A local-LLM provider behind the existing seam (closes the keyless gap in
    6).** Roughly an hour: the provider interface is three methods. Then
    paginate the UI (8).
@@ -964,11 +1128,13 @@ measurement rather than an assertion.
 
 - **Cost of a full run: $0.00 from cache.** The corpus was extracted on a
   free-tier key across 41 requests; the only money spent on the project was
-  $0.1933 on OpenRouter for an extraction experiment that was reverted.
+  $0.1933 on OpenRouter for an extraction experiment that was reverted. The
+  correctness passes since, including the one that produced items 19-22 above
+  and the ledger rebuild behind every number here, made **zero live requests**.
   `CONCORD_MAX_CALLS` (default 200) is a hard ceiling on live requests, claimed
   under a lock *before* each request is sent so it holds across the thread pool.
 
 - **Offline evaluation path:** `CONCORD_OFFLINE=1`, then either browse the
   shipped ledger or re-derive the whole corpus by dropping the six starter PDFs
-  onto the page - 56 seconds, zero live requests. See *Setup and Run
+  onto the page - about a minute, zero live requests. See *Setup and Run
   Instructions* above.

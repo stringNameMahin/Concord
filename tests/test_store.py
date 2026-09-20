@@ -277,3 +277,93 @@ def _run_with_quarantine(quote):
     )
     chunk = SimpleNamespace(index=3, pages=[1])
     return SimpleNamespace(quarantined=[SimpleNamespace(fact=fact, chunk=chunk)])
+
+
+# --- the canonical text has to be findable from wherever the ledger is read --
+#
+# `data/work/` ships with the repository, so a clone has every document's text.
+# The ledger row used to hold the absolute path of the checkout that wrote it,
+# and nothing in the read path consulted `CONCORD_WORK` - so `/evidence` and
+# `/verify` answered 500 on every fact in a clone, and the one invariant that
+# reads document text failed. These pin both halves of the fix.
+
+def _ingested(text="Revenue from services 81,415.38", doc_id="d9", sha="sha-d9"):
+    from types import SimpleNamespace
+
+    from concord.extract.runner import ExtractionRun
+
+    doc = SimpleNamespace(
+        sha256=sha, filename=f"{doc_id}.pdf", text=text, n_pages=2,
+        parser="pymupdf", parser_version="test",
+    )
+    return SimpleNamespace(
+        doc=doc, doc_id=doc_id, extraction=ExtractionRun(), duplicates=0,
+        fy_end_month=3, fy_evidence={3: 4},
+    )
+
+
+def test_a_document_row_stores_a_portable_text_path(conn):
+    """Not the absolute path this machine happens to use."""
+    repo.save_document(conn, _ingested())
+    stored = conn.execute("SELECT text_path FROM documents WHERE doc_id='d9'").fetchone()[0]
+    assert stored == "d9.txt"
+    assert not Path(stored).is_absolute()
+
+
+def test_the_text_is_read_from_this_installation_not_the_one_that_wrote_it(
+    conn, tmp_path, monkeypatch
+):
+    """A ledger written elsewhere still reads, against the text beside it.
+
+    This is the clone case: the row points at a directory that does not exist
+    here, and the document's own text is sitting in `CONCORD_WORK` where it
+    shipped.
+    """
+    repo.save_document(conn, _ingested(text="the canonical bytes"))
+    conn.execute(
+        "UPDATE documents SET text_path = ? WHERE doc_id='d9'",
+        (r"D:\somewhere\else\data\work\d9.txt",),
+    )
+    assert repo.document_text(conn, "d9") == "the canonical bytes"
+
+
+def test_this_installation_wins_over_a_path_that_still_resolves(conn, tmp_path):
+    """The failure that is worse than the 500.
+
+    On a machine that *did* have the checkout the ledger was written from, the
+    stored absolute path resolved - to that other repository's bytes. A clone
+    would have been verifying its facts against a directory nobody cloned, and
+    every `/verify` would have said so cheerfully. So this installation's own
+    copy is tried first and the stored value is only a fallback.
+    """
+    repo.save_document(conn, _ingested(text="the bytes that ship with this clone"))
+    elsewhere = tmp_path / "other-checkout"
+    elsewhere.mkdir()
+    (elsewhere / "d9.txt").write_text("another repository's bytes", encoding="utf-8")
+    conn.execute(
+        "UPDATE documents SET text_path = ? WHERE doc_id='d9'", (str(elsewhere / "d9.txt"),)
+    )
+    assert repo.document_text(conn, "d9") == "the bytes that ship with this clone"
+
+
+def test_a_ledger_that_kept_its_text_elsewhere_still_reads(conn, tmp_path):
+    """The fallback earns its place: an absolute path that resolves and has no
+    counterpart in `CONCORD_WORK` is still the right answer."""
+    outside = tmp_path / "outside"
+    outside.mkdir()
+    (outside / "elsewhere.txt").write_text("text kept outside the work dir", encoding="utf-8")
+    conn.execute(
+        """INSERT INTO documents (doc_id, filename, sha256, status, ingested_at, text_path)
+           VALUES ('d8', 'd8.pdf', 'sha-d8', 'ingested', '2026-01-01', ?)""",
+        (str(outside / "elsewhere.txt"),),
+    )
+    assert repo.document_text(conn, "d8") == "text kept outside the work dir"
+
+
+def test_text_that_is_nowhere_says_where_it_looked(conn):
+    conn.execute(
+        """INSERT INTO documents (doc_id, filename, sha256, status, ingested_at, text_path)
+           VALUES ('d7', 'd7.pdf', 'sha-d7', 'ingested', '2026-01-01', 'd7.txt')"""
+    )
+    with pytest.raises(FileNotFoundError, match="CONCORD_WORK"):
+        repo.document_text(conn, "d7")

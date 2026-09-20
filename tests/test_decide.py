@@ -671,3 +671,112 @@ def test_a_differing_condition_still_wins_over_the_single_digit_guard():
     decision = decide(a, b)
     assert decision.verdict == "unrelated"
     assert decision.rule_fired == "context_differs_values_agree"
+
+
+# --- qualifier dimensions: one condition, several spellings ----------------
+#
+# The bag is diffed by dimension rather than by literal key name. These pin
+# both halves of that: what it now compares, and what it still refuses to.
+
+def test_two_spellings_of_the_time_condition_are_one_condition():
+    """The defect this closed.
+
+    Both documents say when the figure holds; one writes `as_at` and the other
+    `as_of`. Diffed by name, each key was missing from the other side, so the
+    missing-qualifier guard abstained - and said "only the first fact states
+    'as_at'" about a pair where both had stated the date.
+    """
+    a = make_fact(raw="7.1", predicate="sort_capacity", as_at="March 31, 2024")
+    b = make_fact(raw="3.70", predicate="sort_capacity", as_of="December 31, 2021", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "reconciled_by_context"
+    assert decision.rule_fired == "discriminating_qualifier_differs"
+
+
+def test_the_explanation_names_the_spelling_each_document_used():
+    a = make_fact(raw="7.1", predicate="sort_capacity", as_at="March 31, 2024")
+    b = make_fact(raw="3.70", predicate="sort_capacity", as_of="December 31, 2021", doc="d2")
+    decision = decide(a, b)
+    assert "as_at/as_of" in decision.explanation
+    assert "March 31, 2024" in decision.explanation
+    assert "December 31, 2021" in decision.explanation
+
+
+def test_the_named_key_is_one_the_facts_actually_carry():
+    """`qualifier_key` reaches the ledger and the adjudication guard, both of
+    which check it against the two bags. A dimension name would fail there."""
+    a = make_fact(raw="7.1", predicate="sort_capacity", as_at="March 31, 2024")
+    b = make_fact(raw="3.70", predicate="sort_capacity", as_of="December 31, 2021", doc="d2")
+    decision = decide(a, b)
+    assert decision.qualifier_key in (a.qualifier_keys() | b.qualifier_keys())
+
+
+def test_the_same_spelling_on_both_sides_is_unchanged():
+    """The common case has to move nothing, which is why spellings pair with
+    themselves before anything crosses."""
+    a = make_fact(raw="7.1", predicate="sort_capacity", as_at="March 31, 2024")
+    b = make_fact(raw="3.70", predicate="sort_capacity", as_at="December 31, 2021", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "reconciled_by_context"
+    assert decision.qualifier_key == "as_at"
+    assert "as_at/" not in decision.explanation
+
+
+def test_an_event_date_is_not_the_reporting_time():
+    """The merge this must not make.
+
+    One fact says which period it covers; the other says when an agreement
+    took effect. Those are two conditions, and treating them as one spelling
+    of each other would let an unrelated date explain a difference in value.
+    """
+    a = make_fact(raw="1,125", predicate="loan_amount", period="FY24")
+    b = make_fact(raw="1,229", predicate="loan_amount", effective_date="March 31, 2024", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "insufficient_context"
+    assert decision.rule_fired == "missing_qualifier_guard"
+
+
+def test_a_dimension_absent_on_one_side_is_still_missing():
+    """Grouping keys changes which conditions meet, never whether one was stated."""
+    a = make_fact(raw="1,125", predicate="loan_amount", period="FY24")
+    b = make_fact(raw="1,229", predicate="loan_amount", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "insufficient_context"
+    assert decision.rule_fired == "missing_qualifier_guard"
+    assert decision.qualifier_key == "period"
+
+
+def test_an_unrecognised_key_cannot_be_promoted_by_the_key_it_pairs_with():
+    """`date` alone is deliberately not a condition that can split agreement.
+
+    Pairing it with `period` must not lend it that power, so both spellings
+    have to be recognised before a difference breaks up two agreeing figures.
+    """
+    a = make_fact(raw="8,142 Cr", period="FY24")
+    b = make_fact(raw="8,142 Cr", date="December 31, 2021", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "corroborates"
+
+
+def test_a_difference_nobody_could_establish_does_not_reconcile():
+    """Two names for one moment, neither label resolving to an interval.
+
+    Before the dimensions met, this pair abstained because each key was
+    missing from the other side. It must not now be *explained* by the
+    difference between them: nothing was shown to differ.
+    """
+    a = make_fact(raw="1,125", predicate="loan_amount", period="year ended March 31, 2026")
+    b = make_fact(raw="1,229", predicate="loan_amount", date="March 31, 2026", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "insufficient_context"
+    assert decision.rule_fired == "unestablished_context_difference"
+    assert decision.qualifier_key in (a.qualifier_keys() | b.qualifier_keys())
+
+
+def test_a_difference_that_was_established_still_reconciles():
+    """The guard above binds on unreadable labels only - two spellings naming
+    different years are a real difference and still account for the figures."""
+    a = make_fact(raw="1,125", predicate="loan_amount", period="2023/24")
+    b = make_fact(raw="1,229", predicate="loan_amount", year="2019", doc="d2")
+    decision = decide(a, b)
+    assert decision.verdict == "reconciled_by_context"

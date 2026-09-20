@@ -6,16 +6,22 @@ label resolved to an interval, the qualifier bag carrying provenance.
 """
 
 import pytest
+from factories import make_fact
 
 from concord.extract.align import Alignment
 from concord.extract.models import FactOut, QualifierOut, ValueOut
 from concord.facts import (
+    TIME_DIMENSION,
     canonical_predicate,
+    dimension_of,
     make_fact_id,
     materialize,
     normalize_surface,
     resolve_anaphora,
+    same_entity,
     split_consolidation,
+    subject_identities,
+    surface_identities,
 )
 
 
@@ -545,3 +551,115 @@ def test_a_single_mention_is_not_a_dominant_subject():
         anaphoric("the Company", "employee_count", 200),
     ]
     assert resolve_anaphora(facts) == 0
+
+
+# --- qualifier dimensions: which keys answer one question ------------------
+#
+# An open vocabulary spells one condition several ways. `dimension_of` decides
+# which spellings are one condition, and the tests that matter most here are
+# the ones pinning what it refuses to merge.
+
+def test_the_spellings_of_reporting_time_are_one_dimension():
+    for key in (
+        "period",
+        "as_of",
+        "as_at",
+        "as_on",
+        "time_period",
+        "reporting_period",
+        "financial_year",
+        "fiscal_year",
+        "for_the_year_ended",
+        "as_of_date",
+        "reporting_date",
+        "date",
+        "year",
+    ):
+        assert dimension_of(key) == TIME_DIMENSION, key
+
+
+def test_a_moment_belonging_to_an_event_is_not_the_reporting_time():
+    """The merge this must not make.
+
+    A contract's effective date and the period a figure covers are two
+    conditions. Folding them together would let one explain a difference in
+    the other, which is exactly the false reconciliation the dimension is
+    supposed to avoid rather than create.
+    """
+    for key in (
+        "effective_date",
+        "acquisition_date",
+        "meeting_date",
+        "target_date",
+        "start_date",
+        "end_date",
+        "maturity_period",
+        "vesting_date",
+        "expiry_date",
+    ):
+        assert dimension_of(key) != TIME_DIMENSION, key
+
+
+def test_every_other_key_is_its_own_dimension():
+    """Which is what the key-by-key diff did, so coined keys are untouched."""
+    for key in ("segment", "consolidation", "auditor", "service", "geography", "basis"):
+        assert dimension_of(key) == key
+
+
+# --- subject identities: the grouping form of `same_entity` ----------------
+
+def test_a_surface_answers_to_itself_and_to_its_shorter_name():
+    assert surface_identities("Acme Logistics Limited") == frozenset(
+        {"acme logistics limited", "acme logistics"}
+    )
+
+
+def test_a_surface_with_no_legal_form_answers_only_to_itself():
+    assert surface_identities("Acme Logistics") == frozenset({"acme logistics"})
+
+
+def test_a_name_that_is_only_a_legal_form_keeps_it():
+    """Stripping here would leave nothing, and nothing groups with everything."""
+    assert surface_identities("Limited") == frozenset({"limited"})
+
+
+def test_every_pair_same_entity_accepts_shares_an_identity():
+    """Blocking must never lose a bridge the decision table would have taken.
+
+    The converse is not asserted, and deliberately: two identities meeting is
+    a proposal, not a verdict. `Acme Logistics Limited` and `Acme Logistics
+    Private Limited` both strip to `acme logistics` and so are compared, and
+    `subjects_match` then refuses them - a subsidiary never reaches its parent,
+    which is the rule that matters and it is enforced where verdicts are made.
+    """
+    names = [
+        "acme logistics",
+        "acme logistics limited",
+        "acme logistics private limited",
+        "acme freight services private limited",
+        "borealis",
+        "limited",
+    ]
+    for left in names:
+        for right in names:
+            if same_entity(left, right):
+                assert surface_identities(left) & surface_identities(right), (left, right)
+
+
+def test_a_subsidiary_still_never_reaches_its_parent():
+    """The over-proposal above is safe only because this holds."""
+    assert not same_entity(
+        "acme logistics limited", "acme freight services private limited"
+    )
+    assert not surface_identities("acme logistics limited") & surface_identities(
+        "acme freight services private limited"
+    )
+
+
+def test_a_fact_answers_to_its_hard_key_as_well_as_its_surface():
+    """A fact carrying a CIN and one carrying only the name are the same entity
+    to `subjects_match`, so they have to meet somewhere in blocking."""
+    keyed = make_fact(subject="Acme Logistics Limited", subject_key="CIN-1")
+    plain = make_fact(subject="Acme Logistics")
+    assert "CIN-1" in subject_identities(keyed)
+    assert subject_identities(keyed) & subject_identities(plain)
